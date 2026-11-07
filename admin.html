@@ -85,34 +85,34 @@
         <div id="stat-comments" class="text-lg sm:text-xl font-extrabold text-purple-400 mt-1">200K</div>
       </div>
       <div class="bg-zinc-900/60 border border-zinc-800 rounded-xl p-4">
-        <span class="text-[10px] uppercase font-bold text-zinc-500 tracking-wider">Published Episodes</span>
+        <span class="text-[10px] uppercase font-bold text-zinc-500 tracking-wider">Published Chapters</span>
         <div id="stat-episodes" class="text-lg sm:text-xl font-extrabold text-emerald-400 mt-1">1</div>
       </div>
     </div>
 
-    <!-- Episode Manager -->
+    <!-- Chapter Manager -->
     <div class="bg-zinc-900/80 border border-zinc-800 rounded-2xl p-5 shadow-xl">
       <div class="flex items-center justify-between mb-4">
         <div>
-          <h2 class="text-sm font-bold text-white">Episodes & Chapters</h2>
-          <p class="text-xs text-zinc-500">Manage episodes published to the reader</p>
+          <h2 class="text-sm font-bold text-white">Chapters</h2>
+          <p class="text-xs text-zinc-500">Manage chapters published to the reader</p>
         </div>
         <button id="new-ep-btn" class="bg-purple-600 hover:bg-purple-500 text-white font-bold text-xs px-3.5 py-2 rounded-xl transition-all shadow-md flex items-center gap-1.5">
-          <span>+ Add Episode 2</span>
+          <span>+ Add Chapter 2</span>
         </button>
       </div>
 
-      <!-- Episode List -->
+      <!-- Chapter List -->
       <div id="episodes-list" class="space-y-3">
-        <!-- Episode 1 Card -->
+        <!-- Chapter 1 Card -->
         <div class="bg-zinc-950 border border-zinc-800/80 rounded-xl p-4 flex items-center justify-between hover:border-zinc-700 transition-colors">
           <div class="flex items-center gap-3">
             <div class="w-10 h-10 rounded-lg bg-purple-950 border border-purple-800/60 flex items-center justify-center font-bold text-purple-300 text-xs">
-              EP 1
+              CH 1
             </div>
             <div>
               <div class="flex items-center gap-2">
-                <h3 class="text-xs sm:text-sm font-bold text-white">Episode 1: The Gathering Storm</h3>
+                <h3 class="text-xs sm:text-sm font-bold text-white">Chapter 1: The Gathering Storm</h3>
                 <span class="text-[9px] bg-emerald-950 text-emerald-300 border border-emerald-800 px-1.5 py-0.5 rounded font-bold">PUBLISHED</span>
               </div>
               <p class="text-[11px] text-zinc-500 mt-0.5">7 Panels • Saint Mirren University Rooftop</p>
@@ -128,11 +128,11 @@
       </div>
     </div>
 
-    <!-- Panels Explorer for Episode 1 -->
+    <!-- Panels Explorer for Chapter 1 -->
     <div class="bg-zinc-900/80 border border-zinc-800 rounded-2xl p-5 shadow-xl">
       <div class="flex items-center justify-between mb-4">
         <div>
-          <h2 class="text-sm font-bold text-white">Episode 1 Panels (7 Panels)</h2>
+          <h2 class="text-sm font-bold text-white">Chapter 1 Panels (7 Panels)</h2>
           <p class="text-xs text-zinc-500">Redice Studio Cel-Shaded Storyboard Flow</p>
         </div>
       </div>
@@ -227,13 +227,13 @@
             document.getElementById('stat-likes').innerText = totalLikes >= 1000000 ? (totalLikes / 1000000).toFixed(0) + 'M+' : totalLikes;
             document.getElementById('stat-comments').innerText = totalComments >= 1000 ? (totalComments / 1000).toFixed(0) + 'K' : totalComments;
 
-            // Render episode cards
+            // Render chapter cards
             const listEl = document.getElementById('episodes-list');
             listEl.innerHTML = episodes.map(ep => `
               <div class="bg-zinc-950 border border-zinc-800/80 rounded-xl p-4 flex items-center justify-between hover:border-zinc-700 transition-colors">
                 <div class="flex items-center gap-3">
                   <div class="w-10 h-10 rounded-lg bg-purple-950 border border-purple-800/60 flex items-center justify-center font-bold text-purple-300 text-xs">
-                    EP ${ep.episode_number}
+                    CH ${ep.episode_number}
                   </div>
                   <div>
                     <div class="flex items-center gap-2">
@@ -284,19 +284,19 @@
     });
 
     document.getElementById('new-ep-btn').addEventListener('click', async () => {
-      const title = prompt('Enter Title for Episode 2:', 'Episode 2: Bloodline Awaken');
+      const title = prompt('Enter Title for Chapter 2:', 'Chapter 2: Bloodline Awaken');
       if (!title) return;
 
       try {
         if (window.ManhwaAPI && window.ManhwaAPI.isConfigured()) {
           await window.ManhwaAPI.createEpisode(2, title);
-          alert('✓ Episode 2 successfully created in Supabase database!');
+          alert('✓ Chapter 2 successfully created in Supabase database!');
           syncDashboard();
         } else {
-          alert('Episode 2 draft created: ' + title);
+          alert('Chapter 2 draft created: ' + title);
         }
       } catch (err) {
-        alert('Error creating episode: ' + err.message);
+        alert('Error creating chapter: ' + err.message);
       }
     });
   </script>

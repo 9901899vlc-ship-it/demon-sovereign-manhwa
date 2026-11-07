@@ -31,7 +31,7 @@
   const LOCAL_EPISODE_1 = {
     id: '26dfb9ba-5105-42c0-822f-dc835ec496b8',
     episode_number: 1,
-    title: 'Episode 1: The Gathering Storm',
+    title: 'Chapter 1: The Gathering Storm',
     likes_count: 1000000,
     comments_count: 200000,
     views_count: 4500000,
@@ -59,7 +59,7 @@
       }
 
       try {
-        const { data: ep, error: epErr } = await supabase
+        const { data: ep, error: epErr } = await client
           .from('episodes')
           .select('*')
           .eq('episode_number', episodeNum)
@@ -67,7 +67,7 @@
 
         if (epErr || !ep) throw epErr || new Error('Episode not found');
 
-        const { data: panels, error: pErr } = await supabase
+        const { data: panels, error: pErr } = await client
           .from('panels')
           .select('*')
           .eq('episode_id', ep.id)
@@ -90,8 +90,8 @@
       const client = getClient();
       if (!client) {
         return [
-          { episode_number: 1, title: 'Episode 1: The Gathering Storm', is_published: true },
-          { episode_number: 2, title: 'Episode 2: Bloodline Awaken', is_published: false }
+          { episode_number: 1, title: 'Chapter 1: The Gathering Storm', is_published: true },
+          { episode_number: 2, title: 'Chapter 2: Bloodline Awaken', is_published: false }
         ];
       }
 
@@ -125,10 +125,7 @@
     fetchComments: async function (episodeId) {
       const client = getClient();
       if (!client || !episodeId) {
-        return [
-          { user_name: 'ShadowMonarch', content: 'The cliffhanger with Kuro is insane!! Need episode 2 now!' },
-          { user_name: 'SoloReader', content: 'REDICE Studio art style never disappoints. Ha-Jun is about to awaken!' }
-        ];
+        return [];
       }
 
       const { data, error } = await client
@@ -138,12 +135,7 @@
         .order('created_at', { ascending: false })
         .limit(50);
 
-      if (error || !data || data.length === 0) {
-        return [
-          { user_name: 'ShadowMonarch', content: 'The cliffhanger with Kuro is insane!! Need episode 2 now!' },
-          { user_name: 'SoloReader', content: 'REDICE Studio art style never disappoints. Ha-Jun is about to awaken!' }
-        ];
-      }
+      if (error || !data) return [];
       return data;
     },
 
