@@ -600,9 +600,9 @@
     <div class="flex flex-col min-w-[140px] sm:min-w-[190px]">
       <div class="flex items-center gap-1.5">
         <span class="inline-block w-2 h-2 rounded-full bg-purple-400 animate-ping" id="audio-live-dot" style="display:none"></span>
-        <span id="audio-status-text" class="text-xs font-bold text-white tracking-wide">🎧 Auto-Read Dub</span>
+        <span id="audio-status-text" class="text-xs font-bold text-white tracking-wide">🎙️ Manhwa Explainer</span>
       </div>
-      <span id="audio-panel-text" class="text-[11px] text-zinc-400 truncate max-w-[160px] sm:max-w-[200px]">Tap play to start audio</span>
+      <span id="audio-panel-text" class="text-[11px] text-zinc-400 truncate max-w-[160px] sm:max-w-[200px]">Tap play for Hindi narration</span>
     </div>
 
     <!-- Prev/Next Controls -->
@@ -617,20 +617,20 @@
   </div>
 
   <script>
-    // --- ELEVENLABS AUTO-READ & SMOOTH SCROLL ENGINE ---
-    const panelAudios = [
-      { id: 'panel-1', src: './audio/panel_01.mp3?v=2.0', label: 'Panel 1: University Gate' },
-      { id: 'panel-2', src: './audio/panel_02.mp3?v=2.0', label: 'Panel 2: Dark Statistics' },
-      { id: 'panel-3', src: './audio/panel_03.mp3?v=2.0', label: 'Panel 3: Brutal Assault' },
-      { id: 'panel-4', src: './audio/panel_04.mp3?v=2.0', label: 'Panel 4: Kuro on Railing' },
-      { id: 'panel-5', src: './audio/panel_05.mp3?v=2.0', label: 'Panel 5: Curse of Weakness' },
-      { id: 'panel-6', src: './audio/panel_06.mp3?v=2.0', label: 'Panel 6: Bullies Retreat' },
-      { id: 'panel-7', src: './audio/panel_07.mp3?v=2.0', label: 'Panel 7: Grand Climax' }
+    // --- MANHWA EXPLAINER DUB ENGINE (CONTINUOUS AUDIO + AUTO-SCROLL SYNC) ---
+    const panelCues = [
+      { id: 'panel-1', start: 0, end: 15, label: 'Panel 1: सेंट मिरेन यूनिवर्सिटी' },
+      { id: 'panel-2', start: 15, end: 37, label: 'Panel 2: हा-जुन का परिचय' },
+      { id: 'panel-3', start: 37, end: 63, label: 'Panel 3: छत पर बेरहम पिटाई' },
+      { id: 'panel-4', start: 63, end: 86, label: 'Panel 4: रेलिंग पर कुरो' },
+      { id: 'panel-5', start: 86, end: 116, label: 'Panel 5: कुरो का श्राप (हेक्स)' },
+      { id: 'panel-6', start: 116, end: 147, label: 'Panel 6: बुलियों का भागना' },
+      { id: 'panel-7', start: 147, end: 172, label: 'Panel 7: सॉवरेन का जागना (क्लाइमेक्स)' }
     ];
 
-    let currentAudioIndex = 0;
+    let currentPanelIndex = -1;
     let isAudioPlaying = false;
-    const globalAudio = new Audio();
+    const globalAudio = new Audio('./audio/episode_01_full.mp3?v=3.1');
 
     const playBtn = document.getElementById('audio-play-btn');
     const playIcon = document.getElementById('play-icon');
@@ -643,30 +643,34 @@
 
     function scrollToActivePanel(index) {
       document.querySelectorAll('.webtoon-panel-img').forEach(img => img.classList.remove('panel-active-audio'));
-      const target = document.getElementById(panelAudios[index].id);
-      if (target) {
-        target.classList.add('panel-active-audio');
-        // Smooth cinematic scroll centering the active panel
-        target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      if (index >= 0 && index < panelCues.length) {
+        const target = document.getElementById(panelCues[index].id);
+        if (target) {
+          target.classList.add('panel-active-audio');
+          // Smooth cinematic scroll centering the active panel
+          target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
       }
     }
 
-    function playPanelAudio(index) {
-      if (index < 0 || index >= panelAudios.length) {
-        stopAudio();
-        return;
-      }
-      currentAudioIndex = index;
-      const item = panelAudios[currentAudioIndex];
-      globalAudio.src = item.src;
-      globalAudio.play().then(() => {
-        isAudioPlaying = true;
+    function setPlayingState(playing) {
+      isAudioPlaying = playing;
+      if (playing) {
         playIcon.classList.add('hidden');
         pauseIcon.classList.remove('hidden');
         liveDot.style.display = 'inline-block';
-        statusText.textContent = `Reading Panel ${currentAudioIndex + 1}/7`;
-        panelText.textContent = item.label;
-        scrollToActivePanel(currentAudioIndex);
+        statusText.textContent = `🎙️ Explaining Panel ${Math.max(1, currentPanelIndex + 1)}/7`;
+      } else {
+        playIcon.classList.remove('hidden');
+        pauseIcon.classList.add('hidden');
+        liveDot.style.display = 'none';
+        statusText.textContent = 'Paused';
+      }
+    }
+
+    function playAudio() {
+      globalAudio.play().then(() => {
+        setPlayingState(true);
       }).catch(err => {
         console.warn("Audio playback error:", err);
       });
@@ -674,60 +678,68 @@
 
     function pauseAudio() {
       globalAudio.pause();
-      isAudioPlaying = false;
-      playIcon.classList.remove('hidden');
-      pauseIcon.classList.add('hidden');
-      liveDot.style.display = 'none';
-      statusText.textContent = 'Paused';
+      setPlayingState(false);
     }
 
-    function stopAudio() {
-      globalAudio.pause();
-      isAudioPlaying = false;
-      playIcon.classList.remove('hidden');
-      pauseIcon.classList.add('hidden');
-      liveDot.style.display = 'none';
-      statusText.textContent = 'Completed (Ep 1)';
-      panelText.textContent = 'Tap to re-listen';
-      document.querySelectorAll('.webtoon-panel-img').forEach(img => img.classList.remove('panel-active-audio'));
+    function jumpToPanel(index) {
+      if (index < 0) index = 0;
+      if (index >= panelCues.length) index = panelCues.length - 1;
+      currentPanelIndex = index;
+      globalAudio.currentTime = panelCues[index].start + 0.1;
+      panelText.textContent = panelCues[index].label;
+      statusText.textContent = `🎙️ Explaining Panel ${index + 1}/7`;
+      scrollToActivePanel(index);
+      if (!isAudioPlaying) {
+        playAudio();
+      }
     }
 
     playBtn.addEventListener('click', () => {
       if (isAudioPlaying) {
         pauseAudio();
       } else {
-        playPanelAudio(currentAudioIndex);
+        playAudio();
+      }
+    });
+
+    globalAudio.addEventListener('timeupdate', () => {
+      const time = globalAudio.currentTime;
+      let activeIndex = panelCues.findIndex(c => time >= c.start && time < c.end);
+      if (activeIndex === -1 && time >= panelCues[panelCues.length - 1].start) {
+        activeIndex = panelCues.length - 1;
+      }
+      if (activeIndex !== -1 && activeIndex !== currentPanelIndex) {
+        currentPanelIndex = activeIndex;
+        scrollToActivePanel(currentPanelIndex);
+        statusText.textContent = `🎙️ Explaining Panel ${currentPanelIndex + 1}/7`;
+        panelText.textContent = panelCues[currentPanelIndex].label;
       }
     });
 
     globalAudio.addEventListener('ended', () => {
-      if (currentAudioIndex < panelAudios.length - 1) {
-        setTimeout(() => {
-          playPanelAudio(currentAudioIndex + 1);
-        }, 650);
-      } else {
-        stopAudio();
-      }
+      setPlayingState(false);
+      statusText.textContent = 'Completed (Ep 1)';
+      panelText.textContent = 'Tap to replay explanation';
+      document.querySelectorAll('.webtoon-panel-img').forEach(img => img.classList.remove('panel-active-audio'));
+      currentPanelIndex = -1;
     });
 
     prevBtn.addEventListener('click', () => {
-      if (currentAudioIndex > 0) {
-        playPanelAudio(currentAudioIndex - 1);
-      }
+      const targetIdx = currentPanelIndex > 0 ? currentPanelIndex - 1 : 0;
+      jumpToPanel(targetIdx);
     });
 
     nextBtn.addEventListener('click', () => {
-      if (currentAudioIndex < panelAudios.length - 1) {
-        playPanelAudio(currentAudioIndex + 1);
-      }
+      const targetIdx = currentPanelIndex < panelCues.length - 1 ? currentPanelIndex + 1 : panelCues.length - 1;
+      jumpToPanel(targetIdx);
     });
 
-    // Clicking any panel directly jumps audio to that panel!
-    panelAudios.forEach((item, idx) => {
+    // Clicking any panel directly jumps audio to that panel's explanation!
+    panelCues.forEach((item, idx) => {
       const el = document.getElementById(item.id);
       if (el) {
         el.addEventListener('click', () => {
-          playPanelAudio(idx);
+          jumpToPanel(idx);
         });
       }
     });
