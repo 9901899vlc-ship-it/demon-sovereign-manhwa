@@ -22,9 +22,14 @@
     }
   }
 
+  function getClient() {
+    if (!supabase) initClient();
+    return supabase;
+  }
+
   // Fallback local panels when offline or before Supabase credentials are added
   const LOCAL_EPISODE_1 = {
-    id: 'local-ep-1',
+    id: '26dfb9ba-5105-42c0-822f-dc835ec496b8',
     episode_number: 1,
     title: 'Episode 1: The Gathering Storm',
     likes_count: 1000000,
@@ -43,12 +48,13 @@
 
   window.ManhwaAPI = {
     isConfigured: function () {
-      return !!(supabase);
+      return !!(getClient());
     },
 
     // Fetch single episode with all its panels
     fetchEpisode: async function (episodeNum = 1) {
-      if (!supabase) {
+      const client = getClient();
+      if (!client) {
         return LOCAL_EPISODE_1;
       }
 
@@ -81,14 +87,15 @@
 
     // Fetch all published episodes
     fetchAllEpisodes: async function () {
-      if (!supabase) {
+      const client = getClient();
+      if (!client) {
         return [
           { episode_number: 1, title: 'Episode 1: The Gathering Storm', is_published: true },
           { episode_number: 2, title: 'Episode 2: Bloodline Awaken', is_published: false }
         ];
       }
 
-      const { data, error } = await supabase
+      const { data, error } = await client
         .from('episodes')
         .select('id, episode_number, title, is_published, likes_count, comments_count')
         .order('episode_number', { ascending: true });
@@ -102,11 +109,12 @@
 
     // Real-time Like increment
     addLike: async function (episodeId) {
-      if (!supabase || !episodeId || episodeId === 'local-ep-1') {
+      const client = getClient();
+      if (!client || !episodeId) {
         return true;
       }
 
-      const { error } = await supabase
+      const { error } = await client
         .from('likes')
         .insert([{ episode_id: episodeId }]);
 
@@ -115,31 +123,38 @@
 
     // Fetch comments for an episode
     fetchComments: async function (episodeId) {
-      if (!supabase || !episodeId || episodeId === 'local-ep-1') {
+      const client = getClient();
+      if (!client || !episodeId) {
         return [
-          { user_name: 'ShadowMonarch', content: 'The cliffhanger with Kuro is insane!! Need episode 2 now!', created_at: '2 hours ago' },
-          { user_name: 'SoloReader', content: 'REDICE Studio art style never disappoints. Ha-Jun is about to awaken!', created_at: '4 hours ago' }
+          { user_name: 'ShadowMonarch', content: 'The cliffhanger with Kuro is insane!! Need episode 2 now!' },
+          { user_name: 'SoloReader', content: 'REDICE Studio art style never disappoints. Ha-Jun is about to awaken!' }
         ];
       }
 
-      const { data, error } = await supabase
+      const { data, error } = await client
         .from('comments')
         .select('*')
         .eq('episode_id', episodeId)
         .order('created_at', { ascending: false })
         .limit(50);
 
-      if (error) return [];
+      if (error || !data || data.length === 0) {
+        return [
+          { user_name: 'ShadowMonarch', content: 'The cliffhanger with Kuro is insane!! Need episode 2 now!' },
+          { user_name: 'SoloReader', content: 'REDICE Studio art style never disappoints. Ha-Jun is about to awaken!' }
+        ];
+      }
       return data;
     },
 
     // Post comment
     postComment: async function (episodeId, userName, content) {
-      if (!supabase || !episodeId || episodeId === 'local-ep-1') {
-        return { user_name: userName || 'Anonymous', content, created_at: 'Just now' };
+      const client = getClient();
+      if (!client || !episodeId) {
+        return { user_name: userName || 'Anonymous', content };
       }
 
-      const { data, error } = await supabase
+      const { data, error } = await client
         .from('comments')
         .insert([{ episode_id: episodeId, user_name: userName, content }])
         .select()
