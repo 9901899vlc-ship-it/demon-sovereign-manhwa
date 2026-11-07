@@ -58,7 +58,15 @@
       margin: 0;
       padding: 0;
       border: none;
-      pointer-events: none;
+      cursor: pointer;
+      pointer-events: auto;
+      transition: all 0.4s ease;
+    }
+    .panel-active-audio {
+      outline: 3px solid #a855f7 !important;
+      box-shadow: 0 0 40px rgba(168, 85, 247, 0.8) !important;
+      position: relative;
+      z-index: 10;
     }
     /* Smooth Scrollbar */
     ::-webkit-scrollbar {
@@ -114,25 +122,25 @@
     <main class="webtoon-strip" id="webtoon-strip">
 
     <!-- PANEL 1: University Establishing Shot -->
-    <img src="./panels/panel_01_final.png?v=6.3" alt="Chapter 1 - Saint Mirren International University" class="webtoon-panel-img" decoding="async">
+    <img id="panel-1" src="./panels/panel_01_final.png?v=6.3" alt="Chapter 1 - Saint Mirren International University" class="webtoon-panel-img transition-all duration-500" decoding="async">
 
     <!-- PANEL 2: Dark Reality & Statistics -->
-    <img src="./panels/panel_02_final.png?v=6.3" alt="Chapter 1 - Dark Reality and Statistics" class="webtoon-panel-img" decoding="async">
+    <img id="panel-2" src="./panels/panel_02_final.png?v=6.3" alt="Chapter 1 - Dark Reality and Statistics" class="webtoon-panel-img transition-all duration-500" decoding="async">
 
     <!-- PANEL 3: Rooftop Beating -->
-    <img src="./panels/panel_03_final.png?v=6.3" alt="Chapter 1 - The Rooftop Beating" class="webtoon-panel-img" decoding="async">
+    <img id="panel-3" src="./panels/panel_03_final.png?v=6.3" alt="Chapter 1 - The Rooftop Beating" class="webtoon-panel-img transition-all duration-500" decoding="async">
 
     <!-- PANEL 4: Kuro on the Railing -->
-    <img src="./panels/panel_04_final.png?v=6.3" alt="Chapter 1 - Eyes in the Sky" class="webtoon-panel-img" decoding="async">
+    <img id="panel-4" src="./panels/panel_04_final.png?v=6.3" alt="Chapter 1 - Eyes in the Sky" class="webtoon-panel-img transition-all duration-500" decoding="async">
 
     <!-- PANEL 5: Kuro's Hex of Weakness -->
-    <img src="./panels/panel_05_final.png?v=6.3" alt="Chapter 1 - The Hex of Weakness" class="webtoon-panel-img" decoding="async">
+    <img id="panel-5" src="./panels/panel_05_final.png?v=6.3" alt="Chapter 1 - The Hex of Weakness" class="webtoon-panel-img transition-all duration-500" decoding="async">
 
     <!-- PANEL 6: Bullies Retreat -->
-    <img src="./panels/panel_06_final.png?v=6.3" alt="Chapter 1 - The Bullies Retreat" class="webtoon-panel-img" decoding="async">
+    <img id="panel-6" src="./panels/panel_06_final.png?v=6.3" alt="Chapter 1 - The Bullies Retreat" class="webtoon-panel-img transition-all duration-500" decoding="async">
 
     <!-- PANEL 7: Grand Eye-Contact Cliffhanger -->
-    <img src="./panels/panel_07_final.png?v=6.3" alt="Chapter 1 - Grand Climax Cliffhanger" class="webtoon-panel-img" decoding="async">
+    <img id="panel-7" src="./panels/panel_07_final.png?v=6.3" alt="Chapter 1 - Grand Climax Cliffhanger" class="webtoon-panel-img transition-all duration-500" decoding="async">
 
     <!-- WEBTOON CHAPTER END ENGAGEMENT BAR (Tappytoon Style) -->
     <div class="bg-zinc-950 text-white p-6 sm:p-8 border-t border-zinc-800">
@@ -576,6 +584,151 @@
         isMouseDown = false;
         strip.classList.remove('is-dragging');
         renderTransform(true);
+      }
+    });
+  </script>
+
+  <!-- FLOATING AUTO-READ & AUDIO PLAYER BAR -->
+  <div id="audio-player-bar" class="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 bg-zinc-950/90 border border-purple-500/50 backdrop-blur-xl rounded-full px-4 py-2.5 shadow-2xl shadow-purple-950/80 flex items-center gap-3 transition-all duration-300 max-w-[95vw]">
+    <!-- Play/Pause Button -->
+    <button id="audio-play-btn" class="w-10 h-10 rounded-full bg-gradient-to-tr from-purple-600 to-indigo-600 flex items-center justify-center text-white shadow-lg shadow-purple-600/40 hover:scale-105 active:scale-95 transition-all">
+      <svg id="play-icon" class="w-5 h-5 ml-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+      <svg id="pause-icon" class="w-5 h-5 hidden" fill="currentColor" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+    </button>
+    
+    <!-- Status / Info -->
+    <div class="flex flex-col min-w-[140px] sm:min-w-[190px]">
+      <div class="flex items-center gap-1.5">
+        <span class="inline-block w-2 h-2 rounded-full bg-purple-400 animate-ping" id="audio-live-dot" style="display:none"></span>
+        <span id="audio-status-text" class="text-xs font-bold text-white tracking-wide">🎧 Auto-Read Dub</span>
+      </div>
+      <span id="audio-panel-text" class="text-[11px] text-zinc-400 truncate max-w-[160px] sm:max-w-[200px]">Tap play to start audio</span>
+    </div>
+
+    <!-- Prev/Next Controls -->
+    <div class="flex items-center gap-1 border-l border-zinc-800 pl-2">
+      <button id="audio-prev-btn" title="Previous Panel" class="p-1.5 hover:bg-zinc-800 text-zinc-400 hover:text-white rounded-full transition-colors">
+        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/></svg>
+      </button>
+      <button id="audio-next-btn" title="Next Panel" class="p-1.5 hover:bg-zinc-800 text-zinc-400 hover:text-white rounded-full transition-colors">
+        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <script>
+    // --- ELEVENLABS AUTO-READ & SMOOTH SCROLL ENGINE ---
+    const panelAudios = [
+      { id: 'panel-1', src: './audio/panel_01.mp3', label: 'Panel 1: University Gate' },
+      { id: 'panel-2', src: './audio/panel_02.mp3', label: 'Panel 2: Dark Statistics' },
+      { id: 'panel-3', src: './audio/panel_03.mp3', label: 'Panel 3: Brutal Assault' },
+      { id: 'panel-4', src: './audio/panel_04.mp3', label: 'Panel 4: Kuro on Railing' },
+      { id: 'panel-5', src: './audio/panel_05.mp3', label: 'Panel 5: Curse of Weakness' },
+      { id: 'panel-6', src: './audio/panel_06.mp3', label: 'Panel 6: Bullies Retreat' },
+      { id: 'panel-7', src: './audio/panel_07.mp3', label: 'Panel 7: Grand Climax' }
+    ];
+
+    let currentAudioIndex = 0;
+    let isAudioPlaying = false;
+    const globalAudio = new Audio();
+
+    const playBtn = document.getElementById('audio-play-btn');
+    const playIcon = document.getElementById('play-icon');
+    const pauseIcon = document.getElementById('pause-icon');
+    const statusText = document.getElementById('audio-status-text');
+    const panelText = document.getElementById('audio-panel-text');
+    const liveDot = document.getElementById('audio-live-dot');
+    const prevBtn = document.getElementById('audio-prev-btn');
+    const nextBtn = document.getElementById('audio-next-btn');
+
+    function scrollToActivePanel(index) {
+      document.querySelectorAll('.webtoon-panel-img').forEach(img => img.classList.remove('panel-active-audio'));
+      const target = document.getElementById(panelAudios[index].id);
+      if (target) {
+        target.classList.add('panel-active-audio');
+        // Smooth cinematic scroll centering the active panel
+        target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+
+    function playPanelAudio(index) {
+      if (index < 0 || index >= panelAudios.length) {
+        stopAudio();
+        return;
+      }
+      currentAudioIndex = index;
+      const item = panelAudios[currentAudioIndex];
+      globalAudio.src = item.src;
+      globalAudio.play().then(() => {
+        isAudioPlaying = true;
+        playIcon.classList.add('hidden');
+        pauseIcon.classList.remove('hidden');
+        liveDot.style.display = 'inline-block';
+        statusText.textContent = `Reading Panel ${currentAudioIndex + 1}/7`;
+        panelText.textContent = item.label;
+        scrollToActivePanel(currentAudioIndex);
+      }).catch(err => {
+        console.warn("Audio playback error:", err);
+      });
+    }
+
+    function pauseAudio() {
+      globalAudio.pause();
+      isAudioPlaying = false;
+      playIcon.classList.remove('hidden');
+      pauseIcon.classList.add('hidden');
+      liveDot.style.display = 'none';
+      statusText.textContent = 'Paused';
+    }
+
+    function stopAudio() {
+      globalAudio.pause();
+      isAudioPlaying = false;
+      playIcon.classList.remove('hidden');
+      pauseIcon.classList.add('hidden');
+      liveDot.style.display = 'none';
+      statusText.textContent = 'Completed (Ep 1)';
+      panelText.textContent = 'Tap to re-listen';
+      document.querySelectorAll('.webtoon-panel-img').forEach(img => img.classList.remove('panel-active-audio'));
+    }
+
+    playBtn.addEventListener('click', () => {
+      if (isAudioPlaying) {
+        pauseAudio();
+      } else {
+        playPanelAudio(currentAudioIndex);
+      }
+    });
+
+    globalAudio.addEventListener('ended', () => {
+      if (currentAudioIndex < panelAudios.length - 1) {
+        setTimeout(() => {
+          playPanelAudio(currentAudioIndex + 1);
+        }, 650);
+      } else {
+        stopAudio();
+      }
+    });
+
+    prevBtn.addEventListener('click', () => {
+      if (currentAudioIndex > 0) {
+        playPanelAudio(currentAudioIndex - 1);
+      }
+    });
+
+    nextBtn.addEventListener('click', () => {
+      if (currentAudioIndex < panelAudios.length - 1) {
+        playPanelAudio(currentAudioIndex + 1);
+      }
+    });
+
+    // Clicking any panel directly jumps audio to that panel!
+    panelAudios.forEach((item, idx) => {
+      const el = document.getElementById(item.id);
+      if (el) {
+        el.addEventListener('click', () => {
+          playPanelAudio(idx);
+        });
       }
     });
   </script>
