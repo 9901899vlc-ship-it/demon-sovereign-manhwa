@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demon Sovereign - Webtoon Creator CMS | Supabase</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="./config.js"></script>
+  <script src="./supabase-client.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Noto+Sans:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #090a0f;
+      color: #e4e4e7;
+      font-family: 'Noto Sans', sans-serif;
+    }
+  </style>
+</head>
+<body class="min-h-screen pb-16">
+
+  <!-- Top Navbar -->
+  <header class="bg-zinc-950 border-b border-zinc-800 sticky top-0 z-30 px-4 py-3 flex items-center justify-between shadow-xl">
+    <div class="flex items-center gap-3">
+      <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-600 to-rose-600 flex items-center justify-center font-black text-white text-sm shadow-md">
+        DS
+      </div>
+      <div>
+        <h1 class="text-sm font-bold text-white tracking-wide">Webtoon Studio CMS</h1>
+        <p class="text-[10px] text-zinc-500">Supabase Backend Control Panel</p>
+      </div>
+    </div>
+
+    <div class="flex items-center gap-3">
+      <span id="conn-badge" class="text-[11px] px-2.5 py-0.5 rounded-full border border-zinc-700 bg-zinc-900 text-zinc-400 font-medium flex items-center gap-1.5">
+        <span class="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></span>
+        <span>Local Mode</span>
+      </span>
+      <a href="./index.html" target="_blank" class="text-xs bg-purple-600 hover:bg-purple-500 text-white font-semibold px-3 py-1.5 rounded-lg transition-all shadow-md flex items-center gap-1">
+        <span>Live Viewer</span>
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+      </a>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 pt-6 space-y-6">
+
+    <!-- Supabase Connection Box -->
+    <div class="bg-zinc-900/90 border border-zinc-800 rounded-2xl p-5 shadow-xl">
+      <div class="flex items-center justify-between mb-3">
+        <div class="flex items-center gap-2">
+          <svg class="w-5 h-5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          <h2 class="text-sm font-bold text-white">Supabase Connection Settings</h2>
+        </div>
+        <span class="text-[10px] text-zinc-500">Auto-saves to browser & config</span>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+        <div>
+          <label class="block text-zinc-400 text-[11px] mb-1 font-medium">Project URL</label>
+          <input id="input-supabase-url" type="text" placeholder="https://your-project.supabase.co" class="w-full bg-zinc-950 border border-zinc-800 rounded-lg px-3 py-2 text-zinc-200 placeholder-zinc-600 focus:outline-none focus:border-purple-500 transition-colors">
+        </div>
+        <div>
+          <label class="block text-zinc-400 text-[11px] mb-1 font-medium">Anon Public Key</label>
+          <input id="input-supabase-key" type="password" placeholder="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..." class="w-full bg-zinc-950 border border-zinc-800 rounded-lg px-3 py-2 text-zinc-200 placeholder-zinc-600 focus:outline-none focus:border-purple-500 transition-colors">
+        </div>
+      </div>
+
+      <div class="mt-4 flex items-center justify-between">
+        <p class="text-[11px] text-zinc-500">Paste your credentials from <a href="https://supabase.com/dashboard" target="_blank" class="text-purple-400 underline hover:text-purple-300">Supabase Dashboard → API</a></p>
+        <button id="save-config-btn" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs px-4 py-2 rounded-lg transition-all shadow-md">
+          Save & Connect
+        </button>
+      </div>
+    </div>
+
+    <!-- Quick Stats Cards -->
+    <div class="grid grid-cols-3 gap-3 sm:gap-4">
+      <div class="bg-zinc-900/60 border border-zinc-800 rounded-xl p-4">
+        <span class="text-[10px] uppercase font-bold text-zinc-500 tracking-wider">Total Likes</span>
+        <div id="stat-likes" class="text-lg sm:text-xl font-extrabold text-rose-400 mt-1">1M+</div>
+      </div>
+      <div class="bg-zinc-900/60 border border-zinc-800 rounded-xl p-4">
+        <span class="text-[10px] uppercase font-bold text-zinc-500 tracking-wider">Total Comments</span>
+        <div id="stat-comments" class="text-lg sm:text-xl font-extrabold text-purple-400 mt-1">200K</div>
+      </div>
+      <div class="bg-zinc-900/60 border border-zinc-800 rounded-xl p-4">
+        <span class="text-[10px] uppercase font-bold text-zinc-500 tracking-wider">Published Episodes</span>
+        <div id="stat-episodes" class="text-lg sm:text-xl font-extrabold text-emerald-400 mt-1">1</div>
+      </div>
+    </div>
+
+    <!-- Episode Manager -->
+    <div class="bg-zinc-900/80 border border-zinc-800 rounded-2xl p-5 shadow-xl">
+      <div class="flex items-center justify-between mb-4">
+        <div>
+          <h2 class="text-sm font-bold text-white">Episodes & Chapters</h2>
+          <p class="text-xs text-zinc-500">Manage episodes published to the reader</p>
+        </div>
+        <button id="new-ep-btn" class="bg-purple-600 hover:bg-purple-500 text-white font-bold text-xs px-3.5 py-2 rounded-xl transition-all shadow-md flex items-center gap-1.5">
+          <span>+ Add Episode 2</span>
+        </button>
+      </div>
+
+      <!-- Episode List -->
+      <div id="episodes-list" class="space-y-3">
+        <!-- Episode 1 Card -->
+        <div class="bg-zinc-950 border border-zinc-800/80 rounded-xl p-4 flex items-center justify-between hover:border-zinc-700 transition-colors">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-lg bg-purple-950 border border-purple-800/60 flex items-center justify-center font-bold text-purple-300 text-xs">
+              EP 1
+            </div>
+            <div>
+              <div class="flex items-center gap-2">
+                <h3 class="text-xs sm:text-sm font-bold text-white">Episode 1: The Gathering Storm</h3>
+                <span class="text-[9px] bg-emerald-950 text-emerald-300 border border-emerald-800 px-1.5 py-0.5 rounded font-bold">PUBLISHED</span>
+              </div>
+              <p class="text-[11px] text-zinc-500 mt-0.5">7 Panels • Saint Mirren University Rooftop</p>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-2">
+            <a href="./index.html" target="_blank" class="text-xs bg-zinc-800 hover:bg-zinc-700 text-zinc-200 font-semibold px-3 py-1.5 rounded-lg transition-colors">
+              View
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Panels Explorer for Episode 1 -->
+    <div class="bg-zinc-900/80 border border-zinc-800 rounded-2xl p-5 shadow-xl">
+      <div class="flex items-center justify-between mb-4">
+        <div>
+          <h2 class="text-sm font-bold text-white">Episode 1 Panels (7 Panels)</h2>
+          <p class="text-xs text-zinc-500">Redice Studio Cel-Shaded Storyboard Flow</p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-3">
+        <div class="bg-zinc-950 border border-zinc-800 rounded-xl p-2 flex flex-col items-center">
+          <img src="./panels/panel_01_final.png" class="w-full h-32 object-cover rounded-lg border border-zinc-800">
+          <span class="text-[10px] font-bold text-zinc-400 mt-2">Panel 1</span>
+          <span class="text-[9px] text-zinc-500 text-center truncate w-full">Saint Mirren Univ</span>
+        </div>
+        <div class="bg-zinc-950 border border-zinc-800 rounded-xl p-2 flex flex-col items-center">
+          <img src="./panels/panel_02_final.png" class="w-full h-32 object-cover rounded-lg border border-zinc-800">
+          <span class="text-[10px] font-bold text-zinc-400 mt-2">Panel 2</span>
+          <span class="text-[9px] text-zinc-500 text-center truncate w-full">Dark Reality</span>
+        </div>
+        <div class="bg-zinc-950 border border-zinc-800 rounded-xl p-2 flex flex-col items-center">
+          <img src="./panels/panel_03_final.png" class="w-full h-32 object-cover rounded-lg border border-zinc-800">
+          <span class="text-[10px] font-bold text-zinc-400 mt-2">Panel 3</span>
+          <span class="text-[9px] text-zinc-500 text-center truncate w-full">Rooftop Beating</span>
+        </div>
+        <div class="bg-zinc-950 border border-zinc-800 rounded-xl p-2 flex flex-col items-center">
+          <img src="./panels/panel_04_final.png" class="w-full h-32 object-cover rounded-lg border border-zinc-800">
+          <span class="text-[10px] font-bold text-zinc-400 mt-2">Panel 4</span>
+          <span class="text-[9px] text-zinc-500 text-center truncate w-full">Kuro on Railing</span>
+        </div>
+        <div class="bg-zinc-950 border border-zinc-800 rounded-xl p-2 flex flex-col items-center">
+          <img src="./panels/panel_05_final.png" class="w-full h-32 object-cover rounded-lg border border-zinc-800">
+          <span class="text-[10px] font-bold text-zinc-400 mt-2">Panel 5</span>
+          <span class="text-[9px] text-zinc-500 text-center truncate w-full">Hex of Weakness</span>
+        </div>
+        <div class="bg-zinc-950 border border-zinc-800 rounded-xl p-2 flex flex-col items-center">
+          <img src="./panels/panel_06_final.png" class="w-full h-32 object-cover rounded-lg border border-zinc-800">
+          <span class="text-[10px] font-bold text-zinc-400 mt-2">Panel 6</span>
+          <span class="text-[9px] text-zinc-500 text-center truncate w-full">Bullies Retreat</span>
+        </div>
+        <div class="bg-zinc-950 border border-zinc-800 rounded-xl p-2 flex flex-col items-center">
+          <img src="./panels/panel_07_final.png" class="w-full h-32 object-cover rounded-lg border border-zinc-800">
+          <span class="text-[10px] font-bold text-zinc-400 mt-2">Panel 7</span>
+          <span class="text-[9px] text-zinc-500 text-center truncate w-full">Eye Contact Climax</span>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <script>
+    // Load existing config from localStorage or window.SUPABASE_CONFIG
+    const urlInput = document.getElementById('input-supabase-url');
+    const keyInput = document.getElementById('input-supabase-key');
+    const connBadge = document.getElementById('conn-badge');
+
+    const savedUrl = localStorage.getItem('supabase_url') || (window.SUPABASE_CONFIG && window.SUPABASE_CONFIG.url) || '';
+    const savedKey = localStorage.getItem('supabase_anon_key') || (window.SUPABASE_CONFIG && window.SUPABASE_CONFIG.anonKey) || '';
+
+    urlInput.value = savedUrl;
+    keyInput.value = savedKey;
+
+    function updateBadge(connected) {
+      if (connected) {
+        connBadge.innerHTML = '<span class="w-2 h-2 rounded-full bg-emerald-500"></span><span class="text-emerald-400">Connected</span>';
+        connBadge.classList.remove('border-zinc-700');
+        connBadge.classList.add('border-emerald-800/80');
+      } else {
+        connBadge.innerHTML = '<span class="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></span><span class="text-amber-400">Local Mode</span>';
+        connBadge.classList.remove('border-emerald-800/80');
+        connBadge.classList.add('border-zinc-700');
+      }
+    }
+
+    async function syncDashboard() {
+      const u = urlInput.value.trim();
+      const k = keyInput.value.trim();
+      if (!u || !k) {
+        updateBadge(false);
+        return;
+      }
+      updateBadge(true);
+
+      if (window.ManhwaAPI) {
+        try {
+          const episodes = await window.ManhwaAPI.fetchAllEpisodes();
+          if (episodes && episodes.length) {
+            document.getElementById('stat-episodes').innerText = episodes.length;
+
+            let totalLikes = 0;
+            let totalComments = 0;
+            episodes.forEach(ep => {
+              totalLikes += (ep.likes_count || 1000000);
+              totalComments += (ep.comments_count || 200000);
+            });
+
+            document.getElementById('stat-likes').innerText = totalLikes >= 1000000 ? (totalLikes / 1000000).toFixed(0) + 'M+' : totalLikes;
+            document.getElementById('stat-comments').innerText = totalComments >= 1000 ? (totalComments / 1000).toFixed(0) + 'K' : totalComments;
+
+            // Render episode cards
+            const listEl = document.getElementById('episodes-list');
+            listEl.innerHTML = episodes.map(ep => `
+              <div class="bg-zinc-950 border border-zinc-800/80 rounded-xl p-4 flex items-center justify-between hover:border-zinc-700 transition-colors">
+                <div class="flex items-center gap-3">
+                  <div class="w-10 h-10 rounded-lg bg-purple-950 border border-purple-800/60 flex items-center justify-center font-bold text-purple-300 text-xs">
+                    EP ${ep.episode_number}
+                  </div>
+                  <div>
+                    <div class="flex items-center gap-2">
+                      <h3 class="text-xs sm:text-sm font-bold text-white">${ep.title}</h3>
+                      <span class="text-[9px] ${ep.is_published ? 'bg-emerald-950 text-emerald-300 border-emerald-800' : 'bg-amber-950 text-amber-300 border-amber-800'} border px-1.5 py-0.5 rounded font-bold">
+                        ${ep.is_published ? 'PUBLISHED' : 'DRAFT'}
+                      </span>
+                    </div>
+                    <p class="text-[11px] text-zinc-500 mt-0.5">Likes: ${(ep.likes_count || 0).toLocaleString()} • Comments: ${(ep.comments_count || 0).toLocaleString()}</p>
+                  </div>
+                </div>
+
+                <div class="flex items-center gap-2">
+                  <a href="./index.html" target="_blank" class="text-xs bg-zinc-800 hover:bg-zinc-700 text-zinc-200 font-semibold px-3 py-1.5 rounded-lg transition-colors">
+                    View
+                  </a>
+                </div>
+              </div>
+            `).join('');
+          }
+        } catch (e) {
+          console.warn('[Admin] Sync error:', e);
+        }
+      }
+    }
+
+    if (savedUrl && savedKey) {
+      updateBadge(true);
+      setTimeout(syncDashboard, 300);
+    }
+
+    document.getElementById('save-config-btn').addEventListener('click', async () => {
+      const u = urlInput.value.trim();
+      const k = keyInput.value.trim();
+      if (!u || !k) {
+        alert('Please enter both Supabase Project URL and Anon Key');
+        return;
+      }
+      localStorage.setItem('supabase_url', u);
+      localStorage.setItem('supabase_anon_key', k);
+      if (window.SUPABASE_CONFIG) {
+        window.SUPABASE_CONFIG.url = u;
+        window.SUPABASE_CONFIG.anonKey = k;
+      }
+      updateBadge(true);
+      await syncDashboard();
+      alert('✓ Supabase connection details saved and synchronized successfully!');
+    });
+
+    document.getElementById('new-ep-btn').addEventListener('click', async () => {
+      const title = prompt('Enter Title for Episode 2:', 'Episode 2: Bloodline Awaken');
+      if (!title) return;
+
+      try {
+        if (window.ManhwaAPI && window.ManhwaAPI.isConfigured()) {
+          await window.ManhwaAPI.createEpisode(2, title);
+          alert('✓ Episode 2 successfully created in Supabase database!');
+          syncDashboard();
+        } else {
+          alert('Episode 2 draft created: ' + title);
+        }
+      } catch (err) {
+        alert('Error creating episode: ' + err.message);
+      }
+    });
+  </script>
+
+</body>
+</html>

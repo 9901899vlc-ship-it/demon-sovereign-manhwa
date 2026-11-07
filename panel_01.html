@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panel 1: Saint Mirren International University</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Noto+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #06070a;
+      color: #e5e7eb;
+      font-family: 'Noto Sans', sans-serif;
+    }
+    .panel-canvas {
+      width: 800px;
+      max-width: 100%;
+      margin: 0 auto;
+      background: #000;
+      position: relative;
+    }
+    .title-font {
+      font-family: 'Cinzel', serif;
+    }
+    /* Manhwa Narration Box according to MANHWA_CRAFT_GUIDE.md */
+    .narration-box {
+      background: rgba(10, 12, 18, 0.92);
+      backdrop-filter: blur(8px);
+      border-left: 4px solid #f59e0b;
+      border-top: 1px solid rgba(245, 158, 11, 0.3);
+      border-right: 1px solid rgba(255, 255, 255, 0.1);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.85);
+      padding: 16px 20px;
+      border-radius: 4px 12px 12px 4px;
+    }
+  </style>
+</head>
+<body class="p-4 sm:p-8 flex flex-col items-center justify-center min-h-screen">
+
+  <div class="mb-4 text-center">
+    <span class="text-xs font-bold text-amber-400 bg-amber-950/60 border border-amber-800/80 px-3 py-1 rounded-full uppercase tracking-widest">
+      CHAPTER 1 • PANEL 1 (Establishing Shot)
+    </span>
+  </div>
+
+  <!-- Standard 800px Webtoon Panel Container -->
+  <div class="panel-canvas border border-zinc-800 rounded-lg overflow-hidden shadow-2xl">
+    
+    <!-- Panel Artwork -->
+    <div class="relative w-full aspect-[16/9] sm:aspect-[16/10] overflow-hidden">
+      <img src="../panels/panel_01_art.png" alt="Saint Mirren International University" class="w-full h-full object-cover">
+      
+      <!-- Subtle Vignette / Contrast Overlay -->
+      <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/20 pointer-events-none"></div>
+
+      <!-- Lettering: Narration Box (Bottom-Left as per Zig-Zag rule) -->
+      <div class="absolute bottom-6 left-6 right-6 sm:right-auto sm:max-w-md narration-box z-10">
+        <p class="text-[11px] font-extrabold uppercase tracking-widest text-amber-400 title-font flex items-center gap-1.5 mb-1.5">
+          <span>🏛️</span> SAINT MIRREN INTERNATIONAL UNIVERSITY
+        </p>
+        <p class="text-sm sm:text-base text-zinc-100 font-medium leading-relaxed">
+          "Ye hai Saint Mirren International University... <span class="text-amber-300 font-bold">Duniya ki Top 5</span> sabse prestigious universities mein se ek."
+        </p>
+        <p class="text-xs text-zinc-400 mt-1 italic">
+          Jahan sirf aalishan amiri aur taqatwar rutba chalta hai...
+        </p>
+      </div>
+    </div>
+
+    <!-- Pacing Gutter (140px standard storytelling beat as per MANHWA_CRAFT_GUIDE) -->
+    <div class="w-full h-[140px] bg-gradient-to-b from-black via-[#06070a] to-[#0a0608] flex items-center justify-center">
+      <span class="text-[11px] text-zinc-600 tracking-widest uppercase italic">
+        • • • [Gutter Pacing: 140px Pause] • • •
+      </span>
+    </div>
+
+  </div>
+
+  <div class="mt-6 text-center text-xs text-zinc-500">
+    Craft Standards Applied: 800px Canvas • Neoclassical Architecture • Lettering Box Padding • Standard Conversational Gutter
+  </div>
+
+</body>
+</html>
