@@ -1,0 +1,455 @@
+{
+  "chapter": 70,
+  "title": "The Forbidden Experiment",
+  "arc": 7,
+  "arc_title": "THE BROTHER'S TRUTH",
+  "summary": "Deep beneath Incheon Subsea Tunnel Shaft 4, Ha-Jun discovers Dr. Vance attempting to open the Grand Void Gate using a synthetic replica of Tae-Jun's heart core.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "abandoned incheon subsea rail tunnel in pitch blackness",
+      "setting": "subsea tunnel wide",
+      "characters": [],
+      "action": "A massive circular concrete railway tunnel stretches into endless darkness under the Yellow Sea, sea water leaking from overhead seams.",
+      "mood": "subsea abyss",
+      "sfx": "WATER DRIP..."
+    },
+    {
+      "id": "p02",
+      "shot": "distant hum of void energy vibrating through railroad tracks",
+      "setting": "rail tracks close-up",
+      "characters": [],
+      "action": "The steel train tracks hum and vibrate with electric purple resonance; miniature violet sparks dance across the rails.",
+      "mood": "energetic vibration",
+      "sfx": "HUMMM-BUZZ..."
+    },
+    {
+      "id": "p03",
+      "shot": "ha-jun, baek, and min-jae jogging down the tunnel with flashlights",
+      "setting": "tunnel tracking",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The trio sprints along the maintenance catwalk; Ha-Jun's eyes illuminate the path ahead in soft violet light.",
+      "mood": "approaching the epicenter",
+      "sfx": "BOOTS ON STEEL..."
+    },
+    {
+      "id": "p04",
+      "shot": "kuro flapping ahead sensing dimensional distortion",
+      "setting": "tunnel air",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro glides ahead: 'The spatial fabric is paper-thin here. A massive dimensional gate is actively drawing power.'",
+      "mood": "scouting ahead",
+      "sfx": "FLAP...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Spatial distortion critical hai. Wo log portal ko forcefully tear kar rahe hain.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "opening into colossal underground subterranean cavern under the seabed",
+      "setting": "cavern wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The rail tunnel opens into a gargantuan subterranean chamber carved directly into sea bedrock, 200 feet high.",
+      "mood": "the forbidden gate chamber",
+      "sfx": "ECHO..."
+    },
+    {
+      "id": "p06",
+      "shot": "in center: titanic 80-foot void gate framed by obsidian pillars",
+      "setting": "void gate center",
+      "characters": [],
+      "action": "In the cavern center stands an eighty-foot archway of black volcanic stone, covered in writhing tentacles and glowing magenta runes.",
+      "mood": "the void gate",
+      "sfx": "VOID ROAR..."
+    },
+    {
+      "id": "p07",
+      "shot": "vance standing on elevated control platform in exosuit",
+      "setting": "control platform",
+      "characters": [],
+      "action": "On a suspended steel platform stands Dr. Victor Vance—now encased in an eight-foot heavy titanium combat exosuit.",
+      "mood": "the doctor armored",
+      "sfx": "HYDRAULIC HISS...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "vance",
+          "text": "You are too late, boy! The catalyst is already synchronizing!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p08",
+      "shot": "floating in the center of the gate: glowing synthetic heart core",
+      "setting": "gate nexus macro",
+      "characters": [],
+      "action": "Suspended in magnetic confinement rings at the gate's center: an artificial beating heart glowing with pulsating cyan and crimson blood.",
+      "mood": "the synthetic heart",
+      "sfx": "THUMP-THUMP...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "vance",
+          "text": "A cloned organ cultured from your brother's marrow! The perfect key!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "ha-jun eyes widening in horror seeing his brother's blood desecrated",
+      "setting": "ha-jun horrified close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun stares at the suspended heart; its rhythmic beat resonates painfully in his own chest.",
+      "mood": "sacrilege witnessed",
+      "sfx": "PULSE...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Tae-Jun hyung ke DNA se banaya gaya nakli heart... How dare they?!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "fifty void cultists and cyber-hunters aiming rifles down from gantries",
+      "setting": "gantry ambush",
+      "characters": [],
+      "action": "Across the metal catwalks above, fifty heavily armed cultists and cybernetic mercenaries cock weapons simultaneously.",
+      "mood": "encircled on all sides",
+      "sfx": "CLICK-COCK-AIM!!"
+    },
+    {
+      "id": "p11",
+      "shot": "baek and min-jae taking cover behind concrete rail bumpers",
+      "setting": "rail bumper cover",
+      "characters": [],
+      "action": "Baek and Min-Jae dive behind heavy concrete rail stops: 'Ha-Jun! We will suppress the catwalks! You take Vance!'",
+      "mood": "tactical division",
+      "sfx": "GUNFIRE ERUPTS!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "baek",
+          "text": "Min-Jae, left flank! Ha-Jun, don't let that gate fully open!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "ha-jun stepping into the open ignoring the storm of bullets",
+      "setting": "hero advance",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun walks into the hail of machine-gun fire; a three-inch violet mana barrier deflects every single bullet effortlessly.",
+      "mood": "impenetrable aegis",
+      "sfx": "PING-SPARK-BOUNCE!!"
+    },
+    {
+      "id": "p13",
+      "shot": "ha-jun summoning bone of the forgotten into left hand",
+      "setting": "relic summon",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The ancient Bone of the Forgotten relic materializes in Ha-Jun's left hand, transforming into a 10-foot skeletal scythe.",
+      "mood": "bone scythe manifested",
+      "sfx": "RATTLE-SHING!!"
+    },
+    {
+      "id": "p14",
+      "shot": "ha-jun swinging bone scythe in a 360-degree horizontal wave",
+      "setting": "cavern wide cleave",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun sweeps the scythe horizontally; a 100-foot crescent shockwave of spectral white bone blades sweeps through the gantries.",
+      "mood": "sweeping the catwalks",
+      "sfx": "SLASH-WHIRL!!"
+    },
+    {
+      "id": "p15",
+      "shot": "all gantry supports sheared cleanly collapsing into the chasm",
+      "setting": "catwalk collapse",
+      "characters": [],
+      "action": "The steel support pillars are severed like toothpicks; gantries, cultists, and catwalks collapse in an avalanche of twisted metal.",
+      "mood": "ambient threat eliminated",
+      "sfx": "CRASH-SCREAM!!"
+    },
+    {
+      "id": "p16",
+      "shot": "vance launching from platform with rocket thrusters",
+      "setting": "airborne assault",
+      "characters": [],
+      "action": "Vance ignites plasma thrusters on his exosuit's back, rocketing straight down toward Ha-Jun with a heavy hydraulic pile-bunker.",
+      "mood": "heavy impact descent",
+      "sfx": "ROAR-THRUST!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "vance",
+          "text": "DIE LIKE YOUR PARENTS, KANG HA-JUN!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "vance pile-bunker slamming down into ha-jun raised palm",
+      "setting": "impact center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Vance's five-ton hydraulic fist smashes down—and is caught cold in the palm of Ha-Jun's bare right hand.",
+      "mood": "stopped cold",
+      "sfx": "KABOOOOM-SHOCKWAVE!!"
+    },
+    {
+      "id": "p18",
+      "shot": "vance exosuit alarms screaming: 'MAXIMUM TORQUE INSUFFICIENT'",
+      "setting": "exosuit HUD",
+      "characters": [],
+      "action": "Inside Vance's cockpit, red emergency warnings flash: 'Hydraulic arm integrity 12%... Target's grip exceeding 800 metric tons!'",
+      "mood": "impossible mortal power",
+      "sfx": "WARNING BEEP...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "vance",
+          "text": "Impossible! My suit has the strength of a hydraulic press!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "ha-jun crushing the titanium pile-bunker into twisted scrap",
+      "setting": "hand crushing metal",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's fingers squeeze; the reinforced tungsten-titanium fist folds, groans, and implodes like an empty soda can.",
+      "mood": "crushing the weapon",
+      "sfx": "SQUEEZE-CRUSH!!"
+    },
+    {
+      "id": "p20",
+      "shot": "ha-jun driving a knee strike into vance chest armor",
+      "setting": "close quarters brutality",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun drives a mana-charged knee strike into the exosuit's chestplate, blowing the heavy armor plating out its back.",
+      "mood": "devastating blow",
+      "sfx": "SMASH-BLAST!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "vance",
+          "text": "URGGGHHH!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "vance flying backward 100 feet crashing into gate pedestal",
+      "setting": "cavern impact",
+      "characters": [],
+      "action": "The shattered exosuit skids across the stone floor, slamming violently into the obsidian base of the Void Gate.",
+      "mood": "crashing into the gate",
+      "sfx": "CRASH-SKID!!"
+    },
+    {
+      "id": "p22",
+      "shot": "vance cockpit ejecting revealing bloody, broken old man",
+      "setting": "pedestal wreckage",
+      "characters": [],
+      "action": "The damaged cockpit pops open; Dr. Vance crawls out onto his knees, bleeding profusely from his nose and mouth.",
+      "mood": "villain broken",
+      "sfx": "COUGH-WHEEZE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "vance",
+          "text": "You... You are not human... You are a monster...",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "ha-jun standing over vance looking down with cold eyes",
+      "setting": "hero looking down",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun stands over the broken scientist, his silhouette framed by the swirling purple vortex of the gate behind him.",
+      "mood": "judgment day",
+      "sfx": "LOOM...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Maine kabhi nahi kaha main insaan hoon. I am the Demon Sovereign.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "ha-jun looking up at the floating synthetic heart",
+      "setting": "gate nexus",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun looks up at the artificial heart; its erratic pulse is destabilizing the gate, causing sea water to flood through the ceiling.",
+      "mood": "destabilization",
+      "sfx": "HEART BEAT-FAST..."
+    },
+    {
+      "id": "p25",
+      "shot": "ha-jun leaping up and gently cupping the synthetic heart",
+      "setting": "nexus leap",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun leaps forty feet into the air, cradling the synthetic heart in both hands with brotherly tenderness.",
+      "mood": "retrieving the desecrated organ",
+      "sfx": "GENTLE TOUCH...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Rest now. You don't have to suffer anymore.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "shot": "ha-jun channeling his pure sovereign mana into the heart",
+      "setting": "heart sanctification",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Golden and violet sovereign mana washes over the synthetic heart, soothing its torment and turning its black miasma into clean starlight.",
+      "mood": "purification",
+      "sfx": "GLOW-PURIFY..."
+    },
+    {
+      "id": "p27",
+      "shot": "the synthetic heart dissolving into peaceful golden embers",
+      "setting": "heart dissolving",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The artificial heart peacefully dissolves into thousands of golden light particles, sinking into Ha-Jun's chest.",
+      "mood": "returning to the bloodline",
+      "sfx": "SHIMMER..."
+    },
+    {
+      "id": "p28",
+      "shot": "the void gate roaring as its catalyst is removed",
+      "setting": "void gate unstable",
+      "characters": [],
+      "action": "Without the catalyst, the Void Gate begins to violently convulse, sucking surrounding rubble into its dimensional core.",
+      "mood": "collapse sequence",
+      "sfx": "VORTEX ROAR!!"
+    },
+    {
+      "id": "p29",
+      "shot": "vance screaming as the vortex pulls him toward the abyss",
+      "setting": "vance pulled in",
+      "characters": [],
+      "action": "Vance screams as the gravitational pull drags him into the event horizon: 'No! The void will devour me!'",
+      "mood": "poetic justice",
+      "sfx": "SCREAM-DRAG!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "vance",
+          "text": "SAVE ME, SOVEREIGN! DON'T LET THEM CONSUME ME!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "vance vanishing into the void as ha-jun turns away cliffhanger",
+      "setting": "gate collapse wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Vance vanishes into the pitch-black abyss; Ha-Jun turns his back calmly as the vortex opens a stable dimensional wormhole to Tartarus.",
+      "mood": "path to tartarus opened",
+      "sfx": "FLASH-PORTAL!!",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Portal stable ho chuka hai. The path to Tartarus is open.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    }
+  ]
+}

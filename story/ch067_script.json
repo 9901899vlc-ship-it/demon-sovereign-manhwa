@@ -1,0 +1,434 @@
+{
+  "chapter": 67,
+  "title": "The Red-Eyed Stranger",
+  "arc": 7,
+  "arc_title": "THE BROTHER'S TRUTH",
+  "summary": "Ha-Jun, Captain Baek, and Min-Jae infiltrate the subterranean ruins of Vault 7 beneath Incheon harbor, uncovering Dr. Victor Vance's nightmarish synthetic demon laboratory.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "incheon harbor industrial docks in dense foggy midnight",
+      "setting": "incheon dockland wide",
+      "characters": [],
+      "action": "Massive rusted cargo cranes loom like metal dinosaurs in the thick ocean fog over Incheon shipping canal.",
+      "mood": "industrial secrecy",
+      "sfx": "FOG HORN..."
+    },
+    {
+      "id": "p02",
+      "shot": "captain baek cutting through chain link fence with wire cutters",
+      "setting": "dock perimeter",
+      "characters": [],
+      "action": "Captain Baek in civilian tactical combat gear snips an electrified chain-link fence bearing 'RESTRICTED HAZMAT' signs.",
+      "mood": "clandestine infiltration",
+      "sfx": "SNIP-CREAK...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "baek",
+          "text": "Official records say Vault 7 was flooded in 2021. In reality, Vance took it off the grid.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "shot": "ha-jun and min-jae slipping through the breached fence",
+      "setting": "fence gap",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun slips through smoothly, coat billowed by ocean wind; Min-Jae follows with suppressed assault rifle ready.",
+      "mood": "entering the danger zone",
+      "sfx": "STEP-STEP..."
+    },
+    {
+      "id": "p04",
+      "shot": "kuro scouting ahead from top of rusted shipping container",
+      "setting": "container stack",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro glides from container to container: 'The air down below smells of rotting demon marrow and formaldehyde.'",
+      "mood": "olfactory warning",
+      "sfx": "CAW...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Biochemical waste aur demon flesh... Yahan bohot buri cheezein bani hain.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "discovering hidden hydraulic blast doors inside warehouse 9",
+      "setting": "warehouse interior",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Inside an empty grain warehouse, Captain Baek sweeps away gravel to reveal a twenty-ton reinforced blast door in the floor.",
+      "mood": "subterranean entrance",
+      "sfx": "CLANK..."
+    },
+    {
+      "id": "p06",
+      "shot": "baek overriding electronic console with military decryptor",
+      "setting": "access terminal",
+      "characters": [],
+      "action": "Baek plugs a military cipher-chip into the rusted keypad; green strings of decrypted code scroll down the monitor.",
+      "mood": "terminal hack",
+      "sfx": "BEEP-BEEP-ACCESS...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "baek",
+          "text": "Old Section 9 master bypass still works. We're going down three hundred meters.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "massive circular blast door unlocking with hiss of pressurized steam",
+      "setting": "blast door hatch",
+      "characters": [],
+      "action": "Locking pins retract with deafening pneumatic clunks; heavy steam vents as the floor hatch splits open.",
+      "mood": "vault unsealed",
+      "sfx": "PNEUMATIC-HISS!!"
+    },
+    {
+      "id": "p08",
+      "shot": "endless industrial freight elevator descending into blackness",
+      "setting": "elevator shaft wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "An open-grate industrial elevator platform rattles downward into a colossal vertical subterranean shaft.",
+      "mood": "descent into hell",
+      "sfx": "CABLE GROAN..."
+    },
+    {
+      "id": "p09",
+      "shot": "ha-jun leaning over railing observing glowing green vents below",
+      "setting": "elevator platform",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun looks down into the abyss: pipes glowing with sickly neon-green luminescent fluids crisscross the rock walls.",
+      "mood": "toxic atmosphere",
+      "sfx": "HUMMM...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Tae-Jun hyung ko iss andhere mein saat saal rakha gaya...",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "elevator clanking to halt at sublevel 7 arrival bay",
+      "setting": "arrival platform",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The lift hits the bottom with a shuddering metallic thud; emergency red exit lights flicker weakly along the tunnel.",
+      "mood": "arrived at vault 7",
+      "sfx": "CLANK-SHUDDER!!"
+    },
+    {
+      "id": "p11",
+      "shot": "trio advancing with flashlights through flooded medical hallway",
+      "setting": "flooded corridor",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ankle-deep murky water covers the linoleum floor; abandoned gurneys and broken IV stands clutter the corridor.",
+      "mood": "silent medical wasteland",
+      "sfx": "SPLASH-DRIP..."
+    },
+    {
+      "id": "p12",
+      "shot": "min-jae flashlight illuminating cracked stasis tube",
+      "setting": "hallway side",
+      "characters": [],
+      "action": "Min-Jae's flashlight beam reveals a cracked glass cylinder containing the preserved claw of an abyssal demon.",
+      "mood": "grotesque specimens",
+      "sfx": "BEAM SHINE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Look at these tanks... They were harvesting live demon organs.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "baek pointing to bloody drag marks on wall",
+      "setting": "corridor wall",
+      "characters": [],
+      "action": "Baek points to five deep claw gouges carved into the concrete wall: 'Something broke out of quarantine recently.'",
+      "mood": "predator signs",
+      "sfx": "GOUGE..."
+    },
+    {
+      "id": "p14",
+      "shot": "distant sound of heavy metallic footfalls echoing",
+      "setting": "hallway perspective",
+      "characters": [],
+      "action": "THUD... THUD... THUD... The sound of hydraulic piston legs echoes from the central operating theater ahead.",
+      "mood": "approaching threat",
+      "sfx": "HYDRAULIC-THUD..."
+    },
+    {
+      "id": "p15",
+      "shot": "ha-jun raising fist signaling squad to halt",
+      "setting": "corridor halt",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun signals to stop; his violet eyes pierce through the darkness, detecting two hostile mana signatures.",
+      "mood": "tactical pause",
+      "sfx": "STOP...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Samne do heavy cyborg guards hain. Let me handle them quietly.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "two section 9 chimera guards patrolling corridor junction",
+      "setting": "corridor junction",
+      "characters": [],
+      "action": "Two 8-foot tall cyborg sentinels with chain-guns mounted on their shoulders and demon skull helmets patrol the turn.",
+      "mood": "chimera sentinels",
+      "sfx": "WHIRL-OPTIC..."
+    },
+    {
+      "id": "p17",
+      "shot": "ha-jun dissolving into shadow mist using chains of ruin",
+      "setting": "shadow ambush",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun steps forward and melts into the floor shadows, leaving behind ethereal black and purple smoke.",
+      "mood": "shadow vanish",
+      "sfx": "SWISH..."
+    },
+    {
+      "id": "p18",
+      "shot": "black chains erupting from water binding first guard legs",
+      "setting": "water surface ambush",
+      "characters": [],
+      "action": "Chains of Ruin burst from the ankle-deep water, wrapping around the first sentinel's metal joints with bone-crushing force.",
+      "mood": "instant restraint",
+      "sfx": "CLANK-BIND!!"
+    },
+    {
+      "id": "p19",
+      "shot": "ha-jun appearing behind second guard with blood blade",
+      "setting": "point blank strike",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun materializes directly behind the second cyborg, his Sanguine Fang already drawn in an execution arc.",
+      "mood": "silent assassination",
+      "sfx": "FLASH-SHING!!"
+    },
+    {
+      "id": "p20",
+      "shot": "clean decapitation of both chimera sentinels simultaneously",
+      "setting": "corridor climax",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A single fluid horizontal slash decapitates both sentinels cleanly; severed hydraulic lines spray spark and blue fluid.",
+      "mood": "flawless execution",
+      "sfx": "CLEAVE-SPARK!!"
+    },
+    {
+      "id": "p21",
+      "shot": "both metallic corpses splashing heavily into the flooded water",
+      "setting": "water splash",
+      "characters": [],
+      "action": "The two heavy cyborg torsos collapse into the water with a heavy splash, immediately silenced.",
+      "mood": "threat neutralized",
+      "sfx": "SPLASH-DOWN..."
+    },
+    {
+      "id": "p22",
+      "shot": "baek and min-jae jogging up with impressed whistles",
+      "setting": "corridor junction",
+      "characters": [],
+      "action": "Min-Jae lowers his rifle: 'Damn, Ha-Jun. You didn't even let them make a radio call.'",
+      "mood": "effortless mastery",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Flawless takedown. The main lab is right past that blast door.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "entering the central operating theater: project chimera hub",
+      "setting": "operating theater wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "They enter a massive circular dome with dozens of server banks, dissecting tables, and a central command desk.",
+      "mood": "the heart of darkness",
+      "sfx": "ELECTRONIC HUM..."
+    },
+    {
+      "id": "p24",
+      "shot": "ha-jun approaching the central holographic archive terminal",
+      "setting": "archive terminal",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun approaches the primary terminal, marked with Dr. Victor Vance's private biometric hand-scanner.",
+      "mood": "accessing terminal",
+      "sfx": "STEP..."
+    },
+    {
+      "id": "p25",
+      "shot": "ha-jun overriding biometric scanner with sovereign blood",
+      "setting": "scanner console",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun presses his bloody thumb against the scanner; his Sovereign blood forces a root-level administrative breach.",
+      "mood": "bloodline hack",
+      "sfx": "BEEP-BEEP-OVERRIDE!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Terminal unlocked. Search query: Kang Tae-Jun.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "shot": "terminal monitor flashing green: 'SUBJECT ZERO ARCHIVE FOUND'",
+      "setting": "terminal display macro",
+      "characters": [],
+      "action": "The screen flashes with a high-resolution photo of a 16-year-old Tae-Jun strapped into an experimental neural chair.",
+      "mood": "subject zero identified",
+      "sfx": "DATA STREAM..."
+    },
+    {
+      "id": "p27",
+      "shot": "ha-jun reading medical logs of excruciating experiments",
+      "setting": "monitor logs",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Text logs scroll: 'Day 412: Extracted 500cc Sovereign bone marrow. Subject refused to scream. Kept repeating his brother's name.'",
+      "mood": "unspeakable cruelty",
+      "sfx": "READ...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Mera naam... Wo har dard ke waqt mera naam leta raha...",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "room lights suddenly turning blood-red as siren blares",
+      "setting": "theater alarm",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A harsh crimson strobe light begins rotating; a deafening Klaxon siren wails through the facility speakers.",
+      "mood": "security alert triggered",
+      "sfx": "KLAXON-WROOOR!!"
+    },
+    {
+      "id": "p29",
+      "shot": "a high-definition video monitor powering on: dr. victor vance",
+      "setting": "giant wall monitor",
+      "characters": [],
+      "action": "The giant wall screen boots up: an elderly man with silver slicked hair, a cybernetic crimson left eye, and a cruel smirk appears.",
+      "mood": "the mastermind arrives",
+      "sfx": "STATIC-BEEP...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "vance",
+          "text": "Welcome to Vault 7, young Ha-Jun Kang. I have awaited the Sovereign's true heir for seven years.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun glaring with murderous sovereign eyes at the screen",
+      "setting": "ha-jun furious close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's teeth bared, purple mana cracking the floor tiles: 'Vance. Tell me where my brother is before I rip this bunker in half.'",
+      "mood": "climax confrontational cliffhanger",
+      "sfx": "CRACK-TILE!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "DR. VANCE!! MERI AANKHON KE SAMNE AA, COWARD!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    }
+  ]
+}

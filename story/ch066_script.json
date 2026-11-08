@@ -1,0 +1,394 @@
+{
+  "chapter": 66,
+  "title": "That Night",
+  "arc": 7,
+  "arc_title": "THE BROTHER'S TRUTH",
+  "summary": "A full cinematic flashback to the fateful rainy night seven years ago, revealing Tae-Jun's bloody last stand in the apartment corridors to protect young Ha-Jun.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "black and white title card with rain streaks",
+      "setting": "flashback aesthetic",
+      "characters": [],
+      "action": "A stark monochrome screen reads: 'SEVEN YEARS AGO — OCTOBER 14'. Rain streaks slide down the glass.",
+      "mood": "cinematic flashback opener",
+      "sfx": "RAIN DRONE..."
+    },
+    {
+      "id": "p02",
+      "shot": "10-year-old ha-jun shivering under duvet in bed",
+      "setting": "children bedroom",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A small 10-year-old Ha-Jun pulls his star-patterned quilt up to his chin, trembling at the roaring thunder outside.",
+      "mood": "innocent fear",
+      "sfx": "SHIVER...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Toofan bohot tez hai... Mummy Papa abhi tak ghar kyun nahi aaye?",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "shot": "15-year-old tae-jun sitting by ha-jun bed softly smiling",
+      "setting": "children bedroom",
+      "characters": [],
+      "action": "15-year-old Tae-Jun sits on the bedside edge, wearing a warm grey wool sweater, gently stroking Ha-Jun's hair.",
+      "mood": "brotherly comfort",
+      "sfx": "RUSTLE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Daro mat, Ha-Jun. Main hoon na. Jab tak main yahan hoon, koi toofan tumhe chhu nahi sakta.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "distant sound of glass shattering downstairs in apartment lobby",
+      "setting": "stairwell darkness",
+      "characters": [],
+      "action": "A sudden muffled CRASH echoes from the lobby four floors down, followed by guttural, wet snarling.",
+      "mood": "intrusion of dread",
+      "sfx": "CRASH-SNARL!!"
+    },
+    {
+      "id": "p05",
+      "shot": "tae-jun eyes instantly hardening with razor sharpness",
+      "setting": "tae-jun face close-up",
+      "characters": [],
+      "action": "Tae-Jun's gentle smile vanishes; his jaw clenches and his eyes flare with a fierce bronze demonic ward-light.",
+      "mood": "the guardian awakened",
+      "sfx": "GLINT..."
+    },
+    {
+      "id": "p06",
+      "shot": "tae-jun looking toward the closed bedroom door listening",
+      "setting": "bedroom medium",
+      "characters": [],
+      "action": "Tae-Jun tilts his head; his heightened demonic senses pick up the tactical boot-steps of six armed men in the hallway.",
+      "mood": "tactical awareness",
+      "sfx": "THUD-THUD-THUD..."
+    },
+    {
+      "id": "p07",
+      "shot": "tae-jun pulling the blanket gently over ha-jun eyes",
+      "setting": "bedside intimate",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun tucks the blanket over Ha-Jun's shoulders: 'Ha-Jun, play our secret game. Keep your eyes closed until I say.'",
+      "mood": "protective deception",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Secret hide-and-seek game yaad hai? Aankhein band rakho aur 500 tak count karo. No matter what.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p08",
+      "shot": "young ha-jun nodding innocently closing his eyes",
+      "setting": "ha-jun face close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Young Ha-Jun smiles trustingly, shutting his brown eyes tight: 'One... two... three...'",
+      "mood": "tragic innocence",
+      "sfx": "WHISPER...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Hyung hamesha game jeetta hai... Main iss baar pakka jeetunga.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "tae-jun stepping out into hallway pulling door shut",
+      "setting": "hallway threshold",
+      "characters": [],
+      "action": "Tae-Jun steps into the dark apartment hallway and pulls Ha-Jun's bedroom door shut with a quiet click.",
+      "mood": "crossing the boundary",
+      "sfx": "CLICK..."
+    },
+    {
+      "id": "p10",
+      "shot": "tae-jun slicing his own palm with a silver penknife",
+      "setting": "tae-jun hands",
+      "characters": [],
+      "action": "Tae-Jun draws a sharp silver blade across his right palm; dark crimson blood with golden sparks pools in his hand.",
+      "mood": "blood ward preparation",
+      "sfx": "SLICE-DRIP..."
+    },
+    {
+      "id": "p11",
+      "shot": "tae-jun painting an ancient guardian seal on the bedroom door",
+      "setting": "door surface",
+      "characters": [],
+      "action": "With his bleeding fingers, Tae-Jun paints a complex celestial ward across the doorframe: 'Aegis of the Silent Child'.",
+      "mood": "sealing the sanctuary",
+      "sfx": "SIZZLE-GLOW...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Mere khoon ki aakhri boond tak... Yeh darwaza kisi shaitan ke liye nahi khulega.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "apartment front door blowing off its hinges in explosion",
+      "setting": "living room wide",
+      "characters": [],
+      "action": "The front door is blown inward with plastic explosives; smoke, wood splinters, and rain pour into the living room.",
+      "mood": "breach and assault",
+      "sfx": "KABOOOM!!"
+    },
+    {
+      "id": "p13",
+      "shot": "three section 9 cyber-hunters entering with assault rifles",
+      "setting": "living room smoke",
+      "characters": [],
+      "action": "Three operatives in matte-black tactical exosuits and glowing red night-vision visors enter with rifles raised.",
+      "mood": "death squad arrival",
+      "sfx": "CLANK-AIM..."
+    },
+    {
+      "id": "p14",
+      "shot": "a hulking four-legged chimera hound bounding through the breach",
+      "setting": "living room floor",
+      "characters": [],
+      "action": "Behind them leaps a snarling bio-mechanical chimera hound with razor metal fangs and dripping toxic saliva.",
+      "mood": "the monster unleashed",
+      "sfx": "ROARRR-SNAP!!"
+    },
+    {
+      "id": "p15",
+      "shot": "tae-jun standing alone in the narrow hallway wielding bronze dagger",
+      "setting": "hallway standoff",
+      "characters": [],
+      "action": "15-year-old Tae-Jun stands alone in his wool sweater, holding his bronze dagger as bronze mana coats his body like armor.",
+      "mood": "lone defender",
+      "sfx": "HUMMM-CLASH...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Tum galat ghar mein ghus gaye ho.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "lead hunter barking orders: 'capture subject zero alive!'",
+      "setting": "hunter leader close-up",
+      "characters": [],
+      "action": "The lead hunter barks through a voice vocoder: 'Subject Zero located! Don't damage the brainstem!'",
+      "mood": "cold capture mandate",
+      "sfx": "VOCODER...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hunter_leader",
+          "text": "Fire suppressive rounds! Harvest him for Dr. Vance!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "storm of automatic gunfire erupting down the hallway",
+      "setting": "hallway fire",
+      "characters": [],
+      "action": "Muzzle flashes light up the narrow walls as high-caliber armor-piercing bullets shred the drywall.",
+      "mood": "bullet storm",
+      "sfx": "RAT-TAT-TAT-TAT!!"
+    },
+    {
+      "id": "p18",
+      "shot": "tae-jun deflecting bullets with bronze mana barrier",
+      "setting": "hallway clash",
+      "characters": [],
+      "action": "Tae-Jun thrusts his palm forward; a semi-translucent bronze shield deflects bullets into the ceiling and floor.",
+      "mood": "shield of the aegis",
+      "sfx": "PANG-SPARK-PING!!"
+    },
+    {
+      "id": "p19",
+      "shot": "chimera hound lunging at tae-jun throat",
+      "setting": "airborne lunge",
+      "characters": [],
+      "action": "The chimera beast leaps through the gunfire, its metal jaws snapping directly toward Tae-Jun's neck.",
+      "mood": "lethal ambush",
+      "sfx": "LEAP-SNAP!!"
+    },
+    {
+      "id": "p20",
+      "shot": "tae-jun ducking and driving dagger through beast jaw",
+      "setting": "hallway counter-strike",
+      "characters": [],
+      "action": "Tae-Jun drops under the beast's leap and drives his bronze blade upward through its lower jaw into its brain.",
+      "mood": "deadly precision",
+      "sfx": "SQUELCH-CRACK!!"
+    },
+    {
+      "id": "p21",
+      "shot": "chimera beast crashing dead onto hallway carpet",
+      "setting": "floor impact",
+      "characters": [],
+      "action": "The heavy cyber-hound hits the floor, thrashing once before black oil-blood pools beneath it.",
+      "mood": "first kill",
+      "sfx": "THUD-HISS..."
+    },
+    {
+      "id": "p22",
+      "shot": "tae-jun sprinting directly into the living room squad",
+      "setting": "living room blitz",
+      "characters": [],
+      "action": "Tae-Jun doesn't retreat; he sprints straight into the three hunters to draw the fight away from Ha-Jun's room.",
+      "mood": "tactical diversion",
+      "sfx": "DASH-BLUR!!"
+    },
+    {
+      "id": "p23",
+      "shot": "tae-jun disarming first hunter with elbow strike",
+      "setting": "close-quarters combat",
+      "characters": [],
+      "action": "Tae-Jun shatters the first operative's rifle with a reinforced elbow strike and hurls him into the coffee table.",
+      "mood": "bone-shattering impact",
+      "sfx": "SMASH-CRACK!!"
+    },
+    {
+      "id": "p24",
+      "shot": "second hunter stabbing high-voltage stun baton into tae-jun side",
+      "setting": "living room grapple",
+      "characters": [],
+      "action": "A second operative drives an electrified baton into Tae-Jun's ribs, discharging 50,000 volts of blue lightning.",
+      "mood": "electrocution agony",
+      "sfx": "ZZZZT-KZZZT!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "tae_jun",
+          "text": "AGGGHHH!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "tae-jun roaring and snapping the baton with bare hands",
+      "setting": "furious retaliation",
+      "characters": [],
+      "action": "Veins bulging on his neck, Tae-Jun refuses to fall; he grabs the electrified rod and snaps the titanium shaft in half.",
+      "mood": "indomitable will",
+      "sfx": "SNAP-SHATTER!!"
+    },
+    {
+      "id": "p26",
+      "shot": "tae-jun punching operative through the shattered window",
+      "setting": "window smash",
+      "characters": [],
+      "action": "With a terrifying burst of bronze mana, Tae-Jun hurls the hunter clean through the 4th-floor window into the rain.",
+      "mood": "clearing the room",
+      "sfx": "CRASH-FALL!!"
+    },
+    {
+      "id": "p27",
+      "shot": "tae-jun standing bloodied and gasping in the ruined living room",
+      "setting": "living room wreckage",
+      "characters": [],
+      "action": "Smoke drifts; Tae-Jun stands panting, blood dripping from his sweater and knuckles onto the shattered glass.",
+      "mood": "pyrrhic stand",
+      "sfx": "HEAVING BREATH..."
+    },
+    {
+      "id": "p28",
+      "shot": "outside window: four more tactical black vans screeching to halt",
+      "setting": "street level wide",
+      "characters": [],
+      "action": "Down on the rainy street, four more Section 9 armored transport vans pull up with fifty armed reinforcements.",
+      "mood": "endless swarm",
+      "sfx": "TIRE SCREECH!!"
+    },
+    {
+      "id": "p29",
+      "shot": "tae-jun looking back one last time at ha-jun closed door",
+      "setting": "hallway doorway",
+      "characters": [],
+      "action": "Tae-Jun looks down the dark hallway at Ha-Jun's closed bedroom door, glowing faintly with his blood ward.",
+      "mood": "the final goodbye",
+      "sfx": "SOFT RAIN...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "tae_jun",
+          "text": "Agar main yahan ruka... Wo pura building blast kar denge. Tujhe jeena hoga, Ha-Jun.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "tae-jun leaping out into the rainy night to lead them away",
+      "setting": "rainy exterior leap",
+      "characters": [],
+      "action": "Tae-Jun vaults off the broken window ledge into the torrential downpour, igniting his mana flare to lure the entire army.",
+      "mood": "the brother's leap into darkness",
+      "sfx": "LEAP-FWOOSH!!",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "Aur uss raat ke baad... Ha-Jun ne apne bhai ko dobara kabhi nahi dekha.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    }
+  ]
+}

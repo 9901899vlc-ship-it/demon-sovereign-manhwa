@@ -1,0 +1,482 @@
+{
+  "chapter": 65,
+  "title": "The Unanswered Message",
+  "arc": 7,
+  "arc_title": "THE BROTHER'S TRUTH",
+  "summary": "Tae-Jun's recorded holographic hologram reveals the conspiracy behind their parents' deaths, Section 9's forbidden Project Chimera, and the true reason he sacrificed his freedom.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "holographic blue-red light illuminating the dusty bedroom",
+      "setting": "tae-jun bedroom wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The entire bedroom is bathed in flickering holographic beams as Tae-Jun's 3D projection speaks.",
+      "mood": "cinematic transmission",
+      "sfx": "HUMMM..."
+    },
+    {
+      "id": "p02",
+      "shot": "tae-jun hologram sitting on an iron chair recording",
+      "setting": "hologram full body",
+      "characters": [],
+      "action": "The hologram shows Tae-Jun sitting in an underground concrete bunker with emergency red sirens flashing behind him.",
+      "mood": "recorded in urgency",
+      "sfx": "STATIC...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Mere paas zyada waqt nahi hai. Section 9 ke Hunter strike teams ne perimeter break kar diya hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "shot": "ha-jun stepping closer holding his breath",
+      "setting": "bedroom medium",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun takes two quiet steps forward, mesmerized by every flicker of his brother's voice.",
+      "mood": "captivated sorrow",
+      "sfx": "SILENCE..."
+    },
+    {
+      "id": "p04",
+      "shot": "tae-jun hologram touching his bandaged throat",
+      "setting": "hologram medium",
+      "characters": [],
+      "action": "Tae-Jun adjusts a collar hiding a glowing red tracking seal around his neck: 'Dad was the chief archivist for the Sovereign relics.'",
+      "mood": "the father's legacy",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Dad ordinary human nahi the. He was a Guardian who swore to protect the First Sovereign's bloodline.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "flashback shard: father studying ancient scrolls",
+      "setting": "memory projection",
+      "characters": [],
+      "action": "A holographic memory insert shows their father, Kang Min-Soo, deciphering ancient demonic tablets by candlelight.",
+      "mood": "guardian heritage"
+    },
+    {
+      "id": "p06",
+      "shot": "tae-jun explaining the hunter association corruption",
+      "setting": "hologram close-up",
+      "characters": [],
+      "action": "Tae-Jun: 'When Chairman Song learned of Dad's bloodline, he demanded Dad surrender the relics to weaponize them.'",
+      "mood": "the betrayal",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Chairman Song human world ko protect nahi karna chahta tha. He wanted to harvest Sovereign cores!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "flashback shard: burning car and black rain on expressway",
+      "setting": "memory projection",
+      "characters": [],
+      "action": "A holographic reconstruction of the night seven years ago: black hunter tactical trucks ramming their parents' car off Mapo Bridge.",
+      "mood": "the assassination",
+      "sfx": "CRASH-EXPLODE!!"
+    },
+    {
+      "id": "p08",
+      "shot": "ha-jun fists trembling with dark purple lightning",
+      "setting": "ha-jun hands close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's fingernails dig into his palms until blood beads; purple mana sparks uncontrollably from his skin.",
+      "mood": "mounting fury",
+      "sfx": "ZZZ-SNAP!!",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Ek car accident... Humne saat saal tak yahi jhooth sach maana!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "min-jae looking down in shared grief and shame",
+      "setting": "bedroom side",
+      "characters": [],
+      "action": "Min-Jae bites his lip: 'Chairman Song... The whole Hunter Association celebrated him as a hero while he murdered his own guardians.'",
+      "mood": "shattered faith",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "This is sick... The entire association was built on stolen blood.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "tae-jun hologram coughing up digital static blood",
+      "setting": "hologram close-up",
+      "characters": [],
+      "action": "The hologram flickers violently; Tae-Jun wipes crimson blood from his mouth: 'My bloodline awakened when Dad died.'",
+      "mood": "awakening of the elder",
+      "sfx": "COUGH-STATIC...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Dad ke marne par mera bloodline jaaga. But I only inherited the Guardian's Shield, not the Throne.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "tae-jun holding up a glowing bronze crest in hologram",
+      "setting": "hologram prop",
+      "characters": [],
+      "action": "In the projection, Tae-Jun shows a heavy bronze talisman inscribed with an interlocking dragon and feather crest.",
+      "mood": "the guardian talisman",
+      "sfx": "GLEAM..."
+    },
+    {
+      "id": "p12",
+      "shot": "kuro spreading black wings in stunned confirmation",
+      "setting": "kuro perch",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro croaks with deep respect: 'The Aegis of Tartarus. The shield that protects the Sovereign from premature birth.'",
+      "mood": "ancient relic identified",
+      "sfx": "FLAP...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Wo sacred shield Tae-Jun ke paas thi. He bore the burden so you could grow up safe.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "tae-jun hologram looking intensely into the camera lens",
+      "setting": "hologram intense",
+      "characters": [],
+      "action": "Tae-Jun speaks as if looking straight into Ha-Jun's soul: 'Ha-Jun, Section 9's scanners were locking onto our apartment.'",
+      "mood": "the fateful choice",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Agar main wahan rukta, toh wo tumhe le jaate. Tum 10 saal ke the. You wouldn't survive their surgical tests.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "tae-jun hologram smiling with heartbroken tenderness",
+      "setting": "hologram tender",
+      "characters": [],
+      "action": "Tae-Jun smiles softly, tears glistening in his eyes: 'So I flared my own mana to the maximum and led them away into Incheon harbor.'",
+      "mood": "the sacrificial decoy",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Maine apna pura mana burst kiya taaki wo soche main aakhri survivor hoon. I drew every hunter to me.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "shot": "ha-jun collapsing to his knees sobbing silently",
+      "setting": "bedroom floor",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun sinks to his knees onto the wooden floorboards, his forehead touching the floor as tears soak the dust.",
+      "mood": "unbearable gratitude and sorrow",
+      "sfx": "SOB...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Tumne mere liye apni puri zindagi kurban kar di... Aur main sochta tha tum mujhe chhod gaye...",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "min-jae kneeling beside ha-jun resting hand on back",
+      "setting": "bedroom floor medium",
+      "characters": [],
+      "action": "Min-Jae kneels beside Ha-Jun in brotherly solidarity, his own eyes wet with tears.",
+      "mood": "companionship in grief",
+      "sfx": "COMFORT..."
+    },
+    {
+      "id": "p17",
+      "shot": "tae-jun hologram warning about dr. victor vance",
+      "setting": "hologram warning",
+      "characters": [],
+      "action": "Tae-Jun's voice turns grim: 'Watch out for Dr. Victor Vance. He ran Project Chimera in Vault 7.'",
+      "mood": "identifying the monster",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Dr. Vance insaan nahi raha. He injects synthetic demon cores into human candidates.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "hologram showing schematics of synthetic demon cores",
+      "setting": "holographic blueprint",
+      "characters": [],
+      "action": "A blue schematic rotates: a mechanical core containing liquid violet demon blood hooked to human nerve clusters.",
+      "mood": "project chimera blueprints",
+      "sfx": "SCAN..."
+    },
+    {
+      "id": "p19",
+      "shot": "tae-jun hologram warning about the nine relics",
+      "setting": "hologram instruction",
+      "characters": [],
+      "action": "Tae-Jun: 'The relics aren't weapons, Ha-Jun. They are keys. When all ten gather, the Sovereign Throne opens.'",
+      "mood": "the true purpose",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Das relics sirf hathiyar nahi hain. They are the keys to seal the Primordial Void forever.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "sounds of explosions in background of holographic audio",
+      "setting": "hologram audio wave",
+      "characters": [],
+      "action": "Heavy thuds and gunfire rattle through the hologram's microphone; red warning lights flash faster.",
+      "mood": "imminent capture",
+      "sfx": "BOOM-BOOM!!"
+    },
+    {
+      "id": "p21",
+      "shot": "tae-jun drawing his blade in the recording",
+      "setting": "hologram battle ready",
+      "characters": [],
+      "action": "In the video, Tae-Jun stands up, unsheathing a broken silver shortsword as door hinges buckle behind him.",
+      "mood": "last stand posture",
+      "sfx": "SHINGGG!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Wo andar aa chuke hain. Mujhe yeh recording shut karni hogi.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "tae-jun looking one last time with infinite brotherly love",
+      "setting": "hologram extreme close-up",
+      "characters": [],
+      "action": "Tae-Jun looks into the camera lens with unconditional warmth: 'Happy tenth birthday, Ha-Jun. Grow strong. Be kind.'",
+      "mood": "the final blessing",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Ha-Jun... Kabhi mat bhoolna, chahe duniya tumse nafrat kare, tum mere pyare chhote bhai ho.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "the holographic projection glitching into static",
+      "setting": "bedroom air",
+      "characters": [],
+      "action": "The 3D image fractures into cyan and red scanlines; Tae-Jun's silhouette dissolves into floating blue sparks.",
+      "mood": "transmission ended",
+      "sfx": "ZZZZ-POP..."
+    },
+    {
+      "id": "p24",
+      "shot": "darkness returning to the bedroom leaving absolute silence",
+      "setting": "tae-jun bedroom wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The room plunges back into twilight gloom; only the gentle pitter-patter of rain outside the window remains.",
+      "mood": "heavy aftermath",
+      "sfx": "RAIN ON GLASS..."
+    },
+    {
+      "id": "p25",
+      "shot": "ha-jun raising his head from the floor with glowing violet eyes",
+      "setting": "ha-jun face floor level",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun lifts his head; his tear-stained cheeks are now illuminated by eyes burning with primordial sovereign fire.",
+      "mood": "transformation of sorrow to resolve",
+      "sfx": "PULSE-FIRE!!"
+    },
+    {
+      "id": "p26",
+      "shot": "ha-jun standing up straight with terrifying majesty",
+      "setting": "bedroom full body",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun rises to his full height; his dark coat flutters as a shockwave of compressed demonic gravity clears the dust.",
+      "mood": "the sovereign awakes",
+      "sfx": "GRAVITY-PULSE!!"
+    },
+    {
+      "id": "p27",
+      "shot": "the ten relics orbiting around ha-jun in miniature ethereal forms",
+      "setting": "bedroom wide aura",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ghostly phantoms of the Feather, Ring, Bone, Heart, Fang, Eye, and Crown circle his shoulders in celestial harmony.",
+      "mood": "relic symphony",
+      "sfx": "CHIME-WHIRL..."
+    },
+    {
+      "id": "p28",
+      "shot": "ha-jun pocketing the optical disc next to his heart",
+      "setting": "torso close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun carefully places the optical disc into his inner breast pocket right over his beating heart.",
+      "mood": "cherished promise",
+      "sfx": "TUCK...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Main aa raha hoon, Tae-Jun hyung. Main tumhe wapas launga.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "kuro landing on ha-jun shoulder with razor focus",
+      "setting": "ha-jun and kuro",
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
+      "action": "Kuro sharpens his talons: 'Where do we strike first, My Sovereign?'",
+      "mood": "war council begins",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Vault 7. Incheon underground lab. Ab hisaab lene ka waqt hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun looking out the rainy window toward incheon skyline",
+      "setting": "hero silhouette wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun gazes out over the neon-lit Seoul skyline toward Incheon harbor, lightning splitting the dark clouds.",
+      "mood": "arc 7 war declaration",
+      "sfx": "THUNDER-CRASH!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Dr. Vance... Aur Chairman Song... Tumhara time khatam ho chuka hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    }
+  ]
+}

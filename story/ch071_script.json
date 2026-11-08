@@ -1,0 +1,509 @@
+{
+  "chapter": 71,
+  "title": "The Voice in the Memory",
+  "arc": 7,
+  "arc_title": "THE BROTHER'S TRUTH",
+  "summary": "As the portal stabilizes, an ancient telepathic bridge connects Ha-Jun's mind directly to Kang Tae-Jun's conscious soul floating in the Tartarus stasis chamber.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "the glowing dimensional wormhole swirling in tranquil silence",
+      "setting": "wormhole portal center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The violent vortex stabilizes into a mirror-smooth lake of vertical deep-violet light, reflecting alien constellations.",
+      "mood": "stargate tranquility",
+      "sfx": "SILENT HUMMM..."
+    },
+    {
+      "id": "p02",
+      "shot": "ha-jun floating weightlessly in the center of the chamber",
+      "setting": "mid-air hover",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun floats three feet above the flooded stone floor, his eyes shut as an ethereal golden chord connects to his forehead.",
+      "mood": "soul tether established",
+      "sfx": "CHIME..."
+    },
+    {
+      "id": "p03",
+      "shot": "baek and min-jae watching in breathless awe from below",
+      "setting": "cavern floor",
+      "characters": [],
+      "action": "Min-Jae whispers: 'He's communing across dimensions... Look at the frequency waves around his head.'",
+      "mood": "reverent observation",
+      "sfx": "WHISPER...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "He's establishing a psychic link with Tartarus.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "kuro perching on ha-jun shoulder acting as psychic antenna",
+      "setting": "kuro psychic link",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Kuro's ruby eyes burn with white-hot astral light, harmonizing Ha-Jun's brainwaves with the dimensional rift.",
+      "mood": "guardian amplifier",
+      "sfx": "RESONANCE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Frequency locked. Crossing the Tartarus firewall now.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "transition into the soul mindscape: a twilight field of lilies",
+      "setting": "astral mindscape wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Reality melts into an infinite field of luminous purple lilies under a sky filled with three giant crescent moons.",
+      "mood": "the ancestral sanctuary",
+      "sfx": "BREEZE RUSTLE..."
+    },
+    {
+      "id": "p06",
+      "shot": "ha-jun standing in the flower field looking around bewildered",
+      "setting": "mindscape medium",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun looks down at the soft glowing petals beneath his boots: 'Where... Where am I?'",
+      "mood": "ethereal wonder",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Yeh Asmodaius ka mindscape nahi hai... Yeh jagah bohot peaceful hai.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "a tall silhouette standing fifty paces away under a cherry tree",
+      "setting": "cherry tree distance",
+      "characters": [],
+      "action": "Fifty paces ahead, beneath an ethereal silver cherry blossom tree, stands the silhouette of a young man in black.",
+      "mood": "the awaiting brother",
+      "sfx": "SILHOUETTE..."
+    },
+    {
+      "id": "p08",
+      "shot": "ha-jun running forward through the sea of flowers",
+      "setting": "running tracking",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun doesn't hesitate; he sprints through the purple lilies, petals swirling into the breeze around his legs.",
+      "mood": "desperate sprint",
+      "sfx": "STEP-STEP-SWOOSH!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "HYUNG!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "the silhouette slowly turning around with a gentle smile",
+      "setting": "turning figure",
+      "characters": [],
+      "action": "The figure turns: 22-year-old Kang Tae-Jun, tall, broad-shouldered, with identical handsome features and gentle eyes.",
+      "mood": "tae-jun in the flesh",
+      "sfx": "GENTLE TURN..."
+    },
+    {
+      "id": "p10",
+      "shot": "tae-jun looking at ha-jun with eyes full of pride and wonder",
+      "setting": "tae-jun close-up",
+      "characters": [],
+      "action": "Tae-Jun chuckles softly, tears shining in his eyes: 'Look at how tall you've become, Ha-Jun. You're taller than me now.'",
+      "mood": "tender brotherly reunion",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Ha-Jun... Sach mein kitne bade ho gaye ho tum.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "ha-jun colliding into tae-jun with an emotional bear hug",
+      "setting": "impact hug",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun crashes into Tae-Jun's chest, burying his face into his brother's shoulder and clutching his jacket tightly.",
+      "mood": "overwhelming emotional release",
+      "sfx": "HUG-COLLISION!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Hyung... Main kitna darr gaya tha... Maine socha main tumhe kho chuka hoon!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "tae-jun wrapping strong arms around ha-jun patting his back",
+      "setting": "hug medium",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun wraps his arms around Ha-Jun, resting his chin on Ha-Jun's head with deep brotherly warmth.",
+      "mood": "unconditional embrace",
+      "sfx": "COMFORT...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Shh... Main yahin hoon. I'm right here. I never left you.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "the two brothers stepping back looking each other in the eye",
+      "setting": "two-shot medium",
+      "characters": [
+        "hajun"
+      ],
+      "action": "They step back slightly; Tae-Jun holds Ha-Jun's shoulders, inspecting his face with smiling affection.",
+      "mood": "face-to-face inspection"
+    },
+    {
+      "id": "p14",
+      "shot": "tae-jun noticing the crown of relics floating around ha-jun",
+      "setting": "tae-jun noticing crown",
+      "characters": [],
+      "action": "Tae-Jun looks at the ten ethereal relics orbiting Ha-Jun: 'You synchronized with all ten? You mastered the Sovereign's will?'",
+      "mood": "amazement at power",
+      "sfx": "SURPRISE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Ten relics... Ha-Jun, tumne impossible kar dikhaya.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "shot": "ha-jun explaining how kuro and min-jae helped him survive",
+      "setting": "talking intimate",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun: 'I didn't do it alone. Kuro guided me. And Min-Jae and Captain Baek had my back.'",
+      "mood": "humility and credit",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Main akela nahi tha. Mere friends ne har step pe mera saath diya.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "tae-jun expression turning solemn as time begins to tick",
+      "setting": "tae-jun solemn",
+      "characters": [],
+      "action": "Tae-Jun looks toward the three moons: 'Ha-Jun, this psychic link won't last long. My body is in the Tartarus Spire.'",
+      "mood": "urgency introduced",
+      "sfx": "MOON SHIFT...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Listen carefully. Tartarus Spire mein Seventh Void Sovereign 'Malakor' meri physical body guard kar raha hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "tae-jun manifesting a glowing astral map of the tartarus spire",
+      "setting": "astral hologram map",
+      "characters": [],
+      "action": "Between them, Tae-Jun projects an intricate 3D map of an obsidian floating fortress surrounded by black lightning.",
+      "mood": "tactical layout",
+      "sfx": "GLOW-MAP..."
+    },
+    {
+      "id": "p18",
+      "shot": "tae-jun pointing to the central spire apex",
+      "setting": "map close-up",
+      "characters": [],
+      "action": "Tae-Jun: 'The stasis pod is suspended in the Chamber of Frozen Souls. It's powered by a Null-Mana core.'",
+      "mood": "vulnerability identified",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Chamber mein ordinary magic kaam nahi karega. You must rely on physical sword skill and the Feather's Mythic light.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "ha-jun nodding firmly memorizing every corridor of the fortress",
+      "setting": "ha-jun focused",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's eyes scan the layout, committing every corridor, defense turret, and patrol route to memory.",
+      "mood": "tactical absorption",
+      "sfx": "NOD...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Chamber of Frozen Souls... Level 88... Main ek ek inch yaad rakhunga.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "tae-jun hands beginning to turn semi-transparent in the breeze",
+      "setting": "tae-jun fading hands",
+      "characters": [],
+      "action": "Tae-Jun's fingertips begin to dissolve into floating starlight as the psychic tether destabilizes.",
+      "mood": "time running out",
+      "sfx": "DISSOLVE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Mera connection weak ho raha hai... The Void Priests are injecting neuro-suppressants into my tank.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "ha-jun grabbing tae-jun fading hand tightly",
+      "setting": "hand grip close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun grabs his brother's fading hand with both of his: 'Don't let go! I'm coming right now!'",
+      "mood": "desperate grip",
+      "sfx": "TIGHT GRIP!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "Hold on, Hyung! Main gate se enter kar raha hoon!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "tae-jun smiling with radiant warmth and absolute faith",
+      "setting": "tae-jun serene close-up",
+      "characters": [],
+      "action": "Tae-Jun smiles calmly, his face bathed in starlight: 'I know you will. I have always believed in you, Little Sovereign.'",
+      "mood": "brotherly faith",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Mujhe tumpe pura bharosa hai. See you in Tartarus, Ha-Jun.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "tae-jun silhouette completely dissolving into golden particles",
+      "setting": "flower field wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun dissolves into millions of sparkling golden fireflies that rise into the twilight sky.",
+      "mood": "the parting",
+      "sfx": "SPARKLE-RISE..."
+    },
+    {
+      "id": "p24",
+      "shot": "the field of lilies dissolving back into cold reality",
+      "setting": "mindscape fade",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The purple lilies fade; the concrete cavern and flooded subsea tunnel crystallize back into view.",
+      "mood": "return to physical world",
+      "sfx": "FADE IN..."
+    },
+    {
+      "id": "p25",
+      "shot": "ha-jun eyes snapping open with blinding purple radiance",
+      "setting": "ha-jun eyes awake",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's eyes snap open; a shockwave of raw telekinetic force clears the water ten meters around him.",
+      "mood": "return with absolute clarity",
+      "sfx": "PULSE-WAVE!!"
+    },
+    {
+      "id": "p26",
+      "shot": "ha-jun landing softly onto the dry concrete floor",
+      "setting": "feet landing",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun drops lightly onto his boots, his coat settling smoothly around his knees.",
+      "mood": "grounded power",
+      "sfx": "STEP..."
+    },
+    {
+      "id": "p27",
+      "shot": "min-jae and baek rushing over: 'did you reach him?!'",
+      "setting": "cavern floor group",
+      "characters": [],
+      "action": "Min-Jae runs over: 'Ha-Jun! Did you make contact?! Is Tae-Jun really alive?!'",
+      "mood": "urgent inquiry",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Did you see him?! Is he okay?!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "ha-jun nodding with the most confident smile of his life",
+      "setting": "hero confident close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun smiles with warmth and steel: 'He's alive. And he's waiting for us in Tartarus Spire.'",
+      "mood": "affirmation of life",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Wo zinda hai. Aur wo hamara wait kar raha hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "kuro screeching a battle cry as his wings flare with mythic violet flames",
+      "setting": "kuro battle cry",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro spreads his massive wings, engulfing the cavern in blinding violet hellfire: 'Then let us march!'",
+      "mood": "the clarion call",
+      "sfx": "SKREEEE-FLAME!!"
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun drawing his sword pointing straight into the wormhole",
+      "setting": "portal threshold wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun points the Sanguine Fang directly into the center of the dimensional gate: 'Target: Tartarus Spire. Move out!'",
+      "mood": "stepping into the abyss",
+      "sfx": "MARCH FORWARD!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "TARTARUS SPIRE! ADVANCE!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    }
+  ]
+}

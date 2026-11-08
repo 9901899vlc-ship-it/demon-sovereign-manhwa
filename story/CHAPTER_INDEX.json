@@ -470,70 +470,70 @@
           "chapter": 64,
           "title": "The Last Photograph",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch064_script.json"
         },
         {
           "chapter": 65,
           "title": "The Unanswered Message",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch065_script.json"
         },
         {
           "chapter": 66,
           "title": "That Night",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch066_script.json"
         },
         {
           "chapter": 67,
           "title": "The Red-Eyed Stranger",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch067_script.json"
         },
         {
           "chapter": 68,
           "title": "The Brother's Secret",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch068_script.json"
         },
         {
           "chapter": 69,
           "title": "The Hidden Protection",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch069_script.json"
         },
         {
           "chapter": 70,
           "title": "The Forbidden Experiment",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch070_script.json"
         },
         {
           "chapter": 71,
           "title": "The Voice in the Memory",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch071_script.json"
         },
         {
           "chapter": 72,
           "title": "I Will Find You",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch072_script.json"
         },
         {
           "chapter": 73,
           "title": "The Brother Is Alive?",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch073_script.json"
         }
       ]

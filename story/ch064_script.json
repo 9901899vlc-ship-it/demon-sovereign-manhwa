@@ -1,0 +1,458 @@
+{
+  "chapter": 64,
+  "title": "The Last Photograph",
+  "arc": 7,
+  "arc_title": "THE BROTHER'S TRUTH",
+  "summary": "Ha-Jun and Min-Jae return to the abandoned Kang family apartment in Seoul. In Tae-Jun's old desk, Ha-Jun uncovers a hidden photograph carrying an encrypted demonic cipher.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "abandoned seoul apartment block at twilight wide shot",
+      "setting": "mapo residential district",
+      "characters": [],
+      "action": "A faded 1990s red-brick apartment complex stands quiet under an amber and purple twilight sky.",
+      "mood": "melancholic homecoming",
+      "sfx": "WIND SIGH..."
+    },
+    {
+      "id": "p02",
+      "shot": "ha-jun standing before rusted apartment door 402",
+      "setting": "apartment hallway",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun stands in the dim hallway, his hand hesitating inches away from the peeling wooden door labeled 402.",
+      "mood": "hesitation and nostalgia",
+      "sfx": "CREAK...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Saat saal baad... Main wapas yahin khada hoon jahan sab kuch chhin gaya tha.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "shot": "min-jae placing reassuring hand on ha-jun shoulder",
+      "setting": "apartment hallway",
+      "characters": [],
+      "action": "Min-Jae gently rests his hand on Ha-Jun's shoulder: 'We are with you, bro. Take your time.'",
+      "mood": "steadfast loyalty",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Ha-Jun, relax. Hum dono tumhare peeche hain.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "kuro perching on the banister eyeing the locks",
+      "setting": "apartment hallway",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro tilts his raven head, his ruby eyes glinting in the dark: 'A faint blood ward still lingers on this threshold.'",
+      "mood": "guardian observation",
+      "sfx": "PURR...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Yeh lock simple metal nahi hai. Ispe Tae-Jun ka blood-barrier laga tha.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "ha-jun touching door handle with glowing violet finger",
+      "setting": "door lock close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A tiny spark of Ha-Jun's violet mana touches the rusted brass lock; the ancient blood seal recognizes him and dissolves.",
+      "mood": "ward dissolving",
+      "sfx": "CHIME-CLICK..."
+    },
+    {
+      "id": "p06",
+      "shot": "door swinging open into dusty apartment interior",
+      "setting": "apartment threshold",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The door groans inward, revealing dust motes floating in sunbeams across a frozen-in-time living room.",
+      "mood": "stepping into the past",
+      "sfx": "CREEEEAK..."
+    },
+    {
+      "id": "p07",
+      "shot": "living room frozen in time with covered furniture",
+      "setting": "living room wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "White dust sheets drape over sofas; an old tube television and yellowed family calendar still hang on the wall.",
+      "mood": "haunting silence",
+      "sfx": "DUST SHIFT..."
+    },
+    {
+      "id": "p08",
+      "shot": "ha-jun walking down narrow hallway toward tae-jun room",
+      "setting": "hallway tracking",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun slowly walks past cracked family portraits, his boots leaving clean footprints in the thick grey dust.",
+      "mood": "somber journey",
+      "sfx": "FOOTSTEPS..."
+    },
+    {
+      "id": "p09",
+      "shot": "ha-jun turning the knob of tae-jun bedroom door",
+      "setting": "bedroom door",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The door marked with a peeling soccer sticker opens into his elder brother's private sanctum.",
+      "mood": "entering the brother's room",
+      "sfx": "CLICK-CREAK..."
+    },
+    {
+      "id": "p10",
+      "shot": "tae-jun dusty bedroom interior wide shot",
+      "setting": "tae-jun bedroom",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Bookshelves filled with engineering texts, a study desk covered in notebooks, and a guitar case in the corner.",
+      "mood": "intact sanctuary",
+      "sfx": "SILENCE..."
+    },
+    {
+      "id": "p11",
+      "shot": "ha-jun gently touching tae-jun study desk surface",
+      "setting": "study desk medium",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun touches the worn wooden desk edge where Tae-Jun used to help him with elementary math homework.",
+      "mood": "tender grief",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Tae-Jun hyung yahin baith kar ghanton padhta tha... Taaki mujhe achha school mil sake.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "kuro hopping onto the desk tapping wood with beak",
+      "setting": "desk top close-up",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro taps his obsidian beak against the left drawer cavity: 'Look beneath the bottom panel, Ha-Jun.'",
+      "mood": "keensense detection",
+      "sfx": "TAP-TAP...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Wood ke andar hollow space hai. Demonic seal detected.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "ha-jun pulling out bottom drawer finding secret latch",
+      "setting": "desk drawer",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun slides out the bottom drawer; feeling along the rear mahogany grain, he clicks a spring-loaded latch.",
+      "mood": "secret mechanism",
+      "sfx": "SNAP-CLICK!"
+    },
+    {
+      "id": "p14",
+      "shot": "false bottom popping open revealing hidden metal box",
+      "setting": "hidden compartment",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A secret false bottom tilts open, exposing a velvet-lined lead box sealed with silver wire.",
+      "mood": "unearthing relics",
+      "sfx": "CREAK..."
+    },
+    {
+      "id": "p15",
+      "shot": "ha-jun lifting out old analogue photograph",
+      "setting": "box interior close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Inside lies an old glossy photograph, an encrypted optical mini-disc, and a silver hunter dog-tag.",
+      "mood": "priceless findings",
+      "sfx": "GASP..."
+    },
+    {
+      "id": "p16",
+      "shot": "extreme macro on photograph: namsan tower childhood",
+      "setting": "photograph macro",
+      "characters": [],
+      "action": "The photograph shows 7-year-old Ha-Jun eating ice cream while 12-year-old Tae-Jun ruffles his hair with a big brotherly grin.",
+      "mood": "pure childhood innocence",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "Wo aakhri summer vacation... Jab sab kuch theek tha.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "ha-jun eyes widening as he spots anomaly in photo",
+      "setting": "ha-jun face close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's eyes narrow as he notices the observation deck reflection behind them in the glass.",
+      "mood": "shocking detail",
+      "sfx": "PULSE...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Wait... Yeh background window mein reflection kiski hai?!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "macro on background glass reflection in photo",
+      "setting": "photo detail",
+      "characters": [],
+      "action": "Reflected in the glass twenty feet behind the boys: a tall man in a black trench coat with burning crimson eyes watching them.",
+      "mood": "sinister stalker",
+      "sfx": "CHILL..."
+    },
+    {
+      "id": "p19",
+      "shot": "kuro flaming ruby eye inspecting the photograph",
+      "setting": "photograph top",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro breathes a wisp of purple hellfire across the photograph's surface without burning the paper.",
+      "mood": "unveiling the cipher",
+      "sfx": "FWOOSH...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Paper fiber mein microscopic blood runes hain. Tae-Jun left a message.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "glowing violet runes appearing on photo back",
+      "setting": "photo back macro",
+      "characters": [],
+      "action": "Written in glowing purple blood ink on the back: 'Project Chimera. Section 9 Vault 7. Don't trust Chairman Song.'",
+      "mood": "hidden warning",
+      "sfx": "GLOW..."
+    },
+    {
+      "id": "p21",
+      "shot": "ha-jun clutching photo with trembling fingers",
+      "setting": "hands close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun grips the photo; his knuckles turn white as memories of that summer flash with new dark meaning.",
+      "mood": "shattered illusions",
+      "sfx": "TREMBLE...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Tae-Jun ko shuru se pata tha... Hum pe saalon se nazar rakhi ja rahi thi!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "min-jae leaning over shoulder looking stunned",
+      "setting": "bedroom medium",
+      "characters": [],
+      "action": "Min-Jae gasps: 'Section 9 Vault 7? That was the classified deep bio-research wing shut down five years ago!'",
+      "mood": "historical confirmation",
+      "sfx": "SHOCK...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Vault 7?! Mere father Section 9 records mein kehte the wo lab illegal thi!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "ha-jun picking up the optical mini-disc",
+      "setting": "hand close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun lifts the heavy metallic optical disc; its surface is etched with micro-circuits and demonic sigils.",
+      "mood": "the second key",
+      "sfx": "METALLIC CLINK..."
+    },
+    {
+      "id": "p24",
+      "shot": "ha-jun activating the eye of the night relic",
+      "setting": "ha-jun face dramatic",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's right iris shifts into the radiant golden pupil of the Eye of the Night.",
+      "mood": "relic activation",
+      "sfx": "PULSE-GLOW!!"
+    },
+    {
+      "id": "p25",
+      "shot": "optical disc projecting holographic particles into bedroom",
+      "setting": "bedroom wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The disc responds to his demonic mana, projecting floating crimson-cyan volumetric light particles into the room.",
+      "mood": "hologram booting",
+      "sfx": "HUMMMMM..."
+    },
+    {
+      "id": "p26",
+      "shot": "distorted holographic silhouette forming in center",
+      "setting": "holographic center",
+      "characters": [],
+      "action": "Static and digital scanlines resolve into the life-sized three-dimensional projection of a young man.",
+      "mood": "projection forming",
+      "sfx": "STATIC-BEEP..."
+    },
+    {
+      "id": "p27",
+      "shot": "tae-jun face crystallizing in the hologram",
+      "setting": "hologram face",
+      "characters": [],
+      "action": "A 15-year-old Kang Tae-Jun appears—wearing a battered leather jacket, bandaged hands, and tired, resolute eyes.",
+      "mood": "the brother appears",
+      "sfx": "VIBRATION..."
+    },
+    {
+      "id": "p28",
+      "shot": "tae-jun hologram looking directly toward viewer",
+      "setting": "hologram close-up",
+      "characters": [],
+      "action": "The holographic recording speaks in a warm, steady voice: 'Ha-Jun... Agar tum yeh dekh rahe ho...'",
+      "mood": "brother's voice",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Ha-Jun... Agar tum yeh dekh rahe ho, toh meri prediction sach ho chuki hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "ha-jun tears spilling as he stares at brother's image",
+      "setting": "ha-jun emotional close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tears stream down Ha-Jun's cheeks as he reaches out toward the flickering light, unable to touch him.",
+      "mood": "heartbreaking reunion",
+      "sfx": "TEAR SPLASH...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Hyung...",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "tae-jun hologram issuing grave warning cliffhanger",
+      "setting": "hologram dramatic",
+      "characters": [],
+      "action": "Tae-Jun's holographic eyes turn deadly serious: 'Listen carefully. Our parents didn't die in an accident. They were hunted.'",
+      "mood": "the dark revelation",
+      "sfx": "CRACKLE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Hamare parents kisi accident mein nahi mare. They were assassinated by Section 9.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,448 @@
+{
+  "chapter": 72,
+  "title": "I Will Find You",
+  "arc": 7,
+  "arc_title": "THE BROTHER'S TRUTH",
+  "summary": "Ha-Jun unites Section 9's elite forces and the Iron Demon Vanguard, delivering an epic rallying speech before marching through the Grand Gate into Tartarus.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "incheon harbor staging ground under roaring midnight thunderstorm",
+      "setting": "incheon docks wide",
+      "characters": [],
+      "action": "A thousand industrial floodlights illuminate the massive concrete pier of Incheon harbor under torrential rain.",
+      "mood": "massive staging area",
+      "sfx": "THUNDER-ROAR!!"
+    },
+    {
+      "id": "p02",
+      "shot": "five hundred armored section 9 hunters lined up in ranks",
+      "setting": "hunter battalions",
+      "characters": [],
+      "action": "Five hundred elite Section 9 hunters in high-tech black power armor and plasma rail-rifles stand in rigid military formation.",
+      "mood": "human military vanguard",
+      "sfx": "HEEL-CLICK-SALUTE!!"
+    },
+    {
+      "id": "p03",
+      "shot": "five thousand iron demon legionnaires standing opposite them",
+      "setting": "demon ranks wide",
+      "characters": [],
+      "action": "Across the tarmac stand five thousand towering Iron Demons in obsidian plate armor, holding ten-foot halberds.",
+      "mood": "demonic legion allied",
+      "sfx": "HALBERD SLAM!!"
+    },
+    {
+      "id": "p04",
+      "shot": "tensed atmosphere as humans and demons eye each other in rain",
+      "setting": "standoff tension",
+      "characters": [],
+      "action": "Human hunters grip their rifles nervously while demon warriors flare glowing red eyes through their visors.",
+      "mood": "fragile alliance",
+      "sfx": "TENSION-DRIP...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "Hazaaron saal ki dushmani... Ek chhat ke neeche khadi thi.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "captain baek stepping up to the raised shipping container podium",
+      "setting": "podium side",
+      "characters": [],
+      "action": "Captain Baek taps the public address microphone: 'Attention all units! Stand down your weapons! The Sovereign approaches!'",
+      "mood": "announcing the king",
+      "sfx": "MIC-FEEDBACK...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "baek",
+          "text": "All battlegroups, stand at attention! The Supreme Commander is here!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "thunder crashes as a column of pure violet light strikes the pier",
+      "setting": "pier center strike",
+      "characters": [],
+      "action": "A blinding bolt of violet celestial lightning smites the center tarmac with a deafening seismic boom.",
+      "mood": "the king's descent",
+      "sfx": "KABOOOOM-FLASH!!"
+    },
+    {
+      "id": "p07",
+      "shot": "smoke clears revealing ha-jun kang in full sovereign regalia",
+      "setting": "smoke clearing hero",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun Kang stands in the crater—wearing his midnight-black coat with silver dragon embroidery, the Crown gleaming on his brow.",
+      "mood": "the supreme monarch",
+      "sfx": "WIND-WHIRL..."
+    },
+    {
+      "id": "p08",
+      "shot": "kuro hovering above ha-jun with 20-foot shadow wingspan",
+      "setting": "kuro aerial",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Kuro circles overhead, his wings trailing violet stardust and crimson embers across the drenched night sky.",
+      "mood": "the mythical familiar",
+      "sfx": "FLAP-ROAR!!"
+    },
+    {
+      "id": "p09",
+      "shot": "five thousand iron demons dropping to one knee in thunderous unison",
+      "setting": "demon kneel wide",
+      "characters": [],
+      "action": "All five thousand demon warriors slam their right fists against their chestplates and drop to one knee with a booming crash.",
+      "mood": "demonic fealty",
+      "sfx": "THUNDER-KNEEL!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "demon_vanguard",
+          "text": "HAIL THE TRUE SOVEREIGN! HAIL LORD HA-JUN!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "section 9 hunters hesitating then snapping crisp military salutes",
+      "setting": "hunter reaction",
+      "characters": [],
+      "action": "Seeing the demons kneel with absolute discipline, the human hunters lower their weapons and snap crisp military salutes.",
+      "mood": "human respect earned",
+      "sfx": "SNAP-SALUTE!!"
+    },
+    {
+      "id": "p11",
+      "shot": "ha-jun stepping up to the edge of the podium overlooking the army",
+      "setting": "podium wide hero",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun looks out over the unified force of five thousand soldiers; the rain slides off his face as he prepares to speak.",
+      "mood": "the commander's gaze",
+      "sfx": "RAIN DRUM..."
+    },
+    {
+      "id": "p12",
+      "shot": "ha-jun amplifying his voice with the sovereign crown",
+      "setting": "voice amplification",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The Crown of the Sovereign pulses; Ha-Jun's voice carries across the entire three-mile harbor like rolling thunder.",
+      "mood": "voice of command",
+      "sfx": "RESONANCE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Human hunters... Aur Iron Demon warriors... Meri baat dhyan se suno.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "close-up on human hunter faces listening with rapt attention",
+      "setting": "hunter faces",
+      "characters": [],
+      "action": "Young human soldiers, veteran commanders, and demon captains listen with intense focus, breath fogging in the cold.",
+      "mood": "rapt attention",
+      "sfx": "SILENCE..."
+    },
+    {
+      "id": "p14",
+      "shot": "ha-jun addressing their ancient history of conflict",
+      "setting": "ha-jun speaking passionate",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun: 'For thousands of years, humans and demons were made to butcher each other by puppet-masters in the shadows.'",
+      "mood": "exposing the manipulation",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Humein bataya gaya tha hum ek doosre ke dushman hain. Par hamara asli dushman hamare darmiyan nahi hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "shot": "ha-jun pointing his blood blade toward the swirling undersea portal",
+      "setting": "blade pointing at portal",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun points the Sanguine Fang toward the glowing undersea rift: 'The Void Primordial has fed on our war for centuries!'",
+      "mood": "identifying the true enemy",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "The Void Primordial Tartarus mein baith kar hamari barbadi ka tamasha dekh raha hai!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "ha-jun declaring the objective of the campaign",
+      "setting": "ha-jun resolute",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun: 'Tonight, we don't march to conquer. We march to rescue! We march to save the brother who gave his life for this world!'",
+      "mood": "the noble mission",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Aaj raat hum kisi territory ko jeetne nahi ja rahe. We march to bring Kang Tae-Jun home!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "the combined army roaring in wild, earth-shaking approval",
+      "setting": "army roar wide",
+      "characters": [],
+      "action": "A unified roar from six thousand human and demon throats shakes the harbor; rifles and halberds are raised to the heavens.",
+      "mood": "earth-shaking roar",
+      "sfx": "ROARRRRRRRR!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "combined_army",
+          "text": "BRING HIM HOME!! HAIL THE SOVEREIGN!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "min-jae smiling broadly loading high-explosive magazine",
+      "setting": "min-jae ready",
+      "characters": [],
+      "action": "Min-Jae slams an overcharged plasma magazine into his rifle: 'Now that's a speech I'd follow straight to hell.'",
+      "mood": "brotherly pride",
+      "sfx": "MAGAZINE-CLACK!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "I'm with you to the bitter end, brother.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "ha-jun drawing a single drop of blood from his thumb",
+      "setting": "thumb blood close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun nicks his thumb; a single drop of royal crimson blood falls toward the pier concrete.",
+      "mood": "blood oath ritual",
+      "sfx": "DRIP..."
+    },
+    {
+      "id": "p20",
+      "shot": "blood droplet touching the ground igniting a massive summoning array",
+      "setting": "pier ground array",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The droplet touches the concrete, erupting into a hundred-meter geometric blood magic pentagram across the tarmac.",
+      "mood": "mass teleportation circle",
+      "sfx": "FWOOOOOSH-GLOW!!"
+    },
+    {
+      "id": "p21",
+      "shot": "ha-jun raising both hands connecting all ten relics to the array",
+      "setting": "relic empowerment",
+      "characters": [
+        "hajun"
+      ],
+      "action": "All ten Relics hover in the sky, funneling massive columns of rainbow-violet mana into the summoning circle.",
+      "mood": "tenfold power injection",
+      "sfx": "COSMIC HUMMM!!"
+    },
+    {
+      "id": "p22",
+      "shot": "the undersea portal expanding into a gargantuan 300-foot archway",
+      "setting": "portal expansion",
+      "characters": [],
+      "action": "Under the sea, the dimensional gate tears open three times wider, ready to swallow whole battlegroups.",
+      "mood": "gate opened to army scale",
+      "sfx": "TEAR-EXPAND!!"
+    },
+    {
+      "id": "p23",
+      "shot": "captain baek drawing his dual energy sabers with grim joy",
+      "setting": "baek battle ready",
+      "characters": [],
+      "action": "Captain Baek ignites two glowing blue plasma sabers: 'Section 9 Strike Teams, vanguard formation! March into the breach!'",
+      "mood": "human vanguard moves",
+      "sfx": "SNAP-HISS!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "baek",
+          "text": "Strike teams, move out! Protect the Sovereign's flanks!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "iron demon vanguard stamping forward in heavy rhythmic march",
+      "setting": "demon march tracking",
+      "characters": [],
+      "action": "Five thousand armored demons advance in lockstep, their heavy metal boots shaking the concrete in rhythmic thunder.",
+      "mood": "demon legion advances",
+      "sfx": "STOMP-STOMP-STOMP!!"
+    },
+    {
+      "id": "p25",
+      "shot": "ha-jun leading the very tip of the charge into the portal",
+      "setting": "portal entry charge",
+      "characters": [
+        "hajun"
+      ],
+      "action": "At the apex of the wedge formation, Ha-Jun leaps directly into the swirling dimensional gate, black coat streaming.",
+      "mood": "leading from the front",
+      "sfx": "LEAP-BLUR!!"
+    },
+    {
+      "id": "p26",
+      "shot": "soldiers entering the dimensional slipstream in blinding flashes",
+      "setting": "slipstream transition",
+      "characters": [],
+      "action": "Column after column of soldiers plunge through the shimmering violet event horizon, disappearing into the void.",
+      "mood": "army crossing dimensions",
+      "sfx": "FLASH-FLASH-FLASH!!"
+    },
+    {
+      "id": "p27",
+      "shot": "incheon pier gradually falling into quiet behind the departing army",
+      "setting": "empty pier wide",
+      "characters": [],
+      "action": "The pier grows still; only the cooling rain and fading mana steam linger on the empty concrete tarmac.",
+      "mood": "the world left behind",
+      "sfx": "RAIN PATTER..."
+    },
+    {
+      "id": "p28",
+      "shot": "inside the dimensional hyperspace tunnel: ha-jun rocketing forward",
+      "setting": "hyperspace tunnel",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun flies through a kaleidoscopic vortex of purple stardust, nebula gas, and shattered space-time geometry.",
+      "mood": "hyperspace flight",
+      "sfx": "ROARING TRANSIT!!",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Saat saal ka intezaar khatam hua... Main aa raha hoon, Tae-Jun.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "kuro flying beside him his feathers blazing like comets",
+      "setting": "kuro comet flight",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Kuro matches his speed, leaving a blazing contrail of purple solar wind: 'Tartarus perimeter in five seconds!'",
+      "mood": "approaching destination",
+      "sfx": "SKREEEE!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Hold on! Atmospheric re-entry into the Abyss!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "the hyperspace tunnel breaking open revealing the tartarus abyss cliffhanger",
+      "setting": "abyss arrival wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The portal shatters outward: before them looms the terrifying, alien cosmos of Tartarus—a black sky of shattered moons.",
+      "mood": "arrival in tartarus",
+      "sfx": "SHATTER-CRASH!!",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "TARTARUS — THE SEAT OF THE PRIMORDIAL VOID.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,463 @@
+{
+  "chapter": 68,
+  "title": "The Brother's Secret",
+  "arc": 7,
+  "arc_title": "THE BROTHER'S TRUTH",
+  "summary": "Dr. Vance reveals the horrifying truth: Tae-Jun possessed the Guardian Bloodline and willingly endured years of agony as Subject Zero to prevent Section 9 from hunting Ha-Jun.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "vance on the wall monitor laughing with chilling arrogance",
+      "setting": "wall monitor close-up",
+      "characters": [],
+      "action": "Dr. Victor Vance swirls a glass of red wine on screen, his cybernetic optic zooming in on Ha-Jun's face.",
+      "mood": "chilling villainy",
+      "sfx": "CHUCKLE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "vance",
+          "text": "Rip this bunker in half? Ah, the raw temper of the Sovereign. Just like your father.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p02",
+      "shot": "ha-jun gripping the edge of the metal terminal crushing the steel",
+      "setting": "console destruction",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's bare fingers crush the three-inch solid steel edge of the terminal like wet cardboard.",
+      "mood": "superhuman strength",
+      "sfx": "METAL CRUNCH!!"
+    },
+    {
+      "id": "p03",
+      "shot": "baek raising assault rifle toward the camera lens",
+      "setting": "theater medium",
+      "characters": [],
+      "action": "Baek aims at the ceiling camera: 'Vance, you violated the Geneva conventions and the Hunter Accords. Surrender the coordinates.'",
+      "mood": "military authority",
+      "sfx": "AIM...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "baek",
+          "text": "Your crimes are punishable by immediate execution, Vance.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "vance scoffing at baek on screen",
+      "setting": "monitor close-up",
+      "characters": [],
+      "action": "Vance sneers: 'Hunter Accords? Written by cowards afraid of human evolution. Look at what your beloved Tae-Jun achieved!'",
+      "mood": "delusional pride",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "vance",
+          "text": "Tae-Jun was not my victim, Captain. He was my finest collaborator.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "ha-jun shouting in rage: 'collaborator?! he was your prisoner!'",
+      "setting": "ha-jun furious shout",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's voice thunders with demonic resonance: 'He was fifteen years old! You tortured a child!'",
+      "mood": "furious denial",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "TUMNE USSE TORTURE KIYA! WO BHAAG NAHI SAKTA THA!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "vance pressing a button playing video record 089",
+      "setting": "monitor split screen",
+      "characters": [],
+      "action": "Vance smirks: 'Is that what you believe? Watch record 089. See the contract he signed with his own blood.'",
+      "mood": "video playback",
+      "sfx": "CLICK-PLAY..."
+    },
+    {
+      "id": "p07",
+      "shot": "surveillance footage from 6 years ago: tae-jun in white holding cell",
+      "setting": "security footage grainy",
+      "characters": [],
+      "action": "Grainy black-and-white footage plays: 16-year-old Tae-Jun, covered in fresh bandages, sits across an interrogation table from Vance.",
+      "mood": "the secret meeting",
+      "sfx": "TAPE NOISE..."
+    },
+    {
+      "id": "p08",
+      "shot": "footage audio: tae-jun speaking clearly and coldly",
+      "setting": "security footage medium",
+      "characters": [],
+      "action": "Tae-Jun speaks without fear: 'You want the Sovereign gene. I have it. But you will never touch Ha-Jun.'",
+      "mood": "the pact revealed",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Mera blood sample lo, meri marrow lo, jo experiment karna hai karo. Par Ha-Jun ke aas-paas tumhara koi spy nahi dikhna chahiye.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "footage: young vance nodding with a predatory grin",
+      "setting": "security footage close-up",
+      "characters": [],
+      "action": "Young Vance nods: 'A fair exchange, Subject Zero. One brother's agony for the other's peaceful childhood.'",
+      "mood": "the devil's bargain"
+    },
+    {
+      "id": "p10",
+      "shot": "ha-jun collapsing against terminal console shaking his head",
+      "setting": "console medium",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun stares at the screen in horror; tears drop freely onto his boots as the magnitude of Tae-Jun's sacrifice sinks in.",
+      "mood": "unbearable revelation",
+      "sfx": "GASP...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Mera harmless school life... Meri normal zindagi... Wo sab iske khoon se khareedi gayi thi!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "vance explaining the chimera cores created from tae-jun blood",
+      "setting": "monitor schematic",
+      "characters": [],
+      "action": "Vance points to a 3D hologram of a synthetic purple core: 'Every synthetic demon core we engineered used Tae-Jun's marrow as a stabilizing catalyst.'",
+      "mood": "the biological truth",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "vance",
+          "text": "Without his Royal Guardian antibodies, synthetic demon cores would detonate their human hosts within seconds.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "min-jae clenching fists in disgusted fury",
+      "setting": "theater floor",
+      "characters": [],
+      "action": "Min-Jae: 'You treated an innocent boy like a living blood battery for your illegal army!'",
+      "mood": "moral outrage",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "You are a monster, Vance! A sick, twisted monster!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "vance smiling warmly at ha-jun on screen",
+      "setting": "monitor close-up",
+      "characters": [],
+      "action": "Vance leans closer into the camera: 'And where is Tae-Jun now, you ask? He is beyond mortal pain. He has been promoted.'",
+      "mood": "the terrible update",
+      "sfx": "LEAN...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "vance",
+          "text": "He is in the Citadels of Tartarus. The Void Primordial needed a catalyst of Royal Blood to breach the Prime Gate.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "ha-jun looking up with terrifying stillness",
+      "setting": "ha-jun expressionless",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's weeping stops instantly; his expression goes completely blank and cold like black volcanic glass.",
+      "mood": "deathly calm before the storm",
+      "sfx": "FREEZE..."
+    },
+    {
+      "id": "p15",
+      "shot": "a profound quiet falling over the entire room",
+      "setting": "theater wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The ambient electronic hum of the facility drops an octave; the air temperature plummets thirty degrees.",
+      "mood": "temperature drop",
+      "sfx": "FROST-CREEP..."
+    },
+    {
+      "id": "p16",
+      "shot": "purple frost spreading across the water on the floor",
+      "setting": "water floor close-up",
+      "characters": [],
+      "action": "The ankle-deep water freezes instantly into crystalline purple ice, cracking under sheer demonic pressure.",
+      "mood": "mana freeze",
+      "sfx": "CRACKLE-ICE!!"
+    },
+    {
+      "id": "p17",
+      "shot": "kuro puffing black feathers his voice dropping low",
+      "setting": "kuro shoulder",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro murmurs: 'The Sovereign's Wrath has awakened. Even I dare not speak.'",
+      "mood": "ominous reverence",
+      "sfx": "WHISPER..."
+    },
+    {
+      "id": "p18",
+      "shot": "vance on screen looking slightly perturbed by sensor readings",
+      "setting": "monitor reaction",
+      "characters": [],
+      "action": "Vance glances off-screen at warning readouts: 'Energy spike of class SSS? How can a boy generate that without a core?!'",
+      "mood": "villain's first panic",
+      "sfx": "BLINK...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "vance",
+          "text": "Wait... Your mana density... What are those readings?!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "ha-jun raising his right hand toward the ceiling",
+      "setting": "ha-jun pose",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun raises his right hand into the air, fingers splayed; dark violet gravitational lightning sparks between his fingertips.",
+      "mood": "gathering the storm",
+      "sfx": "ZZZT-SPARK!!"
+    },
+    {
+      "id": "p20",
+      "shot": "all ten relics manifesting around ha-jun in full visual glory",
+      "setting": "theater wide aura",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Feather, Ring, Bone, Heart, Fang, Eye, Chains, Crown, Devourer, Hourglass ignite around his body in a ring of planetary fire.",
+      "mood": "tenfold majesty",
+      "sfx": "CELESTIAL ROAR!!"
+    },
+    {
+      "id": "p21",
+      "shot": "ha-jun speaking in the ancient sovereign tongue",
+      "setting": "ha-jun mouth close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Two voices overlap from Ha-Jun's lips—his own young voice and the ancient titan Asmodaius: 'Vance.'",
+      "mood": "dual monarch voice",
+      "sfx": "DOUBLE-ECHO...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Vance. Tumne socha tha tum shaitan ko control kar rahe the.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "ha-jun closing his fist in a crushing motion",
+      "setting": "fist close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun clenches his fist with decisive finality: 'You were only building your own tomb.'",
+      "mood": "the sentence passed",
+      "sfx": "CRUSH!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Tumne sirf apni qabar khodi hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "the reinforced concrete ceiling above beginning to groan and cave",
+      "setting": "theater ceiling",
+      "characters": [],
+      "action": "A thousand tons of steel rebar and granite bedrock groan under an invisible gravitational press.",
+      "mood": "seismic pressure",
+      "sfx": "CREEEEAK-CRACK!!"
+    },
+    {
+      "id": "p24",
+      "shot": "vance shouting into his mic: 'release subject chimera prime!'",
+      "setting": "monitor panic",
+      "characters": [],
+      "action": "Vance slams his fist on his desk: 'Release Chimera Prime! Tear them to pieces before the ceiling collapses!'",
+      "mood": "desperate counter-measure",
+      "sfx": "SHOUT!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "vance",
+          "text": "CHIMERA PRIME RELEASE SEQUENCE DELTA! KILL THEM ALL!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "hydraulic floor pod rising from center of theater",
+      "setting": "theater center floor",
+      "characters": [],
+      "action": "A twenty-meter hydraulic elevator cylinder rises from the center floor, venting toxic yellow neuro-toxin gas.",
+      "mood": "boss platform emerges",
+      "sfx": "HISS-CLANK!!"
+    },
+    {
+      "id": "p26",
+      "shot": "massive 15-foot cyber-demon beast stepping out of mist",
+      "setting": "fog reveal",
+      "characters": [],
+      "action": "A nightmarish fifteen-foot hulking monstrosity emerges—four arms with chainsaw blades, cybernetic spine, and six glowing red oculars.",
+      "mood": "the chimera prime",
+      "sfx": "ROARRRR-HISS!!"
+    },
+    {
+      "id": "p27",
+      "shot": "chimera prime roaring with deafening sonic shockwave",
+      "setting": "beast roar front",
+      "characters": [],
+      "action": "The beast roars with 160 decibels of sonic fury, blowing away the fog and cracking the glass server screens.",
+      "mood": "sonic roar",
+      "sfx": "SKREEEE-BOOOM!!"
+    },
+    {
+      "id": "p28",
+      "shot": "baek and min-jae raising weapons covering ears",
+      "setting": "theater side",
+      "characters": [],
+      "action": "Min-Jae and Baek stumble back, ears ringing from the sonic boom: 'What the hell did Vance build?!'",
+      "mood": "allied shock",
+      "sfx": "GROAN..."
+    },
+    {
+      "id": "p29",
+      "shot": "ha-jun stepping calmly onto the frozen ice without flinching",
+      "setting": "hero walk",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun walks toward the roaring titan with zero fear, the Sanguine Fang igniting with pitch-black hellfire in his grip.",
+      "mood": "fearless stride",
+      "sfx": "STEP...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Tae-Jun hyung ke dard ka pehla installment... Yeh kachra chukayega.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun locking eyes with chimera prime cliffhanger",
+      "setting": "clash setup",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun raises the black blood katana, purple eclipse rings spinning in his irises: 'Die.'",
+      "mood": "boss fight initiated",
+      "sfx": "SLASH READY!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Mar jao.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    }
+  ]
+}

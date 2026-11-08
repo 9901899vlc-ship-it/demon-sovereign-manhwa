@@ -1,0 +1,433 @@
+{
+  "chapter": 73,
+  "title": "The Brother Is Alive?",
+  "arc": 7,
+  "arc_title": "THE BROTHER'S TRUTH",
+  "summary": "Breaching Tartarus, Ha-Jun infiltrates the Spire of Frozen Souls, coming face-to-face with Kang Tae-Jun floating in the cryogenic stasis tube—whose eyes snap open in recognition!",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "the alien landscape of tartarus: floating obsidian continents",
+      "setting": "tartarus sky wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A terrifying cosmic abyss: floating islands of black jagged glass drift beneath a void sky rent by green cosmic lightning.",
+      "mood": "the abyss landscape",
+      "sfx": "COSMIC HUMMM..."
+    },
+    {
+      "id": "p02",
+      "shot": "in the center of the void: the colossal tartarus spire",
+      "setting": "tartarus spire wide",
+      "characters": [],
+      "action": "A two-mile-high needle of seamless obsidian and twisted bone rises from a sea of black liquid void energy.",
+      "mood": "the citadel of terror",
+      "sfx": "LOOM..."
+    },
+    {
+      "id": "p03",
+      "shot": "ha-jun and the unified army landing on the spire perimeter bridge",
+      "setting": "perimeter bridge landing",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun impacts the black bridge in a three-point superhero landing; his army lands in disciplined waves behind him.",
+      "mood": "landing on enemy soil",
+      "sfx": "CRASH-LAND!!"
+    },
+    {
+      "id": "p04",
+      "shot": "hundreds of void gargoyles swooping down from spire ramparts",
+      "setting": "gargoyle aerial swarm",
+      "characters": [],
+      "action": "Swarming from the gothic spires above, hundreds of winged void gargoyles dive with screeching metal talons.",
+      "mood": "aerial ambush",
+      "sfx": "SKREEECH-DIVE!!"
+    },
+    {
+      "id": "p05",
+      "shot": "baek and min-jae opening fire with anti-matter rifles",
+      "setting": "bridge defense",
+      "characters": [],
+      "action": "Captain Baek and Min-Jae unleash synchronized anti-matter bursts, blasting three gargoyles out of the sky in purple explosions.",
+      "mood": "flank defense engaged",
+      "sfx": "PEW-PEW-KABOOM!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "baek",
+          "text": "Ha-Jun, go straight for the core! We'll hold the perimeter bridge!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "iron demon vanguard forming impenetrable shield wall",
+      "setting": "shield wall",
+      "characters": [],
+      "action": "The Iron Demons lock their 8-foot tower shields together, repelling the gargoyle dive-bombers with crushing counter-thrusts.",
+      "mood": "impenetrable defense",
+      "sfx": "CLANG-SHIELD-BASH!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "demon_captain",
+          "text": "FOR THE DEMON SOVEREIGN!! HOLD THE LINE!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "ha-jun blitzing past the frontlines straight into the spire entrance",
+      "setting": "spire breach blur",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun blurs into Mach 4 speed, a straight line of violet lightning carving through the fortress blast doors.",
+      "mood": "supersonic breach",
+      "sfx": "BLUR-BOOM!!"
+    },
+    {
+      "id": "p08",
+      "shot": "ha-jun sprinting up endless spiral staircase inside the spire",
+      "setting": "spiral staircase",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun runs vertically up the inner wall of the hollow spire, gravity bending beneath his boots as he ascends 80 floors.",
+      "mood": "wall running ascent",
+      "sfx": "STEP-STEP-BLUR!!"
+    },
+    {
+      "id": "p09",
+      "shot": "void priests in ragged black robes casting curses from platforms",
+      "setting": "cultist platforms",
+      "characters": [],
+      "action": "Robed Void Priests chant ancient hexes, hurling spears of corrosive black acid at his path.",
+      "mood": "magical interception",
+      "sfx": "HEX-HISS!!"
+    },
+    {
+      "id": "p10",
+      "shot": "kuro slicing through void priests with shadow blade wings",
+      "setting": "aerial counter-attack",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro swoops through the platforms like a scythe of midnight, slicing through the priests' staves and silencing their chants.",
+      "mood": "familiar clearing path",
+      "sfx": "SLASH-SLASH!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Keep moving, Ha-Jun! The Chamber of Frozen Souls is right above!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "ha-jun leaping through the ceiling into chamber level 88",
+      "setting": "chamber entry",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun punches straight through the solid obsidian ceiling, emerging into a vast circular chamber of pure zero-degree frost.",
+      "mood": "shattering into the sanctum",
+      "sfx": "CRASH-FROST!!"
+    },
+    {
+      "id": "p12",
+      "shot": "chamber of frozen souls: thousands of glowing cyan stasis pods",
+      "setting": "chamber interior wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A breathtaking, chilling sight: thousands of cylindrical glass pods filled with glowing cyan liquid, holding slumbering warriors.",
+      "mood": "the soul repository",
+      "sfx": "HUMMM-CHILL..."
+    },
+    {
+      "id": "p13",
+      "shot": "in the elevated center: the primary sovereign stasis pod",
+      "setting": "central pod pedestal",
+      "characters": [
+        "hajun"
+      ],
+      "action": "On a raised dias of interlocking skull carvings stands a massive, reinforced glass pod twice the size of the others.",
+      "mood": "the target found",
+      "sfx": "PULSE-GLOW..."
+    },
+    {
+      "id": "p14",
+      "shot": "ha-jun slowly walking up the marble steps his breath frosting",
+      "setting": "stair climb tracking",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun ascends the stairs slowly, his heart hammering against his ribs; cold white vapor escapes his parted lips.",
+      "mood": "the breathless approach",
+      "sfx": "FOOTSTEPS ON FROST...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Saat saal... Saat saal ka intezaar...",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "shot": "seventh void sovereign malakor descending from ceiling shadows",
+      "setting": "boss drop",
+      "characters": [],
+      "action": "From the vaulted ceiling drops the Seventh Void Sovereign 'Malakor'—a 12-foot wraith in bone armor with six burning green eyes.",
+      "mood": "the guardian of tartarus",
+      "sfx": "THUD-DROP!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "malakor",
+          "text": "Mortal vermin... You dare trespass in the chamber of the Great Offering?!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "malakor swinging massive twin scythes of void decay",
+      "setting": "scythe swing",
+      "characters": [],
+      "action": "Malakor swings two colossal scythes dripping with black corrosive energy, aiming to cleave Ha-Jun at the waist.",
+      "mood": "lethal scythe cleave",
+      "sfx": "SWOOSH-HISS!!"
+    },
+    {
+      "id": "p17",
+      "shot": "ha-jun catching both scythe blades with bare hands using ring of hollow blood",
+      "setting": "bare-hand block",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Using the Ring of Hollow Blood to harden his skin to adamantine, Ha-Jun catches both lethal scythe blades in his bare palms.",
+      "mood": "godlike parry",
+      "sfx": "CLANG-SPARK!!"
+    },
+    {
+      "id": "p18",
+      "shot": "malakor six eyes widening in absolute terror",
+      "setting": "malakor face close-up",
+      "characters": [],
+      "action": "The Void Sovereign's eyes bug out in horror: 'Caught my Void Scythes with bare flesh?! What kind of abomination are you?!'",
+      "mood": "deity humiliated",
+      "sfx": "GASP...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "malakor",
+          "text": "Impossible! Even Void Kings bleed from my touch!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "ha-jun shattering both scythes with crushing grip",
+      "setting": "shattering weapons",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun wrenches his wrists; the ancient void scythes shatter into thousands of black iron fragments.",
+      "mood": "weapons destroyed",
+      "sfx": "SNAP-SHATTER!!"
+    },
+    {
+      "id": "p20",
+      "shot": "ha-jun driving sanguine fang straight through malakor heart core",
+      "setting": "fatal thrust",
+      "characters": [
+        "hajun"
+      ],
+      "action": "In the same breath, Ha-Jun thrusts his blood katana through Malakor's chest core, pinning the demon god to the pedestal.",
+      "mood": "swift execution",
+      "sfx": "DRIVE-SHING!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Tum mere aur mere bhai ke darmiyan khade hone ke laayak nahi ho.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "malakor disintegrating into grey ash with a dying shriek",
+      "setting": "boss death wide",
+      "characters": [],
+      "action": "Malakor shrieks as golden sovereign fire consumes him from inside, crumbling his 12-foot frame into harmless grey ash.",
+      "mood": "seventh sovereign slain",
+      "sfx": "SHRIEK-ASH..."
+    },
+    {
+      "id": "p22",
+      "shot": "ha-jun standing before the giant glass stasis pod undisturbed",
+      "setting": "pod front hero shot",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The ash settles; Ha-Jun stands directly in front of the giant glass tube, wiping a single drop of sweat from his brow.",
+      "mood": "at the destination",
+      "sfx": "SILENCE RESTORED..."
+    },
+    {
+      "id": "p23",
+      "shot": "glowing cyan liquid inside pod revealing floating young man",
+      "setting": "pod contents reveal",
+      "characters": [],
+      "action": "Inside the bubbling fluorescent cyan fluid floats a 22-year-old young man with jet-black hair and a chiseled jawline.",
+      "mood": "the sleeping brother",
+      "sfx": "BUBBLE-GLOW..."
+    },
+    {
+      "id": "p24",
+      "shot": "extreme close-up on floating young man: kang tae-jun",
+      "setting": "tae-jun face inside tube",
+      "characters": [],
+      "action": "His eyes are closed peacefully; twin small obsidian demonic horns curve back gracefully from his temples.",
+      "mood": "tae-jun physical form",
+      "sfx": "PEACEFUL SLUMBER...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "Kang Tae-Jun. The elder brother. Alive.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "ha-jun placing his trembling palm against the cold glass",
+      "setting": "hand on glass",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun presses his warm right hand against the frozen glass, right opposite Tae-Jun's floating face.",
+      "mood": "intimate contact",
+      "sfx": "TOUCH...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Hyung... Main aa gaya. I promised you I'd find you.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "shot": "ha-jun sovereign mana radiating through the glass",
+      "setting": "mana pulse into pod",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A soft, radiant pulse of royal violet mana flows from Ha-Jun's fingertips, warming the freezing fluid inside.",
+      "mood": "reviving pulse",
+      "sfx": "WARMTH-PULSE..."
+    },
+    {
+      "id": "p27",
+      "shot": "tae-jun chest inside the tube rising with a sudden deep breath",
+      "setting": "chest rise inside tube",
+      "characters": [],
+      "action": "Tae-Jun's chest expands; bubbles rush from his lips as his suspended lungs reactivate.",
+      "mood": "the breath of life",
+      "sfx": "GASPPP-BUBBLES!!"
+    },
+    {
+      "id": "p28",
+      "shot": "tae-jun eyelids trembling and slowly snapping open",
+      "setting": "tae-jun eyes opening macro",
+      "characters": [],
+      "action": "Tae-Jun's eyes snap wide open—revealing irises glowing with the exact same radiant royal violet light as Ha-Jun!",
+      "mood": "twin sovereign eyes",
+      "sfx": "FLASH-GLOW!!"
+    },
+    {
+      "id": "p29",
+      "shot": "tae-jun hand slowly lifting through the fluid touching ha-jun hand",
+      "setting": "matching hands on glass",
+      "characters": [
+        "hajun"
+      ],
+      "action": "From inside the fluid, Tae-Jun lifts his pale hand, pressing his palm against the glass directly matching Ha-Jun's palm.",
+      "mood": "the united palms",
+      "sfx": "GLASS RESONANCE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Ha-Jun...",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "spiderweb cracks spreading across the glass as arc 7 concludes",
+      "setting": "cracking glass grand climax",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Spiderweb cracks of blinding golden light shoot across the glass tube, about to burst as the brothers reunite!",
+      "mood": "arc 7 grand finale / arc 8 cliffhanger",
+      "sfx": "CRACK-SHATTER!!",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "ARC 7: THE BROTHER'S TRUTH — CONCLUDED. NEXT: ARC 8 — THE MYTHIC AWAKENING.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    }
+  ]
+}
