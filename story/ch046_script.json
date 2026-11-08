@@ -1,0 +1,428 @@
+{
+  "chapter": 46,
+  "title": "The Forgotten Kingdom",
+  "arc": 5,
+  "arc_title": "THE ABYSSAL KINGDOM",
+  "summary": "Ha-Jun explores the ancient ruins of Necrothea, uncovering murals of the First Sovereign's golden age and discovering that his brother Tae-Jun was captured by the Three Demon Lords.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "grand boulevard of necrothea wide shot",
+      "setting": "necrothea boulevard",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A 100-meter-wide grand ceremonial avenue paved in polished black volcanic glass, flanked by towering statues.",
+      "mood": "ancient gothic metropolis",
+      "sfx": "WHISPERING WIND..."
+    },
+    {
+      "id": "p02",
+      "shot": "abandoned palatial buildings with crystalline spires",
+      "setting": "city architecture",
+      "characters": [],
+      "action": "Crumbling palaces of dark obsidian and amethyst crystal, silent monuments to a fallen golden empire.",
+      "mood": "haunting majesty"
+    },
+    {
+      "id": "p03",
+      "shot": "ha-jun walking down the center of the avenue",
+      "setting": "boulevard center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun walks down the road, his boots clicking rhythmically on the mirror-smooth black glass.",
+      "mood": "solitary heir",
+      "sfx": "CLICK... CLICK..."
+    },
+    {
+      "id": "p04",
+      "shot": "kuro fluttering from statue to statue",
+      "setting": "boulevard statues",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro glides ahead, his eyes filled with nostalgic sorrow: 'Yahan 10 million demons rehte the ek waqt par.'",
+      "mood": "mourning the past",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "First Sovereign ke era mein yeh kingdom celestial realms se bhi zyada glorious tha.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "ha-jun pausing before a massive triumphal archway",
+      "setting": "triumphal arch",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A 150-foot archway carved with intricate narrative bas-relief murals depicting the ancient wars.",
+      "mood": "ancient history in stone"
+    },
+    {
+      "id": "p06",
+      "shot": "mural depicting the seven demon kings rebelling",
+      "setting": "mural close-up",
+      "characters": [],
+      "action": "The stone mural shows seven horned kings turning their blades against a single crowned sovereign figure.",
+      "mood": "the great betrayal",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "Seven Demon Kings ne First Sovereign ke vishwaas ko toda... Aur realm ko do hisso mein baant diya.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "mural showing the sovereign sealing his ten relics",
+      "setting": "mural close-up",
+      "characters": [],
+      "action": "The First Sovereign carving out his own heart and marrow, sealing his supreme authority into ten relics.",
+      "mood": "the relics' origin"
+    },
+    {
+      "id": "p08",
+      "shot": "ha-jun touching the mural with reverence",
+      "setting": "mural close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's fingertips trace the relief of the sovereign's face; a psychic jolt ripples into his mind.",
+      "mood": "psychic connection",
+      "sfx": "PULSE...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Woh betrayed the... Apne hi senapatiyo ke haatho.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "glowing red footsteps continuing past the arch",
+      "setting": "street pavement",
+      "characters": [],
+      "action": "Tae-Jun's crimson mana footprints lead off the main boulevard toward an underground amphitheater.",
+      "mood": "fresh tracking"
+    },
+    {
+      "id": "p10",
+      "shot": "signs of recent violent struggle on the pavement",
+      "setting": "pavement close-up",
+      "characters": [],
+      "action": "Deep slash marks in the glass street, black demon blood splattered across a broken obelisk.",
+      "mood": "recent battle",
+      "sfx": "CRACK!"
+    },
+    {
+      "id": "p11",
+      "shot": "ha-jun kneeling to inspect black blood",
+      "setting": "street pavement",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun dips a finger in the fresh, still-smoking demon blood: 'Yeh blood sirf do ghante purana hai.'",
+      "mood": "tracking focus",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Bhai yahan kisi se lade the. Aur unka dushman kamzor nahi tha.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "kuro inspecting the slash marks",
+      "setting": "obelisk",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro's eyes widen: 'Shadow scythe marks... Valac ke Shadow Assassins!'",
+      "mood": "assassin identification",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Demon Lord Valac ne apne elite hunters ko bheja tha Tae-Jun ko capture karne ke liye!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "ha-jun finding a torn piece of white fabric",
+      "setting": "broken obelisk",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Caught on a jagged stone: a torn scrap of a white hospital patient gown, stained with dried blood.",
+      "mood": "brother's clothing"
+    },
+    {
+      "id": "p14",
+      "shot": "ha-jun clutching the fabric to his chest",
+      "setting": "hero close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun clutches the cloth tightly, his eyes blazing with fury: 'Unhone bhai ko capture kar liya hai...'",
+      "mood": "burning wrath",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Main bohot kareeb tha... Sirf do ghante late!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "shot": "kuro flying onto ha-jun forearm",
+      "setting": "hero close-up",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro reassures him firmly: 'Woh use maarenge nahi, Ha-Jun! Unhe uske blood se Relics ko unseal karna hai!'",
+      "mood": "tactical relief",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Tae-Jun safe hai jab tak unke paas bache hue relics nahi hain!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "ha-jun looking toward the amphitheater entrance",
+      "setting": "amphitheater entrance",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun looks toward the subterranean archway: 'Aur agla Relic yahan niche hai?'",
+      "mood": "next objective",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "The Fang of Abyss... Yahi hai na?",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "kuro nodding with sharp determination",
+      "setting": "ha-jun forearm",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro confirms: 'Amphitheater ke Vault of Severance mein. The Fang of Abyss.'",
+      "mood": "confirmation",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Agar humne woh dagger claim kar liya, toh hum kisi bhi dimensional barrier ko cheer sakte hain!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "ha-jun standing to full height",
+      "setting": "hero stance",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun pockets his brother's cloth scrap, his bone gauntlet glowing ready for war.",
+      "mood": "ready for the vault",
+      "sfx": "STAND..."
+    },
+    {
+      "id": "p19",
+      "shot": "descending massive stone staircase into amphitheater",
+      "setting": "amphitheater stairs",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun descends a sweeping circular staircase that wraps around a colossal sunken colosseum.",
+      "mood": "entering the arena",
+      "sfx": "FOOTSTEPS..."
+    },
+    {
+      "id": "p20",
+      "shot": "sunken colosseum arena reveal",
+      "setting": "colosseum arena wide",
+      "characters": [],
+      "action": "A 200-meter circular gladiatorial arena paved in white petrified bones, surrounded by shattered spectator thrones.",
+      "mood": "the blood colosseum"
+    },
+    {
+      "id": "p21",
+      "shot": "pedestal in arena center holding black crystal prism",
+      "setting": "arena center",
+      "characters": [],
+      "action": "In the dead center of the arena, an obsidian obelisk suspends a floating 3-foot rhomboid crystal prism.",
+      "mood": "the relic containment",
+      "sfx": "HUMMM..."
+    },
+    {
+      "id": "p22",
+      "shot": "inside prism: the fang of abyss",
+      "setting": "crystal prism macro",
+      "characters": [],
+      "action": "Sealed inside the crystal: an eight-inch jagged curved dagger forged from solid midnight void matter.",
+      "mood": "the fang of abyss",
+      "dialogue": [
+        {
+          "type": "system",
+          "text": "[TARGET LOCATED: THE FANG OF ABYSS (RARE RELIC)]\nAuthority: Spatial Severance & Void Piercing\nGuardian Status: ACTIVE / EN ROUTE",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "ha-jun stepping onto arena floor",
+      "setting": "arena floor",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The moment Ha-Jun's boot touches the bone tiles, a low subsonic vibration rattles the colosseum pillars.",
+      "mood": "awakening trigger",
+      "sfx": "VIBRATION..."
+    },
+    {
+      "id": "p24",
+      "shot": "kuro looking up at the dark amphitheater dome",
+      "setting": "amphitheater ceiling",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro's feathers bristle: 'Upar dekho! The Apex Guardian!'",
+      "mood": "incoming titan",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "kuro",
+          "text": "LOOK OUT ABOVE!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "colossal 40-foot abyssal void dragon dropping",
+      "setting": "amphitheater air",
+      "characters": [],
+      "action": "Coiled like a bat among the high gothic vaults, a 40-foot Void Dragon unfurls its wings and drops.",
+      "mood": "dragon dive",
+      "sfx": "ROOOAAARRR!!"
+    },
+    {
+      "id": "p26",
+      "shot": "dragon slamming onto arena floor",
+      "setting": "arena center",
+      "characters": [],
+      "action": "The colossal beast lands with catastrophic weight, fracturing bones and sending shockwaves across the colosseum.",
+      "mood": "impact crater",
+      "sfx": "BOOOOOMMM!!"
+    },
+    {
+      "id": "p27",
+      "shot": "void dragon design close-up",
+      "setting": "dragon head macro",
+      "characters": [],
+      "action": "Sleek obsidian scales, four glowing indigo eyes, an elongated serpentine neck, and wings made of starry void space.",
+      "mood": "apex dragon",
+      "sfx": "HSSSS!!"
+    },
+    {
+      "id": "p28",
+      "shot": "dragon throat glowing with blinding violet antimatter",
+      "setting": "dragon throat",
+      "characters": [],
+      "action": "The dragon's neck swells with blinding violet energy as it charges a full-power Spatial Breath beam.",
+      "mood": "breath charging",
+      "sfx": "WHIRRR-CHARGE!!"
+    },
+    {
+      "id": "p29",
+      "shot": "ha-jun manifesting dual bloodfire katanas",
+      "setting": "arena combat",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun crosses his twin flaming blades before him, irises blazing with fearless resolve.",
+      "mood": "ready to duel dragon",
+      "sfx": "X-GUARD!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Pehle ek guardian centurion... Ab ek dragon. Bring it on!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "spatial breath beam erupting from dragon maw",
+      "setting": "arena combat wide",
+      "characters": [],
+      "action": "A 10-meter-wide beam of pure space-deleting violet void fire blasts straight at Ha-Jun.",
+      "mood": "spatial annihilation beam",
+      "sfx": "BOOOOOOOOOOMMM!!"
+    }
+  ]
+}

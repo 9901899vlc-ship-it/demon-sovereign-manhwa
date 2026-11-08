@@ -318,70 +318,70 @@
           "chapter": 44,
           "title": "The Gate Beneath the City",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch044_script.json"
         },
         {
           "chapter": 45,
           "title": "Beyond the Human World",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch045_script.json"
         },
         {
           "chapter": 46,
           "title": "The Forgotten Kingdom",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch046_script.json"
         },
         {
           "chapter": 47,
           "title": "The Fang of Abyss",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch047_script.json"
         },
         {
           "chapter": 48,
           "title": "The Demon Beast",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch048_script.json"
         },
         {
           "chapter": 49,
           "title": "The First Evolution",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch049_script.json"
         },
         {
           "chapter": 50,
           "title": "Eye of the Night",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch050_script.json"
         },
         {
           "chapter": 51,
           "title": "The Silent Prison",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch051_script.json"
         },
         {
           "chapter": 52,
           "title": "The Third Rare Relic",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch052_script.json"
         },
         {
           "chapter": 53,
           "title": "The Three Demon Lords",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch053_script.json"
         }
       ]

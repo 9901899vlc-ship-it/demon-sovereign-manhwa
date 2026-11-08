@@ -1,0 +1,385 @@
+{
+  "chapter": 47,
+  "title": "The Fang of Abyss",
+  "arc": 5,
+  "arc_title": "THE ABYSSAL KINGDOM",
+  "summary": "Ha-Jun battles the 40-foot Abyssal Void Dragon in the Colosseum of Necrothea. Dodging spatial erasure beams, he shatters the crystal prism and seizes the Fang of Abyss to turn the tide.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "spatial breath beam tearing through arena wide shot",
+      "setting": "colosseum arena wide",
+      "characters": [],
+      "action": "The 10-meter-wide violet void beam disintegrates bone tiles, stone pillars, and air itself in a straight trench.",
+      "mood": "spatial erasure",
+      "sfx": "ANNIHILATION-ROAR!!"
+    },
+    {
+      "id": "p02",
+      "shot": "ha-jun executing supersonic evasive leap",
+      "setting": "colosseum air",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun catapults sideways into the air, the void beam deleting the afterimage of his silhouette.",
+      "mood": "evasion at the brink",
+      "sfx": "SWOOSH!!",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Yeh aag nahi hai... Yeh space ko delete kar raha hai! Touch bhi hua toh gayab!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "shot": "trench where beam hit erased into nothingness",
+      "setting": "arena floor",
+      "characters": [],
+      "action": "Where the beam struck, there is no rubble—only a smooth, terrifying void gap looking into empty cosmos.",
+      "mood": "matter deleted",
+      "sfx": "STILLNESS..."
+    },
+    {
+      "id": "p04",
+      "shot": "dragon sweeping massive spiked tail",
+      "setting": "arena combat",
+      "characters": [],
+      "action": "The Void Dragon whips its 30-foot spiked obsidian tail horizontally like a high-speed freight train.",
+      "mood": "tail whip sweep",
+      "sfx": "SHVOOOM!!"
+    },
+    {
+      "id": "p05",
+      "shot": "ha-jun raising bone gauntlet to brace",
+      "setting": "combat close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun interlocks his bone gauntlet plates, preparing for the devastating kinetic impact.",
+      "mood": "impact brace",
+      "sfx": "CLANK!"
+    },
+    {
+      "id": "p06",
+      "shot": "tail impact blasting ha-jun through spectator seats",
+      "setting": "colosseum wall",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The massive tail strikes his bone shield; Ha-Jun is blasted 80 feet through stone spectator thrones.",
+      "mood": "catastrophic throw",
+      "sfx": "KABOOOM-CRASH!!"
+    },
+    {
+      "id": "p07",
+      "shot": "ha-jun sliding to stop in stone rubble",
+      "setting": "spectator ruins",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun slides to a halt among broken thrones, coughing violet dust but with his bone gauntlet unbroken.",
+      "mood": "shield held",
+      "sfx": "COUGH...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Kinetic dispersal marrow... Sach mein impact ko ground kar diya.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p08",
+      "shot": "kuro diving at dragon eyes with shadow talons",
+      "setting": "dragon head air",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro dives from the rafters, raking his sharpened shadow talons across the dragon's upper two eyes.",
+      "mood": "distraction attack",
+      "sfx": "SLASH-SKREEE!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "kuro",
+          "text": "BLIND HIM! HA-JUN, GO FOR THE PRISM!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "dragon roaring in pain, clawing at kuro",
+      "setting": "arena center",
+      "characters": [],
+      "action": "The dragon thrashes its massive horned head, roaring as black blood leaks from its scratched eyes.",
+      "mood": "dragon blinded",
+      "sfx": "ROARRR!!"
+    },
+    {
+      "id": "p10",
+      "shot": "ha-jun vaulting out of rubble toward central pedestal",
+      "setting": "arena sprint",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun bounds across the broken stone tiers, rocketing straight toward the floating crystal prism.",
+      "mood": "sprint for the relic",
+      "sfx": "FWOOSH!!"
+    },
+    {
+      "id": "p11",
+      "shot": "dragon swinging front claw to crush pedestal",
+      "setting": "arena center",
+      "characters": [],
+      "action": "Seeing Ha-Jun's target, the dragon brings its 10-foot razor-taloned foreleg down to crush the pedestal.",
+      "mood": "defensive stomp",
+      "sfx": "SMASHHH!!"
+    },
+    {
+      "id": "p12",
+      "shot": "ha-jun sliding between dragon talons",
+      "setting": "under dragon",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun slides on his knees along the bone floor, slipping mere inches between the descending dragon claws.",
+      "mood": "death-defying slide",
+      "sfx": "SWOOSH!"
+    },
+    {
+      "id": "p13",
+      "shot": "ha-jun reaching floating rhomboid prism",
+      "setting": "pedestal center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "From directly beneath the beast, Ha-Jun leaps up to the floating 3-foot crystal prism.",
+      "mood": "point blank reach",
+      "sfx": "LEAP!!"
+    },
+    {
+      "id": "p14",
+      "shot": "coating right fist in concentrated hellfire",
+      "setting": "hand macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun channels the full fury of the Ashen Heart into his clenched right fist: violet-crimson pyre.",
+      "mood": "sanguine pyre punch",
+      "sfx": "IGNITE-BLAZE!!"
+    },
+    {
+      "id": "p15",
+      "shot": "punching the hyper-dimensional crystal prism",
+      "setting": "prism impact",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's flaming fist slams into the center of the void crystal with 50 tons of focused kinetic mana.",
+      "mood": "shattering strike",
+      "sfx": "BOOOOOM-CRACK!!"
+    },
+    {
+      "id": "p16",
+      "shot": "hyper-dimensional prism fracturing into diamonds",
+      "setting": "prism explosion",
+      "characters": [],
+      "action": "The indestructible void crystal shatters into millions of glittering diamond shards.",
+      "mood": "seal broken",
+      "sfx": "SHATTERRRR!!"
+    },
+    {
+      "id": "p17",
+      "shot": "the fang of abyss spinning free in midair",
+      "setting": "airborne macro",
+      "characters": [],
+      "action": "The 8-inch jagged curved void dagger spins slowly in midair, radiating absolute darkness.",
+      "mood": "relic liberated",
+      "sfx": "SPIN..."
+    },
+    {
+      "id": "p18",
+      "shot": "ha-jun fingers closing around the dagger hilt",
+      "setting": "hand macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's fingers wrap around the cold, textured void-matter hilt with an audible magnetic snap.",
+      "mood": "relic claimed",
+      "sfx": "SNAP-GRIP!!"
+    },
+    {
+      "id": "p19",
+      "shot": "spatial distortion ripples bursting from ha-jun hand",
+      "setting": "arena wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A sphere of distorted, mirrored space ripples outward 100 meters around Ha-Jun, warping gravity.",
+      "mood": "spatial distortion pulse",
+      "sfx": "WARP-BOOM!!"
+    },
+    {
+      "id": "p20",
+      "shot": "system interface fanfare for relic claim",
+      "setting": "arena center",
+      "characters": [],
+      "action": "Golden-and-violet gothic runes celebrate the bond.",
+      "mood": "relic achievement",
+      "sfx": "FANFARE-CHIME!!",
+      "dialogue": [
+        {
+          "type": "system",
+          "text": "[RELIC CLAIMED: THE FANG OF ABYSS (RARE)]\nRank: Rare Sovereign Class\nAuthority: Spatial Severance (Can slice through physical & magical barriers)\nSynchronization: 42.0%.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "ha-jun inspecting the void dagger",
+      "setting": "medium hero shot",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun turns the dagger; the blade has no physical edge—it is a literal tear in the fabric of space.",
+      "mood": "blade of pure void",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Yeh talwar nahi hai... Yeh reality mein ek chhed hai. Jo bhi chhua, woh cut ho jayega!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "dragon turning with furious remaining eyes",
+      "setting": "arena center",
+      "characters": [],
+      "action": "The dragon recovers, its remaining two eyes burning with apocalyptic rage as it lunges with jaws open.",
+      "mood": "final desperate lunge",
+      "sfx": "DEATH JAW ROAR!!"
+    },
+    {
+      "id": "p23",
+      "shot": "ha-jun executing a casual midair slice with the fang",
+      "setting": "combat action",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun doesn't swing hard; he simply draws a clean, two-foot vertical line in the empty air.",
+      "mood": "the spatial cut",
+      "sfx": "SHING..."
+    },
+    {
+      "id": "p24",
+      "shot": "line in empty air tearing open into a black spatial rift",
+      "setting": "airborne combat",
+      "characters": [],
+      "action": "The thin line in the air tears open into a razor-thin rift of black space that expands instantly.",
+      "mood": "spatial rift expands",
+      "sfx": "RIPPP!!"
+    },
+    {
+      "id": "p25",
+      "shot": "dragon lunging headfirst into the spatial rift",
+      "setting": "arena center",
+      "characters": [],
+      "action": "The dragon's charging maw strikes the invisible spatial seam; its indestructible scales are cleaved like silk.",
+      "mood": "cleaved by space",
+      "sfx": "CLEAVE-SPLIT!!"
+    },
+    {
+      "id": "p26",
+      "shot": "dragon skull severed cleanly along the median line",
+      "setting": "arena center",
+      "characters": [],
+      "action": "The 40-foot beast freezes mid-lunge as a clean black line cuts through its skull and neck.",
+      "mood": "bisection complete",
+      "sfx": "CREAK..."
+    },
+    {
+      "id": "p27",
+      "shot": "colossal dragon collapsing in two halves",
+      "setting": "arena floor",
+      "characters": [],
+      "action": "The colossal Void Dragon splits into two halves, crashing with thunderous finality onto the bone arena.",
+      "mood": "titan slain",
+      "sfx": "THUDDD-CRASH!!"
+    },
+    {
+      "id": "p28",
+      "shot": "dragon body dissolving into glowing purple mist",
+      "setting": "arena floor",
+      "characters": [],
+      "action": "The monster's immense corpse dissolves into a sea of luminous purple mana mist that carpets the colosseum.",
+      "mood": "mist dispersion",
+      "sfx": "HSSSS..."
+    },
+    {
+      "id": "p29",
+      "shot": "ha-jun landing lightly with fang of abyss in hand",
+      "setting": "arena center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun lands with effortless grace, flipping the void dagger into a reverse grip.",
+      "mood": "mastery display",
+      "sfx": "FLIP-TAP!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "The Fang of Abyss... It cuts through reality itself.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "something glowing inside the severed dragon skull",
+      "setting": "dragon remains",
+      "characters": [],
+      "action": "In the center of the dissolving skull, a dark celestial orb the size of an eyeball pulses with starry light.",
+      "mood": "relic #6 revealed",
+      "sfx": "GLOW...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "kuro",
+          "text": "That light... Eye of the Night is inside the beast!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    }
+  ]
+}

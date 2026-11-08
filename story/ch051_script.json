@@ -1,0 +1,456 @@
+{
+  "chapter": 51,
+  "title": "The Silent Prison",
+  "arc": 5,
+  "arc_title": "THE ABYSSAL KINGDOM",
+  "summary": "Escaping the collapsing Silent Prison with Tae-Jun on his back, Ha-Jun uses the Chains of Ruin to shatter the anti-matter fortress and liberate thousands of captive demons.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "rotunda ceiling cracking wide shot",
+      "setting": "execution rotunda",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Massive structural fissures tear across the rotunda ceiling as the fortress foundation destabilizes.",
+      "mood": "cataclysmic collapse",
+      "sfx": "CRACK-RUMBLE!!"
+    },
+    {
+      "id": "p02",
+      "shot": "belial breaking free from wall shouting curse",
+      "setting": "balcony ruins",
+      "characters": [],
+      "action": "Bleeding from his severed horn, Belial screams down from the crumbling balcony: 'You will never escape the Abyss!'",
+      "mood": "dying warden's curse",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "belial",
+          "text": "ALARM SOUNDED! THE THREE DEMON LORDS ALREADY KNOW YOU ARE HERE!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "shot": "ha-jun looking up with cold sovereign eyes",
+      "setting": "monolith top",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun tightens his grip on Tae-Jun's legs: 'Unhe aane do. Main unka bhi intezaar kar raha hoon.'",
+      "mood": "fearless sovereign",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Lekin yeh prison aaj khatam hogi.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "ha-jun unleashing the chains of ruin downward",
+      "setting": "monolith edge",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun hurls the ends of the Chains of Ruin into the four primary anti-matter load-bearing pillars.",
+      "mood": "anchor chains launched",
+      "sfx": "WHIP-CLANG!!"
+    },
+    {
+      "id": "p05",
+      "shot": "chains wrapping tightly around the four pillars",
+      "setting": "rotunda pillars",
+      "characters": [],
+      "action": "The black gravitational chains coil around the colossal stone pillars like crushing anacondas.",
+      "mood": "pillars strangled",
+      "sfx": "BIND!!"
+    },
+    {
+      "id": "p06",
+      "shot": "ha-jun pulling chains with 50-ton sovereign strength",
+      "setting": "monolith top",
+      "characters": [
+        "hajun"
+      ],
+      "action": "With a roar of pure ancestral power, Ha-Jun yanks both chain links backward with all his might.",
+      "mood": "titanic pull",
+      "sfx": "ROARRR-PULL!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "COLLAPSE!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "all four load-bearing pillars shattering simultaneously",
+      "setting": "rotunda wide",
+      "characters": [],
+      "action": "The four massive pillars implode into dust; the entire 500-foot fortress begins pancaking downward.",
+      "mood": "fortress implosion",
+      "sfx": "BOOOOOOMMMM!!"
+    },
+    {
+      "id": "p08",
+      "shot": "ha-jun launching into supersonic vertical flight",
+      "setting": "rotunda air",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's shadow wings beat with explosive force, rocketing straight up toward the collapsing ceiling.",
+      "mood": "vertical escape",
+      "sfx": "FWOOOOOSH!!"
+    },
+    {
+      "id": "p09",
+      "shot": "slashing ceiling with fang of abyss to create exit",
+      "setting": "bunker ceiling",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun swings the void dagger upward, cleanly slicing a 30-foot exit hole through the solid stone roof.",
+      "mood": "cutting an exit",
+      "sfx": "SLASH-CLEAVE!!"
+    },
+    {
+      "id": "p10",
+      "shot": "bursting out onto the fortress roof into the open sky",
+      "setting": "sky over fortress",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun bursts into the starry purple sky of the Abyss just as the entire fortress beneath him collapses.",
+      "mood": "freedom at last",
+      "sfx": "BURST!!"
+    },
+    {
+      "id": "p11",
+      "shot": "the 500-foot silent prison crumbling into the void below",
+      "setting": "canyon wide shot",
+      "characters": [],
+      "action": "The monolithic fortress shears off the cliff, falling thousands of feet into the bottomless void below.",
+      "mood": "monument destroyed",
+      "sfx": "CATACLYSMIC CRASH!!"
+    },
+    {
+      "id": "p12",
+      "shot": "thousands of captive demon spirits floating free",
+      "setting": "canyon air",
+      "characters": [],
+      "action": "Thousands of luminous green and violet soul lights rise from the ruins, floating free into the purple sky.",
+      "mood": "souls liberated",
+      "sfx": "ETHEREAL CHIME...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "Hazaaron saalon se band qaidiyo ki aatmaayein... Azaad ho gayi.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "liberated souls bowing to ha-jun in the sky",
+      "setting": "sky wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The swirling cloud of glowing souls circles Ha-Jun like a celestial halo, bowing before flying free.",
+      "mood": "blessing of the liberated",
+      "sfx": "WHISPERING THANKS..."
+    },
+    {
+      "id": "p14",
+      "shot": "tae-jun opening eyes on ha-jun back",
+      "setting": "sky flight close-up",
+      "characters": [],
+      "action": "Tae-Jun watches the glowing souls with awe, resting his chin on Ha-Jun's shoulder.",
+      "mood": "brother's admiration",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Ha-Jun... Tumne sach mein unhe bacha liya. Tum sirf mere bhai nahi... Real King ban chuke ho.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "shot": "ha-jun smiling gently as wind ruffles his hair",
+      "setting": "sky flight close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun smiles with quiet happiness: 'Maine jo bhi kiya... Bas aapko wapas paane ke liye kiya, Bhai.'",
+      "mood": "humble love"
+    },
+    {
+      "id": "p16",
+      "shot": "kuro flying beside them with happy caws",
+      "setting": "sky flight",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro glides playfully: 'Bohot emotional reunion ho gaya! Ab humein safe ground dhoondhna hoga!'",
+      "mood": "pragmatic guardian",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Tae-Jun ko rest aur nourishment chahiye!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "landing on a secluded floating crystal plateau",
+      "setting": "crystal island",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun lands gently on a floating island carpeted with soft purple moss and clear freshwater springs.",
+      "mood": "safe haven",
+      "sfx": "TOUCHDOWN..."
+    },
+    {
+      "id": "p18",
+      "shot": "ha-jun gently laying tae-jun onto soft moss",
+      "setting": "island meadow",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun helps his brother sit against a glowing crystalline tree trunk beside the spring.",
+      "mood": "tender care",
+      "sfx": "GENTLE..."
+    },
+    {
+      "id": "p19",
+      "shot": "ha-jun offering fresh spring water in cupped hands",
+      "setting": "spring pool",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun scoops sweet, mana-rich spring water in his hands, helping Tae-Jun drink.",
+      "mood": "refreshment",
+      "sfx": "DRINK...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Phew... Yeh paani... Mana se bhara hua hai. Meri energy wapas aa rahi hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "tae-jun looking at ha-jun glowing relics",
+      "setting": "island meadow",
+      "characters": [],
+      "action": "Tae-Jun inspects the ring, bone gauntlet, chains, and dagger: 'Chheh Relics... Tumne 6 Relics claim kar liye?'",
+      "mood": "brother's evaluation",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Feather, Ring, Bone, Heart, Fang, Chains... Aur right eye mein Eye of the Night!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "ha-jun nodding: 'Four relics baaki hain.'",
+      "setting": "island meadow",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun sits cross-legged beside him: 'Legendary Crown, Eclipse Devourer, aur Hourglass.'",
+      "mood": "accounting the relics",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Aur Kuro ka final form.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "tae-jun expression turning deeply serious",
+      "setting": "island meadow",
+      "characters": [],
+      "action": "Tae-Jun leans forward, his voice dropping to a grave whisper: 'Ha-Jun... Legendary Crown ke baare mein kuch janna zaroori hai.'",
+      "mood": "grave revelation",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Crown of the Sovereign... Wahan hai jahan First Sovereign ka throne tha: The Fallen Throne.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "tae-jun explaining the crown's test",
+      "setting": "island meadow",
+      "characters": [],
+      "action": "Tae-Jun reveals: 'Crown ko pehanne par First Sovereign ki consciousness tumhare mind mein enter karegi.'",
+      "mood": "the sovereign within",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Agar tumhara will kamzor hua, toh woh tumhari body par kabza kar lega. Tum 'tum' nahi rahoge.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "kuro looking down silently with ruffled feathers",
+      "setting": "crystal branch",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro remains silent, confirming the terrifying risk with a quiet dip of his head.",
+      "mood": "silent confirmation"
+    },
+    {
+      "id": "p25",
+      "shot": "ha-jun looking at his open hands",
+      "setting": "hand macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun looks at his fingers, etched with scars and power: 'Main kisi ka puppet nahi banunga, Bhai.'",
+      "mood": "absolute conviction",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Main First Sovereign ka re-incarnation nahi hoon. Main Ha-Jun Kang hoon. Aur main apna destiny khud likhunga.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "shot": "sudden eclipse shadow falling over the floating island",
+      "setting": "island sky",
+      "characters": [],
+      "action": "The twin crimson moons in the sky suddenly plunge into total darkness; the purple sky turns black.",
+      "mood": "the shadow descends",
+      "sfx": "DARKEN..."
+    },
+    {
+      "id": "p27",
+      "shot": "temperature plummeting to sub-zero",
+      "setting": "crystal meadow",
+      "characters": [],
+      "action": "Frost instantly coats the purple moss; Ha-Jun and Tae-Jun's breath turns to thick white vapor.",
+      "mood": "sub-zero chill",
+      "sfx": "FREEZE..."
+    },
+    {
+      "id": "p28",
+      "shot": "three titanic shadows manifesting in the sky",
+      "setting": "sky over island",
+      "characters": [],
+      "action": "In the blackened sky, three colossal phantom silhouettes—each 500 feet tall—slowly materialize.",
+      "mood": "the three demon lords appear",
+      "sfx": "EERIE DRONE..."
+    },
+    {
+      "id": "p29",
+      "shot": "kuro screeching battle alarm in dread",
+      "setting": "crystal branch",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro's eyes widen in dread: 'THE THREE DEMON LORDS! Unhone humein locate kar liya!'",
+      "mood": "the lords arrive",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "kuro",
+          "text": "MALGATH! VALAC! LILITH! THE ENTIRE ABYSS HAS COME FOR US!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun standing defensively in front of his brother",
+      "setting": "island meadow",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun draws both weapons, shadow wings expanding to block the freezing gale: 'Bhai mere peeche raho.'",
+      "mood": "shielding the brother",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Let them come. I am not the frightened boy from the rooftop anymore.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    }
+  ]
+}

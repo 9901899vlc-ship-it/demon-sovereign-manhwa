@@ -1,0 +1,405 @@
+{
+  "chapter": 44,
+  "title": "The Gate Beneath the City",
+  "arc": 5,
+  "arc_title": "THE ABYSSAL KINGDOM",
+  "summary": "Ha-Jun dives 1,000 meters down the vertical Gehenna Chasm into Section 9, battling swarms of void crawlers through the destroyed underground laboratory to reach Tae-Jun's stasis wing.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "freefall down the vertical chasm wide shot",
+      "setting": "gehenna chasm",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun plunges straight down through the violet-glowing chasm, wind roaring past his ears at terminal velocity.",
+      "mood": "dizzying descent",
+      "sfx": "FWOOOOOSHH!!"
+    },
+    {
+      "id": "p02",
+      "shot": "kuro gliding alongside as shadow stabilizer",
+      "setting": "chasm air",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro glides three feet away, his shadow feathers buffering the turbulence: 'Landing sequence ready karo!'",
+      "mood": "aerial escort",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Section 9 ka ceiling 200 meter niche hai! Brace for impact!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "shot": "shattered concrete bunker ceiling approaching",
+      "setting": "bunker ceiling",
+      "characters": [],
+      "action": "A massive reinforced bunker roof with twisted rebar and broken warning lights looms into view.",
+      "mood": "incoming landing",
+      "sfx": "RAPID APPROACH..."
+    },
+    {
+      "id": "p04",
+      "shot": "ha-jun activating blood cushion beneath boots",
+      "setting": "terminal descent",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun channels the Ring of Hollow Blood, generating a six-foot pressurized cushion of liquid blood below his soles.",
+      "mood": "hydraulic deceleration",
+      "sfx": "WHIRRRR!!"
+    },
+    {
+      "id": "p05",
+      "shot": "three-point impact landing inside bunker",
+      "setting": "section 9 floor",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun smashes through the ceiling hole into Sub-Level 3, the blood cushion absorbing the entire 10-ton kinetic shock.",
+      "mood": "perfect soft landing",
+      "sfx": "BOOOM-SPLAT!!"
+    },
+    {
+      "id": "p06",
+      "shot": "dust clearing to reveal destroyed bio-lab",
+      "setting": "section 9 hallway",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun stands up: an apocalyptic labyrinth of shattered cylindrical glass tanks, green bio-fluid flooding the floor.",
+      "mood": "bunker ruins",
+      "sfx": "ALARM WAILING..."
+    },
+    {
+      "id": "p07",
+      "shot": "red emergency klaxons flashing in steam",
+      "setting": "corridor ceiling",
+      "characters": [],
+      "action": "Dim red strobe lights flash through venting steam: 'WARNING: CONTAINMENT BREACH IN SECTOR 7'.",
+      "mood": "abandoned facility",
+      "sfx": "BEEP... BEEP..."
+    },
+    {
+      "id": "p08",
+      "shot": "ha-jun wiping dust from collar",
+      "setting": "corridor",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun checks his earpiece: 'Min-Jae, main Section 9 mein land ho chuka hoon. Map data relay karo.'",
+      "mood": "tactical check-in",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Main Sub-Level 3 par hoon. Bhai ka cryo-pod kahan hai?",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "min-jae voice on earpiece",
+      "setting": "earpiece close-up",
+      "characters": [],
+      "action": "Min-Jae's voice crackles through satellite static: 'Sub-Level 7, Vault 09! Elevator shafts destroyed hain, stairwell use karo!'",
+      "mood": "remote guide",
+      "sfx": "STATIC-BEEP!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min-jae",
+          "text": "Sub-Level 7 jao! Wahan thermal readings off the charts hain!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "chittering sounds in ventilation pipes",
+      "setting": "ceiling pipes",
+      "characters": [],
+      "action": "Rapid, metallic skittering echoes from inside the overhead air conditioning ducts.",
+      "mood": "monstrous ambush",
+      "sfx": "SKRITCH-SKRITCH!!"
+    },
+    {
+      "id": "p11",
+      "shot": "swarms of abyssal void crawlers dropping",
+      "setting": "corridor",
+      "characters": [],
+      "action": "Dozens of three-foot insectoid Abyssal Void Crawlers drop from the ceiling, their razor-mandibles dripping venom.",
+      "mood": "creepy swarm",
+      "sfx": "HISS-DROP!!"
+    },
+    {
+      "id": "p12",
+      "shot": "crawlers lunging with venomous pincers",
+      "setting": "melee ambush",
+      "characters": [],
+      "action": "Five crawlers leap simultaneously at Ha-Jun's face and throat from multiple angles.",
+      "mood": "coordinated strike",
+      "sfx": "SWISH!!"
+    },
+    {
+      "id": "p13",
+      "shot": "ha-jun manifesting dual bloodfire katanas",
+      "setting": "corridor combat",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's blades ignite in violet-crimson glory with zero delay, spinning into a double-helix of flame.",
+      "mood": "instant defense",
+      "sfx": "SHING-FWOOSH!!"
+    },
+    {
+      "id": "p14",
+      "shot": "clean cross-slashes bisecting crawlers",
+      "setting": "corridor combat",
+      "characters": [
+        "hajun"
+      ],
+      "action": "In three lightning-fast fluid strokes, all five crawlers are cleanly cleaved in midair, dissolving into purple ash.",
+      "mood": "effortless extermination",
+      "sfx": "SLASH-POOF!!"
+    },
+    {
+      "id": "p15",
+      "shot": "kuro incinerating survivors with shadow fire",
+      "setting": "corridor air",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro unleashes a stream of black-violet dragon breath from his beak, incinerating twenty crawlers in the hallway.",
+      "mood": "familiar assist",
+      "sfx": "FWOOOOOM!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "In kido-makodo par waqt barbad mat karo! Aage badho!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "ha-jun sprinting through blast doors",
+      "setting": "corridor sprint",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun vaults over burning lab equipment, sprinting down the corridor at 50 mph.",
+      "mood": "high speed dash",
+      "sfx": "FWOOSH!"
+    },
+    {
+      "id": "p17",
+      "shot": "severed blast door at stairwell entrance",
+      "setting": "stairwell threshold",
+      "characters": [],
+      "action": "A foot-thick titanium security door sheared clean off its hinges by terrifying claw marks.",
+      "mood": "brutal passage"
+    },
+    {
+      "id": "p18",
+      "shot": "ha-jun inspecting the claw marks on steel",
+      "setting": "blast door close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun touches the claw indentations: 'Yeh crawler ke marks nahi hain... Yeh humanoid claw marks hain.'",
+      "mood": "forensic clue",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Yeh marks... Bhai ke stasis chamber se nikalne ke baad ke hain?",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "leaping down 4 stories through central stairwell",
+      "setting": "stairwell chasm",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun leaps straight down through the open central stairwell spiral, dropping four levels in seconds.",
+      "mood": "vertical plunge",
+      "sfx": "WHOOSH!!"
+    },
+    {
+      "id": "p20",
+      "shot": "landing before sub-level 7 vault door",
+      "setting": "vault entrance",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun lands outside the reinforced blast door labelled 'VAULT 09: SOVEREIGN SPECIMEN WING'.",
+      "mood": "destination reached",
+      "sfx": "THUD!"
+    },
+    {
+      "id": "p21",
+      "shot": "ha-jun swiping captain baek master card",
+      "setting": "card reader",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun swipes the titanium Level-10 card; the hydraulic locks release with a deep pneumatic hiss.",
+      "mood": "access granted",
+      "sfx": "BEEP-CHIME-HSSSS!!",
+      "dialogue": [
+        {
+          "type": "system",
+          "text": "[CLEARANCE VERIFIED: LEVEL-10 OVERRIDE]\nWelcome, Director Baek.\nUnsealing Stasis Vault 09.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "massive circular vault doors parting",
+      "setting": "vault threshold",
+      "characters": [],
+      "action": "Two interlocking half-ton steel doors grind apart, releasing clouds of cryogenic nitrogen fog.",
+      "mood": "cryo vapor release",
+      "sfx": "CREAAAK-HSSSS..."
+    },
+    {
+      "id": "p23",
+      "shot": "sub-level 7 stasis chamber reveal",
+      "setting": "cryo vault wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A freezing, circular chamber lit by pale cyan floor tubes, frost coating every surface.",
+      "mood": "frozen laboratory"
+    },
+    {
+      "id": "p24",
+      "shot": "center stasis pod shattered from inside",
+      "setting": "central stasis pod",
+      "characters": [],
+      "action": "In the dead center stands the primary cryo-pod: the 4-inch bulletproof glass is blown outward from within.",
+      "mood": "escape confirmed",
+      "sfx": "CRACKED SHARDS..."
+    },
+    {
+      "id": "p25",
+      "shot": "ha-jun rushing to the empty pod with racing heart",
+      "setting": "pod close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun grips the frosted metal frame of the empty pod: 'Khaali hai... Pod khali hai!'",
+      "mood": "relief and bewilderment",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Bhai zinda hain! Unhone khud ise toda!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "shot": "frost-covered monitor terminal beside pod",
+      "setting": "pod monitor",
+      "characters": [],
+      "action": "The stasis log display shows: 'AWAKENING STATUS: 100%. TIME OF BREACH: 30 MINUTES AGO'.",
+      "mood": "fresh escape",
+      "sfx": "GLOW..."
+    },
+    {
+      "id": "p27",
+      "shot": "frosty bare footprints leading to back wall",
+      "setting": "vault floor",
+      "characters": [],
+      "action": "A trail of glowing crimson footprints pressed into the frozen floor leads directly to the back of the chamber.",
+      "mood": "footprints of mana"
+    },
+    {
+      "id": "p28",
+      "shot": "colossal dimensional rift in the back wall",
+      "setting": "vault back wall",
+      "characters": [],
+      "action": "The back concrete wall has been torn into a 30-foot swirling vortex of pure obsidian and violet abyssal space.",
+      "mood": "the portal",
+      "sfx": "VOID RUMBLE!!"
+    },
+    {
+      "id": "p29",
+      "shot": "kuro landing on broken pod rim",
+      "setting": "pod rim",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro stares into the swirling dimensional vortex: 'Tae-Jun is gate ke us paar gaya hai... Demon Realm mein.'",
+      "mood": "point of no return",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Usne human world ko chhod kar Abyss mein qadam rakha hai. Tumhara intezaar kar raha hoga.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun stepping up to the swirling vortex",
+      "setting": "portal threshold",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun stands at the edge of the dimensional rift, violet lightning reflecting in his dual crimson-ringed eyes.",
+      "mood": "ready to cross realms",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Toh phir... Demon Realm chalte hain.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    }
+  ]
+}

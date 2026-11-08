@@ -1,0 +1,467 @@
+{
+  "chapter": 48,
+  "title": "The Demon Beast",
+  "arc": 5,
+  "arc_title": "THE ABYSSAL KINGDOM",
+  "summary": "From the slain Void Dragon's skull, Ha-Jun retrieves the Eye of the Night. As he bonds with the Relic, his body undergoes the First True Evolution, unlocking demonic shadow wings.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "dissolving dragon skull glowing orb wide shot",
+      "setting": "colosseum arena",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The massive dragon skeleton dissolves into shimmering violet mist, leaving a dark starry sphere floating.",
+      "mood": "ethereal aftermath",
+      "sfx": "MIST HISSING..."
+    },
+    {
+      "id": "p02",
+      "shot": "ha-jun approaching the floating sphere",
+      "setting": "arena center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun steps forward, the Fang of Abyss sheathed magnetically at his right hip.",
+      "mood": "approach to destiny",
+      "sfx": "STEP... STEP..."
+    },
+    {
+      "id": "p03",
+      "shot": "macro on the eye of the night",
+      "setting": "orb macro",
+      "characters": [],
+      "action": "A flawless, deep-indigo celestial orb resembling a miniature galaxy with swirling stars inside a dark iris.",
+      "mood": "eye of the night",
+      "sfx": "TWINKLE..."
+    },
+    {
+      "id": "p04",
+      "shot": "kuro landing beside the orb with awe",
+      "setting": "arena center",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro folds his wings reverently: 'The Eye of the Night. Rare Relic #6.'",
+      "mood": "ancient relic identified",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Yeh First Sovereign ki right eye thi. Iske andar universe ka all-spectrum vision band hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "ha-jun raising right hand toward the orb",
+      "setting": "arena center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun extends his hand; the celestial orb levitates toward his face like a moth to flame.",
+      "mood": "irresistible attraction"
+    },
+    {
+      "id": "p06",
+      "shot": "orb dissolving into indigo starlight",
+      "setting": "face close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The solid orb liquefies into radiant indigo starlight, flowing directly into Ha-Jun's right eye socket.",
+      "mood": "ocular absorption",
+      "sfx": "FLOW-GLOW!!"
+    },
+    {
+      "id": "p07",
+      "shot": "ha-jun clutching right eye in sharp gasp",
+      "setting": "face close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun gasps, clutching his right eye as cool, pinprick-sharp starlight integrates into his optic nerves.",
+      "mood": "nerve fusion",
+      "sfx": "GASP-CHILL!!",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Dard nahi hai... Yeh toh bohot thanda hai, jaise barf ki roshni mere dimaag mein utar rahi ho!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p08",
+      "shot": "ha-jun opening right eye: the cosmic iris",
+      "setting": "eye extreme macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun pulls his hand away: his right pupil is transformed into a miniature swirling cosmic galaxy of stars.",
+      "mood": "all-spectrum eye",
+      "sfx": "GALAXY SHINE!!"
+    },
+    {
+      "id": "p09",
+      "shot": "what ha-jun sees through the eye of the night",
+      "setting": "vision perspective",
+      "characters": [],
+      "action": "The world shifts into high-dimensional clarity: invisible mana ley-lines, structural fractures, and souls glow bright.",
+      "mood": "mana vision unlocked",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "Hawa mein tairte hue har mana particle ka path... Deewaro ke andar ke cracks... Sabkuch saaf dikh raha tha.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "ha-jun looking at kuro with new vision",
+      "setting": "perspective view",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Through the Eye, Kuro is visible not as a bird, but as a colossal, slumbering 50-foot Phoenix of pure purple fire.",
+      "mood": "familiar true aura",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Kuro ka asli form... Yeh toh ek celestial beast hai!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "sudden volcanic burning between ha-jun shoulder blades",
+      "setting": "back close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Suddenly, Ha-Jun's spine arches as searing heat erupts between his scapula shoulder blades.",
+      "mood": "evolution trigger",
+      "sfx": "SEAR-PULSE!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "ARGGHHH!! PEECHE... MERI PEETH MEIN KYA HO RAHA HAI?!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "kuro flapping backward in alarm and joy",
+      "setting": "arena center",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro screeches with ecstatic pride: 'THE FIRST TRUE EVOLUTION! Relics ki threshold toot gayi!'",
+      "mood": "evolution announcement",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Synchronization 45% cross kar chuki hai! Sovereign Wings awaken ho rahe hain!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "black demonic mana erupting from shoulder blades",
+      "setting": "back macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Two geysers of dense obsidian and violet shadow smoke erupt violently from his upper back.",
+      "mood": "eruption of shadows",
+      "sfx": "FWOOOOOSHH!!"
+    },
+    {
+      "id": "p14",
+      "shot": "shadows solidifying into feathered dragon wings",
+      "setting": "back macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The smoke condenses into a magnificent pair of 12-foot wings: razor-sharp obsidian feathers and bone joints.",
+      "mood": "sovereign wings manifested",
+      "sfx": "CREAK-EXPAND!!"
+    },
+    {
+      "id": "p15",
+      "shot": "ha-jun lifted 20 feet into the air by wing flap",
+      "setting": "colosseum air",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A single involuntary beat of the wings generates a hurricane gale, launching Ha-Jun 20 feet skyward.",
+      "mood": "airborne flight",
+      "sfx": "FLAP-WHOOSH!!"
+    },
+    {
+      "id": "p16",
+      "shot": "ha-jun hovering in midair wide hero shot",
+      "setting": "colosseum air wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun hovers in the colosseum dome: black windbreaker, glowing galaxy right eye, bone gauntlet, and dark wings.",
+      "mood": "the sovereign ascendant"
+    },
+    {
+      "id": "p17",
+      "shot": "system interface milestone announcement",
+      "setting": "colosseum air",
+      "characters": [],
+      "action": "Diamond gothic interface scrolls with cosmic golden borders.",
+      "mood": "major milestone",
+      "sfx": "CELESTIAL GONG!!",
+      "dialogue": [
+        {
+          "type": "system",
+          "text": "[BLOODLINE EVOLUTION: STAGE 2 UNLOCKED]\nSynchronization: 45.0%\nNew Trait: Sovereign Shadow Wings (Flight Speed: Mach 1.5)\nNew Relic: Eye of the Night (All-Spectrum Mana Sight Active).",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "ha-jun experimenting with wing control",
+      "setting": "colosseum air",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun mentally commands the wings; they fold tightly against his back like an aerodynamic black cloak.",
+      "mood": "wings folded",
+      "sfx": "SHROUD...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Yeh wings mere mind se connect hain. Ek thought aur main hawa mein swim kar sakta hoon.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "kuro flying up to hover beside him",
+      "setting": "colosseum air",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro grins with demonic joy: 'Now you look like the Sovereign's true heir. Magnificent!'",
+      "mood": "pride of the mentor",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Ab koi wall ya chasm tumhe rok nahi sakti.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "ha-jun activating eye of the night to scan horizon",
+      "setting": "colosseum air",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun gazes out through the broken dome of the amphitheater across the demon realm.",
+      "mood": "scanning the realm"
+    },
+    {
+      "id": "p21",
+      "shot": "what the eye sees across the realm",
+      "setting": "panoramic vision",
+      "characters": [],
+      "action": "A glowing red mana thread stretches five miles northwest, leading into an ominous black iron fortress.",
+      "mood": "the thread of blood",
+      "sfx": "TRAIL LOCKED!",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Bhai ka blood thread... Wahan ja raha hai. Us kaali fortress ke andar!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "kuro looking in the same direction",
+      "setting": "colosseum air",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro's expression darkens: 'The Citadel of the Silent Prison... Valac ka territory.'",
+      "mood": "the target identified",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Woh fortress pure anti-mana void stone se bani hai. Wahan active spells kaam nahi karte.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "ha-jun touching the fang of abyss at his hip",
+      "setting": "colosseum air",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's hand rests on the spatial dagger: 'Lekin yeh dagger space ko cut karta hai... Anti-mana stone iske saamne kuch nahi.'",
+      "mood": "tactical confidence",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Unka anti-mana void humein rok nahi payega.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "ha-jun flexing wings to accelerate",
+      "setting": "colosseum air",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun angles his body forward, his shadow wings flaring with violet jet propulsion.",
+      "mood": "supersonic prep",
+      "sfx": "WHIRRRR..."
+    },
+    {
+      "id": "p25",
+      "shot": "breaking the sound barrier over necrothea",
+      "setting": "sky over ruins",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun shoots forward in a blinding sonic boom, streaking across the twin-mooned sky like a black comet.",
+      "mood": "sonic boom flight",
+      "sfx": "BOOOOOMMM!!"
+    },
+    {
+      "id": "p26",
+      "shot": "citadel of the silent prison looming ahead",
+      "setting": "silent prison approach",
+      "characters": [],
+      "action": "A terrifying 500-foot monolithic black fortress carved directly into a sheer cliff of anti-matter stone.",
+      "mood": "the dread fortress"
+    },
+    {
+      "id": "p27",
+      "shot": "chains of dark energy anchoring the fortress",
+      "setting": "citadel base",
+      "characters": [],
+      "action": "Massive thousand-ton iron chains anchor the floating prison island to the bottomless void below.",
+      "mood": "the chains of ruin",
+      "sfx": "CREAAAK..."
+    },
+    {
+      "id": "p28",
+      "shot": "kuro pointing claw at the anchor chains",
+      "setting": "sky flight",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro shouts over the wind: 'Wo chains dekho! The Chains of Ruin! Relic #7 wahan hai!'",
+      "mood": "relic #7 spotted",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "The Chains of Ruin! Woh fortress ko hold kar rahi hain!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "ha-jun diving toward the fortress rooftop",
+      "setting": "sky flight",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun tucks his wings, diving headfirst at 500 mph toward the silent prison fortress.",
+      "mood": "stealth insertion dive",
+      "sfx": "DIVE!!"
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun landing silently on the black iron parapet",
+      "setting": "citadel parapet",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun lands with zero sound on the anti-mana battlements, eyes gleaming in the shadow: 'Bhai, main aa gaya.'",
+      "mood": "infiltrating the prison",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Yeh prison tod kar... Main tumhe wapas le jaunga.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    }
+  ]
+}

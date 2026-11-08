@@ -1,0 +1,423 @@
+{
+  "chapter": 49,
+  "title": "The First Evolution",
+  "arc": 5,
+  "arc_title": "THE ABYSSAL KINGDOM",
+  "summary": "Infiltrating the Silent Prison, Ha-Jun finds his active magic dampened by anti-mana pylons. Relying on bone density and martial precision, he defeats the Void Inquisitors to reach the central dungeon.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "silent prison parapet wide shot",
+      "setting": "silent prison roof",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A bleak, lightless fortress of matte-black anti-matter stone under twin crimson moons; zero wind, unnatural dead silence.",
+      "mood": "deadly silence",
+      "sfx": "DEAD SILENCE..."
+    },
+    {
+      "id": "p02",
+      "shot": "ha-jun checking his hands in the null field",
+      "setting": "roof deck",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun extends his hands: the flame on his fingertips flickers and extinguishes in the anti-mana atmosphere.",
+      "mood": "mana nullification",
+      "sfx": "PZZZT-OUT..."
+    },
+    {
+      "id": "p03",
+      "shot": "kuro landing on parapet horn",
+      "setting": "roof deck",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro's body shrinks back to crow size; his horn tips lose their glow: 'Ugh... Nullification field bohot strong hai.'",
+      "mood": "dampened powers",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Spells aur flames kaam nahi karenge. Sirf physical aur innate relic passive weapons chalenge.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "ha-jun flexing his left bone gauntlet",
+      "setting": "hand close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's bone gauntlet remains dense and solid; his skeletal reinforcement is biological, immune to dispels.",
+      "mood": "biological immunity",
+      "sfx": "CLACK!",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Bone of the Forgotten meri haddiyon ka hissa hai... Is par koi spell dispel kaam nahi karta.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "ha-jun tapping the fang of abyss at his hip",
+      "setting": "hip macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The Fang of Abyss hums with cold dark space; as a tear in reality, it cannot be canceled by mana fields.",
+      "mood": "spatial immunity",
+      "sfx": "HUMMM..."
+    },
+    {
+      "id": "p06",
+      "shot": "eye of the night blinking inside right socket",
+      "setting": "eye macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The starry cosmic eye pierces through the darkness, highlighting structural weak points in the fortress walls.",
+      "mood": "vision remains active",
+      "sfx": "STAR SHINE...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Eye of the Night bhi kaam kar rahi hai. Ventilation shaft 10 meter aage hai.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "two armored void inquisitors patrolling corridor below",
+      "setting": "prison corridor",
+      "characters": [],
+      "action": "Two 8-foot tall faceless Void Inquisitors clad in obsidian plate armor, carrying jagged executioner axes.",
+      "mood": "silent patrol",
+      "sfx": "HEAVY CLANK..."
+    },
+    {
+      "id": "p08",
+      "shot": "ha-jun dropping silently from ceiling like a phantom",
+      "setting": "corridor ambush",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun drops silently from an overhead ventilation shaft, landing directly between the two sentries.",
+      "mood": "silent drop",
+      "sfx": "GHOST-TAP..."
+    },
+    {
+      "id": "p09",
+      "shot": "ha-jun striking first sentry with bone elbow",
+      "setting": "melee combat",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Before the sentry can turn, Ha-Jun drives his left bone elbow into the center of the inquisitor's breastplate.",
+      "mood": "bone strike",
+      "sfx": "WHAMMM!!"
+    },
+    {
+      "id": "p10",
+      "shot": "inquisitor breastplate caving inward",
+      "setting": "impact close-up",
+      "characters": [],
+      "action": "The solid anti-matter steel plate caves inward three inches; the sentry is knocked unconscious instantly.",
+      "mood": "armor caved",
+      "sfx": "CRUNCH!!"
+    },
+    {
+      "id": "p11",
+      "shot": "second inquisitor raising massive executioner axe",
+      "setting": "corridor combat",
+      "characters": [],
+      "action": "The second guard swings a heavy double-bitted axe in a horizontal decapitation arc.",
+      "mood": "lethal axe swing",
+      "sfx": "SWHOOSH!!"
+    },
+    {
+      "id": "p12",
+      "shot": "ha-jun ducking beneath the blade with fluid precision",
+      "setting": "melee combat",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Remembering his blindfold training, Ha-Jun ducks smoothly under the axe, stepping into the guard's guard.",
+      "mood": "flawless slip",
+      "sfx": "SWOOSH!"
+    },
+    {
+      "id": "p13",
+      "shot": "ha-jun palm strike to inquisitor chin",
+      "setting": "melee combat",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun drives an open-palm bone strike upward into the sentry's chin, snapping the helmet back.",
+      "mood": "instant knockout",
+      "sfx": "SNAP-CLANG!!"
+    },
+    {
+      "id": "p14",
+      "shot": "second sentry slumping limp against the wall",
+      "setting": "corridor",
+      "characters": [],
+      "action": "The second inquisitor collapses unconscious to the stone floor with zero alarms raised.",
+      "mood": "silent victory",
+      "sfx": "THUD..."
+    },
+    {
+      "id": "p15",
+      "shot": "kuro hopping onto ha-jun shoulder grinning",
+      "setting": "corridor",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro snickers: 'Clean. Martial discipline bina mana ke bhi lethal hai.'",
+      "mood": "praise for technique",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Dekha? Brute magic ke bina tumhara close combat master-class hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "ha-jun moving down the descending spiral corridor",
+      "setting": "spiral corridor",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun glides down the spiraling stone corridor, his Eye of the Night tracking the crimson thread.",
+      "mood": "deep dungeon descent",
+      "sfx": "STEP... STEP..."
+    },
+    {
+      "id": "p17",
+      "shot": "cells lining the walls holding ancient captive demons",
+      "setting": "dungeon cells",
+      "characters": [],
+      "action": "Rusted iron cell bars holding emaciated ancient demons, staring at Ha-Jun with hollow, dead eyes.",
+      "mood": "forgotten captives"
+    },
+    {
+      "id": "p18",
+      "shot": "a captive demon recognizing ha-jun sovereign crest",
+      "setting": "cell bars close-up",
+      "characters": [],
+      "action": "An ancient four-eyed warlock demon gasps, clutching the bars: 'S-Sovereign... The Bloodline lives...!'",
+      "mood": "ancestral recognition",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "captive_demon",
+          "text": "Maha-Sovereign ka khoon laut aaya hai... Humein azaad karo!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "ha-jun halting for half a second",
+      "setting": "dungeon corridor",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun looks into the captive's desperate eyes: 'Main sabko azaad karunga... Bas thoda sabr rakho.'",
+      "mood": "empathy of the monarch",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Pehle apne bhai ko nikalunga... Phir is poori prison ko tod dunga.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "reaching the central execution rotunda",
+      "setting": "execution rotunda wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The corridor opens into a massive 100-meter circular subterranean rotunda lit by floating green torches.",
+      "mood": "the central chamber"
+    },
+    {
+      "id": "p21",
+      "shot": "kang tae-jun chained to floating central monolith",
+      "setting": "rotunda center",
+      "characters": [],
+      "action": "Suspended 30 feet in midair: Kang Tae-Jun, bound by colossal black glowing chains wrapped around his arms and torso.",
+      "mood": "the brother found",
+      "sfx": "CHAIN CLINK..."
+    },
+    {
+      "id": "p22",
+      "shot": "ha-jun heart stopping at the sight",
+      "setting": "face extreme close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's breath shatters in his chest; tears well up as he finally lays eyes on his elder brother.",
+      "mood": "emotional climax",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Bhai...!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "tae-jun slowly lifting bruised face",
+      "setting": "monolith close-up",
+      "characters": [],
+      "action": "Kang Tae-Jun—with messy dark hair, a scarred jawline, and tired fierce eyes—slowly raises his head.",
+      "mood": "the brother looks up"
+    },
+    {
+      "id": "p24",
+      "shot": "tae-jun recognizing ha-jun in disbelief",
+      "setting": "monolith close-up",
+      "characters": [],
+      "action": "Tae-Jun's dry lips part in stunned disbelief: 'H-Ha-Jun...? Tum... Yahan kaise...?'",
+      "mood": "brother's shock",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Ha-Jun...? Tum yahan kyu aaye... Bhag jao! Yeh trap hai!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "dark throne emerging from the rotunda shadows",
+      "setting": "rotunda throne",
+      "characters": [],
+      "action": "From the high balcony shadows, a 12-foot demonic figure in feathered violet silk robes steps forward.",
+      "mood": "the warden reveals himself",
+      "sfx": "CLACK-STEP..."
+    },
+    {
+      "id": "p26",
+      "shot": "grand inquisitor belial design reveal",
+      "setting": "balcony close-up",
+      "characters": [],
+      "action": "A tall, slender demon lord with four sweeping ram horns, porcelain skin, and a mask of silver weeping tears.",
+      "mood": "grand inquisitor belial",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "belial",
+          "text": "Welcome to the Silent Rotunda, little Sovereign.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "belial holding the master anchor chain in hand",
+      "setting": "balcony close-up",
+      "characters": [],
+      "action": "In Belial's hand rests the master link of the colossal black chain: 'The Chains of Ruin.'",
+      "mood": "relic in enemy hands",
+      "sfx": "CHAIN RATTLE!!"
+    },
+    {
+      "id": "p28",
+      "shot": "belial mocking the brothers' reunion",
+      "setting": "balcony close-up",
+      "characters": [],
+      "action": "Belial smiles with sadistic elegance: 'Your brother endured seven years of torture to keep you safe... And you walk right into my cage!'",
+      "mood": "villain's mockery",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "belial",
+          "text": "Ab dono bhaiyon ka blood mil kar Demon Lords ke naye empire ki foundation banega!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "ha-jun drawing the fang of abyss with chilling silence",
+      "setting": "rotunda floor",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun unsheathes the spatial void dagger, his cosmic galaxy eye burning with absolute zero temperature.",
+      "mood": "the rage of the sovereign",
+      "sfx": "SHING..."
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun pointing the void blade at belial",
+      "setting": "hero stance",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's voice echoes with ancient imperial authority: 'Mera bhai chhod... Ya apni gardan de.'",
+      "mood": "the ultimatum",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Chains ko azaad kar... Ya main is puri fortress ko tere upar gira doonga.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    }
+  ]
+}

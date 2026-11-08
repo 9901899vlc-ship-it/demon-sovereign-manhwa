@@ -1,0 +1,442 @@
+{
+  "chapter": 50,
+  "title": "Eye of the Night",
+  "arc": 5,
+  "arc_title": "THE ABYSSAL KINGDOM",
+  "summary": "Using the spatial severance of the Fang of Abyss and All-Spectrum vision of the Eye of the Night, Ha-Jun dismantles Grand Inquisitor Belial's illusions, liberating his brother Tae-Jun.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "belial laughing as rotunda fills with mirror illusions",
+      "setting": "execution rotunda wide",
+      "characters": [],
+      "action": "Belial laughs melodically; thirty identical mirror illusions of him materialize across the balcony tiers.",
+      "mood": "mirror illusion army",
+      "sfx": "ECHOING LAUGHTER..."
+    },
+    {
+      "id": "p02",
+      "shot": "belial illusions chanting in unison",
+      "setting": "balcony tiers",
+      "characters": [],
+      "action": "All thirty avatars chant in high-pitch demonic frequency: 'Which one is real, mortal whelp?!'",
+      "mood": "cacophony of taunts",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "belial",
+          "text": "Meri shadows mein tumhara har strike empty air ko kaatega!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "shot": "ha-jun activating eye of the night in full power",
+      "setting": "face close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's right cosmic eye pulses with brilliant violet starlight, piercing straight through the illusion mesh.",
+      "mood": "all-spectrum sight",
+      "sfx": "STARRY FLARE!!"
+    },
+    {
+      "id": "p04",
+      "shot": "what the eye sees: true soul signature exposed",
+      "setting": "vision perspective",
+      "characters": [],
+      "action": "Twenty-nine illusions appear as empty grey glass; the real Belial on the upper third balcony glows with dark purple soul flame.",
+      "mood": "true target locked",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Third balcony... Left pillar ke peeche. Tumhara soul flame chhip nahi sakta!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "ha-jun unfurling sovereign shadow wings",
+      "setting": "rotunda floor",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's 12-foot obsidian shadow wings burst outward, blasting a sonic shockwave through the rotunda.",
+      "mood": "wings deployed",
+      "sfx": "BOOOOOM!!"
+    },
+    {
+      "id": "p06",
+      "shot": "rocket ascent straight at the third balcony",
+      "setting": "rotunda air",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun rockets skyward like an anti-aircraft missile, ignoring all twenty-nine illusions.",
+      "mood": "laser-focused charge",
+      "sfx": "FWOOSH!!"
+    },
+    {
+      "id": "p07",
+      "shot": "real belial eyes widening in panicked shock",
+      "setting": "balcony pillar",
+      "characters": [],
+      "action": "The real Belial stumbles back from behind the pillar, his porcelain face freezing in horror: 'HOW?!'",
+      "mood": "illusion shattered",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "belial",
+          "text": "Tumhe mera asli location kaise pata chala?! That's impossible!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p08",
+      "shot": "belial whipping chains of ruin defensively",
+      "setting": "balcony combat",
+      "characters": [],
+      "action": "Belial whips the heavy black Chains of Ruin, attempting to entangle Ha-Jun in midair with gravity binds.",
+      "mood": "gravity chain whip",
+      "sfx": "CLANG-WHIP!!"
+    },
+    {
+      "id": "p09",
+      "shot": "gravity field pulling ha-jun down with 10x force",
+      "setting": "rotunda air",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ten times normal gravity slams into Ha-Jun's frame, threatening to smash him into the stone floor.",
+      "mood": "crushing gravity",
+      "sfx": "HEAVY G-FORCE!!"
+    },
+    {
+      "id": "p10",
+      "shot": "ha-jun slashing empty air with fang of abyss",
+      "setting": "midair action",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Mid-fall, Ha-Jun slashes the void dagger directly across the invisible gravitational tether.",
+      "mood": "severing gravity",
+      "sfx": "SHING!!"
+    },
+    {
+      "id": "p11",
+      "shot": "gravity tether severed like a string",
+      "setting": "airborne macro",
+      "characters": [],
+      "action": "The gravitational field snaps with a glassy chime, instantly freeing Ha-Jun from the crushing weight.",
+      "mood": "gravity cut",
+      "sfx": "CHIME-SNAP!!",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "The Fang of Abyss... Physical cheezein hi nahi, abstract concepts ko bhi cut karta hai!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "ha-jun propelling forward off falling chain",
+      "setting": "rotunda air",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun kicks off the falling iron chain link, closing the remaining ten feet to Belial in a microsecond.",
+      "mood": "counter momentum",
+      "sfx": "SWOOSH!"
+    },
+    {
+      "id": "p13",
+      "shot": "ha-jun left bone gauntlet grabbing belial horn",
+      "setting": "balcony combat",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's ivory bone gauntlet clamps down onto Belial's massive right ram horn with crushing grip.",
+      "mood": "horn seized",
+      "sfx": "GRAB-CRUNCH!!"
+    },
+    {
+      "id": "p14",
+      "shot": "snapping belial horn off cleanly",
+      "setting": "balcony combat",
+      "characters": [
+        "hajun"
+      ],
+      "action": "With a twist of his reinforced wrist, Ha-Jun snaps the demon lord's horn completely off at the root.",
+      "mood": "horn shattered",
+      "sfx": "KRAAAACK!!"
+    },
+    {
+      "id": "p15",
+      "shot": "belial screaming in humiliating agony",
+      "setting": "balcony combat",
+      "characters": [],
+      "action": "Belial shrieks as black blood fountains from his cracked temple, dropping the master chain.",
+      "mood": "screaming warden",
+      "sfx": "ARGGGHHH!!"
+    },
+    {
+      "id": "p16",
+      "shot": "ha-jun driving fang of abyss through belial shoulder",
+      "setting": "balcony combat",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun pins Belial to the stone balcony wall, plunging the void dagger through his shoulder joint.",
+      "mood": "pinned to wall",
+      "sfx": "THUD-SHING!!"
+    },
+    {
+      "id": "p17",
+      "shot": "spatial lock freezing belial in place",
+      "setting": "balcony wall",
+      "characters": [],
+      "action": "The void dagger's spatial authority locks Belial's body in frozen time and space against the wall.",
+      "mood": "dimensional freeze",
+      "sfx": "STATIC LOCK...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Hila toh space tumhe do tukdo mein baant dega.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "ha-jun catching the falling master chain",
+      "setting": "rotunda balcony",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun catches the falling black master link of the Chains of Ruin in his right hand.",
+      "mood": "chains seized",
+      "sfx": "CATCH-CLINK!!"
+    },
+    {
+      "id": "p19",
+      "shot": "ha-jun leaping down toward tae-jun monolith",
+      "setting": "rotunda descent",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun dives off the balcony, wings braking his fall as he lands atop the floating monolith.",
+      "mood": "landing beside brother",
+      "sfx": "TAP..."
+    },
+    {
+      "id": "p20",
+      "shot": "ha-jun standing face to face with tae-jun",
+      "setting": "monolith top",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Two brothers stand inches apart: 17yo Ha-Jun and 26yo Tae-Jun, eyes locked in raw emotion.",
+      "mood": "the reunion",
+      "sfx": "TEARFUL GLANCE..."
+    },
+    {
+      "id": "p21",
+      "shot": "tae-jun touching ha-jun cheek with trembling hand",
+      "setting": "monolith top",
+      "characters": [],
+      "action": "Tae-Jun raises his bruised, shivering hand, gently cupping his younger brother's cheek.",
+      "mood": "brotherly touch",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Ha-Jun... Tum itne bade ho gaye... Kitne strong ban gaye ho...",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "ha-jun tears falling onto tae-jun chains",
+      "setting": "monolith top",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun weeps openly, his forehead pressing against his elder brother's shoulder.",
+      "mood": "emotional catharsis",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Maine aapse promise kiya tha, Bhai... Main aapko dhoondh kar rahunga.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "ha-jun gripping the chains binding his brother",
+      "setting": "monolith top",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun wraps his hands around the black chains binding Tae-Jun's chest and arms.",
+      "mood": "freeing the brother",
+      "sfx": "GRIP..."
+    },
+    {
+      "id": "p24",
+      "shot": "ha-jun channeling sovereign command into chains",
+      "setting": "chains macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun commands: 'Chains of Ruin... Obey your true master! RELEASE!'",
+      "mood": "sovereign command",
+      "sfx": "VOICE ECHO!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "CHAINS OF RUIN... APNE SAAHAB KA HUKUM SUNO! RELEASE!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "chains of ruin uncoiling and shattering locks",
+      "setting": "monolith top",
+      "characters": [],
+      "action": "The ancient black chains unspool with musical chimes, slipping harmlessly from Tae-Jun's body.",
+      "mood": "bonds unsealed",
+      "sfx": "CHIME-CLATTER!!"
+    },
+    {
+      "id": "p26",
+      "shot": "tae-jun falling forward into ha-jun arms",
+      "setting": "monolith top",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Weak from seven years of stasis and torture, Tae-Jun falls forward; Ha-Jun catches him firmly.",
+      "mood": "safe in brother's arms",
+      "sfx": "CATCH!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Thank you, Ha-Jun... Mera bhai...",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "chains of ruin coiling obediently around ha-jun torso",
+      "setting": "hero body",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The black dimensional chains wrap obediently across Ha-Jun's chest like bandoliers of pure dark gravity.",
+      "mood": "relic #7 integrated",
+      "sfx": "LOCK-CLINK!!"
+    },
+    {
+      "id": "p28",
+      "shot": "system interface milestone announcement",
+      "setting": "rotunda air",
+      "characters": [],
+      "action": "Golden banners unfurl in triumphant celebration.",
+      "mood": "system milestone",
+      "sfx": "FANFARE!!",
+      "dialogue": [
+        {
+          "type": "system",
+          "text": "[RELIC BONDED: CHAINS OF RUIN (RARE)]\nAuthority: Gravitational Binding & Dimensional Anchoring\nSynchronization Rate: 50.0% (HALFWAY MILESTONE REACHED!)\nAll 3 Rare Relics Assembled.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "kuro landing on tae-jun shoulder greeting him",
+      "setting": "monolith top",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro nuzzles Tae-Jun's hair softly: 'Welcome back, Tae-Jun. Tumhara chhota bhai ab Sovereign ban chuka hai.'",
+      "mood": "family reunited",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Dono zinda ho... First Sovereign ka bloodline complete hua.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun carrying tae-jun on back as wings flare",
+      "setting": "monolith top wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun hoists his brother onto his back, 12-foot shadow wings flaring wide to escape the prison.",
+      "mood": "triumphant brotherly rescue",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Chalo, Bhai... Ghar chalte hain.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    }
+  ]
+}
