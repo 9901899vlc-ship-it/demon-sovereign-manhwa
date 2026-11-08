@@ -1,0 +1,544 @@
+{
+  "chapter": 101,
+  "title": "The Last Enemy",
+  "arc": 10,
+  "arc_title": "THE LAST BLOOD",
+  "summary": "In the tranquil aftermath of the 100th chapter celebration, Ha-Jun confronts the final philosophical enemy: the fear of stagnation, choosing to dedicate his eternal power to teaching the next generation.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "the quiet campus library at saint mirren on a rainy afternoon",
+      "setting": "campus library wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Rain softly patters against the cathedral windows of the university library; students study under green brass desk lamps.",
+      "mood": "peaceful study atmosphere",
+      "sfx": "RAIN PATTER..."
+    },
+    {
+      "id": "p02",
+      "shot": "ha-jun sitting at a long mahogany table tutoring young demon and human students",
+      "setting": "tutoring table",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun sits between a young horned demon boy and a human girl, patiently explaining mana stabilization math.",
+      "mood": "the sovereign teacher",
+      "sfx": "PENCIL-SCRATCH...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Remember, mana density follows the inverse square law. Relax your breathing.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "shot": "the demon boy successfully creating a miniature glowing flower in his palm",
+      "setting": "mana flower creates",
+      "characters": [],
+      "action": "The young demon boy's eyes widen as a tiny glowing violet rose blossoms harmlessly in his hand: 'I did it, Professor Kang!'",
+      "mood": "young success",
+      "sfx": "GLOW-FLOWER...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "demon_student",
+          "text": "Look! It didn't burn!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "ha-jun smiling warmly ruffling the boy's hair",
+      "setting": "ha-jun ruffles hair",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun ruffles his hair: 'Told you. Power is like water. If you fight it, it splashes. If you guide it, it flows.'",
+      "mood": "gentle mentorship",
+      "sfx": "SMILE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Bohot achha kiya. Proud of you.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "tae-jun leaning against the bookshelf watching with folded arms",
+      "setting": "tae-jun watching tutoring",
+      "characters": [],
+      "action": "Tae-Jun watches from the stacks, holding an armful of historical textbooks, his eyes full of warmth.",
+      "mood": "proud elder brother",
+      "sfx": "BOOK STACK...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "You're a natural teacher, Ha-Jun. You have Dad's patience.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "ha-jun looking up at tae-jun with an affectionate smile",
+      "setting": "ha-jun looks at tae-jun",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun smiles: 'Dad was the best teacher in the world. I'm just copying him.'",
+      "mood": "honoring father",
+      "sfx": "SMILE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Dad se hi seekha hai sab.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "kuro napping inside a hollowed-out dictionary on the bookshelf",
+      "setting": "kuro in dictionary",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro naps comfortably inside a large open copy of the Oxford English Dictionary, his wing draped over 'Peace'.",
+      "mood": "humorous resting spot",
+      "sfx": "SOFT PURR..."
+    },
+    {
+      "id": "p08",
+      "shot": "min-jae walking into the library carrying two warm cardboard coffee trays",
+      "setting": "min-jae coffee delivery",
+      "characters": [],
+      "action": "Min-Jae enters quietly on tiptoes, balancing four cups of warm hazelnut lattes: 'Coffee break for the faculty!'",
+      "mood": "coffee arrival",
+      "sfx": "WHISPER-WALK...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Shh! Librarian is watching! Grab your latte!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "the four companions whispering and laughing behind the history bookshelves",
+      "setting": "whispering behind shelves",
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
+      "action": "The four friends huddle behind the bookshelf, sipping warm lattes and giggling like high schoolers.",
+      "mood": "quiet joy",
+      "sfx": "WHISPER-LAUGH...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Min-Jae, you're the Dean of Administration and you're sneaking food in the library?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "min-jae winking playfully: 'perks of having sovereign immunity!'",
+      "setting": "min-jae winks",
+      "characters": [],
+      "action": "Min-Jae winks: 'If the head librarian complains, I'll tell her the Demon Sovereign ordered the coffee!'",
+      "mood": "playful corruption",
+      "sfx": "WINK...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Sovereign privilege!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "ha-jun shaking his head laughing softly",
+      "setting": "ha-jun laughing",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun laughs, taking a warm sip, feeling the deep, cozy simplicity of everyday human happiness.",
+      "mood": "simple happiness",
+      "sfx": "SMILE-SIP..."
+    },
+    {
+      "id": "p12",
+      "shot": "the rain outside tapering off into a misty golden afternoon drizzle",
+      "setting": "rain clears window",
+      "characters": [],
+      "action": "The heavy rain outside softens into a misty shower; sunlight breaks through the clouds, casting rainbow arcs.",
+      "mood": "rainbow appears",
+      "sfx": "RAINBOW GLOW..."
+    },
+    {
+      "id": "p13",
+      "shot": "ha-jun walking over to the cathedral window looking out at the campus lawn",
+      "setting": "window view",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun looks out at the green lawns where students are sitting on park benches reading.",
+      "mood": "peaceful campus",
+      "sfx": "GAZE..."
+    },
+    {
+      "id": "p14",
+      "shot": "tae-jun stepping up beside him leaning against the stone sill",
+      "setting": "brothers by window",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun joins him: 'Do you ever miss the adrenaline, Ha-Jun? The roaring battles?'",
+      "mood": "philosophical question",
+      "sfx": "LEAN...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Jung ki aadat toh nahi pad gayi thi?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "shot": "ha-jun shaking his head without a single second of doubt",
+      "setting": "ha-jun zero doubt",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun shakes his head firmly: 'Never. The sword was only a tool to reach this silence.'",
+      "mood": "the warrior's truth",
+      "sfx": "FIRM SHAKE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Jung sirf is shanti tak pahunchne ka raasta thi. I love this peace.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "kuro hopping onto the sill pecking at a raindrop on the glass",
+      "setting": "kuro on sill",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro taps the glass: 'A warrior who loves fighting is a butcher. A warrior who loves peace is a King.'",
+      "mood": "ancient wisdom",
+      "sfx": "TAP-TAP...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "That is why Asmodaius yielded his crown to you.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "ha-jun smiling scratching kuro neck with gentle fingertips",
+      "setting": "scratching kuro",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Ha-Jun scratches under Kuro's beak: 'You always say the right things when you're not eating my croissants.'",
+      "mood": "fond affection",
+      "sfx": "CHUCKLE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Kabhi kabhi bohot samajhdar baatein karte ho.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "the library bell chiming five in the afternoon: classes ending",
+      "setting": "clock chimes five",
+      "characters": [],
+      "action": "The antique grandfather clock in the corner chimes five melodious tones; students begin packing bags.",
+      "mood": "evening approaches",
+      "sfx": "DONG-DONG-DONG..."
+    },
+    {
+      "id": "p19",
+      "shot": "the young demon and human students waving to ha-jun as they leave",
+      "setting": "students wave goodbye",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The students bow politely: 'Thank you, Professor Ha-Jun! See you on Wednesday!'",
+      "mood": "grateful students",
+      "sfx": "WAVE-BOW...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "students",
+          "text": "Thank you, Professor!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "ha-jun waving back warmly: 'do your practice problems, don't slack off!'",
+      "setting": "ha-jun waves",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun waves back: 'Practice your mana circles! I will be checking on Wednesday!'",
+      "mood": "encouraging mentor",
+      "sfx": "SMILE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Practice zaroor karna!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "the library growing quiet as evening golden light floods the stacks",
+      "setting": "empty library golden",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The library empties; long amber sunbeams illuminate the polished oak floors and dusty book bindings.",
+      "mood": "golden hour quiet",
+      "sfx": "AMBER RAYS..."
+    },
+    {
+      "id": "p22",
+      "shot": "ha-jun, tae-jun, and min-jae packing their satchels together",
+      "setting": "packing satchels",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The three young men zip their leather bags, ready to head home for the evening.",
+      "mood": "end of workday",
+      "sfx": "ZIPPER-CLICK..."
+    },
+    {
+      "id": "p23",
+      "shot": "tae-jun checking the grocery list on his phone",
+      "setting": "checking grocery list",
+      "characters": [],
+      "action": "Tae-Jun scrolls on his phone: 'We need green onions, tofu, and beef brisket for the sundubu stew.'",
+      "mood": "domestic errands",
+      "sfx": "SCROLL...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Supermarket chalte hain. Dinner banana hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "min-jae inviting himself over with zero shame",
+      "setting": "min-jae invites himself",
+      "characters": [],
+      "action": "Min-Jae grins: 'Sundubu stew?! Count me in! I'll buy the ice cream for dessert!'",
+      "mood": "shameless best friend",
+      "sfx": "GRIN...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "I'm coming over for dinner!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "ha-jun laughing putting his arm around min-jae shoulder",
+      "setting": "arm around min-jae",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun laughs: 'You eat dinner at our place six days a week, Min-Jae. You practically live with us.'",
+      "mood": "brotherly camaraderie",
+      "sfx": "LAUGH...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Tumhara apna ghar nahi hai kya?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "shot": "min-jae beaming: 'your brother cooks ten times better than my microwave!'",
+      "setting": "min-jae defense",
+      "characters": [],
+      "action": "Min-Jae shrugs proudly: 'Tae-Jun hyung's cooking is an S-rank national treasure!'",
+      "mood": "honest compliment",
+      "sfx": "SHRUG...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Tae-Jun hyung ka khana Michelin star level hai!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "tae-jun puffing his chest proudly: 'at least someone appreciates my culinary genius'",
+      "setting": "tae-jun proud cook",
+      "characters": [],
+      "action": "Tae-Jun chuckles: 'See? Min-Jae has taste. Unlike my ungrateful little brother.'",
+      "mood": "brotherly jokes",
+      "sfx": "CHUCKLE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Min-Jae ko asli taste ki samajh hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "the group walking down the grand marble staircase of the library",
+      "setting": "walking down library stairs",
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
+      "action": "The four friends walk down the marble stairs, their laughter echoing through the quiet halls.",
+      "mood": "happy departure",
+      "sfx": "FOOTSTEPS-LAUGHTER..."
+    },
+    {
+      "id": "p29",
+      "shot": "stepping out into the fresh, rain-scented autumn evening breeze",
+      "setting": "stepping outside campus",
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
+      "action": "They step out of the heavy glass doors into the cool, rain-washed evening air, streetlamps buzzing to life.",
+      "mood": "cool evening air",
+      "sfx": "EVENING BREEZE..."
+    },
+    {
+      "id": "p30",
+      "shot": "the three friends walking shoulder to shoulder into the sunset cliffhanger",
+      "setting": "walking into sunset wide",
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
+      "action": "Ha-Jun, Tae-Jun, Min-Jae, and Kuro walk down the tree-lined street together into the golden sunset glow!",
+      "mood": "chapter 101 cliffhanger",
+      "sfx": "GOLDEN SUNSET...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "DEMON SOVEREIGN'S BLOODLINE — CHAPTER 101 CONCLUDED.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    }
+  ]
+}

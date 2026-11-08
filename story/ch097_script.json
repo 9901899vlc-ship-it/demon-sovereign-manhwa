@@ -1,0 +1,497 @@
+{
+  "chapter": 97,
+  "title": "True Sovereign Form",
+  "arc": 10,
+  "arc_title": "THE LAST BLOOD",
+  "summary": "Revealing his True Sovereign Form, Ha-Jun stands as the supreme protector of creation. Tae-Jun and Kuro gaze upon the culmination of their five-thousand-year covenant.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "the true sovereign ha-jun standing on the starlight bridge wide hero shot",
+      "setting": "starlight bridge hero wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun stands in breathtaking majesty: white jade horns, starlight hair flowing, six rainbow wings fanned wide.",
+      "mood": "the supreme monarch",
+      "sfx": "CELESTIAL AWE..."
+    },
+    {
+      "id": "p02",
+      "shot": "tae-jun staring with his jaw slack, eyes full of reverent tears",
+      "setting": "tae-jun amazed tears",
+      "characters": [],
+      "action": "Tae-Jun lowers his sword, tears rolling down his cheeks in stunned, joyous awe: 'Ha-Jun... You look... incredible.'",
+      "mood": "brother in awe",
+      "sfx": "GASP-TEARS...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Tum sach mein ek devta lag rahe ho, Ha-Jun.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "shot": "kuro mantle on ha-jun shoulders ruffling happily",
+      "setting": "mantle ruffles",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The starlight feather mantle ruffles warmly: 'I told you he had good bones. Five thousand years of searching, and I found perfection.'",
+      "mood": "proud familiar",
+      "sfx": "PURR...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Our journey has reached its peak.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "ha-jun smiling gently his voice soft, melodic, and resonant",
+      "setting": "ha-jun gentle smile",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun smiles with the exact same boyish warmth: 'I'm still your little brother, Tae-Jun. I just have cooler clothes now.'",
+      "mood": "humble god",
+      "sfx": "WARM VOICE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Main abhi bhi wahi Ha-Jun hoon jo math exam se darta hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "tae-jun laughing through his tears stepping forward",
+      "setting": "tae-jun laughs",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun laughs out loud, stepping forward: 'Horns and wings won't save you from taking out the apartment trash, you know.'",
+      "mood": "brotherly tease",
+      "sfx": "LAUGHTER...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Kachra tumhe hi phenkna padega!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "ha-jun laughing catching tae-jun in a warm, gentle hug",
+      "setting": "brothers hugging in godhood",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun wraps his wings and arms around Tae-Jun, holding his brother with soft, perfect warmth.",
+      "mood": "embrace of the sovereign",
+      "sfx": "WARM EMBRACE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "I'll take out the trash, Hyung. Gladly.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "the maiden of the tree of origin stepping forward with hands clasped",
+      "setting": "maiden bows",
+      "characters": [],
+      "action": "The cosmic maiden bows deeply: 'The universal seam is sealed. But one final remnant of the past remains.'",
+      "mood": "the final task introduced",
+      "sfx": "BOW...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tree_maiden",
+          "text": "The soul echo of the First Demon Sovereign still lingers in the Mirror of Origins.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p08",
+      "shot": "ha-jun turning his gaze toward the mirror of origins",
+      "setting": "mirror of origins wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ahead on the starlight sea floats a titanic crystal mirror reflecting the ancient dawn of creation.",
+      "mood": "the mirror of history",
+      "sfx": "MIRROR GLOW..."
+    },
+    {
+      "id": "p09",
+      "shot": "inside the mirror: the ancient spirit of asmodaius waiting peacefully",
+      "setting": "asmodaius in mirror",
+      "characters": [],
+      "action": "Inside the reflection stands the original Asmodaius, waiting with a solemn, expectant gaze.",
+      "mood": "the progenitor awaits",
+      "sfx": "SILENT STARE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "asmodaius",
+          "text": "Come, Ha-Jun Kang. Let us exchange the final word.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "ha-jun stepping into the glass surface of the mirror without hesitation",
+      "setting": "stepping into mirror",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun steps forward, his boots rippling the reflective glass surface like water as he enters the mirror plane.",
+      "mood": "entering the mirror",
+      "sfx": "RIPPLE-STEP..."
+    },
+    {
+      "id": "p11",
+      "shot": "ha-jun standing before the living memory of first sovereign asmodaius",
+      "setting": "two monarchs face to face",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The two Demon Sovereigns stand face to face: the First Sovereign of War and the True Sovereign of Peace.",
+      "mood": "the two sovereigns",
+      "sfx": "FACING DESTINY..."
+    },
+    {
+      "id": "p12",
+      "shot": "asmodaius looking at ha-jun six wings of dawn with deep reverence",
+      "setting": "asmodaius inspecting",
+      "characters": [],
+      "action": "Asmodaius inspects Ha-Jun's wings and eyes: 'Wings of creation, not destruction. You surpassed my wildest dream.'",
+      "mood": "ancestor's awe",
+      "sfx": "AWE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "asmodaius",
+          "text": "Maine hamesha socha power sirf talwar se aati hai. I was wrong.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "ha-jun extending his right hand open in a gesture of peace",
+      "setting": "hand extended",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun offers an open palm: 'Power is only meaningful when used to protect the people you love.'",
+      "mood": "the sovereign philosophy",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Taqat ka matlab kisi ko jhukana nahi... Kisi ko uthana hota hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "asmodaius grasping ha-jun hand: a flash of golden generational resonance",
+      "setting": "handshake of gods",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The ancient progenitor takes Ha-Jun's hand; five thousand years of demon suffering dissolves into peace.",
+      "mood": "the covenant fulfilled",
+      "sfx": "FLASH-RESONANCE!!"
+    },
+    {
+      "id": "p15",
+      "shot": "asmodaius smiling with peaceful tears: 'the demon race is free at last'",
+      "setting": "asmodaius tears",
+      "characters": [],
+      "action": "Asmodaius whispers through tears: 'Thank you, my son. Our bloodline is redeemed.'",
+      "mood": "the ancestral redemption",
+      "sfx": "TEARS...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "asmodaius",
+          "text": "Thank you, Ha-Jun. My soul is at rest.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "asmodaius body dissolving into golden starlight particles",
+      "setting": "asmodaius dissolving",
+      "characters": [],
+      "action": "The First Sovereign peacefully dissolves into golden stardust, blowing gently across the cosmic winds.",
+      "mood": "peaceful passing",
+      "sfx": "DISSOLVE-LIGHT..."
+    },
+    {
+      "id": "p17",
+      "shot": "the mirror of origins transforming into a clear window showing earth",
+      "setting": "mirror window to earth",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The crystal mirror turns into a transparent window looking down at the sunlit continents of Earth.",
+      "mood": "looking at home",
+      "sfx": "WINDOW TO EARTH..."
+    },
+    {
+      "id": "p18",
+      "shot": "earth below glowing with a permanent protective golden auroral shield",
+      "setting": "earth with auroral shield",
+      "characters": [],
+      "action": "Surrounding the blue planet is a shimmering, invisible auroral web of Sovereign Mana, warding off all future cosmic threats.",
+      "mood": "the eternal shield over earth",
+      "sfx": "AURORA SHIELD...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "An eternal aegis: no void shall ever threaten this cradle again.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "ha-jun stepping back out of the mirror beside tae-jun",
+      "setting": "stepping back to brother",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun steps out onto the crystal root beside Tae-Jun, his heart completely light and unburdened.",
+      "mood": "unburdened return",
+      "sfx": "STEP..."
+    },
+    {
+      "id": "p20",
+      "shot": "tae-jun looking at ha-jun: 'is it done?'",
+      "setting": "tae-jun question",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun asks softly: 'Is it finished?'",
+      "mood": "the quiet question",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Sab theek ho gaya?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "ha-jun smiling radiant and bright: 'it is finished.'",
+      "setting": "ha-jun confirmation",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun nods with radiant joy: 'It is finished, Hyung. Let's go home.'",
+      "mood": "it is finished",
+      "sfx": "SMILE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Poori tarah se. Let's go back to Seoul.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "ha-jun gently folding his six massive wings behind his back",
+      "setting": "folding wings",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun folds his magnificent starlight wings; they retract smoothly into his back, resting invisibly beneath his coat.",
+      "mood": "wings concealed",
+      "sfx": "RETRACT-GLINT..."
+    },
+    {
+      "id": "p23",
+      "shot": "his horns retracting into subtle golden crest marks on his brow",
+      "setting": "horns retracting",
+      "characters": [
+        "hajun"
+      ],
+      "action": "His white jade horns retract, leaving only a subtle, elegant golden sovereign mark between his eyebrows.",
+      "mood": "horns concealed",
+      "sfx": "RETRACT..."
+    },
+    {
+      "id": "p24",
+      "shot": "kuro mantle shifting back into the cute obsidian raven perched on his shoulder",
+      "setting": "kuro returns to raven",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "The starlight mantle condenses back into little Kuro sitting comfortably on Ha-Jun's shoulder, ruffling black feathers.",
+      "mood": "the familiar returns",
+      "sfx": "RUFFLE-PURR...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Ah, much better. Now, about that leftover fried chicken...",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "the brothers and kuro stepping toward the descending starlight portal",
+      "setting": "portal descent",
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
+      "action": "The trio steps into the downward golden portal, leaving the Tree of Origin in timeless serenity.",
+      "mood": "homeward bound",
+      "sfx": "STEP-CHIME..."
+    },
+    {
+      "id": "p26",
+      "shot": "the golden beam carrying them through the upper atmosphere toward seoul",
+      "setting": "descent through atmosphere",
+      "characters": [
+        "hajun"
+      ],
+      "action": "They glide through the warm autumn clouds, descending toward the familiar rooftops of Mapo district.",
+      "mood": "descent to seoul",
+      "sfx": "CLOUD GLIDE..."
+    },
+    {
+      "id": "p27",
+      "shot": "saint mirren university rooftop coming into view under the morning sun",
+      "setting": "rooftop morning wide",
+      "characters": [],
+      "action": "The university terrace glistens in clean morning sunlight, the picnic table still standing with cups and food.",
+      "mood": "the morning terrace",
+      "sfx": "SUNLIGHT GLOW..."
+    },
+    {
+      "id": "p28",
+      "shot": "min-jae and captain baek still waiting on the rooftop look up with gasps",
+      "setting": "friends see return",
+      "characters": [],
+      "action": "Min-Jae and Baek, still standing by the balustrade, look up and point in ecstatic joy: 'THEY ARE BACK!!'",
+      "mood": "friends rejoice",
+      "sfx": "POINT-CHEER!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "THEY RETURNED!! LOOK!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "ha-jun and tae-jun landing lightly on the concrete terrace floor",
+      "setting": "touchdown terrace",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The brothers touch down gently on the terrace, their sneakers clicking softly on the clean concrete.",
+      "mood": "gentle arrival",
+      "sfx": "CLICK-TOUCHDOWN..."
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun smiling at min-jae holding up an empty cup cliffhanger",
+      "setting": "ha-jun smiles cliffhanger",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun grins at Min-Jae: 'Hey. Any soda left?'",
+      "mood": "chapter 97 heartwarming cliffhanger",
+      "sfx": "WARM SMILE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Thoda soda bacha hai kya, Min-Jae?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    }
+  ]
+}

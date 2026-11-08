@@ -1,0 +1,563 @@
+{
+  "chapter": 103,
+  "title": "Beyond the Sovereign",
+  "arc": 10,
+  "arc_title": "THE LAST BLOOD",
+  "summary": "The ultimate grand finale of the 100-chapter master saga. Ha-Jun Kang visits the Saint Mirren rooftop one last time, offering a timeless message of hope, family, and eternal peace.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "the quiet rainy rooftop of saint mirren university at twilight",
+      "setting": "rooftop callback wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The iconic rooftop terrace of Saint Mirren University in a soft, gentle twilight drizzle—the exact spot where Episode 1 began.",
+      "mood": "the ultimate callback",
+      "sfx": "GENTLE RAIN PATTER...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "WHERE IT ALL BEGAN.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p02",
+      "shot": "25-year-old ha-jun kang leaning against the familiar stone balustrade",
+      "setting": "ha-jun leaning on railing",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun stands in his black coat, hands resting on the cool stone balustrade, looking out over the neon skyline of Seoul.",
+      "mood": "the mature sovereign at peace",
+      "sfx": "WIND RUSTLE...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Yahin par... Ek toofani raat ko... Meri aankhon mein sirf aansu the.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "shot": "flashback ghost overlay: 17-year-old bruised ha-jun crying in the rain",
+      "setting": "ghost overlay episode 1",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A faint transparent ghost image of 17-year-old Ha-Jun from Episode 1 sits curled on the wet floor, bruised and weeping.",
+      "mood": "memory of the broken boy",
+      "sfx": "GHOSTLY RAIN..."
+    },
+    {
+      "id": "p04",
+      "shot": "ha-jun looking down at the ghost of his past self with infinite compassion",
+      "setting": "looking at past self",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun looks down at the crying boy, whispering gently: 'You made it through the storm, little one. You're safe now.'",
+      "mood": "healing the past forever",
+      "sfx": "SOFT VOICE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Tumhara toofan khatam ho chuka hai. Tumne sabko bacha liya.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "the ghost of the crying boy dissolving into warm golden stardust",
+      "setting": "ghost dissolves to light",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The memory boy looks up, smiles through his tears, and dissolves into peaceful golden fireflies that rise into the rain.",
+      "mood": "the tears wiped away forever",
+      "sfx": "SPARKLE-RISE..."
+    },
+    {
+      "id": "p06",
+      "shot": "kuro landing softly on the balustrade folding glossy obsidian wings",
+      "setting": "kuro arrives",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Kuro settles beside Ha-Jun's hands, his feathers beading with clean rain droplets, ruby eyes glowing softly.",
+      "mood": "the eternal companion",
+      "sfx": "FLAP-REST...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "The rooftop feels different when you aren't crying, Ha-Jun.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "ha-jun laughing softly stroking kuro head with his finger",
+      "setting": "ha-jun pets kuro",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Ha-Jun smiles, stroking Kuro's head: 'It feels different because you're here with me, Kuro.'",
+      "mood": "lifelong gratitude",
+      "sfx": "STROKE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Tum mere saath the. Har ek kadam pe.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p08",
+      "shot": "a familiar pair of boots clicking on the wet concrete terrace",
+      "setting": "boots approaching",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Quiet, steady boot-steps approach; a large black umbrella opens with a soft whoosh overhead.",
+      "mood": "the protector returns",
+      "sfx": "FOOTSTEPS-POP..."
+    },
+    {
+      "id": "p09",
+      "shot": "kang tae-jun holding the umbrella over ha-jun head smiling warmly",
+      "setting": "tae-jun with umbrella",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Kang Tae-Jun stands beside him, holding the umbrella over both of them, his warm eyes full of brotherly devotion.",
+      "mood": "the brother's umbrella",
+      "sfx": "WARM SMILE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "I told you seven years ago... As long as I'm here, no storm will ever touch you.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "ha-jun looking up at tae-jun under the umbrella with pure love",
+      "setting": "ha-jun looks at brother",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun smiles back, leaning his shoulder against Tae-Jun's arm: 'I know, Hyung. You kept your promise.'",
+      "mood": "the promise kept",
+      "sfx": "LEAN...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Aapne apna har ek vaada poora kiya.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "the rooftop door bursting open: min-jae jogging out with two warm coats",
+      "setting": "min-jae arrives coats",
+      "characters": [],
+      "action": "Min-Jae runs onto the terrace, waving two warm wool scarves: 'You two are going to catch a cold standing in the drizzle!'",
+      "mood": "fussy best friend",
+      "sfx": "RUNNING...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Wrap these around your necks! Dinner is waiting downstairs!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "ha-jun and tae-jun laughing as min-jae wraps scarves around their necks",
+      "setting": "scarves wrapped",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The brothers laugh heartily as Min-Jae fussily wraps red wool scarves around their necks like an overprotective mother.",
+      "mood": "pure comedic warmth",
+      "sfx": "LAUGHTER...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Min-Jae, I'm the Demon Sovereign. I don't catch colds.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "min-jae scoffing proudly adjusting his glasses: 'sovereigns still get the flu!'",
+      "setting": "min-jae lecture",
+      "characters": [],
+      "action": "Min-Jae huffs: 'I don't care if you're the Sovereign of Galaxies! Pneumonia doesn't check credentials!'",
+      "mood": "best friend humor",
+      "sfx": "HUFF...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Flu virus ko tumhare domain se koi farq nahi padta!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "general baek walking onto the terrace holding a tray of warm roasted chestnuts",
+      "setting": "baek with chestnuts",
+      "characters": [],
+      "action": "General Baek arrives, laughing: 'Listen to your administrator, Ha-Jun! Here, have some warm roasted chestnuts.'",
+      "mood": "warm snack",
+      "sfx": "CHUCKLE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "baek",
+          "text": "Fresh roasted from the Hongdae cart!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "shot": "kuro immediately snatching a hot chestnut in his talons juggling it",
+      "setting": "kuro hot chestnut",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro snatches a steaming chestnut, juggling it comically between his talons: 'Hot! Hot! Exquisite roasted mortal nut!'",
+      "mood": "juggling bird",
+      "sfx": "JUGGLE-HOP...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Too hot! But delicious!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "all four companions bursting into helpless, joyful laughter in the rain",
+      "setting": "group laughing in rain",
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
+      "action": "Ha-Jun, Tae-Jun, Min-Jae, and Baek laugh together under the umbrella as rain softly drumrolls on the fabric.",
+      "mood": "the perfect family",
+      "sfx": "HEARTY LAUGHTER!!"
+    },
+    {
+      "id": "p17",
+      "shot": "the rain gradually stopping: clouds parting over the seoul skyline",
+      "setting": "clouds parting wide",
+      "characters": [],
+      "action": "The drizzle stops; the evening storm clouds part, revealing a breathtaking canopy of millions of diamond stars.",
+      "mood": "stars revealed",
+      "sfx": "STARS SHINE..."
+    },
+    {
+      "id": "p18",
+      "shot": "a majestic silver full moon rising behind namsan tower",
+      "setting": "full moon rising",
+      "characters": [],
+      "action": "A huge, luminous silver full moon rises into the indigo night sky, casting a peaceful milky sheen over Seoul.",
+      "mood": "the moon of peace",
+      "sfx": "MOONLIGHT..."
+    },
+    {
+      "id": "p19",
+      "shot": "ha-jun stepping out from under the umbrella looking up at the moon",
+      "setting": "ha-jun looks at moon",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun steps forward, letting the cool night breeze ruffle his black hair as he gazes up at the moon.",
+      "mood": "peaceful contemplation",
+      "sfx": "NIGHT BREEZE..."
+    },
+    {
+      "id": "p20",
+      "shot": "inside ha-jun chest: the ten relics resting in quiet, eternal slumber",
+      "setting": "relics resting macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Deep in his heart, the ten relics pulse like a gentle, rhythmic lullaby, forever pacified and at rest.",
+      "mood": "the quiet power",
+      "sfx": "GENTLE PULSE...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "The weapons had become a garden.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "tae-jun stepping beside ha-jun resting his hand on his shoulder",
+      "setting": "tae-jun shoulder touch",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun joins his side, their shoulders touching: 'What are you thinking, Ha-Jun?'",
+      "mood": "brotherly question",
+      "sfx": "TOUCH...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Kya soch rahe ho?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "ha-jun looking at tae-jun with clear, calm, beautiful eyes",
+      "setting": "ha-jun looks at brother",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun smiles: 'I was thinking that if I had to live these 100 chapters all over again... I wouldn't change a single day.'",
+      "mood": "no regrets",
+      "sfx": "CALM VOICE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Main apna ek bhi din nahi badalna chahta. Because it brought me here, with you.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "tae-jun eyes glistening with tears smiling back warmly",
+      "setting": "tae-jun tears of joy",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun's eyes shine with proud tears: 'Neither would I, little brother. Neither would I.'",
+      "mood": "brotherly affirmation",
+      "sfx": "TEAR GLINT...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Main bhi nahi, Ha-Jun.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "min-jae and baek raising their warm chestnut bags in a quiet toast",
+      "setting": "quiet toast",
+      "characters": [],
+      "action": "Min-Jae and Baek smile warmly: 'To the Kang brothers. The true guardians of our world.'",
+      "mood": "the final toast",
+      "sfx": "TOAST...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "To our heroes.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "kuro spreading his dark wings silhouette against the giant full moon",
+      "setting": "kuro full moon wide",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro takes flight, circling once against the silver face of the moon, his shadow an emblem of eternal freedom.",
+      "mood": "the phoenix free",
+      "sfx": "SOAR-MOON...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "An ancient crow found a weeping boy in the rain. And together, they saved the stars.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "shot": "ha-jun turning his head toward the camera looking directly at the reader",
+      "setting": "ha-jun looks at reader direct",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun Kang turns toward the viewer, his handsome face bathed in silver moonlight and warm streetlamp gold.",
+      "mood": "breaking the fourth wall gently",
+      "sfx": "DIRECT GAZE...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "A direct look from the Sovereign to the soul who read his story.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "ha-jun smiling with an unforgettable, warm, thankful smile",
+      "setting": "ha-jun unforgettable smile",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun smiles with deep, humble, unforgettable gratitude: 'Thank you for believing in me when I was weak.'",
+      "mood": "the sovereign's thank you",
+      "sfx": "WARM SMILE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Thank you for staying with me until the very end.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "the camera slowly pulling back into the night sky over seoul",
+      "setting": "camera pulls back into night",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The view pulls upward and away, showing Ha-Jun, Tae-Jun, Min-Jae, and Baek laughing on the rooftop under the moon.",
+      "mood": "the rooftop recedes",
+      "sfx": "PULL BACK..."
+    },
+    {
+      "id": "p29",
+      "shot": "the city of seoul glittering peacefully like a field of fallen stars",
+      "setting": "seoul glittering wide",
+      "characters": [],
+      "action": "The sprawling, tranquil city of Seoul glows with millions of warm, safe lights beneath a clear, peaceful universe.",
+      "mood": "the peaceful earth",
+      "sfx": "CITY GLOW...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "The bloodline is redeemed. The covenant is fulfilled. The Sovereign is at peace.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "the final grand curtain panel: DEMON SOVEREIGN'S BLOODLINE — COMPLETE",
+      "setting": "final curtain panel",
+      "characters": [],
+      "action": "A magnificent, cinematic final panel: the moon shining over the peaceful Earth, with golden calligraphy closing the saga: 'DEMON SOVEREIGN'S BLOODLINE — COMPLETE (100 CHAPTERS / 3,000 PANELS)'.",
+      "mood": "the grand finale curtain",
+      "sfx": "THE END IN GLORY...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "THE SAGA IS COMPLETE. THANK YOU FOR READING.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    }
+  ]
+}

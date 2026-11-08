@@ -1,0 +1,571 @@
+{
+  "chapter": 99,
+  "title": "The Battle Within",
+  "arc": 10,
+  "arc_title": "THE LAST BLOOD",
+  "summary": "In an introspective, breathtaking tour de force, Ha-Jun revisits every pivotal milestone of his 100-chapter journey, confronting his final doubts and achieving absolute spiritual tranquility.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "twilight settles over the namsan mountain tower observatory in seoul",
+      "setting": "namsan tower wide",
+      "characters": [],
+      "action": "Namsan Tower bathed in soft lavender twilight; the observation deck overlooks a sea of sparkling city lights.",
+      "mood": "twilight over seoul",
+      "sfx": "WIND SIGH..."
+    },
+    {
+      "id": "p02",
+      "shot": "ha-jun standing by the observation glass alone looking at his reflection",
+      "setting": "observation deck",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun stands alone by the glass—the exact spot where the photograph from Chapter 64 was taken twenty years ago.",
+      "mood": "revisiting childhood site",
+      "sfx": "REFLECTION...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Yahin par... Saat saal ki umar mein... Main aur Tae-Jun ice cream kha rahe the.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "shot": "in the glass reflection: his 7-year-old self appears smiling beside him",
+      "setting": "young self reflection",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Reflected in the glass beside his 20-year-old self is the ghost reflection of 7-year-old Ha-Jun holding an ice cream cone.",
+      "mood": "communion with the child",
+      "sfx": "GENTLE REFLECTION..."
+    },
+    {
+      "id": "p04",
+      "shot": "the child reflection looking up at ha-jun: 'did we grow up strong?'",
+      "setting": "child speaks",
+      "characters": [],
+      "action": "The 7-year-old reflection smiles innocently: 'Did we protect Tae-Jun hyung? Did we become a hero?'",
+      "mood": "the child's question",
+      "sfx": "SOFT VOICE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "young_hajun",
+          "text": "Kya humne Tae-Jun ko bacha liya? Did we do good?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "ha-jun smiling gently touching the glass with his fingertip",
+      "setting": "touching reflection glass",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun touches the cool glass: 'We did, little one. We protected Tae-Jun. We protected everyone.'",
+      "mood": "comforting the past",
+      "sfx": "TOUCH...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Humne sabko bacha liya. Tumhe ab darrne ki zaroorat nahi.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "the child reflection smiling brightly and dissolving into golden stardust",
+      "setting": "child dissolves to light",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The 7-year-old reflection giggles happily, dissolving into sparkling stardust that merges into Ha-Jun's chest.",
+      "mood": "inner child healed",
+      "sfx": "SPARKLE-MERGE..."
+    },
+    {
+      "id": "p07",
+      "shot": "a sudden soft rustle of feathers: kuro perching on the metal guardrail",
+      "setting": "kuro arrives",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Kuro glides through an open ventilation pane, landing on the railing beside Ha-Jun.",
+      "mood": "faithful companion",
+      "sfx": "FLAP...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "I knew I would find you here.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p08",
+      "shot": "ha-jun looking at kuro with a warm, fond smile",
+      "setting": "ha-jun looks at kuro",
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
+      "action": "Ha-Jun strokes Kuro's feathers: 'You always know where to find me, Kuro.'",
+      "mood": "lifelong bond",
+      "sfx": "STROKE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Tum hamesha jaan jaate ho main kahan hoon.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "kuro tilting his head looking out over the glittering city",
+      "setting": "kuro looks at city",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro looks over the city: 'Because our hearts are bound by the same sky, Ha-Jun.'",
+      "mood": "poetic guardian",
+      "sfx": "TILT...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Five thousand years of waiting... And you gave me the best life a crow could ask for.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "ha-jun laughing softly leaning his forehead against kuro feathers",
+      "setting": "forehead against feathers",
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
+      "action": "Ha-Jun rests his forehead against Kuro's soft black plumage: 'And you gave me a reason to live when I was broken.'",
+      "mood": "mutual gratitude",
+      "sfx": "GENTLE TOUCH...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "You gave me my life back.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "footsteps echoing on the observation deck: tae-jun arrives",
+      "setting": "tae-jun steps",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Quiet footsteps approach; Kang Tae-Jun walks up in his leather jacket, holding two warm canned coffees.",
+      "mood": "tae-jun arrives with coffee",
+      "sfx": "FOOTSTEPS...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "I thought I'd find you two up here reminiscing.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "tae-jun handing ha-jun the warm coffee can",
+      "setting": "coffee handoff",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun hands Ha-Jun the warm Maxim can, popping his own with a familiar crisp click.",
+      "mood": "brotherly ritual",
+      "sfx": "CLICK-POP!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Still double chocolate mocha.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "ha-jun taking a sip looking at tae-jun profile in the twilight",
+      "setting": "brothers side by side deck",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun drinks the sweet coffee, watching his brother's handsome, peaceful profile against the neon skyline.",
+      "mood": "cherishing the moment",
+      "sfx": "SIP...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "He's alive. He's here. That's all that matters.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "tae-jun pointing down toward mapo district with a smile",
+      "setting": "tae-jun points",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun points: 'Look down there. Apartment 402 is getting a full renovation tomorrow.'",
+      "mood": "new beginnings",
+      "sfx": "POINT...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "New wallpaper, modern kitchen... We are finally making it a real home.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "shot": "ha-jun smiling broadly: 'can i have the big room?'",
+      "setting": "ha-jun joke",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun grins playfully: 'Can I have the big room with the balcony this time?'",
+      "mood": "playful rivalry",
+      "sfx": "GRIN...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Bada room mera hoga!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "tae-jun laughing nudging ha-jun with his elbow",
+      "setting": "tae-jun nudge",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun laughs: 'In your dreams! Elder brother gets the balcony room by law!'",
+      "mood": "family banter",
+      "sfx": "ELBOW NUDGE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Elder brother gets seniority, Sovereign or not!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "the elevator doors opening: min-jae and captain baek arriving",
+      "setting": "allies arrive deck",
+      "characters": [],
+      "action": "The deck elevator dings; Min-Jae and Captain Baek step out carrying bags of hot street churros.",
+      "mood": "friends join",
+      "sfx": "ELEVATOR DING...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "We brought hot cinnamon churros!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "kuro eyes lighting up flying directly to min-jae churro bag",
+      "setting": "kuro churros",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro zooms across the deck, hovering by Min-Jae's bag: 'Surrender the cinnamon pastry, mortal!'",
+      "mood": "churro thief",
+      "sfx": "ZOOM...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Whoa, Kuro! Share with the rest of us!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "the group of five standing together by the grand observation railing",
+      "setting": "group by railing wide",
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
+      "action": "Ha-Jun, Tae-Jun, Min-Jae, Baek, and Kuro stand side by side, eating warm churros and laughing in the wind.",
+      "mood": "the core family",
+      "sfx": "WARM GATHERING..."
+    },
+    {
+      "id": "p20",
+      "shot": "ha-jun looking down at the city realizing his 100-chapter trial is complete",
+      "setting": "ha-jun serene close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun looks out at the boundless horizon; inside his chest, the Sovereign Core rests in perfect, silent bliss.",
+      "mood": "absolute inner peace",
+      "sfx": "SERENE SMILE...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "No more trials. No more monsters. Only life.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "a gentle evening rain beginning to fall over seoul",
+      "setting": "gentle rain begins",
+      "characters": [],
+      "action": "Soft, gentle evening rain begins to patter softly against the glass—clean, sweet, fragrant rain.",
+      "mood": "the cleansing rain",
+      "sfx": "PATTER-PATTER..."
+    },
+    {
+      "id": "p22",
+      "shot": "ha-jun looking at the raindrops on the glass remembering episode 1",
+      "setting": "rain on glass callback",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun looks at the droplets: in Episode 1, rain was a symbol of tears and defeat. Today, it is a blessing of life.",
+      "mood": "symbolic callback",
+      "sfx": "DROPLETS...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Rain used to mean crying alone. Now it means coming home.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "tae-jun opening a large black umbrella holding it over ha-jun",
+      "setting": "umbrella over ha-jun",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun opens a large black umbrella, stepping outside onto the open deck to shield Ha-Jun from the drops.",
+      "mood": "the eternal shield with umbrella",
+      "sfx": "UMBRELLA POP!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "I told you I'd never let the rain touch you again.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "ha-jun looking at his brother under the umbrella with tears of pure happiness",
+      "setting": "under umbrella tears",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun smiles up at Tae-Jun under the umbrella, a single happy tear catching the streetlamp gold.",
+      "mood": "pure happiness",
+      "sfx": "SMILE-TEAR...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Thank you, Hyung.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "min-jae pulling out his polaroid camera: 'everybody squeeze in!'",
+      "setting": "polaroid camera",
+      "characters": [],
+      "action": "Min-Jae holds up an instant camera: 'Everybody get close! Squeeze under the umbrella! Say Sovereign!'",
+      "mood": "instant photo setup",
+      "sfx": "CAMERA FLASH READY...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "SMILE, EVERYONE!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "shot": "the group squeezing together smiling brightly under the rain",
+      "setting": "group photo pose",
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
+      "action": "Tae-Jun with his arm around Ha-Jun, Min-Jae grinning, Baek saluting proudly, Kuro perched on Ha-Jun's shoulder.",
+      "mood": "the family portrait",
+      "sfx": "BIG SMILES!!"
+    },
+    {
+      "id": "p27",
+      "shot": "the camera flash goes off in a brilliant pop of white light",
+      "setting": "camera flash",
+      "characters": [],
+      "action": "FLASH!! The shutter clicks, capturing the five companions in an eternal, perfect instant of joy.",
+      "mood": "instant captured",
+      "sfx": "SNAP-FLASH!!"
+    },
+    {
+      "id": "p28",
+      "shot": "the polaroid ejecting from the camera developing in min-jae hands",
+      "setting": "polaroid developing macro",
+      "characters": [],
+      "action": "The small photo slide ejects, colors slowly forming in the rain: four smiling faces and one regal raven.",
+      "mood": "photo develops",
+      "sfx": "DEVELOP..."
+    },
+    {
+      "id": "p29",
+      "shot": "min-jae handing the developed photo to ha-jun with a proud wink",
+      "setting": "handing photo",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Min-Jae hands the warm polaroid to Ha-Jun: 'For the living room mantelpiece in apartment 402.'",
+      "mood": "the final treasure",
+      "sfx": "HANDOFF...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "A photograph where nobody has to hide.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun holding the photo looking directly at the reader cliffhanger",
+      "setting": "ha-jun looking at reader",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun Kang holds the photo against his chest, looking directly toward the reader with an unforgettable, warm smile as the finale approaches!",
+      "mood": "chapter 99 grand setup cliffhanger",
+      "sfx": "WARM EYE CONTACT...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "CHAPTER 99 CONCLUDED. PREPARE FOR THE GRAND 100-CHAPTER FINALE: CHAPTER 100 — THE DEMON SOVEREIGN'S BLOODLINE.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    }
+  ]
+}

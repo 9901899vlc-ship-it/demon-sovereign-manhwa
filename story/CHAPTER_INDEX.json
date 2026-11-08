@@ -698,70 +698,70 @@
           "chapter": 94,
           "title": "The Choice",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch094_script.json"
         },
         {
           "chapter": 95,
           "title": "The Blood That Remembers",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch095_script.json"
         },
         {
           "chapter": 96,
           "title": "The Last Contract",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch096_script.json"
         },
         {
           "chapter": 97,
           "title": "True Sovereign Form",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch097_script.json"
         },
         {
           "chapter": 98,
           "title": "The First Demon Returns",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch098_script.json"
         },
         {
           "chapter": 99,
           "title": "The Battle Within",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch099_script.json"
         },
         {
           "chapter": 100,
           "title": "The Demon Sovereign's Bloodline",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch100_script.json"
         },
         {
           "chapter": 101,
           "title": "The Last Enemy",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch101_script.json"
         },
         {
           "chapter": 102,
           "title": "The Price of Peace",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch102_script.json"
         },
         {
           "chapter": 103,
           "title": "Beyond the Sovereign",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch103_script.json"
         }
       ]

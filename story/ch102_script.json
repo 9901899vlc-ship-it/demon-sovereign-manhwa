@@ -1,0 +1,531 @@
+{
+  "chapter": 102,
+  "title": "The Price of Peace",
+  "arc": 10,
+  "arc_title": "THE LAST BLOOD",
+  "summary": "Five years later, the world has flourished beyond imagination. Kang Tae-Jun and Ha-Jun preside over the opening of the Kang International Academy, celebrating the permanent harvest of their sacrifices.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "grand panoramic view of new seoul five years later",
+      "setting": "new seoul five years later wide",
+      "characters": [],
+      "action": "Five years into the future: a sparkling metropolis of solar skyscrapers, sky gardens, and peaceful interdimensional transit portals.",
+      "mood": "the golden age",
+      "sfx": "FUTURISTIC MAJESTY...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "FIVE YEARS LATER.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p02",
+      "shot": "the grand entrance gates of the kang academy of coexistence",
+      "setting": "kang academy gates wide",
+      "characters": [],
+      "action": "A breathtaking architectural marvel: high neoclassical stone arches entwined with living golden vines and purple roses.",
+      "mood": "the kang academy",
+      "sfx": "MAJESTIC GATES...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "THE KANG ACADEMY OF INTERDIMENSIONAL HARMONY.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "shot": "in the center of the courtyard: a life-sized bronze statue of the two brothers",
+      "setting": "bronze statue of brothers",
+      "characters": [],
+      "action": "A magnificent bronze monument depicting Kang Tae-Jun holding his Guardian Shield and Kang Ha-Jun with his starlight wings.",
+      "mood": "the memorial of honor",
+      "sfx": "BRONZE SHINE..."
+    },
+    {
+      "id": "p04",
+      "shot": "engraved at the base of the statue: 'neither shall walk alone'",
+      "setting": "statue inscription macro",
+      "characters": [],
+      "action": "The plaque reads in both Korean and Demonic: 'BROTHERS IN BLOOD, GUARDIANS OF TOMORROW. NEITHER SHALL WALK ALONE.'",
+      "mood": "eternal inscription",
+      "sfx": "PLAQUE MACRO..."
+    },
+    {
+      "id": "p05",
+      "shot": "25-year-old kang tae-jun in dean's dark formal suit and bronze pin",
+      "setting": "tae-jun as dean",
+      "characters": [],
+      "action": "Kang Tae-Jun—now 25, broad-shouldered, dignified, wearing a tailored charcoal suit and gold glasses—inspects the courtyard.",
+      "mood": "dean kang tae-jun",
+      "sfx": "CONFIDENT STRIDE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Ceremony preparations look flawless, General.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "general baek now retired with white hair in a sharp civilian blazer",
+      "setting": "retired baek",
+      "characters": [],
+      "action": "Baek, now with dignified white hair at his temples, smiles warmly: 'The first graduating class of five hundred humans and demons.'",
+      "mood": "the proud mentor",
+      "sfx": "SMILE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "baek",
+          "text": "Five hundred graduates entering world leadership today.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "min-jae rushing across the lawn holding holographic tablets",
+      "setting": "min-jae as chief administrator",
+      "characters": [],
+      "action": "Min-Jae—now Chief Administrative Officer in a sharp three-piece suit—runs up, adjusting glasses: 'Diplomats from 80 nations have arrived!'",
+      "mood": "chief administrator min-jae",
+      "sfx": "RUNNING...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "The auditorium is packed to maximum capacity! Where is Ha-Jun?!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p08",
+      "shot": "tae-jun chuckling looking up toward the library roof",
+      "setting": "tae-jun looks up",
+      "characters": [],
+      "action": "Tae-Jun chuckles: 'Where do you think he is? He's on the roof watching the clouds.'",
+      "mood": "knowing brother",
+      "sfx": "CHUCKLE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "He never changes.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "on the quiet library roof: 22-year-old ha-jun kang leaning against the railing",
+      "setting": "ha-jun on roof five years later",
+      "characters": [
+        "hajun"
+      ],
+      "action": "22-year-old Ha-Jun Kang—mature, tall, breathtakingly handsome in a simple black button-down shirt and jeans—looks at the sky.",
+      "mood": "the mature sovereign",
+      "sfx": "WIND IN HAIR..."
+    },
+    {
+      "id": "p10",
+      "shot": "kuro perched on his shoulder, shiny and sleek, wearing a miniature gold chain",
+      "setting": "kuro mature",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Kuro sits proudly on his shoulder, preening his feathers: 'They are waiting for your keynote speech, My Sovereign.'",
+      "mood": "faithful companion",
+      "sfx": "PREEN...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Don't make your brother wait too long.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "ha-jun smiling warmly reaching into his pocket for a warm canned coffee",
+      "setting": "coffee in hand",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun pops the tab of his coffee can: 'Two minutes, Kuro. I just wanted to feel the breeze.'",
+      "mood": "cherishing the breeze",
+      "sfx": "TAB-POP!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Bas do minute. The air is so sweet today.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "tae-jun stepping out onto the rooftop door joining ha-jun by the railing",
+      "setting": "tae-jun joins on roof",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun walks onto the terrace, resting his forearms on the stone balustrade beside Ha-Jun.",
+      "mood": "brothers reunited on roof",
+      "sfx": "STEP-REST...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Penny for your thoughts, Professor Kang?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "ha-jun looking at tae-jun with deep, peaceful love",
+      "setting": "ha-jun looks at brother",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun looks at his brother: 'I was thinking about the day you caught me falling from the clouds in Chapter 86.'",
+      "mood": "remembering the darkest day",
+      "sfx": "GENTLE GAZE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Aapne mujhe girne se bacha liya tha.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "tae-jun smiling softly placing his hand over ha-jun hand",
+      "setting": "hand over hand",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun covers Ha-Jun's hand: 'And you caught the whole world from falling. That makes us even.'",
+      "mood": "the eternal balance",
+      "sfx": "WARM HAND...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Hum barabar hain.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "shot": "down in the courtyard: graduation music begins playing softly",
+      "setting": "graduation music echoes",
+      "characters": [],
+      "action": "Pomp and Circumstance chimes softly from the campus bell towers as five hundred graduating students march in procession.",
+      "mood": "graduation music",
+      "sfx": "CHIMES-MUSIC..."
+    },
+    {
+      "id": "p16",
+      "shot": "demon and human students in white and violet graduation caps throwing smiles",
+      "setting": "graduating students wide",
+      "characters": [],
+      "action": "Horned demon girls and human boys in matching violet graduation gowns walk arm in arm toward the amphitheater.",
+      "mood": "coexistence fulfilled",
+      "sfx": "SMILING GRADUATES..."
+    },
+    {
+      "id": "p17",
+      "shot": "ha-jun looking down at the students: his eyes welling with proud tears",
+      "setting": "ha-jun proud tears",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A single tear of pure fulfillment touches Ha-Jun's cheek: 'They will never have to know what a war feels like.'",
+      "mood": "the greatest harvest",
+      "sfx": "TEAR OF FULFILLMENT...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Inhe kabhi kisi war mein ladna nahi padega. This was the price of peace.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "tae-jun nodding firmly: 'and it was worth every single drop of blood.'",
+      "setting": "tae-jun confirms",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun nods: 'Every single drop.'",
+      "mood": "unanimous conviction",
+      "sfx": "NOD...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Har ek qatra worth tha.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "min-jae opening the rooftop door waving frantically: 'it's time!!'",
+      "setting": "min-jae calls",
+      "characters": [],
+      "action": "Min-Jae pokes his head out: 'The curtains are rising! Ha-Jun, Tae-Jun, on stage now!'",
+      "mood": "the final call",
+      "sfx": "WAVE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Curtains are up!! Let's go!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "ha-jun and tae-jun straightening their jackets smiling at each other",
+      "setting": "brothers straighten jackets",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The two brothers adjust their collars, exchanging a knowing, unshakeable look of shared triumph.",
+      "mood": "ready for the world",
+      "sfx": "COLLAR STRAIGHTEN...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Ready, Dean Kang?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "tae-jun smiling back: 'born ready, Supreme Sovereign.'",
+      "setting": "tae-jun ready",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun smiles: 'Lead the way, Ha-Jun.'",
+      "mood": "mutual respect",
+      "sfx": "SMILE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Chalo, Ha-Jun.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "the two brothers stepping through the stage curtains into blinding stage lights",
+      "setting": "stage entrance",
+      "characters": [
+        "hajun"
+      ],
+      "action": "They step through velvet curtains onto the grand graduation stage, greeted by a wall of golden floodlights.",
+      "mood": "the entrance to the stage",
+      "sfx": "LIGHTS-FLASH!!"
+    },
+    {
+      "id": "p23",
+      "shot": "ten thousand people in the amphitheater rising in thunderous applause",
+      "setting": "ten thousand people applause wide",
+      "characters": [],
+      "action": "Ten thousand students, parents, diplomats, and demon chieftains rise to their feet in a deafening standing ovation.",
+      "mood": "thunderous ovation",
+      "sfx": "APPLAUSE ROAR!!"
+    },
+    {
+      "id": "p24",
+      "shot": "ha-jun stepping up to the microphone podium overlooking the vast crowd",
+      "setting": "ha-jun at podium",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun reaches the central microphone; the crowd falls completely silent, hanging on his every word.",
+      "mood": "the sovereign speaks",
+      "sfx": "HUSH..."
+    },
+    {
+      "id": "p25",
+      "shot": "ha-jun looking out over the smiling faces of the graduating class",
+      "setting": "ha-jun looks at class",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun looks into the eyes of the young human and demon students, smiling with deep, radiant warmth.",
+      "mood": "fatherly monarch",
+      "sfx": "WARM GAZE..."
+    },
+    {
+      "id": "p26",
+      "shot": "ha-jun delivering his keynote address with gentle authority",
+      "setting": "delivering address",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun: 'Five years ago, we were told humans and demons were born to destroy each other. Today, you prove hate is a choice.'",
+      "mood": "the core message",
+      "sfx": "CLEAR VOICE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Nafrat ek choice thi. Aur humne mohabbat ko chuna.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "ha-jun gesturing to his brother standing proudly beside him",
+      "setting": "gesturing to brother",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun: 'Peace was not bought with weapons. It was bought with brotherhood.'",
+      "mood": "brotherhood as foundation",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Shanti kisi talwar se nahi... Ek doosre ka haath thaamne se aati hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "the five hundred graduating students throwing their caps into the sky",
+      "setting": "caps thrown in sky",
+      "characters": [],
+      "action": "Five hundred violet and white caps soar into the blue sky like a flock of peaceful doves.",
+      "mood": "graduation caps soaring",
+      "sfx": "ROAR-CHEERS-CAPS!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "graduates",
+          "text": "WE ARE THE NEW WORLD!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "confetti and flower petals raining down over the stage and crowd",
+      "setting": "confetti shower wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Golden confetti and red rose petals shower down upon Ha-Jun, Tae-Jun, Min-Jae, Baek, and Kuro.",
+      "mood": "celebration of the future",
+      "sfx": "CONFETTI SHOWER..."
+    },
+    {
+      "id": "p30",
+      "shot": "the brothers smiling as the curtain falls on chapter 102 cliffhanger",
+      "setting": "brothers smile cliffhanger",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun and Tae-Jun stand together in the center of the cheering world, ready for the final 103rd farewell!",
+      "mood": "chapter 102 cliffhanger",
+      "sfx": "WARM SMILE...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "ONLY THE FINAL CHAPTER REMAINS. CHAPTER 103: BEYOND THE SOVEREIGN.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    }
+  ]
+}

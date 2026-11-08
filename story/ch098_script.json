@@ -1,0 +1,528 @@
+{
+  "chapter": 98,
+  "title": "The First Demon Returns",
+  "arc": 10,
+  "arc_title": "THE LAST BLOOD",
+  "summary": "In an ethereal dreamscape communion, the redeemed spirit of First Sovereign Asmodaius grants Ha-Jun the final ancient blessing, bestowing the eternal Key of Creation.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "morning sunshine streaming across saint mirren university campus wide",
+      "setting": "campus morning wide",
+      "characters": [],
+      "action": "A breathtaking, golden autumn morning across Saint Mirren University; students walking with backpacks under yellow trees.",
+      "mood": "pristine campus life",
+      "sfx": "BIRDS CHIRPING..."
+    },
+    {
+      "id": "p02",
+      "shot": "ha-jun, tae-jun, and min-jae sitting around the rooftop picnic table",
+      "setting": "table breakfast",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The three young men sit around the table eating warm breakfast pastries and drinking fresh milk under the sun.",
+      "mood": "peaceful breakfast",
+      "sfx": "PASTRY MUNCH...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "So you're telling me you literally anchored reality and then asked for grape soda?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "shot": "ha-jun taking a sip of milk wiping his mouth grinning",
+      "setting": "ha-jun milk mustache",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun laughs with a white milk mustache: 'Hey, anchoring the multiverse is thirsty work!'",
+      "mood": "teenager humor",
+      "sfx": "LAUGH...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Grape soda is essential for cosmic stability.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "tae-jun tossing a napkin at ha-jun face laughing",
+      "setting": "napkin toss",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun tosses a paper napkin: 'Wipe your lip, Your Divine Majesty.'",
+      "mood": "brotherly teasing",
+      "sfx": "TOSS...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Milk mustache wala Sovereign.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "kuro pecking at a strawberry jam croissant on the table",
+      "setting": "kuro eating croissant",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro daintily nibbles on a flaky croissant: 'I approve of this culinary offering.'",
+      "mood": "happy bird",
+      "sfx": "PECK..."
+    },
+    {
+      "id": "p06",
+      "shot": "captain baek walking onto the terrace holding a golden ceremonial scroll",
+      "setting": "baek with scroll",
+      "characters": [],
+      "action": "General Baek arrives, carrying an official scroll stamped with the Presidential Seal of Korea.",
+      "mood": "official arrival",
+      "sfx": "BOOTS-CLANK...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "baek",
+          "text": "Excuse the interruption, gentlemen. The World Council has completed the new charter.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "baek handing the scroll to ha-jun with a warm smile",
+      "setting": "handing scroll",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Baek hands the scroll to Ha-Jun: 'The United Defense Pact is officially dissolved. From today, we are the Guardians of Peace.'",
+      "mood": "the new era",
+      "sfx": "SCROLL HANDOVER...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "baek",
+          "text": "No more military hunters. Only protectors and educators.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p08",
+      "shot": "ha-jun unrolling the scroll reading the grand charter",
+      "setting": "reading scroll",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun reads the calligraphy: 'Charter for the Coexistence of Mortal and Demonic Species.'",
+      "mood": "the dream fulfilled",
+      "sfx": "READ...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "This is what Mom and Dad dreamed of.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "tae-jun looking over ha-jun shoulder with gentle pride",
+      "setting": "tae-jun reads too",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun rests his chin on Ha-Jun's shoulder: 'They would be proud beyond words, Ha-Jun.'",
+      "mood": "shared memory",
+      "sfx": "GENTLE SMILE..."
+    },
+    {
+      "id": "p10",
+      "shot": "ha-jun touching the seal: a gentle golden rune permanently stamping the charter",
+      "setting": "stamping charter",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun presses his thumb to the wax; a soft golden Sovereign crest seals the document forever.",
+      "mood": "the eternal charter sealed",
+      "sfx": "CREST GLOW..."
+    },
+    {
+      "id": "p11",
+      "shot": "down in the courtyard: hundreds of human and demon students greeting each other",
+      "setting": "courtyard coexistence",
+      "characters": [],
+      "action": "Below in the courtyard, horned demon teenagers and human students walk together, sharing textbooks and laughing.",
+      "mood": "peaceful youth in courtyard",
+      "sfx": "LAUGHTER-CHATTER...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "The wall of fear had crumbled into bridges of understanding.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "ha-jun watching them with deep, serene fulfillment",
+      "setting": "ha-jun watching courtyard",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun leans on the balustrade, the warm morning breeze rustling his black hair, watching the happy children.",
+      "mood": "monarch's quiet joy",
+      "sfx": "WIND RUSTLE...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "This was worth every tear. Every scar.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "kuro hopping onto ha-jun wrist nuzzling his sleeve",
+      "setting": "kuro nuzzle",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Kuro rests his head against Ha-Jun's wrist: 'You gave them their future, Ha-Jun.'",
+      "mood": "guardian affection",
+      "sfx": "PURR...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "You are the greatest Sovereign the stars will ever know.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "ha-jun petting kuro feathers with his thumb smiling",
+      "setting": "petting kuro",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Ha-Jun strokes Kuro's glossy plumage: 'I couldn't have done it without my best bird.'",
+      "mood": "warm affection",
+      "sfx": "STROKE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Tumhare bina main Episode 1 mein hi ruk jata.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "shot": "min-jae checking his watch gasping: 'class starts in five minutes!'",
+      "setting": "min-jae panic",
+      "characters": [],
+      "action": "Min-Jae checks his watch, panicking: 'Guys! Physics lecture with Professor Kang starts in five minutes!'",
+      "mood": "school panic comedy",
+      "sfx": "PANT-PACK...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Pack your bags!! We can't be late on the first day of the semester!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "ha-jun and min-jae frantically stuffing textbooks into backpacks",
+      "setting": "packing backpacks",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The two young men scramble, stuffing notebooks, pens, and pastry wrappers into their bags.",
+      "mood": "relatable student chaos",
+      "sfx": "ZIPPER-CLATTER!!"
+    },
+    {
+      "id": "p17",
+      "shot": "tae-jun and baek laughing heartily watching them scramble",
+      "setting": "adults laughing",
+      "characters": [],
+      "action": "Tae-Jun and General Baek laugh from the bench, sipping their coffee in amusement.",
+      "mood": "amused elders",
+      "sfx": "LAUGHTER...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Run, kids! Don't let the professor lock the door!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "ha-jun slinging his backpack over his shoulder turning to tae-jun",
+      "setting": "backpack on shoulder",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun slings his bag, grinning at Tae-Jun: 'See you at home for dinner, Hyung!'",
+      "mood": "normal brotherly goodbye",
+      "sfx": "GRIN...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Dinner pe milte hain, Hyung! Make sure you cook rice!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "tae-jun waving with a warm, bright smile: 'rice will be ready!'",
+      "setting": "tae-jun waving",
+      "characters": [],
+      "action": "Tae-Jun waves: 'I'll make your favorite stew! Now go!'",
+      "mood": "brotherly farewell",
+      "sfx": "WAVE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Kimchi stew ready rahega!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "ha-jun and min-jae sprinting down the campus stairs laughing",
+      "setting": "sprinting down stairs",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun and Min-Jae sprint down the grand stone staircases, their sneakers squeaking on the polished marble.",
+      "mood": "youth in motion",
+      "sfx": "STEP-STEP-LAUGH!!"
+    },
+    {
+      "id": "p21",
+      "shot": "kuro gliding overhead keeping pace with the running students",
+      "setting": "kuro gliding above",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro glides smoothly through the high arches above them, keeping effortless pace with his companions.",
+      "mood": "familiar in flight",
+      "sfx": "GLIDE..."
+    },
+    {
+      "id": "p22",
+      "shot": "students and professors smiling and waving as ha-jun runs past",
+      "setting": "students wave to ha-jun",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Students call out: 'Morning, Ha-Jun!' 'Good luck on the quiz!' Ha-Jun waves back cheerfully.",
+      "mood": "beloved student",
+      "sfx": "WAVING...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "students",
+          "text": "Morning, Ha-Jun!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "ha-jun and min-jae sliding through the lecture hall double doors just in time",
+      "setting": "sliding into classroom",
+      "characters": [
+        "hajun"
+      ],
+      "action": "They slide through the classroom doors just as the bell chimes, breathless and laughing.",
+      "mood": "made it on time",
+      "sfx": "SLIDE-LAUGH!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Zero seconds remaining! Perfect timing!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "the professor smiling from the podium: 'take your seats, boys'",
+      "setting": "professor smiles",
+      "characters": [],
+      "action": "Professor Kang smiles from the chalkboard: 'Take your seats, boys. Chapter 1: Foundations of Harmony.'",
+      "mood": "lecture begins",
+      "sfx": "CHALK CLICK..."
+    },
+    {
+      "id": "p25",
+      "shot": "ha-jun sliding into his window seat pulling out his notebook",
+      "setting": "sitting at window desk",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun sits by the sunny window, opening his clean notebook, his heart completely light.",
+      "mood": "peaceful student",
+      "sfx": "NOTEBOOK OPEN..."
+    },
+    {
+      "id": "p26",
+      "shot": "kuro perching on the outdoor windowsill looking through the glass",
+      "setting": "kuro on outdoor sill",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Outside on the sunlit sill, Kuro settles down, winking through the clean glass at Ha-Jun.",
+      "mood": "guardian watching",
+      "sfx": "WINK..."
+    },
+    {
+      "id": "p27",
+      "shot": "ha-jun looking out the window at the blue sky smiling with complete fulfillment",
+      "setting": "looking at sky smiling",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun gazes out at the cloudless blue sky, feeling the quiet, infinite rhythm of a peaceful universe.",
+      "mood": "serene contentment",
+      "sfx": "BREEZE...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "This is the world we fought for. And I will protect it forever.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "the camera slowly pulling back from saint mirren university",
+      "setting": "pulling back wide",
+      "characters": [],
+      "action": "The camera pulls back, showing the entire majestic campus surrounded by green parks and glittering Seoul skyscrapers.",
+      "mood": "grand perspective",
+      "sfx": "SWEEP BACK..."
+    },
+    {
+      "id": "p29",
+      "shot": "the city of seoul bathed in golden morning light under an azure sky",
+      "setting": "seoul morning panoramic",
+      "characters": [],
+      "action": "The sprawling city of Seoul under a golden autumn morning, full of life, laughter, and hope.",
+      "mood": "panoramic peace",
+      "sfx": "GOLDEN GLOW...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "From a weak student weeping on a rainy rooftop... To the Sovereign who anchored the stars.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "the title card fading in over the horizon as chapter 98 concludes cliffhanger",
+      "setting": "title card over horizon",
+      "characters": [],
+      "action": "Golden script fades across the morning sky: 'DEMON SOVEREIGN'S BLOODLINE — CHAPTER 98 CONCLUDED.'",
+      "mood": "approaching the final two chapters",
+      "sfx": "GOLDEN TITLE FADE...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "ONLY TWO CHAPTERS REMAIN IN THE MASTER SAGA.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    }
+  ]
+}

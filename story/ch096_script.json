@@ -1,0 +1,473 @@
+{
+  "chapter": 96,
+  "title": "The Last Contract",
+  "arc": 10,
+  "arc_title": "THE LAST BLOOD",
+  "summary": "At the roots of the Tree of Origin, Ha-Jun and Kuro dissolve the ancient master-servant contract, rewriting their bond into an eternal covenant of equals.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "the roots of the tree of origin: colossal woven bridges of pure starlight",
+      "setting": "tree roots wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Massive roots of living crystal starlight intertwine across an ocean of infinite cosmic clouds.",
+      "mood": "sacred ground of creation",
+      "sfx": "CELESTIAL CHIME..."
+    },
+    {
+      "id": "p02",
+      "shot": "floating in the center: the ancient contract parchment of episode 2",
+      "setting": "contract parchment floating",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Hovering between Ha-Jun and Kuro is the original demonic pact from Episode 2, written in glowing crimson blood runes.",
+      "mood": "the original blood contract",
+      "sfx": "PULSE-RUNES...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "The Contract of Blood: 'Power has a price.'",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "shot": "kuro standing on the crystal root his feathers glowing with divine violet flame",
+      "setting": "kuro on root",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Kuro tilts his head, his ruby eyes reflecting the ancient parchment: 'The contract was written when you were weak.'",
+      "mood": "the familiar speaks",
+      "sfx": "FLAP...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "It demanded sacrifice, pain, and blood. Because Asmodaius knew no other way.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "ha-jun stepping forward placing his bare palm over the ancient crimson runes",
+      "setting": "palm on runes",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun touches the paper; warm golden mana washes over the harsh red lettering, softening its jagged edges.",
+      "mood": "softening the contract",
+      "sfx": "WARMTH-WASH...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "The old covenant is fulfilled. Today, we write a new one.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "tae-jun watching from the crystal bridge with folded arms smiling",
+      "setting": "tae-jun watching",
+      "characters": [],
+      "action": "Tae-Jun watches with pride: 'A contract of equals. No masters. No servants.'",
+      "mood": "brotherly endorsement",
+      "sfx": "SMILE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Two equals standing together.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "the crimson blood runes dissolving into golden starlight ink",
+      "setting": "runes turning to gold",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The red ink transforms into flowing stardust gold; the words dissolve into blank, waiting parchment.",
+      "mood": "parchment purified",
+      "sfx": "DISSOLVE-GOLD..."
+    },
+    {
+      "id": "p07",
+      "shot": "ha-jun drawing a single golden thread of mana from his heart",
+      "setting": "mana thread from heart",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun draws a luminous thread of golden sovereign mana from his chest, using it as a pen.",
+      "mood": "the ink of the soul",
+      "sfx": "THREAD GLOW..."
+    },
+    {
+      "id": "p08",
+      "shot": "kuro plucking a single soft black down-feather from his wing",
+      "setting": "kuro plucks feather",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro plucks a soft, downy feather from his breast, offering the quill to Ha-Jun: 'Use this, my brother.'",
+      "mood": "the feather quill",
+      "sfx": "GIFT FEATHER...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "From my heart to yours.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "ha-jun taking the feather writing upon the starlight parchment",
+      "setting": "writing the new pact",
+      "characters": [
+        "hajun"
+      ],
+      "action": "With a gentle, elegant hand, Ha-Jun writes the new covenant in radiant script.",
+      "mood": "the new decree",
+      "sfx": "SCRITCH-GLOW...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "'We walk as brothers. We share the light. Neither shall bow to the other.'",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "kuro pressing his talon against the signature line",
+      "setting": "talon signature",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro presses his talon onto the gold wax seal: 'Agreed. Throughout time and eternity.'",
+      "mood": "the pact signed",
+      "sfx": "SEAL-PRESS!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Sealed for eternity.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "the parchment dissolving into a dazzling wave of warm purple and gold sparks",
+      "setting": "contract dissolves into sparks",
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
+      "action": "The treaty dissolves into a shower of warm light that sinks into both Ha-Jun and Kuro's chests.",
+      "mood": "permanent spiritual union",
+      "sfx": "SHIMMER-MERGE!!"
+    },
+    {
+      "id": "p12",
+      "shot": "kuro body dissolving into a cloak of living starlight feathers",
+      "setting": "kuro turns into cloak",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Kuro's physical form transforms into a magnificent royal mantle of midnight-black starlight feathers draping Ha-Jun's shoulders.",
+      "mood": "the mantle of the sovereign",
+      "sfx": "DRAPE-MANTLE!!",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "THE MANTLE OF THE NETHER PHOENIX.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "kuro voice echoing warmly inside ha-jun mind: 'i am with you, always'",
+      "setting": "kuro voice in mind",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Kuro's voice resonates with infinite comfort: 'I am your wings, Ha-Jun. Fly.'",
+      "mood": "internal companion",
+      "sfx": "INTERNAL ECHO...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Main hamesha tumhare saath hoon.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "the roots of the tree of origin pulsing in thunderous welcome",
+      "setting": "roots pulse",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The colossal crystal roots hum an ancient chord of welcome as the final bloodline synchronization unlocks.",
+      "mood": "the final threshold",
+      "sfx": "THUNDER-CHIME!!"
+    },
+    {
+      "id": "p15",
+      "shot": "ha-jun stepping toward the central heart chamber of the tree",
+      "setting": "walking to heart",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun walks toward the core chamber, his starlight feather cloak billowing, eyes shining like twin suns.",
+      "mood": "approaching the heart",
+      "sfx": "STEP-MAJESTY..."
+    },
+    {
+      "id": "p16",
+      "shot": "tae-jun walking beside him placing his hand on the heart threshold",
+      "setting": "tae-jun at threshold",
+      "characters": [],
+      "action": "Tae-Jun stands at the entrance: 'Go inside, Ha-Jun. Claim your true form.'",
+      "mood": "brotherly blessing",
+      "sfx": "STAND TALL...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Apna poora roop le lo. I will watch the gate.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "ha-jun nodding smiling warmly at tae-jun",
+      "setting": "ha-jun nods to brother",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun smiles: 'See you in a minute, Hyung.'",
+      "mood": "confident parting",
+      "sfx": "SMILE..."
+    },
+    {
+      "id": "p18",
+      "shot": "ha-jun entering the heart chamber of the tree: a sphere of pure starlight",
+      "setting": "heart chamber interior",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Inside the sphere: total weightlessness surrounded by the birth of newborn galaxies and stars.",
+      "mood": "the cosmic womb",
+      "sfx": "WEIGHTLESS SILENCE..."
+    },
+    {
+      "id": "p19",
+      "shot": "in the center of the chamber: the sovereign pillar of creation",
+      "setting": "pillar of creation macro",
+      "characters": [],
+      "action": "A slender needle of pure crystalline diamond light that anchors all universal laws.",
+      "mood": "the axis mundi",
+      "sfx": "PILLAR GLOW..."
+    },
+    {
+      "id": "p20",
+      "shot": "ha-jun floating up to the pillar his hands outstretched",
+      "setting": "floating to pillar",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun floats up, his open palms hovering inches away from the sacred diamond pillar.",
+      "mood": "the final touch approaches",
+      "sfx": "FLOAT...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "This is where our story ends... And our eternal peace begins.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "ha-jun fingers touching the crystalline surface of the pillar",
+      "setting": "finger touch macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's fingertips make contact with the pillar; an instantaneous shockwave of celestial mana explodes.",
+      "mood": "contact made",
+      "sfx": "TOUCH-PULSE!!"
+    },
+    {
+      "id": "p22",
+      "shot": "a blinding cascade of white and royal violet light washing over his body",
+      "setting": "light cascade",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Blinding sovereign light washes over him, dissolving all remaining mortal fatigue and limits.",
+      "mood": "divine baptism",
+      "sfx": "WASH-LIGHT!!"
+    },
+    {
+      "id": "p23",
+      "shot": "ha-jun hair growing longer, flowing with living starlight and constellations",
+      "setting": "hair metamorphosis macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "His hair flows down to his shoulders, midnight-black shot through with spinning galaxies and platinum comets.",
+      "mood": "celestial hair",
+      "sfx": "FLOWING STARS..."
+    },
+    {
+      "id": "p24",
+      "shot": "two golden sovereign horns curving gracefully from his temples",
+      "setting": "horns manifestation",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Two elegant, noble horns of white jade and gold starlight curve back gracefully from his brow.",
+      "mood": "noble sovereign horns",
+      "sfx": "JADE GLOW..."
+    },
+    {
+      "id": "p25",
+      "shot": "six colossal wings of creation expanding from his back",
+      "setting": "six wings unfold wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Six magnificent wings unfold—refracting the entire spectrum of cosmic dawn, spanning a hundred yards.",
+      "mood": "six wings of dawn",
+      "sfx": "UNFOLD-MAJESTY!!"
+    },
+    {
+      "id": "p26",
+      "shot": "the ten relics permanently manifesting as ten spinning celestial halos behind him",
+      "setting": "ten relic halos",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ten concentric halos of living light rotate behind his back, each bearing the emblem of a purified relic.",
+      "mood": "the ten halos of eternity",
+      "sfx": "HALO ROTATION!!"
+    },
+    {
+      "id": "p27",
+      "shot": "ha-jun opening eyes: irises containing the birth of new universes",
+      "setting": "eyes of godhood macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's eyes open: deep royal violet irises holding infinite compassion, wisdom, and eternal peace.",
+      "mood": "eyes of creation",
+      "sfx": "INFINITE DEPTH..."
+    },
+    {
+      "id": "p28",
+      "shot": "system interface flashing for the final time then dissolving into starlight",
+      "setting": "system dissolve",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The system interface appears: '[BLOODLINE SYNCHRONIZATION: 100.0% - TRUE SOVEREIGN METAMORPHOSIS COMPLETE]'.",
+      "mood": "system dissolves forever",
+      "sfx": "DISSOLVE-CHIME...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "The system dissolved. He was no longer a vessel. He was the Sovereign.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "the black wound on the world tree sealing completely with golden sap",
+      "setting": "tree wound seals",
+      "characters": [],
+      "action": "Outside in the garden, the 5,000-year-old black fissure on the World Tree seals shut forever with golden sap.",
+      "mood": "universal wound healed",
+      "sfx": "SEAL-PURIFY..."
+    },
+    {
+      "id": "p30",
+      "shot": "the true sovereign stepping out from the chamber in full divine glory cliffhanger",
+      "setting": "true sovereign emerges wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Kang Ha-Jun steps out onto the crystal bridge in his True Sovereign Form—transcendent, beautiful, and eternal!",
+      "mood": "chapter 96 grand climax cliffhanger",
+      "sfx": "DIVINE EMERGENCE!!",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "THE TRUE DEMON SOVEREIGN HAS ASCENDED.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    }
+  ]
+}

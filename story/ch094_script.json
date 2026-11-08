@@ -1,0 +1,536 @@
+{
+  "chapter": 94,
+  "title": "The Choice",
+  "arc": 10,
+  "arc_title": "THE LAST BLOOD",
+  "summary": "Three years after the Great War, universal temporal entropy begins unraveling the cosmic boundary. Ha-Jun stands before the Gate of the First Origin, facing the ultimate choice of ascension.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "the quiet seoul skyline at dusk three years after the war",
+      "setting": "seoul skyline peaceful",
+      "characters": [],
+      "action": "Three years of peace: warm amber lights shimmer along the Han River as modern trains glide across bridges.",
+      "mood": "peaceful prosperous city",
+      "sfx": "CITY HUMMM..."
+    },
+    {
+      "id": "p02",
+      "shot": "inside the kang family apartment: ha-jun studying at a wooden desk",
+      "setting": "apartment bedroom",
+      "characters": [
+        "hajun"
+      ],
+      "action": "20-year-old Ha-Jun Kang, taller and broader with confident mature features, reviews quantum physics notes.",
+      "mood": "student life thriving",
+      "sfx": "PENCIL SCRATCH..."
+    },
+    {
+      "id": "p03",
+      "shot": "tae-jun walking into the room holding two mugs of hot tea",
+      "setting": "bedroom doorway",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun, wearing a comfortable olive sweater and spectacles, sets a steaming mug of jasmine tea beside Ha-Jun.",
+      "mood": "cozy brotherhood",
+      "sfx": "CUP CLINK...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Take a break, professor. You've been reading for six hours straight.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "ha-jun taking a sip smiling warmly at his brother",
+      "setting": "brothers at desk",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun leans back in his chair, taking a warm sip: 'Thanks, Tae-Jun. I was just checking the planetary ward frequencies.'",
+      "mood": "warm domestic life",
+      "sfx": "SMILE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Ward frequencies perfect hain. No demonic breaches anywhere.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "kuro sleeping on the bookshelf on a soft red velvet cushion",
+      "setting": "kuro cushion",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro naps lazily on his private cushion beside Ha-Jun's university textbooks, snoring softly.",
+      "mood": "pampered familiar",
+      "sfx": "SOFT PURR..."
+    },
+    {
+      "id": "p06",
+      "shot": "sudden microscopic temporal glitch: ha-jun tea freezing mid-swirl",
+      "setting": "tea freezing macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "In Ha-Jun's mug, the swirling jasmine tea freezes completely for half a second, then resumes.",
+      "mood": "subtle anomaly",
+      "sfx": "FREEZE-TICK...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Wait... Time skipped for 500 milliseconds?",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "outside the window: a flock of pigeons hanging stationary in the air",
+      "setting": "frozen birds outside",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Through the glass, five flying pigeons hang frozen mid-flap against the twilight sky.",
+      "mood": "temporal stutter observed",
+      "sfx": "STILL AIR..."
+    },
+    {
+      "id": "p08",
+      "shot": "ha-jun eyes narrowing as the sovereign core in his chest pulses",
+      "setting": "sovereign core alert",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The integrated Sovereign Core in Ha-Jun's chest beats with deep celestial resonance.",
+      "mood": "cosmic sense tingling",
+      "sfx": "PULSE-THUMP..."
+    },
+    {
+      "id": "p09",
+      "shot": "kuro snapping awake fluttering onto the desk",
+      "setting": "kuro alert",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Kuro's ruby eyes glow: 'The universal fabric... It's fraying at the Origin Seam.'",
+      "mood": "ancient alarm",
+      "sfx": "FLAP...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Asmodaius's ancient scar is finally giving out. The universe is losing coherence.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "a golden dimensional door materializing in the center of the living room",
+      "setting": "golden door portal",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A door of pure white marble carved with living starlight appears, bearing the crest of the Cosmic Tree.",
+      "mood": "the gate of the first origin",
+      "sfx": "CHIME-DOOR..."
+    },
+    {
+      "id": "p11",
+      "shot": "tae-jun stepping protectively in front of ha-jun claymore half-drawn",
+      "setting": "tae-jun on guard",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun instinctively draws his bronze blade: 'What is this?! Another void gate?!'",
+      "mood": "guardian reflex",
+      "sfx": "SHINGGG!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Stay behind me, Ha-Jun!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "ha-jun placing gentle hand on tae-jun wrist lowering the sword",
+      "setting": "ha-jun calms brother",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun lowers his brother's weapon gently: 'No, Hyung. This is the Origin Gate. It has been calling me for months.'",
+      "mood": "destiny acknowledged",
+      "sfx": "GENTLE TOUCH...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Yeh dushman nahi hai. It's the universe itself.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "an ethereal female voice echoing from the golden door: the voice of the cosmos",
+      "setting": "cosmic voice",
+      "characters": [],
+      "action": "A soothing, motherly voice echoes: 'Ha-Jun Kang. True Sovereign of mortal blood. Step forward.'",
+      "mood": "call of creation",
+      "sfx": "CELESTIAL VOICE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "cosmic_voice",
+          "text": "The scar of the First Demon must now be sealed forever.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "ha-jun stepping through the threshold into the garden of creation",
+      "setting": "garden of creation wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun steps through: an infinite garden of silver trees whose leaves are galaxies, standing over an ocean of light.",
+      "mood": "the garden of creation",
+      "sfx": "RUSTLE-STARS..."
+    },
+    {
+      "id": "p15",
+      "shot": "in the center of the garden: the towering tree of origin",
+      "setting": "tree of origin wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A colossal tree of pure white light whose roots anchor every dimension in the multiverse.",
+      "mood": "the world tree",
+      "sfx": "GLOW-ROOTS..."
+    },
+    {
+      "id": "p16",
+      "shot": "a deep black crack running down the trunk of the world tree",
+      "setting": "crack in trunk macro",
+      "characters": [],
+      "action": "A jagged black fissure oozes anti-matter sap from the tree's bark—the original wound caused by Asmodaius 5,000 years ago.",
+      "mood": "the unhealed wound",
+      "sfx": "HISS-SAP..."
+    },
+    {
+      "id": "p17",
+      "shot": "the spirit of the tree manifesting as a maiden of starlight",
+      "setting": "tree maiden",
+      "characters": [],
+      "action": "A radiant woman composed of nebulae and comets steps from the trunk: 'The universe is dying of this bleed.'",
+      "mood": "the cosmic arbiter",
+      "sfx": "STARLIGHT DRESS...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tree_maiden",
+          "text": "Only the complete Sovereign Bloodline can fuse this wound.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "the maiden explaining the two choices before ha-jun",
+      "setting": "the two choices",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Maiden: 'Choice one: Reset reality. Earth will have no demons, but you will forget your brother and your friends.'",
+      "mood": "the reset option",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tree_maiden",
+          "text": "Reset the timeline. All suffering vanishes, but your memories dissolve.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "ha-jun eyes widening in horror at the thought of forgetting tae-jun",
+      "setting": "ha-jun horrified at reset",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun shakes his head violently: 'Forget Tae-Jun?! Forget the brother who bled for me for seven years?! NEVER!'",
+      "mood": "rejecting memory erasure",
+      "sfx": "CLENCH FISTS...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Main apne bhai ko bhoolne ki keemat par azaadi nahi chahta!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "ha-jun asking the second choice with resolute steel in his voice",
+      "setting": "demanding second choice",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun: 'What is the second choice?'",
+      "mood": "the harder path",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Doosra rasta kya hai?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "the maiden looking at ha-jun with solemn respect and awe",
+      "setting": "maiden solemn",
+      "characters": [],
+      "action": "Maiden: 'Choice two: Transcendence. Ascend beyond the mortal plane and bind your own soul into the Tree's root.'",
+      "mood": "the path of godhood",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tree_maiden",
+          "text": "Become the immortal Pillar. You will live forever, but as the eternal anchor of reality.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "ha-jun looking down at his open hands seeing his mortal skin",
+      "setting": "hands look down",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun looks at his hands: 'Will I still be able to see my brother? Will I still be able to visit Earth?'",
+      "mood": "the core question",
+      "sfx": "STARE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Kya main apne parivaar se mil paunga?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "the maiden smiling with gentle warmth: 'love is not bound by dimension'",
+      "setting": "maiden reassurance",
+      "characters": [],
+      "action": "Maiden: 'A True Sovereign rules all realms. Where your heart rests, there you shall walk.'",
+      "mood": "comforting truth",
+      "sfx": "WARM SMILE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tree_maiden",
+          "text": "You will not be a prisoner. You will be the foundation of their safety.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "ha-jun smiling with radiant, peaceful certainty",
+      "setting": "ha-jun peaceful resolve",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun smiles, the tension evaporating from his shoulders: 'Then the choice is simple. I will become the Pillar.'",
+      "mood": "the sovereign's decision",
+      "sfx": "SMILE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Maine apna faisla kar liya hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "ha-jun stepping back through the golden door into his apartment",
+      "setting": "step back into apartment",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun steps back into his living room where Tae-Jun and Kuro wait anxiously.",
+      "mood": "returning to family",
+      "sfx": "STEP-CHIME..."
+    },
+    {
+      "id": "p26",
+      "shot": "tae-jun rushing over grabbing ha-jun shoulders: 'what happened?!'",
+      "setting": "tae-jun anxious",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun inspects him worriedly: 'Ha-Jun! What was behind that door?! Are you alright?!'",
+      "mood": "brotherly worry",
+      "sfx": "GRAB...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Did someone threaten you?!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "ha-jun smiling gently resting his hand over tae-jun hand",
+      "setting": "gentle touch brothers",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun smiles with infinite warmth: 'No threats, Hyung. Just the final step of our journey.'",
+      "mood": "reassuring his brother",
+      "sfx": "WARM TOUCH...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Sab theek hai. Call Min-Jae and Captain Baek. We are having our final summit on the rooftop.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "kuro tilting his head sensing the divine aura shift around ha-jun",
+      "setting": "kuro sensing transcendence",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Kuro's ruby eyes glow softly: 'You chose transcendence, didn't you, My Sovereign?'",
+      "mood": "knowing guardian",
+      "sfx": "TILT...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "You chose to become the eternal shield.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "ha-jun nodding to kuro with quiet pride",
+      "setting": "ha-jun nods",
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
+      "action": "Ha-Jun nods: 'Because that's what a brother does.'",
+      "mood": "brotherhood above all",
+      "sfx": "NOD..."
+    },
+    {
+      "id": "p30",
+      "shot": "the brothers walking out the apartment door together cliffhanger",
+      "setting": "walking out door",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun and Tae-Jun step out of apartment 402 into the cool evening air, ready for the final ascension!",
+      "mood": "chapter 94 cliffhanger",
+      "sfx": "DOOR CLICK...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "THE FINAL CONVERGENCE BEGINS.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,536 @@
+{
+  "chapter": 95,
+  "title": "The Blood That Remembers",
+  "arc": 10,
+  "arc_title": "THE LAST BLOOD",
+  "summary": "On the Saint Mirren rooftop under a canopy of stars, Ha-Jun, Tae-Jun, Min-Jae, and Captain Baek share an unforgettable farewell banquet, anchoring Ha-Jun's soul with eternal human memories.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "the rooftop of saint mirren university under sparkling autumn stars",
+      "setting": "rooftop stars wide",
+      "characters": [],
+      "action": "The iconic neoclassical rooftop terrace of Saint Mirren, where Episode 1 began, illuminated by string lanterns under crystal stars.",
+      "mood": "the sacred rooftop",
+      "sfx": "WARM LANTERN GLOW..."
+    },
+    {
+      "id": "p02",
+      "shot": "a picnic table covered with steaming hot korean food",
+      "setting": "picnic feast",
+      "characters": [],
+      "action": "A wooden picnic table loaded with steaming tteokbokki, grilled pork belly, fried chicken, and cans of iced soda.",
+      "mood": "the farewell feast",
+      "sfx": "STEAM-AROMA..."
+    },
+    {
+      "id": "p03",
+      "shot": "min-jae pouring soda for everyone grinning broadly",
+      "setting": "min-jae pouring",
+      "characters": [],
+      "action": "Min-Jae fills four plastic cups with fizzy cider, laughing: 'The Sovereign demands fried chicken, and Section 9 delivers!'",
+      "mood": "joyful hospitality",
+      "sfx": "FIZZ-POUR!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Special delivery from the best BBQ spot in Hongdae!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "captain baek in a casual flannel shirt taking a slice of garlic pork",
+      "setting": "baek eating",
+      "characters": [],
+      "action": "General Baek laughs heartily, munching a wrapped lettuce roll: 'Even an army marches on its stomach, boys.'",
+      "mood": "relaxed general",
+      "sfx": "MUNCH-LAUGH...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "baek",
+          "text": "Delicious. Beats military rations any day.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "kuro sitting beside the chicken box delicately snatching a drumstick",
+      "setting": "kuro with drumstick",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro holds a fried drumstick in his talons, savoring the crispy batter with dignified satisfaction.",
+      "mood": "comical raven",
+      "sfx": "CRUNCH...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "The mortal alchemy of seasoned batter is humanity's greatest achievement.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "ha-jun and tae-jun laughing heartily at kuro antics",
+      "setting": "brothers laughing at table",
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
+      "action": "Ha-Jun and Tae-Jun laugh together, clinking their cups in the crisp evening breeze.",
+      "mood": "family warmth",
+      "sfx": "LAUGHTER-CLINK!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Kuro's true motivation was fried chicken all along.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "the conversation settling into comfortable, quiet affection",
+      "setting": "quiet affection wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The laughter subsides into peaceful contentment; wind rustles the maple leaves below the balustrade.",
+      "mood": "peaceful lull",
+      "sfx": "BREEZE SIGH..."
+    },
+    {
+      "id": "p08",
+      "shot": "ha-jun looking at his three companions with eyes full of gratitude",
+      "setting": "ha-jun looks at friends",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun sets down his cup, looking at each of their faces with profound love: 'Thank you for coming tonight.'",
+      "mood": "tender opening",
+      "sfx": "SOFT VOICE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Main aap sabka shukriya ada karna chahta tha.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "min-jae sensing the gravity in ha-jun tone leaning forward",
+      "setting": "min-jae attentive",
+      "characters": [],
+      "action": "Min-Jae adjusts his glasses, his smile softening: 'Ha-Jun... What's on your mind? You look like you're going on a long trip.'",
+      "mood": "perceptive best friend",
+      "sfx": "TILT...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Is this about the temporal glitches?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "ha-jun explaining the tree of origin and his upcoming ascension",
+      "setting": "ha-jun explains",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun calmly explains the universal wound, the choice, and his decision to become the Pillar of Creation.",
+      "mood": "revealing destiny",
+      "sfx": "CALM EXPLANATION...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Universal seam toot rahi hai. To save our world, I must anchor my soul into the Tree of Origin.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "min-jae eyes welling with sudden, shocked tears",
+      "setting": "min-jae crying",
+      "characters": [],
+      "action": "Min-Jae drops his chopsticks, tears spilling down his cheeks: 'Ascend to godhood?! Does that mean... we won't see you anymore?!'",
+      "mood": "grief of friendship",
+      "sfx": "TEAR FALL...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "You're leaving us?! Just when we finally got peace?!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "ha-jun reaching across the table taking min-jae hand gently",
+      "setting": "holding min-jae hand",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun grips Min-Jae's trembling hand with warmth: 'No, Min-Jae. I'm not leaving. I'm becoming the roof over your heads.'",
+      "mood": "comforting friend",
+      "sfx": "GENTLE SQUEEZE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Main kahin nahi ja raha. I will always be watching over you.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "min-jae pulling a gift from his backpack: a framed photograph",
+      "setting": "min-jae gift",
+      "characters": [],
+      "action": "Min-Jae wipes his eyes with his sleeve, pulling out a framed photo of their university graduation day.",
+      "mood": "graduation photo macro",
+      "sfx": "UNWRAP...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Take this with you. So you never forget who you are.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "macro on the graduation photo: ha-jun, tae-jun, min-jae, and baek smiling under cherry blossoms",
+      "setting": "photo detail macro",
+      "characters": [],
+      "action": "The four of them in caps and gowns, laughing under pink cherry blossoms with Kuro perched on Ha-Jun's mortarboard.",
+      "mood": "the perfect mortal moment",
+      "sfx": "CHERRY BLOSSOM..."
+    },
+    {
+      "id": "p15",
+      "shot": "ha-jun touching the photo glass with glowing starlight fingertips",
+      "setting": "touching photo glass",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun touches the frame; a tiny spark of starlight preserves the paper so it will never fade across eternity.",
+      "mood": "preservation spell",
+      "sfx": "SPARKLE-PRESERVE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "This will be the anchor of my soul.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "captain baek standing up rendering a solemn military salute",
+      "setting": "baek solemn salute",
+      "characters": [],
+      "action": "General Baek stands at attention, his salute crisp and proud: 'Supreme Sovereign. It has been the honor of my life to serve you.'",
+      "mood": "military salute of honor",
+      "sfx": "SNAP-SALUTE!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "baek",
+          "text": "Humanity will remember your sacrifice for ten thousand generations.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "ha-jun standing up and returning the salute with a warm teenage grin",
+      "setting": "ha-jun returns salute",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun returns the salute with a boyish grin: 'Thank you, General. Keep the peace down here.'",
+      "mood": "passing the guardianship",
+      "sfx": "SMILE-SALUTE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Earth ki hifazat aapke haath mein hai, Captain.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "tae-jun stepping up beside ha-jun wrapping his strong arm around him",
+      "setting": "tae-jun arm around ha-jun",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun pulls Ha-Jun into a tight, warm hug: 'I am coming with you to the Origin Gate, Ha-Jun.'",
+      "mood": "brother stands with brother",
+      "sfx": "HUG...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "You aren't walking the final steps alone.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "ha-jun resting his cheek against tae-jun shoulder nodding softly",
+      "setting": "brotherly embrace rooftop",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun nods: 'I wouldn't have it any other way, Hyung.'",
+      "mood": "unbreakable unity",
+      "sfx": "NOD...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Saath mein chalenge.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "kuro hopping onto ha-jun shoulder spreading black and violet wings",
+      "setting": "kuro ready",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Kuro's feathers blaze with gentle purple starlight: 'The stars have aligned, Ha-Jun. The Tree awaits.'",
+      "mood": "the clarion call",
+      "sfx": "PURR-FLAP..."
+    },
+    {
+      "id": "p21",
+      "shot": "the four friends joining hands over the center of the picnic table",
+      "setting": "joined hands circle",
+      "characters": [
+        "hajun"
+      ],
+      "action": "All four companions place their hands one over another in a circle of eternal friendship and brotherhood.",
+      "mood": "the circle of love",
+      "sfx": "HAND CLASP...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "Four souls bound by fate, forged in fire, sealed in love.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "ha-jun raising his face to the sky: his eyes glowing with divine starlight",
+      "setting": "ha-jun eyes glow starlight",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun looks up; his royal violet eyes reflect the infinite cosmos with fearless love.",
+      "mood": "divine peace",
+      "sfx": "STARLIGHT FLARE!!"
+    },
+    {
+      "id": "p23",
+      "shot": "a column of pure golden starlight descending from the heavens onto the rooftop",
+      "setting": "golden starlight column",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A gentle, silent cylinder of warm golden light envelops Ha-Jun, Tae-Jun, and Kuro.",
+      "mood": "the ascension beam",
+      "sfx": "WARM HUMMM..."
+    },
+    {
+      "id": "p24",
+      "shot": "min-jae and baek waving with tears and joyful smiles from the edge",
+      "setting": "friends waving goodbye",
+      "characters": [],
+      "action": "Min-Jae and Baek wave through their tears, smiling with pride: 'See you around, Ha-Jun! Visit us for lunch!'",
+      "mood": "joyful farewell",
+      "sfx": "WAVING HANDS...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "We'll save some chicken for you, brother!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "ha-jun laughing waving back as he begins to levitate into the light",
+      "setting": "ha-jun floating up waving",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun rises weightlessly into the golden beam, waving back with a radiant smile: 'I'll bring the soda next time!'",
+      "mood": "leaving with laughter",
+      "sfx": "FLOAT-WAVE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Main lunch ke waqt aaunga!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "shot": "the golden beam carrying the trio into the upper stratosphere",
+      "setting": "ascending through clouds",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun, Tae-Jun, and Kuro ascend through the night clouds, leaving behind a trail of twinkling stardust.",
+      "mood": "ascent into the heavens",
+      "sfx": "TRAIL OF STARS..."
+    },
+    {
+      "id": "p27",
+      "shot": "below: the lights of seoul shining like a carpet of warm gold jewels",
+      "setting": "seoul lights below wide",
+      "characters": [],
+      "action": "Looking down: the entire city of Seoul glows peacefully, safe and prosperous beneath them.",
+      "mood": "the protected world",
+      "sfx": "GOLDEN CARPET...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Look at our home, Hyung. It's so beautiful.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "tae-jun looking down with deep peace in his eyes",
+      "setting": "tae-jun peaceful gaze",
+      "characters": [],
+      "action": "Tae-Jun smiles down at the city: 'It's beautiful because you saved it, Ha-Jun.'",
+      "mood": "brotherly pride",
+      "sfx": "GENTLE SMILE..."
+    },
+    {
+      "id": "p29",
+      "shot": "ahead: the magnificent gates of the tree of origin opening in space",
+      "setting": "origin gates space wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ahead in the orbit of the Moon, the colossal golden gates of the Tree of Origin swing wide open.",
+      "mood": "arrival at the gates of eternity",
+      "sfx": "GATE SWING-GLOW!!"
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun stepping through the celestial threshold cliffhanger",
+      "setting": "crossing threshold",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun steps across the threshold into the heart of creation, ready to claim his True Sovereign Form!",
+      "mood": "chapter 95 cliffhanger",
+      "sfx": "STEP-CHIME-FLASH!!",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "THE FINAL ASCENSION BEGINS.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    }
+  ]
+}

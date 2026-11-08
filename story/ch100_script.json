@@ -1,0 +1,519 @@
+{
+  "chapter": 100,
+  "title": "The Demon Sovereign's Bloodline",
+  "arc": 10,
+  "arc_title": "THE LAST BLOOD",
+  "summary": "The monumental 100th chapter milestone. Ha-Jun Kang achieves ultimate planetary harmony, consecrating the Demon Sovereign Bloodline as the eternal covenant of peace across Earth and the cosmos.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "grand title splash: DEMON SOVEREIGN'S BLOODLINE — CHAPTER 100",
+      "setting": "splash screen wide",
+      "characters": [],
+      "action": "A breathtaking full-bleed splash panel: golden calligraphy blazing across a starfield: 'CHAPTER 100 — THE DEMON SOVEREIGN'S BLOODLINE'.",
+      "mood": "grand milestone splash",
+      "sfx": "COSMIC FANFARE...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "ONE HUNDRED CHAPTERS. THREE THOUSAND PANELS. AN ETERNAL SAGA.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p02",
+      "shot": "sunrise breaking over seoul: the rain stopping as golden dawn floods the city",
+      "setting": "sunrise over seoul wide",
+      "characters": [],
+      "action": "The gentle rain clears; the golden morning sun rises over Namsan Tower and the Han River, washing the world in amber.",
+      "mood": "golden dawn",
+      "sfx": "SUNRISE GLOW..."
+    },
+    {
+      "id": "p03",
+      "shot": "ha-jun walking out onto the open observation deck breathing the clean fresh air",
+      "setting": "ha-jun breathing fresh air",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun steps into the clean morning air, breathing deep; his dark fringe catches the morning light.",
+      "mood": "the mortal boy",
+      "sfx": "DEEP BREATH...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "A brand new day. And the world is peaceful.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "tae-jun stepping beside him leaning on the railing with his coffee",
+      "setting": "brothers at sunrise",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun leans beside him, watching the sun illuminate their city: 'You did it, Ha-Jun. You really did it.'",
+      "mood": "brotherly pride at sunrise",
+      "sfx": "SMILE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Hamari family ka lamba safar poora hua.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "ha-jun looking at his right hand: the sovereign crest glowing with gentle warmth",
+      "setting": "hand glow macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun looks at his palm: the purple crest of the Sovereign pulses like a warm heartbeat, tamed and peaceful.",
+      "mood": "power at peace",
+      "sfx": "SOFT PULSE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Bloodline ab curse nahi hai. It's a bridge.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "kuro perching on ha-jun shoulder greeting the morning sun with a royal caw",
+      "setting": "kuro caw at sun",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Kuro spreads his dark wings, greeting the morning sun with a clear, triumphant caw that echoes across the valley.",
+      "mood": "the phoenix greeting the sun",
+      "sfx": "TRIUMPHANT CAW!!"
+    },
+    {
+      "id": "p07",
+      "shot": "down below: saint mirren international university gates opening for the new day",
+      "setting": "university gates opening",
+      "characters": [],
+      "action": "At Saint Mirren, the grand iron gates swing open; students of all races and origins enter together under cherry blossoms.",
+      "mood": "the thriving future",
+      "sfx": "GATES SWING..."
+    },
+    {
+      "id": "p08",
+      "shot": "in the classroom: student desks bathed in clean, bright morning sunlight",
+      "setting": "classroom sunlight",
+      "characters": [],
+      "action": "The empty classroom from Chapter 84 is bathed in serene, peaceful sunlight, waiting for students.",
+      "mood": "peaceful classroom",
+      "sfx": "MORNING RAYS..."
+    },
+    {
+      "id": "p09",
+      "shot": "apartment 402: freshly painted white walls and the graduation photo on the mantelpiece",
+      "setting": "apartment mantelpiece",
+      "characters": [],
+      "action": "Inside the renovated Kang apartment: the new polaroid photo rests beside their parents' memorial in warm morning light.",
+      "mood": "a peaceful home",
+      "sfx": "DOMESTIC TRANQUILITY..."
+    },
+    {
+      "id": "p10",
+      "shot": "ha-jun pulling his student academy blazer onto his shoulders",
+      "setting": "putting on blazer",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun slips on his navy academy uniform blazer, fastening the silver buttons with a relaxed smile.",
+      "mood": "the student returns",
+      "sfx": "BUTTON-SNAP..."
+    },
+    {
+      "id": "p11",
+      "shot": "tae-jun adjusting ha-jun tie with affectionate elder brother care",
+      "setting": "adjusting tie",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun straightens Ha-Jun's navy tie: 'Still can't tie a Windsor knot properly, can you?'",
+      "mood": "elder brother care",
+      "sfx": "TIE STRAIGHTEN...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Let your big brother fix your tie.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "ha-jun laughing sheepishly: 'some things never change, hyung'",
+      "setting": "sheepish grin",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun smiles warmly: 'Some things should never change.'",
+      "mood": "cherishing normalcy",
+      "sfx": "LAUGH...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Kuch cheezein aisi hi achhi lagti hain.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "min-jae waving from the observatory exit: 'the cable car is waiting, boys!'",
+      "setting": "min-jae at cable car",
+      "characters": [],
+      "action": "Min-Jae waves from the cable car terminal: 'Hurry up! We're riding down together!'",
+      "mood": "cable car waiting",
+      "sfx": "WAVING...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Cable car departs in two minutes!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "captain baek saluting with a wide grin stepping into the cabin",
+      "setting": "baek in cable car",
+      "characters": [],
+      "action": "General Baek enters the cable car cabin, chuckling: 'Shotgun on the window seat!'",
+      "mood": "relaxed general",
+      "sfx": "CHUCKLE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "baek",
+          "text": "Window seat is mine!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "shot": "the four companions and kuro boarding the cable car descending into the city",
+      "setting": "cable car descent wide",
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
+      "action": "The red cable car glides down the mountain cable over pine trees, carrying the family toward the city streets.",
+      "mood": "homeward descent",
+      "sfx": "CABLE HUMMM..."
+    },
+    {
+      "id": "p16",
+      "shot": "inside the car: laughing, taking selfies, and pointing at the landmarks",
+      "setting": "inside cable car joy",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Inside the glass cabin: Min-Jae snaps funny selfies with Ha-Jun, while Kuro investigates Baek's shiny coat buttons.",
+      "mood": "joyful memories being made",
+      "sfx": "SELFIE-FLASH!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Make a funny face, Ha-Jun!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "ha-jun making a goofy peace sign pose sticking his tongue out",
+      "setting": "ha-jun goofy peace sign",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun flashes a goofy two-finger peace sign with his tongue out, laughing like any ordinary 20-year-old college boy.",
+      "mood": "pure youth unburdened",
+      "sfx": "LAUGHTER-SNAP!!"
+    },
+    {
+      "id": "p18",
+      "shot": "cable car arriving at the base terminal in bustling downtown seoul",
+      "setting": "terminal arrival",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The car docks at the busy mountain base terminal; commuters, children with backpacks, and vendors bustle around.",
+      "mood": "bustling morning city",
+      "sfx": "COMMUTER CHATTER..."
+    },
+    {
+      "id": "p19",
+      "shot": "the group walking out into the sunlit seoul streets among thousands of citizens",
+      "setting": "walking in city streets",
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
+      "action": "The group walks down the tree-lined sidewalk, blending seamlessly into the flow of ordinary human life.",
+      "mood": "the god among mortals",
+      "sfx": "FOOTSTEPS...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "A God who chose to walk as a mortal among his people.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "a small child dropping an ice cream cone on the sidewalk",
+      "setting": "child drops ice cream",
+      "characters": [],
+      "action": "A five-year-old girl trips, her ice cream scoop tumbling toward the concrete sidewalk.",
+      "mood": "small everyday moment",
+      "sfx": "GASP-DROP..."
+    },
+    {
+      "id": "p21",
+      "shot": "ha-jun catching the falling ice cream with a subtle flick of telekinetic mana",
+      "setting": "subtle mana catch",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun casually catches the ice cream scoop mid-air with an invisible puff of mana, placing it safely back on her cone.",
+      "mood": "small acts of kindness",
+      "sfx": "SOFT CATCH..."
+    },
+    {
+      "id": "p22",
+      "shot": "ha-jun kneeling handing the cone back with a warm wink to the girl",
+      "setting": "kneeling to child",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun winks at the little girl: 'Careful there, little one. Enjoy your breakfast!'",
+      "mood": "gentle monarch",
+      "sfx": "WINK...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Dhyan se, little princess!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "the child mother bowing in gratitude as the little girl giggles happily",
+      "setting": "mother bows",
+      "characters": [],
+      "action": "The mother bows with a warm smile: 'Thank you, young man!' Ha-Jun waves back cheerfully.",
+      "mood": "gratitude and community",
+      "sfx": "BOW...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "mother",
+          "text": "Thank you so much!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "tae-jun watching with a deep, proud smile walking beside him",
+      "setting": "tae-jun proud walk",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun bumps Ha-Jun's shoulder gently: 'You're a natural at this, you know.'",
+      "mood": "brotherly pride",
+      "sfx": "BUMP...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Tum sach mein bohot achhe insaan ban gaye ho.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "ha-jun looking up at the saint mirren university clocktower in the distance",
+      "setting": "university clocktower distance",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ahead through the golden trees, the clocktower of Saint Mirren University chimes eight o'clock.",
+      "mood": "the bell chimes eight",
+      "sfx": "CHIME-DONG-DONG..."
+    },
+    {
+      "id": "p26",
+      "shot": "ha-jun, tae-jun, and min-jae jogging together toward the campus gates",
+      "setting": "jogging to campus",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The three young men jog toward the university archway, wind whipping their hair, backpacks bouncing happily.",
+      "mood": "running into the future",
+      "sfx": "JOGGING-LAUGHTER...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Last one to the lecture hall buys lunch!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "ha-jun sprinting ahead with an effortless burst of speed laughing",
+      "setting": "ha-jun sprints ahead",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun laughs, accelerating ahead: 'You're buying lunch today, Min-Jae!!'",
+      "mood": "youthful race",
+      "sfx": "SPRINT-BLUR!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Main jeet gaya!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "kuro flying overhead in the azure sky his violet feathers catching golden light",
+      "setting": "kuro soaring high",
+      "characters": [
+        "kuro"
+      ],
+      "action": "High in the azure heavens, Kuro soars in majestic circles, watching his family run with joy.",
+      "mood": "the guardian soaring free",
+      "sfx": "SOAR-GLIDE...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "No chains. No fear. Only the open sky.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "ha-jun turning his head back mid-stride looking directly at the reader with a radiant smile",
+      "setting": "ha-jun final glance",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun glances over his shoulder, looking straight into the reader's eyes with a breathtaking, radiant, thankful smile.",
+      "mood": "the final grateful glance",
+      "sfx": "RADIANT SMILE...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "Thank you for walking this road with me.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "the final grand panel: the three friends running through the golden gates into the sunrise",
+      "setting": "grand saga finale wide",
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
+      "action": "Ha-Jun, Tae-Jun, and Min-Jae run through the grand neoclassical gates into the blazing golden sunrise, with Kuro soaring above them into eternity!",
+      "mood": "the grand saga finale",
+      "sfx": "SUNRISE ETERNAL...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "DEMON SOVEREIGN'S BLOODLINE — COMPLETE. 100 CHAPTERS. 3,000 PANELS. THE SAGA IS FINISHED IN ETERNAL GLORY.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    }
+  ]
+}
