@@ -1,0 +1,770 @@
+{
+  "project": "Demon Sovereign's Bloodline",
+  "total_chapters": 100,
+  "start_chapter": 4,
+  "end_chapter": 103,
+  "minimum_panels_per_chapter": 30,
+  "total_target_panels": 3000,
+  "arcs": [
+    {
+      "arc_number": 1,
+      "title": "THE CURSED FEATHER",
+      "chapters": [
+        {
+          "chapter": 4,
+          "title": "The Drifting Feather",
+          "target_panels": 30,
+          "status": "scripted_and_prompted",
+          "script_file": "story/ch004_script.json"
+        },
+        {
+          "chapter": 5,
+          "title": "The Broken Promise",
+          "target_panels": 30,
+          "status": "scripted_and_prompted",
+          "script_file": "story/ch005_script.json"
+        },
+        {
+          "chapter": 6,
+          "title": "The First Blood",
+          "target_panels": 30,
+          "status": "scripted_and_prompted",
+          "script_file": "story/ch006_script.json"
+        },
+        {
+          "chapter": 7,
+          "title": "The Demon Within",
+          "target_panels": 30,
+          "status": "scripted_and_prompted",
+          "script_file": "story/ch007_script.json"
+        },
+        {
+          "chapter": 8,
+          "title": "Kuro's Voice",
+          "target_panels": 30,
+          "status": "scripted_and_prompted",
+          "script_file": "story/ch008_script.json"
+        },
+        {
+          "chapter": 9,
+          "title": "The Forbidden Contract",
+          "target_panels": 30,
+          "status": "scripted_and_prompted",
+          "script_file": "story/ch009_script.json"
+        },
+        {
+          "chapter": 10,
+          "title": "First Synchronization",
+          "target_panels": 30,
+          "status": "scripted_and_prompted",
+          "script_file": "story/ch010_script.json"
+        },
+        {
+          "chapter": 11,
+          "title": "The First Demon",
+          "target_panels": 30,
+          "status": "scripted_and_prompted",
+          "script_file": "story/ch011_script.json"
+        },
+        {
+          "chapter": 12,
+          "title": "Instinct of Survival",
+          "target_panels": 30,
+          "status": "scripted_and_prompted",
+          "script_file": "story/ch012_script.json"
+        },
+        {
+          "chapter": 13,
+          "title": "Something Has Awakened",
+          "target_panels": 30,
+          "status": "scripted_and_prompted",
+          "script_file": "story/ch013_script.json"
+        }
+      ]
+    },
+    {
+      "arc_number": 2,
+      "title": "THE HIDDEN BLOODLINE",
+      "chapters": [
+        {
+          "chapter": 14,
+          "title": "The Unwanted Power",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch014_script.json"
+        },
+        {
+          "chapter": 15,
+          "title": "The Boy Who Changed",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch015_script.json"
+        },
+        {
+          "chapter": 16,
+          "title": "The First Mission",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch016_script.json"
+        },
+        {
+          "chapter": 17,
+          "title": "Blood Trial",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch017_script.json"
+        },
+        {
+          "chapter": 18,
+          "title": "The Forgotten Classroom",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch018_script.json"
+        },
+        {
+          "chapter": 19,
+          "title": "The Name of the Sovereign",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch019_script.json"
+        },
+        {
+          "chapter": 20,
+          "title": "The Hunter's Arrival",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch020_script.json"
+        },
+        {
+          "chapter": 21,
+          "title": "The Mark of Death",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch021_script.json"
+        },
+        {
+          "chapter": 22,
+          "title": "Uncontrolled Blood",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch022_script.json"
+        },
+        {
+          "chapter": 23,
+          "title": "The First Victory",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch023_script.json"
+        }
+      ]
+    },
+    {
+      "arc_number": 3,
+      "title": "THE FIRST RELIC",
+      "chapters": [
+        {
+          "chapter": 24,
+          "title": "The Second Resonance",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch024_script.json"
+        },
+        {
+          "chapter": 25,
+          "title": "Ring of Hollow Blood",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch025_script.json"
+        },
+        {
+          "chapter": 26,
+          "title": "Blood Blade",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch026_script.json"
+        },
+        {
+          "chapter": 27,
+          "title": "The Cost of Power",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch027_script.json"
+        },
+        {
+          "chapter": 28,
+          "title": "Bone of the Forgotten",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch028_script.json"
+        },
+        {
+          "chapter": 29,
+          "title": "The Guardian's Test",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch029_script.json"
+        },
+        {
+          "chapter": 30,
+          "title": "The Second Bond",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch030_script.json"
+        },
+        {
+          "chapter": 31,
+          "title": "The Ashen Heart",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch031_script.json"
+        },
+        {
+          "chapter": 32,
+          "title": "Flame of the Fallen",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch032_script.json"
+        },
+        {
+          "chapter": 33,
+          "title": "Three Seals Broken",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch033_script.json"
+        }
+      ]
+    },
+    {
+      "arc_number": 4,
+      "title": "THE DEMON HUNTER WAR",
+      "chapters": [
+        {
+          "chapter": 34,
+          "title": "The Secret Organization",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch034_script.json"
+        },
+        {
+          "chapter": 35,
+          "title": "The Blood Registry",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch035_script.json"
+        },
+        {
+          "chapter": 36,
+          "title": "Target: Ha-Jun",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch036_script.json"
+        },
+        {
+          "chapter": 37,
+          "title": "The Betrayer",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch037_script.json"
+        },
+        {
+          "chapter": 38,
+          "title": "The Hunter Captain",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch038_script.json"
+        },
+        {
+          "chapter": 39,
+          "title": "The First Real Defeat",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch039_script.json"
+        },
+        {
+          "chapter": 40,
+          "title": "Kuro's Warning",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch040_script.json"
+        },
+        {
+          "chapter": 41,
+          "title": "Blood Training",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch041_script.json"
+        },
+        {
+          "chapter": 42,
+          "title": "The Hunter's Secret",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch042_script.json"
+        },
+        {
+          "chapter": 43,
+          "title": "War Begins",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch043_script.json"
+        }
+      ]
+    },
+    {
+      "arc_number": 5,
+      "title": "THE ABYSSAL KINGDOM",
+      "chapters": [
+        {
+          "chapter": 44,
+          "title": "The Gate Beneath the City",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch044_script.json"
+        },
+        {
+          "chapter": 45,
+          "title": "Beyond the Human World",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch045_script.json"
+        },
+        {
+          "chapter": 46,
+          "title": "The Forgotten Kingdom",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch046_script.json"
+        },
+        {
+          "chapter": 47,
+          "title": "The Fang of Abyss",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch047_script.json"
+        },
+        {
+          "chapter": 48,
+          "title": "The Demon Beast",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch048_script.json"
+        },
+        {
+          "chapter": 49,
+          "title": "The First Evolution",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch049_script.json"
+        },
+        {
+          "chapter": 50,
+          "title": "Eye of the Night",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch050_script.json"
+        },
+        {
+          "chapter": 51,
+          "title": "The Silent Prison",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch051_script.json"
+        },
+        {
+          "chapter": 52,
+          "title": "The Third Rare Relic",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch052_script.json"
+        },
+        {
+          "chapter": 53,
+          "title": "The Three Demon Lords",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch053_script.json"
+        }
+      ]
+    },
+    {
+      "arc_number": 6,
+      "title": "THE FALLEN SOVEREIGN",
+      "chapters": [
+        {
+          "chapter": 54,
+          "title": "The Crown's Call",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch054_script.json"
+        },
+        {
+          "chapter": 55,
+          "title": "The Fallen Throne",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch055_script.json"
+        },
+        {
+          "chapter": 56,
+          "title": "The Memory Chamber",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch056_script.json"
+        },
+        {
+          "chapter": 57,
+          "title": "The Forgotten War",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch057_script.json"
+        },
+        {
+          "chapter": 58,
+          "title": "The Brother's Shadow",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch058_script.json"
+        },
+        {
+          "chapter": 59,
+          "title": "The Missing Memory",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch059_script.json"
+        },
+        {
+          "chapter": 60,
+          "title": "Eclipse Devourer",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch060_script.json"
+        },
+        {
+          "chapter": 61,
+          "title": "The Power of Authority",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch061_script.json"
+        },
+        {
+          "chapter": 62,
+          "title": "The Sovereign's Enemy",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch062_script.json"
+        },
+        {
+          "chapter": 63,
+          "title": "The False Heir",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch063_script.json"
+        }
+      ]
+    },
+    {
+      "arc_number": 7,
+      "title": "THE BROTHER'S TRUTH",
+      "chapters": [
+        {
+          "chapter": 64,
+          "title": "The Last Photograph",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch064_script.json"
+        },
+        {
+          "chapter": 65,
+          "title": "The Unanswered Message",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch065_script.json"
+        },
+        {
+          "chapter": 66,
+          "title": "That Night",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch066_script.json"
+        },
+        {
+          "chapter": 67,
+          "title": "The Red-Eyed Stranger",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch067_script.json"
+        },
+        {
+          "chapter": 68,
+          "title": "The Brother's Secret",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch068_script.json"
+        },
+        {
+          "chapter": 69,
+          "title": "The Hidden Protection",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch069_script.json"
+        },
+        {
+          "chapter": 70,
+          "title": "The Forbidden Experiment",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch070_script.json"
+        },
+        {
+          "chapter": 71,
+          "title": "The Voice in the Memory",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch071_script.json"
+        },
+        {
+          "chapter": 72,
+          "title": "I Will Find You",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch072_script.json"
+        },
+        {
+          "chapter": 73,
+          "title": "The Brother Is Alive?",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch073_script.json"
+        }
+      ]
+    },
+    {
+      "arc_number": 8,
+      "title": "THE MYTHIC AWAKENING",
+      "chapters": [
+        {
+          "chapter": 74,
+          "title": "The Feather's Memory",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch074_script.json"
+        },
+        {
+          "chapter": 75,
+          "title": "The Mythic Truth",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch075_script.json"
+        },
+        {
+          "chapter": 76,
+          "title": "The Guardian's Real Form",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch076_script.json"
+        },
+        {
+          "chapter": 77,
+          "title": "The First Sovereign's Voice",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch077_script.json"
+        },
+        {
+          "chapter": 78,
+          "title": "The Price of Awakening",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch078_script.json"
+        },
+        {
+          "chapter": 79,
+          "title": "The Hourglass",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch079_script.json"
+        },
+        {
+          "chapter": 80,
+          "title": "Beyond Time",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch080_script.json"
+        },
+        {
+          "chapter": 81,
+          "title": "The Hourglass Keeper",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch081_script.json"
+        },
+        {
+          "chapter": 82,
+          "title": "The Final Synchronization",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch082_script.json"
+        },
+        {
+          "chapter": 83,
+          "title": "Ten Relics, One Blood",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch083_script.json"
+        }
+      ]
+    },
+    {
+      "arc_number": 9,
+      "title": "THE WAR OF SOVEREIGNS",
+      "chapters": [
+        {
+          "chapter": 84,
+          "title": "The Three Thrones",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch084_script.json"
+        },
+        {
+          "chapter": 85,
+          "title": "The World Under Siege",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch085_script.json"
+        },
+        {
+          "chapter": 86,
+          "title": "Saint Mirren's Last Day",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch086_script.json"
+        },
+        {
+          "chapter": 87,
+          "title": "The Friends Who Stayed",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch087_script.json"
+        },
+        {
+          "chapter": 88,
+          "title": "The Betrayal of Kuro",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch088_script.json"
+        },
+        {
+          "chapter": 89,
+          "title": "The True Enemy",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch089_script.json"
+        },
+        {
+          "chapter": 90,
+          "title": "The War of Bloodlines",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch090_script.json"
+        },
+        {
+          "chapter": 91,
+          "title": "The Broken Relics",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch091_script.json"
+        },
+        {
+          "chapter": 92,
+          "title": "The Fall of the Guardian",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch092_script.json"
+        },
+        {
+          "chapter": 93,
+          "title": "The Last Sovereign's Tear",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch093_script.json"
+        }
+      ]
+    },
+    {
+      "arc_number": 10,
+      "title": "THE LAST BLOOD",
+      "chapters": [
+        {
+          "chapter": 94,
+          "title": "The Choice",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch094_script.json"
+        },
+        {
+          "chapter": 95,
+          "title": "The Blood That Remembers",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch095_script.json"
+        },
+        {
+          "chapter": 96,
+          "title": "The Last Contract",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch096_script.json"
+        },
+        {
+          "chapter": 97,
+          "title": "True Sovereign Form",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch097_script.json"
+        },
+        {
+          "chapter": 98,
+          "title": "The First Demon Returns",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch098_script.json"
+        },
+        {
+          "chapter": 99,
+          "title": "The Battle Within",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch099_script.json"
+        },
+        {
+          "chapter": 100,
+          "title": "The Demon Sovereign's Bloodline",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch100_script.json"
+        },
+        {
+          "chapter": 101,
+          "title": "The Last Enemy",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch101_script.json"
+        },
+        {
+          "chapter": 102,
+          "title": "The Price of Peace",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch102_script.json"
+        },
+        {
+          "chapter": 103,
+          "title": "Beyond the Sovereign",
+          "target_panels": 30,
+          "status": "planned",
+          "script_file": "story/ch103_script.json"
+        }
+      ]
+    }
+  ]
+}

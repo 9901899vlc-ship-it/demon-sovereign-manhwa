@@ -1,0 +1,326 @@
+{
+  "chapter": 9,
+  "title": "The Forbidden Contract",
+  "arc": 1,
+  "arc_title": "THE CURSED FEATHER",
+  "summary": "Ha-Jun accepts the forbidden Demon Sovereign Contract despite its dire warnings about memory loss and eternal pursuit. As his blood seals the pact, his classmate Min-Jae arrives on the devastated rooftop, witnessing the first signs that Ha-Jun is no longer human.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "system interface close-up",
+      "setting": "university rooftop",
+      "characters": [],
+      "action": "The obsidian holographic contract screen hovers in the rain, purple text glowing with ominous ancient warnings.",
+      "mood": "forbidden threshold",
+      "dialogue": [
+        {"type": "system", "text": "[FORBIDDEN CONTRACT: DEMON SOVEREIGN SOUL LINK]", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p02",
+      "shot": "hesitant fingertip macro",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "Ha-Jun's index finger hovers inches away from the glowing purple [ACCEPT] prompt, raindrops dripping from his knuckle.",
+      "mood": "life-altering hesitation",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Ek baar click kiya... toh koi wapsi nahi hogi.", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p03",
+      "shot": "whispering guardian profile",
+      "setting": "university rooftop",
+      "characters": ["kuro"],
+      "action": "Kuro perches on Ha-Jun's shoulder, speaking in low grave tones: 'Shartein dhyan se padh lo, boy. Taqat kabhi muft nahi milti.'",
+      "mood": "grave caution",
+      "dialogue": [
+        {"type": "speech", "speaker": "kuro", "text": "Dhyan se padho. Sovereign ka takht qurbaniyon se banta hai.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "clause 1 text scroll",
+      "setting": "university rooftop",
+      "characters": [],
+      "action": "The system screen scrolls: [CLAUSE 1: INSAANI KAMZORI DHEERE DHEERE MIT JAAYEGI].",
+      "mood": "dehumanization clause",
+      "dialogue": [
+        {"type": "system", "text": "[CLAUSE 1: HUMAN FRAILTY PROGRESSIVELY PURGED]", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "clause 2 text scroll",
+      "setting": "university rooftop",
+      "characters": [],
+      "action": "The system screen scrolls: [CLAUSE 2: ABYSS KE MONSTERS AUR DEMON HUNTERS TUMHARA PEETHA KARENGE].",
+      "mood": "eternal hunter clause",
+      "dialogue": [
+        {"type": "system", "text": "[CLAUSE 2: TARGETED BY DEMONS AND HUNTERS ALIKE]", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "clause 3 memory cost warning",
+      "setting": "university rooftop",
+      "characters": [],
+      "action": "The screen flashes dark crimson: [CLAUSE 3: RELICS KI TAQAT TUMHARI PURANI YAADEIN CHEEN SAKTI HAI].",
+      "mood": "psychological horror cost",
+      "dialogue": [
+        {"type": "system", "text": "[CLAUSE 3: POWER MAY COST MORTAL MEMORIES]", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "fear of losing memories close-up",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "Ha-Jun flinches, clutching his chest: 'M-Meri yaadein...? Kya main bhaiya ko bhool jaunga...?'",
+      "mood": "deepest fear",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Agar main bhaiya ko hi bhool gaya... toh unhe bacha kar kya karunga?!", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p08",
+      "shot": "guardian reassurance",
+      "setting": "university rooftop",
+      "characters": ["kuro"],
+      "action": "Kuro: 'Sirf tab agar tum kamzor pad gaye. Agar tumhara irada lohe jaisa raha, toh tum Relics ko govern karoge.'",
+      "mood": "trial of willpower",
+      "dialogue": [
+        {"type": "speech", "speaker": "kuro", "text": "Agar tum taqatwar bane, toh koi yaad nahi mitegi.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "reflection of rain puddles",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "Ha-Jun looks down at the puddle reflection—no longer seeing a victim, but someone with a burning purpose.",
+      "mood": "internal resolution",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Kamzor rehne se behtar hai... aag mein kood jaana.", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "unwavering resolve portrait",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "Ha-Jun smirks with fearless conviction: 'Main tayar hoon.'",
+      "mood": "heroic commitment",
+      "dialogue": [
+        {"type": "speech", "speaker": "hajun", "text": "Mujhe yeh shart manzoor hai.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "decisive contract press",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "Ha-Jun slams his thumb firmly onto the glowing holographic [ACCEPT] button.",
+      "mood": "binding impact",
+      "sfx": "CLIIICK!!"
+    },
+    {
+      "id": "p12",
+      "shot": "dimensional chime pulse",
+      "setting": "university rooftop",
+      "characters": [],
+      "action": "A crystal-clear dimensional resonance chime reverberates across the city: *PINGGGGG!!*",
+      "mood": "cosmic reverberation",
+      "sfx": "PINGGGGG!!"
+    },
+    {
+      "id": "p13",
+      "shot": "royal amethyst transformation",
+      "setting": "university rooftop",
+      "characters": [],
+      "action": "The interface UI shifts from cold obsidian into radiant royal purple and polished gold filigree.",
+      "mood": "coronation of authority",
+      "dialogue": [
+        {"type": "system", "text": "[CONTRACT CONFIRMED: MASTER-VESSEL LINK ESTABLISHED]", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "blood crest burn macro",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "An intricate demonic royal crest (two crossed black wings behind a violet crown) burns into the skin of Ha-Jun's right hand.",
+      "mood": "mystic branding",
+      "sfx": "FZZZZZT!!"
+    },
+    {
+      "id": "p15",
+      "shot": "kuro triumphant scream",
+      "setting": "university rooftop",
+      "characters": ["kuro"],
+      "action": "Kuro spreads his dark wings to their fullest span, screeching with ancient demonic ecstasy into the thunderstorm.",
+      "mood": "triumphant celebration",
+      "dialogue": [
+        {"type": "speech", "speaker": "kuro", "text": "ABYSS KE SULTAN KI PEHLI SEAL TOOT GAYI!!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "cascading rewards windows",
+      "setting": "university rooftop",
+      "characters": [],
+      "action": "A cascade of violet notification windows pops into view: [REWARD 1: BLOODLINE REGENERATION RANK F UNLOCKED].",
+      "mood": "rpg quest rewards",
+      "dialogue": [
+        {"type": "system", "text": "[UNLOCKED: BLOODLINE REGENERATION (F)]", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "sensory perception reward",
+      "setting": "university rooftop",
+      "characters": [],
+      "action": "Next window: [REWARD 2: DEMONIC PERCEPTION RANK F UNLOCKED - MANA CURRENT SIGHT ENABLED].",
+      "mood": "supernatural perception unlocked",
+      "dialogue": [
+        {"type": "system", "text": "[UNLOCKED: DEMONIC MANA PERCEPTION (F)]", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "primary quest assignment",
+      "setting": "university rooftop",
+      "characters": [],
+      "action": "Primary Quest pop-up: [MAIN QUEST: SURVIVE THE COMING SIEGE OF SAINT MIRREN].",
+      "mood": "impending doom quest",
+      "dialogue": [
+        {"type": "system", "text": "[MAIN QUEST: SURVIVE THE COMING SIEGE]", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "mana vision shift world",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "Ha-Jun's vision shifts into infrared-violet: He can see the glowing mana pulses traveling through the campus electrical grid and ground.",
+      "mood": "expanded consciousness",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Duniya... achanak aisi kyun dikh rahi hai?", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "door handle vibration alert",
+      "setting": "rooftop staircase door",
+      "characters": [],
+      "action": "Through his new perception, Ha-Jun detects a warm human life signature climbing the staircase toward the rooftop access door.",
+      "mood": "surprise visitor alert",
+      "sfx": "THUMP... THUMP..."
+    },
+    {
+      "id": "p21",
+      "shot": "sharp defensive turn",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "Ha-Jun turns swiftly toward the heavy steel rooftop door: 'Koi upar aa raha hai...!'",
+      "mood": "tense alertness",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Koi upar aa raha hai...!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "kuro urgent concealment command",
+      "setting": "university rooftop",
+      "characters": ["kuro"],
+      "action": "Kuro: 'Mark chupao! Insaano ko Sovereign ka nishaan nahi dikhna chahiye!'",
+      "mood": "concealment panic",
+      "dialogue": [
+        {"type": "speech", "speaker": "kuro", "text": "Mark chupao! Turant!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "crest vanishing into skin",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "With a conscious mental command, the glowing crest fades seamlessly beneath Ha-Jun's pale skin, looking completely normal.",
+      "mood": "seamless stealth",
+      "sfx": "SHHH..."
+    },
+    {
+      "id": "p24",
+      "shot": "kuro blending into shadow",
+      "setting": "university rooftop",
+      "characters": ["kuro"],
+      "action": "Kuro's physical form dissolves into a subtle crow silhouette inside Ha-Jun's elongated shadow on the wet ground.",
+      "mood": "shadow familiar integration",
+      "sfx": "SWISH..."
+    },
+    {
+      "id": "p25",
+      "shot": "rusty door creak wide",
+      "setting": "rooftop access doorway",
+      "characters": [],
+      "action": "The rusted industrial door pushes open with a loud metallic squeal against the rain.",
+      "mood": "everyday mundanity breaks the supernatural",
+      "sfx": "CREEEAAAK..."
+    },
+    {
+      "id": "p26",
+      "shot": "min-jae reveal in rain",
+      "setting": "rooftop access doorway",
+      "characters": ["min_jae"],
+      "action": "Standing in the doorway is Min-Jae (17yo student, round glasses, bright yellow umbrella, dripping school uniform).",
+      "mood": "ordinary friend arrives",
+      "dialogue": [
+        {"type": "speech", "speaker": "min_jae", "text": "Ha-Jun? Tum yahan kya kar rahe ho?", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "min-jae walking out concern",
+      "setting": "university rooftop",
+      "characters": ["min_jae"],
+      "action": "Min-Jae steps out with his umbrella: 'Class khatam huye aadha ghanta ho gaya. Maine socha tum ghar chale gaye...'",
+      "mood": "innocent concern",
+      "dialogue": [
+        {"type": "speech", "speaker": "min_jae", "text": "Sab tumhe dhoond rahe the...", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "min-jae shock at devastation",
+      "setting": "university rooftop",
+      "characters": ["min_jae"],
+      "action": "Min-Jae suddenly freezes; his gaze drops to the severed steel railings and the massive scorched impact crater in the concrete.",
+      "mood": "utter shock",
+      "dialogue": [
+        {"type": "speech", "speaker": "min_jae", "text": "Y-Yeh chhat ko kya hua...?!", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "trembling glasses reflection",
+      "setting": "university rooftop",
+      "characters": ["min_jae"],
+      "action": "Min-Jae's umbrella tilts, glasses reflecting the ruined rooftop: 'Kya... un bullies ne yeh sab kiya hai?!'",
+      "mood": "misguided terror",
+      "dialogue": [
+        {"type": "speech", "speaker": "min_jae", "text": "Kya un ladko ne tumhe maarne ke liye dynamite use kiya?!", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "chilling shadow reflection cliffhanger",
+      "setting": "university rooftop",
+      "characters": ["hajun", "min_jae"],
+      "action": "Ha-Jun turns around with completely calm, flawless skin and a tranquil smile: 'Nahi Min-Jae... sirf aam toofan tha.' (Cliffhanger: In the wet puddle behind him, Ha-Jun's reflection casts colossal demonic wings).",
+      "mood": "secret sovereign, chilling cliffhanger",
+      "dialogue": [
+        {"type": "speech", "speaker": "hajun", "text": "Sirf aam toofan tha, Min-Jae. Chalo ghar chalte hain.", "at": [0.50, 0.10]}
+      ]
+    }
+  ]
+}

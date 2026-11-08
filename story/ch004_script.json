@@ -1,0 +1,598 @@
+{
+  "chapter": 4,
+  "title": "The Drifting Feather",
+  "arc": 1,
+  "arc_title": "THE CURSED FEATHER",
+  "total_panels": 30,
+  "panels": [
+    {
+      "panel_number": 1,
+      "id": "p01",
+      "shot": "wide establishing shot, high angle",
+      "action": "Saint Mirren International University rooftop terrace in heavy torrential rainstorm, dark ominous storm clouds with distant lightning flashes over modern glass skyscrapers",
+      "mood": "gloomy, heavy rain, dramatic dark sky",
+      "empty_space": "empty sky at top",
+      "bubbles": [
+        {
+          "type": "system",
+          "text": "DUNIYA KE IS SABSE BADE ACADEMY MEIN...",
+          "at": [
+            0.5,
+            0.08
+          ],
+          "gutter": "never",
+          "size": 0.8
+        }
+      ]
+    },
+    {
+      "panel_number": 2,
+      "id": "p02",
+      "shot": "cinematic close-up, ground angle",
+      "action": "Rainwater puddle reflecting Ha-Jun's battered face. A drop of fresh crimson blood falls from his split lip, creating circular ripples in the dark reflective water",
+      "mood": "melancholic, painful",
+      "empty_space": "left dark reflection",
+      "bubbles": [
+        {
+          "type": "system",
+          "text": "SIRF TAQATWAR LOG HI SURVIVE KAR SAKTE HAIN.",
+          "at": [
+            0.35,
+            0.12
+          ],
+          "gutter": "never",
+          "size": 0.8
+        }
+      ]
+    },
+    {
+      "panel_number": 3,
+      "id": "p03",
+      "shot": "low-angle medium close-up",
+      "action": "Ha-Jun Kang slumps his drenched back against the wet concrete parapet, head bowed, rain dripping from his black fringe, chest heaving",
+      "mood": "exhausted, defeated, breathless",
+      "empty_space": "upper stormy sky",
+      "bubbles": [
+        {
+          "type": "whisper",
+          "text": "...HAAH... HAAH...",
+          "at": [
+            0.65,
+            0.25
+          ],
+          "gutter": "never",
+          "size": 0.8
+        }
+      ]
+    },
+    {
+      "panel_number": 4,
+      "id": "p04",
+      "shot": "macro close-up",
+      "action": "Ha-Jun's right hand clutching his bruised ribs through his soaked navy school blazer. Scraped knuckles bleeding, fabric drenched",
+      "mood": "painful, visceral",
+      "empty_space": "upper concrete wall",
+      "bubbles": [
+        {
+          "type": "thought",
+          "text": "HAR ROZ... YAHI KHEL CHALTA HAI.",
+          "at": [
+            0.35,
+            0.2
+          ],
+          "gutter": "never",
+          "size": 0.8
+        }
+      ]
+    },
+    {
+      "panel_number": 5,
+      "id": "p05",
+      "shot": "medium shot, eye-level",
+      "action": "Ha-Jun slowly lifts his bruised chin, eyes staring blankly at the stormy sky above, raindrops splashing across his cheeks",
+      "mood": "hollow, numb, resilient",
+      "empty_space": "upper left sky",
+      "bubbles": [
+        {
+          "type": "thought",
+          "text": "MERI GALTI KYA THI...?",
+          "at": [
+            0.25,
+            0.15
+          ],
+          "gutter": "never",
+          "size": 0.8
+        }
+      ]
+    },
+    {
+      "panel_number": 6,
+      "id": "p06",
+      "shot": "medium shot, tracking angle",
+      "action": "Ha-Jun glances toward the metal terrace railing where the demonic bird Kuro had perched moments ago",
+      "mood": "curious, bewildered",
+      "empty_space": "upper right railing",
+      "bubbles": [
+        {
+          "type": "thought",
+          "text": "WO PARINDA...",
+          "at": [
+            0.7,
+            0.2
+          ],
+          "gutter": "never",
+          "size": 0.8
+        }
+      ]
+    },
+    {
+      "panel_number": 7,
+      "id": "p07",
+      "shot": "close-up on metal railing",
+      "action": "The rusted wet metal railing where Kuro sat. Faint wisps of purple smoke and neon violet sparks dissipate into the pouring rain",
+      "mood": "mysterious, supernatural",
+      "empty_space": "empty stormy backdrop",
+      "bubbles": [
+        {
+          "type": "speech",
+          "text": "KAHAN GAYAB HO GAYA?",
+          "at": [
+            0.35,
+            0.25
+          ],
+          "gutter": "never",
+          "size": 0.8
+        }
+      ]
+    },
+    {
+      "panel_number": 8,
+      "id": "p08",
+      "shot": "wide low-angle shot",
+      "action": "Ha-Jun sitting alone on the vast empty concrete rooftop terrace in torrential rain, looking around in bewilderment",
+      "mood": "isolated, cold, vast",
+      "empty_space": "upper sky",
+      "bubbles": [
+        {
+          "type": "thought",
+          "text": "WO KOI AAM PARINDA TOH NAHI THA...",
+          "at": [
+            0.5,
+            0.1
+          ],
+          "gutter": "never",
+          "size": 0.8
+        }
+      ]
+    },
+    {
+      "panel_number": 9,
+      "id": "p09",
+      "shot": "close-up of Ha-Jun's eyes",
+      "action": "Ha-Jun's tired dark brown eyes suddenly widen in surprise as a strange light catches his peripheral vision",
+      "mood": "shocked, alert",
+      "empty_space": "upper left corner",
+      "bubbles": [
+        {
+          "type": "whisper",
+          "text": "...HUH?",
+          "at": [
+            0.2,
+            0.18
+          ],
+          "gutter": "never",
+          "size": 0.8
+        }
+      ]
+    },
+    {
+      "panel_number": 10,
+      "id": "p10",
+      "shot": "top-down dutch angle",
+      "action": "A solitary obsidian-black demonic feather rests on the dark rain-slicked concrete floor, radiating a soft hypnotic violet-magenta magical glow",
+      "mood": "mystical, enchanting, eerie",
+      "empty_space": "upper wet concrete",
+      "bubbles": [
+        {
+          "type": "thought",
+          "text": "YEH... YEH KYA HAI?",
+          "at": [
+            0.5,
+            0.12
+          ],
+          "gutter": "never",
+          "size": 0.8
+        }
+      ]
+    },
+    {
+      "panel_number": 11,
+      "id": "p11",
+      "shot": "medium-wide crawling shot",
+      "action": "Ha-Jun pushes himself off the wet wall, crawling forward on hands and knees through rain puddles toward the glowing feather",
+      "mood": "desperate, intrigued",
+      "empty_space": "upper stormy background",
+      "bubbles": [
+        {
+          "type": "thought",
+          "text": "USKI EK PANKH... YAHAN CHHOOT GAYI HAI.",
+          "at": [
+            0.45,
+            0.15
+          ],
+          "gutter": "never",
+          "size": 0.8
+        }
+      ]
+    },
+    {
+      "panel_number": 12,
+      "id": "p12",
+      "shot": "close-up on hands and knees",
+      "action": "Ha-Jun's scuffed sneakers and trembling hands splashing in dark rainwater ripples as he inches closer",
+      "mood": "tense, suspenseful",
+      "empty_space": "upper concrete",
+      "bubbles": [
+        {
+          "type": "sfx",
+          "text": "SPLASH...",
+          "at": [
+            0.3,
+            0.4
+          ],
+          "gutter": "never",
+          "size": 0.8
+        }
+      ]
+    },
+    {
+      "panel_number": 13,
+      "id": "p13",
+      "shot": "cinematic macro shot",
+      "action": "Extreme close-up of the demonic feather. Obsidian black plumage with deep purple iridescent sheen. Raindrops touching the feather instantly sizzle into tiny wisps of steam",
+      "mood": "magical, uncanny",
+      "empty_space": "upper dark floor",
+      "bubbles": [
+        {
+          "type": "sfx",
+          "text": "VZZZ...",
+          "at": [
+            0.75,
+            0.2
+          ],
+          "gutter": "never",
+          "size": 0.8
+        }
+      ]
+    },
+    {
+      "panel_number": 14,
+      "id": "p14",
+      "shot": "high-angle close-up",
+      "action": "Ha-Jun kneeling in front of the feather, water streaming down his face, mesmerized by the glowing violet light",
+      "mood": "hypnotized, breathless",
+      "empty_space": "upper left sky",
+      "bubbles": [
+        {
+          "type": "thought",
+          "text": "ITNI THANDI MEIN BHI...",
+          "at": [
+            0.25,
+            0.15
+          ],
+          "gutter": "never",
+          "size": 0.8
+        }
+      ]
+    },
+    {
+      "panel_number": 15,
+      "id": "p15",
+      "shot": "close-up on chest and collar",
+      "action": "Ha-Jun's heartbeat pounding against his soaked white shirt under his loosened navy tie",
+      "mood": "anxious, anticipation",
+      "empty_space": "upper right",
+      "bubbles": [
+        {
+          "type": "thought",
+          "text": "ISME SE EK AJEEB SI GARMAHAT AA RAHI HAI.",
+          "at": [
+            0.65,
+            0.18
+          ],
+          "gutter": "never",
+          "size": 0.8
+        }
+      ]
+    },
+    {
+      "panel_number": 16,
+      "id": "p16",
+      "shot": "extreme close-up on hand",
+      "action": "Ha-Jun's slender, trembling right hand hovering just 2 inches above the glowing obsidian feather on the wet floor. Complete silence",
+      "mood": "intense suspense, hesitation",
+      "empty_space": "upper space",
+      "bubbles": []
+    },
+    {
+      "panel_number": 17,
+      "id": "p17",
+      "shot": "macro contact shot",
+      "action": "Ha-Jun's bruised index finger makes physical contact with the soft quill of the feather",
+      "mood": "crucial turning point",
+      "empty_space": "upper ground",
+      "bubbles": [
+        {
+          "type": "sfx",
+          "text": "TOUCH.",
+          "at": [
+            0.5,
+            0.25
+          ],
+          "gutter": "never",
+          "size": 0.8
+        }
+      ]
+    },
+    {
+      "panel_number": 18,
+      "id": "p18",
+      "shot": "dramatic shockwave shot",
+      "action": "A subtle ring of glowing violet mana ripples outward through the rain on the concrete floor from the point of contact",
+      "mood": "supernatural shockwave",
+      "empty_space": "upper left",
+      "bubbles": [
+        {
+          "type": "sfx",
+          "text": "SHVRRR...!!",
+          "at": [
+            0.2,
+            0.2
+          ],
+          "gutter": "never",
+          "size": 0.8
+        }
+      ]
+    },
+    {
+      "panel_number": 19,
+      "id": "p19",
+      "shot": "medium close-up, low angle",
+      "action": "Ha-Jun flinches backward slightly, his pupils contracting in shock as an electric sensation travels up his fingertips",
+      "mood": "startled, electrified",
+      "empty_space": "upper right sky",
+      "bubbles": [
+        {
+          "type": "thought",
+          "text": "YEH... YEH KYUN HUA?!",
+          "at": [
+            0.7,
+            0.15
+          ],
+          "gutter": "never",
+          "size": 0.8
+        }
+      ]
+    },
+    {
+      "panel_number": 20,
+      "id": "p20",
+      "shot": "medium shot, hand holding feather",
+      "action": "Ha-Jun carefully lifts the glowing feather into his palm, holding it close to his chest. The purple glow softly illuminates his bruised face",
+      "mood": "mysterious, atmospheric",
+      "empty_space": "upper sky",
+      "bubbles": [
+        {
+          "type": "thought",
+          "text": "JAISE YE MUJHE PEHLE SE JAANTI HO...",
+          "at": [
+            0.4,
+            0.12
+          ],
+          "gutter": "never",
+          "size": 0.8
+        }
+      ]
+    },
+    {
+      "panel_number": 21,
+      "id": "p21",
+      "shot": "high-angle vertical portrait",
+      "action": "Heavy rain pouring down on Ha-Jun as he stares at the feather in his cupped hand, dark wet hair plastered across his forehead",
+      "mood": "introspective, melancholic",
+      "empty_space": "upper dark rain",
+      "bubbles": [
+        {
+          "type": "thought",
+          "text": "EK AJEEB SA APNAPANN...",
+          "at": [
+            0.5,
+            0.1
+          ],
+          "gutter": "never",
+          "size": 0.8
+        }
+      ]
+    },
+    {
+      "panel_number": 22,
+      "id": "p22",
+      "shot": "flashback vignette frame (sepia/desaturated)",
+      "action": "Silhouette memory: 5 years ago in pouring rain, Ha-Jun's elder brother holding his little hand, smiling gently under an umbrella",
+      "mood": "nostalgic, emotional, heartbreaking",
+      "empty_space": "top center",
+      "bubbles": [
+        {
+          "type": "system",
+          "text": "\"HA-JUN, JAB TAK MAIN HOON... TUJHE DARNE KI ZAROORAT NAHI.\"",
+          "at": [
+            0.5,
+            0.1
+          ],
+          "gutter": "never",
+          "size": 0.8
+        }
+      ]
+    },
+    {
+      "panel_number": 23,
+      "id": "p23",
+      "shot": "close-up of Ha-Jun's sorrowful face",
+      "action": "Back to reality: Ha-Jun's face contorts in overwhelming grief. Tears mix with rain, spilling down his bruised cheeks",
+      "mood": "heartbreaking grief, guilt",
+      "empty_space": "upper left",
+      "bubbles": [
+        {
+          "type": "thought",
+          "text": "LEKIN BHAIYA...",
+          "at": [
+            0.25,
+            0.15
+          ],
+          "gutter": "never",
+          "size": 0.8
+        }
+      ]
+    },
+    {
+      "panel_number": 24,
+      "id": "p24",
+      "shot": "medium close-up, crying posture",
+      "action": "Ha-Jun curls forward, his left hand clutched tightly over his collarbone and throat in choked sobs, holding the feather tightly in his other hand",
+      "mood": "raw agony, crying",
+      "empty_space": "upper sky",
+      "bubbles": [
+        {
+          "type": "thought",
+          "text": "MAIN AAPKO NAHI BACHA PAAYA...!",
+          "at": [
+            0.6,
+            0.15
+          ],
+          "gutter": "never",
+          "size": 0.8
+        }
+      ]
+    },
+    {
+      "panel_number": 25,
+      "id": "p25",
+      "shot": "tight close-up on clutched fist",
+      "action": "In rising anguish and self-hatred, Ha-Jun clenches his fist tightly over the demonic feather, shaking with suppressed rage",
+      "mood": "furious despair, self-blame",
+      "empty_space": "upper concrete",
+      "bubbles": [
+        {
+          "type": "thought",
+          "text": "MAIN ITNA KAMZOR KYUN HOON...?!",
+          "at": [
+            0.45,
+            0.2
+          ],
+          "gutter": "never",
+          "size": 0.8
+        }
+      ]
+    },
+    {
+      "panel_number": 26,
+      "id": "p26",
+      "shot": "macro shot of knuckle cut",
+      "action": "The sharp obsidian quill of the feather digs into Ha-Jun's scraped knuckle. A crimson drop of his blood wells up and touches the black plume",
+      "mood": "catalyst, critical moment",
+      "empty_space": "upper center",
+      "bubbles": [
+        {
+          "type": "sfx",
+          "text": "DRIP.",
+          "at": [
+            0.5,
+            0.25
+          ],
+          "gutter": "never",
+          "size": 0.8
+        }
+      ]
+    },
+    {
+      "panel_number": 27,
+      "id": "p27",
+      "shot": "extreme macro absorption shot",
+      "action": "The drop of blood does not roll off\u2014it is violently absorbed by the feather! The obsidian plume turns glowing crimson-violet like burning magma",
+      "mood": "terrifying awakening",
+      "empty_space": "upper left",
+      "bubbles": [
+        {
+          "type": "sfx",
+          "text": "TZRRR...!!",
+          "at": [
+            0.25,
+            0.2
+          ],
+          "gutter": "never",
+          "size": 0.8
+        }
+      ]
+    },
+    {
+      "panel_number": 28,
+      "id": "p28",
+      "shot": "low-angle explosive burst",
+      "action": "Blinding radiant violet mana and purple flame sparks burst outward from his clenched fist! Raindrops are blasted backward in a circular halo",
+      "mood": "explosive awakening, mana shockwave",
+      "empty_space": "upper sky",
+      "bubbles": [
+        {
+          "type": "sfx",
+          "text": "KRRSHHH...!!",
+          "at": [
+            0.8,
+            0.2
+          ],
+          "gutter": "never",
+          "size": 0.8
+        }
+      ]
+    },
+    {
+      "panel_number": 29,
+      "id": "p29",
+      "shot": "medium shot, supernatural aura",
+      "action": "Dark purple lightning arcs dance across Ha-Jun's forearm. His bruised cheek and split lip begin emitting white healing steam as wounds vanish",
+      "mood": "supernatural healing, power surge",
+      "empty_space": "upper left",
+      "bubbles": [
+        {
+          "type": "system",
+          "text": "AUR DEMON SOVEREIGN KA JAADU... USKI RAGON MEIN BEHNE LAGA.",
+          "at": [
+            0.35,
+            0.1
+          ],
+          "gutter": "never",
+          "size": 0.8
+        }
+      ]
+    },
+    {
+      "panel_number": 30,
+      "id": "p30",
+      "shot": "grand cliffhanger portrait",
+      "action": "Low-angle medium close-up: Ha-Jun's eyes snap open, burning with sharp crimson-violet demonic sovereign light. A glowing holographic interface appears: [SOVEREIGN BLOODLINE AWAKENED - 0.1%]",
+      "mood": "epic cliffhanger, sovereign awakening",
+      "empty_space": "upper right",
+      "bubbles": [
+        {
+          "type": "system",
+          "text": "\"SYSTEM: WELCOME, TRUE SOVEREIGN.\"",
+          "at": [
+            0.65,
+            0.15
+          ],
+          "gutter": "never",
+          "size": 0.8
+        }
+      ]
+    }
+  ]
+}

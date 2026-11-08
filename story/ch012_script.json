@@ -1,0 +1,304 @@
+{
+  "chapter": 12,
+  "title": "Instinct of Survival",
+  "arc": 1,
+  "arc_title": "THE CURSED FEATHER",
+  "summary": "Untrained and facing a 15-foot Greater Shadow Hound, Ha-Jun relies purely on sovereign survival instincts. Using the Sovereign Domain to slow the beast and awakening the Sovereign Blood Claws, he splits the monster's Void Cannon and obliterates it to protect the university.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "crushing weight struggle close-up",
+      "setting": "central courtyard",
+      "characters": ["hajun", "shadow_hound"],
+      "action": "The Greater Shadow Hound bears its massive weight down onto Ha-Jun's gauntlet; cobblestones crumble beneath his boots.",
+      "mood": "crushing physical strain",
+      "sfx": "GRRRRRR-KRRSH!!"
+    },
+    {
+      "id": "p02",
+      "shot": "boots digging trenches",
+      "setting": "central courtyard",
+      "characters": ["hajun"],
+      "action": "Ha-Jun's sneakers dig deep trenches into the stone plaza, friction sparks flying as he grits his teeth in defiance.",
+      "mood": "bracing against an avalanche",
+      "sfx": "SKRRRRK!!"
+    },
+    {
+      "id": "p03",
+      "shot": "kuro tactical shout",
+      "setting": "inner mindscape",
+      "characters": ["kuro"],
+      "action": "Kuro's telepathic shout echoes: 'Ladke! Tum koi pehelwan nahi ho! Domain ka istemal karo aur daayre ko dhabao!'",
+      "mood": "tactical awakening",
+      "dialogue": [
+        {"type": "speech", "speaker": "kuro", "text": "Domain use karo! Uske wazan se lado mat!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "domain trigger eye flare",
+      "setting": "central courtyard",
+      "characters": ["hajun"],
+      "action": "Ha-Jun's eyes flash with electric violet light: 'Domain... ACTIVATE!'",
+      "mood": "spell activation",
+      "dialogue": [
+        {"type": "shout", "speaker": "hajun", "text": "DOMAIN... EXPAND!!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "violet sphere expansion wide",
+      "setting": "central courtyard",
+      "characters": ["hajun", "shadow_hound"],
+      "action": "A 5-meter transparent violet sphere expands instantly from Ha-Jun's core, swallowing the hound's front legs and maw.",
+      "mood": "territory subjugation",
+      "sfx": "WHUUMMMM!!"
+    },
+    {
+      "id": "p06",
+      "shot": "slow-motion beast paralysis",
+      "setting": "central courtyard",
+      "characters": ["shadow_hound"],
+      "action": "Inside the domain, the beast's movements slow to a crawl, trapped in dense sovereign gravity like insects in amber.",
+      "mood": "absolute spatial control",
+      "dialogue": [
+        {"type": "thought", "speaker": "shadow_hound", "text": "Y-Yeh hawa itni bhaari kyun ho gayi...?!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "sidestep evasion",
+      "setting": "central courtyard",
+      "characters": ["hajun"],
+      "action": "Ha-Jun smoothly slips to the left, slipping out from under the beast's downward trajectory with effortless grace.",
+      "mood": "flawless agility",
+      "sfx": "SWISH..."
+    },
+    {
+      "id": "p08",
+      "shot": "cratered empty impact",
+      "setting": "central courtyard",
+      "characters": ["shadow_hound"],
+      "action": "The beast's massive claw slams into empty cobblestones, blasting an empty crater into the pavement.",
+      "mood": "wasted strike",
+      "sfx": "KRAAASH!!"
+    },
+    {
+      "id": "p09",
+      "shot": "circling flank sprint",
+      "setting": "central courtyard",
+      "characters": ["hajun"],
+      "action": "Ha-Jun sprints around to the monster's exposed rib flank, his gauntlet humming with jagged violet lightning arcs.",
+      "mood": "counter-attack momentum",
+      "sfx": "VZZZZT!!"
+    },
+    {
+      "id": "p10",
+      "shot": "blood claws manifestation macro",
+      "setting": "central courtyard",
+      "characters": ["hajun"],
+      "action": "Ha-Jun's gauntlet fingers flex: Three 2-foot long razor-sharp violet mana blades ignite from his knuckles like energy claws.",
+      "mood": "lethal weapon reveal",
+      "sfx": "SHHHNNNGG!!"
+    },
+    {
+      "id": "p11",
+      "shot": "system skill unlocked pop-up",
+      "setting": "central courtyard",
+      "characters": [],
+      "action": "A floating violet system prompt: [SKILL AWAKENED: SOVEREIGN BLOOD CLAWS (RANK F)].",
+      "mood": "skill progression",
+      "dialogue": [
+        {"type": "system", "text": "[SKILL AWAKENED: SOVEREIGN BLOOD CLAWS (F)]", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "diagonal upward claw strike",
+      "setting": "central courtyard",
+      "characters": ["hajun", "shadow_hound"],
+      "action": "Ha-Jun slashes his blood claws diagonally upward into the beast's thick obsidian rib armor with all his strength.",
+      "mood": "vicious critical strike",
+      "sfx": "SHLLLRRRK!!"
+    },
+    {
+      "id": "p13",
+      "shot": "shattered bone armor spray",
+      "setting": "central courtyard",
+      "characters": ["shadow_hound"],
+      "action": "The violet claws slice through the hardened demonic armor like parchment, spraying black ichor and bone fragments into the rain.",
+      "mood": "lethal damage dealt",
+      "sfx": "CRACK-SPLASH!!"
+    },
+    {
+      "id": "p14",
+      "shot": "spiked tail whip counter",
+      "setting": "central courtyard",
+      "characters": ["shadow_hound"],
+      "action": "In berserk pain, the Shadow Hound whips its massive spiked tail horizontally like a battering ram.",
+      "mood": "unpredictable counter-strike",
+      "sfx": "WHUUUUSH!!"
+    },
+    {
+      "id": "p15",
+      "shot": "rib impact skid",
+      "setting": "central courtyard",
+      "characters": ["hajun"],
+      "action": "Ha-Jun blocks with his gauntlet, but the tail's concussive force catches his side, sending him skidding 20 feet across the plaza.",
+      "mood": "heavy blow taken",
+      "sfx": "THUDDD-SKRRR!!"
+    },
+    {
+      "id": "p16",
+      "shot": "rapid healing steam close-up",
+      "setting": "central courtyard",
+      "characters": ["hajun"],
+      "action": "Ha-Jun steadies his stance; white healing steam hisses from his ribs as fractured bone instantly knits back together.",
+      "mood": "godly resilience",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Regeneration... turant kaam kar raha hai!", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "void cannon charging maw",
+      "setting": "central courtyard",
+      "characters": ["shadow_hound"],
+      "action": "The beast unhinges its three-jawed maw: A spinning vortex of black and red gravitational void energy gathers in its throat.",
+      "mood": "ultimate apocalyptic charge",
+      "sfx": "VOOOOOMMM..."
+    },
+    {
+      "id": "p18",
+      "shot": "kuro urgent catastrophe warning",
+      "setting": "inner mindscape",
+      "characters": ["kuro"],
+      "action": "Kuro: 'DHAYAN SE! VOID CANNON HAI! Agar wo campus par gira, toh saikdo masoom maare jayenge!'",
+      "mood": "high-stakes catastrophe",
+      "dialogue": [
+        {"type": "speech", "speaker": "kuro", "text": "Roko use! Wo poori building ko uda dega!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "students watching from windows",
+      "setting": "university classroom windows",
+      "characters": [],
+      "action": "Behind classroom windows, dozens of terrified students and teachers watch in breathless prayer.",
+      "mood": "lives on the line",
+      "dialogue": [
+        {"type": "narration", "text": "In sabki jaan ab uske haathon mein thi.", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "unshakable resolve portrait",
+      "setting": "central courtyard",
+      "characters": ["hajun"],
+      "action": "Ha-Jun stands his ground, eyes burning like twin purple stars: 'Maine vaada kiya tha... main dubara nahi bhaagunga!'",
+      "mood": "heroic resolve",
+      "dialogue": [
+        {"type": "shout", "speaker": "hajun", "text": "MAIN KABHI PEECHE NAHI HATUNGA!!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "full gauntlet overload charge",
+      "setting": "central courtyard",
+      "characters": ["hajun"],
+      "action": "Ha-Jun draws his right arm back; crystalline spikes erupt along the gauntlet as swirling violet-magenta hellfire engulfs his entire frame.",
+      "mood": "maximum power limit break",
+      "sfx": "KZZZZZZZT!!"
+    },
+    {
+      "id": "p22",
+      "shot": "void cannon beam discharge",
+      "setting": "central courtyard",
+      "characters": ["shadow_hound"],
+      "action": "The beast unleashes the Void Cannon: A massive 10-foot beam of pitch-black destructive antimatter tears across the cobblestones.",
+      "mood": "apocalyptic beam attack",
+      "sfx": "DOOOOOOOOMMMMM!!"
+    },
+    {
+      "id": "p23",
+      "shot": "charging head-on into the beam",
+      "setting": "central courtyard",
+      "characters": ["hajun"],
+      "action": "Ha-Jun sprints directly into the path of the beam, fist cocked back, completely devoid of fear.",
+      "mood": "unstoppable bravery",
+      "dialogue": [
+        {"type": "shout", "speaker": "hajun", "text": "SOVEREIGN... CRUSH!!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "splitting the void beam in two",
+      "setting": "central courtyard",
+      "characters": ["hajun"],
+      "action": "Ha-Jun's crystalline gauntlet punches straight into the void beam, parting the black energy cleanly in two like Moses parting the sea.",
+      "mood": "godly dominance",
+      "sfx": "KRAAAA-SHIIIIK!!"
+    },
+    {
+      "id": "p25",
+      "shot": "shattering beast skull punch impact",
+      "setting": "central courtyard",
+      "characters": ["hajun", "shadow_hound"],
+      "action": "Ha-Jun's fist drives clean through the beast's armored forehead, detonating in a blinding flash of pure violet mana.",
+      "mood": "climax knockout blow",
+      "sfx": "KRAAA-BOOOOOOOMM!!"
+    },
+    {
+      "id": "p26",
+      "shot": "violet supernova explosion wide",
+      "setting": "central courtyard",
+      "characters": [],
+      "action": "A majestic dome of violet light engulfs the courtyard, blowing away storm clouds and revealing glimpses of blue sky.",
+      "mood": "cleansing brilliance",
+      "sfx": "WHUUUUMMM..."
+    },
+    {
+      "id": "p27",
+      "shot": "ash dissipation of greater hound",
+      "setting": "central courtyard",
+      "characters": ["shadow_hound"],
+      "action": "The 15-foot beast crumbles into glittering purple ash, drifting harmlessly onto the wet grass.",
+      "mood": "total eradication",
+      "sfx": "SHHHH..."
+    },
+    {
+      "id": "p28",
+      "shot": "greater core absorption macro",
+      "setting": "central courtyard",
+      "characters": ["hajun"],
+      "action": "A glowing fist-sized violet core hovers and fuses into Ha-Jun's hand: [SYNCHRONIZATION ADVANCED: 8.5%].",
+      "mood": "power accumulation",
+      "dialogue": [
+        {"type": "system", "text": "[TARGET ELIMINATED] [SYNCHRONIZATION: 8.5%]", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "min-jae stunned disbelief from ground",
+      "setting": "central courtyard",
+      "characters": ["min_jae"],
+      "action": "Min-Jae sits among the rubble, adjusting his glasses in total stupefaction: 'Ha-Jun... tum... tum aakhir kya ho...?'",
+      "mood": "friend learns the secret",
+      "dialogue": [
+        {"type": "speech", "speaker": "min_jae", "text": "Ha-Jun... tumne abhi... ek monster ko maar diya...?", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "steaming sovereign standing cliffhanger",
+      "setting": "central courtyard",
+      "characters": ["hajun"],
+      "action": "Ha-Jun stands in the smoking crater, his gauntlet dissolving into his arm as his eyes return to dark brown: 'Min-Jae... kisi ko mat batana.'",
+      "mood": "silent hero, ultimate cliffhanger",
+      "dialogue": [
+        {"type": "speech", "speaker": "hajun", "text": "Min-Jae... yeh baat hum dono ke beech rahegi.", "at": [0.50, 0.10]}
+      ]
+    }
+  ]
+}

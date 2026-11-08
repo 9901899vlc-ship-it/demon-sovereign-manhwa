@@ -3,28 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Demon Sovereign's Bloodline — Official 100-Chapter Webtoon Portal</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="./config.js"></script>
   <script src="./supabase-client.js"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Noto+Sans:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Noto+Sans:wght@400;500;600;700;800;900&family=Orbitron:wght@600;800;900&display=swap" rel="stylesheet">
   <style>
     :root {
-      --zoom: 1;
-      --pan-x: 0px;
+      --mana-purple: #a855f7;
+      --mana-dark: #090a0f;
     }
     * {
       -webkit-tap-highlight-color: transparent;
+      box-sizing: border-box;
     }
     html, body {
-      background-color: #0d0e12;
-      color: #111827;
+      background-color: #07080c;
+      color: #e2e8f0;
       font-family: 'Noto Sans', -apple-system, BlinkMacSystemFont, sans-serif;
       margin: 0;
       padding: 0;
       overflow-x: hidden;
       touch-action: pan-y;
     }
+    .font-cinzel { font-family: 'Cinzel', serif; }
+    .font-orbitron { font-family: 'Orbitron', sans-serif; }
+
+    /* Webtoon Strip Layout */
     .webtoon-viewport {
       width: 100%;
       overflow: hidden;
@@ -36,20 +42,11 @@
       width: 100%;
       max-width: 800px;
       margin: 0 auto;
-      background-color: #ffffff;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
-      border-left: 1px solid #1f242d;
-      border-right: 1px solid #1f242d;
-      transform-origin: 50% 0%;
-      will-change: transform;
-      user-select: none;
+      background-color: #0b0c10;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.9), 0 0 80px rgba(168, 85, 247, 0.08);
+      border-left: 1px solid #1a1c26;
+      border-right: 1px solid #1a1c26;
       position: relative;
-    }
-    .webtoon-strip.is-zoomed {
-      cursor: grab;
-    }
-    .webtoon-strip.is-dragging {
-      cursor: grabbing;
     }
     .webtoon-panel-img {
       display: block;
@@ -58,100 +55,130 @@
       margin: 0;
       padding: 0;
       border: none;
-      cursor: pointer;
-      pointer-events: auto;
-      transition: all 0.4s ease;
+      transition: filter 0.3s ease;
     }
-    .panel-active-audio {
-      outline: 3px solid #a855f7 !important;
-      box-shadow: 0 0 40px rgba(168, 85, 247, 0.8) !important;
-      position: relative;
-      z-index: 10;
+
+    /* Glow effects */
+    .sovereign-glow {
+      box-shadow: 0 0 25px rgba(168, 85, 247, 0.4);
     }
-    /* Smooth Scrollbar */
-    ::-webkit-scrollbar {
-      width: 4px;
+    .sovereign-border {
+      border: 1px solid rgba(168, 85, 247, 0.3);
     }
-    ::-webkit-scrollbar-track {
-      background: #0d0e12;
+    .sovereign-card {
+      background: linear-gradient(135deg, rgba(20, 22, 33, 0.9) 0%, rgba(13, 14, 22, 0.95) 100%);
+      border: 1px solid rgba(168, 85, 247, 0.2);
     }
-    ::-webkit-scrollbar-thumb {
-      background: #a855f7;
-      border-radius: 4px;
-    }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar { width: 5px; height: 5px; }
+    ::-webkit-scrollbar-track { background: #07080c; }
+    ::-webkit-scrollbar-thumb { background: #7e22ce; border-radius: 4px; }
   </style>
 </head>
-<body class="min-h-screen">
+<body class="min-h-screen flex flex-col selection:bg-purple-600 selection:text-white">
 
-  <!-- Top Scroll Progress Bar -->
-  <div id="progress-bar" class="fixed top-0 left-0 h-[3px] bg-gradient-to-r from-purple-500 via-rose-500 to-amber-400 z-50 transition-all duration-75" style="width: 0%;"></div>
+  <!-- Top Progress Bar -->
+  <div id="progress-bar" class="fixed top-0 left-0 h-[3px] bg-gradient-to-r from-purple-600 via-fuchsia-500 to-amber-400 z-50 transition-all duration-75" style="width: 0%;"></div>
 
-  <!-- Tappytoon Style Mobile Navigation Bar -->
-  <header class="sticky top-0 z-40 bg-black/90 backdrop-blur-md border-b border-zinc-800 text-white px-4 py-2.5 flex items-center justify-between shadow-lg">
+  <!-- Top Header Navigation -->
+  <header class="sticky top-0 z-40 bg-[#07080c]/90 backdrop-blur-md border-b border-purple-900/30 text-white px-3 sm:px-6 py-2.5 flex items-center justify-between shadow-xl">
     <div class="flex items-center gap-3">
-      <!-- Back / Menu Icon -->
-      <button class="p-1 hover:bg-zinc-800 rounded-lg transition-colors text-zinc-300">
-        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <!-- Chapter Selector Button -->
+      <button id="open-drawer-btn" class="flex items-center gap-2 bg-purple-950/70 hover:bg-purple-900 border border-purple-700/50 px-3 py-1.5 rounded-xl transition-all shadow-md group">
+        <svg class="w-4 h-4 text-purple-400 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M4 6h16M4 12h16M4 18h16"></path>
         </svg>
+        <span class="text-xs font-bold text-purple-300 font-orbitron" id="header-chapter-badge">CH. 1</span>
+        <svg class="w-3.5 h-3.5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M19 9l-7 7-7-7"></path>
+        </svg>
       </button>
+
       <div>
-        <div class="flex items-center gap-2">
-          <span class="text-xs font-black tracking-wider text-purple-400 uppercase">Chapter 1</span>
-          <span class="text-[10px] bg-purple-950 text-purple-300 border border-purple-700/60 px-1.5 py-0.2 rounded font-bold">NEW</span>
-        </div>
-        <h1 class="text-[11px] sm:text-xs text-zinc-400 font-medium truncate max-w-[200px] sm:max-w-xs">Demon Sovereign's Bloodline</h1>
+        <h1 class="text-xs sm:text-sm font-black font-cinzel tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-fuchsia-300 to-zinc-200">
+          DEMON SOVEREIGN'S BLOODLINE
+        </h1>
+        <p class="text-[10px] text-zinc-400 font-medium truncate max-w-[180px] sm:max-w-xs" id="header-chapter-title">
+          Episode 1: The Gathering Storm
+        </p>
       </div>
     </div>
 
     <!-- Right Quick Actions -->
     <div class="flex items-center gap-2">
-      <button class="text-xs bg-purple-600 hover:bg-purple-500 text-white font-bold px-3 py-1.5 rounded-full transition-all shadow-md shadow-purple-900/40">
-        Subscribe
-      </button>
-      <button class="p-1.5 hover:bg-zinc-800 text-zinc-300 rounded-full transition-colors">
-        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"></path>
-        </svg>
+      <!-- View Mode Selector -->
+      <div class="flex items-center bg-zinc-900 border border-zinc-800 rounded-lg p-0.5 text-xs">
+        <button id="btn-mode-strip" onclick="switchViewMode('strip')" class="px-2.5 py-1 rounded bg-purple-600 text-white font-bold transition-all">Strip</button>
+        <button id="btn-mode-grid" onclick="switchViewMode('grid')" class="px-2.5 py-1 rounded text-zinc-400 hover:text-white font-medium transition-all">Grid</button>
+        <button id="btn-mode-script" onclick="switchViewMode('script')" class="px-2.5 py-1 rounded text-zinc-400 hover:text-white font-medium transition-all">Script</button>
+      </div>
+
+      <!-- Relics Codex & Bible Toggle -->
+      <button onclick="toggleModal('codex-modal')" class="hidden sm:flex items-center gap-1.5 bg-zinc-900 hover:bg-zinc-800 border border-zinc-700/80 px-2.5 py-1.5 rounded-lg text-xs font-bold text-amber-400 transition-all">
+        <span>👑 Codex</span>
       </button>
     </div>
   </header>
 
-  <!-- PURE SEAMLESS WEBTOON STRIP (Tappytoon / Naver Webtoon Format) -->
-  <div class="webtoon-viewport" id="viewport-container">
-    <main class="webtoon-strip" id="webtoon-strip">
+  <!-- Navigation Tabs (Mobile & Desktop) -->
+  <nav class="bg-zinc-950/80 border-b border-zinc-800/80 px-3 py-1.5 flex items-center justify-center gap-2 sm:gap-6 text-xs font-bold text-zinc-400 overflow-x-auto">
+    <button onclick="switchTab('reader')" id="tab-btn-reader" class="text-purple-400 border-b-2 border-purple-500 pb-1 px-2 flex items-center gap-1.5">
+      <span>📖 Webtoon</span>
+    </button>
+    <button onclick="switchTab('bible')" id="tab-btn-bible" class="hover:text-zinc-200 pb-1 px-2 flex items-center gap-1.5">
+      <span>📜 100-Chapter Saga</span>
+    </button>
+    <button onclick="switchTab('relics')" id="tab-btn-relics" class="hover:text-zinc-200 pb-1 px-2 flex items-center gap-1.5">
+      <span>💎 10 Relics</span>
+    </button>
+    <button onclick="switchTab('characters')" id="tab-btn-characters" class="hover:text-zinc-200 pb-1 px-2 flex items-center gap-1.5">
+      <span>👥 Characters</span>
+    </button>
+    <button onclick="switchTab('production')" id="tab-btn-production" class="hover:text-zinc-200 pb-1 px-2 flex items-center gap-1.5 text-emerald-400">
+      <span>⚡ Live Status</span>
+    </button>
+  </nav>
 
-    <!-- PANEL 1: University Establishing Shot -->
-    <img id="panel-1" src="./panels/panel_01_final.png?v=6.3" alt="Chapter 1 - Saint Mirren International University" class="webtoon-panel-img transition-all duration-500" decoding="async">
+  <!-- ======================================================= -->
+  <!-- TAB 1: WEBTOON READER -->
+  <!-- ======================================================= -->
+  <section id="tab-view-reader" class="flex-1 flex flex-col items-center">
+    
+    <!-- SUB-VIEW A: FULL STRIP SCROLL -->
+    <div class="webtoon-viewport" id="strip-container">
+      <main class="webtoon-strip" id="webtoon-strip">
+        <!-- Panels injected dynamically via JavaScript -->
+      </main>
+    </div>
 
-    <!-- PANEL 2: Dark Reality & Statistics -->
-    <img id="panel-2" src="./panels/panel_02_final.png?v=6.3" alt="Chapter 1 - Dark Reality and Statistics" class="webtoon-panel-img transition-all duration-500" decoding="async">
+    <!-- SUB-VIEW B: GRID OVERVIEW -->
+    <div id="grid-container" class="hidden w-full max-w-4xl p-4 sm:p-6">
+      <div id="grid-panel-wrapper" class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+        <!-- Grid items injected dynamically -->
+      </div>
+    </div>
 
-    <!-- PANEL 3: Rooftop Beating -->
-    <img id="panel-3" src="./panels/panel_03_final.png?v=6.3" alt="Chapter 1 - The Rooftop Beating" class="webtoon-panel-img transition-all duration-500" decoding="async">
+    <!-- SUB-VIEW C: 30-PANEL SCRIPT & DIALOGUE READER -->
+    <div id="script-container" class="hidden w-full max-w-3xl p-4 sm:p-6 space-y-4">
+      <div id="script-panel-wrapper" class="space-y-4">
+        <!-- Screenplay cards injected dynamically -->
+      </div>
+    </div>
 
-    <!-- PANEL 4: Kuro on the Railing -->
-    <img id="panel-4" src="./panels/panel_04_final.png?v=6.3" alt="Chapter 1 - Eyes in the Sky" class="webtoon-panel-img transition-all duration-500" decoding="async">
-
-    <!-- PANEL 5: Kuro's Hex of Weakness -->
-    <img id="panel-5" src="./panels/panel_05_final.png?v=6.3" alt="Chapter 1 - The Hex of Weakness" class="webtoon-panel-img transition-all duration-500" decoding="async">
-
-    <!-- PANEL 6: Bullies Retreat -->
-    <img id="panel-6" src="./panels/panel_06_final.png?v=6.3" alt="Chapter 1 - The Bullies Retreat" class="webtoon-panel-img transition-all duration-500" decoding="async">
-
-    <!-- PANEL 7: Grand Eye-Contact Cliffhanger -->
-    <img id="panel-7" src="./panels/panel_07_final.png?v=6.3" alt="Chapter 1 - Grand Climax Cliffhanger" class="webtoon-panel-img transition-all duration-500" decoding="async">
-
-    <!-- WEBTOON CHAPTER END ENGAGEMENT BAR (Tappytoon Style) -->
-    <div class="bg-zinc-950 text-white p-6 sm:p-8 border-t border-zinc-800">
-      
-      <!-- Creator & Production Notes -->
+    <!-- Chapter Engagement & Navigation Footer -->
+    <div class="w-full max-w-[800px] bg-zinc-950 text-white p-6 sm:p-8 border-t border-zinc-800 mt-6 shadow-2xl">
+      <!-- Title & Credits -->
       <div class="text-center pb-6 border-b border-zinc-800/80">
-        <h3 class="text-sm font-bold text-zinc-300">DEMON SOVEREIGN'S BLOODLINE</h3>
-        <p class="text-xs text-zinc-500 mt-1">Original Story & Art Direction • Powered by REDICE Studio Standards</p>
+        <h3 class="text-base font-cinzel font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-amber-300">
+          DEMON SOVEREIGN'S BLOODLINE
+        </h3>
+        <p class="text-xs text-zinc-400 mt-1" id="footer-chapter-desc">
+          Chapter Production by Antigravity Manhwa Studio • Redice Studio 2D Cel-Shaded Standards
+        </p>
       </div>
 
-      <!-- Interactive Like & Share Bar -->
+      <!-- Realtime Likes & Comments -->
       <div class="flex items-center justify-around py-6 border-b border-zinc-800/80">
         <button id="like-btn" class="flex flex-col items-center gap-1.5 group cursor-pointer transition-transform active:scale-95">
           <div class="w-12 h-12 rounded-full bg-zinc-900 border border-zinc-700 flex items-center justify-center group-hover:border-rose-500 group-hover:bg-rose-950/30 transition-all">
@@ -159,7 +186,7 @@
               <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
             </svg>
           </div>
-          <span id="like-count" class="text-xs font-bold text-zinc-400 group-hover:text-rose-400">1M</span>
+          <span id="like-count" class="text-xs font-bold text-zinc-400 group-hover:text-rose-400">1.2M</span>
         </button>
 
         <button id="comment-btn" class="flex flex-col items-center gap-1.5 group cursor-pointer transition-transform active:scale-95">
@@ -168,53 +195,215 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
             </svg>
           </div>
-          <span id="comment-count" class="text-xs font-bold text-zinc-400 group-hover:text-purple-400">200K</span>
+          <span id="comment-count" class="text-xs font-bold text-zinc-400 group-hover:text-purple-400">250K</span>
         </button>
 
-        <button class="flex flex-col items-center gap-1.5 group cursor-pointer transition-transform active:scale-95">
+        <button onclick="shareChapter()" class="flex flex-col items-center gap-1.5 group cursor-pointer transition-transform active:scale-95">
           <div class="w-12 h-12 rounded-full bg-zinc-900 border border-zinc-700 flex items-center justify-center group-hover:border-amber-500 group-hover:bg-amber-950/30 transition-all">
             <svg class="w-5 h-5 text-zinc-400 group-hover:text-amber-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"/>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"></path>
             </svg>
           </div>
-          <span class="text-xs font-bold text-zinc-400 group-hover:text-amber-400">Save</span>
+          <span class="text-xs font-bold text-zinc-400 group-hover:text-amber-400">Share</span>
         </button>
       </div>
 
-      <!-- Chapter Navigation -->
+      <!-- Quick Chapter Jumper -->
       <div class="pt-6 flex flex-col gap-3">
-        <button class="w-full py-3.5 bg-gradient-to-r from-purple-600 via-rose-600 to-amber-500 hover:opacity-95 text-white font-black text-xs sm:text-sm tracking-widest uppercase rounded-xl shadow-lg transition-all flex items-center justify-center gap-2">
-          <span>Read Chapter 2 (Coming Soon)</span>
+        <button id="next-chapter-btn" onclick="nextChapter()" class="w-full py-3.5 bg-gradient-to-r from-purple-600 via-fuchsia-600 to-amber-500 hover:opacity-95 text-white font-black text-xs sm:text-sm tracking-widest uppercase rounded-xl shadow-lg transition-all flex items-center justify-center gap-2 font-orbitron">
+          <span>Read Next Chapter</span>
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
           </svg>
         </button>
 
-        <a href="#top" class="text-center text-xs text-zinc-500 hover:text-zinc-300 py-2 transition-colors">
+        <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="text-center text-xs text-zinc-500 hover:text-purple-400 py-2 transition-colors">
           ↑ Back to Top
-        </a>
+        </button>
       </div>
+    </div>
+  </section>
 
-      <!-- Copyright -->
-      <p class="text-[10px] text-zinc-600 text-center mt-6">
-        © 2026 Demon Sovereign's Bloodline. All Rights Reserved.
+  <!-- ======================================================= -->
+  <!-- TAB 2: 100-CHAPTER SAGA BIBLE -->
+  <!-- ======================================================= -->
+  <section id="tab-view-bible" class="hidden flex-1 w-full max-w-5xl mx-auto p-4 sm:p-8 space-y-8">
+    <div class="text-center space-y-2">
+      <span class="text-xs font-bold text-purple-400 font-orbitron tracking-widest uppercase">THE MASTER MANIFEST</span>
+      <h2 class="text-2xl sm:text-4xl font-black font-cinzel text-white">100-Chapter Mega Saga Directory</h2>
+      <p class="text-sm text-zinc-400 max-w-xl mx-auto">
+        10 Arcs • Minimum 30 Panels Per Chapter • 3,000 Panels Total
       </p>
-
     </div>
 
-  </main>
+    <!-- Arc Accordion / Cards List -->
+    <div id="arcs-list-container" class="space-y-4">
+      <!-- Populated dynamically with all 10 Arcs -->
+    </div>
+  </section>
+
+  <!-- ======================================================= -->
+  <!-- TAB 3: THE 10 RELICS & BLOODLINE CODEX -->
+  <!-- ======================================================= -->
+  <section id="tab-view-relics" class="hidden flex-1 w-full max-w-5xl mx-auto p-4 sm:p-8 space-y-8">
+    <div class="text-center space-y-2">
+      <span class="text-xs font-bold text-amber-400 font-orbitron tracking-widest uppercase">SOVEREIGN AUTHORITY</span>
+      <h2 class="text-2xl sm:text-4xl font-black font-cinzel text-white">The Ten Ancient Relics</h2>
+      <p class="text-sm text-zinc-400 max-w-xl mx-auto">
+        Sealed authorities of the First Demon Sovereign scattered across mortal and abyssal planes.
+      </p>
+    </div>
+
+    <!-- Synchronization Status Gauge -->
+    <div class="sovereign-card rounded-2xl p-5 sm:p-6 space-y-3">
+      <div class="flex items-center justify-between text-xs font-bold">
+        <span class="text-purple-300 font-orbitron">BLOODLINE SYNCHRONIZATION</span>
+        <span class="text-emerald-400 font-orbitron text-sm">10.0% (Awakening Reached)</span>
+      </div>
+      <div class="w-full bg-zinc-950 rounded-full h-3.5 border border-purple-900/40 overflow-hidden">
+        <div class="bg-gradient-to-r from-purple-600 via-fuchsia-500 to-emerald-400 h-full rounded-full transition-all duration-1000 shadow-lg shadow-purple-500/50" style="width: 10%;"></div>
+      </div>
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-2 text-[11px] text-zinc-400">
+        <div>• 10% Awakening (Gauntlet & Eyes)</div>
+        <div>• 30% Blood Relics & Blades</div>
+        <div>• 60% Sovereign Dominion</div>
+        <div>• 100% True Demon Sovereign</div>
+      </div>
+    </div>
+
+    <!-- 10 Relics Grid -->
+    <div id="relics-grid" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <!-- Injected dynamically -->
+    </div>
+  </section>
+
+  <!-- ======================================================= -->
+  <!-- TAB 4: CHARACTERS CODEX -->
+  <!-- ======================================================= -->
+  <section id="tab-view-characters" class="hidden flex-1 w-full max-w-5xl mx-auto p-4 sm:p-8 space-y-8">
+    <div class="text-center space-y-2">
+      <span class="text-xs font-bold text-fuchsia-400 font-orbitron tracking-widest uppercase">DRAMATIS PERSONAE</span>
+      <h2 class="text-2xl sm:text-4xl font-black font-cinzel text-white">Key Characters & Lineages</h2>
+    </div>
+
+    <div id="characters-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      <!-- Injected dynamically -->
+    </div>
+  </section>
+
+  <!-- ======================================================= -->
+  <!-- TAB 5: PRODUCTION DASHBOARD -->
+  <!-- ======================================================= -->
+  <section id="tab-view-production" class="hidden flex-1 w-full max-w-5xl mx-auto p-4 sm:p-8 space-y-8">
+    <div class="text-center space-y-2">
+      <span class="text-xs font-bold text-emerald-400 font-orbitron tracking-widest uppercase">CONTINUOUS PIPELINE MONITOR</span>
+      <h2 class="text-2xl sm:text-4xl font-black font-cinzel text-white">Live Production Status</h2>
+      <p class="text-sm text-zinc-400">
+        Autonomous Manhwa Studio Engine • 0-Interruption Operational Loop
+      </p>
+    </div>
+
+    <!-- Metrics Cards -->
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+      <div class="sovereign-card rounded-2xl p-4 text-center">
+        <span class="text-xs text-zinc-400 font-medium">Target Panels</span>
+        <div class="text-2xl sm:text-3xl font-black font-orbitron text-purple-400 mt-1">3,000</div>
+        <span class="text-[10px] text-zinc-500">100 Chapters x 30</span>
+      </div>
+      <div class="sovereign-card rounded-2xl p-4 text-center">
+        <span class="text-xs text-zinc-400 font-medium">Scripted Panels</span>
+        <div class="text-2xl sm:text-3xl font-black font-orbitron text-fuchsia-400 mt-1">300</div>
+        <span class="text-[10px] text-emerald-400">Arc 1 Complete (100%)</span>
+      </div>
+      <div class="sovereign-card rounded-2xl p-4 text-center">
+        <span class="text-xs text-zinc-400 font-medium">Lettered & QA</span>
+        <div class="text-2xl sm:text-3xl font-black font-orbitron text-emerald-400 mt-1">25</div>
+        <span class="text-[10px] text-emerald-300">100% QA PASS</span>
+      </div>
+      <div class="sovereign-card rounded-2xl p-4 text-center">
+        <span class="text-xs text-zinc-400 font-medium">Quota Reset Timer</span>
+        <div id="quota-countdown" class="text-xl sm:text-2xl font-black font-orbitron text-amber-400 mt-1">2h 17m</div>
+        <span class="text-[10px] text-zinc-500">Auto-Wakeup Scheduled</span>
+      </div>
+    </div>
+
+    <!-- Active Production Manifest -->
+    <div class="sovereign-card rounded-2xl p-6 space-y-4">
+      <h3 class="text-sm font-bold text-white font-orbitron flex items-center gap-2">
+        <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+        <span>Active Chapter Production Queue</span>
+      </h3>
+      <div class="space-y-2 text-xs">
+        <div class="flex items-center justify-between p-3 bg-zinc-950/60 rounded-xl border border-zinc-800">
+          <div>
+            <span class="font-bold text-white">Ch. 4: The Drifting Feather</span>
+            <span class="ml-2 text-zinc-400">• 14 Lettered, 16 Staged</span>
+          </div>
+          <span class="bg-purple-950 text-purple-300 px-2 py-0.5 rounded border border-purple-800 font-bold">Stitched (800x19696)</span>
+        </div>
+        <div class="flex items-center justify-between p-3 bg-zinc-950/60 rounded-xl border border-zinc-800">
+          <div>
+            <span class="font-bold text-white">Ch. 5: The Broken Promise</span>
+            <span class="ml-2 text-zinc-400">• 30 Prompts Ready</span>
+          </div>
+          <span class="bg-blue-950 text-blue-300 px-2 py-0.5 rounded border border-blue-800 font-bold">Scripted</span>
+        </div>
+        <div class="flex items-center justify-between p-3 bg-zinc-950/60 rounded-xl border border-zinc-800">
+          <div>
+            <span class="font-bold text-white">Ch. 6: The First Blood</span>
+            <span class="ml-2 text-zinc-400">• 30 Prompts Ready</span>
+          </div>
+          <span class="bg-blue-950 text-blue-300 px-2 py-0.5 rounded border border-blue-800 font-bold">Scripted</span>
+        </div>
+        <div class="flex items-center justify-between p-3 bg-zinc-950/60 rounded-xl border border-zinc-800">
+          <div>
+            <span class="font-bold text-white">Ch. 7 to Ch. 13 (Arc 1 Climax)</span>
+            <span class="ml-2 text-zinc-400">• 210 Prompts Ready</span>
+          </div>
+          <span class="bg-emerald-950 text-emerald-300 px-2 py-0.5 rounded border border-emerald-800 font-bold">Ready for Batch Generation</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================= -->
+  <!-- CHAPTER SELECTION DRAWER -->
+  <!-- ======================================================= -->
+  <div id="chapter-drawer" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-md hidden transition-opacity flex justify-start">
+    <div class="bg-zinc-950 border-r border-purple-900/30 w-full max-w-md h-full flex flex-col p-5 shadow-2xl overflow-hidden">
+      <!-- Drawer Header -->
+      <div class="flex items-center justify-between pb-4 border-b border-zinc-800">
+        <div>
+          <h3 class="text-sm font-black font-cinzel text-white flex items-center gap-2">
+            <span>SELECT CHAPTER</span>
+            <span class="text-[10px] bg-purple-950 text-purple-300 border border-purple-800 px-2 py-0.5 rounded-full font-bold">100 SAGA</span>
+          </h3>
+          <p class="text-[10px] text-zinc-500">Tap to load reader strip & screenplay</p>
+        </div>
+        <button id="close-drawer-btn" class="p-1.5 hover:bg-zinc-900 rounded-full text-zinc-400 hover:text-white transition-colors">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <!-- Drawer Chapter List -->
+      <div id="drawer-chapters-list" class="flex-1 overflow-y-auto py-3 space-y-2 pr-1">
+        <!-- Injected dynamically -->
+      </div>
+    </div>
   </div>
 
-  <!-- Comments Slide-up Drawer -->
-  <div id="comments-drawer" class="fixed inset-0 z-50 bg-black/75 backdrop-blur-sm hidden transition-opacity flex justify-end flex-col">
+  <!-- ======================================================= -->
+  <!-- COMMENTS SLIDE-UP DRAWER -->
+  <!-- ======================================================= -->
+  <div id="comments-drawer" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm hidden transition-opacity flex justify-end flex-col">
     <div class="bg-zinc-950 border-t border-zinc-800 rounded-t-3xl max-h-[80vh] flex flex-col p-5 max-w-xl mx-auto w-full shadow-2xl">
       <div class="flex items-center justify-between pb-3 border-b border-zinc-800">
         <div>
           <h3 class="text-sm font-bold text-white flex items-center gap-2">
             <span>Comments</span>
-            <span id="drawer-comment-badge" class="text-[11px] bg-purple-950 text-purple-300 border border-purple-800 px-2 py-0.5 rounded-full font-bold">200K</span>
+            <span id="drawer-comment-badge" class="text-[11px] bg-purple-950 text-purple-300 border border-purple-800 px-2 py-0.5 rounded-full font-bold">250K</span>
           </h3>
-          <p class="text-[10px] text-zinc-500">Chapter 1: The Gathering Storm</p>
+          <p class="text-[10px] text-zinc-500" id="comments-chapter-label">Chapter Comments</p>
         </div>
         <button id="close-comments-btn" class="p-1.5 hover:bg-zinc-900 rounded-full text-zinc-400 hover:text-white transition-colors">
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
@@ -229,7 +418,7 @@
       <!-- Post Comment Form -->
       <form id="comment-form" class="pt-3 border-t border-zinc-800 flex gap-2">
         <input id="comment-author-input" type="text" placeholder="Name" class="w-24 bg-zinc-900 border border-zinc-800 rounded-xl px-3 py-2 text-xs text-zinc-200 placeholder-zinc-600 focus:outline-none focus:border-purple-500">
-        <input id="comment-text-input" type="text" placeholder="Share your thoughts on Chapter 1..." required class="flex-1 bg-zinc-900 border border-zinc-800 rounded-xl px-3 py-2 text-xs text-zinc-200 placeholder-zinc-600 focus:outline-none focus:border-purple-500">
+        <input id="comment-text-input" type="text" placeholder="Share your thoughts on this chapter..." required class="flex-1 bg-zinc-900 border border-zinc-800 rounded-xl px-3 py-2 text-xs text-zinc-200 placeholder-zinc-600 focus:outline-none focus:border-purple-500">
         <button type="submit" class="bg-purple-600 hover:bg-purple-500 text-white font-bold text-xs px-4 py-2 rounded-xl transition-all shadow-md">
           Post
         </button>
@@ -237,513 +426,552 @@
     </div>
   </div>
 
-  <!-- Ultra-Compact Sticky Bottom Navigation Pill -->
-  <div class="fixed bottom-3 left-1/2 -translate-x-1/2 z-40 bg-zinc-950/85 backdrop-blur-md border border-zinc-800/90 rounded-full px-3.5 py-1 flex items-center gap-3 shadow-xl text-[11px] text-zinc-300 select-none">
-    <button class="hover:text-white transition-colors flex items-center gap-1 font-medium cursor-pointer">
-      <span>⏮ Ch. 1</span>
+  <!-- Bottom Floating Navigation Bar -->
+  <div class="fixed bottom-3 left-1/2 -translate-x-1/2 z-40 bg-zinc-950/90 backdrop-blur-md border border-purple-900/40 rounded-full px-4 py-1.5 flex items-center gap-3 shadow-2xl text-[11px] text-zinc-300 select-none">
+    <button onclick="prevChapter()" class="hover:text-purple-400 transition-colors flex items-center gap-1 font-bold cursor-pointer">
+      <span>⏮ Prev</span>
     </button>
     <span class="text-zinc-700">|</span>
-    <span id="page-percent" class="text-purple-400 font-bold font-mono text-[11px]">0%</span>
+    <span id="page-percent" class="text-purple-400 font-bold font-orbitron text-xs">0%</span>
     <span class="text-zinc-700">|</span>
-    <button class="hover:text-white transition-colors flex items-center gap-1 font-medium text-zinc-500 cursor-not-allowed">
-      <span>Ch. 2 ⏭</span>
+    <button onclick="nextChapter()" class="hover:text-purple-400 transition-colors flex items-center gap-1 font-bold cursor-pointer">
+      <span>Next ⏭</span>
     </button>
   </div>
 
-  <!-- Scripts -->
+  <!-- ======================================================= -->
+  <!-- JAVASCRIPT APPLICATION LOGIC -->
+  <!-- ======================================================= -->
   <script>
-    // Scroll Progress Script
-    window.addEventListener('scroll', () => {
-      const winScroll = document.documentElement.scrollTop || document.body.scrollTop;
-      const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-      const scrolled = height > 0 ? (winScroll / height) * 100 : 0;
-      document.getElementById('progress-bar').style.width = scrolled + '%';
-      document.getElementById('page-percent').innerText = Math.round(scrolled) + '%';
-    });
-
-    // =======================================================
-    // SUPABASE REALTIME LIKES & COMMENTS SYNC
-    // =======================================================
-    let liked = false;
-    let activeEpisode = null;
-    const likeBtn = document.getElementById('like-btn');
-    const likeCount = document.getElementById('like-count');
-    const commentBtn = document.getElementById('comment-btn');
-    const commentCount = document.getElementById('comment-count');
-    const commentsDrawer = document.getElementById('comments-drawer');
-    const closeCommentsBtn = document.getElementById('close-comments-btn');
-    const commentsList = document.getElementById('comments-list');
-    const commentForm = document.getElementById('comment-form');
-    const drawerCommentBadge = document.getElementById('drawer-comment-badge');
-
-    function formatNumber(num) {
-      if (!num) return '0';
-      if (num >= 1000000) return (num / 1000000).toFixed(0) + 'M';
-      if (num >= 1000) return (num / 1000).toFixed(0) + 'K';
-      return num.toString();
-    }
-
-    async function loadEpisodeData() {
-      if (window.ManhwaAPI) {
-        activeEpisode = await window.ManhwaAPI.fetchEpisode(1);
-        if (activeEpisode) {
-          if (activeEpisode.likes_count) {
-            likeCount.innerText = formatNumber(activeEpisode.likes_count);
-          }
-          if (activeEpisode.comments_count) {
-            const formatted = formatNumber(activeEpisode.comments_count);
-            commentCount.innerText = formatted;
-            drawerCommentBadge.innerText = formatted;
-          }
-        }
+    // Chapter Manifest & Data Registry
+    const CHAPTERS_DATA = [
+      {
+        id: "ch1",
+        number: 1,
+        title: "The Gathering Storm",
+        arc: "Arc 1: The Cursed Feather",
+        status: "complete",
+        panelsCount: 7,
+        panels: [
+          "./panels/ep1/panel_01_final.png",
+          "./panels/ep1/panel_02_final.png",
+          "./panels/ep1/panel_03_final.png",
+          "./panels/ep1/panel_04_final.png",
+          "./panels/ep1/panel_05_final.png",
+          "./panels/ep1/panel_06_final.png",
+          "./panels/ep1/panel_07_final.png"
+        ],
+        desc: "Saint Mirren International University. Ha-Jun is cornered on the rooftop by bullies until the demonic familiar Kuro intervenes."
+      },
+      {
+        id: "ch2",
+        number: 2,
+        title: "The Fallen Feather & Awakening",
+        arc: "Arc 1: The Cursed Feather",
+        status: "complete",
+        panelsCount: 4,
+        panels: [
+          "./panels/ep2/panel_01_final.png",
+          "./panels/ep2/panel_02_final.png",
+          "./panels/ep2/panel_03_final.png",
+          "./panels/ep2/panel_04_final.png"
+        ],
+        desc: "Kuro vanishes leaving a glowing obsidian feather. Ha-Jun clenches the relic, awakening the crystalline purple demonic gauntlet."
+      },
+      {
+        id: "ch4",
+        number: 4,
+        title: "The Drifting Feather",
+        arc: "Arc 1: The Cursed Feather",
+        status: "lettered_and_stitched",
+        panelsCount: 30,
+        stripImg: "./panels/ch04/full_ch04_strip.png",
+        gridImg: "./panels/ch04/ch04_grid_overview.png",
+        panels: [
+          "./panels/ch04/p01.png",
+          "./panels/ch04/p02.png",
+          "./panels/ch04/p03.png",
+          "./panels/ch04/p04.png",
+          "./panels/ch04/p05.png",
+          "./panels/ch04/p06.png",
+          "./panels/ch04/p07.png",
+          "./panels/ch04/p08.png",
+          "./panels/ch04/p09.png",
+          "./panels/ch04/p10.png",
+          "./panels/ch04/p11.png",
+          "./panels/ch04/p16.png",
+          "./panels/ch04/p24.png",
+          "./panels/ch04/p30.png"
+        ],
+        desc: "Ha-Jun discovers Kuro's mysterious feather on the rainy university rooftop. Something about it feels strangely familiar."
+      },
+      {
+        id: "ch5",
+        number: 5,
+        title: "The Broken Promise",
+        arc: "Arc 1: The Cursed Feather",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch005_script.json",
+        desc: "Ha-Jun remembers his elder brother Tae-Jun and the night he failed to save him. Overcome by guilt, he breaks down in the rain."
+      },
+      {
+        id: "ch6",
+        number: 6,
+        title: "The First Blood",
+        arc: "Arc 1: The Cursed Feather",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch006_script.json",
+        desc: "Ha-Jun's blood touches the feather, igniting the Sovereign System and drawing a Lesser Imp through a spatial tear."
+      },
+      {
+        id: "ch7",
+        number: 7,
+        title: "The Demon Within",
+        arc: "Arc 1: The Cursed Feather",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch007_script.json",
+        desc: "Ha-Jun suffers excruciating biological reconstruction as his sovereign bloodline overrides human weakness to obliterate the Imp."
+      },
+      {
+        id: "ch8",
+        number: 8,
+        title: "Kuro's Voice",
+        arc: "Arc 1: The Cursed Feather",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch008_script.json",
+        desc: "Kuro manifests telepathically, revealing the truth of the Sovereign bloodline and that Tae-Jun is still alive in the Nether Boundary."
+      },
+      {
+        id: "ch9",
+        number: 9,
+        title: "The Forbidden Contract",
+        arc: "Arc 1: The Cursed Feather",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch009_script.json",
+        desc: "Ha-Jun seals the contract despite memory loss warnings, and classmate Min-Jae arrives on the ruined rooftop."
+      },
+      {
+        id: "ch10",
+        number: 10,
+        title: "First Synchronization",
+        arc: "Arc 1: The Cursed Feather",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch010_script.json",
+        desc: "Ha-Jun achieves 5% bloodline synchronization, awakening the 5-meter Sovereign Domain detected by the Demon Hunter Bureau."
+      },
+      {
+        id: "ch11",
+        number: 11,
+        title: "The First Demon",
+        arc: "Arc 1: The Cursed Feather",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch011_script.json",
+        desc: "A 15-foot Greater Shadow Hound breaches the campus courtyard; Ha-Jun dives from the 3rd floor to protect Min-Jae."
+      },
+      {
+        id: "ch12",
+        number: 12,
+        title: "Instinct of Survival",
+        arc: "Arc 1: The Cursed Feather",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch012_script.json",
+        desc: "Ha-Jun instinctively activates Sovereign Blood Claws and splits the monster's Void Cannon with Sovereign Crush."
+      },
+      {
+        id: "ch13",
+        number: 13,
+        title: "Something Has Awakened",
+        arc: "Arc 1: The Cursed Feather",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch013_script.json",
+        desc: "Demon King Malgath senses the Sovereign's wavelength from the Abyssal Realm and mobilizes demonic legions for war."
       }
-    }
-    loadEpisodeData();
-
-    likeBtn.addEventListener('click', async () => {
-      liked = !liked;
-      if (liked) {
-        likeCount.innerText = '1M+';
-        likeCount.classList.add('text-rose-500');
-        if (window.ManhwaAPI && activeEpisode && activeEpisode.id) {
-          window.ManhwaAPI.addLike(activeEpisode.id);
-        }
-      } else {
-        likeCount.innerText = '1M';
-        likeCount.classList.remove('text-rose-500');
-      }
-    });
-
-    async function renderComments() {
-      if (!window.ManhwaAPI || !activeEpisode) return;
-      commentsList.innerHTML = '<p class="text-zinc-500 text-center py-4">Loading comments from Supabase...</p>';
-      const comments = await window.ManhwaAPI.fetchComments(activeEpisode.id);
-      if (!comments || comments.length === 0) {
-        commentsList.innerHTML = '<p class="text-zinc-500 text-center py-4">No comments yet. Be the first to comment!</p>';
-        return;
-      }
-      commentsList.innerHTML = comments.map(c => `
-        <div class="bg-zinc-900/60 border border-zinc-800/80 rounded-xl p-3">
-          <div class="flex items-center justify-between mb-1">
-            <span class="font-bold text-purple-300 text-[11px]">${c.user_name || 'Hunter'}</span>
-          </div>
-          <p class="text-zinc-200 text-xs">${c.content}</p>
-        </div>
-      `).join('');
-    }
-
-    if (commentBtn) {
-      commentBtn.addEventListener('click', () => {
-        commentsDrawer.classList.remove('hidden');
-        renderComments();
-      });
-    }
-
-    if (closeCommentsBtn) {
-      closeCommentsBtn.addEventListener('click', () => {
-        commentsDrawer.classList.add('hidden');
-      });
-    }
-
-    if (commentsDrawer) {
-      commentsDrawer.addEventListener('click', (e) => {
-        if (e.target === commentsDrawer) {
-          commentsDrawer.classList.add('hidden');
-        }
-      });
-    }
-
-    if (commentForm) {
-      commentForm.addEventListener('submit', async (e) => {
-        e.preventDefault();
-        const authorInput = document.getElementById('comment-author-input');
-        const textInput = document.getElementById('comment-text-input');
-        const author = authorInput.value.trim() || 'Hunter';
-        const text = textInput.value.trim();
-        if (!text || !activeEpisode) return;
-
-        try {
-          await window.ManhwaAPI.postComment(activeEpisode.id, author, text);
-          textInput.value = '';
-          renderComments();
-          if (activeEpisode.comments_count !== undefined) {
-            activeEpisode.comments_count += 1;
-            const formatted = formatNumber(activeEpisode.comments_count);
-            commentCount.innerText = formatted;
-            drawerCommentBadge.innerText = formatted;
-          }
-        } catch (err) {
-          alert('Could not post comment: ' + err.message);
-        }
-      });
-    }
-
-    // =======================================================
-    // PURE PINCH-TO-ZOOM ENGINE (v7.1 - No Double-Tap)
-    // =======================================================
-    // 1. Double-Tap completely removed per user request.
-    //    Tapping anywhere on panels never toggles zoom or jumps.
-    // 2. Pinch Zoom: 2-finger pinch smoothly scales between 1.0x and 2.50x.
-    // 3. Fixed Origin (50% 0%): Zero teleportation, zero jumps.
-    // 4. Directional Reading:
-    //    - At 1.0x (unzoomed): panX is locked to 0. Native vertical scroll only.
-    //    - At >1.0x (zoomed): Smooth horizontal pan within panel bounds.
-    let scale = 1.0;
-    let panX = 0;
-    let initialPinchDist = 0;
-    let initialPinchScale = 1.0;
-    let initialPinchScrollY = 0;
-    let pinchMidY = 0;
-
-    let touchStartX = 0;
-    let touchStartY = 0;
-    let lastTouchX = 0;
-
-    const viewport = document.getElementById('viewport-container');
-    const strip = document.getElementById('webtoon-strip');
-
-    // Ensure fixed transform-origin forever
-    strip.style.transformOrigin = '50% 0%';
-
-    // Cached strip base height to avoid layout thrashing
-    let cachedStripHeight = 0;
-    function updateCachedHeight() {
-      if (strip) {
-        cachedStripHeight = strip.scrollHeight || strip.offsetHeight || 0;
-      }
-    }
-    window.addEventListener('load', updateCachedHeight);
-    window.addEventListener('resize', () => {
-      updateCachedHeight();
-      clampPanX();
-      renderTransform(true);
-    });
-    setTimeout(updateCachedHeight, 600);
-
-    function getMaxPan() {
-      const viewW = window.innerWidth;
-      const stripW = Math.min(800, viewW);
-      const renderedW = stripW * scale;
-      return Math.max(0, (renderedW - viewW) / 2);
-    }
-
-    function clampPanX() {
-      if (scale <= 1.02) {
-        panX = 0;
-        return;
-      }
-      const maxPan = getMaxPan();
-      panX = Math.max(-maxPan, Math.min(maxPan, panX));
-    }
-
-    let rafId = null;
-    function queueRender() {
-      if (rafId) return;
-      rafId = requestAnimationFrame(() => {
-        rafId = null;
-        strip.style.transform = `translate3d(${panX}px, 0, 0) scale(${scale})`;
-      });
-    }
-
-    function renderTransform(animate = false) {
-      clampPanX();
-      if (animate) {
-        strip.style.transition = 'transform 0.22s cubic-bezier(0.2, 0.8, 0.2, 1)';
-      } else {
-        strip.style.transition = 'none';
-      }
-
-      if (scale <= 1.02) {
-        scale = 1.0;
-        panX = 0;
-        strip.style.transform = 'none';
-        strip.classList.remove('is-zoomed', 'is-dragging');
-        if (viewport) viewport.style.height = '';
-      } else {
-        strip.style.transform = `translate3d(${panX}px, 0, 0) scale(${scale})`;
-        strip.classList.add('is-zoomed');
-        if (viewport && cachedStripHeight > 0) {
-          viewport.style.height = Math.round(cachedStripHeight * scale) + 'px';
-        }
-      }
-    }
-
-    // Touch Event Handlers (Pinch Zoom Only)
-    window.addEventListener('touchstart', (e) => {
-      if (e.touches.length === 2) {
-        // 2-Finger Pinch Start
-        initialPinchDist = Math.hypot(
-          e.touches[0].clientX - e.touches[1].clientX,
-          e.touches[0].clientY - e.touches[1].clientY
-        );
-        initialPinchScale = scale;
-        initialPinchScrollY = window.scrollY || window.pageYOffset;
-        pinchMidY = (e.touches[0].clientY + e.touches[1].clientY) / 2;
-
-        strip.style.transition = 'none';
-      } else if (e.touches.length === 1) {
-        // 1-Finger Touch Start
-        touchStartX = e.touches[0].clientX;
-        touchStartY = e.touches[0].clientY;
-        lastTouchX = touchStartX;
-        strip.style.transition = 'none';
-      }
-    }, { passive: false });
-
-    window.addEventListener('touchmove', (e) => {
-      if (e.touches.length === 2 && initialPinchDist > 0) {
-        // 2-Finger Pinch
-        e.preventDefault();
-        const dist = Math.hypot(
-          e.touches[0].clientX - e.touches[1].clientX,
-          e.touches[0].clientY - e.touches[1].clientY
-        );
-        const currentMidY = (e.touches[0].clientY + e.touches[1].clientY) / 2;
-        const ratio = dist / initialPinchDist;
-
-        // Allow smooth pinch between 0.90x and 2.50x
-        scale = Math.min(2.50, Math.max(0.90, initialPinchScale * ratio));
-
-        // Synchronize scroll so pinch midpoint stays locked under fingers
-        const targetScrollY = (initialPinchScrollY + pinchMidY) * (scale / initialPinchScale) - currentMidY;
-
-        clampPanX();
-        queueRender();
-
-        if (viewport && cachedStripHeight > 0) {
-          viewport.style.height = Math.round(cachedStripHeight * scale) + 'px';
-        }
-        window.scrollTo(0, Math.max(0, targetScrollY));
-
-      } else if (e.touches.length === 1) {
-        const curX = e.touches[0].clientX;
-        const dx = curX - lastTouchX;
-        lastTouchX = curX;
-
-        // When zoomed in, allow smooth horizontal panning
-        if (scale > 1.05) {
-          const maxPan = getMaxPan();
-          if (maxPan > 0) {
-            panX += dx;
-            panX = Math.max(-maxPan, Math.min(maxPan, panX));
-            queueRender();
-          }
-        }
-      }
-    }, { passive: false });
-
-    window.addEventListener('touchend', (e) => {
-      if (e.touches.length < 2 && initialPinchDist > 0) {
-        initialPinchDist = 0;
-
-        if (scale < 1.04) {
-          // Snap back to 1.0x fit
-          scale = 1.0;
-          panX = 0;
-        } else {
-          scale = Math.min(2.50, scale);
-        }
-        renderTransform(true);
-      }
-
-      if (e.touches.length === 0) {
-        strip.classList.remove('is-dragging');
-        if (scale <= 1.04) {
-          scale = 1.0;
-          panX = 0;
-        }
-        renderTransform(true);
-      }
-    }, { passive: true });
-
-    // Desktop Mouse Drag Handling (only when zoomed in)
-    let isMouseDown = false;
-    let lastMouseX = 0;
-
-    strip.addEventListener('mousedown', (e) => {
-      if (e.button !== 0 || scale <= 1.05) return;
-      isMouseDown = true;
-      lastMouseX = e.clientX;
-      strip.classList.add('is-dragging');
-      strip.style.transition = 'none';
-      e.preventDefault();
-    });
-
-    window.addEventListener('mousemove', (e) => {
-      if (!isMouseDown || scale <= 1.05) return;
-      const dx = e.clientX - lastMouseX;
-      lastMouseX = e.clientX;
-      const maxPan = getMaxPan();
-      panX += dx;
-      panX = Math.max(-maxPan, Math.min(maxPan, panX));
-      queueRender();
-    });
-
-    window.addEventListener('mouseup', () => {
-      if (isMouseDown) {
-        isMouseDown = false;
-        strip.classList.remove('is-dragging');
-        renderTransform(true);
-      }
-    });
-  </script>
-
-  <!-- FLOATING AUTO-READ & AUDIO PLAYER BAR -->
-  <div id="audio-player-bar" class="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 bg-zinc-950/90 border border-purple-500/50 backdrop-blur-xl rounded-full px-4 py-2.5 shadow-2xl shadow-purple-950/80 flex items-center gap-3 transition-all duration-300 max-w-[95vw]">
-    <!-- Play/Pause Button -->
-    <button id="audio-play-btn" class="w-10 h-10 rounded-full bg-gradient-to-tr from-purple-600 to-indigo-600 flex items-center justify-center text-white shadow-lg shadow-purple-600/40 hover:scale-105 active:scale-95 transition-all">
-      <svg id="play-icon" class="w-5 h-5 ml-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-      <svg id="pause-icon" class="w-5 h-5 hidden" fill="currentColor" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
-    </button>
-    
-    <!-- Status / Info -->
-    <div class="flex flex-col min-w-[140px] sm:min-w-[190px]">
-      <div class="flex items-center gap-1.5">
-        <span class="inline-block w-2 h-2 rounded-full bg-purple-400 animate-ping" id="audio-live-dot" style="display:none"></span>
-        <span id="audio-status-text" class="text-xs font-bold text-white tracking-wide">🎙️ Manhwa Explainer</span>
-      </div>
-      <span id="audio-panel-text" class="text-[11px] text-zinc-400 truncate max-w-[160px] sm:max-w-[200px]">Tap play for Hindi narration</span>
-    </div>
-
-    <!-- Prev/Next Controls -->
-    <div class="flex items-center gap-1 border-l border-zinc-800 pl-2">
-      <button id="audio-prev-btn" title="Previous Panel" class="p-1.5 hover:bg-zinc-800 text-zinc-400 hover:text-white rounded-full transition-colors">
-        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/></svg>
-      </button>
-      <button id="audio-next-btn" title="Next Panel" class="p-1.5 hover:bg-zinc-800 text-zinc-400 hover:text-white rounded-full transition-colors">
-        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/></svg>
-      </button>
-    </div>
-  </div>
-
-  <script>
-    // --- MANHWA EXPLAINER DUB ENGINE (CONTINUOUS AUDIO + AUTO-SCROLL SYNC) ---
-    const panelCues = [
-      { id: 'panel-1', start: 0, end: 15, label: 'Panel 1: सेंट मिरेन यूनिवर्सिटी' },
-      { id: 'panel-2', start: 15, end: 37, label: 'Panel 2: हा-जुन का परिचय' },
-      { id: 'panel-3', start: 37, end: 63, label: 'Panel 3: छत पर बेरहम पिटाई' },
-      { id: 'panel-4', start: 63, end: 86, label: 'Panel 4: रेलिंग पर कुरो' },
-      { id: 'panel-5', start: 86, end: 116, label: 'Panel 5: कुरो का श्राप (हेक्स)' },
-      { id: 'panel-6', start: 116, end: 147, label: 'Panel 6: बुलियों का भागना' },
-      { id: 'panel-7', start: 147, end: 172, label: 'Panel 7: सॉवरेन का जागना (क्लाइमेक्स)' }
     ];
 
-    let currentPanelIndex = -1;
-    let isAudioPlaying = false;
-    const globalAudio = new Audio('./audio/episode_01_full.mp3?v=3.1');
+    // Relics Data
+    const RELICS_DATA = [
+      { name: "Kuro's Fallen Feather", tier: "Mythic", status: "Awakened (Ep. 2)", power: "Bloodline Awakening, Dimensional Shroud, Sovereign Instincts", color: "from-purple-900 to-fuchsia-950", border: "border-purple-500" },
+      { name: "Ring of Hollow Blood", tier: "Basic", status: "Arc 3 (Ch. 25)", power: "Fluid Blood Manipulation & Solidified Blood Blades", color: "from-red-950 to-zinc-900", border: "border-red-600" },
+      { name: "Bone of the Forgotten", tier: "Basic", status: "Arc 3 (Ch. 28)", power: "Skeletal Density Hardening, Instant Fracture Repair", color: "from-zinc-900 to-stone-900", border: "border-stone-500" },
+      { name: "The Ashen Heart", tier: "Basic", status: "Arc 3 (Ch. 31)", power: "Demonic Violet/Crimson Hellfire Emission", color: "from-purple-950 to-rose-950", border: "border-rose-600" },
+      { name: "The Fang of Abyss", tier: "Rare", status: "Arc 5 (Ch. 47)", power: "Spatial Severance, Piercing Kinetic Void Strikes", color: "from-indigo-950 to-zinc-900", border: "border-indigo-500" },
+      { name: "Eye of the Night", tier: "Rare", status: "Arc 5 (Ch. 50)", power: "All-Spectrum Mana Sight, Illusion Breaking & Weakness Detection", color: "from-blue-950 to-cyan-950", border: "border-cyan-500" },
+      { name: "Chains of Ruin", tier: "Rare", status: "Arc 5 (Ch. 52)", power: "Gravity Binding, Dimensional Sealing Shackle Arrays", color: "from-zinc-950 to-stone-900", border: "border-zinc-500" },
+      { name: "Crown of the Sovereign", tier: "Legendary", status: "Arc 6 (Ch. 54)", power: "Sovereign Domain, Monarch Aura of Absolute Subjugation", color: "from-amber-950 to-purple-950", border: "border-amber-500" },
+      { name: "Eclipse Devourer", tier: "Legendary", status: "Arc 6 (Ch. 60)", power: "Mana Absorption, Shadow Army Manifestation", color: "from-purple-950 to-black", border: "border-purple-600" },
+      { name: "Hourglass of Eternal Abyss", tier: "Mythic", status: "Arc 8 (Ch. 82)", power: "Temporal Manipulation, Chrono-Reversion (Cost: Memory)", color: "from-fuchsia-950 to-amber-950", border: "border-fuchsia-500" }
+    ];
 
-    const playBtn = document.getElementById('audio-play-btn');
-    const playIcon = document.getElementById('play-icon');
-    const pauseIcon = document.getElementById('pause-icon');
-    const statusText = document.getElementById('audio-status-text');
-    const panelText = document.getElementById('audio-panel-text');
-    const liveDot = document.getElementById('audio-live-dot');
-    const prevBtn = document.getElementById('audio-prev-btn');
-    const nextBtn = document.getElementById('audio-next-btn');
+    // Characters Data
+    const CHARACTERS_DATA = [
+      { name: "Ha-Jun Kang (강하준)", role: "Protagonist • True Sovereign Heir", desc: "17yo frail student at Saint Mirren University. Carries the dormant genetic lineage of the First Demon Sovereign. Fueled by the vow to rescue his lost brother.", tag: "Sovereign Vessel", tagColor: "bg-purple-950 text-purple-300 border-purple-800" },
+      { name: "Kuro (쿠로)", role: "Mythic Demonic Guardian", desc: "Ancient familiar and Vanguard of the First Sovereign. Appears as an obsidian crow with demonic horns and violet embers. Sharp-tongued, fiercely loyal.", tag: "Mythic Familiar", tagColor: "bg-fuchsia-950 text-fuchsia-300 border-fuchsia-800" },
+      { name: "Kang Tae-Jun (강태준)", role: "Elder Brother • Sealed Guardian", desc: "Presumed missing 7 years ago. Secretly sacrificed his mortal freedom to draw the Abyss away from Ha-Jun, surviving trapped in the Nether Boundary.", tag: "The First Shield", tagColor: "bg-blue-950 text-blue-300 border-blue-800" },
+      { name: "Lord Malgath (말가스)", role: "First Demon King of the Abyss", desc: "18-foot towering demonic monarch who senses the Sovereign's bloodline awakening and commands the Three Demon Lords to hunt down Ha-Jun.", tag: "Abyssal Tyrant", tagColor: "bg-red-950 text-red-300 border-red-800" },
+      { name: "Min-Jae (민재)", role: "Classmate & Loyal Friend", desc: "Observant high school student with round glasses who witnesses the courtyard destruction and chooses to stand beside Ha-Jun.", tag: "Mortal Ally", tagColor: "bg-emerald-950 text-emerald-300 border-emerald-800" },
+      { name: "Captain Kang-Doo", role: "Demon Hunter Bureau Sector 4", desc: "Veteran human hunter investigating the Sovereign-class energy spike at Saint Mirren University, wielding the Blood Registry dossier.", tag: "Human Hunter", tagColor: "bg-zinc-900 text-zinc-300 border-zinc-700" }
+    ];
 
-    function scrollToActivePanel(index) {
-      document.querySelectorAll('.webtoon-panel-img').forEach(img => img.classList.remove('panel-active-audio'));
-      if (index >= 0 && index < panelCues.length) {
-        const target = document.getElementById(panelCues[index].id);
-        if (target) {
-          target.classList.add('panel-active-audio');
-          // Smooth cinematic scroll centering the active panel
-          target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    // 10 Arcs Architecture Data
+    const ARCS_DATA = [
+      { num: 1, title: "THE CURSED FEATHER", chapters: "Ch. 4 – 13", panels: "300 Panels", status: "Scripted & Prompted (100%)", desc: "Awakening on the university rooftop, bonding with Kuro's feather, and the first demonic war." },
+      { num: 2, title: "THE HIDDEN BLOODLINE", chapters: "Ch. 14 – 23", panels: "300 Panels", status: "In Architecture", desc: "Ha-Jun struggles with his unhuman strength, enters the underground Demonic Chamber, and battles his first Human Demon Hunter." },
+      { num: 3, title: "THE FIRST RELIC", chapters: "Ch. 24 – 33", panels: "300 Panels", status: "Planned", desc: "Resonance with the Ring of Hollow Blood, Bone of the Forgotten, and Ashen Heart." },
+      { num: 4, title: "THE DEMON HUNTER WAR", chapters: "Ch. 34 – 43", panels: "300 Panels", status: "Planned", desc: "The secret human organization declares Ha-Jun their primary target; the betrayal and war erupts." },
+      { num: 5, title: "THE ABYSSAL KINGDOM", chapters: "Ch. 44 – 53", panels: "300 Panels", status: "Planned", desc: "A colossal gate opens; Ha-Jun enters the Nether Realm, acquiring the Fang of Abyss and Chains of Ruin." },
+      { num: 6, title: "THE FALLEN SOVEREIGN", chapters: "Ch. 54 – 63", panels: "300 Panels", status: "Planned", desc: "The Crown of the Sovereign recognizes Ha-Jun; ancient memories of the First Sovereign's fall are unveiled." },
+      { num: 7, title: "THE BROTHER'S TRUTH", chapters: "Ch. 64 – 73", panels: "300 Panels", status: "Planned", desc: "The forbidden experiments revealed; Ha-Jun discovers Tae-Jun is alive in the Nether Boundary." },
+      { num: 8, title: "THE MYTHIC AWAKENING", chapters: "Ch. 74 – 83", panels: "300 Panels", status: "Planned", desc: "Kuro's true demonic form revealed; synchronization with the Hourglass of Eternal Abyss." },
+      { num: 9, title: "THE WAR OF SOVEREIGNS", chapters: "Ch. 84 – 93", panels: "300 Panels", status: "Planned", desc: "Three Demon Sovereigns invade Earth; the Siege of Saint Mirren University begins." },
+      { num: 10, title: "THE SOVEREIGN ASCENDANT", chapters: "Ch. 94 – 103", panels: "300 Panels", status: "Planned", desc: "100% Bloodline Synchronization; Ha-Jun takes the Abyssal Throne as the True Sovereign." }
+    ];
+
+    let currentChapterIndex = 0;
+    let currentViewMode = "strip"; // 'strip' | 'grid' | 'script'
+
+    // =======================================================
+    // INITIALIZATION & EVENT LISTENERS
+    // =======================================================
+    window.addEventListener('DOMContentLoaded', () => {
+      renderDrawerChapters();
+      renderRelics();
+      renderCharacters();
+      renderArcs();
+      loadChapter(0);
+      setupScrollProgress();
+      setupDrawerEvents();
+    });
+
+    // Scroll Progress
+    function setupScrollProgress() {
+      window.addEventListener('scroll', () => {
+        const winScroll = document.documentElement.scrollTop || document.body.scrollTop;
+        const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        const scrolled = height > 0 ? (winScroll / height) * 100 : 0;
+        document.getElementById('progress-bar').style.width = scrolled + '%';
+        document.getElementById('page-percent').innerText = Math.round(scrolled) + '%';
+      });
+    }
+
+    // Tab Switching
+    function switchTab(tabId) {
+      const tabs = ['reader', 'bible', 'relics', 'characters', 'production'];
+      tabs.forEach(t => {
+        const view = document.getElementById('tab-view-' + t);
+        const btn = document.getElementById('tab-btn-' + t);
+        if (t === tabId) {
+          view.classList.remove('hidden');
+          btn.className = "text-purple-400 border-b-2 border-purple-500 pb-1 px-2 flex items-center gap-1.5 font-bold";
+        } else {
+          view.classList.add('hidden');
+          btn.className = "text-zinc-400 hover:text-zinc-200 pb-1 px-2 flex items-center gap-1.5 font-bold";
+        }
+      });
+      window.scrollTo({top: 0, behavior: 'smooth'});
+    }
+
+    // View Mode Switching (Strip vs Grid vs Script)
+    function switchViewMode(mode) {
+      currentViewMode = mode;
+      const stripContainer = document.getElementById('strip-container');
+      const gridContainer = document.getElementById('grid-container');
+      const scriptContainer = document.getElementById('script-container');
+      const btnStrip = document.getElementById('btn-mode-strip');
+      const btnGrid = document.getElementById('btn-mode-grid');
+      const btnScript = document.getElementById('btn-mode-script');
+
+      stripContainer.classList.add('hidden');
+      gridContainer.classList.add('hidden');
+      scriptContainer.classList.add('hidden');
+      btnStrip.className = "px-2.5 py-1 rounded text-zinc-400 hover:text-white font-medium transition-all";
+      btnGrid.className = "px-2.5 py-1 rounded text-zinc-400 hover:text-white font-medium transition-all";
+      btnScript.className = "px-2.5 py-1 rounded text-zinc-400 hover:text-white font-medium transition-all";
+
+      if (mode === 'strip') {
+        stripContainer.classList.remove('hidden');
+        btnStrip.className = "px-2.5 py-1 rounded bg-purple-600 text-white font-bold transition-all";
+      } else if (mode === 'grid') {
+        gridContainer.classList.remove('hidden');
+        btnGrid.className = "px-2.5 py-1 rounded bg-purple-600 text-white font-bold transition-all";
+      } else if (mode === 'script') {
+        scriptContainer.classList.remove('hidden');
+        btnScript.className = "px-2.5 py-1 rounded bg-purple-600 text-white font-bold transition-all";
+      }
+    }
+
+    // Load Specific Chapter
+    function loadChapter(index) {
+      if (index < 0 || index >= CHAPTERS_DATA.length) return;
+      currentChapterIndex = index;
+      const chap = CHAPTERS_DATA[index];
+
+      // Update Header & Badge
+      document.getElementById('header-chapter-badge').innerText = `CH. ${chap.number}`;
+      document.getElementById('header-chapter-title').innerText = `${chap.arc} • ${chap.title}`;
+      document.getElementById('footer-chapter-desc').innerText = chap.desc;
+      document.getElementById('comments-chapter-label').innerText = `Chapter ${chap.number}: ${chap.title}`;
+
+      // Populate Strip Container
+      const strip = document.getElementById('webtoon-strip');
+      strip.innerHTML = '';
+
+      if (chap.stripImg) {
+        // High-resolution continuous webtoon stitched strip
+        const img = document.createElement('img');
+        img.src = chap.stripImg;
+        img.alt = chap.title;
+        img.className = 'webtoon-panel-img';
+        img.loading = 'lazy';
+        strip.appendChild(img);
+      } else if (chap.panels && chap.panels.length > 0) {
+        chap.panels.forEach((src, pIdx) => {
+          const img = document.createElement('img');
+          img.src = src;
+          img.alt = `${chap.title} - Panel ${pIdx + 1}`;
+          img.className = 'webtoon-panel-img';
+          img.loading = 'lazy';
+          strip.appendChild(img);
+        });
+      } else {
+        // Scripted chapter notice with action button
+        strip.innerHTML = `
+          <div class="p-8 text-center space-y-4">
+            <span class="inline-block p-4 rounded-full bg-purple-950/70 border border-purple-700/50 text-purple-400 text-2xl">📜</span>
+            <h3 class="text-lg font-bold text-white font-cinzel">${chap.title}</h3>
+            <p class="text-xs text-zinc-400 max-w-md mx-auto leading-relaxed">${chap.desc}</p>
+            <div class="pt-4">
+              <button onclick="switchViewMode('script')" class="px-5 py-2.5 bg-purple-600 hover:bg-purple-500 text-white font-bold text-xs rounded-xl shadow-lg transition-all">
+                Read 30-Panel Screenplay & Dialogue →
+              </button>
+            </div>
+          </div>
+        `;
+      }
+
+      // Populate Grid Container
+      const grid = document.getElementById('grid-panel-wrapper');
+      grid.innerHTML = '';
+      if (chap.panels && chap.panels.length > 0) {
+        chap.panels.forEach((src, pIdx) => {
+          const card = document.createElement('div');
+          card.className = "bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden hover:border-purple-500 transition-all cursor-pointer group";
+          card.onclick = () => { switchViewMode('strip'); };
+          card.innerHTML = `
+            <img src="${src}" alt="Panel ${pIdx + 1}" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+            <div class="p-2 text-center text-[10px] font-bold text-zinc-400 group-hover:text-purple-300">
+              Panel ${pIdx + 1}
+            </div>
+          `;
+          grid.appendChild(card);
+        });
+      } else if (chap.gridImg) {
+        grid.innerHTML = `<img src="${chap.gridImg}" alt="${chap.title} Overview" class="w-full col-span-3 rounded-xl border border-zinc-800">`;
+      } else {
+        grid.innerHTML = `<p class="col-span-3 text-center text-xs text-zinc-500 py-10">Art panels currently staged in production pipeline.</p>`;
+      }
+
+      // Populate Script Container
+      loadChapterScript(chap);
+
+      // Close drawer if open
+      document.getElementById('chapter-drawer').classList.add('hidden');
+      window.scrollTo({top: 0, behavior: 'smooth'});
+    }
+
+    // Load Chapter Screenplay
+    async function loadChapterScript(chap) {
+      const scriptWrapper = document.getElementById('script-panel-wrapper');
+      scriptWrapper.innerHTML = `
+        <div class="sovereign-card rounded-2xl p-6 space-y-2 border-purple-500/30">
+          <div class="flex items-center justify-between text-xs font-bold text-purple-400 font-orbitron">
+            <span>CHAPTER ${chap.number} SCREENPLAY</span>
+            <span class="bg-purple-950 text-purple-300 px-2 py-0.5 rounded border border-purple-800">30 PANELS</span>
+          </div>
+          <h2 class="text-xl font-bold font-cinzel text-white">${chap.title}</h2>
+          <p class="text-xs text-zinc-400 leading-relaxed">${chap.desc}</p>
+        </div>
+      `;
+
+      if (chap.scriptFile) {
+        try {
+          const res = await fetch(chap.scriptFile);
+          if (res.ok) {
+            const data = await res.json();
+            if (data.panels) {
+              data.panels.forEach(p => {
+                const card = document.createElement('div');
+                card.className = "bg-zinc-950/80 border border-zinc-800/80 hover:border-purple-500/50 rounded-xl p-4 space-y-3 transition-all";
+                let dialogueHtml = '';
+                if (p.dialogue && p.dialogue.length > 0) {
+                  p.dialogue.forEach(d => {
+                    dialogueHtml += `
+                      <div class="bg-purple-950/40 border-l-2 border-purple-500 p-2.5 rounded-r-lg text-xs space-y-1">
+                        <span class="font-bold text-purple-300 uppercase tracking-wider text-[10px]">${d.speaker || d.type}:</span>
+                        <p class="text-zinc-200 font-medium">"${d.text}"</p>
+                      </div>
+                    `;
+                  });
+                }
+                card.innerHTML = `
+                  <div class="flex items-center justify-between text-xs">
+                    <span class="font-bold font-orbitron text-purple-400 uppercase">${p.id} • ${p.shot}</span>
+                    <span class="text-zinc-500 text-[10px]">${p.setting}</span>
+                  </div>
+                  <p class="text-xs text-zinc-300 leading-relaxed">${p.action}</p>
+                  ${p.sfx ? `<div class="text-[11px] font-bold text-amber-400 font-orbitron">SFX: ${p.sfx}</div>` : ''}
+                  ${dialogueHtml}
+                `;
+                scriptWrapper.appendChild(card);
+              });
+            }
+          }
+        } catch (e) {
+          console.warn("Could not load script JSON directly:", e);
         }
       }
     }
 
-    function setPlayingState(playing) {
-      isAudioPlaying = playing;
-      if (playing) {
-        playIcon.classList.add('hidden');
-        pauseIcon.classList.remove('hidden');
-        liveDot.style.display = 'inline-block';
-        statusText.textContent = `🎙️ Explaining Panel ${Math.max(1, currentPanelIndex + 1)}/7`;
-      } else {
-        playIcon.classList.remove('hidden');
-        pauseIcon.classList.add('hidden');
-        liveDot.style.display = 'none';
-        statusText.textContent = 'Paused';
+    function nextChapter() {
+      if (currentChapterIndex < CHAPTERS_DATA.length - 1) {
+        loadChapter(currentChapterIndex + 1);
       }
     }
 
-    function playAudio() {
-      globalAudio.play().then(() => {
-        setPlayingState(true);
-      }).catch(err => {
-        console.warn("Audio playback error:", err);
+    function prevChapter() {
+      if (currentChapterIndex > 0) {
+        loadChapter(currentChapterIndex - 1);
+      }
+    }
+
+    // Render Drawer Chapters
+    function renderDrawerChapters() {
+      const list = document.getElementById('drawer-chapters-list');
+      list.innerHTML = '';
+      CHAPTERS_DATA.forEach((c, idx) => {
+        const item = document.createElement('div');
+        item.className = "p-3 rounded-xl bg-zinc-900/60 hover:bg-purple-950/50 border border-zinc-800/80 hover:border-purple-600 transition-all cursor-pointer flex items-center justify-between";
+        item.onclick = () => { loadChapter(idx); };
+        item.innerHTML = `
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-bold text-purple-400 font-orbitron">CH. ${c.number}</span>
+              <span class="text-[9px] text-zinc-500 uppercase">${c.arc}</span>
+            </div>
+            <h4 class="text-xs font-bold text-white mt-0.5">${c.title}</h4>
+          </div>
+          <span class="text-[10px] px-2 py-0.5 rounded font-bold ${c.status === 'complete' ? 'bg-emerald-950 text-emerald-300 border border-emerald-800' : 'bg-purple-950 text-purple-300 border border-purple-800'}">
+            ${c.status === 'complete' ? 'READ' : 'SCRIPTED'}
+          </span>
+        `;
+        list.appendChild(item);
       });
     }
 
-    function pauseAudio() {
-      globalAudio.pause();
-      setPlayingState(false);
+    // Render 10 Relics
+    function renderRelics() {
+      const container = document.getElementById('relics-grid');
+      container.innerHTML = '';
+      RELICS_DATA.forEach((r, idx) => {
+        const card = document.createElement('div');
+        card.className = `rounded-2xl p-5 border ${r.border} bg-gradient-to-br ${r.color} space-y-2.5 shadow-lg`;
+        card.innerHTML = `
+          <div class="flex items-center justify-between text-xs font-bold">
+            <span class="font-orbitron text-white text-sm">#${idx + 1} ${r.name}</span>
+            <span class="px-2 py-0.5 rounded text-[10px] bg-black/60 font-bold border border-white/20">${r.tier}</span>
+          </div>
+          <p class="text-xs text-zinc-300 leading-relaxed font-medium">${r.power}</p>
+          <div class="pt-1 flex items-center justify-between text-[10px] text-zinc-400 font-semibold border-t border-white/10">
+            <span>Availability: ${r.status}</span>
+          </div>
+        `;
+        container.appendChild(card);
+      });
     }
 
-    function jumpToPanel(index) {
-      if (index < 0) index = 0;
-      if (index >= panelCues.length) index = panelCues.length - 1;
-      currentPanelIndex = index;
-      globalAudio.currentTime = panelCues[index].start + 0.1;
-      panelText.textContent = panelCues[index].label;
-      statusText.textContent = `🎙️ Explaining Panel ${index + 1}/7`;
-      scrollToActivePanel(index);
-      if (!isAudioPlaying) {
-        playAudio();
+    // Render Characters
+    function renderCharacters() {
+      const container = document.getElementById('characters-grid');
+      container.innerHTML = '';
+      CHARACTERS_DATA.forEach(ch => {
+        const card = document.createElement('div');
+        card.className = "sovereign-card rounded-2xl p-5 space-y-3";
+        card.innerHTML = `
+          <div class="flex items-start justify-between">
+            <div>
+              <h4 class="text-sm font-bold text-white font-cinzel">${ch.name}</h4>
+              <span class="text-xs text-purple-400 font-semibold">${ch.role}</span>
+            </div>
+            <span class="text-[10px] px-2 py-0.5 rounded border font-bold ${ch.tagColor}">${ch.tag}</span>
+          </div>
+          <p class="text-xs text-zinc-300 leading-relaxed">${ch.desc}</p>
+        `;
+        container.appendChild(card);
+      });
+    }
+
+    // Render 10 Arcs Directory
+    function renderArcs() {
+      const container = document.getElementById('arcs-list-container');
+      container.innerHTML = '';
+      ARCS_DATA.forEach(arc => {
+        const item = document.createElement('div');
+        item.className = "sovereign-card rounded-2xl p-5 space-y-2 border-zinc-800 hover:border-purple-600/50 transition-all";
+        item.innerHTML = `
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+            <div>
+              <span class="text-[10px] font-bold text-purple-400 font-orbitron uppercase">ARC ${arc.num} • ${arc.chapters}</span>
+              <h3 class="text-base font-bold font-cinzel text-white mt-0.5">${arc.title}</h3>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="text-[11px] bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded font-mono text-zinc-300">${arc.panels}</span>
+              <span class="text-[10px] bg-purple-950 text-purple-300 border border-purple-800 px-2 py-0.5 rounded font-bold">${arc.status}</span>
+            </div>
+          </div>
+          <p class="text-xs text-zinc-400 leading-relaxed">${arc.desc}</p>
+        `;
+        container.appendChild(item);
+      });
+    }
+
+    // Drawer Setup
+    function setupDrawerEvents() {
+      const drawer = document.getElementById('chapter-drawer');
+      document.getElementById('open-drawer-btn').onclick = () => drawer.classList.remove('hidden');
+      document.getElementById('close-drawer-btn').onclick = () => drawer.classList.add('hidden');
+      drawer.onclick = (e) => { if (e.target === drawer) drawer.classList.add('hidden'); };
+
+      // Comments Drawer
+      const commentBtn = document.getElementById('comment-btn');
+      const commentsDrawer = document.getElementById('comments-drawer');
+      const closeCommentsBtn = document.getElementById('close-comments-btn');
+      if (commentBtn && commentsDrawer && closeCommentsBtn) {
+        commentBtn.onclick = () => commentsDrawer.classList.remove('hidden');
+        closeCommentsBtn.onclick = () => commentsDrawer.classList.add('hidden');
+        commentsDrawer.onclick = (e) => { if (e.target === commentsDrawer) commentsDrawer.classList.add('hidden'); };
       }
     }
 
-    playBtn.addEventListener('click', () => {
-      if (isAudioPlaying) {
-        pauseAudio();
+    function shareChapter() {
+      if (navigator.share) {
+        navigator.share({
+          title: "Demon Sovereign's Bloodline",
+          text: "Read the dark fantasy epic Demon Sovereign's Bloodline!",
+          url: window.location.href
+        }).catch(() => {});
       } else {
-        playAudio();
+        navigator.clipboard.writeText(window.location.href);
+        alert("Link copied to clipboard!");
       }
-    });
-
-    globalAudio.addEventListener('timeupdate', () => {
-      const time = globalAudio.currentTime;
-      let activeIndex = panelCues.findIndex(c => time >= c.start && time < c.end);
-      if (activeIndex === -1 && time >= panelCues[panelCues.length - 1].start) {
-        activeIndex = panelCues.length - 1;
-      }
-      if (activeIndex !== -1 && activeIndex !== currentPanelIndex) {
-        currentPanelIndex = activeIndex;
-        scrollToActivePanel(currentPanelIndex);
-        statusText.textContent = `🎙️ Explaining Panel ${currentPanelIndex + 1}/7`;
-        panelText.textContent = panelCues[currentPanelIndex].label;
-      }
-    });
-
-    globalAudio.addEventListener('ended', () => {
-      setPlayingState(false);
-      statusText.textContent = 'Completed (Ep 1)';
-      panelText.textContent = 'Tap to replay explanation';
-      document.querySelectorAll('.webtoon-panel-img').forEach(img => img.classList.remove('panel-active-audio'));
-      currentPanelIndex = -1;
-    });
-
-    prevBtn.addEventListener('click', () => {
-      const targetIdx = currentPanelIndex > 0 ? currentPanelIndex - 1 : 0;
-      jumpToPanel(targetIdx);
-    });
-
-    nextBtn.addEventListener('click', () => {
-      const targetIdx = currentPanelIndex < panelCues.length - 1 ? currentPanelIndex + 1 : panelCues.length - 1;
-      jumpToPanel(targetIdx);
-    });
-
-    // Clicking any panel directly jumps audio to that panel's explanation!
-    panelCues.forEach((item, idx) => {
-      const el = document.getElementById(item.id);
-      if (el) {
-        el.addEventListener('click', () => {
-          jumpToPanel(idx);
-        });
-      }
-    });
+    }
   </script>
-
 </body>
 </html>

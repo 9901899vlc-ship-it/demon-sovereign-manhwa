@@ -1,0 +1,320 @@
+{
+  "chapter": 10,
+  "title": "First Synchronization",
+  "arc": 1,
+  "arc_title": "THE CURSED FEATHER",
+  "summary": "Ha-Jun returns to his solitary apartment and undertakes the agonizing 5% Bloodline Synchronization with Kuro's guidance. Unlocking the 5-meter Sovereign Domain, his mana ripple is immediately detected by the Demon Hunter Bureau across the city.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "twilight campus gates wide shot",
+      "setting": "campus gates in rain",
+      "characters": [],
+      "action": "Wide establishing shot of Saint Mirren University gates at dusk; sodium streetlights cast yellow reflections across rain-soaked asphalt.",
+      "mood": "quiet, atmospheric transition",
+      "sfx": "DRIP... DRIP..."
+    },
+    {
+      "id": "p02",
+      "shot": "walking side by side under umbrella",
+      "setting": "city street",
+      "characters": ["hajun", "min_jae"],
+      "action": "Ha-Jun and Min-Jae walk side by side under Min-Jae's bright yellow umbrella as rain pitter-patters against the fabric.",
+      "mood": "everyday student contrast",
+      "dialogue": [
+        {"type": "speech", "speaker": "min_jae", "text": "Ha-Jun... tumhare chehre ke cuts kahan gaye?", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p03",
+      "shot": "casual cheek touch close-up",
+      "setting": "city street",
+      "characters": ["hajun"],
+      "action": "Ha-Jun casually brushes his fingers against his flawless, unblemished cheek with a faint nonchalant smile.",
+      "mood": "careful evasion",
+      "dialogue": [
+        {"type": "speech", "speaker": "hajun", "text": "Sirf keechad aur paani tha. Chot utni gehri nahi thi.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "min-jae suspicious glance",
+      "setting": "city street",
+      "characters": ["min_jae"],
+      "action": "Min-Jae pushes his round glasses up the bridge of his nose, squinting with persistent suspicion.",
+      "mood": "subtle observation",
+      "dialogue": [
+        {"type": "speech", "speaker": "min_jae", "text": "Ajeeb baat hai... subah toh tumhara hoth kata hua tha.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "hidden mana pulse under sleeve macro",
+      "setting": "city street",
+      "characters": ["hajun"],
+      "action": "Beneath Ha-Jun's navy blazer sleeve, subtle violet light pulses through his radial veins in perfect sync with his heartbeat.",
+      "mood": "hidden supernatural secret",
+      "sfx": "DOKI... DOKI..."
+    },
+    {
+      "id": "p06",
+      "shot": "kuro telepathic whisper portrait",
+      "setting": "inner mindscape",
+      "characters": ["kuro"],
+      "action": "Kuro's telepathic warning echoes in Ha-Jun's consciousness: 'Yeh ladka zaroorat se zyada tez hai. Doori banao.'",
+      "mood": "protective warning",
+      "dialogue": [
+        {"type": "speech", "speaker": "kuro", "text": "Isse door raho, warna yeh bhi maara jayega.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "parting at crossroad",
+      "setting": "street crossroad in evening",
+      "characters": ["hajun", "min_jae"],
+      "action": "They pause at a pedestrian crossing under flickering traffic signals; Min-Jae turns to wave goodbye.",
+      "mood": "separation of worlds",
+      "dialogue": [
+        {"type": "speech", "speaker": "min_jae", "text": "Kal milte hain, Ha-Jun. Dhyan rakhna.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p08",
+      "shot": "solitary figure in rain alley",
+      "setting": "narrow alleyway",
+      "characters": ["hajun"],
+      "action": "Ha-Jun walks alone into a narrow residential alley, his reflection trailing behind him in cold puddle ripples.",
+      "mood": "lonely path of destiny",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Kal tak... main ek bilkul alag insaan tha.", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "dilapidated apartment exterior low-angle",
+      "setting": "apartment building exterior",
+      "characters": [],
+      "action": "Low-angle view of a modest, aging four-story apartment complex with rusted exterior stairwells against the dark sky.",
+      "mood": "humble sanctuary",
+      "dialogue": [
+        {"type": "narration", "text": "Wo ghar jahan saat saal se sirf khamoshi rehti thi.", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "apartment door three locks click",
+      "setting": "apartment entrance",
+      "characters": ["hajun"],
+      "action": "Ha-Jun steps inside his dark entryway, locking all three heavy metal deadbolts with deliberate speed.",
+      "mood": "security and isolation",
+      "sfx": "KLIK-KLIK-THUNK!!"
+    },
+    {
+      "id": "p11",
+      "shot": "brother photograph on desk",
+      "setting": "apartment living room",
+      "characters": [],
+      "action": "A framed photograph on the desk: 10yo smiling Ha-Jun standing beside his tall, proud elder brother Kang Tae-Jun.",
+      "mood": "bittersweet nostalgia",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Bhaiya... main bohot jald aa raha hoon.", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "kuro shadow emergence",
+      "setting": "apartment living room",
+      "characters": ["kuro"],
+      "action": "Kuro rises up smoothly from Ha-Jun's cast shadow on the wooden floor, perching atop a tall bookshelf with glowing eyes.",
+      "mood": "familiar in the room",
+      "dialogue": [
+        {"type": "speech", "speaker": "kuro", "text": "Bohot achha ghonsla hai. Ab chalo, asli pariksha shuru karein.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "blazer removal toned physique",
+      "setting": "apartment living room",
+      "characters": ["hajun"],
+      "action": "Ha-Jun strips off his soaked uniform blazer; his torso is completely healed with sharp, defined, supernatural musculature.",
+      "mood": "physical metamorphosis",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Meri body... ek hi ghante mein itni badal gayi?", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "cross-legged meditation pose",
+      "setting": "apartment floor mat",
+      "characters": ["hajun"],
+      "action": "Ha-Jun sits cross-legged on the floor mat, hands resting palm-up on his knees, calming his breathing.",
+      "mood": "martial concentration",
+      "sfx": "HUUUU..."
+    },
+    {
+      "id": "p15",
+      "shot": "system sync prompt manifestation",
+      "setting": "apartment living room",
+      "characters": [],
+      "action": "The system window appears: [BEGIN 5% BLOODLINE SYNCHRONIZATION? WARNING: SEVERE NERVOUS STRAIN].",
+      "mood": "system challenge",
+      "dialogue": [
+        {"type": "system", "text": "[INITIATE 5% BLOODLINE SYNCHRONIZATION?]", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "kuro flame channeling",
+      "setting": "apartment living room",
+      "characters": ["kuro"],
+      "action": "Kuro flaps his obsidian wings, channeling pure streams of violet demonic fire directly into Ha-Jun's sternum core.",
+      "mood": "mana transmission",
+      "sfx": "FZZZZZZT!!"
+    },
+    {
+      "id": "p17",
+      "shot": "vascular combustion agony",
+      "setting": "apartment living room",
+      "characters": ["hajun"],
+      "action": "Ha-Jun's back arches violently as every vein in his chest and neck illuminates with blinding ultraviolet light.",
+      "mood": "crucible of pain",
+      "sfx": "VZZZZZT!!"
+    },
+    {
+      "id": "p18",
+      "shot": "abyssal battle vision",
+      "setting": "abyssal hallucination",
+      "characters": [],
+      "action": "Cosmic psychic vision: Colossal demon armies clashing across burning worlds beneath shattered galaxies.",
+      "mood": "subconscious ancestral memories",
+      "dialogue": [
+        {"type": "narration", "text": "Hazaron yuddho ki cheekhein uske dimaag mein goonjne lagin.", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "unbreakable mental defiance",
+      "setting": "apartment living room",
+      "characters": ["hajun"],
+      "action": "Ha-Jun grits his teeth until sparks fly in his vision, refusing to lose consciousness: 'MAIN NAHI TOOTUNGA!!'",
+      "mood": "iron willpower",
+      "dialogue": [
+        {"type": "shout", "speaker": "hajun", "text": "MAIN NAHI TOOTUNGA! BHAIYA MERA INTEZAR KAR RAHE HAIN!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "core condensation miracle",
+      "setting": "apartment living room",
+      "characters": ["hajun"],
+      "action": "The chaotic wild flames suddenly collapse and crystallize into a serene, perfect violet orb orbiting inside his heart.",
+      "mood": "mastery and harmony",
+      "sfx": "SHHHNNN..."
+    },
+    {
+      "id": "p21",
+      "shot": "sync success chime",
+      "setting": "apartment living room",
+      "characters": [],
+      "action": "A golden-purple chime: [SYNCHRONIZATION COMPLETED: 5.0%] | [SOVEREIGN DOMAIN (STAGE 1: 5 METERS) UNLOCKED].",
+      "mood": "milestone achievement",
+      "dialogue": [
+        {"type": "system", "text": "[SYNCHRONIZATION: 5.0% COMPLETE] [DOMAIN UNLOCKED]", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "sovereign domain expansion wide",
+      "setting": "apartment living room",
+      "characters": ["hajun"],
+      "action": "A transparent sphere of radiant violet energy expands 5 meters outward from Ha-Jun, enveloping the entire living room.",
+      "mood": "magical territory control",
+      "sfx": "WHUUMMMM..."
+    },
+    {
+      "id": "p23",
+      "shot": "frozen dust motes macro",
+      "setting": "apartment living room",
+      "characters": [],
+      "action": "Inside the 5-meter domain, dust motes and water droplets dripping from his hair freeze suspended motionless in mid-air.",
+      "mood": "absolute spatial dominion",
+      "dialogue": [
+        {"type": "narration", "text": "Is daayre ke andar... hawa aur samay uske adheen the.", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "kuro impressed cackle",
+      "setting": "apartment living room",
+      "characters": ["kuro"],
+      "action": "Kuro nods in deep awe: 'Sirf 5% par hi Domain manifest kar liya... Tum sach mein uske sacche waris ho.'",
+      "mood": "guardian validation",
+      "dialogue": [
+        {"type": "speech", "speaker": "kuro", "text": "Kamaal hai. Tumhara potential First Sovereign se bhi tez hai.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "mana pulse escaping apartment",
+      "setting": "exterior street outside apartment",
+      "characters": [],
+      "action": "An invisible concentric shockwave of sovereign mana radiates out of the apartment building, rippling into the city sky.",
+      "mood": "beacon to the world",
+      "sfx": "VOOOOM..."
+    },
+    {
+      "id": "p26",
+      "shot": "luxury penthouse control room",
+      "setting": "hunter headquarters penthouse",
+      "characters": [],
+      "action": "Cut to a high-tech obsidian control room overlooking the city; complex holographic radar maps illuminate the dark room.",
+      "mood": "high-tech hunters",
+      "dialogue": [
+        {"type": "narration", "text": "Demon Hunter Bureau — Sector 4 Command.", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "spinning mana compass macro",
+      "setting": "hunter headquarters penthouse",
+      "characters": [],
+      "action": "An antique silver and brass demonic compass on the control console spins wildly before locking sharply onto Ha-Jun's neighborhood.",
+      "mood": "target acquired",
+      "sfx": "TIK-TIK-TIK... CLIIICK!!"
+    },
+    {
+      "id": "p28",
+      "shot": "hunter captain profile in white coat",
+      "setting": "hunter headquarters penthouse",
+      "characters": ["hunter_captain"],
+      "action": "A tall, cold-eyed man in a tailored white coat with a glowing silver cross insignia picks up an encrypted communicator.",
+      "mood": "lethal predator mobilized",
+      "dialogue": [
+        {"type": "speech", "speaker": "hunter_captain", "text": "Sector 4 mein Sovereign-class energy spike detect hua hai.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "order to mobilize",
+      "setting": "hunter headquarters penthouse",
+      "characters": ["hunter_captain"],
+      "action": "The Hunter Captain's eyes narrow into slits: 'Black Squad ko tayar karo. Is baar shaitan ka beej bachkar nahi nikalna chahiye.'",
+      "mood": "war declared",
+      "dialogue": [
+        {"type": "speech", "speaker": "hunter_captain", "text": "Squad deploy karo. Target ko zinda ya murda pakdo.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "sovereign resolution cliffhanger",
+      "setting": "apartment living room",
+      "characters": ["hajun"],
+      "action": "Back in the apartment, Ha-Jun closes his fist, dissolving the domain into a calm breath, eyes burning with violet majesty: 'Aane do unhe.'",
+      "mood": "calm before the storm, ultimate cliffhanger",
+      "dialogue": [
+        {"type": "speech", "speaker": "hajun", "text": "Jo bhi aaye... main taiyar hoon.", "at": [0.50, 0.12]}
+      ]
+    }
+  ]
+}

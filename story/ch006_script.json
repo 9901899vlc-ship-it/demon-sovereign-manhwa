@@ -1,0 +1,310 @@
+{
+  "chapter": 6,
+  "title": "The First Blood",
+  "arc": 1,
+  "arc_title": "THE CURSED FEATHER",
+  "summary": "Ha-Jun's blood awakens the dormant Mythic Relic. As Kuro's feather bonds to his flesh, his right arm mutates into a crystalline demonic gauntlet and the Sovereign System awakens—drawing the first Lesser Imp through a spatial tear on the rooftop.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "extreme macro hand close-up",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "Ha-Jun's trembling pale hand clutching Kuro's obsidian feather, fresh scarlet blood dripping from his punctured palm onto the glossy black plumage.",
+      "mood": "tense, visceral prelude",
+      "sfx": "DRIP... DRIP..."
+    },
+    {
+      "id": "p02",
+      "shot": "magical chemical reaction macro",
+      "setting": "university rooftop",
+      "characters": [],
+      "action": "The instant human blood touches the feather's quill, vibrant neon-violet and crimson magical flames burst to life without producing any smoke.",
+      "mood": "supernatural awakening",
+      "sfx": "FZZZZZZT!!"
+    },
+    {
+      "id": "p03",
+      "shot": "shocked eye close-up",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "Ha-Jun's eyes snapping wide in disbelief, radiant violet fire reflecting in his wide dark pupils.",
+      "mood": "stunned terror",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Y-Yeh aag...?! Yeh jal nahi rahi...!", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "fluid mutation close-up",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "The solid feather liquefies into ethereal violet-black plasma, wrapping like living molten silk around Ha-Jun's bleeding fingers.",
+      "mood": "living supernatural symbiote",
+      "sfx": "SHHHLLLR..."
+    },
+    {
+      "id": "p05",
+      "shot": "cellular assimilation macro",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "A glowing violet tendril of liquid mana sinks directly into the open cut on Ha-Jun's palm, entering his bloodstream.",
+      "mood": "biological fusion",
+      "dialogue": [
+        {"type": "narration", "text": "Pehle hi sparsh mein... sadiyon ka bandhan jud gaya.", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "frantic panic shot",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "Ha-Jun shouting in panic, violently shaking his right arm to fling the feather off, but the black-violet plasma clings stubbornly to his skin.",
+      "mood": "frantic helplessness",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "HATO! MERE HAATH SE HATO...!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "radial mana blast wave",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "A violent 360-degree radial blast wave of violet mana erupts from his hand, blasting falling rain droplets outward in a circular ring.",
+      "mood": "explosive power surge",
+      "sfx": "BOOOOMMMM!!"
+    },
+    {
+      "id": "p08",
+      "shot": "distant city panoramic view",
+      "setting": "city skyline in rainstorm",
+      "characters": [],
+      "action": "Distant panoramic view of the metropolis at night: Above Saint Mirren University, a brief vertical pillar of invisible demonic energy pierces the storm clouds.",
+      "mood": "calamitous resonance across realms",
+      "dialogue": [
+        {"type": "narration", "text": "Ek aisi taqat jo sadiyon se so rahi thi... achanak jaag uthi.", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "ground collapse in agonizing pain",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "Ha-Jun crashes back onto his knees on the wet rooftop, clutching his right forearm as thick violet veins bulge visibly under his pale skin.",
+      "mood": "unbearable agony",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "AHHH...!! MERA HAATH... JAL RAHA HAI!!", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "extreme facial agony close-up",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "Ha-Jun gritting his teeth so violently that a bead of blood trickles from his split lip, neck tendons taut with agonizing pressure.",
+      "mood": "threshold of physical endurance",
+      "sfx": "GRRRHHH...!!"
+    },
+    {
+      "id": "p11",
+      "shot": "crystalline armor manifestation",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "Sharp, jagged purple-black crystalline plates click into existence over his knuckles and fingers, encasing his hand in demonic armor.",
+      "mood": "grotesque and magnificent metamorphosis",
+      "sfx": "KLI-KLIKK!!"
+    },
+    {
+      "id": "p12",
+      "shot": "cellular restoration steam macro",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "White restorative steam hisses from Ha-Jun's cheek and forearm. The bullies' deep bruises and cuts seal and vanish in seconds.",
+      "mood": "miraculous sovereign regeneration",
+      "sfx": "TZZZZZZ..."
+    },
+    {
+      "id": "p13",
+      "shot": "x-ray internal mana anatomy",
+      "setting": "inner soul realm",
+      "characters": [],
+      "action": "Stylized internal vision: Deep inside Ha-Jun's chest, an ancient obsidian seal fractures, releasing a glowing violet core of Demon Sovereign power.",
+      "mood": "mythic awakening",
+      "dialogue": [
+        {"type": "narration", "text": "Sovereign ki pehli seal toot chuki thi.", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "heroic gauntlet reveal close-up",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "Full reveal of Ha-Jun's right arm: Transformed into a majestic, crystalline purple and black Demonic Gauntlet with pulsing neon-violet mana circuits.",
+      "mood": "overwhelming sovereign authority",
+      "sfx": "VZZZZZZT!!"
+    },
+    {
+      "id": "p15",
+      "shot": "low-angle exhausted recovery",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "Ha-Jun panting heavily, one demonic gauntleted hand pressed onto the cracked wet concrete floor, rain beating against his shoulders.",
+      "mood": "breathless awe, breathless survival",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Yeh... mera haath...?", "at": [0.55, 0.14]}
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "piercing demonic eye reveal",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "Extreme close-up: Ha-Jun raises his head. His dark brown pupil has transformed into a glowing, slit-pupil demonic violet ring.",
+      "mood": "sovereign gaze",
+      "sfx": "SHHHNNN!!"
+    },
+    {
+      "id": "p17",
+      "shot": "temporal suspension perspective",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "Perception slows down: Falling raindrops appear suspended like glass beads in mid-air around Ha-Jun as supernatural sensory acceleration kicks in.",
+      "mood": "surreal, time dilation",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Sab kuch... itna dheere kyun ho gaya?", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "glass reality fragmentation",
+      "setting": "university rooftop",
+      "characters": [],
+      "action": "Geometric obsidian holographic shards fracture into existence in the air directly in front of Ha-Jun's face.",
+      "mood": "system manifestation",
+      "sfx": "PINGG!!"
+    },
+    {
+      "id": "p19",
+      "shot": "sovereign system interface reveal",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "A floating dark-glass system window appears glowing with crisp violet typography: [ALERT: DEMON SOVEREIGN BLOODLINE DETECTED].",
+      "mood": "sci-fi fantasy game interface",
+      "dialogue": [
+        {"type": "system", "text": "[ALERT: DEMON SOVEREIGN BLOODLINE DETECTED]", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "bewildered reaction shot",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "Ha-Jun staring with wide, bewildered eyes at the hovering system window, rain droplets sliding down his cheeks.",
+      "mood": "disbelief, cognitive dissonance",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Yeh... koi video game ki screen hai kya?!", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "system status stats screen",
+      "setting": "university rooftop",
+      "characters": [],
+      "action": "Close-up on system screen: [SYNCHRONIZATION: 1.2%] | [RELIC 1/10: KURO'S FALLEN FEATHER (MYTHIC) BOUND].",
+      "mood": "mysterious status revelation",
+      "dialogue": [
+        {"type": "system", "text": "[SYNCHRONIZATION: 1.2%] [RELIC 1/10: BOUND]", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "bloodline warning screen",
+      "setting": "university rooftop",
+      "characters": [],
+      "action": "System screen flashes dark crimson text: [WARNING: THE SOVEREIGN'S SCENT WILL ATTRACT PREDATORS OF THE ABYSS].",
+      "mood": "imminent peril",
+      "dialogue": [
+        {"type": "system", "text": "[WARNING: PREDATORS OF THE ABYSS APPROACHING]", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "interactive touch ripple",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "Ha-Jun reaches his crystalline demonic gauntlet forward to touch the screen, sending violet circular ripples across the holographic glass.",
+      "mood": "tangible reality",
+      "sfx": "TING..."
+    },
+    {
+      "id": "p24",
+      "shot": "flashing crimson danger alert",
+      "setting": "university rooftop",
+      "characters": [],
+      "action": "The system window suddenly turns bright neon red, alarms pulsing: [CRITICAL: SPATIAL FRACTURE 10 METERS BEHIND YOU].",
+      "mood": "urgent danger",
+      "dialogue": [
+        {"type": "system", "text": "[CRITICAL WARNING: ENEMY DETECTED]", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "dimensional rift tear",
+      "setting": "university rooftop",
+      "characters": [],
+      "action": "Across the wet rooftop terrace, space tears open like black cracked glass with violent purple lightning arcs dancing around the breach.",
+      "mood": "dimensional breach, terror",
+      "sfx": "KZZZZZZT!!"
+    },
+    {
+      "id": "p26",
+      "shot": "abyssal miasma pouring forth",
+      "setting": "university rooftop",
+      "characters": [],
+      "action": "Thick, corrosive pitch-black demon fog pours out of the dimensional tear, hissing as it melts the wet concrete rooftop tiles.",
+      "mood": "corrosive evil",
+      "sfx": "PSSSHHHH..."
+    },
+    {
+      "id": "p27",
+      "shot": "menacing predator eyes emerge",
+      "setting": "university rooftop",
+      "characters": ["imp_demon"],
+      "action": "From the swirling black miasma, multiple pairs of glowing sulfur-yellow multifaceted predator eyes glare out with feral hunger.",
+      "mood": "terrifying beast arrival",
+      "sfx": "GRRRRR..."
+    },
+    {
+      "id": "p28",
+      "shot": "lesser imp reveal low-angle",
+      "setting": "university rooftop",
+      "characters": ["imp_demon"],
+      "action": "An 8-foot tall Lesser Imp demon steps onto Earth: Leathery gargoyle wings, razor-sharp scythe forearms, and a maw dripping caustic black venom.",
+      "mood": "grotesque dark fantasy monster",
+      "sfx": "THUD!!"
+    },
+    {
+      "id": "p29",
+      "shot": "predator sniffing the scent",
+      "setting": "university rooftop",
+      "characters": ["imp_demon"],
+      "action": "The beast inhales the rain-soaked air, locking its glowing eyes directly onto Ha-Jun's glowing gauntlet with sadistic ravenous glee.",
+      "mood": "hunting instinct",
+      "dialogue": [
+        {"type": "speech", "speaker": "imp_demon", "text": "KEEK... SOVEREIGN KA TAAZA KHOON...!!", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "epic standoff cliffhanger",
+      "setting": "university rooftop",
+      "characters": ["hajun", "imp_demon"],
+      "action": "Grand cliffhanger: 17yo Ha-Jun turns to face the towering demon beast, his crystalline purple gauntlet flaring with brilliant violet mana in the pouring storm.",
+      "mood": "epic showdown, battle begins",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Yeh... aakhir kya bala hai?!", "at": [0.50, 0.12]}
+      ]
+    }
+  ]
+}

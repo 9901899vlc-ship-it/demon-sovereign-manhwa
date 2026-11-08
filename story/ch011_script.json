@@ -1,0 +1,308 @@
+{
+  "chapter": 11,
+  "title": "The First Demon",
+  "arc": 1,
+  "arc_title": "THE CURSED FEATHER",
+  "summary": "At Saint Mirren University, Ha-Jun's bullies cower before his unconscious sovereign aura. Moments later, a terrifying Greater Shadow Hound breaches the campus courtyard, targeting students. As his friend Min-Jae is about to be crushed, Ha-Jun leaps from the third story to intercept the beast.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "morning university gates wide shot",
+      "setting": "campus gates in morning",
+      "characters": [],
+      "action": "Wide establishing shot of Saint Mirren University in the overcast morning; crowds of students enter beneath neoclassical stone arches.",
+      "mood": "everyday high school atmosphere",
+      "sfx": "CHATTER..."
+    },
+    {
+      "id": "p02",
+      "shot": "clean uniform corridor walk",
+      "setting": "school hallway",
+      "characters": ["hajun"],
+      "action": "Ha-Jun walks down the brightly lit school corridor, his posture upright and confident, navy blazer immaculate.",
+      "mood": "subtle regal poise",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Aaj subah... sab kuch kitna saaf dikh raha hai.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p03",
+      "shot": "students whispering portrait",
+      "setting": "school hallway",
+      "characters": [],
+      "action": "Female classmates whisper to each other behind notebooks as Ha-Jun passes: 'Woh Ha-Jun hai na? Uski chot kahan gayi?'",
+      "mood": "growing student curiosity",
+      "dialogue": [
+        {"type": "speech", "speaker": null, "text": "Dekho use... kitna alag lag raha hai aaj!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "bully trio blocking way",
+      "setting": "school hallway",
+      "characters": ["bully_leader"],
+      "action": "School bully Jin-Woo (tall, athletic, smirking arrogantly) steps out from the lockers with two cronies, blocking Ha-Jun's path.",
+      "mood": "confrontational hostility",
+      "dialogue": [
+        {"type": "speech", "speaker": "bully_leader", "text": "Arey waah, loser! Kal ki maar se bach gaya?", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "extortion demand close-up",
+      "setting": "school hallway",
+      "characters": ["bully_leader"],
+      "action": "Jin-Woo points a finger at Ha-Jun's chest: 'Chupchap aaj ka lunch money nikaal, warna kal se zyada bura haal karunga.'",
+      "mood": "petty cruelty",
+      "dialogue": [
+        {"type": "speech", "speaker": "bully_leader", "text": "Lunch money nikaal, jaldi!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "unflinching sovereign gaze macro",
+      "setting": "school hallway",
+      "characters": ["hajun"],
+      "action": "Ha-Jun stops. His dark brown eyes lock onto Jin-Woo with absolute stillness, devoid of all fear or hesitation.",
+      "mood": "predator staring at prey",
+      "sfx": "CHILL..."
+    },
+    {
+      "id": "p07",
+      "shot": "demonic phantom illusion behind hajun",
+      "setting": "school hallway",
+      "characters": [],
+      "action": "From Jin-Woo's terrified perspective, Ha-Jun's shadow distorts into a colossal 20-foot demonic behemoth with burning violet eyes.",
+      "mood": "unconscious aura subjugation",
+      "sfx": "WHUUUUMMM!!"
+    },
+    {
+      "id": "p08",
+      "shot": "bully stumbling backward in cold sweat",
+      "setting": "school hallway",
+      "characters": ["bully_leader"],
+      "action": "Jin-Woo gasps in sudden terror, his knees buckling as he stumbles backward into the lockers, drenched in cold sweat.",
+      "mood": "instinctive primal horror",
+      "dialogue": [
+        {"type": "thought", "speaker": "bully_leader", "text": "Y-Yeh achanak saans lena itna mushkil kyun ho gaya...?!", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "walking past without a word",
+      "setting": "school hallway",
+      "characters": ["hajun"],
+      "action": "Ha-Jun calmly steps past the cowering bullies without uttering a single word, leaving them gasping on the floor.",
+      "mood": "effortless supremacy",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Inke paas mere waqt ka ek pal bhi nahi hai.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "university library quiet study",
+      "setting": "university library",
+      "characters": ["hajun"],
+      "action": "In the grand university library, Ha-Jun sits by a high arched window, researching ancient demonic relics in historic volumes.",
+      "mood": "peaceful intellectual pursuit",
+      "sfx": "PAGE-FLIP..."
+    },
+    {
+      "id": "p11",
+      "shot": "kuro invisible counsel portrait",
+      "setting": "university library",
+      "characters": ["kuro"],
+      "action": "Kuro's translucent spirit perches near the ceiling: 'Sahi kiya. Cheentiyon ko kuchalne mein koi shaan nahi hoti.'",
+      "mood": "guardian praise",
+      "dialogue": [
+        {"type": "speech", "speaker": "kuro", "text": "Cheentiyon ko ignore karna hi behtar hai.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "glass window rattling tremor",
+      "setting": "university library",
+      "characters": [],
+      "action": "Suddenly, the heavy library window glass vibrates violently; books shudder on the mahogany shelves.",
+      "mood": "abrupt danger",
+      "sfx": "TRRRRR-TRRRR!!"
+    },
+    {
+      "id": "p13",
+      "shot": "library lights dying",
+      "setting": "university library",
+      "characters": [],
+      "action": "All electric chandeliers in the library flicker and abruptly pop out, plunging the grand room into cold unnatural gloom.",
+      "mood": "power outage, eerie cold",
+      "sfx": "ZZZT... SNAP!"
+    },
+    {
+      "id": "p14",
+      "shot": "black frost creeping on floor",
+      "setting": "university library",
+      "characters": ["hajun"],
+      "action": "Through Ha-Jun's mana vision, creeping black frost spreads across the floorboards as temperature plummets below zero.",
+      "mood": "demonic invasion signature",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Yeh aam toofan nahi hai... Abyss ki sardi hai!", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p15",
+      "shot": "screams from courtyard outside",
+      "setting": "university library window",
+      "characters": [],
+      "action": "Terrified screams of hundreds of students echo up from the central quadrangle below.",
+      "mood": "chaos erupting",
+      "dialogue": [
+        {"type": "speech", "speaker": null, "text": "MONSTER!! BHAAGO!! MONSTER AA GAYA!!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "running to window ledge",
+      "setting": "university library window",
+      "characters": ["hajun"],
+      "action": "Ha-Jun throws his chair back, rushing to the open stone balustrade and looking down into the courtyard.",
+      "mood": "urgent crisis",
+      "sfx": "SLAM!!"
+    },
+    {
+      "id": "p17",
+      "shot": "colossal courtyard rift wide shot",
+      "setting": "central courtyard",
+      "characters": [],
+      "action": "A massive 15-foot black dimensional fissure tears through the center of the brick plaza, vomiting corrosive smoke.",
+      "mood": "catastrophic breach",
+      "sfx": "KRAAA-BOOOOM!!"
+    },
+    {
+      "id": "p18",
+      "shot": "greater shadow hound emergence",
+      "setting": "central courtyard",
+      "characters": ["shadow_hound"],
+      "action": "A terrifying 15-foot quadrupedal Shadow Hound claws its way out: Spiked obsidian bone-armor, three burning red eyes, jaws dripping black bile.",
+      "mood": "nightmare beast",
+      "sfx": "SKRRRRRREEE!!"
+    },
+    {
+      "id": "p19",
+      "shot": "sonic roar shattering glass",
+      "setting": "central courtyard",
+      "characters": ["shadow_hound"],
+      "action": "The beast roars into the sky; the acoustic shockwave shatters dozens of campus windows simultaneously.",
+      "mood": "devastating sonic assault",
+      "sfx": "ROAAAARRRRR!!"
+    },
+    {
+      "id": "p20",
+      "shot": "min-jae fallen and trapped",
+      "setting": "central courtyard",
+      "characters": ["min_jae"],
+      "action": "In the courtyard below, Min-Jae trips over his fallen books, scrambling desperately backward as the beast towers over him.",
+      "mood": "imminent mortal doom",
+      "dialogue": [
+        {"type": "shout", "speaker": "min_jae", "text": "K-KOI BACHAO...!!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "descending executioner claw",
+      "setting": "central courtyard",
+      "characters": ["shadow_hound"],
+      "action": "The Shadow Hound raises its massive, jagged-clawed front leg to crush Min-Jae into bloody pulp.",
+      "mood": "fatal execution",
+      "sfx": "SWOOOSH!!"
+    },
+    {
+      "id": "p22",
+      "shot": "furious hajun roar close-up",
+      "setting": "university library window",
+      "characters": ["hajun"],
+      "action": "Ha-Jun's eyes flare with incandescent violet fury: 'MIN-JAE-!!'",
+      "mood": "brotherly protective rage",
+      "dialogue": [
+        {"type": "shout", "speaker": "hajun", "text": "MIN-JAE-!!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "window shattered leap",
+      "setting": "university library window",
+      "characters": ["hajun"],
+      "action": "Ha-Jun kicks the heavy window glass into fragments, diving out from the third floor directly into the empty air.",
+      "mood": "fearless high-altitude dive",
+      "sfx": "KRRSHHH!!"
+    },
+    {
+      "id": "p24",
+      "shot": "mid-air gauntlet ignition",
+      "setting": "air above courtyard",
+      "characters": ["hajun"],
+      "action": "Falling through the air, Ha-Jun channels his sovereign mana: The crystalline purple demonic gauntlet snaps around his right arm with blinding energy.",
+      "mood": "aerial armor deployment",
+      "sfx": "KLIK-KLIK-VZZZZT!!"
+    },
+    {
+      "id": "p25",
+      "shot": "meteor descent acceleration",
+      "setting": "air above courtyard",
+      "characters": ["hajun"],
+      "action": "Gravity accelerates his fall into a screaming violet meteor; air pressure distorts around his diving fist.",
+      "mood": "kinetic bombardment",
+      "sfx": "BOOOOM-SHIIK!!"
+    },
+    {
+      "id": "p26",
+      "shot": "beast shock three eyes look up",
+      "setting": "central courtyard",
+      "characters": ["shadow_hound"],
+      "action": "The Shadow Hound's three crimson eyes snap upward in sudden disbelief, sensing the overwhelming sovereign wavelength descending upon it.",
+      "mood": "predator becomes prey",
+      "dialogue": [
+        {"type": "thought", "speaker": "shadow_hound", "text": "SOVEREIGN KA KHOON...?!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "colossal collision impact",
+      "setting": "central courtyard",
+      "characters": ["hajun", "shadow_hound"],
+      "action": "Mid-air collision: Ha-Jun's demonic gauntlet slams directly into the hound's descending paw, stopping the 15-foot beast cold in its tracks.",
+      "mood": "earth-shattering clash",
+      "sfx": "KRAAAA-DOOOOMM!!"
+    },
+    {
+      "id": "p28",
+      "shot": "brick crater shockwave expansion",
+      "setting": "central courtyard",
+      "characters": [],
+      "action": "A 10-meter shockwave crater erupts across the brick plaza; flying debris forms a protective dome curving over Min-Jae.",
+      "mood": "heroic protection",
+      "sfx": "WHUUUUMM!!"
+    },
+    {
+      "id": "p29",
+      "shot": "min-jae bewildered awe from ground",
+      "setting": "central courtyard",
+      "characters": ["min_jae"],
+      "action": "Min-Jae stares up from the ground in stunned awe at the back of the student who just saved his life.",
+      "mood": "stunned revelation",
+      "dialogue": [
+        {"type": "thought", "speaker": "min_jae", "text": "H-Ha-Jun...?! Yeh tum ho?!", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "epic guardian stance cliffhanger",
+      "setting": "central courtyard",
+      "characters": ["hajun", "shadow_hound"],
+      "action": "Epic standoff cliffhanger: Ha-Jun stands tall over Min-Jae, his crystalline purple gauntlet flaring with violet lightning as he glares down the snarling 15-foot beast: 'Mere dost ko chhoona bhi mat.'",
+      "mood": "godly protector, ultimate cliffhanger",
+      "dialogue": [
+        {"type": "speech", "speaker": "hajun", "text": "Mere dost se door raho.", "at": [0.50, 0.10]}
+      ]
+    }
+  ]
+}

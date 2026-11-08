@@ -1,0 +1,304 @@
+{
+  "chapter": 7,
+  "title": "The Demon Within",
+  "arc": 1,
+  "arc_title": "THE CURSED FEATHER",
+  "summary": "Attacked by the savage Lesser Imp, Ha-Jun suffers excruciating biological reconstruction as his Demon Sovereign bloodline overrides his human frailty. Driven by ancient instinct, he unleashes the demonic gauntlet to annihilate the beast—awakening Kuro's telepathic consciousness.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "dynamic sprint charge",
+      "setting": "university rooftop",
+      "characters": ["imp_demon"],
+      "action": "The 8-foot tall Lesser Imp launches forward in a ferocious sprint, clawed feet ripping chunks out of the rain-slicked concrete floor.",
+      "mood": "ferocious aggression",
+      "sfx": "KRRRSHHH!!"
+    },
+    {
+      "id": "p02",
+      "shot": "lethal scythe cleave close-up",
+      "setting": "university rooftop",
+      "characters": ["imp_demon"],
+      "action": "The beast's massive serrated blade-arm sweeps horizontally downward in a lethal arc aimed directly at Ha-Jun's neck.",
+      "mood": "instant mortality",
+      "sfx": "SWOOOSH!!"
+    },
+    {
+      "id": "p03",
+      "shot": "sensory acceleration dodge",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "In hyper-slow motion, Ha-Jun sees the blade coming and throws himself sideways into a desperate evasive dive.",
+      "mood": "split-second survival",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "HATO-!!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "steel cleaving destruction",
+      "setting": "university rooftop",
+      "characters": [],
+      "action": "The demon's scythe arm shears cleanly through the thick industrial metal perimeter railing, throwing sparks into the pouring rain.",
+      "mood": "terrifying destructive power",
+      "sfx": "CLANG-SHRRK!!"
+    },
+    {
+      "id": "p05",
+      "shot": "puddle slide recovery",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "Ha-Jun skids on his knees through a deep puddle, gasping for air as he stares in horror at the severed steel posts.",
+      "mood": "horrified realization",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Agar wo vaar mujhe lagta... toh meri gardan katt jaati!", "at": [0.52, 0.14]}
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "sinister demon turn",
+      "setting": "university rooftop",
+      "characters": ["imp_demon"],
+      "action": "The Imp whips around with chilling unnatural speed, yellow eyes gleaming with sadistic mockery through the rain.",
+      "mood": "mocking predator",
+      "dialogue": [
+        {"type": "speech", "speaker": "imp_demon", "text": "KEE-KEEK! EK BHEEGE CHUHE KI TARAH BHAAG RAHE HO?!", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "caustic venom volley",
+      "setting": "university rooftop",
+      "characters": ["imp_demon"],
+      "action": "The demon unhinges its jaw and spits a rapid volley of glowing green-black acidic venom globes toward Ha-Jun.",
+      "mood": "projectile danger",
+      "sfx": "PTU-PTU-PTU!!"
+    },
+    {
+      "id": "p08",
+      "shot": "crystalline gauntlet shield impact",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "Ha-Jun instinctively throws his crystalline gauntlet up to shield his face; the venom globes splatter against the obsidian armor and hiss into harmless vapor.",
+      "mood": "impenetrable sovereign defense",
+      "sfx": "TZZZZZZ!!"
+    },
+    {
+      "id": "p09",
+      "shot": "internal mana convulsion",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "Ha-Jun's body suddenly convulses with unbearable internal heat; the Sovereign's ancient bloodline rejects human weakness.",
+      "mood": "violent internal transformation",
+      "sfx": "VZZZZZT!!"
+    },
+    {
+      "id": "p10",
+      "shot": "blood coughing pain close-up",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "Ha-Jun clutches his collar, coughing violently as glowing violet mana mist leaks between his trembling fingers.",
+      "mood": "biological agony",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "K-Khoon mein... ubaal aa raha hai...!!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "cellular reconstruction diagram",
+      "setting": "inner realm",
+      "characters": [],
+      "action": "Abstract vision: Ancient Demon Sovereign genetic strands forcibly overwriting human DNA, super-charging muscles and bones with dark mana.",
+      "mood": "godlike evolution",
+      "dialogue": [
+        {"type": "narration", "text": "Insaan ki hadd par... shaitan ka janam ho raha tha.", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "raw scream of rebirth",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "Ha-Jun's head arches back as he unleashes a primal scream; an eruption of neon-violet magical fire engulfs his silhouette.",
+      "mood": "epic unbridled awakening",
+      "sfx": "ROAAARRRR!!"
+    },
+    {
+      "id": "p13",
+      "shot": "glowing demonic eye macro",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "Extreme macro: Ha-Jun's eyes flare with brilliant violet rings and sharp vertical black slit pupils, radiating chilling divine pressure.",
+      "mood": "sovereign predator",
+      "dialogue": [
+        {"type": "narration", "text": "Sovereign ki aankhein khul chuki theen.", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "demon recoil in terror",
+      "setting": "university rooftop",
+      "characters": ["imp_demon"],
+      "action": "The towering Lesser Imp stumbles backward in sheer horror, wings shivering as ancient ancestral hierarchy crushes its spirit.",
+      "mood": "instinctive cowardice",
+      "dialogue": [
+        {"type": "thought", "speaker": "imp_demon", "text": "Y-Yeh astitva...?! Yeh sirf ek insaan nahi ho sakta...!", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p15",
+      "shot": "sovereign posture shift",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "Ha-Jun slowly straightens his spine; all trembling and pain have vanished, replaced by cold, regal, terrifying calm.",
+      "mood": "majestic dread",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Dard... achanak gayab ho gaya?", "at": [0.55, 0.12]}
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "steam breathing close-up",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "Ha-Jun exhales a plume of pure white mana steam into the freezing rain; his expression is ice-cold and merciless.",
+      "mood": "lethal focus",
+      "sfx": "HUUUU..."
+    },
+    {
+      "id": "p17",
+      "shot": "flash-step sonic boom",
+      "setting": "university rooftop",
+      "characters": [],
+      "action": "Ha-Jun disappears from sight in a sonic flash-step, leaving behind a circular shockwave crater in the wet concrete floor.",
+      "mood": "godly speed",
+      "sfx": "BOOOOM-SHIIK!!"
+    },
+    {
+      "id": "p18",
+      "shot": "mid-air apparition above beast",
+      "setting": "university rooftop",
+      "characters": ["hajun", "imp_demon"],
+      "action": "Ha-Jun manifests instantaneously 12 feet in the air directly above the Lesser Imp, his right gauntlet cocked back like an anvil.",
+      "mood": "aerial execution",
+      "dialogue": [
+        {"type": "thought", "speaker": "imp_demon", "text": "KAHAN SE AAYA-?!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "futile defensive block",
+      "setting": "university rooftop",
+      "characters": ["imp_demon"],
+      "action": "The Imp frantically crosses both scythe arms upward to block, its yellow eyes wide in desperate panic.",
+      "mood": "hopeless defense",
+      "sfx": "KRR-KRR!!"
+    },
+    {
+      "id": "p20",
+      "shot": "gauntlet meteorite smash impact",
+      "setting": "university rooftop",
+      "characters": ["hajun", "imp_demon"],
+      "action": "Ha-Jun's crystalline purple gauntlet smashes down through the demon's scythe guard into its skull with blinding violet lightning.",
+      "mood": "earth-shattering impact",
+      "sfx": "KRAAAA-BOOOOOMM!!"
+    },
+    {
+      "id": "p21",
+      "shot": "360 rain explosion wide shot",
+      "setting": "university rooftop",
+      "characters": [],
+      "action": "Massive wide shot: The shockwave obliterates thousands of raindrops in a gigantic radial dome; roof tiles shatter into dust.",
+      "mood": "colossal kinetic force",
+      "sfx": "WHUUMMMM!!"
+    },
+    {
+      "id": "p22",
+      "shot": "cratered demon body ground-level",
+      "setting": "university rooftop",
+      "characters": ["imp_demon"],
+      "action": "The Lesser Imp is smashed flat into a massive circular crater in the concrete floor, dark demon blood spraying onto the puddles.",
+      "mood": "brutal annihilation",
+      "sfx": "CRUNCHH!!"
+    },
+    {
+      "id": "p23",
+      "shot": "demonic mana spike finisher",
+      "setting": "university rooftop",
+      "characters": ["hajun", "imp_demon"],
+      "action": "Standing over the demon, Ha-Jun clenches his fist; three radiant violet mana spikes erupt from his knuckles, piercing the demon's heart.",
+      "mood": "execution",
+      "sfx": "SHLK-SHLK!!"
+    },
+    {
+      "id": "p24",
+      "shot": "ash dissolution of beast",
+      "setting": "university rooftop",
+      "characters": ["imp_demon"],
+      "action": "The demon howls one final screech as its monstrous form disintegrates into glowing purple ash and black smoke.",
+      "mood": "cleansing disintegration",
+      "sfx": "SHHHH..."
+    },
+    {
+      "id": "p25",
+      "shot": "demonic core crystal reveal",
+      "setting": "university rooftop",
+      "characters": [],
+      "action": "Where the demon's body lay, only a polished diamond-shaped violet demonic core crystal remains, hovering above the rain puddle.",
+      "mood": "mystic loot drop",
+      "sfx": "PING..."
+    },
+    {
+      "id": "p26",
+      "shot": "core absorption macro",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "The crystalline gauntlet generates a magnetic suction vortex, absorbing the core crystal into the back of Ha-Jun's hand.",
+      "mood": "power ingestion",
+      "sfx": "SHUUUUK!!"
+    },
+    {
+      "id": "p27",
+      "shot": "system level-up notification",
+      "setting": "university rooftop",
+      "characters": [],
+      "action": "System UI flashes: [TARGET ELIMINATED: LESSER IMP] | [MANA ABSORBED: BLOODLINE SYNCHRONIZATION 2.5%].",
+      "mood": "rpg leveling progression",
+      "dialogue": [
+        {"type": "system", "text": "[TARGET ELIMINATED] [SYNCHRONIZATION: 2.5%]", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "gauntlet armor deactivation",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "The crystalline armor plates click and dissolve back into Ha-Jun's skin, leaving his normal pale hand without a single scratch.",
+      "mood": "return to mundane shell",
+      "sfx": "KLI-KLI... SHHH."
+    },
+    {
+      "id": "p29",
+      "shot": "exhausted parapet slump",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "Ha-Jun slumps back against the concrete parapet, gasping for breath as human fatigue crashes back into his frail body.",
+      "mood": "exhaustion after the storm",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Maine... maine ek monster ko maar daala...?", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "telepathic voice cliffhanger",
+      "setting": "university rooftop",
+      "characters": ["hajun"],
+      "action": "A swirling wisp of purple ember hovers near Ha-Jun's ear. An ancient, aristocratic, sardonic voice echoes directly in his mind.",
+      "mood": "familiar awakens, ultimate cliffhanger",
+      "dialogue": [
+        {"type": "speech", "speaker": "kuro", "text": "KAMAAL KA KHEL THA, MERE BACHE. AB WAQT HAI SACH JAAN NE KA.", "at": [0.50, 0.12]}
+      ]
+    }
+  ]
+}

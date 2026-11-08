@@ -1,0 +1,320 @@
+{
+  "chapter": 13,
+  "title": "Something Has Awakened",
+  "arc": 1,
+  "arc_title": "THE CURSED FEATHER",
+  "summary": "In the aftermath of the courtyard battle, Ha-Jun escorts Min-Jae to safety as the Demon Hunter Bureau swarms the campus. Far away across dimensions in the Abyssal Realm, Demon King Malgath senses the Sovereign's pulse and mobilizes his armies—marking the grand completion of Arc 1.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "smoking courtyard crater wide shot",
+      "setting": "central courtyard after battle",
+      "characters": [],
+      "action": "Wide aerial shot of Saint Mirren University quadrangle in smoking ruins; shattered cobblestones, light rain drizzling over the crater.",
+      "mood": "eerie quiet after catastrophic battle",
+      "sfx": "SIZZLE..."
+    },
+    {
+      "id": "p02",
+      "shot": "helping hand extended",
+      "setting": "central courtyard",
+      "characters": ["hajun", "min_jae"],
+      "action": "Ha-Jun reaches his hand down to help Min-Jae up from the wet grass, pulling his trembling friend to his feet.",
+      "mood": "quiet brotherhood",
+      "dialogue": [
+        {"type": "speech", "speaker": "hajun", "text": "Utho, Min-Jae. Yahan rukna theek nahi hai.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p03",
+      "shot": "min-jae bewildered stare",
+      "setting": "central courtyard",
+      "characters": ["min_jae"],
+      "action": "Min-Jae adjusts his crooked glasses with trembling fingers, staring at Ha-Jun's composed silhouette in awe and fear.",
+      "mood": "awe and confusion",
+      "dialogue": [
+        {"type": "thought", "speaker": "min_jae", "text": "Yeh wahi Ha-Jun hai... jise kal sab maarte the...?", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "approaching sirens sound wave",
+      "setting": "university campus perimeter",
+      "characters": [],
+      "action": "Dozens of high-pitched police and tactical sirens echo across the stone buildings, flashing red and blue against the clouds.",
+      "mood": "closing net",
+      "sfx": "WEEEE-WOOOO-WEEEE!!"
+    },
+    {
+      "id": "p05",
+      "shot": "kuro urgent extraction advice",
+      "setting": "inner mindscape",
+      "characters": ["kuro"],
+      "action": "Kuro's telepathic whisper: 'Humein turant nikalna hoga. Bureau ke log aa rahe hain. Insaano ki kanoon yahan sirf rukawat banegi.'",
+      "mood": "tactical urgency",
+      "dialogue": [
+        {"type": "speech", "speaker": "kuro", "text": "Nikal yahan se! Bureau ke Hunters aa rahe hain!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "walking side by side to exit",
+      "setting": "courtyard side path",
+      "characters": ["hajun", "min_jae"],
+      "action": "Ha-Jun leads Min-Jae down a secluded hedge path behind the gymnasium away from the main gates.",
+      "mood": "stealth evacuation",
+      "dialogue": [
+        {"type": "speech", "speaker": "hajun", "text": "Chal sakte ho?", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "resolute profile glance",
+      "setting": "courtyard side path",
+      "characters": ["hajun"],
+      "action": "Ha-Jun looks back toward the smoke rising from the courtyard: 'Maine bas wahi kiya... jo zaroori tha.'",
+      "mood": "quiet acceptance of fate",
+      "dialogue": [
+        {"type": "speech", "speaker": "hajun", "text": "Maine bas wahi kiya jo zaroori tha.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p08",
+      "shot": "tactical suvs arriving at gates",
+      "setting": "university main gates",
+      "characters": [],
+      "action": "A convoy of matte-black tactical SUVs with tinted windows and silver cross insignias screeches through the front gates.",
+      "mood": "heavy military intervention",
+      "sfx": "SKRRRRR-THUD!!"
+    },
+    {
+      "id": "p09",
+      "shot": "bureau surveillance van interior",
+      "setting": "hunter mobile command van",
+      "characters": [],
+      "action": "Inside the mobile command van: High-tech holographic monitors illuminate tactical analysts tracking mana wavelengths.",
+      "mood": "high-tech tactical tracking",
+      "sfx": "BEEP-BEEP..."
+    },
+    {
+      "id": "p10",
+      "shot": "scarred captain examining scan",
+      "setting": "hunter mobile command van",
+      "characters": ["hunter_captain"],
+      "action": "Special Agent Kang-Doo (scarred face, trench coat, cold demeanor) leans over a 3D hologram of the courtyard crater.",
+      "mood": "veteran investigator",
+      "dialogue": [
+        {"type": "speech", "speaker": "hunter_captain", "text": "Yeh mana frequency... yeh normal rift nahi hai.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "technician panicked report",
+      "setting": "hunter mobile command van",
+      "characters": [],
+      "action": "A technician points at the spiked waveform graph: 'Captain! Yeh wavelength... Sovereign-class hai!'",
+      "mood": "shocking revelation",
+      "dialogue": [
+        {"type": "speech", "speaker": null, "text": "Captain! Yeh Sovereign-class wavelength hai!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "crushing cigarette butt in ashtray",
+      "setting": "hunter mobile command van",
+      "characters": ["hunter_captain"],
+      "action": "Kang-Doo violently grinds his cigarette out into a metal tray, his teeth gritting in disbelief.",
+      "mood": "repressed trauma",
+      "dialogue": [
+        {"type": "speech", "speaker": "hunter_captain", "text": "Sovereign-class? Wo bloodline saat saal pehle Tae-Jun ke sath khatam ho gayi thi!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "single strike kill scan proof",
+      "setting": "hunter mobile command van",
+      "characters": [],
+      "action": "The screen shows thermal replay analysis: 'Kisi ne Rank-C Greater Hound ko sirf ek single punch se khatam kar diya.'",
+      "mood": "impossible feat",
+      "dialogue": [
+        {"type": "speech", "speaker": null, "text": "Sirf ek punch se Rank-C beast khatam!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "blood registry file dossier",
+      "setting": "hunter mobile command van",
+      "characters": ["hunter_captain"],
+      "action": "Kang-Doo pulls out a crimson-stamped dossier labeled: [THE BLOOD REGISTRY — SUSPECT: HA-JUN KANG].",
+      "mood": "hunting the successor",
+      "dialogue": [
+        {"type": "speech", "speaker": "hunter_captain", "text": "Poore campus ko seal karo. Ek ek student ka mana scan lo.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p15",
+      "shot": "black tactical squad marching",
+      "setting": "campus courtyard",
+      "characters": [],
+      "action": "Armored Hunter operatives in black combat suits and silver cross visors cordon off the courtyard with glowing barrier pylons.",
+      "mood": "oppressive quarantine",
+      "sfx": "CLOMP-CLOMP..."
+    },
+    {
+      "id": "p16",
+      "shot": "blurry cctv monitor frame",
+      "setting": "hunter mobile command van",
+      "characters": [],
+      "action": "On the security monitor, a grainy freeze-frame catches Ha-Jun's back disappearing into the shadows of the rear campus gate.",
+      "mood": "ghost slipped through the net",
+      "dialogue": [
+        {"type": "narration", "text": "Lekin shikari pahunche... tab tak wo jaa chuka tha.", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "dimensional void vortex transition",
+      "setting": "dimensional rift boundary",
+      "characters": [],
+      "action": "The frame dissolves into swirling black cosmic clouds beneath a massive, shattered blood-red celestial eclipse.",
+      "mood": "interdimensional travel",
+      "sfx": "WHUUUUMMMM..."
+    },
+    {
+      "id": "p18",
+      "shot": "abyssal kingdom panorama",
+      "setting": "abyssal demon realm",
+      "characters": [],
+      "action": "Panoramic establishing shot of the ancient Abyssal Kingdom: Obsidian spires and Gothic castles floating above bubbling oceans of purple magma.",
+      "mood": "dark fantasy hellscape majesty",
+      "dialogue": [
+        {"type": "narration", "text": "Insaani duniya se bohot door... Abyss ki gehraiyon mein.", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "throne of desolation hall",
+      "setting": "abyssal throne room",
+      "characters": [],
+      "action": "Inside a cavernous cathedral of black bone: Gigantic skeletal pillars support a vaulted ceiling draped in crimson banners.",
+      "mood": "dread sovereign court",
+      "sfx": "DRUM-BEAT..."
+    },
+    {
+      "id": "p20",
+      "shot": "demon king malgath seated",
+      "setting": "abyssal throne room",
+      "characters": ["demon_king_malgath"],
+      "action": "Seated on a throne of crushed dragon skulls: Demon King Lord Malgath (18 feet tall, four muscular arms, horned obsidian armor, burning skull face).",
+      "mood": "primordial tyrant",
+      "dialogue": [
+        {"type": "narration", "text": "First Demon King — Lord Malgath.", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "crushing skull armrest in shock",
+      "setting": "abyssal throne room",
+      "characters": ["demon_king_malgath"],
+      "action": "Malgath's massive spiked claw violently crushes the skull armrest into powder as his crimson eyes flare with shock.",
+      "mood": "monarch disturbed",
+      "sfx": "KRAAAAASH!!"
+    },
+    {
+      "id": "p22",
+      "shot": "commanders trembling in terror",
+      "setting": "abyssal throne room",
+      "characters": [],
+      "action": "Two 10-foot demon generals prostrate on the obsidian floor, trembling: 'H-Huzoor Malgath?! Aapki neend kisne todi?!'",
+      "mood": "feared master",
+      "dialogue": [
+        {"type": "speech", "speaker": null, "text": "Huzoor Malgath! Kya gustakhi hui?!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "tectonic voice shaking hall",
+      "setting": "abyssal throne room",
+      "characters": ["demon_king_malgath"],
+      "action": "Malgath's voice reverberates like tectonic plates grinding: 'Wo seal... First Sovereign ki pehli seal toot chuki hai.'",
+      "mood": "cosmic fear and greed",
+      "dialogue": [
+        {"type": "speech", "speaker": "demon_king_malgath", "text": "First Sovereign ki pehli seal toot chuki hai.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "malgath burning gaze close-up",
+      "setting": "abyssal throne room",
+      "characters": ["demon_king_malgath"],
+      "action": "Extreme close-up on Malgath's flaming eyes: 'Uska khoon... insaano ki dharti par jaag utha hai.'",
+      "mood": "war hungry determination",
+      "dialogue": [
+        {"type": "speech", "speaker": "demon_king_malgath", "text": "Uska khoon... insaano ke jahan mein jaag utha hai.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "drawing chained greatsword",
+      "setting": "abyssal throne room",
+      "characters": ["demon_king_malgath"],
+      "action": "Malgath rises to his full 18-foot height, drawing a colossal serrated greatsword wrapped in glowing black sealing chains.",
+      "mood": "war declaration",
+      "sfx": "SCHWINNNG!!"
+    },
+    {
+      "id": "p26",
+      "shot": "war decree to three lords",
+      "setting": "abyssal throne room",
+      "characters": ["demon_king_malgath"],
+      "action": "Malgath roars out his decree: 'Teeno Demon Lords ko jagao! Dharti ke darwaze khol do! Us ladke ka dil mujhe laakar do!!'",
+      "mood": "blood decree",
+      "dialogue": [
+        {"type": "shout", "speaker": "demon_king_malgath", "text": "TEENO LORDS KO JAGAO! USKA DIL MUJHE LAA KAR DO!!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "millions of demons roaring wide",
+      "setting": "abyssal plains",
+      "characters": [],
+      "action": "Vast sweeping shot: Tens of thousands of armored demonic beasts raise spiked halberds and roar under twin red moons.",
+      "mood": "unstoppable demonic horde",
+      "sfx": "ROAAAARRRRRRRR!!"
+    },
+    {
+      "id": "p28",
+      "shot": "triptych convergence montage",
+      "setting": "split multi-realm montage",
+      "characters": ["hunter_captain", "demon_king_malgath", "hajun"],
+      "action": "Triptych split-screen: Left: Hunter Bureau mobilizing SWAT squads. Right: Demon King Malgath raising his sword. Center: Ha-Jun walking calmly in rain.",
+      "mood": "converging clash of destinies",
+      "dialogue": [
+        {"type": "narration", "text": "Dono dunyaon ne apna agla shikar chun liya tha.", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "arc 1 completion system window",
+      "setting": "city street at night",
+      "characters": [],
+      "action": "Golden-purple system window appears: [ARC 1: THE CURSED FEATHER — COMPLETED] | [SYNCHRONIZATION: 10.0%] | [NEW TITLE: HEIR OF THE ABYSS].",
+      "mood": "milestone completion",
+      "dialogue": [
+        {"type": "system", "text": "[ARC 1 COMPLETED] [SYNCHRONIZATION: 10.0%] [TITLE: HEIR OF THE ABYSS]", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "grand arc 1 finale cliffhanger",
+      "setting": "city skyline overlooking moon",
+      "characters": ["hajun", "kuro"],
+      "action": "Epic Arc 1 finale spread: Ha-Jun stands on an overpass overlooking the sparkling night city, Kuro perched on his shoulder, eyes burning violet: 'Aane do poori duniya ko. Main tayar hoon.'",
+      "mood": "legend is born, grand arc finale",
+      "dialogue": [
+        {"type": "speech", "speaker": "hajun", "text": "Aane do poori duniya ko. Main tayar hoon.", "at": [0.50, 0.10]}
+      ]
+    }
+  ]
+}
