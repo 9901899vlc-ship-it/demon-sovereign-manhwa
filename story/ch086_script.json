@@ -1,0 +1,501 @@
+{
+  "chapter": 86,
+  "title": "Saint Mirren's Last Day",
+  "arc": 9,
+  "arc_title": "THE WAR OF SOVEREIGNS",
+  "summary": "Tae-Jun dives through the clouds to catch the wounded Ha-Jun. Together with Min-Jae and Captain Baek, they fortify Saint Mirren University for an epic siege.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "ha-jun plunging through the burning red clouds over seoul",
+      "setting": "falling hero wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun falls backward through the sky, trailing blood droplets and shattered starlight particles.",
+      "mood": "tragic freefall",
+      "sfx": "WIND-ROAR..."
+    },
+    {
+      "id": "p02",
+      "shot": "tae-jun diving like a golden comet catching ha-jun mid-air",
+      "setting": "mid-air catch",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Kang Tae-Jun intercepts him at 10,000 feet, wrapping strong armored arms around Ha-Jun and deploying his glider cape.",
+      "mood": "the brother's rescue",
+      "sfx": "CATCH-SWOOSH!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "I've got you! Ha-Jun, breathe! Main hoon na!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "shot": "tae-jun landing heavily in the center of saint mirren courtyard",
+      "setting": "courtyard landing",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun touches down on the lawn, digging his boots deep into the turf to absorb the landing momentum.",
+      "mood": "hard touchdown",
+      "sfx": "THUD-SKID!!"
+    },
+    {
+      "id": "p04",
+      "shot": "min-jae and campus volunteers running out with medical kits",
+      "setting": "running to help",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Min-Jae sprints across the grass, tearing open sterile bandages and hemostatic sprays: 'Ha-Jun! What happened up there?!'",
+      "mood": "medical triage",
+      "sfx": "PANT-RUN...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "He's bleeding heavily from the chest! Apply pressure!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "ha-jun gritting his teeth his hand trembling against the wound",
+      "setting": "ha-jun in pain",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun clutches his chest: 'Kuro... It wasn't his fault... Nihilux has the Primordial Whistle...'",
+      "mood": "protecting his familiar",
+      "sfx": "WHEEZE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Kuro ko blame mat karna... He was forced...",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "captain baek arriving with armored section 9 transport vehicles",
+      "setting": "apc arrival",
+      "characters": [],
+      "action": "Four heavy armored personnel carriers screech to a halt around the campus perimeter, deploying 50 veteran commandos.",
+      "mood": "defensive reinforcement",
+      "sfx": "TIRE SCREECH!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "baek",
+          "text": "Establish a three-tiered perimeter around Saint Mirren! This is our last fortress!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "campus entrance: student volunteers and teachers stacking sandbags",
+      "setting": "sandbag fortification",
+      "characters": [],
+      "action": "Students, faculty, and demon soldiers work side by side, stacking sandbags and plasma turrets at the university gates.",
+      "mood": "civilians stand united",
+      "sfx": "HEAVE-HO!!"
+    },
+    {
+      "id": "p08",
+      "shot": "ha-jun sitting against a marble pillar as min-jae wraps his chest",
+      "setting": "bandaging ha-jun",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun sits against a campus pillar; white bandages soak with scarlet blood as Min-Jae works with trembling hands.",
+      "mood": "vulnerability of a god",
+      "sfx": "BANDAGE RUSTLE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Three relics were stolen... Does that mean your power is cut in half?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "ha-jun clenching his fist: 'power isn't in relics, it's in blood!'",
+      "setting": "defiant fist",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's violet irises burn with renewed fire: 'Relics are just amplifiers. The Sovereign's Blood is mine!'",
+      "mood": "indomitable spirit",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Relics toot sakte hain... Par mera bloodline koi nahi cheen sakta!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "on the horizon: ten thousand void cyber-hounds advancing across mapo bridge",
+      "setting": "horde advancing wide",
+      "characters": [],
+      "action": "Across Mapo Bridge, an ocean of snarling chrome cyber-hounds and void abominations marches toward the campus.",
+      "mood": "the incoming storm",
+      "sfx": "ROAR-STAMPEDE!!"
+    },
+    {
+      "id": "p11",
+      "shot": "tae-jun stepping to the front iron gates drawing his claymore",
+      "setting": "tae-jun at gates",
+      "characters": [],
+      "action": "Tae-Jun stands at the front iron archway, planting his bronze sword into the asphalt: 'They don't pass this gate.'",
+      "mood": "the gatekeeper",
+      "sfx": "SWORD PLANT!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "This school belongs to my brother. You will die before you enter.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "ha-jun standing up beside tae-jun ignoring the pain in his ribs",
+      "setting": "ha-jun stands beside",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun pushes himself to his feet, drawing the Sanguine Fang: 'Together, Hyung. Like we promised.'",
+      "mood": "brothers united at the gate",
+      "sfx": "STEP...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Saath mein ladenge.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "the cyber-hound vanguard charging the campus gates at 80 mph",
+      "setting": "hounds charging",
+      "characters": [],
+      "action": "The front wave of two thousand metallic beasts charges the iron gates with snapping titanium jaws.",
+      "mood": "furious charge",
+      "sfx": "SNAP-CLATTER!!"
+    },
+    {
+      "id": "p14",
+      "shot": "tae-jun unleashing a 50-meter bronze shockwave from his blade",
+      "setting": "bronze shockwave",
+      "characters": [],
+      "action": "Tae-Jun sweeps his sword; a crescent wave of heavy bronze mana obliterates the first hundred hounds into scrap.",
+      "mood": "first blood at the gates",
+      "sfx": "KABOOOM-SLASH!!"
+    },
+    {
+      "id": "p15",
+      "shot": "ha-jun activating chains of ruin binding the second wave",
+      "setting": "chains trapping hounds",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun whips Chains of Ruin through the street, snaring 200 beasts in crushing gravitational coils.",
+      "mood": "mass entanglement",
+      "sfx": "CLANG-BIND!!"
+    },
+    {
+      "id": "p16",
+      "shot": "min-jae and student snipers firing plasma rifles from library roof",
+      "setting": "library roof snipers",
+      "characters": [],
+      "action": "From the library rooftop, Min-Jae and student snipers pick off heavy hydras with synchronized plasma fire.",
+      "mood": "student defense unit",
+      "sfx": "PEW-PEW-BANG!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Target the optics! Don't let them flank the courtyard!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "demon warriors swinging battleaxes decapitating cyber-beasts",
+      "setting": "demons fighting",
+      "characters": [],
+      "action": "The Iron Demon Vanguard engages in brutal hand-to-hand melee at the gatehouse, black blood splashing the walls.",
+      "mood": "brutal melee clash",
+      "sfx": "AXE HACK-ROAR!!"
+    },
+    {
+      "id": "p18",
+      "shot": "a 30-foot void brute smashing through the brick perimeter wall",
+      "setting": "brute wall smash",
+      "characters": [],
+      "action": "A thirty-foot armored brute with club hands smashes through the neoclassical brick wall on the east flank.",
+      "mood": "flank breached",
+      "sfx": "SMASH-RUBBLE!!"
+    },
+    {
+      "id": "p19",
+      "shot": "ha-jun blitzing across the courtyard decapitating the brute mid-stride",
+      "setting": "blitz decapitation",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun blurs across the lawn, severing the brute's massive neck before the falling bricks hit the grass.",
+      "mood": "instant neutralization",
+      "sfx": "BLUR-SHING!!"
+    },
+    {
+      "id": "p20",
+      "shot": "ha-jun coughing a spray of blood onto his sleeve from chest strain",
+      "setting": "coughing blood",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun lands, coughing scarlet blood into his sleeve as his unhealed chest wound reopens painfully.",
+      "mood": "physical toll",
+      "sfx": "COUGH-BLOOD...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Ugh... Without the Ashen Heart, my internal organs are overheating...",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "tae-jun rushing over catching ha-jun before he stumbles",
+      "setting": "tae-jun supporting",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun catches him by the elbow: 'Ha-Jun! Fall back to the library! I will hold the gatehouse!'",
+      "mood": "fraternal desperation",
+      "sfx": "HOLD...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Library mein jao! Let me buy you time to heal!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "ha-jun shaking his head pushing tae-jun hand gently away",
+      "setting": "refusing retreat",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun looks into his brother's eyes with fierce pride: 'I spent seven years running and hiding. I will never run again.'",
+      "mood": "unyielding resolve",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Main ab kabhi peeche nahi hatunga. We stand or fall here.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "the sky darkening as a massive shadow descends: emperor nihilux",
+      "setting": "nihilux descends wide",
+      "characters": [],
+      "action": "The crimson sky turns pitch-black; floating down from the clouds comes Emperor Nihilux himself.",
+      "mood": "the prime villain descends",
+      "sfx": "LOOMING SHADOW...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "nihilux",
+          "text": "How touching. Two mortal brothers dying in the ruins of their school.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "beside nihilux: kuro perched on his iron shoulder his eyes glowing toxic green",
+      "setting": "kuro beside villain",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Perched on Nihilux's shoulder is Kuro—his feathers bristling with green void miasma, looking down blankly.",
+      "mood": "the corrupted guardian",
+      "sfx": "HISS..."
+    },
+    {
+      "id": "p25",
+      "shot": "ha-jun looking up at kuro his heart breaking in his chest",
+      "setting": "ha-jun heartbroken",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun looks at his corrupted companion, whispering with raw, choked love: 'Kuro... It's me. Ha-Jun.'",
+      "mood": "heartbroken plea",
+      "sfx": "WHISPER...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Kuro... Meri aawaz suno... It's Ha-Jun.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "shot": "kuro eye twitching violently as a single tear falls from his beak",
+      "setting": "kuro tear macro",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Deep inside the void possession, Kuro's consciousness thrashes; a single crystal tear falls from his eye.",
+      "mood": "the soul fights back",
+      "sfx": "TEAR FALL..."
+    },
+    {
+      "id": "p27",
+      "shot": "nihilux laughing cruelly raising his dark execution lance",
+      "setting": "nihilux aims lance",
+      "characters": [],
+      "action": "Nihilux sneers: 'Your crow cannot hear you, insect. He belongs to the Void now!'",
+      "mood": "cruel mockery",
+      "sfx": "CHUCKLE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "nihilux",
+          "text": "Prepare to join your parents in the dust of history!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "tae-jun stepping in front of ha-jun spreading his arms wide",
+      "setting": "tae-jun shields brother",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun positions his 6-foot frame directly between Nihilux's lance and Ha-Jun's bleeding chest.",
+      "mood": "the eternal shield stands",
+      "sfx": "STEP-PROTECT!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "tae_jun",
+          "text": "YOU WILL HAVE TO GO THROUGH ME FIRST, COWARD!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "nihilux thrusting the execution lance forward at supersonic speed",
+      "setting": "lance thrust",
+      "characters": [],
+      "action": "Nihilux thrusts the 10-foot black lance forward, the tip whistling with the force of an anti-tank shell.",
+      "mood": "fatal strike unleashed",
+      "sfx": "THRUST-ROAR!!"
+    },
+    {
+      "id": "p30",
+      "shot": "the lance tip inches from tae-jun chestplate cliffhanger",
+      "setting": "point of impact cliffhanger",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The obsidian lance tip is two inches from Tae-Jun's chest as Ha-Jun screams his brother's name in terror!",
+      "mood": "mortal threat cliffhanger",
+      "sfx": "SCREAM-FLASH!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "TAE-JUN HYUNGGGGGGGGGG!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    }
+  ]
+}

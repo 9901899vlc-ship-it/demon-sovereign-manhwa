@@ -1,0 +1,509 @@
+{
+  "chapter": 92,
+  "title": "The Fall of the Guardian",
+  "arc": 9,
+  "arc_title": "THE WAR OF SOVEREIGNS",
+  "summary": "In an emotional retrospective and ceremony of honor, Kang Tae-Jun steps down as the combat Guardian, passing the eternal mantle of planetary protector to Ha-Jun.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "the sunlit steps of seoul city hall decorated in ceremonial red carpet",
+      "setting": "city hall steps wide",
+      "characters": [],
+      "action": "The grand granite steps of Seoul City Hall are lined with ceremonial honor guards of both human hunters and demon knights.",
+      "mood": "ceremonial setting",
+      "sfx": "TRUMPET FANFARE..."
+    },
+    {
+      "id": "p02",
+      "shot": "captain baek in full dress uniform saluting as the brothers ascend",
+      "setting": "baek dress uniform",
+      "characters": [],
+      "action": "Supreme General Baek salutes proudly as Ha-Jun and Tae-Jun walk up the steps side by side.",
+      "mood": "military honors",
+      "sfx": "SALUTE-CLICK!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "baek",
+          "text": "Present arms! For the Saviors of Earth!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "shot": "hundreds of swords and rail-rifles raised in synchronized salute",
+      "setting": "swords raised wide",
+      "characters": [],
+      "action": "Five hundred blades and rifles snap upward in rigid, thundering military synchronization.",
+      "mood": "rigid honors",
+      "sfx": "SNAP-SWORDS!!"
+    },
+    {
+      "id": "p04",
+      "shot": "inside the grand auditorium: the world council waiting in silence",
+      "setting": "auditorium wide",
+      "characters": [],
+      "action": "A thousand diplomats, presidents, and demonic clan patriarchs rise in silence as the brothers enter the hall.",
+      "mood": "world council",
+      "sfx": "HUSH..."
+    },
+    {
+      "id": "p05",
+      "shot": "tae-jun walking to the central podium unbuckling his guardian claymore",
+      "setting": "unbuckling sword",
+      "characters": [],
+      "action": "Tae-Jun walks to the central marble podium, unbuckling the heavy bronze sword harness from his chest.",
+      "mood": "relinquishing the weapon",
+      "sfx": "LEATHER UNBUCKLE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "For seven years, I carried this sword in the dark so my brother could live in the light.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "tae-jun laying the bronze sword upon the velvet ceremonial table",
+      "setting": "sword on velvet",
+      "characters": [],
+      "action": "Tae-Jun lays his iconic bronze blade upon a velvet-lined mahogany table, his hands steady and peaceful.",
+      "mood": "laying down arms",
+      "sfx": "CLANG-REST..."
+    },
+    {
+      "id": "p07",
+      "shot": "close-up on tae-jun hands: calloused, scarred, but now relaxed",
+      "setting": "tae-jun hands close-up",
+      "characters": [],
+      "action": "The deep scars from Project Chimera biopsies are healed; his fingers rest loosely without trembling.",
+      "mood": "peace in the hands",
+      "sfx": "RELAX...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "The long, lonely war of Subject Zero was over.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p08",
+      "shot": "tae-jun turning to face ha-jun with tears of brotherly pride",
+      "setting": "tae-jun looks at ha-jun",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun looks at Ha-Jun, his voice thick with emotion: 'My duty as your shield is finished, Ha-Jun.'",
+      "mood": "passing the torch",
+      "sfx": "TEAR GLINT...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Tum ab mere chhotey bhai nahi rahe jisko bachane ki zaroorat hai. You are the Sovereign.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "ha-jun stepping forward gripping tae-jun hands with deep emotion",
+      "setting": "brothers holding hands",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun grips his brother's hands: 'You will always be my shield, Tae-Jun. Not because of a sword, but because of your heart.'",
+      "mood": "brotherly bond eternal",
+      "sfx": "GRIP...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Tum hamesha mere elder brother rahoge. Nothing can change that.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "the entire assembly erupting into a five-minute standing ovation",
+      "setting": "standing ovation",
+      "characters": [],
+      "action": "Diplomats, generals, and demon lords applaud with tears in their eyes, celebrating the brothers' eternal love.",
+      "mood": "applause thunder",
+      "sfx": "THUNDER-APPLAUSE!!"
+    },
+    {
+      "id": "p11",
+      "shot": "captain baek presenting tae-jun with the medal of supreme honor",
+      "setting": "medal presentation",
+      "characters": [],
+      "action": "General Baek pins the newly forged 'Star of Earth' gold medal onto Tae-Jun's lapel: 'The highest honor of our united world.'",
+      "mood": "highest medal",
+      "sfx": "MEDAL PIN-CLICK...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "baek",
+          "text": "For the greatest guardian humanity ever produced.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "tae-jun smiling warmly accepting the medal with a dignified bow",
+      "setting": "tae-jun accepts",
+      "characters": [],
+      "action": "Tae-Jun bows gracefully: 'I accept this on behalf of all the children who survived the dark.'",
+      "mood": "humble acceptance",
+      "sfx": "BOW..."
+    },
+    {
+      "id": "p13",
+      "shot": "ha-jun stepping up to the signing desk to ratify the final accord",
+      "setting": "ha-jun at signing desk",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun steps forward to the treaty document, dipping his ceremonial pen in golden ink.",
+      "mood": "the sovereign signs",
+      "sfx": "PEN CLINK..."
+    },
+    {
+      "id": "p14",
+      "shot": "extreme macro on ha-jun signature: 'Kang Ha-Jun — True Demon Sovereign'",
+      "setting": "signature macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "With a smooth, elegant stroke, Ha-Jun's name is inscribed into the foundation of global history.",
+      "mood": "history written",
+      "sfx": "SCRITCH-SCRATCH..."
+    },
+    {
+      "id": "p15",
+      "shot": "golden runic seal radiating from the paper binding both worlds in peace",
+      "setting": "treaty glow",
+      "characters": [],
+      "action": "The treaty parchment pulses with golden sovereign mana, locking the planetary wards forever.",
+      "mood": "eternal peace sealed",
+      "sfx": "WARM PULSE...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "A world where demons and humans walked as brothers was born.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "flash forward: late afternoon in a sunny seoul residential park",
+      "setting": "park wide afternoon",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Late afternoon: golden autumn leaves drift from oak trees in a peaceful Mapo residential park.",
+      "mood": "peaceful autumn park",
+      "sfx": "LEAVES RUSTLE..."
+    },
+    {
+      "id": "p17",
+      "shot": "ha-jun and tae-jun walking side by side in casual civilian clothes",
+      "setting": "brothers casual walk",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun wears a comfortable grey hoodie and jeans; Tae-Jun wears a black leather jacket and boots.",
+      "mood": "normal life returned",
+      "sfx": "FOOTSTEPS..."
+    },
+    {
+      "id": "p18",
+      "shot": "kuro hopping along the wooden park bench chasing a falling leaf",
+      "setting": "kuro chasing leaf",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Little Kuro playfully hops along a green park bench, snapping his beak at a swirling red maple leaf.",
+      "mood": "playful familiar",
+      "sfx": "HOP-SNAP...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "This leaf has offensive aerodynamic properties. I have conquered it.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "ha-jun and tae-jun laughing at kuro antics",
+      "setting": "brothers laughing",
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
+      "action": "The brothers laugh in the cool autumn breeze, their faces free of stress and darkness.",
+      "mood": "pure brotherly joy",
+      "sfx": "LAUGHTER...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Kuro, it's just a maple leaf.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "tae-jun stopping at a park vending machine buying two ice cream cones",
+      "setting": "buying ice cream",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun stops at an outdoor ice cream stand, handing Ha-Jun a waffle cone with two scoops of chocolate.",
+      "mood": "childhood memory restored",
+      "sfx": "ICE CREAM...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Double chocolate. Your favorite since you were seven.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "ha-jun eyes widening as the forgotten childhood memory returns!",
+      "setting": "memory returns macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun takes the cone; a spark of golden starlight flashes in his brain as the sacrificed memory restores itself!",
+      "mood": "the miracle of love",
+      "sfx": "FLASH-RECALL!!",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Namsan Tower... Summer vacation... I remember! The memory came back!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "ha-jun tears welling up as he remembers his mother's smile clearly",
+      "setting": "mother memory returns",
+      "characters": [
+        "hajun"
+      ],
+      "action": "In his mind, his mother's smiling face crystallizes in sharp, beautiful 4K clarity: the Hourglass has returned his memories!",
+      "mood": "memories restored",
+      "sfx": "TEARS OF JOY...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Hyung... Mummy ka chehra... Mujhe sab yaad aa gaya!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "tae-jun smiling with deep, tearful warmth wrapping arm around ha-jun",
+      "setting": "tae-jun hugs",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun hugs him sideways, tears running down his cheeks: 'Because love cannot be erased by time, Ha-Jun.'",
+      "mood": "love conquers time",
+      "sfx": "TEARS...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Maine kaha tha na? Jo sach hai wo kabhi nahi mit sakta.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "kuro landing on ha-jun shoulder pecking a piece of waffle cone",
+      "setting": "kuro eats ice cream",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Kuro pecks a tiny crumb of waffle: 'Mmm. Sugary. The Sovereign's chef should take notes.'",
+      "mood": "lighthearted familiar",
+      "sfx": "PECK..."
+    },
+    {
+      "id": "p25",
+      "shot": "min-jae running into the park waving university graduation cap and gowns",
+      "setting": "min-jae arrives park",
+      "characters": [],
+      "action": "Min-Jae runs across the grass carrying two graduation gowns: 'Hey! The registrar office called! We passed our exams!'",
+      "mood": "graduation news",
+      "sfx": "WAVING GOWNS...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "We passed calculus!! Graduation ceremony is on Friday!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "shot": "ha-jun bursting into surprised laughter: 'we passed calculus?!'",
+      "setting": "surprised laughter",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun laughs out loud: 'Wait, I actually passed without studying?!'",
+      "mood": "comedy of student life",
+      "sfx": "LAUGH-SHOCK...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Calculus pass ho gaya?! How is that possible?!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "min-jae grinning: 'the professor said saving the university gives 100 extra credit points!'",
+      "setting": "extra credit humor",
+      "characters": [],
+      "action": "Min-Jae winks: 'Professor Park said saving the campus from a 2-mile dreadnought counts as extra credit!'",
+      "mood": "humorous reward",
+      "sfx": "WINK...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Dreadnought slice karne ke 100 bonus marks mile!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "the group of four friends laughing together under the golden maple trees",
+      "setting": "group laughing wide",
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
+      "action": "The four companions laugh together under the golden autumn trees, their shadows stretching long and peaceful.",
+      "mood": "peaceful youth",
+      "sfx": "GOLDEN SUN..."
+    },
+    {
+      "id": "p29",
+      "shot": "sunset over seoul: neon lights turning on under a clean, peaceful sky",
+      "setting": "seoul sunset skyline",
+      "characters": [],
+      "action": "The sun sets behind Bukhansan mountain; Seoul glows with millions of tranquil, peaceful neon lights.",
+      "mood": "tranquil city",
+      "sfx": "DUSK GLOW...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "The city was safe. The war was won.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun looking up at the first evening star smiling with complete peace cliffhanger",
+      "setting": "ha-jun looking at star",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun looks up at the first twinkling evening star, his royal violet eyes filled with serenity and readiness for the future.",
+      "mood": "the peaceful sovereign cliffhanger",
+      "sfx": "STAR TWINKLE...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "DEMON SOVEREIGN'S BLOODLINE — CHAPTER 92 CONCLUDED.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    }
+  ]
+}

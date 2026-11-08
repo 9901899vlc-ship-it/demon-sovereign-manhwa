@@ -1,0 +1,495 @@
+{
+  "chapter": 88,
+  "title": "The Betrayal of Kuro",
+  "arc": 9,
+  "arc_title": "THE WAR OF SOVEREIGNS",
+  "summary": "The truth behind the Primordial Binding is fully unmasked as Ha-Jun and the redeemed Kuro wage a ferocious aerial duel against Emperor Nihilux above Seoul.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "emperor nihilux drawing twin 50-foot greatswords of black void steel",
+      "setting": "nihilux twin swords wide",
+      "characters": [],
+      "action": "Nihilux unsheathes two colossal jagged blades forged from the cores of collapsed black holes.",
+      "mood": "the emperor armed",
+      "sfx": "SHINGGG-HEAVY!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "nihilux",
+          "text": "Even with your bird restored, you are but dust before the First Emperor of the Void!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p02",
+      "shot": "nihilux leaping forward with seismic force shattering the courtyard lawn",
+      "setting": "nihilux leaps",
+      "characters": [],
+      "action": "Nihilux leaps with the force of an artillery barrage, his twin blades cleaving downward at Mach 10.",
+      "mood": "crushing leap",
+      "sfx": "CRASH-LEAP!!"
+    },
+    {
+      "id": "p03",
+      "shot": "ha-jun meeting both blades with the sanguine fang: blinding shockwave",
+      "setting": "epic blade clash",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun parries both 50-foot swords with his single seven-foot blade; the shockwave blows all clouds from the sky.",
+      "mood": "seismic blade parry",
+      "sfx": "KABOOOOOM-PARRY!!"
+    },
+    {
+      "id": "p04",
+      "shot": "kuro swooping from above driving blazing talons into nihilux helm",
+      "setting": "kuro talon dive",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro swoops down at Mach 12, driving his white-hot solar talons into Nihilux's armored horned faceplate.",
+      "mood": "talon strike on face",
+      "sfx": "TALON CRUNCH-SPARK!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "kuro",
+          "text": "THAT IS FOR CONTROLLING MY MIND, YOU SLIME!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "nihilux staggering back his faceplate gouged and smoking",
+      "setting": "nihilux staggered",
+      "characters": [],
+      "action": "Nihilux stumbles backward three steps, dark oil-blood leaking from four deep gouges across his metal visor.",
+      "mood": "emperor wounded",
+      "sfx": "HISS-OIL...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "nihilux",
+          "text": "Insolent pest!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "tae-jun from the ground firing a beam of concentrated bronze mana",
+      "setting": "tae-jun ground support",
+      "characters": [],
+      "action": "Tae-Jun thrusts his right palm forward, firing a concentrated laser of bronze guardian mana into Nihilux's knee.",
+      "mood": "brotherly ground support",
+      "sfx": "BEAM-PANG!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "tae_jun",
+          "text": "STAY DOWN!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "nihilux knee buckling again as ha-jun dashes into his guard",
+      "setting": "ha-jun dashes in",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Taking advantage of the stagger, Ha-Jun blurs inside Nihilux's reach, his blade spinning in a crimson blur.",
+      "mood": "close-quarters blitz",
+      "sfx": "DASH-BLUR!!"
+    },
+    {
+      "id": "p08",
+      "shot": "ha-jun executing a seven-slash combination across nihilux torso",
+      "setting": "seven slash combo",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Seven blinding cuts carve through Nihilux's breastplate, exposing the glowing green anti-matter core inside.",
+      "mood": "armor breached",
+      "sfx": "SLASH-SLASH-SLASH!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "SEVEN STRIKES OF THE SOVEREIGN!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "nihilux roaring in fury releasing an anti-matter pulse point blank",
+      "setting": "anti-matter pulse",
+      "characters": [],
+      "action": "Nihilux detonates a defensive pulse of black antimatter, blasting Ha-Jun backward 100 feet through the air.",
+      "mood": "defensive blast",
+      "sfx": "KABOOOM-PULSE!!"
+    },
+    {
+      "id": "p10",
+      "shot": "ha-jun backflipping through the air landing lightly on a flagpole",
+      "setting": "flagpole balance",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun lands with acrobatic poise atop the university center flagpole, his coat fluttering gracefully.",
+      "mood": "agile landing",
+      "sfx": "LIGHT TOUCH..."
+    },
+    {
+      "id": "p11",
+      "shot": "nihilux summoning the remaining two void thrones to earth",
+      "setting": "summoning remaining thrones",
+      "characters": [],
+      "action": "Nihilux raises his hand: 'Baal-Zahar! Lilith-Morg! Descend and feast upon these children!'",
+      "mood": "reinforcements summoned",
+      "sfx": "SHOUT!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "nihilux",
+          "text": "Sovereigns of Blood and Soul! Destroy them!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "two massive dimensional rifts opening beside nihilux",
+      "setting": "rifts opening wide",
+      "characters": [],
+      "action": "Two colossal rifts tear open; Lord Baal-Zahar and Empress Lilith-Morg step onto the Seoul battlefield.",
+      "mood": "the triumvirate united",
+      "sfx": "TEAR-ROAR!!"
+    },
+    {
+      "id": "p13",
+      "shot": "baal-zahar boiling a river of corrosive blood across the streets",
+      "setting": "corrosive blood river",
+      "characters": [],
+      "action": "Baal-Zahar unleashes a boiling wave of toxic red blood that melts asphalt and cars along the boulevard.",
+      "mood": "toxic blood wave",
+      "sfx": "SIZZLE-MELT!!"
+    },
+    {
+      "id": "p14",
+      "shot": "lilith-morg wailing a banshee soul-scream that disorients soldiers",
+      "setting": "banshee scream",
+      "characters": [],
+      "action": "Lilith-Morg emits an ultrasonic soul-wail that causes human and demon soldiers to drop to their knees clutching ears.",
+      "mood": "soul wail",
+      "sfx": "SKREEEE-WAIL!!"
+    },
+    {
+      "id": "p15",
+      "shot": "ha-jun looking down at his suffering soldiers with fierce compassion",
+      "setting": "ha-jun concern for army",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun looks down at his allies: 'I will not allow you to slaughter my people!'",
+      "mood": "protective fury",
+      "sfx": "CLENCH FISTS..."
+    },
+    {
+      "id": "p16",
+      "shot": "ha-jun invoking the crown of the sovereign: monarch's domain 10 miles",
+      "setting": "monarch domain",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun activates the Crown's full power: a 10-mile golden dome covers all of Seoul, silencing the soul-wail.",
+      "mood": "domain expansion",
+      "sfx": "EXPAND-DOME!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "SOVEREIGN DOMAIN: ABSOLUTE SANCTUARY!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "the banshee wail neutralized and the corrosive blood purified to water",
+      "setting": "purification of battlefield",
+      "characters": [],
+      "action": "Within Ha-Jun's domain, Lilith-Morg's wail is silenced and Baal-Zahar's toxic blood turns into crystal-clear clean water.",
+      "mood": "purification wave",
+      "sfx": "CLEANSE-CHIME...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "Within the Sovereign's domain, only the King's law exists.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "baal-zahar and lilith-morg staring at their nullified spells in shock",
+      "setting": "bosses shocked",
+      "characters": [],
+      "action": "The two Void Sovereigns stare at their hands in disbelief: 'Our primordial spells... Nullified in an instant?!'",
+      "mood": "sovereigns disarmed",
+      "sfx": "GASP...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "baal_zahar",
+          "text": "His domain authority exceeds even the First Sovereign's records!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "ha-jun appearing between baal-zahar and lilith-morg in a flash of starlight",
+      "setting": "instant arrival",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun materializes directly between the two gods, his Sanguine Fang already swung in a 360-degree arc.",
+      "mood": "the double cleave",
+      "sfx": "FLASH-SHING!!"
+    },
+    {
+      "id": "p20",
+      "shot": "ha-jun slicing through both baal-zahar and lilith-morg simultaneously",
+      "setting": "double execution",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A single fluid horizontal circular slash cleanly beheads Lord Baal-Zahar and bisects Empress Lilith-Morg.",
+      "mood": "two gods slain at once",
+      "sfx": "CLEAVE-CLEAVE!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "BEGONE FROM MY HOME!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "both void sovereigns exploding into massive clouds of grey ash",
+      "setting": "ash clouds wide",
+      "characters": [],
+      "action": "The two ancient gods disintegrate into two towering pillars of grey ash that dissolve harmlessly in the wind.",
+      "mood": "two thrones annihilated",
+      "sfx": "DISSOLVE-ASH..."
+    },
+    {
+      "id": "p22",
+      "shot": "nihilux standing alone, his four hands trembling in first true fear",
+      "setting": "nihilux alone",
+      "characters": [],
+      "action": "Emperor Nihilux stands completely alone in the center of the boulevard, his remaining twin blades shaking.",
+      "mood": "the emperor terrified",
+      "sfx": "TREMBLE...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "nihilux",
+          "text": "Both of them... In a fraction of a second... This boy is not a mortal!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "ha-jun turning toward nihilux his eyes burning with cold judgment",
+      "setting": "ha-jun looks at nihilux",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun turns around slowly, his blood katana dripping stardust: 'Now it's just you and me, Nihilux.'",
+      "mood": "the final confrontation",
+      "sfx": "STEP-LOOM...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Ab sirf tum bache ho.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "tae-jun stepping up to ha-jun right side claymore drawn",
+      "setting": "tae-jun joins right",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun joins his right side, bronze armor gleaming: 'Make that you, me, and our brother.'",
+      "mood": "brothers side by side",
+      "sfx": "STEP-STAND!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "We finish this together.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "kuro landing on ha-jun left shoulder wings flaring proudly",
+      "setting": "kuro joins left",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Kuro settles on his left shoulder, eyes blazing ruby: 'And don't forget the bird.'",
+      "mood": "trio complete",
+      "sfx": "PURR...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Ready when you are, Ha-Jun.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "shot": "nihilux screaming in desperate madness charging all his void energy",
+      "setting": "nihilux final charge",
+      "characters": [],
+      "action": "Nihilux screams, channeling the remaining dark matter of a thousand dead stars into his chest core.",
+      "mood": "suicide charge preparation",
+      "sfx": "KABOOOM-CHARGE!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "nihilux",
+          "text": "IF I DIE, I WILL DRAG THIS ENTIRE CONTINENT TO HELL WITH ME!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "nihilux chest core expanding into an unstable supernova bomb",
+      "setting": "supernova core macro",
+      "characters": [],
+      "action": "His chest core swells into a blinding sphere of unstable green anti-matter, ready to vaporize Korea.",
+      "mood": "planetary suicide bomb",
+      "sfx": "CRITICAL OVERLOAD!!"
+    },
+    {
+      "id": "p28",
+      "shot": "tae-jun lunging forward to pin nihilux arms with his claymore",
+      "setting": "tae-jun pins nihilux",
+      "characters": [],
+      "action": "Tae-Jun sprints forward, driving his claymore through Nihilux's wrists, pinning the monster's arms to the ground.",
+      "mood": "sacrificial pin",
+      "sfx": "DRIVE-PIN!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "tae_jun",
+          "text": "HA-JUN!! DO IT NOW!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "ha-jun channeling the hourglass and the sanguine fang for the final strike",
+      "setting": "final strike ready",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun leaps into the air, holding the Sanguine Fang with both hands, starlight and chronos sand fusing on the edge.",
+      "mood": "the sovereign executioner",
+      "sfx": "CELESTIAL BLADE ROAR!!"
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun driving the blade straight down into the unstable core cliffhanger",
+      "setting": "downward strike cliffhanger",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun plunges his starlight blade straight into the center of the unstable supernova core!",
+      "mood": "core pierced cliffhanger",
+      "sfx": "DRIVE-SUPERNOVA-FLASH!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "PERISH IN THE LIGHT!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    }
+  ]
+}

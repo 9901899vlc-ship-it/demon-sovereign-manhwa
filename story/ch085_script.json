@@ -1,0 +1,505 @@
+{
+  "chapter": 85,
+  "title": "The World Under Siege",
+  "arc": 9,
+  "arc_title": "THE WAR OF SOVEREIGNS",
+  "summary": "Dreadnoughts descend on every continent. Ha-Jun cleaves the flagship over Seoul in a single titanic stroke, while Tae-Jun holds the line in the upper stratosphere.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "global satellite view of earth surrounded by thousands of red portal rifts",
+      "setting": "global view space",
+      "characters": [],
+      "action": "From orbit, Earth looks ensnared in a web of bleeding red cracks; smoke plumes rise from sixty world capitals.",
+      "mood": "planetary invasion",
+      "sfx": "PLANETARY BLEED..."
+    },
+    {
+      "id": "p02",
+      "shot": "in the upper stratosphere: tae-jun fighting in full aegis plate",
+      "setting": "tae-jun in stratosphere",
+      "characters": [],
+      "action": "In the thin blue air 50,000 feet up, Kang Tae-Jun slices through fifty flying void hydras with his bronze claymore.",
+      "mood": "the orbital defender",
+      "sfx": "SLASH-CLAYMORE!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "tae_jun",
+          "text": "NOT A SINGLE BEAST TOUCHES THE SURFACE!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "shot": "section 9 fighter jets screeching through the clouds supporting tae-jun",
+      "setting": "jet fighters",
+      "characters": [],
+      "action": "Twelve advanced supersonic fighter jets streak past, firing anti-matter missiles into the beast swarm.",
+      "mood": "human air support",
+      "sfx": "ROAR-AFTERBURNER!!"
+    },
+    {
+      "id": "p04",
+      "shot": "down over seoul: the 2-mile dreadnought charging main plasma cannon",
+      "setting": "dreadnought cannon macro",
+      "characters": [],
+      "action": "Beneath the clouds, the two-mile dreadnought charges its ventral cannon—a 100-meter barrel glowing with green atomic fire.",
+      "mood": "planet-killer charging",
+      "sfx": "HUMMM-CHARGE!!",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "Target: Seoul Metropolitan Sector. Power output: 50 Megatons.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "ha-jun floating 200 feet before the charging cannon barrel",
+      "setting": "ha-jun standoff",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun hovers weightlessly in front of the colossal glowing barrel, his dark hair whipping in the ionized plasma winds.",
+      "mood": "david before goliath",
+      "sfx": "WIND-ION...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Fifty megatons... Agar yeh strike land hui, toh Mapo district ka naam o nishan mit jayega.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "kuro circling overhead his feathers trailing purple lightning",
+      "setting": "kuro aerial",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Kuro screeches: 'The dreadnought core is protected by an SSS-rank Void Barrier! You need spatial severance!'",
+      "mood": "tactical advice",
+      "sfx": "SKREEE!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Fang of Abyss use karo! Slice space itself!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "ha-jun drawing the fang of abyss relic into his right hand",
+      "setting": "fang relic drawn",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The Fang of Abyss materializes—a jagged dagger of pure obsidian void-glass that warps the air around its edge.",
+      "mood": "relic manifested",
+      "sfx": "SPATIAL DISTORTION..."
+    },
+    {
+      "id": "p08",
+      "shot": "ha-jun fusing the fang of abyss into the sanguine fang katana",
+      "setting": "fusing relics",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun combines both blades; the Sanguine Fang's blade elongates into a terrifying seven-foot void-katana.",
+      "mood": "weapon fusion",
+      "sfx": "FUSE-SHING!!",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "SOVEREIGN WEAPON: ABYSSAL BLOOD CUTTER.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "the dreadnought ventral cannon firing its 50-megaton green beam",
+      "setting": "cannon firing",
+      "characters": [],
+      "action": "A blinding green atomic beam fifty meters wide erupts from the barrel, incinerating clouds in its path toward Saint Mirren.",
+      "mood": "destructive eruption",
+      "sfx": "KABOOOOOOOM-BEAM!!"
+    },
+    {
+      "id": "p10",
+      "shot": "ha-jun swinging the fused blade in a vertical upward stroke",
+      "setting": "the upward stroke",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun meets the million-degree beam with a single, upward diagonal slash of his seven-foot blade.",
+      "mood": "slashing the apocalypse",
+      "sfx": "SLASH-CLEAVE!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "DIMENSIONAL SEVERANCE: RUIN!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "the 50-megaton beam split cleanly in two like running water",
+      "setting": "beam bisected",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The massive green energy beam is cleanly bisected down the center, parting harmlessly around Ha-Jun into the upper clouds.",
+      "mood": "energy parted",
+      "sfx": "PART-HISS!!"
+    },
+    {
+      "id": "p12",
+      "shot": "ha-jun starlight blade wave continuing into the dreadnought hull",
+      "setting": "blade wave travel",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The crescent shockwave of violet starlight doesn't stop; it travels up into the very prow of the two-mile dreadnought.",
+      "mood": "cleaving the warship",
+      "sfx": "DRIVE-CARVE!!"
+    },
+    {
+      "id": "p13",
+      "shot": "the two-mile dreadnought bisected cleanly from bow to stern",
+      "setting": "dreadnought split wide",
+      "characters": [],
+      "action": "With a deafening groan of shearing titanium armor, the colossal two-mile ship splits cleanly in two halves.",
+      "mood": "warship sliced in half",
+      "sfx": "CREEEEEAK-SNAP!!",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "A two-mile dreadnought... Cleaved with a single swing.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "internal secondary explosions ripping through both halves of the ship",
+      "setting": "secondary explosions",
+      "characters": [],
+      "action": "Dozens of internal power reactors detonate inside the severed ship, creating a spectacular chain of orange fireballs.",
+      "mood": "chain reaction explosions",
+      "sfx": "KABOOM-BOOM-BOOM!!"
+    },
+    {
+      "id": "p15",
+      "shot": "ha-jun invoking eclipse devourer to consume the falling wreckage",
+      "setting": "devourer absorption",
+      "characters": [
+        "hajun"
+      ],
+      "action": "To protect the university below, Ha-Jun opens a colossal black hole vortex above the campus, swallowing all falling scrap.",
+      "mood": "protecting campus",
+      "sfx": "SLURP-VOID-SWALLOW!!"
+    },
+    {
+      "id": "p16",
+      "shot": "not a single piece of flaming debris touching the saint mirren courtyard",
+      "setting": "clean courtyard",
+      "characters": [],
+      "action": "The courtyard remains pristine; only warm stardust and confetti-like violet embers drift onto the grass.",
+      "mood": "miraculous protection",
+      "sfx": "DRIFT..."
+    },
+    {
+      "id": "p17",
+      "shot": "students and faculty cheering wildly from behind the classroom windows",
+      "setting": "students cheering",
+      "characters": [],
+      "action": "Inside the ward, professors and students press against the glass, weeping and shouting Ha-Jun's name in joy.",
+      "mood": "campus salvation",
+      "sfx": "CHEERS-SOB!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "professor",
+          "text": "He saved us... Kang Ha-Jun saved our entire university!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "min-jae giving a triumphant fist pump against the window glass",
+      "setting": "min-jae proud",
+      "characters": [],
+      "action": "Min-Jae slams his fist against the pane, grinning ear to ear: 'That's my best friend, you alien bastards!!'",
+      "mood": "best friend pride",
+      "sfx": "PUMP!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "THAT'S THE DEMON SOVEREIGN!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "ha-jun hovering in the quiet air catching his breath",
+      "setting": "hero hover",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun floats in the clearing sky, his coat settling smoothly; a drop of sweat traces down his jawline.",
+      "mood": "brief respite",
+      "sfx": "PANT..."
+    },
+    {
+      "id": "p20",
+      "shot": "kuro landing on ha-jun shoulder with eyes twitching oddly",
+      "setting": "kuro landing odd",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Kuro lands on his shoulder, but his head twitches unnaturally; faint green static sparks across his feathers.",
+      "mood": "subtle omen",
+      "sfx": "TWITCH-SPARK...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "H-Ha-Jun... Something... is wrong in my mind...",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "ha-jun turning his head to look at kuro with concern",
+      "setting": "ha-jun concern",
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
+      "action": "Ha-Jun looks at his familiar: 'Kuro? What's wrong? Are you hurt from the blast?'",
+      "mood": "brotherly worry",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Kuro? Tumhare feathers twitch kyun kar rahe hain?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "kuro ruby eyes flickering into sickly glowing neon-green",
+      "setting": "kuro eyes turning green",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro's eyes turn from noble crimson to poisonous fluorescent green; a sharp screech escapes his beak.",
+      "mood": "corruption begins",
+      "sfx": "GREEN GLINT...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "SKREEE... The... The Primordial Binding... Nihilux has the ancient whistle!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "a horrifying sonic frequency echoing from the dimensional sky",
+      "setting": "sonic wave sky",
+      "characters": [],
+      "action": "High above, Emperor Nihilux blows into an ancient bone whistle carved from the first dragon's spine.",
+      "mood": "the cursed frequency",
+      "sfx": "EERIE WHISTLE..."
+    },
+    {
+      "id": "p24",
+      "shot": "kuro screaming in agony as dark green runes spread over his wings",
+      "setting": "kuro agonizing",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro thrashes, clutching his head with his talons as ancient void runes burn through his feather shafts.",
+      "mood": "mind hijacked",
+      "sfx": "AGONY SCREECH!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "kuro",
+          "text": "HA-JUN!! GET AWAY FROM ME!! I CAN'T HOLD IT!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "ha-jun reaching out to comfort kuro: 'kuro, hold on! i'll purify you!'",
+      "setting": "ha-jun reaching",
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
+      "action": "Ha-Jun reaches both hands out, channeling gentle sovereign healing mana toward his thrashing familiar.",
+      "mood": "desperate purification",
+      "sfx": "REACH...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Kuro! Shh, I've got you! Resist it!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "shot": "kuro talons suddenly snapping out with blinding supersonic speed",
+      "setting": "talon strike blur",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Controlled by the whistle, Kuro's diamond talons strike forward like lightning, slashing across Ha-Jun's chest.",
+      "mood": "the tragic strike",
+      "sfx": "FLASH-SLASH!!"
+    },
+    {
+      "id": "p27",
+      "shot": "blood sprays as ha-jun coat and chest are torn open",
+      "setting": "blood spray close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Blood sprays across the clouds; three deep claw wounds rip through Ha-Jun's chest, tearing three Relic seals away.",
+      "mood": "ha-jun wounded by familiar",
+      "sfx": "TEAR-BLOOD!!",
+      "dialogue": [
+        {
+          "type": "gasp",
+          "speaker": "hajun",
+          "text": "KURO...?!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "the bone, ring, and ashen heart relics falling from ha-jun chest",
+      "setting": "relics falling",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The three basic relics detach from his heart, their light flickering weakly as they tumble toward the ground.",
+      "mood": "relics dislodged",
+      "sfx": "TUMBLE-GLOW..."
+    },
+    {
+      "id": "p29",
+      "shot": "kuro snatching the three relics in his talons flying upward in tears",
+      "setting": "kuro flying away weeping",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Possessed Kuro clutches the three relics, crying tears of bloody grief as his wings carry him to Nihilux's throne.",
+      "mood": "the tragic abduction",
+      "sfx": "FLAP-WEEP...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "I'm sorry... Ha-Jun... I'm so sorry...",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun falling through the clouds clutching his bleeding chest cliffhanger",
+      "setting": "ha-jun falling wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Wounded and betrayed by cosmic fate, Ha-Jun plunges from the sky toward the ruined city below!",
+      "mood": "arc 9 tragic cliffhanger",
+      "sfx": "FALL-PLUNGE!!",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "THE GUARDIAN HAS TURNED. THE SOVEREIGN FALLS.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    }
+  ]
+}

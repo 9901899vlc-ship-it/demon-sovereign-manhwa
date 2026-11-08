@@ -1,0 +1,497 @@
+{
+  "chapter": 91,
+  "title": "The Broken Relics",
+  "arc": 9,
+  "arc_title": "THE WAR OF SOVEREIGNS",
+  "summary": "Integrating his shadow half, Ha-Jun absorbs the shattered remnants of the nine physical Relics into a single unified spiritual core within his beating heart.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "the 30-foot shadow titan dissolving into sparkling golden rain",
+      "setting": "titan dissolves wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The colossal shadow dissolves into millions of golden star-particles, raining softly across the black water.",
+      "mood": "titan dissolved into light",
+      "sfx": "GLITTER SHOWER..."
+    },
+    {
+      "id": "p02",
+      "shot": "the golden particles swirling in a vortex around ha-jun body",
+      "setting": "particle vortex",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The purified energy spirals around Ha-Jun, soaking into his pores, skin, and bone marrow like liquid warmth.",
+      "mood": "energy absorption",
+      "sfx": "SWIRL-WARMTH..."
+    },
+    {
+      "id": "p03",
+      "shot": "all ten relics floating in the air around ha-jun beginning to crack",
+      "setting": "relics cracking",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The physical forms of the Feather, Ring, Bone, Heart, Fang, Eye, Chains, Crown, Devourer, and Hourglass hover around him, cracking with golden light.",
+      "mood": "relic transformation",
+      "sfx": "CRACKLE-CHIME...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "The physical vessels were only training wheels.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "the ten physical relics shattering simultaneously into pure mana shards",
+      "setting": "relics shatter wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "All ten relics shatter into clouds of brilliant stardust, shedding their mortal physical forms forever.",
+      "mood": "shedding physical form",
+      "sfx": "SHATTER-CLANG!!"
+    },
+    {
+      "id": "p05",
+      "shot": "kuro watching in stunned, reverent awe as his fallen feather dissolves",
+      "setting": "kuro watching feather dissolve",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Kuro watches his original Fallen Feather dissolve into pure starlight, tears of joy shining in his eyes.",
+      "mood": "the feather fulfilled",
+      "sfx": "TEAR-SHINE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "My feather's duty is complete. The true Sovereign has surpassed the relics.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "the ten clouds of stardust fusing into a single radiant sphere",
+      "setting": "singular core",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The ten different types of mana combine into a single miniature sun of pure white, gold, and violet light.",
+      "mood": "the unified sovereign core",
+      "sfx": "FUSION-SUN!!"
+    },
+    {
+      "id": "p07",
+      "shot": "the singular core descending slowly into ha-jun solar plexus",
+      "setting": "core descent",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The radiant sphere descends into Ha-Jun's chest, sinking smoothly into his beating heart.",
+      "mood": "heart integration",
+      "sfx": "SINK-PULSE..."
+    },
+    {
+      "id": "p08",
+      "shot": "ha-jun eyes closing as his entire genetic code undergoes divine evolution",
+      "setting": "genetic evolution macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Inside his cells, the double-helix DNA strands turn to radiant platinum-black stardust.",
+      "mood": "cellular transcendence",
+      "sfx": "CELLULAR GLOW..."
+    },
+    {
+      "id": "p09",
+      "shot": "system notification window appearing for the final time",
+      "setting": "final system window",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The interface appears, glowing in pure celestial platinum: '[BLOODLINE SYNCHRONIZATION: 95.0% - ASCENDANT MONARCH REACHED]'.",
+      "mood": "95 percent synchronization",
+      "sfx": "PLATINUM CHIME!!"
+    },
+    {
+      "id": "p10",
+      "shot": "the black ocean beneath his feet turning into crystal-clear mirror glass",
+      "setting": "water turns to glass",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The dark water transforms into a mirror of pure clear diamond, reflecting an endless sky of golden dawns.",
+      "mood": "mindscape purified",
+      "sfx": "CLEAR MIRROR..."
+    },
+    {
+      "id": "p11",
+      "shot": "the phantom of asmodaius kneeling before ha-jun with bowed head",
+      "setting": "asmodaius kneels",
+      "characters": [
+        "hajun"
+      ],
+      "action": "First Sovereign Asmodaius appears, kneeling on one knee with head bowed: 'You have done what I could not. You are the True Sovereign.'",
+      "mood": "the progenitor kneels",
+      "sfx": "KNEEL-BOW...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "asmodaius",
+          "text": "My reign is finished. Rule the cosmos with mercy, Ha-Jun.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "ha-jun gently placing his hand on asmodaius shoulder raising him up",
+      "setting": "ha-jun raises ancestor",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun lifts his ancestor to his feet with a warm smile: 'Thank you for protecting the covenant, Asmodaius. Rest now.'",
+      "mood": "releasing the past",
+      "sfx": "LIFT...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Rest in peace, Asmodaius. Earth is in good hands.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "asmodaius phantom dissolving peacefully into the golden sunrise",
+      "setting": "asmodaius ascends",
+      "characters": [],
+      "action": "Asmodaius smiles peacefully, dissolving into golden light particles that drift into the morning sky.",
+      "mood": "ancestor's peace",
+      "sfx": "FADE-LIGHT..."
+    },
+    {
+      "id": "p14",
+      "shot": "the mindscape boundary dissolving: reality returning",
+      "setting": "mindscape fade",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The dreamlike sky recedes; the physical world over Gwanghwamun Square crystallizes back into view.",
+      "mood": "return to reality",
+      "sfx": "FADE IN..."
+    },
+    {
+      "id": "p15",
+      "shot": "ha-jun opening eyes hovering in the sky over seoul",
+      "setting": "eyes open in sky",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's eyes open: royal violet irises circled by three spinning starlight halos.",
+      "mood": "eyes of the ascendant",
+      "sfx": "GLOW-RINGS!!"
+    },
+    {
+      "id": "p16",
+      "shot": "tae-jun, min-jae, and baek looking up from the square with cheers",
+      "setting": "allies looking up",
+      "characters": [],
+      "action": "Down in the square, Tae-Jun, Min-Jae, and Captain Baek look up, seeing Ha-Jun's radiant return.",
+      "mood": "joyful recognition",
+      "sfx": "CHEERS...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "He's back! Ha-Jun conquered the trial!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "the sky above seoul clearing into pristine, cloudless azure blue",
+      "setting": "clear blue sky wide",
+      "characters": [],
+      "action": "The red apocalyptic clouds vanish completely; warm, golden autumn sunshine floods the streets of Seoul.",
+      "mood": "sunshine returns",
+      "sfx": "SUNSHINE-WARMTH..."
+    },
+    {
+      "id": "p18",
+      "shot": "ha-jun descending like a feather landing beside tae-jun",
+      "setting": "gentle landing",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun touches down on the asphalt with zero sound, his coat settling smoothly around his knees.",
+      "mood": "graceful landing",
+      "sfx": "FEATHER STEP..."
+    },
+    {
+      "id": "p19",
+      "shot": "tae-jun wrapping ha-jun in a strong, one-armed brotherly hug",
+      "setting": "brother hug",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun pulls Ha-Jun into a tight hug with his uninjured arm, laughing with sheer relief.",
+      "mood": "brotherly embrace",
+      "sfx": "HUG-LAUGH...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "You did it! You really came back to me!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "ha-jun hugging tae-jun tightly: 'i promised you i would.'",
+      "setting": "hugging back",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun buries his face in Tae-Jun's shoulder, smiling warmly: 'I told you I wouldn't leave you alone again.'",
+      "mood": "kept promise",
+      "sfx": "SMILE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Maine vaada kiya tha, Hyung.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "ha-jun placing his hand on tae-jun shoulder wound",
+      "setting": "healing shoulder",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun touches Tae-Jun's pierced shoulder; warm starlight flows from his fingers, instantly sealing the wound without a scar.",
+      "mood": "instant cellular healing",
+      "sfx": "GLOW-SEAL...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Whoa... The pain completely vanished!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "kuro landing on ha-jun shoulder cooing proudly",
+      "setting": "kuro cooing",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Kuro ruffles his black feathers: 'Now that the internal trial is finished... There is only one final task.'",
+      "mood": "the final task",
+      "sfx": "PURR...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "The Grand Interdimensional Treaty.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "min-jae jogging up with a clipboard and two fountain pens",
+      "setting": "min-jae clipboard",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Min-Jae runs over, grinning: 'The diplomats from forty nations and fifteen demon clans have arrived at City Hall!'",
+      "mood": "diplomatic assembly",
+      "sfx": "RUNNING...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "They are waiting for your signature, Your Majesty!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "ha-jun laughing playfully: 'your majesty? don't start that, min-jae!'",
+      "setting": "playful banter",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun laughs, lightly punching Min-Jae's arm: 'Call me Your Majesty again and I'll make you do my calculus homework.'",
+      "mood": "teenager humor",
+      "sfx": "LAUGH...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Fair deal! I'll take the title over the math!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "the four companions walking together down the sunlit boulevard",
+      "setting": "walking down boulevard",
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
+      "action": "Ha-Jun, Tae-Jun, Min-Jae, and Kuro walk down the wide avenue of Gwanghwamun under warm autumn trees.",
+      "mood": "heroic stroll",
+      "sfx": "STEP-STEP..."
+    },
+    {
+      "id": "p26",
+      "shot": "citizens lining the sidewalks throwing red and gold flower petals",
+      "setting": "flower petals shower",
+      "characters": [],
+      "action": "Thousands of civilians line the sidewalks, throwing fresh red rose petals and cheering for their heroes.",
+      "mood": "shower of flowers",
+      "sfx": "CHEERING-PETALS!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "citizens",
+          "text": "THANK YOU, HA-JUN! THANK YOU, HEROES!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "tae-jun catching a falling flower petal smiling at ha-jun",
+      "setting": "catching petal",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun catches a petal in his hand, smiling at Ha-Jun: 'Look at them. You gave them their tomorrow.'",
+      "mood": "the fruit of sacrifice",
+      "sfx": "GENTLE SMILE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Yeh sab tumhari wajah se zinda hain.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "ha-jun shaking his head looking at tae-jun with deep love",
+      "setting": "humble deflection",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun shakes his head: 'No, Hyung. We gave them tomorrow. You protected me so I could protect them.'",
+      "mood": "shared glory",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Nahi, Tae-Jun. Hum dono ne mil kar kiya.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "kuro spreading his dark wings under the sunny sky cawing with joy",
+      "setting": "kuro caw",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro takes flight, circling overhead under the brilliant blue sky, his caw echoing with five thousand years of relief.",
+      "mood": "the crow flies free",
+      "sfx": "CAW-SOAR..."
+    },
+    {
+      "id": "p30",
+      "shot": "the group arriving before the grand entrance of city hall cliffhanger",
+      "setting": "city hall arrival wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The four heroes arrive before the grand granite steps of Seoul City Hall to ratify the eternal peace treaty!",
+      "mood": "arc 9 grand conclusion cliffhanger",
+      "sfx": "MAJESTIC ARRIVAL...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "THE DAWN OF THE TRUE SOVEREIGN HAS ARRIVED.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    }
+  ]
+}

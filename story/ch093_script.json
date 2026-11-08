@@ -1,0 +1,539 @@
+{
+  "chapter": 93,
+  "title": "The Last Sovereign's Tear",
+  "arc": 9,
+  "arc_title": "THE WAR OF SOVEREIGNS",
+  "summary": "At the family memorial in Seoul, Ha-Jun and Tae-Jun place their parents' photograph at rest, offering a final tear of gratitude before stepping into their eternal tomorrow.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "the quiet hillside memorial cemetery overlooking seoul at twilight",
+      "setting": "cemetery hillside wide",
+      "characters": [],
+      "action": "A serene, pine-covered hillside cemetery overlooking the glittering skyline of Seoul under an indigo twilight sky.",
+      "mood": "solemn twilight",
+      "sfx": "WIND THROUGH PINES..."
+    },
+    {
+      "id": "p02",
+      "shot": "two clean granite memorial markers bearing the names of their parents",
+      "setting": "tombstones close-up",
+      "characters": [],
+      "action": "Two polished black granite stones read: 'Kang Min-Soo — Father & Guardian' and 'Park Eun-Ji — Mother of Sovereigns'.",
+      "mood": "parents memorial",
+      "sfx": "POLISHED STONE..."
+    },
+    {
+      "id": "p03",
+      "shot": "ha-jun and tae-jun standing quietly before the graves in black suits",
+      "setting": "brothers at graves",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun and Tae-Jun stand side by side in neat black formal suits, holding fresh white chrysanthemums.",
+      "mood": "solemn respect",
+      "sfx": "STAND SILENT..."
+    },
+    {
+      "id": "p04",
+      "shot": "kuro sitting quietly on the headstone his head bowed with dignity",
+      "setting": "kuro on headstone",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro sits perched on the stone marker, his head bowed respectfully, black feathers still in the evening breeze.",
+      "mood": "familiar paying respects",
+      "sfx": "BOW HEAD...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Min-Soo... Eun-Ji... Your sons have surpassed every god in creation.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "tae-jun kneeling down laying his bouquet of white flowers on father's grave",
+      "setting": "tae-jun lays flowers",
+      "characters": [],
+      "action": "Tae-Jun kneels gently, placing his white flowers before their father's stone: 'Dad... I brought Ha-Jun home safe.'",
+      "mood": "reporting to father",
+      "sfx": "FLOWERS DOWN...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Dad... Maine apna vaada poora kiya. Ha-Jun is safe.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "ha-jun kneeling beside tae-jun laying his flowers on mother's grave",
+      "setting": "ha-jun lays flowers",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun places his bouquet before their mother's stone: 'Mom... I remember your cooking. I remember your smile.'",
+      "mood": "speaking to mother",
+      "sfx": "FLOWERS DOWN...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Mummy... Mujhe aapki hansi yaad aa gayi. Thank you for giving me life.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "ha-jun pulling the old childhood photograph from his inner pocket",
+      "setting": "photo from pocket",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun takes out the restored Namsan Tower photograph from Chapter 64, uncreased and clean.",
+      "mood": "the treasured photo",
+      "sfx": "PHOTO MACRO..."
+    },
+    {
+      "id": "p08",
+      "shot": "ha-jun placing the photograph inside a crystal waterproof memorial frame",
+      "setting": "placing photo in frame",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun sets the photo into a crystal frame between both gravestones, sealing it with a touch of warm starlight mana.",
+      "mood": "sealed for eternity",
+      "sfx": "CRYSTAL SEAL..."
+    },
+    {
+      "id": "p09",
+      "shot": "a gentle, warm autumn breeze sweeping across the hillside",
+      "setting": "gentle breeze wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A warm, comforting breeze rustles the pine needles, carrying the scent of wild jasmine and mountain rain.",
+      "mood": "the parents' embrace",
+      "sfx": "BREEZE SIGH...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "It felt like a mother's gentle hand stroking their hair.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "a single crimson-violet tear falling from ha-jun eye onto the stone",
+      "setting": "the sovereign tear macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A single crystal tear slips from Ha-Jun's royal violet eye, falling onto the polished granite marker.",
+      "mood": "the final tear",
+      "sfx": "TEAR SPLASH...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "The Last Sovereign's Tear. Not of grief, but of eternal gratitude.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "the tear touching the stone igniting a soft, permanent golden ward of peace",
+      "setting": "ward ignited",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Where the tear strikes, a soft ring of golden starlight permanently blooms, blessing the grave with eternal flowers.",
+      "mood": "sacred bloom",
+      "sfx": "BLOOM-GLOW..."
+    },
+    {
+      "id": "p12",
+      "shot": "tae-jun wrapping his arm around ha-jun shoulders smiling warmly",
+      "setting": "arm around shoulder",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun wraps his arm around Ha-Jun, pulling him close: 'Let's head back. Min-Jae booked a table at the BBQ place.'",
+      "mood": "brotherly warmth",
+      "sfx": "COMFORT...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Chalo, Ha-Jun. Min-Jae ne samgyeopsal order kiya hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "ha-jun wiping his eye smiling broadly: 'samgyeopsal? who is paying?'",
+      "setting": "wiping eye smiling",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun wipes his cheek, grinning: 'Samgyeopsal? Who's paying? The Supreme General or the Demon Sovereign?'",
+      "mood": "playful banter",
+      "sfx": "LAUGH...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Bill kon bharega? You or me?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "tae-jun laughing heartily: 'the sovereign pays, obviously! you have the treasury!'",
+      "setting": "laughing together",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun laughs: 'You have a mountain of ancient demon gold! You're paying, cheapskate!'",
+      "mood": "brotherly jokes",
+      "sfx": "HEARTY LAUGHTER!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Obviously you! Demon treasury tumhare paas hai!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "shot": "kuro fluttering onto ha-jun shoulder: 'order the pork belly for me too!'",
+      "setting": "kuro orders food",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Kuro caws: 'Order five plates of pork belly for me or I will peck your ear.'",
+      "mood": "hungry familiar",
+      "sfx": "CAW...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Main bhi samgyeopsal khaunga!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "the brothers turning away from the graves walking down the stone path",
+      "setting": "walking down path",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The two brothers turn away from the graves, walking down the stone stairs into the warm streetlamp glow.",
+      "mood": "stepping into tomorrow",
+      "sfx": "STEP-STEP..."
+    },
+    {
+      "id": "p17",
+      "shot": "looking back one last time: the graves glowing softly under two ghost silhouettes",
+      "setting": "ghost silhouettes wide",
+      "characters": [],
+      "action": "Behind them on the hill, two faint, transparent golden silhouettes of their parents wave goodbye with warm smiles.",
+      "mood": "the parents watching over",
+      "sfx": "GHOSTLY WAVE...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "They were never truly gone.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "street level: mapo bustling restaurant street full of life and neon",
+      "setting": "restaurant street wide",
+      "characters": [],
+      "action": "Down on Mapo Food Street: barbecue smoke, laughing people, neon signs, and street musicians filling the night.",
+      "mood": "the vibrant human world",
+      "sfx": "CHATTER-SIZZLE..."
+    },
+    {
+      "id": "p19",
+      "shot": "min-jae waving furiously from an outdoor barbecue table",
+      "setting": "min-jae waving at restaurant",
+      "characters": [],
+      "action": "Min-Jae waves from a corner table piled high with grilling pork belly and side dishes: 'Over here, guys!!'",
+      "mood": "the table prepared",
+      "sfx": "WAVING...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Meat is getting cold! Sit down!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "ha-jun and tae-jun sitting down at the wooden table laughing",
+      "setting": "sitting at table",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun and Tae-Jun slide onto the benches, the smell of sizzling meat and garlic filling the air.",
+      "mood": "pure contentment",
+      "sfx": "CHAIR SLIDE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "This smells amazing.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "kuro perching on the napkin dispenser eating a piece of grilled meat",
+      "setting": "kuro eating meat",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro sits on the wooden napkin box, delicately swallowing a piece of grilled pork with closed eyes.",
+      "mood": "happy familiar",
+      "sfx": "MUNCH-PURR...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Exquisite mortal culinary science.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "the three friends clinking their soda glasses in a joyful toast",
+      "setting": "clinking glasses macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Three glasses of fizzy soda clink together over the grill: 'TO SURVIVING! TO BROTHERHOOD!'",
+      "mood": "the toast of life",
+      "sfx": "GLASS CLINK!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "trio",
+          "text": "CHEERS TO TOMORROW!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "captain baek in civilian jacket walking into the restaurant smiling",
+      "setting": "baek joins table",
+      "characters": [],
+      "action": "Captain Baek walks in wearing a leather jacket, pulling up an extra stool: 'Mind if an old soldier joins the feast?'",
+      "mood": "veteran joins",
+      "sfx": "SMILE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "baek",
+          "text": "Save some meat for your commander!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "ha-jun pouring meat onto baek plate with a warm grin",
+      "setting": "serving food",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun piles grilled meat onto Baek's plate: 'Eat as much as you want, General. The Demon Sovereign is paying.'",
+      "mood": "warm hospitality",
+      "sfx": "SIZZLE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Khana khao, Captain. Aaj ki party meri taraf se hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "wide shot of the lively restaurant glowing warm amber in the seoul night",
+      "setting": "restaurant exterior wide",
+      "characters": [],
+      "action": "The small restaurant glows with warm yellow light against the cool autumn night, full of laughter and joy.",
+      "mood": "peaceful oasis",
+      "sfx": "NIGHT GLOW..."
+    },
+    {
+      "id": "p26",
+      "shot": "ha-jun stepping outside for a breath of fresh night air",
+      "setting": "outside restaurant",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun steps outside the glass door, leaning against the brick wall with a cup of warm tea.",
+      "mood": "quiet night air",
+      "sfx": "COOL BREEZE..."
+    },
+    {
+      "id": "p27",
+      "shot": "kuro hopping onto his shoulder looking up at the clear night sky",
+      "setting": "kuro on shoulder night",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Kuro perches on his shoulder: 'Are you satisfied, Ha-Jun Kang?'",
+      "mood": "guardian question",
+      "sfx": "PURR...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Kya tum khush ho, Ha-Jun?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "ha-jun looking at his reflection in the tea cup with a serene smile",
+      "setting": "tea cup reflection",
+      "characters": [
+        "hajun"
+      ],
+      "action": "In the amber tea, Ha-Jun sees his reflection: no longer a frightened orphan, but a complete, peaceful young man.",
+      "mood": "self-actualization",
+      "sfx": "SMILE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Main bohot khush hoon, Kuro. Bohot zyada.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "the camera slowly tilting upward toward the sea of stars over seoul",
+      "setting": "camera tilts up to stars",
+      "characters": [],
+      "action": "The view tilts upward past neon signs and rooftops, into an endless expanse of twinkling stars.",
+      "mood": "cosmic tranquility",
+      "sfx": "STARS SHINE...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "Ten relics. One family. A universe at peace.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "the final panel: full moon shining over a peaceful world as arc 9 concludes cliffhanger",
+      "setting": "full moon finale wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A majestic silver full moon shines serenely over the peaceful Earth—ready for the final, ultimate transcendence of Arc 10!",
+      "mood": "arc 9 grand finale",
+      "sfx": "MOONLIGHT SERENE...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "ARC 9: THE WAR OF SOVEREIGNS — CONCLUDED. PROCEEDING TO THE GRAND CLIMAX: ARC 10 — THE LAST BLOOD.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    }
+  ]
+}

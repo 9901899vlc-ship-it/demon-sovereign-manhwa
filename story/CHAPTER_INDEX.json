@@ -622,70 +622,70 @@
           "chapter": 84,
           "title": "The Three Thrones",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch084_script.json"
         },
         {
           "chapter": 85,
           "title": "The World Under Siege",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch085_script.json"
         },
         {
           "chapter": 86,
           "title": "Saint Mirren's Last Day",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch086_script.json"
         },
         {
           "chapter": 87,
           "title": "The Friends Who Stayed",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch087_script.json"
         },
         {
           "chapter": 88,
           "title": "The Betrayal of Kuro",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch088_script.json"
         },
         {
           "chapter": 89,
           "title": "The True Enemy",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch089_script.json"
         },
         {
           "chapter": 90,
           "title": "The War of Bloodlines",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch090_script.json"
         },
         {
           "chapter": 91,
           "title": "The Broken Relics",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch091_script.json"
         },
         {
           "chapter": 92,
           "title": "The Fall of the Guardian",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch092_script.json"
         },
         {
           "chapter": 93,
           "title": "The Last Sovereign's Tear",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch093_script.json"
         }
       ]

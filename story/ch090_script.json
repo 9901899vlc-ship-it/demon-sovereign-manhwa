@@ -1,0 +1,490 @@
+{
+  "chapter": 90,
+  "title": "The War of Bloodlines",
+  "arc": 9,
+  "arc_title": "THE WAR OF SOVEREIGNS",
+  "summary": "Inside the Primordial Mindscape, Ha-Jun confronts the manifestation of his ancient lineage—a chaotic war between the original Demon Sovereign's memories and his own human soul.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "the primordial mindscape: an endless black ocean beneath red nebulas",
+      "setting": "mindscape ocean wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun stands on an infinite surface of calm black water reflecting millions of crimson stars and swirling galaxies.",
+      "mood": "the core soul plane",
+      "sfx": "EERIE CALM..."
+    },
+    {
+      "id": "p02",
+      "shot": "floating above the water: thousands of glowing memory crystals",
+      "setting": "memory crystals float",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Thousands of crystalline shards float in mid-air, each displaying a battle or coronation from five thousand years of demon history.",
+      "mood": "ancestral memories",
+      "sfx": "CHIME-GLOW..."
+    },
+    {
+      "id": "p03",
+      "shot": "kuro flying beside ha-jun in radiant purple phoenix aura",
+      "setting": "kuro mindscape",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Kuro glides across the water surface: 'This is the Absolute Root of the Sovereign Bloodline. Every past emperor's will sleeps here.'",
+      "mood": "guardian explanation",
+      "sfx": "FLAP...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Yahan past ke 99 Sovereigns ka consciousness rehta hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "a dark silhouette rising from the black water fifty yards ahead",
+      "setting": "dark silhouette rises",
+      "characters": [],
+      "action": "From the calm black water rises a figure identical in height and build to Ha-Jun, clad in obsidian dragon armor.",
+      "mood": "the dark mirror",
+      "sfx": "RIPPLE-RISE..."
+    },
+    {
+      "id": "p05",
+      "shot": "the figure looking up: dark ha-jun with pitch-black sclera and burning red pupils",
+      "setting": "dark ha-jun face",
+      "characters": [],
+      "action": "The doppelganger looks up: Ha-Jun's exact handsome face, but with black sclera, burning crimson irises, and two obsidian horns.",
+      "mood": "the shadow sovereign",
+      "sfx": "RED GLINT...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "shadow_hajun",
+          "text": "Welcome to your true self, Ha-Jun Kang.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "ha-jun drawing the sanguine fang pointing it at the shadow",
+      "setting": "ha-jun draws blade",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun unsheathes his starlight blade: 'You are the Void Primordial that infected Asmodaius.'",
+      "mood": "confronting the shadow",
+      "sfx": "SHINGGG!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Tum mere andar ka darr aur nafrat ho.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "shadow ha-jun drawing a mirror blade of black anti-matter",
+      "setting": "shadow draws blade",
+      "characters": [],
+      "action": "Shadow Ha-Jun unsheathes an identical katana forged of pitch-black void anti-matter: 'I am not just fear. I am your absolute power!'",
+      "mood": "the mirror blade",
+      "sfx": "SNAP-HISS!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "shadow_hajun",
+          "text": "Without me, you are just a weak student who wept on a rooftop!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p08",
+      "shot": "the two ha-juns sprinting across the black water at mach 15",
+      "setting": "sprint clash wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The light and dark versions of Ha-Jun sprint across the black ocean, water splashing in supersonic wake rings.",
+      "mood": "supersonic collision",
+      "sfx": "STEP-STEP-BOOM!!"
+    },
+    {
+      "id": "p09",
+      "shot": "blades collide: a massive shockwave of starlight and void splits the ocean",
+      "setting": "blade collision center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Katana meets katana; a mile-wide trench opens in the black ocean as red and purple lightning arcs into the nebulas.",
+      "mood": "titanic impact",
+      "sfx": "KABOOOOOM-IMPACT!!"
+    },
+    {
+      "id": "p10",
+      "shot": "shadow ha-jun kicking ha-jun chest sending him skipping across water",
+      "setting": "kick impact",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Shadow Ha-Jun drives an armored boot into Ha-Jun's ribs, sending him skipping across the water surface like a flat stone.",
+      "mood": "forceful strike",
+      "sfx": "CRUNCH-SKID!!"
+    },
+    {
+      "id": "p11",
+      "shot": "ha-jun planting his boots digging trenches in the water to halt",
+      "setting": "stopping skid",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun digs his boots into the surface tension, stopping his skid fifty yards away, breathing hard.",
+      "mood": "regaining footing",
+      "sfx": "SPLASH-HALT...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "His strength... It's exactly identical to mine!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "kuro diving with burning talons raking across shadow ha-jun shoulder",
+      "setting": "kuro attacks shadow",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro dives in, raking his solar talons across Shadow Ha-Jun's pauldron, sending black sparks flying.",
+      "mood": "familiar support",
+      "sfx": "SLASH-SPARK!!"
+    },
+    {
+      "id": "p13",
+      "shot": "shadow ha-jun backhanding kuro with a dark gravitational pulse",
+      "setting": "backhand pulse",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Shadow Ha-Jun backhands Kuro with an anti-gravity pulse, blasting the phoenix fifty yards across the water.",
+      "mood": "familiar repelled",
+      "sfx": "PULSE-CRASH!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "shadow_hajun",
+          "text": "STAY OUT OF THIS, BIRD!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "shadow ha-jun leaping 100 feet in the air bringing both hands down",
+      "setting": "overhead leap strike",
+      "characters": [],
+      "action": "Shadow Ha-Jun rockets into the sky, swinging his void blade down in a colossal guillotine stroke.",
+      "mood": "overhead executioner",
+      "sfx": "LEAP-CLEAVE!!"
+    },
+    {
+      "id": "p15",
+      "shot": "ha-jun manifesting chains of ruin to snare shadow ha-jun arms mid-air",
+      "setting": "chains snare shadow",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun summons Chains of Ruin; four heavy black links wrap around the shadow's wrists, freezing him in mid-air.",
+      "mood": "mid-air snare",
+      "sfx": "CLANG-BIND!!"
+    },
+    {
+      "id": "p16",
+      "shot": "ha-jun pulling the chains slamming shadow ha-jun into the water",
+      "setting": "slamming shadow down",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun yanks the chains with both arms, slamming his dark reflection face-first into the black water.",
+      "mood": "counter slam",
+      "sfx": "SLAP-SPLASH!!"
+    },
+    {
+      "id": "p17",
+      "shot": "shadow ha-jun dissolving into black liquid and reforming behind ha-jun",
+      "setting": "liquid teleport",
+      "characters": [],
+      "action": "Shadow Ha-Jun liquefies into the black water and reconstitutes directly behind Ha-Jun's back with blade poised.",
+      "mood": "shadow liquefaction",
+      "sfx": "SLICK-REFORM!!"
+    },
+    {
+      "id": "p18",
+      "shot": "shadow ha-jun whispering in ha-jun ear: 'why do you fight to protect mortals?'",
+      "setting": "whispering shadow",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Shadow Ha-Jun whispers into his ear: 'Mortals beat you. They called you an orphan. Why die for them?'",
+      "mood": "insidious temptation",
+      "sfx": "WHISPER...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "shadow_hajun",
+          "text": "Humans hated you. Why not let them burn?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "ha-jun elbows backward smashing shadow ha-jun in the jaw",
+      "setting": "elbow strike",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun drives a reinforced elbow straight into the shadow's jaw, shattering teeth and knocking him back.",
+      "mood": "physical rejection of evil",
+      "sfx": "SMASH-CRACK!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Because my brother loved me. And Min-Jae stood by me.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "ha-jun spinning and slashing across shadow ha-jun chestplate",
+      "setting": "spinning slash",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun follows with a spinning horizontal cleave, carving a deep wound across the shadow's obsidian armor.",
+      "mood": "counter slash",
+      "sfx": "SLASH-SPARK!!"
+    },
+    {
+      "id": "p21",
+      "shot": "shadow ha-jun laughing wiping black blood from his split lip",
+      "setting": "shadow laughing",
+      "characters": [],
+      "action": "Shadow Ha-Jun wipes black ichor from his lip, laughing with dark joy: 'Yes! That hatred! That anger! Give it to me!'",
+      "mood": "feeding on wrath",
+      "sfx": "CHUCKLE-WIPE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "shadow_hajun",
+          "text": "Every drop of wrath you feel makes me stronger!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "ha-jun realizing the paradox: fighting with anger only feeds the shadow",
+      "setting": "realization macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun freezes; he sees his own anger flowing like dark mist into the shadow's muscles.",
+      "mood": "the philosophical trap",
+      "sfx": "PAUSE...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "I can't destroy him with hatred... That's what created him in the first place.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "shadow ha-jun expanding into a 30-foot demonic titan of anti-matter",
+      "setting": "shadow titan",
+      "characters": [],
+      "action": "Shadow Ha-Jun swells into a colossal thirty-foot demon monarch, wielding a 20-foot broadsword of black flame.",
+      "mood": "the shadow grows",
+      "sfx": "EXPAND-ROAR!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "shadow_hajun",
+          "text": "I AM THE ACCUMULATED WRATH OF FIVE THOUSAND YEARS!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "ha-jun sheathing the sanguine fang with a quiet click",
+      "setting": "sheathing sword",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun lowers his arms and slides the blood katana back into its scabbard with a calm, decisive click.",
+      "mood": "sheathing the blade",
+      "sfx": "CLICK-SNAP..."
+    },
+    {
+      "id": "p25",
+      "shot": "kuro landing beside ha-jun watching with breathless curiosity",
+      "setting": "kuro watching",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Kuro tilts his head: 'Ha-Jun... What are you doing?'",
+      "mood": "guardian question",
+      "sfx": "TILT...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "You are putting away your sword?!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "shot": "ha-jun walking calmly toward the 30-foot shadow titan with open hands",
+      "setting": "calm walk toward titan",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun walks calmly across the water toward the towering titan, hands empty, eyes serene and clear.",
+      "mood": "the path of peace",
+      "sfx": "CALM STEP...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "You are not my enemy. You are just my pain.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "shadow titan swinging the 20-foot broadsword down at ha-jun head",
+      "setting": "titan strike descending",
+      "characters": [],
+      "action": "The colossal black sword crashes down directly at Ha-Jun's exposed, unarmored head.",
+      "mood": "imminent execution",
+      "sfx": "DESCENT-ROAR!!"
+    },
+    {
+      "id": "p28",
+      "shot": "ha-jun catching the giant blade with a gentle touch of both palms",
+      "setting": "gentle palm catch",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun doesn't block with force; he catches the edge between gentle, glowing palms, diffusing the kinetic energy.",
+      "mood": "diffusing the wrath",
+      "sfx": "SOFT TOUCH-HUMMM..."
+    },
+    {
+      "id": "p29",
+      "shot": "golden starlight flowing from ha-jun hands into the dark blade",
+      "setting": "purifying the blade",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Warm golden light flows from Ha-Jun's skin, turning the pitch-black anti-matter blade into clean crystal glass.",
+      "mood": "purification of darkness",
+      "sfx": "FLOW-GLOW...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "I accept you. You kept me alive when I was weak. But you don't control me anymore.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "the shadow titan cracking with blinding golden fractures cliffhanger",
+      "setting": "shadow titan cracking",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Spiderweb fractures of pure golden light spread across the 30-foot titan as integration begins!",
+      "mood": "integration cliffhanger",
+      "sfx": "CRACKLE-GOLDEN-FLASH!!",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "THE SHADOW SUBMITS. THE TRUE SOVEREIGN EMERGES.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    }
+  ]
+}

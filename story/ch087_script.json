@@ -1,0 +1,511 @@
+{
+  "chapter": 87,
+  "title": "The Friends Who Stayed",
+  "arc": 9,
+  "arc_title": "THE WAR OF SOVEREIGNS",
+  "summary": "In the desperate courtyard struggle, Min-Jae and Ha-Jun's former bullies risk their lives to distract Nihilux, proving the unbreakable bond of mortal human brotherhood.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "the execution lance inches from tae-jun chestplate in frozen second",
+      "setting": "frozen lance close-up",
+      "characters": [],
+      "action": "The tip of the black obsidian spear hovers millimeters from Tae-Jun's bronze armor, lightning crackling along the shaft.",
+      "mood": "heart-stopping moment",
+      "sfx": "CRACKLE..."
+    },
+    {
+      "id": "p02",
+      "shot": "a high-caliber anti-materiel sniper bullet ricocheting off nihilux helm",
+      "setting": "sniper bullet impact",
+      "characters": [],
+      "action": "A heavy explosive 50-caliber round smashes into the side of Nihilux's helmet, deflecting the lance three inches off target.",
+      "mood": "sniper intervention",
+      "sfx": "PANG-SPARK!!"
+    },
+    {
+      "id": "p03",
+      "shot": "the lance piercing through tae-jun shoulder instead of his heart",
+      "setting": "shoulder penetration",
+      "characters": [],
+      "action": "The lance punches clean through Tae-Jun's left shoulder pauldron, missing his heart by two inches but pinning him to the ground.",
+      "mood": "narrow survival",
+      "sfx": "PUNCTURE-CRUNCH!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "tae_jun",
+          "text": "AGGGHHH!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "nihilux turning his horned helm angrily toward the library roof",
+      "setting": "nihilux glares",
+      "characters": [],
+      "action": "Nihilux growls, glaring up at the Saint Mirren library roof where smoke drifts from a sniper barrel.",
+      "mood": "irritated god",
+      "sfx": "SNARL...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "nihilux",
+          "text": "Mortal insects dare sting an Emperor?!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "on the library roof: min-jae holding a smoking anti-tank rifle",
+      "setting": "min-jae sniper",
+      "characters": [],
+      "action": "Min-Jae stands on the parapet, his glasses askew, hands burned by the rifle's muzzle heat, panting heavily.",
+      "mood": "the mortal hero",
+      "sfx": "SMOKE-PANT...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Hey, bucket-head! Pick on someone with better aim!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "beside min-jae: ha-jun former middle-school bullies loading magazines",
+      "setting": "bullies helping",
+      "characters": [],
+      "action": "Beside Min-Jae stand Jin-Woo and Dong-Suk—the two former bullies from Episode 1—frantically reloading ammo clips.",
+      "mood": "redemption of former bullies",
+      "sfx": "CLICK-CLACK-MAGAZINE!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "jin_woo",
+          "text": "Ha-Jun saved our families today! We aren't running away like cowards anymore!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "nihilux gesturing with his off-hand firing a dark lightning bolt at the roof",
+      "setting": "dark lightning bolt",
+      "characters": [],
+      "action": "Nihilux flicks his fingers, sending a jagged bolt of black void lightning to incinerate the library roof.",
+      "mood": "retaliation blast",
+      "sfx": "ZZZT-KABOOM!!"
+    },
+    {
+      "id": "p08",
+      "shot": "ha-jun intercepting the lightning bolt with his bare right hand",
+      "setting": "lightning caught",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun leaps forty feet into the air, catching the black lightning in his bare palm and crushing the electricity to ash.",
+      "mood": "bare-hand lightning catch",
+      "sfx": "CRUNCH-SPARK!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "DON'T TOUCH MY FRIENDS!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "ha-jun landing before the pinned tae-jun gripping the lance shaft",
+      "setting": "grip lance",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun lands over Tae-Jun, gripping the heavy obsidian spear shaft with both hands and wrenching it free.",
+      "mood": "freeing brother",
+      "sfx": "PULL-SNAP!!"
+    },
+    {
+      "id": "p10",
+      "shot": "tae-jun gasping holding his bleeding shoulder leaning against ha-jun",
+      "setting": "brothers together",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun presses his hand to his shoulder wound, nodding weakly: 'Good save... little brother.'",
+      "mood": "grateful brother",
+      "sfx": "WHEEZE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Min-Jae... has surprisingly good aim...",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "ha-jun facing nihilux his eyes blazing with pure royal fury",
+      "setting": "furious ha-jun",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's royal violet eyes blaze with unmatched intensity; the ground beneath his feet cracks for 50 yards.",
+      "mood": "mounting monarch rage",
+      "sfx": "CRACK-GROUND!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "You tried to take my brother. You tried to kill my friends. You enslaved my bird.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "ha-jun summoning the crown of the sovereign in blinding light",
+      "setting": "crown summoned",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The Crown of the Sovereign materializes on Ha-Jun's head, casting a golden dome of absolute dominance.",
+      "mood": "monarch crowned",
+      "sfx": "GLOW-CROWN!!"
+    },
+    {
+      "id": "p13",
+      "shot": "nihilux scoffing raising his bone whistle to his lips",
+      "setting": "nihilux with whistle",
+      "characters": [],
+      "action": "Nihilux raises the Primordial Whistle: 'Let us see if your love can survive your familiar's claws!'",
+      "mood": "cruel command",
+      "sfx": "WHISTLE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "nihilux",
+          "text": "Crow! Rip out your master's eyes!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "the bone whistle screeching its cursed frequency across the courtyard",
+      "setting": "whistle frequency",
+      "characters": [],
+      "action": "The piercing whistle echoes through the air, sending shockwaves of green hypnotic miasma into Kuro's skull.",
+      "mood": "hypnotic frequency",
+      "sfx": "PIERCING SCREECH!!"
+    },
+    {
+      "id": "p15",
+      "shot": "kuro diving like a black meteor toward ha-jun face claws bared",
+      "setting": "kuro dive",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Kuro dives at supersonic speed, his razor talons aiming straight for Ha-Jun's eyes.",
+      "mood": "forced patricide dive",
+      "sfx": "DIVE-SWOOSH!!"
+    },
+    {
+      "id": "p16",
+      "shot": "ha-jun dropping his sword and opening his arms wide instead of defending",
+      "setting": "arms wide open",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun drops the Sanguine Fang onto the grass, opening both arms wide in a defenseless, loving embrace.",
+      "mood": "unarmed love",
+      "sfx": "SWORD DROP-THUD...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Main tumpe kabhi hathiyar nahi uthaunga, Kuro.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "tae-jun reaching out from the ground in panic: 'ha-jun, no!!'",
+      "setting": "tae-jun panic",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun shouts: 'Ha-Jun, block!! He'll tear your throat out!!'",
+      "mood": "brotherly terror",
+      "sfx": "SHOUT!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "tae_jun",
+          "text": "HA-JUN!! DEFEND YOURSELF!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "kuro talons stopping one millimeter before ha-jun jugular vein",
+      "setting": "talons halted macro",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Kuro's razor talons halt a single hair's breadth from Ha-Jun's throat, trembling violently against the air.",
+      "mood": "the pause",
+      "sfx": "TREMBLE-STOP..."
+    },
+    {
+      "id": "p19",
+      "shot": "ha-jun looking into kuro green eyes with warm, unyielding brotherly love",
+      "setting": "gentle gaze",
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
+      "action": "Ha-Jun looks into the poisonous green eyes, smiling softly: 'Kuro. Remember the rain on the rooftop.'",
+      "mood": "the core memory recalled",
+      "sfx": "SOFT VOICE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Episode 1... Rooftop pe jab main ro raha tha... You gave me a feather. You saved my life.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "flashback shard: kuro dropping the glowing feather onto the wet concrete",
+      "setting": "flashback feather",
+      "characters": [
+        "kuro"
+      ],
+      "action": "A brief memory flashes: Kuro perched on the Saint Mirren terrace railing in the rain, leaving his feather behind.",
+      "mood": "the foundational covenant",
+      "sfx": "RAIN PATTER..."
+    },
+    {
+      "id": "p21",
+      "shot": "ha-jun gently wrapping both warm hands around kuro small trembling body",
+      "setting": "holding kuro",
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
+      "action": "Ha-Jun gently cups Kuro in his hands, pulling the bird against his warm cheek without fear.",
+      "mood": "gentle embrace",
+      "sfx": "WARM EMBRACE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "You are not Nihilux's weapon. You are my family.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "kuro body shuddering violently as green miasma cracks like eggshells",
+      "setting": "miasma cracking",
+      "characters": [
+        "kuro"
+      ],
+      "action": "The green void miasma around Kuro cracks and shatters like glass, revealing pure violet solar fire beneath.",
+      "mood": "breaking the curse",
+      "sfx": "CRACKLE-SHATTER!!"
+    },
+    {
+      "id": "p23",
+      "shot": "kuro ruby eyes snapping back to their true brilliant crimson-violet glow",
+      "setting": "eyes restored macro",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro's true eyes return—deep, noble, burning with ancient love and royal fury.",
+      "mood": "curse broken",
+      "sfx": "FLASH-RUBY!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Ha... Jun...",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "nihilux stumbling back in stunned disbelief: 'impossible! the primordial binding broke?!'",
+      "setting": "nihilux shocked",
+      "characters": [],
+      "action": "Nihilux recoils, dropping the bone whistle: 'The binding of the first gods... Broken by mortal sentiment?!'",
+      "mood": "villain dumbfounded",
+      "sfx": "GASP...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "nihilux",
+          "text": "Inconceivable! How can mortal love overpower the Void?!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "kuro spitting out the three stolen relics into ha-jun open hands",
+      "setting": "relics returned",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Kuro opens his beak, dropping the Bone, Ring, and Ashen Heart gently back into Ha-Jun's hands.",
+      "mood": "relics recovered",
+      "sfx": "CLINK-RESTORE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Take your keys back, My Sovereign. Let us butcher this parasite.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "shot": "the three relics instantly re-integrating into ha-jun solar plexus",
+      "setting": "relics reabsorbed",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The three relics fuse back into Ha-Jun's chest; his mana synchronization surges back to 85.0%!",
+      "mood": "full power restored",
+      "sfx": "PULSE-SURGE!!"
+    },
+    {
+      "id": "p27",
+      "shot": "ha-jun grabbing the fallen sanguine fang blade from the grass",
+      "setting": "blade retrieved",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun picks up his blood katana; the blade blazes with twin flames of crimson blood and violet starlight.",
+      "mood": "armed and complete",
+      "sfx": "SWORD DRAW-SHING!!"
+    },
+    {
+      "id": "p28",
+      "shot": "kuro expanding into his full nether phoenix battle form behind ha-jun",
+      "setting": "phoenix behind hero",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Kuro erupts into his 300-foot majestic Nether Phoenix form, wings framing Ha-Jun like a living throne of fire.",
+      "mood": "the monarch and his familiar",
+      "sfx": "ROARING PYRE!!"
+    },
+    {
+      "id": "p29",
+      "shot": "min-jae, the bullies, and the soldiers cheering from the rooftops",
+      "setting": "campus cheering",
+      "characters": [],
+      "action": "Across the campus, hundreds of human students, hunters, and demons roar their battle cries in deafening unison.",
+      "mood": "army united",
+      "sfx": "ROARING CHEERS!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "campus_allies",
+          "text": "FOR HA-JUN! SMITE THE EMPEROR!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun pointing his blazing blade directly at nihilux cliffhanger",
+      "setting": "blade pointed at nihilux",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun points his sword straight into Nihilux's faceless helm: 'Nihilux. You have nowhere left to run.'",
+      "mood": "climax duel initiated cliffhanger",
+      "sfx": "POINT-CHALLENGE!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "AJ TERA ANTH HOGA!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    }
+  ]
+}

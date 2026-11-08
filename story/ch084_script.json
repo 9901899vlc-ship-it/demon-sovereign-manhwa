@@ -1,0 +1,499 @@
+{
+  "chapter": 84,
+  "title": "The Three Thrones",
+  "arc": 9,
+  "arc_title": "THE WAR OF SOVEREIGNS",
+  "summary": "In the cosmic depths beyond known space, the Three Primordial Demon Thrones awaken, refusing to acknowledge a mortal human as Sovereign and declaring total eradication war on Earth.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "infinite cosmic void of black glass and dead stars wide shot",
+      "setting": "cosmic abyss wide",
+      "characters": [],
+      "action": "A silent abyss at the edge of the universe: floating shattered planets surrounded by red anti-matter nebulas.",
+      "mood": "ancient cosmic dread",
+      "sfx": "VOID DRONE..."
+    },
+    {
+      "id": "p02",
+      "shot": "three colossal 500-foot obsidian thrones hovering in triangle formation",
+      "setting": "three thrones triangle",
+      "characters": [],
+      "action": "Three titanic thrones carved from the calcified bones of dead gods form a silent, menacing triangle.",
+      "mood": "the ancient triumvirate",
+      "sfx": "LOOM..."
+    },
+    {
+      "id": "p03",
+      "shot": "left throne: lord baal-zahar, sovereign of blood and rot",
+      "setting": "baal-zahar throne",
+      "characters": [],
+      "action": "Seated on the left: Lord Baal-Zahar—a 20-foot horned demon titan wrapped in cloaks of boiling crimson blood.",
+      "mood": "blood sovereign",
+      "sfx": "BLOOD BUBBLE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "baal_zahar",
+          "text": "The mortal child has claimed the Crown. The ancient covenant stirs.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "right throne: empress lilith-morg, sovereign of souls",
+      "setting": "lilith-morg throne",
+      "characters": [],
+      "action": "Seated on the right: Empress Lilith-Morg—an ethereal wraith queen draped in spectral green soul-fire and weeping masks.",
+      "mood": "soul sovereign",
+      "sfx": "WHISPER-SOULS...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "lilith_morg",
+          "text": "A human vessel holding Asmodaius's crown? An insult to the primordial bloodline.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "center throne: emperor nihilux, sovereign of the absolute void",
+      "setting": "nihilux throne center",
+      "characters": [],
+      "action": "On the colossal center throne sits Emperor Nihilux—a faceless titan clad in star-eating black armor, eyes burning with green quasars.",
+      "mood": "the prime sovereign",
+      "sfx": "QUASAR HUMMM...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "nihilux",
+          "text": "Earth has enjoyed its peaceful dawn for long enough. We shall purge the false heir.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "nihilux raising his four-pronged sceptre of void decay",
+      "setting": "sceptre raised",
+      "characters": [],
+      "action": "Nihilux raises an obsidian sceptre crowned with a dying pulsar; dark lightning arcs between the three thrones.",
+      "mood": "mobilization decree",
+      "sfx": "CRACKLE-LIGHTNING!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "nihilux",
+          "text": "AWAKEN THE ABYSSAL ARMADA!! MARCH UPON EARTH!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "millions of demonic dreadnoughts uncloaking in the void",
+      "setting": "armada uncloak wide",
+      "characters": [],
+      "action": "Across ten thousand light-years, a million pitch-black gothic dreadnoughts uncloak, their red plasma engines igniting.",
+      "mood": "infinite fleet",
+      "sfx": "ENGINE ROAR!!"
+    },
+    {
+      "id": "p08",
+      "shot": "earth seen from deep space: peaceful blue marble unaware",
+      "setting": "earth from space",
+      "characters": [],
+      "action": "Earth turns peacefully in space, continents glowing with morning sunlight, completely unaware of the approaching armada.",
+      "mood": "fragile sanctuary",
+      "sfx": "PEACEFUL BLUE..."
+    },
+    {
+      "id": "p09",
+      "shot": "sudden dimensional shockwave rattling earth's orbital satellites",
+      "setting": "satellite rattled",
+      "characters": [],
+      "action": "An orbital defense satellite spins out of control as a gravitational shockwave ripples through the space-time fabric.",
+      "mood": "sensors screaming",
+      "sfx": "BEEP-BEEP-ALARM!!"
+    },
+    {
+      "id": "p10",
+      "shot": "inside section 9 command headquarters in seoul: sirens wailing",
+      "setting": "command bunker wide",
+      "characters": [],
+      "action": "Emergency red alarms bathe the giant subterranean operations floor; dozens of radar operators shout into headsets.",
+      "mood": "military panic",
+      "sfx": "KLAXON ROAR!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "radar_operator",
+          "text": "Massive gravitational anomalies in Sector 4! Spatial fabric is tearing open across the entire globe!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "captain baek slamming both hands onto the holographic strategy table",
+      "setting": "baek at table",
+      "characters": [],
+      "action": "Supreme General Baek stares in horror at the global map: red breach markers appear over every major city on Earth.",
+      "mood": "strategic nightmare",
+      "sfx": "MAP BLINK...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "baek",
+          "text": "This isn't an incursion... This is a full-scale planetary invasion!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "kang tae-jun stepping into the command room in full armor",
+      "setting": "tae-jun arrival",
+      "characters": [],
+      "action": "Tae-Jun enters, his Guardian Claymore strapped to his back, eyes burning with bronze tactical determination.",
+      "mood": "the warden arrives",
+      "sfx": "BOOTS-CLANK!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Baek. Activate all orbital defense grids. I'm going to the upper atmosphere.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "baek looking at tae-jun: 'where is ha-jun?!'",
+      "setting": "baek question",
+      "characters": [],
+      "action": "Baek asks: 'Where is the Sovereign?!'",
+      "mood": "urgent inquiry",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "baek",
+          "text": "Tae-Jun, where is your brother?! We need his domain!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "tae-jun looking out the bunker blast window toward saint mirren",
+      "setting": "looking at city",
+      "characters": [],
+      "action": "Tae-Jun looks toward Mapo district: 'He's at the university taking his morning exam. Let him finish his paper.'",
+      "mood": "protective brother",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "He's taking his calculus exam. I will buy him thirty minutes.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "shot": "inside saint mirren classroom: peaceful silence with clock ticking",
+      "setting": "classroom peaceful",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Sunlight streams through the high classroom windows; Ha-Jun sits at his desk, pencil scratching on math paper.",
+      "mood": "ordinary school life",
+      "sfx": "TICK-TOCK-PENCIL...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Integration by parts... Let u = x, dv = e^(2x) dx...",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "min-jae sitting two desks over sweating profusely over his exam",
+      "setting": "min-jae classroom",
+      "characters": [],
+      "action": "Min-Jae bites his pencil eraser, sweating nervously as he glares at problem 4.",
+      "mood": "relatable school humor",
+      "sfx": "SWEAT DROP...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "min_jae",
+          "text": "Why did I choose advanced calculus?! I should have studied with Ha-Jun!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "kuro sitting on the classroom window ledge napping in the sun",
+      "setting": "kuro on ledge",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Little Kuro sits on the sunny sill, his head tucked under his wing, sleeping peacefully.",
+      "mood": "peaceful familiar",
+      "sfx": "SNORE..."
+    },
+    {
+      "id": "p18",
+      "shot": "kuro ruby eyes suddenly snapping wide open with shock",
+      "setting": "kuro alert close-up",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro's head snaps up; his ruby eyes widen in horror as his feathers bristle like needles.",
+      "mood": "catastrophic premonition",
+      "sfx": "GASP-BRISTLE!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Ha-Jun... DROP YOUR PENCIL.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "ha-jun pausing his pencil hovering millimeters above the paper",
+      "setting": "pencil pause macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun freezes; his pencil lead snaps cleanly as a profound chill runs down his spine.",
+      "mood": "pencil snap",
+      "sfx": "SNAP!!"
+    },
+    {
+      "id": "p20",
+      "shot": "the classroom windows rattling violently as sky turns blood red",
+      "setting": "windows rattling",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The sky outside instantly turns from clear blue to apocalyptic crimson; glass panes vibrate violently.",
+      "mood": "sky shifts to red",
+      "sfx": "RATTLE-SHAKE!!"
+    },
+    {
+      "id": "p21",
+      "shot": "students gasping and standing up in panic staring out windows",
+      "setting": "students panic",
+      "characters": [],
+      "action": "Thirty students leap from their chairs, running to the windows in terrified screams.",
+      "mood": "mass student panic",
+      "sfx": "SCREAM-GASPPP!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "student",
+          "text": "What is happening to the sun?! The sky is burning!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "ha-jun standing up slowly, his student uniform billowing in mana draft",
+      "setting": "ha-jun rises",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun stands up from his desk; his navy blazer billows as faint violet sparks dance around his shoes.",
+      "mood": "the king awakes",
+      "sfx": "RUSTLE-SPARK..."
+    },
+    {
+      "id": "p23",
+      "shot": "min-jae running to ha-jun: 'ha-jun! is this... the void?!'",
+      "setting": "min-jae alarm",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Min-Jae runs over, eyes wide behind his glasses: 'Ha-Jun! Look at the sky! The breach is everywhere!'",
+      "mood": "dread confirmed",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "This isn't a small gate! The whole sky is cracked!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "ha-jun looking out the window seeing a 2-mile dreadnought descending",
+      "setting": "dreadnought descent wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Descending through the crimson clouds right above Saint Mirren University: a colossal 2-mile obsidian dreadnought.",
+      "mood": "the flagship descends",
+      "sfx": "SHADOW COVERS CAMPUS..."
+    },
+    {
+      "id": "p25",
+      "shot": "the classroom ceiling beginning to crumble from sonic pressure",
+      "setting": "ceiling cracking",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Plaster showers down as the engine roar of the alien dreadnought rattles the campus foundation.",
+      "mood": "structural failure",
+      "sfx": "CRACK-DUST!!"
+    },
+    {
+      "id": "p26",
+      "shot": "ha-jun raising his hand deploying a protective ward over the classroom",
+      "setting": "protective ward",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun touches the classroom floor; a glowing golden dome seals the room, insulating all thirty students from the rubble.",
+      "mood": "protecting his classmates",
+      "sfx": "DOME-EXPAND!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Stay inside this circle. No demon can breach this ward.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "ha-jun looking back at min-jae with calm, resolute eyes",
+      "setting": "ha-jun orders min-jae",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun: 'Min-Jae. You're in charge of the class. Keep them calm.'",
+      "mood": "passing the guard",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Min-Jae, class ko protect karo. I'm going outside.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "min-jae nodding with tears of fierce courage in his eyes",
+      "setting": "min-jae courage",
+      "characters": [],
+      "action": "Min-Jae nods firmly, gripping a steel chair as a makeshift weapon: 'Go, Ha-Jun! Show them who owns this world!'",
+      "mood": "courageous ally",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Don't hold back, brother! Give them hell!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "ha-jun vaulting through the shattered window into the red sky",
+      "setting": "vaulting outside",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun leaps through the window glass, his uniform transforming in mid-air into the majestic robes of the Demon Sovereign.",
+      "mood": "transformation mid-flight",
+      "sfx": "LEAP-TRANSFORM!!"
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun hovering alone between saint mirren and the colossal dreadnought cliffhanger",
+      "setting": "standoff wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A 17-year-old student hovering in mid-air, facing down a two-mile alien warship to defend his school!",
+      "mood": "the defense of saint mirren cliffhanger",
+      "sfx": "ROARING TENSION!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "TUM GALAT CAMPUS MEIN AA GAYE HO!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,563 @@
+{
+  "chapter": 89,
+  "title": "The True Enemy",
+  "arc": 9,
+  "arc_title": "THE WAR OF SOVEREIGNS",
+  "summary": "As Nihilux falls, his dying breath reveals the terrifying truth: the Void Primordial is not an external demon, but the dormant shadow sleeping inside the Sovereign Bloodline itself.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "the supernova core detonating in blinding white and violet starlight",
+      "setting": "supernova detonation wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A sphere of pure white and royal violet light envelopes the entire boulevard, blinding all cameras and eyes.",
+      "mood": "blinding detonation",
+      "sfx": "SUPERNOVA FLASH!!"
+    },
+    {
+      "id": "p02",
+      "shot": "the explosion channeled harmlessly into the upper stratosphere by the domain",
+      "setting": "channeled explosion",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's Sovereign Domain funnels the cataclysmic energy into a clean column of aurora borealis into space.",
+      "mood": "safe redirection",
+      "sfx": "AURORA ROAR..."
+    },
+    {
+      "id": "p03",
+      "shot": "smoke clears revealing emperor nihilux pinned to the shattered asphalt",
+      "setting": "nihilux dying on ground",
+      "characters": [],
+      "action": "Nihilux lies broken on the ground, his four arms shattered, chest core reduced to sputtering green embers.",
+      "mood": "the emperor dying",
+      "sfx": "COUGH-OIL..."
+    },
+    {
+      "id": "p04",
+      "shot": "ha-jun and tae-jun standing over the dying void emperor",
+      "setting": "brothers look down",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun lowers his blade; Tae-Jun stands beside him with his bronze sword, both looking down with solemn victory.",
+      "mood": "victorious brothers",
+      "sfx": "STEP...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "It's over, Nihilux. The Three Thrones have fallen.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "nihilux laughing with rattling, bloody amusement through his broken helm",
+      "setting": "nihilux laughing dying",
+      "characters": [],
+      "action": "Nihilux wheezes, dark fluid bubbling from his mouth, chuckling with bone-chilling mockery.",
+      "mood": "sinister final laughter",
+      "sfx": "CHUCKLE-WHEEZE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "nihilux",
+          "text": "Fallen? Heh... Hehehe... You foolish mortal boy...",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "ha-jun eyes narrowing: 'what are you laughing at?'",
+      "setting": "ha-jun suspicious",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's jaw tightens: 'Why are you laughing?'",
+      "mood": "suspicion aroused",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Tumhara armada destroy ho chuka hai. Why are you laughing?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "nihilux revealing the cosmic secret of the sovereign bloodline",
+      "setting": "nihilux confession",
+      "characters": [],
+      "action": "Nihilux: 'You think the Void was an invader from outer space? The Void was born from the First Sovereign himself!'",
+      "mood": "the horrifying truth",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "nihilux",
+          "text": "Asmodaius did not fight the Void. He created it when he tried to become God!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p08",
+      "shot": "kuro gasping as an ancient locked memory suddenly unlocks in his skull",
+      "setting": "kuro stunned memory",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro's ruby eyes widen in petrified horror as the final locked partition of his 5,000-year memory snaps open.",
+      "mood": "repressed truth remembered",
+      "sfx": "GASP-CLANK!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "No... It can't be... Asmodaius... What did you do?!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "cosmic flashback shard: asmodaius splitting his soul into light and dark",
+      "setting": "flashback soul split",
+      "characters": [],
+      "action": "Ancient memory: First Sovereign Asmodaius standing in the cosmic forge, tearing his own soul into two halves.",
+      "mood": "the ancient heresy",
+      "sfx": "TEAR-SOUL!!",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "The Light became the Ten Relics. The Dark became the Void Primordial.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "nihilux smiling with malicious triumph: 'the true enemy is inside you!'",
+      "setting": "nihilux final words",
+      "characters": [],
+      "action": "Nihilux: 'The moment your bloodline reaches 100%, the Dark Half awakens inside your mind! You will become the Destroyer!'",
+      "mood": "the curse of 100%",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "nihilux",
+          "text": "When you transcend to 100%, you won't be a hero. You will be the Primordial Void yourself!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "nihilux crumbling into gray ash with a final mocking hiss",
+      "setting": "nihilux dissolves",
+      "characters": [],
+      "action": "With a final hateful laugh, Nihilux's body disintegrates into gray dust, carried away by the cold Seoul wind.",
+      "mood": "the villain gone",
+      "sfx": "DISSOLVE-WIND..."
+    },
+    {
+      "id": "p12",
+      "shot": "ha-jun staring at his trembling hands in profound, existential shock",
+      "setting": "ha-jun hands trembling",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun looks down at his palms; black and purple veins pulse beneath his pale skin in chaotic rhythm.",
+      "mood": "existential horror",
+      "sfx": "TREMBLE...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "The monster... is inside me? Mere apne bloodline mein?!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "tae-jun stepping up placing both hands on ha-jun trembling shoulders",
+      "setting": "tae-jun reassuring",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun grips Ha-Jun's shoulders firmly: 'Ha-Jun! Look at me! Don't listen to his dying poison!'",
+      "mood": "brotherly anchor",
+      "sfx": "GRIP...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Ha-Jun! Meri taraf dekho! You are not a monster!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "ha-jun looking up with tears of terror in his eyes",
+      "setting": "ha-jun terrified",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun whispers: 'What if he's right, Hyung? What if my 100% synchronization awakens the entity that killed our parents?'",
+      "mood": "vulnerable confession",
+      "sfx": "TEARS...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Agar main monster ban gaya... Agar maine Earth ko destroy kar diya... Toh?!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "shot": "tae-jun looking into ha-jun eyes with unshakeable conviction and warmth",
+      "setting": "tae-jun unshakeable",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun smiles with infinite tenderness: 'Then I will be your shield. And if you fall, I will bring you back. Always.'",
+      "mood": "the eternal vow renewed",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Main hamesha tumhare saath hoon. Chahe tum insaan bano ya shaitan.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "kuro fluttering down landing on ha-jun head ruffling feathers",
+      "setting": "kuro on head",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Kuro sits on Ha-Jun's messy hair: 'Besides, Asmodaius was an arrogant idiot. You are ten times the man he ever was.'",
+      "mood": "tough love familiar",
+      "sfx": "RUFFLE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Asmodaius couldn't conquer his own dark half. But you have something he never had: love.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "min-jae running up with two cans of soda grinning proudly",
+      "setting": "min-jae sodas",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Min-Jae jogs up with two cold cans of grape soda, handing one to Ha-Jun: 'For the champ who just saved the continent.'",
+      "mood": "mortal grounding",
+      "sfx": "SODA CAN...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Drink up, Ha-Jun. You look like you need sugar.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "ha-jun taking the soda can feeling the cold aluminum against his fingers",
+      "setting": "soda can in hand",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun pops the tab; the simple, cold, sweet fizzy drink brings him instantly back to reality and humanity.",
+      "mood": "grounded in simple joy",
+      "sfx": "TAB-HISS...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Thanks, Min-Jae. You're the best.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "the allied army and citizens gathering around them in warm applause",
+      "setting": "crowd gathering",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Thousands of human hunters, students, and demon legionnaires surround the trio, applauding with quiet reverence.",
+      "mood": "community embrace",
+      "sfx": "WARM APPLAUSE..."
+    },
+    {
+      "id": "p20",
+      "shot": "sudden dark tremor shaking the ground beneath gwanghwamun square",
+      "setting": "ground tremor",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A deep, subsonic rumble vibrates through the granite pavers; the ground temperature drops forty degrees in a second.",
+      "mood": "unforeseen tremor",
+      "sfx": "RUMBLE-CHILL!!"
+    },
+    {
+      "id": "p21",
+      "shot": "the sky tearing open in a colossal black vortex directly overhead",
+      "setting": "black vortex sky",
+      "characters": [],
+      "action": "Right above the center of Seoul, a pitch-black interdimensional maelstrom opens—the Prime Gate to the Nether Root.",
+      "mood": "the prime gate opens",
+      "sfx": "TEAR-VORTEX!!"
+    },
+    {
+      "id": "p22",
+      "shot": "from the vortex: a voice identical to ha-jun own voice echoing",
+      "setting": "voice from vortex",
+      "characters": [
+        "hajun"
+      ],
+      "action": "From the dark maelstrom echoes a dark, mocking voice that sounds exactly like Ha-Jun Kang: 'Come inside, Little Vessel.'",
+      "mood": "the dark self calls",
+      "sfx": "ECHO-VOICE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "dark_voice",
+          "text": "Come into the dark, Ha-Jun. Let us complete our bloodline.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "ha-jun looking up into the vortex recognizing his own tone",
+      "setting": "ha-jun look up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun looks up; his irises reflect the spinning black void, realizing his ultimate trial has arrived.",
+      "mood": "destiny calls",
+      "sfx": "STARE...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Yeh aawaz... It sounds just like me.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "tae-jun gripping his claymore: 'i'm coming with you!'",
+      "setting": "tae-jun steps forward",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun steps forward: 'I'm entering the gate with you! You aren't facing this alone!'",
+      "mood": "brotherly loyalty",
+      "sfx": "STEP...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Main tumhare saath chalunga!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "ha-jun gently raising a golden barrier stopping tae-jun",
+      "setting": "gentle barrier",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun raises a soft golden barrier: 'No, Hyung. This is my mindscape trial. If you enter, the dark entity will consume you.'",
+      "mood": "protecting his protector",
+      "sfx": "BARRIER GLOW...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Nahi, Tae-Jun. Yeh mere andar ki jung hai. You must protect Earth while I am inside.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "shot": "tae-jun looking at ha-jun with fierce pride and tears in his eyes",
+      "setting": "tae-jun tears of pride",
+      "characters": [],
+      "action": "Tae-Jun presses his palm against the golden barrier, smiling with tears: 'Promise me you'll come back, Ha-Jun.'",
+      "mood": "the sacred promise",
+      "sfx": "TOUCH BARRIER...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Wapas aane ka vaada karo.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "ha-jun smiling with radiant, heroic certainty",
+      "setting": "ha-jun radiant smile",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun smiles back: 'I promise. I will conquer the darkness and come home.'",
+      "mood": "unshakeable promise",
+      "sfx": "SMILE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Vaada raha. Main wapas aaunga.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "kuro perching on ha-jun shoulder: 'i'm your familiar. wherever you go, i go.'",
+      "setting": "kuro stays",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Kuro digs his talons into Ha-Jun's coat: 'The covenant binds us across life and death. You can't get rid of me that easily.'",
+      "mood": "inseparable bond",
+      "sfx": "PURR...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "We face the Abyss together.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "ha-jun ascending vertically into the dark maelstrom",
+      "setting": "ascending into vortex",
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
+      "action": "Ha-Jun and Kuro rise into the sky, six radiant wings of starlight carrying them into the pitch-black center of the portal.",
+      "mood": "ascent into the final gate",
+      "sfx": "ASCENT-GLOW!!"
+    },
+    {
+      "id": "p30",
+      "shot": "the dark vortex closing behind ha-jun as arc 9 concludes cliffhanger",
+      "setting": "vortex closing wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The dimensional gate snaps shut behind him; the final arc has begun!",
+      "mood": "arc 9 grand finale / arc 10 threshold",
+      "sfx": "SNAP-SEAL!!",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "ARC 9: THE WAR OF SOVEREIGNS — CONCLUDED. NEXT: ARC 10 — THE LAST BLOOD.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    }
+  ]
+}
