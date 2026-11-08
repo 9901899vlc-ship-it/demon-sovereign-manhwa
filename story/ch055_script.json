@@ -1,0 +1,462 @@
+{
+  "chapter": 55,
+  "title": "The Fallen Throne",
+  "arc": 6,
+  "arc_title": "THE FALLEN SOVEREIGN",
+  "summary": "Mastering the Sovereign Domain, Ha-Jun explores the ancient Throne of Asmodaius, discovering the hidden mechanism leading into the Sacred Memory Chamber beneath the summit.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "500-meter sovereign domain sphere shimmering wide shot",
+      "setting": "mount obsidian summit",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A massive translucent violet sphere of sovereign authority encloses the entire summit plateau.",
+      "mood": "sovereign domain majesty",
+      "sfx": "HUMMMMMM..."
+    },
+    {
+      "id": "p02",
+      "shot": "gravity and atmospheric pressure bending inside domain",
+      "setting": "domain interior",
+      "characters": [],
+      "action": "Loose diamond dust and stone pebbles float weightlessly in midair within the boundaries of the domain.",
+      "mood": "zero gravity control",
+      "sfx": "FLOAT..."
+    },
+    {
+      "id": "p03",
+      "shot": "ha-jun descending throne steps with effortless grace",
+      "setting": "throne steps",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun steps down the marble staircase, Crown gleaming, his dark coat rustling with sovereign dignity.",
+      "mood": "king walking among men",
+      "sfx": "STEP... STEP..."
+    },
+    {
+      "id": "p04",
+      "shot": "tae-jun standing up and smiling warmly",
+      "setting": "throne base",
+      "characters": [],
+      "action": "Tae-Jun clasps his younger brother's hand: 'Tumhara domain... Maine aisi presence 7 saalo mein nahi dekhi.'",
+      "mood": "brotherly handshake",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Poori mountain tumhare rhythm par saans le rahi hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "ha-jun dispelling the floating stones with a flick",
+      "setting": "domain interior",
+      "characters": [
+        "hajun"
+      ],
+      "action": "With a subtle twitch of his ring finger, the floating stones settle gently back onto the ground.",
+      "mood": "effortless authority",
+      "sfx": "TAP-REST...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Yeh Crown bas weapon nahi hai... Yeh is realm ka steering wheel hai.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "kuro hopping onto the throne backrest",
+      "setting": "throne apex",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro pecks at a hidden demonic crest carved into the obsidian backrest: 'Lekin Asmodaius ka asli treasure niche hai!'",
+      "mood": "secret discovered",
+      "sfx": "TINK-TINK!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Throne ke theek niche The Sacred Memory Chamber hai!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "ha-jun examining the throne seat",
+      "setting": "throne macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "In the center of the dark seat: an intricate nine-pointed star depression matching Ha-Jun's Sovereign Crest.",
+      "mood": "keyhole mechanism"
+    },
+    {
+      "id": "p08",
+      "shot": "ha-jun pressing right palm onto the star depression",
+      "setting": "throne seat",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun presses his bare palm into the depression, conducting a pulse of crimson blood mana.",
+      "mood": "activating the mechanism",
+      "sfx": "PULSE-GLOW!!"
+    },
+    {
+      "id": "p09",
+      "shot": "thunderous grinding of ancient gears inside the mountain",
+      "setting": "mount obsidian core",
+      "characters": [],
+      "action": "Deep inside Mount Obsidian, colossal subterranean counterweights shift with seismic rumbles.",
+      "mood": "mountain shifting",
+      "sfx": "GRRRR-RUMBLE!!"
+    },
+    {
+      "id": "p10",
+      "shot": "central throne splitting and parting into two halves",
+      "setting": "plateau center",
+      "characters": [],
+      "action": "The 40-foot obsidian throne splits down the middle, sliding apart along concealed bronze tracks.",
+      "mood": "throne parts",
+      "sfx": "SLIDE-CREAK!!"
+    },
+    {
+      "id": "p11",
+      "shot": "circular descending staircase of crystal revealed",
+      "setting": "throne aperture",
+      "characters": [],
+      "action": "Beneath the throne opens a 20-foot wide circular staircase of glowing amethyst steps spiraling down.",
+      "mood": "descent to the archives"
+    },
+    {
+      "id": "p12",
+      "shot": "ha-jun peering into the glowing subterranean depths",
+      "setting": "stair aperture",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Cool, scented air smelling of ancient scrolls and cedarwood wafts upward from the illuminated depths.",
+      "mood": "scent of history",
+      "sfx": "INHALE...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Hazaaron saal purani kitabo ki khushboo... Yeh koi dungeon nahi hai, yeh library hai.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "kuro flying down first as scout",
+      "setting": "stair aperture",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro glides into the opening: 'The Memory Archives of Asmodaius! Jahan universe ka sach band hai!'",
+      "mood": "eager scout",
+      "sfx": "SWOOSH!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Aao, Ha-Jun! Tae-Jun, sath chalo!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "ha-jun and tae-jun descending the amethyst steps",
+      "setting": "crystal stairs",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The two brothers walk side-by-side down the luminous purple crystal spiral staircase.",
+      "mood": "brothers descend",
+      "sfx": "STEP... STEP..."
+    },
+    {
+      "id": "p15",
+      "shot": "walls lined with millions of floating crystal memory orbs",
+      "setting": "archive corridor",
+      "characters": [],
+      "action": "The subterranean hall opens into a colossal hollow cavern lined with millions of glowing data spheres.",
+      "mood": "infinite archives",
+      "sfx": "GLOWING SPHERES..."
+    },
+    {
+      "id": "p16",
+      "shot": "central holographic pedestal in the archive chamber",
+      "setting": "archive center",
+      "characters": [],
+      "action": "In the heart of the archives: a crystalline dais projecting a 3D star map of the mortal and abyssal realms.",
+      "mood": "the cosmos map",
+      "sfx": "HUMMM..."
+    },
+    {
+      "id": "p17",
+      "shot": "ha-jun stepping up to the central star map",
+      "setting": "archive center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun reaches out to touch the holographic representation of Earth and the Abyss linked by red lines.",
+      "mood": "examining the cosmos",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Earth aur Demon Realm... Pehle ek hi universe ka hissa the?",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "tae-jun reading an ancient holographic text",
+      "setting": "archive terminal",
+      "characters": [],
+      "action": "Tae-Jun swipes through floating cuneiform symbols: 'Haan... 10,000 saal pehle tak koi Gate nahi tha.'",
+      "mood": "cosmic history",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Dono realms ek saath exist karte the... Jab tak 'The Void Primordial' nahi aaya.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "ha-jun turning sharply to tae-jun",
+      "setting": "archive center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun looks up: 'The Void Primordial... Yeh kaun hai?'",
+      "mood": "the core mystery",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Asmodaius ne bhi is entity ka naam liya tha.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "kuro expression turning somber and dark",
+      "setting": "archive dais",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro lands on the pedestal: 'Woh entity kisi realm ki nahi hai... Woh universal entropy ka avatar hai.'",
+      "mood": "the cosmic terror",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "The Void Primordial har universe ke mana ko devour karta hai jab tak sabkuch black na ho jaye.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "archive orb projecting historical memory hologram",
+      "setting": "chamber center",
+      "characters": [],
+      "action": "A glowing gold orb projects a colossal memory playback in the center of the chamber.",
+      "mood": "historical playback",
+      "sfx": "FLASH!!"
+    },
+    {
+      "id": "p22",
+      "shot": "hologram showing the first sovereign in his prime",
+      "setting": "hologram playback",
+      "characters": [],
+      "action": "Lord Asmodaius, a towering emperor in midnight armor with four horns, presiding over a golden civilization.",
+      "mood": "the golden age"
+    },
+    {
+      "id": "p23",
+      "shot": "seven demon kings kneeling before asmodaius",
+      "setting": "hologram playback",
+      "characters": [],
+      "action": "Seven crowned demon lords swearing absolute fealty before the Sovereign's throne.",
+      "mood": "the original covenant",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "Seven Demon Kings Sovereign ke sabse faithful generals the... Lekin Void ne unke dimaago mein poison daal diya.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "black void worms infecting the demon kings' brains",
+      "setting": "hologram playback",
+      "characters": [],
+      "action": "Terrifying microscopic black parasites burrowing into the demon kings' eyes, turning them into puppets.",
+      "mood": "the void parasite",
+      "sfx": "WRIGGLE..."
+    },
+    {
+      "id": "p25",
+      "shot": "ha-jun staring in shock at the parasite footage",
+      "setting": "archive center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun covers his mouth: 'Woh demon kings evil nahi the... Woh mind-controlled the!'",
+      "mood": "revelation of tragedy",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "The Seven Kings were infected by the Void!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "shot": "tae-jun pointing to the infection records",
+      "setting": "archive terminal",
+      "characters": [],
+      "action": "Tae-Jun highlights a medical file: 'Director Kang ke laboratory mein wahi same parasite mila tha!'",
+      "mood": "the connection locked",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Hunter Bureau bhi usi Void Cult ka tool thi, Ha-Jun! Same infection!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "ha-jun realization dawning like lightning",
+      "setting": "hero close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Everything connects in Ha-Jun's mind: humans, demons, hunters—all manipulated by the same unseen horror.",
+      "mood": "the grand puppet master",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Asli dushman na Humans the na Demons... Asli dushman 'The Void' hai!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "a second secret vault door in the archive floor",
+      "setting": "archive floor",
+      "characters": [],
+      "action": "Behind the star map pedestal, a circular hatch engraved with an eclipse crescent glows pitch-black.",
+      "mood": "the weapon vault",
+      "sfx": "DARK RADIANCE..."
+    },
+    {
+      "id": "p29",
+      "shot": "kuro pointing to the crescent hatch",
+      "setting": "archive dais",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro spreads his wings: 'Wahan rests the second Legendary Relic: Eclipse Devourer!'",
+      "mood": "relic #9 revealed",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "The Void-slaying blade! The Eclipse Devourer!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun walking toward the eclipse hatch with drawn breath",
+      "setting": "vault approach",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun steps up to the dark portal, his Crown resonating with ancient anticipation.",
+      "mood": "ready for the blade of eclipse",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Let us forge the blade that will end the Void.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    }
+  ]
+}

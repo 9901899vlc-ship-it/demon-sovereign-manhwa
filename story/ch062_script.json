@@ -1,0 +1,391 @@
+{
+  "chapter": 62,
+  "title": "The Sovereign's Enemy",
+  "arc": 6,
+  "arc_title": "THE FALLEN SOVEREIGN",
+  "summary": "Ha-Jun's return to Seoul rallies the human defenders. As the 50,000 Iron Demon Vanguard reinforces Gangnam, the true architect of the invasion emerges: Void General Xal'Khor.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "ha-jun standing atop the dead 50-foot behemoth wide shot",
+      "setting": "gangnam intersection",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Rain pours down over Ha-Jun's crowned silhouette as steam hisses from the bisected monster's skull.",
+      "mood": "triumphant return",
+      "sfx": "STEAM HISSING..."
+    },
+    {
+      "id": "p02",
+      "shot": "min-jae dropping his plasma rifle in breathless joy",
+      "setting": "barricade line",
+      "characters": [],
+      "action": "Min-Jae drops his rifle, tears streaming behind his glasses: 'HA-JUN!! HE'S BACK!!'",
+      "mood": "joy of the ally",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "min_jae",
+          "text": "HA-JUN WAPAS AA GAYA!! WITH THE CROWN!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "shot": "captain baek saluting with bloody combat glove",
+      "setting": "barricade line",
+      "characters": [],
+      "action": "Captain Baek wipes sweat and blood from his brow, exhaling in massive relief: 'The Sovereign has returned.'",
+      "mood": "veteran relief",
+      "sfx": "SALUTE!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "captain_baek",
+          "text": "Hamare paas sirf 5 minute bache the... Timely arrival, Your Majesty.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "the 100-meter golden portal over gangnam flashing",
+      "setting": "sky above gangnam",
+      "characters": [],
+      "action": "High above the intersection, the portal pulses violently as war horns sound from within.",
+      "mood": "reinforcements arrive",
+      "sfx": "PORTAL CHIME-HORN!!"
+    },
+    {
+      "id": "p05",
+      "shot": "general malgath and 50,000 iron demons pouring onto the streets",
+      "setting": "gangnam streets wide",
+      "characters": [],
+      "action": "The disciplined legions of iron demons flood the streets, forming impenetrable defensive shield-walls.",
+      "mood": "demon army aids humanity",
+      "sfx": "STOMP-SHIELD WALL!!"
+    },
+    {
+      "id": "p06",
+      "shot": "human citizens in buildings watching demons in stunned disbelief",
+      "setting": "office tower windows",
+      "characters": [],
+      "action": "Civilians sheltered inside high-rise offices watch in amazement as demons fight alongside human hunters.",
+      "mood": "historic paradigm shift",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "Humanity ke itihaas mein pehli baar... Demons insaano ki dhaal ban kar khade the.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "malgath landing beside ha-jun bowing head",
+      "setting": "intersection center",
+      "characters": [],
+      "action": "Malgath strikes his chestplate: 'Sector 4 perimeter is locked, My Sovereign!'",
+      "mood": "general's report",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "malgath",
+          "text": "Bahar ke saare beasts barricade ke peeche push kar diye gaye hain!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p08",
+      "shot": "ha-jun nodding: 'Good work, Malgath.'",
+      "setting": "intersection center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun looks down from the behemoth: 'Lekin invasion force ka commander kahan hai?'",
+      "mood": "seeking the enemy general",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Yeh mindless beasts hain. Inhe control kaun kar raha hai?",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "sudden drop in ambient light across seoul",
+      "setting": "seoul sky wide",
+      "characters": [],
+      "action": "Every streetlamp and neon billboard in Gangnam flickers and dies; absolute unnatural pitch-darkness falls.",
+      "mood": "light extinguished",
+      "sfx": "FLICKER-DARK..."
+    },
+    {
+      "id": "p10",
+      "shot": "sky tearing open into a jagged black antimatter rift",
+      "setting": "sky above city",
+      "characters": [],
+      "action": "A three-hundred-meter vertical crack tears through the clouds, glowing with toxic green void energy.",
+      "mood": "the void rift",
+      "sfx": "TEARING SOUND!!"
+    },
+    {
+      "id": "p11",
+      "shot": "a colossal floating throne of black bone descending",
+      "setting": "void rift descent",
+      "characters": [],
+      "action": "Descending from the rift: a floating throne made of thousands of fused human and demon skulls.",
+      "mood": "throne of horrors",
+      "sfx": "EERIE HUM..."
+    },
+    {
+      "id": "p12",
+      "shot": "void general xal'khor full design reveal",
+      "setting": "bone throne close-up",
+      "characters": [],
+      "action": "Seated on the throne: an 18-foot biomechanical Void General with a faceless mirrored visor, six bladed arms, and void tentacles.",
+      "mood": "void general xal'khor"
+    },
+    {
+      "id": "p13",
+      "shot": "xal'khor voice vibrating in mechanical digital distortion",
+      "setting": "citywide broadcast",
+      "characters": [],
+      "action": "A voice like grinding metal broadcast directly into everyone's skulls: 'The biological anomaly Ha-Jun Kang.'",
+      "mood": "voice of the void",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "xal_khor",
+          "text": "Main Void Primordial ka High Arbiter hoon. Your universe has been selected for recycling.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "xal'khor raising one mechanical blade arm",
+      "setting": "bone throne",
+      "characters": [],
+      "action": "Xal'Khor points at Ha-Jun's crown: 'The Sovereign Relics are obsolete technology. Hand them over.'",
+      "mood": "arrogant demand"
+    },
+    {
+      "id": "p15",
+      "shot": "ha-jun leaping off the dead behemoth to the asphalt",
+      "setting": "street level",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun lands smoothly on the rain-slicked road, stepping toward the descending throne.",
+      "mood": "stepping into challenge",
+      "sfx": "TAP..."
+    },
+    {
+      "id": "p16",
+      "shot": "ha-jun mocking the void general",
+      "setting": "street level",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun smirks with icy disdain: 'Recycling? Tumhari vocabulary bohot advanced hai machine ke liye.'",
+      "mood": "sovereign banter",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Lekin tumhare jaisi kitni machines ko maine pehle scrap banaya hai, pata hai?",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "xal'khor visor flashing crimson red",
+      "setting": "bone throne",
+      "characters": [],
+      "action": "The mirrored visor pulses angry red: 'Disrespect detected. Commencing biological purge.'",
+      "mood": "hostility engaged",
+      "sfx": "BEEP-RED!"
+    },
+    {
+      "id": "p18",
+      "shot": "xal'khor launching six void antimatter missiles",
+      "setting": "bone throne air",
+      "characters": [],
+      "action": "Six black spheres of pure antimatter launch from Xal'Khor's shoulders, homing in on Ha-Jun.",
+      "mood": "antimatter missiles",
+      "sfx": "WHIRRR-ZIP!!"
+    },
+    {
+      "id": "p19",
+      "shot": "ha-jun activating chains of ruin in midair",
+      "setting": "combat action",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun whips the Chains of Ruin; the black chains form a rotating gravitational shield in front of him.",
+      "mood": "gravity barrier",
+      "sfx": "SPIN-CLANG!!"
+    },
+    {
+      "id": "p20",
+      "shot": "antimatter missiles detonating against the chains",
+      "setting": "shield macro",
+      "characters": [],
+      "action": "The six missiles detonate with terrifying white-hot flashes, but the gravity field absorbs 100% of the blast.",
+      "mood": "explosions contained",
+      "sfx": "BOOM-BOOM-CONTAIN!!"
+    },
+    {
+      "id": "p21",
+      "shot": "ha-jun drawing eclipse devourer through the smoke",
+      "setting": "combat action",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun bursts through the explosion smoke at Mach 2, the dark-matter greatsword raised overhead.",
+      "mood": "blitz attack",
+      "sfx": "FWOOOOSH!!"
+    },
+    {
+      "id": "p22",
+      "shot": "xal'khor deploying six high-frequency energy blades",
+      "setting": "midair clash",
+      "characters": [],
+      "action": "Xal'Khor's six arms deploy humming green energy blades, meeting Ha-Jun's strike in midair.",
+      "mood": "six-blade parry",
+      "sfx": "CRACKLE-SHING!!"
+    },
+    {
+      "id": "p23",
+      "shot": "titanic midair deadlock between the two commanders",
+      "setting": "gangnam air wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's single greatsword deadlocked against Xal'Khor's six energy blades; shockwaves rattle buildings.",
+      "mood": "midair deadlock",
+      "sfx": "SPARKS-SHOCKWAVE!!"
+    },
+    {
+      "id": "p24",
+      "shot": "xal'khor tentacles whipping around ha-jun ribs",
+      "setting": "midair clash",
+      "characters": [],
+      "action": "Four razor-tipped tentacles lash out from Xal'Khor's back, wrapping around Ha-Jun's ribs to crush him.",
+      "mood": "tentacle constriction",
+      "sfx": "WRAP-SQUEEZE!!"
+    },
+    {
+      "id": "p25",
+      "shot": "ha-jun bone gauntlet and armor hardening instantly",
+      "setting": "body macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's internal bone density activates; the crushing tentacles cannot compress his ribcage even an inch.",
+      "mood": "unbreakable bone",
+      "sfx": "CLANK!",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Bone of the Forgotten... Tumhara hydraulic grip meri haddiyo ko touch bhi nahi kar sakta!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "shot": "ha-jun drawing the fang of abyss with left hand",
+      "setting": "melee combat",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun pulls the void dagger with his left hand, slicing cleanly through all four tentacles in one reverse cut.",
+      "mood": "tentacles severed",
+      "sfx": "SLASHHH!!"
+    },
+    {
+      "id": "p27",
+      "shot": "xal'khor recoiling as black cybernetic fluid sprays",
+      "setting": "midair",
+      "characters": [],
+      "action": "Xal'Khor jerks backward, severed tentacle cables spewing green sparks and black coolant.",
+      "mood": "coolant spray",
+      "sfx": "SPARK-HSSS!!"
+    },
+    {
+      "id": "p28",
+      "shot": "ha-jun delivering downward heel kick to xal'khor chest",
+      "setting": "midair",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun drives an axe-kick into Xal'Khor's chestplate, rocketing the 18-foot general into the street tarmac.",
+      "mood": "grounding the general",
+      "sfx": "WHAMMM!!"
+    },
+    {
+      "id": "p29",
+      "shot": "xal'khor crashing into gangnam intersection crater",
+      "setting": "intersection crater",
+      "characters": [],
+      "action": "The Void General smashes into the asphalt, digging a 40-foot trench through the street.",
+      "mood": "trench impact",
+      "sfx": "BOOOOOM-CRUNCH!!"
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun hovering overhead with wings wide and sword drawn",
+      "setting": "sky over crater",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun hovers thirty feet above the smoking crater, pointing his greatsword down: 'Recycle this.'",
+      "mood": "monarch dominant",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Ab batao... Kon obsolete hai?",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    }
+  ]
+}

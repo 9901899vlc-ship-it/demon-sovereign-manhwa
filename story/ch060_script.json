@@ -1,0 +1,489 @@
+{
+  "chapter": 60,
+  "title": "Eclipse Devourer",
+  "arc": 6,
+  "arc_title": "THE FALLEN SOVEREIGN",
+  "summary": "With all ten Relics gathered, Ha-Jun masters the full authority of the Eclipse Devourer, awakening his personal Shadow Army of ancient sovereign champions.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "the ten relics orbiting ha-jun in a celestial planetary ring",
+      "setting": "temple terrace wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Feather, Ring, Bone, Heart, Fang, Eye, Chains, Crown, Devourer, and Hourglass circle Ha-Jun in blinding light.",
+      "mood": "the complete sovereign solar system",
+      "sfx": "CELESTIAL HARMONY..."
+    },
+    {
+      "id": "p02",
+      "shot": "ten-colored celestial halo blazing behind ha-jun head",
+      "setting": "hero upper body",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A ten-spoke wheel of violet, crimson, ivory, indigo, and gold light burns like a star behind Ha-Jun's crown.",
+      "mood": "the sovereign halo",
+      "sfx": "MAJESTIC PULSE!!"
+    },
+    {
+      "id": "p03",
+      "shot": "system interface global announcement",
+      "setting": "temple air",
+      "characters": [],
+      "action": "A world-tier diamond interface unfurls across the entire sky of the Demon Realm.",
+      "mood": "planetary system announcement",
+      "sfx": "UNIVERSAL GONGGG!!",
+      "dialogue": [
+        {
+          "type": "system",
+          "text": "[UNIVERSAL ACHIEVEMENT: ALL 10 RELICS ASSEMBLED]\nBloodline Synchronization: 65.0%\nTrue Sovereign Dominion: PERMANENT\nNew Authority: Shadow Monarch Manifestation (Shadow Legion Capacity: 10,000).",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "valac bowing his forehead against the crystal terrace",
+      "setting": "temple terrace",
+      "characters": [],
+      "action": "Lord Valac presses his face to the cold stone: 'My Lord... Forgive my treason! I submit to the True Sovereign!'",
+      "mood": "unconditional surrender",
+      "sfx": "BOW-SUBMIT!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "valac",
+          "text": "Mera Shadow Realm aapka hai! Meri aatma aapki daasi hai!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "ha-jun looking down with calm sovereign detachment",
+      "setting": "hero stance",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun looks down at the groveling demon lord: 'Tumhari punishment yeh hai ki tum mere Shadow Vanguard ke subordinate banoge.'",
+      "mood": "just judgment",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Kuro tumhara commander hoga. Ek bhi galti hui... Toh Eclipse Devourer tumhara dinner karega.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "kuro puffing chest with grand familiar pride",
+      "setting": "ha-jun shoulder",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro cackles with evil satisfaction: 'Suna tune, Valac?! Ab tum mere order follow karoge! Hahahaha!'",
+      "mood": "vanguard promoted",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Go clean my nest on Mount Obsidian! Move it!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "tae-jun landing on the terrace riding his wyvern",
+      "setting": "temple terrace edge",
+      "characters": [],
+      "action": "Tae-Jun leaps down from the black wyvern saddle, running to Ha-Jun with a proud, beaming grin.",
+      "mood": "brother arrives",
+      "sfx": "THUD-RUN!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Ha-Jun! Pura time rift normal ho gaya! Tumne Lilith aur Valac dono ko neutralise kar diya!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p08",
+      "shot": "ha-jun smiling warmly at tae-jun",
+      "setting": "terrace center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun clasps his brother's forearm: 'Bhai... Mummy aur Papa ka badla pura hua. Lilith mar chuki hai.'",
+      "mood": "vengeance complete",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Unhone humein azaad kiya tha... Aaj humne unhe shanti di.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "tae-jun eyes filling with tears of peace",
+      "setting": "brothers close-up",
+      "characters": [],
+      "action": "Tae-Jun looks up at the twin moons, a lone tear of peace slipping down his cheek: 'Rest in peace, Ma... Papa.'",
+      "mood": "parents avenged"
+    },
+    {
+      "id": "p10",
+      "shot": "ha-jun turning toward the vast empty terrace",
+      "setting": "terrace center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun looks at the expansive 200-meter white crystal floor: 'Now... Let me test the Shadow Legion.'",
+      "mood": "testing the shadow army"
+    },
+    {
+      "id": "p11",
+      "shot": "ha-jun thrusting eclipse devourer tip into the crystal floor",
+      "setting": "floor macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun plunges the tip of the dark-matter greatsword into the center of the clock dial.",
+      "mood": "sword planted",
+      "sfx": "PLUNGE-CLICK!!"
+    },
+    {
+      "id": "p12",
+      "shot": "black liquid shadow spilling outward in concentric waves",
+      "setting": "terrace floor",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A pool of pitch-black liquid darkness spreads outward across the white crystal floor like spilled ink.",
+      "mood": "shadow pool expands",
+      "sfx": "EXPAND-RIPPLE..."
+    },
+    {
+      "id": "p13",
+      "shot": "ha-jun speaking the sovereign command of resurrection",
+      "setting": "hero stance",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's voice resonates in ten dimensions: 'Arise, soldiers of the Sovereign. ARISE!'",
+      "mood": "the command to rise",
+      "sfx": "ECHOING COMMAND!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "ARISE!! (JAAGO!!)",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "thousands of black armored hands erupting from the shadows",
+      "setting": "shadow pool",
+      "characters": [],
+      "action": "From the liquid shadow pool, thousands of armored obsidian gauntlets punch upward toward the sky.",
+      "mood": "hands rising",
+      "sfx": "BURST-CLANK!!"
+    },
+    {
+      "id": "p15",
+      "shot": "one thousand shadow knights rising to full height",
+      "setting": "terrace wide",
+      "characters": [],
+      "action": "One thousand towering demonic Shadow Knights in obsidian armor and flowing violet plumes rise in unison.",
+      "mood": "the shadow legion born",
+      "sfx": "STAND IN SILENCE..."
+    },
+    {
+      "id": "p16",
+      "shot": "centurion general vaelor leading the shadow frontline",
+      "setting": "shadow legion lead",
+      "characters": [],
+      "action": "At the front of the army: the resurrected Skeletal Centurion General Vaelor, holding his bone broadsword.",
+      "mood": "vaelor reborn as shadow",
+      "sfx": "SALUTE!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "vaelor_shadow",
+          "text": "General Vaelor, at the Sovereign's command once more!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "one thousand shadow knights slamming fists to chests in salute",
+      "setting": "shadow legion wide",
+      "characters": [],
+      "action": "All one thousand shadow warriors strike their breastplates in synchronized, deafening military homage.",
+      "mood": "thunderous salute",
+      "sfx": "CLANG-SALUTE!!"
+    },
+    {
+      "id": "p18",
+      "shot": "tae-jun watching with jaw dropped in pure awe",
+      "setting": "terrace edge",
+      "characters": [],
+      "action": "Tae-Jun watches the silent shadow army: 'An immortal army that lives inside your shadow... Incredible.'",
+      "mood": "brother stunned",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Yeh army kabhi nahi thakti, kabhi nahi marti... Aur tumhare mind se direct sync hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "ha-jun raising right hand to command the legion",
+      "setting": "hero stance",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun looks over his troops: 'Disperse and secure the perimeter of the Temporal Temple.'",
+      "mood": "military dispatch",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Perimeter secure karo. Hum yahan se Mount Obsidian lautenge.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "shadow knights dissolving into floor shadows to patrol",
+      "setting": "terrace floor",
+      "characters": [],
+      "action": "The thousand shadow soldiers sink seamlessly back into the floor shadows, patrolling like silent phantoms.",
+      "mood": "phantom patrol",
+      "sfx": "MELT..."
+    },
+    {
+      "id": "p21",
+      "shot": "ha-jun recalling the eclipse devourer to his hand",
+      "setting": "terrace center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun pulls the blade from the floor, sheathing it across his back.",
+      "mood": "weapon sheathed",
+      "sfx": "CLACK!"
+    },
+    {
+      "id": "p22",
+      "shot": "ha-jun holding the hourglass of eternal abyss",
+      "setting": "hands macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun cradles the 3-foot diamond hourglass in his arms; the golden sands flow peacefully downward now.",
+      "mood": "hourglass secured",
+      "sfx": "TRICKLE..."
+    },
+    {
+      "id": "p23",
+      "shot": "kuro looking at the hourglass with quiet respect",
+      "setting": "ha-jun shoulder",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro notes: 'Hourglass hamare paas hai... Lekin iska use sirf ultimate emergency mein hi karna.'",
+      "mood": "cautious counsel",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Yaad rakhna: Memory loss permanent hota hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "ha-jun nodding firmly: 'I remember.'",
+      "setting": "terrace center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun nods: 'Main ise tab tak use nahi karunga jab tak duniya ka aakhri option na bache.'",
+      "mood": "restraint of the sovereign"
+    },
+    {
+      "id": "p25",
+      "shot": "sudden transmission ping in ha-jun earpiece",
+      "setting": "earpiece macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "After three days of radio silence, Min-Jae's voice suddenly crackles through the earpiece.",
+      "mood": "connection to earth restored",
+      "sfx": "STATIC-BEEP!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "min_jae",
+          "text": "HA-JUN!! CAN YOU HEAR ME?! EMERGENCY IN SEOUL!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "shot": "ha-jun touching earpiece in alert surprise",
+      "setting": "terrace center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun presses the earpiece: 'Min-Jae?! Signal connect ho gaya?! Earth par kya ho raha hai?!'",
+      "mood": "urgent inquiry",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Min-Jae, report karo! Kya hua Seoul mein?!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "min-jae voice breaking through panic",
+      "setting": "earpiece macro",
+      "characters": [],
+      "action": "Min-Jae screams: 'Multiple colossal Abyssal Gates open ho chuke hain! Tokyo, New York, Seoul!'",
+      "mood": "global crisis",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Yeh Demon Lords nahi hain... Yeh kuch bohot bada hai! The Void Primordial has initiated global invasion!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "tae-jun stepping up with drawn swords",
+      "setting": "terrace center",
+      "characters": [],
+      "action": "Tae-Jun grips his short-swords: 'The Void Primordial... Usne hamare Demon Realm mein hone ka faayda uthaya!'",
+      "mood": "the trap revealed",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Usne Earth par direct strike kiya hai jab hum yahan the!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "ha-jun eyes igniting with diamond-hard resolution",
+      "setting": "hero close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun clenches his fists, Crown blazing with radiant solar violet power.",
+      "mood": "the king prepares to return",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Humne Demon Realm ko unite kiya... Ab hum apne home world ko protect karne lautenge.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun raising eclipse devourer to open a massive portal to seoul",
+      "setting": "temple terrace wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun slashes empty space; a 100-meter golden-violet gate tears open directly toward the Seoul skyline.",
+      "mood": "portal to earth opened",
+      "sfx": "WARP-BOOOOOOM!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "All legions... To Earth! We defend our home!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    }
+  ]
+}

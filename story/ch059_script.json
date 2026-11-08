@@ -1,0 +1,415 @@
+{
+  "chapter": 59,
+  "title": "The Missing Memory",
+  "arc": 6,
+  "arc_title": "THE FALLEN SOVEREIGN",
+  "summary": "Fighting inside the temporal field, Kuro's true demonic memories awaken as Ha-Jun faces Queen Lilith's psychic illusions, discovering the hidden truth of the night his family was targeted.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "temple terrace duel wide shot",
+      "setting": "temple terrace",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun stands between Demon Lord Valac and Queen Lilith on a massive clock dial made of white crystal.",
+      "mood": "arena of frozen time",
+      "sfx": "TICK-TOCK..."
+    },
+    {
+      "id": "p02",
+      "shot": "valac swinging shadow scythe at ha-jun neck",
+      "setting": "terrace combat",
+      "characters": [],
+      "action": "Valac sweeps an eight-foot scythe of solid living darkness in a horizontal beheading arc.",
+      "mood": "shadow scythe sweep",
+      "sfx": "SWHOOOOM!!"
+    },
+    {
+      "id": "p03",
+      "shot": "ha-jun parrying scythe with eclipse devourer",
+      "setting": "clash macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun parries the shadow blade with Eclipse Devourer; the dark matter sword eats Valac's shadow mana.",
+      "mood": "blade eating shadows",
+      "sfx": "CHIME-DEVOUR!!"
+    },
+    {
+      "id": "p04",
+      "shot": "queen lilith casting psychic void spell",
+      "setting": "terrace combat",
+      "characters": [],
+      "action": "Queen Lilith raises both slender hands, firing an undulating beam of pink-violet psychic energy at Ha-Jun's brow.",
+      "mood": "mind invasion spell",
+      "sfx": "ZAP-WHIRRR!!"
+    },
+    {
+      "id": "p05",
+      "shot": "ha-jun staggering back as psychic wave hits",
+      "setting": "terrace floor",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun clutches his temples as intense hallucinations flood his neural pathways.",
+      "mood": "psychic assault",
+      "sfx": "GASP...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Yeh physical attack nahi hai... Yeh mere dimaag ki memories ko unlock kar rahi hai!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "memory flashback: rainy night 10 years ago",
+      "setting": "flashback vignette",
+      "characters": [],
+      "action": "A stormy night in Seoul ten years ago; sirens wailing outside a burning suburban house.",
+      "mood": "the forgotten night",
+      "sfx": "FIRE CRACKLING..."
+    },
+    {
+      "id": "p07",
+      "shot": "7yo ha-jun hiding inside a wooden closet",
+      "setting": "closet interior",
+      "characters": [],
+      "action": "A tiny 7yo Ha-Jun crying quietly with hands over his mouth, peering through the louvered wooden slats.",
+      "mood": "terrified child",
+      "sfx": "WHIMPER..."
+    },
+    {
+      "id": "p08",
+      "shot": "queen lilith standing in the living room holding a bloody blade",
+      "setting": "living room",
+      "characters": [],
+      "action": "Queen Lilith in human disguise standing over his fallen parents, her eyes glowing violet.",
+      "mood": "the true assassin revealed",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "Hamare parents ko kisi demon attack ne nahi mara tha... Lilith ne mara tha!",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "kuro in tiny crow form swooping in to peck lilith eyes",
+      "setting": "living room",
+      "characters": [
+        "kuro"
+      ],
+      "action": "A tiny Kuro diving into the room, raking his talons across Lilith's face to buy time for Tae-Jun.",
+      "mood": "guardian's intervention",
+      "sfx": "SKREEECH!!"
+    },
+    {
+      "id": "p10",
+      "shot": "kuro casting memory seal over 7yo ha-jun",
+      "setting": "closet doorway",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro touching baby Ha-Jun's forehead with a purple feather, crying: 'Forget this pain, little one. Grow up safe.'",
+      "mood": "the sealed memory",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Yeh dard abhi mat saho... Bada hone tak ise bhool jao.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "ha-jun returning to reality with tears of molten fury",
+      "setting": "face close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The memory ends; Ha-Jun's tears vaporize instantly into roaring violet hellfire on his cheeks.",
+      "mood": "unbridled righteous wrath",
+      "sfx": "FWOOSH-FLAME!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Lilith... It was you.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "queen lilith smiling with sadistic elegance",
+      "setting": "temple terrace",
+      "characters": [],
+      "action": "Lilith licks her blood-red lips: 'Yes, child! I cut your mother's throat myself! And now I will finish the job!'",
+      "mood": "confession of the murderer",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "lilith",
+          "text": "Tumhare parents bohot cheekh rahe the tumhare liye!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "ha-jun sovereign crest turning deep black-crimson",
+      "setting": "chest macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The lotus crest on Ha-Jun's chest burns through his shirt, turning into an ominous eclipse brand.",
+      "mood": "bloodline wrath overclock",
+      "sfx": "BRAND FLARE!!",
+      "dialogue": [
+        {
+          "type": "system",
+          "text": "[SOVEREIGN WRATH OVERCLOCK ACTIVE]\nAll Relic Outputs increased by +300%.\nEmotional Restraints: DISABLED.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "ha-jun vanishing faster than light",
+      "setting": "terrace combat",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun disappears from sight, leaving an acoustic shockwave that shatters the crystal clock floor.",
+      "mood": "sub-light acceleration",
+      "sfx": "BOOOOOMMM!!"
+    },
+    {
+      "id": "p15",
+      "shot": "ha-jun reappearing inches from lilith face",
+      "setting": "combat close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun appears point-blank before Lilith; his left bone gauntlet clamps around her throat like a hydraulic vise.",
+      "mood": "the chokehold of death",
+      "sfx": "SNAP-GRIP!!"
+    },
+    {
+      "id": "p16",
+      "shot": "lilith choking with bulging eyes",
+      "setting": "combat close-up",
+      "characters": [],
+      "action": "Lilith's manic smile vanishes instantly into pure, choking biological panic as her windpipe cracks.",
+      "mood": "panicked queen",
+      "sfx": "CHOKE-GASP!!"
+    },
+    {
+      "id": "p17",
+      "shot": "ha-jun lifting lilith 10 feet into the air with one hand",
+      "setting": "terrace center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun hoists the 500-pound demon queen into the air by her neck with effortless one-armed power.",
+      "mood": "one-handed lift",
+      "sfx": "LIFT...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Tumne meri maa ko maara... Aaj unka beta tumhe hisaab dega.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "valac lunging from behind with shadow scythe",
+      "setting": "terrace combat",
+      "characters": [],
+      "action": "Lord Valac dives at Ha-Jun's exposed back, thrusting the shadow scythe at his spine.",
+      "mood": "backstab attempt",
+      "sfx": "STABBB!!"
+    },
+    {
+      "id": "p19",
+      "shot": "chains of ruin whipping automatically to intercept",
+      "setting": "back defense",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Without Ha-Jun even looking, the Chains of Ruin coil backward like living serpents, wrapping around Valac's scythe.",
+      "mood": "autonomous defense",
+      "sfx": "CLANG-BIND!!"
+    },
+    {
+      "id": "p20",
+      "shot": "gravity field crushing valac scythe to powder",
+      "setting": "chains macro",
+      "characters": [],
+      "action": "The chains crush Valac's eight-foot shadow weapon into harmless black dust with 50x gravitational force.",
+      "mood": "weapon crushed",
+      "sfx": "CRUNCH-POWDER!!"
+    },
+    {
+      "id": "p21",
+      "shot": "ha-jun drawing the fang of abyss with right hand",
+      "setting": "combat close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun pulls the spatial void dagger from his hip, pointing it at Lilith's forehead.",
+      "mood": "execution sentence",
+      "sfx": "SHING..."
+    },
+    {
+      "id": "p22",
+      "shot": "driving the spatial dagger through lilith core",
+      "setting": "execution strike",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun plunges the Fang of Abyss directly through Lilith's heart, severing her soul from space.",
+      "mood": "spatial severance execution",
+      "sfx": "PLUNGE-CLEAVE!!"
+    },
+    {
+      "id": "p23",
+      "shot": "queen lilith body shattering like dark glass",
+      "setting": "terrace center",
+      "characters": [],
+      "action": "Lilith shrieks in agony as her physical form shatters into ten thousand dark glass fragments.",
+      "mood": "queen destroyed",
+      "sfx": "SHATTERRRR!!"
+    },
+    {
+      "id": "p24",
+      "shot": "lilith soul sucked into the eclipse devourer",
+      "setting": "sword tip",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The dark matter greatsword absorbs Lilith's entire ancestral soul, digesting her essence completely.",
+      "mood": "soul devoured",
+      "sfx": "INHALED!!"
+    },
+    {
+      "id": "p25",
+      "shot": "valac stumbling back in unmitigated terror",
+      "setting": "temple terrace",
+      "characters": [],
+      "action": "Lord Valac drops to his knees on the broken clock dial, trembling like an autumn leaf.",
+      "mood": "last lord cowed",
+      "sfx": "SHIVER...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "valac",
+          "text": "Lilith is dead... She was eradicated in seconds! He is not a boy... He is the Devil himself!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "shot": "ha-jun turning cold eyes onto valac",
+      "setting": "hero close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun steps forward, the void dagger dripping dark purple starlight: 'Throne par baithne ka shauq tha na?'",
+      "mood": "facing the last conspirator",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Hourglass ka control release karo. Now.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "valac frantically releasing the hourglass spell",
+      "setting": "pedestal",
+      "characters": [],
+      "action": "Valac frantically waves his hands; the reverse time spell dissolves with a high-pitched glass chime.",
+      "mood": "temporal rewind halted",
+      "sfx": "CHIME-STOP!!"
+    },
+    {
+      "id": "p28",
+      "shot": "frozen rain outside resuming its normal fall",
+      "setting": "temple sky",
+      "characters": [],
+      "action": "Outside the temple, suspended rain droplets resume falling naturally; time returns to normal flow.",
+      "mood": "time restored",
+      "sfx": "SPLASH-PATTER..."
+    },
+    {
+      "id": "p29",
+      "shot": "the hourglass of eternal abyss descending toward ha-jun",
+      "setting": "pedestal center",
+      "characters": [],
+      "action": "The 3-foot diamond-and-obsidian Hourglass levitates from its pedestal, floating gently toward Ha-Jun.",
+      "mood": "relic #10 approaches",
+      "sfx": "GLIDE..."
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun hands touching the tenth and final relic",
+      "setting": "relic macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's fingers touch the glass of the Hourglass of Eternal Abyss: all ten Relics now assembled.",
+      "mood": "ten relics united threshold",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Daso Relics... Pehli baar hazaaron saalo mein ek hi haath mein hain.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    }
+  ]
+}

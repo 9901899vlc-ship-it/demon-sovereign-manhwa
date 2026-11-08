@@ -394,70 +394,70 @@
           "chapter": 54,
           "title": "The Crown's Call",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch054_script.json"
         },
         {
           "chapter": 55,
           "title": "The Fallen Throne",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch055_script.json"
         },
         {
           "chapter": 56,
           "title": "The Memory Chamber",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch056_script.json"
         },
         {
           "chapter": 57,
           "title": "The Forgotten War",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch057_script.json"
         },
         {
           "chapter": 58,
           "title": "The Brother's Shadow",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch058_script.json"
         },
         {
           "chapter": 59,
           "title": "The Missing Memory",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch059_script.json"
         },
         {
           "chapter": 60,
           "title": "Eclipse Devourer",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch060_script.json"
         },
         {
           "chapter": 61,
           "title": "The Power of Authority",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch061_script.json"
         },
         {
           "chapter": 62,
           "title": "The Sovereign's Enemy",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch062_script.json"
         },
         {
           "chapter": 63,
           "title": "The False Heir",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch063_script.json"
         }
       ]

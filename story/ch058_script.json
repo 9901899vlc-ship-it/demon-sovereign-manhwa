@@ -1,0 +1,476 @@
+{
+  "chapter": 58,
+  "title": "The Brother's Shadow",
+  "arc": 6,
+  "arc_title": "THE FALLEN SOVEREIGN",
+  "summary": "Tae-Jun and Ha-Jun examine Malgath's memories, discovering the location of the Void Cult's headquarters and the horrifying truth of the tenth Mythic Relic: The Hourglass of Eternal Abyss.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "mount obsidian grand council pavilion wide shot",
+      "setting": "mount obsidian pavilion",
+      "characters": [],
+      "action": "An open-air pavilion of black star-marble overlooking the 300,000 allied demons camped in the valley below.",
+      "mood": "allied council",
+      "sfx": "PEACEFUL BREEZE..."
+    },
+    {
+      "id": "p02",
+      "shot": "demon king malgath seated bandaged on giant stone block",
+      "setting": "council pavilion",
+      "characters": [],
+      "action": "Malgath sits with his massive chest wrapped in clean white linens, drinking healing elixir with Tae-Jun.",
+      "mood": "reformed ally",
+      "sfx": "GULP... SIGH...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "malgath",
+          "text": "Is healing elixir mein human herbs ki mehek hai... Bohot refreshing hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "shot": "tae-jun smiling as he refills malgath bowl",
+      "setting": "council table",
+      "characters": [],
+      "action": "Tae-Jun smiles: 'Human medicine aur demon mana ka combination har wound ko double speed se heal karta hai.'",
+      "mood": "brother as diplomat"
+    },
+    {
+      "id": "p04",
+      "shot": "ha-jun standing by balcony edge with crown",
+      "setting": "pavilion balcony",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun gazes out across the valley, fingers tracing the runes on the Eclipse Devourer.",
+      "mood": "contemplative king"
+    },
+    {
+      "id": "p05",
+      "shot": "kuro perching on ha-jun shoulder",
+      "setting": "pavilion balcony",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro tilts his head: 'Malgath ne apna army surrender kar diya. Lekin Valac aur Lilith abhi bhi hidden hain.'",
+      "mood": "remaining threats",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Woh dono Void Cult ke core members hain.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "malgath setting down his bowl with a heavy clank",
+      "setting": "council table",
+      "characters": [],
+      "action": "Malgath speaks with deep gravity: 'Valac aur Lilith ne aakhri Mythic Relic ko seize kar liya hai.'",
+      "mood": "grim disclosure",
+      "sfx": "CLANK!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "malgath",
+          "text": "The Hourglass of Eternal Abyss... Unke possession mein hai.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "ha-jun turning sharply to face malgath",
+      "setting": "pavilion center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's eyes narrow: 'The Hourglass of Eternal Abyss... Wahi relic jo time ko manipulate karta hai?'",
+      "mood": "relic inquiry",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Woh time rewinding relic?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p08",
+      "shot": "kuro feathers ruffling with genuine terror",
+      "setting": "pavilion balcony",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro's voice trembles for the first time in the saga: 'Us relic ka price terrifying hai, Ha-Jun.'",
+      "mood": "mythic dread",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Hourglass time ko reverse kar sakta hai... Lekin har minute rewind karne par user ki ek cherished memory permanently erase ho jaati hai.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "ha-jun freezing at the revelation",
+      "setting": "face close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's heart chills: 'Memory erasure...?'",
+      "mood": "the cruel cost of time",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Agar maine time rewind kiya... Toh main apne bhai ko bhool sakta hoon?",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "tae-jun stepping up to ha-jun gripping his shoulders",
+      "setting": "pavilion center",
+      "characters": [],
+      "action": "Tae-Jun grips Ha-Jun firmly: 'Isliye tum use kabhi use nahi karoge, Ha-Jun! Chahe kuch bhi ho jaye!'",
+      "mood": "brother's protection",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Main tumhe apne aap ko bhoolne nahi doonga! Samjhe?!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "ha-jun looking into tae-jun fierce loving eyes",
+      "setting": "brothers close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun nods softly: 'Main promise karta hoon, Bhai. Main apni memories ko kabhi sacrifice nahi karunga.'",
+      "mood": "sacred promise"
+    },
+    {
+      "id": "p12",
+      "shot": "malgath unfolding a black dimensional parchment map",
+      "setting": "council table",
+      "characters": [],
+      "action": "Malgath spreads an ancient star map across the stone table: 'The Chamber of Chronos.'",
+      "mood": "the target location",
+      "sfx": "UNROLL..."
+    },
+    {
+      "id": "p13",
+      "shot": "map showing a rift at the boundary of reality",
+      "setting": "map macro",
+      "characters": [],
+      "action": "At the outermost edge of the Demon Realm: a distorted whirlpool labelled 'THE EYE OF CHRONOS - TIME VOID'.",
+      "mood": "the time abyss",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "Wahan time normal flow nahi karta... Boondein hawa mein freeze ho jaati hain.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "malgath explaining the enemy plan",
+      "setting": "council table",
+      "characters": [],
+      "action": "Malgath explains: 'Valac aur Lilith Hourglass ko use kar ke First Sovereign ke fall se pehle ka time rewind karna chahte hain.'",
+      "mood": "enemy conspiracy",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "malgath",
+          "text": "Taaki woh Void Primordial ko direct past mein summon kar sakein!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "shot": "ha-jun jaw tightening with furious resolve",
+      "setting": "council table",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun slams his palm onto the table: 'Hum unhe time rewind karne nahi denge.'",
+      "mood": "uncompromising stand",
+      "sfx": "SLAM!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Past ko past mein rehna chahiye. Hum present mein ladenge.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "kuro expanding into shadow flight form",
+      "setting": "pavilion air",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro glides into the air: 'The Eye of Chronos 100 miles door hai. Humein abhi nikalna hoga!'",
+      "mood": "call to wings",
+      "sfx": "FLAP!!"
+    },
+    {
+      "id": "p17",
+      "shot": "malgath offering his elite iron vanguard",
+      "setting": "council pavilion",
+      "characters": [],
+      "action": "Malgath stands: 'Mera 10,000 Flying Wyvern Corps tumhare sath chalega, My Sovereign!'",
+      "mood": "reinforcements provided",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "malgath",
+          "text": "Woh Valac ke shadow wraiths ko distract karenge!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "ha-jun nodding with gratitude to malgath",
+      "setting": "council pavilion",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun smiles: 'Thank you, King Malgath. Apne sky division ko deploy karo.'",
+      "mood": "allied command",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Wyvern Corps ko air cover par rakho.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "ten thousand armored flying wyverns taking to the sky",
+      "setting": "valley sky wide",
+      "characters": [],
+      "action": "Ten thousand massive winged reptilian beasts take flight from the valley, blotting out the twin moons.",
+      "mood": "the dragon armada",
+      "sfx": "ROARRR-FLAP!!"
+    },
+    {
+      "id": "p20",
+      "shot": "ha-jun unfurling his 12-foot shadow wings",
+      "setting": "pavilion balcony",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's wings burst outward, crowned in royal obsidian ruby light.",
+      "mood": "wings of the king",
+      "sfx": "FWOOOOSH!!"
+    },
+    {
+      "id": "p21",
+      "shot": "tae-jun leaping onto a royal wyvern beside him",
+      "setting": "balcony edge",
+      "characters": [],
+      "action": "Tae-Jun vaults onto the saddle of an armored black royal wyvern, twin swords ready.",
+      "mood": "the brother rides",
+      "sfx": "SADDLE-CLICK!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Right beside you, little brother!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "ha-jun launching into supersonic flight alongside wyverns",
+      "setting": "sky armada",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun rockets into the sky at Mach 1.5, leading the ten-thousand-strong armada toward the edge of time.",
+      "mood": "leading the armada",
+      "sfx": "SONIC BOOM!!"
+    },
+    {
+      "id": "p23",
+      "shot": "crossing the threshold of the temporal anomaly",
+      "setting": "sky transition",
+      "characters": [],
+      "action": "The clouds ahead begin moving backward; lightning flashes rewind from the earth into the sky.",
+      "mood": "temporal distortions begin",
+      "sfx": "REVERSE WARP..."
+    },
+    {
+      "id": "p24",
+      "shot": "falling rain droplets freezing in midair",
+      "setting": "midair macro",
+      "characters": [],
+      "action": "Rain droplets stop falling, hovering motionless in the air like suspended crystal marbles.",
+      "mood": "frozen in time",
+      "sfx": "STILL...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Time yahan freeze ho raha hai... Hum Chronos ke territory mein enter kar chuke hain.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "colossal floating temporal temple reveal",
+      "setting": "temporal void wide",
+      "characters": [],
+      "action": "Suspended inside a spinning vortex of clock hands and frozen starlight: The Temple of Chronos.",
+      "mood": "temple of chronos",
+      "sfx": "TICK-TOCK..."
+    },
+    {
+      "id": "p26",
+      "shot": "two demon lords waiting on the temple terrace",
+      "setting": "temple terrace",
+      "characters": [],
+      "action": "Standing on the crystalline clock terrace: Demon Lord Valac (clothed in living shadows) and Queen Lilith.",
+      "mood": "the remaining conspirators"
+    },
+    {
+      "id": "p27",
+      "shot": "between them: the floating hourglass of eternal abyss",
+      "setting": "terrace center",
+      "characters": [],
+      "action": "Suspended above a golden pedestal: an ancient 3-foot Hourglass of obsidian and diamond sands flowing upward.",
+      "mood": "the mythic hourglass",
+      "sfx": "SAND FLOWS UP!!",
+      "dialogue": [
+        {
+          "type": "system",
+          "text": "[TARGET LOCATED: HOURGLASS OF ETERNAL ABYSS (MYTHIC)]\nAuthority: Temporal Reversion & Chrono-Freezing\nWarning: Sands are Flowing in Reverse.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "valac raising shadow scythe mockingly",
+      "setting": "temple terrace",
+      "characters": [],
+      "action": "Lord Valac sneers: 'You are too late, boy! The Great Rewind has already begun!'",
+      "mood": "mocking monarch",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "valac",
+          "text": "TEN MINUTES MORE AND THIS WORLD WILL REVERT TO THE VOID AGE!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "ha-jun drawing eclipse devourer and fang of abyss",
+      "setting": "midair flight",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun dives from the sky, dual-wielding the Dark-Matter Greatsword and the Spatial Void Dagger.",
+      "mood": "dual blade descent",
+      "sfx": "SHING-SHING!!"
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun slamming onto the temple terrace like a thunderbolt",
+      "setting": "temple terrace",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun impacts the clockwork terrace between Valac and Lilith: 'Then I have ten minutes to cut you both in half.'",
+      "mood": "the final temple duel begins",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Time stops here.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    }
+  ]
+}

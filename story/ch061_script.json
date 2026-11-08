@@ -1,0 +1,406 @@
+{
+  "chapter": 61,
+  "title": "The Power of Authority",
+  "arc": 6,
+  "arc_title": "THE FALLEN SOVEREIGN",
+  "summary": "Demonstrating the full Authority of the Sovereign Crown, Ha-Jun establishes telepathic control over the 300,000-strong unified demonic armada, marshaling them for the defense of Earth.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "mount obsidian grand assembly wide shot",
+      "setting": "mount obsidian valley",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The vast 10-mile valley below Mount Obsidian packed with 300,000 unified demon soldiers and 10,000 wyverns.",
+      "mood": "the grand army gathered",
+      "sfx": "HORNS RESOUNDING..."
+    },
+    {
+      "id": "p02",
+      "shot": "ha-jun standing on the highest summit ledge",
+      "setting": "summit precipice",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun stands at the apex of Mount Obsidian, the Crown of the Sovereign radiating ten concentric rings of light.",
+      "mood": "the supreme commander"
+    },
+    {
+      "id": "p03",
+      "shot": "tae-jun standing as high general at his right side",
+      "setting": "summit precipice",
+      "characters": [],
+      "action": "Tae-Jun wears black-and-gold enchanted general's plate armor, his twin swords sheathed at his hips.",
+      "mood": "the first general"
+    },
+    {
+      "id": "p04",
+      "shot": "demon king malgath standing at his left side",
+      "setting": "summit precipice",
+      "characters": [],
+      "action": "Lord Malgath stands with a newly forged obsidian war hammer, his eyes glowing with fierce loyalty.",
+      "mood": "the iron monarch ally"
+    },
+    {
+      "id": "p05",
+      "shot": "ha-jun raising right hand to activate telepathic crown link",
+      "setting": "precipice macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun touches the central ruby of the Crown; a subtle hum resonates into three hundred thousand minds.",
+      "mood": "telepathic broadcast",
+      "sfx": "HUMMMMMM...",
+      "dialogue": [
+        {
+          "type": "system",
+          "text": "[SOVEREIGN DOMAIN: TELEPATHIC NETWORK LINKED]\nConnected Minds: 310,482 Units\nSignal Fidelity: 100% (No Latency).",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "three hundred thousand demon soldiers freezing in unison",
+      "setting": "valley army",
+      "characters": [],
+      "action": "Every single soldier across the ten-mile valley halts their movement, feeling their King's direct heartbeat.",
+      "mood": "absolute discipline",
+      "sfx": "SNAP-STILLNESS..."
+    },
+    {
+      "id": "p07",
+      "shot": "ha-jun voice echoing inside every soldier's mind",
+      "setting": "mental broadcast",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's calm, resolute voice speaks directly inside their souls without shouting.",
+      "mood": "voice of the monarch",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "\"Soldiers of the Abyss. Seven thousand years ago, the Void divided us. Today, we stand united as one blood.\"",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p08",
+      "shot": "soldiers looking up with inspired reverence",
+      "setting": "army close-up",
+      "characters": [],
+      "action": "Demonic warriors of all tribes—iron juggernauts, shadow stalkers, fire fiends—look up with tear-filled eyes.",
+      "mood": "tribes united"
+    },
+    {
+      "id": "p09",
+      "shot": "ha-jun continuing his royal address",
+      "setting": "mental broadcast",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun continues: 'The Void Primordial has opened gates upon the human world. They think we are divided beasts.'",
+      "mood": "the mission defined",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Humein unhe dikhana hai ki Demon Realm ka True Sovereign laut chuka hai!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "soldiers raising weapons in thunderous unison",
+      "setting": "valley wide",
+      "characters": [],
+      "action": "Three hundred thousand halberds, spears, and axes shoot skyward with a roar that shakes the twin moons.",
+      "mood": "the army roars",
+      "sfx": "ROOOAAARRRRR!!"
+    },
+    {
+      "id": "p11",
+      "shot": "ha-jun commanding the first legion to enter the gate",
+      "setting": "summit precipice",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun gestures toward the 100-meter golden-violet portal tearing across the sky.",
+      "mood": "portal march",
+      "sfx": "POINT!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "General Malgath! Lead the Vanguard through the Seoul Gate!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "malgath saluting with hammer over chest",
+      "setting": "summit precipice",
+      "characters": [],
+      "action": "Malgath slams his hammer against his breastplate: 'By your command, Sovereign!'",
+      "mood": "general dispatches",
+      "sfx": "CLANG!"
+    },
+    {
+      "id": "p13",
+      "shot": "malgath leaping off cliff onto his giant war wyvern",
+      "setting": "mountain air",
+      "characters": [],
+      "action": "Malgath dives off the 15,000-foot cliff, landing squarely in the saddle of his 40-foot armored wyvern.",
+      "mood": "aerial dive",
+      "sfx": "CATCH-ROAR!!"
+    },
+    {
+      "id": "p14",
+      "shot": "first wave of 50,000 iron juggernauts marching into portal",
+      "setting": "portal threshold",
+      "characters": [],
+      "action": "Disciplined phalanxes of iron demon infantry march into the swirling golden portal in perfect formation.",
+      "mood": "marching to earth",
+      "sfx": "STOMP-STOMP-MARCH!!"
+    },
+    {
+      "id": "p15",
+      "shot": "tae-jun turning to ha-jun with calm determination",
+      "setting": "summit precipice",
+      "characters": [],
+      "action": "Tae-Jun smiles: 'Main Tokyo Gate sambhalunga, Ha-Jun. Min-Jae ne kaha wahan situation critical hai.'",
+      "mood": "brother's front",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Tokyo Gate par Void Bio-Beasts breach kar rahe hain. Main 30,000 soldiers lekar wahan jaata hoon.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "ha-jun gripping tae-jun arm firmly",
+      "setting": "summit precipice",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun looks into his brother's eyes with deep love: 'Zinda wapas aana, Tae-Jun. Jung jeetne ke baad humein dinner karna hai.'",
+      "mood": "brotherly pact",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Ghar par momos aur tteokbokki... Sath mein khayenge.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "tae-jun laughing warmly with a nod",
+      "setting": "summit precipice",
+      "characters": [],
+      "action": "Tae-Jun laughs: 'Treat tumhare taraf se hogi, Your Majesty! I promise!'",
+      "mood": "warm promise"
+    },
+    {
+      "id": "p18",
+      "shot": "tae-jun opening a secondary portal to tokyo with his bone blade",
+      "setting": "summit edge",
+      "characters": [],
+      "action": "Tae-Jun slashes a secondary dimensional rift leading directly to the neon skyline of Tokyo.",
+      "mood": "secondary portal opened",
+      "sfx": "SLASH-RIPP!!"
+    },
+    {
+      "id": "p19",
+      "shot": "tae-jun leaping through tokyo portal with shadow division",
+      "setting": "tokyo portal",
+      "characters": [],
+      "action": "Tae-Jun leads 30,000 shadow wraiths through the rift, vanishing toward Japan.",
+      "mood": "tokyo deployment",
+      "sfx": "WHOOSH!!"
+    },
+    {
+      "id": "p20",
+      "shot": "ha-jun remaining alone on summit with kuro",
+      "setting": "summit plateau",
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
+      "action": "Only Ha-Jun and Kuro remain at the peak, wind howling through the star-matter colonnades.",
+      "mood": "the quiet peak",
+      "sfx": "WIND HOWLING..."
+    },
+    {
+      "id": "p21",
+      "shot": "kuro perching gently on ha-jun shoulder",
+      "setting": "summit plateau",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro nuzzles Ha-Jun's cheek: 'Ready, Ha-Jun? Seoul awaits its true protector.'",
+      "mood": "loyal familiar",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Mortal world ko unka Hero wapas milne wala hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "ha-jun drawing eclipse devourer across his front",
+      "setting": "summit plateau",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun holds the dark-matter greatsword with both hands, eyes burning with quiet, immovable purpose.",
+      "mood": "the sword prepared",
+      "sfx": "SHING...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Main pehle darpok student tha... Ab main un sabki dhaal banoonga jinki koi dhaal nahi hai.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "ha-jun spreading his 12-foot shadow wings",
+      "setting": "summit plateau",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's wings unfurl with blinding majesty, feathers glistening with starlight.",
+      "mood": "wings unfurled",
+      "sfx": "FWOOOOSH!!"
+    },
+    {
+      "id": "p24",
+      "shot": "ha-jun stepping into the seoul portal",
+      "setting": "portal threshold",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun steps forward across the dimensional threshold back toward the human realm.",
+      "mood": "crossing to earth",
+      "sfx": "STEP..."
+    },
+    {
+      "id": "p25",
+      "shot": "re-emerging into the stormy night over gangnam station",
+      "setting": "gangnam night sky",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun bursts through the portal into the pouring Seoul rain 500 feet above Gangnam Station.",
+      "mood": "return to seoul",
+      "sfx": "RAIN-LIGHTNING!!"
+    },
+    {
+      "id": "p26",
+      "shot": "panoramic view of seoul under apocalyptic siege",
+      "setting": "seoul skyline wide",
+      "characters": [],
+      "action": "The city is ablaze: skyscrapers burning, streets swarming with hundreds of thousands of Void Bio-Beasts.",
+      "mood": "seoul apocalyptic siege",
+      "sfx": "SIRENS & ROARS!!"
+    },
+    {
+      "id": "p27",
+      "shot": "bureau hunters fighting desperately behind energy barricades",
+      "setting": "street level",
+      "characters": [],
+      "action": "Captain Baek and Min-Jae firing heavy plasma rifles from behind a failing blue barrier.",
+      "mood": "hunters overwhelmed",
+      "sfx": "RAT-TAT-TAT!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "captain_baek",
+          "text": "BARRIER INTEGRITY AT 12%! RELOAD! DON'T LET THEM THROUGH!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "colossal 50-foot void behemoth raising claw to crush barrier",
+      "setting": "street level",
+      "characters": [],
+      "action": "A massive Void Behemoth with six spider legs and acid maw raises a colossal foot over Baek's barricade.",
+      "mood": "imminent annihilation",
+      "sfx": "SHADOW CRUSH!!"
+    },
+    {
+      "id": "p29",
+      "shot": "violet lightning bolt striking behemoth from above",
+      "setting": "street level",
+      "characters": [],
+      "action": "From the stormy sky, a colossal spear of violet-crimson hellfire spears straight through the behemoth's skull.",
+      "mood": "divine intervention",
+      "sfx": "BOOOOOOOOOMMM!!"
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun landing atop the smoking beast corpse",
+      "setting": "gangnam intersection",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun lands with Crown gleaming in the rain, Eclipse Devourer planted in the monster's skull: 'I'm back.'",
+      "mood": "the sovereign returns to seoul",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Captain Baek... Min-Jae... Mere shehar se hath hatao, monsters.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    }
+  ]
+}

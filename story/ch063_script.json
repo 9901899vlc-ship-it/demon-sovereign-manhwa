@@ -1,0 +1,425 @@
+{
+  "chapter": 63,
+  "title": "The False Heir",
+  "arc": 6,
+  "arc_title": "THE FALLEN SOVEREIGN",
+  "summary": "In the climax of the Seoul siege, Void General Xal'Khor claims Ha-Jun is an illegitimate vessel destined to be consumed. Ha-Jun unleashes the full might of the Ten Relics, obliterating the Void vanguard.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "xal'khor rising from the smoking asphalt crater wide shot",
+      "setting": "gangnam crater",
+      "characters": [],
+      "action": "Xal'Khor climbs out of the rubble, green coolant leaking from cracked chassis seams, sparks flying.",
+      "mood": "damaged cyborg titan",
+      "sfx": "SPARK-CREAK..."
+    },
+    {
+      "id": "p02",
+      "shot": "xal'khor mirrored visor cracking open to reveal void eye",
+      "setting": "visor close-up",
+      "characters": [],
+      "action": "The silver visor splits in half, revealing a single swirling eye of pure black cosmic antimatter.",
+      "mood": "the void eye exposed",
+      "sfx": "VOID PULSE..."
+    },
+    {
+      "id": "p03",
+      "shot": "xal'khor laughing in distorted robotic mockery",
+      "setting": "crater floor",
+      "characters": [],
+      "action": "Xal'Khor laughs with grinding digital feedback: 'You think you are the True Sovereign, child?!'",
+      "mood": "mocking the lineage",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "xal_khor",
+          "text": "You are a FALSE HEIR! Tumhare bloodline ko Void Primordial ne intentionally design kiya tha!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "ha-jun eyes narrowing in cold focus",
+      "setting": "midair close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun hovers unperturbed, the Crown glowing steady: 'Lies of a machine with broken gears.'",
+      "mood": "unshakable faith",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Tumhari baatein tumhare weapons se bhi zyada cheap hain.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "xal'khor deploying full-scale antimatter cannon",
+      "setting": "crater floor",
+      "characters": [],
+      "action": "Xal'Khor's six arms interlock into a massive 12-foot railgun cannon charged with black-green plasma.",
+      "mood": "ultimate cannon ready",
+      "sfx": "HIGH PITCH CHARGE: EEEEEEEE!!"
+    },
+    {
+      "id": "p06",
+      "shot": "plasma output enough to vaporize gangnam district",
+      "setting": "cannon charge macro",
+      "characters": [],
+      "action": "Thermal sensors on Min-Jae's laptop spike into the gigawatt range: 'HA-JUN! USE STOP KARO! PURA GANGNAM VAPORIZE HO JAYEGA!'",
+      "mood": "apocalyptic threat",
+      "sfx": "BEEP-WARNING!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "min_jae",
+          "text": "GIGAWATT OUTPUT! IT WILL LEVEL HALF OF SEOUL!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "ha-jun landing softly between the cannon and the city",
+      "setting": "street tarmac",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun touches down on the asphalt thirty meters in front of the charged cannon, planting his boots.",
+      "mood": "the human shield",
+      "sfx": "TAP..."
+    },
+    {
+      "id": "p08",
+      "shot": "ha-jun sheathing both physical weapons",
+      "setting": "hero stance",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun sheathes both the greatsword and the dagger, standing with empty hands at his sides.",
+      "mood": "empty handed defense",
+      "sfx": "SHEATHE...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Weapons se yeh nahi rukega... Iske liye pure Sovereign Authority chahiye.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "ha-jun placing left hand on sovereign chest brand",
+      "setting": "chest macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun presses his hand against the burning lotus crest on his chest: 'All Relics... Unite into Sovereign Aegis!'",
+      "mood": "calling all relics",
+      "sfx": "COMMAND!!"
+    },
+    {
+      "id": "p10",
+      "shot": "all ten relics projecting physical light constructs around him",
+      "setting": "street level wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The ten relics manifest as ten towering 30-foot translucent crystalline shields encircling him.",
+      "mood": "ten-fold aegis",
+      "sfx": "CELESTIAL CHIME!!"
+    },
+    {
+      "id": "p11",
+      "shot": "xal'khor firing the antimatter apocalypse beam",
+      "setting": "crater floor",
+      "characters": [],
+      "action": "The 12-foot cannon discharges: a blinding 20-meter-wide beam of apocalyptic black-green antimatter.",
+      "mood": "apocalyptic discharge",
+      "sfx": "BOOOOOOOOOOOOMMMMM!!"
+    },
+    {
+      "id": "p12",
+      "shot": "antimatter beam striking the ten-fold sovereign aegis",
+      "setting": "aegis impact",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The beam crashes into Ha-Jun's shields; a blinding white sphere of kinetic pressure illuminates all of Seoul.",
+      "mood": "titan clash of elements",
+      "sfx": "FLASH-CRACKLE!!"
+    },
+    {
+      "id": "p13",
+      "shot": "first three basic relic shields absorbing kinetic force",
+      "setting": "shield layer 1",
+      "characters": [],
+      "action": "The Bone, Blood, and Heart shields absorb the physical and thermal shockwaves, cooling the plasma.",
+      "mood": "thermal absorption",
+      "sfx": "ABSORB..."
+    },
+    {
+      "id": "p14",
+      "shot": "next three rare relic shields severing spatial cohesion",
+      "setting": "shield layer 2",
+      "characters": [],
+      "action": "The Fang, Eye, and Chains shields slice the beam's molecular cohesion into scattered harmless sparks.",
+      "mood": "molecular fracture",
+      "sfx": "CLEAVE-SPARK!!"
+    },
+    {
+      "id": "p15",
+      "shot": "ha-jun walking forward through the raging beam",
+      "setting": "inside beam",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun steps forward through the center of the beam, unburned, hair billowing, eyes like blazing suns.",
+      "mood": "walking through the fire",
+      "sfx": "STEP... STEP...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Main dhaal hoon... Aur dhaal kabhi nahi tootti.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "xal'khor visor fracturing in panic as beam fails",
+      "setting": "cannon close-up",
+      "characters": [],
+      "action": "Xal'Khor's systems overload as Ha-Jun walks straight toward the muzzle: 'CANNOT COMPUTE! POWER IMMUNITY OVERFLOW!'",
+      "mood": "machine terror",
+      "sfx": "ERROR-ALARM!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "xal_khor",
+          "text": "ERROR! TARGET IS UNDAMAGED! IMPOSSIBLE!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "ha-jun reaching the cannon muzzle",
+      "setting": "point blank",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun arrives at the smoking barrel of the cannon, his left bone gauntlet clamping onto the weapon frame.",
+      "mood": "point blank reach",
+      "sfx": "GRAB-LOCK!!"
+    },
+    {
+      "id": "p18",
+      "shot": "ha-jun crushing the 12-foot antimatter cannon like tinfoil",
+      "setting": "cannon macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "With a single flex of his bone fingers, the massive titanium cannon collapses into crumpled scrap.",
+      "mood": "crushing the railgun",
+      "sfx": "SCREEECH-CRUNCH!!"
+    },
+    {
+      "id": "p19",
+      "shot": "xal'khor stumbling backward in weaponless shock",
+      "setting": "crater floor",
+      "characters": [],
+      "action": "The Void General falls backward onto his hands, stripped of all weapons and defenses.",
+      "mood": "disarmed general",
+      "sfx": "FALL..."
+    },
+    {
+      "id": "p20",
+      "shot": "ha-jun manifesting eclipse devourer overcharged with absorbed beam",
+      "setting": "hero stance",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun draws the Eclipse Devourer; the blade has absorbed the entire gigawatt antimatter beam.",
+      "mood": "overcharged blade",
+      "sfx": "BLAZE-OVERLOAD!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Tumne pucha tha na ki main kaun hoon?",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "ha-jun voice echoing across the entire continent",
+      "setting": "seoul skyline wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun speaks with the weight of five thousand years of emperors: 'I am Ha-Jun Kang. The Demon Sovereign.'",
+      "mood": "the final decree",
+      "sfx": "VOICE OF THE SOVEREIGN!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "MAIN HA-JUN KANG HOON! THE TRUE DEMON SOVEREIGN!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "vertical downward celestial execution slash",
+      "setting": "gangnam intersection",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun swings the overcharged greatsword down in a clean, absolute vertical guillotine cleave.",
+      "mood": "the execution stroke",
+      "sfx": "SLASHHHHHHH!!"
+    },
+    {
+      "id": "p23",
+      "shot": "xal'khor bisected from crown to chassis",
+      "setting": "impact center",
+      "characters": [],
+      "action": "Void General Xal'Khor is sliced cleanly down the center; green coolant and void fire erupt from the seam.",
+      "mood": "cyborg titan cleaved",
+      "sfx": "BECTED-SNAP!!"
+    },
+    {
+      "id": "p24",
+      "shot": "colossal 100-foot explosion of green and violet fireworks",
+      "setting": "gangnam intersection wide",
+      "characters": [],
+      "action": "The Void General's power core detonates in a magnificent, harmless shower of sparkling violet fireworks.",
+      "mood": "firework explosion",
+      "sfx": "KABOOOOM-SPARKLE!!"
+    },
+    {
+      "id": "p25",
+      "shot": "the sky rift above gangnam snapping shut",
+      "setting": "seoul sky",
+      "characters": [],
+      "action": "With the general's death, the 300-meter void rift in the clouds snaps shut; stars twinkle over Seoul.",
+      "mood": "sky rift sealed",
+      "sfx": "SNAP-SEAL!!"
+    },
+    {
+      "id": "p26",
+      "shot": "remaining void bio-beasts dissolving into dust",
+      "setting": "gangnam streets",
+      "characters": [],
+      "action": "Across all of Seoul, the remaining mindless void monsters dissolve into harmless grey ash in the rain.",
+      "mood": "monsters purged",
+      "sfx": "DISSOLVE..."
+    },
+    {
+      "id": "p27",
+      "shot": "ha-jun standing in the center of silent gangnam",
+      "setting": "intersection hero shot",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Silence returns to the city; Ha-Jun lowers his blade as the rain softly patters on his dark coat.",
+      "mood": "peace restored to seoul",
+      "sfx": "RAIN PATTER..."
+    },
+    {
+      "id": "p28",
+      "shot": "citizens and hunters erupting in wild, tearful celebration",
+      "setting": "gangnam streets wide",
+      "characters": [],
+      "action": "Thousands of human citizens flood the streets from buildings, cheering and embracing the demon soldiers.",
+      "mood": "human and demon celebration",
+      "sfx": "CHEERING-ROAR!!",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "Seoul bach gaya... Aur ek naya daur shuru hua.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "captain baek and min-jae running up to ha-jun smiling",
+      "setting": "intersection center",
+      "characters": [],
+      "action": "Min-Jae leaps into Ha-Jun's arms in an emotional bear hug; Captain Baek salutes proudly.",
+      "mood": "allied embrace",
+      "sfx": "HUG!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "We did it, Ha-Jun! The city is safe!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun smiling up at the stars as arc 6 concludes",
+      "setting": "hero close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun smiles warmly at his friends, Crown gleaming gently in the clean morning dawn.",
+      "mood": "arc 6 grand finale / arc 7 threshold",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Earth safe hai... Ab Tae-Jun ke sath mil kar Void Primordial ki aakhri jad ko khatam karna hai.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    }
+  ]
+}

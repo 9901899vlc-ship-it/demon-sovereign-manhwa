@@ -1,0 +1,480 @@
+{
+  "chapter": 56,
+  "title": "The Memory Chamber",
+  "arc": 6,
+  "arc_title": "THE FALLEN SOVEREIGN",
+  "summary": "Inside the Sacred Memory Chamber, Ha-Jun unseals the second Legendary Relic: Eclipse Devourer, while learning why his family bloodline was chosen as the Sovereign's eternal vessel.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "circular eclipse hatch opening in floor wide shot",
+      "setting": "archive floor",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The circular dark obsidian hatch rotates with a heavy pneumatic hiss, revealing a subterranean shaft of pure black light.",
+      "mood": "unsealing the abyss",
+      "sfx": "CREAAAK-HSSSS..."
+    },
+    {
+      "id": "p02",
+      "shot": "levitating pedestal rising from the black light",
+      "setting": "vault aperture",
+      "characters": [],
+      "action": "An obsidian pedestal ascends out of the shaft, holding a 4-foot greatsword forged from pure condensed dark matter.",
+      "mood": "eclipse devourer reveal",
+      "sfx": "HUMMMMMM..."
+    },
+    {
+      "id": "p03",
+      "shot": "macro on the eclipse devourer blade",
+      "setting": "weapon macro",
+      "characters": [],
+      "action": "A jet-black double-edged longsword that literally absorbs ambient light; edges ripple with liquid shadow aura.",
+      "mood": "the devourer blade",
+      "sfx": "DARK WARP...",
+      "dialogue": [
+        {
+          "type": "system",
+          "text": "[TARGET LOCATED: ECLIPSE DEVOURER (LEGENDARY RELIC)]\nAuthority: Mana Absorption & Shadow Legion Manifestation\nCompatibility: 100% (Sovereign Bloodline).",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "kuro watching with solemn reverence",
+      "setting": "archive dais",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro whispers: 'The Eclipse Devourer... First Sovereign ne ise Void ke dark matter se forge kiya tha.'",
+      "mood": "weapon history",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Yeh blade kisi bhi magical spell ya attack ko swallow kar ke apne andar store kar sakta hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "ha-jun reaching out both hands to grip the hilt",
+      "setting": "pedestal",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's fingers close firmly around the dark-matter leather-wrapped hilt.",
+      "mood": "the grip",
+      "sfx": "GRIP-CLACK!!"
+    },
+    {
+      "id": "p06",
+      "shot": "dark matter lightning bursting through ha-jun arms",
+      "setting": "arms close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Arcs of pure black-and-purple lightning surge up his arms, circulating directly into his heart.",
+      "mood": "relic integration",
+      "sfx": "SURGE-ZAP!!"
+    },
+    {
+      "id": "p07",
+      "shot": "ha-jun eyes flashing completely black then royal violet",
+      "setting": "face macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "For a microsecond, Ha-Jun's entire irises turn into pitch-black voids, before settling into glowing violet.",
+      "mood": "shadow vision integrated",
+      "sfx": "VOID FLASH!!"
+    },
+    {
+      "id": "p08",
+      "shot": "system interface milestone alert",
+      "setting": "archive chamber",
+      "characters": [],
+      "action": "Cosmic gold banners scroll with triumphant celebration.",
+      "mood": "system fanfare",
+      "sfx": "CELESTIAL CHIME!!",
+      "dialogue": [
+        {
+          "type": "system",
+          "text": "[RELIC BONDED: ECLIPSE DEVOURER (LEGENDARY)]\nAuthority: Mana Absorption & Shadow Army Manifestation\nSynchronization: 60.0% (SOVEREIGN DOMINION REACHED!)\nAll 9 Mortal & Abyssal Relics Claimed.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "ha-jun swinging eclipse devourer in a graceful arc",
+      "setting": "archive floor",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun executes a single test swing; a crescent wave of black vacuum space cuts through the air.",
+      "mood": "flawless balance",
+      "sfx": "SWHOOOOM!!",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Yeh talwar hawa mein koi resistance mehsoos nahi karti... Jaise space khud rasta de raha ho.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "tae-jun stepping forward with an ancient tome",
+      "setting": "archive terminal",
+      "characters": [],
+      "action": "Tae-Jun brings over a heavy leather-bound ancestral grimoire: 'Ha-Jun... Hamari family ke baare mein yahan likha hai.'",
+      "mood": "family history unlocked",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Kang family ordinary insaan nahi thi. Hum First Sovereign ke direct mortal descendants hain.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "ha-jun looking at the grimoire pages",
+      "setting": "grimoire macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Sketches of the Kang ancestral tree dating back 500 years, showing dormant bloodline carriers in every generation.",
+      "mood": "the royal lineage"
+    },
+    {
+      "id": "p12",
+      "shot": "ha-jun touching a portrait of their parents",
+      "setting": "grimoire page",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A small painted miniature of a kind-faced mother and a stern, noble father holding baby Ha-Jun.",
+      "mood": "parents remembered",
+      "sfx": "TENDER TOUCH...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Mummy... Papa... Unhe pata tha hamare baare mein?",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "tae-jun voice choking with quiet emotion",
+      "setting": "grimoire side",
+      "characters": [],
+      "action": "Tae-Jun nods softly: 'Haan... Unhone apni jaan de kar humein chhupaya tha.'",
+      "mood": "parents' sacrifice",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Unhone Bureau aur Void Cult ko distract kiya taaki hum bache rahein.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "ha-jun closing the grimoire gently",
+      "setting": "archive floor",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun closes the ancient tome, his expression hardening into majestic steel.",
+      "mood": "resolve sealed",
+      "sfx": "CLOSE-THUD...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Mummy, Papa... Aapka sacrifice bekaar nahi jayega. Main is family ko complete glory dilaunga.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "shot": "sudden violent earthquake rocking the memory chamber",
+      "setting": "archive chamber",
+      "characters": [],
+      "action": "The entire subterranean vault violently shudders; dust cascades from the ceiling arches.",
+      "mood": "seismic impact",
+      "sfx": "BOOOOOMMMM!!"
+    },
+    {
+      "id": "p16",
+      "shot": "kuro looking up in alarm",
+      "setting": "archive dais",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro's eyes flash crimson: 'They have arrived! Malgath ke iron juggernauts summit gates par strike kar rahe hain!'",
+      "mood": "the siege begins",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "kuro",
+          "text": "THE DEMON LORDS' ARMADA HAS BREACHED THE FOOTHILLS!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "ha-jun sheathing eclipse devourer on his back",
+      "setting": "back scabbard",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun magnetically locks the Eclipse Devourer across his back beside his shadow wings.",
+      "mood": "arming for war",
+      "sfx": "CLACK-LOCK!"
+    },
+    {
+      "id": "p18",
+      "shot": "ha-jun looking at tae-jun with sovereign authority",
+      "setting": "archive center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun extends his hand: 'Bhai, kya aap mere sath summit par chalenge?'",
+      "mood": "calling the shield",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Aaj dono bhai mil kar is realm ka faisla karenge.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "tae-jun drawing a pair of ancient bone short-swords",
+      "setting": "archive wall",
+      "characters": [],
+      "action": "Tae-Jun pulls two ivory demon short-swords from an archive weapon rack, grinning fiercely.",
+      "mood": "the elder brother armed",
+      "sfx": "SHING-SHING!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Main hamesha tumhari dhaal raha hoon, Ha-Jun. Aur hamesha rahunga!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "ha-jun and tae-jun ascending the crystal stairs together",
+      "setting": "stairway ascent",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Side-by-side, the two brothers ascend back toward the surface light.",
+      "mood": "the brothers ascend",
+      "sfx": "FAST STEPS..."
+    },
+    {
+      "id": "p21",
+      "shot": "bursting out onto the summit of mount obsidian",
+      "setting": "summit plateau",
+      "characters": [
+        "hajun"
+      ],
+      "action": "They emerge onto the sunlit diamond marble plateau as war horns bellow across the sky.",
+      "mood": "war horns howling",
+      "sfx": "HORN BLARE: WUUUURRRRR!!"
+    },
+    {
+      "id": "p22",
+      "shot": "view of the mountain foothills from the summit",
+      "setting": "mountain foothills wide",
+      "characters": [],
+      "action": "The entire 10-mile valley below is a sea of 300,000 iron-armored demon juggernauts marching with banners.",
+      "mood": "the iron legion"
+    },
+    {
+      "id": "p23",
+      "shot": "demon king malgath standing at the head of the armada",
+      "setting": "foothills lead",
+      "characters": [],
+      "action": "Lord Malgath, a 20-foot demonic colossus clad in jagged black iron plate, raising an 8-ton war hammer.",
+      "mood": "demon king malgath",
+      "sfx": "ROAAARRRR!!"
+    },
+    {
+      "id": "p24",
+      "shot": "malgath voice amplified by demonic mana across the mountain",
+      "setting": "mountain valley",
+      "characters": [],
+      "action": "Malgath bellows: 'HA-JUN KANG! COME DOWN AND KNEEL BEFORE THE DEMON KING OF IRON!'",
+      "mood": "challenge roared",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "malgath",
+          "text": "APNA CROWN MERE FEET PAR RAKHO OR DIE LIKE A DOG!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "ha-jun walking calmly to the edge of the summit precipice",
+      "setting": "precipice edge",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun steps up to the edge of the 15,000-foot drop, the Crown glowing brightly on his head.",
+      "mood": "the sovereign looks down",
+      "sfx": "WIND BILLOWING..."
+    },
+    {
+      "id": "p26",
+      "shot": "ha-jun activating the authority of the crown: sovereign domain",
+      "setting": "precipice edge",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun spreads his arms; his royal violet domain expands from 500 meters to 10 miles in a flash.",
+      "mood": "domain expands to horizon",
+      "sfx": "PULSE-EXPAND!!"
+    },
+    {
+      "id": "p27",
+      "shot": "all 300,000 demon soldiers falling to their knees in the valley",
+      "setting": "valley wide shot",
+      "characters": [],
+      "action": "Under the crushing imperial gravity of the Sovereign Domain, the entire 300,000-soldier army drops to its knees.",
+      "mood": "mass subjugation",
+      "sfx": "CRASH-THUD-RUMBLE!!",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "Sovereign ka ek hukum... Aur teen laakh sipahi ghutno par aa gaye.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "malgath struggling to stand against the crushing monarch aura",
+      "setting": "foothills lead",
+      "characters": [],
+      "action": "Malgath's knees tremble as 50 tons of invisible atmospheric pressure force him downward.",
+      "mood": "tyrant resisting",
+      "sfx": "CREAK-GROAN!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "malgath",
+          "text": "Guh... Yeh kaisa... Sovereign Aura hai?! My legs... won't move!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "ha-jun drawing eclipse devourer pointing it at malgath",
+      "setting": "summit precipice",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun points the dark-matter greatsword down from the summit directly at Malgath's face.",
+      "mood": "the royal command",
+      "sfx": "SHING...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Tumne kaha tha na, Malgath... Ki main ek kamzor mortal hoon?",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun diving off the 15,000-foot cliff directly toward malgath",
+      "setting": "sky dive wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun dives headfirst off the cliff, shadow wings blazing with sonic fire directly toward the Demon King.",
+      "mood": "the monarch descends to duel",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Aao phir... Dekhte hain tumhara iron mere eclipse ko rok sakta hai ya nahi!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    }
+  ]
+}

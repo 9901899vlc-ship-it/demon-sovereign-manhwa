@@ -1,0 +1,401 @@
+{
+  "chapter": 57,
+  "title": "The Forgotten War",
+  "arc": 6,
+  "arc_title": "THE FALLEN SOVEREIGN",
+  "summary": "Descending like a thunderbolt, Ha-Jun duels Demon King Malgath in single combat before the paralyzed 300,000-demon armada, testing the limits of the Eclipse Devourer.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "supersonic dive from 15,000 feet wide shot",
+      "setting": "mountain valley air",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun streaks downward like a falling violet comet, breaking multiple sound barriers.",
+      "mood": "supersonic meteor dive",
+      "sfx": "BOOOOOMMM!!"
+    },
+    {
+      "id": "p02",
+      "shot": "demon king malgath roaring as he breaks free from gravity",
+      "setting": "valley battlefield",
+      "characters": [],
+      "action": "Channeling ancient demonic rage, Malgath forces himself to his feet, swinging his 8-ton war hammer upward.",
+      "mood": "brute force defiance",
+      "sfx": "ROARRRRR!!"
+    },
+    {
+      "id": "p03",
+      "shot": "titan clash of meteor dive and war hammer",
+      "setting": "center impact",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's descending Eclipse Devourer strikes Malgath's war hammer dead-center; a 500-meter crater tears open.",
+      "mood": "cataclysmic impact",
+      "sfx": "KABOOOOOOOMMMM!!"
+    },
+    {
+      "id": "p04",
+      "shot": "shockwave blasting 10,000 demon soldiers across the plains",
+      "setting": "battlefield wide",
+      "characters": [],
+      "action": "The kinetic shockwave blows surrounding demon infantry into the air like dry autumn leaves.",
+      "mood": "radial shockwave",
+      "sfx": "WHOOSH-CRASH!!"
+    },
+    {
+      "id": "p05",
+      "shot": "dust clearing to reveal the two monarchs locked in weapon clash",
+      "setting": "crater center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "In the center of the smoking crater: Ha-Jun's two-handed sword pressuring Malgath's massive iron hammer.",
+      "mood": "stalemate of titans",
+      "sfx": "SPARKS FLYING..."
+    },
+    {
+      "id": "p06",
+      "shot": "malgath four yellow eyes bulging in disbelief",
+      "setting": "face-off close-up",
+      "characters": [],
+      "action": "Malgath grinds his tusks: 'A boy holding back my World-Shattering Hammer with one blade?!'",
+      "mood": "demon king shock",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "malgath",
+          "text": "Yeh taaqat insaani muscles se nahi aa sakti! Who are you?!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "ha-jun dual-ringed eyes glowing with cosmic calm",
+      "setting": "face-off close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's expression is frozen in tranquil majesty: 'I already told you. The True Sovereign.'",
+      "mood": "calm dominance",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Aur yeh blade sirf sword nahi hai... Yeh devourer hai.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p08",
+      "shot": "eclipse devourer activating mana absorption authority",
+      "setting": "weapon clash macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The black longsword begins drinking in Malgath's dark mana; the hammer's red runes flicker and dim.",
+      "mood": "mana draining",
+      "sfx": "SIP-DRAIN-WHIRRR!!"
+    },
+    {
+      "id": "p09",
+      "shot": "malgath feeling his life force and mana siphoned",
+      "setting": "clash close-up",
+      "characters": [],
+      "action": "Malgath gasps as immense rivers of his demonic strength are forcibly sucked into Ha-Jun's blade.",
+      "mood": "demon strength drained",
+      "sfx": "GASP-WEAKEN!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "malgath",
+          "text": "Mera mana... Yeh talwar mera mana pee rahi hai?! Stop!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "ha-jun pivoting with fluid martial precision",
+      "setting": "melee combat",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun smoothly steps off the line of force, redirecting Malgath's momentum into the earth.",
+      "mood": "redirection throw",
+      "sfx": "SWOOSH!"
+    },
+    {
+      "id": "p11",
+      "shot": "malgath stumbling forward off-balance",
+      "setting": "crater floor",
+      "characters": [],
+      "action": "The 20-foot colossus stumbles forward awkwardly, his 8-ton hammer slamming into empty mud.",
+      "mood": "off-balance giant",
+      "sfx": "THUDDD!!"
+    },
+    {
+      "id": "p12",
+      "shot": "ha-jun executing spinning heel kick to malgath jaw",
+      "setting": "melee combat",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun spins in midair; his left bone gauntlet-reinforced boot strikes Malgath's chin like a cannon.",
+      "mood": "cannon kick",
+      "sfx": "WHAMMM!!"
+    },
+    {
+      "id": "p13",
+      "shot": "malgath massive iron helmet denting inward",
+      "setting": "impact close-up",
+      "characters": [],
+      "action": "The reinforced iron horned helmet buckles; Malgath's head snaps back, spitting black blood and shattered tusks.",
+      "mood": "tusk shattered",
+      "sfx": "CRACK-SNAP!!"
+    },
+    {
+      "id": "p14",
+      "shot": "malgath reeling backward three colossal steps",
+      "setting": "crater floor",
+      "characters": [],
+      "action": "The demon king staggers backward, groaning as the earth trembles beneath his heavy boots.",
+      "mood": "reeling giant",
+      "sfx": "STUMBLE..."
+    },
+    {
+      "id": "p15",
+      "shot": "malgath raising hammer in two hands for ultimate spell",
+      "setting": "crater floor",
+      "characters": [],
+      "action": "Enraged, Malgath channels his final ancestral spell: 'EARTH-BREAKER TITAN FLARE!'",
+      "mood": "ultimate spell charge",
+      "sfx": "BLAZE-CHARGE!!"
+    },
+    {
+      "id": "p16",
+      "shot": "the ground splitting into rivers of molten lava",
+      "setting": "battlefield floor",
+      "characters": [],
+      "action": "Fissures of boiling subterranean magma erupt across the crater, ready to incinerate Ha-Jun.",
+      "mood": "magma geysers",
+      "sfx": "LAVA ROAR!!"
+    },
+    {
+      "id": "p17",
+      "shot": "ha-jun standing motionless holding eclipse devourer aloft",
+      "setting": "crater center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun raises the black greatsword with both hands, pointing the blade at the stormy sky.",
+      "mood": "devourer stance",
+      "sfx": "STILLNESS..."
+    },
+    {
+      "id": "p18",
+      "shot": "the devourer blade unleashing a black gravitational vortex",
+      "setting": "sword tip macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "At the sword tip, a miniature black hole of pure dark matter expands, sucking in light and sound.",
+      "mood": "dark matter singularity",
+      "sfx": "VOID INTAKE..."
+    },
+    {
+      "id": "p19",
+      "shot": "all erupting lava geysers sucked into the black vortex",
+      "setting": "crater wide",
+      "characters": [],
+      "action": "Every river of molten lava and spellfire is vacuumed directly into the singularity on Ha-Jun's blade.",
+      "mood": "spell devoured",
+      "sfx": "SWALLOW-WHOOMP!!"
+    },
+    {
+      "id": "p20",
+      "shot": "crater left completely frozen and dark",
+      "setting": "crater floor",
+      "characters": [],
+      "action": "Not a single drop of fire remains; the ground is left cold, dark, and utterly silenced.",
+      "mood": "total spell nullification",
+      "sfx": "CHILL...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "malgath",
+          "text": "Mera 8th-Tier spell... Gayab ho gaya?! He swallowed an entire volcanic eruption?!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "eclipse devourer pulsing with stored absorbed mana",
+      "setting": "weapon macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The jet-black blade now blazes with absorbed crimson magma veins: stored kinetic payload.",
+      "mood": "payload stored",
+      "sfx": "OVERCHARGE GLOW!!"
+    },
+    {
+      "id": "p22",
+      "shot": "ha-jun bringing blade down in a clean diagonal stroke",
+      "setting": "combat action",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun releases the stored payload in a single, devastating crescent wave of black-and-crimson energy.",
+      "mood": "the sovereign release",
+      "sfx": "RELEASE-SLASHHH!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "ECLIPSE CLEAVE!!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "wave of energy slicing malgath 8-ton war hammer in two",
+      "setting": "impact center",
+      "characters": [],
+      "action": "The crescent beam strikes Malgath's legendary war hammer, shearing through solid meteor iron like paper.",
+      "mood": "hammer bisected",
+      "sfx": "CHIME-SLICE!!"
+    },
+    {
+      "id": "p24",
+      "shot": "hammer head crashing to earth in two smoking halves",
+      "setting": "crater floor",
+      "characters": [],
+      "action": "The two severed halves of the eight-ton hammer fall into the dirt with heavy, hollow thuds.",
+      "mood": "weapon destroyed",
+      "sfx": "CLANG-THUD!!"
+    },
+    {
+      "id": "p25",
+      "shot": "crescent wave slicing across malgath iron chestplate",
+      "setting": "malgath chest",
+      "characters": [],
+      "action": "The edge of the beam cleanly severs Malgath's thick chestplate, carving a deep, smoking wound across his ribs.",
+      "mood": "king wounded",
+      "sfx": "SPARK-SLASH!!"
+    },
+    {
+      "id": "p26",
+      "shot": "demon king malgath falling to both knees",
+      "setting": "crater center",
+      "characters": [],
+      "action": "The 20-foot demon colossus drops to his knees in the crater, gasping as black blood pours from his chest.",
+      "mood": "demon king defeated",
+      "sfx": "HEAVY THUD...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "malgath",
+          "text": "I... I yield... Thou art the true heir of Asmodaius...",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "ha-jun lowering eclipse devourer to malgath throat",
+      "setting": "crater center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun rests the flat of the black blade gently against Malgath's neck: 'Main tumhari jaan nahi loonga.'",
+      "mood": "sovereign mercy",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Apni army ko withdraw karo. Aur agar Void ke parasites se azaad hona chahte ho... Toh mere sath aao.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "malgath looking up in tears of ancestral shame and relief",
+      "setting": "crater center",
+      "characters": [],
+      "action": "Malgath bows his massive horned head to the earth, touching the dirt before Ha-Jun's boots.",
+      "mood": "fealty pledged",
+      "sfx": "BOW...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "malgath",
+          "text": "My life... and my legions belong to you, My Sovereign.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "entire 300,000 army erupting in earth-shattering battle cry",
+      "setting": "valley wide shot",
+      "characters": [],
+      "action": "Seeing their king pledge fealty, the three hundred thousand demon soldiers raise their spears in thunderous praise.",
+      "mood": "three hundred thousand cheer",
+      "sfx": "HAIL THE SOVEREIGN!!"
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun standing victorious atop the crater rim",
+      "setting": "crater rim hero shot",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun stands tall, Crown gleaming, Eclipse Devourer resting on his shoulder as the army bows before him.",
+      "mood": "monarch of the iron legions",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "One Demon King defeated... Two more to go.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    }
+  ]
+}

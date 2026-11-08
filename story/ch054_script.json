@@ -1,0 +1,428 @@
+{
+  "chapter": 54,
+  "title": "The Crown's Call",
+  "arc": 6,
+  "arc_title": "THE FALLEN SOVEREIGN",
+  "summary": "Placing the Crown of the Sovereign upon his head, Ha-Jun is pulled into an ethereal mindscape duel against the ancient consciousness of First Sovereign Asmodaius.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "golden-violet mana column erupting from summit wide shot",
+      "setting": "mount obsidian summit",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A ten-mile-wide column of celestial mana roars into the cosmos from Mount Obsidian's peak.",
+      "mood": "cosmic coronation",
+      "sfx": "CELESTIAL ROAR!!"
+    },
+    {
+      "id": "p02",
+      "shot": "ha-jun eyes rolling back as reality dissolves",
+      "setting": "throne apex",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun sits on the throne; his irises flood with pure white light as his consciousness is ripped inward.",
+      "mood": "mindscape transit",
+      "sfx": "WARP..."
+    },
+    {
+      "id": "p03",
+      "shot": "tae-jun reaching out in panic",
+      "setting": "throne steps",
+      "characters": [],
+      "action": "Tae-Jun rushes up the steps: 'Ha-Jun! Crown ko resist karo! Apne dimaag ko chhodna mat!'",
+      "mood": "desperate warning",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "tae_jun",
+          "text": "HA-JUN!! APNA MIND CONTROL MAT KHONA!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "mindscape chamber: the hall of black mirrors",
+      "setting": "mindscape abstract",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun finds himself standing on an endless sea of black glass under a sky of swirling red nebulas.",
+      "mood": "the sovereign mindscape",
+      "sfx": "SILENCE..."
+    },
+    {
+      "id": "p05",
+      "shot": "titanic 100-foot shadowy emperor looming overhead",
+      "setting": "mindscape abstract",
+      "characters": [],
+      "action": "Sitting on an ethereal throne of swords: the colossal shadow of the First Sovereign, Lord Asmodaius.",
+      "mood": "ancestral progenitor",
+      "sfx": "VOID HUMMM..."
+    },
+    {
+      "id": "p06",
+      "shot": "asmodaius glowing four crimson eyes looking down",
+      "setting": "asmodaius face",
+      "characters": [],
+      "action": "Four burning crimson eyes glare down like dying stars: 'A fragile human vessel dares put my crown upon his head?!'",
+      "mood": "monarch's wrath",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "asmodaius",
+          "text": "TUM SIRF MERI WAAPSI KA VESSEL HO! APNI BODY MUJHE SURRENDER KARO!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "black shadow tendrils wrapping around ha-jun legs",
+      "setting": "mindscape floor",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Dark shadow tendrils erupt from the glass floor, creeping up Ha-Jun's jeans and jacket like liquid tar.",
+      "mood": "possession attempt",
+      "sfx": "SNARE-GRIP!!"
+    },
+    {
+      "id": "p08",
+      "shot": "ha-jun struggling against the mental possession",
+      "setting": "mindscape floor",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun grits his teeth; his temples throb with veins as ancient memories flood his cortex.",
+      "mood": "psychic agony",
+      "sfx": "GRRRR...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Yeh meri memories ko erase karne ki koshish kar raha hai... Mera naam, mera bachpan!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "memories of school bullying flashing in fragments",
+      "setting": "memory shards",
+      "characters": [],
+      "action": "Shards of memory: bullies kicking him in the classroom, rain on the academy roof, feeling helpless.",
+      "mood": "past vulnerability"
+    },
+    {
+      "id": "p10",
+      "shot": "asmodaius mocking ha-jun past weakness",
+      "setting": "mindscape sky",
+      "characters": [],
+      "action": "Asmodaius booms: 'See how weak you were! A cowering insect beaten by mortal children!'",
+      "mood": "cruel mocking",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "asmodaius",
+          "text": "Tum kamzor the, aur hamesha kamzor rahoge! Let a real God rule!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "ha-jun remembering his brother's smile",
+      "setting": "memory shard center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "In the center of the dark glass, a golden memory shines: Kang Tae-Jun holding umbrella over 10yo Ha-Jun in the rain.",
+      "mood": "core emotional anchor",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Nahi... Main kamzor tha, lekin main akela nahi tha. Mere bhai ne mere liye apni zindagi di.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "ha-jun clenching fists in the mindscape",
+      "setting": "mindscape floor",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun plants his boots firmly on the glass; a shockwave of his own crimson-violet mana blasts outward.",
+      "mood": "rebelling against god",
+      "sfx": "BOOOOOM!!"
+    },
+    {
+      "id": "p13",
+      "shot": "shadow tendrils shattering into glass fragments",
+      "setting": "mindscape floor",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The dark possession tendrils around his legs snap and shatter like brittle ice.",
+      "mood": "bonds broken",
+      "sfx": "CRACK-SHATTER!!"
+    },
+    {
+      "id": "p14",
+      "shot": "ha-jun manifesting the sanguine fang in his mental grip",
+      "setting": "mindscape floor",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun draws The Sanguine Fang, blazing with violet hellfire inside his own soul plane.",
+      "mood": "armed in mind",
+      "sfx": "FWOOSH-SHING!!"
+    },
+    {
+      "id": "p15",
+      "shot": "ha-jun looking up fearlessly at 100-foot emperor",
+      "setting": "mindscape wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A 17-year-old high school student staring down a 100-foot primordial demon god without blinking.",
+      "mood": "the stand",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Tum hazaaron saal pehle mar chuke ho, Asmodaius. Yeh era mera hai.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "asmodaius roaring in insulted fury",
+      "setting": "mindscape sky",
+      "characters": [],
+      "action": "The giant phantom emperor raises a 50-foot blade of shadow darkness to crush Ha-Jun.",
+      "mood": "divine execution attempt",
+      "sfx": "ROARRRR!!"
+    },
+    {
+      "id": "p17",
+      "shot": "ha-jun leaping 100 feet straight up in the mindscape",
+      "setting": "mindscape air",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun rockets upward, his shadow wings leaving a contrail of violet starlight through the nebulas.",
+      "mood": "celestial leap",
+      "sfx": "FWOOOOSH!!"
+    },
+    {
+      "id": "p18",
+      "shot": "asmodaius shadow blade slamming down",
+      "setting": "mindscape glass floor",
+      "characters": [],
+      "action": "The giant blade smashes the glass floor beneath Ha-Jun, sending infinite mirror shards into the sky.",
+      "mood": "floor shattered",
+      "sfx": "KABOOOM!!"
+    },
+    {
+      "id": "p19",
+      "shot": "ha-jun running up the length of asmodaius blade",
+      "setting": "along blade",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun sprints directly up the flat of the giant descending sword, moving at Mach 2.",
+      "mood": "sword running",
+      "sfx": "STEP-STEP-BLUR!!"
+    },
+    {
+      "id": "p20",
+      "shot": "ha-jun reaching asmodaius forehead crown",
+      "setting": "emperor crown",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun arrives at the giant shadow's brow, right before the phantom crown of horns.",
+      "mood": "at the apex",
+      "sfx": "ARRIVE!!"
+    },
+    {
+      "id": "p21",
+      "shot": "ha-jun driving the sanguine fang into the phantom crown",
+      "setting": "apex strike",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun plunges his flaming blood katana straight into the center of Asmodaius's forehead.",
+      "mood": "subjugating the progenitor",
+      "sfx": "DRIVE-SHING!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "MAIN VESSEL NAHI HOON! MAIN SOVEREIGN HOON!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "asmodaius colossal form cracking with golden light",
+      "setting": "mindscape sky",
+      "characters": [],
+      "action": "Spiderweb fractures of blinding golden light spread across the 100-foot titan's body.",
+      "mood": "titan cracking",
+      "sfx": "CRRRK-FLASH!!"
+    },
+    {
+      "id": "p23",
+      "shot": "asmodaius voice shifting from wrath to stunned awe",
+      "setting": "mindscape sky",
+      "characters": [],
+      "action": "The primordial voice echoes with profound reverence: 'Unbending will... You truly surpass me, boy.'",
+      "mood": "acknowledgment of the heir",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "asmodaius",
+          "text": "Tum sach mein mere throne ke laayak ho... Rule wisely, Ha-Jun.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "asmodaius dissolving into pure golden mana shower",
+      "setting": "mindscape sky wide",
+      "characters": [],
+      "action": "The giant dissolves into millions of golden star-particles, washing into Ha-Jun's soul like liquid gold.",
+      "mood": "absolute succession",
+      "sfx": "GLITTER..."
+    },
+    {
+      "id": "p25",
+      "shot": "mindscape dissolving back into the physical throne room",
+      "setting": "throne apex",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The starry nebulas fade; the physical summit of Mount Obsidian crystallizes back into view.",
+      "mood": "return to reality",
+      "sfx": "FADE IN..."
+    },
+    {
+      "id": "p26",
+      "shot": "ha-jun opening eyes with full sovereign majesty",
+      "setting": "face close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's eyes open: royal violet irises circled by double crimson eclipse rings and swirling stars.",
+      "mood": "the crowned king"
+    },
+    {
+      "id": "p27",
+      "shot": "the crown of the sovereign settling perfectly on his brow",
+      "setting": "head macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The obsidian-and-ruby crown glows with peaceful, subservient violet luminescence atop his black hair.",
+      "mood": "crown bonded",
+      "sfx": "CHIME..."
+    },
+    {
+      "id": "p28",
+      "shot": "tae-jun kneeling on the throne steps in tears of relief",
+      "setting": "throne steps",
+      "characters": [],
+      "action": "Tae-Jun drops to his knees on the marble steps, exhaling a choked sob: 'Usne kar dikhaya... He conquered the Crown!'",
+      "mood": "brother's joy",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Ha-Jun... Tumne Asmodaius ko subjugate kar liya!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "kuro bowing deeply on the throne armrest",
+      "setting": "throne armrest",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro presses his forehead to the black star-matter armrest: 'Hail Ha-Jun Kang. True Demon Sovereign of the Abyss.'",
+      "mood": "vow of the vanguard",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "All hail the True Sovereign!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun standing from the throne, sovereign domain expanding",
+      "setting": "summit plateau wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun rises; a 500-meter spherical domain of royal violet mana expands outward around Mount Obsidian.",
+      "mood": "sovereign domain awake",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "This realm belongs to me now.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    }
+  ]
+}
