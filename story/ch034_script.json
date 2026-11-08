@@ -1,0 +1,437 @@
+{
+  "chapter": 34,
+  "title": "The Secret Organization",
+  "arc": 4,
+  "arc_title": "THE DEMON HUNTER WAR",
+  "summary": "Evading Bureau attack helicopters in subterranean Yeouido tunnels, Min-Jae hacks a downed scout drone and uncovers the Demon Hunter Bureau's dark global syndicate.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "subterranean storm drain wide shot",
+      "setting": "yeouido storm drain",
+      "characters": [],
+      "action": "Colossal concrete stormwater tunnels stretching into darkness, water rushing beneath rusted cat-walks.",
+      "mood": "claustrophobic shelter",
+      "sfx": "WATER RUSHING..."
+    },
+    {
+      "id": "p02",
+      "shot": "min-jae setting down black drone wreckage",
+      "setting": "storm drain cat-walk",
+      "characters": [],
+      "action": "Min-Jae drops the smoking chassis of a downed Hunter Bureau scout drone onto a metal workstation.",
+      "mood": "scraping metal",
+      "sfx": "CLATTER!"
+    },
+    {
+      "id": "p03",
+      "shot": "ha-jun leaning against rusted railing",
+      "setting": "storm drain cat-walk",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun watches calmly, his black jacket dusted with limestone and his eyes glowing dual crimson-violet.",
+      "mood": "composed sovereign",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Is drone mein se kuch data recover ho sakta hai, Min-Jae?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "min-jae connecting fiber-optic cable",
+      "setting": "workstation",
+      "characters": [],
+      "action": "Min-Jae plugs a glowing blue fiber-optic interface cable directly into the drone's shattered optical core.",
+      "mood": "data connection",
+      "sfx": "BEEP-WHIRRR..."
+    },
+    {
+      "id": "p05",
+      "shot": "kuro perched on rusted pipe overhead",
+      "setting": "storm drain overhead",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro looks down with glowing red eyes: 'Insaano ne humare mana ko copy karne ki koshish ki hai.'",
+      "mood": "guardian observation",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Yeh technology ordinary military ki nahi hai. Isme artificial demon cores lage hain.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "laptop screen displaying encryption layers",
+      "setting": "laptop screen",
+      "characters": [],
+      "action": "Three concentric red digital security locks flash on Min-Jae's display: 'LEVEL-9 BUREAU CIPHER'.",
+      "mood": "high-level firewall",
+      "sfx": "BEEP... BEEP..."
+    },
+    {
+      "id": "p07",
+      "shot": "ha-jun tapping ring finger on screen edge",
+      "setting": "laptop edge",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun touches the bezel of the laptop with his Ring of Hollow Blood; a thin spark of violet mana conducts into the circuitry.",
+      "mood": "biometric bypass",
+      "sfx": "ZAP!"
+    },
+    {
+      "id": "p08",
+      "shot": "firewall shattering on monitor",
+      "setting": "laptop screen",
+      "characters": [],
+      "action": "The red security locks shatter into green cascades of decrypted code: 'ACCESS GRANTED: SECTOR 4 ARCHIVE'.",
+      "mood": "encryption broken",
+      "sfx": "CHIME!!",
+      "dialogue": [
+        {
+          "type": "system",
+          "text": "[SECURITY OVERRIDE DETECTED]\nIdentity: UNREGISTERED SOVEREIGN FREQUENCY\nClearance: DIRECTOR-LEVEL ACCESS UNLOCKED",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "min-jae mouth agape in disbelief",
+      "setting": "storm drain cat-walk",
+      "characters": [],
+      "action": "Min-Jae pushes up his glasses, staring in utter shock: 'Tumhare blood mana ne 256-bit quantum cipher tod diya?!'",
+      "mood": "shocked hacker",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min-jae",
+          "text": "Yeh cipher insaani computer se kabhi nahi toot sakta tha... Tumne kaise kiya?!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "ha-jun looking at ring",
+      "setting": "hand macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun glances at the obsidian ring: 'Yeh ring energy frequencies ko read aur bend karti hai.'",
+      "mood": "intuitive mastery",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Khoon sirf fluid nahi hai... Yeh information aur will ka carrier hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "giant 3d hologram projecting from laptop",
+      "setting": "storm drain wide",
+      "characters": [],
+      "action": "A glowing holographic globe projects into the air, revealing a clandestine global network of hunter bases.",
+      "mood": "the syndicate revealed",
+      "sfx": "HUMMM..."
+    },
+    {
+      "id": "p12",
+      "shot": "bureau logo spinning in light",
+      "setting": "hologram focus",
+      "characters": [],
+      "action": "A black shield emblem with two crossed silver blades and a chained demon skull: 'GLOBAL DEMON HUNTER BUREAU'.",
+      "mood": "emblem of the hunt"
+    },
+    {
+      "id": "p13",
+      "shot": "min-jae scrolling through funding records",
+      "setting": "laptop screen",
+      "characters": [],
+      "action": "Trillions of won funneled from pharmaceutical conglomerates and private defense contractors into black-budget research.",
+      "mood": "dark syndicate funding",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min-jae",
+          "text": "Yeh koi government organization nahi hai... Yeh ek private shadow army hai!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "holographic blueprints of hunter cybernetics",
+      "setting": "hologram focus",
+      "characters": [],
+      "action": "Detailed blueprints show human soldiers augmented with synthetic demon tendons and mana-infused spinal implants.",
+      "mood": "cyborg hunters"
+    },
+    {
+      "id": "p15",
+      "shot": "kuro scoffing in disgust",
+      "setting": "rusted pipe",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro spits a purple ember: 'Disgusting mortals. Humare bache hue corpses ko chop kar ke apne jism mein seal karte hain.'",
+      "mood": "demonic disgust",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Inhe lagta hai ki Demon ban kar yeh Demons se lad sakte hain. Hypocrites!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "min-jae clicking on high-security tab",
+      "setting": "laptop screen",
+      "characters": [],
+      "action": "A flashing crimson tab labelled 'PROJECT CHIMERA: SPECIMEN LOGS' appears on screen.",
+      "mood": "the core secret",
+      "sfx": "CLICK!"
+    },
+    {
+      "id": "p17",
+      "shot": "directory listing classified files",
+      "setting": "laptop screen",
+      "characters": [],
+      "action": "Dozens of redacted subject folders dating back 20 years, categorized by genetic purity ratings.",
+      "mood": "forbidden archives"
+    },
+    {
+      "id": "p18",
+      "shot": "ha-jun eyes widening in sudden realization",
+      "setting": "face close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's breath catches in his throat as a familiar surname flashes in the directory.",
+      "mood": "shock of discovery"
+    },
+    {
+      "id": "p19",
+      "shot": "folder marked KANG TAE-JUN",
+      "setting": "screen macro",
+      "characters": [],
+      "action": "Folder icon reading: 'SUBJECT #009: KANG TAE-JUN (SECTOR 4 CAPTURE - YEAR 2019)'.",
+      "mood": "the brother found",
+      "sfx": "FLASH...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "SUBJECT #009: KANG TAE-JUN — FIRST BLOODLINE CARRIER DETECTED.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "ha-jun gripping laptop screen border with force",
+      "setting": "storm drain cat-walk",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's fingers dig into the plastic casing, cracking the bezel as violent emotion surges.",
+      "mood": "repressed agony and fury",
+      "sfx": "CRACK!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "BHAI...?!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "min-jae grabbing ha-jun arm gently",
+      "setting": "storm drain cat-walk",
+      "characters": [],
+      "action": "Min-Jae steadies Ha-Jun's trembling arm: 'Shaant raho, Ha-Jun! Screen toot jayegi!'",
+      "mood": "grounding friend",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min-jae",
+          "text": "File open ho rahi hai... Dekho andar kya hai!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "photograph of young kang tae-jun",
+      "setting": "laptop screen",
+      "characters": [],
+      "action": "A faded identification photo of 19yo Kang Tae-Jun, with fierce dark eyes and a protective, gentle smile.",
+      "mood": "brother's face"
+    },
+    {
+      "id": "p23",
+      "shot": "medical lab report document",
+      "setting": "laptop screen",
+      "characters": [],
+      "action": "Text document reading: 'Subject demonstrates high affinity for Sovereign Relic Resonance. Relic transfer attempted.'",
+      "mood": "sinister experiment"
+    },
+    {
+      "id": "p24",
+      "shot": "status stamp in red ink",
+      "setting": "document bottom",
+      "characters": [],
+      "action": "A bold crimson stamp across the bottom of the page: 'STATUS: TRANSFERRED TO SECTION 9 UNDERGROUND FACILITY'.",
+      "mood": "alive in section 9",
+      "sfx": "STAMP!"
+    },
+    {
+      "id": "p25",
+      "shot": "ha-jun trembling with tears and wrath",
+      "setting": "medium shot",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's eyes burn with dual crimson rings, a single tear cutting through dust on his cheek.",
+      "mood": "tear of vengeance",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Woh zinda hain... Bhai abhi bhi unke qaid mein zinda hain!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "shot": "kuro looking down solemnly",
+      "setting": "rusted pipe",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro folds his wings: 'Maine kaha tha na... Tae-Jun ne tumhare liye yeh qurbani di thi.'",
+      "mood": "truth confirmed",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Usne Bureau ka saara dhyan apni taraf kheench liya taaki tum bache raho.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "sudden proximity alarm buzzing on laptop",
+      "setting": "storm drain cat-walk",
+      "characters": [],
+      "action": "The laptop screen flashes violently with red radar pings: 'BREACH DETECTED: 50 METERS'.",
+      "mood": "incoming ambush",
+      "sfx": "WEEP-WEEP-WEEP!!"
+    },
+    {
+      "id": "p28",
+      "shot": "min-jae looking up in horror",
+      "setting": "storm drain cat-walk",
+      "characters": [],
+      "action": "Min-Jae gasps: 'Unhone drone ke emergency beacon se humein locate kar liya!'",
+      "mood": "cornered",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "min-jae",
+          "text": "Unhone trace kar liya! Wahan dekho!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "three laser designator dots hitting ha-jun chest",
+      "setting": "storm drain darkness",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Three infrared red laser sniper dots converge dead-center over the Sovereign Crest on Ha-Jun's chest.",
+      "mood": "snipers locked",
+      "sfx": "LOCK!"
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun staring into darkness with cold predator eyes",
+      "setting": "hero close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun doesn't flinch; his violet-crimson eyes ignite with lethal intent: 'Bohot accha hua ki woh aa gaye.'",
+      "mood": "unflinching declaration",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Mujhe unke Director ka pata chahiye... Aur yeh mujhe bata kar rahenge.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    }
+  ]
+}

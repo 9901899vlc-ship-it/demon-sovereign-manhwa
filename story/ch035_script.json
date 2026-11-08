@@ -1,0 +1,388 @@
+{
+  "chapter": 35,
+  "title": "The Blood Registry",
+  "arc": 4,
+  "arc_title": "THE DEMON HUNTER WAR",
+  "summary": "Ambushed in the Yeouido drains, Ha-Jun dismantles the Hunter strike team and recovers the physical Blood Registry dossier, revealing that dormant carriers across Seoul are being executed.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "sniper rifle muzzle flare in darkness",
+      "setting": "storm drain catwalk",
+      "characters": [],
+      "action": "A silenced high-caliber sniper rifle flashes in the darkness of the overhead drainage shaft.",
+      "mood": "lethal sniper fire",
+      "sfx": "PFFFT-CRACK!!"
+    },
+    {
+      "id": "p02",
+      "shot": "depleted uranium bullet flying in slow motion",
+      "setting": "macro air",
+      "characters": [],
+      "action": "A silver-plated tungsten round engraved with anti-mana runes spirals through the air at supersonic speed.",
+      "mood": "deadly projectile",
+      "sfx": "WHIZZ..."
+    },
+    {
+      "id": "p03",
+      "shot": "bone gauntlet snapping up to intercept",
+      "setting": "medium action",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's left arm blurs upward, intercepting the bullet centimeters before it strikes his chest.",
+      "mood": "superhuman reflex",
+      "sfx": "SWOOSH!"
+    },
+    {
+      "id": "p04",
+      "shot": "bullet shattering against bone plating",
+      "setting": "gauntlet macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The tungsten round shatters against the polished ivory bone gauntlet with an explosion of silver sparks.",
+      "mood": "impenetrable defense",
+      "sfx": "SPARK-CLANG!!"
+    },
+    {
+      "id": "p05",
+      "shot": "sniper on catwalk gasping in shock",
+      "setting": "overhead catwalk",
+      "characters": [],
+      "action": "A black-clad Hunter sniper in night-vision goggles jerks backward: 'Direct deflection?! Impossible!'",
+      "mood": "hunter panic",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hunter_sniper",
+          "text": "Armor-piercing round hath par lag kar toot gayi?! Target is a Monster!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "ha-jun flicking fingers to cast blood needles",
+      "setting": "storm drain catwalk",
+      "characters": [
+        "hajun"
+      ],
+      "action": "With a snap of his right wrist, Ha-Jun fires three razor-thin crimson blood needles upward.",
+      "mood": "swift counter",
+      "sfx": "ZIP-ZIP-ZIP!!"
+    },
+    {
+      "id": "p07",
+      "shot": "sniper rifle cleaved into pieces",
+      "setting": "overhead catwalk",
+      "characters": [],
+      "action": "The blood needles slice cleanly through the sniper's rifle barrel and optics, disarming him instantly.",
+      "mood": "clean disarm",
+      "sfx": "SHING!!"
+    },
+    {
+      "id": "p08",
+      "shot": "two tactical strike operatives dropping from above",
+      "setting": "catwalk air",
+      "characters": [],
+      "action": "Two heavily armored Bureau assault operatives drop down on rappelling ropes, brandishing stun batons.",
+      "mood": "tactical breach",
+      "sfx": "SWOOSH-THUD!!"
+    },
+    {
+      "id": "p09",
+      "shot": "operatives wearing anti-mana exo-suits",
+      "setting": "catwalk",
+      "characters": [],
+      "action": "Matte-black armor plating humming with electric blue dampening grids designed to suppress supernatural mana.",
+      "mood": "specialized gear",
+      "sfx": "BZZZZT..."
+    },
+    {
+      "id": "p10",
+      "shot": "first operative swinging electrified stun baton",
+      "setting": "melee combat",
+      "characters": [],
+      "action": "The operative swings a 50,000-volt high-frequency baton directly at Ha-Jun's temple.",
+      "mood": "lethal swing",
+      "sfx": "CRACKLE-SWING!!"
+    },
+    {
+      "id": "p11",
+      "shot": "ha-jun catching baton with bare bone hand",
+      "setting": "melee combat",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun catches the sparking electrified baton in his bare left bone gauntlet; electricity grounds harmlessly.",
+      "mood": "zero damage",
+      "sfx": "ZZZZT-SNAP!"
+    },
+    {
+      "id": "p12",
+      "shot": "ha-jun crushing the baton to scrap",
+      "setting": "melee close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "With a flex of his fingers, the titanium-reinforced baton is crushed into twisted scrap metal.",
+      "mood": "crushing strength",
+      "sfx": "CRUNCH!!"
+    },
+    {
+      "id": "p13",
+      "shot": "ha-jun delivering palm strike to operative chest",
+      "setting": "melee combat",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun drives an open-palm kinetic strike into the operative's breastplate, blowing him 20 feet backward.",
+      "mood": "kinetic blast",
+      "sfx": "BOOOM!!"
+    },
+    {
+      "id": "p14",
+      "shot": "operative crashing into water flume",
+      "setting": "water canal",
+      "characters": [],
+      "action": "The armored operative skids across the rushing water canal, unconscious before making a splash.",
+      "mood": "neutralized",
+      "sfx": "SPLASHHH!!"
+    },
+    {
+      "id": "p15",
+      "shot": "second operative pulling tactical sidearm",
+      "setting": "catwalk",
+      "characters": [],
+      "action": "The second operative panics, drawing a heavy semi-automatic pistol loaded with hollow-point silver rounds.",
+      "mood": "desperate defense",
+      "sfx": "CLICK-PULL!"
+    },
+    {
+      "id": "p16",
+      "shot": "kuro swooping down with talons",
+      "setting": "airborne",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro dives from the rafters like an obsidian missile, his sharp talons slashing across the hunter's visor.",
+      "mood": "familiar strike",
+      "sfx": "SKREEECH!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Guns are toys for cowards!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "operative dropping gun in agony",
+      "setting": "catwalk",
+      "characters": [],
+      "action": "The operative drops his pistol, clutching his shattered visor as purple smoke burns his eyes.",
+      "mood": "blinded",
+      "sfx": "ARGGGH!!"
+    },
+    {
+      "id": "p18",
+      "shot": "ha-jun pinning operative to wall",
+      "setting": "catwalk wall",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun steps forward, pinning the operative against the rusted pipe by his collar with terrifying ease.",
+      "mood": "interrogation grip",
+      "sfx": "THUD!!"
+    },
+    {
+      "id": "p19",
+      "shot": "ha-jun dual-ringed eyes burning inches away",
+      "setting": "face extreme close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's violet irises with crimson rings burn mere inches from the operative's terrified eyes.",
+      "mood": "sovereign intimidation",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Khoon ki registry kahan hai? Aur Kang Tae-Jun kahan hai?",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "operative trembling with chattering teeth",
+      "setting": "interrogation",
+      "characters": [],
+      "action": "The operative stammers, terrified: 'P-Pouch mein hai! Tactical tablet mein pura dossier hai!'",
+      "mood": "broken operative",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "operative",
+          "text": "Humein bas kill order mila tha! Main kuch nahi jaanta!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "ha-jun confiscating tactical tablet",
+      "setting": "interrogation",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun reaches into the operative's tactical vest and pulls out a ruggedized military tablet.",
+      "mood": "evidence seized",
+      "sfx": "RIPP!"
+    },
+    {
+      "id": "p22",
+      "shot": "ha-jun rendering operative unconscious",
+      "setting": "catwalk",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun taps a precise pressure point on the operative's neck; the man slumps instantly into deep sleep.",
+      "mood": "merciful takedown",
+      "sfx": "TAP..."
+    },
+    {
+      "id": "p23",
+      "shot": "min-jae running over with laptop",
+      "setting": "catwalk",
+      "characters": [],
+      "action": "Min-Jae runs over, taking the military tablet and plugging in a bypass chip.",
+      "mood": "tablet decryption",
+      "sfx": "BEEP-CLICK!"
+    },
+    {
+      "id": "p24",
+      "shot": "tablet screen opening: the blood registry",
+      "setting": "tablet screen",
+      "characters": [],
+      "action": "The title screen displays: 'REPUBLIC OF KOREA - DORMANT CARRIER EXTERMINATION REGISTRY (CONFIDENTIAL)'.",
+      "mood": "the black list"
+    },
+    {
+      "id": "p25",
+      "shot": "hundreds of citizen profiles with red crosses",
+      "setting": "tablet screen",
+      "characters": [],
+      "action": "Scrolling lists of high school students, office workers, and children—each marked with a red 'PURGED' stamp.",
+      "mood": "genocidal purge",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "Har woh insaan jiske DNA mein ancient mana trace tha... unhe chup-chaap khatam kiya ja raha tha.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "shot": "min-jae covering his mouth in horror",
+      "setting": "catwalk",
+      "characters": [],
+      "action": "Min-Jae's eyes fill with tears of horror: 'Yeh Demon hunting nahi hai... Yeh toh genocide hai!'",
+      "mood": "horrified morality",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min-jae",
+          "text": "Unhone innocent logon ko maar diya bas is dar se ki woh awaken ho jayenge?!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "ha-jun staring at the list with icy calm",
+      "setting": "catwalk hero shot",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's expression turns into a mask of pure, absolute imperial coldness.",
+      "mood": "birth of the wrath"
+    },
+    {
+      "id": "p28",
+      "shot": "kuro looking at ha-jun chest brand",
+      "setting": "ha-jun shoulder",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro notes: 'Jab power insaan ke haath aati hai, toh woh Demons se bhi zyada cruel ban jaate hain.'",
+      "mood": "dark philosophy",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Ab samajh aaya tumhe tumhare bloodline ka maksad? Balance restore karna.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "ha-jun crushing the operative tablet frame",
+      "setting": "hand close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun downloads the file to Min-Jae's encrypted cloud, then snaps the tablet in half with one hand.",
+      "mood": "irrevocable decision",
+      "sfx": "SNAP!!"
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun turning toward the sewer exit",
+      "setting": "storm drain exit wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Silhouetted against the rainy city streetlights above: 'Hunter Bureau ka har criminal apna hisaab dega.'",
+      "mood": "vow of reckoning",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Chalo, Min-Jae. Bureau Headquarters chalte hain.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    }
+  ]
+}

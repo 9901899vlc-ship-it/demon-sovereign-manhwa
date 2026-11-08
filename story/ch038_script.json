@@ -1,0 +1,487 @@
+{
+  "chapter": 38,
+  "title": "The Hunter Captain",
+  "arc": 4,
+  "arc_title": "THE DEMON HUNTER WAR",
+  "summary": "Suffering his first crushing defeat, Ha-Jun is hidden inside an underground storm reservoir. Captain Baek's background as a deceived veteran is revealed as the Bureau hunts the city.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "stormwater reservoir wide shot",
+      "setting": "underground reservoir",
+      "characters": [],
+      "action": "A vast underground subterranean water cavern with concrete columns submerged in knee-deep water.",
+      "mood": "somber shelter",
+      "sfx": "WATER DRIPPING..."
+    },
+    {
+      "id": "p02",
+      "shot": "min-jae laying ha-jun onto wooden planks",
+      "setting": "reservoir platform",
+      "characters": [],
+      "action": "Min-Jae gently lowers Ha-Jun onto makeshift wooden pallets above the water, hands stained in red blood.",
+      "mood": "emergency care",
+      "sfx": "GENTLE..."
+    },
+    {
+      "id": "p03",
+      "shot": "ha-jun broken left arm swollen and purple",
+      "setting": "arm macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's left forearm is severely deformed and swollen; white bone gauntlet fragments lie cracked on the pallet.",
+      "mood": "devastating injury"
+    },
+    {
+      "id": "p04",
+      "shot": "ha-jun coughing hoarsely, shivering",
+      "setting": "reservoir platform",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun shivers violently from shock, cold sweat and rainwater streaming down his pale, bruised face.",
+      "mood": "trauma and defeat",
+      "sfx": "COUGH... SHIVER...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Main haar gaya... Main itna kamzor hoon ki Jin-Woo ke ek teer ne mujhe tod diya.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "min-jae applying bone splint and bandages",
+      "setting": "reservoir platform",
+      "characters": [],
+      "action": "Min-Jae binds two wooden splints around Ha-Jun's broken arm, tying them tight with medical wraps.",
+      "mood": "setting bone",
+      "sfx": "TIGHTEN!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min-jae",
+          "text": "Dard saho, Ha-Jun... Haddiyan set kar raha hoon. Tumhara healing factor ise jod dega.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "ha-jun gritting teeth in silent agony",
+      "setting": "face close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun bites into a leather strap to avoid crying out, tears of physical and emotional pain in his eyes.",
+      "mood": "silent endurance",
+      "sfx": "GRRRR..."
+    },
+    {
+      "id": "p07",
+      "shot": "kuro landing on water pipe with singed feathers",
+      "setting": "overhead pipe",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro cleans his singed obsidian wing feathers, looking down with uncharacteristically quiet eyes.",
+      "mood": "somber guardian",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Captain Baek ordinary fighter nahi hai. Woh pichle 20 saalon se S-Rank hunter raha hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p08",
+      "shot": "flashback to captain baek past",
+      "setting": "flashback abstract",
+      "characters": [],
+      "action": "A visual vignette of a young Captain Baek 15 years ago, carrying his fallen comrades out of a demonic gate.",
+      "mood": "baek tragic past",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "Captain Baek ne apni puri squad ko ek Abyssal Gate raid mein khoya tha. Tab se woh Demons se nafrat karta hai.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "baek accepting cybernetic implants from director kang",
+      "setting": "flashback abstract",
+      "characters": [],
+      "action": "Director Kang offering Baek the Eclipse Greatsword and artificial heart implant in a high-tech lab.",
+      "mood": "the deception"
+    },
+    {
+      "id": "p10",
+      "shot": "ha-jun listening through ragged breaths",
+      "setting": "reservoir platform",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun listens to Kuro's tale, his clenched fist trembling: 'Toh woh evil nahi hai... Woh bas misguided hai.'",
+      "mood": "understanding the enemy",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Woh samajhta hai ki mujhe maar kar woh logon ko bacha raha hai...",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "kuro snapping beak sharply",
+      "setting": "overhead pipe",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro snaps: 'Misguided ya evil, uski talwar tumhara gala kaatne ke liye ready hai!'",
+      "mood": "pragmatic truth",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Jung mein intention ka koi medal nahi milta! Jeet ya haar hi sabkuch hai!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "ring of hollow blood emitting faint pulse",
+      "setting": "hand macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The obsidian ring on Ha-Jun's finger begins pulsing with a warm, steady crimson heartbeat.",
+      "mood": "healing pulse",
+      "sfx": "THUMP... THUMP..."
+    },
+    {
+      "id": "p13",
+      "shot": "bone of the forgotten knitting together internally",
+      "setting": "internal bone x-ray",
+      "characters": [],
+      "action": "Beneath his skin, calcium threads and ivory bone marrow weave back together like interlocking stitches.",
+      "mood": "accelerated bone mending",
+      "sfx": "KNIT...",
+      "dialogue": [
+        {
+          "type": "system",
+          "text": "[PASSIVE REGENERATION ACTIVE]\nBone of the Forgotten: Structural repair in progress.\nEstimated time to full union: 6 Hours.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "ha-jun staring at his broken arm",
+      "setting": "reservoir platform",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun looks at the glowing splint: 'Six hours... Mere paas waqt hai.'",
+      "mood": "rebuilding resolve"
+    },
+    {
+      "id": "p15",
+      "shot": "min-jae opening encrypted news feed",
+      "setting": "laptop screen",
+      "characters": [],
+      "action": "Min-Jae turns his laptop toward Ha-Jun: 'News dekho... Bureau ne poore city mein curfew laga diya hai.'",
+      "mood": "city under siege",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min-jae",
+          "text": "Unhone media ko bola hai ki ek 'Dangerous Demonic Terrorist' ghoom raha hai.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "news broadcast showing ha-jun blurred photo",
+      "setting": "laptop screen",
+      "characters": [],
+      "action": "Korean news anchor broadcasting Ha-Jun's student photograph with a bold red 'WANTED: DEAD OR ALIVE' banner.",
+      "mood": "framed as terrorist",
+      "sfx": "NEWS CHIME..."
+    },
+    {
+      "id": "p17",
+      "shot": "bureau checkposts across seoul bridges",
+      "setting": "mapo bridge night",
+      "characters": [],
+      "action": "Armed Bureau checkpoints blocking Mapo, Hannam, and Banpo bridges with armored personnel carriers.",
+      "mood": "martial law",
+      "sfx": "SIRENS..."
+    },
+    {
+      "id": "p18",
+      "shot": "citizens being scanned with mana scanners",
+      "setting": "bridge checkpoint",
+      "characters": [],
+      "action": "Terrified citizens in raincoats forced to press palms against bio-scanners; blue laser grids scanning eyes.",
+      "mood": "police state"
+    },
+    {
+      "id": "p19",
+      "shot": "ha-jun eyes narrowing in cold disgust",
+      "setting": "reservoir platform",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's dual eyes ignite: 'Woh innocent logon ko harass kar rahe hain sirf mujhe dhoondhne ke liye.'",
+      "mood": "righteous anger",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Main unhe meri wajah se city ko jail banane nahi doonga.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "kuro hopping onto ha-jun chest",
+      "setting": "reservoir platform",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro looks deep into Ha-Jun's eyes: 'Toh kya karne ka irada hai, Sovereign Heir?'",
+      "mood": "challenging prompt",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Apni tooti hui haddiyon ke saath unke 500 hunters se ladoge?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "ha-jun pushing himself upright on one arm",
+      "setting": "reservoir platform",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Despite the searing pain in his splinted arm, Ha-Jun forces himself to sit upright with unbending posture.",
+      "mood": "unbreakable will",
+      "sfx": "GROAN..."
+    },
+    {
+      "id": "p22",
+      "shot": "ha-jun looking at kuro with absolute fire",
+      "setting": "hero close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's voice is steady as granite: 'Mujhe train karo, Kuro.'",
+      "mood": "demand for mastery",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Mujhe sikhao ki First Sovereign bina kisi hesitation ke kaise ladta tha.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "kuro eyes widening in dark satisfaction",
+      "setting": "overhead pipe",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro's beak curls into a wicked demonic grin, his wings flaring with violet sparks.",
+      "mood": "mentor awakened",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Heh... Hahahahaha! Yahi words sunne ka intezaar tha mujhe!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "kuro explaining the essence of sovereign combat",
+      "setting": "overhead pipe",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro explains: 'Sovereign ka style brute force nahi hai. Yeh 'Blood Weaving' hai.'",
+      "mood": "martial philosophy",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Khoon tumhare dushman ke har strike ko pehle se predict kar sakta hai agar tum use listen karo.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "min-jae handing ha-jun a bottle of water",
+      "setting": "reservoir platform",
+      "characters": [],
+      "action": "Min-Jae hands him a clean water bottle: 'Main tumhare saath hoon, Ha-Jun. Jo bhi chahiye batao.'",
+      "mood": "unwavering ally",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min-jae",
+          "text": "Maine Bureau ke server se unke communication channels hijack kar liye hain. Har move humein pehle pata chalegi.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "shot": "ha-jun drinking deeply",
+      "setting": "reservoir platform",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun drinks the entire bottle in three gulps, wiping his mouth with the back of his hand.",
+      "mood": "rehydration",
+      "sfx": "GULP... SIGH..."
+    },
+    {
+      "id": "p27",
+      "shot": "ha-jun standing on feet in water",
+      "setting": "knee-deep water",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun steps off the pallet into the cold knee-deep water, grounding his balance.",
+      "mood": "stepping into training",
+      "sfx": "SPLASH..."
+    },
+    {
+      "id": "p28",
+      "shot": "violet flame igniting around his splinted arm",
+      "setting": "arm close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Gentle violet hellfire wraps around the splinted bone, acting as an external exoskeleton cast.",
+      "mood": "mana splint",
+      "sfx": "FWOOSH...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Flame of the Fallen meri tooti haddi ko bahar se lock kar sakti hai!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "kuro diving into combat stance",
+      "setting": "water cavern air",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro hovers in midair, conjuring ten sharp obsidian feather daggers around his body.",
+      "mood": "training begins",
+      "sfx": "HUMMM...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Pehla lesson: In daggers ko blindfold hokar dodge karo!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun closing his eyes in the water",
+      "setting": "hero stance",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun ties a dark strip of cloth over his eyes, opening his senses to the ripples in the water: 'Ready.'",
+      "mood": "blindfold training dawn",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Aao, Kuro. Mujhe tod kar naya banao.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    }
+  ]
+}

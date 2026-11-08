@@ -242,70 +242,70 @@
           "chapter": 34,
           "title": "The Secret Organization",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch034_script.json"
         },
         {
           "chapter": 35,
           "title": "The Blood Registry",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch035_script.json"
         },
         {
           "chapter": 36,
           "title": "Target: Ha-Jun",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch036_script.json"
         },
         {
           "chapter": 37,
           "title": "The Betrayer",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch037_script.json"
         },
         {
           "chapter": 38,
           "title": "The Hunter Captain",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch038_script.json"
         },
         {
           "chapter": 39,
           "title": "The First Real Defeat",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch039_script.json"
         },
         {
           "chapter": 40,
           "title": "Kuro's Warning",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch040_script.json"
         },
         {
           "chapter": 41,
           "title": "Blood Training",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch041_script.json"
         },
         {
           "chapter": 42,
           "title": "The Hunter's Secret",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch042_script.json"
         },
         {
           "chapter": 43,
           "title": "War Begins",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch043_script.json"
         }
       ]

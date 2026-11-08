@@ -1,0 +1,414 @@
+{
+  "chapter": 36,
+  "title": "Target: Ha-Jun",
+  "arc": 4,
+  "arc_title": "THE DEMON HUNTER WAR",
+  "summary": "Supreme Director Kang issues an Alpha Red Extinction Order, mobilizing Captain Baek and fifty augmented elite hunters to encircle Ha-Jun's industrial safehouse in Seongsu-dong.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "hunter bureau war room wide shot",
+      "setting": "bureau war room",
+      "characters": [],
+      "action": "A cavernous glass-and-steel amphitheater with tiered analyst workstations surrounding a 40-foot holographic map of Seoul.",
+      "mood": "military command",
+      "sfx": "KEYBOARD CLACKING..."
+    },
+    {
+      "id": "p02",
+      "shot": "supreme director kang standing at apex",
+      "setting": "war room apex",
+      "characters": [],
+      "action": "Director Kang stands with hands behind his back, silver hair slicked tight, immaculate black double-breasted trenchcoat.",
+      "mood": "cold supreme authority"
+    },
+    {
+      "id": "p03",
+      "shot": "holographic red ping over seongsu-dong",
+      "setting": "hologram map",
+      "characters": [],
+      "action": "A pulsating crimson crosshair locks onto an abandoned brick textile warehouse in Seongsu-dong.",
+      "mood": "target acquired",
+      "sfx": "BEEP-LOCK!",
+      "dialogue": [
+        {
+          "type": "system",
+          "text": "[TARGET CONFIRMED: SPECIMEN HA-JUN KANG]\nWavelength: SOVEREIGN-CLASS DETECTED\nLocation: Industrial Sector 7, Seongsu-dong.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "director kang speaking into microphone",
+      "setting": "war room apex",
+      "characters": [],
+      "action": "Director Kang speaks with icy, measured cruelty: 'Alpha Red Directive authorize kiya jata hai.'",
+      "mood": "death sentence",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "director_kang",
+          "text": "No capture protocols. Collateral damage authorized. Bring me his severed heart.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "captain baek stepping forward in heavy armor",
+      "setting": "war room floor",
+      "characters": [],
+      "action": "Captain Baek adjusts his titanium-reinforced gauntlets; a massive six-foot serrated Greatsword rests on his back.",
+      "mood": "captain deployed",
+      "sfx": "CLANK!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "captain_baek",
+          "text": "Main khud lead karunga, Director. Is baar woh mere haath se nahi bachega.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "director kang smiling darkly",
+      "setting": "war room apex",
+      "characters": [],
+      "action": "Director Kang's lips curl into a cold smirk: 'Use my personal Chimera Serum agar zarurat pade, Captain.'",
+      "mood": "sinister gift"
+    },
+    {
+      "id": "p07",
+      "shot": "armored convoy speeding through rainy seoul",
+      "setting": "seoul highway night",
+      "characters": [],
+      "action": "Six matte-black armored tactical carriers and two mobile disruption vans race through torrential rain.",
+      "mood": "armada deployment",
+      "sfx": "VROOOOM!!"
+    },
+    {
+      "id": "p08",
+      "shot": "abandoned seongsu-dong textile warehouse",
+      "setting": "warehouse exterior",
+      "characters": [],
+      "action": "A derelict red-brick industrial warehouse surrounded by rusted shipping containers in pouring rain.",
+      "mood": "desolate battlefield",
+      "sfx": "THUNDER RUMBLE..."
+    },
+    {
+      "id": "p09",
+      "shot": "inside warehouse ha-jun meditating",
+      "setting": "warehouse floor",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun sits cross-legged in the center of the dusty concrete floor, surrounded by floating ribbons of blood mana.",
+      "mood": "sovereign meditation",
+      "sfx": "HUMMM..."
+    },
+    {
+      "id": "p10",
+      "shot": "violet hellfire swirling around his shoulders",
+      "setting": "ha-jun close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Wisps of violet flame dance effortlessly across his knuckles, perfectly balanced with his arterial pulse.",
+      "mood": "elemental harmony",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Flame of the Fallen... ab yeh mere gusse se nahi, mere focus se chalti hai.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "min-jae pacing anxiously with tablet",
+      "setting": "warehouse office",
+      "characters": [],
+      "action": "Min-Jae bites his nails as perimeter thermal sensors turn deep crimson one by one.",
+      "mood": "mounting dread",
+      "sfx": "BEEP... BEEP...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min-jae",
+          "text": "Ha-Jun! Bahar 50 heavy heat signatures hain! Pura block surround ho chuka hai!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "kuro flapping wings onto metal girder",
+      "setting": "warehouse rafters",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro looks down calmly: 'Aa gaye shikari. Yeh unka sabse bada strike force hai.'",
+      "mood": "calm assessment",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Captain Baek khud aaya hai. Is baar woh ordinary weapons nahi laya.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "ha-jun opening eyes with chilling stillness",
+      "setting": "eyes macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's dual-ringed eyes snap open, radiant with sovereign violet and crimson majesty.",
+      "mood": "predatory awakening"
+    },
+    {
+      "id": "p14",
+      "shot": "sonic disruption grenades breaching windows",
+      "setting": "warehouse skylights",
+      "characters": [],
+      "action": "Eight ceramic canister grenades smash through the glass skylights, detonating in midair.",
+      "mood": "flashbang breach",
+      "sfx": "CRASH-BANGGGG!!"
+    },
+    {
+      "id": "p15",
+      "shot": "high-frequency ultrasonic soundwaves blasting",
+      "setting": "warehouse wide",
+      "characters": [],
+      "action": "Intense 140-decibel anti-mana soundwaves distort the air, designed to paralyze demon nervous systems.",
+      "mood": "sonic paralysis",
+      "sfx": "SKREEEEEEECH!!"
+    },
+    {
+      "id": "p16",
+      "shot": "min-jae collapsing clutching bleeding ears",
+      "setting": "warehouse office",
+      "characters": [],
+      "action": "Min-Jae collapses to his knees, screaming as blood trickles from his eardrums.",
+      "mood": "human vulnerability",
+      "sfx": "ARGGGHHH!!"
+    },
+    {
+      "id": "p17",
+      "shot": "ha-jun standing unaffected",
+      "setting": "warehouse center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun stands up effortlessly; his Bone Gauntlet resonates with an acoustic nullifying barrier.",
+      "mood": "acoustic immunity",
+      "sfx": "SHING...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Bone of the Forgotten... vibrations ko absorb kar leti hai. Inka sound weapon mujhpar beasar hai!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "ha-jun casting blood shield over min-jae",
+      "setting": "warehouse office",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun flicks his ring finger, projecting a protective dome of hardened crystalline blood around Min-Jae.",
+      "mood": "protective aegis",
+      "sfx": "DOME-LOCK!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Min-Jae, is dome ke andar raho. Kuch nahi hoga tumhe.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "warehouse heavy iron doors blown off hinges",
+      "setting": "warehouse entrance",
+      "characters": [],
+      "action": "The massive corrugated steel sliding doors are blown twenty feet inward by breaching C4 charges.",
+      "mood": "explosive entry",
+      "sfx": "KABOOOMMM!!"
+    },
+    {
+      "id": "p20",
+      "shot": "smoke clearing to reveal elite hunter phalanx",
+      "setting": "warehouse entrance",
+      "characters": [],
+      "action": "Twenty heavily armed hunters in tactical exo-suits advance in disciplined shield-and-spear formation.",
+      "mood": "military phalanx",
+      "sfx": "STOMP-STOMP..."
+    },
+    {
+      "id": "p21",
+      "shot": "hunters firing automatic silver flechette guns",
+      "setting": "warehouse combat",
+      "characters": [],
+      "action": "A hail of five hundred micro-flechette silver needles sprays across the warehouse like razor rain.",
+      "mood": "flechette storm",
+      "sfx": "RAT-TAT-TAT-TAT!!"
+    },
+    {
+      "id": "p22",
+      "shot": "ha-jun manifesting dual bloodfire katanas",
+      "setting": "warehouse center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun draws two streams of blood from his ring, igniting them into twin blazing violet-crimson katanas.",
+      "mood": "dual bloodfire blades",
+      "sfx": "FWOOSH-SHING!!"
+    },
+    {
+      "id": "p23",
+      "shot": "ha-jun blurring into a cyclone of slashes",
+      "setting": "warehouse center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun spins into a blur of light; his twin blades deflect every single needle with blinding sparks.",
+      "mood": "impenetrable deflection",
+      "sfx": "CLANG-CLANG-CLANG!!"
+    },
+    {
+      "id": "p24",
+      "shot": "closing the distance at Mach 1",
+      "setting": "warehouse combat",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun vanishes in a violet thunderclap, reappearing instantaneously inside the hunter frontline.",
+      "mood": "sonic dash",
+      "sfx": "BOOOM!!"
+    },
+    {
+      "id": "p25",
+      "shot": "horizontal double-slash cleaving exo-suits",
+      "setting": "hunter frontline",
+      "characters": [
+        "hajun"
+      ],
+      "action": "His twin blades slice horizontally through four exo-suits, shattering their power cores instantly.",
+      "mood": "armor dismantled",
+      "sfx": "SLASHHH-CRACK!!"
+    },
+    {
+      "id": "p26",
+      "shot": "four hunters sent flying into shipping crates",
+      "setting": "warehouse wall",
+      "characters": [],
+      "action": "The four elite operatives crash violently into wooden shipping crates, completely incapacitated.",
+      "mood": "frontline crushed",
+      "sfx": "CRASHHH!!"
+    },
+    {
+      "id": "p27",
+      "shot": "remaining hunters backing away in terror",
+      "setting": "warehouse combat",
+      "characters": [],
+      "action": "The remaining sixteen hunters lower their weapons, trembling as they witness godlike speed.",
+      "mood": "demoralized hunters",
+      "sfx": "STEP BACK...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hunter_subordinate",
+          "text": "Yeh... Yeh koi C-Rank fugitive nahi hai... Yeh SSS-Rank monster hai!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "heavy metallic footsteps approaching outside",
+      "setting": "warehouse entrance",
+      "characters": [],
+      "action": "Slow, rhythmic, earth-shaking footsteps approach through the smoking entrance.",
+      "mood": "captain approaches",
+      "sfx": "THUD... THUD... THUD..."
+    },
+    {
+      "id": "p29",
+      "shot": "captain baek silhouette framed in doorway",
+      "setting": "warehouse entrance",
+      "characters": [],
+      "action": "Captain Baek stands framed against the pouring rain, his six-foot Eclipse Greatsword dragging on the concrete.",
+      "mood": "the captain arrives",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "captain_baek",
+          "text": "Hat jao, baccho. Yeh fight tumhare level ki nahi hai.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun and captain baek locking eyes across warehouse",
+      "setting": "tension wide shot",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun points his flaming blood katana straight at Captain Baek's throat: 'Tumhara intezaar tha, Captain.'",
+      "mood": "the duel of titans set",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Apni talwar uthao. Is baar main peeche nahi hatunga.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    }
+  ]
+}

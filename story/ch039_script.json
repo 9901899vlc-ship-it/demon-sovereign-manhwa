@@ -1,0 +1,458 @@
+{
+  "chapter": 39,
+  "title": "The First Real Defeat",
+  "arc": 4,
+  "arc_title": "THE DEMON HUNTER WAR",
+  "summary": "Deep in the water reservoir, Ha-Jun undergoes grueling blindfolded sensory conditioning. He masters Sovereign Blood Weaving, learning to read vibrations in the air and fluids before kinetic strikes land.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "blindfolded ha-jun standing in water wide shot",
+      "setting": "underground reservoir",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun stands motionless in knee-deep water, a black cloth blindfold tied across his eyes.",
+      "mood": "zen concentration",
+      "sfx": "RIPPLES..."
+    },
+    {
+      "id": "p02",
+      "shot": "ten obsidian feather daggers floating around kuro",
+      "setting": "water cavern air",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Ten razor-sharp obsidian feathers hover in midair, vibrating with high-frequency purple mana.",
+      "mood": "aerial threat",
+      "sfx": "HUMMM..."
+    },
+    {
+      "id": "p03",
+      "shot": "kuro firing first dagger at supersonic speed",
+      "setting": "water cavern air",
+      "characters": [],
+      "action": "The first feather launches forward like a bullet straight toward Ha-Jun's blindfolded throat.",
+      "mood": "first projectile",
+      "sfx": "ZIPPP!!"
+    },
+    {
+      "id": "p04",
+      "shot": "ha-jun tilting head 2 inches to the right",
+      "setting": "dodge macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun tilts his chin two inches to the right; the feather slices through a single strand of hair.",
+      "mood": "flawless dodge",
+      "sfx": "SWOOSH!"
+    },
+    {
+      "id": "p05",
+      "shot": "feather embedding into concrete column behind",
+      "setting": "concrete column",
+      "characters": [],
+      "action": "The feather embeds four inches into solid reinforced concrete, vibrating with leftover kinetic energy.",
+      "mood": "lethal power",
+      "sfx": "THUNK!!"
+    },
+    {
+      "id": "p06",
+      "shot": "kuro firing three daggers simultaneously from angles",
+      "setting": "water cavern air",
+      "characters": [],
+      "action": "Three daggers launch from triangle vectors: left flank, right kidney, and overhead.",
+      "mood": "multi-angle assault",
+      "sfx": "ZIP-ZIP-ZIP!!"
+    },
+    {
+      "id": "p07",
+      "shot": "ha-jun sensing ripples in the water beneath boots",
+      "setting": "water floor macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's boots detect minute pressure ripples travelling through the water surface.",
+      "mood": "fluid acoustic sense",
+      "sfx": "RIPPLE...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Hawa ka दबाव... Paani ka vibration... Sabkuch ek clear picture bana raha hai!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p08",
+      "shot": "ha-jun ducking and spinning cleanly",
+      "setting": "water cavern",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun ducks beneath the overhead dagger while spinning his torso; the two flank daggers miss by millimeters.",
+      "mood": "fluid evasion",
+      "sfx": "SPLASH-SWOOSH!"
+    },
+    {
+      "id": "p09",
+      "shot": "kuro grinning with pride in air",
+      "setting": "water cavern air",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro cackles: 'Not bad! Lekin Captain Baek projectile nahi, pure heavy steel chala raha tha!'",
+      "mood": "raising the bar",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Heavy impact ko sirf dodge nahi, absorb aur redirect karna hoga!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "kuro swooping down with giant phantom claw",
+      "setting": "water cavern",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro channels ancient sovereign mana, projecting a 10-foot shadowy demonic claw descending like a hammer.",
+      "mood": "crushing phantom blow",
+      "sfx": "ROARRR!!"
+    },
+    {
+      "id": "p11",
+      "shot": "ha-jun raising right arm with blood weaving",
+      "setting": "water cavern",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun summons liquid blood from his ring, weaving it into spiraling tensile bands around his forearm.",
+      "mood": "blood weaving form",
+      "sfx": "WHIRRRR!!"
+    },
+    {
+      "id": "p12",
+      "shot": "phantom claw striking blood spirals",
+      "setting": "center impact",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The massive phantom claw slams into the woven blood bands; the blood compresses like a hydraulic spring.",
+      "mood": "elastic absorption",
+      "sfx": "BOOOOM-SQUEEZE!!"
+    },
+    {
+      "id": "p13",
+      "shot": "ha-jun redirecting kinetic force into water",
+      "setting": "water cavern",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun redirects the entire 5-ton kinetic impact into the water around his feet, blasting a 20-foot geyser.",
+      "mood": "kinetic redirection",
+      "sfx": "GEYSER-CRASH!!",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Maine impact absorb nahi kiya... Maine use ground mein channel kar diya!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "water splashing down like rain in cavern",
+      "setting": "water cavern wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Gallons of displaced water rain down back into the reservoir as Ha-Jun remains standing upright.",
+      "mood": "flawless redirection",
+      "sfx": "SPLASH-PATTER..."
+    },
+    {
+      "id": "p15",
+      "shot": "ha-jun untying black blindfold",
+      "setting": "hero close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun pulls the soaked blindfold from his eyes; his dual-ringed irises shine with peerless clarity.",
+      "mood": "awakened sight",
+      "sfx": "UNWRAP...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Ab main dekh sakta hoon... Dushman ki muscle twitch hone se pehle uska path.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "kuro landing on ha-jun shoulder bowing head",
+      "setting": "water cavern",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro bows with genuine solemn respect: 'Blood Weaving Mastery: Rank C. Tumne ek din mein woh seekha jo saalon lagte hain.'",
+      "mood": "mastery acknowledged",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Tum sach mein First Sovereign ke blood ho, Ha-Jun.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "bone gauntlet splint dissolving into light",
+      "setting": "arm close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The wooden splints around his left arm fall away; the broken bone has fully fused, denser than titanium.",
+      "mood": "complete union",
+      "sfx": "CRACKLE-REPAIR!",
+      "dialogue": [
+        {
+          "type": "system",
+          "text": "[SKELETAL REGENERATION 100% COMPLETE]\nBone Density Multiplier: +550%\nNew Trait: Kinetic Dispersal Marrow.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "ha-jun flexing left fingers without pain",
+      "setting": "hand close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun makes a crushing fist with his left bone gauntlet; zero pain, pure reinforced power.",
+      "mood": "fully restored",
+      "sfx": "CRUNCH!"
+    },
+    {
+      "id": "p19",
+      "shot": "min-jae running across platform waving tablet",
+      "setting": "reservoir platform",
+      "characters": [],
+      "action": "Min-Jae runs to the edge: 'Ha-Jun! Bureau ke encrypted radio par emergency broadcast shuru ho gayi hai!'",
+      "mood": "urgent news",
+      "sfx": "SHOUT!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min-jae",
+          "text": "Director Kang ne Mapo Bridge par human hostage trap lagaya hai!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "ha-jun stepping out of water onto platform",
+      "setting": "reservoir platform",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun hoists himself out of the water, water draining from his dark tactical combat pants.",
+      "mood": "ready for war",
+      "sfx": "STEP..."
+    },
+    {
+      "id": "p21",
+      "shot": "min-jae showing drone livestream",
+      "setting": "tablet screen",
+      "characters": [],
+      "action": "Drone camera shows Mapo Bridge: twenty school buses trapped behind barricades in heavy night rain.",
+      "mood": "the hostage trap"
+    },
+    {
+      "id": "p22",
+      "shot": "director kang speaking on public loudspeaker",
+      "setting": "mapo bridge",
+      "characters": [],
+      "action": "Director Kang stands on an armored carrier with a megaphone: 'Ha-Jun Kang! Surrender within 30 minutes or these buses burn!'",
+      "mood": "ruthless ultimatum",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "director_kang",
+          "text": "Ek Demon ke liye 500 bacchon ki jaan... Tum chunoge kya, Sovereign Heir?!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "captain baek standing beside kang with folded arms",
+      "setting": "mapo bridge",
+      "characters": [],
+      "action": "Captain Baek stands beside him, his jaw clenched tight in visible moral conflict.",
+      "mood": "captain's hesitation"
+    },
+    {
+      "id": "p24",
+      "shot": "ha-jun jaw hardening with icy resolve",
+      "setting": "reservoir platform",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun zips up his dark windbreaker, pulling on black fingerless tactical gloves.",
+      "mood": "arming for battle",
+      "sfx": "ZIP...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Innocent bacchon ko dhaal banaya... Director Kang insaan kehlane ke laayak nahi hai.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "min-jae loading decryption files onto usb drive",
+      "setting": "reservoir platform",
+      "characters": [],
+      "action": "Min-Jae inserts a titanium USB drive into his pocket: 'Maine Tae-Jun ke journal aur Chimera files ki copy bana li hai.'",
+      "mood": "crucial evidence weapon",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min-jae",
+          "text": "Agar yeh information media aur Captain Baek ko mil jaye, toh Bureau toot jayega!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "shot": "ha-jun placing hand on min-jae shoulder",
+      "setting": "reservoir platform",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun looks at Min-Jae with deep brotherly trust: 'Tum bridge ke broadcast van ko target karna.'",
+      "mood": "battle assignment",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Screen par sachayi chalao. Main Baek aur Kang ko sambhalunga.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "kuro expanding wings to six-foot span",
+      "setting": "reservoir platform",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro's obsidian wings expand, glowing with radiant violet energy: 'Time to hunt the hunters.'",
+      "mood": "battle cry",
+      "sfx": "FWOOSH!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Chalo, Ha-Jun! Sovereign ki pehli real battle shuru karte hain!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "ha-jun leaping up maintenance access ladder",
+      "setting": "reservoir shaft",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun bounds up the 80-foot vertical iron ladder in three explosive jumps.",
+      "mood": "explosive ascent",
+      "sfx": "CLANG-CLANG!!"
+    },
+    {
+      "id": "p29",
+      "shot": "kicking open manhole cover onto rain-slicked street",
+      "setting": "street level",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun kicks the heavy cast-iron manhole cover into the air, leaping onto the street.",
+      "mood": "emergence",
+      "sfx": "CLATTER-SLAM!!"
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun standing on empty wet asphalt facing bridge",
+      "setting": "city street night",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Lightning flashes over the Han River; Mapo Bridge blazes with police beacons 500 meters ahead.",
+      "mood": "the calm before the war",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Aaj raat... main aur nahi chupunga.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,452 @@
+{
+  "chapter": 40,
+  "title": "Kuro's Warning",
+  "arc": 4,
+  "arc_title": "THE DEMON HUNTER WAR",
+  "summary": "Approaching the fortified Mapo Bridge, Kuro warns Ha-Jun of the ancient rule of the Abyss: every time a Sovereign unleashes absolute authority, the seal on the Abyssal Gates weakens.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "stormy han river and mapo bridge wide shot",
+      "setting": "han river night wide",
+      "characters": [],
+      "action": "Torrential rain lashes the dark, swollen waters of the Han River; Mapo Bridge is ablaze with emergency searchlights.",
+      "mood": "epic storm backdrop",
+      "sfx": "THUNDER ROAR!!"
+    },
+    {
+      "id": "p02",
+      "shot": "armored bureau carriers sealing both ends of bridge",
+      "setting": "bridge approach",
+      "characters": [],
+      "action": "Eight heavy armored vehicles form an impenetrable barricade; barbed razor wire stretches across all lanes.",
+      "mood": "military blockade",
+      "sfx": "SIRENS BLARING..."
+    },
+    {
+      "id": "p03",
+      "shot": "school buses trapped in center of bridge",
+      "setting": "bridge center",
+      "characters": [],
+      "action": "Twenty yellow school buses parked bumper-to-bumper; terrified children pressing tear-streaked faces to foggy windows.",
+      "mood": "innocent hostages"
+    },
+    {
+      "id": "p04",
+      "shot": "ha-jun walking down empty highway toward bridge",
+      "setting": "empty highway",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun walks down the center double-yellow line, raindrops parting around an invisible mana envelope.",
+      "mood": "solitary hero approach",
+      "sfx": "STEP... STEP..."
+    },
+    {
+      "id": "p05",
+      "shot": "kuro gliding low over ha-jun head",
+      "setting": "highway air",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro glides three feet above him, red eyes surveying the fortified bridge with ancient solemnity.",
+      "mood": "guardian vigil",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Ha-Jun... Ek aakhri warning sun lo.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "ha-jun glancing up through wet fringe",
+      "setting": "highway close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun keeps walking without breaking stride: 'Kya warning, Kuro?'",
+      "mood": "steady focus",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Jo bhi ho, main peeche nahi hatunga.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "kuro speaking of the abyssal gate resonance",
+      "setting": "highway air",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro explains: 'Tumhare teen Basic Relics fully harmonised hain. Agar tumne 100% mana blast kiya...'",
+      "mood": "ancient cosmic rule",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Toh Gangnam ke underground Abyssal Gate par pressure padega. Demon Realm ki attention attract hogi.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p08",
+      "shot": "vision of titanic demon lord eyes in the void",
+      "setting": "mindscape vignette",
+      "characters": [],
+      "action": "A brief psychic flash of Demon King Malgath's six crimson eyes opening in the molten Abyss.",
+      "mood": "the looming abyss",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "Sovereign ki har pukaar... Abyss ke sabse khatarnak darindo ko jagati hai.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "ha-jun tightening fists",
+      "setting": "hand macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's bone gauntlet chimes: 'Main control mein rahunga. Sirf target-specific precision use karunga.'",
+      "mood": "disciplined resolve",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Mujhe destructive beast nahi banna... Mujhe surgical warrior banna hai.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "searchlights from watchtower locking onto ha-jun",
+      "setting": "bridge approach",
+      "characters": [],
+      "action": "Four 100,000-lumen searchlights swivel simultaneously, trapping Ha-Jun in a blinding cross of white light.",
+      "mood": "targeted in light",
+      "sfx": "FLASH-LOCK!!"
+    },
+    {
+      "id": "p11",
+      "shot": "bureau snipers screaming into comms",
+      "setting": "bridge barricade",
+      "characters": [],
+      "action": "Hunter snipers on carrier roofs shout through tactical headsets: 'TARGET SPOTTED! HA-JUN KANG IS ON FOOT!'",
+      "mood": "alarm sounded",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "sniper_comm",
+          "text": "TARGET APPROACHING ON FOOT! CLEARANCE TO FIRE!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "director kang on carrier roof raising hand",
+      "setting": "carrier roof",
+      "characters": [],
+      "action": "Director Kang holds up a gloved hand to pause the snipers: 'Wait. Let him enter the killzone.'",
+      "mood": "sadistic confidence",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "director_kang",
+          "text": "Use dekhne do ki uski aashao ka kya anjaam hota hai.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "captain baek stepping forward on bridge tarmac",
+      "setting": "bridge tarmac",
+      "characters": [],
+      "action": "Captain Baek walks forward to the fifty-meter mark, gripping his Eclipse Greatsword with both hands.",
+      "mood": "the rival meets",
+      "sfx": "CLANK!"
+    },
+    {
+      "id": "p14",
+      "shot": "ha-jun stopping twenty meters away from baek",
+      "setting": "bridge center wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun halts; rain splashes between the two warriors under the glare of searchlights.",
+      "mood": "standoff of champions",
+      "sfx": "RAIN PATTER..."
+    },
+    {
+      "id": "p15",
+      "shot": "baek looking at ha-jun mended arm in disbelief",
+      "setting": "bridge center",
+      "characters": [],
+      "action": "Baek's eyes widen through his visor: 'Tumhara hath... Barah ghante pehle compound fracture tha!'",
+      "mood": "shock at regeneration",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "captain_baek",
+          "text": "Yeh kaise possible hai?! Tumhari haddiyan jud chuki hain?!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "ha-jun raising left bone gauntlet",
+      "setting": "medium hero shot",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun flexes his ivory gauntlet; it gleams with cold, diamond-hard luster in the searchlights.",
+      "mood": "gauntlet display",
+      "sfx": "CREAK-LOCK!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Tumne kaha tha na, Captain... Dushman par reham karna gunaah hai?",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "ha-jun voice ringing with calm authority",
+      "setting": "bridge center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun continues: 'Main yahan reham mangne nahi aaya. Main tumhe sach batane aaya hoon.'",
+      "mood": "noble confrontation",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Director Kang tumhe use kar raha hai, Baek.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "director kang laughing mocking through loudspeaker",
+      "setting": "carrier roof",
+      "characters": [],
+      "action": "Director Kang's voice booms over the speakers: 'Lies of a cornered demon! Hunters, OPEN FIRE!'",
+      "mood": "order to massacre",
+      "sfx": "ROAR-SPEAKER!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "director_kang",
+          "text": "FIRE! OBLITERATE HIM!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "fifty automatic rifles opening fire simultaneously",
+      "setting": "barricade line",
+      "characters": [],
+      "action": "Fifty heavy weapons erupt in a continuous wall of muzzle flashes, silver bullets tearing through rain.",
+      "mood": "wall of lead",
+      "sfx": "RAT-TAT-TAT-TAT-BOOM!!"
+    },
+    {
+      "id": "p20",
+      "shot": "ha-jun activating sovereign blood weaving",
+      "setting": "bridge combat",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun takes half a step back, his arms moving in fluid, hypnotic Tai-Chi like circular arcs.",
+      "mood": "blood weaving dance",
+      "sfx": "WHOOSH..."
+    },
+    {
+      "id": "p21",
+      "shot": "spiraling vortex of crimson blood mana manifesting",
+      "setting": "bridge combat",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A swirling double-funnel of liquid crimson blood forms around him, rotating at 200 mph.",
+      "mood": "sanguine shield vortex",
+      "sfx": "WHIRRRRR!!"
+    },
+    {
+      "id": "p22",
+      "shot": "thousands of silver bullets caught in vortex",
+      "setting": "vortex macro",
+      "characters": [],
+      "action": "Every single bullet is trapped in the swirling fluid stream, losing all kinetic energy instantly.",
+      "mood": "bullets captured",
+      "sfx": "CHIRR-CHIRR-STOP!!"
+    },
+    {
+      "id": "p23",
+      "shot": "hunters staring in absolute frozen shock",
+      "setting": "barricade line",
+      "characters": [],
+      "action": "The fifty elite hunters lower their weapons, watching thousands of bullets suspended harmlessly in red rings.",
+      "mood": "miraculous defense",
+      "sfx": "GASP...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hunter_grunt",
+          "text": "H-Hamari saari bullets hawa mein ruk gayi...!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "ha-jun flicking fingers forward",
+      "setting": "bridge combat",
+      "characters": [
+        "hajun"
+      ],
+      "action": "With a gentle flick of his open palm, Ha-Jun reverses the vortex spin.",
+      "mood": "reversal command",
+      "sfx": "SNAP!"
+    },
+    {
+      "id": "p25",
+      "shot": "thousands of bullets launched backward at non-lethal targets",
+      "setting": "barricade line",
+      "characters": [],
+      "action": "All thousands of captured bullets rocket backward, slicing cleanly through the hunter rifle barrels and car tires.",
+      "mood": "precision disarm",
+      "sfx": "PING-PING-SHRED!!"
+    },
+    {
+      "id": "p26",
+      "shot": "all fifty rifles sheared in half simultaneously",
+      "setting": "barricade line",
+      "characters": [],
+      "action": "Every hunter is left holding a smoking broken receiver; all eight armored vehicle tires deflate.",
+      "mood": "bloodless neutralization",
+      "sfx": "HISS-POP!!"
+    },
+    {
+      "id": "p27",
+      "shot": "not a single hunter injured",
+      "setting": "barricade line",
+      "characters": [],
+      "action": "The hunters look down at their unharmed hands in stunned bewilderment: zero casualties.",
+      "mood": "mercy through absolute mastery"
+    },
+    {
+      "id": "p28",
+      "shot": "captain baek sword tip lowering slightly",
+      "setting": "bridge center",
+      "characters": [],
+      "action": "Captain Baek stares at Ha-Jun with profound realization: 'Usne chaaha hota toh sabko maar sakta tha...'",
+      "mood": "captain's revelation",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "captain_baek",
+          "text": "Itni lethal power ke baad bhi... Ek bhi insaan ko hurt nahi kiya.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "min-jae voice hijacking bridge public screens",
+      "setting": "bridge jumbotron",
+      "characters": [],
+      "action": "High above on the giant bridge traffic display, Min-Jae's face cuts in over the police broadcast.",
+      "mood": "broadcast hacked",
+      "sfx": "STATIC-BEEP!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "min-jae",
+          "text": "HUNTERS! APNE SCREENS PAR DEKHO! DIRECTOR KANG KA SACH!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "project chimera documents flashing across giant screens",
+      "setting": "bridge jumbotron wide",
+      "characters": [],
+      "action": "Classified videos of Director Kang experimenting with demonic cores flash across the 50-foot display.",
+      "mood": "the truth goes public",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "Bureau ka jhooth... Puri city ke saamne be-parda ho gaya.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    }
+  ]
+}

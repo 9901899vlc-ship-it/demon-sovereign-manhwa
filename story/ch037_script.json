@@ -1,0 +1,418 @@
+{
+  "chapter": 37,
+  "title": "The Betrayer",
+  "arc": 4,
+  "arc_title": "THE DEMON HUNTER WAR",
+  "summary": "As Ha-Jun duels Captain Baek, his academy senior Park Jin-Woo reveals he traded Ha-Jun's coordinates for his sister's life-saving cure. The emotional conflict causes Ha-Jun to hesitate, leading to a catastrophic tactical breach.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "captain baek drawing the eclipse greatsword",
+      "setting": "warehouse center",
+      "characters": [],
+      "action": "Captain Baek swings the 200-pound jagged greatsword effortlessly in one hand, dark anti-mana humming.",
+      "mood": "sword unsheathed",
+      "sfx": "SHKKK-CLANG!!"
+    },
+    {
+      "id": "p02",
+      "shot": "captain baek charging forward like a meteor",
+      "setting": "warehouse combat",
+      "characters": [],
+      "action": "Baek kicks off the concrete, leaving a shattered crater as he rockets forward with devastating momentum.",
+      "mood": "heavy charge",
+      "sfx": "BOOOOM!!"
+    },
+    {
+      "id": "p03",
+      "shot": "greatsword clashing against ha-jun bone gauntlet",
+      "setting": "center impact",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Baek's greatsword slams into Ha-Jun's raised left bone gauntlet; a radial shockwave shatters all remaining glass.",
+      "mood": "titan clash",
+      "sfx": "KABOOOOMMM!!"
+    },
+    {
+      "id": "p04",
+      "shot": "concrete floor depressing under ha-jun boots",
+      "setting": "footwork macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The concrete under Ha-Jun's boots cracks into spiderwebs from the sheer kinetic pressure of Baek's blow.",
+      "mood": "absorbing pressure",
+      "sfx": "CREAK-CRACK!!"
+    },
+    {
+      "id": "p05",
+      "shot": "captain baek grinning grimly behind visor",
+      "setting": "face-off close-up",
+      "characters": [],
+      "action": "Baek leans in with veins bulging on his neck: 'Tumhara bone armor sach mein impressive hai, ladke!'",
+      "mood": "veteran appraisal",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "captain_baek",
+          "text": "Lekin technique bina experience ke sirf ek khilona hai!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "baek executing spinning roundhouse kick",
+      "setting": "melee combat",
+      "characters": [],
+      "action": "Using the greatsword as a fulcrum, Baek swings his titanium-armored boot straight at Ha-Jun's ribs.",
+      "mood": "veteran martial arts",
+      "sfx": "WHAMMM!!"
+    },
+    {
+      "id": "p07",
+      "shot": "ha-jun parrying with right blood blade",
+      "setting": "melee combat",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun pivots, his right blood katana sliding along Baek's armor to deflect the kick off-target.",
+      "mood": "smooth deflection",
+      "sfx": "SPARK-SLIDE!"
+    },
+    {
+      "id": "p08",
+      "shot": "ha-jun counter-thrusting toward baek throat",
+      "setting": "melee combat",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's flaming blood blade darts forward like a striking viper, aimed straight at the unarmored throat gap.",
+      "mood": "lethal counter",
+      "sfx": "SHING!!"
+    },
+    {
+      "id": "p09",
+      "shot": "sudden gunshot from warehouse catwalk behind hajun",
+      "setting": "catwalk above",
+      "characters": [],
+      "action": "A loud sniper gunshot rings out from the overhead catwalk, shattering the blood blade in mid-thrust.",
+      "mood": "surprise sniper",
+      "sfx": "BANG-SHATTER!!"
+    },
+    {
+      "id": "p10",
+      "shot": "ha-jun leaping back in shock",
+      "setting": "warehouse floor",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun leaps back ten feet, his shattered blood reforming into his ring, eyes darting to the catwalk.",
+      "mood": "startled disengagement",
+      "sfx": "SWOOSH!"
+    },
+    {
+      "id": "p11",
+      "shot": "figure holding smoking hunting rifle on catwalk",
+      "setting": "catwalk overhead",
+      "characters": [],
+      "action": "Standing on the catwalk: a slender 19yo boy in a Saint Mirren academy blazer, trembling violently.",
+      "mood": "familiar silhouette"
+    },
+    {
+      "id": "p12",
+      "shot": "ha-jun recognizing his senior park jin-woo",
+      "setting": "face close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's eyes widen in genuine disbelief: 'Jin-Woo... Senior?!'",
+      "mood": "betrayal shock",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Jin-Woo Hyung...? Tum yahan kya kar rahe ho?!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "jin-woo crying with rifle trembling in hands",
+      "setting": "catwalk close-up",
+      "characters": [],
+      "action": "Park Jin-Woo weeps openly, tears streaming down his face as he aims the rifle at Ha-Jun.",
+      "mood": "anguished betrayal",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "jin_woo",
+          "text": "M-Mujhe maaf kar do, Ha-Jun! Mere paas koi aur raasta nahi tha!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "jin-woo revealing his sick sister motive",
+      "setting": "catwalk close-up",
+      "characters": [],
+      "action": "Jin-Woo holds up a glowing blue pharmaceutical vial in his left hand with desperate sobbing.",
+      "mood": "tragic motivation",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "jin_woo",
+          "text": "Meri behen Su-Jin terminal mana leukemia se mar rahi hai... Bureau ne kaha agar main tumhari location doon toh woh use cure denge!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "shot": "ha-jun freezing with lowered blades",
+      "setting": "warehouse floor",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's arms slowly drop to his sides; the memory of his own lost brother paralyzes his battle instinct.",
+      "mood": "emotional paralysis",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Apni behen ko bachaane ke liye... Woh bhi wahi kar raha hai jo mere bhai ne mere liye kiya.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "kuro screeching frantically from rafters",
+      "setting": "rafters",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro screams in terror: 'HA-JUN, DEFEND! BAEK IS MOVING! APNE EMOTIONS KO SIDE MEIN RAKHO!'",
+      "mood": "frantic warning",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "kuro",
+          "text": "YEH TRAP HAI! FOCUS, HA-JUN!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "captain baek swinging eclipse greatsword at full power",
+      "setting": "warehouse combat",
+      "characters": [],
+      "action": "Taking full advantage of Ha-Jun's distraction, Captain Baek unleashes his ultimate strike.",
+      "mood": "lethal execution",
+      "sfx": "ROARRRRR!!"
+    },
+    {
+      "id": "p18",
+      "shot": "greatsword cleaving straight through ha-jun bone gauntlet",
+      "setting": "center impact",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The anti-mana greatsword strikes Ha-Jun's left forearm with ungodly kinetic force, fracturing the bone plate.",
+      "mood": "armor shattered",
+      "sfx": "KRAAAACK-SNAP!!"
+    },
+    {
+      "id": "p19",
+      "shot": "ha-jun screaming as bone fractures",
+      "setting": "impact close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun screams in visceral agony as the shockwave shatters his radius bone beneath the armor.",
+      "mood": "agonizing fracture",
+      "sfx": "ARGGGHHH!!"
+    },
+    {
+      "id": "p20",
+      "shot": "ha-jun thrown through three brick walls",
+      "setting": "warehouse interior",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The titanic impact blasts Ha-Jun backward through three reinforced brick partition walls.",
+      "mood": "catastrophic propulsion",
+      "sfx": "BOOM-CRASH-BOOM!!"
+    },
+    {
+      "id": "p21",
+      "shot": "ha-jun lying in mountain of brick rubble",
+      "setting": "rubble heap",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun lies half-buried under crushed red bricks, blood pouring from his forehead and broken left arm.",
+      "mood": "defeated protagonist",
+      "sfx": "COUGH-GASP..."
+    },
+    {
+      "id": "p22",
+      "shot": "captain baek walking through the dust cloud",
+      "setting": "brick archway",
+      "characters": [],
+      "action": "Captain Baek steps through the shattered archway, dragging his blood-stained greatsword.",
+      "mood": "inexorable executioner",
+      "sfx": "STEP... STEP..."
+    },
+    {
+      "id": "p23",
+      "shot": "baek looking at ha-jun with pity and respect",
+      "setting": "rubble heap",
+      "characters": [],
+      "action": "Baek stops three feet away: 'Combat mein hesitation sirf maut laati hai, boy. Tumhara dil bohot naram hai.'",
+      "mood": "harsh battle wisdom",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "captain_baek",
+          "text": "Dushman par reham karna jung mein sabse bada gunaah hai.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "baek raising greatsword high for finishing cleave",
+      "setting": "rubble heap",
+      "characters": [],
+      "action": "Baek raises the massive blade two-handed, poised to plunge it directly into Ha-Jun's heart.",
+      "mood": "executioner stance",
+      "sfx": "LIFT..."
+    },
+    {
+      "id": "p25",
+      "shot": "kuro diving down with blinding purple smoke bomb",
+      "setting": "airborne assault",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro plunges between them, his wings exploding into a blinding 30-meter screen of choking purple demonic miasma.",
+      "mood": "desperate rescue",
+      "sfx": "POOF-BOOM!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "kuro",
+          "text": "ABYSSAL SMOKE VEIL!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "shot": "baek coughing and slashing through smoke",
+      "setting": "smoke screen",
+      "characters": [],
+      "action": "Baek swings blindly through the dense purple fog, but his blade strikes only empty air.",
+      "mood": "blind strike",
+      "sfx": "WHOOSH-MISS!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "captain_baek",
+          "text": "Khansi... Demonic smoke! Cowardly bird!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "min-jae driving forklift through side wall",
+      "setting": "warehouse wall",
+      "characters": [],
+      "action": "Min-Jae smashes an industrial forklift through a corrugated metal side door into the smoke.",
+      "mood": "rescue arrival",
+      "sfx": "CRASHHH!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "min-jae",
+          "text": "HA-JUN!! FORKLIFT PAR CHADHO!!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "min-jae pulling unconscious ha-jun onto forklift pallet",
+      "setting": "forklift pallet",
+      "characters": [],
+      "action": "Min-Jae frantically drags Ha-Jun's limp, bleeding body onto the wooden pallet.",
+      "mood": "frantic extraction",
+      "sfx": "PULL!!"
+    },
+    {
+      "id": "p29",
+      "shot": "forklift reversing into rainy alleyway",
+      "setting": "alleyway exterior",
+      "characters": [],
+      "action": "Min-Jae slams the forklift into reverse, bursting out into the pouring rain as smoke billows behind them.",
+      "mood": "daring escape",
+      "sfx": "VROOOM!!"
+    },
+    {
+      "id": "p30",
+      "shot": "captain baek emerging from smoke staring at rain",
+      "setting": "broken doorway",
+      "characters": [],
+      "action": "Captain Baek lowers his sword, wiping purple soot from his cheek: 'Bhag gaye... Lekin uski haddiyan toot chuki hain.'",
+      "mood": "grim aftermath",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "captain_baek",
+          "text": "Woh kal subah tak zinda nahi bachega.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,388 @@
+{
+  "chapter": 43,
+  "title": "War Begins",
+  "arc": 4,
+  "arc_title": "THE DEMON HUNTER WAR",
+  "summary": "The Abyssal Gate beneath Gangnam Station tears open into the human world. As thousands of demonic beasts pour into Seoul, Ha-Jun and the unified Hunter Bureau draw the battle line at the Gate's threshold.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "gangnam station intersection wide shot",
+      "setting": "gangnam intersection",
+      "characters": [],
+      "action": "The bustling neon crossroads of Gangnam Station torn open by a 200-foot glowing crater of black-and-purple void.",
+      "mood": "the abyssal epicenter",
+      "sfx": "VOID HUMMM..."
+    },
+    {
+      "id": "p02",
+      "shot": "abandoned cars overturned and burning",
+      "setting": "gangnam streets",
+      "characters": [],
+      "action": "Taxis and luxury sedans tossed aside like toys; streetlamps flickering with demonic static interference.",
+      "mood": "urban devastation",
+      "sfx": "FIRE CRACKLING..."
+    },
+    {
+      "id": "p03",
+      "shot": "hundreds of abyssal imps swarming from crater",
+      "setting": "crater rim",
+      "characters": [],
+      "action": "Feral, three-eyed Abyssal Imps with obsidian scales and acidic fangs pour out like a black tidal wave.",
+      "mood": "monster horde",
+      "sfx": "SCREECH-CHITTER!!"
+    },
+    {
+      "id": "p04",
+      "shot": "united convoy arriving with drifting tires",
+      "setting": "gangnam intersection",
+      "characters": [],
+      "action": "Ha-Jun's van and six Bureau armored carriers drift violently around the corner into battle formation.",
+      "mood": "armada arrival",
+      "sfx": "SCREEECH-SKIDD!!"
+    },
+    {
+      "id": "p05",
+      "shot": "captain baek leaping off moving vehicle",
+      "setting": "convoy front",
+      "characters": [],
+      "action": "Captain Baek hits the asphalt running, drawing the Eclipse Greatsword in a single thunderous arc.",
+      "mood": "heroic entrance",
+      "sfx": "THUD-CLANG!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "captain_baek",
+          "text": "PERIMETER SHIELD! HOLD THE LINE FOR THE HOSTAGES!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "hunters deploying energy barricades",
+      "setting": "intersection perimeter",
+      "characters": [],
+      "action": "Bureau operatives slam heavy kinetic barriers into the asphalt, forming a glowing blue defensive line.",
+      "mood": "defensive perimeter",
+      "sfx": "CLANK-HUMMM!!"
+    },
+    {
+      "id": "p07",
+      "shot": "van door sliding open",
+      "setting": "van exterior",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun steps down onto the shattered asphalt, cloaked in black, his dual-ringed eyes illuminating the dark rain.",
+      "mood": "sovereign steps forward",
+      "sfx": "STEP..."
+    },
+    {
+      "id": "p08",
+      "shot": "kuro landing on ha-jun shoulder flaring feathers",
+      "setting": "ha-jun shoulder",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro looks down into the chasm: 'The Gate of Gehenna... Section 9 ke theek center mein open hua hai.'",
+      "mood": "gateway confirmed",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Tae-Jun is chasm ke andar hai... Aur uske theek peeche Rare Relic hai!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "min-jae handing ha-jun wireless comms earpiece",
+      "setting": "van doorway",
+      "characters": [],
+      "action": "Min-Jae presses an earpiece into Ha-Jun's ear: 'Main satellite feeds se tumhara path guide karunga!'",
+      "mood": "command link",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min-jae",
+          "text": "Safe wapas aana, Ha-Jun... Dono bhaiyon ko zinda wapas aana hai!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "ha-jun clasping min-jae hand",
+      "setting": "van doorway",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun nods firmly: 'Zinda wapas aaunga, Min-Jae. Bureau ki command sambhalo.'",
+      "mood": "trust in friendship"
+    },
+    {
+      "id": "p11",
+      "shot": "colossal 25-foot abyssal gorefiend climbing from rift",
+      "setting": "chasm center",
+      "characters": [],
+      "action": "A titanic Gorefiend with four arms, a boar skull face, and burning magma veins drags itself onto the street.",
+      "mood": "boss monster emergence",
+      "sfx": "ROOOOAAARRR!!"
+    },
+    {
+      "id": "p12",
+      "shot": "gorefiend swinging colossal iron club at hunters",
+      "setting": "intersection combat",
+      "characters": [],
+      "action": "The monster swings a six-ton spiked iron club directly at the Hunter defensive line.",
+      "mood": "catastrophic swing",
+      "sfx": "SWHOOOOOM!!"
+    },
+    {
+      "id": "p13",
+      "shot": "captain baek bracing with greatsword to block",
+      "setting": "intersection combat",
+      "characters": [],
+      "action": "Baek braces his greatsword two-handed, knowing the blow will shatter his exo-suit.",
+      "mood": "desperate defense",
+      "sfx": "GRIT TEETH!!"
+    },
+    {
+      "id": "p14",
+      "shot": "ha-jun blurring in front of baek like violet lightning",
+      "setting": "intersection combat",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun materializes in midair between the iron club and Baek, his left bone gauntlet raised.",
+      "mood": "intercepting god",
+      "sfx": "ZAP-FLASH!!"
+    },
+    {
+      "id": "p15",
+      "shot": "one-handed bone gauntlet catch",
+      "setting": "clash macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun catches the six-ton spiked club with his bare left bone gauntlet; the shockwave cracks the street for 50 feet.",
+      "mood": "godlike strength",
+      "sfx": "BOOOOOOOMMM!!"
+    },
+    {
+      "id": "p16",
+      "shot": "gorefiend four eyes bulging in shock",
+      "setting": "monster face",
+      "characters": [],
+      "action": "The colossal monster's four eyes bulge in absolute disbelief as a 17-year-old human stops its blow cold.",
+      "mood": "monster bewildered",
+      "sfx": "HUH?!"
+    },
+    {
+      "id": "p17",
+      "shot": "ha-jun looking up with cold sovereign smile",
+      "setting": "hero close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's dual eyes burn with radiant majesty: 'Mere shehar mein... tumhara koi hak nahi hai.'",
+      "mood": "imperial decree",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "You picked the wrong city, demon.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "ha-jun flexing fingers to crush the iron club",
+      "setting": "weapon macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "With a simple squeeze of his bone fingers, the solid cast-iron club shatters like chalk into powder.",
+      "mood": "crushing feat",
+      "sfx": "CRUNCH-SHATTER!!"
+    },
+    {
+      "id": "p19",
+      "shot": "summoning massive flaming blood blade",
+      "setting": "combat hero shot",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun draws a 10-foot colossal blade of solid crystalline blood, engulfed in roaring violet hellfire.",
+      "mood": "colossal bloodfire blade",
+      "sfx": "FWOOOOOSHH!!"
+    },
+    {
+      "id": "p20",
+      "shot": "vertical upward slash cleaving gorefiend",
+      "setting": "intersection combat",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun swings upward with a devastating celestial crescent; the 25-foot titan is cleaved clean in two.",
+      "mood": "bisection of titan",
+      "sfx": "SLASHHH-KABOOM!!"
+    },
+    {
+      "id": "p21",
+      "shot": "gorefiend bursting into violet firework of embers",
+      "setting": "intersection wide",
+      "characters": [],
+      "action": "The colossal demon detonates into a magnificent fountain of violet embers and golden mana particles.",
+      "mood": "spectacular defeat",
+      "sfx": "GLITTER..."
+    },
+    {
+      "id": "p22",
+      "shot": "hundreds of imps freezing in collective terror",
+      "setting": "chasm rim",
+      "characters": [],
+      "action": "Seeing their champion obliterated in two seconds, the hundreds of lesser demons scramble back in panic.",
+      "mood": "horde cowed",
+      "sfx": "CHITTER-FLEE!!"
+    },
+    {
+      "id": "p23",
+      "shot": "hunters erupting in deafening cheers",
+      "setting": "barricade line",
+      "characters": [],
+      "action": "Fifty hardened Bureau hunters raise their fists, shouting in wild, triumphant celebration.",
+      "mood": "military roar",
+      "sfx": "YEAHHHH!! LONG LIVE SOVEREIGN!!"
+    },
+    {
+      "id": "p24",
+      "shot": "captain baek saluting ha-jun with fist over heart",
+      "setting": "bridge tarmac",
+      "characters": [],
+      "action": "Captain Baek strikes his chestplate in a formal military salute: 'The path is yours, Ha-Jun. We will hold the gate surface!'",
+      "mood": "general's salute",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "captain_baek",
+          "text": "Bahar ka ek bhi demon aage nahi badhega! Apne bhai ko le aao!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "ha-jun walking to the edge of the abyss crater",
+      "setting": "crater rim",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun stands on the crumbling edge of the 200-foot void chasm, staring down into the glowing abyss.",
+      "mood": "the precipice",
+      "sfx": "WIND RUSHING..."
+    },
+    {
+      "id": "p26",
+      "shot": "kuro expanding into shadow glider form",
+      "setting": "crater rim",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro wraps his wings around Ha-Jun's back, forming a sleek set of aerodynamic obsidian shadow gliders.",
+      "mood": "shadow wings",
+      "sfx": "SHROUD...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Beyond this point... Mortal laws exist nahi karti.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "ha-jun looking down into glowing subterranean kingdom",
+      "setting": "abyss depth view",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Deep beneath the crater, ancient obsidian towers and floating crystalline islands of the Abyss loom.",
+      "mood": "the demon realm revealed"
+    },
+    {
+      "id": "p28",
+      "shot": "sovereign quest interface flashing golden tier update",
+      "setting": "airborne interface",
+      "characters": [],
+      "action": "The Sovereign Interface updates with blinding diamond-tier gothic lettering.",
+      "mood": "major arc milestone",
+      "sfx": "GONGGGG!!",
+      "dialogue": [
+        {
+          "type": "system",
+          "text": "[ARC 4 CONCLUDED: THE DEMON HUNTER WAR]\n[ENTERING ARC 5: THE ABYSSAL KINGDOM]\nPrimary Objective: Infiltrate Section 9 & Rescue Kang Tae-Jun.\nSecondary Objective: Claim Relic #5: The Fang of Abyss.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "ha-jun diving headfirst into the abyss chasm",
+      "setting": "chasm descent wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun plunges off the precipice into the vertical purple void, cutting through the clouds like a fallen comet.",
+      "mood": "the heroic dive",
+      "sfx": "FWOOOOOSHHH!!"
+    },
+    {
+      "id": "p30",
+      "shot": "dual-ringed eyes glowing in the deep abyss darkness",
+      "setting": "abyssal abyss darkness",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Surrounded by ancient ruins and demonic lightning in the depths, Ha-Jun's eyes shine like twin unyielding stars.",
+      "mood": "arc 4 grand finale / arc 5 threshold",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Main aa raha hoon, Bhai. Ab hum dono mil kar is duniya ko badlenge.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    }
+  ]
+}

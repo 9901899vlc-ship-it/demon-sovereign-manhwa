@@ -1,0 +1,402 @@
+{
+  "chapter": 41,
+  "title": "Blood Training",
+  "arc": 4,
+  "arc_title": "THE DEMON HUNTER WAR",
+  "summary": "Exposed by Min-Jae's broadcast, Director Kang injects himself with an experimental Chimera Core. Captain Baek turns his blade against the corrupt Director, joining Ha-Jun in a historic alliance.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "giant jumbotron displaying chimera files wide shot",
+      "setting": "mapo bridge wide",
+      "characters": [],
+      "action": "The 50-foot traffic jumbotron displays horrifying footage of Bureau bio-labs and Tae-Jun's stasis pod.",
+      "mood": "public exposure",
+      "sfx": "STATIC-GLARE..."
+    },
+    {
+      "id": "p02",
+      "shot": "hunters murmuring in confusion and outrage",
+      "setting": "barricade line",
+      "characters": [],
+      "action": "Elite hunters lower their gear, looking up at the screen in horrified betrayal.",
+      "mood": "internal revolt",
+      "sfx": "MURMUR... OUTRAGE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hunter_sergeant",
+          "text": "Yeh files real hain... Bureau khud demon experiments kar raha tha?!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "shot": "captain baek turning slowly to face director kang",
+      "setting": "bridge center",
+      "characters": [],
+      "action": "Captain Baek turns his armored body toward the carrier roof, eyes burning with icy rage behind his visor.",
+      "mood": "the knight turns",
+      "sfx": "HEAVY TREAD..."
+    },
+    {
+      "id": "p04",
+      "shot": "baek pointing greatsword at director kang",
+      "setting": "bridge center",
+      "characters": [],
+      "action": "Baek points the tip of his six-foot Eclipse Greatsword directly at Director Kang's throat.",
+      "mood": "open challenge",
+      "sfx": "CLANG!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "captain_baek",
+          "text": "DIRECTOR KANG!! Is video ka kya matlab hai?! Mere saare comrades... Kya unhe aapne sacrifice kiya tha?!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "director kang laughing maniacally on carrier roof",
+      "setting": "carrier roof",
+      "characters": [],
+      "action": "Director Kang throws his head back, laughing with unhinged, psychopathic arrogance.",
+      "mood": "villain unmasked",
+      "sfx": "HAHAHAHA!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "director_kang",
+          "text": "Sacrifice? Woh sab weaklings the, Baek! Evolution ke raaste mein unka koi use nahi tha!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "director kang pulling glowing black-purple syringe",
+      "setting": "carrier roof",
+      "characters": [],
+      "action": "Kang pulls a pressurized pneumatic injector loaded with an undulating black-purple liquid core.",
+      "mood": "the chimera virus",
+      "sfx": "HSSSS..."
+    },
+    {
+      "id": "p07",
+      "shot": "plunging syringe into his own carotid artery",
+      "setting": "neck close-up",
+      "characters": [],
+      "action": "With a terrifying grin, Director Kang slams the injector directly into his neck artery.",
+      "mood": "self injection",
+      "sfx": "PNEUMATIC-THUD!!"
+    },
+    {
+      "id": "p08",
+      "shot": "director kang body violently convulsing",
+      "setting": "carrier roof",
+      "characters": [],
+      "action": "Kang's human skin splits open along his spine; black demonic ichor and jagged obsidian spikes erupt outward.",
+      "mood": "monstrous metamorphosis",
+      "sfx": "CRACKLE-TEAR!!"
+    },
+    {
+      "id": "p09",
+      "shot": "carrier roof collapsing under monstrous weight",
+      "setting": "carrier roof",
+      "characters": [],
+      "action": "The reinforced steel armored carrier groans and buckles as Kang's mass triples into a nine-foot Chimera Fiend.",
+      "mood": "crushed vehicle",
+      "sfx": "SCREEECH-CRUNCH!!"
+    },
+    {
+      "id": "p10",
+      "shot": "chimera director kang full reveal",
+      "setting": "carrier wreckage",
+      "characters": [],
+      "action": "A nightmarish fusion: four glowing purple eyes, obsidian chitinous armor, two demonic horns, and razor-tentacles.",
+      "mood": "chimera abomination",
+      "sfx": "ROARRRRRR!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "chimera_kang",
+          "text": "HUMANS ARE OBSOLETE! MAIN KHUD NAYA SOVEREIGN BANOONGA!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "chimera kang leaping at captain baek with tentacle whip",
+      "setting": "bridge combat",
+      "characters": [],
+      "action": "Kang launches a 30-foot serrated chitinous tentacle whip straight at Captain Baek's skull.",
+      "mood": "lethal tentacle whip",
+      "sfx": "CRACK-WHIP!!"
+    },
+    {
+      "id": "p12",
+      "shot": "ha-jun blurring in front of baek",
+      "setting": "bridge center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun appears instantaneously in front of Baek, his left bone gauntlet catching the tentacle mid-strike.",
+      "mood": "brotherhood shield",
+      "sfx": "GRAB-CRUNCH!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Not on my watch, Captain.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "baek staring at ha-jun back in awe",
+      "setting": "bridge center",
+      "characters": [],
+      "action": "Captain Baek stares at the 17-year-old boy who just saved his life from his own commander.",
+      "mood": "profound respect",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "captain_baek",
+          "text": "Ha-Jun... Tumne mujhe bachaya...?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "ha-jun igniting violet hellfire down tentacle",
+      "setting": "bridge combat",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun channels the Flame of the Fallen through his grip; violet hellfire races up the tentacle toward Kang.",
+      "mood": "hellfire conduit",
+      "sfx": "FWOOOOOM!!"
+    },
+    {
+      "id": "p15",
+      "shot": "chimera kang shrieking as tentacle incinerates",
+      "setting": "carrier wreckage",
+      "characters": [],
+      "action": "The demonic tentacle burns into purple ash in milliseconds; Kang shrieks, severing the limb in agony.",
+      "mood": "scorched monster",
+      "sfx": "SKREEEECH!!"
+    },
+    {
+      "id": "p16",
+      "shot": "ha-jun looking over shoulder at baek",
+      "setting": "bridge combat",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun looks back with dual-ringed eyes: 'Captain... Sath mein ladte hain?'",
+      "mood": "offer of alliance",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Yeh monster na human hai na true demon. Iska hisaab hum dono mil kar karenge.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "captain baek gripping greatsword with two hands",
+      "setting": "bridge combat",
+      "characters": [],
+      "action": "Baek steps up beside Ha-Jun, his heavy blade humming with fierce righteous aura: 'Saath mein.'",
+      "mood": "allied champions",
+      "sfx": "CLANG!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "captain_baek",
+          "text": "Puri zindagi main galat dushman se lad raha tha... Aaj asli dushman ko kaatunga!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "kuro screeching overhead battle anthem",
+      "setting": "bridge sky",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro glides in a halo of purple lightning: 'The Sovereign and the Hunter Captain! Tear him apart!'",
+      "mood": "battle anthem",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "kuro",
+          "text": "SHOW HIM WHAT TRUE POWER LOOKS LIKE!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "dual charge: ha-jun and baek sprinting together",
+      "setting": "bridge center wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun with flaming twin blood blades and Baek with the heavy Eclipse Greatsword charge in sync.",
+      "mood": "synchronized assault",
+      "sfx": "FWOOSH-STOMP!!"
+    },
+    {
+      "id": "p20",
+      "shot": "chimera kang spewing torrent of black acid bile",
+      "setting": "bridge combat",
+      "characters": [],
+      "action": "Kang opens his unhinged triple-jaw, spewing a 50-foot wave of flesh-melting demonic acid.",
+      "mood": "acid torrent",
+      "sfx": "GUSH-HSSSS!!"
+    },
+    {
+      "id": "p21",
+      "shot": "ha-jun bone gauntlet forming expanding riot shield",
+      "setting": "bridge combat",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun thrusts his bone gauntlet forward; interlocking ivory plates expand into a 10-foot ballistic aegis.",
+      "mood": "bone aegis",
+      "sfx": "EXPAND-LOCK!!"
+    },
+    {
+      "id": "p22",
+      "shot": "acid splashing harmlessly off bone aegis",
+      "setting": "bridge combat",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The corrosive acid hisses and evaporates against the diamond-density bone shield without causing a scratch.",
+      "mood": "acid nullified",
+      "sfx": "SIZZLE-DEFLECT!!"
+    },
+    {
+      "id": "p23",
+      "shot": "captain baek vaulting off ha-jun bone shield",
+      "setting": "midair attack",
+      "characters": [],
+      "action": "Using the top rim of Ha-Jun's bone shield as a launch pad, Captain Baek catapults 20 feet into the air.",
+      "mood": "co-op tactical vault",
+      "sfx": "VAULT-UP!!"
+    },
+    {
+      "id": "p24",
+      "shot": "baek executing two-handed downward guillotine cleave",
+      "setting": "midair attack",
+      "characters": [],
+      "action": "Baek brings the 200-pound greatsword down with the entire weight of his momentum.",
+      "mood": "guillotine strike",
+      "sfx": "BOOOOOM-SLASH!!"
+    },
+    {
+      "id": "p25",
+      "shot": "cleaving chimera kang left arm clean off",
+      "setting": "carrier wreckage",
+      "characters": [],
+      "action": "The greatsword shears clean through Kang's massive spiked left arm, pinning the limb to the tarmac.",
+      "mood": "amputation",
+      "sfx": "SPLAT-CRASH!!"
+    },
+    {
+      "id": "p26",
+      "shot": "ha-jun dropping shield and darting beneath kang torso",
+      "setting": "bridge combat",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun slides beneath the roaring beast, driving both flaming blood katanas upward into its core chest.",
+      "mood": "fatal cross-thrust",
+      "sfx": "X-STRIKE-SHING!!"
+    },
+    {
+      "id": "p27",
+      "shot": "violet hellfire erupting inside chimera chest",
+      "setting": "monster core",
+      "characters": [],
+      "action": "Violet-crimson flames detonate inside Kang's thoracic cavity, incinerating the synthetic demon core.",
+      "mood": "core detonation",
+      "sfx": "KABOOOOMMM!!"
+    },
+    {
+      "id": "p28",
+      "shot": "chimera kang collapsing onto burning knees",
+      "setting": "bridge center",
+      "characters": [],
+      "action": "The towering monstrosity collapses to its knees, demon flesh dissolving back into withered human corpse.",
+      "mood": "abomination defeated",
+      "sfx": "SPLAT..."
+    },
+    {
+      "id": "p29",
+      "shot": "director kang dying whisper",
+      "setting": "bridge tarmac",
+      "characters": [],
+      "action": "Director Kang coughs black blood, looking up at Ha-Jun with dying horror: 'Tum... Tumhe lagta hai yeh jeet hai...?'",
+      "mood": "dying curse",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "director_kang",
+          "text": "Abyss ka Gate... khul chuka hai... Woh aa rahe hain...",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "kang dissolving completely into black soot",
+      "setting": "bridge tarmac",
+      "characters": [],
+      "action": "Director Kang dissolves into a pile of foul black ash, washed away by the heavy Seoul rain.",
+      "mood": "evil purged",
+      "sfx": "WASH AWAY..."
+    }
+  ]
+}

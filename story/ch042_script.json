@@ -1,0 +1,471 @@
+{
+  "chapter": 42,
+  "title": "The Hunter's Secret",
+  "arc": 4,
+  "arc_title": "THE DEMON HUNTER WAR",
+  "summary": "With Director Kang defeated, Captain Baek hands over the Master Cryptographic Key to Section 9. Ha-Jun discovers Kang Tae-Jun's encrypted audio diary, revealing his brother's sacred mission.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "rain falling on silent mapo bridge wide shot",
+      "setting": "mapo bridge dawn",
+      "characters": [],
+      "action": "The heavy downpour begins to slow as grey dawn mist rises from the Han River; emergency lights hum.",
+      "mood": "exhausted aftermath",
+      "sfx": "DRIZZLE..."
+    },
+    {
+      "id": "p02",
+      "shot": "fifty bureau hunters kneeling or lowering weapons",
+      "setting": "bridge barricade",
+      "characters": [],
+      "action": "The fifty elite hunters stand in reverent silence, looking at Ha-Jun and Captain Baek with newfound awe.",
+      "mood": "military respect"
+    },
+    {
+      "id": "p03",
+      "shot": "school bus doors opening with clicks",
+      "setting": "bridge center",
+      "characters": [],
+      "action": "The pneumatic doors of the trapped school buses hiss open; terrified teachers and children step out safely.",
+      "mood": "hostages saved",
+      "sfx": "HSSSS-STEP..."
+    },
+    {
+      "id": "p04",
+      "shot": "a small child waving tearfully at ha-jun",
+      "setting": "bus door",
+      "characters": [],
+      "action": "A 7yo girl in a yellow raincoat clutches her teddy bear and waves with a relieved smile: 'Thank you, Mister!'",
+      "mood": "saved innocence",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "little_girl",
+          "text": "Thank you, Superhero Mister!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "ha-jun faint warm smile through exhaustion",
+      "setting": "bridge center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's fierce battle expression softens; he gives a subtle, warm nod to the child.",
+      "mood": "the gentle sovereign",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Inhi ke liye... Main is power ko use karunga.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "captain baek sheathing the eclipse greatsword",
+      "setting": "bridge center",
+      "characters": [],
+      "action": "Captain Baek locks his heavy broadsword into the magnetic back scabbard with a solid metallic clank.",
+      "mood": "peace restored",
+      "sfx": "CLACK-LOCK!"
+    },
+    {
+      "id": "p07",
+      "shot": "baek removing his armored tactical helmet",
+      "setting": "bridge center",
+      "characters": [],
+      "action": "Baek removes his helmet, revealing a scarred, rugged 42yo face with honest, weathered brown eyes.",
+      "mood": "the man behind the visor",
+      "sfx": "PHEW..."
+    },
+    {
+      "id": "p08",
+      "shot": "baek offering right hand to ha-jun",
+      "setting": "bridge center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Captain Baek extends his heavy, calloused hand directly to 17-year-old Ha-Jun.",
+      "mood": "handshake of warriors",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "captain_baek",
+          "text": "Maine tumhare baare mein galat faisla kiya tha, Ha-Jun. Mujhe maaf kar do.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "ha-jun shaking baek hand firmly",
+      "setting": "bridge center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun grips Baek's hand firmly with his bare right hand; no mana, just mutual human respect.",
+      "mood": "unbreakable pact",
+      "sfx": "FIRM GRIP!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Aap dushman nahi the, Captain. Aap bas wahi kar rahe the jo aapko sahi laga.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "baek pulling titanium access card from breastplate",
+      "setting": "bridge center",
+      "characters": [],
+      "action": "Baek retrieves a black obsidian-titanium smart card engraved with 'CLEARANCE LEVEL 10: SECTION 9'.",
+      "mood": "the master key",
+      "sfx": "CARD RETRIEVED..."
+    },
+    {
+      "id": "p11",
+      "shot": "baek handing card to ha-jun",
+      "setting": "bridge center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Baek presses the master card into Ha-Jun's palm: 'Yeh Section 9 Underground Cryo-Facility ki key hai.'",
+      "mood": "gateway to the brother",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "captain_baek",
+          "text": "Gangnam Station ke 300 meter niche... Tumhare bhai ko wahan stasis mein rakha gaya hai.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "ha-jun staring at the card with racing heart",
+      "setting": "card macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's fingers trace the cold titanium edges; his brother is finally within reach.",
+      "mood": "proximity to truth",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Bhai... Main aa raha hoon.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "baek unlocking encrypted audio log on card",
+      "setting": "bridge center",
+      "characters": [],
+      "action": "Baek taps a micro-speaker on the card: 'Yeh Kang Tae-Jun ka last recorded message hai.'",
+      "mood": "audio message",
+      "sfx": "STATIC-BEEP..."
+    },
+    {
+      "id": "p14",
+      "shot": "tae-jun voice crackling through speaker",
+      "setting": "card speaker",
+      "characters": [],
+      "action": "A warm, mature, deeply loving voice echoes from the speaker: 'Ha-Jun... Agar tum yeh sun rahe ho...'",
+      "mood": "brother's voice",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "\"Ha-Jun... Agar tum yeh sun rahe ho, toh iska matlab tumhare andar Sovereign jaag chuka hai.\"",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "shot": "ha-jun tears spilling onto the card",
+      "setting": "face close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's eyes fill with tears as his elder brother's voice wraps around his soul like a warm embrace.",
+      "mood": "overwhelming grief and joy",
+      "sfx": "TEARS..."
+    },
+    {
+      "id": "p16",
+      "shot": "tae-jun audio explaining the seven year sacrifice",
+      "setting": "card speaker",
+      "characters": [],
+      "action": "Tae-Jun's voice continues: 'Maine Director Kang ko distract kiya taaki tum school complete kar sako.'",
+      "mood": "the selfless guardian",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "\"Main janta tha ki mere DNA mein poori authority nahi thi... Lekin tumhare paas True Sovereign ka blood hai.\"",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "tae-jun warning of the abyssal gate",
+      "setting": "card speaker",
+      "characters": [],
+      "action": "Tae-Jun's voice turns solemn: 'Lekin Kang toh bas ek mohtaaz tha... Asli khatra Abyss ke teen Demon Kings hain.'",
+      "mood": "the greater war",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "\"Section 9 ke theek niche Gate open hone wala hai. Relics ko dhoondho, mere bhai.\"",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "audio log ending with tender words",
+      "setting": "card speaker",
+      "characters": [],
+      "action": "Tae-Jun whispers: 'Mujhe tumpar garv hai, Ha-Jun. Stay strong. I love you.'",
+      "mood": "brother's blessing",
+      "sfx": "CLICK-END...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "\"Mujhe tumpar garv hai... Hamesha tha, aur hamesha rahega.\"",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "ha-jun pressing the card against his heart",
+      "setting": "chest close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun presses the card against his Sovereign Crest, drawing deep strength into his soul.",
+      "mood": "sacred vow",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Main aa raha hoon, Bhai. Aur koi taaqat mujhe rok nahi sakti.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "kuro looking up with fierce battle fire",
+      "setting": "ha-jun shoulder",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro spreads his dark wings: 'Tae-Jun ne ground prepare kiya... Ab harvest hum karenge!'",
+      "mood": "ready for section 9",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Section 9 mein humara next Rare Relic bhi sealed hai: The Fang of Abyss!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "min-jae driving up with tactical command van",
+      "setting": "bridge roadway",
+      "characters": [],
+      "action": "Min-Jae pulls the van alongside Ha-Jun and Baek, sliding the door open.",
+      "mood": "transport arrival",
+      "sfx": "SKIDD-STOP!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min-jae",
+          "text": "Ha-Jun! Gangnam Station ke subterranean sensors par massive earthquake detect hua hai!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "ground beneath mapo bridge trembling violently",
+      "setting": "bridge tarmac",
+      "characters": [],
+      "action": "A deep, sickening seismic rumble reverberates through the concrete bridge piers; Han River waters churn.",
+      "mood": "seismic dread",
+      "sfx": "RUMMMBLEEE!!"
+    },
+    {
+      "id": "p23",
+      "shot": "distant violet pillar of energy erupting over gangnam",
+      "setting": "seoul skyline horizon",
+      "characters": [],
+      "action": "Five miles away over Gangnam, a colossal 500-foot column of pure dark-violet abyssal energy pierces the clouds.",
+      "mood": "the gate ruptures",
+      "sfx": "BOOOOOMMMM!!"
+    },
+    {
+      "id": "p24",
+      "shot": "sky over seoul turning midnight purple at dawn",
+      "setting": "city skyline dawn",
+      "characters": [],
+      "action": "The dawn sunlight is swallowed by creeping dark purple celestial fog; demonic runes swirl in the clouds.",
+      "mood": "abyssal eclipse"
+    },
+    {
+      "id": "p25",
+      "shot": "captain baek staring at the horizon in dread",
+      "setting": "bridge tarmac",
+      "characters": [],
+      "action": "Baek grips his greatsword: 'Yeh koi earthquake nahi hai... The Abyssal Gate has broken through.'",
+      "mood": "the apocalypse begins",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "captain_baek",
+          "text": "Director Kang ke marne se unka seal collapse ho gaya! The Demon Realm is invading!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "shot": "ha-jun leaping into the driver passenger seat",
+      "setting": "van passenger seat",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun jumps into the van, eyes blazing like twin supernovas.",
+      "mood": "mobilization",
+      "sfx": "SLAM!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Min-Jae, Gangnam chalo! Top speed!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "captain baek jumping into his armored command humvee",
+      "setting": "bridge roadway",
+      "characters": [],
+      "action": "Baek radios all fifty hunters: 'All Bureau units, form escort formation around that civilian van!'",
+      "mood": "escort armada",
+      "sfx": "RADIO-CRACKLE!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "captain_baek",
+          "text": "Hunters! We fight with the Demon Sovereign today! Protect the City!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "convoy of police, hunters, and van speeding down highway",
+      "setting": "highway wide shot",
+      "characters": [],
+      "action": "A breathtaking united convoy of Bureau armored vehicles escorting Ha-Jun's van toward Gangnam.",
+      "mood": "united armada",
+      "sfx": "SIRENS & ENGINES ROARING!!"
+    },
+    {
+      "id": "p29",
+      "shot": "kuro flying at the head of the armada",
+      "setting": "convoy lead air",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro leads the charge through the violet rain, his eyes blazing with primordial glory.",
+      "mood": "herald of war",
+      "sfx": "CAWWWW!!"
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun staring through windshield at the violet rift",
+      "setting": "van windshield close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's reflection in the glass: bone gauntlet raised, blood blades ready, heart united with his brother.",
+      "mood": "arc 4 climax / arc 5 threshold",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Bhai, main aa gaya hoon... Ab hum mil kar is Abyss ko band karenge.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    }
+  ]
+}
