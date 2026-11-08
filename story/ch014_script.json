@@ -1,0 +1,316 @@
+{
+  "chapter": 14,
+  "title": "The Unwanted Power",
+  "arc": 2,
+  "arc_title": "THE HIDDEN BLOODLINE",
+  "summary": "Ha-Jun struggles desperately to control his superhuman physical strength and heightened senses in daily life. At school, Min-Jae confronts him with a suspicious note just as a mandatory Bloodline Quest appears—commanding him to enter the subterranean void beneath the campus.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "morning bedroom sunlight macro",
+      "setting": "apartment bedroom",
+      "characters": [],
+      "action": "Early morning sunlight cuts through plastic window blinds, illuminating dust motes dancing over Ha-Jun's modest bed.",
+      "mood": "calm everyday beginning",
+      "sfx": "BEEP... BEEP... BEEP..."
+    },
+    {
+      "id": "p02",
+      "shot": "crushed alarm clock macro",
+      "setting": "apartment bedroom",
+      "characters": ["hajun"],
+      "action": "Ha-Jun reaches his hand to switch off the plastic alarm clock; his thumb lightly presses down, shattering the plastic casing into pieces.",
+      "mood": "shocking uncontrolled strength",
+      "sfx": "CRUNCH-SNAP!!"
+    },
+    {
+      "id": "p03",
+      "shot": "stunned expression holding fragments",
+      "setting": "apartment bedroom",
+      "characters": ["hajun"],
+      "action": "Ha-Jun sits up in bed staring in disbelief at the shattered plastic gears in his palm: 'M-Maine toh bas halke se chhua tha!'",
+      "mood": "shock and anxiety",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Maine toh bas halka sa dabaya tha...!", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "twisted brass faucet water burst",
+      "setting": "apartment bathroom",
+      "characters": ["hajun"],
+      "action": "In the bathroom sink, Ha-Jun tries to turn the brass faucet; the solid metal twists like clay under his fingers, spraying water across the mirror.",
+      "mood": "comedic yet terrifying dilemma",
+      "sfx": "SKRRK-SPLASH!!"
+    },
+    {
+      "id": "p05",
+      "shot": "kuro mocking on curtain rod",
+      "setting": "apartment bathroom",
+      "characters": ["kuro"],
+      "action": "Kuro perches on the shower rod, snickering: 'Tumhari muscle density barah guna badh gayi hai. Insaani dimaag abhi calibrate nahi hua.'",
+      "mood": "guardian commentary",
+      "dialogue": [
+        {"type": "speech", "speaker": "kuro", "text": "Insaani dimaag ko Sovereign ki taqat samajhne mein waqt lagta hai.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "mirror reflection sharpened jawline",
+      "setting": "apartment bathroom",
+      "characters": ["hajun"],
+      "action": "Ha-Jun looks into the wet mirror: His face is sharper, bruises completely vanished, but his irises flicker violet when he gets agitated.",
+      "mood": "alienation from own reflection",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Agar school mein kisi ko chhooya... toh haddi toot jayegi!", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "hands on sink panic",
+      "setting": "apartment bathroom",
+      "characters": ["hajun"],
+      "action": "Ha-Jun clutches the edges of the porcelain sink, taking deep measured breaths: 'Mujhe isse control karna hoga.'",
+      "mood": "determined focus",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Control... mujhe is taqat ko control karna hoga.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p08",
+      "shot": "kuro mana circulation lesson",
+      "setting": "apartment bathroom",
+      "characters": ["kuro"],
+      "action": "Kuro: 'Mana ko apne core mein khencho. Bahar bahaav ko band karo jab tak jung ka waqt na ho.'",
+      "mood": "training instruction",
+      "dialogue": [
+        {"type": "speech", "speaker": "kuro", "text": "Mana ko andar kheench kar rakh, ladke.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "crowded morning subway platform",
+      "setting": "subway station",
+      "characters": ["hajun"],
+      "action": "Ha-Jun walks gingerly through a packed morning commuter subway platform, stepping with extreme care as if walking on thin glass.",
+      "mood": "walking on eggshells",
+      "sfx": "HUM-CHATTER..."
+    },
+    {
+      "id": "p10",
+      "shot": "commuter shoulder bounce impact",
+      "setting": "subway station",
+      "characters": ["hajun"],
+      "action": "A hurried salaryman bumps hard into Ha-Jun's shoulder—and bounces straight backward as if hitting a reinforced titanium pillar.",
+      "mood": "immovable object",
+      "sfx": "THUMP!!"
+    },
+    {
+      "id": "p11",
+      "shot": "salaryman rubbing bruised shoulder",
+      "setting": "subway station",
+      "characters": [],
+      "action": "The man rubs his shoulder in agony: 'Arey yaar! Yeh ladka lohe ka bana hai kya?!'",
+      "mood": "bewildered civilian",
+      "dialogue": [
+        {"type": "speech", "speaker": null, "text": "Lohe ka bana hai kya yeh ladka?!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "nervous bow apology",
+      "setting": "subway station",
+      "characters": ["hajun"],
+      "action": "Ha-Jun bows quickly in apology: 'M-Maaf kijiye!' (Thought: 'Mera wazan zameen se jud gaya hai.')",
+      "mood": "nervous suppression",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Mera sharir itna solid ho gaya hai...!", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "sensory overload sound rings",
+      "setting": "crowded train interior",
+      "characters": ["hajun"],
+      "action": "Inside the train, concentric sound rings vibrate around Ha-Jun: He can hear fifty distinct heartbeats, whispering phones, and shoe squeaks.",
+      "mood": "supernatural sensory bombardment",
+      "sfx": "THUMP-THUMP-BUZZZ..."
+    },
+    {
+      "id": "p14",
+      "shot": "system passive alert window",
+      "setting": "crowded train interior",
+      "characters": [],
+      "action": "System UI flashes: [PASSIVE UNLOCKED: DEMONIC AUDITORY ENHANCEMENT] | [FILTER CALIBRATING: 65%].",
+      "mood": "rpg adaptation",
+      "dialogue": [
+        {"type": "system", "text": "[PASSIVE: DEMONIC AUDITORY ENHANCEMENT]", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p15",
+      "shot": "closing eyes filtering noise",
+      "setting": "crowded train interior",
+      "characters": ["hajun"],
+      "action": "Ha-Jun breathes through his nose, focusing his core to suppress the sound waves until normal quiet returns.",
+      "mood": "mental discipline",
+      "sfx": "HUUUU..."
+    },
+    {
+      "id": "p16",
+      "shot": "train arriving saint mirren station",
+      "setting": "saint mirren station platform",
+      "characters": [],
+      "action": "The train doors slide open at Saint Mirren University station; student crowds surge onto the platform.",
+      "mood": "back to the battlefield",
+      "sfx": "DING-DONG..."
+    },
+    {
+      "id": "p17",
+      "shot": "classroom 3-b morning atmosphere",
+      "setting": "school classroom",
+      "characters": ["hajun"],
+      "action": "In Classroom 3-B, sunlight fills the room as students chat; Ha-Jun sits quietly at his corner window desk.",
+      "mood": "quiet tension",
+      "dialogue": [
+        {"type": "narration", "text": "Classroom 3-B. Wahi jagah jahan sab badal chuka tha.", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "delicate pencil holding macro",
+      "setting": "school classroom",
+      "characters": ["hajun"],
+      "action": "Ha-Jun holds a wooden pencil with feather-light touch, sweating slightly as he writes notes without snapping the lead.",
+      "mood": "extreme precision",
+      "sfx": "SCRITCH..."
+    },
+    {
+      "id": "p19",
+      "shot": "min-jae staring from across aisle",
+      "setting": "school classroom",
+      "characters": ["min_jae"],
+      "action": "Across the aisle two desks down, Min-Jae adjusts his glasses, his sharp gaze locked onto Ha-Jun's calm posture.",
+      "mood": "watchful eye",
+      "dialogue": [
+        {"type": "thought", "speaker": "min_jae", "text": "Kal chhat par kuch bohot ajeeb hua tha...", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "teacher calling hajun name",
+      "setting": "school classroom",
+      "characters": [],
+      "action": "The literature teacher at the chalkboard points: 'Kang Ha-Jun, page 42 ka paragraph 3 read karo.'",
+      "mood": "routine classroom task",
+      "dialogue": [
+        {"type": "speech", "speaker": null, "text": "Kang Ha-Jun, page 42 read karo.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "standing up sovereign voice resonance",
+      "setting": "school classroom",
+      "characters": ["hajun"],
+      "action": "Ha-Jun stands up and begins reading: His voice carries an accidental, deep baritone resonance that vibrates the window panes.",
+      "mood": "involuntary sovereign presence",
+      "sfx": "RESONANCE..."
+    },
+    {
+      "id": "p22",
+      "shot": "entire classroom dead silent",
+      "setting": "school classroom",
+      "characters": [],
+      "action": "All chatter instantly dies; every single student and the teacher freeze, goosebumps prickling on their arms.",
+      "mood": "stunned silence",
+      "dialogue": [
+        {"type": "narration", "text": "Uske gale se nikli aawaz ne sabko khamosh kar diya.", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "embarrassed seated recovery",
+      "setting": "school classroom",
+      "characters": ["hajun"],
+      "action": "Ha-Jun clears his throat, brings his voice back to normal student pitch, and quickly sits down with a reddening neck.",
+      "mood": "relatable fluster",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Gadbad ho gayi... meri aawaz mein bhi mana aa raha hai!", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "folded note sliding across desk",
+      "setting": "school classroom",
+      "characters": ["min_jae"],
+      "action": "Min-Jae discreetly slides a tightly folded piece of notebook paper across the wooden desk onto Ha-Jun's notebook.",
+      "mood": "conspiracy moment",
+      "sfx": "SLIDE..."
+    },
+    {
+      "id": "p25",
+      "shot": "unfolding handwritten note macro",
+      "setting": "school classroom",
+      "characters": ["hajun"],
+      "action": "Ha-Jun unfolds the paper under his desk: 'Class ke baad purane auditorium ke peeche milo. Mujhe pata hai kal tumne kya kiya.'",
+      "mood": "chilling exposure",
+      "dialogue": [
+        {"type": "speech", "speaker": "min_jae", "text": "'Mujhe pata hai kal tumne kya kiya.'", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p26",
+      "shot": "tight fist crumpling note",
+      "setting": "school classroom",
+      "characters": ["hajun"],
+      "action": "Ha-Jun's heart hammers in his chest; his fingers crumple the note tightly in his palm.",
+      "mood": "dread of exposure",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Min-Jae ne kal mujhe dekh liya tha...!", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "dimensional chime shock",
+      "setting": "school classroom",
+      "characters": [],
+      "action": "Before he can even breathe, a deafening holographic chime rings directly in Ha-Jun's skull: *DINGGGGGG!!*",
+      "mood": "urgent system interruption",
+      "sfx": "DINGGGGGG!!"
+    },
+    {
+      "id": "p28",
+      "shot": "bloodline quest prompt manifestation",
+      "setting": "school classroom",
+      "characters": [],
+      "action": "A neon-violet system window materializes: [MANDATORY BLOODLINE QUEST: ENTER THE SUBTERRANEAN VOID] | [TIME LIMIT: 03:00:00].",
+      "mood": "crisis mission assigned",
+      "dialogue": [
+        {"type": "system", "text": "[QUEST: ENTER THE SUBTERRANEAN VOID] [LIMIT: 3H]", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "crimson failure penalty flashing",
+      "setting": "school classroom",
+      "characters": [],
+      "action": "The screen pulses crimson: [PENALTY UPON FAILURE: PERMANENT MANA COLLAPSE & GLOBAL EXPOSURE OF SOVEREIGN LINEAGE].",
+      "mood": "lethal stakes",
+      "dialogue": [
+        {"type": "system", "text": "[PENALTY: PERMANENT MANA COLLAPSE]", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "looking out window at dark auditorium cliffhanger",
+      "setting": "school classroom window",
+      "characters": ["hajun"],
+      "action": "Ha-Jun stares out the third-floor window toward the dilapidated Victorian auditorium where faint purple miasma leaks from basement vents: 'Is university ke neeche kuch chupa hai.'",
+      "mood": "ancient mystery calls, ultimate cliffhanger",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Is university ke neeche... koi purana raaz chupa hai.", "at": [0.50, 0.12]}
+      ]
+    }
+  ]
+}

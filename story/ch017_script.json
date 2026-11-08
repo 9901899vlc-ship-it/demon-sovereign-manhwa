@@ -1,0 +1,304 @@
+{
+  "chapter": 17,
+  "title": "Blood Trial",
+  "arc": 2,
+  "arc_title": "THE HIDDEN BLOODLINE",
+  "summary": "Ha-Jun claims the Ring of Hollow Blood and is pulled into the Blood Trial Mindscape to battle the Shadow of the Sovereign. Subjugating the crimson sea, he unlocks Blood Forging—just as an elite Demon Hunter cuts through the sealed stone doors to execute him.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "macro antique silver ring ruby heartbeat",
+      "setting": "trial chamber altar pedestal",
+      "characters": [],
+      "action": "Extreme macro on the antique silver Ring of Hollow Blood; its central ruby tear pulses with an internal rhythmic crimson heartbeat glow.",
+      "mood": "living parasitic relic",
+      "sfx": "DOKI... DOKI..."
+    },
+    {
+      "id": "p02",
+      "shot": "kuro grave warning perched on altar",
+      "setting": "trial chamber altar pedestal",
+      "characters": ["kuro"],
+      "action": "Kuro perches on the altar rim, voice low: 'Ring of Hollow Blood. Yeh Basic Relic hai, par iski qeemat tazi zindagi ka khoon hai.'",
+      "mood": "dangerous relic warning",
+      "dialogue": [
+        {"type": "speech", "speaker": "kuro", "text": "Dhyan se. Yeh relic taze khoon ki qeemat mangti hai.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p03",
+      "shot": "fingertip hovering above silver band",
+      "setting": "trial chamber altar pedestal",
+      "characters": ["hajun"],
+      "action": "Ha-Jun extends his bare left hand, index finger hovering a millimeter above the cold silver band with steady resolve.",
+      "mood": "hesitation before contact",
+      "sfx": "HUUU..."
+    },
+    {
+      "id": "p04",
+      "shot": "micro needle bite impact macro",
+      "setting": "trial chamber altar pedestal",
+      "characters": ["hajun"],
+      "action": "The instant skin touches silver, multiple razor micro-needles erupt from the inner band, sinking deep into Ha-Jun's ring finger.",
+      "mood": "parasitic latch",
+      "sfx": "BITE-SHLK!!"
+    },
+    {
+      "id": "p05",
+      "shot": "wincing in sharp pain",
+      "setting": "trial chamber altar pedestal",
+      "characters": ["hajun"],
+      "action": "Ha-Jun winces sharply, teeth bared: 'Agh! Yeh toh ungli ko kaat raha hai!'",
+      "mood": "sharp sudden pain",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Yeh ungli mein ghus raha hai...!", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "ruby drinking blood siphon macro",
+      "setting": "trial chamber altar pedestal",
+      "characters": [],
+      "action": "The central ruby drinks a thread of scarlet blood through the silver filigree, glowing with vivid crimson demonic luminescence.",
+      "mood": "blood awakening",
+      "sfx": "SHUUUUK..."
+    },
+    {
+      "id": "p07",
+      "shot": "ring shrinking to fit finger",
+      "setting": "trial chamber altar pedestal",
+      "characters": ["hajun"],
+      "action": "The silver ring contracts smoothly, resizing itself to fit Ha-Jun's ring finger like an inseparable second skin.",
+      "mood": "permanent binding",
+      "sfx": "KLIK-TIGHT!!"
+    },
+    {
+      "id": "p08",
+      "shot": "vascular scarlet mana shockwave",
+      "setting": "trial chamber altar pedestal",
+      "characters": ["hajun"],
+      "action": "A visible shockwave of bright scarlet and deep violet mana explodes up Ha-Jun's left arm, illuminating his arteries through his skin.",
+      "mood": "vascular mana overload",
+      "sfx": "VZZZZZT!!"
+    },
+    {
+      "id": "p09",
+      "shot": "consciousness detachment blur",
+      "setting": "inner mindscape transition",
+      "characters": ["hajun"],
+      "action": "Ha-Jun's eyes glaze over; the physical chamber blurs away as his consciousness is ripped into a metaphysical blood dimension.",
+      "mood": "soul projection",
+      "sfx": "WHUUUUM..."
+    },
+    {
+      "id": "p10",
+      "shot": "endless crimson sea landscape",
+      "setting": "blood sea mindscape",
+      "characters": ["hajun"],
+      "action": "Ha-Jun stands atop the surface of an endless crimson blood ocean beneath a pitch-black sky without sun or stars.",
+      "mood": "surreal metaphysical realm",
+      "dialogue": [
+        {"type": "narration", "text": "Rakt-Sagar... Sovereign ke antarman ki gehrai.", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "shadow sovereign reflection apparition",
+      "setting": "blood sea mindscape",
+      "characters": [],
+      "action": "Standing 20 paces away across the blood water is a towering shadow figure clad in full sovereign armor, resembling Ha-Jun's dark twin.",
+      "mood": "shadow self",
+      "dialogue": [
+        {"type": "narration", "text": "Uske samne khada tha... uska hi andhera roop.", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "shadow layered voice challenge",
+      "setting": "blood sea mindscape",
+      "characters": [],
+      "action": "The Shadow speaks with multiple echoing demonic voices: 'Tum ring pehente ho... par kya tum iske malik ho, ya sirf shaitan ka khana?'",
+      "mood": "spiritual trial",
+      "dialogue": [
+        {"type": "speech", "speaker": null, "text": "Kya tum malik ho... ya sirf ek kamzor shikar?", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "thousand blood daggers rising",
+      "setting": "blood sea mindscape",
+      "characters": [],
+      "action": "The Shadow raises its hand: The crimson ocean erupts as one thousand razor-sharp blood daggers form and float in the air.",
+      "mood": "overwhelming projectile storm",
+      "sfx": "SHHHNNNGG-WHOOSH!!"
+    },
+    {
+      "id": "p14",
+      "shot": "thousand daggers aimed at throat",
+      "setting": "blood sea mindscape",
+      "characters": ["hajun"],
+      "action": "All one thousand crimson blades aim their needle tips directly at Ha-Jun's neck, hovering inches away from his skin.",
+      "mood": "surrounded by death",
+      "dialogue": [
+        {"type": "speech", "speaker": null, "text": "Apna irada saabit karo... warna apne hi khoon mein doob jao.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p15",
+      "shot": "blazing violet defiance eyes",
+      "setting": "blood sea mindscape",
+      "characters": ["hajun"],
+      "action": "Ha-Jun's violet eyes blaze with fury: 'Main saat saal tak zaleel hua... taaki aaj apne hi dimaag ke andar maar diya jaaun?!'",
+      "mood": "unyielding rage",
+      "dialogue": [
+        {"type": "shout", "speaker": "hajun", "text": "MAIN KISI KE AAGE NAHI JHUKUNGA!!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "sovereign foot stomp command",
+      "setting": "blood sea mindscape",
+      "characters": ["hajun"],
+      "action": "Ha-Jun steps forward and stomps his boot hard onto the surface of the blood sea, releasing a royal purple shockwave.",
+      "mood": "monarch asserting authority",
+      "sfx": "BOOOOMMMM!!"
+    },
+    {
+      "id": "p17",
+      "shot": "daggers frozen in air mid-flight",
+      "setting": "blood sea mindscape",
+      "characters": [],
+      "action": "The purple shockwave sweeps across the blades; all one thousand blood daggers instantly freeze motionless under Ha-Jun's absolute command.",
+      "mood": "seizure of control",
+      "sfx": "HALT-PING!!"
+    },
+    {
+      "id": "p18",
+      "shot": "horizontal arm sweep blade reversal",
+      "setting": "blood sea mindscape",
+      "characters": ["hajun"],
+      "action": "Ha-Jun sweeps his right arm horizontally: All one thousand blood blades whip around 180 degrees, pointing directly at the Shadow!",
+      "mood": "tables turned",
+      "sfx": "SWIIIISH-CLINK!!"
+    },
+    {
+      "id": "p19",
+      "shot": "shadow sovereign proud smile",
+      "setting": "blood sea mindscape",
+      "characters": [],
+      "action": "The Shadow reflection smiles with dark, ancient royal approval: 'Shabash... yahi hai Sovereign ka saccha ghamand.'",
+      "mood": "worthiness proven",
+      "dialogue": [
+        {"type": "speech", "speaker": null, "text": "Shabash. Tum wakai is takht ke kaabil ho.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "thousand blades fusing into halberd",
+      "setting": "blood sea mindscape",
+      "characters": ["hajun"],
+      "action": "Ha-Jun clenches his fist: The thousand blades converge in a crimson whirlwind, fusing into a colossal 30-foot Blood Halberd.",
+      "mood": "weapon synthesis",
+      "sfx": "WHUUUUM-SNAP!!"
+    },
+    {
+      "id": "p21",
+      "shot": "halberd thrust piercing shadow chest",
+      "setting": "blood sea mindscape",
+      "characters": ["hajun"],
+      "action": "Ha-Jun thrusts the massive blood halberd straight through the Shadow's armored chest in a blinding explosion of scarlet mist.",
+      "mood": "conquering the trial",
+      "sfx": "KRAAAA-SHAAAA!!"
+    },
+    {
+      "id": "p22",
+      "shot": "shattering blood dimension glass shards",
+      "setting": "blood sea mindscape",
+      "characters": [],
+      "action": "The entire blood dimension fractures into a million geometric glass shards, dissolving into brilliant white light.",
+      "mood": "trial dissolution",
+      "sfx": "SHATTER..."
+    },
+    {
+      "id": "p23",
+      "shot": "snap back reality panting breath",
+      "setting": "trial chamber altar",
+      "characters": ["hajun"],
+      "action": "Snap back: Ha-Jun blinks back into physical reality, chest heaving and sweat dripping from his chin onto the stone altar.",
+      "mood": "return to physical form",
+      "sfx": "GASP... HAAH..."
+    },
+    {
+      "id": "p24",
+      "shot": "system relic bound fanfare",
+      "setting": "trial chamber altar",
+      "characters": [],
+      "action": "A royal amethyst system screen chimes: [BLOOD TRIAL PASSED] | [RELIC 2/10: RING OF HOLLOW BLOOD BOUND] | [SKILL: BLOOD FORGING (RANK E)].",
+      "mood": "second relic acquired",
+      "dialogue": [
+        {"type": "system", "text": "[TRIAL PASSED] [RELIC 2/10: BOUND] [SKILL: BLOOD FORGING]", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "blood forging dagger in hand macro",
+      "setting": "trial chamber altar",
+      "characters": ["hajun"],
+      "action": "Ha-Jun tests his new skill: A droplet of blood from his palm elongates and solidifies into a razor-sharp, crystalline red dagger in his grip.",
+      "mood": "solid blood weapon",
+      "sfx": "SHHHNNNGG!!"
+    },
+    {
+      "id": "p26",
+      "shot": "kuro ecstatic cackle on altar",
+      "setting": "trial chamber altar",
+      "characters": ["kuro"],
+      "action": "Kuro flaps his dark wings with delight: 'Khoon se hathiyar banane ki taqat! Yeh blade kabhi kharab nahi hogi!'",
+      "mood": "guardian praise",
+      "dialogue": [
+        {"type": "speech", "speaker": "kuro", "text": "Kamaal! Khoon se banna hathiyar kabhi nahi tootega!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "concussive impacts on sealed door",
+      "setting": "trial chamber stone door",
+      "characters": [],
+      "action": "Suddenly, the 10-ton sealed stone slab at the chamber entrance shakes under heavy concussive strikes from the outside: *THUD!! THUD!!*",
+      "mood": "violent breach incoming",
+      "sfx": "THUDDD-THUDDD!!"
+    },
+    {
+      "id": "p28",
+      "shot": "silver mana laser cutting stone",
+      "setting": "trial chamber stone door",
+      "characters": [],
+      "action": "A high-frequency blade of glowing silver mana cuts through the solid 3-foot thick stone slab like a hot knife through butter.",
+      "mood": "human hunter weaponry",
+      "sfx": "BZZZZZT-HISS!!"
+    },
+    {
+      "id": "p29",
+      "shot": "kuro alarmed defensive stance",
+      "setting": "trial chamber altar",
+      "characters": ["kuro"],
+      "action": "Kuro's feathers bristle in genuine alarm: 'Silver mana... YEH HUMAN DEMON HUNTER HAI! Wo basement tak pahunch gaye!'",
+      "mood": "human hunters arrive",
+      "dialogue": [
+        {"type": "speech", "speaker": "kuro", "text": "Silver mana... Demon Hunter aa gaya hai!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "hunter in white coat entrance cliffhanger",
+      "setting": "trial chamber stone entrance",
+      "characters": ["hunter_captain"],
+      "action": "The stone slab explodes inward; stepping through the dust cloud is an elite Hunter in a white tactical coat wielding twin silver blades: 'Target confirmed. Shaitan ka waris, Kang Ha-Jun.'",
+      "mood": "mortal enemy arrives, ultimate cliffhanger",
+      "dialogue": [
+        {"type": "speech", "speaker": "hunter_captain", "text": "Target confirmed. Shaitan ka waris, Kang Ha-Jun.", "at": [0.50, 0.10]}
+      ]
+    }
+  ]
+}

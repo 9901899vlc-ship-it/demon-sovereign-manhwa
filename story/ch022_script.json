@@ -1,0 +1,300 @@
+{
+  "chapter": 22,
+  "title": "Uncontrolled Blood",
+  "arc": 2,
+  "arc_title": "THE HIDDEN BLOODLINE",
+  "summary": "Surging to 25% Synchronization, Ha-Jun transforms into a horned berserk demon and violently overpowers Rank-A Captain Baek. On the verge of an accidental slaughter, Min-Jae's desperate cry reaches Ha-Jun's human soul—allowing him to redirect the hellfire blast and shatter the campus dome.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "shredded blazer crystalline scales reveal",
+      "setting": "old auditorium rubble crater",
+      "characters": ["hajun"],
+      "action": "Ha-Jun stands inside a crater of swirling black-violet hellfire; his school blazer is shredded, revealing glossy obsidian crystalline scales across his chest.",
+      "mood": "terrifying demonic evolution",
+      "sfx": "FWOOOOOSH!!"
+    },
+    {
+      "id": "p02",
+      "shot": "curved obsidian horns macro",
+      "setting": "old auditorium rubble crater",
+      "characters": ["hajun"],
+      "action": "Two curved, razor-sharp obsidian horns crown Ha-Jun's head, crackling with violet lightning and drifting purple embers.",
+      "mood": "crown of the demon king",
+      "sfx": "CRACKLE-SNAP!!"
+    },
+    {
+      "id": "p03",
+      "shot": "black sclera crimson supernova eyes",
+      "setting": "old auditorium rubble crater",
+      "characters": ["hajun"],
+      "action": "Extreme macro: All human eye whites are gone—only pitch-black sclera with burning crimson-violet supernova rings remain.",
+      "mood": "inhuman sovereign gaze",
+      "dialogue": [
+        {"type": "narration", "text": "Insaaniyat khatam ho chuki thi... sirf shaitan bacha tha.", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "mark of death vaporizing into gold dust",
+      "setting": "old auditorium rubble crater",
+      "characters": ["hajun"],
+      "action": "The golden execution cross branded into his crystalline gauntlet cracks and disintegrates into harmless golden dust under monstrous mana.",
+      "mood": "shattering the holy curse",
+      "sfx": "SHATTER-HISS!!"
+    },
+    {
+      "id": "p05",
+      "shot": "captain baek backward step horror",
+      "setting": "old auditorium lawn",
+      "characters": ["hunter_captain_baek"],
+      "action": "Captain Baek takes an involuntary backward step, his massive claymore shivering in his trembling palms: '25% Synchronization already?!'",
+      "mood": "veteran paralyzing terror",
+      "dialogue": [
+        {"type": "thought", "speaker": "hunter_captain_baek", "text": "Yeh koi aam bacha nahi hai... yeh True Monarch hai!", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "superheated violet plasma exhalation",
+      "setting": "old auditorium rubble crater",
+      "characters": ["hajun"],
+      "action": "Ha-Jun tilts his head; when he exhales, superheated violet plasma mist billows from his teeth, melting the wet turf into liquid slag.",
+      "mood": "living volcanic beast",
+      "sfx": "HISSSS-MELT..."
+    },
+    {
+      "id": "p07",
+      "shot": "kuro desperate consciousness warning",
+      "setting": "inner mindscape",
+      "characters": ["kuro"],
+      "action": "Kuro screams in terror: 'HA-JUN! APNE HOSH MEIN RAHO! AGAR ASMODAIUS NE TUMHARA DIMAAG CHHEEN LIYA TOH POORA SHEHAR RAAKH HO JAYEGA!'",
+      "mood": "catastrophic panic",
+      "dialogue": [
+        {"type": "speech", "speaker": "kuro", "text": "Hosh mein aao! Poora shehar tabah ho jayega!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p08",
+      "shot": "internal red vortex psychic struggle",
+      "setting": "inner soul realm",
+      "characters": ["hajun"],
+      "action": "Inside his mind, Ha-Jun's human soul is trapped in a screaming crimson vortex, desperately fighting against demonic instinct.",
+      "mood": "battle for the soul",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Ruk jao... mujhe kisi ko nahi maarna...!", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "zero-drag spatial displacement blur",
+      "setting": "old auditorium lawn",
+      "characters": ["hajun"],
+      "action": "Ha-Jun vanishes with zero wind resistance or acoustic tell; the air simply implodes where he was standing.",
+      "mood": "impossible displacement",
+      "sfx": "VOOOOSH!!"
+    },
+    {
+      "id": "p10",
+      "shot": "point blank apparition claw swing",
+      "setting": "old auditorium lawn",
+      "characters": ["hajun", "hunter_captain_baek"],
+      "action": "Ha-Jun appears inches from Baek's face, his jagged crystalline claw swinging horizontally with decapitating force.",
+      "mood": "instant mortality strike",
+      "sfx": "SWIIIISH!!"
+    },
+    {
+      "id": "p11",
+      "shot": "emergency claymore guard impact",
+      "setting": "old auditorium lawn",
+      "characters": ["hunter_captain_baek"],
+      "action": "Baek throws his holy claymore across his chest in a desperate flat parry; the collision rings like a church bell.",
+      "mood": "titanic collision",
+      "sfx": "CLANNNNNGGGG!!"
+    },
+    {
+      "id": "p12",
+      "shot": "holy wings shattering into light feathers",
+      "setting": "old auditorium lawn",
+      "characters": ["hunter_captain_baek"],
+      "action": "The concussive shockwave completely shatters both of Captain Baek's golden holy wings into thousands of dissolving feathers.",
+      "mood": "paladin wings broken",
+      "sfx": "KRAAAA-SHATTER!!"
+    },
+    {
+      "id": "p13",
+      "shot": "blasted through auditorium brick wall",
+      "setting": "auditorium interior to tennis courts",
+      "characters": ["hunter_captain_baek"],
+      "action": "Baek's 220-pound armored body is blasted backward through the brick wall, through two classrooms, and out onto the tennis courts.",
+      "mood": "devastating kinetic launch",
+      "sfx": "CRASH-SMASH-DOOOMM!!"
+    },
+    {
+      "id": "p14",
+      "shot": "chain-link fence impact coughing blood",
+      "setting": "campus tennis courts",
+      "characters": ["hunter_captain_baek"],
+      "action": "Baek crashes into the chain-link fence, tearing the steel mesh; he coughs a heavy mouthful of blood, ceremonial coat shredded.",
+      "mood": "crushed defender",
+      "sfx": "RATTLE-CLANG!!"
+    },
+    {
+      "id": "p15",
+      "shot": "descending black meteor star",
+      "setting": "campus tennis courts sky",
+      "characters": ["hajun"],
+      "action": "Ha-Jun descends from the sky like a fallen black star, trailing twin ribbons of violet fire and black lightning.",
+      "mood": "angel of death descending",
+      "sfx": "WHUUUUMM..."
+    },
+    {
+      "id": "p16",
+      "shot": "erupting 15-foot blood spears skewer",
+      "setting": "campus tennis courts",
+      "characters": ["hajun", "hunter_captain_baek"],
+      "action": "Ha-Jun lands and slams his palm down: Dozens of 15-foot crystalline blood spears erupt from the concrete, pinning Baek's limbs and armor.",
+      "mood": "complete impalement trap",
+      "sfx": "SHLK-SHLK-SHLK!!"
+    },
+    {
+      "id": "p17",
+      "shot": "captain baek helpless pinned bleeding",
+      "setting": "campus tennis courts",
+      "characters": ["hunter_captain_baek"],
+      "action": "Baek hangs pinned against the fence by blood spears, claymore knocked 20 feet away, blood dripping from his lips.",
+      "mood": "utter defeat",
+      "sfx": "DRIP... DRIP..."
+    },
+    {
+      "id": "p18",
+      "shot": "condensing hellfire sphere in gauntlet",
+      "setting": "campus tennis courts",
+      "characters": ["hajun"],
+      "action": "Ha-Jun stands over Baek, condensing a pulsating sphere of black-and-violet Abyssal Hellfire in his palm, aimed at Baek's forehead.",
+      "mood": "execution chamber",
+      "sfx": "VZZZZZT-HUMMMM..."
+    },
+    {
+      "id": "p19",
+      "shot": "baek unyielding defiant gaze",
+      "setting": "campus tennis courts",
+      "characters": ["hunter_captain_baek"],
+      "action": "Baek looks directly into the hellfire sphere, refusing to beg: 'Mujhe maar daalo, demon. Lekin Bureau tumhe kabhi nahi chhodega.'",
+      "mood": "stoic defiance",
+      "dialogue": [
+        {"type": "speech", "speaker": "hunter_captain_baek", "text": "Mujhe maar daalo. Bureau tumhe dhoond nikalega.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "min-jae limping onto tennis court shouting",
+      "setting": "campus tennis courts entrance",
+      "characters": ["min_jae"],
+      "action": "Min-Jae limps through the torn fence, clutching his bruised ribs, crying through his cracked glasses: 'HA-JUN! RUK JAO!!'",
+      "mood": "friend's desperate intervention",
+      "dialogue": [
+        {"type": "shout", "speaker": "min_jae", "text": "HA-JUN! RUK JAO! USSE MAT MAARO!!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "horned head turning alien cold stare",
+      "setting": "campus tennis courts",
+      "characters": ["hajun"],
+      "action": "Ha-Jun slowly turns his horned head toward Min-Jae; his pitch-black eyes look completely cold, predatory, devoid of human recognition.",
+      "mood": "alien terror",
+      "sfx": "CREAK..."
+    },
+    {
+      "id": "p22",
+      "shot": "hellfire sphere aimed at min-jae",
+      "setting": "campus tennis courts",
+      "characters": ["hajun"],
+      "action": "The condensed hellfire sphere in Ha-Jun's gauntlet unconsciously swivels, aiming directly at Min-Jae's chest!",
+      "mood": "heart-stopping horror",
+      "sfx": "AIM-VZZT!!"
+    },
+    {
+      "id": "p23",
+      "shot": "min-jae standing ground remembering brother",
+      "setting": "campus tennis courts",
+      "characters": ["min_jae"],
+      "action": "Min-Jae trembles violently but doesn't run: 'Ha-Jun... yaad karo tum kaun ho! Apne bhai ke vaade ko yaad karo!!'",
+      "mood": "words that pierce the demon",
+      "dialogue": [
+        {"type": "shout", "speaker": "min_jae", "text": "APNE BHAI KE VAADE KO YAAD KARO!!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "violent iris contraction shockwave",
+      "setting": "campus tennis courts",
+      "characters": ["hajun"],
+      "action": "Extreme close-up: At the word 'Bhai', Ha-Jun's crimson rings violently contract; a jolt of human agony rips through his soul.",
+      "mood": "shattering the trance",
+      "sfx": "PULSE-GASP!!"
+    },
+    {
+      "id": "p25",
+      "shot": "human spirit reclaiming the core",
+      "setting": "inner soul realm",
+      "characters": ["hajun"],
+      "action": "Inside his mind, Ha-Jun's human self grabs the burning bloodline core with both hands, pulling it away from the abyss.",
+      "mood": "triumph of human will",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Main... main darinda nahi banoonga!!", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p26",
+      "shot": "skyward hellfire redirection beam",
+      "setting": "campus tennis courts",
+      "characters": ["hajun"],
+      "action": "Ha-Jun wrenches his gauntlet straight up toward the heavens, unleashing the hellfire sphere in a colossal vertical laser pillar!",
+      "mood": "sparing the innocent",
+      "sfx": "DOOOOOOOOMMMMM!!"
+    },
+    {
+      "id": "p27",
+      "shot": "purification dome shattering golden glass rain",
+      "setting": "campus sky",
+      "characters": [],
+      "action": "The hellfire pillar pierces the golden Anti-Demon Purification Dome above the university, shattering the entire barrier into rain of golden glass shards.",
+      "mood": "barrier obliterated",
+      "sfx": "KRAAAA-SHATTER-BOOM!!"
+    },
+    {
+      "id": "p28",
+      "shot": "obsidian horns dissolving back into skull",
+      "setting": "campus tennis courts",
+      "characters": ["hajun"],
+      "action": "The razor obsidian horns dissolve into violet smoke; the crystalline scales sink back beneath Ha-Jun's pale, trembling human skin.",
+      "mood": "fading of the beast",
+      "sfx": "HISS-MELT..."
+    },
+    {
+      "id": "p29",
+      "shot": "collapsing on knees brown eyes return",
+      "setting": "campus tennis courts",
+      "characters": ["hajun"],
+      "action": "Ha-Jun collapses onto his knees on the cracked court, gasping in breathless exhaustion as his tired dark brown eyes return.",
+      "mood": "mortal exhaustion",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Maine... maine Min-Jae ko pehchan liya...", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "masked watcher on library roof cliffhanger",
+      "setting": "high-tech library roof",
+      "characters": [],
+      "action": "From the roof of the 10-story university library, a mysterious figure in a crimson demon mask and black cloak watches Ha-Jun with a sinister smile: 'Asmodaius ka beej... aakhir kaar poori tarah jaag gaya.'",
+      "mood": "greater enemy watches, ultimate cliffhanger",
+      "dialogue": [
+        {"type": "speech", "speaker": null, "text": "Asmodaius ka beej... aakhir kaar jaag gaya.", "at": [0.50, 0.10]}
+      ]
+    }
+  ]
+}

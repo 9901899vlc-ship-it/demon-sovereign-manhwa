@@ -90,70 +90,70 @@
           "chapter": 14,
           "title": "The Unwanted Power",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch014_script.json"
         },
         {
           "chapter": 15,
           "title": "The Boy Who Changed",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch015_script.json"
         },
         {
           "chapter": 16,
           "title": "The First Mission",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch016_script.json"
         },
         {
           "chapter": 17,
           "title": "Blood Trial",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch017_script.json"
         },
         {
           "chapter": 18,
           "title": "The Forgotten Classroom",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch018_script.json"
         },
         {
           "chapter": 19,
           "title": "The Name of the Sovereign",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch019_script.json"
         },
         {
           "chapter": 20,
           "title": "The Hunter's Arrival",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch020_script.json"
         },
         {
           "chapter": 21,
           "title": "The Mark of Death",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch021_script.json"
         },
         {
           "chapter": 22,
           "title": "Uncontrolled Blood",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch022_script.json"
         },
         {
           "chapter": 23,
           "title": "The First Victory",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch023_script.json"
         }
       ]

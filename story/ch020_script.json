@@ -1,0 +1,306 @@
+{
+  "chapter": 20,
+  "title": "The Hunter's Arrival",
+  "arc": 2,
+  "arc_title": "THE HIDDEN BLOODLINE",
+  "summary": "Rank-A Captain Baek Hyeon-Woo arrives at Saint Mirren, sealing the entire university beneath an Anti-Demon Purification Dome. When Enforcers beat Min-Jae outside the cellar, Ha-Jun shatters Jun-Hyuk's blade underground and blasts through the surface to confront Captain Baek.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "armored apc military blockade wide shot",
+      "setting": "saint mirren main gates",
+      "characters": [],
+      "action": "Armored APCs and black tactical transport vehicles blockade every entrance of Saint Mirren University under stormy skies.",
+      "mood": "military martial law",
+      "sfx": "RUMBLE-HEAVY..."
+    },
+    {
+      "id": "p02",
+      "shot": "captain baek stepping out of command vehicle",
+      "setting": "saint mirren main gates",
+      "characters": ["hunter_captain_baek"],
+      "action": "Captain Baek Hyeon-Woo (tall, silver hair, heavy ceremonial white coat, scarred eye, wielding a massive holy claymore) steps out onto the pavement.",
+      "mood": "overwhelming veteran authority",
+      "sfx": "THUD-CLANG..."
+    },
+    {
+      "id": "p03",
+      "shot": "subordinate tactical salute report",
+      "setting": "saint mirren main gates",
+      "characters": ["hunter_captain_baek"],
+      "action": "An operative salutes: 'Captain Baek! Agent Jun-Hyuk bees minute pehle auditorium basement mein ghusa tha!'",
+      "mood": "urgent field report",
+      "dialogue": [
+        {"type": "speech", "speaker": null, "text": "Captain Baek! Agent Jun-Hyuk akele andar gaya hai!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "captain baek scarred eye scowl",
+      "setting": "saint mirren main gates",
+      "characters": ["hunter_captain_baek"],
+      "action": "Captain Baek's scarred eye narrows into an angry scowl: 'Jun-Hyuk hamesha jaldbaazi karta hai. Bina perimeter banaye ghus gaya.'",
+      "mood": "veteran disapproval",
+      "dialogue": [
+        {"type": "speech", "speaker": "hunter_captain_baek", "text": "Jun-Hyuk hamesha jaldbaazi karta hai.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "holy claymore drawn golden light",
+      "setting": "saint mirren main gates",
+      "characters": ["hunter_captain_baek"],
+      "action": "Captain Baek draws his colossal holy claymore; the serrated steel pulses with blinding celestial gold and silver mana.",
+      "mood": "divine holy weapon",
+      "sfx": "SCHWINNNG-GLOW!!"
+    },
+    {
+      "id": "p06",
+      "shot": "order to deploy purification dome",
+      "setting": "saint mirren main gates",
+      "characters": ["hunter_captain_baek"],
+      "action": "Baek commands: 'Purification Dome deploy karo. Koi bhi student ya teacher bahar na nikalne paaye.'",
+      "mood": "ruthless quarantine",
+      "dialogue": [
+        {"type": "speech", "speaker": "hunter_captain_baek", "text": "Purification Dome deploy karo! Campus seal karo!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "triangular pylons firing golden beam sky",
+      "setting": "campus perimeter sky",
+      "characters": [],
+      "action": "Three giant triangular pylon towers fire intense golden laser pillars into the clouds, expanding into a translucent golden dome over the university.",
+      "mood": "holy barrier activation",
+      "sfx": "WHUUUUM-FLASH!!"
+    },
+    {
+      "id": "p08",
+      "shot": "terrified students looking at golden sky",
+      "setting": "classroom windows",
+      "characters": [],
+      "action": "Inside classrooms, students and faculty stare out in terror as the sky above their heads becomes an impenetrable golden cage.",
+      "mood": "trapped civilian terror",
+      "dialogue": [
+        {"type": "narration", "text": "Saint Mirren ek pinjra ban chuka tha.", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "min-jae shivering holding pipe sentry",
+      "setting": "old auditorium cellar exterior",
+      "characters": ["min_jae"],
+      "action": "Behind the old auditorium, Min-Jae stands alone in the howling wind, trembling hands gripping the rusted metal pipe.",
+      "mood": "vulnerable courage",
+      "sfx": "SHIVER..."
+    },
+    {
+      "id": "p10",
+      "shot": "three armored enforcers rounding corner",
+      "setting": "old auditorium cellar exterior",
+      "characters": ["min_jae"],
+      "action": "Three Hunter Enforcers in black combat armor, silver visors, and tactical assault rifles round the brick wall.",
+      "mood": "hostile encounter",
+      "sfx": "CLOMP-CLOMP..."
+    },
+    {
+      "id": "p11",
+      "shot": "rifle pointed at min-jae chest",
+      "setting": "old auditorium cellar exterior",
+      "characters": ["min_jae"],
+      "action": "The lead Enforcer raises his assault rifle, red laser dot locking onto Min-Jae's school chest crest: 'Civilian! Darwaze se peechhe hat jao!'",
+      "mood": "mortal standoff",
+      "dialogue": [
+        {"type": "speech", "speaker": null, "text": "Civilian! Haath upar karke peechhe hato!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "min-jae stammering defense",
+      "setting": "old auditorium cellar exterior",
+      "characters": ["min_jae"],
+      "action": "Min-Jae's voice trembles, but he refuses to step away from the cellar doors: 'Y-Yahan kuch nahi hai! Main sirf student hoon!'",
+      "mood": "desperate bluff",
+      "dialogue": [
+        {"type": "speech", "speaker": "min_jae", "text": "Yahan kuch nahi hai! Door raho!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "enforcer sneering rifle butt strike",
+      "setting": "old auditorium cellar exterior",
+      "characters": ["min_jae"],
+      "action": "The Enforcer steps in with a sneer, raising his steel rifle butt to strike Min-Jae down: 'Chupchap rasta chhod, ladke.'",
+      "mood": "casual brutality",
+      "sfx": "SWOOSH!!"
+    },
+    {
+      "id": "p14",
+      "shot": "min-jae desperate pipe swing",
+      "setting": "old auditorium cellar exterior",
+      "characters": ["min_jae"],
+      "action": "Min-Jae swings his metal pipe with all his might in a clumsy, desperate arc: 'MAINE KAHA PEECHE HATO!!'",
+      "mood": "defiant friend",
+      "dialogue": [
+        {"type": "shout", "speaker": "min_jae", "text": "MAINE KAHA DOOR RAHO!!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p15",
+      "shot": "parried pipe and brutal stomach kick",
+      "setting": "old auditorium cellar exterior",
+      "characters": ["min_jae"],
+      "action": "The armored Enforcer effortlessly blocks the pipe with his forearm guard and kicks Min-Jae viciously in the ribs.",
+      "mood": "crushing civilian defeat",
+      "sfx": "CLANG-THUDDD!!"
+    },
+    {
+      "id": "p16",
+      "shot": "min-jae in mud clutching door handle",
+      "setting": "old auditorium cellar exterior",
+      "characters": ["min_jae"],
+      "action": "Min-Jae crashes into the wet mud, gasping for air, but his bleeding fingers still cling desperately to the rusted iron door handle: 'Ha-Jun... bhaago...'",
+      "mood": "tragic unbreakable loyalty",
+      "dialogue": [
+        {"type": "whisper", "speaker": "min_jae", "text": "...Ha-Jun... bhaago...", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "tectonic earthquake roar from below",
+      "setting": "old auditorium cellar exterior",
+      "characters": [],
+      "action": "Suddenly, a deep tectonic roar like an erupting volcano shakes the earth beneath their boots: *RUMBLE-KRRRSH!!*",
+      "mood": "awakened wrath",
+      "sfx": "BOOOOM-RUMBLE!!"
+    },
+    {
+      "id": "p18",
+      "shot": "enforcers stumbling as ground fissures open",
+      "setting": "old auditorium cellar exterior",
+      "characters": [],
+      "action": "The three Enforcers lose their balance as deep geometric cracks rip across the grass and stone around the cellar doors.",
+      "mood": "fissure of power",
+      "sfx": "CRACK-SNAP!!"
+    },
+    {
+      "id": "p19",
+      "shot": "violet hellfire geyser jets through cracks",
+      "setting": "old auditorium cellar exterior",
+      "characters": [],
+      "action": "Pillars of radiant violet hellfire jet through the fissures into the cold air, vaporizing falling leaves into ash.",
+      "mood": "hellfire breach",
+      "sfx": "FWOOOOOSH!!"
+    },
+    {
+      "id": "p20",
+      "shot": "underground amphitheater critical mana fever",
+      "setting": "forgotten classroom interior",
+      "characters": ["hajun"],
+      "action": "Cut underground: Ha-Jun's bloodline burns at 100% boiling temperature; violet and crimson mana spirals violently around his silhouette.",
+      "mood": "volcanic awakening",
+      "dialogue": [
+        {"type": "narration", "text": "Sovereign ka krodh aag ban chuka tha.", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "hybrid hunter charging with foaming maw",
+      "setting": "forgotten classroom interior",
+      "characters": ["hunter_captain"],
+      "action": "Corrupted hybrid Jun-Hyuk charges with a rabid roar, bringing down his blackened silver blade with two-handed force.",
+      "mood": "berserk monster strike",
+      "sfx": "ROAAARRRR!!"
+    },
+    {
+      "id": "p22",
+      "shot": "bare gauntlet fingers catching blade",
+      "setting": "forgotten classroom interior",
+      "characters": ["hajun", "hunter_captain"],
+      "action": "Ha-Jun doesn't dodge: He raises his right hand and catches the descending corrupted blade between two bare crystalline fingers!",
+      "mood": "godly effortless block",
+      "sfx": "CLANG-CATCH!!"
+    },
+    {
+      "id": "p23",
+      "shot": "holy silver blade snapping like dry pasta macro",
+      "setting": "forgotten classroom interior",
+      "characters": ["hunter_captain"],
+      "action": "With a casual lateral flick of Ha-Jun's fingers, the thick silver blade snaps clean in half with an explosive ping.",
+      "mood": "destruction of the holy weapon",
+      "sfx": "SNAP-SHATTER!!"
+    },
+    {
+      "id": "p24",
+      "shot": "jun-hyuk horrified disbelief face",
+      "setting": "forgotten classroom interior",
+      "characters": ["hunter_captain"],
+      "action": "Jun-Hyuk's blood-red eyes bulge in sheer paralyzed horror, staring at his snapped blade stub: 'M-Mera holy blade... haath se tod diya?!'",
+      "mood": "shattered ego",
+      "dialogue": [
+        {"type": "thought", "speaker": "hunter_captain", "text": "Ungliyon se blade tod diya...?!", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "sovereign palm strike to hybrid chest",
+      "setting": "forgotten classroom interior",
+      "characters": ["hajun", "hunter_captain"],
+      "action": "Ha-Jun plants his open palm into Jun-Hyuk's chest, detonating a concentrated shockwave of pure violet sovereign mana.",
+      "mood": "concussive eruption",
+      "sfx": "KRAAAA-DOOOOMM!!"
+    },
+    {
+      "id": "p26",
+      "shot": "hybrid body launched upward through chute",
+      "setting": "subterranean chute",
+      "characters": ["hunter_captain"],
+      "action": "The concussive shockwave launches Jun-Hyuk's 200-pound body straight upward through the stone chute like a projectile.",
+      "mood": "vertical launch",
+      "sfx": "BOOOOM-ROCKET!!"
+    },
+    {
+      "id": "p27",
+      "shot": "cellar doors exploding shrapnel outside",
+      "setting": "old auditorium cellar exterior",
+      "characters": [],
+      "action": "On the surface: The heavy iron cellar doors blow skyward into shrapnel; Jun-Hyuk's broken body crashes heavily into the mud.",
+      "mood": "surface breach",
+      "sfx": "KRAAASH-THUDDD!!"
+    },
+    {
+      "id": "p28",
+      "shot": "three enforcers frozen in terror",
+      "setting": "old auditorium cellar exterior",
+      "characters": [],
+      "action": "The three Enforcers freeze in stunned terror, staring at their broken elite agent coughing blood at their feet: 'Agent Jun-Hyuk?!'",
+      "mood": "shock and awe",
+      "dialogue": [
+        {"type": "speech", "speaker": null, "text": "Agent Jun-Hyuk ko kisne aise maara?!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "hajun rising from the cellar smoke",
+      "setting": "old auditorium cellar doorway",
+      "characters": ["hajun"],
+      "action": "Slowly rising from the smoking cellar crater is Ha-Jun Kang, surrounded by a swirling storm of violet mana, eyes burning like twin suns.",
+      "mood": "arrival of the sovereign",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Mere dost par haath uthane ki himmat kiski hui?", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "captain baek claymore standoff cliffhanger",
+      "setting": "old auditorium lawn",
+      "characters": ["hunter_captain_baek", "hajun"],
+      "action": "Through the trees, Captain Baek Hyeon-Woo approaches with his glowing golden holy claymore, locking eyes with Ha-Jun across the grass: 'Toh aakhir shaitan ka beej samne aa hi gaya.'",
+      "mood": "epic titans clash, ultimate cliffhanger",
+      "dialogue": [
+        {"type": "speech", "speaker": "hunter_captain_baek", "text": "Toh aakhir shaitan ka beej samne aa hi gaya.", "at": [0.50, 0.10]}
+      ]
+    }
+  ]
+}

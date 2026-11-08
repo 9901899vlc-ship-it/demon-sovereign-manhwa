@@ -1,0 +1,312 @@
+{
+  "chapter": 19,
+  "title": "The Name of the Sovereign",
+  "arc": 2,
+  "arc_title": "THE HIDDEN BLOODLINE",
+  "summary": "In the hidden 1920s laboratory, Kuro reveals the true name of the First Sovereign: Lord Asmodaius. Humiliated by the Sovereign's spiritual pressure, Hunter Jun-Hyuk injects corrupted demonic serum into his own veins, transforming into a savage hybrid monster.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "hunter landing in dusty amphitheater",
+      "setting": "forgotten classroom amphitheater",
+      "characters": ["hunter_captain"],
+      "action": "Agent Jun-Hyuk drops down into the dust of the amphitheater floor, twirling his twin silver blades with practiced arrogance.",
+      "mood": "predator enters cornered den",
+      "sfx": "THUD-SPIN!!"
+    },
+    {
+      "id": "p02",
+      "shot": "arrogant hunter sneer close-up",
+      "setting": "forgotten classroom amphitheater",
+      "characters": ["hunter_captain"],
+      "action": "Jun-Hyuk wipes blood from his scratched cheek with a white glove: 'Ek chuha basement mein chupa baitha hai. Kitna aam hai.'",
+      "mood": "mocking condescension",
+      "dialogue": [
+        {"type": "speech", "speaker": "hunter_captain", "text": "Ek chuha basement mein chupa baitha hai.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p03",
+      "shot": "hajun motionless gauntlet hum",
+      "setting": "forgotten classroom amphitheater",
+      "characters": ["hajun"],
+      "action": "Ha-Jun stands motionless in the center of the dissecting pit; his crystalline gauntlet emits deep, pulsing purrs of violet mana.",
+      "mood": "deadly calm",
+      "sfx": "HUMMMMM..."
+    },
+    {
+      "id": "p04",
+      "shot": "hunter glancing at specimen jars",
+      "setting": "forgotten classroom amphitheater",
+      "characters": ["hunter_captain"],
+      "action": "Jun-Hyuk glances at the glowing demon specimen jars on the walls: 'Toh tumne yeh lab dhoond li. Ab tum jaante ho yeh academy kya thi.'",
+      "mood": "sinister context",
+      "dialogue": [
+        {"type": "speech", "speaker": "hunter_captain", "text": "Ab tum jaante ho yeh academy aakhir kya thi.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "hajun accusation stance",
+      "setting": "forgotten classroom amphitheater",
+      "characters": ["hajun"],
+      "action": "Ha-Jun: 'Main jaanta hoon tum log koi hero nahi ho. Tum sirf immortal army banane ke liye Relics chura rahe ho.'",
+      "mood": "unveiled truth",
+      "dialogue": [
+        {"type": "speech", "speaker": "hajun", "text": "Tum log hero nahi... chor ho jo Relics chura rahe ho.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "hunter cold cynic laugh",
+      "setting": "forgotten classroom amphitheater",
+      "characters": ["hunter_captain"],
+      "action": "Jun-Hyuk laughs with cold cynicism: 'Taqat unki hoti hai jo usse cheen sakein. Insaan kamzor the—Relics unka ilaaj hain.'",
+      "mood": "corrupted philosophy",
+      "dialogue": [
+        {"type": "speech", "speaker": "hunter_captain", "text": "Taqat unki hoti hai jo cheen sakein!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "triple silver throwing daggers",
+      "setting": "forgotten classroom amphitheater",
+      "characters": ["hunter_captain"],
+      "action": "Jun-Hyuk hurls three silver throwing daggers coated in burning holy fire straight toward Ha-Jun's chest.",
+      "mood": "lethal projectile burst",
+      "sfx": "SHING-SHING-SHING!!"
+    },
+    {
+      "id": "p08",
+      "shot": "umbrella blood shield deflection",
+      "setting": "forgotten classroom amphitheater",
+      "characters": ["hajun"],
+      "action": "Ha-Jun raises his left hand; fluid blood from the Ring of Hollow Blood manifests an umbrella-shaped crimson shield, deflecting all three daggers in sparks.",
+      "mood": "effortless blood barrier",
+      "sfx": "CLANG-CLANG-SPARK!!"
+    },
+    {
+      "id": "p09",
+      "shot": "hunter shock at relic ring",
+      "setting": "forgotten classroom amphitheater",
+      "characters": ["hunter_captain"],
+      "action": "Jun-Hyuk gasps in shock: 'Solidified blood shield?! Woh... Ring of Hollow Blood hai?! Tumne doosra relic bhi baandh liya?!'",
+      "mood": "horrified envy",
+      "dialogue": [
+        {"type": "speech", "speaker": "hunter_captain", "text": "Ring of Hollow Blood... tumne baandh liya?!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "kuro booming voice from rafters",
+      "setting": "forgotten classroom rafters",
+      "characters": ["kuro"],
+      "action": "Kuro circles above the amphitheater, his telepathic voice booming like thunder: 'WO SIRF RELIC DHOONDTA NAHI—RELICS USKI GULAMI KARTE HAIN!'",
+      "mood": "booming proclamation",
+      "dialogue": [
+        {"type": "speech", "speaker": "kuro", "text": "Wo waris hai! Relics uske aadesh par chalte hain!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "chalkboard summoning circles glowing violet",
+      "setting": "forgotten classroom chalkboard",
+      "characters": [],
+      "action": "The faded chalk pentagrams on the giant blackboard ignite in blinding violet fire, illuminating the amphitheater in spectral violet light.",
+      "mood": "ancient magic awakened",
+      "sfx": "FWOOOOSH!!"
+    },
+    {
+      "id": "p12",
+      "shot": "feather memory resonance wave",
+      "setting": "forgotten classroom amphitheater",
+      "characters": ["kuro"],
+      "action": "Kuro flares his wings, projecting the ancestral memories of the First Sovereign into the burning chalk runes.",
+      "mood": "astral historical projection",
+      "sfx": "WHUUUUM..."
+    },
+    {
+      "id": "p13",
+      "shot": "ghostly titan sovereign projection",
+      "setting": "forgotten classroom chalkboard",
+      "characters": [],
+      "action": "A colossal 30-foot phantom silhouette of the First Sovereign appears floating behind Ha-Jun, holding a titanic curved void scythe.",
+      "mood": "divine terrifying presence",
+      "dialogue": [
+        {"type": "narration", "text": "Prachin kaal ka sabse bhayankar shaitan.", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "true name burning runes in air macro",
+      "setting": "forgotten classroom air",
+      "characters": [],
+      "action": "Ancient demonic letters burn in mid-air: [RULER OF THE ABYSS: LORD ASMODAIUS].",
+      "mood": "true name revealed",
+      "dialogue": [
+        {"type": "system", "text": "[RULER OF THE ABYSS: LORD ASMODAIUS]", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p15",
+      "shot": "kuro speaking the true name",
+      "setting": "forgotten classroom rafters",
+      "characters": ["kuro"],
+      "action": "Kuro: 'Insaano aur devtaon se pehle... Lord Asmodaius ne nau narko par apna adhipatya jamaya tha!'",
+      "mood": "mythic pedigree",
+      "dialogue": [
+        {"type": "speech", "speaker": "kuro", "text": "Lord Asmodaius ka khoon is ladke mein behta hai!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "hunter falling to knees under pressure",
+      "setting": "forgotten classroom amphitheater",
+      "characters": ["hunter_captain"],
+      "action": "The immense spiritual pressure of the True Name crushes Jun-Hyuk down onto one knee; floorboards crack beneath his boots.",
+      "mood": "monarch subjugation",
+      "sfx": "KRRRSH-THUD!!"
+    },
+    {
+      "id": "p17",
+      "shot": "hunter sweating trembling blades",
+      "setting": "forgotten classroom amphitheater",
+      "characters": ["hunter_captain"],
+      "action": "Jun-Hyuk sweats profusely, his twin silver blades vibrating so violently from demonic frequency that his wrists ache.",
+      "mood": "humiliating helplessness",
+      "dialogue": [
+        {"type": "thought", "speaker": "hunter_captain", "text": "Y-Yeh kaisa wazan hai...?! Saans ruk rahi hai...!", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "hajun majestic forward steps",
+      "setting": "forgotten classroom amphitheater",
+      "characters": ["hajun"],
+      "action": "Ha-Jun walks toward him with slow, regal steps; each footstep leaves a glowing violet footprint burning into the parquet wood.",
+      "mood": "king approaching a traitor",
+      "sfx": "STEP... STEP..."
+    },
+    {
+      "id": "p19",
+      "shot": "asmodaius double voice dialogue",
+      "setting": "forgotten classroom amphitheater",
+      "characters": ["hajun"],
+      "action": "Ha-Jun speaks with two harmonizing voices: 'Tumne mujhe parasite kaha. Lekin mere baap-dada ke ghar mein ghusne wale chor tum ho.'",
+      "mood": "double sovereign resonance",
+      "dialogue": [
+        {"type": "speech", "speaker": "hajun", "text": "Mere purvajon ke ghar mein ghusne wale chor tum ho.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "hunter humiliated rage clench",
+      "setting": "forgotten classroom amphitheater",
+      "characters": ["hunter_captain"],
+      "action": "Jun-Hyuk's face twists in venomous humiliated fury: 'Main Class-B Hunter hoon! Main kisi shaitan ke aage nahi jhukunga!'",
+      "mood": "pride on the brink",
+      "dialogue": [
+        {"type": "shout", "speaker": "hunter_captain", "text": "Main kisi shaitan ke aage nahi jhukunga!!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "crushing violet ampoule into neck macro",
+      "setting": "forgotten classroom amphitheater",
+      "characters": ["hunter_captain"],
+      "action": "Jun-Hyuk pulls a glass ampoule of bubbling violet demonic serum from his chest pocket and violently slams it into his carotid artery.",
+      "mood": "forbidden self-corruption",
+      "sfx": "STAB-INJECT!!"
+    },
+    {
+      "id": "p22",
+      "shot": "veins turning black-violet corruption",
+      "setting": "forgotten classroom amphitheater",
+      "characters": ["hunter_captain"],
+      "action": "Thick, corrupt black-and-violet demonic veins bulge rapidly across Jun-Hyuk's neck and face; his muscles swell violently.",
+      "mood": "grotesque biological mutation",
+      "sfx": "SWELL-CRACK!!"
+    },
+    {
+      "id": "p23",
+      "shot": "hajun disgust portrait",
+      "setting": "forgotten classroom amphitheater",
+      "characters": ["hajun"],
+      "action": "Ha-Jun's brow furrows in sheer disgust: 'Demon Hunter hokar... apne hi shareer mein demonic blood inject kar liya?!'",
+      "mood": "hypocrisy exposed",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Hunter hokar demon blood inject kar liya?! Kitni gandagi hai!", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "hunter maniacal blood-red eyes",
+      "setting": "forgotten classroom amphitheater",
+      "characters": ["hunter_captain"],
+      "action": "Jun-Hyuk's eyes turn blood-red with black sclera; he grins like a rabid beast: 'Bureau ka secret weapon: Hybrid Transfusion!'",
+      "mood": "madness of the hybrid",
+      "dialogue": [
+        {"type": "speech", "speaker": "hunter_captain", "text": "Hybrid Transfusion! Ab dekhte hain kiska khoon bada hai!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "elbow bone spikes bursting",
+      "setting": "forgotten classroom amphitheater",
+      "characters": ["hunter_captain"],
+      "action": "Two jagged demonic bone spikes burst outward from Jun-Hyuk's elbows, and black hellfire coats his vibrating silver swords.",
+      "mood": "hybrid monster born",
+      "sfx": "TEAR-SNAP!!"
+    },
+    {
+      "id": "p26",
+      "shot": "supersonic bench destroying charge",
+      "setting": "forgotten classroom amphitheater",
+      "characters": ["hunter_captain"],
+      "action": "Jun-Hyuk explodes forward at supersonic speed, obliterating five tiers of antique wooden amphitheater benches into flying splinters.",
+      "mood": "berserk charge",
+      "sfx": "KRAAAA-SMASH!!"
+    },
+    {
+      "id": "p27",
+      "shot": "blood shield cracking impact",
+      "setting": "forgotten classroom amphitheater",
+      "characters": ["hajun", "hunter_captain"],
+      "action": "Jun-Hyuk's corrupted blade slams into Ha-Jun's blood shield; spiderweb fractures split the crimson barrier under monstrous force.",
+      "mood": "barrier breaking",
+      "sfx": "KRAAACK!!"
+    },
+    {
+      "id": "p28",
+      "shot": "kuro airborne warning screech",
+      "setting": "forgotten classroom amphitheater",
+      "characters": ["kuro"],
+      "action": "Kuro shrieks: 'Isne apni insaaniyat bech di hai! Iski taqat ab ek wild beast jaisi hai!'",
+      "mood": "mortal peril alarm",
+      "dialogue": [
+        {"type": "speech", "speaker": "kuro", "text": "Sambhlo! Yeh pagal ho chuka hai!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "shoulder slash drawing sovereign blood",
+      "setting": "forgotten classroom amphitheater",
+      "characters": ["hajun", "hunter_captain"],
+      "action": "The corrupted silver blade bypasses the cracked shield, slicing through Ha-Jun's navy blazer and grazing his shoulder; scarlet blood sprays.",
+      "mood": "first wound taken",
+      "sfx": "SHLK-SPLASH!!"
+    },
+    {
+      "id": "p30",
+      "shot": "black sclera crimson sovereign eyes cliffhanger",
+      "setting": "forgotten classroom amphitheater",
+      "characters": ["hajun"],
+      "action": "Ha-Jun's blood droplet hits the floor; his irises turn completely black with twin glowing crimson-violet monarch rings: 'Tumhe monster dekhna tha? Ab Asmodaius ka astitva dekho.'",
+      "mood": "true sovereign rage unleashed, ultimate cliffhanger",
+      "dialogue": [
+        {"type": "speech", "speaker": "hajun", "text": "Tumhe monster dekhna tha na? Ab dekho.", "at": [0.50, 0.10]}
+      ]
+    }
+  ]
+}

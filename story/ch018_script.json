@@ -1,0 +1,310 @@
+{
+  "chapter": 18,
+  "title": "The Forgotten Classroom",
+  "arc": 2,
+  "arc_title": "THE HIDDEN BLOODLINE",
+  "summary": "Attacked by elite Hunter Agent Jun-Hyuk, Ha-Jun retreats into a hidden 1920s underground warlock laboratory beneath Saint Mirren. There, he discovers a classified journal containing his elder brother Tae-Jun's handwriting—exposing the Hunter Bureau's dark conspiracy and the location of the third relic.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "dust clearing white coat hunter reveal",
+      "setting": "trial chamber entrance",
+      "characters": ["hunter_captain"],
+      "action": "Dust clears at the shattered entrance; Agent Jun-Hyuk in a pristine white trench coat with silver cross lapels twirls twin humming silver blades.",
+      "mood": "arrogant lethal elite",
+      "sfx": "HUMMMM..."
+    },
+    {
+      "id": "p02",
+      "shot": "hunter mocking dialogue close-up",
+      "setting": "trial chamber entrance",
+      "characters": ["hunter_captain"],
+      "action": "Jun-Hyuk smirks coldly: 'Kal ek Grade-C beast ko maar kar hero samajh rahe ho? Asli shikariyon se ab tak paala nahi pada tumhara.'",
+      "mood": "superiority complex",
+      "dialogue": [
+        {"type": "speech", "speaker": "hunter_captain", "text": "Asli shikariyon se ab tak paala nahi pada tumhara.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p03",
+      "shot": "dual stance blood dagger and gauntlet",
+      "setting": "trial chamber interior",
+      "characters": ["hajun"],
+      "action": "Ha-Jun sinks into a low combat stance: Crystalline gauntlet raised to guard his chest, freshly forged crimson blood dagger held in reverse grip.",
+      "mood": "battle-ready resolve",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Iski speed aam insaan se kahin zyada hai.", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "silver lightning flash-step blur",
+      "setting": "trial chamber interior",
+      "characters": ["hunter_captain"],
+      "action": "Jun-Hyuk vanishes in a zig-zag blur of silver lightning, sparks scorching the basalt floor tiles.",
+      "mood": "blinding human speed",
+      "sfx": "ZAP-SHIIK!!"
+    },
+    {
+      "id": "p05",
+      "shot": "twin blade scissor cross strike",
+      "setting": "trial chamber interior",
+      "characters": ["hunter_captain"],
+      "action": "Jun-Hyuk materializes in front of Ha-Jun, snapping both silver blades in a lethal scissor strike aimed at his throat.",
+      "mood": "decapitation strike",
+      "sfx": "SWOOOOSH!!"
+    },
+    {
+      "id": "p06",
+      "shot": "gauntlet block sparks collision",
+      "setting": "trial chamber interior",
+      "characters": ["hajun", "hunter_captain"],
+      "action": "Ha-Jun brings his crystalline gauntlet up: The twin silver blades slam into the purple crystal, detonating in a blinding shower of sparks.",
+      "mood": "holy vs demonic clash",
+      "sfx": "CLANG-KZZZZT!!"
+    },
+    {
+      "id": "p07",
+      "shot": "holy silver burning acid hiss macro",
+      "setting": "trial chamber interior",
+      "characters": ["hajun"],
+      "action": "The silver blades hiss against demonic mana, radiating white holy fire that scorches Ha-Jun's knuckles like corrosive acid.",
+      "mood": "holy element weakness",
+      "sfx": "TZZZZZZZ..."
+    },
+    {
+      "id": "p08",
+      "shot": "kuro elemental warning shout",
+      "setting": "trial chamber interior",
+      "characters": ["kuro"],
+      "action": "Kuro: 'Holy Silver metallurgy! Yeh Bureau ke anti-demon hathiyar hain! Direct contact se bacho!'",
+      "mood": "elemental danger alert",
+      "dialogue": [
+        {"type": "speech", "speaker": "kuro", "text": "Holy silver hai! Chhoone mat do!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "low blood dagger slash counter",
+      "setting": "trial chamber interior",
+      "characters": ["hajun"],
+      "action": "Ha-Jun pivots on his heel, sweeping his blood dagger low in a razor arc, forcing Jun-Hyuk into an emergency backflip.",
+      "mood": "agile counter",
+      "sfx": "SWISH!!"
+    },
+    {
+      "id": "p10",
+      "shot": "cat-like backflip landing",
+      "setting": "trial chamber interior",
+      "characters": ["hunter_captain"],
+      "action": "Jun-Hyuk lands 15 feet away on one knee, instantly drawing a silver flash-dart from his tactical chest rig.",
+      "mood": "tactical operator agility",
+      "sfx": "KLIK-DRAW!!"
+    },
+    {
+      "id": "p11",
+      "shot": "flash-bang dart detonation",
+      "setting": "trial chamber interior",
+      "characters": [],
+      "action": "The dart strikes the basalt floor at Ha-Jun's feet, detonating into a blinding magnesium flash and 160-decibel concussive sonic blast.",
+      "mood": "sensory blinding",
+      "sfx": "BANG-BLIND!!"
+    },
+    {
+      "id": "p12",
+      "shot": "whiteout sensory disorientation",
+      "setting": "trial chamber interior",
+      "characters": ["hajun"],
+      "action": "Ha-Jun's vision whites out completely, ears screaming with high-pitched feedback as he stumbles backward.",
+      "mood": "vulnerable disorientation",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Aankhein... kuch dikh nahi raha!", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "hunter lunging through smoke for the kill",
+      "setting": "trial chamber interior",
+      "characters": ["hunter_captain"],
+      "action": "Jun-Hyuk lunges through the smoke cloud, his silver blade thrusting forward in a straight killing thrust toward Ha-Jun's chest.",
+      "mood": "fatal execution momentum",
+      "dialogue": [
+        {"type": "speech", "speaker": "hunter_captain", "text": "Khel khatam, demon!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "kuro dive bomb claw strike",
+      "setting": "trial chamber interior",
+      "characters": ["kuro", "hunter_captain"],
+      "action": "Kuro dive-bombs from the darkness, raking razor-sharp demonic talons across Jun-Hyuk's goggles in an explosion of purple sparks.",
+      "mood": "guardian rescue",
+      "sfx": "SKREEEECH-SHLK!!"
+    },
+    {
+      "id": "p15",
+      "shot": "hunter stumbling in blind fury",
+      "setting": "trial chamber interior",
+      "characters": ["hunter_captain"],
+      "action": "Jun-Hyuk stumbles, blood trickling from his nose as his tactical goggles shatter, slashing blindly at the fluttering bird.",
+      "mood": "thrown off balance",
+      "dialogue": [
+        {"type": "speech", "speaker": "hunter_captain", "text": "Kamine parinde!!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "dive into altar trapdoor",
+      "setting": "trial chamber altar",
+      "characters": ["hajun"],
+      "action": "Regaining his footing, Ha-Jun grabs Kuro and dives headfirst into the open trapdoor beneath the obsidian altar.",
+      "mood": "tactical escape into the unknown",
+      "sfx": "WHOOSH-DROP!!"
+    },
+    {
+      "id": "p17",
+      "shot": "stone chute slide descent",
+      "setting": "curved stone chute",
+      "characters": ["hajun"],
+      "action": "Ha-Jun slides down a steep, curved stone chute at breakneck speed, friction kicking up clouds of ancient dust.",
+      "mood": "sliding into depths",
+      "sfx": "SHHHH-ZOOM!!"
+    },
+    {
+      "id": "p18",
+      "shot": "crashing onto decaying wooden floor",
+      "setting": "forgotten classroom interior",
+      "characters": ["hajun"],
+      "action": "Ha-Jun crashes in a tumble onto a creaking, decaying wooden parquet floor, dusting off his uniform as he looks up.",
+      "mood": "surprising arrival",
+      "sfx": "THUD-CREAK!!"
+    },
+    {
+      "id": "p19",
+      "shot": "1920s anatomical lecture hall reveal wide",
+      "setting": "forgotten classroom interior",
+      "characters": [],
+      "action": "Wide panoramic reveal: An enormous, abandoned 1920s underground medical lecture hall; curved mahogany amphitheater benches rise in tiers.",
+      "mood": "gothic secret history",
+      "dialogue": [
+        {"type": "narration", "text": "Zameen ke sau foot neeche... ek sadi purani classroom.", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "blackboard summoning circles chalk",
+      "setting": "forgotten classroom chalkboard",
+      "characters": [],
+      "action": "A colossal green slate blackboard covered in intricate demonic summoning equations, pentagrams, and Latin anatomical notes.",
+      "mood": "warlock academia",
+      "dialogue": [
+        {"type": "narration", "text": "Saint Mirren sirf ek university nahi thi...", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "specimen jars with demon horns",
+      "setting": "forgotten classroom cabinets",
+      "characters": [],
+      "action": "Glass specimen jars line the mahogany cabinets: Preserved demon claws, glowing violet organs, and horned skulls suspended in amber fluid.",
+      "mood": "macabre laboratory",
+      "sfx": "GLUG-GLUG..."
+    },
+    {
+      "id": "p22",
+      "shot": "kuro perching on dissecting table",
+      "setting": "forgotten classroom table",
+      "characters": ["kuro"],
+      "action": "Kuro perches on a marble dissecting table in the center: 'Saint Mirren ke founders warlock the jo Relics par experiment karte the.'",
+      "mood": "truth unveiled",
+      "dialogue": [
+        {"type": "speech", "speaker": "kuro", "text": "Yahan insaan aur shaitan ke khoon ko milaya jaata tha.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "leather-bound journal on table macro",
+      "setting": "forgotten classroom table",
+      "characters": [],
+      "action": "Resting on the marble table is a thick, leather-bound researcher journal stamped with a faded red wax seal of the University crest.",
+      "mood": "historical artifact",
+      "sfx": "DUST-PUFF..."
+    },
+    {
+      "id": "p24",
+      "shot": "opening journal breathless shock",
+      "setting": "forgotten classroom table",
+      "characters": ["hajun"],
+      "action": "Ha-Jun opens the brittle yellowed pages: The sharp, familiar cursive handwriting on the first page makes his heart stop.",
+      "mood": "shocking recognition",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Yeh handwriting... yeh toh bhaiya ki handwriting hai!!", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "tae-jun handwritten entry macro",
+      "setting": "forgotten classroom journal",
+      "characters": [],
+      "action": "Close-up on the page: 'Bureau ne humein dhokha diya. Wo insaano ko bachane ke liye nahi, balki ek immortal fauj banane ke liye Relics chura rahe hain.'",
+      "mood": "conspiracy exposed",
+      "dialogue": [
+        {"type": "speech", "speaker": null, "text": "'Bureau immortal army banane ke liye Relics chura raha hai.'", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p26",
+      "shot": "second entry note to hajun",
+      "setting": "forgotten classroom journal",
+      "characters": [],
+      "action": "Tae-Jun's note: 'Ha-Jun, agar tum yeh padh rahe ho... toh agla relic, Bone of the Forgotten, East Observatory ke neeche chupa hai.'",
+      "mood": "brotherly guidance across time",
+      "dialogue": [
+        {"type": "speech", "speaker": null, "text": "'Agla relic East Observatory ke neeche hai.'", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "tear falling on ink",
+      "setting": "forgotten classroom journal",
+      "characters": ["hajun"],
+      "action": "A single warm tear falls from Ha-Jun's eye, soaking into the paper: 'Bhaiya yahan aaye the... unhone yeh sab mere liye chhoda.'",
+      "mood": "poignant love and purpose",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Unhone yeh sab mere liye chhoda tha...", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "heavy chute footsteps reverberating",
+      "setting": "forgotten classroom ceiling chute",
+      "characters": [],
+      "action": "Above the ceiling, heavy combat boot footsteps slide down the stone chute: Jun-Hyuk has arrived at the threshold.",
+      "mood": "imminent battle reunion",
+      "sfx": "CLOMP-CLOMP-SLIDE!!"
+    },
+    {
+      "id": "p29",
+      "shot": "journal tucked into blazer pocket",
+      "setting": "forgotten classroom",
+      "characters": ["hajun"],
+      "action": "Ha-Jun carefully tucks the journal inside his navy blazer; all tears and hesitation disappear, replaced by ice-cold predator resolve.",
+      "mood": "the prey becomes the hunter",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Ab main bhaagunga nahi.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "igniting blood blade in amphitheater cliffhanger",
+      "setting": "forgotten classroom amphitheater",
+      "characters": ["hajun"],
+      "action": "Ha-Jun stands at the base of the amphitheater, extending his blood dagger as crimson hellfire ignites along the blade: 'Wo mujhe maarne aaya hai. Dekhte hain wo zinda wapas jaa paata hai ya nahi.'",
+      "mood": "confrontation prepared, ultimate cliffhanger",
+      "dialogue": [
+        {"type": "speech", "speaker": "hajun", "text": "Wo mujhe maarne aaya hai. Ab uski baari hai.", "at": [0.50, 0.10]}
+      ]
+    }
+  ]
+}

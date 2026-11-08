@@ -1,0 +1,302 @@
+{
+  "chapter": 16,
+  "title": "The First Mission",
+  "arc": 2,
+  "arc_title": "THE HIDDEN BLOODLINE",
+  "summary": "Trapped inside the ancient subterranean chamber beneath Saint Mirren, Ha-Jun faces the Blood Trial against three colossal Sovereign Guardian Golems. Shattering the stone guardians with his demonic gauntlet, his synchronization jumps to 15%—revealing the second ancient relic: The Ring of Hollow Blood.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "spiral stone descent footsteps",
+      "setting": "subterranean spiral staircase",
+      "characters": ["hajun"],
+      "action": "Ha-Jun descends the ancient spiral staircase; each step echoes into the vast, hollow darkness below.",
+      "mood": "eerie subterranean descent",
+      "sfx": "CLACK... CLACK..."
+    },
+    {
+      "id": "p02",
+      "shot": "wall texture shift to ancient basalt",
+      "setting": "subterranean staircase walls",
+      "characters": [],
+      "action": "The walls transition from 1920s brickwork into ancient, prehistoric black basalt carved with glowing demonic glyphs.",
+      "mood": "crossing into mythic history",
+      "dialogue": [
+        {"type": "narration", "text": "Insaani imarat ke neeche... daityon ka yug zinda tha.", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p03",
+      "shot": "kuro gliding crimson beams",
+      "setting": "subterranean cavern",
+      "characters": ["kuro"],
+      "action": "Kuro glides ahead into the cavern, his eyes projecting twin crimson searchlight beams cutting through the purple miasma.",
+      "mood": "demonic guide",
+      "dialogue": [
+        {"type": "speech", "speaker": "kuro", "text": "Savdhaan raho. Yahan ki hawa mein Abyssal Miasma bhara hua hai.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "warm skin contrasting freezing air",
+      "setting": "subterranean cavern",
+      "characters": ["hajun"],
+      "action": "Breath puffs out in white vapor, yet Ha-Jun's skin feels pleasantly warm as sovereign blood circulates through his veins.",
+      "mood": "supernatural adaptation",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Itni thand mein bhi... mujhe garmi mehsoos ho rahi hai.", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "colossal gargoyle gate entrance",
+      "setting": "chamber entrance",
+      "characters": [],
+      "action": "They reach a colossal arched gateway guarded by twin 20-foot stone gargoyles holding giant ceremonial scythes.",
+      "mood": "monumental dread",
+      "sfx": "WHUUUUM..."
+    },
+    {
+      "id": "p06",
+      "shot": "gargoyle eyes igniting violet flame",
+      "setting": "chamber entrance",
+      "characters": [],
+      "action": "As Ha-Jun passes between them, the gargoyles' hollow stone eyes suddenly erupt in roaring violet hellfire.",
+      "mood": "tomb activated",
+      "sfx": "FWOOOOSH!!"
+    },
+    {
+      "id": "p07",
+      "shot": "heavy stone slab door slam",
+      "setting": "chamber entrance",
+      "characters": [],
+      "action": "A massive 10-ton stone slab crashes down behind Ha-Jun with earth-shattering finality, sealing the exit.",
+      "mood": "trapped in the trial",
+      "sfx": "DOOOOOOOOMMMM!!"
+    },
+    {
+      "id": "p08",
+      "shot": "turning back at seamless stone wall",
+      "setting": "chamber entrance",
+      "characters": ["hajun"],
+      "action": "Ha-Jun whips around; the entrance has sealed seamlessly into solid basalt rock with zero cracks.",
+      "mood": "no turning back",
+      "dialogue": [
+        {"type": "thought", "speaker": "hajun", "text": "Rasta band ho gaya...!", "at": [0.50, 0.14]}
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "blood trial quest interface reveal",
+      "setting": "trial chamber interior",
+      "characters": [],
+      "action": "A radiant purple system window flares: [TRIAL OBJECTIVE: PURGE THE GUARDIAN GOLEMS] | [REWARD: 15% SYNC & BLOOD MANIPULATION].",
+      "mood": "quest objective assigned",
+      "dialogue": [
+        {"type": "system", "text": "[TRIAL OBJECTIVE: PURGE THE GUARDIAN GOLEMS]", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "circular basalt chamber torches ignite",
+      "setting": "trial chamber interior",
+      "characters": [],
+      "action": "Dozens of wall sconces around the vast circular chamber burst into purple fire simultaneously, illuminating ancient blood channels in the floor.",
+      "mood": "arena illuminated",
+      "sfx": "FWOOSH-FWOOSH-FWOOSH!!"
+    },
+    {
+      "id": "p11",
+      "shot": "obsidian altar in center",
+      "setting": "trial chamber interior",
+      "characters": [],
+      "action": "In the center of the arena stands a stepped obsidian sacrificial altar surrounded by glowing runic engravings.",
+      "mood": "ancient ritual ground",
+      "dialogue": [
+        {"type": "narration", "text": "Ek prachin balivedi... jahan khoon ka daan diya jaata tha.", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "floor cracking tremors",
+      "setting": "trial chamber interior",
+      "characters": [],
+      "action": "Violent subterranean tremors rip through the chamber floor; deep cracks spiderweb outward from the altar.",
+      "mood": "rising monoliths",
+      "sfx": "RUMBLE-KRRRSH!!"
+    },
+    {
+      "id": "p13",
+      "shot": "three guardian golems rise",
+      "setting": "trial chamber interior",
+      "characters": ["golem"],
+      "action": "Three 10-foot tall basalt Guardian Golems fused with demonic bone armor and glowing red rune cores rise from the floor.",
+      "mood": "colossal stone guardians",
+      "sfx": "KRRR-CLANGG!!"
+    },
+    {
+      "id": "p14",
+      "shot": "golems raising boulder warhammers",
+      "setting": "trial chamber interior",
+      "characters": ["golem"],
+      "action": "The golems heft massive boulder-sized stone warhammers, their crimson rune cores locking onto Ha-Jun with lethal intent.",
+      "mood": "crushing power",
+      "sfx": "CREAAAK-THUD!!"
+    },
+    {
+      "id": "p15",
+      "shot": "kuro tactical warning shout",
+      "setting": "trial chamber interior",
+      "characters": ["kuro"],
+      "action": "Kuro circles above: 'Yeh Sovereign ke Gatekeepers hain! Inka pathar kisi bhi aam hathiyar se nahi toot sakta!'",
+      "mood": "indestructible foe warning",
+      "dialogue": [
+        {"type": "speech", "speaker": "kuro", "text": "Dhyan se! Inka pathar aam hathiyar se nahi tootega!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "demonic gauntlet ignition smirk",
+      "setting": "trial chamber interior",
+      "characters": ["hajun"],
+      "action": "Ha-Jun smirks calmly, snapping his fingers: The crystalline purple demonic gauntlet locks onto his right arm with crackling magenta arcs.",
+      "mood": "fearless swagger",
+      "dialogue": [
+        {"type": "speech", "speaker": "hajun", "text": "Achhi baat hai... kyunki mera hathiyar aam nahi hai.", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "golem warhammer downward slam",
+      "setting": "trial chamber interior",
+      "characters": ["golem"],
+      "action": "The lead Golem charges with heavy thunderous strides, bringing its 5-ton stone hammer crashing straight down on Ha-Jun.",
+      "mood": "crushing overhead strike",
+      "sfx": "WHUUUUSH!!"
+    },
+    {
+      "id": "p18",
+      "shot": "gauntlet uppercut meets hammer",
+      "setting": "trial chamber interior",
+      "characters": ["hajun", "golem"],
+      "action": "Ha-Jun steps forward and delivers a ferocious upward punch: His crystalline gauntlet meets the flat face of the descending 5-ton hammer head-on!",
+      "mood": "unfathomable collision",
+      "sfx": "KRAAAA-DOOOOMM!!"
+    },
+    {
+      "id": "p19",
+      "shot": "stone hammer shattering into rubble",
+      "setting": "trial chamber interior",
+      "characters": ["golem"],
+      "action": "Cracks spiderweb instantly across the boulder hammer before it detonates into a thousand flying shards of stone.",
+      "mood": "overwhelming destructive power",
+      "sfx": "SHATTER-BOOOM!!"
+    },
+    {
+      "id": "p20",
+      "shot": "flash-step core punch",
+      "setting": "trial chamber interior",
+      "characters": ["hajun", "golem"],
+      "action": "Ha-Jun flash-steps inside the Golem's guard, driving his fist deep into the glowing crimson rune core on its chest.",
+      "mood": "fatal precision strike",
+      "sfx": "CRUNCH-SHIIK!!"
+    },
+    {
+      "id": "p21",
+      "shot": "golem collapse into dust",
+      "setting": "trial chamber interior",
+      "characters": ["golem"],
+      "action": "The red core shatters; the 10-foot golem crumbles into an inert mound of fractured cobblestones and dust.",
+      "mood": "one down",
+      "sfx": "THUDDD-CRUMBLE..."
+    },
+    {
+      "id": "p22",
+      "shot": "coordinated pincer attack",
+      "setting": "trial chamber interior",
+      "characters": ["golem"],
+      "action": "The remaining two Golems strike in tandem: One sweeps a wide stone blade at his legs while the second leaps from above with dual fists.",
+      "mood": "lethal pincer trap",
+      "sfx": "KRR-WHUUUSH!!"
+    },
+    {
+      "id": "p23",
+      "shot": "domain aerial freeze",
+      "setting": "trial chamber interior",
+      "characters": ["hajun", "golem"],
+      "action": "Ha-Jun expands his 5-meter Sovereign Domain: The falling airborne Golem freezes completely motionless mid-leap in mid-air.",
+      "mood": "spatial freeze mastery",
+      "dialogue": [
+        {"type": "shout", "speaker": "hajun", "text": "DOMAIN... HALT!!", "at": [0.50, 0.12]}
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "spinning mid-air axe kick hellfire",
+      "setting": "trial chamber interior",
+      "characters": ["hajun", "golem"],
+      "action": "Ha-Jun launches off the frozen Golem's shoulder, spinning into a vertical axe kick engulfed in blazing violet-crimson hellfire.",
+      "mood": "devastating aerial finisher",
+      "sfx": "FWOOOOSH-BOOM!!"
+    },
+    {
+      "id": "p25",
+      "shot": "splitting second golem in two",
+      "setting": "trial chamber interior",
+      "characters": ["golem"],
+      "action": "The flaming heel strike splits the second Golem cleanly from head to torso in an explosion of purple sparks.",
+      "mood": "bisection of stone",
+      "sfx": "KRAAASH-SNAP!!"
+    },
+    {
+      "id": "p26",
+      "shot": "blood claws decapitation of third golem",
+      "setting": "trial chamber interior",
+      "characters": ["hajun", "golem"],
+      "action": "Ha-Jun lands and extends Sovereign Blood Claws, slicing the retreating third Golem's stone head cleanly off its shoulders.",
+      "mood": "flawless execution",
+      "sfx": "SHLLLRRRK!!"
+    },
+    {
+      "id": "p27",
+      "shot": "mana core absorption wisps",
+      "setting": "trial chamber interior",
+      "characters": ["hajun"],
+      "action": "All three shattered rune cores turn into radiant streams of violet mana, absorbing into Ha-Jun's chest core.",
+      "mood": "abundant essence harvest",
+      "sfx": "SHUUUUK..."
+    },
+    {
+      "id": "p28",
+      "shot": "level up milestone fanfare chime",
+      "setting": "trial chamber interior",
+      "characters": [],
+      "action": "Golden system prompt chimes: [TRIAL 1 CLEARED: BLOODLINE SYNCHRONIZATION 15.0%] | [NEW POWER: FLUID BLOOD CONTROL UNLOCKED].",
+      "mood": "level-up breakthrough",
+      "dialogue": [
+        {"type": "system", "text": "[TRIAL 1 CLEARED] [SYNCHRONIZATION: 15.0%]", "at": [0.50, 0.10]}
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "altar mechanism sliding open",
+      "setting": "trial chamber interior",
+      "characters": [],
+      "action": "The central obsidian altar platform grinds open, revealing an ancient stone pedestal illuminated by a column of radiant scarlet light.",
+      "mood": "relic revealed",
+      "sfx": "GRIND-KLIKK!!"
+    },
+    {
+      "id": "p30",
+      "shot": "the ring of hollow blood cliffhanger",
+      "setting": "trial chamber altar pedestal",
+      "characters": ["hajun"],
+      "action": "Resting on a velvet cushion atop the pedestal is an antique carved silver ring embedded with a pulsating ruby tear: The Second Relic, Ring of Hollow Blood.",
+      "mood": "second relic found, ultimate cliffhanger",
+      "dialogue": [
+        {"type": "speech", "speaker": "kuro", "text": "Doosra Relic... Ring of Hollow Blood.", "at": [0.50, 0.10]}
+      ]
+    }
+  ]
+}
