@@ -1,0 +1,412 @@
+{
+  "chapter": 32,
+  "title": "Flame of the Fallen",
+  "arc": 3,
+  "arc_title": "THE FIRST RELIC",
+  "summary": "Engulfed in ancient hellfire, Ha-Jun fuses the cooling circulation of the Ring of Hollow Blood with the thermal insulation of the Bone Gauntlet to tame the Flame of the Fallen.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "raging violet hellfire tornado wide shot",
+      "setting": "magma cavern wide",
+      "characters": [],
+      "action": "The 50-foot pillar of violet-crimson hellfire roars toward the cavern ceiling, lighting up the magma lake.",
+      "mood": "raging inferno",
+      "sfx": "ROOOOAAARRR!!"
+    },
+    {
+      "id": "p02",
+      "shot": "kuro shielding eyes with wings on distant pillar",
+      "setting": "magma cavern",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro is blown back to a distant basalt rock, struggling against the blistering thermal shockwave.",
+      "mood": "blistering gale",
+      "sfx": "SKREEE!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "kuro",
+          "text": "HA-JUN!! APNA MIND CONTROL MAT KHONA!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "shot": "inside the inferno ha-jun screaming in agony",
+      "setting": "inside firestorm",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Inside the vortex, Ha-Jun grinds his teeth as violet fire scorches through his clothes, searing his skin.",
+      "mood": "cellular agony",
+      "sfx": "ARGGGHHH!!"
+    },
+    {
+      "id": "p04",
+      "shot": "skin charring and blistering",
+      "setting": "arm macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Blisters and black scorch marks spread across his forearms as temperatures exceed 2,000 degrees.",
+      "mood": "flesh burning",
+      "sfx": "SIZZLE..."
+    },
+    {
+      "id": "p05",
+      "shot": "bone gauntlet glowing with cool ivory light",
+      "setting": "left arm",
+      "characters": [
+        "hajun"
+      ],
+      "action": "His left Bone Gauntlet glows with glacial pale light, insulating his arm bones and preventing marrow boil.",
+      "mood": "calcium insulation",
+      "sfx": "GLOW...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Bone Gauntlet meri haddiyon ko protect kar rahi hai... Lekin mera blood boil ho raha hai!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "ring of hollow blood spinning wildly",
+      "setting": "right hand",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The obsidian ring spins around his finger like a miniature turbine, drinking in ambient heat.",
+      "mood": "thermal heat sink",
+      "sfx": "WHIRRRR!!"
+    },
+    {
+      "id": "p07",
+      "shot": "ha-jun realizing the combination strategy",
+      "setting": "face close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's eyes widen through the smoke as the connection clicks in his mind.",
+      "mood": "epiphany",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Blood ring heat ko absorb kar sakti hai... Aur Bone gauntlet shock absorb karti hai!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p08",
+      "shot": "ha-jun circulating blood mana in reverse",
+      "setting": "full body",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun reverses his mana flow, drawing boiling crimson blood from his core into the cold bone channels.",
+      "mood": "reverse circulation",
+      "sfx": "SURGE!"
+    },
+    {
+      "id": "p09",
+      "shot": "boiling blood cooling through bone matrix",
+      "setting": "internal anatomy abstract",
+      "characters": [],
+      "action": "A stunning visualization shows scalding crimson blood flowing through ivory bone channels, cooling to liquid amethyst.",
+      "mood": "cooling synthesis",
+      "sfx": "CHILL..."
+    },
+    {
+      "id": "p10",
+      "shot": "ha-jun grasping the ashen heart with both hands",
+      "setting": "inside firestorm",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun plunges both hands directly into the core of the burning volcanic heart.",
+      "mood": "firm grip",
+      "sfx": "GRAB-SIZZLE!!"
+    },
+    {
+      "id": "p11",
+      "shot": "volcanic heart resisting with violent sparks",
+      "setting": "heart focus",
+      "characters": [],
+      "action": "The Ashen Heart thrashes in his grip, unleashing jagged bolts of black-and-purple lightning.",
+      "mood": "relic resistance",
+      "sfx": "ZAP-CRACKLE!!"
+    },
+    {
+      "id": "p12",
+      "shot": "ha-jun shouting with sovereign authority",
+      "setting": "inside firestorm",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun roars with the vocal weight of a primordial emperor, his voice echoing in ten dimensions.",
+      "mood": "sovereign roar",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "JHUK JAO!! MAIN HEIR HOON IS BLOODLINE KA!!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "the first sovereign giant shadow manifests",
+      "setting": "firestorm backdrop",
+      "characters": [],
+      "action": "Behind Ha-Jun, the towering four-horned silhouette of the First Demon Sovereign overlaps his frame.",
+      "mood": "ancestral avatar",
+      "sfx": "BOOOOOM..."
+    },
+    {
+      "id": "p14",
+      "shot": "ashen heart stopping its violent thrashing",
+      "setting": "heart focus",
+      "characters": [],
+      "action": "Recognizing the primordial authority, the volcanic heart instantly ceases its struggle.",
+      "mood": "subdued relic",
+      "sfx": "STILLNESS..."
+    },
+    {
+      "id": "p15",
+      "shot": "heart disintegrating into purple liquid flame",
+      "setting": "ha-jun hands",
+      "characters": [],
+      "action": "The solid charred heart dissolves into a concentrated orb of glowing liquid violet hellfire.",
+      "mood": "liquefaction",
+      "sfx": "MELT..."
+    },
+    {
+      "id": "p16",
+      "shot": "liquid fire sinking into ha-jun solar plexus",
+      "setting": "chest close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The sphere of violet flame sinks directly into the center of Ha-Jun's chest, right over his heart.",
+      "mood": "core absorption",
+      "sfx": "FUSSSION!!"
+    },
+    {
+      "id": "p17",
+      "shot": "pillar of fire imploding inward",
+      "setting": "magma cavern wide",
+      "characters": [],
+      "action": "The massive 50-foot tornado of fire suddenly implodes inward, sucked entirely into Ha-Jun's chest.",
+      "mood": "vacuum implosion",
+      "sfx": "WHOOOMP!!"
+    },
+    {
+      "id": "p18",
+      "shot": "shockwave of cool wind across magma lake",
+      "setting": "magma lake",
+      "characters": [],
+      "action": "A clean shockwave of cool amethyst wind ripples across the boiling lava, freezing the surface into obsidian crust.",
+      "mood": "thermal freeze",
+      "sfx": "CRACK-FREEZE..."
+    },
+    {
+      "id": "p19",
+      "shot": "ha-jun standing in steam mist",
+      "setting": "altar center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun stands motionless in the rising steam, his clothes shredded, exposing his bare athletic chest.",
+      "mood": "steaming hero",
+      "sfx": "HAAAH..."
+    },
+    {
+      "id": "p20",
+      "shot": "blazing violet flame crest burning on chest",
+      "setting": "chest macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Etched into the skin over his sternum: a glowing violet-and-crimson demonic lotus crest of fire.",
+      "mood": "crest branded",
+      "sfx": "GLOW..."
+    },
+    {
+      "id": "p21",
+      "shot": "ha-jun opening right palm",
+      "setting": "hand macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun raises his right hand and gently flexes his ring finger.",
+      "mood": "testing flame"
+    },
+    {
+      "id": "p22",
+      "shot": "wisp of violet flame dancing on fingertip",
+      "setting": "hand macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A mesmerizing miniature flame of violet hellfire ignites on his fingertip, burning without consuming oxygen.",
+      "mood": "flame mastered",
+      "sfx": "FWOOSH...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Flame of the Fallen... Yeh aag kisi physical fuel se nahi, mere will se chalti hai.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "coating the blood katana in violet fire",
+      "setting": "weapon macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun manifests The Sanguine Fang; the crimson blade instantly ignites with crackling violet flames.",
+      "mood": "ignited blood blade",
+      "sfx": "BLAZE-SHING!!"
+    },
+    {
+      "id": "p24",
+      "shot": "kuro landing on ha-jun shoulder with awe",
+      "setting": "altar center",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro stares at the flaming blood blade in stunned wonder: 'Incredible... First Sovereign ki exact technique!'",
+      "mood": "reverent wonder",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "The Bloodfire Katana! Teen relics ek saath harmonise ho gaye!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "system interface milestone alert",
+      "setting": "magma cavern",
+      "characters": [],
+      "action": "A massive golden interface scrolls down with dramatic celestial sound.",
+      "mood": "system celebration",
+      "sfx": "GONGGGG!!",
+      "dialogue": [
+        {
+          "type": "system",
+          "text": "[RELIC BONDED: THE ASHEN HEART (BASIC)]\nSynchronization: 35.0%\nNew Element Unlocked: Demonic Hellfire (Rank D)\nAttribute Fusion: Blood + Fire = Sanguine Pyre.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "shot": "ha-jun swinging flaming blade once",
+      "setting": "magma cavern",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun swings the flaming blade toward a distant 50-foot rock overhang.",
+      "mood": "display of power",
+      "sfx": "SWISH-BOOM!!"
+    },
+    {
+      "id": "p27",
+      "shot": "distant rock overhang sliced and incinerated",
+      "setting": "cavern wall",
+      "characters": [],
+      "action": "The massive rock formation is cleaved in half and instantly vaporized into fine violet ash before falling.",
+      "mood": "devastating destruction",
+      "sfx": "VAPORIZE!"
+    },
+    {
+      "id": "p28",
+      "shot": "ha-jun dispelling the blade with a breath",
+      "setting": "altar center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun exhales; the flaming blade dissolves back into his ring without expending an ounce of waste.",
+      "mood": "perfect control",
+      "sfx": "PUFF..."
+    },
+    {
+      "id": "p29",
+      "shot": "kuro looking at ha-jun chest crest",
+      "setting": "altar center",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro gestures to Ha-Jun's glowing chest: 'Lekin yeh abhi khatam nahi hua... Tri-Relic resonance shuru ho rahi hai!'",
+      "mood": "impending transformation",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Teeno Basic Relics ek saath activate ho rahe hain!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "all three relics glowing simultaneously",
+      "setting": "full body hero shot",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Kuro's Feather, the Blood Ring, and the Bone Gauntlet pulse in golden-violet harmony.",
+      "mood": "tri-resonance dawn",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Yeh feeling... Jaise mere andar ka koi tala hamesha ke liye toot raha ho!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    }
+  ]
+}

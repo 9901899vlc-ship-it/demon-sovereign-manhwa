@@ -1,0 +1,404 @@
+{
+  "chapter": 28,
+  "title": "Bone of the Forgotten",
+  "arc": 3,
+  "arc_title": "THE FIRST RELIC",
+  "summary": "Ha-Jun arrives at the desolate Incheon limestone quarry, descending into the sunken subterranean ossuary catacombs to locate the Bone of the Forgotten.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "abandoned incheon limestone quarry wide shot",
+      "setting": "quarry night wide",
+      "characters": [],
+      "action": "A colossal crater of jagged white limestone cliffs under heavy storm clouds; rusted cranes loom like skeletons.",
+      "mood": "bleak vastness",
+      "sfx": "WIND HOWLING..."
+    },
+    {
+      "id": "p02",
+      "shot": "van parked near rusted chainlink fence",
+      "setting": "quarry perimeter",
+      "characters": [],
+      "action": "The laundry van halts beside a bent 'DANGER: SINKHOLE COLLAPSE' hazard warning sign.",
+      "mood": "forbidden grounds"
+    },
+    {
+      "id": "p03",
+      "shot": "ha-jun stepping out into mud",
+      "setting": "quarry ground",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun steps onto the chalky limestone mud, wearing a dark hooded windbreaker over his uniform.",
+      "mood": "arrival",
+      "sfx": "SQUELCH..."
+    },
+    {
+      "id": "p04",
+      "shot": "kuro taking flight into fog",
+      "setting": "quarry mist",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro circles above through the dense limestone mist, scanning the quarry floor.",
+      "mood": "aerial scouting",
+      "sfx": "CAW!"
+    },
+    {
+      "id": "p05",
+      "shot": "gaping sinkhole rift in quarry floor",
+      "setting": "quarry center",
+      "characters": [],
+      "action": "In the lowest depression of the quarry, a 50-foot jagged chasm exhales bone-chilling white mist.",
+      "mood": "abyssal abyss entrance",
+      "sfx": "HSSSS..."
+    },
+    {
+      "id": "p06",
+      "shot": "min-jae handing flare launcher",
+      "setting": "quarry edge",
+      "characters": [],
+      "action": "Min-Jae hands Ha-Jun a heavy military flare gun and three crimson phosphorus cartridges.",
+      "mood": "preparation",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min-jae",
+          "text": "Agar niche radio signal cut ho jaye, toh red flare fire karna.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "ha-jun accepting the flare gun",
+      "setting": "quarry edge",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun pockets the flares and smiles with quiet gratitude: 'Yahan van mein safe rehna.'",
+      "mood": "brotherly bond",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Agar koi Hunter aaye, toh bina soche bhaag jana, samjhe?",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p08",
+      "shot": "ha-jun leaping down into chasm",
+      "setting": "quarry chasm",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun dives over the precipice into the white mist, using mana to glide along the sheer rock face.",
+      "mood": "reckless descent",
+      "sfx": "WHOOSH!!"
+    },
+    {
+      "id": "p09",
+      "shot": "landing in subterranean cavern",
+      "setting": "ossuary floor",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun lands in a three-point stance on cold, petrified white stone tiles 200 feet below ground.",
+      "mood": "impact landing",
+      "sfx": "THUD!!"
+    },
+    {
+      "id": "p10",
+      "shot": "pale luminescence in catacombs",
+      "setting": "ossuary interior",
+      "characters": [],
+      "action": "Faint cyan phosphorescence emanates from glowing mineral deposits lining the ancient arched limestone vault.",
+      "mood": "eerie crypt"
+    },
+    {
+      "id": "p11",
+      "shot": "ground paved with millions of petrified bones",
+      "setting": "floor macro",
+      "characters": [],
+      "action": "The entire floor is paved not with tiles, but with millions of calcified ancient demonic and human bones.",
+      "mood": "horrifying scale",
+      "sfx": "CRUNCH..."
+    },
+    {
+      "id": "p12",
+      "shot": "kuro landing on broken statue head",
+      "setting": "ossuary interior",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro alights atop the shattered stone head of a four-armed demon deity.",
+      "mood": "historical dread",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Welcome to the Tomb of the Million Martyrs. Yeh First Sovereign ki royal army ka burial ground hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "ha-jun walking among skeletal columns",
+      "setting": "ossuary interior",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun walks between colossal pillars carved directly from fused gigantic spinal columns.",
+      "mood": "sacred graveyard",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Itni ajeeb shanti hai yahan... jaise hazaron roohein so rahi hon.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "ring of hollow blood pulsing cold",
+      "setting": "hand macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The obsidian ring turns ice-cold, frosting over with white rime as it detects bone marrow resonance.",
+      "mood": "thermal reaction",
+      "sfx": "FREEZE..."
+    },
+    {
+      "id": "p15",
+      "shot": "quest window updating automatically",
+      "setting": "ossuary interior",
+      "characters": [],
+      "action": "The Sovereign Interface flashes with sharp bone-white runes.",
+      "mood": "system alert",
+      "sfx": "PING!",
+      "dialogue": [
+        {
+          "type": "system",
+          "text": "[QUEST ADVANCE: BASIC SEAL - PART 2]\nLocate the Sovereign's Bone.\nWarning: The Eternal Guardian slumbers nearby.\nAwakening Risk: Extreme.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "ha-jun reaching central dais",
+      "setting": "central dais wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "At the apex of a seven-tiered limestone staircase rests a crystalline ossuary altar.",
+      "mood": "altar discovery"
+    },
+    {
+      "id": "p17",
+      "shot": "floating petrified bone relic",
+      "setting": "altar close-up",
+      "characters": [],
+      "action": "Suspended above the altar: an intricate, 14-inch curved ivory bone relic engraved with glowing violet runes.",
+      "mood": "the bone of the forgotten",
+      "sfx": "HUMMM..."
+    },
+    {
+      "id": "p18",
+      "shot": "ha-jun reaching hand toward relic",
+      "setting": "altar close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun ascends the final step, reaching his right hand toward the suspended bone artifact.",
+      "mood": "close proximity"
+    },
+    {
+      "id": "p19",
+      "shot": "sudden earth-shaking tremor",
+      "setting": "ossuary chamber",
+      "characters": [],
+      "action": "The entire cavern violently shudders; bone pillars rattle as dust cascades from the ceiling.",
+      "mood": "seismic awakening",
+      "sfx": "BOOOOOMMM!!"
+    },
+    {
+      "id": "p20",
+      "shot": "bones on floor swirling in vortex",
+      "setting": "ossuary floor",
+      "characters": [],
+      "action": "Thousands of calcified bones across the floor begin swirling into a ferocious skeletal cyclone.",
+      "mood": "bone storm",
+      "sfx": "SWIRRRRLL!!"
+    },
+    {
+      "id": "p21",
+      "shot": "ha-jun jumping back in defense",
+      "setting": "altar steps",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun leaps backward four meters, landing on guard with hands up as wind lashes his coat.",
+      "mood": "defensive readiness",
+      "sfx": "SWOOSH!"
+    },
+    {
+      "id": "p22",
+      "shot": "kuro screeching battle alarm",
+      "setting": "ossuary interior",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro takes to the air, wings flaring with violet sparks: 'Guardian jaag chuka hai!'",
+      "mood": "battle alarm",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "kuro",
+          "text": "SKELETAL CENTURION! Apni talwar nikaalo, Ha-Jun!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "colossal skeletal titan forming",
+      "setting": "cavern center",
+      "characters": [],
+      "action": "From the bone cyclone rises a colossal 15-foot Skeletal Centurion clad in ancient oxidized bronze armor.",
+      "mood": "titan emergence",
+      "sfx": "CREAK-GROAN!!"
+    },
+    {
+      "id": "p24",
+      "shot": "centurion hollow eye sockets igniting",
+      "setting": "centurion face",
+      "characters": [],
+      "action": "Two blazing azure soul-flames ignite inside the Centurion's massive horned skull.",
+      "mood": "soul flame ignition",
+      "sfx": "FWOOSH!"
+    },
+    {
+      "id": "p25",
+      "shot": "centurion drawing colossal bone claymore",
+      "setting": "centurion weapon",
+      "characters": [],
+      "action": "With a terrifying scrape, the giant pulls an eight-foot serrated bone broadsword from its own spinal column.",
+      "mood": "lethal arming",
+      "sfx": "SHKKKKRR-CLANG!!"
+    },
+    {
+      "id": "p26",
+      "shot": "centurion voice shaking the cavern",
+      "setting": "ossuary chamber",
+      "characters": [],
+      "action": "A voice like grinding boulders booms through the air, vibrating Ha-Jun's eardrums.",
+      "mood": "ancient challenge",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "centurion",
+          "text": "KAUN HAI WOH NAADAN JO SOVEREIGN KI BONE KO CHHUNE AAYA HAI?!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "ha-jun staring up at giant",
+      "setting": "altar steps",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun gazes upward at the towering juggernaut, his heart hammering against his ribs.",
+      "mood": "intimidating scale",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Pandraah foot lamba... Iska ek strike mujhe pahaad ki tarah crush kar dega!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "centurion locking gaze on hajun ring",
+      "setting": "centurion face",
+      "characters": [],
+      "action": "The Centurion's azure eye-flames flicker as he notices the obsidian Ring of Hollow Blood on Ha-Jun's finger.",
+      "mood": "recognition"
+    },
+    {
+      "id": "p29",
+      "shot": "centurion raising sword to strike",
+      "setting": "cavern center",
+      "characters": [],
+      "action": "The giant raises his bone broadsword high overhead with both skeletal hands, aura blasting outward.",
+      "mood": "imminent blow",
+      "sfx": "ROARRRR!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "centurion",
+          "text": "PROVE THY BLOOD, MORTAL WHELP! OR BECOME DUST UPON THIS FLOOR!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun summoning blood blade with furious gaze",
+      "setting": "altar steps",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun draws his palm across his ring; The Sanguine Fang crystallizes in blazing crimson: 'Try me.'",
+      "mood": "duel commenced",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Aao phir... Dekhte hain tumhari talwar tez hai ya mera khoon!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    }
+  ]
+}

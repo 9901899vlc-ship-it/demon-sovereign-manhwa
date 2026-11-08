@@ -1,0 +1,407 @@
+{
+  "chapter": 29,
+  "title": "The Guardian's Test",
+  "arc": 3,
+  "arc_title": "THE FIRST RELIC",
+  "summary": "Ha-Jun faces the 15-foot Skeletal Centurion in a brutal trial of martial skill and sovereign authority, realizing brute force cannot crack ancient bone armor.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "centurion colossal downward cleave",
+      "setting": "ossuary floor",
+      "characters": [],
+      "action": "The Centurion slams his 8-foot bone claymore down with catastrophic kinetic force.",
+      "mood": "cataclysmic strike",
+      "sfx": "BOOOOOMMMM!!"
+    },
+    {
+      "id": "p02",
+      "shot": "limestone floor shattering into craters",
+      "setting": "ossuary floor",
+      "characters": [],
+      "action": "A 30-foot shockwave tears through the petrified floor, launching boulders and bone shards into the air.",
+      "mood": "ground rupture",
+      "sfx": "CRACK-BOOM!!"
+    },
+    {
+      "id": "p03",
+      "shot": "ha-jun midair evasive somersault",
+      "setting": "airborne",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun flips backwards in midair, wind buffeting his jacket as the shockwave rips beneath his boots.",
+      "mood": "agile evasion",
+      "sfx": "WHOOSH!"
+    },
+    {
+      "id": "p04",
+      "shot": "ha-jun landing on broken column",
+      "setting": "column top",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun lands lightly atop a sheared bone pillar, panting as white limestone dust swirls around him.",
+      "mood": "perched focus",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Agar woh blow touch bhi ho jata... toh instant death thi!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "centurion sweeping blade horizontally",
+      "setting": "ossuary floor",
+      "characters": [],
+      "action": "The Centurion spins with unnatural speed, sweeping the colossal blade in a 360-degree horizontal scythe.",
+      "mood": "sweeping strike",
+      "sfx": "SHVOOOM!!"
+    },
+    {
+      "id": "p06",
+      "shot": "pillar sheared in two",
+      "setting": "column collapse",
+      "characters": [],
+      "action": "The bone pillar beneath Ha-Jun's feet is sliced through like butter, toppling forward.",
+      "mood": "structure collapse",
+      "sfx": "CRASHHH!!"
+    },
+    {
+      "id": "p07",
+      "shot": "ha-jun leaping off falling pillar",
+      "setting": "midair",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun kicks off the falling slab, diving headfirst toward the Centurion's exposed neck with Sanguine Fang.",
+      "mood": "aerial counterattack",
+      "sfx": "FWOOSH!"
+    },
+    {
+      "id": "p08",
+      "shot": "blood blade striking neck collar",
+      "setting": "impact close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The crimson crystalline blade strikes the Centurion's hardened collarbone—and violently deflects with blinding sparks!",
+      "mood": "impenetrable armor",
+      "sfx": "CLANG-SPARK!!"
+    },
+    {
+      "id": "p09",
+      "shot": "ha-jun wide-eyed shock at deflection",
+      "setting": "midair",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's blade vibrates violently in his grip; the Centurion's bone doesn't show even a scratch.",
+      "mood": "weapon rebound",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Ek kharoch tak nahi aayi?! Iski density steel se bhi das guna zyada hai!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "centurion backhand slap in midair",
+      "setting": "ossuary combat",
+      "characters": [],
+      "action": "The Centurion's massive armored backhand sweeps across, swatting Ha-Jun like an insect.",
+      "mood": "heavy impact",
+      "sfx": "WHAMMM!!"
+    },
+    {
+      "id": "p11",
+      "shot": "ha-jun crashing into cavern wall",
+      "setting": "limestone wall",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun smashes into the solid limestone wall 40 feet away, cracking the stone and coughing blood.",
+      "mood": "painful collision",
+      "sfx": "CRUNCH!!"
+    },
+    {
+      "id": "p12",
+      "shot": "ha-jun sliding to floor spitting crimson",
+      "setting": "cavern base",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun slides down into the rubble, clutching his bruised ribs as blood trickles from his mouth.",
+      "mood": "injuries mounting",
+      "sfx": "COUGH...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Ugh... ribs crack ho gayi...",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "kuro diving past ha-jun face",
+      "setting": "cavern base",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro swoops down, screeching into Ha-Jun's ear: 'Taqat se mat lado, bewakoof!'",
+      "mood": "tactical advice",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Woh First Sovereign ki army ka Vanguard tha! Uski body externally indestructible hai!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "ha-jun looking up desperately",
+      "setting": "cavern base",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun wipes blood from his chin: 'Toh ise defeat kaise karun?!'",
+      "mood": "tactical inquiry",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Bahar se nahi tootega toh kahan se todein?!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "shot": "kuro pointing claw at centurion chest",
+      "setting": "cavern base",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro gestures toward the giant's ribcage: 'Soul Core! Uske sternum ke andar soul flame burn ho rahi hai!'",
+      "mood": "weak point revealed",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Khoon fluid hai... Gap dhoondo aur andar penetrate karo!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "centurion stomping forward with heavy thuds",
+      "setting": "ossuary floor",
+      "characters": [],
+      "action": "The Centurion marches toward Ha-Jun, dragging the bone blade along the floor with a terrifying screech.",
+      "mood": "inexorable advance",
+      "sfx": "SKRRRRR-THUD..."
+    },
+    {
+      "id": "p17",
+      "shot": "centurion mockery",
+      "setting": "ossuary chamber",
+      "characters": [],
+      "action": "The giant mocks him: 'IS THIS ALL THE SOVEREIGN'S HEIR HAS TO OFFER? A WEAKLING COWERING IN DUST!'",
+      "mood": "taunting titan",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "centurion",
+          "text": "TUM SOVEREIGN KE THRON KE LAAYAK NAHI HO!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "ha-jun standing up with cold eyes",
+      "setting": "cavern base",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun slowly pushes himself to his feet, violet and crimson flames swirling inside his irises.",
+      "mood": "awakened defiance",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Mujhe kisi ke throne ki parvah nahi... Mujhe apne bhai ko bachaana hai!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "ha-jun dissolving blood blade into liquid",
+      "setting": "center arena",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun releases the solid form of The Sanguine Fang; the blade liquefies into four swirling red serpents.",
+      "mood": "form change",
+      "sfx": "SHHH..."
+    },
+    {
+      "id": "p20",
+      "shot": "sprinting straight at the giant",
+      "setting": "center arena",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Instead of retreating, Ha-Jun sprints directly at the Centurion with maximum explosive acceleration.",
+      "mood": "head-on charge",
+      "sfx": "FWOOSH!!"
+    },
+    {
+      "id": "p21",
+      "shot": "centurion thrusting sword like battering ram",
+      "setting": "center arena",
+      "characters": [],
+      "action": "The Centurion thrusts the colossal sword point-blank straight at Ha-Jun's chest.",
+      "mood": "lethal lunge",
+      "sfx": "STABBB!!"
+    },
+    {
+      "id": "p22",
+      "shot": "ha-jun sliding on knees beneath the blade",
+      "setting": "under blade",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun slides along his knees across the bone floor, slipping clean under the giant blade's guard.",
+      "mood": "flawless slide",
+      "sfx": "SWOOSH!"
+    },
+    {
+      "id": "p23",
+      "shot": "looking up into centurion ribcage",
+      "setting": "under titan",
+      "characters": [
+        "hajun"
+      ],
+      "action": "From directly beneath, Ha-Jun sees the glowing azure soul flame burning behind the giant's interlocking ribs.",
+      "mood": "target locked"
+    },
+    {
+      "id": "p24",
+      "shot": "ha-jun ring blazing like a star",
+      "setting": "hand macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The Ring of Hollow Blood radiates blinding scarlet light as Ha-Jun channels his entire remaining mana.",
+      "mood": "mana concentration",
+      "sfx": "FLASH!!"
+    },
+    {
+      "id": "p25",
+      "shot": "four blood serpents compressing into a needle",
+      "setting": "combat macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The four swirling streams of blood condense into a hyper-dense, razor-thin crystalline blood needle.",
+      "mood": "piercing needle",
+      "sfx": "ZIPPPP!!"
+    },
+    {
+      "id": "p26",
+      "shot": "blood needle slipping between ribs",
+      "setting": "titan sternum",
+      "characters": [],
+      "action": "The blood needle slips perfectly through the millimeter gap between the third and fourth petrified ribs.",
+      "mood": "surgical strike",
+      "sfx": "PIERCE!"
+    },
+    {
+      "id": "p27",
+      "shot": "needle detonating inside soul core",
+      "setting": "titan interior",
+      "characters": [],
+      "action": "Inside the ribcage, the needle detonates into a radiant blossom of crimson thorns, puncturing the soul flame.",
+      "mood": "internal detonation",
+      "sfx": "KABOOOM-FZZT!!"
+    },
+    {
+      "id": "p28",
+      "shot": "centurion freezing in mid-motion",
+      "setting": "cavern center",
+      "characters": [],
+      "action": "The colossal giant freezes solid, azure flames spilling outward through every bone seam like cracks in glass.",
+      "mood": "system failure",
+      "sfx": "CREEEEAK..."
+    },
+    {
+      "id": "p29",
+      "shot": "centurion dropping colossal sword",
+      "setting": "cavern center",
+      "characters": [],
+      "action": "The 8-foot bone broadsword slips from the giant's fingers, crashing thunderously onto the limestone floor.",
+      "mood": "weapon dropped",
+      "sfx": "CLANG-CRASH!!"
+    },
+    {
+      "id": "p30",
+      "shot": "centurion slowly bending knee to hajun",
+      "setting": "cavern center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The titanic guardian sinks to one knee before Ha-Jun, bowing its massive horned skull in deep reverence.",
+      "mood": "subjugation",
+      "sfx": "THUD...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "centurion",
+          "text": "Thou hast the precision of the First Sovereign... I yield.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    }
+  ]
+}

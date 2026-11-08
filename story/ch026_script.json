@@ -1,0 +1,426 @@
+{
+  "chapter": 26,
+  "title": "Blood Blade",
+  "arc": 3,
+  "arc_title": "THE FIRST RELIC",
+  "summary": "Surrounded by scavenging ghouls, Ha-Jun unleashes the primary combat form of the Ring of Hollow Blood—condensing his own fluid blood into the razor-sharp crystalline katana: The Sanguine Fang.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "ghouls circling ha-jun wide shot",
+      "setting": "vault chamber",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Two remaining ghouls crawl along opposite walls, their jagged fangs dripping acidic venom onto the floor.",
+      "mood": "tense encirclement",
+      "sfx": "DRIP... SIZZLE..."
+    },
+    {
+      "id": "p02",
+      "shot": "ha-jun drawing right hand across palm",
+      "setting": "vault center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun runs his ring finger along his open palm, summoning a ribbon of glowing crimson blood.",
+      "mood": "weapon formulation",
+      "sfx": "SHHH..."
+    },
+    {
+      "id": "p03",
+      "shot": "liquid blood coiling in spiral",
+      "setting": "center focus",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The stream of blood swirls in an elegant vortex around his right forearm, thickening and hardening.",
+      "mood": "magical condensation",
+      "sfx": "WHIRRRR..."
+    },
+    {
+      "id": "p04",
+      "shot": "blood solidifying into crystalline edge",
+      "setting": "weapon macro",
+      "characters": [],
+      "action": "The fluid crystallizes with a glass-like chime, forming a 40-inch single-edged katana with dark crimson fuller.",
+      "mood": "blade forged",
+      "sfx": "CHIME-SHING!!"
+    },
+    {
+      "id": "p05",
+      "shot": "ha-jun gripping the blood hilt",
+      "setting": "medium hero shot",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's fingers wrap around the crimson hilt, violet lightning crackling down the length of the red blade.",
+      "mood": "sovereign swordsman",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Yeh talwar... mere haath ka hissa lagti hai. Koi wajan nahi, bilkul natural.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "kuro wide-eyed admiration",
+      "setting": "bookshelf",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro flutters his wings in dark satisfaction: 'The Sanguine Fang... Sovereign ki pehli talwar!'",
+      "mood": "guardian praise",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Ek bhi jhatka bekaar mat karna! Blood mana limit par hai!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "ghoul leaping from left wall",
+      "setting": "vault combat",
+      "characters": [],
+      "action": "The second ghoul kicks off a wooden bookcase, jaw unhinging to bite off Ha-Jun's head.",
+      "mood": "airborne assault",
+      "sfx": "ROARRR!!"
+    },
+    {
+      "id": "p08",
+      "shot": "ha-jun sidestepping with precision",
+      "setting": "vault combat",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun pivots smoothly on his left heel, the monster's teeth snapping mere millimeters past his face.",
+      "mood": "evasive master",
+      "sfx": "SWOOSH!"
+    },
+    {
+      "id": "p09",
+      "shot": "horizontal crimson slash",
+      "setting": "vault combat",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun executes a lightning-fast horizontal reverse slash, leaving a luminous red crescent arc in the air.",
+      "mood": "lethal strike",
+      "sfx": "SLASHHH!!"
+    },
+    {
+      "id": "p10",
+      "shot": "ghoul cleaved clean in half",
+      "setting": "vault combat",
+      "characters": [],
+      "action": "The ghoul's torso is cleanly sliced into two halves, dissolving into black ash before hitting the ground.",
+      "mood": "instant disintegration",
+      "sfx": "POOF-SIZZLE!"
+    },
+    {
+      "id": "p11",
+      "shot": "third ghoul fleeing in terror",
+      "setting": "vault exit",
+      "characters": [],
+      "action": "Seeing its packmate obliterated in one strike, the third ghoul turns and frantically scrambles toward the hatch.",
+      "mood": "panicked retreat",
+      "sfx": "SKRRR..."
+    },
+    {
+      "id": "p12",
+      "shot": "ha-jun locking eyes on runner",
+      "setting": "vault center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's crimson pupils dilate: 'Bhaagne nahi doonga.'",
+      "mood": "merciless focus",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Agar tum bahar gaye, toh innocent logon ko maar doge.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "throwing stance with blood blade",
+      "setting": "vault combat",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun shifts into an athletic javelin stance, the blood katana vibrating with concentrated mana.",
+      "mood": "ranged prep",
+      "sfx": "HMMM..."
+    },
+    {
+      "id": "p14",
+      "shot": "katana hurled like a crimson spear",
+      "setting": "vault corridor",
+      "characters": [],
+      "action": "The blood blade launches through the air like a scarlet railgun beam, breaking the sound barrier.",
+      "mood": "supersonic projectile",
+      "sfx": "BOOOOM-SHING!!"
+    },
+    {
+      "id": "p15",
+      "shot": "blade pinning ghoul to steel door",
+      "setting": "vault entrance",
+      "characters": [],
+      "action": "The blade impales the ghoul directly through the spine, pinning it three feet off the ground against the steel door.",
+      "mood": "pinned dead",
+      "sfx": "THUDDD!!"
+    },
+    {
+      "id": "p16",
+      "shot": "ghoul bursting into violet embers",
+      "setting": "steel door",
+      "characters": [],
+      "action": "The pinned demon disintegrates into black smoke and violet sparks, leaving only the embedded crimson blade.",
+      "mood": "ash dispersal",
+      "sfx": "FZZZT..."
+    },
+    {
+      "id": "p17",
+      "shot": "blade dissolving back into fluid",
+      "setting": "steel door",
+      "characters": [],
+      "action": "The crystalline katana dissolves back into a stream of pure crimson liquid, flowing through the air.",
+      "mood": "fluid recall",
+      "sfx": "GLIDE..."
+    },
+    {
+      "id": "p18",
+      "shot": "blood stream returning to ha-jun ring",
+      "setting": "vault center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The crimson stream spirals back into the Ring of Hollow Blood on Ha-Jun's finger, reabsorbing completely.",
+      "mood": "zero waste",
+      "sfx": "SIP...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Khoon wapas aa gaya... Toh main ise reuse kar sakta hoon!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "kuro nodding approvingly",
+      "setting": "bookshelf",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro glides down onto the pedestal: 'Khoon barbad nahi hota jab tak tum conscious ho.'",
+      "mood": "tactical explanation",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Lekin agar blade toot gaya ya evaporate hua, toh tumhara biological blood chala jayega.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "ha-jun smiling faintly",
+      "setting": "vault center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun flexes his fingers, feeling the thrill of combat power for the first time in his life.",
+      "mood": "empowerment",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Pehli baar... mujhe lag raha hai ki main kamzor nahi hoon.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "sudden vision flash in ha-jun head",
+      "setting": "mindscape abstract",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A violent psychic flash hits Ha-Jun's mind: an ancient battlefield covered in millions of crimson swords.",
+      "mood": "ancestral vision",
+      "sfx": "FLASH!!"
+    },
+    {
+      "id": "p22",
+      "shot": "giant silhouette on throne of blades",
+      "setting": "mindscape abstract",
+      "characters": [],
+      "action": "A titanic shadowy king with four demonic horns sits on an iron throne made of a thousand blood blades.",
+      "mood": "the first sovereign"
+    },
+    {
+      "id": "p23",
+      "shot": "ancient voice echoing in soul",
+      "setting": "mindscape abstract",
+      "characters": [],
+      "action": "Deep thunderous voice resonating: 'My blood still cuts... my wrath still breathes.'",
+      "mood": "sovereign memory",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "\"Mera khoon abhi bhi kaatta hai... mera krodh abhi bhi zinda hai.\"",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "ha-jun snapping back to reality",
+      "setting": "vault chamber",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun stumbles backward, blinking rapidly as the dark vision shatters like stained glass.",
+      "mood": "vision aftershock",
+      "sfx": "GASP!"
+    },
+    {
+      "id": "p25",
+      "shot": "min-jae voice on walkie-talkie",
+      "setting": "radio close-up",
+      "characters": [],
+      "action": "From Ha-Jun's belt, Min-Jae's urgent voice crackles over the handheld radio.",
+      "mood": "incoming communication",
+      "sfx": "KRRR-BEEP!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min-jae",
+          "text": "Ha-Jun! Bureau ke 3 tactical vans Insa-dong alley mein enter kar chuki hain!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "shot": "ha-jun responding into radio",
+      "setting": "vault chamber",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun brings the radio to his lips: 'Main Relic le chuka hoon. Rasta batao.'",
+      "mood": "calm tactical response",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Main secure hoon. Exit 4 se bahar aa raha hoon.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "min-jae tracking on laptop screen",
+      "setting": "subway van",
+      "characters": [],
+      "action": "Min-Jae types frantically on his laptop in a parked delivery van outside, monitoring radar pings.",
+      "mood": "hacker support",
+      "sfx": "CLACK-CLACK",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min-jae",
+          "text": "Tunnel ventilator B-3 open hai! Wahan se roof par niklo!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "ha-jun leaping toward high grating",
+      "setting": "vault chamber",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun springs off an antique desk, kicking upward through the open ceiling ventilation shaft.",
+      "mood": "swift departure",
+      "sfx": "WHOOSH!"
+    },
+    {
+      "id": "p29",
+      "shot": "kuro following in dark blur",
+      "setting": "vent shaft",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro follows close behind in a streak of purple smoke, chuckling softly.",
+      "mood": "shadow flight"
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun emerging onto rainy rooftop",
+      "setting": "city skyline night",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun bursts onto the rainy Seoul rooftop, city neon lights reflecting in his dual-ringed crimson eyes.",
+      "mood": "city hero silhouette",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Yeh toh bas shuruat hai. Abhi aath Relics baaki hain.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    }
+  ]
+}

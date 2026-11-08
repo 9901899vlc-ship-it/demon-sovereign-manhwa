@@ -1,0 +1,392 @@
+{
+  "chapter": 25,
+  "title": "Ring of Hollow Blood",
+  "arc": 3,
+  "arc_title": "THE FIRST RELIC",
+  "summary": "Ha-Jun approaches the obsidian pedestal to claim the Ring of Hollow Blood. An ancient demonic blood ward challenges his lineage, forcing him to offer his blood to shatter the seal and bind the Relic.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "wide shot ha-jun walking toward pedestal",
+      "setting": "vault interior",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's footsteps echo softly on the cracked marble mosaic floor as he approaches the glowing pedestal.",
+      "mood": "solemn approach",
+      "sfx": "STEP... STEP..."
+    },
+    {
+      "id": "p02",
+      "shot": "crimson light washing over ha-jun face",
+      "setting": "vault interior",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The pulsing ruby glow paints sharp blood-red highlights across Ha-Jun's pale cheeks and dark eyes.",
+      "mood": "eerie illumination"
+    },
+    {
+      "id": "p03",
+      "shot": "kuro landing on glass dome",
+      "setting": "pedestal",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro taps the reinforced spellbound glass with a sharp obsidian claw.",
+      "mood": "guardian inspection",
+      "sfx": "TINK-TINK",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Blood Seal of Agony. Sirf wahi ise chhu sakta hai jiske ragon mein Sovereign ka khoon behta ho.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "ancient inscription on stone base",
+      "setting": "pedestal base",
+      "characters": [],
+      "action": "Carved in archaic demonic cuneiform runes: 'Blood demands blood. The vessel must bleed to rule.'",
+      "mood": "ancient decree"
+    },
+    {
+      "id": "p05",
+      "shot": "ha-jun raising right palm",
+      "setting": "pedestal",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun stares at his open right palm, remembering how his blood awakened Kuro's feather on the rooftop.",
+      "mood": "resolute determination",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Agar mere bhai ne yeh sahe tha... toh main peeche nahi hatunga.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "ha-jun cutting thumb on glass rim",
+      "setting": "pedestal",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun presses his thumb firmly against the razor-sharp edge of the cracked reliquary glass.",
+      "mood": "self sacrifice",
+      "sfx": "SLICE..."
+    },
+    {
+      "id": "p07",
+      "shot": "crimson droplet falling in slow motion",
+      "setting": "macro air",
+      "characters": [],
+      "action": "A single sphere of dark scarlet blood falls in dramatic slow-motion toward the glowing red gem.",
+      "mood": "pivotal moment"
+    },
+    {
+      "id": "p08",
+      "shot": "blood impact on obsidian ring",
+      "setting": "ring macro",
+      "characters": [],
+      "action": "The droplet splashes against the liquid ruby center of the ring, causing an immediate blinding crimson flare.",
+      "mood": "chemical awakening",
+      "sfx": "TSSSSS!!"
+    },
+    {
+      "id": "p09",
+      "shot": "glass dome shattering into fragments",
+      "setting": "pedestal",
+      "characters": [],
+      "action": "The ancient spellbound glass dome violently implodes outward into glittering shards of ruby light.",
+      "mood": "explosive unsealing",
+      "sfx": "SHATTERRRR!!"
+    },
+    {
+      "id": "p10",
+      "shot": "ring levitating into air",
+      "setting": "vault center",
+      "characters": [],
+      "action": "The Ring of Hollow Blood levitates to eye-level, surrounded by swirling bands of crimson liquid mana.",
+      "mood": "divine relic ascension",
+      "sfx": "WHOOSH..."
+    },
+    {
+      "id": "p11",
+      "shot": "ha-jun reaching out hand",
+      "setting": "vault center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Drawn by an irresistible psychic pull, Ha-Jun slowly extends his right hand toward the levitating ring.",
+      "mood": "hypnotic bonding"
+    },
+    {
+      "id": "p12",
+      "shot": "ring snapping onto ring finger",
+      "setting": "macro hand",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The cold obsidian ring snaps onto Ha-Jun's right ring finger with a sharp metallic click, shrinking to fit snugly.",
+      "mood": "bonded",
+      "sfx": "CLICCKK!!"
+    },
+    {
+      "id": "p13",
+      "shot": "veins in arm turning bright crimson",
+      "setting": "arm close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "From his finger, a network of blazing scarlet veins spreads up his forearm, pulsing in sync with his heart.",
+      "mood": "bloodline invasion",
+      "sfx": "SURGE!"
+    },
+    {
+      "id": "p14",
+      "shot": "ha-jun screaming in agony",
+      "setting": "vault interior",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun arches his back, gasping as boiling liquid mana floods his arterial system with searing heat.",
+      "mood": "visceral pain",
+      "sfx": "ARGGGHHH!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "K-KHOON JAL RAHA HAI...!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "shot": "kuro flapping wings warning",
+      "setting": "vault interior",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro screeches from an antique bookshelf: 'Control karo, Ha-Jun! Apne circulation ko lead karo!'",
+      "mood": "guardian urgency",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Dard ko reject mat karo! Use apna banalo!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "ha-jun clenching fist against pain",
+      "setting": "vault interior",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun drops to one knee, smashing his left fist into the stone tiles to anchor his consciousness.",
+      "mood": "willpower",
+      "sfx": "CRACK!"
+    },
+    {
+      "id": "p17",
+      "shot": "eyes shifting from violet to dual crimson",
+      "setting": "face extreme close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "His pupils ignite into a double-ringed demonic eclipse: outer iris violet, inner core blazing ruby.",
+      "mood": "ascension gaze"
+    },
+    {
+      "id": "p18",
+      "shot": "blood droplets rising from floor",
+      "setting": "vault wide shot",
+      "characters": [],
+      "action": "Every drop of spilled blood across the cracked marble floor stops falling and begins floating upward in midair.",
+      "mood": "gravitational blood control",
+      "sfx": "FLOAT..."
+    },
+    {
+      "id": "p19",
+      "shot": "ha-jun breathing raggedly",
+      "setting": "vault interior",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun slowly rises to full height, exhaling a thin trail of crimson steam into the cold air.",
+      "mood": "calm after the storm",
+      "sfx": "HAAAH..."
+    },
+    {
+      "id": "p20",
+      "shot": "system status notification",
+      "setting": "vault interior",
+      "characters": [],
+      "action": "A brilliant gold-and-crimson status notification unfolds in his peripheral vision.",
+      "mood": "system success",
+      "sfx": "DING!",
+      "dialogue": [
+        {
+          "type": "system",
+          "text": "[RELIC BONDED: RING OF HOLLOW BLOOD (BASIC)]\nSynchronization: 28.5%\nNew Ability Unlocked: Blood Manipulation (Rank E)\nReduces blood loss by 80% during combat.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "ha-jun examining the ring",
+      "setting": "hand macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun rotates his hand; the ring pulses gently like an extra heartbeat directly tied to his pulse.",
+      "mood": "relic mastery",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Yeh ring... mere khoon ko mehsoos kar sakti hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "sudden snarling shadows in doorway",
+      "setting": "vault entrance",
+      "characters": [],
+      "action": "From the broken iron hatch and dark archways, three feral low-level Demonic Ghouls crawl into view.",
+      "mood": "incoming ambush",
+      "sfx": "GRRRRRRR..."
+    },
+    {
+      "id": "p23",
+      "shot": "ghoul design close-up",
+      "setting": "vault entrance",
+      "characters": [],
+      "action": "Pale grey rotting skin, elongated razor claws, and hollow empty eye sockets leaking black tar-like fluid.",
+      "mood": "monstrous threat",
+      "sfx": "HISS!!"
+    },
+    {
+      "id": "p24",
+      "shot": "kuro mockingly laughing",
+      "setting": "bookshelf",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro sneers: 'Relic ki awakening ne in rotten scavengers ko attract kiya hai.'",
+      "mood": "guardian banter",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Dekhte hain nayi ring kya kar sakti hai. Inhe apna dinner banao!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "first ghoul lunging through air",
+      "setting": "vault action",
+      "characters": [],
+      "action": "The largest ghoul leaps forward, jagged claws aimed straight at Ha-Jun's throat.",
+      "mood": "ferocious attack",
+      "sfx": "SWISH!"
+    },
+    {
+      "id": "p26",
+      "shot": "ha-jun raising right hand calmly",
+      "setting": "vault action",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun stands motionless, his gaze unblinking as the monster closes the distance.",
+      "mood": "fearless composure"
+    },
+    {
+      "id": "p27",
+      "shot": "blood droplets whipping into threads",
+      "setting": "vault action",
+      "characters": [
+        "hajun"
+      ],
+      "action": "With a flick of his ring finger, the floating blood droplets stretch into razor-sharp crimson threads.",
+      "mood": "thread manifestation",
+      "sfx": "SHING!!"
+    },
+    {
+      "id": "p28",
+      "shot": "crimson threads severing ghoul claws",
+      "setting": "vault action",
+      "characters": [],
+      "action": "The crimson blood threads slice cleanly through the ghoul's hardened stone-like claws in midair.",
+      "mood": "clean slice",
+      "sfx": "KSHHHH!!"
+    },
+    {
+      "id": "p29",
+      "shot": "ghoul recoiling in screeching shock",
+      "setting": "vault action",
+      "characters": [],
+      "action": "The beast crashes onto the tiles, black blood spurting from its severed stumps as it howls.",
+      "mood": "screeching agony",
+      "sfx": "SKREEECH!!"
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun readying combat stance",
+      "setting": "vault center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun steps forward, crimson mana swirling around his fingers: 'Ab meri baari.'",
+      "mood": "heroic battle promise",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Chalo... dekhte hain mera khoon aur kya kar sakta hai.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    }
+  ]
+}

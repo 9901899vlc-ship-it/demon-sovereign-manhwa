@@ -1,0 +1,503 @@
+{
+  "chapter": 27,
+  "title": "The Cost of Power",
+  "arc": 3,
+  "arc_title": "THE FIRST RELIC",
+  "summary": "Ha-Jun's excessive blood manipulation causes acute mana exhaustion and severe anemia. While recovering in a hideout, Kuro reveals the second basic relic—the Bone of the Forgotten—and the hidden cost of sovereign authority.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "neon rainy seoul alley wide shot",
+      "setting": "city alley night",
+      "characters": [],
+      "action": "Rain hammers down on neon signboards in a dark alleyway; steam rises from restaurant exhaust vents.",
+      "mood": "atmospheric rain",
+      "sfx": "PITTER-PATTER..."
+    },
+    {
+      "id": "p02",
+      "shot": "delivery van parked in shadows",
+      "setting": "city alley night",
+      "characters": [],
+      "action": "A faded grey laundry van sits with wipers running softly, headlights switched off.",
+      "mood": "covert hideout",
+      "sfx": "SWISH-SWISH..."
+    },
+    {
+      "id": "p03",
+      "shot": "van side door sliding open",
+      "setting": "van exterior",
+      "characters": [],
+      "action": "Ha-Jun drops silently from the fire escape landing right into the open sliding door.",
+      "mood": "safe landing",
+      "sfx": "THUD..."
+    },
+    {
+      "id": "p04",
+      "shot": "ha-jun collapsing onto floor mats",
+      "setting": "van interior",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The moment his feet touch the van floor, Ha-Jun's knees give out completely and he falls face-first onto foam mats.",
+      "mood": "sudden collapse",
+      "sfx": "CRASH..."
+    },
+    {
+      "id": "p05",
+      "shot": "min-jae rushing forward in panic",
+      "setting": "van interior",
+      "characters": [],
+      "action": "Min-Jae drops his tablet and lunges forward to catch Ha-Jun's shoulders: 'Ha-Jun! Kya hua?!'",
+      "mood": "brotherly concern",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "min-jae",
+          "text": "HA-JUN!! Tumhara shareer itna thanda kyu hai?!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "extreme close-up on ha-jun pale face",
+      "setting": "van interior",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's lips are completely white and bloodless, cold sweat plastering hair to his forehead, shivering uncontrollably.",
+      "mood": "acute anemia",
+      "sfx": "CHILLS..."
+    },
+    {
+      "id": "p07",
+      "shot": "ring of hollow blood pulsing faintly",
+      "setting": "hand macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The obsidian ring on his finger emits a dull, thready crimson pulse, as if starved for energy.",
+      "mood": "relic dormancy",
+      "sfx": "PULSE... pulse..."
+    },
+    {
+      "id": "p08",
+      "shot": "ha-jun coughing violently into cloth",
+      "setting": "van interior",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun coughs hoarsely into a cotton rag, wheezing as his chest heaves painfully.",
+      "mood": "respiratory strain",
+      "sfx": "COUGH-HACK!!"
+    },
+    {
+      "id": "p09",
+      "shot": "kuro landing on driver headrest",
+      "setting": "van interior",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro tilts his feathered head, inspecting Ha-Jun with strict demonic clinical detachment.",
+      "mood": "harsh truth",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Maine kaha tha... Insaani shareer Sovereign ki weaponized blood capacity ke liye abhi tayar nahi hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "min-jae measuring pulse on wrist",
+      "setting": "van interior",
+      "characters": [],
+      "action": "Min-Jae presses his fingers to Ha-Jun's carotid artery, eyes wide with medical alarm.",
+      "mood": "critical vitals",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min-jae",
+          "text": "Blood pressure dangerously low hai... Hemoglobin crash ho gaya! Ise hospital le jana hoga!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "kuro snapping wings angrily",
+      "setting": "van interior",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro snaps his beak: 'Hospital? Tum chahte ho Bureau ke doctor iska dissection karein?!'",
+      "mood": "vehement refusal",
+      "sfx": "SNAP!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "kuro",
+          "text": "Hospital bilkul nahi! Uska DNA ordinary humans se match nahi karega!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "ha-jun weakly raising hand to stop min-jae",
+      "setting": "van interior",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's trembling fingers grip Min-Jae's wrist: 'Kuro sahi keh raha hai... Hospital nahi.'",
+      "mood": "resolute resistance",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Kuro... iska ilaj kya hai?",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "kuro explaining metabolic requirement",
+      "setting": "van interior",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro explains: 'High-protein red meat, iron electrolytes, aur demon mana absorption.'",
+      "mood": "remedy guidance",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Tumhari marrow ordinary insaan se das guna tez blood cells banayegi agar fuel mile.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "min-jae unpacking cooler box",
+      "setting": "van interior",
+      "characters": [],
+      "action": "Min-Jae immediately tears open a thermal cooler box containing raw beef steaks and iron hydration pouches.",
+      "mood": "prepared ally",
+      "sfx": "RIPP!"
+    },
+    {
+      "id": "p15",
+      "shot": "ha-jun drinking iron hydration pack",
+      "setting": "van interior",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun greedily gulps down three metallic-tasting iron-rich nutritional packs in seconds.",
+      "mood": "nourishment",
+      "sfx": "GULP... GULP..."
+    },
+    {
+      "id": "p16",
+      "shot": "color returning to ha-jun lips",
+      "setting": "van interior",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Within moments, faint pink vitality creeps back into Ha-Jun's lips and fingertips as mana metabolizes the iron.",
+      "mood": "accelerated recovery",
+      "sfx": "SIGH..."
+    },
+    {
+      "id": "p17",
+      "shot": "system interface chiming warning",
+      "setting": "van interior",
+      "characters": [],
+      "action": "A glowing status box appears with yellow warning borders.",
+      "mood": "interface alert",
+      "sfx": "BEEP!",
+      "dialogue": [
+        {
+          "type": "system",
+          "text": "[SYSTEM WARNING: BIOLOGICAL STRAIN DETECTED]\nPhysical Vessel Durability: 18% (CRITICAL)\nBloodline Synchronization capped at 28.5% until bone density and skeletal framework are reinforced.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "ha-jun reading the restriction",
+      "setting": "van interior",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun reads the warning: 'Bone density and skeletal framework...?'",
+      "mood": "analytical inquiry",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Mera shareer mere blood pressure ko jhelne ke liye bohot kamzor hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "kuro chuckling darkly",
+      "setting": "van interior",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro hops onto Ha-Jun's knee: 'Yahi wajah hai ki First Sovereign ne Relics ko sequence mein banaya tha.'",
+      "mood": "lore master",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Pehle khoon... Phir haddi. Next relic hai: 'Bone of the Forgotten'.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "ha-jun leaning forward attentively",
+      "setting": "van interior",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun rubs his aching forearm bones: 'Bone of the Forgotten kya karti hai?'",
+      "mood": "eager student",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Woh meri haddiyon ko reinforce karegi?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "kuro describing relic power",
+      "setting": "van interior",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro explains: 'Woh ancient sovereign guard ka skeletal relic hai. Tumhare skeletal system ko diamond-hard armor mein convert karega.'",
+      "mood": "relic specification",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Khoon ka pressure kitna bhi badhe, tumhari haddiyan kabhi nahi tootengi.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "ha-jun asking for location",
+      "setting": "van interior",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun looks out the rain-streaked window: 'Woh kahan milegi?'",
+      "mood": "next target",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Kahan hai yeh second relic?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "min-jae typing on terminal",
+      "setting": "van interior",
+      "characters": [],
+      "action": "Min-Jae cross-references geological anomaly records on his encrypted laptop.",
+      "mood": "data search",
+      "sfx": "CLICK-CLACK",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min-jae",
+          "text": "Incheon ki purani abandoned limestone quarry... Wahan 1980 se zero seismic activity thi, lekin ab ajeeb vibration aa rahi hai.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "kuro confirming location",
+      "setting": "van interior",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro nods: 'Wahin hai. The Catacomb of the Forgotten.'",
+      "mood": "confirmation",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Lekin warning sun lo: use ek ancient Guardian protect kar raha hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "ha-jun tightening boot laces",
+      "setting": "van interior",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun sits up and firmly tightens the laces of his combat boots.",
+      "mood": "steadfast resolve",
+      "sfx": "TIGHTEN!"
+    },
+    {
+      "id": "p26",
+      "shot": "ha-jun looking at min-jae with resolve",
+      "setting": "van interior",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's eyes burn with dual violet-crimson rings: 'Main kamzor nahi reh sakta. Incheon chalo.'",
+      "mood": "determined command",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Incheon quarry ka rasta pakdo, Min-Jae. Humein subah se pehle pahunchna hai.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "min-jae shifting van into gear",
+      "setting": "van interior",
+      "characters": [],
+      "action": "Min-Jae nods firmly, gripping the gear stick and slamming his foot onto the accelerator.",
+      "mood": "allied dedication",
+      "sfx": "VROOM!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min-jae",
+          "text": "Seatbelt baandh lo. Route clear hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "van speeding into rainy highway",
+      "setting": "highway night wide shot",
+      "characters": [],
+      "action": "The grey van merges onto the wet, reflection-streaked Olympic Expressway through blinding rain.",
+      "mood": "journey begins",
+      "sfx": "SWOOSH..."
+    },
+    {
+      "id": "p29",
+      "shot": "kuro staring out through windshield",
+      "setting": "van interior",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro's eyes glow crimson in the dashboard darkness, muttering to himself.",
+      "mood": "ominous foresight",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "kuro",
+          "text": "Guardian aasan nahi hoga... Woh First Sovereign ka sabse faithful general tha.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun staring at his fist in reflection",
+      "setting": "car window reflection",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun gazes at his own clenched fist in the glass, the obsidian ring softly glowing red.",
+      "mood": "silent resolve",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Chahe meri saari haddiyan toot jayein... main apne bhai ko dhoondh kar rahunga.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    }
+  ]
+}

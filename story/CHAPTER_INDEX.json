@@ -166,70 +166,70 @@
           "chapter": 24,
           "title": "The Second Resonance",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch024_script.json"
         },
         {
           "chapter": 25,
           "title": "Ring of Hollow Blood",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch025_script.json"
         },
         {
           "chapter": 26,
           "title": "Blood Blade",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch026_script.json"
         },
         {
           "chapter": 27,
           "title": "The Cost of Power",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch027_script.json"
         },
         {
           "chapter": 28,
           "title": "Bone of the Forgotten",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch028_script.json"
         },
         {
           "chapter": 29,
           "title": "The Guardian's Test",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch029_script.json"
         },
         {
           "chapter": 30,
           "title": "The Second Bond",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch030_script.json"
         },
         {
           "chapter": 31,
           "title": "The Ashen Heart",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch031_script.json"
         },
         {
           "chapter": 32,
           "title": "Flame of the Fallen",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch032_script.json"
         },
         {
           "chapter": 33,
           "title": "Three Seals Broken",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch033_script.json"
         }
       ]

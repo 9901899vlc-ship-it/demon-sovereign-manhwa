@@ -1,0 +1,433 @@
+{
+  "chapter": 33,
+  "title": "Three Seals Broken",
+  "arc": 3,
+  "arc_title": "THE FIRST RELIC",
+  "summary": "With all three Basic Relics bonded, the Tri-Basic Seal shatters. The Sovereign Crest manifests on Ha-Jun's body, permanently shifting his eyes to dual-ringed crimson-violet as Hunter Bureau satellites track the massive energy spike.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "tri-resonance geometric energy circle",
+      "setting": "magma cavern wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Around Ha-Jun, three concentric circles of ancient demonic runes rotate at blinding speed in midair.",
+      "mood": "tri-seal manifestation",
+      "sfx": "HUMMMMMM..."
+    },
+    {
+      "id": "p02",
+      "shot": "macro on kuro feather in pocket",
+      "setting": "chest macro",
+      "characters": [],
+      "action": "Kuro's Fallen Feather radiates celestial violet light, resonating with the Ashen Heart.",
+      "mood": "feather resonance",
+      "sfx": "PULSE..."
+    },
+    {
+      "id": "p03",
+      "shot": "macro on ring of hollow blood",
+      "setting": "hand macro",
+      "characters": [],
+      "action": "The Ring of Hollow Blood pulses with liquid crimson radiance, circulating power through his veins.",
+      "mood": "ring resonance",
+      "sfx": "PULSE..."
+    },
+    {
+      "id": "p04",
+      "shot": "macro on bone of the forgotten",
+      "setting": "arm macro",
+      "characters": [],
+      "action": "The Bone Gauntlet hums with ivory luminescence, anchoring the explosive energy into his marrow.",
+      "mood": "bone resonance",
+      "sfx": "PULSE..."
+    },
+    {
+      "id": "p05",
+      "shot": "three beams of light striking ha-jun core",
+      "setting": "cavern center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The three energy currents intersect directly over the lotus fire crest on his sternum.",
+      "mood": "triangular convergence",
+      "sfx": "ZAP-CONVERGE!!"
+    },
+    {
+      "id": "p06",
+      "shot": "celestial sound of ancient chains snapping",
+      "setting": "mindscape abstract",
+      "characters": [],
+      "action": "In Ha-Jun's mental plane, three colossal iron chains wrapped around a black iron throne snap like thread.",
+      "mood": "seals shattering",
+      "sfx": "CLANGGG-SNAP!!",
+      "dialogue": [
+        {
+          "type": "system",
+          "text": "[SYSTEM NOTIFICATION: TRI-BASIC SEAL SHATTERED]\nAll 3 Foundation Relics Unified.\nDemon Sovereign Bloodline Evolution: STAGE 1 COMPLETE.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "shockwave blasting out of bukhansan cavern",
+      "setting": "mountain exterior",
+      "characters": [],
+      "action": "A column of invisible mana pressure blasts upward through Bukhansan peak, parting storm clouds in a five-mile ring.",
+      "mood": "sky parting shockwave",
+      "sfx": "THUNDER-BOOM!!"
+    },
+    {
+      "id": "p08",
+      "shot": "blue morning sky revealed through cloud hole",
+      "setting": "mountain sky",
+      "characters": [],
+      "action": "Clear blue morning sunlight streams down through the circular hole in the clouds onto the mountain ridge.",
+      "mood": "sunlight breaking"
+    },
+    {
+      "id": "p09",
+      "shot": "hunter bureau satellite control center",
+      "setting": "bureau headquarters",
+      "characters": [],
+      "action": "Inside the high-tech Hunter Bureau Command Center in Gangnam: red alarms flash across 50 giant screens.",
+      "mood": "emergency alarm",
+      "sfx": "KLAXON WAIILING!!"
+    },
+    {
+      "id": "p10",
+      "shot": "technician panicking over thermal spike",
+      "setting": "bureau headquarters",
+      "characters": [],
+      "action": "A technician in a black suit drops his coffee mug as digital gauges spike off the charts.",
+      "mood": "panic at bureau",
+      "sfx": "SMASH!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "technician",
+          "text": "CHAIRMAN!! Bukhansan Sector 4 mein SSS-Rank energy signature detect hua hai!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "supreme director kang staring at satellite feed",
+      "setting": "bureau office",
+      "characters": [],
+      "action": "Supreme Director Kang—a cold, silver-haired man in a military trenchcoat—stares at the thermal heatmap.",
+      "mood": "cold arch-villain",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "director_kang",
+          "text": "SSS-Rank...? Demon Kings toh Abyss mein band hain. Yeh kiska wavelength hai?",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "captain baek stepping out of shadows",
+      "setting": "bureau office",
+      "characters": [],
+      "action": "Captain Baek, his arm still bandaged from Chapter 22, enters the office with dark intensity.",
+      "mood": "bitter rival",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "captain_baek",
+          "text": "Yeh wahi ladka hai, Director... Ha-Jun Kang. Uska bloodline accelerate ho raha hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "director kang crushing crystal glass in hand",
+      "setting": "bureau office",
+      "characters": [],
+      "action": "Director Kang crushes his whiskey glass to powder, dark demonic veins flickering beneath his human collar.",
+      "mood": "corrupt secret",
+      "sfx": "CRUSH!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "director_kang",
+          "text": "Special Kill Team Alpha ko deploy karo. Ha-Jun ko zinda ya murda... mujhe uska dil chahiye.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "back inside cavern ha-jun body transformation",
+      "setting": "magma cavern",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Back in the cavern, the blinding light subsides, revealing Ha-Jun's completed evolution.",
+      "mood": "evolution reveal",
+      "sfx": "MIST HISSING..."
+    },
+    {
+      "id": "p15",
+      "shot": "jet black hair with silver-violet tips",
+      "setting": "face close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's messy black hair now features subtle silver-violet highlights that catch the light like polished obsidian.",
+      "mood": "hair evolution"
+    },
+    {
+      "id": "p16",
+      "shot": "dual-ringed eyes permanently set",
+      "setting": "eyes extreme macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "His eyes are permanently altered: sharp violet irises ringed with a thin, glowing crimson outer eclipse.",
+      "mood": "sovereign gaze"
+    },
+    {
+      "id": "p17",
+      "shot": "sovereign crest gleaming on sternum",
+      "setting": "chest macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The Sovereign Crest on his chest has deepened into a permanent obsidian-and-ruby demonic brand.",
+      "mood": "permanent tattoo brand"
+    },
+    {
+      "id": "p18",
+      "shot": "ha-jun exhaling white mist",
+      "setting": "medium shot",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun breathes out a cloud of white condensation, feeling superhuman vitality coursing through every capillary.",
+      "mood": "rebirth",
+      "sfx": "EXHALE...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Main ab thaka hua feel nahi kar raha... Mere andar energy ka azeem samundar hai.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "kuro perching proudly on ha-jun shoulder",
+      "setting": "altar center",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro ruffles his obsidian feathers, puffing out his chest with guardian pride.",
+      "mood": "triumphant familiar",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Stage 1 complete! Ab tum ordinary hunters ke target nahi rahe... Tum unke nightmare ban chuke ho!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "ha-jun summoning and testing abilities simultaneously",
+      "setting": "altar center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "With a thought, Ha-Jun summons the Bone Gauntlet on his left arm and a Bloodfire Katana in his right hand.",
+      "mood": "dual wield mastery",
+      "sfx": "SHING-FWOOSH!!"
+    },
+    {
+      "id": "p21",
+      "shot": "flaming blood blade reflecting off bone armor",
+      "setting": "combat stance hero shot",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The violet hellfire from the crimson blade casts dancing highlights against the polished ivory bone gauntlet.",
+      "mood": "peerless visual aesthetic"
+    },
+    {
+      "id": "p22",
+      "shot": "ha-jun sheathing the blade into his blood",
+      "setting": "altar center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun smoothly folds his fingers, dissolving both weapons back into his body seamlessly in half a second.",
+      "mood": "instant arm/disarm",
+      "sfx": "SNAP..."
+    },
+    {
+      "id": "p23",
+      "shot": "min-jae voice on walkie-talkie",
+      "setting": "radio close-up",
+      "characters": [],
+      "action": "Min-Jae's voice bursts through the radio with breathless excitement: 'Ha-Jun! Pura mountain shake hua tha!'",
+      "mood": "excited ally",
+      "sfx": "KRRR-BEEP!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min-jae",
+          "text": "Tum theek ho na?! Satellite scans mein massive energy spike dikh raha hai!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "ha-jun answering with calm confidence",
+      "setting": "altar center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun clips the radio to his collar: 'Main theek hoon, Min-Jae. Aur pehle se bohot behtar hoon.'",
+      "mood": "serene confidence",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Main upar aa raha hoon. Car start rakho.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "ha-jun leaping effortlessly up the cavern ramp",
+      "setting": "volcanic tunnel",
+      "characters": [
+        "hajun"
+      ],
+      "action": "With single 20-foot leaps, Ha-Jun bounds up the basalt incline like a phantom in the shadows.",
+      "mood": "effortless traversal",
+      "sfx": "SWOOSH!!"
+    },
+    {
+      "id": "p26",
+      "shot": "ha-jun emerging behind the waterfall",
+      "setting": "mountain waterfall",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun parts the falling sheets of icy water, stepping out onto the sunlit mountain trail.",
+      "mood": "dramatic emergence",
+      "sfx": "SPLASH..."
+    },
+    {
+      "id": "p27",
+      "shot": "min-jae staring in utter awe at hajun",
+      "setting": "mountain trail",
+      "characters": [],
+      "action": "Min-Jae freezes with van keys in hand, staring at Ha-Jun's sharpened jawline and glowing dual-ringed eyes.",
+      "mood": "stunned classmate",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min-jae",
+          "text": "Ha-Jun... Tumhara aura... Tum bilkul badal chuke ho.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "ha-jun pulling up his windbreaker hood",
+      "setting": "mountain trail",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun pulls the black hood over his silver-tipped black fringe, his dual eyes glowing in the shadow.",
+      "mood": "cloaked protagonist",
+      "sfx": "ZIP...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Hunters humare peeche aane wale hain. Ab humein chupne ki zaroorat nahi hai.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "three black bureau attack helicopters appearing on horizon",
+      "setting": "mountain sky wide",
+      "characters": [],
+      "action": "Far over the Seoul skyline, three stealth attack helicopters bearing the Hunter Bureau eagle emblem approach.",
+      "mood": "the hunt escalates",
+      "sfx": "THWIP-THWIP-THWIP..."
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun and kuro facing the approaching helicopters",
+      "setting": "mountain ridge cliff",
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
+      "action": "Standing on the granite precipice overlooking Seoul, Ha-Jun and Kuro stare fearlessly at the incoming armada.",
+      "mood": "arc 3 climax / arc 4 war setup",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Agar Hunter Bureau jung chahta hai... Toh jung hi sahi.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    }
+  ]
+}

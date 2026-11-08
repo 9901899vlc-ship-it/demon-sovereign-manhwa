@@ -1,0 +1,416 @@
+{
+  "chapter": 31,
+  "title": "The Ashen Heart",
+  "arc": 3,
+  "arc_title": "THE FIRST RELIC",
+  "summary": "Ha-Jun and Min-Jae travel to the volcanic depths beneath Bukhansan mountain. Navigating boiling sulfur vents and magma lakes, Ha-Jun discovers the third basic relic: The Ashen Heart.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "bukhansan mountain at morning wide shot",
+      "setting": "mountain dawn wide",
+      "characters": [],
+      "action": "The jagged granite peaks of Bukhansan National Park shrouded in mysterious crimson morning mist.",
+      "mood": "majestic mountain",
+      "sfx": "WIND..."
+    },
+    {
+      "id": "p02",
+      "shot": "hidden cave mouth behind waterfall",
+      "setting": "mountain waterfall",
+      "characters": [],
+      "action": "Behind a roaring frozen waterfall, an ancient cavern mouth glows with unnatural volcanic orange heat.",
+      "mood": "secret entrance",
+      "sfx": "ROAR-SPLASH..."
+    },
+    {
+      "id": "p03",
+      "shot": "min-jae checking geiger counter",
+      "setting": "cave entrance",
+      "characters": [],
+      "action": "Min-Jae holds a specialized mana-radiation detector; the needle pegs into the red zone.",
+      "mood": "radiation hazard",
+      "sfx": "CLICK-CLICK-CLICK!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min-jae",
+          "text": "Is cave ke niche magma ka flow normal nahi hai... Yeh pure Demonic Hellfire source hai!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "ha-jun wearing heat-resistant tactical gear",
+      "setting": "cave entrance",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun tightens his tactical gloves, his white bone gauntlet concealed under a dark thermal sleeve.",
+      "mood": "prep for heat",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Tum yahan entrance par hi ruko, Min-Jae. Niche ka temperature insaan ke liye fatal hai.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "min-jae handing cooling thermal canister",
+      "setting": "cave entrance",
+      "characters": [],
+      "action": "Min-Jae hands over an aerosol cryo-canister: 'Ise emergency mein use karna.'",
+      "mood": "caring backup",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min-jae",
+          "text": "Sambhal kar, Ha-Jun. Bhai ke baad tum hi mere sabse acche dost ho.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "ha-jun nodding warmly",
+      "setting": "cave entrance",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun smiles with quiet gratitude: 'Main zinda wapas aaunga, promise.'",
+      "mood": "friendship vow"
+    },
+    {
+      "id": "p07",
+      "shot": "descending into volcanic subterranean tunnel",
+      "setting": "volcanic tunnel",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun descends down a steep obsidian ramp; walls of glowing red magma veins illuminate the dark.",
+      "mood": "scorching descent",
+      "sfx": "CRACKLE..."
+    },
+    {
+      "id": "p08",
+      "shot": "kuro flying unbothered by heat",
+      "setting": "volcanic tunnel",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro glides effortlessly through the thermal updrafts, obsidian feathers shimmering with purple embers.",
+      "mood": "demon familiarity",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Aah... Yeh garmi mujhe home realm ki yaad dilati hai!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "boiling sulfur lake reveal",
+      "setting": "magma cavern wide",
+      "characters": [],
+      "action": "A vast underground cavern opens up: a boiling lake of bubbling crimson-orange magma stretching 300 meters across.",
+      "mood": "colossal magma chamber",
+      "sfx": "BLUB... BLUB... ROAR!!"
+    },
+    {
+      "id": "p10",
+      "shot": "steep stone pillars sticking out of lava",
+      "setting": "magma lake",
+      "characters": [],
+      "action": "Jagged black basalt stepping stones rise out of the boiling lava, forming a precarious path to the center.",
+      "mood": "dangerous path"
+    },
+    {
+      "id": "p11",
+      "shot": "ha-jun wiping sweat from cheek",
+      "setting": "basalt ledge",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun stands on the basalt ledge; the ambient air is over 60 degrees Celsius, air shimmering with heat mirages.",
+      "mood": "suffocating heat",
+      "sfx": "PHEW...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Har saans lene par gale mein aag lag rahi hai... Lekin mujhe aage badhna hoga.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "ha-jun leaping across basalt pillars",
+      "setting": "magma lake",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun leaps from pillar to pillar with nimble athletic balance, lava bubbling mere feet below.",
+      "mood": "high-stakes parkour",
+      "sfx": "LEAP!!"
+    },
+    {
+      "id": "p13",
+      "shot": "magma salamander fiend erupting from lava",
+      "setting": "magma lake",
+      "characters": [],
+      "action": "A 10-foot armored Magma Salamander with molten rock scales erupts from the boiling lake, snapping jaws.",
+      "mood": "monster ambush",
+      "sfx": "SPLASH-ROARRR!!"
+    },
+    {
+      "id": "p14",
+      "shot": "salamander spitting jet of liquid flame",
+      "setting": "magma lake",
+      "characters": [],
+      "action": "The beast spews a torrent of 1,000-degree liquid hellfire straight toward Ha-Jun's landing spot.",
+      "mood": "flame breath",
+      "sfx": "FWOOOOOM!!"
+    },
+    {
+      "id": "p15",
+      "shot": "ha-jun blocking with bone gauntlet",
+      "setting": "basalt pillar",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun raises his left arm; the white bone gauntlet interlocks, forming a solid shield that deflects the molten spray.",
+      "mood": "impenetrable shield",
+      "sfx": "SIZZLE-DEFLECT!!"
+    },
+    {
+      "id": "p16",
+      "shot": "kuro cheering from air",
+      "setting": "magma cavern",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro cackles: 'Dekha?! Bone of the Forgotten molten rock ko bhi block karti hai!'",
+      "mood": "armor vindication",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Ab ise khatam karo! Sanguine Fang!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "ha-jun manifesting blood blade",
+      "setting": "basalt pillar",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun draws his blood katana; the intense heat causes the crimson blade to hiss with boiling steam.",
+      "mood": "steaming blade",
+      "sfx": "TSSSSS!!"
+    },
+    {
+      "id": "p18",
+      "shot": "ha-jun launching off pillar at salamander",
+      "setting": "midair",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun vaults forward, slicing cleanly through the beast's armored neck in a diagonal aerial stroke.",
+      "mood": "clean decapitation",
+      "sfx": "SLASHHH!!"
+    },
+    {
+      "id": "p19",
+      "shot": "beast collapsing back into lava",
+      "setting": "magma lake",
+      "characters": [],
+      "action": "The headless salamander splashes back into the boiling magma, dissolving into liquid rock.",
+      "mood": "threat neutralized",
+      "sfx": "SPLASH..."
+    },
+    {
+      "id": "p20",
+      "shot": "ha-jun landing on central obsidian altar",
+      "setting": "central obsidian island",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun lands firmly on a circular black volcanic glass platform in the dead center of the lake.",
+      "mood": "sanctuary reached",
+      "sfx": "TAP..."
+    },
+    {
+      "id": "p21",
+      "shot": "the ashen heart suspended in midair",
+      "setting": "altar macro",
+      "characters": [],
+      "action": "Floating above an obsidian basin: a charred, petrified volcanic heart the size of a human skull, beating with violet flame.",
+      "mood": "the ashen heart",
+      "sfx": "THUMP... THUMP..."
+    },
+    {
+      "id": "p22",
+      "shot": "violet-crimson hellfire leaking from fissures",
+      "setting": "heart close-up",
+      "characters": [],
+      "action": "From the cracks in the volcanic heart, wisps of violet-and-crimson demonic flame hiss into the sulfurous air.",
+      "mood": "hellfire aura",
+      "sfx": "CRACKLE..."
+    },
+    {
+      "id": "p23",
+      "shot": "kuro landing on basin rim",
+      "setting": "altar focus",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro's eyes burn with solemn reverence: 'The Ashen Heart. First Sovereign ke wrath ka pyre.'",
+      "mood": "relic revelation",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Yeh relic tumhare andar Hellfire control ko unleash karega.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "ha-jun staring at beating flame heart",
+      "setting": "altar focus",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun can hear the rhythmic thumping of the heart synchronizing with his own chest.",
+      "mood": "acoustic resonance",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Meri heartbeat... iske saath align ho rahi hai.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "kuro delivering warning",
+      "setting": "altar focus",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro warns him strictly: 'Agar tumhara will kamzor pada, toh yeh aag tumhare organs ko raakh bana degi.'",
+      "mood": "mortal danger",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Ise absorb karne ke liye tumhe apne dono relics ko synchronize karna hoga!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "shot": "ha-jun extending both hands",
+      "setting": "altar focus",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun extends his left bone gauntlet and his right ringed hand, forming a dual-relic containment field.",
+      "mood": "dual relic stance",
+      "sfx": "HUMMM..."
+    },
+    {
+      "id": "p27",
+      "shot": "violet and crimson mana intertwining",
+      "setting": "air between hands",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A double-helix of violet mana and crimson blood spirals out from his palms, wrapping around the burning heart.",
+      "mood": "containment vortex",
+      "sfx": "SWIRL!!"
+    },
+    {
+      "id": "p28",
+      "shot": "the ashen heart vibrating with violent fury",
+      "setting": "heart focus",
+      "characters": [],
+      "action": "The charred heart shrieks like an awakening furnace, unleashing a deafening blast of violet hellfire.",
+      "mood": "elemental explosion",
+      "sfx": "ROARRRRRR!!"
+    },
+    {
+      "id": "p29",
+      "shot": "flames engulfing ha-jun in a pillar of fire",
+      "setting": "central island wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A 50-foot tornado of violet-crimson hellfire erupts skyward, completely swallowing Ha-Jun's silhouette.",
+      "mood": "pillar of fire",
+      "sfx": "FWOOOOOSHHH!!"
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun eyes burning through the firestorm",
+      "setting": "silhouette close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Inside the raging inferno, Ha-Jun's eyes ignite with blinding white-violet power as he refuses to yield.",
+      "mood": "trial of fire begins",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "MAIN TUJHE CONTROL KAR KE RAHUNGA... ASHEN HEART!!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    }
+  ]
+}

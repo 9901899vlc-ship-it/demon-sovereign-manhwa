@@ -1,0 +1,445 @@
+{
+  "chapter": 24,
+  "title": "The Second Resonance",
+  "arc": 3,
+  "arc_title": "THE FIRST RELIC",
+  "summary": "Following their escape from Saint Mirren, Ha-Jun and Min-Jae take shelter in a disused subway depot. Kuro's Feather pulses with violent violet light, homing in on an antique vault in Insa-dong where the Ring of Hollow Blood slumbers.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "abandoned subway depot wide shot",
+      "setting": "subway depot",
+      "characters": [],
+      "action": "Faint moonlight trickles through rusted steel ventilation grates onto abandoned train cars.",
+      "mood": "eerie silence"
+    },
+    {
+      "id": "p02",
+      "shot": "min-jae setting down medical kit",
+      "setting": "subway depot",
+      "characters": [],
+      "action": "Min-Jae opens an emergency medical kit on an overturned wooden crate, hands trembling slightly.",
+      "mood": "tense relief",
+      "sfx": "CLACK..."
+    },
+    {
+      "id": "p03",
+      "shot": "ha-jun leaning against rusted train",
+      "setting": "subway depot",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun rests against the corrugated steel wall of a subway car, his uniform torn and dusted with concrete powder.",
+      "mood": "exhausted calm",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Shukriya, Min-Jae... Agar tum na aate, toh Captain Baek mujhe pakad leta.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "min-jae bandaging knuckles",
+      "setting": "subway depot",
+      "characters": [],
+      "action": "Min-Jae tightly wraps sterile gauze around Ha-Jun's scraped knuckles.",
+      "mood": "loyalty and care",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min-jae",
+          "text": "Dosti mein hisaab nahi hota, Ha-Jun. Lekin jo maine dekha... woh koi ordinary magic nahi tha.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "kuro perched on rusted steel girder",
+      "setting": "subway depot",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro folds his obsidian wings on an overhead steel beam, his red eyes piercing the darkness.",
+      "mood": "vigilant predator",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Ordinary? Heh! Yeh ancient Sovereign ki authority hai, ladke.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "sudden violet flash in pocket",
+      "setting": "subway depot",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Inside Ha-Jun's breast pocket, Kuro's Fallen Feather suddenly ignites with a violent neon-violet pulse.",
+      "mood": "startling resonance",
+      "sfx": "THUMP-PULSE!!"
+    },
+    {
+      "id": "p07",
+      "shot": "ha-jun clutching chest pocket",
+      "setting": "subway depot",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun winces as a sharp electric jolt travels from the feather straight into his heart ventricles.",
+      "mood": "painful resonance",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Yeh aag... mere seene mein achanak itni tez kyu jalne lagi?!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p08",
+      "shot": "feather floating out into air",
+      "setting": "subway depot",
+      "characters": [],
+      "action": "The obsidian feather slips out of the blazer pocket, levitating horizontally in midair, pointing dead north.",
+      "mood": "supernatural compass",
+      "sfx": "HUMMMMMM..."
+    },
+    {
+      "id": "p09",
+      "shot": "kuro spreading wings wide",
+      "setting": "subway depot",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro glides down from the girder, feathers bristling with excitement: 'Dusra Relic jaag chuka hai!'",
+      "mood": "urgent revelation",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "The Ring of Hollow Blood... usne tumhari awakened wavelength pakad li hai!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "sovereign quest interface manifests",
+      "setting": "subway depot",
+      "characters": [],
+      "action": "A glowing purple-black holographic system window projects into Ha-Jun's retina.",
+      "mood": "system interface",
+      "sfx": "PING!",
+      "dialogue": [
+        {
+          "type": "system",
+          "text": "[QUEST TRIGGERED: THE BASIC SEAL - PART 1]\nClaim the Ring of Hollow Blood within 60 minutes.\nLocation: Insa-dong Vault 07.\nPenalty upon failure: Bloodline Instability.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "ha-jun staring at countdown",
+      "setting": "subway depot",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's violet pupils narrow as a 59:59 digital countdown begins ticking backward.",
+      "mood": "countdown tension",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Ek ghante ka waqt... aur penalty 'Bloodline Instability'?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "kuro explaining relic nature",
+      "setting": "subway depot",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro lands on Ha-Jun's shoulder, whispering into his ear: 'Yeh ring tumhare khoon ko physical weapon banayegi.'",
+      "mood": "tactical lore",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Agar Bureau ke Hunters pehle pahunch gaye, toh woh ise destroy kar denge.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "min-jae pulling out tactical map",
+      "setting": "subway depot",
+      "characters": [],
+      "action": "Min-Jae unrolls a city metro blueprint across the hood of a toolcart.",
+      "mood": "strategic alliance",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min-jae",
+          "text": "Insa-dong Vault 07... yeh purani Japanese colonial bank ke underground basement mein hai!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "shadowy hunter drone outside tunnel",
+      "setting": "subway depot exit",
+      "characters": [],
+      "action": "High above the subway vent on street level, a sleek black Demon Hunter Bureau surveillance drone hovers silently.",
+      "mood": "surveillance threat",
+      "sfx": "WHIRRRR..."
+    },
+    {
+      "id": "p15",
+      "shot": "drone optics zooming in",
+      "setting": "city street vent",
+      "characters": [],
+      "action": "The drone's infrared scanner flashes crimson, locking onto demonic mana heat rising from below.",
+      "mood": "detected",
+      "sfx": "BEEP-LOCK!"
+    },
+    {
+      "id": "p16",
+      "shot": "ha-jun sensing surveillance",
+      "setting": "subway depot",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's eyes flare violet as his heightened sensory field catches the high-frequency motor hum.",
+      "mood": "predatory awareness",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Hunters humare peeche hain. Humein abhi nikalna hoga.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "min-jae grabbing backpack",
+      "setting": "subway depot",
+      "characters": [],
+      "action": "Min-Jae slings his tactical laptop backpack over his shoulders, nodding resolutely.",
+      "mood": "readiness",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min-jae",
+          "text": "Main tunnel switches hack kar ke security doors lock kar deta hoon.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "ha-jun leaping onto train roof",
+      "setting": "subway depot",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun kicks off the gravel with superhuman agility, leaping effortlessly atop a train carriage.",
+      "mood": "dynamic movement",
+      "sfx": "SWOOSH!!"
+    },
+    {
+      "id": "p19",
+      "shot": "violet mana coating boots",
+      "setting": "subway depot",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Wisps of violet energy coil around Ha-Jun's sneakers, suppressing all footstep sound into complete silence.",
+      "mood": "stealth sprint"
+    },
+    {
+      "id": "p20",
+      "shot": "sprinting through maintenance tunnel",
+      "setting": "subway tunnel",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun blurs through the pitch-black maintenance tunnel at 60 km/h, rain dripping from overhead pipes.",
+      "mood": "high velocity",
+      "sfx": "FWOOSH!"
+    },
+    {
+      "id": "p21",
+      "shot": "kuro flying ahead as scout",
+      "setting": "subway tunnel",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro darts ahead through the arched brick tunnel, his wings cutting the damp air.",
+      "mood": "scouting lead",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Do sau meter bacha hai! Upar antique shop ka basement hai!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "cracked steel vault hatch overhead",
+      "setting": "tunnel ceiling",
+      "characters": [],
+      "action": "A heavy circular Victorian steel bulkhead hatch covered in demonic talismans is bolted into the ceiling.",
+      "mood": "ancient barrier"
+    },
+    {
+      "id": "p23",
+      "shot": "talismans reacting to ha-jun aura",
+      "setting": "tunnel ceiling",
+      "characters": [],
+      "action": "The parchment talismans on the hatch hiss and curl into yellow embers as Ha-Jun's sovereign mana touches them.",
+      "mood": "ward dissolution",
+      "sfx": "SIZZLE..."
+    },
+    {
+      "id": "p24",
+      "shot": "ha-jun grabbing hatch wheel",
+      "setting": "tunnel ceiling",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun grips the rusted cast-iron hatch wheel with both hands, muscles tensing beneath his torn blazer.",
+      "mood": "raw power exertion",
+      "sfx": "GRRR...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Khul ja...!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "heavy gears grinding open",
+      "setting": "tunnel ceiling",
+      "characters": [],
+      "action": "With a thunderous screech of shearing metal, the frozen locking pins snap and the circular hatch swings downward.",
+      "mood": "destructive strength",
+      "sfx": "CRRRRR-BANG!!"
+    },
+    {
+      "id": "p26",
+      "shot": "dust and cobwebs cascading",
+      "setting": "vault entrance",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Centuries of thick dust, cobwebs, and stale air pour down into the tunnel around Ha-Jun's silhouette.",
+      "mood": "atmospheric reveal",
+      "sfx": "COUGH..."
+    },
+    {
+      "id": "p27",
+      "shot": "ha-jun pulling himself upward",
+      "setting": "vault interior",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun hoists himself through the circular aperture into a shadowy, candlelit antique vault.",
+      "mood": "entering mystery"
+    },
+    {
+      "id": "p28",
+      "shot": "vast subterranean museum chamber",
+      "setting": "vault interior",
+      "characters": [],
+      "action": "Towering wooden curio cabinets filled with forbidden cursed artifacts, broken demonic masks, and jars of dark ichor.",
+      "mood": "forbidden reliquary"
+    },
+    {
+      "id": "p29",
+      "shot": "glowing ruby pedestal in center",
+      "setting": "vault center",
+      "characters": [],
+      "action": "In the dead center of the chamber, an obsidian pedestal radiates a rhythmic, hypnotic crimson heartbeat pulse.",
+      "mood": "focal relic presence",
+      "sfx": "THUMP... THUMP..."
+    },
+    {
+      "id": "p30",
+      "shot": "macro on the ring of hollow blood",
+      "setting": "pedestal macro",
+      "characters": [],
+      "action": "Resting on black velvet inside a fractured glass dome: a dark obsidian band inset with a swirling liquid-blood crimson gem.",
+      "mood": "legendary relic reveal",
+      "dialogue": [
+        {
+          "type": "system",
+          "text": "[TARGET LOCATED: RING OF HOLLOW BLOOD (BASIC RELIC)]\nBloodline Compatibility: 98.4%",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    }
+  ]
+}

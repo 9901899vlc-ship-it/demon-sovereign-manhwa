@@ -1,0 +1,434 @@
+{
+  "chapter": 30,
+  "title": "The Second Bond",
+  "arc": 3,
+  "arc_title": "THE FIRST RELIC",
+  "summary": "The Skeletal Centurion acknowledges Ha-Jun's sovereign lineage, disintegrating into celestial marrow ash as the Bone of the Forgotten permanently fuses into his skeleton, granting skeletal armor plating.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "centurion kneeling in silence wide shot",
+      "setting": "ossuary cavern",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The 15-foot Skeletal Centurion remains bowed before 17-year-old Ha-Jun in absolute stillness.",
+      "mood": "hallowed silence"
+    },
+    {
+      "id": "p02",
+      "shot": "azure soul flame turning calm violet",
+      "setting": "centurion skull",
+      "characters": [],
+      "action": "The furious blue fire in the Centurion's eyes shifts into a serene, tranquil violet resonance.",
+      "mood": "pacified soul"
+    },
+    {
+      "id": "p03",
+      "shot": "centurion final words of honor",
+      "setting": "ossuary cavern",
+      "characters": [],
+      "action": "The Centurion speaks with solemn grace: 'Thousands of years I have guarded this marrow for the true blood.'",
+      "mood": "solemn decree",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "centurion",
+          "text": "Hazaaron saalon se maine is marrow ki hifazat ki... Aaj mera pehra khatam hua.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "centurion body dissolving into luminescent ash",
+      "setting": "cavern center",
+      "characters": [],
+      "action": "The colossal skeletal titan begins dissolving into swirling ribbons of golden-white luminescent dust.",
+      "mood": "peaceful dissolution",
+      "sfx": "SHSHSH..."
+    },
+    {
+      "id": "p05",
+      "shot": "golden ash ascending to cavern ceiling",
+      "setting": "cavern wide",
+      "characters": [],
+      "action": "Millions of glowing particles drift upward like reverse snow, illuminating the dark limestone vaults.",
+      "mood": "ethereal spectacle"
+    },
+    {
+      "id": "p06",
+      "shot": "the bone of the forgotten floating down",
+      "setting": "altar focus",
+      "characters": [],
+      "action": "From the altar, the 14-inch curved ivory bone relic drifts gently down toward Ha-Jun's chest.",
+      "mood": "relic descent",
+      "sfx": "GLIDE..."
+    },
+    {
+      "id": "p07",
+      "shot": "kuro watching with solemn reverence",
+      "setting": "shattered pillar",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro lowers his wings in quiet respect: 'Farewell, General Vaelor. Tumhara duty pura hua.'",
+      "mood": "ancient farewell",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "General Vaelor... Sovereign ka sabse wafadar senapati.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p08",
+      "shot": "ha-jun raising left arm",
+      "setting": "cavern center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun extends his left bare forearm as the Bone of the Forgotten hovers within inches of his skin.",
+      "mood": "readiness for bond"
+    },
+    {
+      "id": "p09",
+      "shot": "bone relic touching left wrist",
+      "setting": "wrist macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The moment the ivory relic touches Ha-Jun's wrist, it liquefies into pure molten white calcium light.",
+      "mood": "molecular fusion",
+      "sfx": "FZZZZT!!"
+    },
+    {
+      "id": "p10",
+      "shot": "molten bone sinking into ha-jun flesh",
+      "setting": "arm close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The white light sinks directly beneath his epidermis, wrapping tightly around his radius and ulna bones.",
+      "mood": "bone integration",
+      "sfx": "SINK..."
+    },
+    {
+      "id": "p11",
+      "shot": "ha-jun gripping arm in silent endurance",
+      "setting": "cavern center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun grits his teeth; his skeleton emits a dull ceramic chime as bone density multiplies.",
+      "mood": "dense hardening",
+      "sfx": "CHIME... CHIME...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Dard nahi hai... Yeh toh ek warm, solid support jaisa lag raha hai!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "white organic bone gauntlet manifesting",
+      "setting": "arm macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Along his left forearm, an intricate segmented gauntlet of polished white bone and crimson runes emerges.",
+      "mood": "skeletal gauntlet",
+      "sfx": "CREAK-LOCK!!"
+    },
+    {
+      "id": "p13",
+      "shot": "bone spurs along knuckle joints",
+      "setting": "hand close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Sharp, razor-honed ivory spurs extend over his knuckles, ready to deliver lethal blunt force.",
+      "mood": "offensive armor"
+    },
+    {
+      "id": "p14",
+      "shot": "full body skeletal resonance flare",
+      "setting": "cavern wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A brilliant shockwave of bone-white and violet mana bursts outward, blowing away all lingering dust.",
+      "mood": "resonance burst",
+      "sfx": "BOOOOOM!!"
+    },
+    {
+      "id": "p15",
+      "shot": "system interface fanfare",
+      "setting": "cavern center",
+      "characters": [],
+      "action": "Golden system banners unfurl across the air with celebratory demonic crests.",
+      "mood": "system triumph",
+      "sfx": "FANFARE-CHIME!!",
+      "dialogue": [
+        {
+          "type": "system",
+          "text": "[RELIC BONDED: BONE OF THE FORGOTTEN (BASIC)]\nSynchronization Rate: 32.4% (Threshold Broken!)\nNew Ability: Skeletal Armor & Bone Spikes\nPassive: Skeletal Durability increased by +400%.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "shot": "ha-jun inspecting the bone gauntlet",
+      "setting": "medium hero shot",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun flexes his left hand; the bone gauntlet moves with fluid biomechanical grace like second skin.",
+      "mood": "perfect synthesis",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Yeh armor... bilkul natural feel hota hai. Mere muscle ka hissa lagta hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "kuro inspecting the gauntlet closely",
+      "setting": "ha-jun shoulder",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro taps the bone plating with his beak: 'Solid. Ab Hunter ki ordinary bullets tumhara haath nahi cheer sakti.'",
+      "mood": "armor validation",
+      "sfx": "CLINK!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Armor-piercing rounds bhi is bone plate par deflect ho jayengi.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "ha-jun testing punch on stone pillar",
+      "setting": "cavern center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun throws a casual punch at the solid limestone wall beside him.",
+      "mood": "testing force",
+      "sfx": "HUP!"
+    },
+    {
+      "id": "p19",
+      "shot": "wall exploding into rubble",
+      "setting": "limestone wall",
+      "characters": [],
+      "action": "The solid rock shatters into a six-foot crater instantly, leaving Ha-Jun's bone knuckles completely unscathed.",
+      "mood": "destructive proof",
+      "sfx": "KABOOOM!!"
+    },
+    {
+      "id": "p20",
+      "shot": "ha-jun smiling in amazement",
+      "setting": "medium shot",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun laughs softly in disbelief at the sheer effortless kinetic force.",
+      "mood": "joy of strength",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Bina kisi recoil ke... Rock powder ban gayi!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "sudden heat rising from floor fissures",
+      "setting": "cavern floor",
+      "characters": [],
+      "action": "Thin cracks in the cavern floor begin glowing with intense orange-crimson thermal light; sulfur fumes rise.",
+      "mood": "thermal shift",
+      "sfx": "HSSSS..."
+    },
+    {
+      "id": "p22",
+      "shot": "ha-jun feeling temperature spike",
+      "setting": "cavern center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun wipes sudden sweat from his brow as the air temperature spikes by 20 degrees Celsius.",
+      "mood": "scorching heat",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Achanak itni garmi kahan se aayi...?",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "kuro flapping wings anxiously",
+      "setting": "ha-jun shoulder",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro's feathers ruffle: 'Yeh third basic relic ka resonance hai! The Ashen Heart!'",
+      "mood": "urgent revelation",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Do basic relics bond hone se teesra relic apne aap trigger ho gaya hai!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "system quest chain update",
+      "setting": "cavern center",
+      "characters": [],
+      "action": "The Sovereign Interface updates with glowing crimson-orange fire borders.",
+      "mood": "quest progression",
+      "sfx": "BEEP!",
+      "dialogue": [
+        {
+          "type": "system",
+          "text": "[QUEST CHAIN: THE TRI-SEAL FINAL STEP]\nLocate Relic #3: The Ashen Heart.\nCoordinates: Bukhansan Magma Fissure (Depth: -1,200m).\nTime Remaining: 3 Hours.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "ha-jun looking up toward chasm exit",
+      "setting": "cavern ceiling",
+      "characters": [
+        "hajun"
+      ],
+      "action": "High above, the faint grey light of dawn begins to peek through the chasm opening.",
+      "mood": "dawn approaches"
+    },
+    {
+      "id": "p26",
+      "shot": "ha-jun firing red flare gun",
+      "setting": "cavern floor",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun aims Min-Jae's flare gun upward and pulls the trigger; a brilliant crimson flare rockets into the sky.",
+      "mood": "signal fired",
+      "sfx": "BANG-FWOOOSH!!"
+    },
+    {
+      "id": "p27",
+      "shot": "flare bursting above quarry rim",
+      "setting": "quarry sky dawn",
+      "characters": [],
+      "action": "The red phosphorus flare illuminates the quarry mist like a miniature sunrise above the parked van.",
+      "mood": "signal received",
+      "sfx": "POP!!"
+    },
+    {
+      "id": "p28",
+      "shot": "min-jae spotting flare from van",
+      "setting": "van window",
+      "characters": [],
+      "action": "Min-Jae sees the flare, slamming his laptop shut with a proud grin: 'Usne kar dikhaya!'",
+      "mood": "ally joy",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min-jae",
+          "text": "He did it! Van ready hai, Ha-Jun!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "ha-jun scaling chasm with bone claws",
+      "setting": "quarry cliff",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Using his bone-armored fingers like climbing spikes, Ha-Jun rapidly scales the sheer limestone cliff in seconds.",
+      "mood": "superhuman climb",
+      "sfx": "CLACK-CLACK!!"
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun reaching surface at sunrise",
+      "setting": "quarry edge dawn",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun stands on the cliff rim as morning sunlight breaks over Seoul, his bone gauntlet gleaming like marble.",
+      "mood": "heroic triumph dawn",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Bukhansan chalo. Aakhri Basic Relic ko humein aaj hi claim karna hai.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    }
+  ]
+}
