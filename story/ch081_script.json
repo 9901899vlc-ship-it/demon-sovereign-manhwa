@@ -1,0 +1,455 @@
+{
+  "chapter": 81,
+  "title": "The Hourglass Keeper",
+  "arc": 8,
+  "arc_title": "THE MYTHIC AWAKENING",
+  "summary": "Ha-Jun unlocks the deepest secret of Chronos-Malek's clocktower, mastering the ability to freeze localized seconds and anchor his allies from fatal wounds.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "the cosmic eye in the sky pulsing with sickening purple radiation",
+      "setting": "cosmic eye sky",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The thousand-mile eye overhead pulses, raining corrosive violet meteors across the clouds above Seoul.",
+      "mood": "cosmic bombardment",
+      "sfx": "METEOR ROAR!!"
+    },
+    {
+      "id": "p02",
+      "shot": "ha-jun activating the hourglass anchor across the entire city",
+      "setting": "citywide shield",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun slams the Hourglass into the concrete pillar; a golden web of temporal wards spreads across all of Seoul.",
+      "mood": "citywide temporal anchor",
+      "sfx": "PULSE-WEB!!"
+    },
+    {
+      "id": "p03",
+      "shot": "falling meteors slowing to a crawl in the upper atmosphere",
+      "setting": "meteors frozen in air",
+      "characters": [],
+      "action": "Thousands of burning meteors slow to a dead halt three miles above the rooftops, frozen in suspended animation.",
+      "mood": "suspended destruction",
+      "sfx": "FREEZE-LOCK...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "As long as my mana flows, not a single civilian will die today.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "tae-jun looking at ha-jun with stunned admiration",
+      "setting": "tae-jun proud",
+      "characters": [],
+      "action": "Tae-Jun whistles: 'Anchoring an entire metropolitan area in a five-second time-dilation loop? You're insane, Ha-Jun.'",
+      "mood": "tactical admiration",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Puri city ko time loop mein daal diya? Your mana pool is ridiculous.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "kuro hopping onto ha-jun arm: 'you must conserve energy for the prime core!'",
+      "setting": "kuro warning",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Kuro warns: 'Maintaining this field costs 2% of your mana per minute. We must strike the Primordial Core directly!'",
+      "mood": "energy warning",
+      "sfx": "CAW...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "We have fifty minutes before your mana depletes.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "min-jae and baek arriving via tactical helicopter on the bridge",
+      "setting": "helicopter landing",
+      "characters": [],
+      "action": "A Section 9 stealth gunship lands on the intact section of Mapo Bridge; Min-Jae and Baek leap out with anti-matter launchers.",
+      "mood": "allies assemble",
+      "sfx": "ROTOR BLADES...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "baek",
+          "text": "Supreme Commander! All world militaries have acknowledged your sovereign command!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "global satellite feeds showing united military forces awaiting ha-jun orders",
+      "setting": "tactical screens",
+      "characters": [],
+      "action": "Holographic feeds show fighter squadrons from 40 nations, hunter guilds, and demon battalions holding formation.",
+      "mood": "global army ready",
+      "sfx": "COMM-FEED...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "The entire planet is watching you, Ha-Jun. Give the order.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p08",
+      "shot": "ha-jun broadcasting his voice across every communications channel on earth",
+      "setting": "ha-jun broadcast",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Through the Crown's telepathic frequency, Ha-Jun's voice echoes into eight billion human minds simultaneously.",
+      "mood": "the sovereign's broadcast",
+      "sfx": "GLOBAL ECHO...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "People of Earth. Do not despair. The darkness ends today.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "close-ups of people worldwide looking up with hope in their eyes",
+      "setting": "global montage",
+      "characters": [],
+      "action": "Citizens in Tokyo, New York, London, and Mumbai look up at the frozen sky, tears of hope wiping away their terror.",
+      "mood": "global hope restored",
+      "sfx": "HOPEFUL FACES..."
+    },
+    {
+      "id": "p10",
+      "shot": "ha-jun ordering the allied forces to maintain planetary defensive shields",
+      "setting": "giving orders",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun: 'Hold your positions. Protect the innocent. Tae-Jun, Kuro, and I will pierce the Core.'",
+      "mood": "the strike team mission",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Ground forces, hold the perimeter. We are going to kill God.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "ha-jun, tae-jun, and kuro stepping to the bridge edge",
+      "setting": "trio at edge",
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
+      "action": "The trio stands on the edge of the abyss, wind whipping their clothes, weapons gleaming with divine energy.",
+      "mood": "the vanguard ready",
+      "sfx": "WIND-HOWL..."
+    },
+    {
+      "id": "p12",
+      "shot": "ha-jun manifesting the full wings of the sovereign",
+      "setting": "wings manifestation",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Six colossal wings—three of black shadow, three of golden starlight—erupt from Ha-Jun's shoulder blades.",
+      "mood": "sixfold wings",
+      "sfx": "FWOOOOSH-WINGS!!"
+    },
+    {
+      "id": "p13",
+      "shot": "tae-jun manifesting the bronze aegis armor of the guardian",
+      "setting": "guardian armor",
+      "characters": [],
+      "action": "Tae-Jun is encased in magnificent full-plate armor of celestial bronze, wielding a ten-foot claymore.",
+      "mood": "the divine guardian",
+      "sfx": "CLANK-ARMOR!!"
+    },
+    {
+      "id": "p14",
+      "shot": "kuro transforming into his majestic nether phoenix battle form",
+      "setting": "kuro phoenix",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro expands into his 200-foot Nether Phoenix form, wreathed in violet hellfire and crimson comets.",
+      "mood": "phoenix ascent",
+      "sfx": "ROAR-PHOENIX!!"
+    },
+    {
+      "id": "p15",
+      "shot": "the trio launching vertically toward the cosmic eye at mach 25",
+      "setting": "vertical launch",
+      "characters": [
+        "hajun"
+      ],
+      "action": "With a triple sonic boom that shakes the continent, the three heroes rocket straight up toward the heavens.",
+      "mood": "ascension to godhood",
+      "sfx": "SONIC BOOM-ROAR!!"
+    },
+    {
+      "id": "p16",
+      "shot": "breaching the upper stratosphere into low earth orbit",
+      "setting": "low orbit re-entry",
+      "characters": [
+        "hajun"
+      ],
+      "action": "They punch through the cloud layer into the pitch-black silence of low Earth orbit, the blue curve of Earth below.",
+      "mood": "space battlefield",
+      "sfx": "SILENT VACUUM..."
+    },
+    {
+      "id": "p17",
+      "shot": "before them: the primordial void entity's true form in space",
+      "setting": "void entity space wide",
+      "characters": [],
+      "action": "A horrifying, cosmic entity the size of the Moon—a writhing mass of black tentacles, dead worlds, and burning red eyes.",
+      "mood": "the moon-sized horror",
+      "sfx": "COSMIC LOOM...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "THE PRIMORDIAL VOID ENTITY. EATER OF REALITIES.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "a million-mile tentacle whipping down to swat the trio like insects",
+      "setting": "colossal tentacle sweep",
+      "characters": [],
+      "action": "A tentacle wider than a continent sweeps through the vacuum to crush the three warriors into cosmic dust.",
+      "mood": "continent-sized strike",
+      "sfx": "SWEEP-DOOM!!"
+    },
+    {
+      "id": "p19",
+      "shot": "tae-jun raising his claymore: 'aegis of the unbending brother!'",
+      "setting": "tae-jun shield block",
+      "characters": [],
+      "action": "Tae-Jun plants himself before the tentacle, deploying a 500-mile wide bronze energy shield: 'NOT ON MY WATCH!!'",
+      "mood": "the ultimate shield",
+      "sfx": "SHIELD IMPACT-KABOOOM!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "tae_jun",
+          "text": "BROTHERHOOD AEGIS: ABSOLUTE GUARD!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "the continent-sized tentacle bouncing off tae-jun bronze barrier",
+      "setting": "impact deflection",
+      "characters": [],
+      "action": "The colossal tentacle shudders and ricochets off the bronze barrier, unable to pierce Tae-Jun's love for his brother.",
+      "mood": "indomitable protection",
+      "sfx": "DEFLECTION-SHOCKWAVE!!"
+    },
+    {
+      "id": "p21",
+      "shot": "kuro exhaling a solar flare breath that incinerates the tentacle",
+      "setting": "phoenix breath in space",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro swoops in, unleashing a million-degree stream of violet starlight that burns the colossal tentacle to grey ash.",
+      "mood": "solar incineration",
+      "sfx": "FWOOSH-ASH!!"
+    },
+    {
+      "id": "p22",
+      "shot": "ha-jun rocketing through the burning ash straight toward the eye core",
+      "setting": "ha-jun core charge",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun streaks through the burning debris, drawing the Sanguine Fang overcharged with all ten Relics.",
+      "mood": "spearhead charge",
+      "sfx": "METEOR BLUR!!"
+    },
+    {
+      "id": "p23",
+      "shot": "the primordial eye opening its central pupil firing a gamma-ray burst",
+      "setting": "gamma ray burst",
+      "characters": [],
+      "action": "The cosmic eye fires a focused gamma-ray beam of pure anti-matter, capable of obliterating a planet.",
+      "mood": "planet-killing beam",
+      "sfx": "GAMMA-FLASH!!"
+    },
+    {
+      "id": "p24",
+      "shot": "ha-jun raising the hourglass of eternal abyss in both hands",
+      "setting": "hourglass parry",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun holds the Hourglass before him: 'HOURGLASS: STASIS EVENT HORIZON!!'",
+      "mood": "temporal event horizon",
+      "sfx": "CHIME-HORIZON!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "STOP RIGHT THERE!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "the gamma-ray beam splitting into two harmless beams around the hourglass",
+      "setting": "beam split",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The planet-killing beam bends around the Hourglass's gravitational lens, curving harmlessly into empty space.",
+      "mood": "gravitational lensing",
+      "sfx": "BEAM CURVE..."
+    },
+    {
+      "id": "p26",
+      "shot": "ha-jun arriving directly in front of the thousand-mile cosmic eye",
+      "setting": "face to eye",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun floats inches from the colossal iris, his 6-foot frame looking microscopic yet infinitely heavier than the titan.",
+      "mood": "the flea before the god",
+      "sfx": "STARE...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "You made my family bleed for seven years. Your debt is due.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "ha-jun plunging the sanguine fang into the central pupil",
+      "setting": "stabbing the cosmic eye",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun drives the Sanguine Fang straight into the center of the cosmic eye with the force of an exploding star.",
+      "mood": "the divine strike",
+      "sfx": "DRIVE-SUPERNOVA!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "SOVEREIGN PUNISHMENT: OBLIVION!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "the cosmic eye screaming in silent vacuum as cracks of golden light erupt",
+      "setting": "cosmic eye cracking",
+      "characters": [],
+      "action": "Fractures of pure golden starlight spiderweb across the thousand-mile entity; it thrashes in silent cosmic agony.",
+      "mood": "entity cracking",
+      "sfx": "CRACK-SUPERNOVA!!"
+    },
+    {
+      "id": "p29",
+      "shot": "the void entity beginning to collapse in on its own gravitational center",
+      "setting": "entity implosion",
+      "characters": [],
+      "action": "The Moon-sized horror begins collapsing inward like a dying star, forming a harmless miniature singularity.",
+      "mood": "gravitational collapse",
+      "sfx": "IMPLOSION-VORTEX!!"
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun, tae-jun, and kuro watching the singularity seal itself cliffhanger",
+      "setting": "trio in space victorious",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The singularity snaps shut with a bright sparkle of stardust; the cosmos falls into serene, peaceful silence.",
+      "mood": "the cosmic victory",
+      "sfx": "STARDUST SPARKLE...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "THE PRIMORDIAL CORE IS DESTROYED.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    }
+  ]
+}

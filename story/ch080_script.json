@@ -1,0 +1,474 @@
+{
+  "chapter": 80,
+  "title": "Beyond Time",
+  "arc": 8,
+  "arc_title": "THE MYTHIC AWAKENING",
+  "summary": "Ha-Jun manipulates the River of Null Time to predict every attack of the Void Triumvirate, turning the battlefield over Seoul into an unassailable sovereign dance.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "the sky over seoul filled with explosions of violet and green mana",
+      "setting": "sky battlefield wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Overhead dogfights of dragons, shadow soldiers, and anti-matter missiles light up the stormy Seoul clouds.",
+      "mood": "apocalyptic sky war",
+      "sfx": "BOOM-FLASH-CRASH!!"
+    },
+    {
+      "id": "p02",
+      "shot": "second void sovereign 'morvath' swinging a 100-foot warhammer down",
+      "setting": "warhammer descent",
+      "characters": [],
+      "action": "Morvath, the Sovereign of Iron Decay, swings a hundred-foot titanium warhammer down at Ha-Jun at Mach 5.",
+      "mood": "colossal hammer strike",
+      "sfx": "WHIRL-CRASH!!"
+    },
+    {
+      "id": "p03",
+      "shot": "ha-jun eyes glowing with golden chronal predictive rings",
+      "setting": "predictive sight macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Through the Eye of the Night and the Hourglass, Ha-Jun sees three ghost silhouettes showing where the hammer will land three seconds in the future.",
+      "mood": "future sight",
+      "sfx": "GOLDEN GLINT...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Three seconds ahead... Your attack was already finished before you swung.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "ha-jun side-stepping with millimeters of clearance",
+      "setting": "precision evasion",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun tilts his head casually; the gargantuan hammer whistles past his ear, missing him by two millimeters.",
+      "mood": "effortless precision",
+      "sfx": "SWOOSH-MISS!!"
+    },
+    {
+      "id": "p05",
+      "shot": "tae-jun flanking beneath the hammer strike with dual bronze blades",
+      "setting": "tae-jun counter",
+      "characters": [],
+      "action": "Tae-Jun dives beneath the descending hammer shaft, slashing both bronze swords across Morvath's knee tendons.",
+      "mood": "tendon severing",
+      "sfx": "SLASH-SPARK!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "tae_jun",
+          "text": "GUARDIAN CLEAVE: SEVER!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "morvath roaring in pain as his 15-foot frame drops to one knee",
+      "setting": "titan stumbling",
+      "characters": [],
+      "action": "Morvath's knee buckles; golden coolant sprays as the titan drops to one knee on a floating skyscraper roof.",
+      "mood": "titan grounded",
+      "sfx": "ROAR-THUD!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "morvath",
+          "text": "Insolent flies! You dare wound a Sovereign?!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "third void sovereign 'nyxara' casting twenty black hole spheres",
+      "setting": "black hole barrage",
+      "characters": [],
+      "action": "Nyxara, the Sovereign of Black Nebulas, gestures with four clawed hands, raining twenty miniature black holes at Ha-Jun.",
+      "mood": "black hole storm",
+      "sfx": "GRAVITY-PULL!!"
+    },
+    {
+      "id": "p08",
+      "shot": "ha-jun invoking chains of ruin to anchor the gravitational fields",
+      "setting": "gravitational counter",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun whips Chains of Ruin outward, looping the heavy adamantine links around the black holes and redirecting their pull.",
+      "mood": "gravity redirected",
+      "sfx": "CLANG-WHIP!!"
+    },
+    {
+      "id": "p09",
+      "shot": "ha-jun hurling all twenty black holes straight back at nyxara",
+      "setting": "rebound attack",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun whips the chains; the twenty singularity spheres slingshot in a tight cluster straight into Nyxara's chest.",
+      "mood": "gravitational rebound",
+      "sfx": "WHIP-SLING-BOOM!!"
+    },
+    {
+      "id": "p10",
+      "shot": "nyxara screeching as her own black holes implode against her armor",
+      "setting": "nyxara implosion",
+      "characters": [],
+      "action": "Nyxara shrieks as her bone armor crumples under forty million tons of gravitational compression.",
+      "mood": "crushed by own magic",
+      "sfx": "SCREECH-IMPLODE!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "nyxara",
+          "text": "MY OWN SINGULARITIES?! IMPOSSIBLE!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "ha-jun and tae-jun executing a synchronized pincer assault",
+      "setting": "pincer assault wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Moving like twin comets of black and gold, the brothers cross blades in an X-pattern across Morvath's chest.",
+      "mood": "brotherly synchronization",
+      "sfx": "CROSS-SLASH-FLASH!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "TWIN SOVEREIGN STRIKE!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "morvath torso exploding into grey ash and sparks",
+      "setting": "second sovereign slain",
+      "characters": [],
+      "action": "Morvath shudders, his chest cavity blasted open; he collapses and disintegrates into a storm of grey ash.",
+      "mood": "morvath defeated",
+      "sfx": "KABOOOM-ASH!!"
+    },
+    {
+      "id": "p13",
+      "shot": "zeron watching from his center throne his eyes narrowing with venom",
+      "setting": "zeron rage",
+      "characters": [],
+      "action": "Zeron rises to his full height, drawing an 80-foot scythe of pure antimatter: 'Useless fools. I will slaughter you myself.'",
+      "mood": "the prime commander enters",
+      "sfx": "BLADE DRAW...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "zeron",
+          "text": "Playtime is over, Sovereign boy.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "zeron teleporting directly before ha-jun with instantaneous speed",
+      "setting": "instant transmission",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Zeron vanishes and reappears zero inches from Ha-Jun's nose, swinging his scythe at Mach 20.",
+      "mood": "blinding speed attack",
+      "sfx": "SNAP-TELEPORT!!"
+    },
+    {
+      "id": "p15",
+      "shot": "ha-jun blocking the scythe with the sanguine fang: seismic shockwave",
+      "setting": "epic parry close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Blade meets scythe; the shockwave levels all glass windows across a ten-block radius in Yeouido.",
+      "mood": "titanic parry",
+      "sfx": "KABOOOOOM-SHOCKWAVE!!"
+    },
+    {
+      "id": "p16",
+      "shot": "the two kings locking eyes across their glowing crossing blades",
+      "setting": "face to face clash",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's royal violet eyes burn inches away from Zeron's glowing red oculars, neither yielding an inch.",
+      "mood": "clash of wills",
+      "sfx": "SPARKS-HISS...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "zeron",
+          "text": "You fight well for a half-breed mortal.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "ha-jun smiling cold and sharp: 'i'm not half-breed. i'm the whole thing.'",
+      "setting": "ha-jun cold smile",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's smile cuts like ice: 'And you're standing on my front porch.'",
+      "mood": "unshakeable arrogance",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Main half-breed nahi hoon. I am the True Demon Sovereign.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "ha-jun unleashing the ashen heart hellfire point blank",
+      "setting": "hellfire burst",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The Ashen Heart detonates in Ha-Jun's chest; a point-blank volcanic cone of violet hellfire scorches Zeron's faceplate.",
+      "mood": "point blank combustion",
+      "sfx": "FWOOOOSH-SCORCH!!"
+    },
+    {
+      "id": "p19",
+      "shot": "zeron stumbling back his visor smoking and melted",
+      "setting": "zeron scorched",
+      "characters": [],
+      "action": "Zeron stumbles back through the clouds, cursing as his molten faceplate drips burning slag into the rain.",
+      "mood": "villain burned",
+      "sfx": "HISS-SMOKE...",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "zeron",
+          "text": "CURSE YOU, KANG HA-JUN!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "tae-jun lunging from above driving both bronze blades into zeron wings",
+      "setting": "aerial wing strike",
+      "characters": [],
+      "action": "Tae-Jun dives from a cloud bank, pinning Zeron's scythe-wings together with his enchanted bronze blades.",
+      "mood": "pinning the wings",
+      "sfx": "DRIVE-PIN!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "tae_jun",
+          "text": "NOW, HA-JUN! TAKE HIS HEAD!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "ha-jun leaping forward channeling all ten relics into the sanguine fang",
+      "setting": "ultimate charge",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun rockets forward; the Sanguine Fang expands into a 50-foot greatsword of pure cosmic starlight and blood.",
+      "mood": "blade overcharged",
+      "sfx": "CELESTIAL BLADE ROAR!!"
+    },
+    {
+      "id": "p22",
+      "shot": "ha-jun horizontal execution cleave through zeron neck",
+      "setting": "horizontal decapitation",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A clean, horizontal line of blinding violet starlight shears cleanly through Zeron's 15-foot armored neck.",
+      "mood": "decapitation stroke",
+      "sfx": "CLEAVE-FLASH!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "SOVEREIGN CLEAVE: ZERO!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "zeron severed head flying into the stormy sky eyes frozen in shock",
+      "setting": "severed head close-up",
+      "characters": [],
+      "action": "Zeron's giant horned helm spins into the storm clouds, his red oculars extinguishing in disbelief.",
+      "mood": "death of the prime commander",
+      "sfx": "SPIN-FALL..."
+    },
+    {
+      "id": "p24",
+      "shot": "zeron colossal headless body crashing down into the empty riverbed",
+      "setting": "body crash wide",
+      "characters": [],
+      "action": "The 15-foot titan corpse hits the frozen river with a colossal seismic thud, bursting into harmless grey ash.",
+      "mood": "first throne shattered",
+      "sfx": "CRASH-THUDDD!!"
+    },
+    {
+      "id": "p25",
+      "shot": "the remaining void monsters shrieking and routing in pure panic",
+      "setting": "monsters fleeing",
+      "characters": [],
+      "action": "Seeing their supreme general beheaded, the remaining thousands of void beasts turn and flee toward the portals in terror.",
+      "mood": "army in rout",
+      "sfx": "SHRIEK-FLEE!!"
+    },
+    {
+      "id": "p26",
+      "shot": "ha-jun and tae-jun landing side-by-side on the mapo bridge pillar",
+      "setting": "brothers standing tall",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The brothers touch down lightly on the bridge pillar, blades lowered as the rain cools their smoking armor.",
+      "mood": "victory on earth",
+      "sfx": "RAIN PATTER..."
+    },
+    {
+      "id": "p27",
+      "shot": "citizens across seoul emerging from shelters cheering in wild celebration",
+      "setting": "citizens cheering wide",
+      "characters": [],
+      "action": "Millions of citizens across Seoul pour onto balconies and streets, waving and cheering for the two brothers.",
+      "mood": "city celebrating",
+      "sfx": "MILLION ROARS!!",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "Seoul survived the first strike. The Triumvirate was broken.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "kuro looking up at the sky with dread in his ruby eyes",
+      "setting": "kuro dread",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro's feathers ruffle in panic: 'Don't celebrate yet. Zeron and Morvath were only the vanguard heralds.'",
+      "mood": "the worse threat coming",
+      "sfx": "TREMBLE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Look at the dimensional clouds. The Prime Sovereign is waking.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "the sky tearing open revealing a colossal crimson eye spanning the horizon",
+      "setting": "cosmic eye wide",
+      "characters": [],
+      "action": "A thousand-mile red eye opens across the entire sky above Earth: The Void Primordial Entity itself.",
+      "mood": "the true god awakens",
+      "sfx": "OMINOUS HUMMM...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "THE PRIMORDIAL ENTITY — ROOT OF ALL DARKNESS.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun and tae-jun looking up into the cosmic eye cliffhanger",
+      "setting": "brothers looking up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun and Tae-Jun stand shoulder-to-shoulder, their blades glowing as the final, ultimate war looms!",
+      "mood": "arc 8 grand finale / arc 9 threshold",
+      "sfx": "LOOMING TERROR!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Let it come. We will finish this together.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    }
+  ]
+}

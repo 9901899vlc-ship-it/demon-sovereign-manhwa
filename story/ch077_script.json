@@ -1,0 +1,518 @@
+{
+  "chapter": 77,
+  "title": "The First Sovereign's Voice",
+  "arc": 8,
+  "arc_title": "THE MYTHIC AWAKENING",
+  "summary": "As Chronos-Malek yields, the spiritual consciousness of First Sovereign Asmodaius manifests from the Crown, guiding Ha-Jun through the sacred temporal reversion ritual.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "golden chronal sparks showering down across the amphitheater floor",
+      "setting": "apex chamber wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Billions of glittering golden gear fragments rain down gently onto the circular marble amphitheater floor like warm summer snow.",
+      "mood": "peaceful aftermath",
+      "sfx": "GLITTER SHOWER..."
+    },
+    {
+      "id": "p02",
+      "shot": "chronos-malek body reforming into a peaceful golden monk silhouette",
+      "setting": "chronos transformed",
+      "characters": [],
+      "action": "The shattered mechanical abomination condenses into a serene, six-foot monk draped in white and gold silk robes.",
+      "mood": "guardian pacified",
+      "sfx": "TRANSFORM...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "chronos",
+          "text": "You possess the steel of a king and the heart of a loving brother. The Hourglass is yours.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "shot": "the hourglass of eternal abyss floating down into ha-jun open hands",
+      "setting": "hourglass descent",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The two-meter hourglass shrinks gracefully to the size of an antique lantern, descending into Ha-Jun's outstretched palms.",
+      "mood": "claiming the tenth relic",
+      "sfx": "GENTLE REST..."
+    },
+    {
+      "id": "p04",
+      "shot": "the crown of the sovereign on ha-jun head blazing with celestial light",
+      "setting": "crown blazing",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The Crown of the Sovereign atop Ha-Jun's brow erupts in pure white and violet celestial radiance.",
+      "mood": "ancestral resonance",
+      "sfx": "FLASH-CROWN!!"
+    },
+    {
+      "id": "p05",
+      "shot": "an ethereal phantom of asmodaius appearing behind ha-jun",
+      "setting": "asmodaius phantom wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Hovering protectively behind Ha-Jun appears the translucent, regal phantom of First Sovereign Asmodaius in full royal mantle.",
+      "mood": "the ancestor guides",
+      "sfx": "LOOM-GLOW...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "asmodaius",
+          "text": "Well fought, Ha-Jun Kang. The final key has answered your blood.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "ha-jun looking over his shoulder acknowledging the ancient king",
+      "setting": "ha-jun look back",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun nods with mutual respect: 'Lord Asmodaius. Show me how to save Tae-Jun.'",
+      "mood": "mutual respect",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Tell me how to use the sand without destroying his soul.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "asmodaius pointing a translucent finger toward the hourglass glass",
+      "setting": "asmodaius instruction",
+      "characters": [],
+      "action": "Asmodaius: 'Invert the vessel. Draw seven grains of sand for the seven years of imprisonment.'",
+      "mood": "ritual mechanics",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "asmodaius",
+          "text": "Seven grains of golden sand. Let each grain dissolve into his bloodstream.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p08",
+      "shot": "ha-jun gently laying tae-jun down onto the golden sand floor",
+      "setting": "laying brother down",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun kneels, gently resting Tae-Jun's head upon his folded black coat like a pillow on the soft sand.",
+      "mood": "brotherly tenderness",
+      "sfx": "REST..."
+    },
+    {
+      "id": "p09",
+      "shot": "ha-jun opening the top valve of the hourglass with glowing thumb",
+      "setting": "opening hourglass",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun touches the brass latch; the top chamber unlocks with a melodious crystalline chime.",
+      "mood": "unsealing the sand",
+      "sfx": "CHIME-CLICK..."
+    },
+    {
+      "id": "p10",
+      "shot": "seven microscopic grains of golden starlight sand floating onto ha-jun fingertip",
+      "setting": "sand on fingertip macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Seven tiny grains of golden sand, each containing miniature swirling galaxies, rest upon Ha-Jun's index finger.",
+      "mood": "seven grains of time",
+      "sfx": "GLOW-MACRO...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "Seven grains. Seven lost years.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "ha-jun pressing the seven grains against tae-jun forehead",
+      "setting": "touching forehead",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun presses his glowing finger gently against Tae-Jun's forehead, right between his dormant demonic horns.",
+      "mood": "administering the cure",
+      "sfx": "PRESS-WARMTH...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Hyung... Wapas aa jao. Tumhara safar poora hua.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "golden ripples of chronal energy spreading across tae-jun skin",
+      "setting": "chronal ripples macro",
+      "characters": [],
+      "action": "Golden rings of light ripple across Tae-Jun's face, neck, and chest, washing away seven years of trauma.",
+      "mood": "temporal regression in action",
+      "sfx": "RIPPLE-EXPAND..."
+    },
+    {
+      "id": "p13",
+      "shot": "the black necrotic void veins reversing their path and dissolving",
+      "setting": "veins reversing",
+      "characters": [],
+      "action": "The black poison lines retreat rapidly back along Tae-Jun's throat, vanishing into clean, healthy peach skin.",
+      "mood": "poison purged",
+      "sfx": "FADE-HISS..."
+    },
+    {
+      "id": "p14",
+      "shot": "tae-jun scars and needle marks fading into smooth porcelain flesh",
+      "setting": "scars healing",
+      "characters": [],
+      "action": "Seven years of laboratory biopsy scars, needle tracks, and burns seal and disappear completely.",
+      "mood": "physical restoration",
+      "sfx": "SEAL-SMOOTH..."
+    },
+    {
+      "id": "p15",
+      "shot": "the small demonic horns on tae-jun temples retracting smoothly",
+      "setting": "horns retracting",
+      "characters": [],
+      "action": "The forced demonic horns retract smoothly into his skull, leaving behind noble golden guardian marks on his brow.",
+      "mood": "purification of corruption",
+      "sfx": "RETRACT-GLINT..."
+    },
+    {
+      "id": "p16",
+      "shot": "tae-jun taking a sudden deep, gasping breath of pure fresh air",
+      "setting": "tae-jun waking gasp",
+      "characters": [],
+      "action": "Tae-Jun's chest surges; he inhales a massive, life-giving gasp of air as his dormant heart beats with full thunder.",
+      "mood": "the return to life",
+      "sfx": "GASP-IN-AIR!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "HUFF... HAAAH...",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "tae-jun royal violet eyes fluttering open looking directly at ha-jun",
+      "setting": "tae-jun eyes open",
+      "characters": [],
+      "action": "Tae-Jun's eyes open wide—clear, vibrant, filled with brilliant royal violet light and complete sanity.",
+      "mood": "complete awakening",
+      "sfx": "EYES OPEN!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Ha... Jun?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "ha-jun gripping tae-jun hands laughing through streaming tears",
+      "setting": "emotional laughter",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun grabs his brother's warm hands, laughing through hot tears of pure relief and joy.",
+      "mood": "unfiltered joy",
+      "sfx": "LAUGH-SOB...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Hyung!! You're awake!! You're really awake!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "tae-jun sitting up pulling ha-jun into a fierce, brotherly embrace",
+      "setting": "seated hug",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun sits up and pulls Ha-Jun into a crushing, powerful hug, burying his face into Ha-Jun's hair.",
+      "mood": "the brothers embrace",
+      "sfx": "HUG-CRUSH!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "You actually did it, you crazy kid... You came all the way to Tartarus for me.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "kuro hopping onto tae-jun shoulder rubbing his beak against his neck",
+      "setting": "kuro reuniting",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro nuzzles Tae-Jun's ear affectionately: 'Welcome back, Subject Zero. You gave us quite a headache.'",
+      "mood": "familiar reunion",
+      "sfx": "PURR-NUZZLE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Bohot so liye. Ab utho aur fight karo.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "sudden sharp pang of temporal feedback striking ha-jun cortex",
+      "setting": "ha-jun head clutching",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun suddenly winces, clutching his temples as a sharp flash of blue temporal lightning zaps his brain.",
+      "mood": "the price exacted",
+      "sfx": "ZAP-WINCE!!",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Ugh... Dimaag mein ek ajeeb sa blank space ban gaya...",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "a memory fragment dissolving into grey mist: 6th grade graduation",
+      "setting": "memory evaporating",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A hazy image of an elementary school playground and a graduation certificate fades into empty white fog.",
+      "mood": "first memory sacrificed",
+      "sfx": "FOG DISSOLVE..."
+    },
+    {
+      "id": "p23",
+      "shot": "ha-jun blinking realizing he can't remember his 6th grade teacher's face",
+      "setting": "ha-jun realization",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun blinks: 'Wait... Who was my middle school homeroom teacher? I... can't remember.'",
+      "mood": "the cost realized",
+      "sfx": "PAUSE...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Chehra gayab ho gaya... But it doesn't matter. Tae-Jun is here.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "ha-jun smiling gently letting the forgotten memory go without regret",
+      "setting": "peaceful smile",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun lets out a soft breath and smiles; the trade was worth it a million times over.",
+      "mood": "zero regret",
+      "sfx": "SMILE..."
+    },
+    {
+      "id": "p25",
+      "shot": "min-jae and baek unfreezing as the temporal field stabilizes",
+      "setting": "allies unfreeze",
+      "characters": [],
+      "action": "Min-Jae and Captain Baek stumble forward as their muscles unfreeze: 'Whoa! What just happened?!'",
+      "mood": "time resuming",
+      "sfx": "STUMBLE-BLINK...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Did the whole room just flash gold?!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "shot": "min-jae gasping seeing tae-jun standing tall and healthy",
+      "setting": "min-jae amazed",
+      "characters": [],
+      "action": "Min-Jae points with trembling fingers: 'Tae-Jun hyung?! He's standing?! He looks completely cured!'",
+      "mood": "shock and celebration",
+      "sfx": "GASP!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Holy shit... He's actually alive!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "captain baek saluting tae-jun with deep military respect",
+      "setting": "baek salute",
+      "characters": [],
+      "action": "Captain Baek renders a solemn salute: 'Kang Tae-Jun. It is an honor to finally meet the hero of Section 9.'",
+      "mood": "military honors",
+      "sfx": "SNAP-SALUTE!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "baek",
+          "text": "Your sacrifice saved thousands of children, son.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "tae-jun returning the salute with dignified strength",
+      "setting": "tae-jun salute",
+      "characters": [],
+      "action": "Tae-Jun smiles warmly: 'Thank you, Captain. But my little brother is the real hero here.'",
+      "mood": "passing the torch",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Thank you, Captain Baek. Aur Ha-Jun... Tum par garv hai mujhe.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "asmodaius spirit fading with a satisfied, regal smile",
+      "setting": "asmodaius farewell",
+      "characters": [],
+      "action": "First Sovereign Asmodaius dissolves into golden stardust: 'Now prepare. The Void Primordial has sensed the Tenth Relic.'",
+      "mood": "ominous departure",
+      "sfx": "FADE-GLOW...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "asmodaius",
+          "text": "The final battle is at hand. Stand as one.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "the entire tartarus fortress groaning under a titanic dimensional tremor",
+      "setting": "spire shaking wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A catastrophic seismic shockwave rocks Tartarus; three blood-red suns eclipse the black sky as Arc 8 reaches its zenith!",
+      "mood": "calamity awakening cliffhanger",
+      "sfx": "EARTHQUAKE-ROAR!!",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "THE THREE PRIMORDIAL SOVEREIGNS HAVE AWAKENED.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    }
+  ]
+}

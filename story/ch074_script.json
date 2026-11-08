@@ -1,0 +1,470 @@
+{
+  "chapter": 74,
+  "title": "The Feather's Memory",
+  "arc": 8,
+  "arc_title": "THE MYTHIC AWAKENING",
+  "summary": "The stasis pod glass shatters; Ha-Jun catches Tae-Jun in his arms. Kuro's Fallen Feather hovers above Tae-Jun's chest, awakening ancient memories of the 5,000-year-old covenant.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "stasis pod glass exploding in slow motion shower of cyan sparks",
+      "setting": "chamber center wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The twenty-foot pressurized glass cylinder detonates into a dazzling cascade of cyan crystal shards and vapor.",
+      "mood": "dramatic unsealing",
+      "sfx": "KABOOOM-SHATTER!!"
+    },
+    {
+      "id": "p02",
+      "shot": "cyan coolant liquid rushing across the frosted floor",
+      "setting": "chamber floor",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Thousands of liters of fluorescent cyan coolant wash across the freezing floor, steaming in the zero-degree air.",
+      "mood": "coolant flood",
+      "sfx": "RUSH-SPLASH..."
+    },
+    {
+      "id": "p03",
+      "shot": "ha-jun catching tae-jun body in his arms before he touches floor",
+      "setting": "hero catch",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun slides across the wet stone on his knees, catching Tae-Jun's limp, soaking wet body safely against his chest.",
+      "mood": "protective catch",
+      "sfx": "SLIDE-CATCH!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Hyung! I've got you! Main aa gaya!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "close-up on tae-jun pale, chilled face with small demonic horns",
+      "setting": "tae-jun face close-up",
+      "characters": [],
+      "action": "Tae-Jun's skin is deathly pale, covered in frost; two small obsidian horns protrude gracefully from his temples.",
+      "mood": "slumbering guardian",
+      "sfx": "FROST STEAM..."
+    },
+    {
+      "id": "p05",
+      "shot": "tae-jun breathing shallowly but eyes rolling back weakly",
+      "setting": "tae-jun close-up",
+      "characters": [],
+      "action": "Tae-Jun's chest rises weakly; black necrotic veins pulse under the skin of his neck: 'Ha... Jun...'",
+      "mood": "fading consciousness",
+      "sfx": "WHEEZE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Ha... Jun... Void... neurotoxin...",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "kuro flapping down landing on tae-jun sternum",
+      "setting": "kuro landing",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Kuro lands gently on Tae-Jun's chest, his talons radiating warm violet magic into the young man's sternum.",
+      "mood": "guardian inspection",
+      "sfx": "PURR...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Void corruption uske soul-core tak pahunch chuki hai. Ordinary medicine can't save him.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "ha-jun desperately channeling healing mana from his hands",
+      "setting": "desperate healing",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun presses both palms to Tae-Jun's chest, flooding him with crimson-violet sovereign mana, but the black veins reject it.",
+      "mood": "mana rejection",
+      "sfx": "SIZZLE-REJECT!!",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Mera healing mana kaam kyun nahi kar raha?! It's bouncing right off!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p08",
+      "shot": "kuro fallen feather detaching from ha-jun collarbone",
+      "setting": "feather float",
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
+      "action": "The original Fallen Feather from Episode 2 begins to glow with blinding, hypnotic neon-magenta celestial fire.",
+      "mood": "feather activation",
+      "sfx": "PULSE-GLOW!!"
+    },
+    {
+      "id": "p09",
+      "shot": "feather hovering weightlessly between the two brothers",
+      "setting": "feather nexus",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The feather rotates in mid-air, casting sacred runic circles of light that illuminate both brothers' faces.",
+      "mood": "sacred geometry",
+      "sfx": "CHIME..."
+    },
+    {
+      "id": "p10",
+      "shot": "kuro voice echoing with deep divine resonance",
+      "setting": "kuro divine",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro's voice drops into an ancient, reverberating tone: 'The First Memory of the Covenant is ready to speak.'",
+      "mood": "covenant unsealing",
+      "sfx": "RESONANCE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Five thousand years ago... An oath was written in the stars.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "ha-jun and tae-jun foreheads touching as the vision begins",
+      "setting": "brothers silhouette",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A bridge of golden starlight connects the brothers' brows; reality dissolves into a blinding cosmic flashback.",
+      "mood": "vision initiated",
+      "sfx": "FLASH-WARP!!"
+    },
+    {
+      "id": "p12",
+      "shot": "cosmic flashback: primordial cosmos before earth existed",
+      "setting": "primordial cosmos wide",
+      "characters": [],
+      "action": "An ocean of violet nebulas, spinning galaxies, and burning comets in the dawn of creation.",
+      "mood": "primordial universe",
+      "sfx": "COSMIC HUMMM..."
+    },
+    {
+      "id": "p13",
+      "shot": "first sovereign asmodaius standing on a dying star",
+      "setting": "asmodaius prime",
+      "characters": [],
+      "action": "First Sovereign Asmodaius in his living prime—an immortal titan in obsidian dragon plate armor, majestic and noble.",
+      "mood": "the first emperor",
+      "sfx": "LOOM..."
+    },
+    {
+      "id": "p14",
+      "shot": "beside him: the colossal primordial nether crow monarch",
+      "setting": "crow monarch wide",
+      "characters": [],
+      "action": "Beside Asmodaius perches a thousand-foot celestial crow made of pure purple solar flares and cosmic fire: Kuro's true progenitor.",
+      "mood": "the celestial familiar",
+      "sfx": "SUNFIRE ROAR!!"
+    },
+    {
+      "id": "p15",
+      "shot": "the void primordial entity tearing through the fabric of reality",
+      "setting": "void tear wide",
+      "characters": [],
+      "action": "Opposite them, a shapeless horror of black tentacles and dying stars—The Void Primordial—attacks the universe.",
+      "mood": "the prime enemy",
+      "sfx": "VOID SCREAM!!"
+    },
+    {
+      "id": "p16",
+      "shot": "asmodaius and kuro fighting side by side against the void",
+      "setting": "cosmic clash",
+      "characters": [],
+      "action": "Asmodaius wields a blade of pure starlight while Kuro's wings deflect planets, fighting to protect mortal life.",
+      "mood": "gods at war",
+      "sfx": "SLASH-BLAST!!"
+    },
+    {
+      "id": "p17",
+      "shot": "the covenant forged: asmodaius sealing his soul into ten relics",
+      "setting": "relic forging",
+      "characters": [],
+      "action": "Knowing his mortal vessel will fall, Asmodaius forges his power into nine relics, and Kuro sheds his single primary feather as the tenth.",
+      "mood": "forging the ten keys",
+      "sfx": "FORGE-CLANG!!",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "Nine relics of power... And one feather of living soul.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "asmodaius whispering his final prophecy to kuro",
+      "setting": "asmodaius prophecy",
+      "characters": [],
+      "action": "Asmodaius smiles gently: 'When my bloodline awakens in the distant future... Guide them, my old friend.'",
+      "mood": "the eternal vow",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "asmodaius",
+          "text": "Meri legacy ek mortal child mein jaagegi. Guard him until he can surpass me.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "kuro compressing his 1,000-foot body into a small black raven",
+      "setting": "kuro compression",
+      "characters": [],
+      "action": "Kuro willingly surrenders his godhood, folding his cosmic wings until he fits in the palm of a mortal hand.",
+      "mood": "the great sacrifice",
+      "sfx": "CONDENSE-GLOW...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "Ek devta ne apni immortality chhod di... Sirf ek vaade ke liye.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "flashback ending: vision returning to the freezing chamber",
+      "setting": "chamber return",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The cosmic vision recedes; Ha-Jun opens his eyes, staring at little Kuro perched on Tae-Jun's chest with new awe.",
+      "mood": "revelation received",
+      "sfx": "FADE IN..."
+    },
+    {
+      "id": "p21",
+      "shot": "ha-jun eyes brimming with tears of profound reverence for kuro",
+      "setting": "ha-jun looking at kuro",
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
+      "action": "Ha-Jun whispers: 'Kuro... You gave up your godhood... for us?'",
+      "mood": "emotional reverence",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Kuro... Tum ek Primordial God the... And you stayed by my side in the rain.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "kuro tilting his head giving a faint, grumpy bird chuckle",
+      "setting": "kuro smirk",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro ruffles his black feathers: 'Hmph. You were a pathetic, crying brat. Someone had to make sure you didn't die.'",
+      "mood": "tsundere guardian",
+      "sfx": "CHUCKLE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Main apna vaada nahi todta, Ha-Jun. Never.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "the feather descending gently onto tae-jun heart",
+      "setting": "feather landing",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The glowing feather settles directly over Tae-Jun's sternum, sinking into his flesh like liquid purple mercury.",
+      "mood": "soul stabilization",
+      "sfx": "SINK-GLOW..."
+    },
+    {
+      "id": "p24",
+      "shot": "the black necrotic veins on tae-jun neck stopping their spread",
+      "setting": "veins halted",
+      "characters": [],
+      "action": "The black poison lines freeze in their tracks, held at bay by the Mythic Feather's divine warmth.",
+      "mood": "corrosion arrested",
+      "sfx": "HISS-FREEZE..."
+    },
+    {
+      "id": "p25",
+      "shot": "tae-jun face relaxing into peaceful, stable slumber",
+      "setting": "tae-jun peaceful",
+      "characters": [],
+      "action": "Tae-Jun's breathing stabilizes into deep, steady rhythms; the immediate threat of death is halted.",
+      "mood": "temporary stability",
+      "sfx": "SIGH...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Mera feather uski body ko 24 ghante tak freeze rakhega. But to cure him completely, we need the Hourglass.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "shot": "ha-jun carefully lifting tae-jun onto his back in piggyback carry",
+      "setting": "carry brother",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun lifts his older brother onto his back, securing his arms over his shoulders with gentle, unbreakable strength.",
+      "mood": "brotherly burden",
+      "sfx": "HEAVE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Tumne mujhe saalon tak uthaya hai, Hyung. Ab meri baari hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "the chamber roof cracking violently as a deafening roar shakes the spire",
+      "setting": "roof cracking",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The massive stone dome above cracks open; debris showers down as an ungodly draconic roar reverberates.",
+      "mood": "imminent boss descent",
+      "sfx": "ROARRRR-CRACK!!"
+    },
+    {
+      "id": "p28",
+      "shot": "shadow of a 100-foot void dragon casting darkness over the floor",
+      "setting": "dragon shadow",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Through the cracked ceiling, the colossal silhouette of Sixth Void Sovereign Vaelgor blocks out the stars.",
+      "mood": "the world eater arrives",
+      "sfx": "SHADOW LOOM..."
+    },
+    {
+      "id": "p29",
+      "shot": "kuro eyes narrowing with ancient primordial wrath",
+      "setting": "kuro ready",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro hops onto the stone railing, his eyes igniting with twin stars of violet nova fire: 'Vaelgor... You insolent lizard.'",
+      "mood": "ancient rivalry",
+      "sfx": "SPARK...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "You dare show your face before me?!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "kuro body bursting into a blinding pillar of sovereign fire cliffhanger",
+      "setting": "kuro burst",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Kuro's body erupts into a 100-foot column of sacred purple and crimson flame, about to reveal his true form!",
+      "mood": "mythic awakening cliffhanger",
+      "sfx": "FWOOOOSH-SUPERNOVA!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "kuro",
+          "text": "WITNESS MY TRUE PROVIDENCE!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    }
+  ]
+}

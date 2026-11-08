@@ -1,0 +1,426 @@
+{
+  "chapter": 79,
+  "title": "The Hourglass",
+  "arc": 8,
+  "arc_title": "THE MYTHIC AWAKENING",
+  "summary": "Ha-Jun masters the temporal mechanics of the Hourglass, reversing localized space-time to save an entire Section 9 battlegroup from a catastrophic antimatter ambush.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "the dimensional slipstream between tartarus and earth",
+      "setting": "slipstream transit wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A roaring vortex of purple nebulas and black lightning as the combined legion races through the hyperspace conduit.",
+      "mood": "hyperspace transit",
+      "sfx": "ROAR-WARP..."
+    },
+    {
+      "id": "p02",
+      "shot": "distant telemetry on captain baek tactical wrist comm",
+      "setting": "wrist communicator",
+      "characters": [],
+      "action": "Baek's comm unit crackles with panicked distress calls: 'All hunter units falling back! Seoul Defense Line Bravo has collapsed!'",
+      "mood": "distress transmission",
+      "sfx": "STATIC-CRACKLE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "radio_dispatch",
+          "text": "MAYDAY! Three colossal entities breached the Han River sector! Perimeter overrun!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "shot": "ha-jun accelerating his flight speed with the hour-glass wings",
+      "setting": "accelerated flight",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Wings of woven golden sand and purple plasma sprout from Ha-Jun's back, accelerating his velocity to Mach 10.",
+      "mood": "hypersonic flight",
+      "sfx": "BOOOM-STREAK!!"
+    },
+    {
+      "id": "p04",
+      "shot": "the dimensional exit tearing open over the han river in seoul",
+      "setting": "han river sky",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The sky over Seoul tears open; Ha-Jun, Tae-Jun, Kuro, and the vanguard burst through into the mortal world.",
+      "mood": "re-entry to earth",
+      "sfx": "TEAR-THUNDER!!"
+    },
+    {
+      "id": "p05",
+      "shot": "seoul in apocalyptic devastation: han river burning with green void fire",
+      "setting": "seoul skyline apocalyptic",
+      "characters": [],
+      "action": "The iconic Mapo and Banpo bridges are snapped in half; the Han River boils with radioactive green void flame.",
+      "mood": "city under siege",
+      "sfx": "FIRE ROAR..."
+    },
+    {
+      "id": "p06",
+      "shot": "floating above yeouido: the three primordial void thrones",
+      "setting": "three thrones looming",
+      "characters": [],
+      "action": "Three titanic 300-foot bone thrones hover over the financial district, casting colossal shadows across the skyscrapers.",
+      "mood": "the triumvirate arrives",
+      "sfx": "LOOM..."
+    },
+    {
+      "id": "p07",
+      "shot": "on the southern bank: a besieged section 9 hunter regiment cornered",
+      "setting": "hunter regiment cornered",
+      "characters": [],
+      "action": "Two hundred human hunters and a thousand iron demons are backed against a shattered subway terminal by void beasts.",
+      "mood": "last stand perimeter",
+      "sfx": "DESPERATE GUNFIRE!!"
+    },
+    {
+      "id": "p08",
+      "shot": "a colossal 50-foot antimatter mortar shell arcing toward the trapped hunters",
+      "setting": "mortar shell descending",
+      "characters": [],
+      "action": "From the primary throne, a colossal fifty-foot black antimatter artillery shell screams down toward the trapped soldiers.",
+      "mood": "imminent annihilation",
+      "sfx": "SCREAMING DESCENT!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "hunter_captain",
+          "text": "BRACE FOR IMPACT!! WE CAN'T EVACUATE IN TIME!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shot": "ha-jun diving from the stratosphere at mach 15",
+      "setting": "dive bomb blur",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A streak of platinum-black lightning cuts through the clouds straight toward the falling mortar shell.",
+      "mood": "hypersonic intercept",
+      "sfx": "METEOR DIVE!!"
+    },
+    {
+      "id": "p10",
+      "shot": "the antimatter mortar detonating in a blinding 500-meter black fireball",
+      "setting": "black explosion wide",
+      "characters": [],
+      "action": "The shell impacts the ground, expanding into a cataclysmic dome of pitch-black antimatter that begins disintegrating everything.",
+      "mood": "cataclysmic detonation",
+      "sfx": "KABOOOOOOOM-DOOM!!"
+    },
+    {
+      "id": "p11",
+      "shot": "ha-jun landing directly in the center of the expanding fireball",
+      "setting": "hero in explosion center",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun hits the ground at the ground zero epicenter, planting his boots firmly into the disintegrating asphalt.",
+      "mood": "standing in the blast",
+      "sfx": "CRASH-STAND!!"
+    },
+    {
+      "id": "p12",
+      "shot": "ha-jun raising his left palm invoking the hourglass of eternal abyss",
+      "setting": "relic invocation",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's left palm blazes with golden chronal runes: 'HOURGLASS: TEMPORAL REVERSION!!'",
+      "mood": "time rewind activated",
+      "sfx": "CHIME-PULSE!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "TIME, HEED MY COMMAND! REVERSE!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "the expanding black fireball freezing mid-expansion",
+      "setting": "frozen fireball",
+      "characters": [],
+      "action": "The 500-meter dome of black destruction halts instantly, frozen in time like a glass ornament.",
+      "mood": "freeze frame",
+      "sfx": "SNAP-SILENCE..."
+    },
+    {
+      "id": "p14",
+      "shot": "the black fireball sucking backward in reverse motion",
+      "setting": "reverse explosion",
+      "characters": [],
+      "action": "The fireball implodes backward into itself; smoke, shattered concrete, and shockwaves flow back into the falling shell.",
+      "mood": "rewinding the explosion",
+      "sfx": "SUCK-REWIND!!"
+    },
+    {
+      "id": "p15",
+      "shot": "the mortar shell flying backwards 5,000 feet into the clouds",
+      "setting": "mortar flying backwards",
+      "characters": [],
+      "action": "The intact shell rockets backwards into the sky, returning straight to the throne that launched it.",
+      "mood": "return to sender",
+      "sfx": "WHOOSH-REVERSE!!"
+    },
+    {
+      "id": "p16",
+      "shot": "the antimatter shell detonating against the void throne's defensive shields",
+      "setting": "throne shield impact",
+      "characters": [],
+      "action": "The reversed shell smashes directly into the Void Throne's barrier, detonating against the enemy's own face.",
+      "mood": "counter-strike explosion",
+      "sfx": "KABOOOM-RETRIBUTION!!"
+    },
+    {
+      "id": "p17",
+      "shot": "the two hundred trapped hunters opening eyes seeing themselves completely uninjured",
+      "setting": "hunters bewildered",
+      "characters": [],
+      "action": "The soldiers lower their arms in disbelief; not a single scratch, burn, or wound exists on their bodies.",
+      "mood": "miraculous salvation",
+      "sfx": "GASP...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hunter_private",
+          "text": "We're... We're alive?! The explosion vanished?!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "ha-jun standing before them in his platinum-streaked hair and eclipse halos",
+      "setting": "hero reveal to soldiers",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun stands between the soldiers and the enemy army, his coat snapping in the wind, dual halos spinning lazily.",
+      "mood": "the savior revealed",
+      "sfx": "HEROIC SILHOUETTE..."
+    },
+    {
+      "id": "p19",
+      "shot": "tae-jun landing beside ha-jun drawing twin guardian blades",
+      "setting": "tae-jun joins",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun impacts the pavement beside him, twin bronze swords igniting with celestial fire: 'Back off, monsters.'",
+      "mood": "the elder shield arrives",
+      "sfx": "CLANG-LAND!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Nobody touches these people while we draw breath.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "hunters and demons erupting into ecstatic morale-restored cheers",
+      "setting": "army cheering",
+      "characters": [],
+      "action": "The battered soldiers raise their weapons in tears: 'THE DEMON SOVEREIGN HAS RETURNED!! AND KANG TAE-JUN IS ALIVE!!'",
+      "mood": "morale explodes",
+      "sfx": "ROARING CHEERS!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "allied_soldiers",
+          "text": "FOR HA-JUN! FOR TAE-JUN! RETAKE THE CITY!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "on the center throne: the first void sovereign 'zeron' rising",
+      "setting": "zeron rising wide",
+      "characters": [],
+      "action": "Rising from the center throne: 'Zeron, the Sovereign of Decay'—a 15-foot titan in black armor with four scythes for wings.",
+      "mood": "the leader of the triumvirate",
+      "sfx": "LOOM...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "zeron",
+          "text": "Mortal vermin... You reversed my mortar with the ancient Hourglass?!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "zeron eyes burning with greedy cosmic hunger",
+      "setting": "zeron face close-up",
+      "characters": [],
+      "action": "Zeron's face splits open in a horrific smile: 'Ten relics gathered in one fragile human shell... How convenient for my feast!'",
+      "mood": "monstrous greed",
+      "sfx": "HISS...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "zeron",
+          "text": "When I devour your spine, the throne of creation belongs to the Void!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "ha-jun stepping forward onto the burning han river water",
+      "setting": "walking on water",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun steps calmly onto the surface of the boiling river; the water freezes to solid purple ice under his boots.",
+      "mood": "walking on water like god",
+      "sfx": "ICE SPREAD..."
+    },
+    {
+      "id": "p24",
+      "shot": "ha-jun pointing the sanguine fang straight at zeron",
+      "setting": "blade pointed at throne",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun looks up at the 300-foot throne: 'You crawled out of your sewer to touch my home. You won't leave Earth alive.'",
+      "mood": "uncompromising sentence",
+      "sfx": "SWORD POINT...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Tumne mere shehar ko chhua. Aaj tumhara aakhri din hai, Zeron.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "ten thousand void beasts swarming across the ice toward ha-jun",
+      "setting": "beast swarm wide",
+      "characters": [],
+      "action": "Ten thousand shrieking void abominations, hydras, and cyber-demons surge across the frozen river toward Ha-Jun.",
+      "mood": "the endless horde",
+      "sfx": "ROAR-SURGE!!"
+    },
+    {
+      "id": "p26",
+      "shot": "ha-jun raising his right hand manifesting the shadow legion",
+      "setting": "shadow summon",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun commands the Eclipse Devourer: 'Rise, Shadows of the Sovereign!!'",
+      "mood": "shadow legion summoned",
+      "sfx": "FWOOSH-SHADOWS!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "ARISE!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "ten thousand shadow soldiers rising from the ice with glowing violet eyes",
+      "setting": "shadow army reveal",
+      "characters": [
+        "hajun"
+      ],
+      "action": "From every shadow on the frozen river, ten thousand armored specters in midnight plate rise with blades drawn.",
+      "mood": "the shadow legion appears",
+      "sfx": "SHADOW ERUPTION!!"
+    },
+    {
+      "id": "p28",
+      "shot": "the two colossal armies colliding in the center of the frozen han river",
+      "setting": "armies clash wide",
+      "characters": [],
+      "action": "The Shadow Legion and the Void Horde collide with the sound of a shattering tectonic plate, blood and oil spraying.",
+      "mood": "titanic battle begins",
+      "sfx": "EARTH-SHATTERING CLASH!!"
+    },
+    {
+      "id": "p29",
+      "shot": "ha-jun and tae-jun launching side-by-side toward the three thrones",
+      "setting": "brothers taking flight",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun and Tae-Jun vault into the sky, twin streaks of starlight rocketing straight toward the three void monarchs.",
+      "mood": "assaulting the thrones",
+      "sfx": "DUAL FLIGHT-BLUR!!"
+    },
+    {
+      "id": "p30",
+      "shot": "the three void sovereigns drawing their weapons cliffhanger",
+      "setting": "sovereigns ready weapons",
+      "characters": [],
+      "action": "All three Void Sovereigns draw their colossal weapons as the sky turns to fire—the ultimate war has begun!",
+      "mood": "arc 9 grand opening cliffhanger",
+      "sfx": "BLADE DRAW-FLASH!!",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "THE BATTLE FOR EARTH BEGINS.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    }
+  ]
+}

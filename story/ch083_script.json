@@ -1,0 +1,502 @@
+{
+  "chapter": 83,
+  "title": "Ten Relics, One Blood",
+  "arc": 8,
+  "arc_title": "THE MYTHIC AWAKENING",
+  "summary": "In the celebratory aftermath, Ha-Jun establishes the Grand Sovereign Council, sealing the interdimensional gates and ensuring eternal peace between humans and demonkind.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "the rebuilt grand hall of the hunter association in seoul",
+      "setting": "grand hall interior wide",
+      "characters": [],
+      "action": "The towering marble council hall of the rebuilt Hunter Association, decorated with banners of both humans and demons.",
+      "mood": "new government hall",
+      "sfx": "MAJESTIC CHANDELIERS..."
+    },
+    {
+      "id": "p02",
+      "shot": "representatives of 100 nations and demonic tribes seated in harmony",
+      "setting": "council assembly",
+      "characters": [],
+      "action": "Human diplomats, hunter guildmasters, and towering horned demon chieftains sit side by side at a circular mahogany table.",
+      "mood": "the grand council",
+      "sfx": "MURMUR..."
+    },
+    {
+      "id": "p03",
+      "shot": "captain baek stepping to the central podium tapping the gavel",
+      "setting": "baek at gavel",
+      "characters": [],
+      "action": "Captain Baek—now Supreme General of the Unified Defense Pact—strikes the gavel: 'Order in the Grand Assembly!'",
+      "mood": "convening the council",
+      "sfx": "GAVEL SLAM!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "baek",
+          "text": "I call to order the inaugural session of the Unified Sovereign Accord.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shot": "the double oak doors opening at the rear of the chamber",
+      "setting": "doors opening",
+      "characters": [],
+      "action": "The forty-foot oak doors swing open; a warm golden light spills across the red carpet aisle.",
+      "mood": "the entry",
+      "sfx": "CREAK-OPEN..."
+    },
+    {
+      "id": "p05",
+      "shot": "ha-jun kang entering in tailored black academy suit with silver crest",
+      "setting": "ha-jun entry",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun Kang enters—dressed in a crisp, elegant navy academy suit with the platinum crest of the Sovereign on his breast pocket.",
+      "mood": "the mortal monarch",
+      "sfx": "STEP-STEP..."
+    },
+    {
+      "id": "p06",
+      "shot": "beside him: kang tae-jun in chief guardian commander coat",
+      "setting": "tae-jun beside",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Beside him walks Kang Tae-Jun in a sharp dark coat with bronze epaulets, his warm smile greeting the delegates.",
+      "mood": "the brothers walking together",
+      "sfx": "CONFIDENT MARCH..."
+    },
+    {
+      "id": "p07",
+      "shot": "kuro perched comfortably on ha-jun shoulder wearing a tiny golden bow",
+      "setting": "kuro with bow",
+      "characters": [
+        "kuro",
+        "hajun"
+      ],
+      "action": "Kuro sits regally on Ha-Jun's shoulder, wearing a comically dignified tiny golden bow around his neck.",
+      "mood": "dignified familiar",
+      "sfx": "RUFFLE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "If anyone laughs at my bow, I will eat their dessert.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p08",
+      "shot": "the entire assembly of world leaders standing in thunderous ovation",
+      "setting": "standing ovation wide",
+      "characters": [],
+      "action": "All five hundred delegates, generals, and chieftains rise to their feet, applauding with profound respect.",
+      "mood": "standing ovation",
+      "sfx": "THUNDEROUS APPLAUSE!!"
+    },
+    {
+      "id": "p09",
+      "shot": "ha-jun stepping up to the central treaty dais with tae-jun",
+      "setting": "dais arrival",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun reaches the central podium, looking out over the smiling faces of humans and demons united.",
+      "mood": "at the podium",
+      "sfx": "APPLAUSE DIES DOWN..."
+    },
+    {
+      "id": "p10",
+      "shot": "on the dais: the sacred parchment of the eternal accord",
+      "setting": "treaty parchment macro",
+      "characters": [],
+      "action": "A three-foot parchment inscribed in both Korean and ancient Demonic script rests under a crystal seal.",
+      "mood": "the sacred treaty",
+      "sfx": "PARCHMENT GLOW...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "THE ETERNAL SOVEREIGN ACCORD.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "ha-jun raising his hand to address the assembly",
+      "setting": "ha-jun speaking",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun speaks softly, but his voice is amplified with the gentle resonance of the Crown into every heart.",
+      "mood": "the monarch's decree",
+      "sfx": "WARM VOICE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Five thousand years ago, fear divided our worlds. Today, we choose to live together.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "ha-jun explaining the role of the ten relics in the new world",
+      "setting": "explaining relics",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun: 'The Ten Relics will no longer be weapons of war. They are sealed into the foundational wards of our planet.'",
+      "mood": "relics as peaceful pillars",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Relics kisi ki personal property nahi rahenge. They will protect our world's borders forever.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "ha-jun gesturing to tae-jun beside him",
+      "setting": "introducing brother",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun: 'My elder brother, Kang Tae-Jun, is appointed Supreme Warden of the Gates.'",
+      "mood": "appointing the guardian",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Tae-Jun hyung will ensure no rogue gate ever threatens an innocent child again.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "tae-jun bowing respectfully with hand over heart",
+      "setting": "tae-jun bow",
+      "characters": [],
+      "action": "Tae-Jun places his right hand over his heart, bowing to the assembly with noble humility: 'I accept this duty with my life.'",
+      "mood": "solemn acceptance",
+      "sfx": "BOW...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "I swear to protect both worlds with the Guardian's Shield.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "shot": "ha-jun picking up the ceremonial fountain pen",
+      "setting": "pen in hand",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun takes the fountain pen, dipped in deep violet demonic ink with gold flecks.",
+      "mood": "the signing",
+      "sfx": "PEN CLINK..."
+    },
+    {
+      "id": "p16",
+      "shot": "ha-jun signing his full name: 'Kang Ha-Jun — Demon Sovereign'",
+      "setting": "signature close-up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "With a clean, elegant flourish, Ha-Jun signs his signature across the bottom of the historic treaty.",
+      "mood": "signature signed",
+      "sfx": "SCRITCH-SCRATCH..."
+    },
+    {
+      "id": "p17",
+      "shot": "tae-jun adding his signature beside his brother's: 'Kang Tae-Jun — Guardian Warden'",
+      "setting": "second signature",
+      "characters": [],
+      "action": "Tae-Jun signs his name directly beside Ha-Jun's, twin signatures sealing the covenant forever.",
+      "mood": "the brothers' seal",
+      "sfx": "SCRITCH..."
+    },
+    {
+      "id": "p18",
+      "shot": "a wave of sparkling golden light radiating from the signed parchment",
+      "setting": "treaty activation",
+      "characters": [],
+      "action": "The parchment blazes with golden celestial fire as the magic of the treaty binds across both dimensions.",
+      "mood": "covenant sealed by magic",
+      "sfx": "FLASH-COVENANT!!"
+    },
+    {
+      "id": "p19",
+      "shot": "the assembly erupting into cheers and celebration once again",
+      "setting": "assembly celebration",
+      "characters": [],
+      "action": "Generals shake hands, demon lords clink ceremonial wine horns, and cameras flash in endless succession.",
+      "mood": "world peace declared",
+      "sfx": "ROAR-CAMERAS!!"
+    },
+    {
+      "id": "p20",
+      "shot": "flash forward: sunset over saint mirren university rooftop terrace",
+      "setting": "university rooftop sunset",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Twilight settles over the quiet rooftop of Saint Mirren University—the exact spot where Episode 1 began in the rain.",
+      "mood": "return to the beginning",
+      "sfx": "AMBER BREEZE..."
+    },
+    {
+      "id": "p21",
+      "shot": "ha-jun leaning against the stone balustrade looking out over seoul",
+      "setting": "ha-jun looking at city",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun leans his forearms against the stone railing, watching the peaceful neon lights of Seoul flicker to life.",
+      "mood": "peaceful reflection",
+      "sfx": "WIND RUSTLE...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Yahin se shuru hua tha sab kuch... Ek toofan, ek feather, aur bohot saara darr.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "tae-jun walking up holding two warm canned coffees",
+      "setting": "coffee delivery",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun walks up quietly, pressing a warm can of Maxim Mocha coffee against Ha-Jun's cheek.",
+      "mood": "brotherly warmth",
+      "sfx": "CLINK...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Warm coffee for the savior of the universe.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shot": "ha-jun taking the coffee smiling warmly at his brother",
+      "setting": "brothers on rooftop",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun takes the can, popping the tab with a satisfying hiss: 'Thanks, Hyung. How was your first day as Supreme Warden?'",
+      "mood": "cozy banter",
+      "sfx": "TAB-POP!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Thanks. Warden ban kar kaisa lag raha hai?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "shot": "tae-jun sipping his coffee leaning on the railing beside him",
+      "setting": "leaning side by side",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun chuckles: 'Too much paperwork. I think being hunted by Dr. Vance was easier.'",
+      "mood": "brotherly jokes",
+      "sfx": "CHUCKLE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Paperwork bohot zyada hai. Fighting demons was simpler.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "min-jae jogging onto the roof holding study textbooks",
+      "setting": "min-jae rooftop",
+      "characters": [],
+      "action": "Min-Jae bursts onto the rooftop waving calculus binders: 'Ha-Jun! You skipped our study group! The exam is in twelve hours!'",
+      "mood": "comedic urgency",
+      "sfx": "PANT-RUN...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Ha-Jun!! Calculus notes kon padhega?! Get over here!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "shot": "ha-jun groaning with a dramatic teenage eye-roll",
+      "setting": "dramatic groan",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun groans, throwing his head back: 'Can't I just use the Sovereign's Domain to solve the integrals?'",
+      "mood": "teenager complaints",
+      "sfx": "GROAN...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Sovereign power se calculus pass nahi ho sakti kya?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "shot": "tae-jun and kuro laughing heartily at ha-jun expense",
+      "setting": "laughter on roof",
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
+      "action": "Tae-Jun and Kuro laugh out loud in the twilight breeze; Kuro pecks Ha-Jun's head affectionately.",
+      "mood": "pure happiness",
+      "sfx": "LAUGHTER...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Study, Sovereign. Even Kings must know their algebra.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "shot": "ha-jun sitting on the rooftop bench opening the textbook with a smile",
+      "setting": "study bench",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun sits on the wooden bench, opening the calculus notebook under the warm amber streetlamps, surrounded by his family.",
+      "mood": "the peaceful life earned",
+      "sfx": "PAGE FLIP...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Main akela nahi hoon. Main ab kabhi akela nahi hunga.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "kuro spreading his black wings silhouette against the rising full moon",
+      "setting": "kuro moon silhouette",
+      "characters": [
+        "kuro"
+      ],
+      "action": "Kuro perches on the stone balustrade, his silhouette framed perfectly by a giant, silver, peaceful full moon.",
+      "mood": "guardian watching over",
+      "sfx": "MOON GLOW...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "Ten relics. One blood. An eternal promise kept.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "the final panel: ha-jun looking up into the starry sky smiling with complete peace",
+      "setting": "grand saga finale",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun Kang looks up at the tranquil starry night sky over Seoul, smiling with gentle, complete fulfillment as the saga concludes.",
+      "mood": "the sovereign's peace",
+      "sfx": "STARS TWINKLE...",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "DEMON SOVEREIGN'S BLOODLINE — THE SAGA CONCLUDED IN ETERNAL GLORY.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    }
+  ]
+}

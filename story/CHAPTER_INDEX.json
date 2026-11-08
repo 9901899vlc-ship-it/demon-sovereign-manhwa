@@ -546,70 +546,70 @@
           "chapter": 74,
           "title": "The Feather's Memory",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch074_script.json"
         },
         {
           "chapter": 75,
           "title": "The Mythic Truth",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch075_script.json"
         },
         {
           "chapter": 76,
           "title": "The Guardian's Real Form",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch076_script.json"
         },
         {
           "chapter": 77,
           "title": "The First Sovereign's Voice",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch077_script.json"
         },
         {
           "chapter": 78,
           "title": "The Price of Awakening",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch078_script.json"
         },
         {
           "chapter": 79,
           "title": "The Hourglass",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch079_script.json"
         },
         {
           "chapter": 80,
           "title": "Beyond Time",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch080_script.json"
         },
         {
           "chapter": 81,
           "title": "The Hourglass Keeper",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch081_script.json"
         },
         {
           "chapter": 82,
           "title": "The Final Synchronization",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch082_script.json"
         },
         {
           "chapter": 83,
           "title": "Ten Relics, One Blood",
           "target_panels": 30,
-          "status": "planned",
+          "status": "scripted_and_prompted",
           "script_file": "story/ch083_script.json"
         }
       ]

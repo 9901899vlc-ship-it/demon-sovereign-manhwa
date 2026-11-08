@@ -1,0 +1,460 @@
+{
+  "chapter": 75,
+  "title": "The Mythic Truth",
+  "arc": 8,
+  "arc_title": "THE MYTHIC AWAKENING",
+  "summary": "Kuro's unsealed memories reveal the cosmic truth: the Void Primordial cannot be slain by force alone, but only by the tenth relic—the Hourglass of Eternal Abyss.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "the pillar of violet fire roaring inside the shattered spire dome",
+      "setting": "spire apex wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A majestic pillar of royal purple fire reaches into the black Tartarus sky, parting the storm clouds like a blade.",
+      "mood": "pillar of divine fire",
+      "sfx": "ROARING PYRE!!"
+    },
+    {
+      "id": "p02",
+      "shot": "vaelgor the void dragon hovering overhead in shocked disbelief",
+      "setting": "dragon airborne",
+      "characters": [],
+      "action": "The 100-foot Void Dragon recoils on massive leathery wings, its six crimson eyes dilating in ancient panic.",
+      "mood": "draconic terror",
+      "sfx": "FLAP-GASP...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "vaelgor",
+          "text": "This pressure... That avian screech... It cannot be!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "shot": "inside the flame: the silhouette of a titanic celestial bird expanding",
+      "setting": "fire silhouette",
+      "characters": [],
+      "action": "Within the violet vortex, Kuro's silhouette expands—horns elongating into crowns of starlight, wings stretching 200 feet wide.",
+      "mood": "the true form emerges",
+      "sfx": "EXPAND-CRESCENDO!!"
+    },
+    {
+      "id": "p04",
+      "shot": "the flames burst outward revealing the primordial nether phoenix",
+      "setting": "phoenix reveal wide",
+      "characters": [],
+      "action": "A breathtaking, terrifying sovereign beast: midnight-black feathers edged with violet nova flares, ruby eyes burning like suns.",
+      "mood": "primordial nether phoenix",
+      "sfx": "SUPERNOVA BURST!!",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "KURO — PRIMORDIAL GUARDIAN OF THE ABYSSAL THRESHOLD.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shot": "ha-jun shielding tae-jun on his back staring up in awe",
+      "setting": "hero look up",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun holds Tae-Jun tightly, the wind whipping his hair as he gazes up at his companion's magnificent true majesty.",
+      "mood": "awe and devotion",
+      "sfx": "WIND ROAR...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Kuro... This is what you truly looked like when you walked beside the First Sovereign...",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "kuro unleashing a sonic clarion screech that shatters stone",
+      "setting": "phoenix cry",
+      "characters": [],
+      "action": "Kuro tilts his crowned head back, emitting a divine eagle-screech that shatters the surrounding observation towers into dust.",
+      "mood": "divine sonic cry",
+      "sfx": "SKREEEEEEEEEECH!!"
+    },
+    {
+      "id": "p07",
+      "shot": "vaelgor roaring back unleashing a torrent of black void fire",
+      "setting": "dragon breath",
+      "characters": [],
+      "action": "Vaelgor retaliates by exhaling a 50-foot wide stream of black anti-matter flames straight down toward Kuro and the brothers.",
+      "mood": "anti-matter breath",
+      "sfx": "FZZZZT-KABOOM!!"
+    },
+    {
+      "id": "p08",
+      "shot": "kuro sweeping a single wing creating a wall of purple solar flares",
+      "setting": "wing shield",
+      "characters": [],
+      "action": "Kuro sweeps his left wing upward; a solid wall of violet solar fire intercepts the dragon's breath, vaporizing it instantly.",
+      "mood": "absolute barrier",
+      "sfx": "SIZZLE-NULL!!"
+    },
+    {
+      "id": "p09",
+      "shot": "kuro shooting straight up like a violet missile into the sky",
+      "setting": "aerial ascent",
+      "characters": [],
+      "action": "Kuro rockets upward at Mach 8, breaking the sound barrier with a sonic boom that rocks the entire fortress.",
+      "mood": "sonic ascent",
+      "sfx": "BOOOOM-STREAK!!"
+    },
+    {
+      "id": "p10",
+      "shot": "aerial clash: kuro talons gripping vaelgor dragon throat",
+      "setting": "mid-air grapple",
+      "characters": [],
+      "action": "High in the Tartarus stratosphere, Kuro's diamond-sharp talons clamp around Vaelgor's armored throat with bone-crushing force.",
+      "mood": "lethal chokehold",
+      "sfx": "CRUNCH-GRAPPLE!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "kuro",
+          "text": "KNEEL BEFORE YOUR CREATOR'S SENTINEL!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "shot": "kuro spinning and slamming the colossal dragon into the spire peak",
+      "setting": "slamming dragon down",
+      "characters": [],
+      "action": "Kuro flips mid-air, hurtling downward to slam the 100-foot beast headfirst into the obsidian summit of the spire.",
+      "mood": "meteor slam",
+      "sfx": "METEOR IMPACT-CRASH!!"
+    },
+    {
+      "id": "p12",
+      "shot": "vaelgor dragon armor shattering into black crystal fragments",
+      "setting": "armor shatter",
+      "characters": [],
+      "action": "The impact creates a 100-meter crater; Vaelgor's chestplate and wings crack like fragile ceramic tiles.",
+      "mood": "dragon crushed",
+      "sfx": "CRACK-SHATTER!!"
+    },
+    {
+      "id": "p13",
+      "shot": "kuro pinning the dragon with a taloned foot looking down coldly",
+      "setting": "triumphant predator",
+      "characters": [],
+      "action": "Kuro stands atop the writhing dragon, violet fire dancing on his feathers, looking down with imperious disdain.",
+      "mood": "apex predator",
+      "sfx": "LOOM...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "You were always a worm, Vaelgor. Tell Ha-Jun where the Clocktower lies.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shot": "vaelgor coughing black blood laughing weakly",
+      "setting": "dragon bleeding",
+      "characters": [],
+      "action": "Vaelgor wheezes, coughing black void blood: 'The Clocktower... Heh... The Chrono-Abyss will eat his mortal sanity!'",
+      "mood": "spiteful confession",
+      "sfx": "COUGH-HISS...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "vaelgor",
+          "text": "Sublevel 999... The River of Null Time... But he will never return alive!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "shot": "kuro driving talons through vaelgor core executing the dragon",
+      "setting": "dragon execution",
+      "characters": [],
+      "action": "With a swift, emotionless crush, Kuro's talons pierce Vaelgor's mana core; the beast shudders and dissolves into purple embers.",
+      "mood": "dragon slain",
+      "sfx": "SQUELCH-DISSOLVE!!"
+    },
+    {
+      "id": "p16",
+      "shot": "kuro landing softly before ha-jun beginning to shrink back down",
+      "setting": "landing and shrinking",
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
+      "action": "Kuro lands before Ha-Jun; his massive cosmic wings fold as the blinding flames retract into his small raven form.",
+      "mood": "returning to familiar",
+      "sfx": "FLAME RECEDE..."
+    },
+    {
+      "id": "p17",
+      "shot": "little kuro landing tiredly on ha-jun shoulder puffing feathers",
+      "setting": "kuro on shoulder",
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
+      "action": "Little Kuro sits on Ha-Jun's shoulder, panting slightly: 'Maintaining that form uses up my feather's emergency charge.'",
+      "mood": "fatigued guardian",
+      "sfx": "PANT...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "That was fun. Ab Sublevel 999 chalte hain. Time is running out for Tae-Jun.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shot": "captain baek and min-jae arriving through the elevator shaft",
+      "setting": "allies arrive",
+      "characters": [],
+      "action": "Min-Jae and Baek sprint onto the platform, weapons hot: 'Ha-Jun! We routed the gargoyles! We secured the lower lifts!'",
+      "mood": "allies rejoining",
+      "sfx": "RUNNING BOOTS...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "We heard an explosion that shook the whole continent! Was that you guys?!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "ha-jun adjusting tae-jun on his back nodding firmly",
+      "setting": "ha-jun ready",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun: 'Kuro just took out their air defense. We are diving to the absolute bottom of Tartarus.'",
+      "mood": "next objective declared",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Level 999. The Temporal Abyss. The Hourglass of Eternal Abyss wahin hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "baek inspecting the elevator console marked with temporal warning runes",
+      "setting": "elevator console",
+      "characters": [],
+      "action": "Baek sweeps dust off a glowing golden terminal: 'The shaft goes straight into a spatial rift. Normal physics don't apply down there.'",
+      "mood": "temporal warning",
+      "sfx": "BEEP-SCAN...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "baek",
+          "text": "Temporal distortion rating 99.8%. Time dilates by a factor of 10,000.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "ha-jun stepping onto the descending gravity platform with his brother",
+      "setting": "platform boarding",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun steps onto the circular platform; Min-Jae and Baek flank him on either side with safeties clicked off.",
+      "mood": "boarding the lift",
+      "sfx": "STEP..."
+    },
+    {
+      "id": "p22",
+      "shot": "gravity lift dropping down the vertical central shaft at terminal velocity",
+      "setting": "falling lift wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The lift drops into the sheer two-mile void shaft, air rushing past their ears in a deafening sonic roar.",
+      "mood": "terminal descent",
+      "sfx": "FREEFALL-ROAR!!"
+    },
+    {
+      "id": "p23",
+      "shot": "the shaft walls shifting from black stone into swirling clocks and gears",
+      "setting": "shaft transition",
+      "characters": [
+        "hajun"
+      ],
+      "action": "As they pass mile one, the obsidian walls dissolve into floating golden clock faces, swinging pendulums, and spinning star charts.",
+      "mood": "entering temporal realm",
+      "sfx": "TICK-TOCK-HUMMM..."
+    },
+    {
+      "id": "p24",
+      "shot": "ha-jun watching his own watch hands spinning crazily backwards",
+      "setting": "wristwatch macro",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun glances at his wrist: the second hand of his watch is spinning counter-clockwise at blinding speed.",
+      "mood": "temporal inversion observed",
+      "sfx": "SPINNING ARROW...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Time is literally flowing backwards here...",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shot": "the lift slowing to a gentle hover over an endless ocean of golden sand",
+      "setting": "clocktower ocean wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The shaft opens into a breathtaking pocket dimension: a vast ocean of glowing golden sand under a sky of frozen lightning bolts.",
+      "mood": "the temporal sea",
+      "sfx": "GLOWING SILENCE..."
+    },
+    {
+      "id": "p26",
+      "shot": "in the center of the sand sea: the towering abyss clocktower",
+      "setting": "clocktower distance",
+      "characters": [],
+      "action": "Rising from the golden dunes is an ancient cathedral-sized Clocktower of obsidian and brass, holding the glowing Hourglass.",
+      "mood": "the destination revealed",
+      "sfx": "LOOM..."
+    },
+    {
+      "id": "p27",
+      "shot": "ha-jun stepping off the platform onto the weightless sand",
+      "setting": "stepping on sand",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun steps off; the sand doesn't sink under his boots but ripples like liquid gold beneath his weight.",
+      "mood": "weightless stride",
+      "sfx": "RIPPLE..."
+    },
+    {
+      "id": "p28",
+      "shot": "tae-jun whispering softly in ha-jun ear as his brow twitches",
+      "setting": "whisper in ear",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Tae-Jun stirs weakly, his lips brushing Ha-Jun's ear: 'Ha-Jun... Be careful of the Keeper... He attacks your memories...'",
+      "mood": "brother's warning",
+      "sfx": "WHISPER...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "tae_jun",
+          "text": "Keeper... Wo tumhari memories ko erase karne aayega...",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shot": "ha-jun tightening his grip on his brother with gentle warmth",
+      "setting": "tightening hold",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun whispers back: 'Don't worry, Hyung. I won't forget who I'm fighting for.'",
+      "mood": "unbreakable anchor",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Main tumhe kabhi nahi bhoolunga. Just rest.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "the massive brass clocktower doors slowly swinging open cliffhanger",
+      "setting": "clocktower doors open",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The fifty-foot brass doors of the Clocktower grind open, revealing the ticking realm of Chronos-Malek!",
+      "mood": "entering the temporal trial",
+      "sfx": "GRIND-CREAK!!",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "THE TENTH RELIC AWAITS.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    }
+  ]
+}

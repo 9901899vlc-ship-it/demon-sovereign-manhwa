@@ -1,0 +1,454 @@
+{
+  "chapter": 76,
+  "title": "The Guardian's Real Form",
+  "arc": 8,
+  "arc_title": "THE MYTHIC AWAKENING",
+  "summary": "Inside the Temporal Clocktower, Ha-Jun confronts Chronos-Malek's time-distortion illusions, witnessing fragments of his stolen childhood and alternate destinies.",
+  "target_panels": 30,
+  "panels": [
+    {
+      "id": "p01",
+      "shot": "inside the clocktower: floating spiral staircases of frozen seconds",
+      "setting": "clocktower interior wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A majestic, mind-bending cathedral where hundreds of brass spiral staircases twist through mid-air like DNA strands.",
+      "mood": "escher-like temporal cathedral",
+      "sfx": "TICK-TOCK-TICK..."
+    },
+    {
+      "id": "p02",
+      "shot": "golden sand falling upwards toward the ceiling in gravity inversion",
+      "setting": "reversed sand close-up",
+      "characters": [],
+      "action": "Golden sand streams upward from the floor toward the ceiling in perfect reverse gravity, twinkling like stardust.",
+      "mood": "inverted gravity",
+      "sfx": "DRIFT UP..."
+    },
+    {
+      "id": "p03",
+      "shot": "ha-jun walking up the central staircase carrying tae-jun securely",
+      "setting": "stair climb",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun ascends the floating brass steps; Min-Jae and Baek guard his flank with weapons sweeping the shadows.",
+      "mood": "steady advance",
+      "sfx": "STEP-CLINK..."
+    },
+    {
+      "id": "p04",
+      "shot": "a sudden temporal ripple washes over the staircase",
+      "setting": "temporal shockwave",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A wave of shimmering silver chronal distortion sweeps through the room, making reality stutter like a scratched film reel.",
+      "mood": "chronal wave",
+      "sfx": "WARP-RIPPLE!!"
+    },
+    {
+      "id": "p05",
+      "shot": "min-jae and baek freezing mid-motion like statues",
+      "setting": "frozen allies",
+      "characters": [],
+      "action": "Min-Jae and Captain Baek freeze completely mid-stride, their boots half-lifted, eyes locked in stationary stillness.",
+      "mood": "time-frozen companions",
+      "sfx": "FREEZE-LOCK...",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Min-Jae! Captain Baek! They are frozen in the flow of time!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shot": "ha-jun remaining mobile thanks to kuro's mythic feather shield",
+      "setting": "feather barrier",
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
+      "action": "The Mythic Feather on Tae-Jun's chest and the Crown on Ha-Jun's brow emit a joint spherical barrier, insulating them from time-stop.",
+      "mood": "immunity barrier",
+      "sfx": "HUMMM-PULSE...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "The Sovereign's will cannot be frozen by mortal time. Keep moving forward.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shot": "temporal illusion 1: ha-jun as an ordinary salaryman in modern seoul",
+      "setting": "illusion mirror 1",
+      "characters": [
+        "hajun"
+      ],
+      "action": "In a floating pane of chronal glass, Ha-Jun sees himself at 25—an ordinary office worker in a suit, tired, riding the subway.",
+      "mood": "the mortal life never lived",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Agar mere parents na marte... Agar demon bloodline na hota... Main aisa hota?",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p08",
+      "shot": "illusion 1 detail: ordinary ha-jun smiling with tae-jun at a dinner table",
+      "setting": "illusion mirror detail",
+      "characters": [],
+      "action": "In the glass, ordinary Ha-Jun and Tae-Jun are eating dinner with their living parents, laughing happily.",
+      "mood": "the painful dream",
+      "sfx": "WARM LAUGHTER..."
+    },
+    {
+      "id": "p09",
+      "shot": "ha-jun reaching toward the glass his heart aching with longing",
+      "setting": "touching the mirror",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun's fingers hover inches from the warm, golden image; a single tear traces down his cheek.",
+      "mood": "poignant temptation",
+      "sfx": "TOUCH...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Mummy... Papa... Hyung...",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "shot": "temporal illusion 2: dark future where ha-jun becomes a tyrant",
+      "setting": "illusion mirror 2",
+      "characters": [],
+      "action": "The glass fractures into a second dark reflection: Ha-Jun on a throne of skulls, cold crimson eyes, burning Earth to cinder.",
+      "mood": "the sovereign tyrant future",
+      "sfx": "FLAMES-SCREAM!!"
+    },
+    {
+      "id": "p11",
+      "shot": "dark ha-jun in the mirror laughing with hollow madness",
+      "setting": "dark ha-jun close-up",
+      "characters": [],
+      "action": "The dark reflection sneers: 'Surrender to the blood, boy! Power is the only truth in this pathetic universe!'",
+      "mood": "monarch corruption",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "dark_hajun",
+          "text": "Embrace the slaughter! Why protect weaklings who threw stones at you?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shot": "ha-jun drawing sanguine fang and shattering both mirrors",
+      "setting": "shattering illusions",
+      "characters": [
+        "hajun"
+      ],
+      "action": "With a clean, decisive sweep of his blood katana, Ha-Jun shatters both illusion panes into a thousand harmless shards.",
+      "mood": "rejecting the false timelines",
+      "sfx": "SLASH-SHATTER!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Main na kisi jhoothe sapne mein jiyunga... Aur na hi kisi zalim monster banunga.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shot": "the glass shards dissolving into golden mist",
+      "setting": "dissolving shards",
+      "characters": [
+        "hajun"
+      ],
+      "action": "The fragments dissolve into sparkling mist; Ha-Jun's eyes burn with absolute lucidity and self-knowledge.",
+      "mood": "clarity attained",
+      "sfx": "SPARKLE-CLEAR..."
+    },
+    {
+      "id": "p14",
+      "shot": "at the apex of the tower: the sanctuary of the hourglass",
+      "setting": "sanctuary apex wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun reaches the summit platform—a circular amphitheater surrounded by twelve massive golden clock faces.",
+      "mood": "the hourglass chamber",
+      "sfx": "TICK-TOCK..."
+    },
+    {
+      "id": "p15",
+      "shot": "suspended in the center: the hourglass of eternal abyss",
+      "setting": "hourglass pedestal macro",
+      "characters": [],
+      "action": "A two-meter-tall ornate hourglass of blackened abyssal gold, containing glowing sand that shifts from royal violet to bright gold.",
+      "mood": "the tenth relic",
+      "sfx": "GLOW-SAND..."
+    },
+    {
+      "id": "p16",
+      "shot": "the keeper of the hourglass materializing from the ceiling: chronos-malek",
+      "setting": "chronos materialization",
+      "characters": [],
+      "action": "Descending from the center ceiling is Chronos-Malek—a four-faced entity wrapped in golden clock hands and silver gears.",
+      "mood": "the temporal arbiter",
+      "sfx": "GEAR CLANK...",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "chronos",
+          "text": "Mortal of the Sovereign line. You have survived the trials of alternate destinies.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shot": "chronos-malek four faces rotating displaying past, present, future, and void",
+      "setting": "four faces macro",
+      "characters": [],
+      "action": "Four porcelain masks rotate on its mechanical neck: a smiling child, a stoic warrior, a decaying skull, and a black void hole.",
+      "mood": "the four aspects of time",
+      "sfx": "WHIRL-CLICK..."
+    },
+    {
+      "id": "p18",
+      "shot": "chronos-malek demanding the price of the hourglass",
+      "setting": "chronos address",
+      "characters": [],
+      "action": "Chronos-Malek: 'The Hourglass can rewind any wound. But it drinks human memory as its fuel. Are you prepared to forget?'",
+      "mood": "the terrible trade",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "chronos",
+          "text": "For every year of life you restore to your brother, a season of your own childhood shall be consumed forever.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "shot": "ha-jun looking down at tae-jun face resting on his shoulder",
+      "setting": "tender glance",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun glances at Tae-Jun's sleeping face; he remembers Tae-Jun giving up his youth, his freedom, and his body.",
+      "mood": "no hesitation",
+      "dialogue": [
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Tae-Jun ne mere liye saat saal tak narak saha... Aur main kuch memories ke liye ro ro kar rukunga?",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shot": "ha-jun looking up at chronos-malek with a fearless smile",
+      "setting": "hero fearless smile",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun smiles with radiant confidence: 'Take whatever memories you want. Just wake my brother up.'",
+      "mood": "unconditional love",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Deal accepted. Let's do this.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "shot": "chronos-malek raising four golden scythe arms in judgment",
+      "setting": "chronos battle stance",
+      "characters": [],
+      "action": "Chronos-Malek: 'First, you must prove your soul can bear the weight of time! Face the Wheel of Seconds!'",
+      "mood": "trial by combat",
+      "sfx": "CLANG-GEAR!!",
+      "dialogue": [
+        {
+          "type": "shout",
+          "speaker": "chronos",
+          "text": "DEFEND THY EXISTENCE!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shot": "twelve giant clock hands detaching and flying as supersonic blades",
+      "setting": "flying clock hands",
+      "characters": [],
+      "action": "Twelve razor-sharp golden pendulum blades rocket across the platform like giant guillotine darts.",
+      "mood": "pendulum swarm",
+      "sfx": "SWOOSH-SWOOSH!!"
+    },
+    {
+      "id": "p23",
+      "shot": "ha-jun manifesting chains of ruin in a defensive dome",
+      "setting": "chains shield",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun summons Chains of Ruin, creating an impenetrable swirling sphere of black chain links around himself and Tae-Jun.",
+      "mood": "chain sphere parry",
+      "sfx": "CLANG-SPARK-DEFLECT!!"
+    },
+    {
+      "id": "p24",
+      "shot": "all twelve blades ricocheting off the adamantine chains",
+      "setting": "ricochet wide",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Sparks rain in sheets as the clock hands bounce harmlessly off the gravitational ward.",
+      "mood": "flawless defense",
+      "sfx": "SPARK SHOWER..."
+    },
+    {
+      "id": "p25",
+      "shot": "ha-jun leaping through the ceiling of his own chain dome",
+      "setting": "leaping assault",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun bursts through the top of his chain barrier, drawing both Sanguine Fang and the Bone Scythe in twin hands.",
+      "mood": "dual relic assault",
+      "sfx": "FWOOSH-LEAP!!"
+    },
+    {
+      "id": "p26",
+      "shot": "ha-jun slicing through chronos-malek first two mechanical arms",
+      "setting": "arm severance",
+      "characters": [
+        "hajun"
+      ],
+      "action": "A flashing cross-slash of red blood-light and bone-white energy cleanly severs two of Chronos's golden arms.",
+      "mood": "double dismemberment",
+      "sfx": "CLEAVE-CRACK!!"
+    },
+    {
+      "id": "p27",
+      "shot": "chronos-malek rotating to skull face casting time-acceleration ray",
+      "setting": "time decay ray",
+      "characters": [],
+      "action": "The skull mask rotates forward; a beam of grey time-decay magic shoots toward Ha-Jun to age him 100 years.",
+      "mood": "aging beam",
+      "sfx": "BEAM-DECAY!!"
+    },
+    {
+      "id": "p28",
+      "shot": "ha-jun manifesting eclipse devourer eating the aging beam",
+      "setting": "devourer absorption",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun manifests Eclipse Devourer, swallowing the decay ray whole and converting it into pure kinetic speed.",
+      "mood": "absorption and acceleration",
+      "sfx": "SLURP-SPEED!!"
+    },
+    {
+      "id": "p29",
+      "shot": "ha-jun appearing directly before chronos-malek central gear heart",
+      "setting": "point-blank strike position",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun materializes inches from Chronos-Malek's chest, right at the glowing crystal gear regulating the temporal nexus.",
+      "mood": "the checkmate position",
+      "sfx": "FLASH-ARRIVE!!",
+      "dialogue": [
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Time's up.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shot": "ha-jun driving blade into the gear heart cliffhanger",
+      "setting": "gear strike climax",
+      "characters": [
+        "hajun"
+      ],
+      "action": "Ha-Jun drives the Sanguine Fang straight through the temporal gear core, blinding the chamber in golden starlight!",
+      "mood": "guardian defeated cliffhanger",
+      "sfx": "DRIVE-SHATTER-FLASH!!",
+      "dialogue": [
+        {
+          "type": "narration",
+          "text": "THE CLOCKWORK SHATTERS. THE HOURGLASS AWAKENS.",
+          "at": [
+            0.5,
+            0.16
+          ]
+        }
+      ]
+    }
+  ]
+}
