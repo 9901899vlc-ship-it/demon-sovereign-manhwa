@@ -2027,6 +2027,7 @@
     let novelTheme = 'dark'; // 'dark', 'parchment', 'midnight'
     let novelFontFamily = 'serif'; // 'serif', 'sans'
     let novelLayoutMode = 'prose'; // 'prose' (webnovel) vs 'cards' (storyboard)
+    let novelLang = 'hi'; // 'hi' (Story Explanation) vs 'en' (English Webnovel)
     let isNovelSpeaking = false;
 
     function escapeHtml(str) {
@@ -2037,6 +2038,21 @@
         .replace(/>/g, '&gt;')
         .replace(/"/g, '&quot;')
         .replace(/'/g, '&#39;');
+    }
+
+    function setNovelLang(lang) {
+      novelLang = lang;
+      renderScriptPanels(CHAPTERS_DATA[currentChapterIndex]);
+      showToast(lang === 'hi' ? 'Mode: Hindi / Hinglish Story Explanation' : 'Mode: English Webnovel');
+    }
+
+    function cleanPromptToProse(rawAction, lang) {
+      if (!rawAction) return '';
+      let cleaned = rawAction.replace(/^(wide establishing shot|high angle|cinematic close-up|ground angle|low-angle medium close-up|macro close-up|medium shot|eye-level|dutch angle|tracking shot|extreme close-up|tight close-up|portrait|vignette frame|dynamic action shot|supernatural close-up|medium action shot|dramatic close-up|macro cinematic shot|ground-level tracking medium shot|epic climax awakening close-up|low-angle dynamic shot|close-up on [^,]+|close-up of [^,]+|medium close-up, [^,]+|extreme macro [^,]+|low-angle [^,]+|grand [^,]+|silhouette memory:[^,]+|back to reality:)[,\.\s:]*/gi, '').trim();
+      if (!cleaned) cleaned = rawAction;
+      cleaned = cleaned.charAt(0).toUpperCase() + cleaned.slice(1);
+      if (!cleaned.endsWith('.')) cleaned += '.';
+      return cleaned;
     }
 
     function changeNovelFontSize(delta) {
@@ -2078,7 +2094,13 @@
 
       const lines = [];
       activeScriptData.panels.forEach(p => {
-        if (p.action) lines.push(p.action);
+        let text = '';
+        if (novelLang === 'hi' && p.prose_hi) text = p.prose_hi;
+        else if (novelLang === 'en' && p.prose_en) text = p.prose_en;
+        else if (p.prose) text = typeof p.prose === 'string' ? p.prose : (p.prose[novelLang] || p.prose.hi || p.prose.en);
+        else text = cleanPromptToProse(p.action, novelLang);
+
+        if (text) lines.push(text);
         if (p.sfx) lines.push(p.sfx);
         const dialogues = p.dialogue || p.bubbles || [];
         dialogues.forEach(d => {
@@ -2103,7 +2125,7 @@
       }
       speakNext();
       renderScriptPanels(CHAPTERS_DATA[currentChapterIndex]);
-      showToast('Playing full chapter audio narration');
+      showToast('Playing audio narration');
     }
 
     async function loadChapterScript(chap) {
@@ -2174,12 +2196,22 @@
 
         let proseHtml = '';
         panels.forEach((p, pIdx) => {
-          const action = p.action || '';
           const sfx = p.sfx || '';
           const dialogues = p.dialogue || p.bubbles || [];
 
-          if (action) {
-            proseHtml += `<p class="novel-para mb-3 tracking-normal text-left">${escapeHtml(action)}</p>`;
+          let proseText = '';
+          if (novelLang === 'hi' && p.prose_hi) {
+            proseText = p.prose_hi;
+          } else if (novelLang === 'en' && p.prose_en) {
+            proseText = p.prose_en;
+          } else if (p.prose) {
+            proseText = typeof p.prose === 'string' ? p.prose : (p.prose[novelLang] || p.prose.hi || p.prose.en);
+          } else {
+            proseText = cleanPromptToProse(p.action, novelLang);
+          }
+
+          if (proseText) {
+            proseHtml += `<p class="novel-para mb-3.5 tracking-normal text-left">${escapeHtml(proseText)}</p>`;
           }
 
           if (sfx) {
@@ -2243,12 +2275,20 @@
           <!-- Top Webnovel Toolbar -->
           <div class="flex flex-wrap items-center justify-between gap-3 pb-4 border-b border-zinc-800/60 text-xs">
             <div class="flex items-center gap-2">
-              <span class="text-[10px] font-bold text-purple-400 font-orbitron tracking-widest uppercase">WEBNOVEL EDITION</span>
+              <span class="text-[10px] font-bold text-purple-400 font-orbitron tracking-widest uppercase">
+                ${novelLang === 'hi' ? 'STORY EXPLANATION' : 'WEBNOVEL EDITION'}
+              </span>
               <span class="text-zinc-600">•</span>
               <span class="text-[11px] text-zinc-400 font-medium">⏱️ ~5 min read</span>
             </div>
             
-            <div class="flex items-center gap-2">
+            <div class="flex items-center gap-2 flex-wrap">
+              <!-- Language Switcher -->
+              <div class="flex items-center bg-zinc-900/90 border border-zinc-800 rounded-lg p-0.5 text-[11px]">
+                <button onclick="setNovelLang('hi')" class="px-2 py-0.5 rounded ${novelLang === 'hi' ? 'bg-purple-600 text-white font-bold' : 'text-zinc-400 hover:text-white'} transition-all cursor-pointer" title="Hindi Story Explanation">🇮🇳 Hindi</button>
+                <button onclick="setNovelLang('en')" class="px-2 py-0.5 rounded ${novelLang === 'en' ? 'bg-purple-600 text-white font-bold' : 'text-zinc-400 hover:text-white'} transition-all cursor-pointer" title="English Webnovel">🇬🇧 Eng</button>
+              </div>
+
               <!-- Font Size -->
               <div class="flex items-center bg-zinc-900/90 border border-zinc-800 rounded-lg p-0.5 text-[11px]">
                 <button onclick="changeNovelFontSize(-2)" class="px-2 py-0.5 rounded hover:bg-zinc-800 text-zinc-300 font-bold cursor-pointer" title="Smaller font">A-</button>
@@ -2285,7 +2325,7 @@
           <div class="text-center py-6 border-b border-zinc-800/60 space-y-2">
             <div class="text-[11px] tracking-widest uppercase font-bold text-purple-400 font-orbitron">${chap.arc}</div>
             <h1 class="text-2xl sm:text-3xl font-black font-cinzel text-white tracking-wide">${chap.title} [${chap.number}]</h1>
-            <p class="text-xs text-zinc-400 italic">Demon Sovereign's Bloodline • Official Webnovel Adaptation</p>
+            <p class="text-xs text-zinc-400 italic">${novelLang === 'hi' ? 'Demon Sovereign’s Bloodline • Official Story Explanation & Webnovel' : 'Demon Sovereign’s Bloodline • Official Webnovel Adaptation'}</p>
             <div class="novel-divider text-zinc-600 font-serif pt-2 tracking-widest text-sm">— • —</div>
           </div>
 
@@ -3076,7 +3116,7 @@
     // Register Service Worker for Offline PWA
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('./sw.js?v=5').then(reg => {
+        navigator.serviceWorker.register('./sw.js?v=6').then(reg => {
           reg.update();
         }).catch((err) => {
           console.warn('SW registration failed:', err);
