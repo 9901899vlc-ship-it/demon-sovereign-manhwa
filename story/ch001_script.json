@@ -1,0 +1,217 @@
+{
+  "chapter": "1-3",
+  "title": "The Gathering Storm & Awakening",
+  "arc": 1,
+  "arc_title": "THE CURSED FEATHER",
+  "total_panels": 11,
+  "panels": [
+    {
+      "panel_number": 1,
+      "id": "p01",
+      "shot": "grand cinematic wide shot, high angle",
+      "action": "Saint Mirren International University grand entrance gates with towering modern glass skyscrapers, luxury sports cars, elite students in pristine academy uniforms",
+      "mood": "sunny, deceptive prestige, grandeur",
+      "empty_space": "upper sky",
+      "bubbles": [
+        {
+          "type": "narration",
+          "speaker": "Narrator",
+          "text": "Ye hai Saint Mirren International University... Duniya ki Top 5 sabse prestigious universities mein se ek.",
+          "at": [0.5, 0.1],
+          "size": 0.85
+        }
+      ]
+    },
+    {
+      "panel_number": 2,
+      "id": "p02",
+      "shot": "dramatic split silhouette, somber dark shadows",
+      "action": "A dark deserted alleyway behind the university walls under gray gloomy sky, shadow of a student standing on the edge",
+      "mood": "dark psychological, somber, ominous",
+      "empty_space": "center dark gradient",
+      "bubbles": [
+        {
+          "type": "narration",
+          "speaker": "Narrator",
+          "text": "Lekin is chamakti hui amiri ke peeche ek khaufnaak sach chupa hai... Yahan ka bullying rate 60% se zyada hai.",
+          "at": [0.5, 0.12],
+          "size": 0.85
+        }
+      ]
+    },
+    {
+      "panel_number": 3,
+      "id": "p03",
+      "shot": "low-angle gritty action shot",
+      "action": "17yo Ha-Jun lying battered on the rooftop pavement, split bloody lip, dusty torn blazer, two cruel student bullies towering over him with clenched fists",
+      "mood": "brutal, oppressive, desperate",
+      "empty_space": "top right corner",
+      "bubbles": [
+        {
+          "type": "shout",
+          "speaker": "Bully 1",
+          "text": "Abe bhikari! Tera sar abhi tak neeche kyu nahi jhuka?!",
+          "at": [0.35, 0.12],
+          "size": 0.9
+        },
+        {
+          "type": "speech",
+          "speaker": "Bully 2",
+          "text": "Lagta hai isko abhi aur todna padega taaki aukaat yaad rahe!",
+          "at": [0.65, 0.22],
+          "size": 0.85
+        }
+      ]
+    },
+    {
+      "panel_number": 4,
+      "id": "p04",
+      "shot": "high-angle cinematic lookdown from rooftop railing",
+      "action": "Kuro the demonic parrot-crow familiar perched on iron railing, midnight-purple iridescent plumage, two small curved demon horns, piercing crimson eyes staring down at Ha-Jun",
+      "mood": "mysterious, supernatural, majestic",
+      "empty_space": "upper sky",
+      "bubbles": [
+        {
+          "type": "thought",
+          "speaker": "Kuro",
+          "text": "Tsk... Toh ye hai hamare Sovereign ka aklauta khoon? In aam insani keedon ke haathon pisa ja raha hai... Mujhe iski madad karni padegi.",
+          "at": [0.5, 0.12],
+          "size": 0.85
+        }
+      ]
+    },
+    {
+      "panel_number": 5,
+      "id": "p05",
+      "shot": "dynamic supernatural close-up with mana arcs",
+      "action": "Kuro unfurls midnight-purple wings, releasing an invisible dark-violet hex wave. The two bullies clutch their chests in sudden debilitating weakness, faces turning sickly pale",
+      "mood": "tense supernatural release",
+      "empty_space": "top left corner",
+      "bubbles": [
+        {
+          "type": "speech",
+          "speaker": "Bully 1",
+          "text": "Ugh... ye... achanak itna chakkar kyu aa raha hai...?",
+          "at": [0.3, 0.15],
+          "size": 0.85
+        },
+        {
+          "type": "speech",
+          "speaker": "Bully 2",
+          "text": "M-Mere haath... kaanp kyu rahe hain?!",
+          "at": [0.7, 0.22],
+          "size": 0.85
+        }
+      ]
+    },
+    {
+      "panel_number": 6,
+      "id": "p06",
+      "shot": "medium action shot, retreating figures",
+      "action": "The two terrified bullies stumble backward toward the rooftop stairwell door in panic, shivering and clutching their heads while fleeing",
+      "mood": "shameful retreat, quiet relief",
+      "empty_space": "center upper wall",
+      "bubbles": [
+        {
+          "type": "shout",
+          "speaker": "Bully 1",
+          "text": "B-Bhaago yahan se! Kuch toh ajeeb hai!",
+          "at": [0.5, 0.12],
+          "size": 0.9
+        }
+      ]
+    },
+    {
+      "panel_number": 7,
+      "id": "p07",
+      "shot": "cinematic eye-level stare, violet miasma glow",
+      "action": "Ha-Jun looks up from the ground with wide dark brown eyes, locking gazes with Kuro on the perimeter railing amidst glowing purple mana wisps",
+      "mood": "mesmerized, fateful encounter, turning point",
+      "empty_space": "upper rainy backdrop",
+      "bubbles": [
+        {
+          "type": "whisper",
+          "speaker": "Ha-Jun",
+          "text": "Ye... ye kaisa parinda hai...?",
+          "at": [0.5, 0.14],
+          "size": 0.85
+        }
+      ]
+    },
+    {
+      "panel_number": 8,
+      "id": "p08",
+      "shot": "dramatic close-up on empty railing",
+      "action": "Kuro vanishes in a burst of ethereal purple mist and embers, leaving a single glossy obsidian feather resting on the wet iron railing bar",
+      "mood": "eerie supernatural residue",
+      "empty_space": "upper sky",
+      "bubbles": [
+        {
+          "type": "narration",
+          "speaker": "Narrator",
+          "text": "Ek pal me parinda gayab ho gaya... chhod gaya sirf ek ajeeb sa chamakta hua pankh.",
+          "at": [0.5, 0.12],
+          "size": 0.85
+        }
+      ]
+    },
+    {
+      "panel_number": 9,
+      "id": "p09",
+      "shot": "macro cinematic shot of drifting feather",
+      "action": "The obsidian-purple feather caught in a violent gust of wind and falling raindrops, glowing radiant neon-violet as it drifts across the rooftop concrete",
+      "mood": "hypnotic, supernatural resonance",
+      "empty_space": "upper concrete",
+      "bubbles": [
+        {
+          "type": "thought",
+          "speaker": "Ha-Jun",
+          "text": "Wo pankh... garam kyu lag raha hai?",
+          "at": [0.5, 0.14],
+          "size": 0.85
+        }
+      ]
+    },
+    {
+      "panel_number": 10,
+      "id": "p10",
+      "shot": "ground-level tracking medium shot",
+      "action": "Ha-Jun slowly pushes himself up from the wet concrete with trembling scraped hands, drenched navy blazer clinging to his shoulders, staring at the feather",
+      "mood": "exhaustion turning to determined intrigue",
+      "empty_space": "upper dark sky",
+      "bubbles": [
+        {
+          "type": "whisper",
+          "speaker": "Ha-Jun",
+          "text": "Mujhe... use chhoona hoga...",
+          "at": [0.5, 0.12],
+          "size": 0.85
+        }
+      ]
+    },
+    {
+      "panel_number": 11,
+      "id": "p11",
+      "shot": "epic climax awakening close-up",
+      "action": "Ha-Jun clenches the obsidian feather in his fist. Sudden blinding purple demonic mana lightning erupts along his arm, forming the ethereal outline of the Sovereign's Gauntlet",
+      "mood": "epic awakening, sovereign bloodline rising",
+      "empty_space": "upper cosmic purple lightning",
+      "bubbles": [
+        {
+          "type": "system",
+          "speaker": "SYSTEM",
+          "text": "[SOVEREIGN BLOODLINE AWAKENING INITIATED: 1% SYNCHRONIZATION]",
+          "at": [0.5, 0.1],
+          "size": 0.95
+        },
+        {
+          "type": "thought",
+          "speaker": "Ha-Jun",
+          "text": "Ye taqat... mere jism ke andar ye kya jaag raha hai?!",
+          "at": [0.5, 0.22],
+          "size": 0.9
+        }
+      ]
+    }
+  ]
+}

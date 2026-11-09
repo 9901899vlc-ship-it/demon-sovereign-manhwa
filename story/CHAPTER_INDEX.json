@@ -11,6 +11,13 @@
       "title": "THE CURSED FEATHER",
       "chapters": [
         {
+          "chapter": "1-3",
+          "title": "The Gathering Storm & Awakening",
+          "target_panels": 11,
+          "status": "complete",
+          "script_file": "story/ch001_script.json"
+        },
+        {
           "chapter": 4,
           "title": "The Drifting Feather",
           "target_panels": 30,
