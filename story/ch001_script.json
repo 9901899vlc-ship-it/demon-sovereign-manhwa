@@ -1,281 +1,106 @@
 {
-  "chapter": "1-3",
+  "chapter": 1,
   "title": "The Gathering Storm & Awakening",
   "arc": 1,
   "arc_title": "THE CURSED FEATHER",
-  "total_panels": 11,
+  "total_panels": 10,
   "panels": [
     {
       "panel_number": 1,
       "id": "p01",
-      "shot": "grand cinematic wide shot, high angle",
-      "action": "Saint Mirren International University grand entrance gates with towering modern glass skyscrapers, luxury sports cars, elite students in pristine academy uniforms",
-      "mood": "sunny, deceptive prestige, grandeur",
-      "empty_space": "upper sky",
-      "bubbles": [
-        {
-          "type": "narration",
-          "speaker": "Narrator",
-          "text": "Ye hai Saint Mirren International University... Duniya ki Top 5 sabse prestigious universities mein se ek.",
-          "at": [
-            0.5,
-            0.1
-          ],
-          "size": 0.85
-        }
-      ],
-      "prose_hi": "Duniya ke top 5 sabse bade aur aalishaan sansthano mein se ek—Saint Mirren International University. Bahar se dekhne par yeh jagah kisi sapne jaisi nazar aati hai. Unche-unche kaanch ke skyscrapers, aasmaan ko chooti hui imaartein, chamakti hui luxury sports cars, aur elite parivaaro ke bachche apne be-daag academy uniforms mein ghoomte hain.",
-      "prose_en": "Saint Mirren International University stood proud among the top five most prestigious academic institutions on the globe. From the outside, it was a gleaming fortress of glass skyscrapers and luxury sports cars, where the children of the global elite walked in spotless designer academy blazers."
+      "prose_en": "Saint Mirren International University stood proud among the top five most prestigious academic institutions on the globe. From the outside, it was a breathtaking monument of power and wealth—gleaming glass skyscrapers piercing the heavens, luxury sports cars lining private marble lanes, and the scions of the global elite walking the corridors in immaculate, gold-crested blazers.",
+      "prose_hi": "Duniya ke top 5 sabse bade aur aalishaan sansthano mein se ek—Saint Mirren International University. Bahar se dekhne par yeh jagah be-hisaab daulat aur shaan-o-shaukat ka kisi sapne jaisa aalishaan mahal nazar aati thi—unche-unche kaanch ke skyscrapers aasmaan ko cheerte hue, chamakti hui luxury sports cars private marble lanes par khadi, aur duniya bhar ke arabpati gharano ke bachche apne be-daag, golden academy blazers mein ghoomte the."
     },
     {
       "panel_number": 2,
       "id": "p02",
-      "shot": "dramatic split silhouette, somber dark shadows",
-      "action": "A dark deserted alleyway behind the university walls under gray gloomy sky, shadow of a student standing on the edge",
-      "mood": "dark psychological, somber, ominous",
-      "empty_space": "center dark gradient",
-      "bubbles": [
-        {
-          "type": "narration",
-          "speaker": "Narrator",
-          "text": "Lekin is chamakti hui amiri ke peeche ek khaufnaak sach chupa hai... Yahan ka bullying rate 60% se zyada hai.",
-          "at": [
-            0.5,
-            0.12
-          ],
-          "size": 0.85
-        }
-      ],
-      "prose_hi": "Lekin is chamak-dhamak aur daulat ke parde ke peeche ek khaufnaak sach chupa hua tha. Yahan kamzor aur aam students ke liye koi qanoon nahi chalta... academy ki andheri galiyon mein bullying rate 60% se bhi zyada badh chuka tha.",
-      "prose_en": "Yet behind this glittering display of privilege lay a brutal reality. Beyond the public eye, within the academy's shadows, cruelty reigned supreme. The bullying rate exceeded sixty percent, leaving ordinary scholarship students utterly defenseless."
+      "prose_en": "Yet beneath this glittering veneer of prestige lay a rotten, cruel reality. Beyond the prying eyes of the public, within the academy’s secluded courtyards and shadowed corridors, the bullying rate exceeded sixty percent. For ordinary scholarship students born without wealth or pedigree, there was no law. There was only survival.",
+      "prose_hi": "Lekin is chamak-dhamak aur rutbe ke parde ke peeche ek behad ghinauna aur khaufnaak sach chupa hua tha. Aam janta ki nigaahon se door, academy ke andhere kono mein bullying rate 60% se bhi zyada badh chuka tha. Aam scholarship students ke liye, jo bina kisi daulat ya unche khandan ke aaye the, yahan koi qanoon nahi tha. Yahan sirf zillat thi ya be-reham zulm."
     },
     {
       "panel_number": 3,
       "id": "p03",
-      "shot": "low-angle gritty action shot",
-      "action": "17yo Ha-Jun lying battered on the rooftop pavement, split bloody lip, dusty torn blazer, two cruel student bullies towering over him with clenched fists",
-      "mood": "brutal, oppressive, desperate",
-      "empty_space": "top right corner",
       "bubbles": [
         {
-          "type": "shout",
-          "speaker": "Bully 1",
-          "text": "Abe bhikari! Tera sar abhi tak neeche kyu nahi jhuka?!",
-          "at": [
-            0.35,
-            0.12
-          ],
-          "size": 0.9
+          "type": "speech",
+          "speaker": "Lead Bully",
+          "text": "Hey, beggar! Did I give you permission to look up? Keep your damn head on the ground where it belongs!"
         },
         {
           "type": "speech",
-          "speaker": "Bully 2",
-          "text": "Lagta hai isko abhi aur todna padega taaki aukaat yaad rahe!",
-          "at": [
-            0.65,
-            0.22
-          ],
-          "size": 0.85
+          "speaker": "Second Bully",
+          "text": "He's tough, I'll give him that. Maybe we need to break a couple more ribs before he learns his place."
         }
       ],
-      "prose_hi": "University ki ek veeraan chhat par satra saal ka Ha-Jun thande concrete ke farsh par lahu-luhan pada tha. Uska blazer phat chuka tha, kate hue honth se taaza khoon behkar paani mein mil raha tha. Uske theek upar academy ke do beraham bullies khade the, jinki mutthiyan bheenchi hui thi aur aankhon mein darindgi thi.",
-      "prose_en": "On a deserted rooftop terrace, seventeen-year-old Ha-Jun Kang lay battered against the cold pavement. His uniform was torn, fresh crimson blood welling from his split lip. Towering over him with clenched fists stood two merciless academy bullies, their faces twisted with cruel amusement."
+      "prose_en": "On the deserted concrete rooftop of the academy's northern tower, cold autumn rain fell in torrential sheets. Seventeen-year-old Ha-Jun Kang lay collapsed on the puddle-soaked ground. His navy uniform blazer was torn and coated in grime, his white shirt stained with dirt and blood. With every ragged breath, fresh crimson blood dripped from his split lower lip, dissolving into the rain puddles beneath him. Towering over his battered body were two academy seniors, their fists bruised from violence and their smirking faces dripping with contempt.",
+      "prose_hi": "Academy ke northern tower ki ek sunsaan, thandi concrete chhat par toofani baarish ka keher baras raha tha. Satra saal ka Ha-Jun Kang keechad aur paani se bhare farsh par gira pada tha. Uska navy academy blazer phat chuka tha, safed shirt par mitti aur khoon laga tha. Har kaanpti hui saans ke saath, uske phate hue nichle honth se taaza laal khoon behkar paani ke gaddhon mein ghul raha tha. Uske theek upar academy ke do senior bullies khade the, jinki mutthiyan maarte-maarte laal ho chuki thi aur chehron par ghamand aur darindgi bhari muskaan thi."
     },
     {
       "panel_number": 4,
       "id": "p04",
-      "shot": "high-angle cinematic lookdown from rooftop railing",
-      "action": "Kuro the demonic parrot-crow familiar perched on iron railing, midnight-purple iridescent plumage, two small curved demon horns, piercing crimson eyes staring down at Ha-Jun",
-      "mood": "mysterious, supernatural, majestic",
-      "empty_space": "upper sky",
-      "bubbles": [
-        {
-          "type": "thought",
-          "speaker": "Kuro",
-          "text": "Tsk... Toh ye hai hamare Sovereign ka aklauta khoon? In aam insani keedon ke haathon pisa ja raha hai... Mujhe iski madad karni padegi.",
-          "at": [
-            0.5,
-            0.12
-          ],
-          "size": 0.85
-        }
-      ],
-      "prose_hi": "Usi waqt chhat ki unchi lohe ki railing par ek behad ajeeb sa parinda aakar baitha. Uske kaale par baingani roshni se chamak rahe the, sar par do nanhe se shaitani seeng the, aur uski laal teekhi aankhein Ha-Jun ko ghoor rahi thi.",
-      "prose_en": "At that very moment, perched upon the rusted perimeter railing, a strange creature watched the scene unfold. Cloaked in midnight-purple plumage with two curved demon horns and piercing crimson eyes, the demonic raven gazed down intently at Ha-Jun."
+      "prose_en": "Ha-Jun clenched his trembling hands against the cold concrete. Pain flared through his ribs like white-hot needles, but his dark brown eyes burned with silent, unyielding defiance. He refused to beg. He refused to give them the tears they craved.",
+      "prose_hi": "Ha-Jun ne thande farsh par apni kaanpti hui mutthiyan bheenchi. Uski tooti hui pasliyon mein aag ki tarah dard uth raha tha, lekin uski gehri bhoori aankhon mein chup-chap, na jhukne wali aag jal rahi thi. Usne haath jodkar maafi maangne se inkaar kar diya. Usne wo aansu bahane se inkaar kar diya jiske liye yeh bullies tadap rahe the."
     },
     {
       "panel_number": 5,
       "id": "p05",
-      "shot": "dynamic supernatural close-up with mana arcs",
-      "action": "Kuro unfurls midnight-purple wings, releasing an invisible dark-violet hex wave. The two bullies clutch their chests in sudden debilitating weakness, faces turning sickly pale",
-      "mood": "tense supernatural release",
-      "empty_space": "top left corner",
       "bubbles": [
         {
-          "type": "speech",
-          "speaker": "Bully 1",
-          "text": "Ugh... ye... achanak itna chakkar kyu aa raha hai...?",
-          "at": [
-            0.3,
-            0.15
-          ],
-          "size": 0.85
-        },
-        {
-          "type": "speech",
-          "speaker": "Bully 2",
-          "text": "M-Mere haath... kaanp kyu rahe hain?!",
-          "at": [
-            0.7,
-            0.22
-          ],
-          "size": 0.85
+          "type": "thought",
+          "speaker": "Kuro",
+          "text": "Tsk... So this is the sole surviving bloodline of our Sovereign? Being crushed by mere human insects... I suppose I have no choice but to intervene."
         }
       ],
-      "prose_hi": "Kuro ne apne shaitani paron ko halka sa phailaya, aur hawa mein ek adrishya baingani lehar chhoot gayi. Palak jhapakte hi dono bullies ka dam ghutne laga. Unke chehre peele pad gaye aur pura jism kamzori se kaanpne laga.",
-      "prose_en": "Kuro unfurled his obsidian wings, releasing an invisible dark-violet hex across the terrace. In an instant, both bullies gasped for breath as a debilitating weakness seized their chests, draining the color from their faces."
+      "prose_en": "High above the cruelty, perched atop the rusted black iron perimeter railing, an uninvited spectator watched. It was a creature that defied reason—a raven-like demonic familiar cloaked in sleek, midnight-purple feathers that seemed to swallow the light. Two small, curved obsidian horns jutted from its crown, and twin crimson eyes gleamed with ancient intelligence. The creature, Kuro, tilted its head, observing Ha-Jun with a low, guttural murmur.",
+      "prose_hi": "Is saare zulm ke upar, chhat ki unchi lohe ki zang-lagi railing par baitha ek anjaan mehmaan sab dekh raha tha. Woh ek aisi makhlooq thi jo kudrat ke har qanoon ko चुनौती de rahi thi—ek shaitani kaawa-tota familiar jiske kaale par aadhi raat ki baingani roshni se chamak rahe the. Sar par do nanhe se teekhe seeng the, aur uski dono laal aankhon mein sadiyon purana shaitani dimaagh jhalak raha tha. Us makhlooq, Kuro, ne apna sar tirchha kiya aur dheemi ghurrahat ke saath dekha."
     },
     {
       "panel_number": 6,
       "id": "p06",
-      "shot": "medium action shot, retreating figures",
-      "action": "The two terrified bullies stumble backward toward the rooftop stairwell door in panic, shivering and clutching their heads while fleeing",
-      "mood": "shameful retreat, quiet relief",
-      "empty_space": "center upper wall",
       "bubbles": [
         {
-          "type": "shout",
+          "type": "speech",
           "speaker": "Bully 1",
-          "text": "B-Bhaago yahan se! Kuch toh ajeeb hai!",
-          "at": [
-            0.5,
-            0.12
-          ],
-          "size": 0.9
+          "text": "Ugh... w-what is this...?! Why is my head spinning...?!"
+        },
+        {
+          "type": "speech",
+          "speaker": "Bully 2",
+          "text": "M-My hands... I can't breathe... Run! There's something demonic about this place!"
         }
       ],
-      "prose_hi": "Khauf ke maare dono ladke zameen par ladkhadaye aur sar pakadte hue seedhiyon ke darwaze ki taraf dum daba kar bhaag nikle.",
-      "prose_en": "Terrified and disoriented, the two bullies stumbled backward toward the rooftop stairwell in a blind panic, fleeing the rooftop as fast as their legs could carry them."
+      "prose_en": "Kuro gently unfurled its obsidian wings. An invisible, dark-violet hex pulsed outward across the rain-slicked roof. It moved like a whisper in the wind, rippling through the falling raindrops. In an instant, the lead bully gasped for air as a terrifying sensation of suffocating pressure clamped down around his chest. The second boy's knees buckled violently. Panic overtook their cruelty, and both boys stumbled backward toward the rooftop stairwell in blind terror, their frantic footsteps echoing away down the staircase.",
+      "prose_hi": "Kuro ne apne baingani paron ko halka sa phailaya. Palak jhapakte hi ek adrishya dark-violet hex lehar chhat par toot padi. Yeh toofani baarish ki boondon ko cheerte hue dono ladkon ke jism mein dhal gayi. Ek hi pal mein lead bully ka dam ghutne laga. Doosre ladke ke ghutne jawab de gaye aur jism se jaan nikalne lagi. Unki darindgi dehshat mein badal gayi, aur dono bullies seedhiyon ke darwaze ki taraf dum daba kar bhaag nikle."
     },
     {
       "panel_number": 7,
       "id": "p07",
-      "shot": "cinematic eye-level stare, violet miasma glow",
-      "action": "Ha-Jun looks up from the ground with wide dark brown eyes, locking gazes with Kuro on the perimeter railing amidst glowing purple mana wisps",
-      "mood": "mesmerized, fateful encounter, turning point",
-      "empty_space": "upper rainy backdrop",
-      "bubbles": [
-        {
-          "type": "whisper",
-          "speaker": "Ha-Jun",
-          "text": "Ye... ye kaisa parinda hai...?",
-          "at": [
-            0.5,
-            0.14
-          ],
-          "size": 0.85
-        }
-      ],
-      "prose_hi": "Farsh par gire Ha-Jun ne thande concrete se apna sar upar uthaya. Railing par baithe us baingani dhuen se ghare hue parinde aur Ha-Jun ki nigahein aapas mein takra gayi.",
-      "prose_en": "Ha-Jun weakly lifted his head from the pavement, his dazed dark eyes locking directly with the glowing gaze of the demonic raven atop the iron railing amidst wisps of violet mana."
+      "prose_en": "Left alone on the rooftop, Ha-Jun weakly pushed himself up with trembling arms. Rainwater dripped from his soaked fringe, stinging his swollen cheekbone. As he raised his head, his gaze locked directly with the mysterious creature on the railing. Violet wisps of mana swirled around its talons. The bird’s glowing red eyes peered straight into the depths of Ha-Jun's soul.",
+      "prose_hi": "Chhat par akele bache Ha-Jun ne kaanpte hue haathon ke bal khud ko upar uthaya. Uske bheege hue baalon se paani tapak raha tha, zakhmi gaal par jalan ho rahi thi. Jaise hi usne sar uthaya, uski nigahein railing par baithe us ajeeb parinde se ja mili. Uski taangon ke ird-gird baingani mana ke chhalle ghoom rahe the. Uski laal chamakti aankhein Ha-Jun ki rooh ke andar tak jhaank rahi thi."
     },
     {
       "panel_number": 8,
       "id": "p08",
-      "shot": "dramatic close-up on empty railing",
-      "action": "Kuro vanishes in a burst of ethereal purple mist and embers, leaving a single glossy obsidian feather resting on the wet iron railing bar",
-      "mood": "eerie supernatural residue",
-      "empty_space": "upper sky",
-      "bubbles": [
-        {
-          "type": "narration",
-          "speaker": "Narrator",
-          "text": "Ek pal me parinda gayab ho gaya... chhod gaya sirf ek ajeeb sa chamakta hua pankh.",
-          "at": [
-            0.5,
-            0.12
-          ],
-          "size": 0.85
-        }
-      ],
-      "prose_hi": "Isse pehle ki Ha-Jun kuch samajh pata, wo parinda baingani dhuen aur chingaariyon ke bawandar mein achanak hawa mein gayab ho gaya. Railing par chhoot gaya toh sirf ek chamakta hua kaala pankh.",
-      "prose_en": "Before Ha-Jun could utter a word, the creature vanished into thin air amidst a swirling vortex of purple mist and glowing embers, leaving behind a single shimmering black feather."
+      "prose_en": "The creature did not answer with words. In a sudden, blinding flash, Kuro dissolved into a vortex of swirling dark-violet miasma and ethereal embers. Within the span of a single heartbeat, the beast vanished completely into the stormy sky. On the iron railing where its talons had gripped, only one thing remained: a single demonic feather—glossy obsidian with an iridescent violet sheen. A sudden, violent gust of wind swept the feather into the air. It floated gently downward, landing onto the wet concrete a few paces in front of Ha-Jun, radiating an eerie neon-violet luminescence.",
+      "prose_hi": "Parinde ne lafzon mein koi jawab nahi diya. Achanak, ek blinding baingani dhuen aur aag ki chingaariyon ke bawandar mein Kuro hawa mein fanaa ho gaya. Lohe ki railing par jahan uske panje the, wahan sirf ek cheez chhoot gayi: ek akela shaitani pankh—glossy obsidian black reshey jinpar baingani chamak thi. Hawa ke ek tez toofani jhonke ne us pankh ko railing se uda diya. Wo dheere se neeche aaya aur Ha-Jun se kuch kadam aage farsh par gir gaya, jiski nok se neon-violet roshni nikal rahi thi."
     },
     {
       "panel_number": 9,
       "id": "p09",
-      "shot": "macro cinematic shot of drifting feather",
-      "action": "The obsidian-purple feather caught in a violent gust of wind and falling raindrops, glowing radiant neon-violet as it drifts across the rooftop concrete",
-      "mood": "hypnotic, supernatural resonance",
-      "empty_space": "upper concrete",
-      "bubbles": [
-        {
-          "type": "thought",
-          "speaker": "Ha-Jun",
-          "text": "Wo pankh... garam kyu lag raha hai?",
-          "at": [
-            0.5,
-            0.14
-          ],
-          "size": 0.85
-        }
-      ],
-      "prose_hi": "Hawa ke ek tez toofani jhonke ne us pankh ko railing se uda diya. Wo obsidian pankh neon-violet roshni bikherte hue baarish ke katron ke beech chhat ke farsh par fisalne laga.",
-      "prose_en": "A sudden gust of stormy wind swept the obsidian feather from the railing. It drifted across the wet concrete, radiating an eerie neon-violet luminescence as raindrops fell around it."
+      "prose_en": "‘Why does it... feel warm?’ Despite the biting cold and the exhaustion threatening to pull him into darkness, an inexplicable instinct tugged at Ha-Jun’s chest. A primal whisper inside his blood commanded him: Touch it. Claim what was stolen. Ignoring the screaming pain in his bruised muscles, Ha-Jun dragged himself across the puddles on scraping knees. Inch by inch, he reached out his battered, trembling right hand. His cold fingers brushed against the obsidian barbules.",
+      "prose_hi": "‘Yeh pankh... itna garam kyu lag raha hai?’ Jamane wali thand aur behoshi ke bawajood, Ha-Jun ke seene mein ek ajeeb sa khinchaav hua. Uski ragon ke andar se ek aadi aadesh gunja: Ise chhoo. Apna haq le. Apne jism ke tod dene wale dard ko bhoolkar, Ha-Jun ghutno ke bal paani mein rengte hue aage badha. Inch-dar-inch, usne apna kaanpta hua zakhmi haath aage kiya. Uski thandi ungliyon ne us kaale pankh ko chhoo liya."
     },
     {
       "panel_number": 10,
       "id": "p10",
-      "shot": "ground-level tracking medium shot",
-      "action": "Ha-Jun slowly pushes himself up from the wet concrete with trembling scraped hands, drenched navy blazer clinging to his shoulders, staring at the feather",
-      "mood": "exhaustion turning to determined intrigue",
-      "empty_space": "upper dark sky",
-      "bubbles": [
-        {
-          "type": "whisper",
-          "speaker": "Ha-Jun",
-          "text": "Mujhe... use chhoona hoga...",
-          "at": [
-            0.5,
-            0.12
-          ],
-          "size": 0.85
-        }
-      ],
-      "prose_hi": "Apne jism ke be-inteha dard ko bardasht karte hue, Ha-Jun ne thande farsh par haath tikaye aur us chamakte hue pankh ki taraf rengte hue aage badhne laga.",
-      "prose_en": "Ignoring the agonizing throb in his bruised ribs, Ha-Jun pushed himself forward on trembling hands and scraped knees, crawling desperately through the puddles toward the radiant feather."
-    },
-    {
-      "panel_number": 11,
-      "id": "p11",
-      "shot": "epic climax awakening close-up",
-      "action": "Ha-Jun clenches the obsidian feather in his fist. Sudden blinding purple demonic mana lightning erupts along his arm, forming the ethereal outline of the Sovereign's Gauntlet",
-      "mood": "epic awakening, sovereign bloodline rising",
-      "empty_space": "upper cosmic purple lightning",
       "bubbles": [
         {
           "type": "system",
-          "speaker": "SYSTEM",
-          "text": "[SOVEREIGN BLOODLINE AWAKENING INITIATED: 1% SYNCHRONIZATION]",
-          "at": [
-            0.5,
-            0.1
-          ],
-          "size": 0.95
-        },
-        {
-          "type": "thought",
-          "speaker": "Ha-Jun",
-          "text": "Ye taqat... mere jism ke andar ye kya jaag raha hai?!",
-          "at": [
-            0.5,
-            0.22
-          ],
-          "size": 0.9
+          "text": "[SOVEREIGN BLOODLINE AWAKENING INITIATED: 1% SYNCHRONIZATION]"
         }
       ],
-      "prose_hi": "Jaise hi Ha-Jun ki ungliyon ne us pankh ko pakad kar mutthi mein bheencha, achanak uske poore baazu mein baingani bijli ka ek zordar toofan phoot pada! Ek shaitani gauntlet ka roop uske haath par chamakne laga aur uski ragon mein sadiyon purani shaitani taqat jaag uthi.",
-      "prose_en": "The instant Ha-Jun's fingers curled tightly around the obsidian quill, a blinding tempest of violet lightning surged across his arm. The ethereal outline of the Sovereign's Gauntlet manifested over his skin, echoing with the ancient might of a dormant demonic dynasty."
+      "prose_en": "The moment his skin made contact, a blinding shockwave exploded outward across the rooftop! A mechanical, celestial chime rang directly inside Ha-Jun's consciousness. Violent arcs of violet lightning erupted along his forearm, tearing through the sleeve of his blazer. Prismatic dark fire coiled around his wrist and knuckles, etching the ethereal silhouette of a jagged, demonic gauntlet onto his flesh. 'Aaargh...!' Ha-Jun gasped as an unfathomable torrent of primordial power rushed into his veins, burning away the cold, the weakness, and the despair. His heartbeat hammered like the war drums of an ancient emperor waking from an eon of sleep. In the pouring rain of Saint Mirren Academy, the weak scholarship student died. The Demon Sovereign had opened his eyes.",
+      "prose_hi": "Chhoote hi, chhat par ek prachand supernatural shockwave phoot padi! Ek thandi, mechanical aakashvani Ha-Jun ke dimaagh mein goonji: [SOVEREIGN BLOODLINE AWAKENING INITIATED: 1% SYNCHRONIZATION]. Uske baazu par baingani bijli ka tufan phoot pada, jisne blazer ki aasteen ko jala diya. Kaali aag uski kalai aur knuckles par liptne lagi, aur uski khaal par ek shaitani gauntlet ka aakaar ban gaya. 'Aaargh...!' Ha-Jun ki cheekh nikal gayi jab sadiyon purana shaitani mana uski ragon mein ubalne laga, jisne thand, dard aur bebasie ko jala kar raakh kar diya. Saint Mirren Academy ki toofani baarish mein wo lachaar scholarship student mar chuka tha. Demon Sovereign ne apni aankhein khol di thi."
     }
   ]
 }

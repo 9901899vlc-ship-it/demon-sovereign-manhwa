@@ -1791,7 +1791,7 @@
       </button>
 
       <div class="wn-top-title-wrap" onclick="openWnDrawer()">
-        <span class="wn-top-title" id="wn-top-ch-title">Chapter 1-3</span>
+        <span class="wn-top-title" id="wn-top-ch-title">Chapter 1</span>
         <span class="wn-top-subtitle" id="wn-top-arc-title">Demon Sovereign's Bloodline</span>
       </div>
 
@@ -1813,7 +1813,7 @@
     <div class="wn-reader-viewport" id="wn-reader-viewport" onclick="handleWnReaderTap(event)">
       <div class="wn-chapter-header">
         <span class="wn-arc-badge" id="wn-render-arc">ARC 1: THE CURSED FEATHER</span>
-        <h1 class="wn-chapter-title" id="wn-render-title">Chapter 1-3: The Gathering Storm & Awakening</h1>
+        <h1 class="wn-chapter-title" id="wn-render-title">Chapter 1: The Gathering Storm & Awakening</h1>
         <div class="wn-chapter-meta">
           <span>Demon Sovereign's Bloodline</span>
           <span>•</span>
@@ -1864,7 +1864,7 @@
           Prev
         </button>
         <div class="wn-seek-info">
-          <span id="wn-info-ch-num">Chapters 1-3</span>
+          <span id="wn-info-ch-num">Chapter 1</span>
           <span class="wn-seek-pct" id="wn-info-pct">0.0%</span>
         </div>
         <button class="wn-seek-nav-btn" id="wn-next-btn" onclick="nextChapter()">
@@ -2169,7 +2169,7 @@
         initWnPreferences();
         if (wnChapters.length === 0) {
           initWnChapters().then(() => {
-            const saved = localStorage.getItem('wn_last_ch') || '1-3';
+            const saved = localStorage.getItem('wn_last_ch') || '1';
             let idx = wnChapters.findIndex(c => c.id === saved);
             if (idx === -1) idx = 0;
             loadWnChapterByIndex(idx, updateHash);
@@ -2181,7 +2181,7 @@
         else if (pageName === 'detail') window.location.hash = '#/detail';
         else if (pageName === 'reader') window.location.hash = '#/viewer?chapter=' + currentChapter;
         else if (pageName === 'webnovel') {
-          const ch = (wnChapters.length && wnChapters[wnCurrentIndex]) ? wnChapters[wnCurrentIndex].id : (localStorage.getItem('wn_last_ch') || '1-3');
+          const ch = (wnChapters.length && wnChapters[wnCurrentIndex]) ? wnChapters[wnCurrentIndex].id : (localStorage.getItem('wn_last_ch') || '1');
           window.location.hash = '#/webnovel?chapter=' + ch;
         }
       }
@@ -2366,14 +2366,17 @@
       } else if (hash.startsWith('#/webnovel')) {
         openPage('webnovel', false);
         const chMatch = hash.match(/chapter=([\w-]+)/);
-        const targetCh = chMatch ? chMatch[1] : (localStorage.getItem('wn_last_ch') || '1-3');
+        const targetCh = chMatch ? chMatch[1] : (localStorage.getItem('wn_last_ch') || '1');
         initWnChapters().then(() => {
           let idx = wnChapters.findIndex(c => c.id === targetCh);
           if (idx === -1) idx = 0;
           loadWnChapterByIndex(idx, false);
         });
       } else {
-        openPage('home', false);
+        openPage('webnovel', false);
+        initWnChapters().then(() => {
+          loadWnChapterByIndex(0, false);
+        });
       }
     }
 
@@ -2526,7 +2529,7 @@
       document.getElementById('wn-top-arc-title').textContent = (ch.arc || "Demon Sovereign's Bloodline");
       document.getElementById('wn-render-arc').textContent = 'ARC ' + (ch.arcNum || 1) + ': ' + (ch.arc || "THE CURSED FEATHER");
       document.getElementById('wn-render-title').textContent = ch.displayNum + ': ' + ch.title;
-      document.getElementById('wn-info-ch-num').textContent = 'Chapters ' + ch.num;
+      document.getElementById('wn-info-ch-num').textContent = ch.displayNum;
       document.getElementById('wn-info-pct').textContent = '0.0%';
       document.getElementById('wn-seek-slider').value = 0;
 
