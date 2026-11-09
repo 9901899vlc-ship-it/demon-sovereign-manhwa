@@ -3,122 +3,87 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>WEBTOON - Demon Sovereign's Bloodline</title>
+  <title>DEMON SOVEREIGN - Read Manhwa & Comics Online</title>
   
-  <link rel="shortcut icon" href="https://webtoons-static.pstatic.net/image/favicon/iPhone_57X57_2.png?dt=2017082401" type="image/x-icon">
-  <link rel="apple-touch-icon" href="https://webtoons-static.pstatic.net/image/favicon/ios_60x60.png?dt=2018022801">
   <link rel="manifest" href="./manifest.json">
   
   <!-- Official LINE WEBTOON Mobile Stylesheet -->
   <link rel="stylesheet" type="text/css" href="./css/webtoon.css">
   
-  <!-- Custom theme and viewer refinements matching official Webtoon app UX -->
   <style>
-    :root {
-      --wt-green: #00dc64;
-      --wt-green-dark: #00b552;
-      --wt-bg: #ffffff;
-      --wt-text: #000000;
-      --wt-subtext: #777777;
-      --wt-card-bg: #f8f9fa;
-      --wt-border: #e9ecef;
-    }
-
-    body.wt-dark {
-      --wt-bg: #111216;
-      --wt-text: #ffffff;
-      --wt-subtext: #9ca3af;
-      --wt-card-bg: #1a1b21;
-      --wt-border: #262833;
-      background-color: #111216 !important;
-      color: #ffffff !important;
-    }
-
-    body.wt-dark header,
-    body.wt-dark .snb,
-    body.wt-dark .main_ct,
-    body.wt-dark .more_menu_wrap,
-    body.wt-dark .sub_header,
-    body.wt-dark footer {
-      background-color: #111216 !important;
-      color: #ffffff !important;
-      border-color: #262833 !important;
-    }
-
-    body.wt-dark .section_title,
-    body.wt-dark .webtoon_list .title,
-    body.wt-dark .subject,
-    body.wt-dark .h1_viewer a {
-      color: #ffffff !important;
-    }
-
-    body.wt-dark .webtoon_list .genre,
-    body.wt-dark .webtoon_list .author,
-    body.wt-dark .author a,
-    body.wt-dark .summary {
-      color: #9ca3af !important;
-    }
-
-    body.wt-dark .detail_list_wrap .detail_item {
-      background-color: #111216 !important;
-    }
-    body.wt-dark .detail_list_wrap .sub_title span {
-      color: #ffffff !important;
-    }
-
-    /* Webtoon Hero Spotlight Banner */
-    .wt-hero-spotlight {
-      position: relative;
-      width: 100%;
-      background: #000;
-      overflow: hidden;
-      cursor: pointer;
-    }
-    .wt-hero-spotlight img {
-      width: 100%;
-      height: 220px;
-      object-fit: cover;
-      object-position: center top;
-      display: block;
-      transition: transform 0.4s ease;
-    }
-    .wt-hero-overlay {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background: linear-gradient(to top, rgba(0,0,0,0.92) 0%, rgba(0,0,0,0.4) 60%, transparent 100%);
-      padding: 16px;
-      color: #fff;
-    }
-    .wt-hero-badge {
-      display: inline-block;
-      background: #00dc64;
-      color: #000;
-      font-size: 11px;
-      font-weight: 800;
-      padding: 2px 7px;
-      border-radius: 4px;
-      text-transform: uppercase;
-      margin-bottom: 6px;
-    }
-    .wt-hero-title {
-      font-size: 19px;
-      font-weight: 900;
-      line-height: 1.25;
-      margin: 0 0 4px 0;
-      color: #fff;
-      text-shadow: 0 2px 8px rgba(0,0,0,0.6);
-    }
-    .wt-hero-meta {
-      font-size: 12px;
-      color: #cbd5e1;
+    /* Complete removal of Webtoon sprite logo and injection of Demon Sovereign Brand */
+    .ds-brand-wrap {
       display: flex;
       align-items: center;
-      gap: 8px;
+      gap: 10px;
+      margin-left: 16px;
+      text-decoration: none;
+    }
+    .ds-brand-badge {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 38px;
+      height: 38px;
+      background: #00dc64;
+      color: #000;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-weight: 900;
+      font-size: 18px;
+      letter-spacing: -0.5px;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0, 220, 100, 0.3);
+    }
+    .ds-brand-name {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-weight: 900;
+      font-size: 17px;
+      color: #000;
+      letter-spacing: -0.3px;
+    }
+    body.wt-dark .ds-brand-name {
+      color: #ffffff;
     }
 
-    /* Fixed Sticky Mobile Bottom Dock */
+    /* Remove Webtoon logo from footer and replace with DS footer logo */
+    .foot_logo {
+      background: none !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      width: auto !important;
+      height: auto !important;
+      margin: 16px auto !important;
+    }
+    .ds-foot-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+    }
+    .ds-foot-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 28px;
+      height: 28px;
+      background: #00dc64;
+      color: #000;
+      font-weight: 900;
+      font-size: 14px;
+      border-radius: 4px;
+    }
+    .ds-foot-text {
+      font-size: 15px;
+      font-weight: 900;
+      color: #000;
+      letter-spacing: -0.3px;
+    }
+    body.wt-dark .ds-foot-text {
+      color: #fff;
+    }
+
+    /* Webtoon Mobile Dock */
     .wt-mobile-dock {
       position: fixed;
       bottom: 0;
@@ -159,89 +124,7 @@
       margin-bottom: 2px;
     }
 
-    /* Floating Studio Audio & Karaoke Bar */
-    .wt-player-bar {
-      position: sticky;
-      top: 50px;
-      z-index: 100;
-      background: rgba(15, 16, 22, 0.96);
-      backdrop-filter: blur(12px);
-      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-      padding: 10px 16px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      color: #fff;
-      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    }
-    .wt-player-left {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-    .wt-play-btn {
-      width: 36px;
-      height: 36px;
-      border-radius: 50%;
-      background: #00dc64;
-      border: none;
-      color: #000;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 900;
-      cursor: pointer;
-      box-shadow: 0 2px 10px rgba(0, 220, 100, 0.4);
-      transition: transform 0.2s;
-    }
-    .wt-play-btn:active {
-      transform: scale(0.92);
-    }
-    .wt-track-info {
-      display: flex;
-      flex-direction: column;
-    }
-    .wt-track-title {
-      font-size: 13px;
-      font-weight: 800;
-      color: #fff;
-    }
-    .wt-track-sub {
-      font-size: 11px;
-      color: #00dc64;
-    }
-    .wt-progress-bar-wrap {
-      width: 100%;
-      height: 3px;
-      background: rgba(255,255,255,0.2);
-      border-radius: 2px;
-      margin-top: 6px;
-      position: relative;
-    }
-    .wt-progress-fill {
-      height: 100%;
-      background: #00dc64;
-      border-radius: 2px;
-      width: 0%;
-      transition: width 0.1s linear;
-    }
-
-    /* Karaoke Active Word Styling */
-    .k-word {
-      display: inline-block;
-      margin: 0 2px;
-      transition: all 0.12s ease;
-      padding: 0 1px;
-    }
-    .k-active {
-      color: #00dc64 !important;
-      font-weight: 900 !important;
-      text-shadow: 0 0 12px rgba(0, 220, 100, 0.7);
-      border-bottom: 2px solid #00dc64;
-      transform: translateY(-1px);
-    }
-
-    /* Reader Strip Image Container */
+    /* Viewer Image Strip */
     .wt-viewer-strip {
       width: 100%;
       max-width: 800px;
@@ -258,7 +141,7 @@
       padding: 0;
     }
 
-    /* Search & Drawer Layer Popups */
+    /* Modals & Drawers */
     .wt-modal-overlay {
       position: fixed;
       inset: 0;
@@ -288,38 +171,66 @@
     .wt-side-drawer.open {
       right: 0;
     }
+
+    /* Dark Mode Overrides */
+    body.wt-dark {
+      background-color: #111216 !important;
+      color: #ffffff !important;
+    }
+    body.wt-dark header,
+    body.wt-dark .snb,
+    body.wt-dark .main_ct,
+    body.wt-dark .more_menu_wrap,
+    body.wt-dark .sub_header,
+    body.wt-dark footer {
+      background-color: #111216 !important;
+      color: #ffffff !important;
+      border-color: #262833 !important;
+    }
+    body.wt-dark .section_title,
+    body.wt-dark .webtoon_list .title,
+    body.wt-dark .subject,
+    body.wt-dark .h1_viewer a {
+      color: #ffffff !important;
+    }
+    body.wt-dark .webtoon_list .genre,
+    body.wt-dark .webtoon_list .author,
+    body.wt-dark .author a,
+    body.wt-dark .summary {
+      color: #9ca3af !important;
+    }
+    body.wt-dark .detail_list_wrap .detail_item {
+      background-color: #111216 !important;
+    }
+    body.wt-dark .detail_list_wrap .sub_title span {
+      color: #ffffff !important;
+    }
   </style>
 </head>
 <body class="en">
   <div class="wrap" id="wrap">
     
     <!-- ============================================== -->
-    <!-- OFFICIAL WEBTOON GNB HEADER                    -->
+    <!-- GNB HEADER (ZERO WEBTOON LOGO / PROMOTION)     -->
     <!-- ============================================== -->
     <header role="banner" id="global-header">
       <div class="gnb">
-        <!-- Official Logo with Webtoon Sprite -->
-        <h1 class="logo">
-          <a href="javascript:void(0)" onclick="openView('home')" class="link _gnbMenu">
-            <span class="blind">WEBTOON</span>
-          </a>
-        </h1>
-        <div style="margin-left: 10px; font-weight: 900; font-size: 17px; letter-spacing: -0.3px; color: var(--wt-text);">
-          DEMON SOVEREIGN
-        </div>
+        <!-- Demon Sovereign Official Brand Logo -->
+        <a href="javascript:void(0)" onclick="openView('home')" class="ds-brand-wrap">
+          <div class="ds-brand-badge">DS</div>
+          <div class="ds-brand-name">DEMON SOVEREIGN</div>
+        </a>
+
         <div class="gnb_btn_area">
-          <!-- Theme Toggle -->
           <a href="javascript:void(0)" onclick="toggleDarkTheme()" class="link" style="padding: 12px 8px; font-size: 15px; text-decoration: none;" title="Toggle Dark/Light Mode">
             <span id="theme-icon">🌙</span>
           </a>
-          <!-- Search -->
           <a href="javascript:void(0)" onclick="openSearchModal()" class="btn_search _gnbMenu"><span class="blind">Search</span></a>
-          <!-- More / Menu -->
           <a href="javascript:void(0)" onclick="openSideDrawer()" class="btn_menu _gnbMenu"><span class="blind">More</span></a>
         </div>
       </div>
 
-      <!-- Official Webtoon Sub Navigation (LNB) -->
+      <!-- LNB Navigation Tabs -->
       <nav class="snb">
         <ul role="navigation" class="lnb">
           <li class="item on" id="lnb-item-home">
@@ -341,32 +252,13 @@
     <hr style="display:none">
 
     <!-- ============================================== -->
-    <!-- VIEW 1: HOME FEED (100% WEBTOON HOME)          -->
+    <!-- VIEW 1: HOME FEED (100% WEBTOON DOM STRUCTURE) -->
     <!-- ============================================== -->
     <main id="view-home" class="_main_ct" role="main" style="display: block; padding-bottom: 70px;">
       
-      <!-- Top Hero Spotlight Carousel -->
-      <div class="wt-hero-spotlight" onclick="openEpisodeReader(4)">
-        <img src="./images/hero_banner.jpg" alt="Demon Sovereign's Bloodline Hero Spotlight">
-        <div class="wt-hero-overlay">
-          <div>
-            <span class="wt-hero-badge">ORIGINAL</span>
-            <span class="wt-hero-badge" style="background:#fff; color:#000;">UP</span>
-          </div>
-          <h2 class="wt-hero-title">Demon Sovereign's Bloodline</h2>
-          <div class="wt-hero-meta">
-            <span>★ 9.89</span>
-            <span>•</span>
-            <span>Action / Supernatural</span>
-            <span>•</span>
-            <span>3.4M Reads</span>
-          </div>
-        </div>
-      </div>
-
       <div class="main_content_wrap">
         
-        <!-- SECTION 1: Trending & Popular Series -->
+        <!-- SECTION 1: Trending & Popular Series (100% Filled 3-Column Grid) -->
         <a href="javascript:void(0)" onclick="openView('detail')" class="section_header _trending_view_all">
           <h2 class="section_title">Trending & Popular Series</h2>
           <span class="button_view_all"><span class="blind">View all</span></span>
@@ -383,32 +275,8 @@
 
         <div id="trending_popular" class="flicking-viewport">
           <div class="flicking-camera">
-            <ul class="webtoon_list type_ranking _trending_page">
-              <!-- Real Series #1 Ranked Card -->
-              <li class="item">
-                <a href="javascript:void(0)" onclick="openView('detail')" class="link _titleItem" data-rank="1">
-                  <div class="image_wrap">
-                    <div class="icon_area _icon_area">
-                      <span class="ico badge_up">UP</span>
-                      <span class="ico badge_new">NEW</span>
-                    </div>
-                    <img src="./images/cover_demon_sovereign.jpg" width="110" height="143" alt="Demon Sovereign's Bloodline">
-                  </div>
-                  <div class="ranking_text">
-                    <span class="rank ranking_number_1"><span class="blind">1</span></span>
-                    <span class="trending up"><span class="blind">up</span> 1</span>
-                  </div>
-                  <div class="info_text">
-                    <div class="genre">Action / Supernatural</div>
-                    <strong class="title">Demon Sovereign's Bloodline</strong>
-                    <div class="author">Kuro & Ha-Jun / Redice Style</div>
-                    <div class="grade_area">
-                      <span class="ico_grade">★ 9.89</span>
-                      <span class="view_count type_like">89.4K</span>
-                    </div>
-                  </div>
-                </a>
-              </li>
+            <ul class="webtoon_list type_ranking _trending_page" id="trending-items-list">
+              <!-- Dynamically populated with all 10 canon items -->
             </ul>
           </div>
         </div>
@@ -419,40 +287,18 @@
           <span class="button_view_all"><span class="blind">View all</span></span>
         </a>
 
-        <div id="category_tab" class="carousel_viewport flicking-viewport">
-          <ul class="main_section_tab flicking-camera" role="tablist">
-            <li class="item" role="presentation">
-              <button type="button" role="tab" id="cat-btn-action" aria-selected="true" class="button _category_tab_button on" onclick="filterGenre('action')">Action</button>
-            </li>
-            <li class="item" role="presentation">
-              <button type="button" role="tab" id="cat-btn-fantasy" aria-selected="false" class="button _category_tab_button" onclick="filterGenre('fantasy')">Fantasy</button>
-            </li>
-            <li class="item" role="presentation">
-              <button type="button" role="tab" id="cat-btn-supernatural" aria-selected="false" class="button _category_tab_button" onclick="filterGenre('supernatural')">Supernatural</button>
-            </li>
+        <div id="category_tab" class="carousel_viewport flicking-viewport" style="overflow-x: auto; -webkit-overflow-scrolling: touch;">
+          <ul class="main_section_tab flicking-camera" role="tablist" style="display: flex; white-space: nowrap; padding: 0 16px;">
+            <li class="item" role="presentation"><button type="button" role="tab" id="cat-btn-all" class="button _category_tab_button on" onclick="filterGenre('all')">All</button></li>
+            <li class="item" role="presentation"><button type="button" role="tab" id="cat-btn-action" class="button _category_tab_button" onclick="filterGenre('action')">Action</button></li>
+            <li class="item" role="presentation"><button type="button" role="tab" id="cat-btn-supernatural" class="button _category_tab_button" onclick="filterGenre('supernatural')">Supernatural</button></li>
+            <li class="item" role="presentation"><button type="button" role="tab" id="cat-btn-fantasy" class="button _category_tab_button" onclick="filterGenre('fantasy')">Fantasy</button></li>
+            <li class="item" role="presentation"><button type="button" role="tab" id="cat-btn-drama" class="button _category_tab_button" onclick="filterGenre('drama')">Drama</button></li>
           </ul>
         </div>
 
         <ul class="webtoon_list" id="category_series_list" style="margin-top: 12px;">
-          <li class="item">
-            <a href="javascript:void(0)" onclick="openView('detail')" class="link _titleItem">
-              <div class="image_wrap">
-                <div class="icon_area _icon_area">
-                  <span class="ico badge_up">UP</span>
-                </div>
-                <img src="./images/cover_demon_sovereign.jpg" width="110" height="143" alt="Demon Sovereign">
-              </div>
-              <div class="info_text">
-                <div class="genre" id="genre-badge-label">Action / Supernatural</div>
-                <strong class="title">Demon Sovereign's Bloodline</strong>
-                <div class="author">Kuro & Redice Studio</div>
-                <div class="grade_area">
-                  <span class="ico_grade">★ 9.89</span>
-                  <span class="view_count type_like">89.4K</span>
-                </div>
-              </div>
-            </a>
-          </li>
+          <!-- Filtered category items -->
         </ul>
 
         <!-- SECTION 3: Newly Released Originals -->
@@ -466,51 +312,49 @@
             
             <!-- Ep 4 Card -->
             <li class="item" style="flex: 0 0 134px; cursor: pointer;" onclick="openEpisodeReader(4)">
-              <div class="image_wrap" style="position: relative; border-radius: 6px; overflow: hidden;">
-                <div class="icon_area _icon_area">
-                  <span class="ico badge_up">UP</span>
-                </div>
-                <img src="./images/cover_demon_sovereign.jpg" width="134" height="175" style="width: 134px; height: 175px; object-fit: cover;" alt="Episode 4">
+              <div class="image_wrap" style="position: relative; border-radius: 4px; overflow: hidden;">
+                <div class="icon_area _icon_area"><span class="ico badge_up">UP</span></div>
+                <img src="./images/card_05_awakening.jpg" width="134" height="175" style="width: 134px; height: 175px; object-fit: cover;" alt="Ep 4">
               </div>
               <div class="info_text" style="padding-top: 6px;">
-                <div class="genre" style="font-size: 11px; color: #00dc64; font-weight: 700;">AUDIO KARAOKE</div>
                 <strong class="title" style="font-size: 13px; line-height: 1.3; display: block;">Ep. 4 - The Saint Mirren Confrontation</strong>
+                <div class="genre" style="font-size: 11px; color: #777;">Action / Supernatural</div>
               </div>
             </li>
 
             <!-- Ep 3 Card -->
             <li class="item" style="flex: 0 0 134px; cursor: pointer;" onclick="openEpisodeReader(3)">
-              <div class="image_wrap" style="position: relative; border-radius: 6px; overflow: hidden;">
+              <div class="image_wrap" style="position: relative; border-radius: 4px; overflow: hidden;">
                 <div class="icon_area _icon_area"><span class="ico badge_up">UP</span></div>
-                <img src="./images/cover_sister.jpg" width="134" height="175" style="width: 134px; height: 175px; object-fit: cover;" alt="Episode 3">
+                <img src="./images/card_03_sister.jpg" width="134" height="175" style="width: 134px; height: 175px; object-fit: cover;" alt="Ep 3">
               </div>
               <div class="info_text" style="padding-top: 6px;">
-                <div class="genre" style="font-size: 11px; color: #777;">CHAPTER 3</div>
                 <strong class="title" style="font-size: 13px; line-height: 1.3; display: block;">Ep. 3 - Bloodline Awakening</strong>
+                <div class="genre" style="font-size: 11px; color: #777;">Drama / Supernatural</div>
               </div>
             </li>
 
             <!-- Ep 2 Card -->
             <li class="item" style="flex: 0 0 134px; cursor: pointer;" onclick="openEpisodeReader(2)">
-              <div class="image_wrap" style="position: relative; border-radius: 6px; overflow: hidden;">
+              <div class="image_wrap" style="position: relative; border-radius: 4px; overflow: hidden;">
                 <div class="icon_area _icon_area"><span class="ico badge_up">UP</span></div>
-                <img src="./images/cover_kuro.jpg" width="134" height="175" style="width: 134px; height: 175px; object-fit: cover;" alt="Episode 2">
+                <img src="./images/card_02_kuro.jpg" width="134" height="175" style="width: 134px; height: 175px; object-fit: cover;" alt="Ep 2">
               </div>
               <div class="info_text" style="padding-top: 6px;">
-                <div class="genre" style="font-size: 11px; color: #777;">CHAPTER 2</div>
                 <strong class="title" style="font-size: 13px; line-height: 1.3; display: block;">Ep. 2 - The Demonic Familiar Kuro</strong>
+                <div class="genre" style="font-size: 11px; color: #777;">Fantasy / Supernatural</div>
               </div>
             </li>
 
             <!-- Ep 1 Card -->
             <li class="item" style="flex: 0 0 134px; cursor: pointer;" onclick="openEpisodeReader(1)">
-              <div class="image_wrap" style="position: relative; border-radius: 6px; overflow: hidden;">
+              <div class="image_wrap" style="position: relative; border-radius: 4px; overflow: hidden;">
                 <div class="icon_area _icon_area"><span class="ico badge_up">UP</span></div>
-                <img src="./images/cover_university.jpg" width="134" height="175" style="width: 134px; height: 175px; object-fit: cover;" alt="Episode 1">
+                <img src="./images/card_04_university.jpg" width="134" height="175" style="width: 134px; height: 175px; object-fit: cover;" alt="Ep 1">
               </div>
               <div class="info_text" style="padding-top: 6px;">
-                <div class="genre" style="font-size: 11px; color: #777;">CHAPTER 1</div>
-                <strong class="title" style="font-size: 13px; line-height: 1.3; display: block;">Ep. 1 - Awakening of the Demon Sovereign</strong>
+                <strong class="title" style="font-size: 13px; line-height: 1.3; display: block;">Ep. 1 - Awakening of the Sovereign</strong>
+                <div class="genre" style="font-size: 11px; color: #777;">Action / Fantasy</div>
               </div>
             </li>
 
@@ -525,37 +369,71 @@
 
         <div class="carousel_viewport flicking-viewport">
           <ul class="main_section_tab flicking-camera" role="tablist">
-            <li class="item" role="presentation"><button type="button" role="tab" class="button" onclick="selectDailyDay('MON')">MON</button></li>
-            <li class="item" role="presentation"><button type="button" role="tab" class="button" onclick="selectDailyDay('TUE')">TUE</button></li>
-            <li class="item" role="presentation"><button type="button" role="tab" class="button" onclick="selectDailyDay('WED')">WED</button></li>
-            <li class="item" role="presentation"><button type="button" role="tab" class="button" onclick="selectDailyDay('THU')">THU</button></li>
-            <li class="item" role="presentation"><button type="button" role="tab" class="button" onclick="selectDailyDay('FRI')">FRI</button></li>
-            <li class="item" role="presentation"><button type="button" role="tab" class="button on" id="daily-btn-sat" onclick="selectDailyDay('SAT')">SAT •</button></li>
-            <li class="item" role="presentation"><button type="button" role="tab" class="button" onclick="selectDailyDay('SUN')">SUN</button></li>
+            <li class="item" role="presentation"><button type="button" class="button" onclick="selectDailyDay('MON')">MON</button></li>
+            <li class="item" role="presentation"><button type="button" class="button" onclick="selectDailyDay('TUE')">TUE</button></li>
+            <li class="item" role="presentation"><button type="button" class="button" onclick="selectDailyDay('WED')">WED</button></li>
+            <li class="item" role="presentation"><button type="button" class="button" onclick="selectDailyDay('THU')">THU</button></li>
+            <li class="item" role="presentation"><button type="button" class="button" onclick="selectDailyDay('FRI')">FRI</button></li>
+            <li class="item" role="presentation"><button type="button" class="button on" id="daily-btn-sat" onclick="selectDailyDay('SAT')">SAT •</button></li>
+            <li class="item" role="presentation"><button type="button" class="button" onclick="selectDailyDay('SUN')">SUN</button></li>
           </ul>
         </div>
 
         <ul id="daily_list" class="webtoon_list" style="margin-top: 12px;">
-          <li class="item">
-            <a href="javascript:void(0)" onclick="openView('detail')" class="link _titleItem">
-              <div class="image_wrap">
-                <div class="icon_area _icon_area">
-                  <span class="ico badge_up">UP</span>
-                </div>
-                <img src="./images/cover_demon_sovereign.jpg" width="110" height="143" alt="Demon Sovereign">
-              </div>
-              <div class="info_text">
-                <div class="genre">Saturday Drop • Every Week</div>
-                <strong class="title">Demon Sovereign's Bloodline</strong>
-                <div class="author">Kuro & Ha-Jun / Redice Style</div>
-                <div class="grade_area">
-                  <span class="ico_grade">★ 9.89</span>
-                  <span class="view_count type_like">89.4K</span>
-                </div>
-              </div>
-            </a>
-          </li>
+          <!-- Daily items populated by JS -->
         </ul>
+
+        <!-- SECTION 5: More stories from creators (Canvas) -->
+        <a href="javascript:void(0)" onclick="openCanvasView()" class="section_header _canvas_view_all" style="margin-top: 24px;">
+          <h2 class="section_title">More stories from creators</h2>
+          <span class="button_view_all"><span class="blind">View all</span></span>
+        </a>
+
+        <div id="canvas" class="carousel_viewport flicking-viewport _canvas_page" style="overflow-x: auto; -webkit-overflow-scrolling: touch;">
+          <ul class="carousel_list type_canvas flicking-camera" style="display: flex; gap: 10px; padding: 4px 16px; margin: 0; list-style: none;">
+            
+            <li class="item" style="flex: 0 0 110px; cursor: pointer;" onclick="openEpisodeReader(2)">
+              <div class="image_wrap" style="width: 110px; height: 110px; border-radius: 4px; overflow: hidden;">
+                <img src="./images/card_02_kuro.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+              </div>
+              <div class="info_text" style="padding-top: 4px;">
+                <div class="genre" style="font-size: 11px; color: #777;">Lore / Origin</div>
+                <strong class="title" style="font-size: 12px; line-height: 1.25; display: block;">Kuro: Demonic Familiar</strong>
+              </div>
+            </li>
+
+            <li class="item" style="flex: 0 0 110px; cursor: pointer;" onclick="openEpisodeReader(1)">
+              <div class="image_wrap" style="width: 110px; height: 110px; border-radius: 4px; overflow: hidden;">
+                <img src="./images/card_04_university.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+              </div>
+              <div class="info_text" style="padding-top: 4px;">
+                <div class="genre" style="font-size: 11px; color: #777;">Codex</div>
+                <strong class="title" style="font-size: 12px; line-height: 1.25; display: block;">Saint Mirren Archives</strong>
+              </div>
+            </li>
+
+            <li class="item" style="flex: 0 0 110px; cursor: pointer;" onclick="openEpisodeReader(4)">
+              <div class="image_wrap" style="width: 110px; height: 110px; border-radius: 4px; overflow: hidden;">
+                <img src="./images/card_07_feather.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+              </div>
+              <div class="info_text" style="padding-top: 4px;">
+                <div class="genre" style="font-size: 11px; color: #777;">Artifacts</div>
+                <strong class="title" style="font-size: 12px; line-height: 1.25; display: block;">The 10 Sovereign Relics</strong>
+              </div>
+            </li>
+
+            <li class="item" style="flex: 0 0 110px; cursor: pointer;" onclick="openEpisodeReader(3)">
+              <div class="image_wrap" style="width: 110px; height: 110px; border-radius: 4px; overflow: hidden;">
+                <img src="./images/card_03_sister.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+              </div>
+              <div class="info_text" style="padding-top: 4px;">
+                <div class="genre" style="font-size: 11px; color: #777;">Chronicles</div>
+                <strong class="title" style="font-size: 12px; line-height: 1.25; display: block;">Ha-Eun Kang's Diary</strong>
+              </div>
+            </li>
+
+          </ul>
+        </div>
 
       </div>
     </main>
@@ -565,7 +443,6 @@
     <!-- ============================================== -->
     <div id="view-detail" class="_main_ct" role="main" style="display: none; padding-bottom: 70px;">
       
-      <!-- Sub-Header for Detail View -->
       <header role="banner" class="sub_header _toolbar" style="display: flex; align-items: center; justify-content: space-between; padding: 12px 16px; border-bottom: 1px solid var(--wt-border);">
         <a href="javascript:void(0)" onclick="openView('home')" style="font-weight: 800; font-size: 15px; color: var(--wt-text); text-decoration: none;">
           ← Back to Home
@@ -573,10 +450,9 @@
         <span style="font-weight: 800; font-size: 14px; color: #00dc64;">SERIES HUB</span>
       </header>
 
-      <!-- Series Overview Box -->
       <div class="detail_info_wrap" style="padding: 16px; background: var(--wt-card-bg); border-bottom: 1px solid var(--wt-border);">
         <div style="display: flex; gap: 16px;">
-          <img src="./images/cover_demon_sovereign.jpg" width="110" height="143" style="width: 110px; height: 143px; object-fit: cover; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" alt="Demon Sovereign">
+          <img src="./images/card_01_sovereign.jpg" width="110" height="143" style="width: 110px; height: 143px; object-fit: cover; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" alt="Demon Sovereign">
           <div class="info_area" style="flex: 1;">
             <em class="point" style="color: #00dc64; font-weight: 800; font-size: 12px;">#1 in Action & Supernatural</em>
             <h2 class="subject" style="font-size: 19px; font-weight: 900; margin: 4px 0;">Demon Sovereign's Bloodline</h2>
@@ -588,7 +464,7 @@
                 + Subscribed (842K)
               </button>
               <button onclick="openEpisodeReader(4)" style="background: #000; color: #fff; border: 1px solid #333; font-size: 12px; font-weight: 800; padding: 6px 14px; border-radius: 20px; cursor: pointer;">
-                ▶ Play Ep. 4
+                ▶ Read Ep. 4
               </button>
             </div>
             <div style="font-size: 12px; color: #f59e0b; font-weight: 700;">
@@ -609,7 +485,6 @@
         </ul>
       </div>
 
-      <!-- Episode List -->
       <div style="padding: 12px 16px; font-weight: 800; font-size: 14px; border-bottom: 1px solid var(--wt-border); display: flex; justify-content: space-between;">
         <span>All Episodes (103 Chapters)</span>
         <span style="color: #00dc64; font-size: 12px;">Latest Drop: Episode 4</span>
@@ -617,11 +492,10 @@
 
       <ul class="detail_list_wrap _titleHomeEpisodeList" id="detail-episodes-container" style="list-style: none; margin: 0; padding: 0;">
         
-        <!-- Episode 4 -->
         <li class="detail_item" onclick="openEpisodeReader(4)" style="cursor: pointer; padding: 12px 16px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--wt-border);">
           <div style="display: flex; gap: 12px; align-items: center;">
-            <div style="position: relative; width: 68px; height: 68px; border-radius: 6px; overflow: hidden; flex-shrink: 0;">
-              <img src="./images/cover_demon_sovereign.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+            <div style="position: relative; width: 68px; height: 68px; border-radius: 4px; overflow: hidden; flex-shrink: 0;">
+              <img src="./images/card_05_awakening.jpg" style="width: 100%; height: 100%; object-fit: cover;">
               <span class="ico badge_up" style="position: absolute; top: 2px; left: 2px;">UP</span>
             </div>
             <div>
@@ -629,18 +503,17 @@
                 <span>Episode 4 - The Saint Mirren Confrontation</span>
               </p>
               <div class="sub_info" style="font-size: 11px; color: var(--wt-subtext); margin-top: 4px;">
-                <span class="date">Nov 9, 2026</span> • <span style="color: #00dc64; font-weight: 700;">🎙️ Hindi Voiceover & Karaoke</span> • <span>♥ 18.4K</span>
+                <span class="date">Nov 9, 2026</span> • <span>♥ 18.4K</span>
               </div>
             </div>
           </div>
           <span style="font-weight: 800; color: var(--wt-subtext);">#4</span>
         </li>
 
-        <!-- Episode 3 -->
         <li class="detail_item" onclick="openEpisodeReader(3)" style="cursor: pointer; padding: 12px 16px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--wt-border);">
           <div style="display: flex; gap: 12px; align-items: center;">
-            <div style="position: relative; width: 68px; height: 68px; border-radius: 6px; overflow: hidden; flex-shrink: 0;">
-              <img src="./images/cover_sister.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+            <div style="position: relative; width: 68px; height: 68px; border-radius: 4px; overflow: hidden; flex-shrink: 0;">
+              <img src="./images/card_03_sister.jpg" style="width: 100%; height: 100%; object-fit: cover;">
               <span class="ico badge_up" style="position: absolute; top: 2px; left: 2px;">UP</span>
             </div>
             <div>
@@ -655,11 +528,10 @@
           <span style="font-weight: 800; color: var(--wt-subtext);">#3</span>
         </li>
 
-        <!-- Episode 2 -->
         <li class="detail_item" onclick="openEpisodeReader(2)" style="cursor: pointer; padding: 12px 16px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--wt-border);">
           <div style="display: flex; gap: 12px; align-items: center;">
-            <div style="position: relative; width: 68px; height: 68px; border-radius: 6px; overflow: hidden; flex-shrink: 0;">
-              <img src="./images/cover_kuro.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+            <div style="position: relative; width: 68px; height: 68px; border-radius: 4px; overflow: hidden; flex-shrink: 0;">
+              <img src="./images/card_02_kuro.jpg" style="width: 100%; height: 100%; object-fit: cover;">
               <span class="ico badge_up" style="position: absolute; top: 2px; left: 2px;">UP</span>
             </div>
             <div>
@@ -674,16 +546,15 @@
           <span style="font-weight: 800; color: var(--wt-subtext);">#2</span>
         </li>
 
-        <!-- Episode 1 -->
         <li class="detail_item" onclick="openEpisodeReader(1)" style="cursor: pointer; padding: 12px 16px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--wt-border);">
           <div style="display: flex; gap: 12px; align-items: center;">
-            <div style="position: relative; width: 68px; height: 68px; border-radius: 6px; overflow: hidden; flex-shrink: 0;">
-              <img src="./images/cover_university.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+            <div style="position: relative; width: 68px; height: 68px; border-radius: 4px; overflow: hidden; flex-shrink: 0;">
+              <img src="./images/card_04_university.jpg" style="width: 100%; height: 100%; object-fit: cover;">
               <span class="ico badge_up" style="position: absolute; top: 2px; left: 2px;">UP</span>
             </div>
             <div>
               <p class="sub_title" style="margin: 0; font-size: 14px; font-weight: 800; color: var(--wt-text);">
-                <span>Episode 1 - Awakening of the Demon Sovereign</span>
+                <span>Episode 1 - Awakening of the Sovereign</span>
               </p>
               <div class="sub_info" style="font-size: 11px; color: var(--wt-subtext); margin-top: 4px;">
                 <span class="date">Nov 6, 2026</span> • <span>♥ 22.5K</span>
@@ -695,7 +566,6 @@
 
       </ul>
 
-      <!-- Full Roadmap Loader -->
       <div style="padding: 20px; text-align: center;">
         <button onclick="renderAll100Chapters()" id="btn-load-100" style="background: none; border: 1px solid var(--wt-border); color: var(--wt-text); font-weight: 800; font-size: 13px; padding: 10px 24px; border-radius: 20px; cursor: pointer;">
           View Full 100-Chapter Catalog Roadmap ↓
@@ -705,11 +575,11 @@
     </div>
 
     <!-- ============================================== -->
-    <!-- VIEW 3: WEBTOON READER (VERTICAL STRIP)        -->
+    <!-- VIEW 3: WEBTOON READER (PURE VISUAL STRIP)     -->
+    <!-- ZERO AUDIO / KARAOKE DISTRACTION               -->
     <!-- ============================================== -->
     <div id="view-reader" class="_main_ct" role="main" style="display: none; background: #000; min-height: 100vh;">
       
-      <!-- Sticky Viewer Header -->
       <header role="banner" id="viewer-header" class="sub_header _toolbar" style="position: sticky; top: 0; z-index: 100; background: #111216; color: #fff; display: flex; align-items: center; justify-content: space-between; padding: 10px 16px; border-bottom: 1px solid #222;">
         <a href="javascript:void(0)" onclick="openView('detail')" style="color: #fff; text-decoration: none; font-weight: 800; font-size: 14px;">
           ← Episodes
@@ -718,55 +588,22 @@
           Demon Sovereign's Bloodline - Ep. 4
         </h1>
         <div style="display: flex; gap: 10px;">
-          <a href="javascript:void(0)" onclick="toggleKaraokeOverlay()" id="btn-toggle-karaoke" style="background: #00dc64; color: #000; font-size: 11px; font-weight: 900; padding: 3px 8px; border-radius: 4px; text-decoration: none;">
-            KARAOKE
-          </a>
+          <a href="javascript:void(0)" onclick="openView('detail')" class="btn_list v2" style="color: #fff; text-decoration: none;"><span class="blind">list</span></a>
         </div>
       </header>
 
-      <!-- Episode 4 Floating Studio Audio Narrator & Scrubber Bar -->
-      <div id="reader-audio-bar" class="wt-player-bar" style="display: none;">
-        <div class="wt-player-left">
-          <button id="audio-play-toggle-btn" class="wt-play-btn" onclick="toggleReaderAudio()">
-            ▶
-          </button>
-          <div class="wt-track-info">
-            <span class="wt-track-title" id="audio-track-title">Episode 4 Studio Hindi Narration</span>
-            <span class="wt-track-sub" id="audio-time-counter">00:00 / 07:35 • 60 FPS Sync Active</span>
-          </div>
-        </div>
-        <div style="display: flex; align-items: center; gap: 8px;">
-          <button onclick="changeAudioPlaybackSpeed()" id="btn-audio-speed" style="background: #222; border: 1px solid #444; color: #fff; font-size: 11px; font-weight: 800; padding: 4px 8px; border-radius: 4px; cursor: pointer;">
-            1.0x
-          </button>
-        </div>
-      </div>
-      <div class="wt-progress-bar-wrap" style="position: sticky; top: 98px; z-index: 100; margin: 0; border-radius: 0;">
-        <div id="audio-progress-bar" class="wt-progress-fill"></div>
-      </div>
-
-      <!-- Karaoke Text Box (Shows active word tracking during audio) -->
-      <div id="karaoke-text-container" style="display: none; position: sticky; top: 105px; z-index: 99; background: rgba(10, 11, 16, 0.94); border-bottom: 1px solid rgba(0, 220, 100, 0.3); padding: 12px 16px; color: #e2e8f0; font-size: 14px; line-height: 1.6; text-align: center; backdrop-filter: blur(8px);">
-        <div style="font-size: 10px; font-weight: 800; color: #00dc64; letter-spacing: 1px; margin-bottom: 4px; text-transform: uppercase;">
-          🎙️ LIVE STUDIO VOICE OVER • WORD-BY-WORD SYNCHRONIZATION
-        </div>
-        <div id="karaoke-active-phrase" style="min-height: 44px; display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">
-          Tap Play ▶ on the player to start synchronized narration!
-        </div>
-      </div>
-
-      <!-- Vertical Infinite Scroll Image Strip -->
+      <!-- Vertical Infinite Scroll Image Strip (Pure 2D Manhwa Art) -->
       <div id="viewer-strip-container" class="wt-viewer-strip">
-        <!-- Panels injected dynamically by JavaScript -->
+        <!-- Panels injected dynamically -->
       </div>
 
-      <!-- Official Reader Bottom Bar -->
+      <!-- Viewer Bottom Bar -->
       <div style="background: #111216; border-top: 1px solid #222; padding: 20px 16px 80px 16px; color: #fff; text-align: center;">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
           <button id="reader-btn-prev" onclick="goToPrevEpisode()" style="background: #222; color: #fff; border: 1px solid #333; font-size: 12px; font-weight: 800; padding: 8px 16px; border-radius: 20px; cursor: pointer;">
             ← Previous Ep
           </button>
-          <button onclick="openView('detail')" style="background: none; border: 1px solid #333; color: #999; font-size: 12px; padding: 8px 14px; border-radius: 20px;">
+          <button onclick="openView('detail')" style="background: none; border: 1px solid #333; color: #999; font-size: 12px; padding: 8px 14px; border-radius: 20px; cursor: pointer;">
             ≡ List
           </button>
           <button id="reader-btn-next" onclick="goToNextEpisode()" style="background: #00dc64; color: #000; border: none; font-size: 12px; font-weight: 900; padding: 8px 16px; border-radius: 20px; cursor: pointer;">
@@ -778,7 +615,7 @@
           <button onclick="likeCurrentEpisode()" style="background: none; border: none; color: #ef4444; font-size: 16px; font-weight: 800; cursor: pointer; display: flex; align-items: center; gap: 6px;">
             <span>♥</span> <span id="reader-like-counter" style="color: #fff; font-size: 13px;">18,420</span>
           </button>
-          <button onclick="openCommentsModal()" style="background: none; border: none; color: #38bdf8; font-size: 16px; font-weight: 800; cursor: pointer; display: flex; align-items: center; gap: 6px;">
+          <button onclick="alert('Comment section active for Demon Sovereign readers (1,429 comments).')" style="background: none; border: none; color: #38bdf8; font-size: 16px; font-weight: 800; cursor: pointer; display: flex; align-items: center; gap: 6px;">
             <span>💬</span> <span style="color: #fff; font-size: 13px;">1,429 Comments</span>
           </button>
         </div>
@@ -791,7 +628,7 @@
     </div>
 
     <!-- ============================================== -->
-    <!-- OFFICIAL WEBTOON FOOTER                        -->
+    <!-- FOOTER (ZERO WEBTOON PROMOTION / ALL DS COMICS)-->
     <!-- ============================================== -->
     <footer role="contentinfo" class="_footer" id="global-footer">
       <div class="top_area" id="_top_area">
@@ -801,30 +638,36 @@
       </div>
 
       <p class="downapp_area2">
-        <span class="downapp_text">Get the latest stories made just for <strong class="downapp_bold">WEBTOON</strong></span>
-        <a href="javascript:void(0)" onclick="openEpisodeReader(4)" class="_main_footer_app_download link_appdown" style="cursor: pointer;">Read Ep. 4</a>
+        <span class="downapp_text">Get the latest chapters of <strong class="downapp_bold">DEMON SOVEREIGN</strong></span>
+        <a href="javascript:void(0)" onclick="openEpisodeReader(4)" class="_main_footer_app_download link_appdown" style="cursor: pointer;">Read Now</a>
       </p>
 
       <div class="footer_bottom">
         <ul class="foot_sns">
-          <li class="item"><a href="https://www.facebook.com/webtoonofficial/" target="_blank" class="btn_foot_facebook"><span class="blind">facebook</span></a></li>
-          <li class="item"><a href="https://www.instagram.com/webtoonofficial/" target="_blank" class="btn_foot_instagram"><span class="blind">instagram</span></a></li>
-          <li class="item"><a href="https://x.com/webtoonofficial" target="_blank" class="btn_foot_twitter"><span class="blind">twitter</span></a></li>
-          <li class="item"><a href="https://www.youtube.com/webtoonofficial" target="_blank" class="btn_foot_youtube"><span class="blind">youtube</span></a></li>
+          <li class="item"><a href="javascript:void(0)" class="btn_foot_facebook"><span class="blind">facebook</span></a></li>
+          <li class="item"><a href="javascript:void(0)" class="btn_foot_instagram"><span class="blind">instagram</span></a></li>
+          <li class="item"><a href="javascript:void(0)" class="btn_foot_twitter"><span class="blind">twitter</span></a></li>
+          <li class="item"><a href="javascript:void(0)" class="btn_foot_youtube"><span class="blind">youtube</span></a></li>
         </ul>
 
         <p class="foot_menu">
           <a href="javascript:void(0)" onclick="openView('detail')" class="link">About</a>
-          <a href="javascript:void(0)" onclick="alert('Demon Sovereign portal feedback submitted!')" class="link">Feedback</a>
+          <a href="javascript:void(0)" onclick="alert('Feedback received!')" class="link">Feedback</a>
           <a href="javascript:void(0)" class="link">Help</a>
           <a href="javascript:void(0)" class="link">Terms</a>
           <a href="javascript:void(0)" class="link">Privacy</a>
           <a href="javascript:void(0)" class="link">Contact</a>
         </p>
 
-        <span class="foot_logo"><em class="blind">WEBTOON</em></span>
+        <!-- Demon Sovereign Footer Logo -->
+        <div class="foot_logo">
+          <a href="javascript:void(0)" onclick="openView('home')" class="ds-foot-badge">
+            <span class="ds-foot-icon">DS</span>
+            <span class="ds-foot-text">DEMON SOVEREIGN</span>
+          </a>
+        </div>
         <p class="copyright">
-          <a class="link">ⓒ NAVER WEBTOON Ltd. / DEMON SOVEREIGN</a>
+          <a class="link">ⓒ DEMON SOVEREIGN COMICS Ltd. All Rights Reserved.</a>
         </p>
       </div>
     </footer>
@@ -867,7 +710,7 @@
       </div>
       <div style="background: var(--wt-bg); height: 100%; padding: 16px;">
         <div style="font-size: 12px; font-weight: 800; color: var(--wt-subtext); margin-bottom: 10px;">TRENDING SEARCHES</div>
-        <div style="display: flex; gap: 8px; flex-wrap: wrap;" id="trending-search-tags">
+        <div style="display: flex; gap: 8px; flex-wrap: wrap;">
           <span onclick="applySearchTag('Demon Sovereign')" style="background: var(--wt-card-bg); color: #00dc64; font-weight: 700; padding: 6px 12px; border-radius: 16px; font-size: 12px; cursor: pointer;">#Demon Sovereign</span>
           <span onclick="applySearchTag('Kuro')" style="background: var(--wt-card-bg); color: #00dc64; font-weight: 700; padding: 6px 12px; border-radius: 16px; font-size: 12px; cursor: pointer;">#Kuro</span>
           <span onclick="applySearchTag('Ha-Jun')" style="background: var(--wt-card-bg); color: #00dc64; font-weight: 700; padding: 6px 12px; border-radius: 16px; font-size: 12px; cursor: pointer;">#Ha-Jun</span>
@@ -890,36 +733,120 @@
         <ul style="list-style: none; margin: 0; padding: 0; font-size: 14px; font-weight: 800;">
           <li style="padding: 12px 0; border-bottom: 1px solid var(--wt-border); cursor: pointer;" onclick="openView('home'); closeSideDrawer();">🏠 Home</li>
           <li style="padding: 12px 0; border-bottom: 1px solid var(--wt-border); cursor: pointer;" onclick="openView('detail'); closeSideDrawer();">📖 Originals & Episodes</li>
-          <li style="padding: 12px 0; border-bottom: 1px solid var(--wt-border); cursor: pointer;" onclick="openEpisodeReader(4); closeSideDrawer();">🎙️ Ep. 4 Audio Karaoke Reader</li>
+          <li style="padding: 12px 0; border-bottom: 1px solid var(--wt-border); cursor: pointer;" onclick="openEpisodeReader(4); closeSideDrawer();">📖 Read Episode 4</li>
           <li style="padding: 12px 0; border-bottom: 1px solid var(--wt-border); cursor: pointer;" onclick="toggleDarkTheme();">🌓 Dark / Light Theme</li>
-          <li style="padding: 12px 0; border-bottom: 1px solid var(--wt-border); cursor: pointer;" onclick="alert('Language: Hindi & English');">🌐 Language: English / Hindi</li>
         </ul>
       </div>
     </div>
 
   </div>
 
-  <!-- Audio Element for Episode 4 Voiceover -->
-  <audio id="reader-audio-element" src="./audio/chapter_04_full.mp3" preload="metadata"></audio>
-
   <!-- ============================================== -->
   <!-- CLIENT JAVASCRIPT CONTROLLER                   -->
   <!-- ============================================== -->
   <script>
-    // State & Catalog Data
+    const CANON_ITEMS = [{"id": 1, "rank": 1, "title": "Demon Sovereign's Bloodline", "genre": "Action", "subgenre": "Supernatural", "cover": "./images/card_01_sovereign.jpg", "views": "3.4M", "rating": "9.89", "epNum": 4, "badge": "UP"}, {"id": 2, "rank": 2, "title": "Ep. 4: The Saint Mirren Confrontation", "genre": "Supernatural", "subgenre": "Action", "cover": "./images/card_05_awakening.jpg", "views": "1.8M", "rating": "9.92", "epNum": 4, "badge": "UP"}, {"id": 3, "rank": 3, "title": "Ep. 2: The Demonic Familiar Kuro", "genre": "Fantasy", "subgenre": "Supernatural", "cover": "./images/card_02_kuro.jpg", "views": "1.5M", "rating": "9.85", "epNum": 2, "badge": "UP"}, {"id": 4, "rank": 4, "title": "Ep. 1: Awakening of the Sovereign", "genre": "Action", "subgenre": "Fantasy", "cover": "./images/card_04_university.jpg", "views": "2.2M", "rating": "9.90", "epNum": 1, "badge": "UP"}, {"id": 5, "rank": 5, "title": "Ep. 3: Bloodline Awakening", "genre": "Drama", "subgenre": "Supernatural", "cover": "./images/card_03_sister.jpg", "views": "1.3M", "rating": "9.81", "epNum": 3, "badge": "UP"}, {"id": 6, "rank": 6, "title": "Arc 1: The Cursed Feather", "genre": "Supernatural", "subgenre": "Action", "cover": "./images/card_07_feather.jpg", "views": "980K", "rating": "9.79", "epNum": 4, "badge": "NEW"}, {"id": 7, "rank": 7, "title": "Arc 2: Saint Mirren Academy", "genre": "Action", "subgenre": "Fantasy", "cover": "./images/card_06_storm.jpg", "views": "850K", "rating": "9.75", "epNum": 1, "badge": "UP"}, {"id": 8, "rank": 8, "title": "Kuro's Ancient Heritage", "genre": "Fantasy", "subgenre": "Supernatural", "cover": "./images/card_10_landing.jpg", "views": "740K", "rating": "9.88", "epNum": 2, "badge": "UP"}, {"id": 9, "rank": 9, "title": "The Rooftop Confrontation", "genre": "Drama", "subgenre": "Action", "cover": "./images/card_08_confrontation.jpg", "views": "690K", "rating": "9.70", "epNum": 1, "badge": "NEW"}, {"id": 10, "rank": 10, "title": "Tears in the Rain: Ha-Jun's Oath", "genre": "Drama", "subgenre": "Supernatural", "cover": "./images/card_09_rain.jpg", "views": "620K", "rating": "9.72", "epNum": 4, "badge": "UP"}];
     const ALL_CATALOG_EPISODES = [{"number": "1-3", "title": "The Gathering Storm & Awakening", "arc": "THE CURSED FEATHER", "status": "complete"}, {"number": 4, "title": "The Drifting Feather", "arc": "THE CURSED FEATHER", "status": "scripted_and_prompted"}, {"number": 5, "title": "The Broken Promise", "arc": "THE CURSED FEATHER", "status": "scripted_and_prompted"}, {"number": 6, "title": "The First Blood", "arc": "THE CURSED FEATHER", "status": "scripted_and_prompted"}, {"number": 7, "title": "The Demon Within", "arc": "THE CURSED FEATHER", "status": "scripted_and_prompted"}, {"number": 8, "title": "Kuro's Voice", "arc": "THE CURSED FEATHER", "status": "scripted_and_prompted"}, {"number": 9, "title": "The Forbidden Contract", "arc": "THE CURSED FEATHER", "status": "scripted_and_prompted"}, {"number": 10, "title": "First Synchronization", "arc": "THE CURSED FEATHER", "status": "scripted_and_prompted"}, {"number": 11, "title": "The First Demon", "arc": "THE CURSED FEATHER", "status": "scripted_and_prompted"}, {"number": 12, "title": "Instinct of Survival", "arc": "THE CURSED FEATHER", "status": "scripted_and_prompted"}, {"number": 13, "title": "Something Has Awakened", "arc": "THE CURSED FEATHER", "status": "scripted_and_prompted"}, {"number": 14, "title": "The Unwanted Power", "arc": "THE HIDDEN BLOODLINE", "status": "scripted_and_prompted"}, {"number": 15, "title": "The Boy Who Changed", "arc": "THE HIDDEN BLOODLINE", "status": "scripted_and_prompted"}, {"number": 16, "title": "The First Mission", "arc": "THE HIDDEN BLOODLINE", "status": "scripted_and_prompted"}, {"number": 17, "title": "Blood Trial", "arc": "THE HIDDEN BLOODLINE", "status": "scripted_and_prompted"}, {"number": 18, "title": "The Forgotten Classroom", "arc": "THE HIDDEN BLOODLINE", "status": "scripted_and_prompted"}, {"number": 19, "title": "The Name of the Sovereign", "arc": "THE HIDDEN BLOODLINE", "status": "scripted_and_prompted"}, {"number": 20, "title": "The Hunter's Arrival", "arc": "THE HIDDEN BLOODLINE", "status": "scripted_and_prompted"}, {"number": 21, "title": "The Mark of Death", "arc": "THE HIDDEN BLOODLINE", "status": "scripted_and_prompted"}, {"number": 22, "title": "Uncontrolled Blood", "arc": "THE HIDDEN BLOODLINE", "status": "scripted_and_prompted"}, {"number": 23, "title": "The First Victory", "arc": "THE HIDDEN BLOODLINE", "status": "scripted_and_prompted"}, {"number": 24, "title": "The Second Resonance", "arc": "THE FIRST RELIC", "status": "scripted_and_prompted"}, {"number": 25, "title": "Ring of Hollow Blood", "arc": "THE FIRST RELIC", "status": "scripted_and_prompted"}, {"number": 26, "title": "Blood Blade", "arc": "THE FIRST RELIC", "status": "scripted_and_prompted"}, {"number": 27, "title": "The Cost of Power", "arc": "THE FIRST RELIC", "status": "scripted_and_prompted"}, {"number": 28, "title": "Bone of the Forgotten", "arc": "THE FIRST RELIC", "status": "scripted_and_prompted"}, {"number": 29, "title": "The Guardian's Test", "arc": "THE FIRST RELIC", "status": "scripted_and_prompted"}, {"number": 30, "title": "The Second Bond", "arc": "THE FIRST RELIC", "status": "scripted_and_prompted"}, {"number": 31, "title": "The Ashen Heart", "arc": "THE FIRST RELIC", "status": "scripted_and_prompted"}, {"number": 32, "title": "Flame of the Fallen", "arc": "THE FIRST RELIC", "status": "scripted_and_prompted"}, {"number": 33, "title": "Three Seals Broken", "arc": "THE FIRST RELIC", "status": "scripted_and_prompted"}, {"number": 34, "title": "The Secret Organization", "arc": "THE DEMON HUNTER WAR", "status": "scripted_and_prompted"}, {"number": 35, "title": "The Blood Registry", "arc": "THE DEMON HUNTER WAR", "status": "scripted_and_prompted"}, {"number": 36, "title": "Target: Ha-Jun", "arc": "THE DEMON HUNTER WAR", "status": "scripted_and_prompted"}, {"number": 37, "title": "The Betrayer", "arc": "THE DEMON HUNTER WAR", "status": "scripted_and_prompted"}, {"number": 38, "title": "The Hunter Captain", "arc": "THE DEMON HUNTER WAR", "status": "scripted_and_prompted"}, {"number": 39, "title": "The First Real Defeat", "arc": "THE DEMON HUNTER WAR", "status": "scripted_and_prompted"}, {"number": 40, "title": "Kuro's Warning", "arc": "THE DEMON HUNTER WAR", "status": "scripted_and_prompted"}, {"number": 41, "title": "Blood Training", "arc": "THE DEMON HUNTER WAR", "status": "scripted_and_prompted"}, {"number": 42, "title": "The Hunter's Secret", "arc": "THE DEMON HUNTER WAR", "status": "scripted_and_prompted"}, {"number": 43, "title": "War Begins", "arc": "THE DEMON HUNTER WAR", "status": "scripted_and_prompted"}, {"number": 44, "title": "The Gate Beneath the City", "arc": "THE ABYSSAL KINGDOM", "status": "scripted_and_prompted"}, {"number": 45, "title": "Beyond the Human World", "arc": "THE ABYSSAL KINGDOM", "status": "scripted_and_prompted"}, {"number": 46, "title": "The Forgotten Kingdom", "arc": "THE ABYSSAL KINGDOM", "status": "scripted_and_prompted"}, {"number": 47, "title": "The Fang of Abyss", "arc": "THE ABYSSAL KINGDOM", "status": "scripted_and_prompted"}, {"number": 48, "title": "The Demon Beast", "arc": "THE ABYSSAL KINGDOM", "status": "scripted_and_prompted"}, {"number": 49, "title": "The First Evolution", "arc": "THE ABYSSAL KINGDOM", "status": "scripted_and_prompted"}, {"number": 50, "title": "Eye of the Night", "arc": "THE ABYSSAL KINGDOM", "status": "scripted_and_prompted"}, {"number": 51, "title": "The Silent Prison", "arc": "THE ABYSSAL KINGDOM", "status": "scripted_and_prompted"}, {"number": 52, "title": "The Third Rare Relic", "arc": "THE ABYSSAL KINGDOM", "status": "scripted_and_prompted"}, {"number": 53, "title": "The Three Demon Lords", "arc": "THE ABYSSAL KINGDOM", "status": "scripted_and_prompted"}, {"number": 54, "title": "The Crown's Call", "arc": "THE FALLEN SOVEREIGN", "status": "scripted_and_prompted"}, {"number": 55, "title": "The Fallen Throne", "arc": "THE FALLEN SOVEREIGN", "status": "scripted_and_prompted"}, {"number": 56, "title": "The Memory Chamber", "arc": "THE FALLEN SOVEREIGN", "status": "scripted_and_prompted"}, {"number": 57, "title": "The Forgotten War", "arc": "THE FALLEN SOVEREIGN", "status": "scripted_and_prompted"}, {"number": 58, "title": "The Brother's Shadow", "arc": "THE FALLEN SOVEREIGN", "status": "scripted_and_prompted"}, {"number": 59, "title": "The Missing Memory", "arc": "THE FALLEN SOVEREIGN", "status": "scripted_and_prompted"}, {"number": 60, "title": "Eclipse Devourer", "arc": "THE FALLEN SOVEREIGN", "status": "scripted_and_prompted"}, {"number": 61, "title": "The Power of Authority", "arc": "THE FALLEN SOVEREIGN", "status": "scripted_and_prompted"}, {"number": 62, "title": "The Sovereign's Enemy", "arc": "THE FALLEN SOVEREIGN", "status": "scripted_and_prompted"}, {"number": 63, "title": "The False Heir", "arc": "THE FALLEN SOVEREIGN", "status": "scripted_and_prompted"}, {"number": 64, "title": "The Last Photograph", "arc": "THE BROTHER'S TRUTH", "status": "scripted_and_prompted"}, {"number": 65, "title": "The Unanswered Message", "arc": "THE BROTHER'S TRUTH", "status": "scripted_and_prompted"}, {"number": 66, "title": "That Night", "arc": "THE BROTHER'S TRUTH", "status": "scripted_and_prompted"}, {"number": 67, "title": "The Red-Eyed Stranger", "arc": "THE BROTHER'S TRUTH", "status": "scripted_and_prompted"}, {"number": 68, "title": "The Brother's Secret", "arc": "THE BROTHER'S TRUTH", "status": "scripted_and_prompted"}, {"number": 69, "title": "The Hidden Protection", "arc": "THE BROTHER'S TRUTH", "status": "scripted_and_prompted"}, {"number": 70, "title": "The Forbidden Experiment", "arc": "THE BROTHER'S TRUTH", "status": "scripted_and_prompted"}, {"number": 71, "title": "The Voice in the Memory", "arc": "THE BROTHER'S TRUTH", "status": "scripted_and_prompted"}, {"number": 72, "title": "I Will Find You", "arc": "THE BROTHER'S TRUTH", "status": "scripted_and_prompted"}, {"number": 73, "title": "The Brother Is Alive?", "arc": "THE BROTHER'S TRUTH", "status": "scripted_and_prompted"}, {"number": 74, "title": "The Feather's Memory", "arc": "THE MYTHIC AWAKENING", "status": "scripted_and_prompted"}, {"number": 75, "title": "The Mythic Truth", "arc": "THE MYTHIC AWAKENING", "status": "scripted_and_prompted"}, {"number": 76, "title": "The Guardian's Real Form", "arc": "THE MYTHIC AWAKENING", "status": "scripted_and_prompted"}, {"number": 77, "title": "The First Sovereign's Voice", "arc": "THE MYTHIC AWAKENING", "status": "scripted_and_prompted"}, {"number": 78, "title": "The Price of Awakening", "arc": "THE MYTHIC AWAKENING", "status": "scripted_and_prompted"}, {"number": 79, "title": "The Hourglass", "arc": "THE MYTHIC AWAKENING", "status": "scripted_and_prompted"}, {"number": 80, "title": "Beyond Time", "arc": "THE MYTHIC AWAKENING", "status": "scripted_and_prompted"}, {"number": 81, "title": "The Hourglass Keeper", "arc": "THE MYTHIC AWAKENING", "status": "scripted_and_prompted"}, {"number": 82, "title": "The Final Synchronization", "arc": "THE MYTHIC AWAKENING", "status": "scripted_and_prompted"}, {"number": 83, "title": "Ten Relics, One Blood", "arc": "THE MYTHIC AWAKENING", "status": "scripted_and_prompted"}, {"number": 84, "title": "The Three Thrones", "arc": "THE WAR OF SOVEREIGNS", "status": "scripted_and_prompted"}, {"number": 85, "title": "The World Under Siege", "arc": "THE WAR OF SOVEREIGNS", "status": "scripted_and_prompted"}, {"number": 86, "title": "Saint Mirren's Last Day", "arc": "THE WAR OF SOVEREIGNS", "status": "scripted_and_prompted"}, {"number": 87, "title": "The Friends Who Stayed", "arc": "THE WAR OF SOVEREIGNS", "status": "scripted_and_prompted"}, {"number": 88, "title": "The Betrayal of Kuro", "arc": "THE WAR OF SOVEREIGNS", "status": "scripted_and_prompted"}, {"number": 89, "title": "The True Enemy", "arc": "THE WAR OF SOVEREIGNS", "status": "scripted_and_prompted"}, {"number": 90, "title": "The War of Bloodlines", "arc": "THE WAR OF SOVEREIGNS", "status": "scripted_and_prompted"}, {"number": 91, "title": "The Broken Relics", "arc": "THE WAR OF SOVEREIGNS", "status": "scripted_and_prompted"}, {"number": 92, "title": "The Fall of the Guardian", "arc": "THE WAR OF SOVEREIGNS", "status": "scripted_and_prompted"}, {"number": 93, "title": "The Last Sovereign's Tear", "arc": "THE WAR OF SOVEREIGNS", "status": "scripted_and_prompted"}, {"number": 94, "title": "The Choice", "arc": "THE LAST BLOOD", "status": "scripted_and_prompted"}, {"number": 95, "title": "The Blood That Remembers", "arc": "THE LAST BLOOD", "status": "scripted_and_prompted"}, {"number": 96, "title": "The Last Contract", "arc": "THE LAST BLOOD", "status": "scripted_and_prompted"}, {"number": 97, "title": "True Sovereign Form", "arc": "THE LAST BLOOD", "status": "scripted_and_prompted"}, {"number": 98, "title": "The First Demon Returns", "arc": "THE LAST BLOOD", "status": "scripted_and_prompted"}, {"number": 99, "title": "The Battle Within", "arc": "THE LAST BLOOD", "status": "scripted_and_prompted"}, {"number": 100, "title": "The Demon Sovereign's Bloodline", "arc": "THE LAST BLOOD", "status": "scripted_and_prompted"}, {"number": 101, "title": "The Last Enemy", "arc": "THE LAST BLOOD", "status": "scripted_and_prompted"}, {"number": 102, "title": "The Price of Peace", "arc": "THE LAST BLOOD", "status": "scripted_and_prompted"}, {"number": 103, "title": "Beyond the Sovereign", "arc": "THE LAST BLOOD", "status": "scripted_and_prompted"}];
-    const CH04_PANELS = [{"panel_number": 1, "id": "p01", "shot": "wide establishing shot, high angle", "action": "Saint Mirren International University rooftop terrace in heavy torrential rainstorm, dark ominous storm clouds with distant lightning flashes over modern glass skyscrapers", "mood": "gloomy, heavy rain, dramatic dark sky", "empty_space": "empty sky at top", "bubbles": [{"type": "system", "text": "DUNIYA KE IS SABSE BADE ACADEMY MEIN...", "at": [0.5, 0.08], "gutter": "never", "size": 0.8}], "prose_hi": "Saint Mirren International University ki chhat par toofani baarish ka keher baras raha tha. Aasmaan mein kaale manhoos baadal mandra rahe the aur door shehar ke aalishaan skyscrapers ke beech aasmaani bijli ki chamak andhere ko cheer rahi thi.", "prose_en": "A torrential rainstorm battered the expansive rooftop terrace of Saint Mirren International University. Heavy, bruised storm clouds churned overhead as distant jagged lightning illuminated the silhouettes of towering corporate skyscrapers."}, {"panel_number": 2, "id": "p02", "shot": "cinematic close-up, ground angle", "action": "Rainwater puddle reflecting Ha-Jun's battered face. A drop of fresh crimson blood falls from his split lip, creating circular ripples in the dark reflective water", "mood": "melancholic, painful", "empty_space": "left dark reflection", "bubbles": [{"type": "system", "text": "SIRF TAQATWAR LOG HI SURVIVE KAR SAKTE HAIN.", "at": [0.35, 0.12], "gutter": "never", "size": 0.8}], "prose_hi": "Thande concrete par bhare hue paani ke gaddhe mein satra saal ke Ha-Jun Kang ka zakhmi aur lahu-luhan chehra saaf jhalak raha tha. Uske phate hue honth se laal khoon ki ek garam boond tapak kar paani mein giri, aur kaanpte hue ripples banati chali gayi.", "prose_en": "In a shallow puddle gathering on the concrete floor, the battered reflection of seventeen-year-old Ha-Jun Kang flickered in the dark water. A fresh drop of crimson blood spilled from his split lower lip, sending fragile ripples spreading across his image."}, {"panel_number": 3, "id": "p03", "shot": "low-angle medium close-up", "action": "Ha-Jun Kang slumps his drenched back against the wet concrete parapet, head bowed, rain dripping from his black fringe, chest heaving", "mood": "exhausted, defeated, breathless", "empty_space": "upper stormy sky", "bubbles": [{"type": "whisper", "text": "...HAAH... HAAH...", "at": [0.65, 0.25], "gutter": "never", "size": 0.8}], "prose_hi": "Apni bheegi hui peeth ko chhat ki thandi deewar se tekte hue, Ha-Jun ne sar jhukaye behad mushkil se saans li. Kaale baalon ki bheegi laton se paani uske maathe par beh raha tha, aur seena dard se buri tarah haanp raha tha.", "prose_en": "Ha-Jun slumped his drenched back against the cold concrete parapet, head bowed low. Frigid rainwater streamed through the soaked black bangs plastered to his forehead as his chest heaved in ragged, breathless gasps."}, {"panel_number": 4, "id": "p04", "shot": "macro close-up", "action": "Ha-Jun's right hand clutching his bruised ribs through his soaked navy school blazer. Scraped knuckles bleeding, fabric drenched", "mood": "painful, visceral", "empty_space": "upper concrete wall", "bubbles": [{"type": "thought", "text": "HAR ROZ... YAHI KHEL CHALTA HAI.", "at": [0.35, 0.2], "gutter": "never", "size": 0.8}], "prose_hi": "Usne apne kaanpte hue zakhmi haath se apni chhati aur pasliyon ko kaske pakad liya. Uska navy academy blazer keechad aur paani se bhiga hua tha, aur uski chheeli hui ungliyon se ab bhi khoon ris raha tha. Pura jism aag ki tarah jal raha tha.", "prose_en": "Clutching his bruised ribs through his waterlogged navy academy blazer, he winced at the burning ache inside his torso. His scraped knuckles oozed blood, the fabric of his uniform ruined by another day of merciless violence."}, {"panel_number": 5, "id": "p05", "shot": "medium shot, eye-level", "action": "Ha-Jun slowly lifts his bruised chin, eyes staring blankly at the stormy sky above, raindrops splashing across his cheeks", "mood": "hollow, numb, resilient", "empty_space": "upper left sky", "bubbles": [{"type": "thought", "text": "MERI GALTI KYA THI...?", "at": [0.25, 0.15], "gutter": "never", "size": 0.8}], "prose_hi": "Dard se karahate hue, Ha-Jun ne dheere se apni thodi upar uthayi aur aasmaan se girti hui beraham boondon ko dekha. Uski thaki hui aankhon mein ek ajeeb sa sunn-pan tha... lekin unhi aankhon ke kone mein ek ziddi aag bhi dafan thi.", "prose_en": "With slow, agonizing effort, Ha-Jun tilted his chin toward the pouring heavens. Cold raindrops pelted his bruised cheekbones as he stared into the storm with hollow, exhausted eyes, struggling to comprehend the cruelty of his fate."}, {"panel_number": 6, "id": "p06", "shot": "medium shot, tracking angle", "action": "Ha-Jun glances toward the metal terrace railing where the demonic bird Kuro had perched moments ago", "mood": "curious, bewildered", "empty_space": "upper right railing", "bubbles": [{"type": "thought", "text": "WO PARINDA...", "at": [0.7, 0.2], "gutter": "never", "size": 0.8}], "prose_hi": "Achanak use wo ajeeb sa lamha yaad aaya. Usne mudkar terrace ki lohe ki railing ki taraf dekha, jahan kuch hi pal pehle wo ajeeb kaala parinda baitha tha.", "prose_en": "Then, memory stirred through the haze of pain. Ha-Jun turned his gaze toward the perimeter railing where that uncanny feathered creature had perched only moments ago."}, {"panel_number": 7, "id": "p07", "shot": "close-up on metal railing", "action": "The rusted wet metal railing where Kuro sat. Faint wisps of purple smoke and neon violet sparks dissipate into the pouring rain", "mood": "mysterious, supernatural", "empty_space": "empty stormy backdrop", "bubbles": [{"type": "speech", "text": "KAHAN GAYAB HO GAYA?", "at": [0.35, 0.25], "gutter": "never", "size": 0.8}], "prose_hi": "Railing par ab sirf zang aur paani ke katre the. Parinde ki jagah par baingani dhuan aur halki violet chingaariyan hawa mein ghulkar gayab ho rahi thi, jaise wo kisi doosri duniya ki makhlooq ho.", "prose_en": "The iron bar stood empty in the downpour, glistening with rust and rainwater. Yet clinging to the metal were faint wisps of dark violet smoke and dissipating purple sparks, vanishing slowly into the deluge."}, {"panel_number": 8, "id": "p08", "shot": "wide low-angle shot", "action": "Ha-Jun sitting alone on the vast empty concrete rooftop terrace in torrential rain, looking around in bewilderment", "mood": "isolated, cold, vast", "empty_space": "upper sky", "bubbles": [{"type": "thought", "text": "WO KOI AAM PARINDA TOH NAHI THA...", "at": [0.5, 0.1], "gutter": "never", "size": 0.8}], "prose_hi": "Toofani baarish ke beech Ha-Jun is vishaal chhat par bilkul akela baitha tha. Thandi hawayen uske jism ko cheer rahi thi, lekin uska dhyan bhatak chuka tha.", "prose_en": "He was utterly alone on the vast, rain-swept expanse of the rooftop. The biting wind cut through his drenched shirt, but the sheer unreality of what he had witnessed refused to leave his mind."}, {"panel_number": 9, "id": "p09", "shot": "close-up of Ha-Jun's eyes", "action": "Ha-Jun's tired dark brown eyes suddenly widen in surprise as a strange light catches his peripheral vision", "mood": "shocked, alert", "empty_space": "upper left corner", "bubbles": [{"type": "whisper", "text": "...HUH?", "at": [0.2, 0.18], "gutter": "never", "size": 0.8}], "prose_hi": "Tabhi... andheri chhat ke farsh par kuch chamka. Ha-Jun ki thaki hui aankhein achanak hairat se phail gayi jab uski nigaah ek anokhi roshni par padi.", "prose_en": "Suddenly, an unnatural gleam caught the corner of his eye. Ha-Jun's dark pupils widened in sharp disbelief as a radiant shimmer flickered against the wet pavement."}, {"panel_number": 10, "id": "p10", "shot": "top-down dutch angle", "action": "A solitary obsidian-black demonic feather rests on the dark rain-slicked concrete floor, radiating a soft hypnotic violet-magenta magical glow", "mood": "mystical, enchanting, eerie", "empty_space": "upper wet concrete", "bubbles": [{"type": "thought", "text": "YEH... YEH KYA HAI?", "at": [0.5, 0.12], "gutter": "never", "size": 0.8}], "prose_hi": "Chhat ke farsh par, baarish ke gaddhe ke beech ek akela obsidian kaala pankh pada hua tha. Wo koi aam pankh nahi tha\u2014uske kinaron se halki, mantramugdha kar dene wali baingani roshni nikal rahi thi jo andhere mein chamak rahi thi.", "prose_en": "Lying solitary upon the dark concrete was an obsidian-black feather. It radiated an ethereal, hypnotic violet-magenta glow, casting soft purple light into the surrounding rainwater."}, {"panel_number": 11, "id": "p11", "shot": "medium-wide crawling shot", "action": "Ha-Jun pushes himself off the wet wall, crawling forward on hands and knees through rain puddles toward the glowing feather", "mood": "desperate, intrigued", "empty_space": "upper stormy background", "bubbles": [{"type": "thought", "text": "USKI EK PANKH... YAHAN CHHOOT GAYI HAI.", "at": [0.45, 0.15], "gutter": "never", "size": 0.8}], "prose_hi": "Deewar se sahara chhodte hue, Ha-Jun apne dono haathon aur ghutno ke bal paani ke gaddhon mein rengte hue aage badha. Uske mann mein ek ajeeb sa kheenchaav tha jo use us pankh ki taraf kheench raha tha.", "prose_en": "Pushing himself away from the retaining wall, Ha-Jun dropped to his hands and knees. An irresistible gravity pulled at his chest, compelling him to crawl through the icy puddles toward the fallen plume."}, {"panel_number": 12, "id": "p12", "shot": "close-up on hands and knees", "action": "Ha-Jun's scuffed sneakers and trembling hands splashing in dark rainwater ripples as he inches closer", "mood": "tense, suspenseful", "empty_space": "upper concrete", "bubbles": [{"type": "sfx", "text": "SPLASH...", "at": [0.3, 0.4], "gutter": "never", "size": 0.8}], "prose_hi": "Uske ghise hue joote aur kaanpte hue zakhmi haath paani par chhap-chhap karte hue aage badh rahe the. Har qadam ke saath paani ke chheente ud rahe the aur uske seene ki dharakan tez hoti ja rahi thi.", "prose_en": "His scuffed school shoes scraped the concrete as his trembling, bloodied palms splashed through ripples of dark water, inching closer with every ragged breath."}, {"panel_number": 13, "id": "p13", "shot": "cinematic macro shot", "action": "Extreme close-up of the demonic feather. Obsidian black plumage with deep purple iridescent sheen. Raindrops touching the feather instantly sizzle into tiny wisps of steam", "mood": "magical, uncanny", "empty_space": "upper dark floor", "bubbles": [{"type": "sfx", "text": "VZZZ...", "at": [0.75, 0.2], "gutter": "never", "size": 0.8}], "prose_hi": "Pankh ke kareeb aate hi ek anokha nazaara dikha. Aasmaan se girti hui baarish ki thandi boondein jaise hi us baingani pankh ko chhooti, wo foran chhan-chhan ki aawaz ke saath garam bhaap aur nanhi chingaariyon mein badal kar ud jaati thi!", "prose_en": "Up close, the feather defied all laws of reality. Its obsidian barbs shimmered with deep purple iridescence, and every raindrop that struck its surface instantly sizzled, evaporating into curls of fragrant violet steam."}, {"panel_number": 14, "id": "p14", "shot": "high-angle close-up", "action": "Ha-Jun kneeling in front of the feather, water streaming down his face, mesmerized by the glowing violet light", "mood": "hypnotized, breathless", "empty_space": "upper left sky", "bubbles": [{"type": "thought", "text": "ITNI THANDI MEIN BHI...", "at": [0.25, 0.15], "gutter": "never", "size": 0.8}], "prose_hi": "Ha-Jun us pankh ke theek saamne ghutno ke bal baith gaya. Paani uske maathe aur gaalon se beh raha tha, lekin uski nigahein us baingani noor par aakar jam gayi thi. Wo palke jhapakna bhi bhool gaya tha.", "prose_en": "Kneeling directly before the object, water pouring down his battered face, Ha-Jun found himself utterly spellbound. The soft purple radiance bathed his weary features in otherworldly light."}, {"panel_number": 15, "id": "p15", "shot": "close-up on chest and collar", "action": "Ha-Jun's heartbeat pounding against his soaked white shirt under his loosened navy tie", "mood": "anxious, anticipation", "empty_space": "upper right", "bubbles": [{"type": "thought", "text": "ISME SE EK AJEEB SI GARMAHAT AA RAHI HAI.", "at": [0.65, 0.18], "gutter": "never", "size": 0.8}], "prose_hi": "Is thithurti hui thandi mein bhi, Ha-Jun ko apne seene mein ek anokhi garmahat mehsoos hone lagi. Uski dharakan achanak itni tez ho gayi jaise uska dil seene ko cheer kar bahar aane wala ho.", "prose_en": "Despite the freezing rain soaking through his skin, a strange, comforting warmth pulsed beneath his ribcage. His heart thudded furiously against his collarbone, resonating in tandem with the feather."}, {"panel_number": 16, "id": "p16", "shot": "extreme close-up on hand", "action": "Ha-Jun's slender, trembling right hand hovering just 2 inches above the glowing obsidian feather on the wet floor. Complete silence", "mood": "intense suspense, hesitation", "empty_space": "upper space", "bubbles": [], "prose_hi": "Usne apna kaanpta hua dahina haath aage badhaya. Uski chheeli hui ungliyan us chamakte hue pankh se mehaz do inch ki doori par thahar gayi. Chhat par chhayi toofani aawazon ke beech jaise ek pal ke liye sab kuch shaant ho gaya.", "prose_en": "Trembling with anticipation, Ha-Jun reached out his right hand. His fingertips hovered merely inches above the quill, the howling storm around him fading into absolute, breathless silence."}, {"panel_number": 17, "id": "p17", "shot": "macro contact shot", "action": "Ha-Jun's bruised index finger makes physical contact with the soft quill of the feather", "mood": "crucial turning point", "empty_space": "upper ground", "bubbles": [{"type": "sfx", "text": "TOUCH.", "at": [0.5, 0.25], "gutter": "never", "size": 0.8}], "prose_hi": "Aur phir... Ha-Jun ki ungli ne us pankh ke mulayam quill ko chhoo liya.", "prose_en": "Then, steeling his resolve, his bruised index fingertip made contact with the soft, glowing quill."}, {"panel_number": 18, "id": "p18", "shot": "dramatic shockwave shot", "action": "A subtle ring of glowing violet mana ripples outward through the rain on the concrete floor from the point of contact", "mood": "supernatural shockwave", "empty_space": "upper left", "bubbles": [{"type": "sfx", "text": "SHVRRR...!!", "at": [0.2, 0.2], "gutter": "never", "size": 0.8}], "prose_hi": "Chhoote hi, contact point se baingani mana ki ek circular shockwave phoot padi! Paani ke gaddhon mein baingani roshni ki leharein tezi se chaaro taraf fail gayi, aur hawa mein mana ki chingaariyan chamak uthi.", "prose_en": "The moment flesh touched quill, a circular shockwave of radiant violet mana erupted across the pavement! Water droplets shattered into glowing purple rings, rippling outward across the dark terrace."}, {"panel_number": 19, "id": "p19", "shot": "medium close-up, low angle", "action": "Ha-Jun flinches backward slightly, his pupils contracting in shock as an electric sensation travels up his fingertips", "mood": "startled, electrified", "empty_space": "upper right sky", "bubbles": [{"type": "thought", "text": "YEH... YEH KYUN HUA?!", "at": [0.7, 0.15], "gutter": "never", "size": 0.8}], "prose_hi": "Ha-Jun jhatke se peeche hata. Ek tez electric jhatka uski ungliyon se shuru hokar uske poore baazu mein daud gaya tha. Uski aankhein hairat aur darr se phail gayi.", "prose_en": "Ha-Jun flinched backward in shock as a surge of electric power coursed through his fingertips and up his forearm, his pupils contracting at the sharp, tingling jolt."}, {"panel_number": 20, "id": "p20", "shot": "medium shot, hand holding feather", "action": "Ha-Jun carefully lifts the glowing feather into his palm, holding it close to his chest. The purple glow softly illuminates his bruised face", "mood": "mysterious, atmospheric", "empty_space": "upper sky", "bubbles": [{"type": "thought", "text": "JAISE YE MUJHE PEHLE SE JAANTI HO...", "at": [0.4, 0.12], "gutter": "never", "size": 0.8}], "prose_hi": "Lekin darr ke bajaye, uske andar ek be-inteha chahat jaag uthi. Usne dono haathon se us baingani pankh ko utha liya aur apne seene ke kareeb le aaya. Uski roshni Ha-Jun ke zakhmi chehre ko chamka rahi thi.", "prose_en": "Yet the shock carried no malice. Gently, reverently, Ha-Jun scooped the obsidian feather into his cupped palms, drawing it close to his chest as its violet glow illuminated his tear-streaked face."}, {"panel_number": 21, "id": "p21", "shot": "high-angle vertical portrait", "action": "Heavy rain pouring down on Ha-Jun as he stares at the feather in his cupped hand, dark wet hair plastered across his forehead", "mood": "introspective, melancholic", "empty_space": "upper dark rain", "bubbles": [{"type": "thought", "text": "EK AJEEB SA APNAPANN...", "at": [0.5, 0.1], "gutter": "never", "size": 0.8}], "prose_hi": "Toofani baarish mein us pankh ko dekhte hue, Ha-Jun ke seene mein ek ajeeb sa sukoon bhar gaya... ek aisi garmahat jise wo sadiyon se dhoond raha tha.", "prose_en": "Sitting in the deluge, gazing down at the burning feather cradled in his hands, an overwhelming wave of familiarity washed over his soul\u2014a warmth he had not felt in years."}, {"panel_number": 22, "id": "p22", "shot": "flashback vignette frame (sepia/desaturated)", "action": "Silhouette memory: 5 years ago in pouring rain, Ha-Jun's elder brother holding his little hand, smiling gently under an umbrella", "mood": "nostalgic, emotional, heartbreaking", "empty_space": "top center", "bubbles": [{"type": "system", "text": "\"HA-JUN, JAB TAK MAIN HOON... TUJHE DARNE KI ZAROORAT NAHI.\"", "at": [0.5, 0.1], "gutter": "never", "size": 0.8}], "prose_hi": "Achanak uske dimaagh mein paanch saal purani ek yaad taaza ho gayi. Barsaat ki aisi hi ek raat mein, uske bade bhai ne uska nanha haath thama tha aur chhatri ke neeche muskurate hue use hausla diya tha...", "prose_en": "A memory flickered across his mind from five years ago: another rainy evening, when his elder brother had wrapped an umbrella over his head, holding his little hand with that gentle, protective smile..."}, {"panel_number": 23, "id": "p23", "shot": "close-up of Ha-Jun's sorrowful face", "action": "Back to reality: Ha-Jun's face contorts in overwhelming grief. Tears mix with rain, spilling down his bruised cheeks", "mood": "heartbreaking grief, guilt", "empty_space": "upper left", "bubbles": [{"type": "thought", "text": "LEKIN BHAIYA...", "at": [0.25, 0.15], "gutter": "never", "size": 0.8}], "prose_hi": "Yaad aate hi Ha-Jun ka dil toot gaya. Haqeeqat ka dukh uske seene mein khanjar ki tarah utar gaya. Baarish ke paani ke saath milkar uske garam aansu uske zakhmi gaalon par behne lage.", "prose_en": "The memory broke through his defenses. Agony and grief crushed his chest as hot tears mixed with the cold rain, tracing down his bruised cheeks in silent agony."}, {"panel_number": 24, "id": "p24", "shot": "medium close-up, crying posture", "action": "Ha-Jun curls forward, his left hand clutched tightly over his collarbone and throat in choked sobs, holding the feather tightly in his other hand", "mood": "raw agony, crying", "empty_space": "upper sky", "bubbles": [{"type": "thought", "text": "MAIN AAPKO NAHI BACHA PAAYA...!", "at": [0.6, 0.15], "gutter": "never", "size": 0.8}], "prose_hi": "Ha-Jun aage jhuk gaya aur rone laga. Ek haath se gale ko pakadte hue aur doosre haath mein pankh ko kaske thaamte hue, uske hontho se bebasi ki aah nikal padi.", "prose_en": "Ha-Jun bent forward, his voice choking in suffocating sobs. Clutching the feather against his collarbone, five years of repressed sorrow poured out into the howling storm."}, {"panel_number": 25, "id": "p25", "shot": "tight close-up on clutched fist", "action": "In rising anguish and self-hatred, Ha-Jun clenches his fist tightly over the demonic feather, shaking with suppressed rage", "mood": "furious despair, self-blame", "empty_space": "upper concrete", "bubbles": [{"type": "thought", "text": "MAIN ITNA KAMZOR KYUN HOON...?!", "at": [0.45, 0.2], "gutter": "never", "size": 0.8}], "prose_hi": "Bebasi, gham aur gusse ke toofan mein, Ha-Jun ne apni mutthi ko us shaitani pankh ke upar poori taqat se bheencha. Uski poori deha sharm aur lachari se kaanp rahi thi.", "prose_en": "Grief turned to searing self-hatred. Desperate to be strong, his trembling fingers clenched tighter and tighter around the obsidian feather, his knuckles whitening with rage."}, {"panel_number": 26, "id": "p26", "shot": "macro shot of knuckle cut", "action": "The sharp obsidian quill of the feather digs into Ha-Jun's scraped knuckle. A crimson drop of his blood wells up and touches the black plume", "mood": "catalyst, critical moment", "empty_space": "upper center", "bubbles": [{"type": "sfx", "text": "DRIP.", "at": [0.5, 0.25], "gutter": "never", "size": 0.8}], "prose_hi": "Pankh ki nok itni teekhi thi ki usne Ha-Jun ki chheeli hui knuckle ko cheer diya. Laal khoon ki ek taaza boond ubhri aur kaale pankh ke reshon se chhoo gayi.", "prose_en": "The sharp obsidian quill pierced into his bleeding knuckle. A single drop of fresh, pure crimson blood welled up, dripping directly onto the black plumage."}, {"panel_number": 27, "id": "p27", "shot": "extreme macro absorption shot", "action": "The drop of blood does not roll off\u2014it is violently absorbed by the feather! The obsidian plume turns glowing crimson-violet like burning magma", "mood": "terrifying awakening", "empty_space": "upper left", "bubbles": [{"type": "sfx", "text": "TZRRR...!!", "at": [0.25, 0.2], "gutter": "never", "size": 0.8}], "prose_hi": "Aur phir wo hua jiski kisi ne kalpana nahi ki thi. Wo khoon baha nahi\u2014balki pankh ne use pyaase ki tarah pee liya! Palak jhapakte hi poora pankh daldalate hue laal aur baingani magma ki tarah dehakne laga!", "prose_en": "The drop of blood did not run off. In a terrifying instant, the feather devoured it whole! The obsidian quill flared violently, turning into glowing, incandescent crimson-violet magma!"}, {"panel_number": 28, "id": "p28", "shot": "low-angle explosive burst", "action": "Blinding radiant violet mana and purple flame sparks burst outward from his clenched fist! Raindrops are blasted backward in a circular halo", "mood": "explosive awakening, mana shockwave", "empty_space": "upper sky", "bubbles": [{"type": "sfx", "text": "KRRSHHH...!!", "at": [0.8, 0.2], "gutter": "never", "size": 0.8}], "prose_hi": "BOOM! Ha-Jun ki bheenchi hui mutthi se baingani mana aur aag ki chingaariyon ka ek prachand dhamaka hua! Ek zordar mana blast ne chhat ki saari baarish ki boondon ko door phek diya!", "prose_en": "KRRSHHH! An explosive eruption of radiant violet mana and demonic embers detonated from his clenched fist, blasting away the falling rain in a blinding, circular shockwave!"}, {"panel_number": 29, "id": "p29", "shot": "medium shot, supernatural aura", "action": "Dark purple lightning arcs dance across Ha-Jun's forearm. His bruised cheek and split lip begin emitting white healing steam as wounds vanish", "mood": "supernatural healing, power surge", "empty_space": "upper left", "bubbles": [{"type": "system", "text": "AUR DEMON SOVEREIGN KA JAADU... USKI RAGON MEIN BEHNE LAGA.", "at": [0.35, 0.1], "gutter": "never", "size": 0.8}], "prose_hi": "Ha-Jun ke baazu par andheri baingani bijliyan nachne lagi. Uske gaal ke zakhm aur phate hue honth se safed bhaap nikalne lagi, aur saare zakhm jadoo ki tarah gayab hone lage. Demon Sovereign ka khoon uski ragon mein ubalne laga tha!", "prose_en": "Arcs of crackling purple lightning danced up Ha-Jun's arm into his shoulder. White healing steam hissed from his bruised cheek and split lip, sealing his injuries instantly as the primordial bloodline surged awake within his veins!"}, {"panel_number": 30, "id": "p30", "shot": "grand cliffhanger portrait", "action": "Low-angle medium close-up: Ha-Jun's eyes snap open, burning with sharp crimson-violet demonic sovereign light. A glowing holographic interface appears: [SOVEREIGN BLOODLINE AWAKENED - 0.1%]", "mood": "epic cliffhanger, sovereign awakening", "empty_space": "upper right", "bubbles": [{"type": "system", "text": "\"SYSTEM: WELCOME, TRUE SOVEREIGN.\"", "at": [0.65, 0.15], "gutter": "never", "size": 0.8}], "prose_hi": "Ha-Jun ne apni aankhein kholi\u2014ab unme kamzori nahi thi. Uski nigaahon mein ek shaitani samraat ki laal-baingani aag jal rahi thi. Aur uski aankhon ke saamne ek chamakti hui holographic screen ubhar aayi: [SOVEREIGN BLOODLINE AWAKENED - 0.1%]. 'SYSTEM: WELCOME, TRUE SOVEREIGN.'", "prose_en": "Ha-Jun's eyes snapped open\u2014and all weakness was gone. His pupils burned with the fierce, majestic crimson-violet radiance of an ancient Sovereign. Suspended before his vision, a glowing celestial interface materialized: [SOVEREIGN BLOODLINE AWAKENED - 0.1%]. 'SYSTEM: WELCOME, TRUE SOVEREIGN.'"}];
     let currentActiveEpisode = 4;
-    let isReaderAudioPlaying = false;
-    let karaokeRafId = null;
-    let isKaraokeOverlayVisible = true;
-    let currentSpeedIndex = 0;
-    const playbackSpeeds = [1.0, 1.25, 1.5, 0.85];
 
-    // Audio Element
-    const audioElement = document.getElementById('reader-audio-element');
+    function renderTrendingItems(list) {
+      const container = document.getElementById('trending-items-list');
+      if (!container) return;
+      container.innerHTML = list.map(item => `
+        <li class="item">
+          <a href="javascript:void(0)" onclick="openEpisodeReader(${item.epNum})" class="link _titleItem" data-rank="${item.rank}">
+            <div class="image_wrap">
+              <div class="icon_area _icon_area">
+                <span class="ico badge_up">${item.badge}</span>
+              </div>
+              <img src="${item.cover}" width="110" height="143" alt="${item.title}">
+            </div>
+            <div class="ranking_text">
+              <strong class="ranking_number_${item.rank}">
+                <span class="blind">${item.rank}</span>
+              </strong>
+              <em class="trending up"><span class="blind">up</span>1</em>
+            </div>
+            <div class="info_text">
+              <strong class="title">${item.title}</strong>
+              <div class="genre">${item.genre}</div>
+            </div>
+          </a>
+        </li>
+      `).join('');
+    }
 
-    // Navigation & View Controller
+    function renderCategoryItems(genre) {
+      const container = document.getElementById('category_series_list');
+      if (!container) return;
+      const filtered = genre === 'all' 
+        ? CANON_ITEMS.slice(0, 6) 
+        : CANON_ITEMS.filter(it => it.genre.toLowerCase() === genre || it.subgenre.toLowerCase() === genre);
+      const itemsToRender = filtered.length > 0 ? filtered : CANON_ITEMS.slice(0, 6);
+
+      container.innerHTML = itemsToRender.map(item => `
+        <li class="item">
+          <a href="javascript:void(0)" onclick="openEpisodeReader(${item.epNum})" class="link _titleItem">
+            <div class="image_wrap">
+              <div class="icon_area _icon_area">
+                <span class="ico badge_up">UP</span>
+              </div>
+              <img src="${item.cover}" width="110" height="143" alt="${item.title}">
+            </div>
+            <div class="info_text" style="margin-top: 6px;">
+              <strong class="title">${item.title}</strong>
+              <div class="genre">${item.genre}</div>
+            </div>
+          </a>
+        </li>
+      `).join('');
+    }
+
+    function renderDailyItems() {
+      const container = document.getElementById('daily_list');
+      if (!container) return;
+      container.innerHTML = CANON_ITEMS.slice(0, 6).map(item => `
+        <li class="item">
+          <a href="javascript:void(0)" onclick="openEpisodeReader(${item.epNum})" class="link _titleItem">
+            <div class="image_wrap">
+              <div class="icon_area _icon_area">
+                <span class="ico badge_up">UP</span>
+              </div>
+              <img src="${item.cover}" width="110" height="143" alt="${item.title}">
+            </div>
+            <div class="info_text" style="margin-top: 6px;">
+              <strong class="title">${item.title}</strong>
+              <div class="genre">Saturday Drop</div>
+            </div>
+          </a>
+        </li>
+      `).join('');
+    }
+
+    function switchTrendingTab(tab) {
+      document.getElementById('tab-btn-trending').classList.toggle('on', tab === 'trending');
+      document.getElementById('tab-btn-popular').classList.toggle('on', tab === 'popular');
+      if (tab === 'popular') {
+        const sorted = [...CANON_ITEMS].reverse();
+        renderTrendingItems(sorted);
+      } else {
+        renderTrendingItems(CANON_ITEMS);
+      }
+    }
+
+    function filterGenre(genre) {
+      document.querySelectorAll('._category_tab_button').forEach(btn => btn.classList.remove('on'));
+      const activeBtn = document.getElementById(`cat-btn-${genre}`);
+      if (activeBtn) activeBtn.classList.add('on');
+      renderCategoryItems(genre);
+    }
+
+    function selectDailyDay(day) {
+      document.querySelectorAll('#daily_list .genre').forEach(el => {
+        el.textContent = day + ' Drop • Demon Sovereign';
+      });
+    }
+
     function openView(viewName) {
       document.getElementById('view-home').style.display = viewName === 'home' ? 'block' : 'none';
       document.getElementById('view-detail').style.display = viewName === 'detail' ? 'block' : 'none';
@@ -929,7 +856,6 @@
       document.getElementById('global-header').style.display = isReader ? 'none' : 'block';
       document.getElementById('global-footer').style.display = isReader ? 'none' : 'block';
 
-      // Update dock state
       document.querySelectorAll('.wt-dock-item').forEach(el => el.classList.remove('on'));
       if (viewName === 'home') {
         document.getElementById('dock-item-home').classList.add('on');
@@ -940,56 +866,28 @@
         document.getElementById('lnb-item-originals').classList.add('on');
         document.getElementById('lnb-item-home').classList.remove('on');
       }
-
       window.scrollTo(0, 0);
-    }
-
-    function switchLnb(tabName) {
-      document.querySelectorAll('.lnb .item').forEach(el => el.classList.remove('on'));
-      if (tabName === 'home') {
-        document.getElementById('lnb-item-home').classList.add('on');
-        openView('home');
-      } else if (tabName === 'originals') {
-        document.getElementById('lnb-item-originals').classList.add('on');
-        openView('detail');
-      } else if (tabName === 'canvas') {
-        document.getElementById('lnb-item-canvas').classList.add('on');
-        openCanvasView();
-      } else if (tabName === 'my') {
-        document.getElementById('lnb-item-my').classList.add('on');
-        openMyLibrary();
-      }
     }
 
     function openCanvasView() {
       openView('home');
-      const daily = document.getElementById('daily_list');
-      if (daily) {
-        daily.scrollIntoView({ behavior: 'smooth' });
-      }
+      const canvasEl = document.getElementById('canvas');
+      if (canvasEl) canvasEl.scrollIntoView({ behavior: 'smooth' });
     }
 
     function openMyLibrary() {
       openView('detail');
     }
 
-    // Episode Reader Launcher
     function openEpisodeReader(epNum) {
       currentActiveEpisode = epNum;
       openView('reader');
 
       const titleEl = document.getElementById('reader-title-display');
-      const audioBar = document.getElementById('reader-audio-bar');
-      const karaokeBox = document.getElementById('karaoke-text-container');
       const container = document.getElementById('viewer-strip-container');
-
       titleEl.textContent = `Demon Sovereign's Bloodline - Ep. ${epNum}`;
 
       if (epNum === 4) {
-        audioBar.style.display = 'flex';
-        karaokeBox.style.display = isKaraokeOverlayVisible ? 'block' : 'none';
-        
-        // Build 20+ HD panels for Episode 4
         let stripHtml = '';
         const ch04Files = [
           'p01.png','p02.png','p03.png','p04.png','p05.png',
@@ -1001,23 +899,13 @@
           stripHtml += `<img src="./panels/ch04/${file}" loading="lazy" alt="Panel ${idx + 1}">`;
         });
         container.innerHTML = stripHtml;
-        setupEpisode4Karaoke();
       } else if (epNum === 1) {
-        audioBar.style.display = 'none';
-        karaokeBox.style.display = 'none';
-        pauseReaderAudio();
-        
-        // Build 7 HD panels for Episode 1
         let stripHtml = '';
         for (let i = 1; i <= 7; i++) {
           stripHtml += `<img src="./panels/panel_0${i}_final.png" loading="lazy" alt="Episode 1 Panel ${i}">`;
         }
         container.innerHTML = stripHtml;
       } else {
-        audioBar.style.display = 'none';
-        karaokeBox.style.display = 'none';
-        pauseReaderAudio();
-        
         container.innerHTML = `
           <div style="color: #fff; text-align: center; padding: 80px 20px;">
             <h3 style="font-size: 20px; font-weight: 800; color: #00dc64; margin-bottom: 8px;">Episode ${epNum} Art Preview</h3>
@@ -1025,7 +913,7 @@
               The high-definition panels for Episode ${epNum} are currently being processed in the Redice Studio pipeline.
             </p>
             <button onclick="openEpisodeReader(4)" style="background: #00dc64; color: #000; border: none; font-weight: 900; font-size: 13px; padding: 10px 20px; border-radius: 20px; cursor: pointer;">
-              Read Episode 4 (Live Audio & Panels) →
+              Read Episode 4 (HD Panels) →
             </button>
           </div>
         `;
@@ -1046,134 +934,6 @@
       }
     }
 
-    // Episode 4 Karaoke & Audio Synchronizer
-    let karaokeWordsList = [];
-    function setupEpisode4Karaoke() {
-      karaokeWordsList = [];
-      let totalWordCount = 0;
-
-      CH04_PANELS.forEach((panel, pIdx) => {
-        const text = panel.prose_hi || panel.prose_en || panel.action || '';
-        const words = text.split(/\s+/).filter(Boolean);
-        words.forEach(word => {
-          karaokeWordsList.push({
-            word: word,
-            panelIdx: pIdx,
-            globalIdx: totalWordCount++
-          });
-        });
-      });
-    }
-
-    function toggleReaderAudio() {
-      if (!audioElement) return;
-      if (audioElement.paused) {
-        audioElement.play().then(() => {
-          isReaderAudioPlaying = true;
-          document.getElementById('audio-play-toggle-btn').textContent = '⏸';
-          startKaraokeTracking();
-        }).catch(err => console.warn(err));
-      } else {
-        pauseReaderAudio();
-      }
-    }
-
-    function pauseReaderAudio() {
-      if (audioElement) {
-        audioElement.pause();
-        isReaderAudioPlaying = false;
-        const btn = document.getElementById('audio-play-toggle-btn');
-        if (btn) btn.textContent = '▶';
-        if (karaokeRafId) cancelAnimationFrame(karaokeRafId);
-      }
-    }
-
-    function startKaraokeTracking() {
-      function update() {
-        if (!audioElement || audioElement.paused) return;
-
-        const current = audioElement.currentTime;
-        const duration = audioElement.duration || 455;
-        const pct = Math.min(100, (current / duration) * 100);
-
-        // Update progress bar
-        const bar = document.getElementById('audio-progress-bar');
-        if (bar) bar.style.width = pct + '%';
-
-        // Update time text
-        const timeEl = document.getElementById('audio-time-counter');
-        if (timeEl) {
-          const curMin = Math.floor(current / 60);
-          const curSec = Math.floor(current % 60).toString().padStart(2, '0');
-          const durMin = Math.floor(duration / 60);
-          const durSec = Math.floor(duration % 60).toString().padStart(2, '0');
-          timeEl.textContent = `${curMin}:${curSec} / ${durMin}:${durSec} • 60 FPS Sync`;
-        }
-
-        // Calculate active word index
-        if (karaokeWordsList.length > 0) {
-          const wordFraction = current / duration;
-          const activeWordIndex = Math.min(karaokeWordsList.length - 1, Math.floor(wordFraction * karaokeWordsList.length));
-          
-          // Render sliding window around active word
-          const start = Math.max(0, activeWordIndex - 5);
-          const end = Math.min(karaokeWordsList.length, activeWordIndex + 12);
-          const slice = karaokeWordsList.slice(start, end);
-
-          let phraseHtml = '';
-          slice.forEach(item => {
-            const isActive = item.globalIdx === activeWordIndex;
-            phraseHtml += `<span class="k-word ${isActive ? 'k-active' : ''}">${item.word}</span> `;
-          });
-
-          const phraseBox = document.getElementById('karaoke-active-phrase');
-          if (phraseBox) phraseBox.innerHTML = phraseHtml;
-        }
-
-        karaokeRafId = requestAnimationFrame(update);
-      }
-      karaokeRafId = requestAnimationFrame(update);
-    }
-
-    function toggleKaraokeOverlay() {
-      isKaraokeOverlayVisible = !isKaraokeOverlayVisible;
-      const box = document.getElementById('karaoke-text-container');
-      if (box) box.style.display = isKaraokeOverlayVisible ? 'block' : 'none';
-    }
-
-    function changeAudioPlaybackSpeed() {
-      currentSpeedIndex = (currentSpeedIndex + 1) % playbackSpeeds.length;
-      const speed = playbackSpeeds[currentSpeedIndex];
-      if (audioElement) audioElement.playbackRate = speed;
-      document.getElementById('btn-audio-speed').textContent = speed + 'x';
-    }
-
-    // Trending Sub-Tabs
-    function switchTrendingTab(tab) {
-      document.getElementById('tab-btn-trending').classList.toggle('on', tab === 'trending');
-      document.getElementById('tab-btn-popular').classList.toggle('on', tab === 'popular');
-    }
-
-    // Genre Filtering
-    function filterGenre(genre) {
-      document.getElementById('cat-btn-action').classList.toggle('on', genre === 'action');
-      document.getElementById('cat-btn-fantasy').classList.toggle('on', genre === 'fantasy');
-      document.getElementById('cat-btn-supernatural').classList.toggle('on', genre === 'supernatural');
-      
-      const label = document.getElementById('genre-badge-label');
-      if (label) {
-        label.textContent = genre.toUpperCase() + ' / SUPERNATURAL';
-      }
-    }
-
-    // Daily Schedule Day Picker
-    function selectDailyDay(day) {
-      document.querySelectorAll('#daily_list .genre').forEach(el => {
-        el.textContent = day + ' Drop • Demon Sovereign\'s Bloodline';
-      });
-    }
-
-    // Dark/Light Theme Switcher
     function toggleDarkTheme() {
       document.body.classList.toggle('wt-dark');
       const isDark = document.body.classList.contains('wt-dark');
@@ -1181,7 +941,6 @@
       localStorage.setItem('wt_theme', isDark ? 'dark' : 'light');
     }
 
-    // Subscribe Button
     let isSubscribed = true;
     function toggleSubscribe() {
       isSubscribed = !isSubscribed;
@@ -1197,18 +956,12 @@
       }
     }
 
-    // Likes
     let episodeLikes = 18420;
     function likeCurrentEpisode() {
       episodeLikes++;
       document.getElementById('reader-like-counter').textContent = episodeLikes.toLocaleString();
     }
 
-    function openCommentsModal() {
-      alert('Comments are loaded from Demon Sovereign community network (1,429 comments).');
-    }
-
-    // 100 Chapter Full Catalog Renderer
     function renderAll100Chapters() {
       const container = document.getElementById('detail-episodes-container');
       const btn = document.getElementById('btn-load-100');
@@ -1218,7 +971,7 @@
         html += `
           <li class="detail_item" onclick="openEpisodeReader(${ep.number})" style="cursor: pointer; padding: 12px 16px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--wt-border);">
             <div style="display: flex; gap: 12px; align-items: center;">
-              <div style="position: relative; width: 68px; height: 68px; border-radius: 6px; overflow: hidden; background: #222; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: #00dc64; font-weight: 900; font-size: 16px;">
+              <div style="position: relative; width: 68px; height: 68px; border-radius: 4px; overflow: hidden; background: #222; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: #00dc64; font-weight: 900; font-size: 16px;">
                 #${ep.number}
               </div>
               <div>
@@ -1238,7 +991,6 @@
       btn.style.display = 'none';
     }
 
-    // Search Modal
     function openSearchModal() {
       document.getElementById('search-modal').classList.add('open');
       document.getElementById('search-input').focus();
@@ -1256,7 +1008,6 @@
         resultsBox.innerHTML = '';
         return;
       }
-      const q = query.toLowerCase();
       resultsBox.innerHTML = `
         <div style="padding: 12px; border-bottom: 1px solid var(--wt-border); cursor: pointer;" onclick="closeSearchModal(); openView('detail');">
           <strong style="color: #00dc64;">Demon Sovereign's Bloodline</strong>
@@ -1264,12 +1015,11 @@
         </div>
         <div style="padding: 12px; border-bottom: 1px solid var(--wt-border); cursor: pointer;" onclick="closeSearchModal(); openEpisodeReader(4);">
           <strong style="color: #00dc64;">Episode 4 - The Saint Mirren Confrontation</strong>
-          <div style="font-size: 12px; color: var(--wt-subtext);">Live Hindi Studio Audio Voiceover & Real-Time Karaoke</div>
+          <div style="font-size: 12px; color: var(--wt-subtext);">Action / Supernatural • HD Panels</div>
         </div>
       `;
     }
 
-    // Side Drawer
     function openSideDrawer() {
       document.getElementById('drawer-modal').classList.add('open');
       document.getElementById('side-drawer').classList.add('open');
@@ -1279,16 +1029,17 @@
       document.getElementById('side-drawer').classList.remove('open');
     }
 
-    // Initializer
     document.addEventListener('DOMContentLoaded', () => {
-      // Restore theme
       const savedTheme = localStorage.getItem('wt_theme');
       if (savedTheme === 'dark') {
         document.body.classList.add('wt-dark');
         document.getElementById('theme-icon').textContent = '☀️';
       }
 
-      // Check URL parameters for direct episode deep-linking
+      renderTrendingItems(CANON_ITEMS);
+      renderCategoryItems('all');
+      renderDailyItems();
+
       const params = new URLSearchParams(window.location.search);
       if (params.get('episode') === '4' || params.get('reader') === 'true') {
         openEpisodeReader(4);
