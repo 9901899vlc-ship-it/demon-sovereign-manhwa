@@ -910,66 +910,53 @@
         <span class="wt-detail-tag">Redice Studio</span>
       </div>
 
-      <!-- BIG BRIGHT GREEN BUTTON (Screenshot 2) -->
-      <button class="wt-continue-btn" onclick="openEpisode(1)">Continue Reading</button>
+      <!-- BIG BRIGHT GREEN BUTTON -->
+      <button class="wt-continue-btn" onclick="openChapter('1-3')">Continue Reading</button>
 
       <div class="wt-app-notice">
         Continue this series on the DEMON SOVEREIGN Portal! ›
       </div>
     </div>
 
-    <!-- EPISODE LIST (Screenshot 2: Episode 1, Episode 2, Episode 3, Episode 4...) -->
+    <!-- CHAPTER LIST (Chapter 1-3 Mixed & Chapter 4) -->
     <ul class="wt-detail-ep-list">
-      <!-- Episode 1 -->
-      <li class="wt-detail-ep-item" onclick="openEpisode(1)">
+      <!-- Chapter 1-3 (Mixed / Combined) -->
+      <li class="wt-detail-ep-item" onclick="openChapter('1-3')">
         <div class="wt-detail-ep-thumb">
-          <img src="./images/card_01_sovereign.jpg" alt="Episode 1">
+          <img src="./images/card_01_sovereign.jpg" alt="Chapter 1-3">
         </div>
         <div class="wt-detail-ep-info">
           <div class="wt-detail-ep-name">
-            <span>Episode 1</span>
+            <span>Chapter 1-3: Awakening of the Sovereign</span>
           </div>
-          <div class="wt-detail-ep-date">May 8, 2026</div>
+          <div class="wt-detail-ep-date">May 8, 2026 • 11 Panels</div>
         </div>
       </li>
 
-      <!-- Episode 2 -->
-      <li class="wt-detail-ep-item" onclick="openEpisode(2)">
+      <!-- Chapter 4 -->
+      <li class="wt-detail-ep-item" onclick="openChapter('4')">
         <div class="wt-detail-ep-thumb">
-          <img src="./images/card_02_kuro.jpg" alt="Episode 2">
+          <img src="./images/card_08_confrontation.jpg" alt="Chapter 4">
         </div>
         <div class="wt-detail-ep-info">
           <div class="wt-detail-ep-name">
-            <span>Episode 2</span>
-          </div>
-          <div class="wt-detail-ep-date">May 8, 2026</div>
-        </div>
-      </li>
-
-      <!-- Episode 3 -->
-      <li class="wt-detail-ep-item" onclick="openEpisode(3)">
-        <div class="wt-detail-ep-thumb">
-          <img src="./images/card_05_awakening.jpg" alt="Episode 3">
-        </div>
-        <div class="wt-detail-ep-info">
-          <div class="wt-detail-ep-name">
-            <span>Episode 3</span>
-          </div>
-          <div class="wt-detail-ep-date">May 8, 2026</div>
-        </div>
-      </li>
-
-      <!-- Episode 4 -->
-      <li class="wt-detail-ep-item" onclick="openEpisode(4)">
-        <div class="wt-detail-ep-thumb">
-          <img src="./images/card_08_confrontation.jpg" alt="Episode 4">
-        </div>
-        <div class="wt-detail-ep-info">
-          <div class="wt-detail-ep-name">
-            <span>Episode 4</span>
+            <span>Chapter 4: The Saint Mirren Confrontation</span>
             <span class="wt-badge-up">UP</span>
           </div>
-          <div class="wt-detail-ep-date">May 15, 2026</div>
+          <div class="wt-detail-ep-date">May 8, 2026 • 19 Panels (Latest)</div>
+        </div>
+      </li>
+
+      <!-- Chapter 5 (Upcoming) -->
+      <li class="wt-detail-ep-item" onclick="openChapter('5')">
+        <div class="wt-detail-ep-thumb">
+          <img src="./images/card_05_awakening.jpg" alt="Chapter 5">
+        </div>
+        <div class="wt-detail-ep-info">
+          <div class="wt-detail-ep-name">
+            <span>Chapter 5: Infernal Bloodline</span>
+          </div>
+          <div class="wt-detail-ep-date">May 15, 2026 • Upcoming</div>
         </div>
       </li>
     </ul>
@@ -1007,7 +994,7 @@
         </svg>
       </button>
 
-      <span class="wt-reader-title" id="reader-top-title">Episode 1</span>
+      <span class="wt-reader-title" id="reader-top-title">Chapter 1-3</span>
 
       <button class="wt-icon-btn" onclick="openSearchModal()" title="Share">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -1020,17 +1007,17 @@
       </button>
     </div>
 
-    <!-- Viewer Warning (Screenshot 4) -->
+    <!-- Viewer Warning -->
     <div class="wt-reader-warning">
-      THIS EPISODE CONTAINS STRONG SUPERNATURAL ACTION<br>THAT MAY NOT BE SUITABLE FOR SOME READERS.
+      THIS CHAPTER CONTAINS STRONG SUPERNATURAL ACTION<br>THAT MAY NOT BE SUITABLE FOR SOME READERS.
     </div>
 
-    <!-- Full-Width Vertical Manhwa Comic Strip (Screenshot 3 & 4) -->
+    <!-- Full-Width Vertical Manhwa Comic Strip -->
     <div class="wt-reader-strip" id="reader-image-strip">
       <!-- Images loaded dynamically -->
     </div>
 
-    <!-- Creator Note Area (Screenshot 4) -->
+    <!-- Creator Note Area -->
     <div style="padding: 24px 16px; background: #000; color: #fff; max-width: 800px; margin: 0 auto; width: 100%; box-sizing: border-box;">
       <div style="border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; padding: 16px; background: #121316;">
         <h2 style="font-size: 14px; font-weight: 800; color: #00dc64; margin: 0 0 8px 0;">Creator Note</h2>
@@ -1039,34 +1026,30 @@
           <div>
             <strong style="font-size: 13px; color: #fff;">Kuro & Ha-Jun / Redice Studio</strong>
             <p style="font-size: 12px; color: #aaa; margin: 2px 0 0 0; line-height: 1.4;">
-              Thank you for reading Demon Sovereign's Bloodline! New episodes drop every Saturday at 10 PM KST.
+              Thank you for reading Demon Sovereign's Bloodline! New chapters drop every Saturday at 10 PM KST.
             </p>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Horizontal Thumbnail Filmstrip (Screenshot 3) -->
+    <!-- Horizontal Thumbnail Filmstrip -->
     <div class="wt-reader-filmstrip" id="reader-filmstrip">
-      <div class="wt-filmstrip-thumb active" id="film-thumb-1" onclick="openEpisode(1)">
-        <img src="./images/card_01_sovereign.jpg" alt="Ep 1">
-        <span class="wt-filmstrip-num">#1</span>
+      <div class="wt-filmstrip-thumb active" id="film-thumb-1-3" onclick="openChapter('1-3')">
+        <img src="./images/card_01_sovereign.jpg" alt="Ch 1-3">
+        <span class="wt-filmstrip-num">#1-3</span>
       </div>
-      <div class="wt-filmstrip-thumb" id="film-thumb-2" onclick="openEpisode(2)">
-        <img src="./images/card_02_kuro.jpg" alt="Ep 2">
-        <span class="wt-filmstrip-num">#2</span>
-      </div>
-      <div class="wt-filmstrip-thumb" id="film-thumb-3" onclick="openEpisode(3)">
-        <img src="./images/card_05_awakening.jpg" alt="Ep 3">
-        <span class="wt-filmstrip-num">#3</span>
-      </div>
-      <div class="wt-filmstrip-thumb" id="film-thumb-4" onclick="openEpisode(4)">
-        <img src="./images/card_08_confrontation.jpg" alt="Ep 4">
+      <div class="wt-filmstrip-thumb" id="film-thumb-4" onclick="openChapter('4')">
+        <img src="./images/card_08_confrontation.jpg" alt="Ch 4">
         <span class="wt-filmstrip-num">#4</span>
+      </div>
+      <div class="wt-filmstrip-thumb" id="film-thumb-5" onclick="openChapter('5')">
+        <img src="./images/card_05_awakening.jpg" alt="Ch 5">
+        <span class="wt-filmstrip-num">#5</span>
       </div>
     </div>
 
-    <!-- Bottom Sticky Navigation Toolbar (Screenshot 3) -->
+    <!-- Bottom Sticky Navigation Toolbar -->
     <div class="wt-reader-toolbar">
       <div class="wt-toolbar-left">
         <!-- Like Button -->
@@ -1085,18 +1068,18 @@
         </button>
       </div>
 
-      <!-- Prev / Current # / Next Pagination (Screenshot 3) -->
+      <!-- Prev / Current # / Next Pagination -->
       <div class="wt-toolbar-paginate">
-        <button class="wt-nav-arrow" onclick="goToPrevEp()" title="Previous Episode">
+        <button class="wt-nav-arrow" onclick="goToPrevChapter()" title="Previous Chapter">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
             <polygon points="19 20 9 12 19 4 19 20"></polygon>
             <line x1="5" y1="19" x2="5" y2="5" stroke="currentColor" stroke-width="2"></line>
           </svg>
         </button>
 
-        <span id="current-ep-badge">#1</span>
+        <span id="current-ep-badge">#1-3</span>
 
-        <button class="wt-nav-arrow" onclick="goToNextEp()" title="Next Episode">
+        <button class="wt-nav-arrow" onclick="goToNextChapter()" title="Next Chapter">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
             <polygon points="5 4 15 12 5 20 5 4"></polygon>
             <line x1="19" y1="5" x2="19" y2="19" stroke="currentColor" stroke-width="2"></line>
@@ -1129,16 +1112,20 @@
        JAVASCRIPT ROUTING & CONTROLLER
        ======================================================== -->
   <script>
-    let currentEpisode = 1;
+    let currentChapter = '1-3';
     let isSubscribed = false;
     let hasLiked = false;
 
-    const EPISODE_TITLES = {
-      1: "Episode 1: Awakening of the Sovereign",
-      2: "Episode 2: The Demonic Gauntlet",
-      3: "Episode 3: The Gathering Storm",
-      4: "Episode 4: The Saint Mirren Confrontation"
+    const CHAPTER_TITLES = {
+      '1-3': "Chapter 1-3: Awakening of the Sovereign",
+      '1': "Chapter 1-3: Awakening of the Sovereign",
+      '2': "Chapter 1-3: Awakening of the Sovereign",
+      '3': "Chapter 1-3: Awakening of the Sovereign",
+      '4': "Chapter 4: The Saint Mirren Confrontation",
+      '5': "Chapter 5: Infernal Bloodline"
     };
+
+    const CHAPTER_ORDER = ['1-3', '4', '5'];
 
     function openPage(pageName, updateHash = true) {
       document.getElementById('page-home').style.display = (pageName === 'home') ? 'block' : 'none';
@@ -1147,35 +1134,69 @@
       if (updateHash) {
         if (pageName === 'home') window.location.hash = '#/home';
         else if (pageName === 'detail') window.location.hash = '#/detail';
-        else if (pageName === 'reader') window.location.hash = '#/viewer?ep=' + currentEpisode;
+        else if (pageName === 'reader') window.location.hash = '#/viewer?chapter=' + currentChapter;
       }
       window.scrollTo(0, 0);
     }
 
-    function openEpisode(epNum, updateHash = true) {
-      currentEpisode = Number(epNum) || 1;
+    function openChapter(chId, updateHash = true) {
+      let norm = String(chId || '1-3').trim();
+      if (norm === '1' || norm === '2' || norm === '3') norm = '1-3';
+      currentChapter = norm;
       openPage('reader', false);
 
       if (updateHash) {
-        window.location.hash = '#/viewer?ep=' + currentEpisode;
+        window.location.hash = '#/viewer?chapter=' + currentChapter;
       }
 
-      const fullTitle = EPISODE_TITLES[currentEpisode] || ('Episode ' + currentEpisode);
+      const fullTitle = CHAPTER_TITLES[currentChapter] || ('Chapter ' + currentChapter);
       document.getElementById('reader-top-title').textContent = fullTitle;
-      document.getElementById('current-ep-badge').textContent = '#' + currentEpisode;
+      document.getElementById('current-ep-badge').textContent = '#' + currentChapter;
 
       // Update filmstrip active state
-      for (let i = 1; i <= 4; i++) {
-        const thumb = document.getElementById('film-thumb-' + i);
+      CHAPTER_ORDER.forEach(id => {
+        const thumb = document.getElementById('film-thumb-' + id);
         if (thumb) {
-          if (i === currentEpisode) thumb.classList.add('active');
+          if (id === currentChapter) thumb.classList.add('active');
           else thumb.classList.remove('active');
         }
-      }
+      });
 
       const stripContainer = document.getElementById('reader-image-strip');
       
-      if (currentEpisode === 4) {
+      if (currentChapter === '1-3') {
+        // Mixed Panels of Chapter 1, 2, and 3 (11 Panels combined sequence)
+        const mixedPanels = [
+          { p: './panels/panel_01_final', h: 1433, num: 1 },
+          { p: './panels/panel_02_final', h: 1433, num: 2 },
+          { p: './panels/panel_03_final', h: 1433, num: 3 },
+          { p: './panels/panel_04_final', h: 1433, num: 4 },
+          { p: './panels/panel_05_final', h: 1433, num: 5 },
+          { p: './panels/panel_06_final', h: 1433, num: 6 },
+          { p: './panels/panel_07_final', h: 1433, num: 7 },
+          { p: './panels/ep2/panel_01_final', h: 1433, num: 8 },
+          { p: './panels/ep2/panel_02_final', h: 1433, num: 9 },
+          { p: './panels/ep2/panel_03_final', h: 1433, num: 10 },
+          { p: './panels/ep2/panel_04_final', h: 1433, num: 11 }
+        ];
+
+        let html = '';
+        mixedPanels.forEach(panel => {
+          html += '<picture>' +
+            '<source srcset="' + panel.p + '.webp" type="image/webp">' +
+            '<source srcset="' + panel.p + '.jpg" type="image/jpeg">' +
+            '<img src="' + panel.p + '.jpg" ' +
+                 'width="800" height="' + panel.h + '" ' +
+                 'loading="lazy" ' +
+                 'alt="Demon Sovereign Chapter 1-3 Panel ' + panel.num + '" ' +
+                 'onerror="this.onerror=null; this.src=\'' + panel.p + '.png\';" ' +
+                 'style="width:100%; height:auto; display:block; background:#0d0e12;">' +
+          '</picture>';
+        });
+        stripContainer.innerHTML = html;
+
+      } else if (currentChapter === '4') {
+        // Chapter 4 (19 HD panels)
         const ch04Files = [
           'p01', 'p02', 'p03', 'p04', 'p05',
           'p06', 'p07', 'p08', 'p09', 'p10',
@@ -1191,63 +1212,43 @@
             '<img src="./panels/ch04/' + file + '.jpg" ' +
                  'width="800" height="' + h + '" ' +
                  'loading="lazy" ' +
-                 'alt="Demon Sovereign Ep 4 Panel ' + (idx + 1) + '" ' +
+                 'alt="Demon Sovereign Chapter 4 Panel ' + (idx + 1) + '" ' +
                  'onerror="this.onerror=null; this.src=\'./panels/ch04/' + file + '.png\';" ' +
                  'style="width:100%; height:auto; display:block; background:#0d0e12;">' +
           '</picture>';
         });
         stripContainer.innerHTML = html;
-      } else if (currentEpisode === 1) {
-        let html = '';
-        for (let i = 1; i <= 7; i++) {
-          const file = 'panel_0' + i + '_final';
-          html += '<picture>' +
-            '<source srcset="./panels/' + file + '.webp" type="image/webp">' +
-            '<source srcset="./panels/' + file + '.jpg" type="image/jpeg">' +
-            '<img src="./panels/' + file + '.jpg" ' +
-                 'width="800" height="1433" ' +
-                 'loading="lazy" ' +
-                 'alt="Demon Sovereign Ep 1 Panel ' + i + '" ' +
-                 'onerror="this.onerror=null; this.src=\'./panels/' + file + '.png\';" ' +
-                 'style="width:100%; height:auto; display:block; background:#0d0e12;">' +
-          '</picture>';
-        }
-        stripContainer.innerHTML = html;
-      } else if (currentEpisode === 2) {
-        let html = '';
-        for (let i = 1; i <= 4; i++) {
-          const file = 'panel_0' + i + '_final';
-          html += '<picture>' +
-            '<source srcset="./panels/ep2/' + file + '.webp" type="image/webp">' +
-            '<source srcset="./panels/ep2/' + file + '.jpg" type="image/jpeg">' +
-            '<img src="./panels/ep2/' + file + '.jpg" ' +
-                 'width="800" height="1433" ' +
-                 'loading="lazy" ' +
-                 'alt="Demon Sovereign Ep 2 Panel ' + i + '" ' +
-                 'onerror="this.onerror=null; this.src=\'./panels/ep2/' + file + '.png\';" ' +
-                 'style="width:100%; height:auto; display:block; background:#0d0e12;">' +
-          '</picture>';
-        }
-        stripContainer.innerHTML = html;
+
       } else {
         stripContainer.innerHTML = '<div style="padding: 100px 20px; text-align: center; color: #555;">' +
-          '<h3 style="color: #00dc64; font-size: 20px; font-weight: 800; margin-bottom: 8px;">Episode ' + currentEpisode + ' In Production</h3>' +
-          '<p style="font-size: 13px; color: #888; max-width: 320px; margin: 0 auto 20px auto;">HD panels for Episode ' + currentEpisode + ' are currently being processed in the Redice Studio pipeline.</p>' +
-          '<button onclick="openEpisode(4)" style="background: #00dc64; color: #000; border: none; font-weight: 800; font-size: 13px; padding: 10px 22px; border-radius: 20px; cursor: pointer;">Read Episode 4 (HD Panels) →</button>' +
+          '<h3 style="color: #00dc64; font-size: 20px; font-weight: 800; margin-bottom: 8px;">Chapter ' + currentChapter + ' In Production</h3>' +
+          '<p style="font-size: 13px; color: #888; max-width: 320px; margin: 0 auto 20px auto;">HD panels for Chapter ' + currentChapter + ' are currently being processed in the Redice Studio pipeline.</p>' +
+          '<button onclick="openChapter(\'1-3\')" style="background: #00dc64; color: #000; border: none; font-weight: 800; font-size: 13px; padding: 10px 22px; border-radius: 20px; cursor: pointer; margin-right: 8px;">← Read Chapter 1-3</button>' +
+          '<button onclick="openChapter(\'4\')" style="background: #222; color: #fff; border: 1px solid #444; font-weight: 800; font-size: 13px; padding: 10px 22px; border-radius: 20px; cursor: pointer;">Read Chapter 4 →</button>' +
         '</div>';
       }
       window.scrollTo(0, 0);
     }
 
-    function goToPrevEp() {
-      if (currentEpisode > 1) openEpisode(currentEpisode - 1);
-      else alert('This is Episode 1!');
+    // Backwards-compatibility alias
+    function openEpisode(epNum, updateHash = true) {
+      openChapter(epNum, updateHash);
     }
 
-    function goToNextEp() {
-      if (currentEpisode < 4) openEpisode(currentEpisode + 1);
-      else alert('Episode 4 is the latest released chapter!');
+    function goToPrevChapter() {
+      const idx = CHAPTER_ORDER.indexOf(currentChapter);
+      if (idx > 0) openChapter(CHAPTER_ORDER[idx - 1]);
+      else alert('This is Chapter 1-3 (Beginning of Story)!');
     }
+
+    function goToNextChapter() {
+      const idx = CHAPTER_ORDER.indexOf(currentChapter);
+      if (idx !== -1 && idx < CHAPTER_ORDER.length - 1) openChapter(CHAPTER_ORDER[idx + 1]);
+      else alert('Chapter 4 is the latest released chapter!');
+    }
+
+    function goToPrevEp() { goToPrevChapter(); }
+    function goToNextEp() { goToNextChapter(); }
 
     function toggleSynopsis() {
       const el = document.getElementById('wt-synopsis');
@@ -1303,13 +1304,16 @@
       // Simple instant filter
     }
 
-    // HASH ROUTING SUPPORT (Direct link, deep link, browser back/forward)
+    // HASH ROUTING SUPPORT (Supports chapter=1-3, chapter=4, and legacy ep=4)
     function handleRoute() {
       const hash = window.location.hash || '';
       if (hash.startsWith('#/viewer')) {
-        const match = hash.match(/ep=(\d+)/);
-        const ep = match ? parseInt(match[1], 10) : 4;
-        openEpisode(ep, false);
+        let ch = '1-3';
+        const chMatch = hash.match(/chapter=([\w-]+)/);
+        const epMatch = hash.match(/ep=(\d+)/);
+        if (chMatch) ch = chMatch[1];
+        else if (epMatch) ch = (epMatch[1] === '4') ? '4' : '1-3';
+        openChapter(ch, false);
       } else if (hash === '#/detail') {
         openPage('detail', false);
       } else {
