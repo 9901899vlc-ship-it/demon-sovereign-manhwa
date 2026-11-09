@@ -97,37 +97,32 @@
     .wt-lnb {
       display: flex;
       list-style: none;
-      padding: 0;
+      padding: 0 16px;
       margin: 0;
       border-top: 1px solid #f0f0f0;
+      gap: 20px;
     }
 
     .wt-lnb-item {
-      flex: 1;
-      text-align: center;
+      text-align: left;
     }
 
     .wt-lnb-link {
-      display: block;
-      padding: 12px 0 10px 0;
+      display: inline-block;
+      padding: 12px 4px 10px 4px;
       font-size: 14px;
-      font-weight: 700;
-      color: #777777;
+      font-weight: 800;
+      color: #000000;
       text-decoration: none;
       position: relative;
-    }
-
-    .wt-lnb-item.active .wt-lnb-link {
-      color: #000000;
-      font-weight: 800;
     }
 
     .wt-lnb-item.active .wt-lnb-link::after {
       content: "";
       position: absolute;
       bottom: 0;
-      left: 12%;
-      right: 12%;
+      left: 0;
+      right: 0;
       height: 3px;
       background-color: #000000;
       border-radius: 2px 2px 0 0;
@@ -787,12 +782,9 @@
         </div>
       </div>
 
-      <!-- Navigation Tabs: HOME, ORIGINALS, CANVAS, MY -->
+      <!-- Navigation Tabs: HOME Only -->
       <ul class="wt-lnb">
         <li class="wt-lnb-item active"><a href="javascript:void(0)" onclick="openPage('home')" class="wt-lnb-link">HOME</a></li>
-        <li class="wt-lnb-item"><a href="javascript:void(0)" onclick="openPage('detail')" class="wt-lnb-link">ORIGINALS</a></li>
-        <li class="wt-lnb-item"><a href="javascript:void(0)" onclick="openPage('detail')" class="wt-lnb-link">CANVAS</a></li>
-        <li class="wt-lnb-item"><a href="javascript:void(0)" onclick="openPage('detail')" class="wt-lnb-link">MY</a></li>
       </ul>
     </header>
 
@@ -823,114 +815,10 @@
           <div class="wt-card-title">Demon Sovereign's Bloodline</div>
           <div class="wt-card-genre">Action</div>
         </div>
-
-        <!-- Card 2 (Kuro Familiar Arc) -->
-        <div class="wt-grid-card" onclick="openPage('detail')">
-          <div class="wt-card-poster-wrap">
-            <img src="./images/card_02_kuro.jpg" alt="Kuro Familiar Arc">
-            <div class="wt-card-rank-box">
-              <span class="wt-card-rank-num">2</span>
-              <span class="wt-card-rank-trend down">▼ 1</span>
-            </div>
-          </div>
-          <div class="wt-card-title">The Cursed Familiar</div>
-          <div class="wt-card-genre">Supernatural</div>
-        </div>
-
-        <!-- Card 3 (Saint Mirren Rooftop) -->
-        <div class="wt-grid-card" onclick="openPage('detail')">
-          <div class="wt-card-poster-wrap">
-            <img src="./images/card_08_confrontation.jpg" alt="Saint Mirren Confrontation">
-            <div class="wt-card-rank-box">
-              <span class="wt-card-rank-num">3</span>
-              <span class="wt-card-rank-trend up">▲ 17</span>
-            </div>
-          </div>
-          <div class="wt-card-title">Saint Mirren Clash</div>
-          <div class="wt-card-genre">Action</div>
-        </div>
-
-        <!-- Card 4 (Awakening of Power) -->
-        <div class="wt-grid-card" onclick="openPage('detail')">
-          <div class="wt-card-poster-wrap">
-            <img src="./images/card_05_awakening.jpg" alt="Awakening">
-            <div class="wt-card-rank-box">
-              <span class="wt-card-rank-num">4</span>
-              <span class="wt-card-rank-trend down">▼ 2</span>
-            </div>
-          </div>
-          <div class="wt-card-title">Bloodline Awakening</div>
-          <div class="wt-card-genre">Action</div>
-        </div>
-
-        <!-- Card 5 (The Storm) -->
-        <div class="wt-grid-card" onclick="openPage('detail')">
-          <div class="wt-card-poster-wrap">
-            <img src="./images/card_06_storm.jpg" alt="The Storm">
-            <div class="wt-card-rank-box">
-              <span class="wt-card-rank-num">5</span>
-              <span class="wt-card-rank-trend down">▼ 2</span>
-            </div>
-          </div>
-          <div class="wt-card-title">The Gathering Storm</div>
-          <div class="wt-card-genre">Fantasy</div>
-        </div>
-
-        <!-- Card 6 (Bloody Tears) -->
-        <div class="wt-grid-card" onclick="openPage('detail')">
-          <div class="wt-card-poster-wrap">
-            <img src="./images/card_04_bloody_tears.jpg" alt="Bloody Tears">
-            <div class="wt-card-rank-box">
-              <span class="wt-card-rank-num">6</span>
-              <span class="wt-card-rank-trend down">▼ 2</span>
-            </div>
-          </div>
-          <div class="wt-card-title">Tears of Vengeance</div>
-          <div class="wt-card-genre">Action</div>
-        </div>
-
-        <!-- Card 7 (Ha-Eun Sanctuary) -->
-        <div class="wt-grid-card" onclick="openPage('detail')">
-          <div class="wt-card-poster-wrap">
-            <img src="./images/card_03_sister.jpg" alt="Ha-Eun Sanctuary">
-            <div class="wt-card-rank-box">
-              <span class="wt-card-rank-num">7</span>
-              <span class="wt-card-rank-trend down">▼ 1</span>
-            </div>
-          </div>
-          <div class="wt-card-title">Sister's Sanctuary</div>
-          <div class="wt-card-genre">Drama</div>
-        </div>
-
-        <!-- Card 8 (Feather of Kuro) -->
-        <div class="wt-grid-card" onclick="openPage('detail')">
-          <div class="wt-card-poster-wrap">
-            <img src="./images/card_07_feather.jpg" alt="Feather of Kuro">
-            <div class="wt-card-rank-box">
-              <span class="wt-card-rank-num">8</span>
-              <span class="wt-card-rank-trend up">▲ 15</span>
-            </div>
-          </div>
-          <div class="wt-card-title">Obsidian Feather</div>
-          <div class="wt-card-genre">Supernatural</div>
-        </div>
-
-        <!-- Card 9 (Saint Mirren University) -->
-        <div class="wt-grid-card" onclick="openPage('detail')">
-          <div class="wt-card-poster-wrap">
-            <img src="./images/card_04_university.jpg" alt="Saint Mirren">
-            <div class="wt-card-rank-box">
-              <span class="wt-card-rank-num">9</span>
-              <span class="wt-card-rank-trend down">▼ 4</span>
-            </div>
-          </div>
-          <div class="wt-card-title">Saint Mirren Academy</div>
-          <div class="wt-card-genre">Mystery</div>
-        </div>
       </div>
     </div>
 
-    <!-- SECTION 2: Continue Reading (Carousel with Subscribe buttons like Screenshot 1) -->
+    <!-- SECTION 2: Continue Reading -->
     <div class="wt-section" style="padding-top: 6px;">
       <a href="javascript:void(0)" onclick="openPage('detail')" class="wt-section-header">
         <h2 class="wt-section-title">Continue Reading</h2>
@@ -942,31 +830,7 @@
           <div class="wt-carousel-poster">
             <img src="./images/card_01_sovereign.jpg" alt="Demon Sovereign">
           </div>
-          <div class="wt-carousel-title">Demon Sovereign</div>
-          <button class="wt-subscribe-btn" onclick="event.stopPropagation(); toggleSubHome(this)">+ Subscribe</button>
-        </div>
-
-        <div class="wt-carousel-card" onclick="openPage('detail')">
-          <div class="wt-carousel-poster">
-            <img src="./images/card_02_kuro.jpg" alt="Kuro Familiar">
-          </div>
-          <div class="wt-carousel-title">The Familiar Kuro</div>
-          <button class="wt-subscribe-btn" onclick="event.stopPropagation(); toggleSubHome(this)">+ Subscribe</button>
-        </div>
-
-        <div class="wt-carousel-card" onclick="openPage('detail')">
-          <div class="wt-carousel-poster">
-            <img src="./images/card_08_confrontation.jpg" alt="Saint Mirren Confrontation">
-          </div>
-          <div class="wt-carousel-title">Saint Mirren Clash</div>
-          <button class="wt-subscribe-btn" onclick="event.stopPropagation(); toggleSubHome(this)">+ Subscribe</button>
-        </div>
-
-        <div class="wt-carousel-card" onclick="openPage('detail')">
-          <div class="wt-carousel-poster">
-            <img src="./images/card_03_sister.jpg" alt="Sister Sanctuary">
-          </div>
-          <div class="wt-carousel-title">Ha-Eun's Home</div>
+          <div class="wt-carousel-title">Demon Sovereign's Bloodline</div>
           <button class="wt-subscribe-btn" onclick="event.stopPropagation(); toggleSubHome(this)">+ Subscribe</button>
         </div>
       </div>
