@@ -8,7 +8,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="./config.js"></script>
   <script src="./supabase-client.js"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Noto+Sans:wght@400;500;600;700;800;900&family=Orbitron:wght@600;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Noto+Sans:wght@400;500;600;700;800;900&family=Orbitron:wght@600;800;900&display=swap" rel="stylesheet">
   <style>
     :root {
       --mana-purple: #a855f7;
@@ -74,6 +74,50 @@
     ::-webkit-scrollbar { width: 5px; height: 5px; }
     ::-webkit-scrollbar-track { background: #07080c; }
     ::-webkit-scrollbar-thumb { background: #7e22ce; border-radius: 4px; }
+
+    /* Webnovel Reader Typography & Themes */
+    .novel-serif {
+      font-family: 'Merriweather', Georgia, Cambria, 'Times New Roman', serif;
+    }
+    .novel-sans {
+      font-family: 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+    .novel-theme-dark {
+      background-color: #0b0d14 !important;
+      color: #e2e8f0 !important;
+      border-color: #1e2436 !important;
+    }
+    .novel-theme-parchment {
+      background-color: #f7f1e3 !important;
+      color: #2b2216 !important;
+      border-color: #e4d7bf !important;
+    }
+    .novel-theme-parchment h1, .novel-theme-parchment h2, .novel-theme-parchment h3 {
+      color: #1a120b !important;
+    }
+    .novel-theme-parchment p {
+      color: #2b2216 !important;
+    }
+    .novel-theme-parchment .novel-thought {
+      color: #581c87 !important;
+      border-color: #a855f7 !important;
+    }
+    .novel-theme-parchment .novel-system-box {
+      background-color: #e0f2fe !important;
+      border-color: #0284c7 !important;
+      color: #0369a1 !important;
+    }
+    .novel-theme-parchment .novel-divider {
+      color: #a89f91 !important;
+    }
+    .novel-theme-parchment .novel-sfx {
+      color: #7e22ce !important;
+    }
+    .novel-theme-midnight {
+      background-color: #000000 !important;
+      color: #f3f4f6 !important;
+      border-color: #18181b !important;
+    }
   </style>
   <link rel="manifest" href="./manifest.json">
   <meta name="theme-color" content="#a855f7">
@@ -122,7 +166,7 @@
       <div class="flex items-center bg-zinc-900 border border-zinc-800 rounded-lg p-0.5 text-xs">
         <button id="btn-mode-strip" onclick="switchViewMode('strip')" class="px-2.5 py-1 rounded bg-purple-600 text-white font-bold transition-all">Strip</button>
         <button id="btn-mode-grid" onclick="switchViewMode('grid')" class="px-2.5 py-1 rounded text-zinc-400 hover:text-white font-medium transition-all">Grid</button>
-        <button id="btn-mode-script" onclick="switchViewMode('script')" class="px-2.5 py-1 rounded text-zinc-400 hover:text-white font-medium transition-all">Script</button>
+        <button id="btn-mode-script" onclick="switchViewMode('script')" class="px-2.5 py-1 rounded text-zinc-400 hover:text-white font-medium transition-all">Novel</button>
       </div>
 
       <!-- Settings Button -->
@@ -1841,8 +1885,9 @@
               </div>
             </div>
             <div class="pt-3 flex flex-col sm:flex-row items-center justify-center gap-3">
-              <button onclick="switchViewMode('script')" class="px-6 py-3 bg-gradient-to-r from-purple-600 to-fuchsia-600 hover:opacity-95 text-white font-bold text-xs uppercase tracking-wider rounded-xl shadow-lg shadow-purple-600/30 transition-all font-orbitron cursor-pointer">
-                Read 30-Panel Screenplay & Dialogue →
+              <button onclick="switchViewMode('script')" class="px-6 py-3 bg-gradient-to-r from-purple-600 to-fuchsia-600 hover:opacity-95 text-white font-bold text-xs uppercase tracking-wider rounded-xl shadow-lg shadow-purple-600/30 transition-all font-orbitron cursor-pointer flex items-center justify-center gap-2">
+                <svg class="w-4 h-4 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                <span>Read Chapter ${chap.number} Webnovel Edition →</span>
               </button>
             </div>
           </div>
@@ -1972,38 +2017,99 @@
     // =======================================================
     // INTERACTIVE SCRIPT & SCREENPLAY ENGINE
     // =======================================================
+    // =======================================================
+    // WEBNOVEL & SCREENPLAY READER ENGINE
+    // =======================================================
     let activeScriptData = null;
     let activeSpeakerFilter = 'all';
     let scriptSearchQuery = '';
+    let novelFontSize = 16;
+    let novelTheme = 'dark'; // 'dark', 'parchment', 'midnight'
+    let novelFontFamily = 'serif'; // 'serif', 'sans'
+    let novelLayoutMode = 'prose'; // 'prose' (webnovel) vs 'cards' (storyboard)
+    let isNovelSpeaking = false;
+
+    function escapeHtml(str) {
+      if (!str) return '';
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    function changeNovelFontSize(delta) {
+      novelFontSize = Math.min(24, Math.max(12, novelFontSize + delta));
+      renderScriptPanels(CHAPTERS_DATA[currentChapterIndex]);
+    }
+
+    function setNovelTheme(theme) {
+      novelTheme = theme;
+      renderScriptPanels(CHAPTERS_DATA[currentChapterIndex]);
+    }
+
+    function toggleNovelFontFamily() {
+      novelFontFamily = novelFontFamily === 'serif' ? 'sans' : 'serif';
+      renderScriptPanels(CHAPTERS_DATA[currentChapterIndex]);
+    }
+
+    function toggleNovelLayoutMode() {
+      novelLayoutMode = novelLayoutMode === 'prose' ? 'cards' : 'prose';
+      renderScriptPanels(CHAPTERS_DATA[currentChapterIndex]);
+    }
+
+    function toggleNovelSpeech() {
+      if (!('speechSynthesis' in window)) {
+        showToast('Speech synthesis not supported in this browser');
+        return;
+      }
+      if (isNovelSpeaking) {
+        window.speechSynthesis.cancel();
+        isNovelSpeaking = false;
+        renderScriptPanels(CHAPTERS_DATA[currentChapterIndex]);
+        showToast('Audio narration stopped');
+        return;
+      }
+
+      if (!activeScriptData || !activeScriptData.panels) return;
+      window.speechSynthesis.cancel();
+      isNovelSpeaking = true;
+
+      const lines = [];
+      activeScriptData.panels.forEach(p => {
+        if (p.action) lines.push(p.action);
+        if (p.sfx) lines.push(p.sfx);
+        const dialogues = p.dialogue || p.bubbles || [];
+        dialogues.forEach(d => {
+          if (d.text) lines.push(`${d.speaker || ''}: ${d.text}`);
+        });
+      });
+
+      let currentLineIdx = 0;
+      function speakNext() {
+        if (!isNovelSpeaking || currentLineIdx >= lines.length) {
+          isNovelSpeaking = false;
+          renderScriptPanels(CHAPTERS_DATA[currentChapterIndex]);
+          return;
+        }
+        const text = lines[currentLineIdx++];
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.rate = 1.0;
+        utterance.pitch = 1.0;
+        utterance.onend = speakNext;
+        utterance.onerror = () => { isNovelSpeaking = false; };
+        window.speechSynthesis.speak(utterance);
+      }
+      speakNext();
+      renderScriptPanels(CHAPTERS_DATA[currentChapterIndex]);
+      showToast('Playing full chapter audio narration');
+    }
 
     async function loadChapterScript(chap) {
       const scriptWrapper = document.getElementById('script-panel-wrapper');
       scriptWrapper.innerHTML = `
-        <div class="sovereign-card rounded-2xl p-6 space-y-4 border-purple-500/30">
-          <div class="flex items-center justify-between text-xs font-bold text-purple-400 font-orbitron">
-            <span>CHAPTER ${chap.number} SCREENPLAY</span>
-            <span class="bg-purple-950 text-purple-300 px-2.5 py-0.5 rounded-full border border-purple-800">30 PANELS</span>
-          </div>
-          <div>
-            <h2 class="text-xl sm:text-2xl font-bold font-cinzel text-white">${chap.title}</h2>
-            <p class="text-xs text-zinc-400 leading-relaxed mt-1">${chap.desc}</p>
-          </div>
-
-          <!-- Script Search & Filter Toolbar -->
-          <div class="pt-3 border-t border-zinc-800/80 space-y-3">
-            <div class="relative">
-              <input id="script-search-input" oninput="onScriptSearch(this.value)" type="text" placeholder="Search dialogue, actions, spells, sound effects..." class="w-full bg-zinc-950 border border-zinc-800 focus:border-purple-500 rounded-xl px-4 py-2.5 text-xs text-zinc-200 placeholder-zinc-500 focus:outline-none transition-all">
-            </div>
-            <div class="flex items-center gap-1.5 overflow-x-auto pb-1 text-[11px] font-bold" id="script-filter-chips">
-              <button onclick="setScriptSpeakerFilter('all')" class="script-chip px-3 py-1 rounded-full bg-purple-600 text-white transition-all whitespace-nowrap cursor-pointer" data-filter="all">All (30)</button>
-              <button onclick="setScriptSpeakerFilter('hajun')" class="script-chip px-3 py-1 rounded-full bg-zinc-900 hover:bg-zinc-800 text-zinc-400 hover:text-white transition-all whitespace-nowrap cursor-pointer" data-filter="hajun">Ha-Jun</button>
-              <button onclick="setScriptSpeakerFilter('kuro')" class="script-chip px-3 py-1 rounded-full bg-zinc-900 hover:bg-zinc-800 text-zinc-400 hover:text-white transition-all whitespace-nowrap cursor-pointer" data-filter="kuro">Kuro</button>
-              <button onclick="setScriptSpeakerFilter('system')" class="script-chip px-3 py-1 rounded-full bg-zinc-900 hover:bg-zinc-800 text-zinc-400 hover:text-white transition-all whitespace-nowrap cursor-pointer" data-filter="system">System / HUD</button>
-              <button onclick="setScriptSpeakerFilter('sfx')" class="script-chip px-3 py-1 rounded-full bg-zinc-900 hover:bg-zinc-800 text-zinc-400 hover:text-white transition-all whitespace-nowrap cursor-pointer" data-filter="sfx">Action & SFX</button>
-            </div>
-          </div>
-        </div>
-        <div id="script-panels-list" class="space-y-4"></div>
+        <div id="script-panels-list" class="w-full"></div>
       `;
 
       activeScriptData = null;
@@ -2020,8 +2126,9 @@
           renderScriptPanels(chap);
         } else {
           document.getElementById('script-panels-list').innerHTML = `
-            <div class="text-center py-12 text-zinc-500 text-xs font-orbitron">
-              Screenplay JSON is staging in the pipeline.
+            <div class="text-center py-16 text-zinc-500 text-xs font-orbitron space-y-2">
+              <svg class="w-8 h-8 mx-auto text-purple-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+              <p>Webnovel manuscript for Chapter ${chap.number} is staging.</p>
             </div>
           `;
         }
@@ -2055,7 +2162,184 @@
       container.innerHTML = '';
 
       const panels = activeScriptData.panels;
+      const nextIdx = currentChapterIndex + 1;
+      const nextChap = nextIdx < CHAPTERS_DATA.length ? CHAPTERS_DATA[nextIdx] : null;
+
+      // ==========================================
+      // MODE 1: PURE WEBNOVEL PROSE (Default)
+      // ==========================================
+      if (novelLayoutMode === 'prose') {
+        const themeClass = novelTheme === 'parchment' ? 'novel-theme-parchment' : (novelTheme === 'midnight' ? 'novel-theme-midnight' : 'novel-theme-dark');
+        const fontClass = novelFontFamily === 'serif' ? 'novel-serif' : 'novel-sans';
+
+        let proseHtml = '';
+        panels.forEach((p, pIdx) => {
+          const action = p.action || '';
+          const sfx = p.sfx || '';
+          const dialogues = p.dialogue || p.bubbles || [];
+
+          if (action) {
+            proseHtml += `<p class="novel-para mb-3 tracking-normal text-left">${escapeHtml(action)}</p>`;
+          }
+
+          if (sfx) {
+            proseHtml += `<div class="novel-sfx text-center my-3 text-purple-400 font-bold font-orbitron italic tracking-widest text-xs sm:text-sm">* ${escapeHtml(sfx)} *</div>`;
+          }
+
+          dialogues.forEach(d => {
+            const type = (d.type || '').toLowerCase();
+            const speaker = d.speaker || (type === 'thought' ? 'Ha-Jun' : (type === 'system' ? 'SYSTEM' : 'Voice'));
+            const text = d.text || '';
+            if (!text) return;
+
+            if (type === 'system' || speaker.toUpperCase() === 'SYSTEM') {
+              proseHtml += `
+                <div class="novel-system-box my-4 p-4 rounded-xl bg-cyan-950/40 border border-cyan-500/60 font-mono text-cyan-300 shadow-md flex items-center gap-3">
+                  <span class="w-2.5 h-2.5 rounded-full bg-cyan-400 animate-pulse shrink-0"></span>
+                  <span class="font-bold tracking-wide">${escapeHtml(text)}</span>
+                </div>
+              `;
+            } else if (type === 'thought') {
+              proseHtml += `
+                <p class="novel-thought my-3 pl-4 border-l-2 border-purple-500/60 text-purple-200/90 italic">
+                  "${escapeHtml(text)}" <span class="text-[11px] not-italic text-zinc-500">— (${speaker}'s thought)</span>
+                </p>
+              `;
+            } else if (type === 'whisper') {
+              proseHtml += `
+                <p class="novel-whisper my-3 pl-4 border-l-2 border-zinc-700 text-zinc-400 italic">
+                  ... "${escapeHtml(text)}" ...
+                </p>
+              `;
+            } else if (type === 'shout') {
+              proseHtml += `
+                <p class="novel-dialogue my-3 font-semibold text-amber-200">
+                  <span class="text-amber-400 font-bold uppercase">${speaker}:</span> "${escapeHtml(text)}"
+                </p>
+              `;
+            } else if (type === 'narration') {
+              proseHtml += `
+                <p class="novel-narration my-3 text-zinc-300 italic">
+                  ${escapeHtml(text)}
+                </p>
+              `;
+            } else {
+              proseHtml += `
+                <p class="novel-dialogue my-3 text-zinc-100">
+                  <span class="text-purple-400 font-bold">${speaker}:</span> "${escapeHtml(text)}"
+                </p>
+              `;
+            }
+          });
+
+          if (pIdx > 0 && (pIdx + 1) % 5 === 0 && pIdx < panels.length - 1) {
+            proseHtml += `<div class="novel-divider text-center my-6 text-zinc-600 font-serif tracking-widest text-sm">— • —</div>`;
+          }
+        });
+
+        const readerCard = document.createElement('div');
+        readerCard.className = `webnovel-wrapper ${themeClass} ${fontClass} rounded-2xl border p-5 sm:p-10 shadow-2xl transition-all duration-200`;
+        readerCard.innerHTML = `
+          <!-- Top Webnovel Toolbar -->
+          <div class="flex flex-wrap items-center justify-between gap-3 pb-4 border-b border-zinc-800/60 text-xs">
+            <div class="flex items-center gap-2">
+              <span class="text-[10px] font-bold text-purple-400 font-orbitron tracking-widest uppercase">WEBNOVEL EDITION</span>
+              <span class="text-zinc-600">•</span>
+              <span class="text-[11px] text-zinc-400 font-medium">⏱️ ~5 min read</span>
+            </div>
+            
+            <div class="flex items-center gap-2">
+              <!-- Font Size -->
+              <div class="flex items-center bg-zinc-900/90 border border-zinc-800 rounded-lg p-0.5 text-[11px]">
+                <button onclick="changeNovelFontSize(-2)" class="px-2 py-0.5 rounded hover:bg-zinc-800 text-zinc-300 font-bold cursor-pointer" title="Smaller font">A-</button>
+                <span class="px-2 py-0.5 text-purple-400 font-mono font-bold">${novelFontSize}px</span>
+                <button onclick="changeNovelFontSize(2)" class="px-2 py-0.5 rounded hover:bg-zinc-800 text-zinc-300 font-bold cursor-pointer" title="Larger font">A+</button>
+              </div>
+
+              <!-- Font Family Toggle -->
+              <button onclick="toggleNovelFontFamily()" class="px-2.5 py-1 bg-zinc-900/90 hover:bg-zinc-800 border border-zinc-800 rounded-lg text-[11px] font-medium text-zinc-300 transition-all cursor-pointer">
+                ${novelFontFamily === 'serif' ? 'Serif' : 'Sans'}
+              </button>
+
+              <!-- Themes -->
+              <div class="flex items-center bg-zinc-900/90 border border-zinc-800 rounded-lg p-0.5 text-[11px]">
+                <button onclick="setNovelTheme('dark')" class="w-6 h-6 rounded flex items-center justify-center ${novelTheme === 'dark' ? 'bg-purple-950 border border-purple-500' : ''} text-purple-300 cursor-pointer" title="Dark Theme">🌙</button>
+                <button onclick="setNovelTheme('parchment')" class="w-6 h-6 rounded flex items-center justify-center ${novelTheme === 'parchment' ? 'bg-amber-100 border border-amber-600' : ''} text-amber-900 cursor-pointer" title="Parchment Sepia">📜</button>
+                <button onclick="setNovelTheme('midnight')" class="w-6 h-6 rounded flex items-center justify-center ${novelTheme === 'midnight' ? 'bg-zinc-950 border border-zinc-600' : ''} text-zinc-400 cursor-pointer" title="OLED Black">⬛</button>
+              </div>
+
+              <!-- TTS Audio -->
+              <button onclick="toggleNovelSpeech()" class="flex items-center gap-1.5 px-3 py-1 ${isNovelSpeaking ? 'bg-rose-900 text-white' : 'bg-purple-950 hover:bg-purple-900 border border-purple-700/60 text-purple-300'} rounded-lg text-[11px] font-bold transition-all cursor-pointer">
+                <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+                <span>${isNovelSpeaking ? 'Stop' : 'Listen'}</span>
+              </button>
+
+              <!-- Storyboard Cards Toggle -->
+              <button onclick="toggleNovelLayoutMode()" class="px-2.5 py-1 bg-zinc-900/90 hover:bg-zinc-800 border border-zinc-800 rounded-lg text-[11px] text-zinc-400 hover:text-white transition-all cursor-pointer" title="Switch to Storyboard View">
+                Cards
+              </button>
+            </div>
+          </div>
+
+          <!-- Webnovel Header (Reborn / Light Novel style like user screenshot) -->
+          <div class="text-center py-6 border-b border-zinc-800/60 space-y-2">
+            <div class="text-[11px] tracking-widest uppercase font-bold text-purple-400 font-orbitron">${chap.arc}</div>
+            <h1 class="text-2xl sm:text-3xl font-black font-cinzel text-white tracking-wide">${chap.title} [${chap.number}]</h1>
+            <p class="text-xs text-zinc-400 italic">Demon Sovereign's Bloodline • Official Webnovel Adaptation</p>
+            <div class="novel-divider text-zinc-600 font-serif pt-2 tracking-widest text-sm">— • —</div>
+          </div>
+
+          <!-- Main Webnovel Text Area -->
+          <div class="novel-body pt-6 text-left" style="font-size: ${novelFontSize}px; line-height: 1.85;">
+            ${proseHtml}
+          </div>
+
+          <!-- End of Chapter Footer -->
+          <div class="mt-10 pt-6 border-t border-zinc-800/60 text-center space-y-4">
+            <div class="novel-divider text-zinc-600 font-serif tracking-widest text-sm">— • —</div>
+            <p class="text-xs text-zinc-400 italic">You have reached the end of Chapter ${chap.number}.</p>
+            ${nextChap ? `
+              <button onclick="loadChapter(${nextIdx}); switchViewMode('script');" class="px-6 py-3 bg-gradient-to-r from-purple-600 via-fuchsia-600 to-amber-500 hover:opacity-95 text-white font-bold text-xs uppercase tracking-wider rounded-xl shadow-lg shadow-purple-600/30 transition-all font-orbitron cursor-pointer flex items-center justify-center gap-2 mx-auto">
+                <span>Read Chapter ${nextChap.number} Webnovel Edition →</span>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+              </button>
+            ` : ''}
+          </div>
+        `;
+        container.appendChild(readerCard);
+        return;
+      }
+
+      // ==========================================
+      // MODE 2: STORYBOARD CARDS (Creator Mode)
+      // ==========================================
       let matchedCount = 0;
+      const toolbarCard = document.createElement('div');
+      toolbarCard.className = "sovereign-card rounded-2xl p-6 space-y-4 border-purple-500/30";
+      toolbarCard.innerHTML = `
+        <div class="flex items-center justify-between text-xs font-bold text-purple-400 font-orbitron">
+          <span>CHAPTER ${chap.number} STORYBOARD</span>
+          <button onclick="toggleNovelLayoutMode()" class="px-2.5 py-1 bg-purple-900/60 hover:bg-purple-800 border border-purple-600 rounded-lg text-purple-200 cursor-pointer">
+            ← Switch to Webnovel Reader
+          </button>
+        </div>
+        <div>
+          <h2 class="text-xl sm:text-2xl font-bold font-cinzel text-white">${chap.title}</h2>
+          <p class="text-xs text-zinc-400 leading-relaxed mt-1">${chap.desc}</p>
+        </div>
+        <div class="pt-3 border-t border-zinc-800/80 space-y-3">
+          <div class="relative">
+            <input id="script-search-input" oninput="onScriptSearch(this.value)" value="${escapeHtml(scriptSearchQuery)}" type="text" placeholder="Search dialogue, actions, spells, sound effects..." class="w-full bg-zinc-950 border border-zinc-800 focus:border-purple-500 rounded-xl px-4 py-2.5 text-xs text-zinc-200 placeholder-zinc-500 focus:outline-none transition-all">
+          </div>
+          <div class="flex items-center gap-1.5 overflow-x-auto pb-1 text-[11px] font-bold" id="script-filter-chips">
+            <button onclick="setScriptSpeakerFilter('all')" class="script-chip px-3 py-1 rounded-full ${activeSpeakerFilter==='all'?'bg-purple-600 text-white':'bg-zinc-900 text-zinc-400'} whitespace-nowrap cursor-pointer">All (${panels.length})</button>
+            <button onclick="setScriptSpeakerFilter('hajun')" class="script-chip px-3 py-1 rounded-full ${activeSpeakerFilter==='hajun'?'bg-purple-600 text-white':'bg-zinc-900 text-zinc-400'} whitespace-nowrap cursor-pointer">Ha-Jun</button>
+            <button onclick="setScriptSpeakerFilter('kuro')" class="script-chip px-3 py-1 rounded-full ${activeSpeakerFilter==='kuro'?'bg-purple-600 text-white':'bg-zinc-900 text-zinc-400'} whitespace-nowrap cursor-pointer">Kuro</button>
+            <button onclick="setScriptSpeakerFilter('system')" class="script-chip px-3 py-1 rounded-full ${activeSpeakerFilter==='system'?'bg-purple-600 text-white':'bg-zinc-900 text-zinc-400'} whitespace-nowrap cursor-pointer">System</button>
+          </div>
+        </div>
+      `;
+      container.appendChild(toolbarCard);
 
       panels.forEach((p, pIdx) => {
         const panelId = p.id || `P${String(pIdx + 1).padStart(2, '0')}`;
@@ -2067,23 +2351,19 @@
         const setting = p.setting || '';
         const mood = p.mood || '';
 
-        // Speaker filter logic
         if (activeSpeakerFilter !== 'all') {
-          if (activeSpeakerFilter === 'sfx') {
-            if (!sfx && !action.toLowerCase().includes('blast') && !action.toLowerCase().includes('strike') && !action.toLowerCase().includes('roar')) return;
-          } else if (activeSpeakerFilter === 'hajun') {
+          if (activeSpeakerFilter === 'hajun') {
             const hasHajun = characters.some(c => c.toLowerCase().includes('hajun')) || dialogues.some(d => (d.speaker || d.type || '').toLowerCase().includes('hajun'));
             if (!hasHajun) return;
           } else if (activeSpeakerFilter === 'kuro') {
             const hasKuro = characters.some(c => c.toLowerCase().includes('kuro')) || dialogues.some(d => (d.speaker || d.type || '').toLowerCase().includes('kuro'));
             if (!hasKuro) return;
           } else if (activeSpeakerFilter === 'system') {
-            const hasSys = dialogues.some(d => (d.speaker || d.type || '').toLowerCase().includes('system') || (d.speaker || d.type || '').toLowerCase().includes('prompt'));
+            const hasSys = dialogues.some(d => (d.speaker || d.type || '').toLowerCase().includes('system'));
             if (!hasSys) return;
           }
         }
 
-        // Search query filter logic
         if (scriptSearchQuery) {
           const fullText = `${panelId} ${shot} ${setting} ${mood} ${action} ${sfx} ${dialogues.map(d => d.text + ' ' + (d.speaker||d.type||'')).join(' ')}`.toLowerCase();
           if (!fullText.includes(scriptSearchQuery)) return;
@@ -2091,42 +2371,19 @@
 
         matchedCount++;
 
-        // Build dialogue HTML with TTS and Copy buttons
         let dialogueHtml = '';
         if (dialogues.length > 0) {
           dialogues.forEach(d => {
             const spk = (d.speaker || d.type || 'Dialogue').toUpperCase();
-            let borderClass = 'border-purple-500 bg-purple-950/40 text-purple-300';
-            let avatarSvg = '<svg class="w-3.5 h-3.5 text-purple-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>';
-            if (spk.includes('KURO')) {
-              borderClass = 'border-rose-600 bg-rose-950/40 text-rose-300';
-              avatarSvg = '<svg class="w-3.5 h-3.5 text-rose-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"/><line x1="16" y1="8" x2="2" y2="22"/></svg>';
-            } else if (spk.includes('SYSTEM')) {
-              borderClass = 'border-cyan-500 bg-cyan-950/40 text-cyan-300 font-mono';
-              avatarSvg = '<svg class="w-3.5 h-3.5 text-cyan-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>';
-            } else if (spk.includes('TAE-JUN') || spk.includes('BROTHER')) {
-              borderClass = 'border-amber-500 bg-amber-950/40 text-amber-300';
-              avatarSvg = '<svg class="w-3.5 h-3.5 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="14.5 17.5 3 6 3 3 6 3 17.5 14.5"/><line x1="13" y1="19" x2="19" y2="13"/><line x1="16" y1="16" x2="20" y2="20"/></svg>';
-            }
-
             const cleanText = (d.text || '').replace(/"/g, '&quot;');
             dialogueHtml += `
-              <div class="border-l-2 ${borderClass} p-3 rounded-r-xl text-xs space-y-1.5 transition-all">
+              <div class="border-l-2 border-purple-500 bg-purple-950/40 p-3 rounded-r-xl text-xs space-y-1.5 transition-all">
                 <div class="flex items-center justify-between text-[10px] font-bold">
-                  <span class="flex items-center gap-2 uppercase tracking-wider">
-                    ${avatarSvg}
-                    <span>${spk}</span>
-                  </span>
-                  <div class="flex items-center gap-3">
-                    <button onclick="speakDialogue('${cleanText.replace(/'/g, "\\'")}', '${spk}')" class="text-zinc-400 hover:text-purple-300 transition-colors cursor-pointer flex items-center gap-1" title="Listen voice">
-                      <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
-                      <span>Listen</span>
-                    </button>
-                    <button onclick="copyDialogue('${cleanText.replace(/'/g, "\\'")}')" class="text-zinc-400 hover:text-white transition-colors cursor-pointer flex items-center gap-1" title="Copy text">
-                      <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
-                      <span>Copy</span>
-                    </button>
-                  </div>
+                  <span class="text-purple-300 uppercase tracking-wider">${spk}</span>
+                  <button onclick="speakDialogue('${cleanText.replace(/'/g, "\\'")}', '${spk}')" class="text-zinc-400 hover:text-purple-300 transition-colors cursor-pointer flex items-center gap-1" title="Listen voice">
+                    <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+                    <span>Listen</span>
+                  </button>
                 </div>
                 <p class="text-zinc-100 font-medium leading-relaxed">"${d.text}"</p>
               </div>
@@ -2134,22 +2391,8 @@
           });
         }
 
-        // Panel image preview if available
-        let panelThumb = '';
-        if (chap.panels && chap.panels[pIdx]) {
-          panelThumb = `
-            <div class="relative group cursor-pointer overflow-hidden rounded-lg border border-zinc-800 max-w-[120px] shrink-0" onclick="openLightbox(CHAPTERS_DATA[currentChapterIndex], ${pIdx})">
-              <img src="${chap.panels[pIdx]}" alt="${panelId}" class="w-full h-auto object-cover group-hover:scale-105 transition-transform" loading="lazy">
-              <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-1 text-[10px] font-bold text-purple-300 font-orbitron backdrop-blur-xs">
-                <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-                <span>Inspect HD</span>
-              </div>
-            </div>
-          `;
-        }
-
         const card = document.createElement('div');
-        card.className = "bg-zinc-950/80 border border-zinc-800/80 hover:border-purple-500/50 rounded-xl p-4 sm:p-5 space-y-3 transition-all";
+        card.className = "bg-zinc-950/80 border border-zinc-800/80 hover:border-purple-500/50 rounded-xl p-4 sm:p-5 space-y-3 transition-all my-4";
         card.innerHTML = `
           <div class="flex items-center justify-between text-xs border-b border-zinc-900 pb-2">
             <div class="flex items-center gap-2">
@@ -2158,23 +2401,15 @@
             </div>
             ${setting ? `<span class="text-zinc-500 text-[10px] bg-zinc-900 px-2 py-0.5 rounded-full border border-zinc-800">${setting}</span>` : ''}
           </div>
-
-          <div class="flex flex-col sm:flex-row gap-3">
-            ${panelThumb}
-            <div class="flex-1 space-y-2">
-              <p class="text-xs text-zinc-300 leading-relaxed">${action}</p>
-              ${mood ? `<div class="text-[10px] text-zinc-500 italic">Mood: ${mood}</div>` : ''}
-              ${sfx ? `<div class="inline-block text-[11px] font-black text-amber-400 font-orbitron bg-amber-950/40 px-2.5 py-0.5 rounded-md border border-amber-600/40">SFX: ${sfx}</div>` : ''}
-            </div>
-          </div>
-
+          <p class="text-xs text-zinc-300 leading-relaxed">${action}</p>
+          ${sfx ? `<div class="inline-block text-[11px] font-black text-amber-400 font-orbitron bg-amber-950/40 px-2.5 py-0.5 rounded-md border border-amber-600/40">SFX: ${sfx}</div>` : ''}
           ${dialogueHtml}
         `;
         container.appendChild(card);
       });
 
       if (matchedCount === 0) {
-        container.innerHTML = `
+        container.innerHTML += `
           <div class="text-center py-10 text-zinc-500 text-xs font-orbitron">
             No panels matched filter "${activeSpeakerFilter}" with query "${scriptSearchQuery}".
           </div>
@@ -2841,7 +3076,7 @@
     // Register Service Worker for Offline PWA
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('./sw.js?v=4').then(reg => {
+        navigator.serviceWorker.register('./sw.js?v=5').then(reg => {
           reg.update();
         }).catch((err) => {
           console.warn('SW registration failed:', err);
