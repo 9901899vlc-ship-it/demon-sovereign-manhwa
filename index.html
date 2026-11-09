@@ -113,9 +113,9 @@
     <!-- Right Quick Actions -->
     <div class="flex items-center gap-2">
       <!-- Ambience Rain Audio Synthesizer -->
-      <button id="ambience-btn" onclick="toggleAmbience()" class="flex items-center gap-1.5 bg-zinc-900 hover:bg-zinc-800 border border-zinc-800 px-2.5 py-1.5 rounded-lg text-xs font-bold text-zinc-400 hover:text-purple-300 transition-all cursor-pointer" title="Toggle Rainy Rooftop Ambience">
-        <span id="ambience-icon">⛈️</span>
-        <span id="ambience-text" class="hidden md:inline text-[11px]">Rain OST</span>
+      <button id="ambience-btn" onclick="toggleAmbience()" class="flex items-center gap-2 bg-zinc-900/90 hover:bg-zinc-800 border border-zinc-800 px-3 py-1.5 rounded-xl text-xs font-bold text-zinc-300 hover:text-purple-300 transition-all cursor-pointer shadow-sm" title="Toggle Demonic Rooftop Ambience">
+        <span id="ambience-icon"><svg class="w-3.5 h-3.5 text-purple-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></span>
+        <span id="ambience-text" class="hidden md:inline text-[11px] font-orbitron">OST Ambience</span>
       </button>
 
       <!-- View Mode Selector -->
@@ -131,28 +131,34 @@
       </button>
 
       <!-- Relics Codex & Bible Toggle -->
-      <button onclick="switchTab('relics')" class="hidden sm:flex items-center gap-1.5 bg-zinc-900 hover:bg-zinc-800 border border-zinc-700/80 px-2.5 py-1.5 rounded-lg text-xs font-bold text-amber-400 transition-all cursor-pointer">
-        <span>👑 Relics</span>
+      <button onclick="switchTab('relics')" class="hidden sm:flex items-center gap-1.5 bg-zinc-900/90 hover:bg-zinc-800 border border-zinc-700/80 px-3 py-1.5 rounded-xl text-xs font-bold text-amber-400 transition-all cursor-pointer shadow-sm">
+        <svg class="w-4 h-4 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 16L3 5l5.5 5L12 4l3.5 6L21 5l-2 11H5zm14 3c0 .6-.4 1-1 1H6c-.6 0-1-.4-1-1v-1h14v1z"/></svg>
+        <span>Relics</span>
       </button>
     </div>
   </header>
 
   <!-- Navigation Tabs (Mobile & Desktop) -->
-  <nav class="bg-zinc-950/80 border-b border-zinc-800/80 px-3 py-1.5 flex items-center justify-center gap-2 sm:gap-6 text-xs font-bold text-zinc-400 overflow-x-auto">
-    <button onclick="switchTab('reader')" id="tab-btn-reader" class="text-purple-400 border-b-2 border-purple-500 pb-1 px-2 flex items-center gap-1.5">
-      <span>📖 Webtoon</span>
+  <nav class="bg-zinc-950/90 backdrop-blur-md border-b border-zinc-800/80 px-3 py-2 flex items-center justify-center gap-2 sm:gap-6 text-xs font-bold text-zinc-400 overflow-x-auto">
+    <button onclick="switchTab('reader')" id="tab-btn-reader" class="text-purple-400 border-b-2 border-purple-500 pb-1.5 px-3 flex items-center cursor-pointer transition-all">
+      <svg class="w-4 h-4 text-purple-400 inline mr-1.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+      <span>Webtoon</span>
     </button>
-    <button onclick="switchTab('bible')" id="tab-btn-bible" class="hover:text-zinc-200 pb-1 px-2 flex items-center gap-1.5">
-      <span>📜 100-Chapter Saga</span>
+    <button onclick="switchTab('bible')" id="tab-btn-bible" class="hover:text-zinc-200 pb-1.5 px-3 flex items-center cursor-pointer transition-all">
+      <svg class="w-4 h-4 text-zinc-400 inline mr-1.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+      <span>100-Chapter Saga</span>
     </button>
-    <button onclick="switchTab('relics')" id="tab-btn-relics" class="hover:text-zinc-200 pb-1 px-2 flex items-center gap-1.5">
-      <span>💎 10 Relics</span>
+    <button onclick="switchTab('relics')" id="tab-btn-relics" class="hover:text-zinc-200 pb-1.5 px-3 flex items-center cursor-pointer transition-all">
+      <svg class="w-4 h-4 text-amber-400 inline mr-1.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3h12l4 6-10 12L2 9z"/><path d="M11 3L8 9l4 12 4-12-3-6"/><path d="M2 9h20"/></svg>
+      <span>10 Relics</span>
     </button>
-    <button onclick="switchTab('characters')" id="tab-btn-characters" class="hover:text-zinc-200 pb-1 px-2 flex items-center gap-1.5">
-      <span>👥 Characters</span>
+    <button onclick="switchTab('characters')" id="tab-btn-characters" class="hover:text-zinc-200 pb-1.5 px-3 flex items-center cursor-pointer transition-all">
+      <svg class="w-4 h-4 text-fuchsia-400 inline mr-1.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+      <span>Characters</span>
     </button>
-    <button onclick="switchTab('production')" id="tab-btn-production" class="hover:text-zinc-200 pb-1 px-2 flex items-center gap-1.5 text-emerald-400">
-      <span>⚡ Live Status</span>
+    <button onclick="switchTab('production')" id="tab-btn-production" class="hover:text-zinc-200 pb-1.5 px-3 flex items-center cursor-pointer transition-all text-emerald-400">
+      <svg class="w-4 h-4 text-emerald-400 inline mr-1.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+      <span>Pipeline</span>
     </button>
   </nav>
 
@@ -404,7 +410,7 @@
       <!-- Continue Reading Banner (if progress saved) -->
       <div id="continue-reading-banner" class="hidden my-3 p-3 rounded-xl bg-gradient-to-r from-purple-950/80 via-zinc-900 to-zinc-950 border border-purple-600/40 flex items-center justify-between shadow-lg">
         <div>
-          <span class="text-[9px] font-bold text-purple-400 font-orbitron uppercase tracking-wider">🔖 LAST READ</span>
+          <span class="text-[9px] font-bold text-purple-400 font-orbitron uppercase tracking-wider flex items-center"><svg class="w-3.5 h-3.5 text-purple-400 inline mr-1.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg> LAST READ</span>
           <h4 id="continue-reading-title" class="text-xs font-bold text-white truncate max-w-[200px]">Chapter 4: The Drifting Feather</h4>
         </div>
         <button onclick="resumeReading()" class="px-3 py-1.5 bg-purple-600 hover:bg-purple-500 text-white font-bold text-[11px] rounded-lg shadow-md transition-all">
@@ -470,30 +476,33 @@
     </div>
   </div>
 
-  <!-- Bottom Floating Navigation & Auto-Scroll Bar -->
-  <div class="fixed bottom-3 left-1/2 -translate-x-1/2 z-40 bg-zinc-950/95 backdrop-blur-md border border-purple-900/50 rounded-full px-3 py-1.5 flex items-center gap-2.5 shadow-2xl text-[11px] text-zinc-300 select-none">
-    <button onclick="prevChapter()" class="hover:text-purple-400 transition-colors flex items-center gap-1 font-bold cursor-pointer px-1.5 py-0.5">
-      <span>⏮ Prev</span>
+  <!-- Bottom Floating Navigation & Auto-Scroll Dock -->
+  <div class="fixed bottom-4 left-1/2 -translate-x-1/2 z-40 bg-zinc-950/95 backdrop-blur-xl border border-purple-500/30 rounded-full px-4 py-2 flex items-center gap-3 shadow-[0_10px_35px_rgba(0,0,0,0.9)] text-[11px] text-zinc-200 select-none">
+    <button onclick="prevChapter()" class="hover:text-purple-400 transition-colors flex items-center gap-1.5 font-bold cursor-pointer px-2 py-1" title="Previous Chapter">
+      <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="19 20 9 12 19 4 19 20"/><line x1="5" y1="19" x2="5" y2="5"/></svg>
+      <span class="hidden sm:inline">Prev</span>
     </button>
     <span class="text-zinc-700">|</span>
     
     <!-- Auto-Scroll Toggle -->
-    <button id="auto-scroll-btn" onclick="toggleAutoScroll()" class="px-2.5 py-1 rounded-full bg-zinc-900 hover:bg-zinc-800 text-zinc-300 font-bold transition-all flex items-center gap-1 cursor-pointer">
-      <span>▶ Scroll</span>
+    <button id="auto-scroll-btn" onclick="toggleAutoScroll()" class="px-3 py-1 rounded-full bg-zinc-900 hover:bg-zinc-800 text-zinc-200 font-bold transition-all flex items-center gap-1.5 cursor-pointer border border-zinc-800">
+      <span id="auto-scroll-icon"><svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg></span>
+      <span>Auto-Scroll</span>
     </button>
     
     <!-- Scroll Speed Selector -->
-    <div class="hidden sm:flex items-center gap-1 bg-zinc-900/80 rounded-full p-0.5 text-[10px]">
-      <button id="speed-1" onclick="setAutoScrollSpeed(1)" class="px-2 py-0.5 rounded-full bg-purple-600 text-white font-bold transition-all">1x</button>
-      <button id="speed-2" onclick="setAutoScrollSpeed(2)" class="px-2 py-0.5 rounded-full text-zinc-400 hover:text-white transition-all">2x</button>
-      <button id="speed-3" onclick="setAutoScrollSpeed(3.5)" class="px-2 py-0.5 rounded-full text-zinc-400 hover:text-white transition-all">3x</button>
+    <div class="hidden sm:flex items-center gap-1 bg-zinc-900/90 border border-zinc-800/80 rounded-full p-0.5 text-[10px]">
+      <button id="speed-1" onclick="setAutoScrollSpeed(1)" class="px-2.5 py-0.5 rounded-full bg-purple-600 text-white font-bold transition-all">1x</button>
+      <button id="speed-2" onclick="setAutoScrollSpeed(2)" class="px-2.5 py-0.5 rounded-full text-zinc-400 hover:text-white transition-all">2x</button>
+      <button id="speed-3" onclick="setAutoScrollSpeed(3.5)" class="px-2.5 py-0.5 rounded-full text-zinc-400 hover:text-white transition-all">3x</button>
     </div>
 
     <span class="text-zinc-700">|</span>
     <span id="page-percent" class="text-purple-400 font-bold font-orbitron text-xs">0%</span>
     <span class="text-zinc-700">|</span>
-    <button onclick="nextChapter()" class="hover:text-purple-400 transition-colors flex items-center gap-1 font-bold cursor-pointer px-1.5 py-0.5">
-      <span>Next ⏭</span>
+    <button onclick="nextChapter()" class="hover:text-purple-400 transition-colors flex items-center gap-1.5 font-bold cursor-pointer px-2 py-1" title="Next Chapter">
+      <span class="hidden sm:inline">Next</span>
+      <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="5 4 15 12 5 20 5 4"/><line x1="19" y1="5" x2="19" y2="19"/></svg>
     </button>
   </div>
 
@@ -504,10 +513,11 @@
     <div class="sovereign-card rounded-2xl w-full max-w-sm p-6 space-y-5 shadow-2xl border-purple-500/30">
       <div class="flex items-center justify-between pb-3 border-b border-zinc-800">
         <h3 class="text-sm font-bold font-cinzel text-white flex items-center gap-2">
-          <span>⚙️ READER SETTINGS</span>
+          <svg class="w-4 h-4 text-purple-400 inline mr-1.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+          <span>READER SETTINGS</span>
         </h3>
-        <button onclick="toggleModal('settings-modal')" class="p-1 hover:bg-zinc-900 rounded-full text-zinc-400 hover:text-white">
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        <button onclick="toggleModal('settings-modal')" class="p-1.5 hover:bg-zinc-900 rounded-full text-zinc-400 hover:text-white transition-colors cursor-pointer">
+          <svg class="w-4 h-4 inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
         </button>
       </div>
 
@@ -537,20 +547,31 @@
           <span id="ambience-vol-val" class="text-purple-400 font-mono">20%</span>
         </div>
         <div class="grid grid-cols-3 gap-1.5 text-[10px] font-bold">
-          <button id="amb-mode-both" onclick="setAmbienceMode('both')" class="p-1.5 rounded-lg bg-purple-600 text-white border border-purple-400 transition-all">🌌 Dual OST</button>
-          <button id="amb-mode-rain" onclick="setAmbienceMode('rain')" class="p-1.5 rounded-lg bg-zinc-900 text-zinc-400 border border-zinc-800 hover:border-purple-500 transition-all">⛈️ Rain Only</button>
-          <button id="amb-mode-mana" onclick="setAmbienceMode('mana')" class="p-1.5 rounded-lg bg-zinc-900 text-zinc-400 border border-zinc-800 hover:border-purple-500 transition-all">🔮 Mana Drone</button>
+          <button id="amb-mode-both" onclick="setAmbienceMode('both')" class="p-2 rounded-lg bg-purple-600 text-white border border-purple-400 transition-all flex items-center justify-center gap-1 cursor-pointer">
+            <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            <span>Dual OST</span>
+          </button>
+          <button id="amb-mode-rain" onclick="setAmbienceMode('rain')" class="p-2 rounded-lg bg-zinc-900 text-zinc-400 border border-zinc-800 hover:border-purple-500 transition-all flex items-center justify-center gap-1 cursor-pointer">
+            <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="16" y1="13" x2="16" y2="21"/><line x1="8" y1="13" x2="8" y2="21"/><line x1="12" y1="15" x2="12" y2="23"/><path d="M20 16.58A5 5 0 0 0 18 7h-1.26A8 8 0 1 0 4 15.25"/></svg>
+            <span>Rain Only</span>
+          </button>
+          <button id="amb-mode-mana" onclick="setAmbienceMode('mana')" class="p-2 rounded-lg bg-zinc-900 text-zinc-400 border border-zinc-800 hover:border-purple-500 transition-all flex items-center justify-center gap-1 cursor-pointer">
+            <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            <span>Mana Drone</span>
+          </button>
         </div>
         <input id="ambience-slider" oninput="setAmbienceVolume(this.value)" type="range" min="0" max="100" value="20" class="w-full accent-purple-500 cursor-pointer mt-1">
       </div>
 
       <!-- Fullscreen & Shortcuts -->
       <div class="pt-2 border-t border-zinc-800 space-y-2">
-        <button onclick="toggleFullscreen()" class="w-full py-2 rounded-xl bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 text-xs font-bold text-zinc-200 flex items-center justify-center gap-2 transition-all">
-          <span>⛶ Toggle Fullscreen</span>
+        <button onclick="toggleFullscreen()" class="w-full py-2 rounded-xl bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 text-xs font-bold text-zinc-200 flex items-center justify-center gap-2 transition-all cursor-pointer">
+          <svg class="w-4 h-4 inline mr-1.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>
+          <span>Toggle Fullscreen</span>
         </button>
-        <button onclick="toggleModal('settings-modal'); toggleModal('shortcuts-modal');" class="w-full py-2 rounded-xl bg-zinc-950 hover:bg-zinc-900 border border-purple-900/50 text-xs font-bold text-purple-300 flex items-center justify-center gap-2 transition-all">
-          <span>⌨️ Keyboard Shortcuts (?)</span>
+        <button onclick="toggleModal('settings-modal'); toggleModal('shortcuts-modal');" class="w-full py-2 rounded-xl bg-zinc-950 hover:bg-zinc-900 border border-purple-900/50 text-xs font-bold text-purple-300 flex items-center justify-center gap-2 transition-all cursor-pointer">
+          <svg class="w-4 h-4 text-purple-400 inline mr-1.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2" ry="2"/><line x1="6" y1="8" x2="6" y2="8"/><line x1="10" y1="8" x2="10" y2="8"/><line x1="14" y1="8" x2="14" y2="8"/><line x1="18" y1="8" x2="18" y2="8"/><line x1="6" y1="12" x2="6" y2="12"/><line x1="10" y1="12" x2="10" y2="12"/><line x1="14" y1="12" x2="14" y2="12"/><line x1="18" y1="12" x2="18" y2="12"/><line x1="7" y1="16" x2="17" y2="16"/></svg>
+          <span>Keyboard Shortcuts</span>
         </button>
       </div>
     </div>
@@ -567,11 +588,12 @@
         <h3 id="lightbox-title" class="text-xs sm:text-sm font-bold font-orbitron text-purple-300">Panel Inspector</h3>
       </div>
       <div class="flex items-center gap-2 sm:gap-4">
-        <button onclick="toggleLightboxZoom()" class="px-2.5 py-1 rounded-lg bg-zinc-900 border border-zinc-700 hover:border-purple-500 text-xs font-bold text-zinc-300 transition-all">
-          🔍 Zoom
+        <button onclick="toggleLightboxZoom()" class="px-3 py-1.5 rounded-xl bg-zinc-900 border border-zinc-700 hover:border-purple-500 text-xs font-bold text-zinc-300 transition-all flex items-center gap-1.5 cursor-pointer">
+          <svg class="w-4 h-4 text-purple-400 inline mr-1.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <span>Zoom</span>
         </button>
-        <button onclick="closeLightbox()" class="p-1.5 rounded-full hover:bg-zinc-900 text-zinc-400 hover:text-white transition-all text-sm">
-          ✕
+        <button onclick="closeLightbox()" class="p-2 rounded-full hover:bg-zinc-900 text-zinc-400 hover:text-white transition-all cursor-pointer">
+          <svg class="w-4 h-4 inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
         </button>
       </div>
     </div>
@@ -583,12 +605,14 @@
 
     <!-- Lightbox Navigation Footer -->
     <div class="flex items-center justify-between text-white border-t border-zinc-800 pt-3 max-w-xl mx-auto w-full">
-      <button id="lightbox-prev" onclick="prevLightboxPanel()" class="px-4 py-2 rounded-xl bg-zinc-900 hover:bg-purple-950 border border-zinc-700 hover:border-purple-500 text-xs font-bold font-orbitron text-zinc-200 transition-all disabled:opacity-30 disabled:pointer-events-none">
-        ◀ Previous
+      <button id="lightbox-prev" onclick="prevLightboxPanel()" class="px-4 py-2 rounded-xl bg-zinc-900 hover:bg-purple-950 border border-zinc-700 hover:border-purple-500 text-xs font-bold font-orbitron text-zinc-200 transition-all disabled:opacity-30 disabled:pointer-events-none flex items-center gap-2 cursor-pointer">
+        <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="19 20 9 12 19 4 19 20"/><line x1="5" y1="19" x2="5" y2="5"/></svg>
+        <span>Previous</span>
       </button>
       <span id="lightbox-counter" class="text-xs font-bold font-orbitron text-purple-400">1 / 30</span>
-      <button id="lightbox-next" onclick="nextLightboxPanel()" class="px-4 py-2 rounded-xl bg-zinc-900 hover:bg-purple-950 border border-zinc-700 hover:border-purple-500 text-xs font-bold font-orbitron text-zinc-200 transition-all disabled:opacity-30 disabled:pointer-events-none">
-        Next ▶
+      <button id="lightbox-next" onclick="nextLightboxPanel()" class="px-4 py-2 rounded-xl bg-zinc-900 hover:bg-purple-950 border border-zinc-700 hover:border-purple-500 text-xs font-bold font-orbitron text-zinc-200 transition-all disabled:opacity-30 disabled:pointer-events-none flex items-center gap-2 cursor-pointer">
+        <span>Next</span>
+        <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="5 4 15 12 5 20 5 4"/><line x1="19" y1="5" x2="19" y2="19"/></svg>
       </button>
     </div>
   </div>
@@ -600,10 +624,11 @@
     <div class="sovereign-card rounded-2xl w-full max-w-md p-6 space-y-4 shadow-2xl border-purple-500/30">
       <div class="flex items-center justify-between pb-3 border-b border-zinc-800">
         <h3 class="text-sm font-bold font-orbitron text-purple-300 flex items-center gap-2">
-          <span>⌨️ KEYBOARD SHORTCUTS</span>
+          <svg class="w-4 h-4 text-purple-400 inline mr-1.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2" ry="2"/><line x1="6" y1="8" x2="6" y2="8"/><line x1="10" y1="8" x2="10" y2="8"/><line x1="14" y1="8" x2="14" y2="8"/><line x1="18" y1="8" x2="18" y2="8"/><line x1="6" y1="12" x2="6" y2="12"/><line x1="10" y1="12" x2="10" y2="12"/><line x1="14" y1="12" x2="14" y2="12"/><line x1="18" y1="12" x2="18" y2="12"/><line x1="7" y1="16" x2="17" y2="16"/></svg>
+          <span>KEYBOARD SHORTCUTS</span>
         </h3>
-        <button onclick="toggleModal('shortcuts-modal')" class="p-1 hover:bg-zinc-900 rounded-full text-zinc-400 hover:text-white">
-          ✕
+        <button onclick="toggleModal('shortcuts-modal')" class="p-1.5 hover:bg-zinc-900 rounded-full text-zinc-400 hover:text-white transition-colors cursor-pointer">
+          <svg class="w-4 h-4 inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
         </button>
       </div>
 
@@ -1840,14 +1865,15 @@
         audioBar.innerHTML = `
           <div class="flex items-center gap-3">
             <button id="dub-play-btn" onclick="toggleDubAudio('${chap.audioFile}')" class="w-10 h-10 rounded-full bg-gradient-to-r from-purple-600 to-fuchsia-600 flex items-center justify-center text-white font-bold shadow-lg shadow-purple-600/50 hover:scale-105 transition-all cursor-pointer">
-              <span id="dub-play-icon">▶</span>
+              <span id="dub-play-icon"><svg class="w-4 h-4 ml-0.5 fill-current" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg></span>
             </button>
             <div>
-              <span class="font-bold text-white font-orbitron flex items-center gap-1.5">
-                <span>🎙️ FULL VOICE ACTING DUB</span>
-                <span class="text-[9px] bg-purple-900 text-purple-300 px-1.5 py-0.2 rounded font-mono">EN/HI</span>
+              <span class="font-bold text-white font-orbitron flex items-center gap-2">
+                <svg class="w-4 h-4 text-purple-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+                <span>CINEMATIC VOICE DUB</span>
+                <span class="text-[9px] bg-purple-900 text-purple-300 px-2 py-0.5 rounded font-mono border border-purple-700/50">HINDI / ENG</span>
               </span>
-              <p class="text-[11px] text-zinc-400">Cinematic motion comic voice acting for Chapter ${chap.number}</p>
+              <p class="text-[11px] text-zinc-400">Synchronized motion comic audio acting for Chapter ${chap.number}</p>
             </div>
           </div>
           <div class="flex items-center gap-2">
@@ -1882,7 +1908,7 @@
             const btn = document.createElement('button');
             btn.className = "absolute bottom-3 right-3 bg-black/75 hover:bg-purple-900 border border-purple-500/60 text-purple-300 hover:text-white px-2.5 py-1 rounded-full text-[10px] font-bold backdrop-blur-sm shadow-xl transition-all flex items-center gap-1 cursor-pointer";
             btn.onclick = () => playPanelAudio(chap.panelAudios[pIdx]);
-            btn.innerHTML = "<span>🔊 Panel Audio</span>";
+            btn.innerHTML = '<svg class="w-3 h-3 text-purple-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg><span>Audio</span>';
             wrapper.appendChild(btn);
           }
 
@@ -1893,16 +1919,16 @@
         strip.innerHTML = `
           <div class="p-8 sm:p-12 text-center space-y-5">
             <div class="w-16 h-16 mx-auto rounded-full bg-purple-950/70 border border-purple-500/50 flex items-center justify-center text-3xl shadow-xl shadow-purple-900/40">
-              ${chap.status === 'in_production' ? '🎨' : '📜'}
+              ${chap.status === 'in_production' ? '<svg class="w-8 h-8 text-purple-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>' : '<svg class="w-8 h-8 text-purple-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>'}
             </div>
             <div class="space-y-2">
               <span class="inline-block px-3 py-1 bg-purple-950/80 border border-purple-700/60 rounded-full text-[11px] font-bold text-purple-300 font-orbitron">
-                ${chap.status === 'in_production' ? '⚡ 19/30 REAL ART PANELS COMPLETED' : '30-PANEL SCREENPLAY READY'}
+                ${chap.status === 'in_production' ? '<span class="flex items-center gap-1.5"><svg class="w-3.5 h-3.5 text-purple-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg> 19/30 REAL ART PANELS COMPLETED</span>' : '30-PANEL SCREENPLAY READY'}
               </span>
               <h3 class="text-xl sm:text-2xl font-black font-cinzel text-white">${chap.title}</h3>
               <p class="text-xs text-zinc-400 max-w-md mx-auto leading-relaxed">${chap.desc}</p>
               <div class="pt-1 text-[11px] font-semibold text-amber-400/90 font-orbitron">
-                ★ 100% Authentic Art Policy: Full chapter strip drops all at once when every panel is complete.
+                100% Authentic Art Policy: Full chapter strip drops all at once when every panel is complete.
               </div>
             </div>
             <div class="pt-3 flex flex-col sm:flex-row items-center justify-center gap-3">
@@ -1925,31 +1951,39 @@
       outroDiv.innerHTML = `
         <div class="space-y-2">
           <span class="inline-block px-3 py-1 bg-purple-950/80 border border-purple-700/60 rounded-full text-[11px] font-bold text-purple-300 font-orbitron">
-            ✓ CHAPTER ${chap.number} COMPLETE
+            <span class="flex items-center justify-center gap-1.5"><svg class="w-3.5 h-3.5 text-emerald-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> CHAPTER ${chap.number} COMPLETE</span>
           </span>
           <h3 class="text-xl sm:text-2xl font-black font-cinzel text-white">${chap.title}</h3>
           <p class="text-xs text-zinc-400 max-w-md mx-auto leading-relaxed">You have reached the end of Chapter ${chap.number}. Cast your Sovereign reaction:</p>
         </div>
 
         <!-- Reader Reactions Bar -->
-        <div class="grid grid-cols-4 gap-2 max-w-sm mx-auto">
-          <button onclick="voteReaction(${chap.number}, 'hype')" id="rx-hype-${chap.number}" class="bg-zinc-900/90 hover:bg-purple-950/60 border border-zinc-800 hover:border-purple-500/60 p-2.5 rounded-xl transition-all cursor-pointer flex flex-col items-center gap-1 group">
-            <span class="text-xl group-hover:scale-125 transition-transform">🔥</span>
+        <div class="grid grid-cols-4 gap-2.5 max-w-sm mx-auto">
+          <button onclick="voteReaction(${chap.number}, 'hype')" id="rx-hype-${chap.number}" class="bg-zinc-900/90 hover:bg-purple-950/60 border border-zinc-800 hover:border-purple-500/60 p-3 rounded-2xl transition-all cursor-pointer flex flex-col items-center gap-1.5 group">
+            <span class="w-6 h-6 flex items-center justify-center text-amber-500 group-hover:scale-125 transition-transform">
+              <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 23c-4.97 0-9-4.03-9-9 0-3.69 2.23-6.85 5.43-8.21.36-.15.77.01.93.36.16.36.03.78-.3 1-1.39.95-2.06 2.47-2.06 4.35 0 2.76 2.24 5 5 5s5-2.24 5-5c0-1.88-.67-3.4-2.06-4.35-.33-.22-.46-.64-.3-1 .16-.35.57-.51.93-.36C18.77 7.15 21 10.31 21 14c0 4.97-4.03 9-9 9z"/></svg>
+            </span>
             <span class="text-[10px] font-bold text-zinc-400">Hype</span>
             <span id="rx-cnt-hype-${chap.number}" class="text-[10px] font-mono text-purple-300 font-bold">${savedReactions.hype}</span>
           </button>
-          <button onclick="voteReaction(${chap.number}, 'aura')" id="rx-aura-${chap.number}" class="bg-zinc-900/90 hover:bg-purple-950/60 border border-zinc-800 hover:border-purple-500/60 p-2.5 rounded-xl transition-all cursor-pointer flex flex-col items-center gap-1 group">
-            <span class="text-xl group-hover:scale-125 transition-transform">💜</span>
+          <button onclick="voteReaction(${chap.number}, 'aura')" id="rx-aura-${chap.number}" class="bg-zinc-900/90 hover:bg-purple-950/60 border border-zinc-800 hover:border-purple-500/60 p-3 rounded-2xl transition-all cursor-pointer flex flex-col items-center gap-1.5 group">
+            <span class="w-6 h-6 flex items-center justify-center text-purple-400 group-hover:scale-125 transition-transform">
+              <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 16L3 5l5.5 5L12 4l3.5 6L21 5l-2 11H5zm14 3c0 .6-.4 1-1 1H6c-.6 0-1-.4-1-1v-1h14v1z"/></svg>
+            </span>
             <span class="text-[10px] font-bold text-zinc-400">Aura</span>
             <span id="rx-cnt-aura-${chap.number}" class="text-[10px] font-mono text-purple-300 font-bold">${savedReactions.aura}</span>
           </button>
-          <button onclick="voteReaction(${chap.number}, 'shock')" id="rx-shock-${chap.number}" class="bg-zinc-900/90 hover:bg-purple-950/60 border border-zinc-800 hover:border-purple-500/60 p-2.5 rounded-xl transition-all cursor-pointer flex flex-col items-center gap-1 group">
-            <span class="text-xl group-hover:scale-125 transition-transform">😱</span>
+          <button onclick="voteReaction(${chap.number}, 'shock')" id="rx-shock-${chap.number}" class="bg-zinc-900/90 hover:bg-purple-950/60 border border-zinc-800 hover:border-purple-500/60 p-3 rounded-2xl transition-all cursor-pointer flex flex-col items-center gap-1.5 group">
+            <span class="w-6 h-6 flex items-center justify-center text-cyan-400 group-hover:scale-125 transition-transform">
+              <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            </span>
             <span class="text-[10px] font-bold text-zinc-400">Shock</span>
             <span id="rx-cnt-shock-${chap.number}" class="text-[10px] font-mono text-purple-300 font-bold">${savedReactions.shock}</span>
           </button>
-          <button onclick="voteReaction(${chap.number}, 'tears')" id="rx-tears-${chap.number}" class="bg-zinc-900/90 hover:bg-purple-950/60 border border-zinc-800 hover:border-purple-500/60 p-2.5 rounded-xl transition-all cursor-pointer flex flex-col items-center gap-1 group">
-            <span class="text-xl group-hover:scale-125 transition-transform">😭</span>
+          <button onclick="voteReaction(${chap.number}, 'tears')" id="rx-tears-${chap.number}" class="bg-zinc-900/90 hover:bg-purple-950/60 border border-zinc-800 hover:border-purple-500/60 p-3 rounded-2xl transition-all cursor-pointer flex flex-col items-center gap-1.5 group">
+            <span class="w-6 h-6 flex items-center justify-center text-rose-400 group-hover:scale-125 transition-transform">
+              <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+            </span>
             <span class="text-[10px] font-bold text-zinc-400">Feel</span>
             <span id="rx-cnt-tears-${chap.number}" class="text-[10px] font-mono text-purple-300 font-bold">${savedReactions.tears}</span>
           </button>
@@ -1970,7 +2004,7 @@
             </button>
           </div>
         ` : `
-          <div class="text-xs text-zinc-500 font-orbitron">★ You have reached the pinnacle of the Demon Sovereign Saga ★</div>
+          <div class="text-xs text-zinc-500 font-orbitron"><span class="flex items-center justify-center gap-2"><svg class="w-4 h-4 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> Pinnacle of the Demon Sovereign Saga Reached</span></div>
         `}
       `;
       strip.appendChild(outroDiv);
@@ -1985,8 +2019,9 @@
           card.onclick = () => { openLightbox(chap, pIdx); };
           card.innerHTML = `
             <img src="${src}" alt="Panel ${pIdx + 1}" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
-            <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-xs font-bold text-purple-300 font-orbitron">
-              🔍 Inspect HD
+            <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-1.5 text-xs font-bold text-purple-300 font-orbitron backdrop-blur-xs">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+              <span>Inspect HD</span>
             </div>
             <div class="p-2 text-center text-[10px] font-bold text-zinc-400 group-hover:text-purple-300">
               Panel ${pIdx + 1}
@@ -2048,7 +2083,7 @@
           <!-- Script Search & Filter Toolbar -->
           <div class="pt-3 border-t border-zinc-800/80 space-y-3">
             <div class="relative">
-              <input id="script-search-input" oninput="onScriptSearch(this.value)" type="text" placeholder="🔍 Search dialogue, actions, spells, sound effects..." class="w-full bg-zinc-950 border border-zinc-800 focus:border-purple-500 rounded-xl px-4 py-2.5 text-xs text-zinc-200 placeholder-zinc-500 focus:outline-none transition-all">
+              <input id="script-search-input" oninput="onScriptSearch(this.value)" type="text" placeholder="Search dialogue, actions, spells, sound effects..." class="w-full bg-zinc-950 border border-zinc-800 focus:border-purple-500 rounded-xl px-4 py-2.5 text-xs text-zinc-200 placeholder-zinc-500 focus:outline-none transition-all">
             </div>
             <div class="flex items-center gap-1.5 overflow-x-auto pb-1 text-[11px] font-bold" id="script-filter-chips">
               <button onclick="setScriptSpeakerFilter('all')" class="script-chip px-3 py-1 rounded-full bg-purple-600 text-white transition-all whitespace-nowrap cursor-pointer" data-filter="all">All (30)</button>
@@ -2153,32 +2188,34 @@
           dialogues.forEach(d => {
             const spk = (d.speaker || d.type || 'Dialogue').toUpperCase();
             let borderClass = 'border-purple-500 bg-purple-950/40 text-purple-300';
-            let avatar = '👤';
+            let avatarSvg = '<svg class="w-3.5 h-3.5 text-purple-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>';
             if (spk.includes('KURO')) {
               borderClass = 'border-rose-600 bg-rose-950/40 text-rose-300';
-              avatar = '🦅';
+              avatarSvg = '<svg class="w-3.5 h-3.5 text-rose-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"/><line x1="16" y1="8" x2="2" y2="22"/></svg>';
             } else if (spk.includes('SYSTEM')) {
               borderClass = 'border-cyan-500 bg-cyan-950/40 text-cyan-300 font-mono';
-              avatar = '⚡';
+              avatarSvg = '<svg class="w-3.5 h-3.5 text-cyan-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>';
             } else if (spk.includes('TAE-JUN') || spk.includes('BROTHER')) {
               borderClass = 'border-amber-500 bg-amber-950/40 text-amber-300';
-              avatar = '🗡️';
+              avatarSvg = '<svg class="w-3.5 h-3.5 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="14.5 17.5 3 6 3 3 6 3 17.5 14.5"/><line x1="13" y1="19" x2="19" y2="13"/><line x1="16" y1="16" x2="20" y2="20"/></svg>';
             }
 
             const cleanText = (d.text || '').replace(/"/g, '&quot;');
             dialogueHtml += `
               <div class="border-l-2 ${borderClass} p-3 rounded-r-xl text-xs space-y-1.5 transition-all">
                 <div class="flex items-center justify-between text-[10px] font-bold">
-                  <span class="flex items-center gap-1.5 uppercase tracking-wider">
-                    <span>${avatar}</span>
+                  <span class="flex items-center gap-2 uppercase tracking-wider">
+                    ${avatarSvg}
                     <span>${spk}</span>
                   </span>
-                  <div class="flex items-center gap-2">
-                    <button onclick="speakDialogue('${cleanText.replace(/'/g, "\\'")}', '${spk}')" class="text-zinc-400 hover:text-white transition-colors cursor-pointer" title="Listen voice">
-                      🔊 Listen
+                  <div class="flex items-center gap-3">
+                    <button onclick="speakDialogue('${cleanText.replace(/'/g, "\\'")}', '${spk}')" class="text-zinc-400 hover:text-purple-300 transition-colors cursor-pointer flex items-center gap-1" title="Listen voice">
+                      <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+                      <span>Listen</span>
                     </button>
-                    <button onclick="copyDialogue('${cleanText.replace(/'/g, "\\'")}')" class="text-zinc-400 hover:text-white transition-colors cursor-pointer" title="Copy text">
-                      📋 Copy
+                    <button onclick="copyDialogue('${cleanText.replace(/'/g, "\\'")}')" class="text-zinc-400 hover:text-white transition-colors cursor-pointer flex items-center gap-1" title="Copy text">
+                      <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                      <span>Copy</span>
                     </button>
                   </div>
                 </div>
@@ -2194,8 +2231,9 @@
           panelThumb = `
             <div class="relative group cursor-pointer overflow-hidden rounded-lg border border-zinc-800 max-w-[120px] shrink-0" onclick="openLightbox(CHAPTERS_DATA[currentChapterIndex], ${pIdx})">
               <img src="${chap.panels[pIdx]}" alt="${panelId}" class="w-full h-auto object-cover group-hover:scale-105 transition-transform" loading="lazy">
-              <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-[10px] font-bold text-white font-orbitron">
-                🔍 Inspect
+              <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-1 text-[10px] font-bold text-purple-300 font-orbitron backdrop-blur-xs">
+                <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                <span>Inspect HD</span>
               </div>
             </div>
           `;
@@ -2258,7 +2296,7 @@
         utterance.rate = 1.0;
       }
       window.speechSynthesis.speak(utterance);
-      showToast(`🔊 Speaking: ${speaker}`);
+      showToast(`Voice synthesis: ${speaker}`);
     }
 
     // =======================================================
@@ -2372,7 +2410,7 @@
       if (filtered.length === 0) {
         list.innerHTML = `
           <div class="py-10 text-center text-zinc-500 text-xs space-y-1">
-            <span class="text-2xl block">🔍</span>
+            <div class="w-10 h-10 mx-auto rounded-full bg-purple-950/40 border border-purple-500/30 flex items-center justify-center text-purple-400 mb-2"><svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
             <p>No chapters found matching "<span class="text-purple-400 font-bold">${query}</span>".</p>
           </div>
         `;
@@ -2585,15 +2623,15 @@
       isAutoScrolling = !isAutoScrolling;
       const btn = document.getElementById('auto-scroll-btn');
       if (isAutoScrolling) {
-        btn.innerHTML = '<span>⏸ Pause</span>';
+        btn.innerHTML = '<svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg><span>Pause</span>';
         btn.classList.add('bg-purple-600', 'text-white');
-        btn.classList.remove('bg-zinc-900', 'text-zinc-300');
+        btn.classList.remove('bg-zinc-900', 'text-zinc-200');
         showToast('Auto-scroll started');
         runAutoScroll();
       } else {
-        btn.innerHTML = '<span>▶ Scroll</span>';
+        btn.innerHTML = '<svg class="w-3.5 h-3.5 fill-current text-purple-400" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg><span>Auto-Scroll</span>';
         btn.classList.remove('bg-purple-600', 'text-white');
-        btn.classList.add('bg-zinc-900', 'text-zinc-300');
+        btn.classList.add('bg-zinc-900', 'text-zinc-200');
         if (autoScrollAnim) cancelAnimationFrame(autoScrollAnim);
       }
     }
@@ -2723,14 +2761,14 @@
 
       if (isAmbienceOn) {
         if (btn) btn.classList.add('border-purple-500', 'text-purple-300', 'bg-purple-950/60');
-        if (icon) icon.innerText = '🔊';
+        if (icon) icon.innerHTML = '<svg class="w-3.5 h-3.5 text-purple-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>';
         if (text) text.innerText = 'OST: On';
-        showToast('🌌 Demonic Ambience Engine Playing');
+        showToast('Ambience playing: Demonic Resonance');
       } else {
         if (btn) btn.classList.remove('border-purple-500', 'text-purple-300', 'bg-purple-950/60');
-        if (icon) icon.innerText = '⛈️';
-        if (text) text.innerText = 'Rain OST';
-        showToast('Ambience Paused');
+        if (icon) icon.innerHTML = '<svg class="w-3.5 h-3.5 text-zinc-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>';
+        if (text) text.innerText = 'OST Ambience';
+        showToast('Ambience paused');
       }
     }
 
@@ -2871,20 +2909,24 @@
       } else {
         currentDubAudio.play();
         isDubPlaying = true;
-        showToast('🎙️ Voice Acting Playing');
+        showToast('Voice acting playback started');
       }
       updateDubButtonState();
     }
 
     function updateDubButtonState() {
       const icon = document.getElementById('dub-play-icon');
-      if (icon) icon.innerText = isDubPlaying ? '⏸' : '▶';
+      if (icon) {
+        icon.innerHTML = isDubPlaying
+          ? '<svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>'
+          : '<svg class="w-4 h-4 ml-0.5 fill-current" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg>';
+      }
     }
 
     function playPanelAudio(src) {
       const a = new Audio(src);
       a.play();
-      showToast('🔊 Playing Panel Audio');
+      showToast('Playing panel audio');
     }
 
     // Register Service Worker for Offline PWA
