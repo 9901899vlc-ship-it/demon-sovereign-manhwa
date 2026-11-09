@@ -1,0 +1,24 @@
+{
+  "name": "Demon Sovereign's Bloodline — Official Webtoon",
+  "short_name": "Demon Sovereign",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#07080c",
+  "theme_color": "#a855f7",
+  "orientation": "portrait-primary",
+  "description": "Read the official 100-chapter Dark Fantasy Action Webtoon saga 'Demon Sovereign\'s Bloodline'.",
+  "icons": [
+    {
+      "src": "./panels/ep1/panel_01_final.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./panels/ep1/panel_04_final.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

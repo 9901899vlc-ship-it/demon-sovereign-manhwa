@@ -75,6 +75,8 @@
     ::-webkit-scrollbar-track { background: #07080c; }
     ::-webkit-scrollbar-thumb { background: #7e22ce; border-radius: 4px; }
   </style>
+  <link rel="manifest" href="./manifest.json">
+  <meta name="theme-color" content="#a855f7">
 </head>
 <body class="min-h-screen flex flex-col selection:bg-purple-600 selection:text-white">
 
@@ -655,6 +657,16 @@
         arc: "Arc 1: The Cursed Feather",
         status: "complete",
         panelsCount: 7,
+        audioFile: "./audio/episode_01_full.mp3",
+        panelAudios: [
+          "./audio/panel_01.mp3",
+          "./audio/panel_02.mp3",
+          "./audio/panel_03.mp3",
+          "./audio/panel_04.mp3",
+          "./audio/panel_05.mp3",
+          "./audio/panel_06.mp3",
+          "./audio/panel_07.mp3"
+        ],
         panels: [
           "./panels/ep1/panel_01_final.png",
           "./panels/ep1/panel_02_final.png",
@@ -1821,6 +1833,30 @@
       const strip = document.getElementById('webtoon-strip');
       strip.innerHTML = '';
 
+      // Full Voice Dub Player Banner if available
+      if (chap.audioFile) {
+        const audioBar = document.createElement('div');
+        audioBar.className = "p-4 bg-gradient-to-r from-purple-950/90 via-zinc-900 to-purple-950/90 border-b border-purple-500/40 flex items-center justify-between text-xs";
+        audioBar.innerHTML = `
+          <div class="flex items-center gap-3">
+            <button id="dub-play-btn" onclick="toggleDubAudio('${chap.audioFile}')" class="w-10 h-10 rounded-full bg-gradient-to-r from-purple-600 to-fuchsia-600 flex items-center justify-center text-white font-bold shadow-lg shadow-purple-600/50 hover:scale-105 transition-all cursor-pointer">
+              <span id="dub-play-icon">▶</span>
+            </button>
+            <div>
+              <span class="font-bold text-white font-orbitron flex items-center gap-1.5">
+                <span>🎙️ FULL VOICE ACTING DUB</span>
+                <span class="text-[9px] bg-purple-900 text-purple-300 px-1.5 py-0.2 rounded font-mono">EN/HI</span>
+              </span>
+              <p class="text-[11px] text-zinc-400">Cinematic motion comic voice acting for Chapter ${chap.number}</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-2">
+            <span id="dub-time-disp" class="text-[11px] font-mono text-purple-400">0:00</span>
+          </div>
+        `;
+        strip.appendChild(audioBar);
+      }
+
       if (chap.stripImg) {
         // High-resolution continuous webtoon stitched strip
         const img = document.createElement('img');
@@ -1831,12 +1867,26 @@
         strip.appendChild(img);
       } else if (chap.panels && chap.panels.length > 0) {
         chap.panels.forEach((src, pIdx) => {
+          const wrapper = document.createElement('div');
+          wrapper.className = "relative group";
+          
           const img = document.createElement('img');
           img.src = src;
           img.alt = `${chap.title} - Panel ${pIdx + 1}`;
           img.className = 'webtoon-panel-img';
           img.loading = 'lazy';
-          strip.appendChild(img);
+          wrapper.appendChild(img);
+
+          // If individual panel audio exists
+          if (chap.panelAudios && chap.panelAudios[pIdx]) {
+            const btn = document.createElement('button');
+            btn.className = "absolute bottom-3 right-3 bg-black/75 hover:bg-purple-900 border border-purple-500/60 text-purple-300 hover:text-white px-2.5 py-1 rounded-full text-[10px] font-bold backdrop-blur-sm shadow-xl transition-all flex items-center gap-1 cursor-pointer";
+            btn.onclick = () => playPanelAudio(chap.panelAudios[pIdx]);
+            btn.innerHTML = "<span>🔊 Panel Audio</span>";
+            wrapper.appendChild(btn);
+          }
+
+          strip.appendChild(wrapper);
         });
       } else {
         // Scripted / In-Production Chapter Notice (Zero-Fake Policy)
@@ -2792,6 +2842,60 @@
     // =======================================================
     // GLOBAL KEYBOARD SHORTCUTS CONTROLLER
     // =======================================================
+    // =======================================================
+    // CINEMATIC FULL DUB & PANEL AUDIO PLAYER
+    // =======================================================
+    let currentDubAudio = null;
+    let isDubPlaying = false;
+
+    function toggleDubAudio(src) {
+      if (!currentDubAudio) {
+        currentDubAudio = new Audio(src);
+        currentDubAudio.addEventListener('timeupdate', () => {
+          const cur = Math.floor(currentDubAudio.currentTime);
+          const mins = Math.floor(cur / 60);
+          const secs = String(cur % 60).padStart(2, '0');
+          const disp = document.getElementById('dub-time-disp');
+          if (disp) disp.innerText = `${mins}:${secs}`;
+        });
+        currentDubAudio.addEventListener('ended', () => {
+          isDubPlaying = false;
+          updateDubButtonState();
+        });
+      }
+
+      if (isDubPlaying) {
+        currentDubAudio.pause();
+        isDubPlaying = false;
+        showToast('Dub Audio Paused');
+      } else {
+        currentDubAudio.play();
+        isDubPlaying = true;
+        showToast('🎙️ Voice Acting Playing');
+      }
+      updateDubButtonState();
+    }
+
+    function updateDubButtonState() {
+      const icon = document.getElementById('dub-play-icon');
+      if (icon) icon.innerText = isDubPlaying ? '⏸' : '▶';
+    }
+
+    function playPanelAudio(src) {
+      const a = new Audio(src);
+      a.play();
+      showToast('🔊 Playing Panel Audio');
+    }
+
+    // Register Service Worker for Offline PWA
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js').catch((err) => {
+          console.warn('SW registration failed:', err);
+        });
+      });
+    }
+
     window.addEventListener('keydown', (e) => {
       // Ignore if user is currently typing in an input or textarea
       if (['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) return;
