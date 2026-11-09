@@ -12,6 +12,11 @@
   <link rel="shortcut icon" href="./favicon.png" type="image/png">
   <link rel="apple-touch-icon" href="./apple-touch-icon.png">
 
+  <!-- Google Fonts for Web Novel (Lora Serif & Roboto Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+
   <style>
     /* ========================================================
        PIXEL-PERFECT WEBTOON MOBILE STYLES (MATCHING USER SCREENSHOTS)
@@ -786,6 +791,686 @@
       font-size: 11px;
       color: #999999;
     }
+
+    /* ========================================================
+       WEB NOVEL READER & SEEK MENU STYLES (SCREENSHOTS 1-4)
+       ======================================================== */
+    #page-webnovel {
+      min-height: 100vh;
+      position: relative;
+      transition: background-color 0.25s ease, color 0.25s ease;
+      user-select: text;
+      -webkit-user-select: text;
+      padding-bottom: 20px;
+    }
+
+    /* THEMES */
+    #page-webnovel.theme-light {
+      background-color: #fdfbf7;
+      color: #1a1a1a;
+    }
+    #page-webnovel.theme-light .wn-chapter-title {
+      color: #111111;
+    }
+    #page-webnovel.theme-light .wn-system-box {
+      background: #f0f7ff;
+      border-color: #c7e0ff;
+      color: #0b4582;
+    }
+
+    #page-webnovel.theme-dark {
+      background-color: #131417;
+      color: #c9cdd4;
+    }
+    #page-webnovel.theme-dark .wn-chapter-title {
+      color: #e2e5eb;
+    }
+    #page-webnovel.theme-dark .wn-system-box {
+      background: rgba(3, 146, 251, 0.08);
+      border-color: rgba(3, 146, 251, 0.3);
+      color: #8acaff;
+    }
+
+    #page-webnovel.theme-sepia {
+      background-color: #f4ebd6;
+      color: #382e21;
+    }
+    #page-webnovel.theme-sepia .wn-chapter-title {
+      color: #261c10;
+    }
+    #page-webnovel.theme-sepia .wn-system-box {
+      background: #eae0c7;
+      border-color: #d1c3a1;
+      color: #5c4424;
+    }
+
+    /* FONTS */
+    #page-webnovel.font-lora .wn-reading-content {
+      font-family: 'Lora', Georgia, serif;
+    }
+    #page-webnovel.font-roboto .wn-reading-content {
+      font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    /* TOP BAR OVERLAY */
+    .wn-top-bar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 52px;
+      background: rgba(20, 21, 24, 0.95);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 16px;
+      z-index: 9998;
+      transition: transform 0.28s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.28s ease;
+      color: #ffffff;
+    }
+
+    #page-webnovel.theme-light .wn-top-bar {
+      background: rgba(255, 255, 255, 0.96);
+      border-bottom: 1px solid #ebebeb;
+      color: #111111;
+    }
+
+    .wn-top-title-wrap {
+      flex: 1;
+      text-align: center;
+      margin: 0 12px;
+      cursor: pointer;
+      overflow: hidden;
+    }
+
+    .wn-top-title {
+      font-size: 14px;
+      font-weight: 700;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: block;
+    }
+
+    .wn-top-subtitle {
+      font-size: 11px;
+      color: #888888;
+      display: block;
+      margin-top: 1px;
+    }
+
+    /* READING VIEWPORT (SCREENSHOT 1) */
+    .wn-reader-viewport {
+      width: 100%;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 72px 20px 140px 20px;
+      box-sizing: border-box;
+      min-height: 100vh;
+      cursor: pointer;
+    }
+
+    .wn-chapter-header {
+      margin-bottom: 32px;
+      padding-bottom: 20px;
+      border-bottom: 1px dashed rgba(150, 150, 150, 0.25);
+    }
+
+    .wn-arc-badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #0392fb;
+      margin-bottom: 8px;
+    }
+
+    .wn-chapter-title {
+      font-size: 26px;
+      font-weight: 800;
+      line-height: 1.35;
+      margin-bottom: 12px;
+    }
+
+    .wn-chapter-meta {
+      font-size: 12px;
+      color: #888888;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .wn-reading-content {
+      font-size: 18px;
+      line-height: 1.95;
+      letter-spacing: 0.15px;
+    }
+
+    .wn-paragraph {
+      margin-bottom: 1.6em;
+      word-break: break-word;
+    }
+
+    .wn-dialogue {
+      margin-bottom: 1.6em;
+      padding-left: 12px;
+      border-left: 3px solid #0392fb;
+      font-style: normal;
+    }
+
+    .wn-system-box {
+      margin: 24px 0;
+      padding: 14px 16px;
+      border-radius: 8px;
+      font-family: 'Roboto', -apple-system, sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .wn-system-box .wn-sys-title {
+      font-size: 11px;
+      font-weight: 900;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+
+    /* END OF CHAPTER NAVIGATION */
+    .wn-chapter-end-nav {
+      margin-top: 50px;
+      padding-top: 30px;
+      border-top: 1px solid rgba(150, 150, 150, 0.2);
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      align-items: center;
+    }
+
+    .wn-end-buttons {
+      display: flex;
+      width: 100%;
+      gap: 12px;
+    }
+
+    .wn-end-btn {
+      flex: 1;
+      padding: 14px 16px;
+      border-radius: 8px;
+      border: none;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: opacity 0.2s;
+    }
+
+    .wn-end-btn-prev {
+      background: rgba(150, 150, 150, 0.15);
+      color: inherit;
+    }
+
+    .wn-end-btn-next {
+      background: #0392fb;
+      color: #ffffff;
+    }
+
+    /* ========================================================
+       BOTTOM SEEK TOOLBAR (SCREENSHOT 2)
+       ======================================================== */
+    .wn-bottom-toolbar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #18191c;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      padding: 10px 18px 16px 18px;
+      z-index: 9998;
+      color: #ffffff;
+      box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.5);
+      transition: transform 0.28s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.28s ease;
+    }
+
+    .wn-toolbar-row1 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 6px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .wn-seek-nav-btn {
+      background: none;
+      border: none;
+      color: #ffffff;
+      font-size: 13px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      cursor: pointer;
+      padding: 6px 8px;
+      border-radius: 4px;
+      transition: background 0.15s;
+    }
+    .wn-seek-nav-btn:hover {
+      background: rgba(255, 255, 255, 0.08);
+    }
+    .wn-seek-nav-btn:disabled {
+      opacity: 0.3;
+      cursor: not-allowed;
+    }
+
+    .wn-seek-info {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      color: #e5e5e5;
+      font-size: 13px;
+    }
+
+    .wn-seek-pct {
+      color: #8e929b;
+      font-size: 12px;
+    }
+
+    .wn-toolbar-row2 {
+      position: relative;
+      margin: 6px 0 10px 0;
+      display: flex;
+      align-items: center;
+    }
+
+    .wn-slider {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 100%;
+      height: 4px;
+      border-radius: 2px;
+      background: #363940;
+      outline: none;
+      cursor: pointer;
+      accent-color: #0392fb;
+    }
+
+    .wn-slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: #ffffff;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+      cursor: pointer;
+    }
+
+    .wn-slider::-moz-range-thumb {
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: #ffffff;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+      cursor: pointer;
+      border: none;
+    }
+
+    .wn-toolbar-row3 {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding-top: 8px;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    .wn-action-btn {
+      background: none;
+      border: none;
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 6px 16px;
+      cursor: pointer;
+      font-size: 11px;
+      gap: 4px;
+      transition: opacity 0.15s, color 0.15s;
+    }
+
+    .wn-action-btn:active {
+      opacity: 0.6;
+    }
+
+    .wn-action-btn.active {
+      color: #0392fb;
+    }
+
+    /* TOGGLE CONTROLS VISIBILITY (SCREENSHOT 1 vs 2) */
+    #page-webnovel.wn-controls-hidden .wn-top-bar {
+      transform: translateY(-100%);
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    #page-webnovel.wn-controls-hidden .wn-bottom-toolbar {
+      transform: translateY(100%);
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    /* ========================================================
+       CHAPTER LIST DRAWER (SCREENSHOT 3)
+       ======================================================== */
+    .wn-drawer-backdrop {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      z-index: 10000;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.28s ease;
+    }
+
+    .wn-drawer-backdrop.open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .wn-drawer-panel {
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      width: 86%;
+      max-width: 380px;
+      background: #17181c;
+      color: #ffffff;
+      z-index: 10001;
+      display: flex;
+      flex-direction: column;
+      transform: translateX(-100%);
+      transition: transform 0.3s cubic-bezier(0.2, 0.9, 0.3, 1);
+      box-shadow: 4px 0 24px rgba(0, 0, 0, 0.6);
+    }
+
+    .wn-drawer-backdrop.open .wn-drawer-panel {
+      transform: translateX(0);
+    }
+
+    .wn-drawer-header {
+      padding: 18px 16px 14px 16px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      display: flex;
+      gap: 14px;
+      align-items: center;
+      position: relative;
+    }
+
+    .wn-drawer-cover {
+      width: 54px;
+      height: 72px;
+      border-radius: 6px;
+      object-fit: cover;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+      background: #222;
+    }
+
+    .wn-drawer-meta {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .wn-drawer-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: #ffffff;
+      line-height: 1.3;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .wn-drawer-author {
+      font-size: 12px;
+      color: #8e929b;
+      margin-top: 4px;
+    }
+
+    .wn-drawer-stats {
+      font-size: 11px;
+      color: #0392fb;
+      font-weight: 600;
+      margin-top: 4px;
+    }
+
+    .wn-drawer-close {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      background: none;
+      border: none;
+      color: #888;
+      padding: 6px;
+      cursor: pointer;
+    }
+
+    .wn-drawer-search-bar {
+      padding: 10px 16px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    .wn-drawer-search-input {
+      width: 100%;
+      background: #23252b;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 6px;
+      color: #fff;
+      padding: 8px 12px;
+      font-size: 13px;
+      outline: none;
+      box-sizing: border-box;
+    }
+
+    .wn-drawer-list {
+      flex: 1;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+      padding: 6px 0;
+      position: relative;
+    }
+
+    .wn-drawer-item {
+      display: flex;
+      align-items: center;
+      padding: 13px 18px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+
+    .wn-drawer-item:hover, .wn-drawer-item:active {
+      background: rgba(255, 255, 255, 0.04);
+    }
+
+    .wn-drawer-item.active {
+      background: rgba(3, 146, 251, 0.12);
+    }
+
+    .wn-drawer-num {
+      width: 38px;
+      font-size: 14px;
+      color: #7b808c;
+      font-weight: 600;
+      flex-shrink: 0;
+    }
+
+    .wn-drawer-item.active .wn-drawer-num {
+      color: #0392fb;
+      font-weight: 800;
+    }
+
+    .wn-drawer-item-title {
+      font-size: 14px;
+      color: #d1d4dc;
+      line-height: 1.4;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      flex: 1;
+    }
+
+    .wn-drawer-item.active .wn-drawer-item-title {
+      color: #0392fb;
+      font-weight: 700;
+    }
+
+    .wn-drawer-scroll-pills {
+      position: absolute;
+      right: 14px;
+      bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      z-index: 10;
+    }
+
+    .wn-drawer-pill-btn {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: rgba(35, 37, 43, 0.95);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+      cursor: pointer;
+    }
+
+    /* ========================================================
+       TYPOGRAPHY SETTINGS BOTTOM SHEET (SCREENSHOT 4)
+       ======================================================== */
+    .wn-font-sheet {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #1e2026;
+      border-radius: 16px 16px 0 0;
+      padding: 22px 24px 34px 24px;
+      z-index: 9999;
+      box-shadow: 0 -8px 30px rgba(0, 0, 0, 0.55);
+      transform: translateY(110%);
+      transition: transform 0.28s cubic-bezier(0.2, 0.9, 0.3, 1);
+      color: #ffffff;
+    }
+
+    .wn-font-sheet.open {
+      transform: translateY(0);
+    }
+
+    .wn-font-size-row {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 22px;
+    }
+
+    .wn-font-size-label-small {
+      font-size: 15px;
+      font-weight: 800;
+      color: #ffffff;
+    }
+
+    .wn-font-size-label-large {
+      font-size: 22px;
+      font-weight: 800;
+      color: #ffffff;
+    }
+
+    .wn-font-size-slider {
+      flex: 1;
+      -webkit-appearance: none;
+      appearance: none;
+      height: 4px;
+      background: #3a3d46;
+      border-radius: 2px;
+      outline: none;
+      accent-color: #0392fb;
+    }
+
+    .wn-font-size-slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: #ffffff;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+      cursor: pointer;
+    }
+
+    .wn-font-family-group {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+
+    .wn-font-btn {
+      flex: 1;
+      padding: 12px 0;
+      border-radius: 24px;
+      border: none;
+      background: #2b2e37;
+      color: #c9cdd4;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .wn-font-btn.active {
+      background: #0392fb;
+      color: #ffffff;
+      box-shadow: 0 4px 12px rgba(3, 146, 251, 0.3);
+    }
+
+    .wn-lang-group {
+      display: flex;
+      gap: 12px;
+    }
+
+    .wn-lang-btn {
+      flex: 1;
+      padding: 10px 0;
+      border-radius: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      background: transparent;
+      color: #a0a4ae;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .wn-lang-btn.active {
+      border-color: #0392fb;
+      color: #0392fb;
+      background: rgba(3, 146, 251, 0.1);
+    }
   </style>
 </head>
 <body>
@@ -1018,59 +1703,190 @@
 
 
   <!-- ========================================================
-       PAGE: WEB NOVEL VIEW (#page-webnovel)
-       Clean container ready for Web Novel content
+       PAGE: WEB NOVEL READER & SEEK MENU (#page-webnovel)
+       MATCHES USER SCREENSHOTS 1, 2, 3, 4
        ======================================================== -->
-  <div id="page-webnovel" style="display: none;">
-    <!-- Header with GNB & Tabs -->
-    <header class="wt-header">
-      <div class="wt-gnb">
-        <a href="javascript:void(0)" onclick="openPage('home')" class="wt-logo-wrap">
-          <picture>
-            <source srcset="./images/dsb_badge.webp" type="image/webp">
-            <img src="./images/dsb_badge.png" alt="DSB" class="wt-logo-badge-img">
-          </picture>
-          <span class="wt-logo-text">DEMON SOVEREIGN</span>
-        </a>
-        <div class="wt-gnb-icons">
-          <button class="wt-icon-btn" onclick="openSearchModal()" title="Search">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="11" cy="11" r="8"></circle>
-              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-            </svg>
-          </button>
-          <button class="wt-icon-btn" onclick="openSideDrawer()" title="Menu">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-              <line x1="3" y1="12" x2="21" y2="12"></line>
-              <line x1="3" y1="6" x2="21" y2="6"></line>
-              <line x1="3" y1="18" x2="21" y2="18"></line>
-            </svg>
-          </button>
+  <div id="page-webnovel" class="theme-dark font-lora" style="display: none;">
+
+    <!-- TOP FLOATING BAR (SCREENSHOT 1 & 2) -->
+    <div class="wn-top-bar" id="wn-top-bar">
+      <button class="wt-icon-btn" onclick="openPage('home')" title="Back to Home" style="color: inherit;">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
+      </button>
+
+      <div class="wn-top-title-wrap" onclick="openWnDrawer()">
+        <span class="wn-top-title" id="wn-top-ch-title">Chapter 1</span>
+        <span class="wn-top-subtitle" id="wn-top-arc-title">Demon Sovereign's Bloodline</span>
+      </div>
+
+      <div style="display: flex; align-items: center; gap: 8px;">
+        <button class="wt-icon-btn" onclick="openWnDrawer()" title="Table of Contents" style="color: inherit;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="8" y1="6" x2="21" y2="6"></line>
+            <line x1="8" y1="12" x2="21" y2="12"></line>
+            <line x1="8" y1="18" x2="21" y2="18"></line>
+            <line x1="3" y1="6" x2="3.01" y2="6"></line>
+            <line x1="3" y1="12" x2="3.01" y2="12"></line>
+            <line x1="3" y1="18" x2="3.01" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- MAIN READING VIEWPORT (SCREENSHOT 1) -->
+    <div class="wn-reader-viewport" id="wn-reader-viewport" onclick="handleWnReaderTap(event)">
+      <div class="wn-chapter-header">
+        <span class="wn-arc-badge" id="wn-render-arc">ARC 1: THE CURSED FEATHER</span>
+        <h1 class="wn-chapter-title" id="wn-render-title">Chapter 1: The Gathering Storm & Awakening</h1>
+        <div class="wn-chapter-meta">
+          <span>Demon Sovereign's Bloodline</span>
+          <span>•</span>
+          <span id="wn-render-meta-info">Official Web Novel</span>
         </div>
       </div>
 
-      <!-- Navigation Tabs: HOME and WEB NOVEL -->
-      <ul class="wt-lnb">
-        <li class="wt-lnb-item"><a href="javascript:void(0)" onclick="openPage('home')" class="wt-lnb-link">HOME</a></li>
-        <li class="wt-lnb-item active"><a href="javascript:void(0)" onclick="openPage('webnovel')" class="wt-lnb-link">WEB NOVEL</a></li>
-      </ul>
-    </header>
+      <!-- Prose reading content -->
+      <div class="wn-reading-content" id="wn-reading-content">
+        <div style="text-align:center; padding: 40px 0; color: #888;">Loading chapter...</div>
+      </div>
 
-    <!-- Empty container for Web Novel content -->
-    <div id="webnovel-container" style="min-height: calc(100vh - 220px); padding: 40px 16px; box-sizing: border-box;">
-      <!-- Content will be added here based on user instructions -->
+      <!-- Bottom of chapter navigation -->
+      <div class="wn-chapter-end-nav">
+        <div class="wn-end-buttons">
+          <button class="wn-end-btn wn-end-btn-prev" id="wn-end-btn-prev" onclick="prevChapter()">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            Previous
+          </button>
+          <button class="wn-end-btn wn-end-btn-next" id="wn-end-btn-next" onclick="nextChapter()">
+            Next Chapter
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </button>
+        </div>
+      </div>
     </div>
 
-    <!-- Webtoon Footer -->
-    <footer class="wt-footer">
-      <div class="wt-footer-menu">
-        <a href="javascript:void(0)" onclick="openPage('home')" class="wt-footer-link">Home</a>
-        <a href="javascript:void(0)" onclick="openPage('webnovel')" class="wt-footer-link">Web Novel</a>
-        <a href="javascript:void(0)" class="wt-footer-link">Terms</a>
+    <!-- BOTTOM FLOATING SEEK TOOLBAR (SCREENSHOT 2) -->
+    <div class="wn-bottom-toolbar" id="wn-bottom-toolbar">
+      <!-- Row 1: Prev, Info, Next -->
+      <div class="wn-toolbar-row1">
+        <button class="wn-seek-nav-btn" id="wn-prev-btn" onclick="prevChapter()">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"></polyline></svg>
+          Prev
+        </button>
+        <div class="wn-seek-info">
+          <span id="wn-info-ch-num">Chapters 1</span>
+          <span class="wn-seek-pct" id="wn-info-pct">0.0%</span>
+        </div>
+        <button class="wn-seek-nav-btn" id="wn-next-btn" onclick="nextChapter()">
+          Next
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </button>
       </div>
-      <div class="wt-footer-brand">DEMON SOVEREIGN</div>
-      <div class="wt-footer-copy">ⓒ DEMON SOVEREIGN NOVELS Ltd. All Rights Reserved.</div>
-    </footer>
+
+      <!-- Row 2: Seek Progress Slider -->
+      <div class="wn-toolbar-row2">
+        <input type="range" class="wn-slider" id="wn-seek-slider" min="0" max="100" value="0" step="0.2" oninput="handleWnSeekInput(this.value)" onchange="handleWnSeekChange(this.value)">
+      </div>
+
+      <!-- Row 3: Action Buttons (Contents, Theme, Aa, Lang) -->
+      <div class="wn-toolbar-row3">
+        <button class="wn-action-btn" onclick="openWnDrawer()" title="Table of Contents">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="8" y1="6" x2="21" y2="6"></line>
+            <line x1="8" y1="12" x2="21" y2="12"></line>
+            <line x1="8" y1="18" x2="21" y2="18"></line>
+            <line x1="3" y1="6" x2="3.01" y2="6"></line>
+            <line x1="3" y1="12" x2="3.01" y2="12"></line>
+            <line x1="3" y1="18" x2="3.01" y2="18"></line>
+          </svg>
+        </button>
+
+        <button class="wn-action-btn" id="wn-theme-btn" onclick="cycleWnTheme()" title="Switch Theme">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+
+        <button class="wn-action-btn" onclick="toggleWnFontSheet()" title="Font & Display">
+          <span style="font-size: 17px; font-weight: 700; font-family: serif; line-height: 1;">Aa</span>
+        </button>
+
+        <button class="wn-action-btn" onclick="toggleWnLanguage()" title="Language (Hindi / English)">
+          <span id="wn-lang-badge" style="font-size: 11px; font-weight: 800; border: 1.5px solid currentColor; border-radius: 4px; padding: 1px 4px; line-height: 1.1;">HI</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- TABLE OF CONTENTS DRAWER (SCREENSHOT 3) -->
+    <div class="wn-drawer-backdrop" id="wn-drawer-backdrop" onclick="closeWnDrawer(event)">
+      <div class="wn-drawer-panel" id="wn-drawer-panel" onclick="event.stopPropagation()">
+        <!-- Header -->
+        <div class="wn-drawer-header">
+          <img src="./images/cover.webp" alt="Novel Cover" class="wn-drawer-cover" onerror="this.onerror=null; this.src='./images/dsb_badge.png';">
+          <div class="wn-drawer-meta">
+            <div class="wn-drawer-title">Demon Sovereign's Bloodline</div>
+            <div class="wn-drawer-author">Demon Sovereign Studio</div>
+            <div class="wn-drawer-stats">101 Chapters (Arcs 1-10)</div>
+          </div>
+          <button class="wn-drawer-close" onclick="closeWnDrawer()">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </button>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="wn-drawer-search-bar">
+          <input type="text" id="wn-drawer-search" class="wn-drawer-search-input" placeholder="Search chapters..." oninput="filterWnDrawerChapters(this.value)">
+        </div>
+
+        <!-- Scrollable Chapter List -->
+        <div class="wn-drawer-list" id="wn-drawer-list">
+          <!-- Dynamically populated 101 chapters -->
+        </div>
+
+        <!-- Floating scroll up / down jump pills (Screenshot 3) -->
+        <div class="wn-drawer-scroll-pills">
+          <button class="wn-drawer-pill-btn" onclick="scrollWnDrawerTop()" title="Scroll to Top">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"></polyline></svg>
+          </button>
+          <button class="wn-drawer-pill-btn" onclick="scrollWnDrawerActive()" title="Scroll to Current Chapter">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- TYPOGRAPHY SETTINGS BOTTOM SHEET (SCREENSHOT 4) -->
+    <div class="wn-font-sheet" id="wn-font-sheet">
+      <!-- Font Size Slider -->
+      <div class="wn-font-size-row">
+        <span class="wn-font-size-label-small">A-</span>
+        <input type="range" class="wn-font-size-slider" id="wn-font-slider" min="14" max="26" step="2" value="18" oninput="setWnFontSize(this.value)">
+        <span class="wn-font-size-label-large">A+</span>
+      </div>
+
+      <!-- Font Family Selector (Lora vs Roboto) -->
+      <div class="wn-font-family-group">
+        <button class="wn-font-btn active" id="wn-font-btn-lora" onclick="setWnFontFamily('lora')">Lora</button>
+        <button class="wn-font-btn" id="wn-font-btn-roboto" onclick="setWnFontFamily('roboto')">Roboto</button>
+      </div>
+
+      <!-- Language Selector -->
+      <div class="wn-lang-group">
+        <button class="wn-lang-btn active" id="wn-lang-btn-hi" onclick="setWnLanguage('hi')">Hindi / Hinglish</button>
+        <button class="wn-lang-btn" id="wn-lang-btn-en" onclick="setWnLanguage('en')">English</button>
+      </div>
+    </div>
+
   </div>
 
 
@@ -1249,11 +2065,25 @@
       if (pageName === 'reader') {
         rPage.classList.remove('ui-hidden');
       }
+      if (pageName === 'webnovel') {
+        initWnPreferences();
+        if (wnChapters.length === 0) {
+          initWnChapters().then(() => {
+            const saved = localStorage.getItem('wn_last_ch') || '1-3';
+            let idx = wnChapters.findIndex(c => c.id === saved);
+            if (idx === -1) idx = 0;
+            loadWnChapterByIndex(idx, updateHash);
+          });
+        }
+      }
       if (updateHash) {
         if (pageName === 'home') window.location.hash = '#/home';
         else if (pageName === 'detail') window.location.hash = '#/detail';
         else if (pageName === 'reader') window.location.hash = '#/viewer?chapter=' + currentChapter;
-        else if (pageName === 'webnovel') window.location.hash = '#/webnovel';
+        else if (pageName === 'webnovel') {
+          const ch = (wnChapters.length && wnChapters[wnCurrentIndex]) ? wnChapters[wnCurrentIndex].id : (localStorage.getItem('wn_last_ch') || '1-3');
+          window.location.hash = '#/webnovel?chapter=' + ch;
+        }
       }
       window.scrollTo(0, 0);
     }
@@ -1431,11 +2261,407 @@
         openChapter(ch, false);
       } else if (hash === '#/detail') {
         openPage('detail', false);
-      } else if (hash === '#/webnovel') {
+      } else if (hash.startsWith('#/webnovel')) {
         openPage('webnovel', false);
+        const chMatch = hash.match(/chapter=([\w-]+)/);
+        const targetCh = chMatch ? chMatch[1] : (localStorage.getItem('wn_last_ch') || '1-3');
+        initWnChapters().then(() => {
+          let idx = wnChapters.findIndex(c => c.id === targetCh);
+          if (idx === -1) idx = 0;
+          loadWnChapterByIndex(idx, false);
+        });
       } else {
         openPage('home', false);
       }
+    }
+
+    /* ========================================================
+       WEB NOVEL CONTROLLER & STATE MANAGEMENT (SCREENSHOTS 1-4)
+       ======================================================== */
+    let wnChapters = [];
+    let wnCurrentIndex = 0;
+    let wnCurrentLang = localStorage.getItem('wn_lang') || 'hi'; // 'hi' or 'en'
+    let wnTheme = localStorage.getItem('wn_theme') || 'dark'; // 'light', 'dark', 'sepia'
+    let wnFontSize = parseInt(localStorage.getItem('wn_font_size')) || 18;
+    let wnFontFamily = localStorage.getItem('wn_font_family') || 'lora'; // 'lora' or 'roboto'
+    let wnChapterCache = {};
+
+    // Apply stored preferences to DOM
+    function initWnPreferences() {
+      const wnPage = document.getElementById('page-webnovel');
+      if (!wnPage) return;
+
+      // Theme
+      wnPage.classList.remove('theme-light', 'theme-dark', 'theme-sepia');
+      wnPage.classList.add('theme-' + wnTheme);
+
+      // Font Family
+      wnPage.classList.remove('font-lora', 'font-roboto');
+      wnPage.classList.add('font-' + wnFontFamily);
+      const loraBtn = document.getElementById('wn-font-btn-lora');
+      const robotoBtn = document.getElementById('wn-font-btn-roboto');
+      if (loraBtn && robotoBtn) {
+        if (wnFontFamily === 'lora') {
+          loraBtn.classList.add('active');
+          robotoBtn.classList.remove('active');
+        } else {
+          robotoBtn.classList.add('active');
+          loraBtn.classList.remove('active');
+        }
+      }
+
+      // Font Size
+      const contentEl = document.getElementById('wn-reading-content');
+      if (contentEl) contentEl.style.fontSize = wnFontSize + 'px';
+      const fontSlider = document.getElementById('wn-font-slider');
+      if (fontSlider) fontSlider.value = wnFontSize;
+
+      // Language
+      updateWnLangUI();
+    }
+
+    function updateWnLangUI() {
+      const badge = document.getElementById('wn-lang-badge');
+      if (badge) badge.textContent = wnCurrentLang.toUpperCase();
+      const hiBtn = document.getElementById('wn-lang-btn-hi');
+      const enBtn = document.getElementById('wn-lang-btn-en');
+      if (hiBtn && enBtn) {
+        if (wnCurrentLang === 'hi') {
+          hiBtn.classList.add('active');
+          enBtn.classList.remove('active');
+        } else {
+          enBtn.classList.add('active');
+          hiBtn.classList.remove('active');
+        }
+      }
+    }
+
+    // Load Chapters List (from novel_chapters.json or CHAPTER_INDEX.json)
+    async function initWnChapters() {
+      if (wnChapters.length > 0) return;
+      try {
+        const res = await fetch('./story/novel_chapters.json');
+        if (res.ok) {
+          wnChapters = await res.json();
+        } else {
+          throw new Error('Fallback to CHAPTER_INDEX.json');
+        }
+      } catch (err) {
+        try {
+          const res2 = await fetch('./story/CHAPTER_INDEX.json');
+          const data = await res2.json();
+          wnChapters = [];
+          data.arcs.forEach(arc => {
+            arc.chapters.forEach(ch => {
+              let scriptPath = ch.script_file;
+              if (String(ch.chapter) === '1-3') scriptPath = 'story/ch001_script.json';
+              wnChapters.push({
+                id: String(ch.chapter),
+                num: String(ch.chapter) === '1-3' ? '1' : String(ch.chapter),
+                displayNum: String(ch.chapter) === '1-3' ? 'Chapter 1' : ('Chapter ' + ch.chapter),
+                title: ch.title,
+                arc: arc.title,
+                arcNum: arc.arc_number,
+                script: scriptPath
+              });
+            });
+          });
+        } catch (e) {
+          console.error("Failed to load chapters:", e);
+        }
+      }
+
+      renderWnDrawerList();
+    }
+
+    // Render Drawer Chapter List (Screenshot 3)
+    function renderWnDrawerList(filter = '') {
+      const listEl = document.getElementById('wn-drawer-list');
+      if (!listEl) return;
+      const lower = filter.trim().toLowerCase();
+
+      let html = '';
+      wnChapters.forEach((ch, idx) => {
+        if (lower && !ch.title.toLowerCase().includes(lower) && !ch.num.includes(lower)) {
+          return;
+        }
+        const isActive = (idx === wnCurrentIndex);
+        html += '<div class="wn-drawer-item ' + (isActive ? 'active' : '') + '" id="wn-drawer-item-' + idx + '" onclick="selectWnChapter(' + idx + ')">' +
+          '<div class="wn-drawer-num">' + ch.num + '</div>' +
+          '<div class="wn-drawer-item-title">' + ch.title + '</div>' +
+        '</div>';
+      });
+
+      listEl.innerHTML = html;
+    }
+
+    // Filter Chapters in Drawer
+    function filterWnDrawerChapters(val) {
+      renderWnDrawerList(val);
+    }
+
+    // Select Chapter from Drawer
+    function selectWnChapter(idx) {
+      closeWnDrawer();
+      loadWnChapterByIndex(idx);
+    }
+
+    // Load Chapter by Index
+    async function loadWnChapterByIndex(idx, updateHash = true) {
+      if (idx < 0 || idx >= wnChapters.length) return;
+      wnCurrentIndex = idx;
+      const ch = wnChapters[idx];
+      if (!ch) return;
+
+      localStorage.setItem('wn_last_ch', ch.id);
+
+      if (updateHash) {
+        window.location.hash = '#/webnovel?chapter=' + ch.id;
+      }
+
+      // Update Header & Toolbar Info
+      document.getElementById('wn-top-ch-title').textContent = ch.displayNum + ': ' + ch.title;
+      document.getElementById('wn-top-arc-title').textContent = (ch.arc || "Demon Sovereign's Bloodline");
+      document.getElementById('wn-render-arc').textContent = 'ARC ' + (ch.arcNum || 1) + ': ' + (ch.arc || "THE CURSED FEATHER");
+      document.getElementById('wn-render-title').textContent = ch.displayNum + ': ' + ch.title;
+      document.getElementById('wn-info-ch-num').textContent = 'Chapters ' + ch.num;
+      document.getElementById('wn-info-pct').textContent = '0.0%';
+      document.getElementById('wn-seek-slider').value = 0;
+
+      // Update Prev / Next Buttons states ("prev or next se chapters age piche hote hai")
+      const prevBtn = document.getElementById('wn-prev-btn');
+      const nextBtn = document.getElementById('wn-next-btn');
+      const endPrevBtn = document.getElementById('wn-end-btn-prev');
+      const endNextBtn = document.getElementById('wn-end-btn-next');
+
+      if (prevBtn) prevBtn.disabled = (idx === 0);
+      if (nextBtn) nextBtn.disabled = (idx === wnChapters.length - 1);
+      if (endPrevBtn) endPrevBtn.style.display = (idx === 0) ? 'none' : 'flex';
+      if (endNextBtn) {
+        if (idx === wnChapters.length - 1) {
+          endNextBtn.textContent = 'Completed Latest Chapter';
+          endNextBtn.disabled = true;
+        } else {
+          endNextBtn.innerHTML = 'Next Chapter <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>';
+          endNextBtn.disabled = false;
+        }
+      }
+
+      // Update active item in drawer
+      renderWnDrawerList();
+
+      // Load Script Data
+      const contentEl = document.getElementById('wn-reading-content');
+      contentEl.innerHTML = '<div style="text-align:center; padding: 60px 0; color: #888;">' +
+        '<div style="font-size: 14px; margin-bottom: 8px;">Loading Chapter ' + ch.num + '...</div>' +
+      '</div>';
+
+      window.scrollTo(0, 0);
+
+      try {
+        let scriptData = wnChapterCache[ch.id];
+        if (!scriptData) {
+          const res = await fetch('./' + ch.script);
+          if (!res.ok) throw new Error('Failed to fetch ' + ch.script);
+          scriptData = await res.json();
+          wnChapterCache[ch.id] = scriptData;
+        }
+
+        renderChapterProse(scriptData);
+      } catch (err) {
+        console.error("Error loading chapter script:", err);
+        contentEl.innerHTML = '<div style="text-align:center; padding: 60px 20px; color: #ff5252;">' +
+          '<p>Failed to load chapter prose. Please check network connection.</p>' +
+          '<button onclick="loadWnChapterByIndex(' + idx + ')" style="margin-top: 12px; padding: 8px 16px; background: #0392fb; color: #fff; border: none; border-radius: 4px; cursor: pointer;">Retry</button>' +
+        '</div>';
+      }
+    }
+
+    // Render Prose & Dialogue format
+    function renderChapterProse(scriptData) {
+      const contentEl = document.getElementById('wn-reading-content');
+      if (!contentEl || !scriptData || !scriptData.panels) return;
+
+      const langKey = (wnCurrentLang === 'en') ? 'prose_en' : 'prose_hi';
+      let html = '';
+
+      scriptData.panels.forEach((p) => {
+        const prose = p[langKey] || p['prose_hi'] || p['prose_en'] || '';
+
+        // Check for system bubbles or announcements
+        if (p.bubbles && p.bubbles.length > 0) {
+          p.bubbles.forEach(b => {
+            if (b.type === 'system') {
+              html += '<div class="wn-system-box">' +
+                '<div class="wn-sys-title">SYSTEM NOTICE</div>' +
+                '<div>' + escapeHtml(b.text) + '</div>' +
+              '</div>';
+            }
+          });
+        }
+
+        // Main paragraph
+        if (prose) {
+          html += '<p class="wn-paragraph">' + escapeHtml(prose) + '</p>';
+        }
+
+        // Spoken dialogue if present
+        if (p.bubbles && p.bubbles.length > 0) {
+          p.bubbles.forEach(b => {
+            if (b.type === 'speech' && b.text) {
+              const speaker = b.speaker ? ('<strong style="color: #0392fb;">' + escapeHtml(b.speaker) + ':</strong> ') : '';
+              html += '<p class="wn-dialogue">' + speaker + '“' + escapeHtml(b.text) + '”</p>';
+            }
+          });
+        }
+      });
+
+      contentEl.innerHTML = html;
+      contentEl.style.fontSize = wnFontSize + 'px';
+    }
+
+    function escapeHtml(str) {
+      if (!str) return '';
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+    }
+
+    // "prev or next se chapters age piche hote hai"
+    function prevChapter() {
+      if (wnCurrentIndex > 0) {
+        loadWnChapterByIndex(wnCurrentIndex - 1);
+      }
+    }
+
+    function nextChapter() {
+      if (wnCurrentIndex < wnChapters.length - 1) {
+        loadWnChapterByIndex(wnCurrentIndex + 1);
+      }
+    }
+
+    // Tap to Toggle Seek Menu / Controls Overlay (Screenshot 1 vs 2)
+    function handleWnReaderTap(e) {
+      // Don't toggle if clicking a button or link
+      if (e.target.closest('button, a, input, .wn-end-btn')) {
+        return;
+      }
+      // If font sheet is open, close it first
+      const fontSheet = document.getElementById('wn-font-sheet');
+      if (fontSheet && fontSheet.classList.contains('open')) {
+        fontSheet.classList.remove('open');
+        return;
+      }
+      const wnPage = document.getElementById('page-webnovel');
+      if (wnPage) {
+        wnPage.classList.toggle('wn-controls-hidden');
+      }
+    }
+
+    // Seek Slider functionality
+    function handleWnSeekInput(val) {
+      const pct = parseFloat(val);
+      document.getElementById('wn-info-pct').textContent = pct.toFixed(1) + '%';
+    }
+
+    function handleWnSeekChange(val) {
+      const pct = parseFloat(val);
+      const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+      if (maxScroll > 0) {
+        const targetY = (pct / 100) * maxScroll;
+        window.scrollTo({ top: targetY, behavior: 'smooth' });
+      }
+    }
+
+    // Window scroll handler to update seek slider & percentage
+    window.addEventListener('scroll', () => {
+      const wnPage = document.getElementById('page-webnovel');
+      if (!wnPage || wnPage.style.display === 'none') return;
+
+      const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+      if (maxScroll > 0) {
+        const pct = Math.min(100, Math.max(0, (window.scrollY / maxScroll) * 100));
+        const slider = document.getElementById('wn-seek-slider');
+        const pctLabel = document.getElementById('wn-info-pct');
+        if (slider) slider.value = pct.toFixed(1);
+        if (pctLabel) pctLabel.textContent = pct.toFixed(1) + '%';
+      }
+    }, { passive: true });
+
+    // Drawer Controls (Screenshot 3)
+    function openWnDrawer() {
+      const backdrop = document.getElementById('wn-drawer-backdrop');
+      if (backdrop) backdrop.classList.add('open');
+      setTimeout(scrollWnDrawerActive, 100);
+    }
+
+    function closeWnDrawer(e) {
+      if (e && e.target && e.target.closest('.wn-drawer-panel')) return;
+      const backdrop = document.getElementById('wn-drawer-backdrop');
+      if (backdrop) backdrop.classList.remove('open');
+    }
+
+    function scrollWnDrawerTop() {
+      const listEl = document.getElementById('wn-drawer-list');
+      if (listEl) listEl.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function scrollWnDrawerActive() {
+      const activeItem = document.getElementById('wn-drawer-item-' + wnCurrentIndex);
+      const listEl = document.getElementById('wn-drawer-list');
+      if (activeItem && listEl) {
+        const top = activeItem.offsetTop - (listEl.clientHeight / 2);
+        listEl.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
+      }
+    }
+
+    // Theme Switcher (Light -> Dark -> Sepia)
+    function cycleWnTheme() {
+      const wnPage = document.getElementById('page-webnovel');
+      if (!wnPage) return;
+      if (wnTheme === 'dark') wnTheme = 'light';
+      else if (wnTheme === 'light') wnTheme = 'sepia';
+      else wnTheme = 'dark';
+
+      localStorage.setItem('wn_theme', wnTheme);
+      initWnPreferences();
+    }
+
+    // Typography Controls (Screenshot 4)
+    function toggleWnFontSheet() {
+      const sheet = document.getElementById('wn-font-sheet');
+      if (sheet) sheet.classList.toggle('open');
+    }
+
+    function setWnFontSize(size) {
+      wnFontSize = parseInt(size);
+      localStorage.setItem('wn_font_size', wnFontSize);
+      const contentEl = document.getElementById('wn-reading-content');
+      if (contentEl) contentEl.style.fontSize = wnFontSize + 'px';
+    }
+
+    function setWnFontFamily(family) {
+      wnFontFamily = family;
+      localStorage.setItem('wn_font_family', wnFontFamily);
+      initWnPreferences();
+    }
+
+    function setWnLanguage(lang) {
+      wnCurrentLang = lang;
+      localStorage.setItem('wn_lang', wnCurrentLang);
+      updateWnLangUI();
+      const ch = wnChapters[wnCurrentIndex];
+      if (ch && wnChapterCache[ch.id]) {
+        renderChapterProse(wnChapterCache[ch.id]);
+      }
+    }
+
+    function toggleWnLanguage() {
+      const nextLang = (wnCurrentLang === 'hi') ? 'en' : 'hi';
+      setWnLanguage(nextLang);
     }
 
     window.addEventListener('hashchange', handleRoute);
