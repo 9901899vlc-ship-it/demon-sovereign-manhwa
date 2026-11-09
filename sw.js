@@ -1,5 +1,5 @@
 // Service Worker for Demon Sovereign's Bloodline Webtoon Portal
-const CACHE_NAME = 'demon-sovereign-v12';
+const CACHE_NAME = 'demon-sovereign-v13';
 const STATIC_ASSETS = [
   './index.html',
   './config.js',
