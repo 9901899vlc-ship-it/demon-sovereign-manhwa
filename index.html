@@ -545,6 +545,11 @@
        VIEWER / READER VIEW (SCREENSHOT 3 & 4)
        100% IDENTICAL TO USER SCREENSHOT 3 & 4
        ---------------------------------------------------- */
+    #page-reader {
+      touch-action: pan-y;
+      -webkit-tap-highlight-color: transparent;
+    }
+
     .wt-reader-header {
       position: sticky;
       top: 0;
@@ -559,6 +564,7 @@
       padding: 0 16px;
       z-index: 1000;
       border-bottom: 1px solid #eeeeee;
+      transition: transform 0.28s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.28s ease, margin-top 0.28s ease;
     }
 
     .wt-reader-title {
@@ -591,6 +597,7 @@
       flex-direction: column;
       align-items: center;
       min-height: 400px;
+      cursor: pointer;
     }
 
     .wt-reader-strip picture {
@@ -623,6 +630,7 @@
       position: sticky;
       bottom: 48px;
       z-index: 999;
+      transition: transform 0.28s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.28s ease, margin-bottom 0.28s ease;
     }
     .wt-reader-filmstrip::-webkit-scrollbar {
       display: none;
@@ -676,6 +684,29 @@
       justify-content: space-between;
       padding: 0 16px;
       z-index: 1000;
+      transition: transform 0.28s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.28s ease, margin-bottom 0.28s ease;
+    }
+
+    /* DOUBLE-TAP TOGGLE: HIDE / SEEK UI (FULLSCREEN IMMERSIVE READER) */
+    #page-reader.ui-hidden .wt-reader-header {
+      transform: translateY(-100%);
+      opacity: 0;
+      pointer-events: none;
+      margin-top: -48px;
+    }
+
+    #page-reader.ui-hidden .wt-reader-filmstrip {
+      transform: translateY(120%);
+      opacity: 0;
+      pointer-events: none;
+      margin-bottom: -68px;
+    }
+
+    #page-reader.ui-hidden .wt-reader-toolbar {
+      transform: translateY(100%);
+      opacity: 0;
+      pointer-events: none;
+      margin-bottom: -48px;
     }
 
     .wt-toolbar-left {
@@ -1130,7 +1161,11 @@
     function openPage(pageName, updateHash = true) {
       document.getElementById('page-home').style.display = (pageName === 'home') ? 'block' : 'none';
       document.getElementById('page-detail').style.display = (pageName === 'detail') ? 'block' : 'none';
-      document.getElementById('page-reader').style.display = (pageName === 'reader') ? 'block' : 'none';
+      const rPage = document.getElementById('page-reader');
+      rPage.style.display = (pageName === 'reader') ? 'block' : 'none';
+      if (pageName === 'reader') {
+        rPage.classList.remove('ui-hidden');
+      }
       if (updateHash) {
         if (pageName === 'home') window.location.hash = '#/home';
         else if (pageName === 'detail') window.location.hash = '#/detail';
@@ -1319,6 +1354,45 @@
 
     window.addEventListener('hashchange', handleRoute);
     window.addEventListener('DOMContentLoaded', handleRoute);
+
+    // DOUBLE TAP UI TOGGLE:
+    // 1st Double Tap -> Hide UI (Seek / Fullscreen view matching Screenshot 2)
+    // 2nd Double Tap -> Restore UI (Pehle Jaisa matching Screenshot 1)
+    let lastTapTimestamp = 0;
+    const readerPageEl = document.getElementById('page-reader');
+
+    function toggleReaderUI() {
+      if (readerPageEl) {
+        readerPageEl.classList.toggle('ui-hidden');
+      }
+    }
+
+    if (readerPageEl) {
+      // Touch-based double-tap detection for mobile devices
+      readerPageEl.addEventListener('touchend', function(e) {
+        // Do not toggle if tapping interactive buttons/links
+        if (e.target.closest('button, a, input, .wt-filmstrip-thumb, .wt-icon-btn, .wt-nav-arrow, .wt-toolbar-action')) {
+          return;
+        }
+        const now = Date.now();
+        const interval = now - lastTapTimestamp;
+        if (interval > 40 && interval < 380) {
+          e.preventDefault();
+          toggleReaderUI();
+          lastTapTimestamp = 0;
+        } else {
+          lastTapTimestamp = now;
+        }
+      }, { passive: false });
+
+      // Desktop double click support
+      readerPageEl.addEventListener('dblclick', function(e) {
+        if (e.target.closest('button, a, input, .wt-filmstrip-thumb, .wt-icon-btn, .wt-nav-arrow, .wt-toolbar-action')) {
+          return;
+        }
+        toggleReaderUI();
+      });
+    }
 
     // Service Worker Registration
     if ("serviceWorker" in navigator) {
