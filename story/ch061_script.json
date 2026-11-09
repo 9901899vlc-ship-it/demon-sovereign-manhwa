@@ -15,7 +15,9 @@
       ],
       "action": "The vast 10-mile valley below Mount Obsidian packed with 300,000 unified demon soldiers and 10,000 wyverns.",
       "mood": "the grand army gathered",
-      "sfx": "HORNS RESOUNDING..."
+      "sfx": "HORNS RESOUNDING...",
+      "prose_en": "The vast 10-mile valley below Mount Obsidian packed with 300,000 unified demon soldiers and 10,000 wyverns.",
+      "prose_hi": "Mount obsidian ke neeche 10 meal ki vishal ghati 300,000 ekikrit danav sainikon aur 10,000 wivern se bhari hui hai."
     },
     {
       "id": "p02",
@@ -25,7 +27,9 @@
         "hajun"
       ],
       "action": "Ha-Jun stands at the apex of Mount Obsidian, the Crown of the Sovereign radiating ten concentric rings of light.",
-      "mood": "the supreme commander"
+      "mood": "the supreme commander",
+      "prose_en": "Ha-Jun stands at the apex of Mount Obsidian, the Crown of the Sovereign radiating ten concentric rings of light.",
+      "prose_hi": "Ha-jun mount obsidian ke sheersh par khada hai, jo ki samprabhu ka mukut hai jo prakash ke das sankendrit chhalle utsarjit karta hai."
     },
     {
       "id": "p03",
@@ -33,7 +37,9 @@
       "setting": "summit precipice",
       "characters": [],
       "action": "Tae-Jun wears black-and-gold enchanted general's plate armor, his twin swords sheathed at his hips.",
-      "mood": "the first general"
+      "mood": "the first general",
+      "prose_en": "Tae-Jun wears black-and-gold enchanted general's plate armor, his twin swords sheathed at his hips.",
+      "prose_hi": "Taaye-jun kale aur sunhare mantramugdh general ka plate kavach pahanta hai, uski judwan talwaren uske kulhon par madhi hoti han."
     },
     {
       "id": "p04",
@@ -41,7 +47,9 @@
       "setting": "summit precipice",
       "characters": [],
       "action": "Lord Malgath stands with a newly forged obsidian war hammer, his eyes glowing with fierce loyalty.",
-      "mood": "the iron monarch ally"
+      "mood": "the iron monarch ally",
+      "prose_en": "Lord Malgath stands with a newly forged obsidian war hammer, his eyes glowing with fierce loyalty.",
+      "prose_hi": "Lord malgath ek navnirmit obsidian yudh hathaude ke saath khada hai, uski aankhen bhayankar wafadari se chamak rahi han."
     },
     {
       "id": "p05",
@@ -62,7 +70,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun touches the central ruby of the Crown; a subtle hum resonates into three hundred thousand minds.",
+      "prose_hi": "Ha-jun taj ke kendriya manik ko chhuta hai; ek sookshm gunjan teen lakh manon mein gunjati hai."
     },
     {
       "id": "p06",
@@ -71,7 +81,9 @@
       "characters": [],
       "action": "Every single soldier across the ten-mile valley halts their movement, feeling their King's direct heartbeat.",
       "mood": "absolute discipline",
-      "sfx": "SNAP-STILLNESS..."
+      "sfx": "SNAP-STILLNESS...",
+      "prose_en": "Every single soldier across the ten-mile valley halts their movement, feeling their King's direct heartbeat.",
+      "prose_hi": "Das meal ki ghati mein har ek sainik apne raja ke sidhe dil ki dhadkan ko mahsoos karte hue apni gati rok deta hai."
     },
     {
       "id": "p07",
@@ -91,7 +103,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's calm, resolute voice speaks directly inside their souls without shouting.",
+      "prose_hi": "Ha-jun ki shant, dridh awaaz bina chillae sidhe unki aatma ke andar baat karti hai."
     },
     {
       "id": "p08",
@@ -99,7 +113,9 @@
       "setting": "army close-up",
       "characters": [],
       "action": "Demonic warriors of all tribes—iron juggernauts, shadow stalkers, fire fiends—look up with tear-filled eyes.",
-      "mood": "tribes united"
+      "mood": "tribes united",
+      "prose_en": "Demonic warriors of all tribes—iron juggernauts, shadow stalkers, fire fiends—look up with tear-filled eyes.",
+      "prose_hi": "Sabhi janjatiyon ke rakshasi yoddha - lohe ke bajigar, chhaya shikari, aag ke shaitan - aansu bhari aankhon se dekhte han."
     },
     {
       "id": "p09",
@@ -120,7 +136,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun continues: 'The Void Primordial has opened gates upon the human world. They think we are divided beasts.'.",
+      "prose_hi": "Ha-jun aage kahte han: 'shunya aadikaal ne manav jagat ke liye dwar khol diye han. ve sochte hain ki hum vibhajit janwar han.'"
     },
     {
       "id": "p10",
@@ -129,7 +147,9 @@
       "characters": [],
       "action": "Three hundred thousand halberds, spears, and axes shoot skyward with a roar that shakes the twin moons.",
       "mood": "the army roars",
-      "sfx": "ROOOAAARRRRR!!"
+      "sfx": "ROOOAAARRRRR!!",
+      "prose_en": "Three hundred thousand halberds, spears, and axes shoot skyward with a roar that shakes the twin moons.",
+      "prose_hi": "Teen lakh halbard, bhale aur kulhadiyan garjana ke saath aakash ki or goli chalati hain jo judwan chandramaon ko hila deti han."
     },
     {
       "id": "p11",
@@ -151,7 +171,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun gestures toward the 100-meter golden-violet portal tearing across the sky.",
+      "prose_hi": "Ha-jun aakash mein faile 100 meter sunahre-bangni portal ki or ishara karta hai."
     },
     {
       "id": "p12",
@@ -160,7 +182,9 @@
       "characters": [],
       "action": "Malgath slams his hammer against his breastplate: 'By your command, Sovereign!'",
       "mood": "general dispatches",
-      "sfx": "CLANG!"
+      "sfx": "CLANG!",
+      "prose_en": "Malgath slams his hammer against his breastplate: 'By your command, Sovereign!'.",
+      "prose_hi": "Malgath ne apne hathaude ko apne brestaplate par mara: 'aapke aadesh se, prabhu!'."
     },
     {
       "id": "p13",
@@ -169,7 +193,9 @@
       "characters": [],
       "action": "Malgath dives off the 15,000-foot cliff, landing squarely in the saddle of his 40-foot armored wyvern.",
       "mood": "aerial dive",
-      "sfx": "CATCH-ROAR!!"
+      "sfx": "CATCH-ROAR!!",
+      "prose_en": "Malgath dives off the 15,000-foot cliff, landing squarely in the saddle of his 40-foot armored wyvern.",
+      "prose_hi": "Malgath 15,000 foot ki chattan se gota lagata hai, aur apne 40 foot ke bakhtarband vayavarn ki kathi mein sidhe utarta hai."
     },
     {
       "id": "p14",
@@ -178,7 +204,9 @@
       "characters": [],
       "action": "Disciplined phalanxes of iron demon infantry march into the swirling golden portal in perfect formation.",
       "mood": "marching to earth",
-      "sfx": "STOMP-STOMP-MARCH!!"
+      "sfx": "STOMP-STOMP-MARCH!!",
+      "prose_en": "Disciplined phalanxes of iron demon infantry march into the swirling golden portal in perfect formation.",
+      "prose_hi": "Lauh danav paidal sena ke anushasit dal purna gathan mein ghumte hue sunhare portal ki or march karte han."
     },
     {
       "id": "p15",
@@ -197,7 +225,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun smiles: 'Main Tokyo Gate sambhalunga, Ha-Jun. Min-Jae ne kaha wahan situation critical hai.'.",
+      "prose_hi": "Taaye-jun muskurata hai: 'mukhya tokyo gate sambhalunga, ha-jun. min-jaye ne kaha vahan sthiti gambhir hai.'"
     },
     {
       "id": "p16",
@@ -218,7 +248,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun looks into his brother's eyes with deep love: 'Zinda wapas aana, Tae-Jun. Jung jeetne ke baad humein dinner karna hai.'.",
+      "prose_hi": "Ha-jun apne bhai ki aankhon mein gahre pyar se dekhta hai: 'jinda wapas aana, taaye-jun. jung jeetne ke baad hamen dinner karna hai.'"
     },
     {
       "id": "p17",
@@ -226,7 +258,9 @@
       "setting": "summit precipice",
       "characters": [],
       "action": "Tae-Jun laughs: 'Treat tumhare taraf se hogi, Your Majesty! I promise!'",
-      "mood": "warm promise"
+      "mood": "warm promise",
+      "prose_en": "Tae-Jun laughs: 'Treat tumhare taraf se hogi, Your Majesty! I promise!'.",
+      "prose_hi": "Taaye-jun hanste hue kahte han: 'ilaj tumhari taraf se hogi, mahamahim! main vaada karta hun!'."
     },
     {
       "id": "p18",
@@ -235,7 +269,9 @@
       "characters": [],
       "action": "Tae-Jun slashes a secondary dimensional rift leading directly to the neon skyline of Tokyo.",
       "mood": "secondary portal opened",
-      "sfx": "SLASH-RIPP!!"
+      "sfx": "SLASH-RIPP!!",
+      "prose_en": "Tae-Jun slashes a secondary dimensional rift leading directly to the neon skyline of Tokyo.",
+      "prose_hi": "Taaye-jun ek dwitiyak aayami daraar ko kaatata hai jo sidhe tokyo ke neon kshitij tak le jaati hai."
     },
     {
       "id": "p19",
@@ -244,7 +280,9 @@
       "characters": [],
       "action": "Tae-Jun leads 30,000 shadow wraiths through the rift, vanishing toward Japan.",
       "mood": "tokyo deployment",
-      "sfx": "WHOOSH!!"
+      "sfx": "WHOOSH!!",
+      "prose_en": "Tae-Jun leads 30,000 shadow wraiths through the rift, vanishing toward Japan.",
+      "prose_hi": "Taaye-jun daraar ke madhyam se 30,000 chhaya preton ko le jata hai, jo japan ki or lupt ho jaate han."
     },
     {
       "id": "p20",
@@ -256,7 +294,9 @@
       ],
       "action": "Only Ha-Jun and Kuro remain at the peak, wind howling through the star-matter colonnades.",
       "mood": "the quiet peak",
-      "sfx": "WIND HOWLING..."
+      "sfx": "WIND HOWLING...",
+      "prose_en": "Only Ha-Jun and Kuro remain at the peak, wind howling through the star-matter colonnades.",
+      "prose_hi": "Keval ha-jun aur kuro hi charam par bache han, star-mater colonaid ke madhyam se hawa ka jhonka aa raha hai."
     },
     {
       "id": "p21",
@@ -277,7 +317,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro nuzzles Ha-Jun's cheek: 'Ready, Ha-Jun? Seoul awaits its true protector.'.",
+      "prose_hi": "Kuro ne ha-jun ka gaal thapthpaya: 'taiyar, ha-jun? seoul apne sacche rakshak ki pratiksha kar raha hai.'"
     },
     {
       "id": "p22",
@@ -299,7 +341,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun holds the dark-matter greatsword with both hands, eyes burning with quiet, immovable purpose.",
+      "prose_hi": "Ha-jun ne donon hathon se dark matter ki mahan talwar pakad rakhi hai, aankhen shant, achal uddeshya se jal rahi han."
     },
     {
       "id": "p23",
@@ -310,7 +354,9 @@
       ],
       "action": "Ha-Jun's wings unfurl with blinding majesty, feathers glistening with starlight.",
       "mood": "wings unfurled",
-      "sfx": "FWOOOOSH!!"
+      "sfx": "FWOOOOSH!!",
+      "prose_en": "Ha-Jun's wings unfurl with blinding majesty, feathers glistening with starlight.",
+      "prose_hi": "Ha-jun ke pankh chakachaundh kar dene wali mahima ke saath khul rahe han, pankh taron ki roshni se chamak rahe han."
     },
     {
       "id": "p24",
@@ -321,7 +367,9 @@
       ],
       "action": "Ha-Jun steps forward across the dimensional threshold back toward the human realm.",
       "mood": "crossing to earth",
-      "sfx": "STEP..."
+      "sfx": "STEP...",
+      "prose_en": "Ha-Jun steps forward across the dimensional threshold back toward the human realm.",
+      "prose_hi": "Ha-jun aayami seema paar karke manav kshetra ki or aage badhta hai."
     },
     {
       "id": "p25",
@@ -332,7 +380,9 @@
       ],
       "action": "Ha-Jun bursts through the portal into the pouring Seoul rain 500 feet above Gangnam Station.",
       "mood": "return to seoul",
-      "sfx": "RAIN-LIGHTNING!!"
+      "sfx": "RAIN-LIGHTNING!!",
+      "prose_en": "Ha-Jun bursts through the portal into the pouring Seoul rain 500 feet above Gangnam Station.",
+      "prose_hi": "Ha-jun portal ke madhyam se gangnam station se 500 feet upar seoul mein bhari baarish mein bah gaya."
     },
     {
       "id": "p26",
@@ -341,7 +391,9 @@
       "characters": [],
       "action": "The city is ablaze: skyscrapers burning, streets swarming with hundreds of thousands of Void Bio-Beasts.",
       "mood": "seoul apocalyptic siege",
-      "sfx": "SIRENS & ROARS!!"
+      "sfx": "SIRENS & ROARS!!",
+      "prose_en": "The city is ablaze: skyscrapers burning, streets swarming with hundreds of thousands of Void Bio-Beasts.",
+      "prose_hi": "Shahar jal raha hai: gaganchumbi imaraten jal rahi han, sadken saikdon-hajaron shunya jaiv-janavron se bhari hui han."
     },
     {
       "id": "p27",
@@ -361,7 +413,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Captain Baek and Min-Jae firing heavy plasma rifles from behind a failing blue barrier.",
+      "prose_hi": "Capton bak aur min-je ek asafal neele barrier ke peeche se bhari plasma riflon se firing kar rahe han."
     },
     {
       "id": "p28",
@@ -370,7 +424,9 @@
       "characters": [],
       "action": "A massive Void Behemoth with six spider legs and acid maw raises a colossal foot over Baek's barricade.",
       "mood": "imminent annihilation",
-      "sfx": "SHADOW CRUSH!!"
+      "sfx": "SHADOW CRUSH!!",
+      "prose_en": "A massive Void Behemoth with six spider legs and acid maw raises a colossal foot over Baek's barricade.",
+      "prose_hi": "Chhah makdi ke pairon aur acid mowe ke saath ek vishal shunya behemoth, bake ke barricade ke upar ek vishal pair uthata hai."
     },
     {
       "id": "p29",
@@ -379,7 +435,9 @@
       "characters": [],
       "action": "From the stormy sky, a colossal spear of violet-crimson hellfire spears straight through the behemoth's skull.",
       "mood": "divine intervention",
-      "sfx": "BOOOOOOOOOMMM!!"
+      "sfx": "BOOOOOOOOOMMM!!",
+      "prose_en": "From the stormy sky, a colossal spear of violet-crimson hellfire spears straight through the behemoth's skull.",
+      "prose_hi": "Tufani aakash se, bangni-lal rang ki narkankaal ki aag ka ek vishal bhala sidhe rakshas ki khopdi mein ghus jata hai."
     },
     {
       "id": "p30",
@@ -400,7 +458,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun lands with Crown gleaming in the rain, Eclipse Devourer planted in the monster's skull: 'I'm back.'.",
+      "prose_hi": "Ha-jun baarish mein chamchamate mukut ke saath utra, grahan bhakshak ne rakshas ki khopdi mein lagaya: 'main wapas aa gaya hun.'"
     }
   ]
 }

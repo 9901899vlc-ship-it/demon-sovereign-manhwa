@@ -15,7 +15,9 @@
       ],
       "action": "Rain pours down over Ha-Jun's crowned silhouette as steam hisses from the bisected monster's skull.",
       "mood": "triumphant return",
-      "sfx": "STEAM HISSING..."
+      "sfx": "STEAM HISSING...",
+      "prose_en": "Rain pours down over Ha-Jun's crowned silhouette as steam hisses from the bisected monster's skull.",
+      "prose_hi": "Ha-jun ki tajposhi aakriti par baarish baras rahi hai aur do bhagon mein bante rakshas ki khopdi se bhaap nikal rahi hai."
     },
     {
       "id": "p02",
@@ -34,7 +36,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae drops his rifle, tears streaming behind his glasses: 'HA-JUN!! HE'S BACK!!'.",
+      "prose_hi": "Min-je ne apni rifle gira di, chashme ke peeche se aansu bah rahe the: 'ha-jun!! wah wapas aa gaya hai!!'"
     },
     {
       "id": "p03",
@@ -54,7 +58,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Captain Baek wipes sweat and blood from his brow, exhaling in massive relief: 'The Sovereign has returned.'.",
+      "prose_hi": "Capton bak ne apne mathe se pasina aur khoon poncha aur badi rahat ki saans li: 'samprabhu wapas aa gaya hai.'"
     },
     {
       "id": "p04",
@@ -63,7 +69,9 @@
       "characters": [],
       "action": "High above the intersection, the portal pulses violently as war horns sound from within.",
       "mood": "reinforcements arrive",
-      "sfx": "PORTAL CHIME-HORN!!"
+      "sfx": "PORTAL CHIME-HORN!!",
+      "prose_en": "High above the intersection, the portal pulses violently as war horns sound from within.",
+      "prose_hi": "Chaurahe ke upar, portal hinsak roop se dhadkata hai kyonki bhitar se yudh ke bhonpu bajte han."
     },
     {
       "id": "p05",
@@ -72,7 +80,9 @@
       "characters": [],
       "action": "The disciplined legions of iron demons flood the streets, forming impenetrable defensive shield-walls.",
       "mood": "demon army aids humanity",
-      "sfx": "STOMP-SHIELD WALL!!"
+      "sfx": "STOMP-SHIELD WALL!!",
+      "prose_en": "The disciplined legions of iron demons flood the streets, forming impenetrable defensive shield-walls.",
+      "prose_hi": "Lohe ke rakshason ki anushasit senayen sadkon par baadh laati han, jisse abhedy rakshatmak dhal-diwaren ban jaati han."
     },
     {
       "id": "p06",
@@ -90,7 +100,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Civilians sheltered inside high-rise offices watch in amazement as demons fight alongside human hunters.",
+      "prose_hi": "Unchi imaaraton wale karyalayon ke andar sharan liye hue nagrik aashcharya se dekh rahe hain kyonki rakshas manav shikariyon ke saath lad rahe han."
     },
     {
       "id": "p07",
@@ -109,7 +121,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Malgath strikes his chestplate: 'Sector 4 perimeter is locked, My Sovereign!'.",
+      "prose_hi": "Malgath ne apni chestaplate par prahar kiya: 'secter 4 ki paridhi band hai, mere prabhu!'"
     },
     {
       "id": "p08",
@@ -130,7 +144,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun looks down from the behemoth: 'Lekin invasion force ka commander kahan hai?'.",
+      "prose_hi": "Ha-jun rakshas se neeche dekhta hai: 'lakin aakraman bal ka commander kahan hai?'."
     },
     {
       "id": "p09",
@@ -139,7 +155,9 @@
       "characters": [],
       "action": "Every streetlamp and neon billboard in Gangnam flickers and dies; absolute unnatural pitch-darkness falls.",
       "mood": "light extinguished",
-      "sfx": "FLICKER-DARK..."
+      "sfx": "FLICKER-DARK...",
+      "prose_en": "Every streetlamp and neon billboard in Gangnam flickers and dies; absolute unnatural pitch-darkness falls.",
+      "prose_hi": "Gangnam mein har street lamp aur neon billboard timtimata hai aur mar jata hai; bilkul aprakritik ghanghor andhera chha jata hai."
     },
     {
       "id": "p10",
@@ -148,7 +166,9 @@
       "characters": [],
       "action": "A three-hundred-meter vertical crack tears through the clouds, glowing with toxic green void energy.",
       "mood": "the void rift",
-      "sfx": "TEARING SOUND!!"
+      "sfx": "TEARING SOUND!!",
+      "prose_en": "A three-hundred-meter vertical crack tears through the clouds, glowing with toxic green void energy.",
+      "prose_hi": "Teen sau meter ki khadi daraar baadalon ko chirti hui jahrili hari shunya urja se chamakti hai."
     },
     {
       "id": "p11",
@@ -157,7 +177,9 @@
       "characters": [],
       "action": "Descending from the rift: a floating throne made of thousands of fused human and demon skulls.",
       "mood": "throne of horrors",
-      "sfx": "EERIE HUM..."
+      "sfx": "EERIE HUM...",
+      "prose_en": "Descending from the rift: a floating throne made of thousands of fused human and demon skulls.",
+      "prose_hi": "Darar se utarta hua: hajaron jude hue manav aur rakshas khopadiyon se bana ek tairta hua sinhasan."
     },
     {
       "id": "p12",
@@ -165,7 +187,9 @@
       "setting": "bone throne close-up",
       "characters": [],
       "action": "Seated on the throne: an 18-foot biomechanical Void General with a faceless mirrored visor, six bladed arms, and void tentacles.",
-      "mood": "void general xal'khor"
+      "mood": "void general xal'khor",
+      "prose_en": "Seated on the throne: an 18-foot biomechanical Void General with a faceless mirrored visor, six bladed arms, and void tentacles.",
+      "prose_hi": "Sinhasan par baitha: ek 18 foot ka biomacanikal shunya janaral, jisme bina chehre wala darpan wala chhajja, chhah blade wali bhujaen aur shunya tambu han."
     },
     {
       "id": "p13",
@@ -184,7 +208,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "A voice like grinding metal broadcast directly into everyone's skulls: 'The biological anomaly Ha-Jun Kang.'.",
+      "prose_hi": "Dhatu pisne jaisi awaz sidhe sabhi ki khopdi mein prasarit hoti hai: 'jaivik visangati ha-jun cong.'"
     },
     {
       "id": "p14",
@@ -192,7 +218,9 @@
       "setting": "bone throne",
       "characters": [],
       "action": "Xal'Khor points at Ha-Jun's crown: 'The Sovereign Relics are obsolete technology. Hand them over.'",
-      "mood": "arrogant demand"
+      "mood": "arrogant demand",
+      "prose_en": "Xal'Khor points at Ha-Jun's crown: 'The Sovereign Relics are obsolete technology. Hand them over.'.",
+      "prose_hi": "Zaal'khor ha-jun ke mukut ki or ishara karte han: 'samprabhu avashesh aprachalit takneek han. unko saunp do.'."
     },
     {
       "id": "p15",
@@ -203,7 +231,9 @@
       ],
       "action": "Ha-Jun lands smoothly on the rain-slicked road, stepping toward the descending throne.",
       "mood": "stepping into challenge",
-      "sfx": "TAP..."
+      "sfx": "TAP...",
+      "prose_en": "Ha-Jun lands smoothly on the rain-slicked road, stepping toward the descending throne.",
+      "prose_hi": "Ha-jun baarish se sunny sadak par aasani se utarta hai, aur neeche ki or badhte hue sinhasan ki or badhta hai."
     },
     {
       "id": "p16",
@@ -224,7 +254,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun smirks with icy disdain: 'Recycling? Tumhari vocabulary bohot advanced hai machine ke liye.'.",
+      "prose_hi": "Ha-jun barfile tiraskar se muskurata hai: 'punarchakran? tumhari shabdawali bahut unnat hai machine ke liye.'"
     },
     {
       "id": "p17",
@@ -233,7 +265,9 @@
       "characters": [],
       "action": "The mirrored visor pulses angry red: 'Disrespect detected. Commencing biological purge.'",
       "mood": "hostility engaged",
-      "sfx": "BEEP-RED!"
+      "sfx": "BEEP-RED!",
+      "prose_en": "The mirrored visor pulses angry red: 'Disrespect detected. Commencing biological purge.'.",
+      "prose_hi": "Darpan ka chhajja gusse mein lal ho gaya: 'apman ka pata chala. jaivik shuddhikaran shuru ho raha hai.'"
     },
     {
       "id": "p18",
@@ -242,7 +276,9 @@
       "characters": [],
       "action": "Six black spheres of pure antimatter launch from Xal'Khor's shoulders, homing in on Ha-Jun.",
       "mood": "antimatter missiles",
-      "sfx": "WHIRRR-ZIP!!"
+      "sfx": "WHIRRR-ZIP!!",
+      "prose_en": "Six black spheres of pure antimatter launch from Xal'Khor's shoulders, homing in on Ha-Jun.",
+      "prose_hi": "Zaal'khor ke kandhon se shuddh antimatter ke chhah kale gole ha-jun ki or lautate hue launch hue."
     },
     {
       "id": "p19",
@@ -253,7 +289,9 @@
       ],
       "action": "Ha-Jun whips the Chains of Ruin; the black chains form a rotating gravitational shield in front of him.",
       "mood": "gravity barrier",
-      "sfx": "SPIN-CLANG!!"
+      "sfx": "SPIN-CLANG!!",
+      "prose_en": "Ha-Jun whips the Chains of Ruin; the black chains form a rotating gravitational shield in front of him.",
+      "prose_hi": "Ha-jun barbadi ki janjeeron ko kode maarta hai; kali janjeeren uske samne ek ghumti hui gurutvakarshan dhal banati han."
     },
     {
       "id": "p20",
@@ -262,7 +300,9 @@
       "characters": [],
       "action": "The six missiles detonate with terrifying white-hot flashes, but the gravity field absorbs 100% of the blast.",
       "mood": "explosions contained",
-      "sfx": "BOOM-BOOM-CONTAIN!!"
+      "sfx": "BOOM-BOOM-CONTAIN!!",
+      "prose_en": "The six missiles detonate with terrifying white-hot flashes, but the gravity field absorbs 100% of the blast.",
+      "prose_hi": "Chhah missilen bhayanak safed-garm chamak ke saath visfot karti han, lekin gurutvakarshan kshetra visfot ka 100% avshoshit kar leta hai."
     },
     {
       "id": "p21",
@@ -273,7 +313,9 @@
       ],
       "action": "Ha-Jun bursts through the explosion smoke at Mach 2, the dark-matter greatsword raised overhead.",
       "mood": "blitz attack",
-      "sfx": "FWOOOOSH!!"
+      "sfx": "FWOOOOSH!!",
+      "prose_en": "Ha-Jun bursts through the explosion smoke at Mach 2, the dark-matter greatsword raised overhead.",
+      "prose_hi": "Ha-jun mac 2 par visfot ke dhuen ke madhyam se futata hai, kale padarth wali mahan talwar upar ki or uthti hai."
     },
     {
       "id": "p22",
@@ -282,7 +324,9 @@
       "characters": [],
       "action": "Xal'Khor's six arms deploy humming green energy blades, meeting Ha-Jun's strike in midair.",
       "mood": "six-blade parry",
-      "sfx": "CRACKLE-SHING!!"
+      "sfx": "CRACKLE-SHING!!",
+      "prose_en": "Xal'Khor's six arms deploy humming green energy blades, meeting Ha-Jun's strike in midair.",
+      "prose_hi": "Zaal'khor ki chhah bhujaen gungunate hue harit urja blade tainat karti han, jo hawa mein ha-jun ke prahar ka samna karti han."
     },
     {
       "id": "p23",
@@ -293,7 +337,9 @@
       ],
       "action": "Ha-Jun's single greatsword deadlocked against Xal'Khor's six energy blades; shockwaves rattle buildings.",
       "mood": "midair deadlock",
-      "sfx": "SPARKS-SHOCKWAVE!!"
+      "sfx": "SPARKS-SHOCKWAVE!!",
+      "prose_en": "Ha-Jun's single greatsword deadlocked against Xal'Khor's six energy blades; shockwaves rattle buildings.",
+      "prose_hi": "Ha-jun ki ekal mahan talwar zaal'khor ke chhah urja bledon ke viruddh gatirodh mein thi; shockwaves imaaraton ko hila deti han."
     },
     {
       "id": "p24",
@@ -302,7 +348,9 @@
       "characters": [],
       "action": "Four razor-tipped tentacles lash out from Xal'Khor's back, wrapping around Ha-Jun's ribs to crush him.",
       "mood": "tentacle constriction",
-      "sfx": "WRAP-SQUEEZE!!"
+      "sfx": "WRAP-SQUEEZE!!",
+      "prose_en": "Four razor-tipped tentacles lash out from Xal'Khor's back, wrapping around Ha-Jun's ribs to crush him.",
+      "prose_hi": "Zaal'khor ki peeth se char ustra-nukile tambu nikalte han, jo use kuchalne ke liye ha-jun ki pasliyon ke charon or lapetate han."
     },
     {
       "id": "p25",
@@ -324,7 +372,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's internal bone density activates; the crushing tentacles cannot compress his ribcage even an inch.",
+      "prose_hi": "Ha-jun ki aantarik asthi ghanatv sakriya ho jaati hai; kuchalne wale sparshak uski pasli ko ek inch bhi nahin daba sakte."
     },
     {
       "id": "p26",
@@ -335,7 +385,9 @@
       ],
       "action": "Ha-Jun pulls the void dagger with his left hand, slicing cleanly through all four tentacles in one reverse cut.",
       "mood": "tentacles severed",
-      "sfx": "SLASHHH!!"
+      "sfx": "SLASHHH!!",
+      "prose_en": "Ha-Jun pulls the void dagger with his left hand, slicing cleanly through all four tentacles in one reverse cut.",
+      "prose_hi": "Ha-jun apne baen haath se shunya khanjar khinchta hai, aur ek reverse cut mein sabhi char tentekals ko safai se kaatata hai."
     },
     {
       "id": "p27",
@@ -344,7 +396,9 @@
       "characters": [],
       "action": "Xal'Khor jerks backward, severed tentacle cables spewing green sparks and black coolant.",
       "mood": "coolant spray",
-      "sfx": "SPARK-HSSS!!"
+      "sfx": "SPARK-HSSS!!",
+      "prose_en": "Xal'Khor jerks backward, severed tentacle cables spewing green sparks and black coolant.",
+      "prose_hi": "Zaal'khor peeche ki or jhatke maarta hai, tentekal cable cut jata hai aur hari chingari aur kala shitalak ugalta hai."
     },
     {
       "id": "p28",
@@ -355,7 +409,9 @@
       ],
       "action": "Ha-Jun drives an axe-kick into Xal'Khor's chestplate, rocketing the 18-foot general into the street tarmac.",
       "mood": "grounding the general",
-      "sfx": "WHAMMM!!"
+      "sfx": "WHAMMM!!",
+      "prose_en": "Ha-Jun drives an axe-kick into Xal'Khor's chestplate, rocketing the 18-foot general into the street tarmac.",
+      "prose_hi": "Ha-jun ne zaal'khor ke chestaplate mein ek kulhadi mari, jisse 18 foot ka general sadak par ja gira."
     },
     {
       "id": "p29",
@@ -364,7 +420,9 @@
       "characters": [],
       "action": "The Void General smashes into the asphalt, digging a 40-foot trench through the street.",
       "mood": "trench impact",
-      "sfx": "BOOOOOM-CRUNCH!!"
+      "sfx": "BOOOOOM-CRUNCH!!",
+      "prose_en": "The Void General smashes into the asphalt, digging a 40-foot trench through the street.",
+      "prose_hi": "Void general sadak par 40 foot ki khai khodkar damar ko tod deta hai."
     },
     {
       "id": "p30",
@@ -385,7 +443,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun hovers thirty feet above the smoking crater, pointing his greatsword down: 'Recycle this.'.",
+      "prose_hi": "Ha-jun dhumrapan gaddhe se tees feet upar mandarata hai, aur apni badi talwar ko neeche ki or ishara karta hai: 'ise recycle karen.'"
     }
   ]
 }

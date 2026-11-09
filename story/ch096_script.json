@@ -15,7 +15,9 @@
       ],
       "action": "Massive roots of living crystal starlight intertwine across an ocean of infinite cosmic clouds.",
       "mood": "sacred ground of creation",
-      "sfx": "CELESTIAL CHIME..."
+      "sfx": "CELESTIAL CHIME...",
+      "prose_en": "Massive roots of living crystal starlight intertwine across an ocean of infinite cosmic clouds.",
+      "prose_hi": "Jeevit crystal starlite ki vishal jaden anant brahmandiya baadalon ke mahasagar mein aapas mein judi hui han."
     },
     {
       "id": "p02",
@@ -36,7 +38,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Hovering between Ha-Jun and Kuro is the original demonic pact from Episode 2, written in glowing crimson blood runes.",
+      "prose_hi": "Ha-jun aur kuro ke beech mandrana episode 2 ka mool rakshasi samjhauta hai, jo chamakte lal rang ke rakt runon mein likha gaya hai."
     },
     {
       "id": "p03",
@@ -59,7 +63,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro tilts his head, his ruby eyes reflecting the ancient parchment: 'The contract was written when you were weak.'.",
+      "prose_hi": "Kuro apna sir jhukata hai, uski lal aankhen prachin charmpatra ko pratibimbit karti han: 'anubandh tab likha gaya tha jab aap kamjor the.'"
     },
     {
       "id": "p04",
@@ -81,7 +87,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun touches the paper; warm golden mana washes over the harsh red lettering, softening its jagged edges.",
+      "prose_hi": "Ha-jun kagaj ko chhuta hai; garm sunhara maina kathor lal aksharon par dhul jata hai, jisse iske dantedar kinare naram ho jaate han."
     },
     {
       "id": "p05",
@@ -101,7 +109,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun watches with pride: 'A contract of equals. No masters. No servants.'.",
+      "prose_hi": "Taaye-jun garv ke saath dekhta hai: 'barabri ka anubandh. koi swami nahin. koi naukar nahin.'"
     },
     {
       "id": "p06",
@@ -112,7 +122,9 @@
       ],
       "action": "The red ink transforms into flowing stardust gold; the words dissolve into blank, waiting parchment.",
       "mood": "parchment purified",
-      "sfx": "DISSOLVE-GOLD..."
+      "sfx": "DISSOLVE-GOLD...",
+      "prose_en": "The red ink transforms into flowing stardust gold; the words dissolve into blank, waiting parchment.",
+      "prose_hi": "Lal syahi bahte hue stardust sone mein badal jaati hai; shabd rikt, pratiksharat charmpatra mein vilin ho jaate han."
     },
     {
       "id": "p07",
@@ -123,7 +135,9 @@
       ],
       "action": "Ha-Jun draws a luminous thread of golden sovereign mana from his chest, using it as a pen.",
       "mood": "the ink of the soul",
-      "sfx": "THREAD GLOW..."
+      "sfx": "THREAD GLOW...",
+      "prose_en": "Ha-Jun draws a luminous thread of golden sovereign mana from his chest, using it as a pen.",
+      "prose_hi": "Ha-jun apni chhati se sunhare samprabhu man ka ek chamakdar dhaga khinchta hai, ise ek kalam ke roop mein upyog karta hai."
     },
     {
       "id": "p08",
@@ -145,7 +159,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro plucks a soft, downy feather from his breast, offering the quill to Ha-Jun: 'Use this, my brother.'.",
+      "prose_hi": "Kuro ne apne seene se ek naram, komal pankh nikala aur kalam ko ha-jun ki or badhate hue kaha: 'iska upyog karo, mere bhai.'"
     },
     {
       "id": "p09",
@@ -166,7 +182,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "With a gentle, elegant hand, Ha-Jun writes the new covenant in radiant script.",
+      "prose_hi": "Saumya, suruchipoorn haath se, ha-jun nai vacha ko ujjwal lipi mein likhta hai."
     },
     {
       "id": "p10",
@@ -188,7 +206,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro presses his talon onto the gold wax seal: 'Agreed. Throughout time and eternity.'.",
+      "prose_hi": "Kuro ne sone ki mom ki seal par apna panja dabaya: 'sahmat. poore samay aur anant kaal tak.'"
     },
     {
       "id": "p11",
@@ -200,7 +220,9 @@
       ],
       "action": "The treaty dissolves into a shower of warm light that sinks into both Ha-Jun and Kuro's chests.",
       "mood": "permanent spiritual union",
-      "sfx": "SHIMMER-MERGE!!"
+      "sfx": "SHIMMER-MERGE!!",
+      "prose_en": "The treaty dissolves into a shower of warm light that sinks into both Ha-Jun and Kuro's chests.",
+      "prose_hi": "Sandhi garm roshni ki bauchhar mein vilin ho jaati hai jo ha-jun aur kuro donon ke seene mein sama jaati hai."
     },
     {
       "id": "p12",
@@ -222,7 +244,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro's physical form transforms into a magnificent royal mantle of midnight-black starlight feathers draping Ha-Jun's shoulders.",
+      "prose_hi": "Kuro ka bhautik roop ha-jun ke kandhon par lipte madhyaratri-kale taron ke pankhon ke ek shandar shahi aavaran mein badal jata hai."
     },
     {
       "id": "p13",
@@ -244,7 +268,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro's voice resonates with infinite comfort: 'I am your wings, Ha-Jun. Fly.'.",
+      "prose_hi": "Kuro ki awaz aseem aaram se gunjati hai: 'main tumhare pankh hun, ha-jun. udna.'."
     },
     {
       "id": "p14",
@@ -255,7 +281,9 @@
       ],
       "action": "The colossal crystal roots hum an ancient chord of welcome as the final bloodline synchronization unlocks.",
       "mood": "the final threshold",
-      "sfx": "THUNDER-CHIME!!"
+      "sfx": "THUNDER-CHIME!!",
+      "prose_en": "The colossal crystal roots hum an ancient chord of welcome as the final bloodline synchronization unlocks.",
+      "prose_hi": "Jaise hi antim bladlin synchronization unlock hota hai, vishal crystal jaden swagat ka ek prachin raag gunjayman karti han."
     },
     {
       "id": "p15",
@@ -266,7 +294,9 @@
       ],
       "action": "Ha-Jun walks toward the core chamber, his starlight feather cloak billowing, eyes shining like twin suns.",
       "mood": "approaching the heart",
-      "sfx": "STEP-MAJESTY..."
+      "sfx": "STEP-MAJESTY...",
+      "prose_en": "Ha-Jun walks toward the core chamber, his starlight feather cloak billowing, eyes shining like twin suns.",
+      "prose_hi": "Ha-jun mukhya kaksh ki or chalta hai, uska taron jaisa pankhon wala labada lahra raha hai, aankhen judwan suraj ki tarah chamak rahi han."
     },
     {
       "id": "p16",
@@ -286,7 +316,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun stands at the entrance: 'Go inside, Ha-Jun. Claim your true form.'.",
+      "prose_hi": "Taaye-jun pravesh dwar par khada hai: 'ander jao, ha-jun. apne asli swaroop ka dawa karen.'"
     },
     {
       "id": "p17",
@@ -297,7 +329,9 @@
       ],
       "action": "Ha-Jun smiles: 'See you in a minute, Hyung.'",
       "mood": "confident parting",
-      "sfx": "SMILE..."
+      "sfx": "SMILE...",
+      "prose_en": "Ha-Jun smiles: 'See you in a minute, Hyung.'.",
+      "prose_hi": "Ha-jun muskurata hai: 'ek minute mein milte han, hung.'"
     },
     {
       "id": "p18",
@@ -308,7 +342,9 @@
       ],
       "action": "Inside the sphere: total weightlessness surrounded by the birth of newborn galaxies and stars.",
       "mood": "the cosmic womb",
-      "sfx": "WEIGHTLESS SILENCE..."
+      "sfx": "WEIGHTLESS SILENCE...",
+      "prose_en": "Inside the sphere: total weightlessness surrounded by the birth of newborn galaxies and stars.",
+      "prose_hi": "Gole ke ander: navjaat akashgangaon aur taron ke janm se ghiri hui kul bharahinta."
     },
     {
       "id": "p19",
@@ -317,7 +353,9 @@
       "characters": [],
       "action": "A slender needle of pure crystalline diamond light that anchors all universal laws.",
       "mood": "the axis mundi",
-      "sfx": "PILLAR GLOW..."
+      "sfx": "PILLAR GLOW...",
+      "prose_en": "A slender needle of pure crystalline diamond light that anchors all universal laws.",
+      "prose_hi": "Shuddh crystaliy heere ki roshni ki ek patli sui jo sabhi sarvbhaumik kanunon ko sthapit karti hai."
     },
     {
       "id": "p20",
@@ -339,7 +377,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun floats up, his open palms hovering inches away from the sacred diamond pillar.",
+      "prose_hi": "Ha-jun upar tairta hai, uski khuli hatheliyan pavitra heere ke stambh se kuch inch ki doori par mandara rahi han."
     },
     {
       "id": "p21",
@@ -350,7 +390,9 @@
       ],
       "action": "Ha-Jun's fingertips make contact with the pillar; an instantaneous shockwave of celestial mana explodes.",
       "mood": "contact made",
-      "sfx": "TOUCH-PULSE!!"
+      "sfx": "TOUCH-PULSE!!",
+      "prose_en": "Ha-Jun's fingertips make contact with the pillar; an instantaneous shockwave of celestial mana explodes.",
+      "prose_hi": "Ha-jun ki ungaliyan khambhe se sampark banati han; akashiya man ki ek tatkalik shockwev visphotit hoti hai."
     },
     {
       "id": "p22",
@@ -361,7 +403,9 @@
       ],
       "action": "Blinding sovereign light washes over him, dissolving all remaining mortal fatigue and limits.",
       "mood": "divine baptism",
-      "sfx": "WASH-LIGHT!!"
+      "sfx": "WASH-LIGHT!!",
+      "prose_en": "Blinding sovereign light washes over him, dissolving all remaining mortal fatigue and limits.",
+      "prose_hi": "Us par chakachaundh kar dene wali samprabhu roshni barasti hai, shesh sabhi nashwar thakan aur seemaon ko bhang kar deti hai."
     },
     {
       "id": "p23",
@@ -372,7 +416,9 @@
       ],
       "action": "His hair flows down to his shoulders, midnight-black shot through with spinning galaxies and platinum comets.",
       "mood": "celestial hair",
-      "sfx": "FLOWING STARS..."
+      "sfx": "FLOWING STARS...",
+      "prose_en": "His hair flows down to his shoulders, midnight-black shot through with spinning galaxies and platinum comets.",
+      "prose_hi": "Uske bal uske kandhon tak lahrate han, aadhi raat ke kale rang mein ghumte hue akashgangaon aur platinum dhumketuon ke saath guzrte han."
     },
     {
       "id": "p24",
@@ -383,7 +429,9 @@
       ],
       "action": "Two elegant, noble horns of white jade and gold starlight curve back gracefully from his brow.",
       "mood": "noble sovereign horns",
-      "sfx": "JADE GLOW..."
+      "sfx": "JADE GLOW...",
+      "prose_en": "Two elegant, noble horns of white jade and gold starlight curve back gracefully from his brow.",
+      "prose_hi": "Safed jed aur sone ki taron ki roshni ke do sunder, mahan seeng uske mathe se sundar dhang se peeche ki or mude hue han."
     },
     {
       "id": "p25",
@@ -394,7 +442,9 @@
       ],
       "action": "Six magnificent wings unfold—refracting the entire spectrum of cosmic dawn, spanning a hundred yards.",
       "mood": "six wings of dawn",
-      "sfx": "UNFOLD-MAJESTY!!"
+      "sfx": "UNFOLD-MAJESTY!!",
+      "prose_en": "Six magnificent wings unfold—refracting the entire spectrum of cosmic dawn, spanning a hundred yards.",
+      "prose_hi": "Chhah shandar pankh khule hue hain - brahmandiya bhor ke poore spectrum ko apvartit karte hue, sau gaj ki doori tak faile hue."
     },
     {
       "id": "p26",
@@ -405,7 +455,9 @@
       ],
       "action": "Ten concentric halos of living light rotate behind his back, each bearing the emblem of a purified relic.",
       "mood": "the ten halos of eternity",
-      "sfx": "HALO ROTATION!!"
+      "sfx": "HALO ROTATION!!",
+      "prose_en": "Ten concentric halos of living light rotate behind his back, each bearing the emblem of a purified relic.",
+      "prose_hi": "Jivit prakash ke das sankendrit prabhamandal uski peeth ke peeche ghumte han, jinmein se pratyek par ek shuddh avashesh ka prateek hai."
     },
     {
       "id": "p27",
@@ -416,7 +468,9 @@
       ],
       "action": "Ha-Jun's eyes open: deep royal violet irises holding infinite compassion, wisdom, and eternal peace.",
       "mood": "eyes of creation",
-      "sfx": "INFINITE DEPTH..."
+      "sfx": "INFINITE DEPTH...",
+      "prose_en": "Ha-Jun's eyes open: deep royal violet irises holding infinite compassion, wisdom, and eternal peace.",
+      "prose_hi": "Ha-jun ki aankhen khulin: gahre shahi baingani rang ki putli mein anant karuna, gyan aur shashwat shanti hai."
     },
     {
       "id": "p28",
@@ -437,7 +491,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "The system interface appears: '[BLOODLINE SYNCHRONIZATION: 100.0% - TRUE SOVEREIGN METAMORPHOSIS COMPLETE]'.",
+      "prose_hi": "Sistm interface prakat hota hai: '[bladlin sinkronization: 100.0% - true sovereign metamorfosis purn]'."
     },
     {
       "id": "p29",
@@ -446,7 +502,9 @@
       "characters": [],
       "action": "Outside in the garden, the 5,000-year-old black fissure on the World Tree seals shut forever with golden sap.",
       "mood": "universal wound healed",
-      "sfx": "SEAL-PURIFY..."
+      "sfx": "SEAL-PURIFY...",
+      "prose_en": "Outside in the garden, the 5,000-year-old black fissure on the World Tree seals shut forever with golden sap.",
+      "prose_hi": "Bagiche ke bahar, world tree seals par 5,000 saal purani kali daraar sunhare ras ke saath hamesha ke liye band ho gai."
     },
     {
       "id": "p30",
@@ -467,7 +525,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Kang Ha-Jun steps out onto the crystal bridge in his True Sovereign Form—transcendent, beautiful, and eternal!.",
+      "prose_hi": "Cong ha-jun apne sacche samprabhu roop mein crystal bridge par kadam rakhta hai - utkrisht, sundar aur shashwat!"
     }
   ]
 }

@@ -13,7 +13,9 @@
       "characters": [],
       "action": "The jagged granite peaks of Bukhansan National Park shrouded in mysterious crimson morning mist.",
       "mood": "majestic mountain",
-      "sfx": "WIND..."
+      "sfx": "WIND...",
+      "prose_en": "The jagged granite peaks of Bukhansan National Park shrouded in mysterious crimson morning mist.",
+      "prose_hi": "Bukanson national park ki dantedar granite chotiyan rahasyamay lal subah ki dhundh mein doobi hui han."
     },
     {
       "id": "p02",
@@ -22,7 +24,9 @@
       "characters": [],
       "action": "Behind a roaring frozen waterfall, an ancient cavern mouth glows with unnatural volcanic orange heat.",
       "mood": "secret entrance",
-      "sfx": "ROAR-SPLASH..."
+      "sfx": "ROAR-SPLASH...",
+      "prose_en": "Behind a roaring frozen waterfall, an ancient cavern mouth glows with unnatural volcanic orange heat.",
+      "prose_hi": "Garjte hue jame hue jharne ke pichhe, ek prachin gufa ka muh aprakritik jwalamukhiya narangi garmi se chamakta hai."
     },
     {
       "id": "p03",
@@ -42,7 +46,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae holds a specialized mana-radiation detector; the needle pegs into the red zone.",
+      "prose_hi": "Min-je ke paas ek vishesh mana-vikiran detector hai; sui lal kshetra mein pravesh karti hai."
     },
     {
       "id": "p04",
@@ -63,7 +69,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun tightens his tactical gloves, his white bone gauntlet concealed under a dark thermal sleeve.",
+      "prose_hi": "Ha-jun ne apne samrik dastaane kas liye, uski safed haddi ka kavach ek gahre thermal aasteen ke neeche chhipa hua tha."
     },
     {
       "id": "p05",
@@ -82,7 +90,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae hands over an aerosol cryo-canister: 'Ise emergency mein use karna.'.",
+      "prose_hi": "Min-je ek aerosol crio-canister saunpte han: 'ise aapatkalin sthiti mein upyog karna.'"
     },
     {
       "id": "p06",
@@ -92,7 +102,9 @@
         "hajun"
       ],
       "action": "Ha-Jun smiles with quiet gratitude: 'Main zinda wapas aaunga, promise.'",
-      "mood": "friendship vow"
+      "mood": "friendship vow",
+      "prose_en": "Ha-Jun smiles with quiet gratitude: 'Main zinda wapas aaunga, promise.'.",
+      "prose_hi": "Ha-jun shant kritagyata ke saath muskurate han: 'main jinda wapas aaunga, vaada karta hun.'"
     },
     {
       "id": "p07",
@@ -103,7 +115,9 @@
       ],
       "action": "Ha-Jun descends down a steep obsidian ramp; walls of glowing red magma veins illuminate the dark.",
       "mood": "scorching descent",
-      "sfx": "CRACKLE..."
+      "sfx": "CRACKLE...",
+      "prose_en": "Ha-Jun descends down a steep obsidian ramp; walls of glowing red magma veins illuminate the dark.",
+      "prose_hi": "Ha-jun ek khadi obsidian ramp se neeche utarta hai; chamakti lal magma shiraon ki deewaren andhere ko roshan karti han."
     },
     {
       "id": "p08",
@@ -124,7 +138,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro glides effortlessly through the thermal updrafts, obsidian feathers shimmering with purple embers.",
+      "prose_hi": "Kuro thermal updraft ke madhyam se sahajta se udta hai, obsidian pankh baingani angaron se jhilmilate han."
     },
     {
       "id": "p09",
@@ -133,7 +149,9 @@
       "characters": [],
       "action": "A vast underground cavern opens up: a boiling lake of bubbling crimson-orange magma stretching 300 meters across.",
       "mood": "colossal magma chamber",
-      "sfx": "BLUB... BLUB... ROAR!!"
+      "sfx": "BLUB... BLUB... ROAR!!",
+      "prose_en": "A vast underground cavern opens up: a boiling lake of bubbling crimson-orange magma stretching 300 meters across.",
+      "prose_hi": "Ek vishal bhumigat gufa khulti hai: 300 meter tak faili bulbuledar lal-naarangi magma ki ubalti hui jhil."
     },
     {
       "id": "p10",
@@ -141,7 +159,9 @@
       "setting": "magma lake",
       "characters": [],
       "action": "Jagged black basalt stepping stones rise out of the boiling lava, forming a precarious path to the center.",
-      "mood": "dangerous path"
+      "mood": "dangerous path",
+      "prose_en": "Jagged black basalt stepping stones rise out of the boiling lava, forming a precarious path to the center.",
+      "prose_hi": "Daantedar kale basalt patthar ubalte lava se bahar nikalte han, jo kendra ke liye ek anishchit rasta banate han."
     },
     {
       "id": "p11",
@@ -163,7 +183,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun stands on the basalt ledge; the ambient air is over 60 degrees Celsius, air shimmering with heat mirages.",
+      "prose_hi": "Ha-jun basalt kagaar par khada hai; pariveshi hawa 60 degree celsius se adhik hai, hawa garmi ki mrigtrishna se jhilmila rahi hai."
     },
     {
       "id": "p12",
@@ -174,7 +196,9 @@
       ],
       "action": "Ha-Jun leaps from pillar to pillar with nimble athletic balance, lava bubbling mere feet below.",
       "mood": "high-stakes parkour",
-      "sfx": "LEAP!!"
+      "sfx": "LEAP!!",
+      "prose_en": "Ha-Jun leaps from pillar to pillar with nimble athletic balance, lava bubbling mere feet below.",
+      "prose_hi": "Ha-jun furtile athletic santulan ke saath ek khambhe se dusre khambhe tak chhalang lagata hai, keval kuch feet neeche lava ubal raha hai."
     },
     {
       "id": "p13",
@@ -183,7 +207,9 @@
       "characters": [],
       "action": "A 10-foot armored Magma Salamander with molten rock scales erupts from the boiling lake, snapping jaws.",
       "mood": "monster ambush",
-      "sfx": "SPLASH-ROARRR!!"
+      "sfx": "SPLASH-ROARRR!!",
+      "prose_en": "A 10-foot armored Magma Salamander with molten rock scales erupts from the boiling lake, snapping jaws.",
+      "prose_hi": "Pighali hui chattanon ke saath 10 foot ka bakhtarband magma sailamander ubalti hui jheel se nikalta hai, jisse jabde toot jaate han."
     },
     {
       "id": "p14",
@@ -192,7 +218,9 @@
       "characters": [],
       "action": "The beast spews a torrent of 1,000-degree liquid hellfire straight toward Ha-Jun's landing spot.",
       "mood": "flame breath",
-      "sfx": "FWOOOOOM!!"
+      "sfx": "FWOOOOOM!!",
+      "prose_en": "The beast spews a torrent of 1,000-degree liquid hellfire straight toward Ha-Jun's landing spot.",
+      "prose_hi": "Janvar sidhe ha-jun ke landing sthal ki or 1,000 degree taral narkankaal ki dhara ugalta hai."
     },
     {
       "id": "p15",
@@ -203,7 +231,9 @@
       ],
       "action": "Ha-Jun raises his left arm; the white bone gauntlet interlocks, forming a solid shield that deflects the molten spray.",
       "mood": "impenetrable shield",
-      "sfx": "SIZZLE-DEFLECT!!"
+      "sfx": "SIZZLE-DEFLECT!!",
+      "prose_en": "Ha-Jun raises his left arm; the white bone gauntlet interlocks, forming a solid shield that deflects the molten spray.",
+      "prose_hi": "Ha-jun apna bayan haath uthata hai; safed haddi ka gauntlet aapas mein jud jata hai, jisse ek thos dhal ban jaati hai jo pighle hue spray ko vikshepit kar deti hai."
     },
     {
       "id": "p16",
@@ -224,7 +254,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro cackles: 'Dekha?! Bone of the Forgotten molten rock ko bhi block karti hai!'.",
+      "prose_hi": "Kuro chillata hai: 'dekha?! bhuli hui pighli hui chattan ki haddi bhi block karti hai!'."
     },
     {
       "id": "p17",
@@ -235,7 +267,9 @@
       ],
       "action": "Ha-Jun draws his blood katana; the intense heat causes the crimson blade to hiss with boiling steam.",
       "mood": "steaming blade",
-      "sfx": "TSSSSS!!"
+      "sfx": "TSSSSS!!",
+      "prose_en": "Ha-Jun draws his blood katana; the intense heat causes the crimson blade to hiss with boiling steam.",
+      "prose_hi": "Ha-jun apna khoon katana khinchta hai; tivra garmi ke karan lal rang ka blade ubalti bhaap se fufkarne lagta hai."
     },
     {
       "id": "p18",
@@ -246,7 +280,9 @@
       ],
       "action": "Ha-Jun vaults forward, slicing cleanly through the beast's armored neck in a diagonal aerial stroke.",
       "mood": "clean decapitation",
-      "sfx": "SLASHHH!!"
+      "sfx": "SLASHHH!!",
+      "prose_en": "Ha-Jun vaults forward, slicing cleanly through the beast's armored neck in a diagonal aerial stroke.",
+      "prose_hi": "Ha-jun aage badhta hai, ek vikarna hawai stroke mein janwar ki bakhtarband gardan ko saf-saf kaatata hai."
     },
     {
       "id": "p19",
@@ -255,7 +291,9 @@
       "characters": [],
       "action": "The headless salamander splashes back into the boiling magma, dissolving into liquid rock.",
       "mood": "threat neutralized",
-      "sfx": "SPLASH..."
+      "sfx": "SPLASH...",
+      "prose_en": "The headless salamander splashes back into the boiling magma, dissolving into liquid rock.",
+      "prose_hi": "Bina sir wala sailamander ubalte hue magma mein wapas foot jata hai aur taral chattan mein ghul jata hai."
     },
     {
       "id": "p20",
@@ -266,7 +304,9 @@
       ],
       "action": "Ha-Jun lands firmly on a circular black volcanic glass platform in the dead center of the lake.",
       "mood": "sanctuary reached",
-      "sfx": "TAP..."
+      "sfx": "TAP...",
+      "prose_en": "Ha-Jun lands firmly on a circular black volcanic glass platform in the dead center of the lake.",
+      "prose_hi": "Ha-jun jheel ke mrit kendra mein ek golakar kale jwalamukhiya kaanch ke manch par majbuti se utarta hai."
     },
     {
       "id": "p21",
@@ -275,7 +315,9 @@
       "characters": [],
       "action": "Floating above an obsidian basin: a charred, petrified volcanic heart the size of a human skull, beating with violet flame.",
       "mood": "the ashen heart",
-      "sfx": "THUMP... THUMP..."
+      "sfx": "THUMP... THUMP...",
+      "prose_en": "Floating above an obsidian basin: a charred, petrified volcanic heart the size of a human skull, beating with violet flame.",
+      "prose_hi": "Ek obsidian basin ke upar tairta hua: manav khopdi ke aakaar ka ek jala hua, pathreela jwalamukhiya hridy, jo baingani lau se dhadak raha hai."
     },
     {
       "id": "p22",
@@ -284,7 +326,9 @@
       "characters": [],
       "action": "From the cracks in the volcanic heart, wisps of violet-and-crimson demonic flame hiss into the sulfurous air.",
       "mood": "hellfire aura",
-      "sfx": "CRACKLE..."
+      "sfx": "CRACKLE...",
+      "prose_en": "From the cracks in the volcanic heart, wisps of violet-and-crimson demonic flame hiss into the sulfurous air.",
+      "prose_hi": "Jwalamukhiy hriday ki daraaron se, baingani aur lal rang ki rakshasi lau ki kiranen gandhak bhari hawa mein fusfusati han."
     },
     {
       "id": "p23",
@@ -305,7 +349,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro's eyes burn with solemn reverence: 'The Ashen Heart. First Sovereign ke wrath ka pyre.'.",
+      "prose_hi": "Kuro ki aankhen gambhir shraddha se jalti han: 'd ation hart. pehle prabhu ke krodh ki chita.'"
     },
     {
       "id": "p24",
@@ -326,7 +372,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun can hear the rhythmic thumping of the heart synchronizing with his own chest.",
+      "prose_hi": "Ha-jun apni chhati ke saath taal milate hue dil ki dhadkan ko sun sakta hai."
     },
     {
       "id": "p25",
@@ -347,7 +395,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro warns him strictly: 'Agar tumhara will kamzor pada, toh yeh aag tumhare organs ko raakh bana degi.'.",
+      "prose_hi": "Kuro ne use sakhti se chetavani di: 'agar tumhara kaam kharab hoga, to yeh aag tumhare angon ko rakh degi.'"
     },
     {
       "id": "p26",
@@ -358,7 +408,9 @@
       ],
       "action": "Ha-Jun extends his left bone gauntlet and his right ringed hand, forming a dual-relic containment field.",
       "mood": "dual relic stance",
-      "sfx": "HUMMM..."
+      "sfx": "HUMMM...",
+      "prose_en": "Ha-Jun extends his left bone gauntlet and his right ringed hand, forming a dual-relic containment field.",
+      "prose_hi": "Ha-jun ne apni bayin haddi ka kavach aur dahina ring wala haath badhaya hai, jisse ek dohre-avshesh niyantran kshetra ka nirman hota hai."
     },
     {
       "id": "p27",
@@ -369,7 +421,9 @@
       ],
       "action": "A double-helix of violet mana and crimson blood spirals out from his palms, wrapping around the burning heart.",
       "mood": "containment vortex",
-      "sfx": "SWIRL!!"
+      "sfx": "SWIRL!!",
+      "prose_en": "A double-helix of violet mana and crimson blood spirals out from his palms, wrapping around the burning heart.",
+      "prose_hi": "Uski hatheliyon se baingani maina aur lal rang ke rakt ka ek duble-helix nikalta hai, jo jalte hue hriday ke charon or lapetata hai."
     },
     {
       "id": "p28",
@@ -378,7 +432,9 @@
       "characters": [],
       "action": "The charred heart shrieks like an awakening furnace, unleashing a deafening blast of violet hellfire.",
       "mood": "elemental explosion",
-      "sfx": "ROARRRRRR!!"
+      "sfx": "ROARRRRRR!!",
+      "prose_en": "The charred heart shrieks like an awakening furnace, unleashing a deafening blast of violet hellfire.",
+      "prose_hi": "Jala hua dil ek jagrit bhatti ki tarah chillata hai, jisse baingani narkankaal ka bahra kar dene wala visfot hota hai."
     },
     {
       "id": "p29",
@@ -389,7 +445,9 @@
       ],
       "action": "A 50-foot tornado of violet-crimson hellfire erupts skyward, completely swallowing Ha-Jun's silhouette.",
       "mood": "pillar of fire",
-      "sfx": "FWOOOOOSHHH!!"
+      "sfx": "FWOOOOOSHHH!!",
+      "prose_en": "A 50-foot tornado of violet-crimson hellfire erupts skyward, completely swallowing Ha-Jun's silhouette.",
+      "prose_hi": "Bangni-lal rang ki narkankaal ki aag ka 50 foot ka bavandar aasman ki or badhta hai, jo ha-jun ki chhaya ko puri tarah se nigal jata hai."
     },
     {
       "id": "p30",
@@ -410,7 +468,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Inside the raging inferno, Ha-Jun's eyes ignite with blinding white-violet power as he refuses to yield.",
+      "prose_hi": "Bhishan narak ke ander, ha-jun ki aankhen chakachaundh kar dene wali safed-bangni shakti se prajvalit ho uthti hain kyonki wah jhukne se inkar kar deta hai."
     }
   ]
 }

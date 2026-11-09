@@ -24,7 +24,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Dr. Victor Vance swirls a glass of red wine on screen, his cybernetic optic zooming in on Ha-Jun's face.",
+      "prose_hi": "Do. victor vens screen par red wine ka ek gilas ghumate han, unka cybernetic optic ha-jun ke chehre par zoom karta hai."
     },
     {
       "id": "p02",
@@ -35,7 +37,9 @@
       ],
       "action": "Ha-Jun's bare fingers crush the three-inch solid steel edge of the terminal like wet cardboard.",
       "mood": "superhuman strength",
-      "sfx": "METAL CRUNCH!!"
+      "sfx": "METAL CRUNCH!!",
+      "prose_en": "Ha-Jun's bare fingers crush the three-inch solid steel edge of the terminal like wet cardboard.",
+      "prose_hi": "Ha-jun ki nangi ungaliyan terminal ke teen inch ke thos steel kinare ko gile cardboard ki tarah kuchal deti han."
     },
     {
       "id": "p03",
@@ -55,7 +59,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Baek aims at the ceiling camera: 'Vance, you violated the Geneva conventions and the Hunter Accords. Surrender the coordinates.'.",
+      "prose_hi": "Bek ne sealing camere par nishana sadha: 'vence, aapne geneva sammelanon aur hunter samjhaute ka ullanghan kiya hai. nirdeshank samarpan karen.'"
     },
     {
       "id": "p04",
@@ -74,7 +80,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Vance sneers: 'Hunter Accords? Written by cowards afraid of human evolution. Look at what your beloved Tae-Jun achieved!'.",
+      "prose_hi": "Vence ne uphaas kiya: 'hunter samjhaute? manav vikas se darne wale kayaron dwara likhit. dekho aapke priy taaye-jun ne kya haasil kiya!'"
     },
     {
       "id": "p05",
@@ -95,7 +103,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's voice thunders with demonic resonance: 'He was fifteen years old! You tortured a child!'.",
+      "prose_hi": "Ha-jun ki awaaz rakshasi pratidhvani ke saath garjti hai: 'vah pandrah saal ka tha! tumne ek bacche par atyachar kiya!'"
     },
     {
       "id": "p06",
@@ -104,7 +114,9 @@
       "characters": [],
       "action": "Vance smirks: 'Is that what you believe? Watch record 089. See the contract he signed with his own blood.'",
       "mood": "video playback",
-      "sfx": "CLICK-PLAY..."
+      "sfx": "CLICK-PLAY...",
+      "prose_en": "Vance smirks: 'Is that what you believe? Watch record 089. See the contract he signed with his own blood.'.",
+      "prose_hi": "Vence muskurate hue kahte han: 'kya aap yahi maante han? record 089 dekhen. us anubandh ko dekhen jis par unhone apne khoon se hastakshar kiye the.'"
     },
     {
       "id": "p07",
@@ -113,7 +125,9 @@
       "characters": [],
       "action": "Grainy black-and-white footage plays: 16-year-old Tae-Jun, covered in fresh bandages, sits across an interrogation table from Vance.",
       "mood": "the secret meeting",
-      "sfx": "TAPE NOISE..."
+      "sfx": "TAPE NOISE...",
+      "prose_en": "Grainy black-and-white footage plays: 16-year-old Tae-Jun, covered in fresh bandages, sits across an interrogation table from Vance.",
+      "prose_hi": "Danedar kale aur safed footage chalte han: 16 varshiya taaye-jun, taji pattiyon se dhaka hua, vens se puchtach ki mej ke samne baitha hai."
     },
     {
       "id": "p08",
@@ -132,7 +146,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun speaks without fear: 'You want the Sovereign gene. I have it. But you will never touch Ha-Jun.'.",
+      "prose_hi": "Taaye-jun bina kisi dar ke bolte han: 'aap sovereign jean chahte han. yah mere paas hai. lekin aap ha-jun ko kabhi nahin chhuyenge.'"
     },
     {
       "id": "p09",
@@ -140,7 +156,9 @@
       "setting": "security footage close-up",
       "characters": [],
       "action": "Young Vance nods: 'A fair exchange, Subject Zero. One brother's agony for the other's peaceful childhood.'",
-      "mood": "the devil's bargain"
+      "mood": "the devil's bargain",
+      "prose_en": "Young Vance nods: 'A fair exchange, Subject Zero. One brother's agony for the other's peaceful childhood.'.",
+      "prose_hi": "Yang vens ne sir hilaya: 'ek uchit aadaan-pradan, vishay shunya. ek bhai ki peeda dusre ke shantipurna bachpan ke liye.'"
     },
     {
       "id": "p10",
@@ -162,7 +180,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun stares at the screen in horror; tears drop freely onto his boots as the magnitude of Tae-Jun's sacrifice sinks in.",
+      "prose_hi": "Ha-jun bhaybhit hokar screen ki or dekhta hai; jaise hi taaye-jun ke balidan ki bhayavahata samne aati hai, aansu uske jooton par aasani se tapakne lagte han."
     },
     {
       "id": "p11",
@@ -181,7 +201,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Vance points to a 3D hologram of a synthetic purple core: 'Every synthetic demon core we engineered used Tae-Jun's marrow as a stabilizing catalyst.'.",
+      "prose_hi": "Vence ek synthetic baingani core ke 3d hologram ki or ishara karte han: 'pratyek synthetic danav core jise humne engineer kiya tha, ek sthir utprerak ke roop mein taaye-jun ki majja ka upyog karta tha.'"
     },
     {
       "id": "p12",
@@ -200,7 +222,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae: 'You treated an innocent boy like a living blood battery for your illegal army!'.",
+      "prose_hi": "Min-je: 'aapne apni avaidh sena ke liye ek nirdosh ladke ke saath jeevit khoon ki battery jaisa vyavahar kiya!'"
     },
     {
       "id": "p13",
@@ -220,7 +244,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Vance leans closer into the camera: 'And where is Tae-Jun now, you ask? He is beyond mortal pain. He has been promoted.'.",
+      "prose_hi": "Vence camere ke kareeb jhuk jata hai: 'aur ab taaye-jun kahan hai, aap puchte han? wah nashwar peeda se pare hai. unka promotion ho gaya hai.'"
     },
     {
       "id": "p14",
@@ -231,7 +257,9 @@
       ],
       "action": "Ha-Jun's weeping stops instantly; his expression goes completely blank and cold like black volcanic glass.",
       "mood": "deathly calm before the storm",
-      "sfx": "FREEZE..."
+      "sfx": "FREEZE...",
+      "prose_en": "Ha-Jun's weeping stops instantly; his expression goes completely blank and cold like black volcanic glass.",
+      "prose_hi": "Ha-jun ka rona turant band ho jata hai; uski abhivyakti kale jwalamukhiya kaanch ki tarah puri tarah se khali aur thandi ho jaati hai."
     },
     {
       "id": "p15",
@@ -242,7 +270,9 @@
       ],
       "action": "The ambient electronic hum of the facility drops an octave; the air temperature plummets thirty degrees.",
       "mood": "temperature drop",
-      "sfx": "FROST-CREEP..."
+      "sfx": "FROST-CREEP...",
+      "prose_en": "The ambient electronic hum of the facility drops an octave; the air temperature plummets thirty degrees.",
+      "prose_hi": "Suvidha ka pariveshiy electronic gunjan ek saptak girata hai; hawa ka taapmaan tees degree tak gir jata hai."
     },
     {
       "id": "p16",
@@ -251,7 +281,9 @@
       "characters": [],
       "action": "The ankle-deep water freezes instantly into crystalline purple ice, cracking under sheer demonic pressure.",
       "mood": "mana freeze",
-      "sfx": "CRACKLE-ICE!!"
+      "sfx": "CRACKLE-ICE!!",
+      "prose_en": "The ankle-deep water freezes instantly into crystalline purple ice, cracking under sheer demonic pressure.",
+      "prose_hi": "Takhne tak gehra pani turant jam jata hai aur crystaliy baingani barf mein badal jata hai, jo rakshasi dabav ke karan toot jata hai."
     },
     {
       "id": "p17",
@@ -262,7 +294,9 @@
       ],
       "action": "Kuro murmurs: 'The Sovereign's Wrath has awakened. Even I dare not speak.'",
       "mood": "ominous reverence",
-      "sfx": "WHISPER..."
+      "sfx": "WHISPER...",
+      "prose_en": "Kuro murmurs: 'The Sovereign's Wrath has awakened. Even I dare not speak.'.",
+      "prose_hi": "Kuro badbadata hai: 'samprabhu ka krodh jaag gaya hai. yahan tak ​​ki main bolne ki himmat bhi nahin kar pata.'"
     },
     {
       "id": "p18",
@@ -282,7 +316,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Vance glances off-screen at warning readouts: 'Energy spike of class SSS? How can a boy generate that without a core?!'.",
+      "prose_hi": "Vence off-scrin chetavani par nazar dalte han: 'clas sss ki urja vridhi? bina core ke koi ladka ise kaise utpann kar sakta hai?!'."
     },
     {
       "id": "p19",
@@ -293,7 +329,9 @@
       ],
       "action": "Ha-Jun raises his right hand into the air, fingers splayed; dark violet gravitational lightning sparks between his fingertips.",
       "mood": "gathering the storm",
-      "sfx": "ZZZT-SPARK!!"
+      "sfx": "ZZZT-SPARK!!",
+      "prose_en": "Ha-Jun raises his right hand into the air, fingers splayed; dark violet gravitational lightning sparks between his fingertips.",
+      "prose_hi": "Ha-jun apna dahina haath hawa mein uthata hai, ungaliyan alag ho jaati han; uski ungaliyon ke beech gahre baingani rang ki gurutvakarshan bijli chamakti hai."
     },
     {
       "id": "p20",
@@ -304,7 +342,9 @@
       ],
       "action": "Feather, Ring, Bone, Heart, Fang, Eye, Chains, Crown, Devourer, Hourglass ignite around his body in a ring of planetary fire.",
       "mood": "tenfold majesty",
-      "sfx": "CELESTIAL ROAR!!"
+      "sfx": "CELESTIAL ROAR!!",
+      "prose_en": "Feather, Ring, Bone, Heart, Fang, Eye, Chains, Crown, Devourer, Hourglass ignite around his body in a ring of planetary fire.",
+      "prose_hi": "Pankh, anguthi, haddi, hridy, daant, aankh, janjeer, mukut, bhakshak, ghantaghar uske shareer ke charon or grahon ki aag ki anguthi mein prajvalit hote han."
     },
     {
       "id": "p21",
@@ -326,7 +366,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Two voices overlap from Ha-Jun's lips—his own young voice and the ancient titan Asmodaius: 'Vance.'.",
+      "prose_hi": "Ha-jun ke hothon se do aawazen nikalti hain - uski apni yuva awaaz aur prachin titan esmodius: 'vence.'"
     },
     {
       "id": "p22",
@@ -348,7 +390,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun clenches his fist with decisive finality: 'You were only building your own tomb.'.",
+      "prose_hi": "Ha-jun ne nirnayak ant ke saath apni mutthi band kar li: 'aap keval apni kabr bana rahe the.'"
     },
     {
       "id": "p23",
@@ -357,7 +401,9 @@
       "characters": [],
       "action": "A thousand tons of steel rebar and granite bedrock groan under an invisible gravitational press.",
       "mood": "seismic pressure",
-      "sfx": "CREEEEAK-CRACK!!"
+      "sfx": "CREEEEAK-CRACK!!",
+      "prose_en": "A thousand tons of steel rebar and granite bedrock groan under an invisible gravitational press.",
+      "prose_hi": "Ek adrishya gurutvakarshan dabav ke neeche hajaron ton steel sariya aur granite aadharshila karah rahi hai."
     },
     {
       "id": "p24",
@@ -377,7 +423,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Vance slams his fist on his desk: 'Release Chimera Prime! Tear them to pieces before the ceiling collapses!'.",
+      "prose_hi": "Vence ne apni mutthi apni mej par mari: 'chimera prime ko release karo! chhat girne se pehle unhen tukde-tukde kar do!'."
     },
     {
       "id": "p25",
@@ -386,7 +434,9 @@
       "characters": [],
       "action": "A twenty-meter hydraulic elevator cylinder rises from the center floor, venting toxic yellow neuro-toxin gas.",
       "mood": "boss platform emerges",
-      "sfx": "HISS-CLANK!!"
+      "sfx": "HISS-CLANK!!",
+      "prose_en": "A twenty-meter hydraulic elevator cylinder rises from the center floor, venting toxic yellow neuro-toxin gas.",
+      "prose_hi": "Ek bees meter ka hydraulic elevator cylinder madhya tal se uthta hai, jo jahrili pili neuro-toxin gas ko bahar nikalta hai."
     },
     {
       "id": "p26",
@@ -395,7 +445,9 @@
       "characters": [],
       "action": "A nightmarish fifteen-foot hulking monstrosity emerges—four arms with chainsaw blades, cybernetic spine, and six glowing red oculars.",
       "mood": "the chimera prime",
-      "sfx": "ROARRRR-HISS!!"
+      "sfx": "ROARRRR-HISS!!",
+      "prose_en": "A nightmarish fifteen-foot hulking monstrosity emerges—four arms with chainsaw blades, cybernetic spine, and six glowing red oculars.",
+      "prose_hi": "Ek bhayavah pandrah foot ki vishal rakshasi ubharti hai - chainsaw blade wali char bhujaen, cybernetic reedh aur chhah chamakti lal aankhen."
     },
     {
       "id": "p27",
@@ -404,7 +456,9 @@
       "characters": [],
       "action": "The beast roars with 160 decibels of sonic fury, blowing away the fog and cracking the glass server screens.",
       "mood": "sonic roar",
-      "sfx": "SKREEEE-BOOOM!!"
+      "sfx": "SKREEEE-BOOOM!!",
+      "prose_en": "The beast roars with 160 decibels of sonic fury, blowing away the fog and cracking the glass server screens.",
+      "prose_hi": "Janvar 160 decibel dhwani ke rosh ke saath dahadta hai, kohre ko uda deta hai aur glass server screen ko tod deta hai."
     },
     {
       "id": "p28",
@@ -413,7 +467,9 @@
       "characters": [],
       "action": "Min-Jae and Baek stumble back, ears ringing from the sonic boom: 'What the hell did Vance build?!'",
       "mood": "allied shock",
-      "sfx": "GROAN..."
+      "sfx": "GROAN...",
+      "prose_en": "Min-Jae and Baek stumble back, ears ringing from the sonic boom: 'What the hell did Vance build?!'.",
+      "prose_hi": "Min-jaye aur bak ladkhadakar wapas aa gaye, unke kanon mein dhwani ki gadgdahat gunj rahi thi: 'aakhir vens ne kya banaya?!'."
     },
     {
       "id": "p29",
@@ -435,7 +491,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun walks toward the roaring titan with zero fear, the Sanguine Fang igniting with pitch-black hellfire in his grip.",
+      "prose_hi": "Ha-jun bina kisi bhay ke dahadte hue titan ki or chalta hai, senguin fang uski pakad mein kali narkankaal ki aag se prajvalit ho raha hai."
     },
     {
       "id": "p30",
@@ -457,7 +515,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun raises the black blood katana, purple eclipse rings spinning in his irises: 'Die.'.",
+      "prose_hi": "Ha-jun kale rakt katana ko uthata hai, uski aankhon ki putliyon mein baingani grahan ke chhalle ghumte han: 'mar jao.'"
     }
   ]
 }

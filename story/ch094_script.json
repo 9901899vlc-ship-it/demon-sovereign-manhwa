@@ -13,7 +13,9 @@
       "characters": [],
       "action": "Three years of peace: warm amber lights shimmer along the Han River as modern trains glide across bridges.",
       "mood": "peaceful prosperous city",
-      "sfx": "CITY HUMMM..."
+      "sfx": "CITY HUMMM...",
+      "prose_en": "Three years of peace: warm amber lights shimmer along the Han River as modern trains glide across bridges.",
+      "prose_hi": "Shanti ke teen sal: haan nadi ke kinare garm amber roshni jhilmilati hai kyonki aadhunik trainen pulon par chalti han."
     },
     {
       "id": "p02",
@@ -24,7 +26,9 @@
       ],
       "action": "20-year-old Ha-Jun Kang, taller and broader with confident mature features, reviews quantum physics notes.",
       "mood": "student life thriving",
-      "sfx": "PENCIL SCRATCH..."
+      "sfx": "PENCIL SCRATCH...",
+      "prose_en": "20-year-old Ha-Jun Kang, taller and broader with confident mature features, reviews quantum physics notes.",
+      "prose_hi": "20 varshiya ha-jun cong, lambe aur chaude, aatmavishwas se bhare paripakv features ke sath, quantum bhautiki notes ki samiksha karte han."
     },
     {
       "id": "p03",
@@ -46,7 +50,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun, wearing a comfortable olive sweater and spectacles, sets a steaming mug of jasmine tea beside Ha-Jun.",
+      "prose_hi": "Taaye-jun, ek aaramdayak jaitoon sweater aur chashma pahane hue, ha-jun ke bagal mein chameli chai ka ek bhaap se bhara mag rakhta hai."
     },
     {
       "id": "p04",
@@ -68,7 +74,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun leans back in his chair, taking a warm sip: 'Thanks, Tae-Jun. I was just checking the planetary ward frequencies.'.",
+      "prose_hi": "Ha-jun apni kursi par peeche jhuk gaya aur ek garm ghunt piya: 'dhanyavad, taaye-jun. main bus grahiy ward aavrittiyon ki janch kar raha tha.'"
     },
     {
       "id": "p05",
@@ -79,7 +87,9 @@
       ],
       "action": "Kuro naps lazily on his private cushion beside Ha-Jun's university textbooks, snoring softly.",
       "mood": "pampered familiar",
-      "sfx": "SOFT PURR..."
+      "sfx": "SOFT PURR...",
+      "prose_en": "Kuro naps lazily on his private cushion beside Ha-Jun's university textbooks, snoring softly.",
+      "prose_hi": "Kuro ha-jun ki vishwavidyalaya ki pathyapustakon ke paas apne niji gadde par aaram se sota hai aur dhire-dhire kharate leta hai."
     },
     {
       "id": "p06",
@@ -101,7 +111,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "In Ha-Jun's mug, the swirling jasmine tea freezes completely for half a second, then resumes.",
+      "prose_hi": "Ha-jun ke mag men, ghumti hui chameli ki chai aadhe second ke liye puri tarah se jam jaati hai, phir shuru ho jaati hai."
     },
     {
       "id": "p07",
@@ -112,7 +124,9 @@
       ],
       "action": "Through the glass, five flying pigeons hang frozen mid-flap against the twilight sky.",
       "mood": "temporal stutter observed",
-      "sfx": "STILL AIR..."
+      "sfx": "STILL AIR...",
+      "prose_en": "Through the glass, five flying pigeons hang frozen mid-flap against the twilight sky.",
+      "prose_hi": "Kanch ke madhyam se, paanch udte hue kabootar godhuli aakash ke madhya flap par jame hue latke hue han."
     },
     {
       "id": "p08",
@@ -123,7 +137,9 @@
       ],
       "action": "The integrated Sovereign Core in Ha-Jun's chest beats with deep celestial resonance.",
       "mood": "cosmic sense tingling",
-      "sfx": "PULSE-THUMP..."
+      "sfx": "PULSE-THUMP...",
+      "prose_en": "The integrated Sovereign Core in Ha-Jun's chest beats with deep celestial resonance.",
+      "prose_hi": "Ha-jun ki chhati mein ekikrit sovereign core gahri akashiya pratidhvani ke saath dhadkata hai."
     },
     {
       "id": "p09",
@@ -146,7 +162,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro's ruby eyes glow: 'The universal fabric... It's fraying at the Origin Seam.'.",
+      "prose_hi": "Kuro ki ruby aankhen chamakti han: 'sarvbhaumik kapada... yah mool seem par toot raha hai.'"
     },
     {
       "id": "p10",
@@ -157,7 +175,9 @@
       ],
       "action": "A door of pure white marble carved with living starlight appears, bearing the crest of the Cosmic Tree.",
       "mood": "the gate of the first origin",
-      "sfx": "CHIME-DOOR..."
+      "sfx": "CHIME-DOOR...",
+      "prose_en": "A door of pure white marble carved with living starlight appears, bearing the crest of the Cosmic Tree.",
+      "prose_hi": "Jivit taron ki roshni se ukera gaya shuddh safed sangmarmar ka ek darwaja dikhai deta hai, jis par brahmandiya vriksh ka shikhar ankit hai."
     },
     {
       "id": "p11",
@@ -179,7 +199,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun instinctively draws his bronze blade: 'What is this?! Another void gate?!'.",
+      "prose_hi": "Taaye-jun sahajta se apna kansya blade nikalta hai: 'yah kya hai?! ek aur shunya dwar?!'"
     },
     {
       "id": "p12",
@@ -201,7 +223,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun lowers his brother's weapon gently: 'No, Hyung. This is the Origin Gate. It has been calling me for months.'.",
+      "prose_hi": "Ha-jun ne apne bhai ke hathiyar ko dheere se neeche kar diya: 'nahin, hung. yah udgam dwar hai. yah mujhe kai mahinon se bula raha hai.'"
     },
     {
       "id": "p13",
@@ -221,7 +245,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "A soothing, motherly voice echoes: 'Ha-Jun Kang. True Sovereign of mortal blood. Step forward.'.",
+      "prose_hi": "Ek sukhdayak, matr-swar goonjata hai: 'ha-jun cong. nashwar rakt ka sachcha swami. aage kadam.'."
     },
     {
       "id": "p14",
@@ -232,7 +258,9 @@
       ],
       "action": "Ha-Jun steps through: an infinite garden of silver trees whose leaves are galaxies, standing over an ocean of light.",
       "mood": "the garden of creation",
-      "sfx": "RUSTLE-STARS..."
+      "sfx": "RUSTLE-STARS...",
+      "prose_en": "Ha-Jun steps through: an infinite garden of silver trees whose leaves are galaxies, standing over an ocean of light.",
+      "prose_hi": "Ha-jun aage badhta hai: chandi ke pedon ka ek anant udyan jiski pattiyan aakashagangaen han, prakash ke sagar ke upar khada hai."
     },
     {
       "id": "p15",
@@ -243,7 +271,9 @@
       ],
       "action": "A colossal tree of pure white light whose roots anchor every dimension in the multiverse.",
       "mood": "the world tree",
-      "sfx": "GLOW-ROOTS..."
+      "sfx": "GLOW-ROOTS...",
+      "prose_en": "A colossal tree of pure white light whose roots anchor every dimension in the multiverse.",
+      "prose_hi": "Shuddh shwet prakash ka ek vishal vriksh jiski jaden vividhata ke har aayam ko jodti han."
     },
     {
       "id": "p16",
@@ -252,7 +282,9 @@
       "characters": [],
       "action": "A jagged black fissure oozes anti-matter sap from the tree's bark—the original wound caused by Asmodaius 5,000 years ago.",
       "mood": "the unhealed wound",
-      "sfx": "HISS-SAP..."
+      "sfx": "HISS-SAP...",
+      "prose_en": "A jagged black fissure oozes anti-matter sap from the tree's bark—the original wound caused by Asmodaius 5,000 years ago.",
+      "prose_hi": "Ek dantedar kali daraar se ped ki chhaal se anti-mater ras nikalta hai - 5,000 saal pehle esmodius dwara banaya gaya mool ghav."
     },
     {
       "id": "p17",
@@ -272,7 +304,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "A radiant woman composed of nebulae and comets steps from the trunk: 'The universe is dying of this bleed.'.",
+      "prose_hi": "Neeharikaon aur dhumketuon se bani ek deeptimaan mahila trunk se utarti hai: 'brahmand is khoon se mar raha hai.'"
     },
     {
       "id": "p18",
@@ -293,7 +327,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Maiden: 'Choice one: Reset reality. Earth will have no demons, but you will forget your brother and your friends.'.",
+      "prose_hi": "Meden: 'pahla vikalp: vastavikta ko reset karen. prithvi par koi rakshas nahin hoga, lekin tum apne bhai aur apne doston ko bhool jaoge.'"
     },
     {
       "id": "p19",
@@ -315,7 +351,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun shakes his head violently: 'Forget Tae-Jun?! Forget the brother who bled for me for seven years?! NEVER!'.",
+      "prose_hi": "Ha-jun ne zor se apna sir hilaya: 'taaye-jun ko bhool jao?! us bhai ko bhool jao jisne saat saal tak mere liye khoon bahaya?! kabhi nahin!'."
     },
     {
       "id": "p20",
@@ -336,7 +374,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun: 'What is the second choice?'.",
+      "prose_hi": "Ha-jun: 'dusri pasand kya hai?'"
     },
     {
       "id": "p21",
@@ -355,7 +395,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Maiden: 'Choice two: Transcendence. Ascend beyond the mortal plane and bind your own soul into the Tree's root.'.",
+      "prose_hi": "Yuvti: 'vikalp do: atikraman. nashwar viman se pare chadhen aur apni aatma ko vriksh ki jad mein bandhen.'"
     },
     {
       "id": "p22",
@@ -377,7 +419,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun looks at his hands: 'Will I still be able to see my brother? Will I still be able to visit Earth?'.",
+      "prose_hi": "Ha-jun apne hathon ko dekhta hai: 'kya main ab bhi apne bhai ko dekh paunga? kya main ab bhi prithvi par ja sakunga?'"
     },
     {
       "id": "p23",
@@ -397,7 +441,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Maiden: 'A True Sovereign rules all realms. Where your heart rests, there you shall walk.'.",
+      "prose_hi": "Meden: 'ek sachcha samprabhu sabhi kshetron par shasan karta hai. jahan aapka dil aaram karega, vahan aap chalenge.'"
     },
     {
       "id": "p24",
@@ -419,7 +465,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun smiles, the tension evaporating from his shoulders: 'Then the choice is simple. I will become the Pillar.'.",
+      "prose_hi": "Ha-jun muskurata hai, uske kandhon se tanaav gayab ho jata hai: 'fir chunav saral hai. main stambh banunga.'"
     },
     {
       "id": "p25",
@@ -430,7 +478,9 @@
       ],
       "action": "Ha-Jun steps back into his living room where Tae-Jun and Kuro wait anxiously.",
       "mood": "returning to family",
-      "sfx": "STEP-CHIME..."
+      "sfx": "STEP-CHIME...",
+      "prose_en": "Ha-Jun steps back into his living room where Tae-Jun and Kuro wait anxiously.",
+      "prose_hi": "Ha-jun apne living room mein wapas chala jata hai jahan taaye-jun aur kuro utsukta se intjaar karte han."
     },
     {
       "id": "p26",
@@ -452,7 +502,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun inspects him worriedly: 'Ha-Jun! What was behind that door?! Are you alright?!'.",
+      "prose_hi": "Taaye-jun ne chintit hokar uska nirikshan kiya: 'ha-jun! us darvaje ke peeche kya tha?! kya aap theek ho?!'."
     },
     {
       "id": "p27",
@@ -474,7 +526,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun smiles with infinite warmth: 'No threats, Hyung. Just the final step of our journey.'.",
+      "prose_hi": "Ha-jun aseem garmjoshi ke saath muskurata hai: 'koi khatra nahin, hung. bus hamari yatra ka antim charan.'"
     },
     {
       "id": "p28",
@@ -497,7 +551,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro's ruby eyes glow softly: 'You chose transcendence, didn't you, My Sovereign?'.",
+      "prose_hi": "Kuro ki ruby aankhen dheere se chamakti han: 'aapne utkrishtata ko chuna, hai na, mere prabhu?'."
     },
     {
       "id": "p29",
@@ -509,7 +565,9 @@
       ],
       "action": "Ha-Jun nods: 'Because that's what a brother does.'",
       "mood": "brotherhood above all",
-      "sfx": "NOD..."
+      "sfx": "NOD...",
+      "prose_en": "Ha-Jun nods: 'Because that's what a brother does.'.",
+      "prose_hi": "Ha-jun sir hilata hai: 'kyonki ek bhai yahi karta hai.'"
     },
     {
       "id": "p30",
@@ -530,7 +588,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun and Tae-Jun step out of apartment 402 into the cool evening air, ready for the final ascension!.",
+      "prose_hi": "Ha-jun aur taaye-jun sham ki thandi hawa mein apartment 402 se bahar nikle, antim aarohan ke liye taiyar!"
     }
   ]
 }

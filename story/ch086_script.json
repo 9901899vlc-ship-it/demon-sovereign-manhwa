@@ -15,7 +15,9 @@
       ],
       "action": "Ha-Jun falls backward through the sky, trailing blood droplets and shattered starlight particles.",
       "mood": "tragic freefall",
-      "sfx": "WIND-ROAR..."
+      "sfx": "WIND-ROAR...",
+      "prose_en": "Ha-Jun falls backward through the sky, trailing blood droplets and shattered starlight particles.",
+      "prose_hi": "Ha-jun rakt ki boondon aur toote hue taron ke kanon ko peeche chhodte hue aakash mein peeche ki or girta hai."
     },
     {
       "id": "p02",
@@ -37,7 +39,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kang Tae-Jun intercepts him at 10,000 feet, wrapping strong armored arms around Ha-Jun and deploying his glider cape.",
+      "prose_hi": "Cong taaye-jun ne use 10,000 feet ki unchai par rok liya, ha-jun ke charon or majboot bakhtarband hathiyar lapete aur apne glider cape ko tainat kiya."
     },
     {
       "id": "p03",
@@ -48,7 +52,9 @@
       ],
       "action": "Tae-Jun touches down on the lawn, digging his boots deep into the turf to absorb the landing momentum.",
       "mood": "hard touchdown",
-      "sfx": "THUD-SKID!!"
+      "sfx": "THUD-SKID!!",
+      "prose_en": "Tae-Jun touches down on the lawn, digging his boots deep into the turf to absorb the landing momentum.",
+      "prose_hi": "Taaye-jun lawn ko chhuta hai, landing gati ko avshoshit karne ke liye apne jute turf mein gahrai tak khodta hai."
     },
     {
       "id": "p04",
@@ -70,7 +76,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae sprints across the grass, tearing open sterile bandages and hemostatic sprays: 'Ha-Jun! What happened up there?!'.",
+      "prose_hi": "Min-je ghas par teji se daudta hai, banjh pattiyon aur hemostatic spray ko faadta hai: 'ha-jun! wahan upar kya hua?!'"
     },
     {
       "id": "p05",
@@ -92,7 +100,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun clutches his chest: 'Kuro... It wasn't his fault... Nihilux has the Primordial Whistle...'.",
+      "prose_hi": "Ha-jun ne apni chhati pakad li: 'kuro... yah uski galti nahin thi... nihilax ke paas primerdial whistle hai...'."
     },
     {
       "id": "p06",
@@ -112,7 +122,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Four heavy armored personnel carriers screech to a halt around the campus perimeter, deploying 50 veteran commandos.",
+      "prose_hi": "Char bhari bakhtarband karmik 50 anubhavi commando ko tainat karte hue, parisar ki paridhi ke aaspaas rukte han."
     },
     {
       "id": "p07",
@@ -121,7 +133,9 @@
       "characters": [],
       "action": "Students, faculty, and demon soldiers work side by side, stacking sandbags and plasma turrets at the university gates.",
       "mood": "civilians stand united",
-      "sfx": "HEAVE-HO!!"
+      "sfx": "HEAVE-HO!!",
+      "prose_en": "Students, faculty, and demon soldiers work side by side, stacking sandbags and plasma turrets at the university gates.",
+      "prose_hi": "Chhatra, shikshak aur danav sainik ek saath milkar kaam karte han, vishwavidyalaya ke gate par ret ki boriyan aur plasma burj jama karte han."
     },
     {
       "id": "p08",
@@ -143,7 +157,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun sits against a campus pillar; white bandages soak with scarlet blood as Min-Jae works with trembling hands.",
+      "prose_hi": "Ha-jun ek parisar ke khambhe ke samne baithta hai; jab min-je kampate hathon se kaam karta hai to safed pattiyan lal rang ke khoon se lathpath ho jaati han."
     },
     {
       "id": "p09",
@@ -164,7 +180,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's violet irises burn with renewed fire: 'Relics are just amplifiers. The Sovereign's Blood is mine!'.",
+      "prose_hi": "Ha-jun ki baingani putli nai aag se jalti hai: 'avshesh sirf pravardhak han. samprabhu ka khoon mera hai!'"
     },
     {
       "id": "p10",
@@ -173,7 +191,9 @@
       "characters": [],
       "action": "Across Mapo Bridge, an ocean of snarling chrome cyber-hounds and void abominations marches toward the campus.",
       "mood": "the incoming storm",
-      "sfx": "ROAR-STAMPEDE!!"
+      "sfx": "ROAR-STAMPEDE!!",
+      "prose_en": "Across Mapo Bridge, an ocean of snarling chrome cyber-hounds and void abominations marches toward the campus.",
+      "prose_hi": "Mepo bridge ke par, khunkhar chrome cyber-hound aur shunya ghrinit vastuon ka ek mahasagar parisar ki or badhta hai."
     },
     {
       "id": "p11",
@@ -193,7 +213,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun stands at the front iron archway, planting his bronze sword into the asphalt: 'They don't pass this gate.'.",
+      "prose_hi": "Taaye-jun samne ke lohe ke torandwar par khada hai, apni kansya talwar ko damar mein gaad raha hai: 've is dwar ko paar nahin karte han.'"
     },
     {
       "id": "p12",
@@ -215,7 +237,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun pushes himself to his feet, drawing the Sanguine Fang: 'Together, Hyung. Like we promised.'.",
+      "prose_hi": "Ha-jun khud ko apne pairon par khada karta hai, aur senguin fang ka chitran karta hai: 'ek sath, hung. jaisa ki humne vaada kiya tha.'"
     },
     {
       "id": "p13",
@@ -224,7 +248,9 @@
       "characters": [],
       "action": "The front wave of two thousand metallic beasts charges the iron gates with snapping titanium jaws.",
       "mood": "furious charge",
-      "sfx": "SNAP-CLATTER!!"
+      "sfx": "SNAP-CLATTER!!",
+      "prose_en": "The front wave of two thousand metallic beasts charges the iron gates with snapping titanium jaws.",
+      "prose_hi": "Do hazar dhatvik janvaron ki samne ki lahar lohe ke darwazon ko tadakte hue titanium jabdon se charge karti hai."
     },
     {
       "id": "p14",
@@ -233,7 +259,9 @@
       "characters": [],
       "action": "Tae-Jun sweeps his sword; a crescent wave of heavy bronze mana obliterates the first hundred hounds into scrap.",
       "mood": "first blood at the gates",
-      "sfx": "KABOOOM-SLASH!!"
+      "sfx": "KABOOOM-SLASH!!",
+      "prose_en": "Tae-Jun sweeps his sword; a crescent wave of heavy bronze mana obliterates the first hundred hounds into scrap.",
+      "prose_hi": "Taaye-jun ne apni talwar ghumai; bhari kansya maina ki ek ardhchandrakar lahar pehle sau shikari kutton ko nasht kar deti hai."
     },
     {
       "id": "p15",
@@ -244,7 +272,9 @@
       ],
       "action": "Ha-Jun whips Chains of Ruin through the street, snaring 200 beasts in crushing gravitational coils.",
       "mood": "mass entanglement",
-      "sfx": "CLANG-BIND!!"
+      "sfx": "CLANG-BIND!!",
+      "prose_en": "Ha-Jun whips Chains of Ruin through the street, snaring 200 beasts in crushing gravitational coils.",
+      "prose_hi": "Ha-jun sadak par barbad janjeeron ko maarta hai, jisse 200 janwar gurutvakarshan kundaliyon ko kuchalne mein fans jaate han."
     },
     {
       "id": "p16",
@@ -264,7 +294,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "From the library rooftop, Min-Jae and student snipers pick off heavy hydras with synchronized plasma fire.",
+      "prose_hi": "Library ki chhat se, min-je aur chhatra snipers sinkronised plasma fire ke saath bhari hydra ko hatate han."
     },
     {
       "id": "p17",
@@ -273,7 +305,9 @@
       "characters": [],
       "action": "The Iron Demon Vanguard engages in brutal hand-to-hand melee at the gatehouse, black blood splashing the walls.",
       "mood": "brutal melee clash",
-      "sfx": "AXE HACK-ROAR!!"
+      "sfx": "AXE HACK-ROAR!!",
+      "prose_en": "The Iron Demon Vanguard engages in brutal hand-to-hand melee at the gatehouse, black blood splashing the walls.",
+      "prose_hi": "Lauh danav mohra gatehouse mein krur hathapai mein sanlagn hai, diwaron par kale khoon ke chhinte pad rahe han."
     },
     {
       "id": "p18",
@@ -282,7 +316,9 @@
       "characters": [],
       "action": "A thirty-foot armored brute with club hands smashes through the neoclassical brick wall on the east flank.",
       "mood": "flank breached",
-      "sfx": "SMASH-RUBBLE!!"
+      "sfx": "SMASH-RUBBLE!!",
+      "prose_en": "A thirty-foot armored brute with club hands smashes through the neoclassical brick wall on the east flank.",
+      "prose_hi": "Ek tees foot ka bakhtarband janwar apne club ke hathon se purvi kinare par navashastriy int ki deewar ko todta hai."
     },
     {
       "id": "p19",
@@ -293,7 +329,9 @@
       ],
       "action": "Ha-Jun blurs across the lawn, severing the brute's massive neck before the falling bricks hit the grass.",
       "mood": "instant neutralization",
-      "sfx": "BLUR-SHING!!"
+      "sfx": "BLUR-SHING!!",
+      "prose_en": "Ha-Jun blurs across the lawn, severing the brute's massive neck before the falling bricks hit the grass.",
+      "prose_hi": "Ha-jun lawn mein ghumta hai, girti inton ke ghas se takraane se pehle janwar ki vishal gardan cut jaati hai."
     },
     {
       "id": "p20",
@@ -315,7 +353,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun lands, coughing scarlet blood into his sleeve as his unhealed chest wound reopens painfully.",
+      "prose_hi": "Ha-jun apni aasteen mein lal rang ka khoon bahate hue jameen par utarta hai kyonki uski chhati ka theek na hua ghav dardnak tarike se phir se khul jata hai."
     },
     {
       "id": "p21",
@@ -337,7 +377,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun catches him by the elbow: 'Ha-Jun! Fall back to the library! I will hold the gatehouse!'.",
+      "prose_hi": "Taaye-jun ne use kohni se pakad liya: 'ha-jun! pustakalaya mein wapas aao! main gatehouse pakdunga!"
     },
     {
       "id": "p22",
@@ -358,7 +400,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun looks into his brother's eyes with fierce pride: 'I spent seven years running and hiding. I will never run again.'.",
+      "prose_hi": "Ha-jun apne bhai ki aankhon mein behad garv ke saath dekhta hai: 'maine saat saal bhagte aur chhipte hue bitaye. main phir kabhi nahin daudunga.'"
     },
     {
       "id": "p23",
@@ -378,7 +422,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The crimson sky turns pitch-black; floating down from the clouds comes Emperor Nihilux himself.",
+      "prose_hi": "Lal rang ka aakash ekdum kala ho jata hai; samrat nihilax swayam baadalon se tairte hue neeche aate han."
     },
     {
       "id": "p24",
@@ -389,7 +435,9 @@
       ],
       "action": "Perched on Nihilux's shoulder is Kuro—his feathers bristling with green void miasma, looking down blankly.",
       "mood": "the corrupted guardian",
-      "sfx": "HISS..."
+      "sfx": "HISS...",
+      "prose_en": "Perched on Nihilux's shoulder is Kuro—his feathers bristling with green void miasma, looking down blankly.",
+      "prose_hi": "Nihilax ke kandhe par kuro baitha hai - uske pankh hare rang ke shunya miyasma se chamak rahe han, jo khali neeche dekh raha hai."
     },
     {
       "id": "p25",
@@ -411,7 +459,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun looks at his corrupted companion, whispering with raw, choked love: 'Kuro... It's me. Ha-Jun.'.",
+      "prose_hi": "Ha-jun apne bhrasht saathi ko dekhta hai, kacche, dabe hue pyar se fusfusata hai: 'kuro... yah main hun. ha-jun.'"
     },
     {
       "id": "p26",
@@ -422,7 +472,9 @@
       ],
       "action": "Deep inside the void possession, Kuro's consciousness thrashes; a single crystal tear falls from his eye.",
       "mood": "the soul fights back",
-      "sfx": "TEAR FALL..."
+      "sfx": "TEAR FALL...",
+      "prose_en": "Deep inside the void possession, Kuro's consciousness thrashes; a single crystal tear falls from his eye.",
+      "prose_hi": "Shunya aadhipatya ke bhitar gahre men, kuro ki chetna chhatpatati hai; uski aankh se ek crystaliy aansu girta hai."
     },
     {
       "id": "p27",
@@ -442,7 +494,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Nihilux sneers: 'Your crow cannot hear you, insect. He belongs to the Void now!'.",
+      "prose_hi": "Nihilax ne vyangya kiya: 'tumhara kauwa tumhe nahin sun sakta, kit. wah ab shunya ka hai!'"
     },
     {
       "id": "p28",
@@ -464,7 +518,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun positions his 6-foot frame directly between Nihilux's lance and Ha-Jun's bleeding chest.",
+      "prose_hi": "Taaye-jun apne 6 foot ke frame ko sidhe nihilax ke lance aur ha-jun ki khoon bah rahi chhati ke beech rakhta hai."
     },
     {
       "id": "p29",
@@ -473,7 +529,9 @@
       "characters": [],
       "action": "Nihilux thrusts the 10-foot black lance forward, the tip whistling with the force of an anti-tank shell.",
       "mood": "fatal strike unleashed",
-      "sfx": "THRUST-ROAR!!"
+      "sfx": "THRUST-ROAR!!",
+      "prose_en": "Nihilux thrusts the 10-foot black lance forward, the tip whistling with the force of an anti-tank shell.",
+      "prose_hi": "Nihilax ne 10 foot ke kale lance ko aage ki or dhakela, jiska sira anti-tank shell ke bal se ct baja raha tha."
     },
     {
       "id": "p30",
@@ -495,7 +553,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The obsidian lance tip is two inches from Tae-Jun's chest as Ha-Jun screams his brother's name in terror!.",
+      "prose_hi": "Obseedian lance tip taaye-jun ki chhati se do inch door hai kyonki ha-jun dar ke maare apne bhai ka naam chillata hai!"
     }
   ]
 }

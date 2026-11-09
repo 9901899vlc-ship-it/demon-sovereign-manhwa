@@ -15,7 +15,9 @@
       ],
       "action": "Billions of glittering golden gear fragments rain down gently onto the circular marble amphitheater floor like warm summer snow.",
       "mood": "peaceful aftermath",
-      "sfx": "GLITTER SHOWER..."
+      "sfx": "GLITTER SHOWER...",
+      "prose_en": "Billions of glittering golden gear fragments rain down gently onto the circular marble amphitheater floor like warm summer snow.",
+      "prose_hi": "Arabon chamchamate sunhare gear ke tukde garm garmi ki barf ki tarah golakar sangmarmar ke emphitheater farsh par dhire-dhire barsate han."
     },
     {
       "id": "p02",
@@ -35,7 +37,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The shattered mechanical abomination condenses into a serene, six-foot monk draped in white and gold silk robes.",
+      "prose_hi": "Bikhri hui yantrik ghrina safed aur sunhare reshmi vastron mein lipte ek shant, chhah foot ke sadhu mein badal jaati hai."
     },
     {
       "id": "p03",
@@ -46,7 +50,9 @@
       ],
       "action": "The two-meter hourglass shrinks gracefully to the size of an antique lantern, descending into Ha-Jun's outstretched palms.",
       "mood": "claiming the tenth relic",
-      "sfx": "GENTLE REST..."
+      "sfx": "GENTLE REST...",
+      "prose_en": "The two-meter hourglass shrinks gracefully to the size of an antique lantern, descending into Ha-Jun's outstretched palms.",
+      "prose_hi": "Ha-jun ki faili hui hatheliyon mein utarte hue, do meter ka ghantaghar ek prachin lalten ke aakaar mein khubsurti se sikud jata hai."
     },
     {
       "id": "p04",
@@ -57,7 +63,9 @@
       ],
       "action": "The Crown of the Sovereign atop Ha-Jun's brow erupts in pure white and violet celestial radiance.",
       "mood": "ancestral resonance",
-      "sfx": "FLASH-CROWN!!"
+      "sfx": "FLASH-CROWN!!",
+      "prose_en": "The Crown of the Sovereign atop Ha-Jun's brow erupts in pure white and violet celestial radiance.",
+      "prose_hi": "Ha-jun ki bhaunh ke upar samprabhu ka mukut shuddh safed aur baingani akashiya chamak mein chamakta hai."
     },
     {
       "id": "p05",
@@ -79,7 +87,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Hovering protectively behind Ha-Jun appears the translucent, regal phantom of First Sovereign Asmodaius in full royal mantle.",
+      "prose_hi": "Ha-jun ke peeche surakshatmak roop se mandrate hue purna shahi aavaran mein pratham samprabhu esmodius ka parbhasi, shahi pret dikhai deta hai."
     },
     {
       "id": "p06",
@@ -100,7 +110,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun nods with mutual respect: 'Lord Asmodaius. Show me how to save Tae-Jun.'.",
+      "prose_hi": "Ha-jun paraspar samman ke saath sir hilate han: 'lord esmodius. mujhe dikhao ki taaye-jun ko kaise bachaya jaye.'"
     },
     {
       "id": "p07",
@@ -119,7 +131,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Asmodaius: 'Invert the vessel. Draw seven grains of sand for the seven years of imprisonment.'.",
+      "prose_hi": "Esmodius: 'bartan ko ulta karo. karawas ke saat varshon ke liye ret ke saat daane nikalo.'"
     },
     {
       "id": "p08",
@@ -130,7 +144,9 @@
       ],
       "action": "Ha-Jun kneels, gently resting Tae-Jun's head upon his folded black coat like a pillow on the soft sand.",
       "mood": "brotherly tenderness",
-      "sfx": "REST..."
+      "sfx": "REST...",
+      "prose_en": "Ha-Jun kneels, gently resting Tae-Jun's head upon his folded black coat like a pillow on the soft sand.",
+      "prose_hi": "Ha-jun ghutnon ke bal baith jata hai, naram ret par takiye ki tarah apne mude hue kale coat par taaye-jun ka sir dheere se tika deta hai."
     },
     {
       "id": "p09",
@@ -141,7 +157,9 @@
       ],
       "action": "Ha-Jun touches the brass latch; the top chamber unlocks with a melodious crystalline chime.",
       "mood": "unsealing the sand",
-      "sfx": "CHIME-CLICK..."
+      "sfx": "CHIME-CLICK...",
+      "prose_en": "Ha-Jun touches the brass latch; the top chamber unlocks with a melodious crystalline chime.",
+      "prose_hi": "Ha-jun pital ki kundi ko chhuta hai; sheersh kaksh ek madhur crystaliy jhankar ke saath khulta hai."
     },
     {
       "id": "p10",
@@ -162,7 +180,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Seven tiny grains of golden sand, each containing miniature swirling galaxies, rest upon Ha-Jun's index finger.",
+      "prose_hi": "Sunhari ret ke saat chhote dane, jinmein se pratyek mein laghu ghumti hui aakashagangaen han, ha-jun ki tarjani par tiki hui han."
     },
     {
       "id": "p11",
@@ -184,7 +204,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun presses his glowing finger gently against Tae-Jun's forehead, right between his dormant demonic horns.",
+      "prose_hi": "Ha-jun apni chamakti ungli ko taaye-jun ke mathe par dheere se dabata hai, theek uske nishkriya rakshasi seengon ke bich."
     },
     {
       "id": "p12",
@@ -193,7 +215,9 @@
       "characters": [],
       "action": "Golden rings of light ripple across Tae-Jun's face, neck, and chest, washing away seven years of trauma.",
       "mood": "temporal regression in action",
-      "sfx": "RIPPLE-EXPAND..."
+      "sfx": "RIPPLE-EXPAND...",
+      "prose_en": "Golden rings of light ripple across Tae-Jun's face, neck, and chest, washing away seven years of trauma.",
+      "prose_hi": "Taaye-jun ke chehre, gardan aur chhati par prakash ke sunhare chhalle tarangit ho rahe han, jo saat saal ke aaghat ko dho rahe han."
     },
     {
       "id": "p13",
@@ -202,7 +226,9 @@
       "characters": [],
       "action": "The black poison lines retreat rapidly back along Tae-Jun's throat, vanishing into clean, healthy peach skin.",
       "mood": "poison purged",
-      "sfx": "FADE-HISS..."
+      "sfx": "FADE-HISS...",
+      "prose_en": "The black poison lines retreat rapidly back along Tae-Jun's throat, vanishing into clean, healthy peach skin.",
+      "prose_hi": "Kali zahar rekhaen taaye-jun ke gale ke saath teji se peeche hatati han, aur saf, swasth aduu ki tvacha mein gayab ho jaati han."
     },
     {
       "id": "p14",
@@ -211,7 +237,9 @@
       "characters": [],
       "action": "Seven years of laboratory biopsy scars, needle tracks, and burns seal and disappear completely.",
       "mood": "physical restoration",
-      "sfx": "SEAL-SMOOTH..."
+      "sfx": "SEAL-SMOOTH...",
+      "prose_en": "Seven years of laboratory biopsy scars, needle tracks, and burns seal and disappear completely.",
+      "prose_hi": "Saat saal ki prayogshala biopsy ke nishan, sui ke nishan, aur jale hue nishan seal ho gaye aur puri tarah se gayab ho gaye."
     },
     {
       "id": "p15",
@@ -220,7 +248,9 @@
       "characters": [],
       "action": "The forced demonic horns retract smoothly into his skull, leaving behind noble golden guardian marks on his brow.",
       "mood": "purification of corruption",
-      "sfx": "RETRACT-GLINT..."
+      "sfx": "RETRACT-GLINT...",
+      "prose_en": "The forced demonic horns retract smoothly into his skull, leaving behind noble golden guardian marks on his brow.",
+      "prose_hi": "Majboor rakshasi seeng aasani se uski khopdi mein ghus jaate han, aur uske mathe par mahan sunhare sanrakshak ke nishan chhod jaate han."
     },
     {
       "id": "p16",
@@ -240,7 +270,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun's chest surges; he inhales a massive, life-giving gasp of air as his dormant heart beats with full thunder.",
+      "prose_hi": "Taaye-jun ki chhati mein uchhal; jab uska supt hriday puri gadgdahat ke saath dhadkata hai to wah hawa ki ek vishal, jeevandaayi saans leta hai."
     },
     {
       "id": "p17",
@@ -260,7 +292,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun's eyes open wide—clear, vibrant, filled with brilliant royal violet light and complete sanity.",
+      "prose_hi": "Taaye-jun ki aankhen khuli hui hain - spasht, jivant, shandar shahi baingani roshni aur purna vivek se bhari hui."
     },
     {
       "id": "p18",
@@ -282,7 +316,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun grabs his brother's warm hands, laughing through hot tears of pure relief and joy.",
+      "prose_hi": "Ha-jun apne bhai ke garm hathon ko pakadta hai, shuddh rahat aur khushi ke garm aansuon ke saath hansta hai."
     },
     {
       "id": "p19",
@@ -304,7 +340,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun sits up and pulls Ha-Jun into a crushing, powerful hug, burying his face into Ha-Jun's hair.",
+      "prose_hi": "Taaye-jun baithta hai aur ha-jun ko ek kuchalne wale, shaktishali aalingan mein khinchta hai, aur apna chehra ha-jun ke baalon mein chhipa deta hai."
     },
     {
       "id": "p20",
@@ -326,7 +364,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro nuzzles Tae-Jun's ear affectionately: 'Welcome back, Subject Zero. You gave us quite a headache.'.",
+      "prose_hi": "Kuro ne pyar se taaye-jun ke kaan ko thapthpaya: 'vaaps swagat hai, subject jeero. aapne hamen kafi sirdard de diya.'"
     },
     {
       "id": "p21",
@@ -348,7 +388,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun suddenly winces, clutching his temples as a sharp flash of blue temporal lightning zaps his brain.",
+      "prose_hi": "Ha-jun achanak apni kanpatiyon ko pakadte hue karah uthta hai, jaise neeli laukik bijli ki tej chamak uske mastishk ko jhakjhor deti hai."
     },
     {
       "id": "p22",
@@ -359,7 +401,9 @@
       ],
       "action": "A hazy image of an elementary school playground and a graduation certificate fades into empty white fog.",
       "mood": "first memory sacrificed",
-      "sfx": "FOG DISSOLVE..."
+      "sfx": "FOG DISSOLVE...",
+      "prose_en": "A hazy image of an elementary school playground and a graduation certificate fades into empty white fog.",
+      "prose_hi": "Prathmik vidyalaya ke khel ke maidan aur snatak pramanpatra ki dhundhli chhavi khali safed kohre mein badal jaati hai."
     },
     {
       "id": "p23",
@@ -381,7 +425,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun blinks: 'Wait... Who was my middle school homeroom teacher? I... can't remember.'.",
+      "prose_hi": "Ha-jun palkein jhapkate han: 'ruko... mere middle school homrum shikshak kaun the? mujhe... yaad nahin aa raha.'"
     },
     {
       "id": "p24",
@@ -392,7 +438,9 @@
       ],
       "action": "Ha-Jun lets out a soft breath and smiles; the trade was worth it a million times over.",
       "mood": "zero regret",
-      "sfx": "SMILE..."
+      "sfx": "SMILE...",
+      "prose_en": "Ha-Jun lets out a soft breath and smiles; the trade was worth it a million times over.",
+      "prose_hi": "Ha-jun ek dhimi saans chhodta hai aur muskurata hai; vyapar ka mulya isse lakhon guna adhik tha."
     },
     {
       "id": "p25",
@@ -412,7 +460,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae and Captain Baek stumble forward as their muscles unfreeze: 'Whoa! What just happened?!'.",
+      "prose_hi": "Min-je aur captain bak ladkhadate hue aage badhte hain kyonki unki manspeshiyan dhili ho jaati han: 'vah! abhi kya hua?!'"
     },
     {
       "id": "p26",
@@ -432,7 +482,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae points with trembling fingers: 'Tae-Jun hyung?! He's standing?! He looks completely cured!'.",
+      "prose_hi": "Min-je kampati ungaliyon se ishara karte han: 'taaye-jun hung?! wah khada hai?! wah puri tarah theek lag raha hai!'"
     },
     {
       "id": "p27",
@@ -452,7 +504,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Captain Baek renders a solemn salute: 'Kang Tae-Jun. It is an honor to finally meet the hero of Section 9.'.",
+      "prose_hi": "Capton bake ek gambhir salami dete han: 'cong taaye-jun. akhirkar section 9 ke nayak se milna samman ki baat hai.'"
     },
     {
       "id": "p28",
@@ -471,7 +525,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun smiles warmly: 'Thank you, Captain. But my little brother is the real hero here.'.",
+      "prose_hi": "Taaye-jun garmjoshi se muskurate han: 'dhanyavad, capton. lekin mera chhota bhai yahan asli hero hai.'"
     },
     {
       "id": "p29",
@@ -491,7 +547,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "First Sovereign Asmodaius dissolves into golden stardust: 'Now prepare. The Void Primordial has sensed the Tenth Relic.'.",
+      "prose_hi": "Pahle sovereign esmodius sunhare stardust mein ghul jata hai: 'ab taiyar ho jao. shunya aadim ne dasven avashesh ko mahsoos kiya hai.'"
     },
     {
       "id": "p30",
@@ -512,7 +570,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "A catastrophic seismic shockwave rocks Tartarus; three blood-red suns eclipse the black sky as Arc 8 reaches its zenith!.",
+      "prose_hi": "Ek vinashkari bhukampiy shockwev ne tarters ko hilakar rakh diya; jaise hi arc 8 apne charam par pahunchta hai, teen rakt-lal surya kale aakash ko grahan karte han!"
     }
   ]
 }

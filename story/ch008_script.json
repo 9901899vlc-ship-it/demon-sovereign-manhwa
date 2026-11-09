@@ -13,93 +13,183 @@
       "characters": [],
       "action": "A single swirling violet magical ember hovers gently in the rain, emitting faint whisper frequencies directly into the air.",
       "mood": "eerie supernatural tranquility",
-      "sfx": "FZZZZZ..."
+      "sfx": "FZZZZZ...",
+      "prose_en": "A single swirling violet magical ember hovers gently in the rain, emitting faint whisper frequencies directly into the air.",
+      "prose_hi": "Ek ghumta hua baingani jaadui angara baarish mein dhire-dhire mandrata hai, jo halki fusfusahat aavrittiyon ko sidhe hawa mein utsarjit karta hai."
     },
     {
       "id": "p02",
       "shot": "spectral smoke expansion",
       "setting": "university rooftop",
-      "characters": ["kuro"],
+      "characters": [
+        "kuro"
+      ],
       "action": "The purple ember expands rapidly into ethereal black and violet demonic miasma, taking the spectral form of an ancient feathered familiar.",
       "mood": "mythic arrival",
-      "sfx": "WHUUUUM..."
+      "sfx": "WHUUUUM...",
+      "prose_en": "The purple ember expands rapidly into ethereal black and violet demonic miasma, taking the spectral form of an ancient feathered familiar.",
+      "prose_hi": "Bangni angara teji se ether kale aur baingani rakshasi mayasma mein failta hai, jo ek prachin pankh wale parichit ka varnakramiy roop leta hai."
     },
     {
       "id": "p03",
       "shot": "scrambling shock reaction",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun scuffles backward along the wet rooftop floor in panic, pressing his back against the parapet: 'K-Kaun hai wahan?!'",
       "mood": "startled confusion",
       "dialogue": [
-        {"type": "shout", "speaker": "hajun", "text": "KAUN HAI WAHAN?! SAMNE AAO!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "KAUN HAI WAHAN?! SAMNE AAO!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun scuffles backward along the wet rooftop floor in panic, pressing his back against the parapet: 'K-Kaun hai wahan?!'.",
+      "prose_hi": "Ha-jun ghabrahat mein gili chhat ke farsh par peeche ki or khinchta hai, apni peeth ko railing ke khilaf dabata hai: 'ke-kaun hai vahan?!'."
     },
     {
       "id": "p04",
       "shot": "regal perch profile",
       "setting": "university rooftop",
-      "characters": ["kuro"],
+      "characters": [
+        "kuro"
+      ],
       "action": "Kuro perches regally on the severed steel terrace railing, his obsidian feathers tipped with violet flames, glowing crimson eyes gleaming.",
       "mood": "ancient majesty",
       "dialogue": [
-        {"type": "speech", "speaker": "kuro", "text": "Aawaz neeche karo, ladke. Agar main dushman hota, toh wo Imp abhi tumhari haddiyan chaba raha hota.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Aawaz neeche karo, ladke. Agar main dushman hota, toh wo Imp abhi tumhari haddiyan chaba raha hota.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Kuro perches regally on the severed steel terrace railing, his obsidian feathers tipped with violet flames, glowing crimson eyes gleaming.",
+      "prose_hi": "Kuro steel ki kati hui chhat ki railing par niyamit roop se baitha hai, uske obsidian pankh baingani rang ki lapton se jal rahe han, chamakti lal rang ki aankhen chamak rahi han."
     },
     {
       "id": "p05",
       "shot": "shocked recognition macro",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun's eyes widen as he recognizes the distinct silhouette and glowing feathers of the mysterious bird from earlier.",
       "mood": "epiphany",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "Yeh wahi parinda hai... jo pehle railing par baitha tha!", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Yeh wahi parinda hai... jo pehle railing par baitha tha!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun's eyes widen as he recognizes the distinct silhouette and glowing feathers of the mysterious bird from earlier.",
+      "prose_hi": "Ha-jun ki aankhen chaudi ho gai kyonki wah pehle se rahasyamay pakshi ke vishisht chhaya aur chamakte pankhon ko pehchanta hai."
     },
     {
       "id": "p06",
       "shot": "demonic wing rustle",
       "setting": "university rooftop",
-      "characters": ["kuro"],
+      "characters": [
+        "kuro"
+      ],
       "action": "Kuro flares his wings outward, sending a cascade of harmless violet sparks floating through the rain with deep, aristocratic laughter.",
       "mood": "sardonic grandeur",
       "dialogue": [
-        {"type": "speech", "speaker": "kuro", "text": "Sirf ek parinda? Kitni gustaakhi hai. Main Kuro hoon—First Demon Sovereign ka Shahi Muhafiz.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Sirf ek parinda? Kitni gustaakhi hai. Main Kuro hoon—First Demon Sovereign ka Shahi Muhafiz.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Kuro flares his wings outward, sending a cascade of harmless violet sparks floating through the rain with deep, aristocratic laughter.",
+      "prose_hi": "Kuro apne pankhon ko bahar ki or failata hai, aur gahri, kulin hansi ke saath baarish mein tairti hui hanirahit baingani chingari ka jharna bhejta hai."
     },
     {
       "id": "p07",
       "shot": "spectral talon pointing",
       "setting": "university rooftop",
-      "characters": ["kuro"],
+      "characters": [
+        "kuro"
+      ],
       "action": "Kuro extends a glowing spectral talon, pointing directly at the center of Ha-Jun's chest where the violet core pulses.",
       "mood": "solemn pronouncement",
       "dialogue": [
-        {"type": "speech", "speaker": "kuro", "text": "Aur tum... is yug ke aakhri Sovereign ho.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Aur tum... is yug ke aakhri Sovereign ho.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Kuro extends a glowing spectral talon, pointing directly at the center of Ha-Jun's chest where the violet core pulses.",
+      "prose_hi": "Kuro ek chamakdar varnakramiy pratibha ka vistar karta hai, jo sidhe ha-jun ki chhati ke kendra ki or ishara karta hai jahan baingani core spandit hota hai."
     },
     {
       "id": "p08",
       "shot": "bewildered denial close-up",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun shakes his head vigorously, rain droplets flying from his wet bangs: 'Sovereign?! Main toh sirf ek aam student hoon!'",
       "mood": "existential denial",
       "dialogue": [
-        {"type": "speech", "speaker": "hajun", "text": "Mazaak mat karo! Main Saint Mirren ka sabse kamzor ladka hoon!", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Mazaak mat karo! Main Saint Mirren ka sabse kamzor ladka hoon!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun shakes his head vigorously, rain droplets flying from his wet bangs: 'Sovereign?! Main toh sirf ek aam student hoon!'.",
+      "prose_hi": "Ha-jun apna sir jor-jor se hilata hai, uske gile baalon se baarish ki bunden ud rahi han: 'soweren?! main to sirf ek aam student hun!'."
     },
     {
       "id": "p09",
       "shot": "cynical smirk close-up",
       "setting": "university rooftop",
-      "characters": ["kuro"],
+      "characters": [
+        "kuro"
+      ],
       "action": "Kuro's beak forms a mocking, knowing grin: 'Aam insaan? Koi aam insaan meri feather ko chhoote hi raakh ka dher ban jaata.'",
       "mood": "undeniable proof",
       "dialogue": [
-        {"type": "speech", "speaker": "kuro", "text": "Koyi aam insaan meri Mythic Relic ko bardasht nahi kar sakta.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Koyi aam insaan meri Mythic Relic ko bardasht nahi kar sakta.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Kuro's beak forms a mocking, knowing grin: 'Aam insaan? Koi aam insaan meri feather ko chhoote hi raakh ka dher ban jaata.'.",
+      "prose_hi": "Kuro ki chonch ek majakiya, janne wali muskurahat banati hai: 'aam insan?' koi aam insaan meri pankh ko chhuta hi rakh ka dher ban jata.'"
     },
     {
       "id": "p10",
@@ -109,8 +199,17 @@
       "action": "Flashback to the primordial Abyss: The First Demon Sovereign seated upon a colossal obsidian throne beneath twin shattered purple moons.",
       "mood": "mythic majesty",
       "dialogue": [
-        {"type": "narration", "text": "Hazaaron saal pehle... First Demon Sovereign ne Abyss par raaj kiya tha.", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "narration",
+          "text": "Hazaaron saal pehle... First Demon Sovereign ne Abyss par raaj kiya tha.",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "To the primordial Abyss: The First Demon Sovereign seated upon a colossal obsidian throne beneath twin shattered purple moons.",
+      "prose_hi": "Aadim rasatal men: pehla danav samprabhu, do toote hue baingani chandramaon ke neeche ek vishal obsidian sinhasan par baitha hai."
     },
     {
       "id": "p11",
@@ -120,8 +219,17 @@
       "action": "Ten glowing sacred artifacts (Feather, Ring, Bone, Heart, Fang, Eye, Chains, Crown, Eclipse, Hourglass) orbit in a celestial circle.",
       "mood": "relic lore revelation",
       "dialogue": [
-        {"type": "narration", "text": "Apne ant se pehle... usne apni taqat ko Das Relics mein baant diya.", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "narration",
+          "text": "Apne ant se pehle... usne apni taqat ko Das Relics mein baant diya.",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "Ten glowing sacred artifacts (Feather, Ring, Bone, Heart, Fang, Eye, Chains, Crown, Eclipse, Hourglass) orbit in a celestial circle.",
+      "prose_hi": "Das chamakti pavitra kalakritiyan (pankh, anguthi, haddi, hridy, daant, aankh, janjiren, mukut, grahan, ghantaghar) ek akashiya vritt mein parikrama karti han."
     },
     {
       "id": "p12",
@@ -131,63 +239,134 @@
       "action": "A glowing crimson and violet genetic tree weaves through human history, hiding in plain sight across mortal generations.",
       "mood": "destined legacy",
       "dialogue": [
-        {"type": "speech", "speaker": "kuro", "text": "Uska khoon sadiyon tak insaano ke beech chupa raha... tumhare jism tak pahunchne ke liye.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Uska khoon sadiyon tak insaano ke beech chupa raha... tumhare jism tak pahunchne ke liye.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "A glowing crimson and violet genetic tree weaves through human history, hiding in plain sight across mortal generations.",
+      "prose_hi": "Ek chamakta hua lal aur baingani rang ka aanuvanshik vriksh manav itihaas mein buna hua hai, jo nashwar peedhiyon ke beech spasht drishya mein chhipa hua hai."
     },
     {
       "id": "p13",
       "shot": "staring at hands in realization",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun looks down at his pale hands, now healed and humming with supernatural warmth beneath the skin.",
       "mood": "slow acceptance",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "Toh kya... yeh aag... mere andar pehle se thi?", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Toh kya... yeh aag... mere andar pehle se thi?",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun looks down at his pale hands, now healed and humming with supernatural warmth beneath the skin.",
+      "prose_hi": "Ha-jun apne peele hathon ko dekhta hai, jo ab theek ho gaye hain aur tvacha ke neeche alaukik garmi se gunguna rahe han."
     },
     {
       "id": "p14",
       "shot": "shadow of elder brother",
       "setting": "university rooftop",
-      "characters": ["kuro"],
+      "characters": [
+        "kuro"
+      ],
       "action": "Kuro's tone softens into somber gravity: 'Aur yeh khoon sirf isliye bacha... kyunki tumhare bade bhai ne apni jaan daav par laga di.'",
       "mood": "emotional pivot",
       "dialogue": [
-        {"type": "speech", "speaker": "kuro", "text": "Tumhare bhai Kang Tae-Jun ne tumhari hifazat ke liye sab kuch qurbaan kar diya.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Tumhare bhai Kang Tae-Jun ne tumhari hifazat ke liye sab kuch qurbaan kar diya.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Kuro's tone softens into somber gravity: 'Aur yeh khoon sirf isliye bacha... kyunki tumhare bade bhai ne apni jaan daav par laga di.'.",
+      "prose_hi": "Kuro ka swar gambhir gambhirta mein badal jata hai: 'aur yeh khoon sirf isliye baccha... kyonki tumhare bade bhai ne apni jaan daav par laga di.'"
     },
     {
       "id": "p15",
       "shot": "thunderous shock close-up",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun freezes, his heart skipping a beat as his brother's name echoes in his ears like lightning.",
       "mood": "emotional shockwave",
       "dialogue": [
-        {"type": "shout", "speaker": "hajun", "text": "TUM BHAIYA KO JAANTE HO?!", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "TUM BHAIYA KO JAANTE HO?!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun freezes, his heart skipping a beat as his brother's name echoes in his ears like lightning.",
+      "prose_hi": "Ha-jun thithak jata hai, uska dil teji se dhadakne lagta hai kyonki uske bhai ka naam uske kanon mein bijli ki tarah goonjata hai."
     },
     {
       "id": "p16",
       "shot": "desperate grab forward",
       "setting": "university rooftop",
-      "characters": ["hajun", "kuro"],
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
       "action": "Ha-Jun scrambles forward, desperately reaching out toward Kuro's perch: 'Kahan hain wo?! Kya wo zinda hain?!'",
       "mood": "raw desperation",
       "dialogue": [
-        {"type": "speech", "speaker": "hajun", "text": "MUJHE BATAO! WO KAHAN HAIN?!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "MUJHE BATAO! WO KAHAN HAIN?!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun scrambles forward, desperately reaching out toward Kuro's perch: 'Kahan hain wo?! Kya wo zinda hain?!'.",
+      "prose_hi": "Ha-jun aage badhta hai, utsukta se kuro ke baithne ki jagah ki or badhta hai: 'kahan hain vo?! kya woh jinda hai?!'"
     },
     {
       "id": "p17",
       "shot": "somber raven gaze",
       "setting": "university rooftop",
-      "characters": ["kuro"],
+      "characters": [
+        "kuro"
+      ],
       "action": "Kuro meets Ha-Jun's gaze with ancient sorrow: 'Wo pehle candidate the. Lekin unka jism Sovereign ke pure harmony ko nahi sambhaal saka.'",
       "mood": "tragic truth",
       "dialogue": [
-        {"type": "speech", "speaker": "kuro", "text": "Wo pichhle uttaradhikari the... par unka jism is bojh ko nahi seh paya.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Wo pichhle uttaradhikari the... par unka jism is bojh ko nahi seh paya.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Kuro meets Ha-Jun's gaze with ancient sorrow: 'Wo pehle candidate the. Lekin unka jism Sovereign ke pure harmony ko nahi sambhaal saka.'.",
+      "prose_hi": "Kuro prachin dukh ke saath ha-jun ki nazar se milta hai: 'vo pehle ummedwar the. lekin unka jism samprabhu ke shuddh sadbhav ko nahin sambhal saka.'"
     },
     {
       "id": "p18",
@@ -197,8 +376,18 @@
       "action": "Brief memory fragment: Kang Tae-Jun smiling back as demonic chains drag him into the dark dimensional void.",
       "mood": "haunting sacrifice",
       "dialogue": [
-        {"type": "speech", "speaker": "kuro", "text": "Us raat wo Abyss Hounds ko tumhare peeche se hata kar Nether Boundary mein le gaye.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Us raat wo Abyss Hounds ko tumhare peeche se hata kar Nether Boundary mein le gaye.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Brief memory fragment: Kang Tae-Jun smiling back as demonic chains drag him into the dark dimensional void.",
+      "prose_hi": "Sankshipt smriti ansh: kang taaye-jun muskurate hue wapas aa rahe hain kyonki rakshasi janjeeren unhen andhere aayami shunya mein khinch rahi han."
     },
     {
       "id": "p19",
@@ -208,30 +397,64 @@
       "action": "In deep darkness, a faint blue soul flame continues burning stubbornly: 'Lekin unki rooh ka diya abhi tak bujha nahi hai.'",
       "mood": "shimmer of hope",
       "dialogue": [
-        {"type": "speech", "speaker": "kuro", "text": "Wo abhi bhi zinda hain, Ha-Jun.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Wo abhi bhi zinda hain, Ha-Jun.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "In deep darkness, a faint blue soul flame continues burning stubbornly: 'Lekin unki rooh ka diya abhi tak bujha nahi hai.'.",
+      "prose_hi": "Gahre andhere men, ek fiki neeli aatma ki lau hathpurvak jalti rehti hai: 'lakin unki rooh ka diya abhi tak bujha nahin hai...'."
     },
     {
       "id": "p20",
       "shot": "tearful hope portrait",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "A single fresh tear rolls down Ha-Jun's cheek, but his expression shifts from crushing despair into burning hope.",
       "mood": "rebirth of purpose",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "Wo... zinda hain...!", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Wo... zinda hain...!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "A single fresh tear rolls down Ha-Jun's cheek, but his expression shifts from crushing despair into burning hope.",
+      "prose_hi": "Ha-jun ke gaal par ek taza aansu bahta hai, lekin uski abhivyakti kuchalne wali nirasha se jalti aasha mein badal jaati hai."
     },
     {
       "id": "p21",
       "shot": "grave warning close-up",
       "setting": "university rooftop",
-      "characters": ["kuro"],
+      "characters": [
+        "kuro"
+      ],
       "action": "Kuro's eyes glow with warning: 'Zinda hain, par qaid hain. Aur ab jab tumhara khoon jaag chuka hai, poori duniya tumhare peeche aayegi.'",
       "mood": "mortal peril",
       "dialogue": [
-        {"type": "speech", "speaker": "kuro", "text": "Abyss ke Demon Lords aur insaano ke Demon Hunters... dono tumhara shikar karenge.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Abyss ke Demon Lords aur insaano ke Demon Hunters... dono tumhara shikar karenge.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Kuro's eyes glow with warning: 'Zinda hain, par qaid hain. Aur ab jab tumhara khoon jaag chuka hai, poori duniya tumhare peeche aayegi.'.",
+      "prose_hi": "Kuro ki aankhen chetavani se chamak uthin: 'jinda han, par kaid han. aur ab jab tumhara khoon jaag chuka hai, puri duniya tumhare peeche aaegi.'"
     },
     {
       "id": "p22",
@@ -240,82 +463,161 @@
       "characters": [],
       "action": "Far below the campus gates, distant red and blue police / hunter sirens flicker against the wet city pavement.",
       "mood": "closing net",
-      "sfx": "WEEE-WOOO..."
+      "sfx": "WEEE-WOOO...",
+      "prose_en": "Far below the campus gates, distant red and blue police / hunter sirens flicker against the wet city pavement.",
+      "prose_hi": "Parisar ke geton ke bahut niche, gile shahar ke footpath par door sthit lal aur neele polis/shikari siren timtima rahe han."
     },
     {
       "id": "p23",
       "shot": "tangible familiar perch",
       "setting": "university rooftop",
-      "characters": ["hajun", "kuro"],
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
       "action": "Kuro flies down and alights firmly on Ha-Jun's left shoulder, his feathers solidifying into sleek black plumage with purple tips.",
       "mood": "pact formed",
-      "sfx": "FLAP-FLAP..."
+      "sfx": "FLAP-FLAP...",
+      "prose_en": "Kuro flies down and alights firmly on Ha-Jun's left shoulder, his feathers solidifying into sleek black plumage with purple tips.",
+      "prose_hi": "Kuro neeche udta hai aur ha-jun ke baen kandhe par majbuti se baithta hai, uske pankh baingani yuktiyon ke saath chikne kale pankhon mein jam jaate han."
     },
     {
       "id": "p24",
       "shot": "the two choices dialogue",
       "setting": "university rooftop",
-      "characters": ["kuro"],
+      "characters": [
+        "kuro"
+      ],
       "action": "Kuro speaks directly into Ha-Jun's ear: 'Tumhare paas do raaste hain. Ya toh chuhe ki tarah chup jao aur mare jao...'",
       "mood": "ultimatum",
       "dialogue": [
-        {"type": "speech", "speaker": "kuro", "text": "Pehla: Ek buzdil ki tarah chup jao aur maut ka intezar karo...", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Pehla: Ek buzdil ki tarah chup jao aur maut ka intezar karo...",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Kuro speaks directly into Ha-Jun's ear: 'Tumhare paas do raaste hain. Ya toh chuhe ki tarah chup jao aur mare jao...'.",
+      "prose_hi": "Kuro sidhe ha-jun ke kaan mein bolta hai: 'tumhare paas do raste han. haan to chuhe ki tarah chup raho aur maare jao...'."
     },
     {
       "id": "p25",
       "shot": "the true path dialogue",
       "setting": "university rooftop",
-      "characters": ["kuro"],
+      "characters": [
+        "kuro"
+      ],
       "action": "Kuro continues: '...Ya baaki Nau Relics ko dhoond kar, Abyss ko cheer kar apne bhai ko wapas le aao.'",
       "mood": "epic destiny",
       "dialogue": [
-        {"type": "speech", "speaker": "kuro", "text": "Ya fir baaki 9 Relics jeet kar, Abyss ko cheer kar apne bhai ko laao!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Ya fir baaki 9 Relics jeet kar, Abyss ko cheer kar apne bhai ko laao!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Kuro continues: '...Ya baaki Nau Relics ko dhoond kar, Abyss ko cheer kar apne bhai ko wapas le aao.'.",
+      "prose_hi": "Kuro aage kahte han: '...ya baaki nau avsheshon ko dhoondh kar, abis ko cheer kar apne bhai ko wapas le aao.'"
     },
     {
       "id": "p26",
       "shot": "standing tall low-angle",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun slowly pushes himself up from the wet floor, standing tall against the stormy city skyline, chin held high.",
       "mood": "birth of a warrior",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "Maine ek baar unhe chhod kar bhaag gaya tha...", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Maine ek baar unhe chhod kar bhaag gaya tha...",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun slowly pushes himself up from the wet floor, standing tall against the stormy city skyline, chin held high.",
+      "prose_hi": "Ha-jun dhire-dhire khud ko gile farsh se upar dhakelta hai, toofani shahar ke kshitij ke samne khada hota hai, uski thuddi unchi hoti hai."
     },
     {
       "id": "p27",
       "shot": "fist clench with determination",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun firmly clenches his right fist; faint purple sparks crackle between his knuckles without any trembling.",
       "mood": "unshakeable conviction",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "...Lekin ab main dubara kabhi nahi bhaagunga!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "...Lekin ab main dubara kabhi nahi bhaagunga!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun firmly clenches his right fist; faint purple sparks crackle between his knuckles without any trembling.",
+      "prose_hi": "Ha-jun ne majbuti se apni dahini mutthi bheench li; bina kisi kanpkanpi ke uske poron ke beech halki baingani chingariyan chatkane lagin."
     },
     {
       "id": "p28",
       "shot": "glowing sovereign eyes portrait",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Close-up portrait: Ha-Jun's violet demonic irises burn with cold, radiant sovereign fire, completely extinguishing all weakness.",
       "mood": "king's resolve",
       "dialogue": [
-        {"type": "speech", "speaker": "hajun", "text": "Main bhaiya ko bachaunga. Chahe poori duniya mere khilaaf khadi ho jaye.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Main bhaiya ko bachaunga. Chahe poori duniya mere khilaaf khadi ho jaye.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Close-up portrait: Ha-Jun's violet demonic irises burn with cold, radiant sovereign fire, completely extinguishing all weakness.",
+      "prose_hi": "Clos-up chitra: ha-jun ki baingani rakshasi putli thandi, deeptimaan samprabhu agni se jalti hai, jisse sari kamjori puri tarah se bujh jaati hai."
     },
     {
       "id": "p29",
       "shot": "kuro proud smile",
       "setting": "university rooftop",
-      "characters": ["kuro"],
+      "characters": [
+        "kuro"
+      ],
       "action": "Kuro spreads his dark wings with satisfaction: 'Yeh hui na baat, mere Sovereign. Toh chalo, pehla shart poora karo.'",
       "mood": "approval of the guardian",
       "dialogue": [
-        {"type": "speech", "speaker": "kuro", "text": "Shabash. Ab system ka pehla contract accept karo.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Shabash. Ab system ka pehla contract accept karo.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Kuro spreads his dark wings with satisfaction: 'Yeh hui na baat, mere Sovereign. Toh chalo, pehla shart poora karo.'.",
+      "prose_hi": "Kuro santushti ke saath apne kale pankh failata hai: 'ye hui na baat, mere prabhu. to chalo, pehla shart pura karo.'."
     },
     {
       "id": "p30",
@@ -325,8 +627,17 @@
       "action": "The holographic obsidian system interface flashes in front of Ha-Jun with glowing runes: [WILL YOU BIND YOUR SOUL TO THE DEMON SOVEREIGN CONTRACT? [ACCEPT] / [DECLINE]].",
       "mood": "destiny contract, ultimate cliffhanger",
       "dialogue": [
-        {"type": "system", "text": "[ACCEPT THE DEMON SOVEREIGN CONTRACT?]", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "system",
+          "text": "[ACCEPT THE DEMON SOVEREIGN CONTRACT?]",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "The holographic obsidian system interface flashes in front of Ha-Jun with glowing runes: [WILL YOU BIND YOUR SOUL TO THE DEMON SOVEREIGN CONTRACT? [ACCEPT] / [DECLINE]].",
+      "prose_hi": "Holographik obsidian system interface chamakte runs ke saath ha-jun ke samne chamakta hai: [kya aap apni aatma ko danav samprabhu anubandh se bandhenge? [swikar aswikar]]."
     }
   ]
 }

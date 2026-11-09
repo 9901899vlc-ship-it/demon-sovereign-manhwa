@@ -15,7 +15,9 @@
       ],
       "action": "The massive dragon skeleton dissolves into shimmering violet mist, leaving a dark starry sphere floating.",
       "mood": "ethereal aftermath",
-      "sfx": "MIST HISSING..."
+      "sfx": "MIST HISSING...",
+      "prose_en": "The massive dragon skeleton dissolves into shimmering violet mist, leaving a dark starry sphere floating.",
+      "prose_hi": "Vishal dragon kankal jhilmilati baingani dhundh mein ghul jata hai, jisse ek gahre taron wala gola tairta rahata hai."
     },
     {
       "id": "p02",
@@ -26,7 +28,9 @@
       ],
       "action": "Ha-Jun steps forward, the Fang of Abyss sheathed magnetically at his right hip.",
       "mood": "approach to destiny",
-      "sfx": "STEP... STEP..."
+      "sfx": "STEP... STEP...",
+      "prose_en": "Ha-Jun steps forward, the Fang of Abyss sheathed magnetically at his right hip.",
+      "prose_hi": "Ha-jun aage badhta hai, rasatal ka daant uske dahine kulhe par chumbkiya roop se lipta hua hai."
     },
     {
       "id": "p03",
@@ -35,7 +39,9 @@
       "characters": [],
       "action": "A flawless, deep-indigo celestial orb resembling a miniature galaxy with swirling stars inside a dark iris.",
       "mood": "eye of the night",
-      "sfx": "TWINKLE..."
+      "sfx": "TWINKLE...",
+      "prose_en": "A flawless, deep-indigo celestial orb resembling a miniature galaxy with swirling stars inside a dark iris.",
+      "prose_hi": "Ek dosharahit, gahre neel rang ka akashiya gola jo ek chhoti akashganga jaisa dikhta hai jisme gahre rang ki paritarika ke andar ghumte taare han."
     },
     {
       "id": "p04",
@@ -56,7 +62,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro folds his wings reverently: 'The Eye of the Night. Rare Relic #6.'.",
+      "prose_hi": "Kuro ne shraddhapurvak apne pankh mode: 'rat ki aankh. durlabh avashesh #6.'"
     },
     {
       "id": "p05",
@@ -66,7 +74,9 @@
         "hajun"
       ],
       "action": "Ha-Jun extends his hand; the celestial orb levitates toward his face like a moth to flame.",
-      "mood": "irresistible attraction"
+      "mood": "irresistible attraction",
+      "prose_en": "Ha-Jun extends his hand; the celestial orb levitates toward his face like a moth to flame.",
+      "prose_hi": "Ha-jun ne apna haath badhaya; divya gola patange ki tarah lau ki or uske chehre ki or udta hai."
     },
     {
       "id": "p06",
@@ -77,7 +87,9 @@
       ],
       "action": "The solid orb liquefies into radiant indigo starlight, flowing directly into Ha-Jun's right eye socket.",
       "mood": "ocular absorption",
-      "sfx": "FLOW-GLOW!!"
+      "sfx": "FLOW-GLOW!!",
+      "prose_en": "The solid orb liquefies into radiant indigo starlight, flowing directly into Ha-Jun's right eye socket.",
+      "prose_hi": "Thos gola deeptimaan indigo starlite mein dravit ho jata hai, jo sidhe ha-jun ki dahini aankh ke gartika mein pravahit hota hai."
     },
     {
       "id": "p07",
@@ -99,7 +111,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun gasps, clutching his right eye as cool, pinprick-sharp starlight integrates into his optic nerves.",
+      "prose_hi": "Ha-jun hanfta hai, apni dahini aankh ko pakadta hai kyonki thandi, pin-prik-tej taron ki roshni uski optic tantrikaon mein ekikrit ho jaati hai."
     },
     {
       "id": "p08",
@@ -110,7 +124,9 @@
       ],
       "action": "Ha-Jun pulls his hand away: his right pupil is transformed into a miniature swirling cosmic galaxy of stars.",
       "mood": "all-spectrum eye",
-      "sfx": "GALAXY SHINE!!"
+      "sfx": "GALAXY SHINE!!",
+      "prose_en": "Ha-Jun pulls his hand away: his right pupil is transformed into a miniature swirling cosmic galaxy of stars.",
+      "prose_hi": "Ha-jun apna haath khinch leta hai: uski dahini putli taron ki ek chhoti ghumti hui brahmandiya akashganga mein badal jaati hai."
     },
     {
       "id": "p09",
@@ -128,7 +144,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "The world shifts into high-dimensional clarity: invisible mana ley-lines, structural fractures, and souls glow bright.",
+      "prose_hi": "Duniya ucch-aayami spashtata mein badal jaati hai: adrishya man le-rekhaen, sanrachnatmak fractur, aur aatmayen ujjwal chamakti han."
     },
     {
       "id": "p10",
@@ -149,7 +167,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Through the Eye, Kuro is visible not as a bird, but as a colossal, slumbering 50-foot Phoenix of pure purple fire.",
+      "prose_hi": "Aankh ke madhyam se, kuro ek pakshi ke roop mein nahin, balki shuddh baingani aag ke 50 foot oonche phoenix ke roop mein dikhai deta hai."
     },
     {
       "id": "p11",
@@ -171,7 +191,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Suddenly, Ha-Jun's spine arches as searing heat erupts between his scapula shoulder blades.",
+      "prose_hi": "Achanak, ha-jun ki reedh ki haddi jhuk jaati hai kyonki uske scapula kandhe ke blade ke beech jhulsane wali garmi bhadak uthti hai."
     },
     {
       "id": "p12",
@@ -192,7 +214,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro screeches with ecstatic pride: 'THE FIRST TRUE EVOLUTION! Relics ki threshold toot gayi!'.",
+      "prose_hi": "Kuro atyant garv se chillata hai: 'pahla sachcha vikas! avsheshon ki dahalij toot gai!'."
     },
     {
       "id": "p13",
@@ -203,7 +227,9 @@
       ],
       "action": "Two geysers of dense obsidian and violet shadow smoke erupt violently from his upper back.",
       "mood": "eruption of shadows",
-      "sfx": "FWOOOOOSHH!!"
+      "sfx": "FWOOOOOSHH!!",
+      "prose_en": "Two geysers of dense obsidian and violet shadow smoke erupt violently from his upper back.",
+      "prose_hi": "Ghane obsidian aur baingani chhaya ke do geyser se dhuan uski upari peeth se teji se foot raha tha."
     },
     {
       "id": "p14",
@@ -214,7 +240,9 @@
       ],
       "action": "The smoke condenses into a magnificent pair of 12-foot wings: razor-sharp obsidian feathers and bone joints.",
       "mood": "sovereign wings manifested",
-      "sfx": "CREAK-EXPAND!!"
+      "sfx": "CREAK-EXPAND!!",
+      "prose_en": "The smoke condenses into a magnificent pair of 12-foot wings: razor-sharp obsidian feathers and bone joints.",
+      "prose_hi": "Dhuan sanghanit hokar 12 foot ke pankhon ki ek shandar jodi mein badal jata hai: rezar-nukile obsidian pankh aur haddi ke jod."
     },
     {
       "id": "p15",
@@ -225,7 +253,9 @@
       ],
       "action": "A single involuntary beat of the wings generates a hurricane gale, launching Ha-Jun 20 feet skyward.",
       "mood": "airborne flight",
-      "sfx": "FLAP-WHOOSH!!"
+      "sfx": "FLAP-WHOOSH!!",
+      "prose_en": "A single involuntary beat of the wings generates a hurricane gale, launching Ha-Jun 20 feet skyward.",
+      "prose_hi": "Pankhon ki ek anaichhik dhadkan ek toofani aandhi utpann karti hai, jo ha-jun ko 20 feet upar aakash ki or le jaati hai."
     },
     {
       "id": "p16",
@@ -235,7 +265,9 @@
         "hajun"
       ],
       "action": "Ha-Jun hovers in the colosseum dome: black windbreaker, glowing galaxy right eye, bone gauntlet, and dark wings.",
-      "mood": "the sovereign ascendant"
+      "mood": "the sovereign ascendant",
+      "prose_en": "Ha-Jun hovers in the colosseum dome: black windbreaker, glowing galaxy right eye, bone gauntlet, and dark wings.",
+      "prose_hi": "Ha-jun colosium ke gumbad mein mandarata hai: kala vindbraker, chamakti akashganga dahini aankh, haddi ka kavach aur gahre pankh."
     },
     {
       "id": "p17",
@@ -254,7 +286,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Diamond gothic interface scrolls with cosmic golden borders.",
+      "prose_hi": "Cosmik golden border ke saath diamond gothic interface scrol."
     },
     {
       "id": "p18",
@@ -276,7 +310,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun mentally commands the wings; they fold tightly against his back like an aerodynamic black cloak.",
+      "prose_hi": "Ha-jun mansik roop se pankhon ko aadesh deta hai; ve ek vayugatikiy kale labade ki tarah uski peeth ke khilaf kaskar mude hue han."
     },
     {
       "id": "p19",
@@ -297,7 +333,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro grins with demonic joy: 'Now you look like the Sovereign's true heir. Magnificent!'.",
+      "prose_hi": "Kuro rakshasi khushi se muskurata hai: 'ab aap samprabhu ke sacche uttaradhikari ki tarah dikhte han. shandar!'."
     },
     {
       "id": "p20",
@@ -307,7 +345,9 @@
         "hajun"
       ],
       "action": "Ha-Jun gazes out through the broken dome of the amphitheater across the demon realm.",
-      "mood": "scanning the realm"
+      "mood": "scanning the realm",
+      "prose_en": "Ha-Jun gazes out through the broken dome of the amphitheater across the demon realm.",
+      "prose_hi": "Ha-jun emphitheater ke toote hue gumbad ke madhyam se danav kshetra ko dekhta hai."
     },
     {
       "id": "p21",
@@ -327,7 +367,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "A glowing red mana thread stretches five miles northwest, leading into an ominous black iron fortress.",
+      "prose_hi": "Ek chamakta hua lal maina dhaga uttar-pashchim mein paanch meal tak faila hua hai, jo ek ashubh kale lohe ke kile ki or jata hai."
     },
     {
       "id": "p22",
@@ -348,7 +390,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro's expression darkens: 'The Citadel of the Silent Prison... Valac ka territory.'.",
+      "prose_hi": "Kuro ki abhivyakti gahri ho gai hai: 'cylent jail ka garh... valack ka kshetra.'"
     },
     {
       "id": "p23",
@@ -369,7 +413,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's hand rests on the spatial dagger: 'Lekin yeh dagger space ko cut karta hai... Anti-mana stone iske saamne kuch nahi.'.",
+      "prose_hi": "Ha-jun ka haath sthanik khanjar par tika hua hai: 'lakin yeh khanjar antriksh ko kaatata hai... anti-man stone iske samne kuch nahin.'"
     },
     {
       "id": "p24",
@@ -380,7 +426,9 @@
       ],
       "action": "Ha-Jun angles his body forward, his shadow wings flaring with violet jet propulsion.",
       "mood": "supersonic prep",
-      "sfx": "WHIRRRR..."
+      "sfx": "WHIRRRR...",
+      "prose_en": "Ha-Jun angles his body forward, his shadow wings flaring with violet jet propulsion.",
+      "prose_hi": "Ha-jun ne apne shareer ko aage ki or jhuka liya hai, uske chhaya pankh baingani jet pranodan se chamak rahe han."
     },
     {
       "id": "p25",
@@ -391,7 +439,9 @@
       ],
       "action": "Ha-Jun shoots forward in a blinding sonic boom, streaking across the twin-mooned sky like a black comet.",
       "mood": "sonic boom flight",
-      "sfx": "BOOOOOMMM!!"
+      "sfx": "BOOOOOMMM!!",
+      "prose_en": "Ha-Jun shoots forward in a blinding sonic boom, streaking across the twin-mooned sky like a black comet.",
+      "prose_hi": "Ha-jun ek chakachaundh kar dene wale dhwani ufaan mein aage badhta hai, jo ek kale dhumketu ki tarah judvan-chand wale aakash mein ghumta hai."
     },
     {
       "id": "p26",
@@ -399,7 +449,9 @@
       "setting": "silent prison approach",
       "characters": [],
       "action": "A terrifying 500-foot monolithic black fortress carved directly into a sheer cliff of anti-matter stone.",
-      "mood": "the dread fortress"
+      "mood": "the dread fortress",
+      "prose_en": "A terrifying 500-foot monolithic black fortress carved directly into a sheer cliff of anti-matter stone.",
+      "prose_hi": "Ek bhayanak 500 foot ka akhand kala kila sidhe anti-mater patthar ki khadi chattan mein khuda hua hai."
     },
     {
       "id": "p27",
@@ -408,7 +460,9 @@
       "characters": [],
       "action": "Massive thousand-ton iron chains anchor the floating prison island to the bottomless void below.",
       "mood": "the chains of ruin",
-      "sfx": "CREAAAK..."
+      "sfx": "CREAAAK...",
+      "prose_en": "Massive thousand-ton iron chains anchor the floating prison island to the bottomless void below.",
+      "prose_hi": "Hajaron ton ki vishal lohe ki janjeeren tairte hue jail dweep ko neeche athah shunya mein bandhe rakhti han."
     },
     {
       "id": "p28",
@@ -429,7 +483,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro shouts over the wind: 'Wo chains dekho! The Chains of Ruin! Relic #7 wahan hai!'.",
+      "prose_hi": "Kuro hawa mein chillata hai: 'vo chain dekho! barbadi ki janjiren! avashesh #7 vahan hai!'."
     },
     {
       "id": "p29",
@@ -440,7 +496,9 @@
       ],
       "action": "Ha-Jun tucks his wings, diving headfirst at 500 mph toward the silent prison fortress.",
       "mood": "stealth insertion dive",
-      "sfx": "DIVE!!"
+      "sfx": "DIVE!!",
+      "prose_en": "Ha-Jun tucks his wings, diving headfirst at 500 mph toward the silent prison fortress.",
+      "prose_hi": "Ha-jun apne pankh failata hai aur 500 meal prati ghante ki raftaar se shant jail kile ki or gota lagata hai."
     },
     {
       "id": "p30",
@@ -461,7 +519,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun lands with zero sound on the anti-mana battlements, eyes gleaming in the shadow: 'Bhai, main aa gaya.'.",
+      "prose_hi": "Ha-jun shunya dhwani ke saath anti-mana battlement par utarta hai, aankhen chhaya mein chamakti han: 'bhai, main aa gaya.'"
     }
   ]
 }

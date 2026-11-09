@@ -13,82 +13,162 @@
       "characters": [],
       "action": "Wide establishing shot of Saint Mirren University gates at dusk; sodium streetlights cast yellow reflections across rain-soaked asphalt.",
       "mood": "quiet, atmospheric transition",
-      "sfx": "DRIP... DRIP..."
+      "sfx": "DRIP... DRIP...",
+      "prose_en": "Saint Mirren University gates at dusk; sodium streetlights cast yellow reflections across rain-soaked asphalt.",
+      "prose_hi": "Godhuli bela mein sent miren vishwavidyalaya ke dwar; sodium street lightein baarish se bheege hue damar par pili parchhaiyan dalti han."
     },
     {
       "id": "p02",
       "shot": "walking side by side under umbrella",
       "setting": "city street",
-      "characters": ["hajun", "min_jae"],
+      "characters": [
+        "hajun",
+        "min_jae"
+      ],
       "action": "Ha-Jun and Min-Jae walk side by side under Min-Jae's bright yellow umbrella as rain pitter-patters against the fabric.",
       "mood": "everyday student contrast",
       "dialogue": [
-        {"type": "speech", "speaker": "min_jae", "text": "Ha-Jun... tumhare chehre ke cuts kahan gaye?", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Ha-Jun... tumhare chehre ke cuts kahan gaye?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun and Min-Jae walk side by side under Min-Jae's bright yellow umbrella as rain pitter-patters against the fabric.",
+      "prose_hi": "Ha-jun aur min-je, min-je ki chamkili pili chhatri ke neeche ek saath chalte hain aur kapde par baarish ki thapki lag rahi hai."
     },
     {
       "id": "p03",
       "shot": "casual cheek touch close-up",
       "setting": "city street",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun casually brushes his fingers against his flawless, unblemished cheek with a faint nonchalant smile.",
       "mood": "careful evasion",
       "dialogue": [
-        {"type": "speech", "speaker": "hajun", "text": "Sirf keechad aur paani tha. Chot utni gehri nahi thi.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Sirf keechad aur paani tha. Chot utni gehri nahi thi.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun casually brushes his fingers against his flawless, unblemished cheek with a faint nonchalant smile.",
+      "prose_hi": "Ha-jun ek fiki, bedag muskan ke saath laparvahi se apne bedag, bedag gaal par apni ungaliyan firata hai."
     },
     {
       "id": "p04",
       "shot": "min-jae suspicious glance",
       "setting": "city street",
-      "characters": ["min_jae"],
+      "characters": [
+        "min_jae"
+      ],
       "action": "Min-Jae pushes his round glasses up the bridge of his nose, squinting with persistent suspicion.",
       "mood": "subtle observation",
       "dialogue": [
-        {"type": "speech", "speaker": "min_jae", "text": "Ajeeb baat hai... subah toh tumhara hoth kata hua tha.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Ajeeb baat hai... subah toh tumhara hoth kata hua tha.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Min-Jae pushes his round glasses up the bridge of his nose, squinting with persistent suspicion.",
+      "prose_hi": "Min-je apne gol chashme ko apni naak ke upar dhakelta hai aur lagatar sandeh ke saath tirchi najrein jhukata hai."
     },
     {
       "id": "p05",
       "shot": "hidden mana pulse under sleeve macro",
       "setting": "city street",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Beneath Ha-Jun's navy blazer sleeve, subtle violet light pulses through his radial veins in perfect sync with his heartbeat.",
       "mood": "hidden supernatural secret",
-      "sfx": "DOKI... DOKI..."
+      "sfx": "DOKI... DOKI...",
+      "prose_en": "Beneath Ha-Jun's navy blazer sleeve, subtle violet light pulses through his radial veins in perfect sync with his heartbeat.",
+      "prose_hi": "Ha-jun ki navy blazer aasteen ke niche, sookshm baingani prakash uske dil ki dhadkan ke saath sahi taalmel mein uski radial nason ke madhyam se spandit hota hai."
     },
     {
       "id": "p06",
       "shot": "kuro telepathic whisper portrait",
       "setting": "inner mindscape",
-      "characters": ["kuro"],
+      "characters": [
+        "kuro"
+      ],
       "action": "Kuro's telepathic warning echoes in Ha-Jun's consciousness: 'Yeh ladka zaroorat se zyada tez hai. Doori banao.'",
       "mood": "protective warning",
       "dialogue": [
-        {"type": "speech", "speaker": "kuro", "text": "Isse door raho, warna yeh bhi maara jayega.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Isse door raho, warna yeh bhi maara jayega.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Kuro's telepathic warning echoes in Ha-Jun's consciousness: 'Yeh ladka zaroorat se zyada tez hai. Doori banao.'.",
+      "prose_hi": "Ha-jun ki chetna mein kuro ki telepathic chetavani goonjati hai: 'ye ladka zaruri se zyada tez hai. 'duri banao.'"
     },
     {
       "id": "p07",
       "shot": "parting at crossroad",
       "setting": "street crossroad in evening",
-      "characters": ["hajun", "min_jae"],
+      "characters": [
+        "hajun",
+        "min_jae"
+      ],
       "action": "They pause at a pedestrian crossing under flickering traffic signals; Min-Jae turns to wave goodbye.",
       "mood": "separation of worlds",
       "dialogue": [
-        {"type": "speech", "speaker": "min_jae", "text": "Kal milte hain, Ha-Jun. Dhyan rakhna.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Kal milte hain, Ha-Jun. Dhyan rakhna.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "They pause at a pedestrian crossing under flickering traffic signals; Min-Jae turns to wave goodbye.",
+      "prose_hi": "Ve timtimate yatayat sanketon ke neeche paidal yatri crossing par rukte han; min-je alvida kahne ke liye mudta hai."
     },
     {
       "id": "p08",
       "shot": "solitary figure in rain alley",
       "setting": "narrow alleyway",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun walks alone into a narrow residential alley, his reflection trailing behind him in cold puddle ripples.",
       "mood": "lonely path of destiny",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "Kal tak... main ek bilkul alag insaan tha.", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Kal tak... main ek bilkul alag insaan tha.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun walks alone into a narrow residential alley, his reflection trailing behind him in cold puddle ripples.",
+      "prose_hi": "Ha-jun ek sankari avasiya gali mein akela chalta hai, uska pratibimb thandi pokhar ki laharon mein uske peeche peeche chal raha hai."
     },
     {
       "id": "p09",
@@ -98,17 +178,30 @@
       "action": "Low-angle view of a modest, aging four-story apartment complex with rusted exterior stairwells against the dark sky.",
       "mood": "humble sanctuary",
       "dialogue": [
-        {"type": "narration", "text": "Wo ghar jahan saat saal se sirf khamoshi rehti thi.", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "narration",
+          "text": "Wo ghar jahan saat saal se sirf khamoshi rehti thi.",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "Aging four-story apartment complex with rusted exterior stairwells against the dark sky.",
+      "prose_hi": "Purane char manjila apartment parisar mein andhere aakash ke samne jung lagi bahari sidhiyan han."
     },
     {
       "id": "p10",
       "shot": "apartment door three locks click",
       "setting": "apartment entrance",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun steps inside his dark entryway, locking all three heavy metal deadbolts with deliberate speed.",
       "mood": "security and isolation",
-      "sfx": "KLIK-KLIK-THUNK!!"
+      "sfx": "KLIK-KLIK-THUNK!!",
+      "prose_en": "Ha-Jun steps inside his dark entryway, locking all three heavy metal deadbolts with deliberate speed.",
+      "prose_hi": "Ha-jun apne andhere pravesh dwar ke andar kadam rakhta hai, aur sabhi teen bhari dhatu ke dedbolt ko jaanbujhkar gati se band kar deta hai."
     },
     {
       "id": "p11",
@@ -118,39 +211,77 @@
       "action": "A framed photograph on the desk: 10yo smiling Ha-Jun standing beside his tall, proud elder brother Kang Tae-Jun.",
       "mood": "bittersweet nostalgia",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "Bhaiya... main bohot jald aa raha hoon.", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Bhaiya... main bohot jald aa raha hoon.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "A framed photograph on the desk: 10-year-old smiling Ha-Jun standing beside his tall, proud elder brother Kang Tae-Jun.",
+      "prose_hi": "Desk par ek fremayukt tasweer: 10 varshiya muskurata hua ha-jun apne lambe, garvit bade bhai kang taaye-jun ke saath khada hai."
     },
     {
       "id": "p12",
       "shot": "kuro shadow emergence",
       "setting": "apartment living room",
-      "characters": ["kuro"],
+      "characters": [
+        "kuro"
+      ],
       "action": "Kuro rises up smoothly from Ha-Jun's cast shadow on the wooden floor, perching atop a tall bookshelf with glowing eyes.",
       "mood": "familiar in the room",
       "dialogue": [
-        {"type": "speech", "speaker": "kuro", "text": "Bohot achha ghonsla hai. Ab chalo, asli pariksha shuru karein.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Bohot achha ghonsla hai. Ab chalo, asli pariksha shuru karein.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Kuro rises up smoothly from Ha-Jun's cast shadow on the wooden floor, perching atop a tall bookshelf with glowing eyes.",
+      "prose_hi": "Kuro lakdi ke farsh par ha-jun ki chhaya se aasani se upar uthta hai, chamakti aankhon ke saath ek lambe bukashelf ke upar baithta hai."
     },
     {
       "id": "p13",
       "shot": "blazer removal toned physique",
       "setting": "apartment living room",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun strips off his soaked uniform blazer; his torso is completely healed with sharp, defined, supernatural musculature.",
       "mood": "physical metamorphosis",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "Meri body... ek hi ghante mein itni badal gayi?", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Meri body... ek hi ghante mein itni badal gayi?",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun strips off his soaked uniform blazer; his torso is completely healed with sharp, defined, supernatural musculature.",
+      "prose_hi": "Ha-jun ne apni bheegi hui vardi ka blazer utaar diya; uska dhad tej, paribhashit, alaukik mansalta se puri tarah theek ho gaya hai."
     },
     {
       "id": "p14",
       "shot": "cross-legged meditation pose",
       "setting": "apartment floor mat",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun sits cross-legged on the floor mat, hands resting palm-up on his knees, calming his breathing.",
       "mood": "martial concentration",
-      "sfx": "HUUUU..."
+      "sfx": "HUUUU...",
+      "prose_en": "Ha-Jun sits cross-legged on the floor mat, hands resting palm-up on his knees, calming his breathing.",
+      "prose_hi": "Ha-jun farsh ki chatai par cross-legd baithta hai, haath uske ghutnon par hatheli-upar rakhte han, jisse uski saansein shant hoti han."
     },
     {
       "id": "p15",
@@ -160,26 +291,43 @@
       "action": "The system window appears: [BEGIN 5% BLOODLINE SYNCHRONIZATION? WARNING: SEVERE NERVOUS STRAIN].",
       "mood": "system challenge",
       "dialogue": [
-        {"type": "system", "text": "[INITIATE 5% BLOODLINE SYNCHRONIZATION?]", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "system",
+          "text": "[INITIATE 5% BLOODLINE SYNCHRONIZATION?]",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "The system window appears: [BEGIN 5% BLOODLINE SYNCHRONIZATION? WARNING: SEVERE NERVOUS STRAIN].",
+      "prose_hi": "Sistm window prakat hoti hai: [5% raktarekha tulyakalan shuru karen? chetavni: gambhir tantrika tanav]."
     },
     {
       "id": "p16",
       "shot": "kuro flame channeling",
       "setting": "apartment living room",
-      "characters": ["kuro"],
+      "characters": [
+        "kuro"
+      ],
       "action": "Kuro flaps his obsidian wings, channeling pure streams of violet demonic fire directly into Ha-Jun's sternum core.",
       "mood": "mana transmission",
-      "sfx": "FZZZZZZT!!"
+      "sfx": "FZZZZZZT!!",
+      "prose_en": "Kuro flaps his obsidian wings, channeling pure streams of violet demonic fire directly into Ha-Jun's sternum core.",
+      "prose_hi": "Kuro apne obsidian pankhon ko fadfadata hai, baingani rakshasi aag ki shuddh dharaon ko sidhe ha-jun ke urosthi core mein pravahit karta hai."
     },
     {
       "id": "p17",
       "shot": "vascular combustion agony",
       "setting": "apartment living room",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun's back arches violently as every vein in his chest and neck illuminates with blinding ultraviolet light.",
       "mood": "crucible of pain",
-      "sfx": "VZZZZZT!!"
+      "sfx": "VZZZZZT!!",
+      "prose_en": "Ha-Jun's back arches violently as every vein in his chest and neck illuminates with blinding ultraviolet light.",
+      "prose_hi": "Ha-jun ki peeth teji se jhukti hai kyonki uski chhati aur gardan ki har nas chakachaundh kar dene wali parabaingani roshni se chamakti hai."
     },
     {
       "id": "p18",
@@ -189,28 +337,53 @@
       "action": "Cosmic psychic vision: Colossal demon armies clashing across burning worlds beneath shattered galaxies.",
       "mood": "subconscious ancestral memories",
       "dialogue": [
-        {"type": "narration", "text": "Hazaron yuddho ki cheekhein uske dimaag mein goonjne lagin.", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "narration",
+          "text": "Hazaron yuddho ki cheekhein uske dimaag mein goonjne lagin.",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "Cosmic psychic vision: Colossal demon armies clashing across burning worlds beneath shattered galaxies.",
+      "prose_hi": "Brahmandiy mansik drishti: vishal danav senaen bikhri hui akashgangaon ke neeche jalti hui duniya mein sangharsh kar rahi han."
     },
     {
       "id": "p19",
       "shot": "unbreakable mental defiance",
       "setting": "apartment living room",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun grits his teeth until sparks fly in his vision, refusing to lose consciousness: 'MAIN NAHI TOOTUNGA!!'",
       "mood": "iron willpower",
       "dialogue": [
-        {"type": "shout", "speaker": "hajun", "text": "MAIN NAHI TOOTUNGA! BHAIYA MERA INTEZAR KAR RAHE HAIN!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "MAIN NAHI TOOTUNGA! BHAIYA MERA INTEZAR KAR RAHE HAIN!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun grits his teeth until sparks fly in his vision, refusing to lose consciousness: 'MAIN NAHI TOOTUNGA!!'.",
+      "prose_hi": "Ha-jun apne daant pista rahata hai jab tak ki uski drishti mein chingari na ud jaye, hosh khone se inkaar kar deta hai: 'main nahin tutunga!!'."
     },
     {
       "id": "p20",
       "shot": "core condensation miracle",
       "setting": "apartment living room",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "The chaotic wild flames suddenly collapse and crystallize into a serene, perfect violet orb orbiting inside his heart.",
       "mood": "mastery and harmony",
-      "sfx": "SHHHNNN..."
+      "sfx": "SHHHNNN...",
+      "prose_en": "The chaotic wild flames suddenly collapse and crystallize into a serene, perfect violet orb orbiting inside his heart.",
+      "prose_hi": "Arajk junglee laptein achanak dhah jaati hain aur uske hriday ke andar parikrama karte hue ek shant, paripoorn baingani gole mein cristlikrit ho jaati han."
     },
     {
       "id": "p21",
@@ -220,17 +393,30 @@
       "action": "A golden-purple chime: [SYNCHRONIZATION COMPLETED: 5.0%] | [SOVEREIGN DOMAIN (STAGE 1: 5 METERS) UNLOCKED].",
       "mood": "milestone achievement",
       "dialogue": [
-        {"type": "system", "text": "[SYNCHRONIZATION: 5.0% COMPLETE] [DOMAIN UNLOCKED]", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "system",
+          "text": "[SYNCHRONIZATION: 5.0% COMPLETE] [DOMAIN UNLOCKED]",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "A golden-purple chime: [SYNCHRONIZATION COMPLETED: 5.0%] | [SOVEREIGN DOMAIN (STAGE 1: 5 METERS) UNLOCKED].",
+      "prose_hi": "Ek sunhari-bangni jhankar: [sinkranization purn: 5.0%] | [soweren domain (charan 1:5 meter) unlock]."
     },
     {
       "id": "p22",
       "shot": "sovereign domain expansion wide",
       "setting": "apartment living room",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "A transparent sphere of radiant violet energy expands 5 meters outward from Ha-Jun, enveloping the entire living room.",
       "mood": "magical territory control",
-      "sfx": "WHUUMMMM..."
+      "sfx": "WHUUMMMM...",
+      "prose_en": "A transparent sphere of radiant violet energy expands 5 meters outward from Ha-Jun, enveloping the entire living room.",
+      "prose_hi": "Ujjwal baingani urja ka ek pardarshi kshetra ha-jun se 5 meter bahar ki or failta hai, jo poore living room ko cover karta hai."
     },
     {
       "id": "p23",
@@ -240,19 +426,40 @@
       "action": "Inside the 5-meter domain, dust motes and water droplets dripping from his hair freeze suspended motionless in mid-air.",
       "mood": "absolute spatial dominion",
       "dialogue": [
-        {"type": "narration", "text": "Is daayre ke andar... hawa aur samay uske adheen the.", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "narration",
+          "text": "Is daayre ke andar... hawa aur samay uske adheen the.",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "Inside the 5-meter domain, dust motes and water droplets dripping from his hair freeze suspended motionless in mid-air.",
+      "prose_hi": "5 meter ke dayre ke ander, uske baalon se tapakti dhul ke kan aur pani ki bunden hawa mein sthir roop se latki hui han."
     },
     {
       "id": "p24",
       "shot": "kuro impressed cackle",
       "setting": "apartment living room",
-      "characters": ["kuro"],
+      "characters": [
+        "kuro"
+      ],
       "action": "Kuro nods in deep awe: 'Sirf 5% par hi Domain manifest kar liya... Tum sach mein uske sacche waris ho.'",
       "mood": "guardian validation",
       "dialogue": [
-        {"type": "speech", "speaker": "kuro", "text": "Kamaal hai. Tumhara potential First Sovereign se bhi tez hai.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Kamaal hai. Tumhara potential First Sovereign se bhi tez hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Kuro nods in deep awe: 'Sirf 5% par hi Domain manifest kar liya... Tum sach mein uske sacche waris ho.'.",
+      "prose_hi": "Kuro ne gahri vismay mein sir hilaya: 'sirf 5% par hi domain menefest kar liya... tum sach mein uske sacche waris ho.'"
     },
     {
       "id": "p25",
@@ -261,7 +468,9 @@
       "characters": [],
       "action": "An invisible concentric shockwave of sovereign mana radiates out of the apartment building, rippling into the city sky.",
       "mood": "beacon to the world",
-      "sfx": "VOOOOM..."
+      "sfx": "VOOOOM...",
+      "prose_en": "An invisible concentric shockwave of sovereign mana radiates out of the apartment building, rippling into the city sky.",
+      "prose_hi": "Samprabhu man ki ek adrishya sankendrit shockwev apartment imarat se nikalkar shahar ke aakash mein tarangit ho rahi hai."
     },
     {
       "id": "p26",
@@ -271,8 +480,17 @@
       "action": "Cut to a high-tech obsidian control room overlooking the city; complex holographic radar maps illuminate the dark room.",
       "mood": "high-tech hunters",
       "dialogue": [
-        {"type": "narration", "text": "Demon Hunter Bureau — Sector 4 Command.", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "narration",
+          "text": "Demon Hunter Bureau — Sector 4 Command.",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "Cut to a high-tech obsidian control room overlooking the city; complex holographic radar maps illuminate the dark room.",
+      "prose_hi": "Shahar ki or dekhne wale ek uchch takneek obsidian niyantran kaksh mein katauti; jatil holographic radar manchitra andhere kamre ko roshan karte han."
     },
     {
       "id": "p27",
@@ -281,40 +499,78 @@
       "characters": [],
       "action": "An antique silver and brass demonic compass on the control console spins wildly before locking sharply onto Ha-Jun's neighborhood.",
       "mood": "target acquired",
-      "sfx": "TIK-TIK-TIK... CLIIICK!!"
+      "sfx": "TIK-TIK-TIK... CLIIICK!!",
+      "prose_en": "An antique silver and brass demonic compass on the control console spins wildly before locking sharply onto Ha-Jun's neighborhood.",
+      "prose_hi": "Niyantran console par ek prachin chandi aur pital ka rakshasi compass ha-jun ke pados par teji se lock hone se pehle bethasha ghumta hai."
     },
     {
       "id": "p28",
       "shot": "hunter captain profile in white coat",
       "setting": "hunter headquarters penthouse",
-      "characters": ["hunter_captain"],
+      "characters": [
+        "hunter_captain"
+      ],
       "action": "A tall, cold-eyed man in a tailored white coat with a glowing silver cross insignia picks up an encrypted communicator.",
       "mood": "lethal predator mobilized",
       "dialogue": [
-        {"type": "speech", "speaker": "hunter_captain", "text": "Sector 4 mein Sovereign-class energy spike detect hua hai.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hunter_captain",
+          "text": "Sector 4 mein Sovereign-class energy spike detect hua hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "A tall, cold-eyed man in a tailored white coat with a glowing silver cross insignia picks up an encrypted communicator.",
+      "prose_hi": "Chamakte chandi ke cross prateek chinh ke saath sile hue safed coat mein ek lamba, thandi aankhon wala aadmi ek encrypted communicator uthata hai."
     },
     {
       "id": "p29",
       "shot": "order to mobilize",
       "setting": "hunter headquarters penthouse",
-      "characters": ["hunter_captain"],
+      "characters": [
+        "hunter_captain"
+      ],
       "action": "The Hunter Captain's eyes narrow into slits: 'Black Squad ko tayar karo. Is baar shaitan ka beej bachkar nahi nikalna chahiye.'",
       "mood": "war declared",
       "dialogue": [
-        {"type": "speech", "speaker": "hunter_captain", "text": "Squad deploy karo. Target ko zinda ya murda pakdo.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hunter_captain",
+          "text": "Squad deploy karo. Target ko zinda ya murda pakdo.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "The Hunter Captain's eyes narrow into slits: 'Black Squad ko tayar karo. Is baar shaitan ka beej bachkar nahi nikalna chahiye.'.",
+      "prose_hi": "Hunter captain ki aankhen patli ho gain: 'black squad ko taiyar karo. is baar shaitan ka beej bachkar nahin nikalna chahiye.'"
     },
     {
       "id": "p30",
       "shot": "sovereign resolution cliffhanger",
       "setting": "apartment living room",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Back in the apartment, Ha-Jun closes his fist, dissolving the domain into a calm breath, eyes burning with violet majesty: 'Aane do unhe.'",
       "mood": "calm before the storm, ultimate cliffhanger",
       "dialogue": [
-        {"type": "speech", "speaker": "hajun", "text": "Jo bhi aaye... main taiyar hoon.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Jo bhi aaye... main taiyar hoon.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Back in the apartment, Ha-Jun closes his fist, dissolving the domain into a calm breath, eyes burning with violet majesty: 'Aane do unhe.'.",
+      "prose_hi": "Apartment mein vaaps, ha-jun ne apni mutthi band kar li, domain ko ek shant saans mein ghol diya, aankhen baingani mahima se jal rahi thin: 'aane do unhen.'"
     }
   ]
 }

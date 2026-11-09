@@ -15,7 +15,9 @@
       ],
       "action": "Ha-Jun stands in breathtaking majesty: white jade horns, starlight hair flowing, six rainbow wings fanned wide.",
       "mood": "the supreme monarch",
-      "sfx": "CELESTIAL AWE..."
+      "sfx": "CELESTIAL AWE...",
+      "prose_en": "Ha-Jun stands in breathtaking majesty: white jade horns, starlight hair flowing, six rainbow wings fanned wide.",
+      "prose_hi": "Ha-jun lubhavani mahima mein khada hai: safed jed sing, taron ki tarah lahrate bal, chhah indradhanushi pankh chaude."
     },
     {
       "id": "p02",
@@ -35,7 +37,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun lowers his sword, tears rolling down his cheeks in stunned, joyous awe: 'Ha-Jun... You look... incredible.'.",
+      "prose_hi": "Taaye-jun ne apni talwar neeche kar li, stabdh, harshit vismay ke saath uske gaalon par aansu bah rahe the: 'ha-jun... tum lag rahe ho... avishwasniy.'"
     },
     {
       "id": "p03",
@@ -57,7 +61,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The starlight feather mantle ruffles warmly: 'I told you he had good bones. Five thousand years of searching, and I found perfection.'.",
+      "prose_hi": "Taaron ki roshni wala pankhon wala aavaran garmjoshi se lahrata hai: 'maine tumse kaha tha ki uski haddiyan acchi thin. paanch hazar varshon ki khoj, aur mujhe purnata mili.'"
     },
     {
       "id": "p04",
@@ -79,7 +85,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun smiles with the exact same boyish warmth: 'I'm still your little brother, Tae-Jun. I just have cooler clothes now.'.",
+      "prose_hi": "Ha-jun bilkul usi bachkani garmjoshi ke saath muskurata hai: 'main ab bhi tumhara chhota bhai hun, taaye-jun. mere paas abhi sirf thande kapde han.'"
     },
     {
       "id": "p05",
@@ -101,7 +109,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun laughs out loud, stepping forward: 'Horns and wings won't save you from taking out the apartment trash, you know.'.",
+      "prose_hi": "Taaye-jun jor se hanste hue aage badhte han: 'sing aur pankh aapko apartment ka kachra bahar nikalne se nahin bachaenge, aap jaante han.'"
     },
     {
       "id": "p06",
@@ -123,7 +133,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun wraps his wings and arms around Tae-Jun, holding his brother with soft, perfect warmth.",
+      "prose_hi": "Ha-jun apne pankhon aur banhon ko taaye-jun ke charon or lapetata hai, aur apne bhai ko naram, uttam garmjoshi se pakadta hai."
     },
     {
       "id": "p07",
@@ -143,7 +155,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The cosmic maiden bows deeply: 'The universal seam is sealed. But one final remnant of the past remains.'.",
+      "prose_hi": "Brahmandiy yuvati gahrai se jhukti hai: 'sarvbhaumik seem seal kar di gai hai. lekin ateet ka ek antim avashesh abhi bhi baaki hai.'"
     },
     {
       "id": "p08",
@@ -154,7 +168,9 @@
       ],
       "action": "Ahead on the starlight sea floats a titanic crystal mirror reflecting the ancient dawn of creation.",
       "mood": "the mirror of history",
-      "sfx": "MIRROR GLOW..."
+      "sfx": "MIRROR GLOW...",
+      "prose_en": "Ahead on the starlight sea floats a titanic crystal mirror reflecting the ancient dawn of creation.",
+      "prose_hi": "Aage taron ki roshni wale samudra par ek titanic crystal darpan tair raha hai jo srishti ki prachin subah ko darshata hai."
     },
     {
       "id": "p09",
@@ -174,7 +190,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Inside the reflection stands the original Asmodaius, waiting with a solemn, expectant gaze.",
+      "prose_hi": "Pratibimb ke andar mool esmodius khada hai, jo ek gambhir, apekshit taktaki ke saath intjaar kar raha hai."
     },
     {
       "id": "p10",
@@ -185,7 +203,9 @@
       ],
       "action": "Ha-Jun steps forward, his boots rippling the reflective glass surface like water as he enters the mirror plane.",
       "mood": "entering the mirror",
-      "sfx": "RIPPLE-STEP..."
+      "sfx": "RIPPLE-STEP...",
+      "prose_en": "Ha-Jun steps forward, his boots rippling the reflective glass surface like water as he enters the mirror plane.",
+      "prose_hi": "Ha-jun aage badhta hai, jaise hi wah darpan tal mein pravesh karta hai, uske jute paraavartak kaanch ki satah ko pani ki tarah lahrate han."
     },
     {
       "id": "p11",
@@ -196,7 +216,9 @@
       ],
       "action": "The two Demon Sovereigns stand face to face: the First Sovereign of War and the True Sovereign of Peace.",
       "mood": "the two sovereigns",
-      "sfx": "FACING DESTINY..."
+      "sfx": "FACING DESTINY...",
+      "prose_en": "The two Demon Sovereigns stand face to face: the First Sovereign of War and the True Sovereign of Peace.",
+      "prose_hi": "Do danav samprabhu aamne-samne khade han: pehla yudh ka samprabhu aur shanti ka sachcha samprabhu."
     },
     {
       "id": "p12",
@@ -216,7 +238,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Asmodaius inspects Ha-Jun's wings and eyes: 'Wings of creation, not destruction. You surpassed my wildest dream.'.",
+      "prose_hi": "Esmodius ne ha-jun ke pankhon aur aankhon ka nirikshan kiya: 'srijan ke pankh, vinash ke nahin. aapne mere sabse bade sapne ko paar kar liya.'"
     },
     {
       "id": "p13",
@@ -237,7 +261,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun offers an open palm: 'Power is only meaningful when used to protect the people you love.'.",
+      "prose_hi": "Ha-jun ek khuli hatheli pesh karta hai: 'shakti tabhi sarthak hai jab iska upyog un logon ki raksha ke liye kiya jata hai jinhen aap pyar karte han.'"
     },
     {
       "id": "p14",
@@ -248,7 +274,9 @@
       ],
       "action": "The ancient progenitor takes Ha-Jun's hand; five thousand years of demon suffering dissolves into peace.",
       "mood": "the covenant fulfilled",
-      "sfx": "FLASH-RESONANCE!!"
+      "sfx": "FLASH-RESONANCE!!",
+      "prose_en": "The ancient progenitor takes Ha-Jun's hand; five thousand years of demon suffering dissolves into peace.",
+      "prose_hi": "Prachin purvaj ha-jun ka haath leta hai; paanch hajar varshon ki rakshasi peeda shanti mein vilin ho jaati hai."
     },
     {
       "id": "p15",
@@ -268,7 +296,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Asmodaius whispers through tears: 'Thank you, my son. Our bloodline is redeemed.'.",
+      "prose_hi": "Esmodius aansuon ke madhyam se fusfusata hai: 'dhanyavad, mere bete. hamari raktarekha ka uddhar ho gaya hai.'"
     },
     {
       "id": "p16",
@@ -277,7 +307,9 @@
       "characters": [],
       "action": "The First Sovereign peacefully dissolves into golden stardust, blowing gently across the cosmic winds.",
       "mood": "peaceful passing",
-      "sfx": "DISSOLVE-LIGHT..."
+      "sfx": "DISSOLVE-LIGHT...",
+      "prose_en": "The First Sovereign peacefully dissolves into golden stardust, blowing gently across the cosmic winds.",
+      "prose_hi": "Pehla samprabhu shantipurvak sunhare stardust mein vilin ho jata hai, jo brahmandiya hawaon mein dhire-dhire bahta hai."
     },
     {
       "id": "p17",
@@ -288,7 +320,9 @@
       ],
       "action": "The crystal mirror turns into a transparent window looking down at the sunlit continents of Earth.",
       "mood": "looking at home",
-      "sfx": "WINDOW TO EARTH..."
+      "sfx": "WINDOW TO EARTH...",
+      "prose_en": "The crystal mirror turns into a transparent window looking down at the sunlit continents of Earth.",
+      "prose_hi": "Cristal darpan prithvi ke surya ki roshni wale mahadvipon ko dekhne wali ek pardarshi khidki mein badal jata hai."
     },
     {
       "id": "p18",
@@ -307,7 +341,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Surrounding the blue planet is a shimmering, invisible auroral web of Sovereign Mana, warding off all future cosmic threats.",
+      "prose_hi": "Nile grah ke charon or samprabhu man ka ek chamakdar, adrishya dhruviya jaal hai, jo bhavishya ke sabhi brahmandiya khatron ko door karta hai."
     },
     {
       "id": "p19",
@@ -318,7 +354,9 @@
       ],
       "action": "Ha-Jun steps out onto the crystal root beside Tae-Jun, his heart completely light and unburdened.",
       "mood": "unburdened return",
-      "sfx": "STEP..."
+      "sfx": "STEP...",
+      "prose_en": "Ha-Jun steps out onto the crystal root beside Tae-Jun, his heart completely light and unburdened.",
+      "prose_hi": "Ha-jun, taaye-jun ke bagal mein crystal root par kadam rakhta hai, uska dil puri tarah se halka aur bojh rahit hota hai."
     },
     {
       "id": "p20",
@@ -339,7 +377,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun asks softly: 'Is it finished?'.",
+      "prose_hi": "Taaye-jun dheere se puchta hai: 'kya yah samapt ho gaya?'."
     },
     {
       "id": "p21",
@@ -361,7 +401,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun nods with radiant joy: 'It is finished, Hyung. Let's go home.'.",
+      "prose_hi": "Ha-jun ne harshit hokar sir hilaya: 'yah samapt ho gaya, hung. chalo ghar chalte han.'."
     },
     {
       "id": "p22",
@@ -372,7 +414,9 @@
       ],
       "action": "Ha-Jun folds his magnificent starlight wings; they retract smoothly into his back, resting invisibly beneath his coat.",
       "mood": "wings concealed",
-      "sfx": "RETRACT-GLINT..."
+      "sfx": "RETRACT-GLINT...",
+      "prose_en": "Ha-Jun folds his magnificent starlight wings; they retract smoothly into his back, resting invisibly beneath his coat.",
+      "prose_hi": "Ha-jun apne shandar taron wale pankhon ko modata hai; ve aasani se uski peeth mein sama jaate han, uske coat ke neeche adrishya roop se aaram karte han."
     },
     {
       "id": "p23",
@@ -383,7 +427,9 @@
       ],
       "action": "His white jade horns retract, leaving only a subtle, elegant golden sovereign mark between his eyebrows.",
       "mood": "horns concealed",
-      "sfx": "RETRACT..."
+      "sfx": "RETRACT...",
+      "prose_en": "His white jade horns retract, leaving only a subtle, elegant golden sovereign mark between his eyebrows.",
+      "prose_hi": "Uske safed jed seeng peeche hat jaate han, jisse uski bhaunhon ke beech keval ek sukshm, sundar sunhara samprabhu nishan rah jata hai."
     },
     {
       "id": "p24",
@@ -406,7 +452,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The starlight mantle condenses back into little Kuro sitting comfortably on Ha-Jun's shoulder, ruffling black feathers.",
+      "prose_hi": "Taaron ki roshni ka aavaran wapas sanghanit hokar ha-jun ke kandhe par aaram se baithe chhote kuro mein badal jata hai, jo kale pankh fadfada raha hai."
     },
     {
       "id": "p25",
@@ -418,7 +466,9 @@
       ],
       "action": "The trio steps into the downward golden portal, leaving the Tree of Origin in timeless serenity.",
       "mood": "homeward bound",
-      "sfx": "STEP-CHIME..."
+      "sfx": "STEP-CHIME...",
+      "prose_en": "The trio steps into the downward golden portal, leaving the Tree of Origin in timeless serenity.",
+      "prose_hi": "Tikadi neeche ki or sunhare portal mein kadam rakhti hai, aur mool vriksh ko shashwat shanti mein chhod deti hai."
     },
     {
       "id": "p26",
@@ -429,7 +479,9 @@
       ],
       "action": "They glide through the warm autumn clouds, descending toward the familiar rooftops of Mapo district.",
       "mood": "descent to seoul",
-      "sfx": "CLOUD GLIDE..."
+      "sfx": "CLOUD GLIDE...",
+      "prose_en": "They glide through the warm autumn clouds, descending toward the familiar rooftops of Mapo district.",
+      "prose_hi": "Ve garm sharad ritu ke baadalon ke madhyam se sarakte hue mapo jile ki parichit chhaton ki or utarte han."
     },
     {
       "id": "p27",
@@ -438,7 +490,9 @@
       "characters": [],
       "action": "The university terrace glistens in clean morning sunlight, the picnic table still standing with cups and food.",
       "mood": "the morning terrace",
-      "sfx": "SUNLIGHT GLOW..."
+      "sfx": "SUNLIGHT GLOW...",
+      "prose_en": "The university terrace glistens in clean morning sunlight, the picnic table still standing with cups and food.",
+      "prose_hi": "Vishwavidyalay ki chhat subah ki saaf dhoop mein chamak rahi hai, picnic table abhi bhi cup aur bhojan ke saath khadi hai."
     },
     {
       "id": "p28",
@@ -458,7 +512,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae and Baek, still standing by the balustrade, look up and point in ecstatic joy: 'THEY ARE BACK!!'.",
+      "prose_hi": "Min-je aur bak, abhi bhi katghare ke paas khade han, upar dekhte hain aur param anand se ishara karte han: 've wapas aa gaye han!!'"
     },
     {
       "id": "p29",
@@ -469,7 +525,9 @@
       ],
       "action": "The brothers touch down gently on the terrace, their sneakers clicking softly on the clean concrete.",
       "mood": "gentle arrival",
-      "sfx": "CLICK-TOUCHDOWN..."
+      "sfx": "CLICK-TOUCHDOWN...",
+      "prose_en": "The brothers touch down gently on the terrace, their sneakers clicking softly on the clean concrete.",
+      "prose_hi": "Bhai chhat par dheere se chhute han, unke sneakers saaf concrete par dheere se click karte han."
     },
     {
       "id": "p30",
@@ -491,7 +549,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun grins at Min-Jae: 'Hey. Any soda left?'.",
+      "prose_hi": "Ha-jun min-je par muskurata hai: 'are. koi soda bacha?'"
     }
   ]
 }

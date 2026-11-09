@@ -15,7 +15,9 @@
       ],
       "action": "The twenty-foot pressurized glass cylinder detonates into a dazzling cascade of cyan crystal shards and vapor.",
       "mood": "dramatic unsealing",
-      "sfx": "KABOOOM-SHATTER!!"
+      "sfx": "KABOOOM-SHATTER!!",
+      "prose_en": "The twenty-foot pressurized glass cylinder detonates into a dazzling cascade of cyan crystal shards and vapor.",
+      "prose_hi": "Bees foot ka dabaavyukt kaanch ka cylinder siyan crystal tukdon aur vashp ke chamakdar jharne mein visphotit hota hai."
     },
     {
       "id": "p02",
@@ -26,7 +28,9 @@
       ],
       "action": "Thousands of liters of fluorescent cyan coolant wash across the freezing floor, steaming in the zero-degree air.",
       "mood": "coolant flood",
-      "sfx": "RUSH-SPLASH..."
+      "sfx": "RUSH-SPLASH...",
+      "prose_en": "Thousands of liters of fluorescent cyan coolant wash across the freezing floor, steaming in the zero-degree air.",
+      "prose_hi": "Hajaron litre fluorescent siyan shitalak shunya degree hawa mein bhaap bankar, barfeeli farsh par bah jata hai."
     },
     {
       "id": "p03",
@@ -48,7 +52,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun slides across the wet stone on his knees, catching Tae-Jun's limp, soaking wet body safely against his chest.",
+      "prose_hi": "Ha-jun apne ghutnon ke bal gile patthar par fisalta hai, taaye-jun ki langadahat ko pakadta hai, gile shareer ko apni chhati par surakshit roop se bhigota hai."
     },
     {
       "id": "p04",
@@ -57,7 +63,9 @@
       "characters": [],
       "action": "Tae-Jun's skin is deathly pale, covered in frost; two small obsidian horns protrude gracefully from his temples.",
       "mood": "slumbering guardian",
-      "sfx": "FROST STEAM..."
+      "sfx": "FROST STEAM...",
+      "prose_en": "Tae-Jun's skin is deathly pale, covered in frost; two small obsidian horns protrude gracefully from his temples.",
+      "prose_hi": "Taaye-jun ki tvacha ghatak roop se pili, paale se dhaki hui hai; uske mandiron se do chhote obsidian seeng khubsurti se ubhre hue han."
     },
     {
       "id": "p05",
@@ -77,7 +85,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun's chest rises weakly; black necrotic veins pulse under the skin of his neck: 'Ha... Jun...'.",
+      "prose_hi": "Taaye-jun ki chhati kamjor roop se upar uthti hai; uski gardan ki tvacha ke neeche kali necrotic nasen fadkati han: 'ha...jun...'."
     },
     {
       "id": "p06",
@@ -100,7 +110,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro lands gently on Tae-Jun's chest, his talons radiating warm violet magic into the young man's sternum.",
+      "prose_hi": "Kuro dheere se taaye-jun ki chhati par utarta hai, uske panje yuvak ke urosthi mein garm baingani jadu bikherte han."
     },
     {
       "id": "p07",
@@ -122,7 +134,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun presses both palms to Tae-Jun's chest, flooding him with crimson-violet sovereign mana, but the black veins reject it.",
+      "prose_hi": "Ha-jun donon hatheliyon ko taaye-jun ki chhati par dabata hai, jisse wah lal-bangni samprabhu man se bhar jata hai, lekin kali nasen ise aswikar kar deti han."
     },
     {
       "id": "p08",
@@ -134,7 +148,9 @@
       ],
       "action": "The original Fallen Feather from Episode 2 begins to glow with blinding, hypnotic neon-magenta celestial fire.",
       "mood": "feather activation",
-      "sfx": "PULSE-GLOW!!"
+      "sfx": "PULSE-GLOW!!",
+      "prose_en": "The original Fallen Feather from Episode 2 begins to glow with blinding, hypnotic neon-magenta celestial fire.",
+      "prose_hi": "Episod 2 ka mool fallen feather chkachaundh, sammohak nion-magenta akashiya aag se chamakne lagta hai."
     },
     {
       "id": "p09",
@@ -145,7 +161,9 @@
       ],
       "action": "The feather rotates in mid-air, casting sacred runic circles of light that illuminate both brothers' faces.",
       "mood": "sacred geometry",
-      "sfx": "CHIME..."
+      "sfx": "CHIME...",
+      "prose_en": "The feather rotates in mid-air, casting sacred runic circles of light that illuminate both brothers' faces.",
+      "prose_hi": "Pankh madhya hawa mein ghumta hai, jisse prakash ke pavitra runic vritt nikalte hain jo donon bhaiyon ke chehre ko roshan karte han."
     },
     {
       "id": "p10",
@@ -167,7 +185,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro's voice drops into an ancient, reverberating tone: 'The First Memory of the Covenant is ready to speak.'.",
+      "prose_hi": "Kuro ki awaaz ek prachin, gunjate hue swar mein badal jaati hai: 'vacha ki pehli smriti bolne ke liye taiyar hai.'"
     },
     {
       "id": "p11",
@@ -178,7 +198,9 @@
       ],
       "action": "A bridge of golden starlight connects the brothers' brows; reality dissolves into a blinding cosmic flashback.",
       "mood": "vision initiated",
-      "sfx": "FLASH-WARP!!"
+      "sfx": "FLASH-WARP!!",
+      "prose_en": "A bridge of golden starlight connects the brothers' brows; reality dissolves into a blinding cosmic flashback.",
+      "prose_hi": "Sunhari taron ki roshni ka ek pul bhaiyon ki bhaunhon ko jodta hai; vastavikta ek andhere brahmandiya flashback mein vilin ho jaati hai."
     },
     {
       "id": "p12",
@@ -187,7 +209,9 @@
       "characters": [],
       "action": "An ocean of violet nebulas, spinning galaxies, and burning comets in the dawn of creation.",
       "mood": "primordial universe",
-      "sfx": "COSMIC HUMMM..."
+      "sfx": "COSMIC HUMMM...",
+      "prose_en": "An ocean of violet nebulas, spinning galaxies, and burning comets in the dawn of creation.",
+      "prose_hi": "Srishti ke aarambh mein baingani neeharikaon, ghumti akashgangaon aur jalte dhumketuon ka ek mahasagar."
     },
     {
       "id": "p13",
@@ -196,7 +220,9 @@
       "characters": [],
       "action": "First Sovereign Asmodaius in his living prime—an immortal titan in obsidian dragon plate armor, majestic and noble.",
       "mood": "the first emperor",
-      "sfx": "LOOM..."
+      "sfx": "LOOM...",
+      "prose_en": "First Sovereign Asmodaius in his living prime—an immortal titan in obsidian dragon plate armor, majestic and noble.",
+      "prose_hi": "Apne jeevit kaal mein pratham samprabhu esmodius - obsidian dragon plate kavach mein ek amar titan, rajsi aur mahan."
     },
     {
       "id": "p14",
@@ -205,7 +231,9 @@
       "characters": [],
       "action": "Beside Asmodaius perches a thousand-foot celestial crow made of pure purple solar flares and cosmic fire: Kuro's true progenitor.",
       "mood": "the celestial familiar",
-      "sfx": "SUNFIRE ROAR!!"
+      "sfx": "SUNFIRE ROAR!!",
+      "prose_en": "Beside Asmodaius perches a thousand-foot celestial crow made of pure purple solar flares and cosmic fire: Kuro's true progenitor.",
+      "prose_hi": "Esmodius ke bagal mein shuddh baingani saur jwalaon aur brahmandiya aag se bana ek hajar foot ka divya kauwa baitha hai: kuro ka sachcha purvaj."
     },
     {
       "id": "p15",
@@ -214,7 +242,9 @@
       "characters": [],
       "action": "Opposite them, a shapeless horror of black tentacles and dying stars—The Void Primordial—attacks the universe.",
       "mood": "the prime enemy",
-      "sfx": "VOID SCREAM!!"
+      "sfx": "VOID SCREAM!!",
+      "prose_en": "Opposite them, a shapeless horror of black tentacles and dying stars—The Void Primordial—attacks the universe.",
+      "prose_hi": "Unke viparit, kale jaalon aur marte sitaron ka ek aakarhin aatank - the void primordial - brahmand par hamla karta hai."
     },
     {
       "id": "p16",
@@ -223,7 +253,9 @@
       "characters": [],
       "action": "Asmodaius wields a blade of pure starlight while Kuro's wings deflect planets, fighting to protect mortal life.",
       "mood": "gods at war",
-      "sfx": "SLASH-BLAST!!"
+      "sfx": "SLASH-BLAST!!",
+      "prose_en": "Asmodaius wields a blade of pure starlight while Kuro's wings deflect planets, fighting to protect mortal life.",
+      "prose_hi": "Esmodius shuddh taron ki roshni ka ek blade chalata hai jabki kuro ke pankh grahon ko vikshepit karte han, nashwar jeevan ki raksha ke liye ladte han."
     },
     {
       "id": "p17",
@@ -242,7 +274,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Knowing his mortal vessel will fall, Asmodaius forges his power into nine relics, and Kuro sheds his single primary feather as the tenth.",
+      "prose_hi": "Yah jaante hue ki uska nashwar jahaj gir jaega, esmodius ne apni shakti ko nau avsheshon mein badal diya, aur kuro ne dasven ke roop mein apna ekal prathmik pankh gira diya."
     },
     {
       "id": "p18",
@@ -261,7 +295,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Asmodaius smiles gently: 'When my bloodline awakens in the distant future... Guide them, my old friend.'.",
+      "prose_hi": "Esmodius dheere se muskurata hai: 'jab door ke bhavishya mein meri vanshavali jagti hai... to unka margdarshan karo, mere purane dost.'"
     },
     {
       "id": "p19",
@@ -280,7 +316,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro willingly surrenders his godhood, folding his cosmic wings until he fits in the palm of a mortal hand.",
+      "prose_hi": "Kuro swechha se apne ishwartv ko tyaag deta hai, apne laukik pankhon ko tab tak modata hai jab tak wah ek nashwar haath ki hatheli mein fit nahin ho jata."
     },
     {
       "id": "p20",
@@ -291,7 +329,9 @@
       ],
       "action": "The cosmic vision recedes; Ha-Jun opens his eyes, staring at little Kuro perched on Tae-Jun's chest with new awe.",
       "mood": "revelation received",
-      "sfx": "FADE IN..."
+      "sfx": "FADE IN...",
+      "prose_en": "The cosmic vision recedes; Ha-Jun opens his eyes, staring at little Kuro perched on Tae-Jun's chest with new awe.",
+      "prose_hi": "Laukik drishti peeche hat jaati hai; ha-jun ne apni aankhen kholin aur naye vismay ke saath taaye-jun ki chhati par baithe chhote kuro ko dekha."
     },
     {
       "id": "p21",
@@ -313,7 +353,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun whispers: 'Kuro... You gave up your godhood... for us?'.",
+      "prose_hi": "Ha-jun fusfusata hai: 'kuro... tumne apna ishwartv tyaag diya... hamare liye?'."
     },
     {
       "id": "p22",
@@ -335,7 +377,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro ruffles his black feathers: 'Hmph. You were a pathetic, crying brat. Someone had to make sure you didn't die.'.",
+      "prose_hi": "Kuro apne kale pankh fadfadata hai: 'hamf. tum ek dayniy, ​​rone wale ladke the. kisi ko yah sunishchit karna tha ki aap maren nahin.'"
     },
     {
       "id": "p23",
@@ -346,7 +390,9 @@
       ],
       "action": "The glowing feather settles directly over Tae-Jun's sternum, sinking into his flesh like liquid purple mercury.",
       "mood": "soul stabilization",
-      "sfx": "SINK-GLOW..."
+      "sfx": "SINK-GLOW...",
+      "prose_en": "The glowing feather settles directly over Tae-Jun's sternum, sinking into his flesh like liquid purple mercury.",
+      "prose_hi": "Chamakta hua pankh sidhe taaye-jun ke urosthi par sthit hota hai, aur taral baingani pare ki tarah uske maans mein doob jata hai."
     },
     {
       "id": "p24",
@@ -355,7 +401,9 @@
       "characters": [],
       "action": "The black poison lines freeze in their tracks, held at bay by the Mythic Feather's divine warmth.",
       "mood": "corrosion arrested",
-      "sfx": "HISS-FREEZE..."
+      "sfx": "HISS-FREEZE...",
+      "prose_en": "The black poison lines freeze in their tracks, held at bay by the Mythic Feather's divine warmth.",
+      "prose_hi": "Mithik feather ki divya garmahat ke karan kali jahar ki rekhaen unki patriyon par jam jaati han."
     },
     {
       "id": "p25",
@@ -375,7 +423,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun's breathing stabilizes into deep, steady rhythms; the immediate threat of death is halted.",
+      "prose_hi": "Taaye-jun ki shwas gahri, sthir lay mein sthir ho jaati hai; mrityu ka tatkal khatra ruk gaya hai."
     },
     {
       "id": "p26",
@@ -397,7 +447,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun lifts his older brother onto his back, securing his arms over his shoulders with gentle, unbreakable strength.",
+      "prose_hi": "Ha-jun apne bade bhai ko apni peeth par uthata hai, uski baahon ko uske kandhon par komal, atoot takat se surakshit karta hai."
     },
     {
       "id": "p27",
@@ -408,7 +460,9 @@
       ],
       "action": "The massive stone dome above cracks open; debris showers down as an ungodly draconic roar reverberates.",
       "mood": "imminent boss descent",
-      "sfx": "ROARRRR-CRACK!!"
+      "sfx": "ROARRRR-CRACK!!",
+      "prose_en": "The massive stone dome above cracks open; debris showers down as an ungodly draconic roar reverberates.",
+      "prose_hi": "Upar ka vishal patthar ka gumbad daraaron se khul jata hai; ek adharmi krur dahaad ke roop mein malba barasta hai."
     },
     {
       "id": "p28",
@@ -419,7 +473,9 @@
       ],
       "action": "Through the cracked ceiling, the colossal silhouette of Sixth Void Sovereign Vaelgor blocks out the stars.",
       "mood": "the world eater arrives",
-      "sfx": "SHADOW LOOM..."
+      "sfx": "SHADOW LOOM...",
+      "prose_en": "Through the cracked ceiling, the colossal silhouette of Sixth Void Sovereign Vaelgor blocks out the stars.",
+      "prose_hi": "Tuti hui chhat ke madhyam se, chhathe shunya samprabhu velgor ki vishal chhaya taron ko avruddh kar deti hai."
     },
     {
       "id": "p29",
@@ -441,7 +497,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro hops onto the stone railing, his eyes igniting with twin stars of violet nova fire: 'Vaelgor... You insolent lizard.'.",
+      "prose_hi": "Kuro patthar ki railing par chadh jata hai, uski aankhen baingani nova aag ke judwan sitaron se prajvalit ho rahi han: 'velgor... tum dheeth chhipkali.'"
     },
     {
       "id": "p30",
@@ -464,7 +522,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro's body erupts into a 100-foot column of sacred purple and crimson flame, about to reveal his true form!.",
+      "prose_hi": "Kuro ka shareer pavitra baingani aur lal rang ki lau ke 100 foot ke stambh mein badal gaya, jo uske asli roop ko prakat karne wala tha!"
     }
   ]
 }

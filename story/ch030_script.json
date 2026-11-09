@@ -14,7 +14,9 @@
         "hajun"
       ],
       "action": "The 15-foot Skeletal Centurion remains bowed before 17-year-old Ha-Jun in absolute stillness.",
-      "mood": "hallowed silence"
+      "mood": "hallowed silence",
+      "prose_en": "The 15-foot Skeletal Centurion remains bowed before 17-year-old Ha-Jun in absolute stillness.",
+      "prose_hi": "15 foot ka kankal centurion purna shanti mein 17 varshiya ha-jun ke samne jhuka hua hai."
     },
     {
       "id": "p02",
@@ -22,7 +24,9 @@
       "setting": "centurion skull",
       "characters": [],
       "action": "The furious blue fire in the Centurion's eyes shifts into a serene, tranquil violet resonance.",
-      "mood": "pacified soul"
+      "mood": "pacified soul",
+      "prose_en": "The furious blue fire in the Centurion's eyes shifts into a serene, tranquil violet resonance.",
+      "prose_hi": "Senturian ki aankhon mein prachand neeli aag ek shant, shant baingani pratidhvani mein badal jaati hai."
     },
     {
       "id": "p03",
@@ -41,7 +45,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The Centurion speaks with solemn grace: 'Thousands of years I have guarded this marrow for the true blood.'.",
+      "prose_hi": "Senturian gambhir anugrah ke saath bolta hai: 'hajaron varshon se maine sacche khoon ke liye is majja ki raksha ki hai.'"
     },
     {
       "id": "p04",
@@ -50,7 +56,9 @@
       "characters": [],
       "action": "The colossal skeletal titan begins dissolving into swirling ribbons of golden-white luminescent dust.",
       "mood": "peaceful dissolution",
-      "sfx": "SHSHSH..."
+      "sfx": "SHSHSH...",
+      "prose_en": "The colossal skeletal titan begins dissolving into swirling ribbons of golden-white luminescent dust.",
+      "prose_hi": "Vishal kankal titan sunahre-safed chamakdar dhul ke ghumte hue ribbon mein ghulna shuru kar deta hai."
     },
     {
       "id": "p05",
@@ -58,7 +66,9 @@
       "setting": "cavern wide",
       "characters": [],
       "action": "Millions of glowing particles drift upward like reverse snow, illuminating the dark limestone vaults.",
-      "mood": "ethereal spectacle"
+      "mood": "ethereal spectacle",
+      "prose_en": "Millions of glowing particles drift upward like reverse snow, illuminating the dark limestone vaults.",
+      "prose_hi": "Lakhon chamakte kan ulti barf ki tarah upar ki or bahte han, jo gahre chuna patthar ke tahkhanon ko roshan karte han."
     },
     {
       "id": "p06",
@@ -67,7 +77,9 @@
       "characters": [],
       "action": "From the altar, the 14-inch curved ivory bone relic drifts gently down toward Ha-Jun's chest.",
       "mood": "relic descent",
-      "sfx": "GLIDE..."
+      "sfx": "GLIDE...",
+      "prose_en": "From the altar, the 14-inch curved ivory bone relic drifts gently down toward Ha-Jun's chest.",
+      "prose_hi": "Vedi se, 14 inch ki ghumavdar hathi daant ki haddi ka avashesh dhire-dhire ha-jun ki chhati ki or badhta hai."
     },
     {
       "id": "p07",
@@ -88,7 +100,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro lowers his wings in quiet respect: 'Farewell, General Vaelor. Tumhara duty pura hua.'.",
+      "prose_hi": "Kuro ne shant samman mein apne pankh neeche kar die: 'vidai, general velor. tumhara kartavya pura hua.'"
     },
     {
       "id": "p08",
@@ -98,7 +112,9 @@
         "hajun"
       ],
       "action": "Ha-Jun extends his left bare forearm as the Bone of the Forgotten hovers within inches of his skin.",
-      "mood": "readiness for bond"
+      "mood": "readiness for bond",
+      "prose_en": "Ha-Jun extends his left bare forearm as the Bone of the Forgotten hovers within inches of his skin.",
+      "prose_hi": "Ha-jun apni bayin nangi baanh ko failata hai kyonki bhuli hui haddi uski tvacha ke inch ke bhitar ghumti hai."
     },
     {
       "id": "p09",
@@ -109,7 +125,9 @@
       ],
       "action": "The moment the ivory relic touches Ha-Jun's wrist, it liquefies into pure molten white calcium light.",
       "mood": "molecular fusion",
-      "sfx": "FZZZZT!!"
+      "sfx": "FZZZZT!!",
+      "prose_en": "The moment the ivory relic touches Ha-Jun's wrist, it liquefies into pure molten white calcium light.",
+      "prose_hi": "Jaise hi hathi daant ka avashesh ha-jun ki kalai ko chhuta hai, yah shuddh pighle hue safed calcium prakash mein dravit ho jata hai."
     },
     {
       "id": "p10",
@@ -120,7 +138,9 @@
       ],
       "action": "The white light sinks directly beneath his epidermis, wrapping tightly around his radius and ulna bones.",
       "mood": "bone integration",
-      "sfx": "SINK..."
+      "sfx": "SINK...",
+      "prose_en": "The white light sinks directly beneath his epidermis, wrapping tightly around his radius and ulna bones.",
+      "prose_hi": "Safed prakash sidhe uski bahya tvacha ke neeche doob jata hai, uski trijya aur alna haddiyon ke charon or kaskar lapet jata hai."
     },
     {
       "id": "p11",
@@ -142,7 +162,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun grits his teeth; his skeleton emits a dull ceramic chime as bone density multiplies.",
+      "prose_hi": "Ha-jun apne dant pista hai; jaise hi haddi ka ghanatv kai guna badh jata hai, uska kankal ek dhimi siremik jhankar ka utsarjan karta hai."
     },
     {
       "id": "p12",
@@ -153,7 +175,9 @@
       ],
       "action": "Along his left forearm, an intricate segmented gauntlet of polished white bone and crimson runes emerges.",
       "mood": "skeletal gauntlet",
-      "sfx": "CREAK-LOCK!!"
+      "sfx": "CREAK-LOCK!!",
+      "prose_en": "Along his left forearm, an intricate segmented gauntlet of polished white bone and crimson runes emerges.",
+      "prose_hi": "Uski bayin baanh ke sath, polish ki hui safed haddi aur lal rang ki runs ka ek jatil khandit gauntlet ubharta hai."
     },
     {
       "id": "p13",
@@ -163,7 +187,9 @@
         "hajun"
       ],
       "action": "Sharp, razor-honed ivory spurs extend over his knuckles, ready to deliver lethal blunt force.",
-      "mood": "offensive armor"
+      "mood": "offensive armor",
+      "prose_en": "Sharp, razor-honed ivory spurs extend over his knuckles, ready to deliver lethal blunt force.",
+      "prose_hi": "Tej, ustra-dharit hathidant spers uske por par faile hue han, jo ghatak kund bal dene ke liye taiyar han."
     },
     {
       "id": "p14",
@@ -174,7 +200,9 @@
       ],
       "action": "A brilliant shockwave of bone-white and violet mana bursts outward, blowing away all lingering dust.",
       "mood": "resonance burst",
-      "sfx": "BOOOOOM!!"
+      "sfx": "BOOOOOM!!",
+      "prose_en": "A brilliant shockwave of bone-white and violet mana bursts outward, blowing away all lingering dust.",
+      "prose_hi": "Haddi-safed aur baingani man ki ek shandar shockwev bahar ki or footati hai, jo sabhi bachi hui dhul ko uda deti hai."
     },
     {
       "id": "p15",
@@ -193,7 +221,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Golden system banners unfurl across the air with celebratory demonic crests.",
+      "prose_hi": "Swarnim pranali ke banner jashn manane wali rakshasi shikhaon ke saath hawa mein lahrate han."
     },
     {
       "id": "p16",
@@ -214,7 +244,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun flexes his left hand; the bone gauntlet moves with fluid biomechanical grace like second skin.",
+      "prose_hi": "Ha-jun ne apna bayan haath moda; haddi ka gauntlet dusri tvacha ki tarah taral biomacanikal anugrah ke saath chalta hai."
     },
     {
       "id": "p17",
@@ -236,7 +268,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro taps the bone plating with his beak: 'Solid. Ab Hunter ki ordinary bullets tumhara haath nahi cheer sakti.'.",
+      "prose_hi": "Kuro apni chonch se haddi ki parat ko thapthapata hai: 'thos. ab hunter ki sadharan goliyan tumhare haath nahin chilla sakti.'."
     },
     {
       "id": "p18",
@@ -247,7 +281,9 @@
       ],
       "action": "Ha-Jun throws a casual punch at the solid limestone wall beside him.",
       "mood": "testing force",
-      "sfx": "HUP!"
+      "sfx": "HUP!",
+      "prose_en": "Ha-Jun throws a casual punch at the solid limestone wall beside him.",
+      "prose_hi": "Ha-jun apne bagal ki thos chuna patthar ki deewar par ek aakasmik mukka maarta hai."
     },
     {
       "id": "p19",
@@ -256,7 +292,9 @@
       "characters": [],
       "action": "The solid rock shatters into a six-foot crater instantly, leaving Ha-Jun's bone knuckles completely unscathed.",
       "mood": "destructive proof",
-      "sfx": "KABOOOM!!"
+      "sfx": "KABOOOM!!",
+      "prose_en": "The solid rock shatters into a six-foot crater instantly, leaving Ha-Jun's bone knuckles completely unscathed.",
+      "prose_hi": "Thos chattan turant chhah foot ke gaddhe mein toot jaati hai, jisse ha-jun ki haddi ke por puri tarah se surakshit ho jaate han."
     },
     {
       "id": "p20",
@@ -277,7 +315,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun laughs softly in disbelief at the sheer effortless kinetic force.",
+      "prose_hi": "Ha-jun sarasar sahaj gatij bal par avishvas karte hue dheere se hansta hai."
     },
     {
       "id": "p21",
@@ -286,7 +326,9 @@
       "characters": [],
       "action": "Thin cracks in the cavern floor begin glowing with intense orange-crimson thermal light; sulfur fumes rise.",
       "mood": "thermal shift",
-      "sfx": "HSSSS..."
+      "sfx": "HSSSS...",
+      "prose_en": "Thin cracks in the cavern floor begin glowing with intense orange-crimson thermal light; sulfur fumes rise.",
+      "prose_hi": "Gufa ke farsh mein patli dararen tivra naarangi-lal rang ki tapiya roshni se chamakne lagti han; gandhak ka dhuan uthta hai."
     },
     {
       "id": "p22",
@@ -307,7 +349,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun wipes sudden sweat from his brow as the air temperature spikes by 20 degrees Celsius.",
+      "prose_hi": "Jaise hi hawa ka taapmaan 20 degree celsius badh jata hai, ha-jun apne mathe se achanak pasina ponchta hai."
     },
     {
       "id": "p23",
@@ -328,7 +372,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro's feathers ruffle: 'Yeh third basic relic ka resonance hai! The Ashen Heart!'.",
+      "prose_hi": "Kuro ke pankh fadfadate han: 'ye teesre mool avashesh ki pratidhvani hai! ation hart!'."
     },
     {
       "id": "p24",
@@ -347,7 +393,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "The Sovereign Interface updates with glowing crimson-orange fire borders.",
+      "prose_hi": "Soweren interface chamakdar lal-naarangi agni seemaon ke saath adyatan hota hai."
     },
     {
       "id": "p25",
@@ -357,7 +405,9 @@
         "hajun"
       ],
       "action": "High above, the faint grey light of dawn begins to peek through the chasm opening.",
-      "mood": "dawn approaches"
+      "mood": "dawn approaches",
+      "prose_en": "High above, the faint grey light of dawn begins to peek through the chasm opening.",
+      "prose_hi": "Upar, bhor ki dhundhli dhusar roshni khai ke chhed se jhankane lagti hai."
     },
     {
       "id": "p26",
@@ -368,7 +418,9 @@
       ],
       "action": "Ha-Jun aims Min-Jae's flare gun upward and pulls the trigger; a brilliant crimson flare rockets into the sky.",
       "mood": "signal fired",
-      "sfx": "BANG-FWOOOSH!!"
+      "sfx": "BANG-FWOOOSH!!",
+      "prose_en": "Ha-Jun aims Min-Jae's flare gun upward and pulls the trigger; a brilliant crimson flare rockets into the sky.",
+      "prose_hi": "Ha-jun ne min-je ki bhadkili bandook ko upar ki or nishana banaya aur trigger khinch liya; aasman mein ek shandar lal rang ki chamak wale rocket."
     },
     {
       "id": "p27",
@@ -377,7 +429,9 @@
       "characters": [],
       "action": "The red phosphorus flare illuminates the quarry mist like a miniature sunrise above the parked van.",
       "mood": "signal received",
-      "sfx": "POP!!"
+      "sfx": "POP!!",
+      "prose_en": "The red phosphorus flare illuminates the quarry mist like a miniature sunrise above the parked van.",
+      "prose_hi": "Lal phosphorus ki chamak khadan ki dhundh ko khadi van ke upar ek laghu suryoday ki tarah roshan karti hai."
     },
     {
       "id": "p28",
@@ -396,7 +450,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae sees the flare, slamming his laptop shut with a proud grin: 'Usne kar dikhaya!'.",
+      "prose_hi": "Min-je ne aag bhadakte hue dekha aur garv bhari muskan ke saath apna laptop band kar diya: 'usne kar dikhaya!'"
     },
     {
       "id": "p29",
@@ -407,7 +463,9 @@
       ],
       "action": "Using his bone-armored fingers like climbing spikes, Ha-Jun rapidly scales the sheer limestone cliff in seconds.",
       "mood": "superhuman climb",
-      "sfx": "CLACK-CLACK!!"
+      "sfx": "CLACK-CLACK!!",
+      "prose_en": "Using his bone-armored fingers like climbing spikes, Ha-Jun rapidly scales the sheer limestone cliff in seconds.",
+      "prose_hi": "Apni haddi-baktarband ungaliyon ka upyog spikes par chadhne ki tarah karte hue, ha-jun teji se secondon mein khadi chuna patthar ki chattan par chadh jata hai."
     },
     {
       "id": "p30",
@@ -428,7 +486,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun stands on the cliff rim as morning sunlight breaks over Seoul, his bone gauntlet gleaming like marble.",
+      "prose_hi": "Jaise hi subah ki dhoop seoul par padti hai, ha-jun chattan ke kinare par khada hota hai, uski haddi ka kavach sangmarmar ki tarah chamak raha hota hai."
     }
   ]
 }

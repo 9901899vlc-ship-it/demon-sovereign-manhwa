@@ -15,7 +15,9 @@
       ],
       "action": "A 100-meter-wide grand ceremonial avenue paved in polished black volcanic glass, flanked by towering statues.",
       "mood": "ancient gothic metropolis",
-      "sfx": "WHISPERING WIND..."
+      "sfx": "WHISPERING WIND...",
+      "prose_en": "A 100-meter-wide grand ceremonial avenue paved in polished black volcanic glass, flanked by towering statues.",
+      "prose_hi": "Polish kiye gaye kale jwalamukhiya kaanch se bana 100 meter chauda bhavya aupcharik marg, jiske donon or unchi-unchi moortiyan han."
     },
     {
       "id": "p02",
@@ -23,7 +25,9 @@
       "setting": "city architecture",
       "characters": [],
       "action": "Crumbling palaces of dark obsidian and amethyst crystal, silent monuments to a fallen golden empire.",
-      "mood": "haunting majesty"
+      "mood": "haunting majesty",
+      "prose_en": "Crumbling palaces of dark obsidian and amethyst crystal, silent monuments to a fallen golden empire.",
+      "prose_hi": "Gahre obsidian aur neelam crystal ke dhahte mahal, gire hue sunhare samrajya ke mook smarak."
     },
     {
       "id": "p03",
@@ -34,7 +38,9 @@
       ],
       "action": "Ha-Jun walks down the road, his boots clicking rhythmically on the mirror-smooth black glass.",
       "mood": "solitary heir",
-      "sfx": "CLICK... CLICK..."
+      "sfx": "CLICK... CLICK...",
+      "prose_en": "Ha-Jun walks down the road, his boots clicking rhythmically on the mirror-smooth black glass.",
+      "prose_hi": "Ha-jun sadak par chalta hai, uske jute darpan jaise chikne kale sheeshe par taal se takra rahe han."
     },
     {
       "id": "p04",
@@ -55,7 +61,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro glides ahead, his eyes filled with nostalgic sorrow: 'Yahan 10 million demons rehte the ek waqt par.'.",
+      "prose_hi": "Kuro aage badhta hai, uski aankhen purane dukh se bhar jaati han: 'yahan 10 million rakshas rahte hain ek waqt par.'"
     },
     {
       "id": "p05",
@@ -65,7 +73,9 @@
         "hajun"
       ],
       "action": "A 150-foot archway carved with intricate narrative bas-relief murals depicting the ancient wars.",
-      "mood": "ancient history in stone"
+      "mood": "ancient history in stone",
+      "prose_en": "A 150-foot archway carved with intricate narrative bas-relief murals depicting the ancient wars.",
+      "prose_hi": "Prachin yuddhon ko darshane wali jatil kathaatmak aadhar-rahat bhittichitron ke saath ukera gaya 150 foot ka torandwar."
     },
     {
       "id": "p06",
@@ -83,7 +93,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "The stone mural shows seven horned kings turning their blades against a single crowned sovereign figure.",
+      "prose_hi": "Patthar ke bhitti chitr mein saat seeng wale rajaon ko ek hi mukutdhari samprabhu aakriti ke viruddh apne blade ghumate hue dikhaya gaya hai."
     },
     {
       "id": "p07",
@@ -91,7 +103,9 @@
       "setting": "mural close-up",
       "characters": [],
       "action": "The First Sovereign carving out his own heart and marrow, sealing his supreme authority into ten relics.",
-      "mood": "the relics' origin"
+      "mood": "the relics' origin",
+      "prose_en": "The First Sovereign carving out his own heart and marrow, sealing his supreme authority into ten relics.",
+      "prose_hi": "Pratham samprabhu ne apne hriday aur majja ko tarashkar, apne sarvochch adhikar ko das avsheshon mein seal kar diya."
     },
     {
       "id": "p08",
@@ -113,7 +127,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's fingertips trace the relief of the sovereign's face; a psychic jolt ripples into his mind.",
+      "prose_hi": "Ha-jun ki ungaliyan samprabhu ke chehre ki rahat ka pata lagati han; uske man mein ek mansik jhatka lagta hai."
     },
     {
       "id": "p09",
@@ -121,7 +137,9 @@
       "setting": "street pavement",
       "characters": [],
       "action": "Tae-Jun's crimson mana footprints lead off the main boulevard toward an underground amphitheater.",
-      "mood": "fresh tracking"
+      "mood": "fresh tracking",
+      "prose_en": "Tae-Jun's crimson mana footprints lead off the main boulevard toward an underground amphitheater.",
+      "prose_hi": "Taaye-jun ke lal man pairon ke nishan mukhya buleward se bhumigat emphitheater ki or le jaate han."
     },
     {
       "id": "p10",
@@ -130,7 +148,9 @@
       "characters": [],
       "action": "Deep slash marks in the glass street, black demon blood splattered across a broken obelisk.",
       "mood": "recent battle",
-      "sfx": "CRACK!"
+      "sfx": "CRACK!",
+      "prose_en": "Deep slash marks in the glass street, black demon blood splattered across a broken obelisk.",
+      "prose_hi": "Kanch ki sadak par gahre chot ke nishan, toote hue smarak-stambh par faila hua kala danav ka khun."
     },
     {
       "id": "p11",
@@ -151,7 +171,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun dips a finger in the fresh, still-smoking demon blood: 'Yeh blood sirf do ghante purana hai.'.",
+      "prose_hi": "Ha-jun ne taaja, abhi bhi sulag rahe danav khoon mein ek ungli duboi: 'ye khoon sirf do ghante purana hai.'"
     },
     {
       "id": "p12",
@@ -172,7 +194,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro's eyes widen: 'Shadow scythe marks... Valac ke Shadow Assassins!'.",
+      "prose_hi": "Kuro ki aankhen chaudi ho gain: 'chhaya ke nishan... valack ke chhaya hatyare!'."
     },
     {
       "id": "p13",
@@ -182,7 +206,9 @@
         "hajun"
       ],
       "action": "Caught on a jagged stone: a torn scrap of a white hospital patient gown, stained with dried blood.",
-      "mood": "brother's clothing"
+      "mood": "brother's clothing",
+      "prose_en": "Caught on a jagged stone: a torn scrap of a white hospital patient gown, stained with dried blood.",
+      "prose_hi": "Ek dantedar patthar par pakda gaya: aspataal ke marij ke safed gown ka fata hua tukda, sukhe khoon se sana hua."
     },
     {
       "id": "p14",
@@ -203,7 +229,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun clutches the cloth tightly, his eyes blazing with fury: 'Unhone bhai ko capture kar liya hai...'.",
+      "prose_hi": "Ha-jun ne kapde ko kaskar pakad liya, uski aankhen gusse se chamak uthin: 'anhone bhai ko pakad liya hai...'."
     },
     {
       "id": "p15",
@@ -224,7 +252,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro reassures him firmly: 'Woh use maarenge nahi, Ha-Jun! Unhe uske blood se Relics ko unseal karna hai!'.",
+      "prose_hi": "Kuro ne use dridhta se aashvast kiya: 'vo use marenge nahin, ha-jun! unko khoon se avsheshon ko kholna hai!'."
     },
     {
       "id": "p16",
@@ -245,7 +275,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun looks toward the subterranean archway: 'Aur agla Relic yahan niche hai?'.",
+      "prose_hi": "Ha-jun bhumigat torandwar ki or dekhta hai: 'aur agla avashesh yahan neeche hai?'."
     },
     {
       "id": "p17",
@@ -266,7 +298,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro confirms: 'Amphitheater ke Vault of Severance mein. The Fang of Abyss.'.",
+      "prose_hi": "Kuro ne pushti ki: 'emfitheater ke walt off sevrence men. rasatal ka daant.'"
     },
     {
       "id": "p18",
@@ -277,7 +311,9 @@
       ],
       "action": "Ha-Jun pockets his brother's cloth scrap, his bone gauntlet glowing ready for war.",
       "mood": "ready for the vault",
-      "sfx": "STAND..."
+      "sfx": "STAND...",
+      "prose_en": "Ha-Jun pockets his brother's cloth scrap, his bone gauntlet glowing ready for war.",
+      "prose_hi": "Ha-jun ne apne bhai ke kapde ke tukde ko jeb mein rakh liya, uski haddi ka kavach yudh ke liye taiyar hokar chamak raha tha."
     },
     {
       "id": "p19",
@@ -288,7 +324,9 @@
       ],
       "action": "Ha-Jun descends a sweeping circular staircase that wraps around a colossal sunken colosseum.",
       "mood": "entering the arena",
-      "sfx": "FOOTSTEPS..."
+      "sfx": "FOOTSTEPS...",
+      "prose_en": "Ha-Jun descends a sweeping circular staircase that wraps around a colossal sunken colosseum.",
+      "prose_hi": "Ha-jun ek vyapak golakar sidhi se utarta hai jo ek vishal dhanse hue colosium ke charon or lapetati hai."
     },
     {
       "id": "p20",
@@ -296,7 +334,9 @@
       "setting": "colosseum arena wide",
       "characters": [],
       "action": "A 200-meter circular gladiatorial arena paved in white petrified bones, surrounded by shattered spectator thrones.",
-      "mood": "the blood colosseum"
+      "mood": "the blood colosseum",
+      "prose_en": "A 200-meter circular gladiatorial arena paved in white petrified bones, surrounded by shattered spectator thrones.",
+      "prose_hi": "Safed pathrili haddiyon se bana 200 meter ka golakar gladatorial kshetra, toote hue darshak sinhasanon se ghira hua hai."
     },
     {
       "id": "p21",
@@ -305,7 +345,9 @@
       "characters": [],
       "action": "In the dead center of the arena, an obsidian obelisk suspends a floating 3-foot rhomboid crystal prism.",
       "mood": "the relic containment",
-      "sfx": "HUMMM..."
+      "sfx": "HUMMM...",
+      "prose_en": "In the dead center of the arena, an obsidian obelisk suspends a floating 3-foot rhomboid crystal prism.",
+      "prose_hi": "Akhade ke mrit kendra men, ek obsidian obilisk ek tairte hue 3-fut romboid crystal prism ko nilambit karta hai."
     },
     {
       "id": "p22",
@@ -323,7 +365,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Sealed inside the crystal: an eight-inch jagged curved dagger forged from solid midnight void matter.",
+      "prose_hi": "Cristal ke andar sil: ek aath inch ka dantedar ghumavdar khanjar jo thos aadhi raat ke shunya padarth se bana hai."
     },
     {
       "id": "p23",
@@ -334,7 +378,9 @@
       ],
       "action": "The moment Ha-Jun's boot touches the bone tiles, a low subsonic vibration rattles the colosseum pillars.",
       "mood": "awakening trigger",
-      "sfx": "VIBRATION..."
+      "sfx": "VIBRATION...",
+      "prose_en": "The moment Ha-Jun's boot touches the bone tiles, a low subsonic vibration rattles the colosseum pillars.",
+      "prose_hi": "Jis kshan ha-jun ka boot haddi ki tailon ko chhuta hai, ek kam subsonic kampan colosium stambhon ko hilata hai."
     },
     {
       "id": "p24",
@@ -355,7 +401,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro's feathers bristle: 'Upar dekho! The Apex Guardian!'.",
+      "prose_hi": "Kuro ke pankh fadak uthe: 'upar dekho! sheersh sanrshak!'."
     },
     {
       "id": "p25",
@@ -364,7 +412,9 @@
       "characters": [],
       "action": "Coiled like a bat among the high gothic vaults, a 40-foot Void Dragon unfurls its wings and drops.",
       "mood": "dragon dive",
-      "sfx": "ROOOAAARRR!!"
+      "sfx": "ROOOAAARRR!!",
+      "prose_en": "Coiled like a bat among the high gothic vaults, a 40-foot Void Dragon unfurls its wings and drops.",
+      "prose_hi": "Unchi gothic tahkhanon ke beech chamgadad ki tarah kundlit, 40 foot ka shunya dragon apne pankh failata hai aur girta hai."
     },
     {
       "id": "p26",
@@ -373,7 +423,9 @@
       "characters": [],
       "action": "The colossal beast lands with catastrophic weight, fracturing bones and sending shockwaves across the colosseum.",
       "mood": "impact crater",
-      "sfx": "BOOOOOMMM!!"
+      "sfx": "BOOOOOMMM!!",
+      "prose_en": "The colossal beast lands with catastrophic weight, fracturing bones and sending shockwaves across the colosseum.",
+      "prose_hi": "Vishal janwar vinashkari vajan ke saath utarta hai, haddiyan tod deta hai aur colosium mein sadme ki laharen bhej deta hai."
     },
     {
       "id": "p27",
@@ -382,7 +434,9 @@
       "characters": [],
       "action": "Sleek obsidian scales, four glowing indigo eyes, an elongated serpentine neck, and wings made of starry void space.",
       "mood": "apex dragon",
-      "sfx": "HSSSS!!"
+      "sfx": "HSSSS!!",
+      "prose_en": "Sleek obsidian scales, four glowing indigo eyes, an elongated serpentine neck, and wings made of starry void space.",
+      "prose_hi": "Chikne obsidian taraju, char chamakti neel aankhen, ek lambi sarpin gardan, aur taron se bhare shunya sthan se bane pankh."
     },
     {
       "id": "p28",
@@ -391,7 +445,9 @@
       "characters": [],
       "action": "The dragon's neck swells with blinding violet energy as it charges a full-power Spatial Breath beam.",
       "mood": "breath charging",
-      "sfx": "WHIRRR-CHARGE!!"
+      "sfx": "WHIRRR-CHARGE!!",
+      "prose_en": "The dragon's neck swells with blinding violet energy as it charges a full-power Spatial Breath beam.",
+      "prose_hi": "Dragon ki gardan andhi baingani urja se suj jaati hai kyonki yah ek purn-shakti sthanik shwas kiran ko charge karta hai."
     },
     {
       "id": "p29",
@@ -413,7 +469,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun crosses his twin flaming blades before him, irises blazing with fearless resolve.",
+      "prose_hi": "Ha-jun apne donon jwalant bledon ko apne samne rakhta hai, nidar sankalp ke saath dhadhakti hui aankhon ki putliyon ko dekhta hai."
     },
     {
       "id": "p30",
@@ -422,7 +480,9 @@
       "characters": [],
       "action": "A 10-meter-wide beam of pure space-deleting violet void fire blasts straight at Ha-Jun.",
       "mood": "spatial annihilation beam",
-      "sfx": "BOOOOOOOOOOMMM!!"
+      "sfx": "BOOOOOOOOOOMMM!!",
+      "prose_en": "A 10-meter-wide beam of pure space-deleting violet void fire blasts straight at Ha-Jun.",
+      "prose_hi": "Ha-jun mein shuddh antriksh-hatane wali baingani shunya aag ki 10 meter chaudi kiran sidhe visfot karti hai."
     }
   ]
 }

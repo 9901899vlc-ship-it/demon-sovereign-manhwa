@@ -13,7 +13,9 @@
       "characters": [],
       "action": "Three titanic demonic faces loom in the cosmic black clouds over the floating island: Iron, Shadow, and Void.",
       "mood": "titanic triumvirate",
-      "sfx": "THUNDER-VOID..."
+      "sfx": "THUNDER-VOID...",
+      "prose_en": "Three titanic demonic faces loom in the cosmic black clouds over the floating island: Iron, Shadow, and Void.",
+      "prose_hi": "Tairte dweep par brahmandiya kale baadalon mein teen titanic rakshasi chehre mandrate han: lauh, chhaya aur shunya."
     },
     {
       "id": "p02",
@@ -32,7 +34,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Lord Malgath's horned iron visage speaks: 'The mortal child who broke my gates... Hand over the relics and your death will be swift.'.",
+      "prose_hi": "Lord malgath ka seeng wala lohe ka drishya kehta hai: 'vah nashwar baccha jisne mere dwar tod die... avsheshon ko saunp do aur tumhari mrityu sheeghra hogi.'"
     },
     {
       "id": "p03",
@@ -41,7 +45,9 @@
       "characters": [],
       "action": "Lord Valac's shadow tendrils slither across the crystal grass like living ink, trying to trap Ha-Jun's boots.",
       "mood": "shadow snare",
-      "sfx": "HSSSS..."
+      "sfx": "HSSSS...",
+      "prose_en": "Lord Valac's shadow tendrils slither across the crystal grass like living ink, trying to trap Ha-Jun's boots.",
+      "prose_hi": "Lord valack ki chhaya tendril jeevit syahi ki tarah crystal ghas par fisalti hai, ha-jun ke jooton ko phansane ki koshish karti hai."
     },
     {
       "id": "p04",
@@ -60,7 +66,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Queen Lilith's masked void face whispers seductive poison: 'Join us, young Sovereign... Rule beside us instead of dying alone.'.",
+      "prose_hi": "Rani lilith ka nakabposh shunya chehra mohak jahar fusfusata hai: 'hamare saath juden, yuva samprabhu... akele marne ke bajay hamare saath shasan karen.'"
     },
     {
       "id": "p05",
@@ -79,7 +87,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun shouts with burning fury: 'Unki baat mat sunna, Ha-Jun! Yeh sab jhooth bolte hain!'.",
+      "prose_hi": "Taaye-jun jalte hue gusse se chillata hai: 'unki baat mat sunna, ha-jun! yeh sab jhooth bolte han!'."
     },
     {
       "id": "p06",
@@ -100,7 +110,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun tilts his chin upward, his dual-ringed eyes and cosmic galaxy eye shining with sovereign scorn.",
+      "prose_hi": "Ha-jun apni thuddi ko upar ki or jhukata hai, uski dohri-anguthi wali aankhen aur brahmandiya akashganga ki aankhen samprabhu tiraskar se chamakti han."
     },
     {
       "id": "p07",
@@ -109,7 +121,9 @@
       "characters": [],
       "action": "Malgath's iron visage roars: 'INSOLENT BRAT! SHADOW LEGION, ERASE HIM!'",
       "mood": "order to massacre",
-      "sfx": "ROAAARRRR!!"
+      "sfx": "ROAAARRRR!!",
+      "prose_en": "Malgath's iron visage roars: 'INSOLENT BRAT! SHADOW LEGION, ERASE HIM!'.",
+      "prose_hi": "Malgath ki lauh drishti dahadti hai: 'dheeth ladka! chhaya sena, use mita do!'"
     },
     {
       "id": "p08",
@@ -118,7 +132,9 @@
       "characters": [],
       "action": "From Valac's dark clouds, five hundred elite Shadow Assassins in bone masks dive like a black meteor shower.",
       "mood": "aerial invasion",
-      "sfx": "SWOOSH-DIVE!!"
+      "sfx": "SWOOSH-DIVE!!",
+      "prose_en": "From Valac's dark clouds, five hundred elite Shadow Assassins in bone masks dive like a black meteor shower.",
+      "prose_hi": "Valack ke kale baadalon se, haddi ke mukhaute mein paanch sau kulin chhaya hatyare kale ulka bauchhar ki tarah gota lagate han."
     },
     {
       "id": "p09",
@@ -129,7 +145,9 @@
       ],
       "action": "Ha-Jun unspools the heavy black chains from his torso, spinning them in a 20-meter perimeter circle.",
       "mood": "gravity perimeter",
-      "sfx": "CLANG-WHIRRR!!"
+      "sfx": "CLANG-WHIRRR!!",
+      "prose_en": "Ha-Jun unspools the heavy black chains from his torso, spinning them in a 20-meter perimeter circle.",
+      "prose_hi": "Ha-jun apne dhad se bhari kali janjeeron ko kholta hai, aur unhen 20-meter paridhi circle mein ghumata hai."
     },
     {
       "id": "p10",
@@ -140,7 +158,9 @@
       ],
       "action": "The moment the chains touch the ground, a localized 20x gravity field crushes everything within 20 meters.",
       "mood": "crushing gravity zone",
-      "sfx": "BOOOOOM-CRUSH!!"
+      "sfx": "BOOOOOM-CRUSH!!",
+      "prose_en": "The moment the chains touch the ground, a localized 20x gravity field crushes everything within 20 meters.",
+      "prose_hi": "Jis kshan janjeeren jameen ko chhuti han, ek sthaniya 20x gurutvakarshan kshetra 20 meter ke bhitar sab kuch kuchal deta hai."
     },
     {
       "id": "p11",
@@ -149,7 +169,9 @@
       "characters": [],
       "action": "The first hundred diving assassins are caught in the gravity well, slammed flat into the moss like pancakes.",
       "mood": "instant neutralization",
-      "sfx": "SPLAT-CRUNCH!!"
+      "sfx": "SPLAT-CRUNCH!!",
+      "prose_en": "The first hundred diving assassins are caught in the gravity well, slammed flat into the moss like pancakes.",
+      "prose_hi": "Pahle sau gotakhor hatyaron ko gurutvakarshan kuen mein pakad liya jata hai aur pancake ki tarah kai mein patak diya jata hai."
     },
     {
       "id": "p12",
@@ -160,7 +182,9 @@
       ],
       "action": "In his right hand: the spatial void dagger; in his left hand: the master gravity chain link.",
       "mood": "dual rare relic stance",
-      "sfx": "SHING-CLINK!"
+      "sfx": "SHING-CLINK!",
+      "prose_en": "In his right hand: the spatial void dagger; in his left hand: the master gravity chain link.",
+      "prose_hi": "Uske dahine haath men: sthanik shunya khanjar; unke baen haath men: master gravity chain link."
     },
     {
       "id": "p13",
@@ -171,7 +195,9 @@
       ],
       "action": "Ha-Jun loops the void dagger onto the end of the chain, hurling it like a devastating kusarigama.",
       "mood": "void chain scythe",
-      "sfx": "WHIP-FWOOSH!!"
+      "sfx": "WHIP-FWOOSH!!",
+      "prose_en": "Ha-Jun loops the void dagger onto the end of the chain, hurling it like a devastating kusarigama.",
+      "prose_hi": "Ha-jun ne shrinkhala ke ant mein shunya khanjar ko ghumaya, aur ise vinashkari kusarigma ki tarah fenk diya."
     },
     {
       "id": "p14",
@@ -182,7 +208,9 @@
       ],
       "action": "The spinning dagger at the end of the chain slices circular tears through space itself 360 degrees around him.",
       "mood": "spatial whirlwind",
-      "sfx": "SWIRRRLL-CLEAVE!!"
+      "sfx": "SWIRRRLL-CLEAVE!!",
+      "prose_en": "The spinning dagger at the end of the chain slices circular tears through space itself 360 degrees around him.",
+      "prose_hi": "Shrinkhla ke ant mein ghumta hua khanjar uske charon or 360 degree tak antriksh mein golakar cheera lagata hai."
     },
     {
       "id": "p15",
@@ -191,7 +219,9 @@
       "characters": [],
       "action": "The spatial chain scythe shreds through three hundred shadow assassins in three seconds, erasing them into smoke.",
       "mood": "mass annihilation",
-      "sfx": "SLASH-POOF-POOF!!"
+      "sfx": "SLASH-POOF-POOF!!",
+      "prose_en": "The spatial chain scythe shreds through three hundred shadow assassins in three seconds, erasing them into smoke.",
+      "prose_hi": "Sthanik shrinkhala daranti teen second mein teen sau chhaya hatyaron ko kaatati hai, aur unhen dhuen mein mita deti hai."
     },
     {
       "id": "p16",
@@ -202,7 +232,9 @@
       ],
       "action": "Kuro bathes the remaining ground forces in violet hellfire, clearing every last assassin from the island.",
       "mood": "flame cleanup",
-      "sfx": "FWOOOOOSHH!!"
+      "sfx": "FWOOOOOSHH!!",
+      "prose_en": "Kuro bathes the remaining ground forces in violet hellfire, clearing every last assassin from the island.",
+      "prose_hi": "Kuro ne shesh jamini balon ko baingani narkankaal mein nahlaya, aur dweep se har aakhiri hatyare ka safaya kar diya."
     },
     {
       "id": "p17",
@@ -213,7 +245,9 @@
       ],
       "action": "In under thirty seconds, the entire 500-assassin legion is completely eradicated; silence returns.",
       "mood": "effortless dominance",
-      "sfx": "WIND BREEZE..."
+      "sfx": "WIND BREEZE...",
+      "prose_en": "In under thirty seconds, the entire 500-assassin legion is completely eradicated; silence returns.",
+      "prose_hi": "Tis second se bhi kam samay men, 500-hatyaron ki puri sena puri tarah se nasht ho gai; sannata laut aata hai."
     },
     {
       "id": "p18",
@@ -233,7 +267,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The three titanic phantoms flicker, their smug superiority replaced with genuine, terrifying apprehension.",
+      "prose_hi": "Teen titanic pret timtimate han, unki atmasantusht shreshthata ki jagah vastvik, bhayanak aashanka ne le lee hai."
     },
     {
       "id": "p19",
@@ -244,7 +280,9 @@
       ],
       "action": "Ha-Jun snaps the chain back into his hand, the void dagger locking seamlessly into his palm.",
       "mood": "flawless recall",
-      "sfx": "SNAP-CLACK!"
+      "sfx": "SNAP-CLACK!",
+      "prose_en": "Ha-Jun snaps the chain back into his hand, the void dagger locking seamlessly into his palm.",
+      "prose_hi": "Ha-jun ne chain ko wapas apne haath mein khinch liya, khali khanjar uski hatheli mein nirbaadh roop se lock ho gaya."
     },
     {
       "id": "p20",
@@ -265,7 +303,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun points the Fang of Abyss directly at Malgath's 500-foot eye in the clouds.",
+      "prose_hi": "Ha-jun baadalon mein sidhe malgath ki 500 foot ki aankh par fang off abis ko ingit karta hai."
     },
     {
       "id": "p21",
@@ -284,7 +324,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Queen Lilith's masked phantom hisses: 'You are walking to your own funeral, boy. The Crown will destroy you.'.",
+      "prose_hi": "Rani lilith ka nakabposh pret fusfusata hai: 'tum apne antim sanskar ke liye chal rahe ho, ladke. taj tumhe nasht kar dega.'"
     },
     {
       "id": "p22",
@@ -293,7 +335,9 @@
       "characters": [],
       "action": "The three colossal demonic avatars dissolve into swirling black clouds, leaving the twin moons glowing again.",
       "mood": "triumvirate retreats",
-      "sfx": "DISSOLVE..."
+      "sfx": "DISSOLVE...",
+      "prose_en": "The three colossal demonic avatars dissolve into swirling black clouds, leaving the twin moons glowing again.",
+      "prose_hi": "Teen vishal rakshasi avtar ghumte hue kale baadalon mein vilin ho jaate han, jisse judwan chandrama phir se chamakne lagte han."
     },
     {
       "id": "p23",
@@ -301,7 +345,9 @@
       "setting": "sky over island",
       "characters": [],
       "action": "The black clouds part; ethereal violet morning light bathes the floating crystal island once more.",
-      "mood": "tranquility restored"
+      "mood": "tranquility restored",
+      "prose_en": "The black clouds part; ethereal violet morning light bathes the floating crystal island once more.",
+      "prose_hi": "Kale badal chhant jaate han; alaukik baingani subah ki roshni tairte crystal dweep ko ek baar phir se nahla deti hai."
     },
     {
       "id": "p24",
@@ -320,7 +366,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun claps Ha-Jun's shoulder firmly, laughing with tears of pure, proud joy.",
+      "prose_hi": "Taaye-jun ha-jun ke kandhe par majbuti se taali bajata hai, shuddh, garvit khushi ke aansuon ke saath hansta hai."
     },
     {
       "id": "p25",
@@ -341,7 +389,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's battle intensity melts away, returning to the gentle younger brother: 'Aapse seekha tha, Bhai.'.",
+      "prose_hi": "Ha-jun ki ladai ki tivrata kam ho jaati hai, aur wah saumya chhote bhai ke paas laut aata hai: 'aapse seekha tha, bhai.'"
     },
     {
       "id": "p26",
@@ -362,7 +412,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro nods approvingly: 'Ab rasta clear hai. Rare Relics ka triad complete ho chuka hai.'.",
+      "prose_hi": "Kuro ne swikruti mein sir hilaya: 'ab rasta saaf hai. 'durlbh avsheshon ka tray pura ho chuka hai.'"
     },
     {
       "id": "p27",
@@ -381,7 +433,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun points toward a colossal jagged mountain peak shrouded in lightning ten miles north.",
+      "prose_hi": "Taaye-jun das meal uttar mein bijli se ghiri ek vishal dantedar parvat choti ki or ishara karta hai."
     },
     {
       "id": "p28",
@@ -391,7 +445,9 @@
         "hajun"
       ],
       "action": "Ha-Jun's Eye of the Night pierces the clouds, spotting the golden-violet glow of the ancient throne.",
-      "mood": "the crown awaits"
+      "mood": "the crown awaits",
+      "prose_en": "Ha-Jun's Eye of the Night pierces the clouds, spotting the golden-violet glow of the ancient throne.",
+      "prose_hi": "Ha-jun ki raat ki aankh baadalon ko bhedati hai, aur prachin sinhasan ki sunhari-bangni chamak ko dekhti hai."
     },
     {
       "id": "p29",
@@ -413,7 +469,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun extends his wings, offering his back to Tae-Jun once more.",
+      "prose_hi": "Ha-jun apne pankh failata hai aur ek baar phir apni peeth taaye-jun ki or karta hai."
     },
     {
       "id": "p30",
@@ -434,7 +492,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun and Tae-Jun rocket into the violet morning sky toward Mount Obsidian, twin moons shining behind them.",
+      "prose_hi": "Ha-jun aur taaye-jun baingani subah ke aakash mein mount obsidian ki or rocket karte han, unke peeche judwan chandrama chamak rahe han."
     }
   ]
 }

@@ -13,7 +13,9 @@
       "characters": [],
       "action": "The 50-foot traffic jumbotron displays horrifying footage of Bureau bio-labs and Tae-Jun's stasis pod.",
       "mood": "public exposure",
-      "sfx": "STATIC-GLARE..."
+      "sfx": "STATIC-GLARE...",
+      "prose_en": "The 50-foot traffic jumbotron displays horrifying footage of Bureau bio-labs and Tae-Jun's stasis pod.",
+      "prose_hi": "50 foot ka traffic jumbotron bureau bio-lab aur taaye-jun ke stasis pod ke bhayavah footage pradarshit karta hai."
     },
     {
       "id": "p02",
@@ -33,7 +35,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Elite hunters lower their gear, looking up at the screen in horrified betrayal.",
+      "prose_hi": "Sambhrant shikari bhaybhit vishvasghat ke saath screen ki or dekhte hue apna gear neeche kar lete han."
     },
     {
       "id": "p03",
@@ -42,7 +46,9 @@
       "characters": [],
       "action": "Captain Baek turns his armored body toward the carrier roof, eyes burning with icy rage behind his visor.",
       "mood": "the knight turns",
-      "sfx": "HEAVY TREAD..."
+      "sfx": "HEAVY TREAD...",
+      "prose_en": "Captain Baek turns his armored body toward the carrier roof, eyes burning with icy rage behind his visor.",
+      "prose_hi": "Capton bak apne bakhtarband shareer ko vahak chhat ki or modata hai, uske chhajje ke peeche uski aankhen barfile gusse se jal rahi han."
     },
     {
       "id": "p04",
@@ -62,7 +68,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Baek points the tip of his six-foot Eclipse Greatsword directly at Director Kang's throat.",
+      "prose_hi": "Bek apne chhah foot ke aclips gratusward ki nok sidhe nirdeshak kang ke gale par lagata hai."
     },
     {
       "id": "p05",
@@ -82,7 +90,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Director Kang throws his head back, laughing with unhinged, psychopathic arrogance.",
+      "prose_hi": "Nirdeshak kang apna sir peeche jhukate hain aur aniyantrit, manorogi ahankaar ke saath hanste han."
     },
     {
       "id": "p06",
@@ -91,7 +101,9 @@
       "characters": [],
       "action": "Kang pulls a pressurized pneumatic injector loaded with an undulating black-purple liquid core.",
       "mood": "the chimera virus",
-      "sfx": "HSSSS..."
+      "sfx": "HSSSS...",
+      "prose_en": "Kang pulls a pressurized pneumatic injector loaded with an undulating black-purple liquid core.",
+      "prose_hi": "Cong ek lahardar kale-bangni taral core se bhare dabaavyukt vayviy injector ko khinchta hai."
     },
     {
       "id": "p07",
@@ -100,7 +112,9 @@
       "characters": [],
       "action": "With a terrifying grin, Director Kang slams the injector directly into his neck artery.",
       "mood": "self injection",
-      "sfx": "PNEUMATIC-THUD!!"
+      "sfx": "PNEUMATIC-THUD!!",
+      "prose_en": "With a terrifying grin, Director Kang slams the injector directly into his neck artery.",
+      "prose_hi": "Bhayanak muskurahat ke sath, nirdeshak kang ne injector ko sidhe apni gardan ki dhamni mein patak diya."
     },
     {
       "id": "p08",
@@ -109,7 +123,9 @@
       "characters": [],
       "action": "Kang's human skin splits open along his spine; black demonic ichor and jagged obsidian spikes erupt outward.",
       "mood": "monstrous metamorphosis",
-      "sfx": "CRACKLE-TEAR!!"
+      "sfx": "CRACKLE-TEAR!!",
+      "prose_en": "Kang's human skin splits open along his spine; black demonic ichor and jagged obsidian spikes erupt outward.",
+      "prose_hi": "Cong ki manav tvacha uski reedh ki haddi ke saath khul jaati hai; kali rakshasi ichor aur dantedar obsidian spikes bahar ki or footati han."
     },
     {
       "id": "p09",
@@ -118,7 +134,9 @@
       "characters": [],
       "action": "The reinforced steel armored carrier groans and buckles as Kang's mass triples into a nine-foot Chimera Fiend.",
       "mood": "crushed vehicle",
-      "sfx": "SCREEECH-CRUNCH!!"
+      "sfx": "SCREEECH-CRUNCH!!",
+      "prose_en": "The reinforced steel armored carrier groans and buckles as Kang's mass triples into a nine-foot Chimera Fiend.",
+      "prose_hi": "Jaise hi kang ka dravyamaan nau foot ke chimera fened mein teen guna ho jata hai, prabalit steel bakhtarband vahak karahata hai aur jhuk jata hai."
     },
     {
       "id": "p10",
@@ -138,7 +156,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "A nightmarish fusion: four glowing purple eyes, obsidian chitinous armor, two demonic horns, and razor-tentacles.",
+      "prose_hi": "Ek dusvapn sanlayan: char chamakti baingani aankhen, obsidian chitinus kavch, do rakshasi sing, aur rager-tentekals."
     },
     {
       "id": "p11",
@@ -147,7 +167,9 @@
       "characters": [],
       "action": "Kang launches a 30-foot serrated chitinous tentacle whip straight at Captain Baek's skull.",
       "mood": "lethal tentacle whip",
-      "sfx": "CRACK-WHIP!!"
+      "sfx": "CRACK-WHIP!!",
+      "prose_en": "Kang launches a 30-foot serrated chitinous tentacle whip straight at Captain Baek's skull.",
+      "prose_hi": "Cong ne captain bak ki khopdi par sidhe 30 foot ka daatedar chitinus tentekal chabuk chalaya."
     },
     {
       "id": "p12",
@@ -169,7 +191,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun appears instantaneously in front of Baek, his left bone gauntlet catching the tentacle mid-strike.",
+      "prose_hi": "Ha-jun turant bake ke samne prakat hota hai, uski bayin haddi ka hathiyar strike ke beech mein tentekal ko pakad leta hai."
     },
     {
       "id": "p13",
@@ -188,7 +212,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Captain Baek stares at the 17-year-old boy who just saved his life from his own commander.",
+      "prose_hi": "Capton bak us 17 varshiya ladke ko ghurkar dekhta hai jisne apne hi commander se apni jaan bachai hai."
     },
     {
       "id": "p14",
@@ -199,7 +225,9 @@
       ],
       "action": "Ha-Jun channels the Flame of the Fallen through his grip; violet hellfire races up the tentacle toward Kang.",
       "mood": "hellfire conduit",
-      "sfx": "FWOOOOOM!!"
+      "sfx": "FWOOOOOM!!",
+      "prose_en": "Ha-Jun channels the Flame of the Fallen through his grip; violet hellfire races up the tentacle toward Kang.",
+      "prose_hi": "Ha-jun apni pakad ke madhyam se patan ki jwala ko pravahit karta hai; baingani narkankaal kang ki or teji se badhta hai."
     },
     {
       "id": "p15",
@@ -208,7 +236,9 @@
       "characters": [],
       "action": "The demonic tentacle burns into purple ash in milliseconds; Kang shrieks, severing the limb in agony.",
       "mood": "scorched monster",
-      "sfx": "SKREEEECH!!"
+      "sfx": "SKREEEECH!!",
+      "prose_en": "The demonic tentacle burns into purple ash in milliseconds; Kang shrieks, severing the limb in agony.",
+      "prose_hi": "Rakshasi tambu milisecond mein baingani raakh mein jal jata hai; kang chillata hai, peeda se apna ang tod deta hai."
     },
     {
       "id": "p16",
@@ -229,7 +259,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun looks back with dual-ringed eyes: 'Captain... Sath mein ladte hain?'.",
+      "prose_hi": "Ha-jun dohri aankhon se peeche dekhta hai: 'capton... saath mein ladte han?'."
     },
     {
       "id": "p17",
@@ -249,7 +281,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Baek steps up beside Ha-Jun, his heavy blade humming with fierce righteous aura: 'Saath mein.'.",
+      "prose_hi": "Bak ha-jun ke bagal mein kadam rakhta hai, uska bhari blade bhayankar dharmik aabha ke saath gungunata hai: 'sath men.'"
     },
     {
       "id": "p18",
@@ -270,7 +304,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro glides in a halo of purple lightning: 'The Sovereign and the Hunter Captain! Tear him apart!'.",
+      "prose_hi": "Kuro baingani bijli ke prabhamandal mein chamakta hai: 'samprabhu aur shikari kaptan! use faad dalo!'"
     },
     {
       "id": "p19",
@@ -281,7 +317,9 @@
       ],
       "action": "Ha-Jun with flaming twin blood blades and Baek with the heavy Eclipse Greatsword charge in sync.",
       "mood": "synchronized assault",
-      "sfx": "FWOOSH-STOMP!!"
+      "sfx": "FWOOSH-STOMP!!",
+      "prose_en": "Ha-Jun with flaming twin blood blades and Baek with the heavy Eclipse Greatsword charge in sync.",
+      "prose_hi": "Ha-jun jwalant judwan rakt blade ke saath aur bak sink mein bhari aclips gratusward charge ke sath."
     },
     {
       "id": "p20",
@@ -290,7 +328,9 @@
       "characters": [],
       "action": "Kang opens his unhinged triple-jaw, spewing a 50-foot wave of flesh-melting demonic acid.",
       "mood": "acid torrent",
-      "sfx": "GUSH-HSSSS!!"
+      "sfx": "GUSH-HSSSS!!",
+      "prose_en": "Kang opens his unhinged triple-jaw, spewing a 50-foot wave of flesh-melting demonic acid.",
+      "prose_hi": "Cong ne apna khula tri-jabada khola aur maans pighlaane wale rakshasi acid ki 50 foot unchi lahar ugal di."
     },
     {
       "id": "p21",
@@ -301,7 +341,9 @@
       ],
       "action": "Ha-Jun thrusts his bone gauntlet forward; interlocking ivory plates expand into a 10-foot ballistic aegis.",
       "mood": "bone aegis",
-      "sfx": "EXPAND-LOCK!!"
+      "sfx": "EXPAND-LOCK!!",
+      "prose_en": "Ha-Jun thrusts his bone gauntlet forward; interlocking ivory plates expand into a 10-foot ballistic aegis.",
+      "prose_hi": "Ha-jun ne apni haddi ka kavach aage badhaya; interlocking ivory pleten 10 foot ke ballistic agis mein vistarit hoti han."
     },
     {
       "id": "p22",
@@ -312,7 +354,9 @@
       ],
       "action": "The corrosive acid hisses and evaporates against the diamond-density bone shield without causing a scratch.",
       "mood": "acid nullified",
-      "sfx": "SIZZLE-DEFLECT!!"
+      "sfx": "SIZZLE-DEFLECT!!",
+      "prose_en": "The corrosive acid hisses and evaporates against the diamond-density bone shield without causing a scratch.",
+      "prose_hi": "Sanksharak acid bina kisi kharonch ke here-ghanatv wali haddi dhal ke khilaf fusfusata hai aur vashpit ho jata hai."
     },
     {
       "id": "p23",
@@ -321,7 +365,9 @@
       "characters": [],
       "action": "Using the top rim of Ha-Jun's bone shield as a launch pad, Captain Baek catapults 20 feet into the air.",
       "mood": "co-op tactical vault",
-      "sfx": "VAULT-UP!!"
+      "sfx": "VAULT-UP!!",
+      "prose_en": "Using the top rim of Ha-Jun's bone shield as a launch pad, Captain Baek catapults 20 feet into the air.",
+      "prose_hi": "Lonch pad ke roop mein ha-jun ki haddi dhal ke sheersh rim ka upyog karte hue, captain bake 20 feet hawa mein udta hai."
     },
     {
       "id": "p24",
@@ -330,7 +376,9 @@
       "characters": [],
       "action": "Baek brings the 200-pound greatsword down with the entire weight of his momentum.",
       "mood": "guillotine strike",
-      "sfx": "BOOOOOM-SLASH!!"
+      "sfx": "BOOOOOM-SLASH!!",
+      "prose_en": "Baek brings the 200-pound greatsword down with the entire weight of his momentum.",
+      "prose_hi": "Bek apni gati ke poore bhaar ke saath 200 pound ki mahan talwar ko neeche lata hai."
     },
     {
       "id": "p25",
@@ -339,7 +387,9 @@
       "characters": [],
       "action": "The greatsword shears clean through Kang's massive spiked left arm, pinning the limb to the tarmac.",
       "mood": "amputation",
-      "sfx": "SPLAT-CRASH!!"
+      "sfx": "SPLAT-CRASH!!",
+      "prose_en": "The greatsword shears clean through Kang's massive spiked left arm, pinning the limb to the tarmac.",
+      "prose_hi": "Gratusward kainchi kang ke vishal nukile baen haath ko saaf kar deti hai, aur uske ang ko tarmac se chipka deti hai."
     },
     {
       "id": "p26",
@@ -350,7 +400,9 @@
       ],
       "action": "Ha-Jun slides beneath the roaring beast, driving both flaming blood katanas upward into its core chest.",
       "mood": "fatal cross-thrust",
-      "sfx": "X-STRIKE-SHING!!"
+      "sfx": "X-STRIKE-SHING!!",
+      "prose_en": "Ha-Jun slides beneath the roaring beast, driving both flaming blood katanas upward into its core chest.",
+      "prose_hi": "Ha-jun dahadte hue janwar ke neeche fisalta hai, aur donon dhadhakte rakt katanon ko uski mukhya chhati mein upar ki or le jata hai."
     },
     {
       "id": "p27",
@@ -359,7 +411,9 @@
       "characters": [],
       "action": "Violet-crimson flames detonate inside Kang's thoracic cavity, incinerating the synthetic demon core.",
       "mood": "core detonation",
-      "sfx": "KABOOOOMMM!!"
+      "sfx": "KABOOOOMMM!!",
+      "prose_en": "Violet-crimson flames detonate inside Kang's thoracic cavity, incinerating the synthetic demon core.",
+      "prose_hi": "Cong ki vaksh guha ke andar bangni-lal rang ki laptein footati han, jo synthetic danav core ko bhasm kar deti han."
     },
     {
       "id": "p28",
@@ -368,7 +422,9 @@
       "characters": [],
       "action": "The towering monstrosity collapses to its knees, demon flesh dissolving back into withered human corpse.",
       "mood": "abomination defeated",
-      "sfx": "SPLAT..."
+      "sfx": "SPLAT...",
+      "prose_en": "The towering monstrosity collapses to its knees, demon flesh dissolving back into withered human corpse.",
+      "prose_hi": "Vishal rakshasi apne ghutnon par gir jaati hai, danav ka maans wapas sukhe manav shav mein ghul jata hai."
     },
     {
       "id": "p29",
@@ -387,7 +443,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Director Kang coughs black blood, looking up at Ha-Jun with dying horror: 'Tum... Tumhe lagta hai yeh jeet hai...?'.",
+      "prose_hi": "Nirdeshak kang kali khansi ke saath khoon ki khansi karte han, ha-jun ki or darawani drishti se dekhte hue kahte han: 'tum...tumhen lagta hai yeh jeet hai...?'."
     },
     {
       "id": "p30",
@@ -396,7 +454,9 @@
       "characters": [],
       "action": "Director Kang dissolves into a pile of foul black ash, washed away by the heavy Seoul rain.",
       "mood": "evil purged",
-      "sfx": "WASH AWAY..."
+      "sfx": "WASH AWAY...",
+      "prose_en": "Director Kang dissolves into a pile of foul black ash, washed away by the heavy Seoul rain.",
+      "prose_hi": "Nirdeshak kang seoul ki bhari baarish se dhulkar gandi kali raakh ke dher mein ghul gaye."
     }
   ]
 }

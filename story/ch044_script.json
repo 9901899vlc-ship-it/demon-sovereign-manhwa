@@ -15,7 +15,9 @@
       ],
       "action": "Ha-Jun plunges straight down through the violet-glowing chasm, wind roaring past his ears at terminal velocity.",
       "mood": "dizzying descent",
-      "sfx": "FWOOOOOSHH!!"
+      "sfx": "FWOOOOOSHH!!",
+      "prose_en": "Ha-Jun plunges straight down through the violet-glowing chasm, wind roaring past his ears at terminal velocity.",
+      "prose_hi": "Ha-jun bangni-chamakdar khai se sidhe neeche girta hai, hawa uske kanon ke paas se tej gati se gujarti hai."
     },
     {
       "id": "p02",
@@ -36,7 +38,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro glides three feet away, his shadow feathers buffering the turbulence: 'Landing sequence ready karo!'.",
+      "prose_hi": "Kuro teen feet door fisalta hai, uski chhaya pankh ashanti ko rokti hai: 'landing sequence taiyar karo!'."
     },
     {
       "id": "p03",
@@ -45,7 +49,9 @@
       "characters": [],
       "action": "A massive reinforced bunker roof with twisted rebar and broken warning lights looms into view.",
       "mood": "incoming landing",
-      "sfx": "RAPID APPROACH..."
+      "sfx": "RAPID APPROACH...",
+      "prose_en": "A massive reinforced bunker roof with twisted rebar and broken warning lights looms into view.",
+      "prose_hi": "Mudi hui sariya aur tuti hui chetavani roshni ke saath ek vishal prabalit bunker chhat drishya mein dikhai deti hai."
     },
     {
       "id": "p04",
@@ -56,7 +62,9 @@
       ],
       "action": "Ha-Jun channels the Ring of Hollow Blood, generating a six-foot pressurized cushion of liquid blood below his soles.",
       "mood": "hydraulic deceleration",
-      "sfx": "WHIRRRR!!"
+      "sfx": "WHIRRRR!!",
+      "prose_en": "Ha-Jun channels the Ring of Hollow Blood, generating a six-foot pressurized cushion of liquid blood below his soles.",
+      "prose_hi": "Ha-jun ring off hollow blood ko prasarit karta hai, jisse uske talvon ke neeche taral rakt ka chhah foot ka dabaavyukt kushan utpann hota hai."
     },
     {
       "id": "p05",
@@ -67,7 +75,9 @@
       ],
       "action": "Ha-Jun smashes through the ceiling hole into Sub-Level 3, the blood cushion absorbing the entire 10-ton kinetic shock.",
       "mood": "perfect soft landing",
-      "sfx": "BOOOM-SPLAT!!"
+      "sfx": "BOOOM-SPLAT!!",
+      "prose_en": "Ha-Jun smashes through the ceiling hole into Sub-Level 3, the blood cushion absorbing the entire 10-ton kinetic shock.",
+      "prose_hi": "Ha-jun chhat ke chhed ke madhyam se up-star 3 mein ghus jata hai, rakt kushan poore 10-tan gatij jhatke ko avshoshit kar leta hai."
     },
     {
       "id": "p06",
@@ -78,7 +88,9 @@
       ],
       "action": "Ha-Jun stands up: an apocalyptic labyrinth of shattered cylindrical glass tanks, green bio-fluid flooding the floor.",
       "mood": "bunker ruins",
-      "sfx": "ALARM WAILING..."
+      "sfx": "ALARM WAILING...",
+      "prose_en": "Ha-Jun stands up: an apocalyptic labyrinth of shattered cylindrical glass tanks, green bio-fluid flooding the floor.",
+      "prose_hi": "Ha-jun khada hai: toote hue belanakar kaanch ke tankon ki ek sarvanashakari bhulbhulaiya, farsh par hare jaiv-taral padarth ki badh."
     },
     {
       "id": "p07",
@@ -87,7 +99,9 @@
       "characters": [],
       "action": "Dim red strobe lights flash through venting steam: 'WARNING: CONTAINMENT BREACH IN SECTOR 7'.",
       "mood": "abandoned facility",
-      "sfx": "BEEP... BEEP..."
+      "sfx": "BEEP... BEEP...",
+      "prose_en": "Dim red strobe lights flash through venting steam: 'WARNING: CONTAINMENT BREACH IN SECTOR 7'.",
+      "prose_hi": "Dhundhali lal strobe lightein bahar nikalne wali bhaap ke madhyam se chamakti han: 'chetavni: sector 7 mein niyantran ullanghan'."
     },
     {
       "id": "p08",
@@ -108,7 +122,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun checks his earpiece: 'Min-Jae, main Section 9 mein land ho chuka hoon. Map data relay karo.'.",
+      "prose_hi": "Ha-jun apna yearpis check karta hai: 'min-je, main section 9 mein land ho chuka hun. map data relay karo.'"
     },
     {
       "id": "p09",
@@ -128,7 +144,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae's voice crackles through satellite static: 'Sub-Level 7, Vault 09! Elevator shafts destroyed hain, stairwell use karo!'.",
+      "prose_hi": "Min-je ki awaz satellite static ke madhyam se gunjati hai: 'sab-leval 7, walt 09! lift ke shaft nasht ho gaye han, sidhi ka upyog karo!'."
     },
     {
       "id": "p10",
@@ -137,7 +155,9 @@
       "characters": [],
       "action": "Rapid, metallic skittering echoes from inside the overhead air conditioning ducts.",
       "mood": "monstrous ambush",
-      "sfx": "SKRITCH-SKRITCH!!"
+      "sfx": "SKRITCH-SKRITCH!!",
+      "prose_en": "Rapid, metallic skittering echoes from inside the overhead air conditioning ducts.",
+      "prose_hi": "Overhed air conditioning nalikaon ke andar se tej, dhatvik chheentein goonjati han."
     },
     {
       "id": "p11",
@@ -146,7 +166,9 @@
       "characters": [],
       "action": "Dozens of three-foot insectoid Abyssal Void Crawlers drop from the ceiling, their razor-mandibles dripping venom.",
       "mood": "creepy swarm",
-      "sfx": "HISS-DROP!!"
+      "sfx": "HISS-DROP!!",
+      "prose_en": "Dozens of three-foot insectoid Abyssal Void Crawlers drop from the ceiling, their razor-mandibles dripping venom.",
+      "prose_hi": "Darjanon teen foot ke kitbhakshi abisal void croller chhat se girte han, unke rager-mandibles se jahar tapakta hai."
     },
     {
       "id": "p12",
@@ -155,7 +177,9 @@
       "characters": [],
       "action": "Five crawlers leap simultaneously at Ha-Jun's face and throat from multiple angles.",
       "mood": "coordinated strike",
-      "sfx": "SWISH!!"
+      "sfx": "SWISH!!",
+      "prose_en": "Five crawlers leap simultaneously at Ha-Jun's face and throat from multiple angles.",
+      "prose_hi": "Panch croller kai konon se ha-jun ke chehre aur gale par ek saath chhalang lagate han."
     },
     {
       "id": "p13",
@@ -166,7 +190,9 @@
       ],
       "action": "Ha-Jun's blades ignite in violet-crimson glory with zero delay, spinning into a double-helix of flame.",
       "mood": "instant defense",
-      "sfx": "SHING-FWOOSH!!"
+      "sfx": "SHING-FWOOSH!!",
+      "prose_en": "Ha-Jun's blades ignite in violet-crimson glory with zero delay, spinning into a double-helix of flame.",
+      "prose_hi": "Ha-jun ke blade shunya vilamb ke saath bangni-lal rang ki mahima mein prajvalit hote han, lau ke duble-helix mein ghumte han."
     },
     {
       "id": "p14",
@@ -177,7 +203,9 @@
       ],
       "action": "In three lightning-fast fluid strokes, all five crawlers are cleanly cleaved in midair, dissolving into purple ash.",
       "mood": "effortless extermination",
-      "sfx": "SLASH-POOF!!"
+      "sfx": "SLASH-POOF!!",
+      "prose_en": "In three lightning-fast fluid strokes, all five crawlers are cleanly cleaved in midair, dissolving into purple ash.",
+      "prose_hi": "Teen bijli-tej taral stroke men, sabhi paanch croller hawa mein saf-saf saaf ho jaate han, baingani raakh mein ghul jaate han."
     },
     {
       "id": "p15",
@@ -199,7 +227,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro unleashes a stream of black-violet dragon breath from his beak, incinerating twenty crawlers in the hallway.",
+      "prose_hi": "Kuro ne apni chonch se kale-bangni dragon ki sanson ki ek dhara nikali, jisse dalan mein bees croller bhasm ho gaye."
     },
     {
       "id": "p16",
@@ -210,7 +240,9 @@
       ],
       "action": "Ha-Jun vaults over burning lab equipment, sprinting down the corridor at 50 mph.",
       "mood": "high speed dash",
-      "sfx": "FWOOSH!"
+      "sfx": "FWOOSH!",
+      "prose_en": "Ha-Jun vaults over burning lab equipment, sprinting down the corridor at 50 mph.",
+      "prose_hi": "Ha-jun jalte hue prayogshala upkaranon par hamla karta hai, galiyare mein 50 meal prati ghante ki gati se daudta hai."
     },
     {
       "id": "p17",
@@ -218,7 +250,9 @@
       "setting": "stairwell threshold",
       "characters": [],
       "action": "A foot-thick titanium security door sheared clean off its hinges by terrifying claw marks.",
-      "mood": "brutal passage"
+      "mood": "brutal passage",
+      "prose_en": "A foot-thick titanium security door sheared clean off its hinges by terrifying claw marks.",
+      "prose_hi": "Ek fut-mote titanium suraksha darvaje ke panje ke daravane nishanon ne uske kabje ko saaf kar diya."
     },
     {
       "id": "p18",
@@ -239,7 +273,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun touches the claw indentations: 'Yeh crawler ke marks nahi hain... Yeh humanoid claw marks hain.'.",
+      "prose_hi": "Ha-jun panje ke nishanon ko chhuta hai: 'ye croller ke nishan nahin han... yeh humanoid panje ke nishan han.'"
     },
     {
       "id": "p19",
@@ -250,7 +286,9 @@
       ],
       "action": "Ha-Jun leaps straight down through the open central stairwell spiral, dropping four levels in seconds.",
       "mood": "vertical plunge",
-      "sfx": "WHOOSH!!"
+      "sfx": "WHOOSH!!",
+      "prose_en": "Ha-Jun leaps straight down through the open central stairwell spiral, dropping four levels in seconds.",
+      "prose_hi": "Ha-jun khule kendriya sidhi sarpil ke madhyam se sidhe neeche chhalang lagata hai, aur second mein char star gira deta hai."
     },
     {
       "id": "p20",
@@ -261,7 +299,9 @@
       ],
       "action": "Ha-Jun lands outside the reinforced blast door labelled 'VAULT 09: SOVEREIGN SPECIMEN WING'.",
       "mood": "destination reached",
-      "sfx": "THUD!"
+      "sfx": "THUD!",
+      "prose_en": "Ha-Jun lands outside the reinforced blast door labelled 'VAULT 09: SOVEREIGN SPECIMEN WING'.",
+      "prose_hi": "Ha-jun 'volt 09: sovereign specimen ving' label wale prabalit blast darvaje ke bahar utarta hai."
     },
     {
       "id": "p21",
@@ -282,7 +322,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun swipes the titanium Level-10 card; the hydraulic locks release with a deep pneumatic hiss.",
+      "prose_hi": "Ha-jun titanium leval-10 card swipe karta hai; hydraulic taale ek gahri vayviy fusfusahat ke saath nikalte han."
     },
     {
       "id": "p22",
@@ -291,7 +333,9 @@
       "characters": [],
       "action": "Two interlocking half-ton steel doors grind apart, releasing clouds of cryogenic nitrogen fog.",
       "mood": "cryo vapor release",
-      "sfx": "CREAAAK-HSSSS..."
+      "sfx": "CREAAAK-HSSSS...",
+      "prose_en": "Two interlocking half-ton steel doors grind apart, releasing clouds of cryogenic nitrogen fog.",
+      "prose_hi": "Do interlocking aadha ton steel ke darvaje alag ho jaate han, jisse cryogenic nitrogen kohre ke badal nikalte han."
     },
     {
       "id": "p23",
@@ -301,7 +345,9 @@
         "hajun"
       ],
       "action": "A freezing, circular chamber lit by pale cyan floor tubes, frost coating every surface.",
-      "mood": "frozen laboratory"
+      "mood": "frozen laboratory",
+      "prose_en": "A freezing, circular chamber lit by pale cyan floor tubes, frost coating every surface.",
+      "prose_hi": "Halke siyan farsh tubon se prakashit ek thanda, golakar kaksh, har satah par thandh ki parat."
     },
     {
       "id": "p24",
@@ -310,7 +356,9 @@
       "characters": [],
       "action": "In the dead center stands the primary cryo-pod: the 4-inch bulletproof glass is blown outward from within.",
       "mood": "escape confirmed",
-      "sfx": "CRACKED SHARDS..."
+      "sfx": "CRACKED SHARDS...",
+      "prose_en": "In the dead center stands the primary cryo-pod: the 4-inch bulletproof glass is blown outward from within.",
+      "prose_hi": "Mrit kendra mein prathmik crio-pod khada hai: 4 inch ka bulletproof glass bhitar se bahar ki or uda hua hai."
     },
     {
       "id": "p25",
@@ -331,7 +379,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun grips the frosted metal frame of the empty pod: 'Khaali hai... Pod khali hai!'.",
+      "prose_hi": "Ha-jun khali pod ke frosted dhatu frame ko pakadta hai: 'khali hai... pod khali hai!'."
     },
     {
       "id": "p26",
@@ -340,7 +390,9 @@
       "characters": [],
       "action": "The stasis log display shows: 'AWAKENING STATUS: 100%. TIME OF BREACH: 30 MINUTES AGO'.",
       "mood": "fresh escape",
-      "sfx": "GLOW..."
+      "sfx": "GLOW...",
+      "prose_en": "The stasis log display shows: 'AWAKENING STATUS: 100%. TIME OF BREACH: 30 MINUTES AGO'.",
+      "prose_hi": "Stacis log display dikhata hai: 'jagriti sthiti: 100%. ullanghan ka samay: 30 minute pahle'."
     },
     {
       "id": "p27",
@@ -348,7 +400,9 @@
       "setting": "vault floor",
       "characters": [],
       "action": "A trail of glowing crimson footprints pressed into the frozen floor leads directly to the back of the chamber.",
-      "mood": "footprints of mana"
+      "mood": "footprints of mana",
+      "prose_en": "A trail of glowing crimson footprints pressed into the frozen floor leads directly to the back of the chamber.",
+      "prose_hi": "Jame hue farsh mein dabae gaye chamakte lal rang ke pairon ke nishan ka ek nishan sidhe kaksh ke peeche ki or jata hai."
     },
     {
       "id": "p28",
@@ -357,7 +411,9 @@
       "characters": [],
       "action": "The back concrete wall has been torn into a 30-foot swirling vortex of pure obsidian and violet abyssal space.",
       "mood": "the portal",
-      "sfx": "VOID RUMBLE!!"
+      "sfx": "VOID RUMBLE!!",
+      "prose_en": "The back concrete wall has been torn into a 30-foot swirling vortex of pure obsidian and violet abyssal space.",
+      "prose_hi": "Pichhe ki concrete ki deewar ko shuddh obsidian aur baingani gahre antriksh ke 30 foot ke ghumte bhanwar mein tod diya gaya hai."
     },
     {
       "id": "p29",
@@ -378,7 +434,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro stares into the swirling dimensional vortex: 'Tae-Jun is gate ke us paar gaya hai... Demon Realm mein.'.",
+      "prose_hi": "Kuro ghumte hue aayami bhanwar mein ghurta hai: 'taaye-jun is gate ke us paar gaya hai... danav kshetra men.'"
     },
     {
       "id": "p30",
@@ -399,7 +457,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun stands at the edge of the dimensional rift, violet lightning reflecting in his dual crimson-ringed eyes.",
+      "prose_hi": "Ha-jun aayami daraar ke kinare par khada hai, uski dohri lal-anguthi wali aankhon mein baingani bijli pratibimbit ho rahi hai."
     }
   ]
 }

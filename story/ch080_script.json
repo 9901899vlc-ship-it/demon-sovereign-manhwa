@@ -15,7 +15,9 @@
       ],
       "action": "Overhead dogfights of dragons, shadow soldiers, and anti-matter missiles light up the stormy Seoul clouds.",
       "mood": "apocalyptic sky war",
-      "sfx": "BOOM-FLASH-CRASH!!"
+      "sfx": "BOOM-FLASH-CRASH!!",
+      "prose_en": "Overhead dogfights of dragons, shadow soldiers, and anti-matter missiles light up the stormy Seoul clouds.",
+      "prose_hi": "Dregan, chhaya sainikon aur anti-mater misailon ki overhead dogfights tufani seoul baadalon ko roshan karti han."
     },
     {
       "id": "p02",
@@ -24,7 +26,9 @@
       "characters": [],
       "action": "Morvath, the Sovereign of Iron Decay, swings a hundred-foot titanium warhammer down at Ha-Jun at Mach 5.",
       "mood": "colossal hammer strike",
-      "sfx": "WHIRL-CRASH!!"
+      "sfx": "WHIRL-CRASH!!",
+      "prose_en": "Morvath, the Sovereign of Iron Decay, swings a hundred-foot titanium warhammer down at Ha-Jun at Mach 5.",
+      "prose_hi": "Iron deke ke samprabhu, morwath, ha-jun mein much 5 par ek sau foot ke titanium warhammer ko neeche ghumate han."
     },
     {
       "id": "p03",
@@ -46,7 +50,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Through the Eye of the Night and the Hourglass, Ha-Jun sees three ghost silhouettes showing where the hammer will land three seconds in the future.",
+      "prose_hi": "Rat ki aankh aur ghante ke chashme ke madhyam se, ha-jun ko teen bhutiya akritiyan dikhai deti hain jo dikhati hain ki hathauda bhavishya mein teen second mein kahan girega."
     },
     {
       "id": "p04",
@@ -57,7 +63,9 @@
       ],
       "action": "Ha-Jun tilts his head casually; the gargantuan hammer whistles past his ear, missing him by two millimeters.",
       "mood": "effortless precision",
-      "sfx": "SWOOSH-MISS!!"
+      "sfx": "SWOOSH-MISS!!",
+      "prose_en": "Ha-Jun tilts his head casually; the gargantuan hammer whistles past his ear, missing him by two millimeters.",
+      "prose_hi": "Ha-jun laparvahi se apna sir jhukata hai; vishalkay hathaude ne uske kaan ke paas se ct bajai, jisse wah do millimeter gayab ho gaya."
     },
     {
       "id": "p05",
@@ -77,7 +85,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun dives beneath the descending hammer shaft, slashing both bronze swords across Morvath's knee tendons.",
+      "prose_hi": "Taaye-jun utarte hue hathaude ke shaft ke neeche gota lagata hai, aur donon kansya talwaron ko morwath ke ghutne ke kandara se kaat deta hai."
     },
     {
       "id": "p06",
@@ -97,7 +107,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Morvath's knee buckles; golden coolant sprays as the titan drops to one knee on a floating skyscraper roof.",
+      "prose_hi": "Morwath ka ghutna jhuk gaya; jaise hi titan ek tairti hui gaganchumbi imarat ki chhat par ek ghutne tak girta hai, sunhare shitalak ka chhidkav hota hai."
     },
     {
       "id": "p07",
@@ -106,7 +118,9 @@
       "characters": [],
       "action": "Nyxara, the Sovereign of Black Nebulas, gestures with four clawed hands, raining twenty miniature black holes at Ha-Jun.",
       "mood": "black hole storm",
-      "sfx": "GRAVITY-PULL!!"
+      "sfx": "GRAVITY-PULL!!",
+      "prose_en": "Nyxara, the Sovereign of Black Nebulas, gestures with four clawed hands, raining twenty miniature black holes at Ha-Jun.",
+      "prose_hi": "Black nebulas ka shasak, niksara, char panje wale hathon se ishara karta hai, ha-jun par bees laghu black hole ki baarish karta hai."
     },
     {
       "id": "p08",
@@ -117,7 +131,9 @@
       ],
       "action": "Ha-Jun whips Chains of Ruin outward, looping the heavy adamantine links around the black holes and redirecting their pull.",
       "mood": "gravity redirected",
-      "sfx": "CLANG-WHIP!!"
+      "sfx": "CLANG-WHIP!!",
+      "prose_en": "Ha-Jun whips Chains of Ruin outward, looping the heavy adamantine links around the black holes and redirecting their pull.",
+      "prose_hi": "Ha-jun chains off ruin ko bahar ki or ghumata hai, black hole ke charon or bhari adamentin link ko loop karta hai aur unke khinchav ko punarnirdeshit karta hai."
     },
     {
       "id": "p09",
@@ -128,7 +144,9 @@
       ],
       "action": "Ha-Jun whips the chains; the twenty singularity spheres slingshot in a tight cluster straight into Nyxara's chest.",
       "mood": "gravitational rebound",
-      "sfx": "WHIP-SLING-BOOM!!"
+      "sfx": "WHIP-SLING-BOOM!!",
+      "prose_en": "Ha-Jun whips the chains; the twenty singularity spheres slingshot in a tight cluster straight into Nyxara's chest.",
+      "prose_hi": "Ha-jun janjeeron ko kode maarta hai; bees vilakshanta wale gulel ek tang samuh mein sidhe naksara ki chhati mein ghus jaate han."
     },
     {
       "id": "p10",
@@ -148,7 +166,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Nyxara shrieks as her bone armor crumples under forty million tons of gravitational compression.",
+      "prose_hi": "Jab chalis million ton gurutvakarshan sampidan ke tahat uski haddi ka kavach dhah jata hai, to niksara cheekhne lagti hai."
     },
     {
       "id": "p11",
@@ -170,7 +190,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Moving like twin comets of black and gold, the brothers cross blades in an X-pattern across Morvath's chest.",
+      "prose_hi": "Kale aur sone ke judwan dhumketuon ki tarah chalte hue, bhai morwath ki chhati par ek ex-patern mein blade paar karte han."
     },
     {
       "id": "p12",
@@ -179,7 +201,9 @@
       "characters": [],
       "action": "Morvath shudders, his chest cavity blasted open; he collapses and disintegrates into a storm of grey ash.",
       "mood": "morvath defeated",
-      "sfx": "KABOOOM-ASH!!"
+      "sfx": "KABOOOM-ASH!!",
+      "prose_en": "Morvath shudders, his chest cavity blasted open; he collapses and disintegrates into a storm of grey ash.",
+      "prose_hi": "Morwath kamp utha, uski chhati ki guha khul gai; wah dhah jata hai aur dhusar raakh ke toofan mein bikhar jata hai."
     },
     {
       "id": "p13",
@@ -199,7 +223,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Zeron rises to his full height, drawing an 80-foot scythe of pure antimatter: 'Useless fools. I will slaughter you myself.'.",
+      "prose_hi": "Zeron apni puri unchai tak uthta hai, shuddh antimatter ki 80 foot ki daranti khinchta hai: 'bekar murkh. main swayam tumhara vadh karunga.'"
     },
     {
       "id": "p14",
@@ -210,7 +236,9 @@
       ],
       "action": "Zeron vanishes and reappears zero inches from Ha-Jun's nose, swinging his scythe at Mach 20.",
       "mood": "blinding speed attack",
-      "sfx": "SNAP-TELEPORT!!"
+      "sfx": "SNAP-TELEPORT!!",
+      "prose_en": "Zeron vanishes and reappears zero inches from Ha-Jun's nose, swinging his scythe at Mach 20.",
+      "prose_hi": "Zeron gayab ho jata hai aur ha-jun ki naak se shunya inch door phir se prakat hota hai, apni daranti ko mac 20 par ghumata hai."
     },
     {
       "id": "p15",
@@ -221,7 +249,9 @@
       ],
       "action": "Blade meets scythe; the shockwave levels all glass windows across a ten-block radius in Yeouido.",
       "mood": "titanic parry",
-      "sfx": "KABOOOOOM-SHOCKWAVE!!"
+      "sfx": "KABOOOOOM-SHOCKWAVE!!",
+      "prose_en": "Blade meets scythe; the shockwave levels all glass windows across a ten-block radius in Yeouido.",
+      "prose_hi": "Bled daranti se milta hai; shockwev yeouido mein das-block ke dayre mein sabhi kaanch ki khidkiyon ko samtal kar deti hai."
     },
     {
       "id": "p16",
@@ -243,7 +273,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's royal violet eyes burn inches away from Zeron's glowing red oculars, neither yielding an inch.",
+      "prose_hi": "Ha-jun ki shahi baingani aankhen zeron ki chamakti lal aankhon se inch bhar door jalti han, na hi ek inch bhi jhukti han."
     },
     {
       "id": "p17",
@@ -264,7 +296,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's smile cuts like ice: 'And you're standing on my front porch.'.",
+      "prose_hi": "Ha-jun ki muskan barf ki tarah katati hai: 'aur tum mere samne baramde par khade ho.'"
     },
     {
       "id": "p18",
@@ -275,7 +309,9 @@
       ],
       "action": "The Ashen Heart detonates in Ha-Jun's chest; a point-blank volcanic cone of violet hellfire scorches Zeron's faceplate.",
       "mood": "point blank combustion",
-      "sfx": "FWOOOOSH-SCORCH!!"
+      "sfx": "FWOOOOSH-SCORCH!!",
+      "prose_en": "The Ashen Heart detonates in Ha-Jun's chest; a point-blank volcanic cone of violet hellfire scorches Zeron's faceplate.",
+      "prose_hi": "Ation heart ha-jun ki chhati mein futata hai; baingani narkankaal ka ek bindu-rikt jwalamukhi shanku zeron ke faceplate ko jhulsa deta hai."
     },
     {
       "id": "p19",
@@ -295,7 +331,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Zeron stumbles back through the clouds, cursing as his molten faceplate drips burning slag into the rain.",
+      "prose_hi": "Ziron baadalon ke madhyam se ladkhadata hua wapas laut aata hai, shaap deta hai kyonki uska pighla hua faceplate baarish mein jalta hua lava tapkata hai."
     },
     {
       "id": "p20",
@@ -315,7 +353,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun dives from a cloud bank, pinning Zeron's scythe-wings together with his enchanted bronze blades.",
+      "prose_hi": "Taaye-jun ek cloud bank se gota lagata hai, zeron ke skith-pankhon ko apne mantramugdh kansya blade ke saath pin karta hai."
     },
     {
       "id": "p21",
@@ -326,7 +366,9 @@
       ],
       "action": "Ha-Jun rockets forward; the Sanguine Fang expands into a 50-foot greatsword of pure cosmic starlight and blood.",
       "mood": "blade overcharged",
-      "sfx": "CELESTIAL BLADE ROAR!!"
+      "sfx": "CELESTIAL BLADE ROAR!!",
+      "prose_en": "Ha-Jun rockets forward; the Sanguine Fang expands into a 50-foot greatsword of pure cosmic starlight and blood.",
+      "prose_hi": "Ha-jun rocket aage; senguin fang shuddh brahmandiya taron ki roshni aur rakt ki 50 foot ki mahan talwar mein vistarit hota hai."
     },
     {
       "id": "p22",
@@ -348,7 +390,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "A clean, horizontal line of blinding violet starlight shears cleanly through Zeron's 15-foot armored neck.",
+      "prose_hi": "Zeron ki 15 foot ki bakhtarband gardan ke madhyam se chamakdar baingani taron ki roshni wali kainchi ki ek saf, kshaitij rekha saf-saf gujarti hai."
     },
     {
       "id": "p23",
@@ -357,7 +401,9 @@
       "characters": [],
       "action": "Zeron's giant horned helm spins into the storm clouds, his red oculars extinguishing in disbelief.",
       "mood": "death of the prime commander",
-      "sfx": "SPIN-FALL..."
+      "sfx": "SPIN-FALL...",
+      "prose_en": "Zeron's giant horned helm spins into the storm clouds, his red oculars extinguishing in disbelief.",
+      "prose_hi": "Zeron ka vishal seeng wala patwar toofani baadalon mein ghumta hai, uski lal aankhen avishvas mein bujh jaati han."
     },
     {
       "id": "p24",
@@ -366,7 +412,9 @@
       "characters": [],
       "action": "The 15-foot titan corpse hits the frozen river with a colossal seismic thud, bursting into harmless grey ash.",
       "mood": "first throne shattered",
-      "sfx": "CRASH-THUDDD!!"
+      "sfx": "CRASH-THUDDD!!",
+      "prose_en": "The 15-foot titan corpse hits the frozen river with a colossal seismic thud, bursting into harmless grey ash.",
+      "prose_hi": "15 foot ka titan shav ek vishal bhukampiy dhamake ke saath jami hui nadi se takrata hai, jo hanirahit bhure raakh mein badal jata hai."
     },
     {
       "id": "p25",
@@ -375,7 +423,9 @@
       "characters": [],
       "action": "Seeing their supreme general beheaded, the remaining thousands of void beasts turn and flee toward the portals in terror.",
       "mood": "army in rout",
-      "sfx": "SHRIEK-FLEE!!"
+      "sfx": "SHRIEK-FLEE!!",
+      "prose_en": "Seeing their supreme general beheaded, the remaining thousands of void beasts turn and flee toward the portals in terror.",
+      "prose_hi": "Apne sarvochch senapati ka sir katte dekh, shesh hajaron shunya janwar bhaybhit hokar dwar ki or bhag gaye."
     },
     {
       "id": "p26",
@@ -386,7 +436,9 @@
       ],
       "action": "The brothers touch down lightly on the bridge pillar, blades lowered as the rain cools their smoking armor.",
       "mood": "victory on earth",
-      "sfx": "RAIN PATTER..."
+      "sfx": "RAIN PATTER...",
+      "prose_en": "The brothers touch down lightly on the bridge pillar, blades lowered as the rain cools their smoking armor.",
+      "prose_hi": "Bhai pul ke khambhe ko halke se chhute han, blade neeche ho jaate hain kyonki baarish unke dhumrapan kavach ko thanda kar deti hai."
     },
     {
       "id": "p27",
@@ -405,7 +457,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Millions of citizens across Seoul pour onto balconies and streets, waving and cheering for the two brothers.",
+      "prose_hi": "Siyol bhar mein lakhon nagrik balkaniyon aur sadkon par khade hokar donon bhaiyon ke liye haath hila rahe hain aur unki jay-jaikar kar rahe han."
     },
     {
       "id": "p28",
@@ -427,7 +481,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro's feathers ruffle in panic: 'Don't celebrate yet. Zeron and Morvath were only the vanguard heralds.'.",
+      "prose_hi": "Kuro ke pankh ghabrahat se fadfadane lage: 'abhi jashn mat manao. zeron aur morwath keval agrani agradoot the.'"
     },
     {
       "id": "p29",
@@ -446,7 +502,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "A thousand-mile red eye opens across the entire sky above Earth: The Void Primordial Entity itself.",
+      "prose_hi": "Prithvi ke upar poore aakash mein ek hajar meal ki lal aankh khulti hai: swayam shunya aadim ikai."
     },
     {
       "id": "p30",
@@ -468,7 +526,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun and Tae-Jun stand shoulder-to-shoulder, their blades glowing as the final, ultimate war looms!.",
+      "prose_hi": "Ha-jun aur taaye-jun kandhe se kandha milakar khade han, unke blade antim, antim yudh ke roop mein chamak rahe han!"
     }
   ]
 }

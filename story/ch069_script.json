@@ -13,7 +13,9 @@
       "characters": [],
       "action": "The 15-foot Chimera Prime rockets across the frozen floor at 100 mph, all four titanium-toothed chainsaw arms roaring.",
       "mood": "monstrous blitz",
-      "sfx": "VRRRRRR-ROAR!!"
+      "sfx": "VRRRRRR-ROAR!!",
+      "prose_en": "The 15-foot Chimera Prime rockets across the frozen floor at 100 mph, all four titanium-toothed chainsaw arms roaring.",
+      "prose_hi": "Jame hue farsh par 100 meal prati ghante ki gati se 15 foot ka chimera prime rocket, sabhi char titenium-daantedar chainsaw hathiyar garjana kar rahe han."
     },
     {
       "id": "p02",
@@ -24,7 +26,9 @@
       ],
       "action": "Four whirling blades converge from all four angles simultaneously to mince Ha-Jun into red pulp.",
       "mood": "lethal convergence",
-      "sfx": "SLASH-WHIRL!!"
+      "sfx": "SLASH-WHIRL!!",
+      "prose_en": "Four whirling blades converge from all four angles simultaneously to mince Ha-Jun into red pulp.",
+      "prose_hi": "Ha-jun ko lal gude mein badalne ke liye char ghumne wale blade ek saath sabhi char konon se ekatrit hote han."
     },
     {
       "id": "p03",
@@ -35,7 +39,9 @@
       ],
       "action": "Ha-Jun tilts his head three inches; the blades shear through his shadow afterimage, biting into empty air.",
       "mood": "godlike reflex",
-      "sfx": "SWOOSH-DODGE!!"
+      "sfx": "SWOOSH-DODGE!!",
+      "prose_en": "Ha-Jun tilts his head three inches; the blades shear through his shadow afterimage, biting into empty air.",
+      "prose_hi": "Ha-jun apna sir teen inch jhukata hai; blade uski chhaya ke madhyam se khali hawa mein kaatate hue katarate han."
     },
     {
       "id": "p04",
@@ -44,7 +50,9 @@
       "characters": [],
       "action": "The four blades bite five feet deep into the reinforced bedrock, spraying sparks, shattered rebar, and granite rubble.",
       "mood": "catastrophic miss",
-      "sfx": "KABOOM-SPARK!!"
+      "sfx": "KABOOM-SPARK!!",
+      "prose_en": "The four blades bite five feet deep into the reinforced bedrock, spraying sparks, shattered rebar, and granite rubble.",
+      "prose_hi": "Char blade prabalit chattan mein paanch feet gahrai tak chhed karte han, jisse chingari, tuti hui sariya aur granite ka malba nikalta hai."
     },
     {
       "id": "p05",
@@ -66,7 +74,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun stands weightlessly balanced upon the monster's left shoulder hydraulic casing, coat rustling.",
+      "prose_hi": "Ha-jun rakshas ke baen kandhe ke hydraulic aavaran, coat sarsrahat par bharahin roop se santulit khada hai."
     },
     {
       "id": "p06",
@@ -75,7 +85,9 @@
       "characters": [],
       "action": "The monster's chest vents pop open; an incandescent beam of green plasma erupts straight at Ha-Jun's face.",
       "mood": "plasma breath",
-      "sfx": "FZZZZT-BEAM!!"
+      "sfx": "FZZZZT-BEAM!!",
+      "prose_en": "The monster's chest vents pop open; an incandescent beam of green plasma erupts straight at Ha-Jun's face.",
+      "prose_hi": "Rakshs ki chhati khul jaati hai; hare plasma ki ek garmagaram kiran sidhe ha-jun ke chehre par footati hai."
     },
     {
       "id": "p07",
@@ -86,7 +98,9 @@
       ],
       "action": "The Eclipse Devourer relic opens a miniature black hole before Ha-Jun's palm, absorbing the million-degree beam completely.",
       "mood": "devouring energy",
-      "sfx": "SLURP-VOID!!"
+      "sfx": "SLURP-VOID!!",
+      "prose_en": "The Eclipse Devourer relic opens a miniature black hole before Ha-Jun's palm, absorbing the million-degree beam completely.",
+      "prose_hi": "Aclips davoorer avashesh ha-jun ki hatheli ke samne ek laghu black hole kholta hai, jo milion-degri kiran ko puri tarah se avshoshit karta hai."
     },
     {
       "id": "p08",
@@ -108,7 +122,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun unsheathes the flaming Sanguine Fang in a reverse grip and plunges it into the cyber-spine.",
+      "prose_hi": "Ha-jun ne jwalant senguin fang ko reverse grip mein khol diya aur use cyber-rearh mein daal diya."
     },
     {
       "id": "p09",
@@ -117,7 +133,9 @@
       "characters": [],
       "action": "Black and purple flames burst from the monster's hydraulic seams, eyes, and joints, cooking the synthetic core from inside.",
       "mood": "internal combustion",
-      "sfx": "INTERNAL ROAR!!"
+      "sfx": "INTERNAL ROAR!!",
+      "prose_en": "Black and purple flames burst from the monster's hydraulic seams, eyes, and joints, cooking the synthetic core from inside.",
+      "prose_hi": "Rakshs ke hydraulic sim, aankhon aur jodon se kali aur baingani rang ki laptein footati han, jo andar se synthetic core ko pakaati han."
     },
     {
       "id": "p10",
@@ -126,7 +144,9 @@
       "characters": [],
       "action": "With four clean hydraulic snaps, the monstrous arms shear off at the shoulders, falling into the ice.",
       "mood": "disarmed titan",
-      "sfx": "CLATTER-CRASH!!"
+      "sfx": "CLATTER-CRASH!!",
+      "prose_en": "With four clean hydraulic snaps, the monstrous arms shear off at the shoulders, falling into the ice.",
+      "prose_hi": "Char swachh hydraulic snap ke sath, rakshasi bhujaen kandhon se takraakar barf mein gir jaati han."
     },
     {
       "id": "p11",
@@ -137,7 +157,9 @@
       ],
       "action": "Ha-Jun lands with surgical poise thirty feet away, flicking black demonic oil off the edge of his blood katana.",
       "mood": "calm executioner",
-      "sfx": "CLICK-SHEATHE..."
+      "sfx": "CLICK-SHEATHE...",
+      "prose_en": "Ha-Jun lands with surgical poise thirty feet away, flicking black demonic oil off the edge of his blood katana.",
+      "prose_hi": "Ha-jun tees feet door surgical santulan ke saath utarta hai, aur apne rakt katana ke kinare se kala rakshasi tel nikalta hai."
     },
     {
       "id": "p12",
@@ -146,7 +168,9 @@
       "characters": [],
       "action": "The fifteen-foot monstrosity topples forward like a felled oak tree, its cybernetic core smoking and dying.",
       "mood": "titan neutralized",
-      "sfx": "THUDDD..."
+      "sfx": "THUDDD...",
+      "prose_en": "The fifteen-foot monstrosity topples forward like a felled oak tree, its cybernetic core smoking and dying.",
+      "prose_hi": "Pandrah foot ki vishalta kate hue oak ke ped ki tarah aage ki or girti hai, iska cybernetic core dhumrapan aur mar raha hai."
     },
     {
       "id": "p13",
@@ -166,7 +190,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "On the giant wall screen, Dr. Vance drops his wine glass; it shatters on his private office floor.",
+      "prose_hi": "Vishal deewar screen par, do. vens apna wine glass girate han; yah unke niji karyalay ke farsh par bikhar gaya."
     },
     {
       "id": "p14",
@@ -177,7 +203,9 @@
       ],
       "action": "Ha-Jun doesn't even glance back at the dead beast; he walks straight back to the blinking data terminal.",
       "mood": "unshakable purpose",
-      "sfx": "STEP-STEP..."
+      "sfx": "STEP-STEP...",
+      "prose_en": "Ha-Jun doesn't even glance back at the dead beast; he walks straight back to the blinking data terminal.",
+      "prose_hi": "Ha-jun mrit janwar ki or mudkar bhi nahin dekhta; wah sidhe blinking data terminal par wapas chala jata hai."
     },
     {
       "id": "p15",
@@ -199,7 +227,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro taps four specific keys, entering an encrypted access string: 'TAE-JUN-SHIELD-07'.",
+      "prose_hi": "Kuro char vishisht kunjiyon ko tap karta hai, ek encrypted access string mein pravesh karta hai: 'TAE-JUN-SHIELD-07'."
     },
     {
       "id": "p16",
@@ -208,7 +238,9 @@
       "characters": [],
       "action": "A secret folder marked with a padlock icon opens, revealing hundreds of dated diary entries spanning six years.",
       "mood": "the guardian's diary",
-      "sfx": "FOLDER UNSEAL..."
+      "sfx": "FOLDER UNSEAL...",
+      "prose_en": "A secret folder marked with a padlock icon opens, revealing hundreds of dated diary entries spanning six years.",
+      "prose_hi": "Padlock icon se chinhit ek gupt folder khulta hai, jisme chhah varshon ki saikadon dinankit diary pravistiyan samne aati han."
     },
     {
       "id": "p17",
@@ -216,7 +248,9 @@
       "setting": "memory vignette",
       "characters": [],
       "action": "Flashback: 13-year-old Ha-Jun cornered in an alley by three high school delinquents with wooden bats.",
-      "mood": "childhood vulnerability"
+      "mood": "childhood vulnerability",
+      "prose_en": "13-year-old Ha-Jun cornered in an alley by three high school delinquents with wooden bats.",
+      "prose_hi": "13 varshiya ha-jun ko high school ke teen apradhiyon ne lakdi ke ballon se ek gali mein gher liya."
     },
     {
       "id": "p18",
@@ -235,7 +269,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "From the rooftop above, a black bird's shadow flits; the bullies' bats suddenly split in half mysteriously and they flee in terror.",
+      "prose_hi": "Upar chhat se ek kali chidiya ki chhaya udti hai; badmashon ke chamgadad achanak rahasyamay tarike se aadhe hisse mein bant gaye aur ve darkar bhag gaye."
     },
     {
       "id": "p19",
@@ -254,7 +290,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "14-year-old Ha-Jun hospitalized with severe pneumonia, the nurse handing him a receipt stamped 'PAID IN FULL - ANONYMOUS BENEFACTOR'.",
+      "prose_hi": "14 varshiya ha-jun ko gambhir nimoniya ke karan aspataal mein bharti karaya gaya, nurse ne use ek rasid di jis par 'pura bhugtan - agyat labharthi' likha hua tha."
     },
     {
       "id": "p20",
@@ -274,7 +312,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Terminal log: 'Subject Zero volunteered for high-risk marrow extraction in exchange for anonymous bank transfer to Seoul National Hospital.'.",
+      "prose_hi": "Torminal log: 'sabject zero ne seoul national hospital mein gumnaam bank hastantaran ke badle mein uchch jokhim wale majja nishkarshan ke liye swechha se kaam kiya.'"
     },
     {
       "id": "p21",
@@ -296,7 +336,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun clutches his chest over his beating heart; his knees tremble as the sheer weight of Tae-Jun's love crushes his breath.",
+      "prose_hi": "Ha-jun ne apne dhadkate dil ko apni chhati se pakad liya; uske ghutne kampane lagte hain kyonki taaye-jun ke pyar ka bhari bojh uski sanson ko kuchal deta hai."
     },
     {
       "id": "p22",
@@ -319,7 +361,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro folds his raven wing against Ha-Jun's wet cheek: 'He was proud of you every single day, Ha-Jun.'.",
+      "prose_hi": "Kuro ne ha-jun ke gile gaal par apna kaua pankh moda: 'use har din tum par garv hota tha, ha-jun.'"
     },
     {
       "id": "p23",
@@ -330,7 +374,9 @@
       ],
       "action": "Ha-Jun closes his eyes; the tears stop. His breath stabilizes into a deep, rhythmic monastic calm.",
       "mood": "crystallization of resolve",
-      "sfx": "BREATHE IN..."
+      "sfx": "BREATHE IN...",
+      "prose_en": "Ha-Jun closes his eyes; the tears stop. His breath stabilizes into a deep, rhythmic monastic calm.",
+      "prose_hi": "Ha-jun ne apni aankhen band kar lin; aansu ruk jaate han. uski saans ek gahri, laybaddh mathvasi shanti mein sthir ho jaati hai."
     },
     {
       "id": "p24",
@@ -341,7 +387,9 @@
       ],
       "action": "His eyes open: steady, razor-sharp, burning with pure royal authority and love.",
       "mood": "unshakeable conviction",
-      "sfx": "LIGHT FLARE!!"
+      "sfx": "LIGHT FLARE!!",
+      "prose_en": "His eyes open: steady, razor-sharp, burning with pure royal authority and love.",
+      "prose_hi": "Uski aankhen khulti han: sthir, ustra-tej, shuddh shahi adhikar aur prem se jalti hui."
     },
     {
       "id": "p25",
@@ -362,7 +410,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun looks Vance directly in his cybernetic eye: 'Vance. Where is the gate to Tartarus?'.",
+      "prose_hi": "Ha-jun vens ko sidhe apni cybernetic aankh mein dekhta hai: 'vence. tarters ka dwar kahan hai?'"
     },
     {
       "id": "p26",
@@ -382,7 +432,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Vance loosens his tie, sweat beading on his forehead: 'Even if I tell you, Tartarus is the Void Primordial's seat! You can't enter without dying!'.",
+      "prose_hi": "Vence ne apni tie dhili kar di, uske mathe par pasina aa gaya: 'bhale hi main aapko bataun, tarters shunya primordial ki seat hai! aap bina mare pravesh nahin kar sakte!'."
     },
     {
       "id": "p27",
@@ -404,7 +456,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun aims the glowing tip of the Sanguine Fang right at the camera lens: 'I killed the First Sovereign in my mindscape. Your Three Sovereigns are just meat.'.",
+      "prose_hi": "Ha-jun ne camere ke lens par senguin fang ki chamakti nok ka lakshya rakha hai: 'maine apne mindscap mein pehle sovereign ko maar dala. aapki teen prabhusattaen keval maans han.'"
     },
     {
       "id": "p28",
@@ -424,7 +478,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Baek yanks a flash drive from the port: 'I got it! The primary interdimensional portal is located under Incheon Subsea Tunnel Shaft 4!'.",
+      "prose_hi": "Bek ne bandargah se ek flash drive khinchi: 'mujhe mil gaya! prathmik antaayami portal inchiyon sabasi tunnel shaft 4!' ke antargat sthit hai."
     },
     {
       "id": "p29",
@@ -435,7 +491,9 @@
       ],
       "action": "Ha-Jun flicks his index finger; a shockwave of violet mana shatters the giant wall monitor into sparking glass shards.",
       "mood": "silencing the villain",
-      "sfx": "KABOOOM-SHATTER!!"
+      "sfx": "KABOOOM-SHATTER!!",
+      "prose_en": "Ha-Jun flicks his index finger; a shockwave of violet mana shatters the giant wall monitor into sparking glass shards.",
+      "prose_hi": "Ha-jun apni tarjani hilata hai; baingani maina ki ek shockwev vishal deewar monitor ko sparkling glass ke tukdon mein tod deti hai."
     },
     {
       "id": "p30",
@@ -457,7 +515,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun turns toward the exit tunnel, coat billowing, Kuro perched proudly on his shoulder: 'Let's go get my brother.'.",
+      "prose_hi": "Ha-jun nikas surang ki or mudta hai, coat lahrata hai, kuro garv se uske kandhe par baitha hai: 'chalo mere bhai ko le aao.'"
     }
   ]
 }

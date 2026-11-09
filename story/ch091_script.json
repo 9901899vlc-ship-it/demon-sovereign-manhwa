@@ -15,7 +15,9 @@
       ],
       "action": "The colossal shadow dissolves into millions of golden star-particles, raining softly across the black water.",
       "mood": "titan dissolved into light",
-      "sfx": "GLITTER SHOWER..."
+      "sfx": "GLITTER SHOWER...",
+      "prose_en": "The colossal shadow dissolves into millions of golden star-particles, raining softly across the black water.",
+      "prose_hi": "Vishal chhaya lakhon sunhare taara-kanon mein vilin ho jaati hai aur kale pani mein dhire-dhire barasti hai."
     },
     {
       "id": "p02",
@@ -26,7 +28,9 @@
       ],
       "action": "The purified energy spirals around Ha-Jun, soaking into his pores, skin, and bone marrow like liquid warmth.",
       "mood": "energy absorption",
-      "sfx": "SWIRL-WARMTH..."
+      "sfx": "SWIRL-WARMTH...",
+      "prose_en": "The purified energy spirals around Ha-Jun, soaking into his pores, skin, and bone marrow like liquid warmth.",
+      "prose_hi": "Shuddh urja ha-jun ke charon or ghumti hai, taral garmi ki tarah uske chhidron, tvacha aur asthi majja mein sama jaati hai."
     },
     {
       "id": "p03",
@@ -47,7 +51,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "The physical forms of the Feather, Ring, Bone, Heart, Fang, Eye, Chains, Crown, Devourer, and Hourglass hover around him, cracking with golden light.",
+      "prose_hi": "Pankh, anguthi, haddi, hridy, daant, aankh, janjeer, mukut, bhakshak aur ghantaghar ke bhautik roop uske charon or mandrate han, sunhari roshni se tutate han."
     },
     {
       "id": "p04",
@@ -58,7 +64,9 @@
       ],
       "action": "All ten relics shatter into clouds of brilliant stardust, shedding their mortal physical forms forever.",
       "mood": "shedding physical form",
-      "sfx": "SHATTER-CLANG!!"
+      "sfx": "SHATTER-CLANG!!",
+      "prose_en": "All ten relics shatter into clouds of brilliant stardust, shedding their mortal physical forms forever.",
+      "prose_hi": "Sabhi das avashesh chamakdar stardust ke baadalon mein bikhar gaye, aur apne nashwar bhautik swaroop ko hamesha ke liye tyaag diya."
     },
     {
       "id": "p05",
@@ -81,7 +89,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro watches his original Fallen Feather dissolve into pure starlight, tears of joy shining in his eyes.",
+      "prose_hi": "Kuro apne mool gire hue pankh ko shuddh taron ki roshni mein ghulte hue dekhta hai, uski aankhon mein khushi ke aansu chamak rahe han."
     },
     {
       "id": "p06",
@@ -92,7 +102,9 @@
       ],
       "action": "The ten different types of mana combine into a single miniature sun of pure white, gold, and violet light.",
       "mood": "the unified sovereign core",
-      "sfx": "FUSION-SUN!!"
+      "sfx": "FUSION-SUN!!",
+      "prose_en": "The ten different types of mana combine into a single miniature sun of pure white, gold, and violet light.",
+      "prose_hi": "Das alg-alg prakar ke man shuddh safed, sone aur baingani prakash ke ek ekal laghu surya mein sanyojit hote han."
     },
     {
       "id": "p07",
@@ -103,7 +115,9 @@
       ],
       "action": "The radiant sphere descends into Ha-Jun's chest, sinking smoothly into his beating heart.",
       "mood": "heart integration",
-      "sfx": "SINK-PULSE..."
+      "sfx": "SINK-PULSE...",
+      "prose_en": "The radiant sphere descends into Ha-Jun's chest, sinking smoothly into his beating heart.",
+      "prose_hi": "Diptiman gola ha-jun ki chhati mein utarta hai, aur uske dhadkate dil mein aasani se doob jata hai."
     },
     {
       "id": "p08",
@@ -114,7 +128,9 @@
       ],
       "action": "Inside his cells, the double-helix DNA strands turn to radiant platinum-black stardust.",
       "mood": "cellular transcendence",
-      "sfx": "CELLULAR GLOW..."
+      "sfx": "CELLULAR GLOW...",
+      "prose_en": "Inside his cells, the double-helix DNA strands turn to radiant platinum-black stardust.",
+      "prose_hi": "Uski koshikaon ke ander, duble-helix dna strand chamakdar platinam-kale stardust mein badal jaate han."
     },
     {
       "id": "p09",
@@ -125,7 +141,9 @@
       ],
       "action": "The interface appears, glowing in pure celestial platinum: '[BLOODLINE SYNCHRONIZATION: 95.0% - ASCENDANT MONARCH REACHED]'.",
       "mood": "95 percent synchronization",
-      "sfx": "PLATINUM CHIME!!"
+      "sfx": "PLATINUM CHIME!!",
+      "prose_en": "The interface appears, glowing in pure celestial platinum: '[BLOODLINE SYNCHRONIZATION: 95.0% - ASCENDANT MONARCH REACHED]'.",
+      "prose_hi": "Interfess shuddh akashiya platinum mein chamakta hua dikhai deta hai: '[raktarekha tulyakalan: 95.0% - aarohi samrat tak pahunch gaya]'."
     },
     {
       "id": "p10",
@@ -136,7 +154,9 @@
       ],
       "action": "The dark water transforms into a mirror of pure clear diamond, reflecting an endless sky of golden dawns.",
       "mood": "mindscape purified",
-      "sfx": "CLEAR MIRROR..."
+      "sfx": "CLEAR MIRROR...",
+      "prose_en": "The dark water transforms into a mirror of pure clear diamond, reflecting an endless sky of golden dawns.",
+      "prose_hi": "Kala pani shuddh pardarshi heere ke darpan mein badal jata hai, jo sunhare bhor ke antaheen aakash ko darshata hai."
     },
     {
       "id": "p11",
@@ -158,7 +178,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "First Sovereign Asmodaius appears, kneeling on one knee with head bowed: 'You have done what I could not. You are the True Sovereign.'.",
+      "prose_hi": "Subse pehle samprabhu esmodius prakat hota hai, ek ghutne par sir jhukaye: 'tumne wah kiya hai jo main nahin kar saka. aap sacche samprabhu han.'"
     },
     {
       "id": "p12",
@@ -180,7 +202,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun lifts his ancestor to his feet with a warm smile: 'Thank you for protecting the covenant, Asmodaius. Rest now.'.",
+      "prose_hi": "Ha-jun ne garmjoshi bhari muskan ke saath apne purvaj ko apne pairon par khada kiya: 'vacha ki raksha karne ke liye dhanyavad, esmodius. ab aaram karo.'."
     },
     {
       "id": "p13",
@@ -189,7 +213,9 @@
       "characters": [],
       "action": "Asmodaius smiles peacefully, dissolving into golden light particles that drift into the morning sky.",
       "mood": "ancestor's peace",
-      "sfx": "FADE-LIGHT..."
+      "sfx": "FADE-LIGHT...",
+      "prose_en": "Asmodaius smiles peacefully, dissolving into golden light particles that drift into the morning sky.",
+      "prose_hi": "Esmodius shanti se muskurata hai, sunhare prakash kanon mein ghul jata hai jo subah ke aakash mein bahte han."
     },
     {
       "id": "p14",
@@ -200,7 +226,9 @@
       ],
       "action": "The dreamlike sky recedes; the physical world over Gwanghwamun Square crystallizes back into view.",
       "mood": "return to reality",
-      "sfx": "FADE IN..."
+      "sfx": "FADE IN...",
+      "prose_en": "The dreamlike sky recedes; the physical world over Gwanghwamun Square crystallizes back into view.",
+      "prose_hi": "Swapn jaisa aakash peeche hat jata hai; guangwamun square par bhautik duniya wapas drishya mein aa jaati hai."
     },
     {
       "id": "p15",
@@ -211,7 +239,9 @@
       ],
       "action": "Ha-Jun's eyes open: royal violet irises circled by three spinning starlight halos.",
       "mood": "eyes of the ascendant",
-      "sfx": "GLOW-RINGS!!"
+      "sfx": "GLOW-RINGS!!",
+      "prose_en": "Ha-Jun's eyes open: royal violet irises circled by three spinning starlight halos.",
+      "prose_hi": "Ha-jun ki aankhen khulin: shahi baingani rang ki putliyan teen ghumti hui taron ki roshni se ghiri hui han."
     },
     {
       "id": "p16",
@@ -231,7 +261,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Down in the square, Tae-Jun, Min-Jae, and Captain Baek look up, seeing Ha-Jun's radiant return.",
+      "prose_hi": "Neeche chauk men, taaye-jun, min-je aur captain bak ha-jun ki ujjwal wapsi ko dekhte hue upar dekhte han."
     },
     {
       "id": "p17",
@@ -240,7 +272,9 @@
       "characters": [],
       "action": "The red apocalyptic clouds vanish completely; warm, golden autumn sunshine floods the streets of Seoul.",
       "mood": "sunshine returns",
-      "sfx": "SUNSHINE-WARMTH..."
+      "sfx": "SUNSHINE-WARMTH...",
+      "prose_en": "The red apocalyptic clouds vanish completely; warm, golden autumn sunshine floods the streets of Seoul.",
+      "prose_hi": "Lal sarvanashakari badal puri tarah se gayab ho jaate han; garm, sunhari sharad ritu ki dhoop seoul ki sadkon par chha jaati hai."
     },
     {
       "id": "p18",
@@ -251,7 +285,9 @@
       ],
       "action": "Ha-Jun touches down on the asphalt with zero sound, his coat settling smoothly around his knees.",
       "mood": "graceful landing",
-      "sfx": "FEATHER STEP..."
+      "sfx": "FEATHER STEP...",
+      "prose_en": "Ha-Jun touches down on the asphalt with zero sound, his coat settling smoothly around his knees.",
+      "prose_hi": "Ha-jun shunya dhwani ke saath damar ko chhuta hai, uska coat uske ghutnon ke aaspaas aasani se baith jata hai."
     },
     {
       "id": "p19",
@@ -273,7 +309,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun pulls Ha-Jun into a tight hug with his uninjured arm, laughing with sheer relief.",
+      "prose_hi": "Taaye-jun apni bina chot wali baanh se ha-jun ko kaskar gale lagata hai aur puri rahat ke saath hansta hai."
     },
     {
       "id": "p20",
@@ -295,7 +333,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun buries his face in Tae-Jun's shoulder, smiling warmly: 'I told you I wouldn't leave you alone again.'.",
+      "prose_hi": "Ha-jun ne taaye-jun ke kandhe par apna chehra chhipaya aur garmjoshi se muskurate hue kaha: 'maine tumse kaha tha ki main tumhe phir se akela nahin chhodunga.'"
     },
     {
       "id": "p21",
@@ -317,7 +357,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun touches Tae-Jun's pierced shoulder; warm starlight flows from his fingers, instantly sealing the wound without a scar.",
+      "prose_hi": "Ha-jun ne taaye-jun ke chhede hue kandhe ko chhua; uski ungaliyon se garm taare ki roshni bahti hai, jo ghav ko bina kisi nishan ke turant seal kar deti hai."
     },
     {
       "id": "p22",
@@ -340,7 +382,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro ruffles his black feathers: 'Now that the internal trial is finished... There is only one final task.'.",
+      "prose_hi": "Kuro ne apne kale pankh fadfadate hue kaha: 'ab jab aantarik parikshan samapt ho gaya hai... keval ek antim karya bacha hai.'"
     },
     {
       "id": "p23",
@@ -362,7 +406,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae runs over, grinning: 'The diplomats from forty nations and fifteen demon clans have arrived at City Hall!'.",
+      "prose_hi": "Min-je muskurate hue daudta hai: 'chalis deshon aur pandrah rakshas kulon ke rajnayik city hall mein aa gaye han!'"
     },
     {
       "id": "p24",
@@ -384,7 +430,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun laughs, lightly punching Min-Jae's arm: 'Call me Your Majesty again and I'll make you do my calculus homework.'.",
+      "prose_hi": "Ha-jun hansta hai, min-je ki baanh par halke se mukka maarta hai: 'mahamahim mujhe phir se bulao aur main tumhe apna calculus homework karwaunga.'"
     },
     {
       "id": "p25",
@@ -396,7 +444,9 @@
       ],
       "action": "Ha-Jun, Tae-Jun, Min-Jae, and Kuro walk down the wide avenue of Gwanghwamun under warm autumn trees.",
       "mood": "heroic stroll",
-      "sfx": "STEP-STEP..."
+      "sfx": "STEP-STEP...",
+      "prose_en": "Ha-Jun, Tae-Jun, Min-Jae, and Kuro walk down the wide avenue of Gwanghwamun under warm autumn trees.",
+      "prose_hi": "Ha-jun, taaye-jun, min-je, aur kuro garm sharad ritu ke pedon ke neeche guangwamun ke vistrit raste par chalte han."
     },
     {
       "id": "p26",
@@ -416,7 +466,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Thousands of civilians line the sidewalks, throwing fresh red rose petals and cheering for their heroes.",
+      "prose_hi": "Hajaron nagrik footpathon par katarbaddh hokar taji lal gulab ki pankhudiyan fenkte hain aur apne nayakon ki jay-jaikar karte han."
     },
     {
       "id": "p27",
@@ -438,7 +490,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun catches a petal in his hand, smiling at Ha-Jun: 'Look at them. You gave them their tomorrow.'.",
+      "prose_hi": "Taaye-jun apne haath mein ek pankhudi pakadta hai aur ha-jun ko dekhkar muskurata hai: 'unhen dekho. aapne unhen unka kal diya.'"
     },
     {
       "id": "p28",
@@ -459,7 +513,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun shakes his head: 'No, Hyung. We gave them tomorrow. You protected me so I could protect them.'.",
+      "prose_hi": "Ha-jun ne apna sir hilaya: 'nahin, hung. humne unhen kal diya. aapne meri raksha ki taki main unki raksha kar sakun.'"
     },
     {
       "id": "p29",
@@ -470,7 +526,9 @@
       ],
       "action": "Kuro takes flight, circling overhead under the brilliant blue sky, his caw echoing with five thousand years of relief.",
       "mood": "the crow flies free",
-      "sfx": "CAW-SOAR..."
+      "sfx": "CAW-SOAR...",
+      "prose_en": "Kuro takes flight, circling overhead under the brilliant blue sky, his caw echoing with five thousand years of relief.",
+      "prose_hi": "Kuro udaan bharta hai, shandar neele aakash ke neeche sir ke upar chakkar lagata hai, uski con-con mein paanch hazar saal ki rahat goonjati hai."
     },
     {
       "id": "p30",
@@ -491,7 +549,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "The four heroes arrive before the grand granite steps of Seoul City Hall to ratify the eternal peace treaty!.",
+      "prose_hi": "Char nayak shashwat shanti sandhi ki pushti karne ke liye seoul city hall ki bhavya granite sidhiyon ke samne pahunchte han!"
     }
   ]
 }

@@ -15,7 +15,9 @@
       ],
       "action": "Ha-Jun stands motionless in knee-deep water, a black cloth blindfold tied across his eyes.",
       "mood": "zen concentration",
-      "sfx": "RIPPLES..."
+      "sfx": "RIPPLES...",
+      "prose_en": "Ha-Jun stands motionless in knee-deep water, a black cloth blindfold tied across his eyes.",
+      "prose_hi": "Ha-jun ghutnon tak pani mein nishchal khada hai, uski aankhon par kale kapde ki patti bandhi hui hai."
     },
     {
       "id": "p02",
@@ -26,7 +28,9 @@
       ],
       "action": "Ten razor-sharp obsidian feathers hover in midair, vibrating with high-frequency purple mana.",
       "mood": "aerial threat",
-      "sfx": "HUMMM..."
+      "sfx": "HUMMM...",
+      "prose_en": "Ten razor-sharp obsidian feathers hover in midair, vibrating with high-frequency purple mana.",
+      "prose_hi": "Das ustra-nukile obsidian pankh uchch aavritti wale baingani man ke saath kampan karte hue, madhya hawa mein mandrate han."
     },
     {
       "id": "p03",
@@ -35,7 +39,9 @@
       "characters": [],
       "action": "The first feather launches forward like a bullet straight toward Ha-Jun's blindfolded throat.",
       "mood": "first projectile",
-      "sfx": "ZIPPP!!"
+      "sfx": "ZIPPP!!",
+      "prose_en": "The first feather launches forward like a bullet straight toward Ha-Jun's blindfolded throat.",
+      "prose_hi": "Pahla pankh goli ki tarah sidhe ha-jun ki aankhon par patti bandhe gale ki or badhta hai."
     },
     {
       "id": "p04",
@@ -46,7 +52,9 @@
       ],
       "action": "Ha-Jun tilts his chin two inches to the right; the feather slices through a single strand of hair.",
       "mood": "flawless dodge",
-      "sfx": "SWOOSH!"
+      "sfx": "SWOOSH!",
+      "prose_en": "Ha-Jun tilts his chin two inches to the right; the feather slices through a single strand of hair.",
+      "prose_hi": "Ha-jun apni thuddi ko dahini or do inch jhukata hai; pankh baalon ki ek hi lat ko kaatata hai."
     },
     {
       "id": "p05",
@@ -55,7 +63,9 @@
       "characters": [],
       "action": "The feather embeds four inches into solid reinforced concrete, vibrating with leftover kinetic energy.",
       "mood": "lethal power",
-      "sfx": "THUNK!!"
+      "sfx": "THUNK!!",
+      "prose_en": "The feather embeds four inches into solid reinforced concrete, vibrating with leftover kinetic energy.",
+      "prose_hi": "Pankh char inch thos prabalit concrete mein sama jata hai, jo bachi hui gatij urja se kampan karta hai."
     },
     {
       "id": "p06",
@@ -64,7 +74,9 @@
       "characters": [],
       "action": "Three daggers launch from triangle vectors: left flank, right kidney, and overhead.",
       "mood": "multi-angle assault",
-      "sfx": "ZIP-ZIP-ZIP!!"
+      "sfx": "ZIP-ZIP-ZIP!!",
+      "prose_en": "Three daggers launch from triangle vectors: left flank, right kidney, and overhead.",
+      "prose_hi": "Teen khanjar trikon vactor se launch hote han: bayan parshv, dayan gurda aur upari bhag."
     },
     {
       "id": "p07",
@@ -86,7 +98,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's boots detect minute pressure ripples travelling through the water surface.",
+      "prose_hi": "Ha-jun ke jute pani ki satah se guzarne wali sookshm dabav tarangon ka pata lagate han."
     },
     {
       "id": "p08",
@@ -97,7 +111,9 @@
       ],
       "action": "Ha-Jun ducks beneath the overhead dagger while spinning his torso; the two flank daggers miss by millimeters.",
       "mood": "fluid evasion",
-      "sfx": "SPLASH-SWOOSH!"
+      "sfx": "SPLASH-SWOOSH!",
+      "prose_en": "Ha-Jun ducks beneath the overhead dagger while spinning his torso; the two flank daggers miss by millimeters.",
+      "prose_hi": "Ha-jun apne dhad ko ghumate hue upari khanjar ke neeche jhuk jata hai; donon parshva khanjar millimeter se chuk gaye."
     },
     {
       "id": "p09",
@@ -118,7 +134,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro cackles: 'Not bad! Lekin Captain Baek projectile nahi, pure heavy steel chala raha tha!'.",
+      "prose_hi": "Kuro chillata hai: 'bura nahin! lekin captain bak projectile nahin, shuddh bhari steel chala raha tha!'."
     },
     {
       "id": "p10",
@@ -129,7 +147,9 @@
       ],
       "action": "Kuro channels ancient sovereign mana, projecting a 10-foot shadowy demonic claw descending like a hammer.",
       "mood": "crushing phantom blow",
-      "sfx": "ROARRR!!"
+      "sfx": "ROARRR!!",
+      "prose_en": "Kuro channels ancient sovereign mana, projecting a 10-foot shadowy demonic claw descending like a hammer.",
+      "prose_hi": "Kuro prachin samprabhu man ko prasarit karta hai, jisme hathaude ki tarah utarta hua 10 foot ka chhayadar rakshasi panja dikhai deta hai."
     },
     {
       "id": "p11",
@@ -140,7 +160,9 @@
       ],
       "action": "Ha-Jun summons liquid blood from his ring, weaving it into spiraling tensile bands around his forearm.",
       "mood": "blood weaving form",
-      "sfx": "WHIRRRR!!"
+      "sfx": "WHIRRRR!!",
+      "prose_en": "Ha-Jun summons liquid blood from his ring, weaving it into spiraling tensile bands around his forearm.",
+      "prose_hi": "Ha-jun apni anguthi se taral rakt ko bulata hai, aur use apni baanh ke charon or sarpil tanya band mein bunata hai."
     },
     {
       "id": "p12",
@@ -151,7 +173,9 @@
       ],
       "action": "The massive phantom claw slams into the woven blood bands; the blood compresses like a hydraulic spring.",
       "mood": "elastic absorption",
-      "sfx": "BOOOOM-SQUEEZE!!"
+      "sfx": "BOOOOM-SQUEEZE!!",
+      "prose_en": "The massive phantom claw slams into the woven blood bands; the blood compresses like a hydraulic spring.",
+      "prose_hi": "Vishal pret panja bune hue rakt bandon se takrata hai; rakt hydraulic spring ki tarah sankuchit hota hai."
     },
     {
       "id": "p13",
@@ -173,7 +197,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun redirects the entire 5-ton kinetic impact into the water around his feet, blasting a 20-foot geyser.",
+      "prose_hi": "Ha-jun poore 5-tan gatij prabhav ko apne pairon ke aaspaas ke pani mein punarnirdeshit karta hai, jisse 20-fut geyser nasht ho jata hai."
     },
     {
       "id": "p14",
@@ -184,7 +210,9 @@
       ],
       "action": "Gallons of displaced water rain down back into the reservoir as Ha-Jun remains standing upright.",
       "mood": "flawless redirection",
-      "sfx": "SPLASH-PATTER..."
+      "sfx": "SPLASH-PATTER...",
+      "prose_en": "Gallons of displaced water rain down back into the reservoir as Ha-Jun remains standing upright.",
+      "prose_hi": "Ha-jun ke sidhe khade rahane par gallon visthapit pani wapas jalashay mein gir jata hai."
     },
     {
       "id": "p15",
@@ -206,7 +234,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun pulls the soaked blindfold from his eyes; his dual-ringed irises shine with peerless clarity.",
+      "prose_hi": "Ha-jun apni aankhon se bheegi hui patti khinchta hai; uski dohri anguthi wali putli advitiya spashtata ke saath chamakti hai."
     },
     {
       "id": "p16",
@@ -227,7 +257,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro bows with genuine solemn respect: 'Blood Weaving Mastery: Rank C. Tumne ek din mein woh seekha jo saalon lagte hain.'.",
+      "prose_hi": "Kuro vastavik samman ke saath jhukta hai: 'rakt bunai mein maharat: rank si. tumne ek din mein woh seekha jo saalon lagte han.'"
     },
     {
       "id": "p17",
@@ -248,7 +280,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "The wooden splints around his left arm fall away; the broken bone has fully fused, denser than titanium.",
+      "prose_hi": "Uski bayin bhuja ke charon or lagi lakdi ki khpacchiyan door gir jaati han; tuti hui haddi puri tarah se jud gai hai, jo titanium se bhi adhik saghan hai."
     },
     {
       "id": "p18",
@@ -259,7 +293,9 @@
       ],
       "action": "Ha-Jun makes a crushing fist with his left bone gauntlet; zero pain, pure reinforced power.",
       "mood": "fully restored",
-      "sfx": "CRUNCH!"
+      "sfx": "CRUNCH!",
+      "prose_en": "Ha-Jun makes a crushing fist with his left bone gauntlet; zero pain, pure reinforced power.",
+      "prose_hi": "Ha-jun apni bayin haddi ke hathiyar se kuchalne wali mutthi banata hai; shunya dard, shuddh prabalit shakti."
     },
     {
       "id": "p19",
@@ -279,7 +315,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae runs to the edge: 'Ha-Jun! Bureau ke encrypted radio par emergency broadcast shuru ho gayi hai!'.",
+      "prose_hi": "Min-je kinare ki or daudta hai: 'ha-jun! bureau ke encrypted radio par aapatkalin prasaran shuru ho gaya hai!'."
     },
     {
       "id": "p20",
@@ -290,7 +328,9 @@
       ],
       "action": "Ha-Jun hoists himself out of the water, water draining from his dark tactical combat pants.",
       "mood": "ready for war",
-      "sfx": "STEP..."
+      "sfx": "STEP...",
+      "prose_en": "Ha-Jun hoists himself out of the water, water draining from his dark tactical combat pants.",
+      "prose_hi": "Ha-jun khud ko pani se bahar nikalta hai, uske gahre samrik ladaku pant se pani bahane lagta hai."
     },
     {
       "id": "p21",
@@ -298,7 +338,9 @@
       "setting": "tablet screen",
       "characters": [],
       "action": "Drone camera shows Mapo Bridge: twenty school buses trapped behind barricades in heavy night rain.",
-      "mood": "the hostage trap"
+      "mood": "the hostage trap",
+      "prose_en": "Drone camera shows Mapo Bridge: twenty school buses trapped behind barricades in heavy night rain.",
+      "prose_hi": "Dron camera mepo bridge dikhata hai: raat ki bhari baarish mein bees school basen barricades ke peeche fans gain."
     },
     {
       "id": "p22",
@@ -317,7 +359,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Director Kang stands on an armored carrier with a megaphone: 'Ha-Jun Kang! Surrender within 30 minutes or these buses burn!'.",
+      "prose_hi": "Nirdeshak kang ek bakhtarband vahak par megaphone ke saath khade han: 'ha-jun cong! 30 minute ke andar surrender karo varna yeh basen jal jaengi!'"
     },
     {
       "id": "p23",
@@ -325,7 +369,9 @@
       "setting": "mapo bridge",
       "characters": [],
       "action": "Captain Baek stands beside him, his jaw clenched tight in visible moral conflict.",
-      "mood": "captain's hesitation"
+      "mood": "captain's hesitation",
+      "prose_en": "Captain Baek stands beside him, his jaw clenched tight in visible moral conflict.",
+      "prose_hi": "Capton bak uske bagal mein khada hai, drishyaman naitik sangharsh mein uska jabda kaskar bhincha hua hai."
     },
     {
       "id": "p24",
@@ -347,7 +393,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun zips up his dark windbreaker, pulling on black fingerless tactical gloves.",
+      "prose_hi": "Ha-jun ne apne gahre rang ke vindbraker ki zip band kar di aur kale ungli rahit samrik dastaane pahan liye."
     },
     {
       "id": "p25",
@@ -366,7 +414,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae inserts a titanium USB drive into his pocket: 'Maine Tae-Jun ke journal aur Chimera files ki copy bana li hai.'.",
+      "prose_hi": "Min-je apni jeb mein ek titanium usb drive dalta hai: 'maine taaye-jun ke journal aur chimera filon ki copy bana lee hai.'"
     },
     {
       "id": "p26",
@@ -387,7 +437,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun looks at Min-Jae with deep brotherly trust: 'Tum bridge ke broadcast van ko target karna.'.",
+      "prose_hi": "Ha-jun gahre bhaichare wale vishwas ke saath min-je ko dekhta hai: 'tum bridge ke broadcast van ko target karna.'"
     },
     {
       "id": "p27",
@@ -409,7 +461,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro's obsidian wings expand, glowing with radiant violet energy: 'Time to hunt the hunters.'.",
+      "prose_hi": "Kuro ke obsidian pankh ujjwal baingani urja se chamakte hue failte han: 'shikariyon ka shikar karne ka samay.'"
     },
     {
       "id": "p28",
@@ -420,7 +474,9 @@
       ],
       "action": "Ha-Jun bounds up the 80-foot vertical iron ladder in three explosive jumps.",
       "mood": "explosive ascent",
-      "sfx": "CLANG-CLANG!!"
+      "sfx": "CLANG-CLANG!!",
+      "prose_en": "Ha-Jun bounds up the 80-foot vertical iron ladder in three explosive jumps.",
+      "prose_hi": "Ha-jun teen visfotak chlangon mein 80 foot ki khadi lohe ki sidhi par chadh jata hai."
     },
     {
       "id": "p29",
@@ -431,7 +487,9 @@
       ],
       "action": "Ha-Jun kicks the heavy cast-iron manhole cover into the air, leaping onto the street.",
       "mood": "emergence",
-      "sfx": "CLATTER-SLAM!!"
+      "sfx": "CLATTER-SLAM!!",
+      "prose_en": "Ha-Jun kicks the heavy cast-iron manhole cover into the air, leaping onto the street.",
+      "prose_hi": "Ha-jun bhari kacche lohe ke manhol cover ko hawa mein uchhalta hai aur sadak par uchhal jata hai."
     },
     {
       "id": "p30",
@@ -452,7 +510,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Lightning flashes over the Han River; Mapo Bridge blazes with police beacons 500 meters ahead.",
+      "prose_hi": "Han nadi par bijli chamakti hai; mepo bridge 500 meter aage police ki lalbiyon se jagmaga raha hai."
     }
   ]
 }

@@ -15,7 +15,9 @@
       ],
       "action": "A terrifying cosmic abyss: floating islands of black jagged glass drift beneath a void sky rent by green cosmic lightning.",
       "mood": "the abyss landscape",
-      "sfx": "COSMIC HUMMM..."
+      "sfx": "COSMIC HUMMM...",
+      "prose_en": "A terrifying cosmic abyss: floating islands of black jagged glass drift beneath a void sky rent by green cosmic lightning.",
+      "prose_hi": "Ek bhayanak brahmandiya khai: kale dantedar kaanch ke tairte dweep, hare brahmandiya bijli dwara kirae par liye gaye shunya aakash ke neeche bahte han."
     },
     {
       "id": "p02",
@@ -24,7 +26,9 @@
       "characters": [],
       "action": "A two-mile-high needle of seamless obsidian and twisted bone rises from a sea of black liquid void energy.",
       "mood": "the citadel of terror",
-      "sfx": "LOOM..."
+      "sfx": "LOOM...",
+      "prose_en": "A two-mile-high needle of seamless obsidian and twisted bone rises from a sea of black liquid void energy.",
+      "prose_hi": "Kale taral shunya urja ke samudra se nirbaadh obsidian aur mudi hui haddi ki do meal unchi sui nikalti hai."
     },
     {
       "id": "p03",
@@ -35,7 +39,9 @@
       ],
       "action": "Ha-Jun impacts the black bridge in a three-point superhero landing; his army lands in disciplined waves behind him.",
       "mood": "landing on enemy soil",
-      "sfx": "CRASH-LAND!!"
+      "sfx": "CRASH-LAND!!",
+      "prose_en": "Ha-Jun impacts the black bridge in a three-point superhero landing; his army lands in disciplined waves behind him.",
+      "prose_hi": "Ha-jun teen-bindu superhero landing mein kale pul par prabhav dalta hai; uski sena uske peeche anushasit laharon mein utarti hai."
     },
     {
       "id": "p04",
@@ -44,7 +50,9 @@
       "characters": [],
       "action": "Swarming from the gothic spires above, hundreds of winged void gargoyles dive with screeching metal talons.",
       "mood": "aerial ambush",
-      "sfx": "SKREEECH-DIVE!!"
+      "sfx": "SKREEECH-DIVE!!",
+      "prose_en": "Swarming from the gothic spires above, hundreds of winged void gargoyles dive with screeching metal talons.",
+      "prose_hi": "Upar gothic minaron se nikalte hue, saikadon pankhon wale shunya gargoil dhatu ke panje ki awaz ke saath gota lagate han."
     },
     {
       "id": "p05",
@@ -64,7 +72,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Captain Baek and Min-Jae unleash synchronized anti-matter bursts, blasting three gargoyles out of the sky in purple explosions.",
+      "prose_hi": "Capton bake aur min-je ne samkalik anti-mater visfoton ko ujagar kiya, jisse baingani visfoton mein aakash se teen gargoil nasht ho gaye."
     },
     {
       "id": "p06",
@@ -84,7 +94,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The Iron Demons lock their 8-foot tower shields together, repelling the gargoyle dive-bombers with crushing counter-thrusts.",
+      "prose_hi": "Iron demons ne apne 8-fut tower dhal ko ek saath band kar diya, gargoil gota-bamvarshakon ko kuchalne wale jawabi-jor se khaded diya."
     },
     {
       "id": "p07",
@@ -95,7 +107,9 @@
       ],
       "action": "Ha-Jun blurs into Mach 4 speed, a straight line of violet lightning carving through the fortress blast doors.",
       "mood": "supersonic breach",
-      "sfx": "BLUR-BOOM!!"
+      "sfx": "BLUR-BOOM!!",
+      "prose_en": "Ha-Jun blurs into Mach 4 speed, a straight line of violet lightning carving through the fortress blast doors.",
+      "prose_hi": "Ha-jun mac 4 ki gati mein dhundhla ho jata hai, kile ke blast darvaje ke madhyam se nakkashidar baingani bijli ki ek sidhi rekha."
     },
     {
       "id": "p08",
@@ -106,7 +120,9 @@
       ],
       "action": "Ha-Jun runs vertically up the inner wall of the hollow spire, gravity bending beneath his boots as he ascends 80 floors.",
       "mood": "wall running ascent",
-      "sfx": "STEP-STEP-BLUR!!"
+      "sfx": "STEP-STEP-BLUR!!",
+      "prose_en": "Ha-Jun runs vertically up the inner wall of the hollow spire, gravity bending beneath his boots as he ascends 80 floors.",
+      "prose_hi": "Ha-jun khokhale shikhar ki bhitari deewar par lambvat daudta hai, jab wah 80 manjil chadhta hai to gurutvakarshan uske jooton ke neeche jhuk jata hai."
     },
     {
       "id": "p09",
@@ -115,7 +131,9 @@
       "characters": [],
       "action": "Robed Void Priests chant ancient hexes, hurling spears of corrosive black acid at his path.",
       "mood": "magical interception",
-      "sfx": "HEX-HISS!!"
+      "sfx": "HEX-HISS!!",
+      "prose_en": "Robed Void Priests chant ancient hexes, hurling spears of corrosive black acid at his path.",
+      "prose_hi": "Labade pahane shunya pujari prachin shatkonon ka jaap karte han, uske raste par sanksharak kale acid ke bhale fenkte han."
     },
     {
       "id": "p10",
@@ -137,7 +155,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro swoops through the platforms like a scythe of midnight, slicing through the priests' staves and silencing their chants.",
+      "prose_hi": "Kuro aadhi raat ki daranti ki tarah manchon par jhapatta maarta hai, pujariyon ki dandiyon ko kaatata hai aur unke mantron ko shant karta hai."
     },
     {
       "id": "p11",
@@ -148,7 +168,9 @@
       ],
       "action": "Ha-Jun punches straight through the solid obsidian ceiling, emerging into a vast circular chamber of pure zero-degree frost.",
       "mood": "shattering into the sanctum",
-      "sfx": "CRASH-FROST!!"
+      "sfx": "CRASH-FROST!!",
+      "prose_en": "Ha-Jun punches straight through the solid obsidian ceiling, emerging into a vast circular chamber of pure zero-degree frost.",
+      "prose_hi": "Ha-jun thos obsidian chhat ke madhyam se sidhe mukka maarta hai, shuddh shunya-degri thandh ke ek vishal golakar kaksh mein ubharta hai."
     },
     {
       "id": "p12",
@@ -159,7 +181,9 @@
       ],
       "action": "A breathtaking, chilling sight: thousands of cylindrical glass pods filled with glowing cyan liquid, holding slumbering warriors.",
       "mood": "the soul repository",
-      "sfx": "HUMMM-CHILL..."
+      "sfx": "HUMMM-CHILL...",
+      "prose_en": "A breathtaking, chilling sight: thousands of cylindrical glass pods filled with glowing cyan liquid, holding slumbering warriors.",
+      "prose_hi": "Ek manmohak, siharan paida kar dene wala drishya: hajaron belanakar kaanch ki phaliyan chamakte siyan taral se bhari hui han, jo neend mein so rahe yoddhaon ko pakad rahi han."
     },
     {
       "id": "p13",
@@ -170,7 +194,9 @@
       ],
       "action": "On a raised dias of interlocking skull carvings stands a massive, reinforced glass pod twice the size of the others.",
       "mood": "the target found",
-      "sfx": "PULSE-GLOW..."
+      "sfx": "PULSE-GLOW...",
+      "prose_en": "On a raised dias of interlocking skull carvings stands a massive, reinforced glass pod twice the size of the others.",
+      "prose_hi": "Interlocking khopdi nakkashi ke ek oonche dias par ek vishal, prabalit glass pod khada hai jo anya ke aakaar se doguna hai."
     },
     {
       "id": "p14",
@@ -192,7 +218,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun ascends the stairs slowly, his heart hammering against his ribs; cold white vapor escapes his parted lips.",
+      "prose_hi": "Ha-jun dhire-dhire sidhiyan chadhta hai, uska dil uski pasliyon se takra raha hai; uske khule hothon se thandi safed bhaap nikal rahi hai."
     },
     {
       "id": "p15",
@@ -212,7 +240,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "From the vaulted ceiling drops the Seventh Void Sovereign 'Malakor'—a 12-foot wraith in bone armor with six burning green eyes.",
+      "prose_hi": "Gumbaddar chhat se saatavi shunya samprabhu 'malakor' girti hai - chhah jalti hui hari aankhon ke saath haddi ke kavach mein 12 foot ka ghera."
     },
     {
       "id": "p16",
@@ -221,7 +251,9 @@
       "characters": [],
       "action": "Malakor swings two colossal scythes dripping with black corrosive energy, aiming to cleave Ha-Jun at the waist.",
       "mood": "lethal scythe cleave",
-      "sfx": "SWOOSH-HISS!!"
+      "sfx": "SWOOSH-HISS!!",
+      "prose_en": "Malakor swings two colossal scythes dripping with black corrosive energy, aiming to cleave Ha-Jun at the waist.",
+      "prose_hi": "Malakor ne ha-jun ki kamar ko kaatne ke uddeshya se kali sanksharak urja se bhari do vishal hansiya ghumai."
     },
     {
       "id": "p17",
@@ -232,7 +264,9 @@
       ],
       "action": "Using the Ring of Hollow Blood to harden his skin to adamantine, Ha-Jun catches both lethal scythe blades in his bare palms.",
       "mood": "godlike parry",
-      "sfx": "CLANG-SPARK!!"
+      "sfx": "CLANG-SPARK!!",
+      "prose_en": "Using the Ring of Hollow Blood to harden his skin to adamantine, Ha-Jun catches both lethal scythe blades in his bare palms.",
+      "prose_hi": "Apni tvacha ko sakht karne ke liye khokhale khoon ki anguthi ka upyog karte hue, ha-jun apni nangi hatheliyon mein donon ghatak skith blade pakadta hai."
     },
     {
       "id": "p18",
@@ -252,7 +286,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The Void Sovereign's eyes bug out in horror: 'Caught my Void Scythes with bare flesh?! What kind of abomination are you?!'.",
+      "prose_hi": "Shunya samprabhu ki aankhen bhay se bahar aa gain: 'mere shunya skiths ko nange maans ke saath pakad liya?! tum kis prakar ke ghrinit ho?!'"
     },
     {
       "id": "p19",
@@ -263,7 +299,9 @@
       ],
       "action": "Ha-Jun wrenches his wrists; the ancient void scythes shatter into thousands of black iron fragments.",
       "mood": "weapons destroyed",
-      "sfx": "SNAP-SHATTER!!"
+      "sfx": "SNAP-SHATTER!!",
+      "prose_en": "Ha-Jun wrenches his wrists; the ancient void scythes shatter into thousands of black iron fragments.",
+      "prose_hi": "Ha-jun apni kalaiyan bhinchta hai; prachin shunya daranti hazaron kale lohe ke tukdon mein bikhar jaati hai."
     },
     {
       "id": "p20",
@@ -285,7 +323,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "In the same breath, Ha-Jun thrusts his blood katana through Malakor's chest core, pinning the demon god to the pedestal.",
+      "prose_hi": "Usi saans men, ha-jun ne malakor ki chhati ke core ke madhyam se apna rakt katana dala, aur danav devta ko aasan par gira diya."
     },
     {
       "id": "p21",
@@ -294,7 +334,9 @@
       "characters": [],
       "action": "Malakor shrieks as golden sovereign fire consumes him from inside, crumbling his 12-foot frame into harmless grey ash.",
       "mood": "seventh sovereign slain",
-      "sfx": "SHRIEK-ASH..."
+      "sfx": "SHRIEK-ASH...",
+      "prose_en": "Malakor shrieks as golden sovereign fire consumes him from inside, crumbling his 12-foot frame into harmless grey ash.",
+      "prose_hi": "Malakor chillata hai kyonki sunhari samprabhu aag use andar se bhasm kar deti hai, jisse uska 12 foot ka shareer hanirahit bhure rang ki raakh mein badal jata hai."
     },
     {
       "id": "p22",
@@ -305,7 +347,9 @@
       ],
       "action": "The ash settles; Ha-Jun stands directly in front of the giant glass tube, wiping a single drop of sweat from his brow.",
       "mood": "at the destination",
-      "sfx": "SILENCE RESTORED..."
+      "sfx": "SILENCE RESTORED...",
+      "prose_en": "The ash settles; Ha-Jun stands directly in front of the giant glass tube, wiping a single drop of sweat from his brow.",
+      "prose_hi": "Rakh jam jaati hai; ha-jun apne mathe se pasine ki ek boond ponchte hue sidhe vishal kaanch ki tube ke samne khada hai."
     },
     {
       "id": "p23",
@@ -314,7 +358,9 @@
       "characters": [],
       "action": "Inside the bubbling fluorescent cyan fluid floats a 22-year-old young man with jet-black hair and a chiseled jawline.",
       "mood": "the sleeping brother",
-      "sfx": "BUBBLE-GLOW..."
+      "sfx": "BUBBLE-GLOW...",
+      "prose_en": "Inside the bubbling fluorescent cyan fluid floats a 22-year-old young man with jet-black hair and a chiseled jawline.",
+      "prose_hi": "Budbudate fluorescent siyan taral padarth ke andar jet-kale baalon aur tarashi hui jabde wala ek 22 varshiya yuvak tair raha hai."
     },
     {
       "id": "p24",
@@ -333,7 +379,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "His eyes are closed peacefully; twin small obsidian demonic horns curve back gracefully from his temples.",
+      "prose_hi": "Uski aankhen shanti se band han; judwan chhote obsidian rakshasi seeng uske mandiron se sundar dhang se peeche ki or mude hue han."
     },
     {
       "id": "p25",
@@ -355,7 +403,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun presses his warm right hand against the frozen glass, right opposite Tae-Jun's floating face.",
+      "prose_hi": "Ha-jun apne garm dahine haath ko taaye-jun ke tairte chehre ke theek samne, jame hue kaanch par dabata hai."
     },
     {
       "id": "p26",
@@ -366,7 +416,9 @@
       ],
       "action": "A soft, radiant pulse of royal violet mana flows from Ha-Jun's fingertips, warming the freezing fluid inside.",
       "mood": "reviving pulse",
-      "sfx": "WARMTH-PULSE..."
+      "sfx": "WARMTH-PULSE...",
+      "prose_en": "A soft, radiant pulse of royal violet mana flows from Ha-Jun's fingertips, warming the freezing fluid inside.",
+      "prose_hi": "Roil violet man ki ek naram, ujjwal naadi ha-jun ki ungaliyon se bahti hai, jo andar jame hue taral padarth ko garm karti hai."
     },
     {
       "id": "p27",
@@ -375,7 +427,9 @@
       "characters": [],
       "action": "Tae-Jun's chest expands; bubbles rush from his lips as his suspended lungs reactivate.",
       "mood": "the breath of life",
-      "sfx": "GASPPP-BUBBLES!!"
+      "sfx": "GASPPP-BUBBLES!!",
+      "prose_en": "Tae-Jun's chest expands; bubbles rush from his lips as his suspended lungs reactivate.",
+      "prose_hi": "Taaye-jun ki chhati chaudi ho gai; jaise hi uske latke hue fefde punah sakriya hote han, uske hothon se bulbule nikalte han."
     },
     {
       "id": "p28",
@@ -384,7 +438,9 @@
       "characters": [],
       "action": "Tae-Jun's eyes snap wide open—revealing irises glowing with the exact same radiant royal violet light as Ha-Jun!",
       "mood": "twin sovereign eyes",
-      "sfx": "FLASH-GLOW!!"
+      "sfx": "FLASH-GLOW!!",
+      "prose_en": "Tae-Jun's eyes snap wide open—revealing irises glowing with the exact same radiant royal violet light as Ha-Jun!.",
+      "prose_hi": "Taaye-jun ki aankhen puri tarah se khul gai - ha-jun ki tarah hi chamakdar shahi baingani roshni ke saath chamakti hui putliyan!"
     },
     {
       "id": "p29",
@@ -406,7 +462,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "From inside the fluid, Tae-Jun lifts his pale hand, pressing his palm against the glass directly matching Ha-Jun's palm.",
+      "prose_hi": "Taral padarth ke andar se, taaye-jun apna peela haath uthata hai, aur apni hatheli ko sidhe ha-jun ki hatheli se mail khate gilas par dabata hai."
     },
     {
       "id": "p30",
@@ -427,7 +485,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Spiderweb cracks of blinding golden light shoot across the glass tube, about to burst as the brothers reunite!.",
+      "prose_hi": "Kanch ki nali par chakachaundh kar dene wali sunhari roshni ki makdi ke jale ki dararen pad jaati han, jo bhaiyon ke punarmilan ke saath hi phutne wali hoti han!"
     }
   ]
 }

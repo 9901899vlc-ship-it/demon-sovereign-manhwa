@@ -15,7 +15,9 @@
       ],
       "action": "A massive translucent violet sphere of sovereign authority encloses the entire summit plateau.",
       "mood": "sovereign domain majesty",
-      "sfx": "HUMMMMMM..."
+      "sfx": "HUMMMMMM...",
+      "prose_en": "A massive translucent violet sphere of sovereign authority encloses the entire summit plateau.",
+      "prose_hi": "Samprabhu satta ka ek vishal parabhasi baingani kshetra poore shikhar pathar ko gherta hai."
     },
     {
       "id": "p02",
@@ -24,7 +26,9 @@
       "characters": [],
       "action": "Loose diamond dust and stone pebbles float weightlessly in midair within the boundaries of the domain.",
       "mood": "zero gravity control",
-      "sfx": "FLOAT..."
+      "sfx": "FLOAT...",
+      "prose_en": "Loose diamond dust and stone pebbles float weightlessly in midair within the boundaries of the domain.",
+      "prose_hi": "Domen ki seemaon ke bhitar dheele heere ki dhul aur patthar ke kankad hawa mein bharahin roop se tairte han."
     },
     {
       "id": "p03",
@@ -35,7 +39,9 @@
       ],
       "action": "Ha-Jun steps down the marble staircase, Crown gleaming, his dark coat rustling with sovereign dignity.",
       "mood": "king walking among men",
-      "sfx": "STEP... STEP..."
+      "sfx": "STEP... STEP...",
+      "prose_en": "Ha-Jun steps down the marble staircase, Crown gleaming, his dark coat rustling with sovereign dignity.",
+      "prose_hi": "Ha-jun sangmarmar ki sidhi se neeche utarta hai, uska mukut chamak raha hai, uska kala coat samprabhu garima ke saath sarsra raha hai."
     },
     {
       "id": "p04",
@@ -54,7 +60,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun clasps his younger brother's hand: 'Tumhara domain... Maine aisi presence 7 saalo mein nahi dekhi.'.",
+      "prose_hi": "Taaye-jun apne chhote bhai ka haath pakadte han: 'tumhara domen... maine aisi upasthiti 7 saalon mein nahin dekhi.'"
     },
     {
       "id": "p05",
@@ -76,7 +84,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "With a subtle twitch of his ring finger, the floating stones settle gently back onto the ground.",
+      "prose_hi": "Uski anamika ungli ke ek sookshm jhatke se, tairte hue patthar dheere se wapas jameen par baith jaate han."
     },
     {
       "id": "p06",
@@ -98,7 +108,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro pecks at a hidden demonic crest carved into the obsidian backrest: 'Lekin Asmodaius ka asli treasure niche hai!'.",
+      "prose_hi": "Kuro obsidian backarest mein khudi hui ek chipi hui rakshasi shikha par chonch maarta hai: 'lakin esmodius ka asli khajana neeche hai!'."
     },
     {
       "id": "p07",
@@ -108,7 +120,9 @@
         "hajun"
       ],
       "action": "In the center of the dark seat: an intricate nine-pointed star depression matching Ha-Jun's Sovereign Crest.",
-      "mood": "keyhole mechanism"
+      "mood": "keyhole mechanism",
+      "prose_en": "In the center of the dark seat: an intricate nine-pointed star depression matching Ha-Jun's Sovereign Crest.",
+      "prose_hi": "Andhere seat ke kendra men: ha-jun ke sovereign crest se mail khane wala ek jatil nau-nukila tara avsad."
     },
     {
       "id": "p08",
@@ -119,7 +133,9 @@
       ],
       "action": "Ha-Jun presses his bare palm into the depression, conducting a pulse of crimson blood mana.",
       "mood": "activating the mechanism",
-      "sfx": "PULSE-GLOW!!"
+      "sfx": "PULSE-GLOW!!",
+      "prose_en": "Ha-Jun presses his bare palm into the depression, conducting a pulse of crimson blood mana.",
+      "prose_hi": "Ha-jun apni nangi hatheli ko avsad mein dabata hai, jisse lal rakt man ki ek naadi sanchalit hoti hai."
     },
     {
       "id": "p09",
@@ -128,7 +144,9 @@
       "characters": [],
       "action": "Deep inside Mount Obsidian, colossal subterranean counterweights shift with seismic rumbles.",
       "mood": "mountain shifting",
-      "sfx": "GRRRR-RUMBLE!!"
+      "sfx": "GRRRR-RUMBLE!!",
+      "prose_en": "Deep inside Mount Obsidian, colossal subterranean counterweights shift with seismic rumbles.",
+      "prose_hi": "Mount obsidian ke ander, vishal bhumigat countervate bhukampiy gadgdahat ke saath badalte han."
     },
     {
       "id": "p10",
@@ -137,7 +155,9 @@
       "characters": [],
       "action": "The 40-foot obsidian throne splits down the middle, sliding apart along concealed bronze tracks.",
       "mood": "throne parts",
-      "sfx": "SLIDE-CREAK!!"
+      "sfx": "SLIDE-CREAK!!",
+      "prose_en": "The 40-foot obsidian throne splits down the middle, sliding apart along concealed bronze tracks.",
+      "prose_hi": "40 foot ka obsidian sinhasan beech mein vibhajit ho jata hai, chipi hui kansya patriyon ke saath fisalta hua alag ho jata hai."
     },
     {
       "id": "p11",
@@ -145,7 +165,9 @@
       "setting": "throne aperture",
       "characters": [],
       "action": "Beneath the throne opens a 20-foot wide circular staircase of glowing amethyst steps spiraling down.",
-      "mood": "descent to the archives"
+      "mood": "descent to the archives",
+      "prose_en": "Beneath the throne opens a 20-foot wide circular staircase of glowing amethyst steps spiraling down.",
+      "prose_hi": "Sinhasan ke neeche ek 20 foot chaudi golakar sidhi khulti hai jisme chamakti hui neelam ki sidhiyan neeche ki or ghumti han."
     },
     {
       "id": "p12",
@@ -167,7 +189,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Cool, scented air smelling of ancient scrolls and cedarwood wafts upward from the illuminated depths.",
+      "prose_hi": "Prachin scroll aur devdar ki lakdi ki mahak wali thandi, sugandhit hawa roshan gahrai se upar ki or aati hai."
     },
     {
       "id": "p13",
@@ -189,7 +213,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro glides into the opening: 'The Memory Archives of Asmodaius! Jahan universe ka sach band hai!'.",
+      "prose_hi": "Kuro ne shuruaat mein kaha: 'd memory archives off esmodius! jahan brahmand ka sach band hai!'."
     },
     {
       "id": "p14",
@@ -200,7 +226,9 @@
       ],
       "action": "The two brothers walk side-by-side down the luminous purple crystal spiral staircase.",
       "mood": "brothers descend",
-      "sfx": "STEP... STEP..."
+      "sfx": "STEP... STEP...",
+      "prose_en": "The two brothers walk side-by-side down the luminous purple crystal spiral staircase.",
+      "prose_hi": "Donon bhai chamakdar baingani crystal sarpil sidhi ke sath-sath chalte han."
     },
     {
       "id": "p15",
@@ -209,7 +237,9 @@
       "characters": [],
       "action": "The subterranean hall opens into a colossal hollow cavern lined with millions of glowing data spheres.",
       "mood": "infinite archives",
-      "sfx": "GLOWING SPHERES..."
+      "sfx": "GLOWING SPHERES...",
+      "prose_en": "The subterranean hall opens into a colossal hollow cavern lined with millions of glowing data spheres.",
+      "prose_hi": "Bhumigat hall lakhon chamakte data kshetron se susajjit ek vishal khokhli gufa mein khulta hai."
     },
     {
       "id": "p16",
@@ -218,7 +248,9 @@
       "characters": [],
       "action": "In the heart of the archives: a crystalline dais projecting a 3D star map of the mortal and abyssal realms.",
       "mood": "the cosmos map",
-      "sfx": "HUMMM..."
+      "sfx": "HUMMM...",
+      "prose_en": "In the heart of the archives: a crystalline dais projecting a 3D star map of the mortal and abyssal realms.",
+      "prose_hi": "Abhilekhagar ke kendra men: ek crystaliy manch jo nashwar aur rasatal kshetron ka 3d sitara manchitra prastut karta hai."
     },
     {
       "id": "p17",
@@ -239,7 +271,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun reaches out to touch the holographic representation of Earth and the Abyss linked by red lines.",
+      "prose_hi": "Ha-jun lal rekhaon se jude prithvi aur rasatal ke holographic pratinidhitva ko chhune ke liye pahunchta hai."
     },
     {
       "id": "p18",
@@ -258,7 +292,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun swipes through floating cuneiform symbols: 'Haan... 10,000 saal pehle tak koi Gate nahi tha.'.",
+      "prose_hi": "Taaye-jun floating cuniform pratikon ke madhyam se swipe karta hai: 'han... 10,000 saal pehle tak koi gate nahin tha.'"
     },
     {
       "id": "p19",
@@ -279,7 +315,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun looks up: 'The Void Primordial... Yeh kaun hai?'.",
+      "prose_hi": "Ha-jun upar dekhta hai: 'd void primordial... yeh kaun hai?'."
     },
     {
       "id": "p20",
@@ -300,7 +338,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro lands on the pedestal: 'Woh entity kisi realm ki nahi hai... Woh universal entropy ka avatar hai.'.",
+      "prose_hi": "Kuro is paaydaan par hai: 'vo ikai kisi dayre ki nahin hai... woh universal entropy ka avtar hai.'"
     },
     {
       "id": "p21",
@@ -309,7 +349,9 @@
       "characters": [],
       "action": "A glowing gold orb projects a colossal memory playback in the center of the chamber.",
       "mood": "historical playback",
-      "sfx": "FLASH!!"
+      "sfx": "FLASH!!",
+      "prose_en": "A glowing gold orb projects a colossal memory playback in the center of the chamber.",
+      "prose_hi": "Ek chamakta hua sone ka gola kaksh ke kendra mein ek vishal memory playback prastut karta hai."
     },
     {
       "id": "p22",
@@ -317,7 +359,9 @@
       "setting": "hologram playback",
       "characters": [],
       "action": "Lord Asmodaius, a towering emperor in midnight armor with four horns, presiding over a golden civilization.",
-      "mood": "the golden age"
+      "mood": "the golden age",
+      "prose_en": "Lord Asmodaius, a towering emperor in midnight armor with four horns, presiding over a golden civilization.",
+      "prose_hi": "Lord esmodius, char seengon wala aadhi raat ke kavach mein ek vishal samrat, ek sunhari sabhyata ka netritva kar raha tha."
     },
     {
       "id": "p23",
@@ -335,7 +379,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Seven crowned demon lords swearing absolute fealty before the Sovereign's throne.",
+      "prose_hi": "Saat mukutdhari rakshas shasakon ne samprabhu ke sinhasan ke samaksh purna nishtha ki shapath li."
     },
     {
       "id": "p24",
@@ -344,7 +390,9 @@
       "characters": [],
       "action": "Terrifying microscopic black parasites burrowing into the demon kings' eyes, turning them into puppets.",
       "mood": "the void parasite",
-      "sfx": "WRIGGLE..."
+      "sfx": "WRIGGLE...",
+      "prose_en": "Terrifying microscopic black parasites burrowing into the demon kings' eyes, turning them into puppets.",
+      "prose_hi": "Bhayanak sookshm kale parjivi rakshas rajaon ki aankhon mein ghuskar unhen kathputliyon mein badal dete han."
     },
     {
       "id": "p25",
@@ -365,7 +413,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun covers his mouth: 'Woh demon kings evil nahi the... Woh mind-controlled the!'.",
+      "prose_hi": "Ha-jun ne apna munh dhak liya: 'vo rakshas raja dusht nahin the... woh man-niyantrit the!'"
     },
     {
       "id": "p26",
@@ -384,7 +434,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun highlights a medical file: 'Director Kang ke laboratory mein wahi same parasite mila tha!'.",
+      "prose_hi": "Taaye-jun ne ek medical file par prakash dala: 'nirdeshak kang ke prayogshala mein wahi parjivi mila tha!'."
     },
     {
       "id": "p27",
@@ -405,7 +457,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Everything connects in Ha-Jun's mind: humans, demons, hunters—all manipulated by the same unseen horror.",
+      "prose_hi": "Ha-jun ke dimag mein sab kuch judta hai: manushya, rakshs, shikari - sabhi ek hi andekhi bhayavahata se prabhavit hote han."
     },
     {
       "id": "p28",
@@ -414,7 +468,9 @@
       "characters": [],
       "action": "Behind the star map pedestal, a circular hatch engraved with an eclipse crescent glows pitch-black.",
       "mood": "the weapon vault",
-      "sfx": "DARK RADIANCE..."
+      "sfx": "DARK RADIANCE...",
+      "prose_en": "Behind the star map pedestal, a circular hatch engraved with an eclipse crescent glows pitch-black.",
+      "prose_hi": "Star map pedstal ke pichhe, grahan ardhchandra ke saath utkeern ek golakar hatch bilkul kale rang mein chamakta hai."
     },
     {
       "id": "p29",
@@ -435,7 +491,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro spreads his wings: 'Wahan rests the second Legendary Relic: Eclipse Devourer!'.",
+      "prose_hi": "Kuro ne apne pankh failaye: 'vahan dusre pauranik avashesh par vishram kar raha hai: grahan bhakshak!'."
     },
     {
       "id": "p30",
@@ -456,7 +514,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun steps up to the dark portal, his Crown resonating with ancient anticipation.",
+      "prose_hi": "Ha-jun andhere portal ki or badhta hai, uska mukut prachin pratyasha se gunjata hai."
     }
   ]
 }

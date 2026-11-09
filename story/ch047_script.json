@@ -13,7 +13,9 @@
       "characters": [],
       "action": "The 10-meter-wide violet void beam disintegrates bone tiles, stone pillars, and air itself in a straight trench.",
       "mood": "spatial erasure",
-      "sfx": "ANNIHILATION-ROAR!!"
+      "sfx": "ANNIHILATION-ROAR!!",
+      "prose_en": "The 10-meter-wide violet void beam disintegrates bone tiles, stone pillars, and air itself in a straight trench.",
+      "prose_hi": "10 meter chaudi baingani shunya kiran haddi ki tilon, patthar ke khambhon aur hawa ko ek sidhi khai mein vighatit kar deti hai."
     },
     {
       "id": "p02",
@@ -35,7 +37,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun catapults sideways into the air, the void beam deleting the afterimage of his silhouette.",
+      "prose_hi": "Ha-jun bagal mein hawa mein udta hai, shunya kiran uske silhut ki baad ki chhavi ko hata deti hai."
     },
     {
       "id": "p03",
@@ -44,7 +48,9 @@
       "characters": [],
       "action": "Where the beam struck, there is no rubble—only a smooth, terrifying void gap looking into empty cosmos.",
       "mood": "matter deleted",
-      "sfx": "STILLNESS..."
+      "sfx": "STILLNESS...",
+      "prose_en": "Where the beam struck, there is no rubble—only a smooth, terrifying void gap looking into empty cosmos.",
+      "prose_hi": "Jahan kiran takrai, vahan koi malba nahin hai - keval khali brahmand mein dekhne wali ek chikani, bhayanak shunya khai hai."
     },
     {
       "id": "p04",
@@ -53,7 +59,9 @@
       "characters": [],
       "action": "The Void Dragon whips its 30-foot spiked obsidian tail horizontally like a high-speed freight train.",
       "mood": "tail whip sweep",
-      "sfx": "SHVOOOM!!"
+      "sfx": "SHVOOOM!!",
+      "prose_en": "The Void Dragon whips its 30-foot spiked obsidian tail horizontally like a high-speed freight train.",
+      "prose_hi": "Void dragon apni 30 foot ki nukili obsidian poonch ko ek uchch gati wali maalgadi ki tarah kshaitij roop se ghumata hai."
     },
     {
       "id": "p05",
@@ -64,7 +72,9 @@
       ],
       "action": "Ha-Jun interlocks his bone gauntlet plates, preparing for the devastating kinetic impact.",
       "mood": "impact brace",
-      "sfx": "CLANK!"
+      "sfx": "CLANK!",
+      "prose_en": "Ha-Jun interlocks his bone gauntlet plates, preparing for the devastating kinetic impact.",
+      "prose_hi": "Vinashakari gatij prabhav ke liye taiyari karte hue, ha-jun apni haddi ki gauntlet platon ko aapas mein jodta hai."
     },
     {
       "id": "p06",
@@ -75,7 +85,9 @@
       ],
       "action": "The massive tail strikes his bone shield; Ha-Jun is blasted 80 feet through stone spectator thrones.",
       "mood": "catastrophic throw",
-      "sfx": "KABOOOM-CRASH!!"
+      "sfx": "KABOOOM-CRASH!!",
+      "prose_en": "The massive tail strikes his bone shield; Ha-Jun is blasted 80 feet through stone spectator thrones.",
+      "prose_hi": "Vishal poonch uski haddi ki dhal se takrati hai; ha-jun ko patthar ke darshak sinhasanon ke madhyam se 80 feet tak visphotit kiya gaya hai."
     },
     {
       "id": "p07",
@@ -97,7 +109,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun slides to a halt among broken thrones, coughing violet dust but with his bone gauntlet unbroken.",
+      "prose_hi": "Ha-jun toote hue sinhasanon ke beech fisalkar ruk jata hai, baingani rang ki dhul kha raha hai, lekin uski haddi ka kavach toota hua nahin hai."
     },
     {
       "id": "p08",
@@ -119,7 +133,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro dives from the rafters, raking his sharpened shadow talons across the dragon's upper two eyes.",
+      "prose_hi": "Kuro chhat se gota lagata hai, aur dragon ki upari do aankhon par apni nukili chhaya ke panjon ko ghumata hai."
     },
     {
       "id": "p09",
@@ -128,7 +144,9 @@
       "characters": [],
       "action": "The dragon thrashes its massive horned head, roaring as black blood leaks from its scratched eyes.",
       "mood": "dragon blinded",
-      "sfx": "ROARRR!!"
+      "sfx": "ROARRR!!",
+      "prose_en": "The dragon thrashes its massive horned head, roaring as black blood leaks from its scratched eyes.",
+      "prose_hi": "Dragon apne vishal seeng wale sir ko jor se pitata hai, aur uski kharonchi hui aankhon se kala khoon risne lagta hai."
     },
     {
       "id": "p10",
@@ -139,7 +157,9 @@
       ],
       "action": "Ha-Jun bounds across the broken stone tiers, rocketing straight toward the floating crystal prism.",
       "mood": "sprint for the relic",
-      "sfx": "FWOOSH!!"
+      "sfx": "FWOOSH!!",
+      "prose_en": "Ha-Jun bounds across the broken stone tiers, rocketing straight toward the floating crystal prism.",
+      "prose_hi": "Ha-jun toote hue patthar ke staron ko paar karta hua sidhe tairte crystal prism ki or badhta hai."
     },
     {
       "id": "p11",
@@ -148,7 +168,9 @@
       "characters": [],
       "action": "Seeing Ha-Jun's target, the dragon brings its 10-foot razor-taloned foreleg down to crush the pedestal.",
       "mood": "defensive stomp",
-      "sfx": "SMASHHH!!"
+      "sfx": "SMASHHH!!",
+      "prose_en": "Seeing Ha-Jun's target, the dragon brings its 10-foot razor-taloned foreleg down to crush the pedestal.",
+      "prose_hi": "Ha-jun ke lakshya ko dekhakar, dragon kursi ko kuchalne ke liye apna 10 foot ka ustra-pankh wala agla pair neeche lata hai."
     },
     {
       "id": "p12",
@@ -159,7 +181,9 @@
       ],
       "action": "Ha-Jun slides on his knees along the bone floor, slipping mere inches between the descending dragon claws.",
       "mood": "death-defying slide",
-      "sfx": "SWOOSH!"
+      "sfx": "SWOOSH!",
+      "prose_en": "Ha-Jun slides on his knees along the bone floor, slipping mere inches between the descending dragon claws.",
+      "prose_hi": "Ha-jun apne ghutnon ke bal haddi ke farsh par fisalta hai, aur dragon ke neeche utarte panjon ke beech mahaj kuch inch hi fisalta hai."
     },
     {
       "id": "p13",
@@ -170,7 +194,9 @@
       ],
       "action": "From directly beneath the beast, Ha-Jun leaps up to the floating 3-foot crystal prism.",
       "mood": "point blank reach",
-      "sfx": "LEAP!!"
+      "sfx": "LEAP!!",
+      "prose_en": "From directly beneath the beast, Ha-Jun leaps up to the floating 3-foot crystal prism.",
+      "prose_hi": "Sidhe janwar ke neeche se, ha-jun tairte hue 3 foot ke crystal prism tak chhalang lagata hai."
     },
     {
       "id": "p14",
@@ -181,7 +207,9 @@
       ],
       "action": "Ha-Jun channels the full fury of the Ashen Heart into his clenched right fist: violet-crimson pyre.",
       "mood": "sanguine pyre punch",
-      "sfx": "IGNITE-BLAZE!!"
+      "sfx": "IGNITE-BLAZE!!",
+      "prose_en": "Ha-Jun channels the full fury of the Ashen Heart into his clenched right fist: violet-crimson pyre.",
+      "prose_hi": "Ha-jun ation heart ke poore krodh ko apni band dahini mutthi mein dalta hai: bangni-lal rang ki chita."
     },
     {
       "id": "p15",
@@ -192,7 +220,9 @@
       ],
       "action": "Ha-Jun's flaming fist slams into the center of the void crystal with 50 tons of focused kinetic mana.",
       "mood": "shattering strike",
-      "sfx": "BOOOOOM-CRACK!!"
+      "sfx": "BOOOOOM-CRACK!!",
+      "prose_en": "Ha-Jun's flaming fist slams into the center of the void crystal with 50 tons of focused kinetic mana.",
+      "prose_hi": "Ha-jun ki dhadhakti mutthi 50 ton kendrit gatij man ke saath shunya crystal ke kendra mein takrati hai."
     },
     {
       "id": "p16",
@@ -201,7 +231,9 @@
       "characters": [],
       "action": "The indestructible void crystal shatters into millions of glittering diamond shards.",
       "mood": "seal broken",
-      "sfx": "SHATTERRRR!!"
+      "sfx": "SHATTERRRR!!",
+      "prose_en": "The indestructible void crystal shatters into millions of glittering diamond shards.",
+      "prose_hi": "Avinashi shunya crystal lakhon chamakdar heere ke tukdon mein toot jata hai."
     },
     {
       "id": "p17",
@@ -210,7 +242,9 @@
       "characters": [],
       "action": "The 8-inch jagged curved void dagger spins slowly in midair, radiating absolute darkness.",
       "mood": "relic liberated",
-      "sfx": "SPIN..."
+      "sfx": "SPIN...",
+      "prose_en": "The 8-inch jagged curved void dagger spins slowly in midair, radiating absolute darkness.",
+      "prose_hi": "8 inch ka dantedar ghumavdar shunya khanjar madhya hawa mein dhire-dhire ghumta hai, jisse purna andhkar fail jata hai."
     },
     {
       "id": "p18",
@@ -221,7 +255,9 @@
       ],
       "action": "Ha-Jun's fingers wrap around the cold, textured void-matter hilt with an audible magnetic snap.",
       "mood": "relic claimed",
-      "sfx": "SNAP-GRIP!!"
+      "sfx": "SNAP-GRIP!!",
+      "prose_en": "Ha-Jun's fingers wrap around the cold, textured void-matter hilt with an audible magnetic snap.",
+      "prose_hi": "Ha-jun ki ungaliyan ek shravya chumbkiya snap ke saath thande, banavat wale shunya-padarth mooth ke charon or lapetati han."
     },
     {
       "id": "p19",
@@ -232,7 +268,9 @@
       ],
       "action": "A sphere of distorted, mirrored space ripples outward 100 meters around Ha-Jun, warping gravity.",
       "mood": "spatial distortion pulse",
-      "sfx": "WARP-BOOM!!"
+      "sfx": "WARP-BOOM!!",
+      "prose_en": "A sphere of distorted, mirrored space ripples outward 100 meters around Ha-Jun, warping gravity.",
+      "prose_hi": "Vikrit, pratibimbit antriksh ka ek gola gurutvakarshan ko vikrit karte hue, ha-jun ke charon or 100 meter ki doori par bahar ki or tarangit hota hai."
     },
     {
       "id": "p20",
@@ -251,7 +289,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Golden-and-violet gothic runes celebrate the bond.",
+      "prose_hi": "Sunahre aur baingani gothic roon bandhan ka jashn manate han."
     },
     {
       "id": "p21",
@@ -272,7 +312,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun turns the dagger; the blade has no physical edge—it is a literal tear in the fabric of space.",
+      "prose_hi": "Ha-jun khanjar ghumata hai; blade mein koi bhautik kinara nahin hai - yah antriksh ke kapde mein ek shabdik aansu hai."
     },
     {
       "id": "p22",
@@ -281,7 +323,9 @@
       "characters": [],
       "action": "The dragon recovers, its remaining two eyes burning with apocalyptic rage as it lunges with jaws open.",
       "mood": "final desperate lunge",
-      "sfx": "DEATH JAW ROAR!!"
+      "sfx": "DEATH JAW ROAR!!",
+      "prose_en": "The dragon recovers, its remaining two eyes burning with apocalyptic rage as it lunges with jaws open.",
+      "prose_hi": "Dragon theek ho jata hai, jab wah khule jabde ke saath fusfusata hai to uski shesh do aankhen sarvanashakari krodh se jalne lagti han."
     },
     {
       "id": "p23",
@@ -292,7 +336,9 @@
       ],
       "action": "Ha-Jun doesn't swing hard; he simply draws a clean, two-foot vertical line in the empty air.",
       "mood": "the spatial cut",
-      "sfx": "SHING..."
+      "sfx": "SHING...",
+      "prose_en": "Ha-Jun doesn't swing hard; he simply draws a clean, two-foot vertical line in the empty air.",
+      "prose_hi": "Ha-jun jor se nahin jhulta; wah bus khali hawa mein ek saf, do foot ki khadi rekha khinchta hai."
     },
     {
       "id": "p24",
@@ -301,7 +347,9 @@
       "characters": [],
       "action": "The thin line in the air tears open into a razor-thin rift of black space that expands instantly.",
       "mood": "spatial rift expands",
-      "sfx": "RIPPP!!"
+      "sfx": "RIPPP!!",
+      "prose_en": "The thin line in the air tears open into a razor-thin rift of black space that expands instantly.",
+      "prose_hi": "Hawa mein maujood patli rekha kali jagah ki ek behad patli daraar mein khulti hai jo turant failti hai."
     },
     {
       "id": "p25",
@@ -310,7 +358,9 @@
       "characters": [],
       "action": "The dragon's charging maw strikes the invisible spatial seam; its indestructible scales are cleaved like silk.",
       "mood": "cleaved by space",
-      "sfx": "CLEAVE-SPLIT!!"
+      "sfx": "CLEAVE-SPLIT!!",
+      "prose_en": "The dragon's charging maw strikes the invisible spatial seam; its indestructible scales are cleaved like silk.",
+      "prose_hi": "Dragon ka charging mav adrishya sthanik seem se takrata hai; iske avinashi tarazu resham ki tarah kate hue han."
     },
     {
       "id": "p26",
@@ -319,7 +369,9 @@
       "characters": [],
       "action": "The 40-foot beast freezes mid-lunge as a clean black line cuts through its skull and neck.",
       "mood": "bisection complete",
-      "sfx": "CREAK..."
+      "sfx": "CREAK...",
+      "prose_en": "The 40-foot beast freezes mid-lunge as a clean black line cuts through its skull and neck.",
+      "prose_hi": "40 foot ka janwar beech mein hi jam jata hai kyonki ek saaf kali rekha uski khopdi aur gardan ko kaatati hai."
     },
     {
       "id": "p27",
@@ -328,7 +380,9 @@
       "characters": [],
       "action": "The colossal Void Dragon splits into two halves, crashing with thunderous finality onto the bone arena.",
       "mood": "titan slain",
-      "sfx": "THUDDD-CRASH!!"
+      "sfx": "THUDDD-CRASH!!",
+      "prose_en": "The colossal Void Dragon splits into two halves, crashing with thunderous finality onto the bone arena.",
+      "prose_hi": "Vishal shunya dragon do hisson mein vibhajit ho jata hai aur haddi ke maidan par gadgdahat ke saath durghatnagrast ho jata hai."
     },
     {
       "id": "p28",
@@ -337,7 +391,9 @@
       "characters": [],
       "action": "The monster's immense corpse dissolves into a sea of luminous purple mana mist that carpets the colosseum.",
       "mood": "mist dispersion",
-      "sfx": "HSSSS..."
+      "sfx": "HSSSS...",
+      "prose_en": "The monster's immense corpse dissolves into a sea of luminous purple mana mist that carpets the colosseum.",
+      "prose_hi": "Rakshs ki vishal laash chamakdar baingani maina dhundh ke samudra mein ghul jaati hai jo colosium ko kalin banati hai."
     },
     {
       "id": "p29",
@@ -359,7 +415,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun lands with effortless grace, flipping the void dagger into a reverse grip.",
+      "prose_hi": "Ha-jun sahaj anugrah ke saath utarta hai, khali khanjar ko ulti pakad mein ghumata hai."
     },
     {
       "id": "p30",
@@ -379,7 +437,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "In the center of the dissolving skull, a dark celestial orb the size of an eyeball pulses with starry light.",
+      "prose_hi": "Vightit khopdi ke kendra men, ek netragolak ke aakaar ka ek gehra akashiya gola taron ki roshni ke saath spandit hota hai."
     }
   ]
 }

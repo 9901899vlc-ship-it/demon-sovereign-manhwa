@@ -13,7 +13,9 @@
       "characters": [],
       "action": "A stark monochrome screen reads: 'SEVEN YEARS AGO — OCTOBER 14'. Rain streaks slide down the glass.",
       "mood": "cinematic flashback opener",
-      "sfx": "RAIN DRONE..."
+      "sfx": "RAIN DRONE...",
+      "prose_en": "A stark monochrome screen reads: 'SEVEN YEARS AGO — OCTOBER 14'. Rain streaks slide down the glass.",
+      "prose_hi": "Ek spasht monochrome screen par likha hai: 'saat saal pehle - 14 octuber'. baarish ki dhariyan sheeshe se neeche sarakti han."
     },
     {
       "id": "p02",
@@ -35,7 +37,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "A small 10-year-old Ha-Jun pulls his star-patterned quilt up to his chin, trembling at the roaring thunder outside.",
+      "prose_hi": "Ek chhota 10 varshiya ha-jun apni sitara-patern wali rajai ko apni thodi tak khinchta hai, aur bahar ki tez gadgdahat se kampta hai."
     },
     {
       "id": "p03",
@@ -55,7 +59,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "15-year-old Tae-Jun sits on the bedside edge, wearing a warm grey wool sweater, gently stroking Ha-Jun's hair.",
+      "prose_hi": "15 varshiya taaye-jun, garm grey uni sweater pahane hue, bistar ke kinare par baithi hai, dheere se ha-jun ke baalon ko sahala rahi hai."
     },
     {
       "id": "p04",
@@ -64,7 +70,9 @@
       "characters": [],
       "action": "A sudden muffled CRASH echoes from the lobby four floors down, followed by guttural, wet snarling.",
       "mood": "intrusion of dread",
-      "sfx": "CRASH-SNARL!!"
+      "sfx": "CRASH-SNARL!!",
+      "prose_en": "A sudden muffled CRASH echoes from the lobby four floors down, followed by guttural, wet snarling.",
+      "prose_hi": "Char manjil neeche lobby se achanak dabi-dabi si durghatna ki awaz gunjati hai, jiske baad goonjati, bhigi-bhini cheekh sunai deti hai."
     },
     {
       "id": "p05",
@@ -73,7 +81,9 @@
       "characters": [],
       "action": "Tae-Jun's gentle smile vanishes; his jaw clenches and his eyes flare with a fierce bronze demonic ward-light.",
       "mood": "the guardian awakened",
-      "sfx": "GLINT..."
+      "sfx": "GLINT...",
+      "prose_en": "Tae-Jun's gentle smile vanishes; his jaw clenches and his eyes flare with a fierce bronze demonic ward-light.",
+      "prose_hi": "Taaye-jun ki saumya muskan gayab ho gai; uska jabda bhinch jata hai aur uski aankhen bhayankar kansya rakshasi vard-light se chamak uthti han."
     },
     {
       "id": "p06",
@@ -82,7 +92,9 @@
       "characters": [],
       "action": "Tae-Jun tilts his head; his heightened demonic senses pick up the tactical boot-steps of six armed men in the hallway.",
       "mood": "tactical awareness",
-      "sfx": "THUD-THUD-THUD..."
+      "sfx": "THUD-THUD-THUD...",
+      "prose_en": "Tae-Jun tilts his head; his heightened demonic senses pick up the tactical boot-steps of six armed men in the hallway.",
+      "prose_hi": "Taaye-jun apna sir jhukata hai; uski badhi hui shaitani indriyan dalan mein chhah hathiyarband logon ke samrik boot-staps ko pakad leti han."
     },
     {
       "id": "p07",
@@ -103,7 +115,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun tucks the blanket over Ha-Jun's shoulders: 'Ha-Jun, play our secret game. Keep your eyes closed until I say.'.",
+      "prose_hi": "Taaye-jun ne ha-jun ke kandhon par kambal dala: 'ha-jun, hamara gupt khel khelo. jab tak main na kahoon tab tak apni aankhen band rakhna.'"
     },
     {
       "id": "p08",
@@ -125,7 +139,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Young Ha-Jun smiles trustingly, shutting his brown eyes tight: 'One... two... three...'.",
+      "prose_hi": "Yuva ha-jun apni bhuri aankhon ko kas kar band karte hue, bharosemand dhang se muskurata hai: 'ek... do... teen...'."
     },
     {
       "id": "p09",
@@ -134,7 +150,9 @@
       "characters": [],
       "action": "Tae-Jun steps into the dark apartment hallway and pulls Ha-Jun's bedroom door shut with a quiet click.",
       "mood": "crossing the boundary",
-      "sfx": "CLICK..."
+      "sfx": "CLICK...",
+      "prose_en": "Tae-Jun steps into the dark apartment hallway and pulls Ha-Jun's bedroom door shut with a quiet click.",
+      "prose_hi": "Taaye-jun andhere apartment ke dalan mein kadam rakhta hai aur ha-jun ke shyankaksh ke darvaje ko ek halki si click ke saath band kar deta hai."
     },
     {
       "id": "p10",
@@ -143,7 +161,9 @@
       "characters": [],
       "action": "Tae-Jun draws a sharp silver blade across his right palm; dark crimson blood with golden sparks pools in his hand.",
       "mood": "blood ward preparation",
-      "sfx": "SLICE-DRIP..."
+      "sfx": "SLICE-DRIP...",
+      "prose_en": "Tae-Jun draws a sharp silver blade across his right palm; dark crimson blood with golden sparks pools in his hand.",
+      "prose_hi": "Taaye-jun apni dahini hatheli par ek tej chandi ka blade khinchta hai; uske haath mein sunhari chingariyon wala gehra lal rang ka khoon hai."
     },
     {
       "id": "p11",
@@ -163,7 +183,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "With his bleeding fingers, Tae-Jun paints a complex celestial ward across the doorframe: 'Aegis of the Silent Child'.",
+      "prose_hi": "Apni lahuluhan ungaliyon se, taaye-jun ne darvaje ki chaukhat ke paar ek jatil khagoliya ward chitrit kiya: 'agis off the silent child'."
     },
     {
       "id": "p12",
@@ -172,7 +194,9 @@
       "characters": [],
       "action": "The front door is blown inward with plastic explosives; smoke, wood splinters, and rain pour into the living room.",
       "mood": "breach and assault",
-      "sfx": "KABOOOM!!"
+      "sfx": "KABOOOM!!",
+      "prose_en": "The front door is blown inward with plastic explosives; smoke, wood splinters, and rain pour into the living room.",
+      "prose_hi": "Samne ka darwaza plastic visphotakon se andar ki or uda diya gaya hai; dhuan, lakdi ke tukde aur baarish living room mein fail jaati hai."
     },
     {
       "id": "p13",
@@ -181,7 +205,9 @@
       "characters": [],
       "action": "Three operatives in matte-black tactical exosuits and glowing red night-vision visors enter with rifles raised.",
       "mood": "death squad arrival",
-      "sfx": "CLANK-AIM..."
+      "sfx": "CLANK-AIM...",
+      "prose_en": "Three operatives in matte-black tactical exosuits and glowing red night-vision visors enter with rifles raised.",
+      "prose_hi": "Mat-black tactical exosuit aur chamakdar lal night-vizan wiser pahane teen karyakarta riflein uthaye hue pravesh karte han."
     },
     {
       "id": "p14",
@@ -190,7 +216,9 @@
       "characters": [],
       "action": "Behind them leaps a snarling bio-mechanical chimera hound with razor metal fangs and dripping toxic saliva.",
       "mood": "the monster unleashed",
-      "sfx": "ROARRR-SNAP!!"
+      "sfx": "ROARRR-SNAP!!",
+      "prose_en": "Behind them leaps a snarling bio-mechanical chimera hound with razor metal fangs and dripping toxic saliva.",
+      "prose_hi": "Unke peeche razor dhatu ke nukile daanton aur tapakti jahrili lar ke saath ek gurrata jaiv-yantrik chimera shikari kutta chhalang lagata hai."
     },
     {
       "id": "p15",
@@ -210,7 +238,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "15-year-old Tae-Jun stands alone in his wool sweater, holding his bronze dagger as bronze mana coats his body like armor.",
+      "prose_hi": "15 varshiya taaye-jun apne uni sweater mein akela khada hai, apne kansya khanjar ko pakde hue hai kyonki kansya man uske shareer ko kavach ki tarah dhakta hai."
     },
     {
       "id": "p16",
@@ -230,7 +260,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The lead hunter barks through a voice vocoder: 'Subject Zero located! Don't damage the brainstem!'.",
+      "prose_hi": "Mukhya shikari voice vocoder ke madhyam se bhaunkta hai: 'vishay shunya sthit hai! dimag ko nuksan mat pahunchao!'"
     },
     {
       "id": "p17",
@@ -239,7 +271,9 @@
       "characters": [],
       "action": "Muzzle flashes light up the narrow walls as high-caliber armor-piercing bullets shred the drywall.",
       "mood": "bullet storm",
-      "sfx": "RAT-TAT-TAT-TAT!!"
+      "sfx": "RAT-TAT-TAT-TAT!!",
+      "prose_en": "Muzzle flashes light up the narrow walls as high-caliber armor-piercing bullets shred the drywall.",
+      "prose_hi": "Jaise hi ucch-kshamta wali kavch-bhedi goliyan drywall ko tukde-tukde kar deti han, thuthan ki chamak sankirna diwaron ko roshan kar deti hai."
     },
     {
       "id": "p18",
@@ -248,7 +282,9 @@
       "characters": [],
       "action": "Tae-Jun thrusts his palm forward; a semi-translucent bronze shield deflects bullets into the ceiling and floor.",
       "mood": "shield of the aegis",
-      "sfx": "PANG-SPARK-PING!!"
+      "sfx": "PANG-SPARK-PING!!",
+      "prose_en": "Tae-Jun thrusts his palm forward; a semi-translucent bronze shield deflects bullets into the ceiling and floor.",
+      "prose_hi": "Taaye-jun apni hatheli aage badhata hai; ek ardh-pardarshi kansya dhal chhat aur farsh mein goliyon ko vikshepit karti hai."
     },
     {
       "id": "p19",
@@ -257,7 +293,9 @@
       "characters": [],
       "action": "The chimera beast leaps through the gunfire, its metal jaws snapping directly toward Tae-Jun's neck.",
       "mood": "lethal ambush",
-      "sfx": "LEAP-SNAP!!"
+      "sfx": "LEAP-SNAP!!",
+      "prose_en": "The chimera beast leaps through the gunfire, its metal jaws snapping directly toward Tae-Jun's neck.",
+      "prose_hi": "Chimera janwar bandook ki goli ke beech se chhalang lagata hai, uske dhatu ke jabde sidhe taaye-jun ki gardan ki or badhte han."
     },
     {
       "id": "p20",
@@ -266,7 +304,9 @@
       "characters": [],
       "action": "Tae-Jun drops under the beast's leap and drives his bronze blade upward through its lower jaw into its brain.",
       "mood": "deadly precision",
-      "sfx": "SQUELCH-CRACK!!"
+      "sfx": "SQUELCH-CRACK!!",
+      "prose_en": "Tae-Jun drops under the beast's leap and drives his bronze blade upward through its lower jaw into its brain.",
+      "prose_hi": "Taaye-jun janwar ki chhalang ke neeche gir jata hai aur apne kansya blade ko uske nichle jabde ke madhyam se uske mastishk mein upar ki or le jata hai."
     },
     {
       "id": "p21",
@@ -275,7 +315,9 @@
       "characters": [],
       "action": "The heavy cyber-hound hits the floor, thrashing once before black oil-blood pools beneath it.",
       "mood": "first kill",
-      "sfx": "THUD-HISS..."
+      "sfx": "THUD-HISS...",
+      "prose_en": "The heavy cyber-hound hits the floor, thrashing once before black oil-blood pools beneath it.",
+      "prose_hi": "Bhari cyber-hound farsh se takrata hai, uske neeche kale tel-rakt pool se pehle ek baar dhadkata hai."
     },
     {
       "id": "p22",
@@ -284,7 +326,9 @@
       "characters": [],
       "action": "Tae-Jun doesn't retreat; he sprints straight into the three hunters to draw the fight away from Ha-Jun's room.",
       "mood": "tactical diversion",
-      "sfx": "DASH-BLUR!!"
+      "sfx": "DASH-BLUR!!",
+      "prose_en": "Tae-Jun doesn't retreat; he sprints straight into the three hunters to draw the fight away from Ha-Jun's room.",
+      "prose_hi": "Taaye-jun peeche nahin hatta; wah ha-jun ke kamre se ladai ko door karne ke liye sidhe teen shikariyon ke paas jata hai."
     },
     {
       "id": "p23",
@@ -293,7 +337,9 @@
       "characters": [],
       "action": "Tae-Jun shatters the first operative's rifle with a reinforced elbow strike and hurls him into the coffee table.",
       "mood": "bone-shattering impact",
-      "sfx": "SMASH-CRACK!!"
+      "sfx": "SMASH-CRACK!!",
+      "prose_en": "Tae-Jun shatters the first operative's rifle with a reinforced elbow strike and hurls him into the coffee table.",
+      "prose_hi": "Taaye-jun ne pehle operative ki rifle ko kohni ke jordar prahar se chaknachur kar diya aur use coffee table par fenk diya."
     },
     {
       "id": "p24",
@@ -313,7 +359,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "A second operative drives an electrified baton into Tae-Jun's ribs, discharging 50,000 volts of blue lightning.",
+      "prose_hi": "Ek dusra sanchalak taaye-jun ki pasliyon mein ek vidyutikrit danda chalata hai, jisse 50,000 volt ki neeli bijli nikalti hai."
     },
     {
       "id": "p25",
@@ -322,7 +370,9 @@
       "characters": [],
       "action": "Veins bulging on his neck, Tae-Jun refuses to fall; he grabs the electrified rod and snaps the titanium shaft in half.",
       "mood": "indomitable will",
-      "sfx": "SNAP-SHATTER!!"
+      "sfx": "SNAP-SHATTER!!",
+      "prose_en": "Veins bulging on his neck, Tae-Jun refuses to fall; he grabs the electrified rod and snaps the titanium shaft in half.",
+      "prose_hi": "Uski gardan par ubhari hui nasen, taaye-jun girne se inkar karta hai; wah vidyutikrit chhad ko pakad leta hai aur titanium shaft ko aadha tod deta hai."
     },
     {
       "id": "p26",
@@ -331,7 +381,9 @@
       "characters": [],
       "action": "With a terrifying burst of bronze mana, Tae-Jun hurls the hunter clean through the 4th-floor window into the rain.",
       "mood": "clearing the room",
-      "sfx": "CRASH-FALL!!"
+      "sfx": "CRASH-FALL!!",
+      "prose_en": "With a terrifying burst of bronze mana, Tae-Jun hurls the hunter clean through the 4th-floor window into the rain.",
+      "prose_hi": "Kansya maina ke ek bhayanak visfot ke sath, taaye-jun ne shikari ko chauthi manjil ki khidki se baarish mein fenk diya."
     },
     {
       "id": "p27",
@@ -340,7 +392,9 @@
       "characters": [],
       "action": "Smoke drifts; Tae-Jun stands panting, blood dripping from his sweater and knuckles onto the shattered glass.",
       "mood": "pyrrhic stand",
-      "sfx": "HEAVING BREATH..."
+      "sfx": "HEAVING BREATH...",
+      "prose_en": "Smoke drifts; Tae-Jun stands panting, blood dripping from his sweater and knuckles onto the shattered glass.",
+      "prose_hi": "Dhuan bahta hai; taaye-jun hanfta hua khada hai, uske sweater se khoon tapak raha hai aur toote sheeshe par por gir raha hai."
     },
     {
       "id": "p28",
@@ -349,7 +403,9 @@
       "characters": [],
       "action": "Down on the rainy street, four more Section 9 armored transport vans pull up with fifty armed reinforcements.",
       "mood": "endless swarm",
-      "sfx": "TIRE SCREECH!!"
+      "sfx": "TIRE SCREECH!!",
+      "prose_en": "Down on the rainy street, four more Section 9 armored transport vans pull up with fifty armed reinforcements.",
+      "prose_hi": "Niche barsati sadak par, char aur dhara 9 bakhtarband parivahan van pachas sashastra sudridhikaran ke saath aati han."
     },
     {
       "id": "p29",
@@ -369,7 +425,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun looks down the dark hallway at Ha-Jun's closed bedroom door, glowing faintly with his blood ward.",
+      "prose_hi": "Taaye-jun ha-jun ke band shyankaksh ke andhere galiyare se neeche dekhta hai, jahan uska rakt ward halki si chamak raha hai."
     },
     {
       "id": "p30",
@@ -388,7 +446,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun vaults off the broken window ledge into the torrential downpour, igniting his mana flare to lure the entire army.",
+      "prose_hi": "Taaye-jun puri sena ko lubhane ke liye apni man ki jwala ko prajvalit karte hue, musladhar baarish mein tuti hui khidki ke kinare se bahar nikalta hai."
     }
   ]
 }

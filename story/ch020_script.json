@@ -13,58 +13,104 @@
       "characters": [],
       "action": "Armored APCs and black tactical transport vehicles blockade every entrance of Saint Mirren University under stormy skies.",
       "mood": "military martial law",
-      "sfx": "RUMBLE-HEAVY..."
+      "sfx": "RUMBLE-HEAVY...",
+      "prose_en": "Armored APCs and black tactical transport vehicles blockade every entrance of Saint Mirren University under stormy skies.",
+      "prose_hi": "Bakhtarband apc aur kale samrik parivahan vahan toofani aasman ke neeche sent miren vishwavidyalaya ke har pravesh dwar ko avruddh kar dete han."
     },
     {
       "id": "p02",
       "shot": "captain baek stepping out of command vehicle",
       "setting": "saint mirren main gates",
-      "characters": ["hunter_captain_baek"],
+      "characters": [
+        "hunter_captain_baek"
+      ],
       "action": "Captain Baek Hyeon-Woo (tall, silver hair, heavy ceremonial white coat, scarred eye, wielding a massive holy claymore) steps out onto the pavement.",
       "mood": "overwhelming veteran authority",
-      "sfx": "THUD-CLANG..."
+      "sfx": "THUD-CLANG...",
+      "prose_en": "Captain Baek Hyeon-Woo (tall, silver hair, heavy ceremonial white coat, scarred eye, wielding a massive holy claymore) steps out onto the pavement.",
+      "prose_hi": "Capton bake hyon-woo (lamba, chandi ke bal, bhari aupcharik safed kot, jakhmi aankh, ek vishal pavitra clamor ka upyog karte hue) footpath par kadam rakhta hai."
     },
     {
       "id": "p03",
       "shot": "subordinate tactical salute report",
       "setting": "saint mirren main gates",
-      "characters": ["hunter_captain_baek"],
+      "characters": [
+        "hunter_captain_baek"
+      ],
       "action": "An operative salutes: 'Captain Baek! Agent Jun-Hyuk bees minute pehle auditorium basement mein ghusa tha!'",
       "mood": "urgent field report",
       "dialogue": [
-        {"type": "speech", "speaker": null, "text": "Captain Baek! Agent Jun-Hyuk akele andar gaya hai!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": null,
+          "text": "Captain Baek! Agent Jun-Hyuk akele andar gaya hai!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "An operative salutes: 'Captain Baek! Agent Jun-Hyuk bees minute pehle auditorium basement mein ghusa tha!'.",
+      "prose_hi": "Ek sanchalak salaam karta hai: 'capton bak! agent jun-hyuk bees minute pehle auditorium basement mein ghusa tha!'"
     },
     {
       "id": "p04",
       "shot": "captain baek scarred eye scowl",
       "setting": "saint mirren main gates",
-      "characters": ["hunter_captain_baek"],
+      "characters": [
+        "hunter_captain_baek"
+      ],
       "action": "Captain Baek's scarred eye narrows into an angry scowl: 'Jun-Hyuk hamesha jaldbaazi karta hai. Bina perimeter banaye ghus gaya.'",
       "mood": "veteran disapproval",
       "dialogue": [
-        {"type": "speech", "speaker": "hunter_captain_baek", "text": "Jun-Hyuk hamesha jaldbaazi karta hai.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hunter_captain_baek",
+          "text": "Jun-Hyuk hamesha jaldbaazi karta hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Captain Baek's scarred eye narrows into an angry scowl: 'Jun-Hyuk hamesha jaldbaazi karta hai. Bina perimeter banaye ghus gaya.'.",
+      "prose_hi": "Capton bake ki jakhmi aankh gusse mein chillane lagti hai: 'jun-hyuk hamesha jaldbazi karta hai. bina paridhi bane ghus gaya.'"
     },
     {
       "id": "p05",
       "shot": "holy claymore drawn golden light",
       "setting": "saint mirren main gates",
-      "characters": ["hunter_captain_baek"],
+      "characters": [
+        "hunter_captain_baek"
+      ],
       "action": "Captain Baek draws his colossal holy claymore; the serrated steel pulses with blinding celestial gold and silver mana.",
       "mood": "divine holy weapon",
-      "sfx": "SCHWINNNG-GLOW!!"
+      "sfx": "SCHWINNNG-GLOW!!",
+      "prose_en": "Captain Baek draws his colossal holy claymore; the serrated steel pulses with blinding celestial gold and silver mana.",
+      "prose_hi": "Capton bake ne apna vishal pavitra clamor khincha; chakachaundh kar dene wale divya sone aur chandi ke man ke saath daatedar steel ki daalen."
     },
     {
       "id": "p06",
       "shot": "order to deploy purification dome",
       "setting": "saint mirren main gates",
-      "characters": ["hunter_captain_baek"],
+      "characters": [
+        "hunter_captain_baek"
+      ],
       "action": "Baek commands: 'Purification Dome deploy karo. Koi bhi student ya teacher bahar na nikalne paaye.'",
       "mood": "ruthless quarantine",
       "dialogue": [
-        {"type": "speech", "speaker": "hunter_captain_baek", "text": "Purification Dome deploy karo! Campus seal karo!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hunter_captain_baek",
+          "text": "Purification Dome deploy karo! Campus seal karo!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Baek commands: 'Purification Dome deploy karo. Koi bhi student ya teacher bahar na nikalne paaye.'.",
+      "prose_hi": "Bak aadesh deta hai: 'shuddhikaran dome tainat karo. 'koi bhi student ya teacher bahar na nikle paye.'"
     },
     {
       "id": "p07",
@@ -73,7 +119,9 @@
       "characters": [],
       "action": "Three giant triangular pylon towers fire intense golden laser pillars into the clouds, expanding into a translucent golden dome over the university.",
       "mood": "holy barrier activation",
-      "sfx": "WHUUUUM-FLASH!!"
+      "sfx": "WHUUUUM-FLASH!!",
+      "prose_en": "Three giant triangular pylon towers fire intense golden laser pillars into the clouds, expanding into a translucent golden dome over the university.",
+      "prose_hi": "Teen vishal trikoniya toran tower baadalon mein tivra sunhare laser stambhon se fire karte han, jo vishwavidyalaya ke upar ek parabhasi sunhare gumbad mein failte han."
     },
     {
       "id": "p08",
@@ -83,88 +131,161 @@
       "action": "Inside classrooms, students and faculty stare out in terror as the sky above their heads becomes an impenetrable golden cage.",
       "mood": "trapped civilian terror",
       "dialogue": [
-        {"type": "narration", "text": "Saint Mirren ek pinjra ban chuka tha.", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "narration",
+          "text": "Saint Mirren ek pinjra ban chuka tha.",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "Inside classrooms, students and faculty stare out in terror as the sky above their heads becomes an impenetrable golden cage.",
+      "prose_hi": "Kakshaon ke ander, chhatra aur shikshak bhaybhit hokar bahar ki or dekhte hain kyonki unke sir ke upar ka aakash ek abhedy sunhare pinjare mein badal jata hai."
     },
     {
       "id": "p09",
       "shot": "min-jae shivering holding pipe sentry",
       "setting": "old auditorium cellar exterior",
-      "characters": ["min_jae"],
+      "characters": [
+        "min_jae"
+      ],
       "action": "Behind the old auditorium, Min-Jae stands alone in the howling wind, trembling hands gripping the rusted metal pipe.",
       "mood": "vulnerable courage",
-      "sfx": "SHIVER..."
+      "sfx": "SHIVER...",
+      "prose_en": "Behind the old auditorium, Min-Jae stands alone in the howling wind, trembling hands gripping the rusted metal pipe.",
+      "prose_hi": "Purane sabhagaar ke pichhe, min-je tej hawa mein akele khade han, unke kampate haath jung lage dhatu ke pipe ko pakad rahe han."
     },
     {
       "id": "p10",
       "shot": "three armored enforcers rounding corner",
       "setting": "old auditorium cellar exterior",
-      "characters": ["min_jae"],
+      "characters": [
+        "min_jae"
+      ],
       "action": "Three Hunter Enforcers in black combat armor, silver visors, and tactical assault rifles round the brick wall.",
       "mood": "hostile encounter",
-      "sfx": "CLOMP-CLOMP..."
+      "sfx": "CLOMP-CLOMP...",
+      "prose_en": "Three Hunter Enforcers in black combat armor, silver visors, and tactical assault rifles round the brick wall.",
+      "prose_hi": "Int ki deewar ke charon or kale ladaku kavch, chandi ke chhajje aur samrik assault riflon mein teen hunter enforsars."
     },
     {
       "id": "p11",
       "shot": "rifle pointed at min-jae chest",
       "setting": "old auditorium cellar exterior",
-      "characters": ["min_jae"],
+      "characters": [
+        "min_jae"
+      ],
       "action": "The lead Enforcer raises his assault rifle, red laser dot locking onto Min-Jae's school chest crest: 'Civilian! Darwaze se peechhe hat jao!'",
       "mood": "mortal standoff",
       "dialogue": [
-        {"type": "speech", "speaker": null, "text": "Civilian! Haath upar karke peechhe hato!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": null,
+          "text": "Civilian! Haath upar karke peechhe hato!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "The lead Enforcer raises his assault rifle, red laser dot locking onto Min-Jae's school chest crest: 'Civilian! Darwaze se peechhe hat jao!'.",
+      "prose_hi": "Mukhya enforcer apni assault rifle uthata hai, lal laser dot min-je ke school ke seene par lock karta hai: 'sivilion! darwaze se peeche hat jao!'."
     },
     {
       "id": "p12",
       "shot": "min-jae stammering defense",
       "setting": "old auditorium cellar exterior",
-      "characters": ["min_jae"],
+      "characters": [
+        "min_jae"
+      ],
       "action": "Min-Jae's voice trembles, but he refuses to step away from the cellar doors: 'Y-Yahan kuch nahi hai! Main sirf student hoon!'",
       "mood": "desperate bluff",
       "dialogue": [
-        {"type": "speech", "speaker": "min_jae", "text": "Yahan kuch nahi hai! Door raho!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Yahan kuch nahi hai! Door raho!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Min-Jae's voice trembles, but he refuses to step away from the cellar doors: 'Y-Yahan kuch nahi hai! Main sirf student hoon!'.",
+      "prose_hi": "Min-je ki awaaz kampati hai, lekin wah tahkhane ke darwazon se door jaane se inkar karta hai: 'vai-yahan kuch nahin hai! main sirf student hun!'."
     },
     {
       "id": "p13",
       "shot": "enforcer sneering rifle butt strike",
       "setting": "old auditorium cellar exterior",
-      "characters": ["min_jae"],
+      "characters": [
+        "min_jae"
+      ],
       "action": "The Enforcer steps in with a sneer, raising his steel rifle butt to strike Min-Jae down: 'Chupchap rasta chhod, ladke.'",
       "mood": "casual brutality",
-      "sfx": "SWOOSH!!"
+      "sfx": "SWOOSH!!",
+      "prose_en": "The Enforcer steps in with a sneer, raising his steel rifle butt to strike Min-Jae down: 'Chupchap rasta chhod, ladke.'.",
+      "prose_hi": "Enforsar vyangya ke saath aage aata hai aur min-je ko neeche girane ke liye apni steel rifle but ko upar uthata hai: 'chupchap rasta chhod, ladke.'"
     },
     {
       "id": "p14",
       "shot": "min-jae desperate pipe swing",
       "setting": "old auditorium cellar exterior",
-      "characters": ["min_jae"],
+      "characters": [
+        "min_jae"
+      ],
       "action": "Min-Jae swings his metal pipe with all his might in a clumsy, desperate arc: 'MAINE KAHA PEECHE HATO!!'",
       "mood": "defiant friend",
       "dialogue": [
-        {"type": "shout", "speaker": "min_jae", "text": "MAINE KAHA DOOR RAHO!!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "shout",
+          "speaker": "min_jae",
+          "text": "MAINE KAHA DOOR RAHO!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Min-Jae swings his metal pipe with all his might in a clumsy, desperate arc: 'MAINE KAHA PEECHE HATO!!'.",
+      "prose_hi": "Min-je apne dhatu ke pipe ko apni puri takat se ek anadi, hatash chaap mein ghumata hai: 'maine kaha peeche hato!!'."
     },
     {
       "id": "p15",
       "shot": "parried pipe and brutal stomach kick",
       "setting": "old auditorium cellar exterior",
-      "characters": ["min_jae"],
+      "characters": [
+        "min_jae"
+      ],
       "action": "The armored Enforcer effortlessly blocks the pipe with his forearm guard and kicks Min-Jae viciously in the ribs.",
       "mood": "crushing civilian defeat",
-      "sfx": "CLANG-THUDDD!!"
+      "sfx": "CLANG-THUDDD!!",
+      "prose_en": "The armored Enforcer effortlessly blocks the pipe with his forearm guard and kicks Min-Jae viciously in the ribs.",
+      "prose_hi": "Baktarband enforcer aasani se apne agrabahu rakshak ke saath pipe ko avruddh kar deta hai aur min-je ki pasliyon mein buri tarah se laat maarta hai."
     },
     {
       "id": "p16",
       "shot": "min-jae in mud clutching door handle",
       "setting": "old auditorium cellar exterior",
-      "characters": ["min_jae"],
+      "characters": [
+        "min_jae"
+      ],
       "action": "Min-Jae crashes into the wet mud, gasping for air, but his bleeding fingers still cling desperately to the rusted iron door handle: 'Ha-Jun... bhaago...'",
       "mood": "tragic unbreakable loyalty",
       "dialogue": [
-        {"type": "whisper", "speaker": "min_jae", "text": "...Ha-Jun... bhaago...", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "whisper",
+          "speaker": "min_jae",
+          "text": "...Ha-Jun... bhaago...",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Min-Jae crashes into the wet mud, gasping for air, but his bleeding fingers still cling desperately to the rusted iron door handle: 'Ha-Jun... bhaago...'.",
+      "prose_hi": "Min-je hawa ke liye haanfte hue gili mitti mein gir jata hai, lekin uski khoon se lathpath ungaliyan abhi bhi jung lage lohe ke darwaze ke handle se buri tarah chipki rehti han: 'ha-jun... bhago...'."
     },
     {
       "id": "p17",
@@ -173,7 +294,9 @@
       "characters": [],
       "action": "Suddenly, a deep tectonic roar like an erupting volcano shakes the earth beneath their boots: *RUMBLE-KRRRSH!!*",
       "mood": "awakened wrath",
-      "sfx": "BOOOOM-RUMBLE!!"
+      "sfx": "BOOOOM-RUMBLE!!",
+      "prose_en": "Suddenly, a deep tectonic roar like an erupting volcano shakes the earth beneath their boots: *RUMBLE-KRRRSH!!*.",
+      "prose_hi": "Achanak, futate hue jwalamukhi ki tarah ek gahri tectonic garjana unke jute ke neeche ki dharti ko hila deti hai: *rambal-crarash!!*."
     },
     {
       "id": "p18",
@@ -182,7 +305,9 @@
       "characters": [],
       "action": "The three Enforcers lose their balance as deep geometric cracks rip across the grass and stone around the cellar doors.",
       "mood": "fissure of power",
-      "sfx": "CRACK-SNAP!!"
+      "sfx": "CRACK-SNAP!!",
+      "prose_en": "The three Enforcers lose their balance as deep geometric cracks rip across the grass and stone around the cellar doors.",
+      "prose_hi": "Tahkhane ke darwazon ke charon or ghas aur patthar mein gahri jyamitiya dararen padne se teenon pravartak apna santulan kho dete han."
     },
     {
       "id": "p19",
@@ -191,74 +316,121 @@
       "characters": [],
       "action": "Pillars of radiant violet hellfire jet through the fissures into the cold air, vaporizing falling leaves into ash.",
       "mood": "hellfire breach",
-      "sfx": "FWOOOOOSH!!"
+      "sfx": "FWOOOOOSH!!",
+      "prose_en": "Pillars of radiant violet hellfire jet through the fissures into the cold air, vaporizing falling leaves into ash.",
+      "prose_hi": "Diptiman baingani narkankaal ke khambhe daraaron se thandi hawa mein pravahit hote han, aur girti pattiyon ko raakh mein badal dete han."
     },
     {
       "id": "p20",
       "shot": "underground amphitheater critical mana fever",
       "setting": "forgotten classroom interior",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Cut underground: Ha-Jun's bloodline burns at 100% boiling temperature; violet and crimson mana spirals violently around his silhouette.",
       "mood": "volcanic awakening",
       "dialogue": [
-        {"type": "narration", "text": "Sovereign ka krodh aag ban chuka tha.", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "narration",
+          "text": "Sovereign ka krodh aag ban chuka tha.",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "Cut underground: Ha-Jun's bloodline burns at 100% boiling temperature; violet and crimson mana spirals violently around his silhouette.",
+      "prose_hi": "Bhumigat katauti: ha-jun ki raktarekha 100% ubalte taapmaan par jalti hai; baingani aur lal man uske chhayachitra ke charon or hinsak roop se ghumta hai."
     },
     {
       "id": "p21",
       "shot": "hybrid hunter charging with foaming maw",
       "setting": "forgotten classroom interior",
-      "characters": ["hunter_captain"],
+      "characters": [
+        "hunter_captain"
+      ],
       "action": "Corrupted hybrid Jun-Hyuk charges with a rabid roar, bringing down his blackened silver blade with two-handed force.",
       "mood": "berserk monster strike",
-      "sfx": "ROAAARRRR!!"
+      "sfx": "ROAAARRRR!!",
+      "prose_en": "Corrupted hybrid Jun-Hyuk charges with a rabid roar, bringing down his blackened silver blade with two-handed force.",
+      "prose_hi": "Bhrasht hybrid jun-hyuk unmatt dahaad ke saath hamla karta hai, aur apne kale chandi ke blade ko do hathon ke bal se neeche gira deta hai."
     },
     {
       "id": "p22",
       "shot": "bare gauntlet fingers catching blade",
       "setting": "forgotten classroom interior",
-      "characters": ["hajun", "hunter_captain"],
+      "characters": [
+        "hajun",
+        "hunter_captain"
+      ],
       "action": "Ha-Jun doesn't dodge: He raises his right hand and catches the descending corrupted blade between two bare crystalline fingers!",
       "mood": "godly effortless block",
-      "sfx": "CLANG-CATCH!!"
+      "sfx": "CLANG-CATCH!!",
+      "prose_en": "Ha-Jun doesn't dodge: He raises his right hand and catches the descending corrupted blade between two bare crystalline fingers!.",
+      "prose_hi": "Ha-jun chakma nahin deta: wah apna dahina haath uthata hai aur do nangi crystaliy ungaliyon ke beech utarte hue bhrasht blade ko pakad leta hai!"
     },
     {
       "id": "p23",
       "shot": "holy silver blade snapping like dry pasta macro",
       "setting": "forgotten classroom interior",
-      "characters": ["hunter_captain"],
+      "characters": [
+        "hunter_captain"
+      ],
       "action": "With a casual lateral flick of Ha-Jun's fingers, the thick silver blade snaps clean in half with an explosive ping.",
       "mood": "destruction of the holy weapon",
-      "sfx": "SNAP-SHATTER!!"
+      "sfx": "SNAP-SHATTER!!",
+      "prose_en": "With a casual lateral flick of Ha-Jun's fingers, the thick silver blade snaps clean in half with an explosive ping.",
+      "prose_hi": "Ha-jun ki ungaliyon ke aakasmik parshva jhatke ke sath, moti chandi ki blade ek visfotak ping ke saath aadhi saaf ho jaati hai."
     },
     {
       "id": "p24",
       "shot": "jun-hyuk horrified disbelief face",
       "setting": "forgotten classroom interior",
-      "characters": ["hunter_captain"],
+      "characters": [
+        "hunter_captain"
+      ],
       "action": "Jun-Hyuk's blood-red eyes bulge in sheer paralyzed horror, staring at his snapped blade stub: 'M-Mera holy blade... haath se tod diya?!'",
       "mood": "shattered ego",
       "dialogue": [
-        {"type": "thought", "speaker": "hunter_captain", "text": "Ungliyon se blade tod diya...?!", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hunter_captain",
+          "text": "Ungliyon se blade tod diya...?!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Jun-Hyuk's blood-red eyes bulge in sheer paralyzed horror, staring at his snapped blade stub: 'M-Mera holy blade... haath se tod diya?!'.",
+      "prose_hi": "Jun-hyuk ki rakt-lal aankhen puri tarah se lakwagrast bhay se ubhari hui han, wah uske toote hue blade stub ko ghoor raha hai: 'm-mera holi bled... haath se tod diya?!'."
     },
     {
       "id": "p25",
       "shot": "sovereign palm strike to hybrid chest",
       "setting": "forgotten classroom interior",
-      "characters": ["hajun", "hunter_captain"],
+      "characters": [
+        "hajun",
+        "hunter_captain"
+      ],
       "action": "Ha-Jun plants his open palm into Jun-Hyuk's chest, detonating a concentrated shockwave of pure violet sovereign mana.",
       "mood": "concussive eruption",
-      "sfx": "KRAAAA-DOOOOMM!!"
+      "sfx": "KRAAAA-DOOOOMM!!",
+      "prose_en": "Ha-Jun plants his open palm into Jun-Hyuk's chest, detonating a concentrated shockwave of pure violet sovereign mana.",
+      "prose_hi": "Ha-jun ne apni khuli hatheli jun-hyuk ki chhati mein rakh di, jisse shuddh baingani samprabhu man ki ek kendrit shockwev ka visfot hua."
     },
     {
       "id": "p26",
       "shot": "hybrid body launched upward through chute",
       "setting": "subterranean chute",
-      "characters": ["hunter_captain"],
+      "characters": [
+        "hunter_captain"
+      ],
       "action": "The concussive shockwave launches Jun-Hyuk's 200-pound body straight upward through the stone chute like a projectile.",
       "mood": "vertical launch",
-      "sfx": "BOOOOM-ROCKET!!"
+      "sfx": "BOOOOM-ROCKET!!",
+      "prose_en": "The concussive shockwave launches Jun-Hyuk's 200-pound body straight upward through the stone chute like a projectile.",
+      "prose_hi": "Consuciv shockwev jun-hyuk ke 200 pound ke shareer ko ek prakshepy ki tarah patthar ki dhalaan ke madhyam se sidhe upar ki or prakshepit karti hai."
     },
     {
       "id": "p27",
@@ -267,7 +439,9 @@
       "characters": [],
       "action": "On the surface: The heavy iron cellar doors blow skyward into shrapnel; Jun-Hyuk's broken body crashes heavily into the mud.",
       "mood": "surface breach",
-      "sfx": "KRAAASH-THUDDD!!"
+      "sfx": "KRAAASH-THUDDD!!",
+      "prose_en": "On the surface: The heavy iron cellar doors blow skyward into shrapnel; Jun-Hyuk's broken body crashes heavily into the mud.",
+      "prose_hi": "Satah par: lohe ke bhari tahkhane ke darvaje aakash ki or chharre bankar udte han; jun-hyuk ka toota hua shareer kichad mein buri tarah dhans gaya."
     },
     {
       "id": "p28",
@@ -277,30 +451,65 @@
       "action": "The three Enforcers freeze in stunned terror, staring at their broken elite agent coughing blood at their feet: 'Agent Jun-Hyuk?!'",
       "mood": "shock and awe",
       "dialogue": [
-        {"type": "speech", "speaker": null, "text": "Agent Jun-Hyuk ko kisne aise maara?!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": null,
+          "text": "Agent Jun-Hyuk ko kisne aise maara?!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "The three Enforcers freeze in stunned terror, staring at their broken elite agent coughing blood at their feet: 'Agent Jun-Hyuk?!'.",
+      "prose_hi": "Teenon pravartak stabdh aatank mein sthir ho gaye, apne toote hue kulin agent ko apne pairon par khoon khanste hue dekh rahe the: 'agent jun-hyuk?!'."
     },
     {
       "id": "p29",
       "shot": "hajun rising from the cellar smoke",
       "setting": "old auditorium cellar doorway",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Slowly rising from the smoking cellar crater is Ha-Jun Kang, surrounded by a swirling storm of violet mana, eyes burning like twin suns.",
       "mood": "arrival of the sovereign",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "Mere dost par haath uthane ki himmat kiski hui?", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Mere dost par haath uthane ki himmat kiski hui?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Slowly rising from the smoking cellar crater is Ha-Jun Kang, surrounded by a swirling storm of violet mana, eyes burning like twin suns.",
+      "prose_hi": "Dhune se bhare tahkhane se dhire-dhire ha-jun kang nikal raha hai, jo baingani maina ke ghumte toofan se ghira hua hai, aankhen judwan suraj ki tarah jal rahi han."
     },
     {
       "id": "p30",
       "shot": "captain baek claymore standoff cliffhanger",
       "setting": "old auditorium lawn",
-      "characters": ["hunter_captain_baek", "hajun"],
+      "characters": [
+        "hunter_captain_baek",
+        "hajun"
+      ],
       "action": "Through the trees, Captain Baek Hyeon-Woo approaches with his glowing golden holy claymore, locking eyes with Ha-Jun across the grass: 'Toh aakhir shaitan ka beej samne aa hi gaya.'",
       "mood": "epic titans clash, ultimate cliffhanger",
       "dialogue": [
-        {"type": "speech", "speaker": "hunter_captain_baek", "text": "Toh aakhir shaitan ka beej samne aa hi gaya.", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hunter_captain_baek",
+          "text": "Toh aakhir shaitan ka beej samne aa hi gaya.",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "Through the trees, Captain Baek Hyeon-Woo approaches with his glowing golden holy claymore, locking eyes with Ha-Jun across the grass: 'Toh aakhir shaitan ka beej samne aa hi gaya.'.",
+      "prose_hi": "Pedon ke beech se, captain bake hyon-woo apni chamakti sunhari pavitra clamor ke saath ghas ke paar ha-jun ke saath aankhen milate hue aata hai: 'to aakhir shaitan ka beej samne aa hi gaya.'"
     }
   ]
 }

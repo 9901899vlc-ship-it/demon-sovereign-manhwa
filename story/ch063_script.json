@@ -13,7 +13,9 @@
       "characters": [],
       "action": "Xal'Khor climbs out of the rubble, green coolant leaking from cracked chassis seams, sparks flying.",
       "mood": "damaged cyborg titan",
-      "sfx": "SPARK-CREAK..."
+      "sfx": "SPARK-CREAK...",
+      "prose_en": "Xal'Khor climbs out of the rubble, green coolant leaking from cracked chassis seams, sparks flying.",
+      "prose_hi": "Zaal'khor malbe se bahar nikalta hai, toote hue chesis seem se hara shitalak ris raha hai, chingariyan ud rahi han."
     },
     {
       "id": "p02",
@@ -22,7 +24,9 @@
       "characters": [],
       "action": "The silver visor splits in half, revealing a single swirling eye of pure black cosmic antimatter.",
       "mood": "the void eye exposed",
-      "sfx": "VOID PULSE..."
+      "sfx": "VOID PULSE...",
+      "prose_en": "The silver visor splits in half, revealing a single swirling eye of pure black cosmic antimatter.",
+      "prose_hi": "Chandi ka chhajja aadhe mein vibhajit ho jata hai, jisse shuddh kale brahmandiya antimatter ki ek ghumti hui aankh dikhai deti hai."
     },
     {
       "id": "p03",
@@ -41,7 +45,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Xal'Khor laughs with grinding digital feedback: 'You think you are the True Sovereign, child?!'.",
+      "prose_hi": "Zaal'khor gambhir digital pratikriya ke saath hanste han: 'aapko lagta hai ki aap sacche samprabhu han, bacche?!'."
     },
     {
       "id": "p04",
@@ -62,7 +68,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun hovers unperturbed, the Crown glowing steady: 'Lies of a machine with broken gears.'.",
+      "prose_hi": "Ha-jun avichalit hokar mandrata hai, mukut sthir roop se chamak raha hai: 'tute hue gear wali machine ka jhuth.'"
     },
     {
       "id": "p05",
@@ -71,7 +79,9 @@
       "characters": [],
       "action": "Xal'Khor's six arms interlock into a massive 12-foot railgun cannon charged with black-green plasma.",
       "mood": "ultimate cannon ready",
-      "sfx": "HIGH PITCH CHARGE: EEEEEEEE!!"
+      "sfx": "HIGH PITCH CHARGE: EEEEEEEE!!",
+      "prose_en": "Xal'Khor's six arms interlock into a massive 12-foot railgun cannon charged with black-green plasma.",
+      "prose_hi": "Zaal'khor ki chhah bhujaen kale-hare plasma se charge ki gai 12 foot ki vishal railgan top mein gunthi hui han."
     },
     {
       "id": "p06",
@@ -91,7 +101,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Thermal sensors on Min-Jae's laptop spike into the gigawatt range: 'HA-JUN! USE STOP KARO! PURA GANGNAM VAPORIZE HO JAYEGA!'.",
+      "prose_hi": "Min-je ke laptop par thermal sensor gigawatt range mein badhte han: 'ha-jun! stop karo ka upyog karen! pura gangnam vashpikrit ho jaega!'."
     },
     {
       "id": "p07",
@@ -102,7 +114,9 @@
       ],
       "action": "Ha-Jun touches down on the asphalt thirty meters in front of the charged cannon, planting his boots.",
       "mood": "the human shield",
-      "sfx": "TAP..."
+      "sfx": "TAP...",
+      "prose_en": "Ha-Jun touches down on the asphalt thirty meters in front of the charged cannon, planting his boots.",
+      "prose_hi": "Ha-jun charge ki gai top ke samne tees meter ki doori par damar ko chhuta hai, aur apne jute lagata hai."
     },
     {
       "id": "p08",
@@ -124,7 +138,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun sheathes both the greatsword and the dagger, standing with empty hands at his sides.",
+      "prose_hi": "Ha-jun badi talwar aur khanjar donon ko myan mein rakhta hai, aur apne kinaron par khali haath rakhta hai."
     },
     {
       "id": "p09",
@@ -135,7 +151,9 @@
       ],
       "action": "Ha-Jun presses his hand against the burning lotus crest on his chest: 'All Relics... Unite into Sovereign Aegis!'",
       "mood": "calling all relics",
-      "sfx": "COMMAND!!"
+      "sfx": "COMMAND!!",
+      "prose_en": "Ha-Jun presses his hand against the burning lotus crest on his chest: 'All Relics... Unite into Sovereign Aegis!'.",
+      "prose_hi": "Ha-jun apne seene par jalti hui kamal ki shikha par apna haath dabata hai: 'sabhi avshesh... samprabhu tatvadhan mein ekjut ho jao!'."
     },
     {
       "id": "p10",
@@ -146,7 +164,9 @@
       ],
       "action": "The ten relics manifest as ten towering 30-foot translucent crystalline shields encircling him.",
       "mood": "ten-fold aegis",
-      "sfx": "CELESTIAL CHIME!!"
+      "sfx": "CELESTIAL CHIME!!",
+      "prose_en": "The ten relics manifest as ten towering 30-foot translucent crystalline shields encircling him.",
+      "prose_hi": "Das avashesh use ghere hue das oonche 30 foot parabhasi crystaliy dhaalon ke roop mein prakat hote han."
     },
     {
       "id": "p11",
@@ -155,7 +175,9 @@
       "characters": [],
       "action": "The 12-foot cannon discharges: a blinding 20-meter-wide beam of apocalyptic black-green antimatter.",
       "mood": "apocalyptic discharge",
-      "sfx": "BOOOOOOOOOOOOMMMMM!!"
+      "sfx": "BOOOOOOOOOOOOMMMMM!!",
+      "prose_en": "The 12-foot cannon discharges: a blinding 20-meter-wide beam of apocalyptic black-green antimatter.",
+      "prose_hi": "12 foot ki top se nikalta hai: sarvanashakari kale-hare rang ke antimatter ki 20 meter chaudi kiran."
     },
     {
       "id": "p12",
@@ -166,7 +188,9 @@
       ],
       "action": "The beam crashes into Ha-Jun's shields; a blinding white sphere of kinetic pressure illuminates all of Seoul.",
       "mood": "titan clash of elements",
-      "sfx": "FLASH-CRACKLE!!"
+      "sfx": "FLASH-CRACKLE!!",
+      "prose_en": "The beam crashes into Ha-Jun's shields; a blinding white sphere of kinetic pressure illuminates all of Seoul.",
+      "prose_hi": "Kiran ha-jun ki dhaalon se takrati hai; gatij dabav ka ek chakachaundh safed kshetra poore seoul ko roshan karta hai."
     },
     {
       "id": "p13",
@@ -175,7 +199,9 @@
       "characters": [],
       "action": "The Bone, Blood, and Heart shields absorb the physical and thermal shockwaves, cooling the plasma.",
       "mood": "thermal absorption",
-      "sfx": "ABSORB..."
+      "sfx": "ABSORB...",
+      "prose_en": "The Bone, Blood, and Heart shields absorb the physical and thermal shockwaves, cooling the plasma.",
+      "prose_hi": "Haddi, rakt aur hriday dhal bhautik aur thermal shockwaves ko avshoshit karte han, plasma ko thanda karte han."
     },
     {
       "id": "p14",
@@ -184,7 +210,9 @@
       "characters": [],
       "action": "The Fang, Eye, and Chains shields slice the beam's molecular cohesion into scattered harmless sparks.",
       "mood": "molecular fracture",
-      "sfx": "CLEAVE-SPARK!!"
+      "sfx": "CLEAVE-SPARK!!",
+      "prose_en": "The Fang, Eye, and Chains shields slice the beam's molecular cohesion into scattered harmless sparks.",
+      "prose_hi": "Fang, aai aur chain dhalen ​​kiran ke aanvik samanjasya ko bikhri hui hanirahit chingariyon mein kaat deti han."
     },
     {
       "id": "p15",
@@ -206,7 +234,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun steps forward through the center of the beam, unburned, hair billowing, eyes like blazing suns.",
+      "prose_hi": "Ha-jun kiran ke kendra se hokar aage badhta hai, bina jale, bal lahrate hue, aankhen chamakte suraj ki tarah."
     },
     {
       "id": "p16",
@@ -226,7 +256,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Xal'Khor's systems overload as Ha-Jun walks straight toward the muzzle: 'CANNOT COMPUTE! POWER IMMUNITY OVERFLOW!'.",
+      "prose_hi": "Jaise hi ha-jun sidhe thuthan ki or badhta hai, zaal'khor ka system overload ho jata hai: 'ganna nahin kar sakta! power immunity overflo!'."
     },
     {
       "id": "p17",
@@ -237,7 +269,9 @@
       ],
       "action": "Ha-Jun arrives at the smoking barrel of the cannon, his left bone gauntlet clamping onto the weapon frame.",
       "mood": "point blank reach",
-      "sfx": "GRAB-LOCK!!"
+      "sfx": "GRAB-LOCK!!",
+      "prose_en": "Ha-Jun arrives at the smoking barrel of the cannon, his left bone gauntlet clamping onto the weapon frame.",
+      "prose_hi": "Ha-jun top ki dhuaadhar barrel par pahunchta hai, uski bayin haddi ka hathiyar hathiyar ke dhaanche par chipak jata hai."
     },
     {
       "id": "p18",
@@ -248,7 +282,9 @@
       ],
       "action": "With a single flex of his bone fingers, the massive titanium cannon collapses into crumpled scrap.",
       "mood": "crushing the railgun",
-      "sfx": "SCREEECH-CRUNCH!!"
+      "sfx": "SCREEECH-CRUNCH!!",
+      "prose_en": "With a single flex of his bone fingers, the massive titanium cannon collapses into crumpled scrap.",
+      "prose_hi": "Uski haddi ki ungaliyon ke ek jhatke se, vishal titanium top toote hue scrap mein dhah jaati hai."
     },
     {
       "id": "p19",
@@ -257,7 +293,9 @@
       "characters": [],
       "action": "The Void General falls backward onto his hands, stripped of all weapons and defenses.",
       "mood": "disarmed general",
-      "sfx": "FALL..."
+      "sfx": "FALL...",
+      "prose_en": "The Void General falls backward onto his hands, stripped of all weapons and defenses.",
+      "prose_hi": "Shunya general apne sabhi hathiyaron aur bachavon se vanchit hokar peeche ki or gir jata hai."
     },
     {
       "id": "p20",
@@ -279,7 +317,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun draws the Eclipse Devourer; the blade has absorbed the entire gigawatt antimatter beam.",
+      "prose_hi": "Ha-jun grahan bhakshak ko khinchta hai; blade ne poore gigawatt antimatter beam ko avshoshit kar liya hai."
     },
     {
       "id": "p21",
@@ -301,7 +341,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun speaks with the weight of five thousand years of emperors: 'I am Ha-Jun Kang. The Demon Sovereign.'.",
+      "prose_hi": "Ha-jun paanch hajar saal ke samraton ke vajan ke saath bolta hai: 'main ha-jun kang hun. danav samprabhu.'"
     },
     {
       "id": "p22",
@@ -312,7 +354,9 @@
       ],
       "action": "Ha-Jun swings the overcharged greatsword down in a clean, absolute vertical guillotine cleave.",
       "mood": "the execution stroke",
-      "sfx": "SLASHHHHHHH!!"
+      "sfx": "SLASHHHHHHH!!",
+      "prose_en": "Ha-Jun swings the overcharged greatsword down in a clean, absolute vertical guillotine cleave.",
+      "prose_hi": "Ha-jun atyadhik charge ki gai mahan talwar ko ek saf, purna udhrvadhar gilotin daraar mein ghumata hai."
     },
     {
       "id": "p23",
@@ -321,7 +365,9 @@
       "characters": [],
       "action": "Void General Xal'Khor is sliced cleanly down the center; green coolant and void fire erupt from the seam.",
       "mood": "cyborg titan cleaved",
-      "sfx": "BECTED-SNAP!!"
+      "sfx": "BECTED-SNAP!!",
+      "prose_en": "Void General Xal'Khor is sliced cleanly down the center; green coolant and void fire erupt from the seam.",
+      "prose_hi": "Shunya general zaal'khor ko beech mein se saf-suthara kata gaya hai; hare shitalak aur shunya agni siwan se footati hai."
     },
     {
       "id": "p24",
@@ -330,7 +376,9 @@
       "characters": [],
       "action": "The Void General's power core detonates in a magnificent, harmless shower of sparkling violet fireworks.",
       "mood": "firework explosion",
-      "sfx": "KABOOOOM-SPARKLE!!"
+      "sfx": "KABOOOOM-SPARKLE!!",
+      "prose_en": "The Void General's power core detonates in a magnificent, harmless shower of sparkling violet fireworks.",
+      "prose_hi": "Void general ka power core chamchamati baingani aatishbaji ki ek shandar, hanirahit bauchhar mein visphotit hota hai."
     },
     {
       "id": "p25",
@@ -339,7 +387,9 @@
       "characters": [],
       "action": "With the general's death, the 300-meter void rift in the clouds snaps shut; stars twinkle over Seoul.",
       "mood": "sky rift sealed",
-      "sfx": "SNAP-SEAL!!"
+      "sfx": "SNAP-SEAL!!",
+      "prose_en": "With the general's death, the 300-meter void rift in the clouds snaps shut; stars twinkle over Seoul.",
+      "prose_hi": "Janaral ki mrityu ke sath, baadalon mein 300 meter ki shunya daraar band ho gai; seoul mein taare timtimate han."
     },
     {
       "id": "p26",
@@ -348,7 +398,9 @@
       "characters": [],
       "action": "Across all of Seoul, the remaining mindless void monsters dissolve into harmless grey ash in the rain.",
       "mood": "monsters purged",
-      "sfx": "DISSOLVE..."
+      "sfx": "DISSOLVE...",
+      "prose_en": "Across all of Seoul, the remaining mindless void monsters dissolve into harmless grey ash in the rain.",
+      "prose_hi": "Pure seoul men, shesh nasamajh shunya rakshas baarish mein hanirahit grey raakh mein ghul jaate han."
     },
     {
       "id": "p27",
@@ -359,7 +411,9 @@
       ],
       "action": "Silence returns to the city; Ha-Jun lowers his blade as the rain softly patters on his dark coat.",
       "mood": "peace restored to seoul",
-      "sfx": "RAIN PATTER..."
+      "sfx": "RAIN PATTER...",
+      "prose_en": "Silence returns to the city; Ha-Jun lowers his blade as the rain softly patters on his dark coat.",
+      "prose_hi": "Shahar mein sannata laut aaya; jaise hi baarish uske kale coat par dhire-dhire thpakti hai, ha-jun apna blade neeche kar deta hai."
     },
     {
       "id": "p28",
@@ -378,7 +432,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Thousands of human citizens flood the streets from buildings, cheering and embracing the demon soldiers.",
+      "prose_hi": "Hazaron manav nagrik imaaraton se nikalkar sadkon par umad padte han, jaikaar karte hain aur rakshas sainikon ko gale lagate han."
     },
     {
       "id": "p29",
@@ -398,7 +454,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae leaps into Ha-Jun's arms in an emotional bear hug; Captain Baek salutes proudly.",
+      "prose_hi": "Min-je bhavnatmak roop se gale milte hue ha-jun ki baahon mein kood jata hai; captain bake garv se salaam karte han."
     },
     {
       "id": "p30",
@@ -419,7 +477,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun smiles warmly at his friends, Crown gleaming gently in the clean morning dawn.",
+      "prose_hi": "Ha-jun apne doston ko dekhkar garmjoshi se muskurata hai, taj saaf subah ki roshni mein dheere se chamak raha hai."
     }
   ]
 }

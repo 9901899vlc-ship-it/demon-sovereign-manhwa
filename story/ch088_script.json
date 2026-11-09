@@ -24,7 +24,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Nihilux unsheathes two colossal jagged blades forged from the cores of collapsed black holes.",
+      "prose_hi": "Nihilax ne dhahe hue black hole ke core se bane do vishal dantedar bledon ko khol diya."
     },
     {
       "id": "p02",
@@ -33,7 +35,9 @@
       "characters": [],
       "action": "Nihilux leaps with the force of an artillery barrage, his twin blades cleaving downward at Mach 10.",
       "mood": "crushing leap",
-      "sfx": "CRASH-LEAP!!"
+      "sfx": "CRASH-LEAP!!",
+      "prose_en": "Nihilux leaps with the force of an artillery barrage, his twin blades cleaving downward at Mach 10.",
+      "prose_hi": "Nihilax ek topkhane ki takat se chhalang lagata hai, uske judwan blade mac 10 ki gati se neeche ki or tutate han."
     },
     {
       "id": "p03",
@@ -44,7 +48,9 @@
       ],
       "action": "Ha-Jun parries both 50-foot swords with his single seven-foot blade; the shockwave blows all clouds from the sky.",
       "mood": "seismic blade parry",
-      "sfx": "KABOOOOOM-PARRY!!"
+      "sfx": "KABOOOOOM-PARRY!!",
+      "prose_en": "Ha-Jun parries both 50-foot swords with his single seven-foot blade; the shockwave blows all clouds from the sky.",
+      "prose_hi": "Ha-jun apne saat foot ke blade se 50 foot ki donon talwaron ko kaat deta hai; shockwev aakash se sabhi baadalon ko uda deti hai."
     },
     {
       "id": "p04",
@@ -66,7 +72,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro swoops down at Mach 12, driving his white-hot solar talons into Nihilux's armored horned faceplate.",
+      "prose_hi": "Kuro ne much 12 ki gati se jhapatta mara aur apne safed-garm saur panje ko nihilax ke bakhtarband seeng wale faceplate mein daal diya."
     },
     {
       "id": "p05",
@@ -86,7 +94,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Nihilux stumbles backward three steps, dark oil-blood leaking from four deep gouges across his metal visor.",
+      "prose_hi": "Nihilax teen kadam peeche ki or ladkhadata hai, uske dhatu ke chhajje par lage char gahre chhedon se gehra tel-rakt ris raha hai."
     },
     {
       "id": "p06",
@@ -106,7 +116,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun thrusts his right palm forward, firing a concentrated laser of bronze guardian mana into Nihilux's knee.",
+      "prose_hi": "Taaye-jun ne apni dahini hatheli ko aage badhaya, jisse nihilax ke ghutne mein kansya sanrakshak man ka ek kendrit laser fire hua."
     },
     {
       "id": "p07",
@@ -117,7 +129,9 @@
       ],
       "action": "Taking advantage of the stagger, Ha-Jun blurs inside Nihilux's reach, his blade spinning in a crimson blur.",
       "mood": "close-quarters blitz",
-      "sfx": "DASH-BLUR!!"
+      "sfx": "DASH-BLUR!!",
+      "prose_en": "Taking advantage of the stagger, Ha-Jun blurs inside Nihilux's reach, his blade spinning in a crimson blur.",
+      "prose_hi": "Ladkhadahat ka fayda uthate hue, ha-jun nihilax ki pahunch ke andar dhundhla ho jata hai, uska blade gahre lal rang mein ghumta hai."
     },
     {
       "id": "p08",
@@ -139,7 +153,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Seven blinding cuts carve through Nihilux's breastplate, exposing the glowing green anti-matter core inside.",
+      "prose_hi": "Saat chakachaundh cut nihilax ke brestaplate ke madhyam se ukere gaye han, jo andar chamakte hare anti-mater core ko ujagar karte han."
     },
     {
       "id": "p09",
@@ -148,7 +164,9 @@
       "characters": [],
       "action": "Nihilux detonates a defensive pulse of black antimatter, blasting Ha-Jun backward 100 feet through the air.",
       "mood": "defensive blast",
-      "sfx": "KABOOOM-PULSE!!"
+      "sfx": "KABOOOM-PULSE!!",
+      "prose_en": "Nihilux detonates a defensive pulse of black antimatter, blasting Ha-Jun backward 100 feet through the air.",
+      "prose_hi": "Nihilax kale antimatter ki ek rakshatmak pulse ka visfot karta hai, jisse ha-jun hawa mein 100 feet peeche chala jata hai."
     },
     {
       "id": "p10",
@@ -159,7 +177,9 @@
       ],
       "action": "Ha-Jun lands with acrobatic poise atop the university center flagpole, his coat fluttering gracefully.",
       "mood": "agile landing",
-      "sfx": "LIGHT TOUCH..."
+      "sfx": "LIGHT TOUCH...",
+      "prose_en": "Ha-Jun lands with acrobatic poise atop the university center flagpole, his coat fluttering gracefully.",
+      "prose_hi": "Ha-jun kalabaji ke saath vishwavidyalaya kendra ke dhwajastambh ke upar utarta hai, uska coat khubsurti se lahra raha hai."
     },
     {
       "id": "p11",
@@ -179,7 +199,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Nihilux raises his hand: 'Baal-Zahar! Lilith-Morg! Descend and feast upon these children!'.",
+      "prose_hi": "Nihilax ne apna haath uthaya: 'bal-zhar! lilith-morg! utaro aur in bachchon ka anand lo!'"
     },
     {
       "id": "p12",
@@ -188,7 +210,9 @@
       "characters": [],
       "action": "Two colossal rifts tear open; Lord Baal-Zahar and Empress Lilith-Morg step onto the Seoul battlefield.",
       "mood": "the triumvirate united",
-      "sfx": "TEAR-ROAR!!"
+      "sfx": "TEAR-ROAR!!",
+      "prose_en": "Two colossal rifts tear open; Lord Baal-Zahar and Empress Lilith-Morg step onto the Seoul battlefield.",
+      "prose_hi": "Do vishal dararen khul gain; lord bal-zhar aur maharani lilith-morg seoul yudh ke maidan mein kadam rakhte han."
     },
     {
       "id": "p13",
@@ -197,7 +221,9 @@
       "characters": [],
       "action": "Baal-Zahar unleashes a boiling wave of toxic red blood that melts asphalt and cars along the boulevard.",
       "mood": "toxic blood wave",
-      "sfx": "SIZZLE-MELT!!"
+      "sfx": "SIZZLE-MELT!!",
+      "prose_en": "Baal-Zahar unleashes a boiling wave of toxic red blood that melts asphalt and cars along the boulevard.",
+      "prose_hi": "Bal-zhar jahreele lal rakt ki ubalti lahar ko ujagar karta hai jo buleward ke saath damar aur karon ko pighla deta hai."
     },
     {
       "id": "p14",
@@ -206,7 +232,9 @@
       "characters": [],
       "action": "Lilith-Morg emits an ultrasonic soul-wail that causes human and demon soldiers to drop to their knees clutching ears.",
       "mood": "soul wail",
-      "sfx": "SKREEEE-WAIL!!"
+      "sfx": "SKREEEE-WAIL!!",
+      "prose_en": "Lilith-Morg emits an ultrasonic soul-wail that causes human and demon soldiers to drop to their knees clutching ears.",
+      "prose_hi": "Lilith-morg ek ultrasonic aatma-vilap ka utsarjan karta hai jiske karan manav aur rakshas sainik kaan pakadkar ghutnon ke bal baith jaate han."
     },
     {
       "id": "p15",
@@ -217,7 +245,9 @@
       ],
       "action": "Ha-Jun looks down at his allies: 'I will not allow you to slaughter my people!'",
       "mood": "protective fury",
-      "sfx": "CLENCH FISTS..."
+      "sfx": "CLENCH FISTS...",
+      "prose_en": "Ha-Jun looks down at his allies: 'I will not allow you to slaughter my people!'.",
+      "prose_hi": "Ha-jun apne sahyogiyon ki or dekhta hai: 'main tumhe mere logon ka vadh karne ki anumati nahin dunga!'"
     },
     {
       "id": "p16",
@@ -239,7 +269,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun activates the Crown's full power: a 10-mile golden dome covers all of Seoul, silencing the soul-wail.",
+      "prose_hi": "Ha-jun crown ki puri shakti ko sakriya karta hai: 10 meal ka sunhara gumbad poore seoul ko cover karta hai, jo aatma-vilap ko shant karta hai."
     },
     {
       "id": "p17",
@@ -258,7 +290,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Within Ha-Jun's domain, Lilith-Morg's wail is silenced and Baal-Zahar's toxic blood turns into crystal-clear clean water.",
+      "prose_hi": "Ha-jun ke domain ke bheetar, lilith-morg ka vilap shant ho jata hai aur bal-zhar ka jahreela khoon cristal-spasht saaf pani mein badal jata hai."
     },
     {
       "id": "p18",
@@ -278,7 +312,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The two Void Sovereigns stare at their hands in disbelief: 'Our primordial spells... Nullified in an instant?!'.",
+      "prose_hi": "Do shunya samprabhu log avishvas se apne hathon ko dekh rahe han: 'hamare aadim mantra... ek pal mein nirast ho gaye?!'."
     },
     {
       "id": "p19",
@@ -289,7 +325,9 @@
       ],
       "action": "Ha-Jun materializes directly between the two gods, his Sanguine Fang already swung in a 360-degree arc.",
       "mood": "the double cleave",
-      "sfx": "FLASH-SHING!!"
+      "sfx": "FLASH-SHING!!",
+      "prose_en": "Ha-Jun materializes directly between the two gods, his Sanguine Fang already swung in a 360-degree arc.",
+      "prose_hi": "Ha-jun sidhe do devtaon ke beech sakar hota hai, uska senguin fang pehle se hi 360-degri chaap mein ghum gaya hai."
     },
     {
       "id": "p20",
@@ -311,7 +349,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "A single fluid horizontal circular slash cleanly beheads Lord Baal-Zahar and bisects Empress Lilith-Morg.",
+      "prose_hi": "Ek ekal drav kshaitij golakar slash bhagwan bal-zhar ka sir saaf kar deta hai aur maharani lilith-morg ko dvibhajit karta hai."
     },
     {
       "id": "p21",
@@ -320,7 +360,9 @@
       "characters": [],
       "action": "The two ancient gods disintegrate into two towering pillars of grey ash that dissolve harmlessly in the wind.",
       "mood": "two thrones annihilated",
-      "sfx": "DISSOLVE-ASH..."
+      "sfx": "DISSOLVE-ASH...",
+      "prose_en": "The two ancient gods disintegrate into two towering pillars of grey ash that dissolve harmlessly in the wind.",
+      "prose_hi": "Do prachin devta bhure raakh ke do oonche khambhon mein vighatit ho gaye jo hawa mein hanirahit roop se ghul gaye."
     },
     {
       "id": "p22",
@@ -340,7 +382,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Emperor Nihilux stands completely alone in the center of the boulevard, his remaining twin blades shaking.",
+      "prose_hi": "Samrat nihilax buleward ke kendra mein bilkul akele khade han, unke shesh judwan blade hill rahe han."
     },
     {
       "id": "p23",
@@ -362,7 +406,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun turns around slowly, his blood katana dripping stardust: 'Now it's just you and me, Nihilux.'.",
+      "prose_hi": "Ha-jun dhire-dhire ghumta hai, uska khoon katana stardust tapka raha hai: 'ab yah sirf aap aur main han, nihilax.'"
     },
     {
       "id": "p24",
@@ -384,7 +430,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun joins his right side, bronze armor gleaming: 'Make that you, me, and our brother.'.",
+      "prose_hi": "Taaye-jun apne dahini or judta hai, kansya kavach chamakta hai: 'ise tum, mujhe aur hamare bhai ko banao.'"
     },
     {
       "id": "p25",
@@ -407,7 +455,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro settles on his left shoulder, eyes blazing ruby: 'And don't forget the bird.'.",
+      "prose_hi": "Kuro apne baen kandhe par baith jata hai, uski aankhen ruby chamakti han: 'aur pakshi ko mat bhulna.'"
     },
     {
       "id": "p26",
@@ -427,7 +477,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Nihilux screams, channeling the remaining dark matter of a thousand dead stars into his chest core.",
+      "prose_hi": "Nihilax chillata hai, ek hajar mrit sitaron ke shesh kale padarth ko apni chhati ke core mein pravahit karta hai."
     },
     {
       "id": "p27",
@@ -436,7 +488,9 @@
       "characters": [],
       "action": "His chest core swells into a blinding sphere of unstable green anti-matter, ready to vaporize Korea.",
       "mood": "planetary suicide bomb",
-      "sfx": "CRITICAL OVERLOAD!!"
+      "sfx": "CRITICAL OVERLOAD!!",
+      "prose_en": "His chest core swells into a blinding sphere of unstable green anti-matter, ready to vaporize Korea.",
+      "prose_hi": "Uski chhati ka core asthir hare anti-mater ke ek chakachaundh kshetra mein badal jata hai, jo korea ko vashpikrit karne ke liye taiyar hai."
     },
     {
       "id": "p28",
@@ -456,7 +510,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun sprints forward, driving his claymore through Nihilux's wrists, pinning the monster's arms to the ground.",
+      "prose_hi": "Taaye-jun aage badhta hai, apne clamor ko nihilax ki kalaiyon ke madhyam se chalata hai, rakshas ki bhujaon ko jameen par daba deta hai."
     },
     {
       "id": "p29",
@@ -467,7 +523,9 @@
       ],
       "action": "Ha-Jun leaps into the air, holding the Sanguine Fang with both hands, starlight and chronos sand fusing on the edge.",
       "mood": "the sovereign executioner",
-      "sfx": "CELESTIAL BLADE ROAR!!"
+      "sfx": "CELESTIAL BLADE ROAR!!",
+      "prose_en": "Ha-Jun leaps into the air, holding the Sanguine Fang with both hands, starlight and chronos sand fusing on the edge.",
+      "prose_hi": "Ha-jun hawa mein chhalang lagata hai, donon hathon se senguin feng ko pakadta hai, taron ki roshni aur chronos ret kinare par milti hai."
     },
     {
       "id": "p30",
@@ -489,7 +547,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun plunges his starlight blade straight into the center of the unstable supernova core!.",
+      "prose_hi": "Ha-jun apne starlite blade ko sidhe asthir supernova core ke kendra mein dalta hai!"
     }
   ]
 }

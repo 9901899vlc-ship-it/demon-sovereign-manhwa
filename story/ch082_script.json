@@ -15,7 +15,9 @@
       ],
       "action": "The sun rises over the eastern horizon of Earth, bathing the atmosphere in breathtaking amber, rose, and gold light.",
       "mood": "sunrise in orbit",
-      "sfx": "GOLDEN GLOW..."
+      "sfx": "GOLDEN GLOW...",
+      "prose_en": "The sun rises over the eastern horizon of Earth, bathing the atmosphere in breathtaking amber, rose, and gold light.",
+      "prose_hi": "Surya prithvi ke purvi kshitij par ugta hai, aur vatavaran ko lubhavani embar, gulabi aur sunhari roshni se nahla deta hai."
     },
     {
       "id": "p02",
@@ -24,7 +26,9 @@
       "characters": [],
       "action": "Billions of black debris particles turn to sparkling diamond dust, burning harmlessly in Earth's upper thermosphere.",
       "mood": "space purified",
-      "sfx": "SPARKLE-DISSOLVE..."
+      "sfx": "SPARKLE-DISSOLVE...",
+      "prose_en": "Billions of black debris particles turn to sparkling diamond dust, burning harmlessly in Earth's upper thermosphere.",
+      "prose_hi": "Arbon kale malbe ke kan chamakdar heere ki dhul mein badal jaate han, jo prithvi ke upari tharmospheer mein hanirahit roop se jalte han."
     },
     {
       "id": "p03",
@@ -46,7 +50,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun hovers weightlessly, his dark coat drifting in the zero gravity; the blue oceans and white clouds reflect in his eyes.",
+      "prose_hi": "Ha-jun bharahin hokar mandrata hai, uska kala coat shunya gurutvakarshan mein bah raha hai; neele sagar aur safed badal uski aankhon mein pratibimbit hote han."
     },
     {
       "id": "p04",
@@ -68,7 +74,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun floats beside him, helmet retracted, smiling warmly with tears in his eyes: 'You did it, Little Sovereign.'.",
+      "prose_hi": "Taaye-jun uske bagal mein tair raha hai, helmet peeche hata hua hai, aankhon mein aansu ke saath garmjoshi se muskura raha hai: 'tumne yah kiya, little soweren.'"
     },
     {
       "id": "p05",
@@ -90,7 +98,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun rests his forehead against Tae-Jun's shoulder for a brief, vulnerable second: 'We did it together, Hyung.'.",
+      "prose_hi": "Ha-jun ne ek sankshipt, samvedansheel kshan ke liye taaye-jun ke kandhe par apna matha tikaya: 'hamane ise ek saath kiya, hung.'"
     },
     {
       "id": "p06",
@@ -113,7 +123,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Little Kuro sits on Ha-Jun's fingertip, cooing softly: 'The ten relics have reached perfect vibrational harmony.'.",
+      "prose_hi": "Nanha kuro ha-jun ki ungaliyon par baitha hai aur dheere se sahala raha hai: 'das avashesh purna companatmak samanjasya tak pahunch gaye han.'"
     },
     {
       "id": "p07",
@@ -124,7 +136,9 @@
       ],
       "action": "Feather, Ring, Bone, Heart, Fang, Eye, Chains, Crown, Devourer, and Hourglass form a ten-pointed star of living light.",
       "mood": "the sacred decagram",
-      "sfx": "CHIME-MANDALA!!"
+      "sfx": "CHIME-MANDALA!!",
+      "prose_en": "Feather, Ring, Bone, Heart, Fang, Eye, Chains, Crown, Devourer, and Hourglass form a ten-pointed star of living light.",
+      "prose_hi": "Pankh, anguthi, haddi, hridy, pankh, aankh, janjeer, mukut, bhakshak, aur ghantaghar jeevit prakash ka das-nukila tara banate han."
     },
     {
       "id": "p08",
@@ -135,7 +149,9 @@
       ],
       "action": "The relics spin faster, blurring into a continuous ring of liquid rainbow mana that wraps around his heart.",
       "mood": "accelerating orbit",
-      "sfx": "WHIRL-SPIN!!"
+      "sfx": "WHIRL-SPIN!!",
+      "prose_en": "The relics spin faster, blurring into a continuous ring of liquid rainbow mana that wraps around his heart.",
+      "prose_hi": "Avshesh teji se ghumte han, taral indradhanush man ki ek satat anguthi mein dhundhla ho jaate hain jo uske dil ke charon or lapetata hai."
     },
     {
       "id": "p09",
@@ -156,7 +172,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "One by one, each relic sinks into Ha-Jun's chest, leaving glowing permanent tattoos of ancient runes on his skin.",
+      "prose_hi": "Ek-ek karke, pratyek avashesh ha-jun ki chhati mein sama jata hai, jisse uski tvacha par prachin runs ke chamakdar sthayi tattoo ban jaate han."
     },
     {
       "id": "p10",
@@ -167,7 +185,9 @@
       ],
       "action": "Kuro's Mythic Fallen Feather sinks into the very center of his chest, blossoming into a radiant purple phoenix crest.",
       "mood": "the master crest",
-      "sfx": "BLOSSOM-GLOW!!"
+      "sfx": "BLOSSOM-GLOW!!",
+      "prose_en": "Kuro's Mythic Fallen Feather sinks into the very center of his chest, blossoming into a radiant purple phoenix crest.",
+      "prose_hi": "Kuro ka pauranik gira hua pankh uski chhati ke bilkul beech mein dhans jata hai, aur ek chamakdar baingani phoenix shikha mein khil jata hai."
     },
     {
       "id": "p11",
@@ -178,7 +198,9 @@
       ],
       "action": "A soft, non-destructive shockwave of warm violet light washes across all of low Earth orbit, clearing space debris.",
       "mood": "soothing monarch aura",
-      "sfx": "SOFT PULSE..."
+      "sfx": "SOFT PULSE...",
+      "prose_en": "A soft, non-destructive shockwave of warm violet light washes across all of low Earth orbit, clearing space debris.",
+      "prose_hi": "Garm baingani prakash ki ek naram, gair-vinashakari shockwev prithvi ki nichli kaksha ko paar kar jaati hai, jisse antriksh ka malba saaf ho jata hai."
     },
     {
       "id": "p12",
@@ -189,7 +211,9 @@
       ],
       "action": "The golden interface upgrades to platinum: '[BLOODLINE SYNCHRONIZATION: 100% - THE TRUE DEMON SOVEREIGN TRANSCENDED]'.",
       "mood": "max synchronization achieved",
-      "sfx": "PLATINUM CHIME!!"
+      "sfx": "PLATINUM CHIME!!",
+      "prose_en": "The golden interface upgrades to platinum: '[BLOODLINE SYNCHRONIZATION: 100% - THE TRUE DEMON SOVEREIGN TRANSCENDED]'.",
+      "prose_hi": "Golden interface platinum mein upgrade hota hai: '[bladlin sinkronization: 100% - sachcha danav samprabhu sthanantrit]'."
     },
     {
       "id": "p13",
@@ -200,7 +224,9 @@
       ],
       "action": "His hair is long, midnight-black streaked with starlight silver; his coat is woven of living shadow and star-dust.",
       "mood": "the transcended king",
-      "sfx": "MAJESTIC DRAPE..."
+      "sfx": "MAJESTIC DRAPE...",
+      "prose_en": "His hair is long, midnight-black streaked with starlight silver; his coat is woven of living shadow and star-dust.",
+      "prose_hi": "Uske bal lambe han, aadhi raat ke kale rang ki taron wali chandi ki dhariyan han; uska coat jeevit chhaya aur taara-dhul se buna gaya hai."
     },
     {
       "id": "p14",
@@ -220,7 +246,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun looks at his own forearm: a matching bronze crest of the Aegis pulses in harmony with Ha-Jun's heart.",
+      "prose_hi": "Taaye-jun apne agrabahu ko dekhta hai: agis ki ek mail khati hui kansya shikha ha-jun ke dil ke saath taalmel bithati hai."
     },
     {
       "id": "p15",
@@ -242,7 +270,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The brothers exchange a warm, confident look, then orient their boots toward Seoul.",
+      "prose_hi": "Bhai ek-dusre ko garmjoshi se bharte hue, aatmavishwas se dekhte han, phir apne jute seoul ki or modate han."
     },
     {
       "id": "p16",
@@ -253,7 +283,9 @@
       ],
       "action": "Three brilliant golden shooting stars streak across the morning blue sky, descending toward Seoul.",
       "mood": "the shooting stars",
-      "sfx": "STREAK-GLEAM..."
+      "sfx": "STREAK-GLEAM...",
+      "prose_en": "Three brilliant golden shooting stars streak across the morning blue sky, descending toward Seoul.",
+      "prose_hi": "Teen shandar sunhare tutate taare subah ke neele aakash mein seoul ki or utarte hue chamakte han."
     },
     {
       "id": "p17",
@@ -262,7 +294,9 @@
       "characters": [],
       "action": "Gwanghwamun Square: thousands of citizens, hunters, and demon soldiers fill the boulevard in joyous anticipation.",
       "mood": "massive assembly",
-      "sfx": "CROWD MURMUR..."
+      "sfx": "CROWD MURMUR...",
+      "prose_en": "Gwanghwamun Square: thousands of citizens, hunters, and demon soldiers fill the boulevard in joyous anticipation.",
+      "prose_hi": "Guangwamun squir: hajaron nagarik, shikari aur rakshas sainik khushi ki pratyasha mein buleward ko bhar dete han."
     },
     {
       "id": "p18",
@@ -273,7 +307,9 @@
       ],
       "action": "Ha-Jun, Tae-Jun, and Kuro land feather-light on the granite paving stones; no shockwave, only a gentle warm breeze.",
       "mood": "peaceful landing",
-      "sfx": "LIGHT STEP..."
+      "sfx": "LIGHT STEP...",
+      "prose_en": "Ha-Jun, Tae-Jun, and Kuro land feather-light on the granite paving stones; no shockwave, only a gentle warm breeze.",
+      "prose_hi": "Ha-jun, taaye-jun, aur kuro granite farsh ke pattharon par pankh-roshani lagate han; koi jhatka nahin, keval halki garm hawa."
     },
     {
       "id": "p19",
@@ -282,7 +318,9 @@
       "characters": [],
       "action": "One hundred thousand people fall completely silent, holding their breath as they look at the two brothers.",
       "mood": "reverent hush",
-      "sfx": "HUSH..."
+      "sfx": "HUSH...",
+      "prose_en": "One hundred thousand people fall completely silent, holding their breath as they look at the two brothers.",
+      "prose_hi": "Jab ve donon bhaiyon ko dekhte hain to ek lakh log puri tarah chup ho jaate han, apni saansein rok lete han."
     },
     {
       "id": "p20",
@@ -302,7 +340,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Captain Baek steps forward, his ceremonial sword lowered, saluting with a trembling hand: 'Supreme Sovereign...'.",
+      "prose_hi": "Capton bake aage badhte han, unki aupcharik talwar neeche hoti hai, aur kampate haath se salami dete han: 'sarvocch samprabhu...'."
     },
     {
       "id": "p21",
@@ -313,7 +353,9 @@
       ],
       "action": "Ha-Jun slides his blood blade into its scabbard; the hilt clicks shut with an echoing, decisive sound.",
       "mood": "the war is finished",
-      "sfx": "CLICK-SNAP!!"
+      "sfx": "CLICK-SNAP!!",
+      "prose_en": "Ha-Jun slides his blood blade into its scabbard; the hilt clicks shut with an echoing, decisive sound.",
+      "prose_hi": "Ha-jun apne khoon ke blade ko uski myan mein daal deta hai; mooth ke click ek gunjti, nirnayak dhwani ke saath band ho jaate han."
     },
     {
       "id": "p22",
@@ -334,7 +376,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun smiles with the gentle warmth of a 17-year-old boy: 'The war is over. Earth is free.'.",
+      "prose_hi": "Ha-jun ek 17 varshiya ladke ki saumya garmjoshi ke saath muskurata hai: 'yuddh khatm ho gaya hai. prithvi swatantra hai.'"
     },
     {
       "id": "p23",
@@ -354,7 +398,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "One hundred thousand voices roar in ecstasy; confetti, flowers, and hats fly into the bright morning sky.",
+      "prose_hi": "Ek lakh aawajen parmanand mein garjana karti han; comfeddi, phool aur topiyan ujjwal subah ke aakash mein udti han."
     },
     {
       "id": "p24",
@@ -376,7 +422,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae sprints through the crowd, leaping into Ha-Jun in a wild, sobbing bear hug, knocking his glasses crooked.",
+      "prose_hi": "Min-je bheed ke beech se teji se daudta hai, ha-jun mein jangli, siskate hue bhalu ke aalingan mein chhalang lagata hai, jisse uska chashma tedha ho jata hai."
     },
     {
       "id": "p25",
@@ -398,7 +446,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun laughs, catching Min-Jae's glasses with a flick of his fingers and slipping them back on his nose.",
+      "prose_hi": "Ha-jun hansta hai, apni ungaliyon ke jhatke se min-je ke chashme ko pakadta hai aur use wapas apni naak par rakh deta hai."
     },
     {
       "id": "p26",
@@ -417,7 +467,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Tough Iron Demon captains and elite Section 9 hunters embrace, clinking beer cans and sharing tears.",
+      "prose_hi": "Tuff iron danav kaptan aur vishisht section 9 ke shikari gale milte han, beer ke dibbe khanakate hain aur aansu bahate han."
     },
     {
       "id": "p27",
@@ -438,7 +490,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun wraps his arm around Ha-Jun's shoulder, smiling warmly at their friends: 'What do we do now, little brother?'.",
+      "prose_hi": "Taaye-jun ne ha-jun ke kandhe par apna haath lapeta aur apne doston ko dekhkar garmjoshi se muskurate hue kaha: 'ab hum kya karen, chhote bhai?'."
     },
     {
       "id": "p28",
@@ -460,7 +514,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun blushes slightly, rubbing his neck: 'Well... Tomorrow is Monday. I think I have a math exam at Saint Mirren.'.",
+      "prose_hi": "Ha-jun thoda sharmata hai, apni gardan ragadata hai: 'thik hai... kal somwar hai. mujhe lagta hai ki sent miren mein meri ganit ki pariksha hai.'"
     },
     {
       "id": "p29",
@@ -483,7 +539,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun, Min-Jae, and Kuro burst into wild laughter under the blue sky, Kuro shaking his feathers on Ha-Jun's head.",
+      "prose_hi": "Taaye-jun, min-je, aur kuro neele aakash ke neeche zor se hansne lage, kuro ne ha-jun ke sir par apne pankh hila die."
     },
     {
       "id": "p30",
@@ -505,7 +563,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "The two brothers, their best friend, and their mythic crow walk down the wide avenue into a bright, peaceful new world.",
+      "prose_hi": "Do bhai, unke sabse acche dost, aur unka pauranik kauwa ek ujjwal, shantipurna nai duniya mein chaude raste par chalte han."
     }
   ]
 }

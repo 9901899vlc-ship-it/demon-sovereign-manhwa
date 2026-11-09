@@ -13,49 +13,92 @@
       "characters": [],
       "action": "Wide shot of the condemned Victorian auditorium behind the sports fields; red brick walls covered in overgrown wild ivy and rusted rain gutters.",
       "mood": "secluded, foreboding atmosphere",
-      "sfx": "WIND-RUSTLE..."
+      "sfx": "WIND-RUSTLE...",
+      "prose_en": "Wide shot of the condemned Victorian auditorium behind the sports fields; red brick walls covered in overgrown wild ivy and rusted rain gutters.",
+      "prose_hi": "Khel ke maidanon ke peeche nindit victorian sabhagaar ka vistrit drishya; lal int ki deewaren oonche junglee iv aur jung lage barsati naalon se dhaki hui han."
     },
     {
       "id": "p02",
       "shot": "min-jae waiting nervously",
       "setting": "old auditorium exterior",
-      "characters": ["min_jae"],
+      "characters": [
+        "min_jae"
+      ],
       "action": "Min-Jae stands in the shadow of the brick wall, nervously kicking loose gravel with his scuffed sneakers, holding his phone tightly.",
       "mood": "anxious anticipation",
       "dialogue": [
-        {"type": "thought", "speaker": "min_jae", "text": "Kya wo aayega...?", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "min_jae",
+          "text": "Kya wo aayega...?",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Min-Jae stands in the shadow of the brick wall, nervously kicking loose gravel with his scuffed sneakers, holding his phone tightly.",
+      "prose_hi": "Min-je int ki deewar ki chhaya mein khada hai, ghabrae hue apne ghise hue sneakers ke saath dhili bajri ko laat maar raha hai, aur apne phone ko kaskar pakad raha hai."
     },
     {
       "id": "p03",
       "shot": "hajun footsteps rounding corner",
       "setting": "old auditorium exterior",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun rounds the brick corner with his hands in his uniform pockets, footsteps steady and silent on the overgrown path.",
       "mood": "calm, formidable composure",
-      "sfx": "STEP... STEP..."
+      "sfx": "STEP... STEP...",
+      "prose_en": "Ha-Jun rounds the brick corner with his hands in his uniform pockets, footsteps steady and silent on the overgrown path.",
+      "prose_hi": "Ha-jun apni vardi ki jebon mein haath daalkar int ke kone ka chakkar lagata hai, oonche raste par uske kadam sthir aur shant han."
     },
     {
       "id": "p04",
       "shot": "confrontation greeting two-shot",
       "setting": "old auditorium exterior",
-      "characters": ["hajun", "min_jae"],
+      "characters": [
+        "hajun",
+        "min_jae"
+      ],
       "action": "Min-Jae looks up sharply: 'Tum aa gaye.' / Ha-Jun: 'Tumne note bheja tha. Kya baat karni hai?'",
       "mood": "tense standoff between friends",
       "dialogue": [
-        {"type": "speech", "speaker": "min_jae", "text": "Tum sach mein aa gaye.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Tum sach mein aa gaye.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Min-Jae looks up sharply: 'Tum aa gaye.' / Ha-Jun: 'Tumne note bheja tha. Kya baat karni hai?'.",
+      "prose_hi": "Min-je teji se upar dekhta hai: 'tum aa gaye.' / ha-jun: 'tumne note bheja tha. kya baat karni hai?'."
     },
     {
       "id": "p05",
       "shot": "trembling hands holding phone",
       "setting": "old auditorium exterior",
-      "characters": ["min_jae"],
+      "characters": [
+        "min_jae"
+      ],
       "action": "Min-Jae's hands shake slightly as he taps his smartphone screen: 'Bureau ke aane se pehle maine security backup copy kar liya tha.'",
       "mood": "nervous courage",
       "dialogue": [
-        {"type": "speech", "speaker": "min_jae", "text": "Maine security footage save kar liya tha, Ha-Jun.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Maine security footage save kar liya tha, Ha-Jun.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Min-Jae's hands shake slightly as he taps his smartphone screen: 'Bureau ke aane se pehle maine security backup copy kar liya tha.'.",
+      "prose_hi": "Apne smartphone ki screen par tap karte samay min-je ke haath halke se kampate han: 'buro ke aane se pehle maine security backup copy kar liya tha.'"
     },
     {
       "id": "p06",
@@ -64,18 +107,32 @@
       "characters": [],
       "action": "Close-up on phone screen: A grainy, terrifying video of Ha-Jun leaping from the library window and materializing the glowing purple gauntlet in mid-air.",
       "mood": "unmistakable evidence",
-      "sfx": "GLITCH-BZZT..."
+      "sfx": "GLITCH-BZZT...",
+      "prose_en": "Terrifying video of Ha-Jun leaping from the library window and materializing the glowing purple gauntlet in mid-air.",
+      "prose_hi": "Ha-jun ka library ki khidki se chhalang lagane aur madhya hawa mein chamakte baingani gauntlet ko moort roop dene ka bhayanak wedio."
     },
     {
       "id": "p07",
       "shot": "min-jae intense gaze through glasses",
       "setting": "old auditorium exterior",
-      "characters": ["min_jae"],
+      "characters": [
+        "min_jae"
+      ],
       "action": "Min-Jae looks directly into Ha-Jun's eyes: 'Tum teesri manzil se kood gaye aur ek kharoch tak nahi aayi. Aur tumhara haath... wo insaani nahi tha.'",
       "mood": "naked truth revealed",
       "dialogue": [
-        {"type": "speech", "speaker": "min_jae", "text": "Wo haath... insaani nahi tha.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Wo haath... insaani nahi tha.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Min-Jae looks directly into Ha-Jun's eyes: 'Tum teesri manzil se kood gaye aur ek kharoch tak nahi aayi. Aur tumhara haath... wo insaani nahi tha.'.",
+      "prose_hi": "Min-je sidhe ha-jun ki aankhon mein dekhta hai: 'tum teesri manjil se kood gaye aur ek kharch tak nahin i. aur tumhara hath...vo insaan nahin tha.'"
     },
     {
       "id": "p08",
@@ -84,93 +141,183 @@
       "characters": [],
       "action": "Dead autumn leaves swirl around their feet in the cold wind; a heavy, solemn silence falls between the two students.",
       "mood": "moment of destiny",
-      "sfx": "SWISHHH..."
+      "sfx": "SWISHHH...",
+      "prose_en": "Dead autumn leaves swirl around their feet in the cold wind; a heavy, solemn silence falls between the two students.",
+      "prose_hi": "Thandi hawa mein mrit patjhad ke patte unke pairon ke charon or ghumte han; donon chhatron ke beech ek bhari, gambhir chuppi chha ​​jati hai."
     },
     {
       "id": "p09",
       "shot": "kuro ruthless shadow suggestion",
       "setting": "inner mindscape",
-      "characters": ["kuro"],
+      "characters": [
+        "kuro"
+      ],
       "action": "Kuro's telepathic hiss from Ha-Jun's shadow: 'Iski memory wipe kar do. Ek blood hex iske dimaag se kal ki saari yaadein mita dega.'",
       "mood": "demonic pragmatism",
       "dialogue": [
-        {"type": "speech", "speaker": "kuro", "text": "Iski memory mita do! Khatra mat lo!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Iski memory mita do! Khatra mat lo!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Kuro's telepathic hiss from Ha-Jun's shadow: 'Iski memory wipe kar do. Ek blood hex iske dimaag se kal ki saari yaadein mita dega.'.",
+      "prose_hi": "Ha-jun ki chhaya se kuro ki telepathic fusfusahat: 'iski memory wipe kar do. ek khoon iske dimag se kal ki sari yaadein mita dega.'"
     },
     {
       "id": "p10",
       "shot": "hajun silent internal refusal",
       "setting": "old auditorium exterior",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun firmly closes his eyes in internal refusal: 'Nahi, Kuro. Jab sab mujhe maarte the, tab yahi akela tha jo meri chot par patti lagata tha.'",
       "mood": "human loyalty prevails",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "Min-Jae mera dost hai. Main use nuksan nahi pahunchaunga.", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Min-Jae mera dost hai. Main use nuksan nahi pahunchaunga.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun firmly closes his eyes in internal refusal: 'Nahi, Kuro. Jab sab mujhe maarte the, tab yahi akela tha jo meri chot par patti lagata tha.'.",
+      "prose_hi": "Ha-jun ne aantarik inkar mein dridhta se apni aankhen band kar lin: 'nahin, kuro. jab sab mujhe maarte the, tab yahin akela tha jo meri chot par patti lagata tha.'"
     },
     {
       "id": "p11",
       "shot": "grave warning step forward",
       "setting": "old auditorium exterior",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun steps forward, tone deep and solemn: 'Min-Jae... agar sach jaan gaye, toh tumhari aam zindagi khatam ho jayegi.'",
       "mood": "point of no return",
       "dialogue": [
-        {"type": "speech", "speaker": "hajun", "text": "Sach jaan kar tumhari aam zindagi khatam ho sakti hai.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Sach jaan kar tumhari aam zindagi khatam ho sakti hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun steps forward, tone deep and solemn: 'Min-Jae... agar sach jaan gaye, toh tumhari aam zindagi khatam ho jayegi.'.",
+      "prose_hi": "Ha-jun aage badhta hai, swar gehra aur gambhir: 'min-jaye... agar sach jaan gaye, to tumhari aam jindagi khatm ho jaegi.'"
     },
     {
       "id": "p12",
       "shot": "min-jae unwavering loyalty",
       "setting": "old auditorium exterior",
-      "characters": ["min_jae"],
+      "characters": [
+        "min_jae"
+      ],
       "action": "Min-Jae doesn't flinch: 'Teen saal se main buzdil ban kar dekhta raha. Kal tumne ek monster se meri jaan bachai. Tum chahe jo bhi ho... main tumhara dost hoon.'",
       "mood": "unshakeable bond",
       "dialogue": [
-        {"type": "speech", "speaker": "min_jae", "text": "Tum chahe jo bhi ho... main tumhara dost hoon.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Tum chahe jo bhi ho... main tumhara dost hoon.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Min-Jae doesn't flinch: 'Teen saal se main buzdil ban kar dekhta raha. Kal tumne ek monster se meri jaan bachai. Tum chahe jo bhi ho... main tumhara dost hoon.'.",
+      "prose_hi": "Min-je jhijhakte nahin han: 'teen saal se main buzdil ban kar dekhta raha. kal tumne ek monster se meri jaan bachai. tum chahe jo bhi ho...main tumhara dost hun.'."
     },
     {
       "id": "p13",
       "shot": "hajun warm genuine smile",
       "setting": "old auditorium exterior",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun's guarded expression melts; a rare, genuine warm smile appears on his face for the first time in seven years.",
       "mood": "emotional relief",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "Main akela nahi hoon...", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Main akela nahi hoon...",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun's guarded expression melts; a rare, genuine warm smile appears on his face for the first time in seven years.",
+      "prose_hi": "Ha-jun ki sanrakshit abhivyakti pighal gai; saat varshon mein pehli baar unke chehre par ek durlbh, vastavik garmjoshi bhari muskan dikhai deti hai."
     },
     {
       "id": "p14",
       "shot": "fingertip violet sparks demonstration",
       "setting": "old auditorium exterior",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun raises his right hand; tiny, harmless violet sparks of mana dance playfully across his fingertips like fireflies.",
       "mood": "magical demonstration",
-      "sfx": "BZZT-PING..."
+      "sfx": "BZZT-PING...",
+      "prose_en": "Ha-Jun raises his right hand; tiny, harmless violet sparks of mana dance playfully across his fingertips like fireflies.",
+      "prose_hi": "Ha-jun apna dahina haath uthata hai; man ki chhoti, hanirahit baingani chingari juganuon ki tarah uski ungaliyon par chanchalta se nritya karti hai."
     },
     {
       "id": "p15",
       "shot": "min-jae awe reflection in glasses",
       "setting": "old auditorium exterior",
-      "characters": ["min_jae"],
+      "characters": [
+        "min_jae"
+      ],
       "action": "Min-Jae's glasses reflect the glowing purple sparks in childlike wonder: 'Yeh... yeh kya hai?!'",
       "mood": "spellbound amazement",
       "dialogue": [
-        {"type": "speech", "speaker": "min_jae", "text": "Yeh jaadu hai kya...?!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Yeh jaadu hai kya...?!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Min-Jae's glasses reflect the glowing purple sparks in childlike wonder: 'Yeh... yeh kya hai?!'.",
+      "prose_hi": "Min-je ka chashma bachchon jaise aashcharya mein chamakti baingani chingari ko darshata hai: 'ye... yeh kya hai?!'"
     },
     {
       "id": "p16",
       "shot": "explaining brother's legacy",
       "setting": "old auditorium exterior",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun: 'Mere bade bhai Tae-Jun... unka khoon mere andar jaag utha hai. Aur wo abhi bhi zinda hain.'",
       "mood": "sharing the sacred quest",
       "dialogue": [
-        {"type": "speech", "speaker": "hajun", "text": "Bhaiya ka khoon jaag gaya hai. Wo zinda hain, Min-Jae.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Bhaiya ka khoon jaag gaya hai. Wo zinda hain, Min-Jae.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun: 'Mere bade bhai Tae-Jun... unka khoon mere andar jaag utha hai. Aur wo abhi bhi zinda hain.'.",
+      "prose_hi": "Ha-jun: 'mere bade bhai taaye-jun... unka khoon mere andar jaag utha hai. aur woh abhi bhi jinda han.'."
     },
     {
       "id": "p17",
@@ -179,29 +326,55 @@
       "characters": [],
       "action": "A sharp holographic chime rings in Ha-Jun's vision: [TIME REMAINING: 01:45:00] flashing neon-yellow.",
       "mood": "countdown urgency",
-      "sfx": "PINGGG!!"
+      "sfx": "PINGGG!!",
+      "prose_en": "A sharp holographic chime rings in Ha-Jun's vision: [TIME REMAINING: 01:45:00] flashing neon-yellow.",
+      "prose_hi": "Ha-jun ki drishti mein ek tej holographic jhankar bajti hai: [shesh samay: 01:45:00] niyan-pili chamakti hui."
     },
     {
       "id": "p18",
       "shot": "chest mana burn flinch",
       "setting": "old auditorium exterior",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun winces, clutching his chest as his sovereign core sends a burning pulse through his collarbone.",
       "mood": "biological urgency",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "Waqt bohot kam bacha hai...!", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Waqt bohot kam bacha hai...!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun winces, clutching his chest as his sovereign core sends a burning pulse through his collarbone.",
+      "prose_hi": "Ha-jun apni chhati ko pakadkar hansta hai kyonki uska samprabhu core uske collerbon ke madhyam se ek jalti hui naadi bhejta hai."
     },
     {
       "id": "p19",
       "shot": "pointing to rusted cellar doors",
       "setting": "old auditorium foundation",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun points toward two angled, rusted iron cellar storm doors embedded in the stone foundation of the auditorium.",
       "mood": "gateway revealed",
       "dialogue": [
-        {"type": "speech", "speaker": "hajun", "text": "Wahan neeche... koi cheez mere khoon ko bula rahi hai.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Wahan neeche... koi cheez mere khoon ko bula rahi hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun points toward two angled, rusted iron cellar storm doors embedded in the stone foundation of the auditorium.",
+      "prose_hi": "Ha-jun sabhagaar ki patthar ki neenv mein jade do koniy, jung lage lohe ke tahkhane ke toofani darwajon ki or ishara karta hai."
     },
     {
       "id": "p20",
@@ -210,56 +383,95 @@
       "characters": [],
       "action": "Thick black frost coats the massive industrial chain and padlock binding the cellar doors, cold demonic vapor seeping out.",
       "mood": "creeping evil",
-      "sfx": "PSSSHHH..."
+      "sfx": "PSSSHHH...",
+      "prose_en": "Thick black frost coats the massive industrial chain and padlock binding the cellar doors, cold demonic vapor seeping out.",
+      "prose_hi": "Moti kali thandh ne vishal audyogik shrinkhala aur tahkhane ke darwajon ko bandhane wale taale ko dhak diya hai, thandi rakshasi bhaap bahar ris rahi hai."
     },
     {
       "id": "p21",
       "shot": "min-jae historical knowledge",
       "setting": "old auditorium cellar doors",
-      "characters": ["min_jae"],
+      "characters": [
+        "min_jae"
+      ],
       "action": "Min-Jae inspects the doors: 'Yeh 1920s ka basement lab tha. Pachaas saal pehle ek ajeeb hadse ke baad isse permanently seal kar diya gaya tha!'",
       "mood": "campus urban legend",
       "dialogue": [
-        {"type": "speech", "speaker": "min_jae", "text": "Pachaas saal se yeh band hai! Kehte hain yahan koi nahi bacha tha!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Pachaas saal se yeh band hai! Kehte hain yahan koi nahi bacha tha!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Min-Jae inspects the doors: 'Yeh 1920s ka basement lab tha. Pachaas saal pehle ek ajeeb hadse ke baad isse permanently seal kar diya gaya tha!'.",
+      "prose_hi": "Min-je ne darwazon ka nirikshan kiya: 'ye 1920 ke dashak ka basement lab tha. pachas saal pehle ek ajeeb hadse ke baad ise permanent seal kar diya gaya tha!'."
     },
     {
       "id": "p22",
       "shot": "effortless padlock snap macro",
       "setting": "old auditorium cellar doors",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun grips the heavy hardened steel padlock; with a single casual twist of his bare wrist, the thick shackle shears in half like plastic.",
       "mood": "superhuman casual feat",
-      "sfx": "KLIK-SNAP!!"
+      "sfx": "KLIK-SNAP!!",
+      "prose_en": "Ha-Jun grips the heavy hardened steel padlock; with a single casual twist of his bare wrist, the thick shackle shears in half like plastic.",
+      "prose_hi": "Ha-jun bhari kathor steel padlock ko pakadta hai; uski nangi kalai ke ek aakasmik mod ke sath, plastic ki tarah aadhi moti hathkadi wali canchi."
     },
     {
       "id": "p23",
       "shot": "min-jae jaw drop comedy",
       "setting": "old auditorium cellar doors",
-      "characters": ["min_jae"],
+      "characters": [
+        "min_jae"
+      ],
       "action": "Min-Jae stares at the severed padlock shackle with wide eyes: 'Okay... main tumse kabhi panja nahi ladaunga.'",
       "mood": "humorous tension relief",
       "dialogue": [
-        {"type": "speech", "speaker": "min_jae", "text": "Okay... panja ladane ka plan cancel.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Okay... panja ladane ka plan cancel.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Min-Jae stares at the severed padlock shackle with wide eyes: 'Okay... main tumse kabhi panja nahi ladaunga.'.",
+      "prose_hi": "Min-je chaudi aankhon se kate taale ki bedi ko dekhta hai: 'thik hai... main tumse kabhi panja nahin ladunga.'"
     },
     {
       "id": "p24",
       "shot": "cellar doors creaking open wide",
       "setting": "old auditorium cellar doors",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun pulls both heavy iron doors upward with a grinding metallic groan, breaking decades of rusted seal.",
       "mood": "gateway to the forbidden",
-      "sfx": "KRRRR-SCREEECH!!"
+      "sfx": "KRRRR-SCREEECH!!",
+      "prose_en": "Ha-Jun pulls both heavy iron doors upward with a grinding metallic groan, breaking decades of rusted seal.",
+      "prose_hi": "Ha-jun donon bhari lohe ke darwajon ko dhatvik karah ke saath upar ki or khinchta hai, jisse dashkon se lagi jung lagi seal toot jaati hai."
     },
     {
       "id": "p25",
       "shot": "abyssal miasma rushing upward",
       "setting": "old auditorium cellar doorway",
-      "characters": ["hajun", "min_jae"],
+      "characters": [
+        "hajun",
+        "min_jae"
+      ],
       "action": "A freezing blast of ancient air, purple miasma, and glowing violet dust particles rushes out of the dark opening into their faces.",
       "mood": "awakening ancient tomb",
-      "sfx": "WHOOOOSH!!"
+      "sfx": "WHOOOOSH!!",
+      "prose_en": "A freezing blast of ancient air, purple miasma, and glowing violet dust particles rushes out of the dark opening into their faces.",
+      "prose_hi": "Prachin hawa, baingani miyasma, aur chamakti baingani dhul ke kanon ka ek jama dene wala visfot andhere se nikalkar unke chehre par aa jata hai."
     },
     {
       "id": "p26",
@@ -269,52 +481,109 @@
       "action": "Looking down: An ancient stone spiral staircase winds down endlessly into deep, shadowy subterranean chambers carved into bedrock.",
       "mood": "bottomless descent",
       "dialogue": [
-        {"type": "narration", "text": "University ke neeche... ek sadiyon purana shaitan ka mandir tha.", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "narration",
+          "text": "University ke neeche... ek sadiyon purana shaitan ka mandir tha.",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "Looking down: An ancient stone spiral staircase winds down endlessly into deep, shadowy subterranean chambers carved into bedrock.",
+      "prose_hi": "Niche dekhne par: ek prachin patthar ki sarpil sidhiyan chattan mein khude hue gahre, chhayadar bhumigat kakshon mein antaheen roop se neeche ki or jaati han."
     },
     {
       "id": "p27",
       "shot": "kuro materializing on shoulder",
       "setting": "old auditorium cellar doorway",
-      "characters": ["kuro"],
+      "characters": [
+        "kuro"
+      ],
       "action": "Kuro solidifies on Ha-Jun's shoulder, eyes ablaze: 'Yeh jagah university banne se hazaron saal pehle se yahan maujood hai.'",
       "mood": "ancient lore confirmed",
       "dialogue": [
-        {"type": "speech", "speaker": "kuro", "text": "Yeh jagah university se bhi hazaron saal purani hai.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Yeh jagah university se bhi hazaron saal purani hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Kuro solidifies on Ha-Jun's shoulder, eyes ablaze: 'Yeh jagah university banne se hazaron saal pehle se yahan maujood hai.'.",
+      "prose_hi": "Kuro ha-jun ke kandhe par jam jata hai, aankhen chamakti han: 'ye jagah university banne se hajaron saal pehle se yahan maujood hai.'"
     },
     {
       "id": "p28",
       "shot": "lookout instructions to min-jae",
       "setting": "old auditorium cellar doorway",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun turns to Min-Jae: 'Tum upar darwaze par nazar rakho. Agar Bureau ke Hunter aayein, toh turant bhaag jana.'",
       "mood": "tactical assignment",
       "dialogue": [
-        {"type": "speech", "speaker": "hajun", "text": "Upar dhyan rakhna. Koi aaye toh turant bhaagna.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Upar dhyan rakhna. Koi aaye toh turant bhaagna.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun turns to Min-Jae: 'Tum upar darwaze par nazar rakho. Agar Bureau ke Hunter aayein, toh turant bhaag jana.'.",
+      "prose_hi": "Ha-jun min-je ki or mudta hai: 'tum upar darvaje par nazar rakho. agar bureau ke hunter aayein to turant bhag jana.'"
     },
     {
       "id": "p29",
       "shot": "min-jae holding metal pipe guard",
       "setting": "old auditorium cellar doorway",
-      "characters": ["min_jae"],
+      "characters": [
+        "min_jae"
+      ],
       "action": "Min-Jae picks up a heavy rusted iron pipe from the ground, nodding resolutely: 'Main yahin hoon. Zinda wapas aana.'",
       "mood": "loyal sentry",
       "dialogue": [
-        {"type": "speech", "speaker": "min_jae", "text": "Main nazar rakhunga. Zinda wapas aana, Ha-Jun.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Main nazar rakhunga. Zinda wapas aana, Ha-Jun.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Min-Jae picks up a heavy rusted iron pipe from the ground, nodding resolutely: 'Main yahin hoon. Zinda wapas aana.'.",
+      "prose_hi": "Min-je jameen se ek bhari jung laga hua lohe ka pipe uthata hai aur dridhta se sir hilata hai: 'main yahin hun. jinda wapas aana.'."
     },
     {
       "id": "p30",
       "shot": "first step into the subterranean abyss cliffhanger",
       "setting": "subterranean stone staircase",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun takes his first step down into the pitch-black stone staircase; his irises ignite with radiant, commanding violet demonic fire: 'Chalo.'",
       "mood": "into the darkness, ultimate cliffhanger",
       "dialogue": [
-        {"type": "speech", "speaker": "hajun", "text": "Chalo, Kuro. Asli khel ab shuru hota hai.", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Chalo, Kuro. Asli khel ab shuru hota hai.",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun takes his first step down into the pitch-black stone staircase; his irises ignite with radiant, commanding violet demonic fire: 'Chalo.'.",
+      "prose_hi": "Ha-jun apna pehla kadam gahre kale patthar ki sidhi par rakhta hai; uski aankhon ki putli diptiman, baingani rakshasi agni se prajvalit hoti hai: 'chalo.'"
     }
   ]
 }

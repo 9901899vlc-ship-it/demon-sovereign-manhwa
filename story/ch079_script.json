@@ -15,7 +15,9 @@
       ],
       "action": "A roaring vortex of purple nebulas and black lightning as the combined legion races through the hyperspace conduit.",
       "mood": "hyperspace transit",
-      "sfx": "ROAR-WARP..."
+      "sfx": "ROAR-WARP...",
+      "prose_en": "A roaring vortex of purple nebulas and black lightning as the combined legion races through the hyperspace conduit.",
+      "prose_hi": "Hyperspace naali ke madhyam se sanyukt sena ki daud ke roop mein baingani neeharikaon aur kali bijli ka garjanshil bhanvar."
     },
     {
       "id": "p02",
@@ -35,7 +37,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Baek's comm unit crackles with panicked distress calls: 'All hunter units falling back! Seoul Defense Line Bravo has collapsed!'.",
+      "prose_hi": "Bak ki com unit ghabrai hui sankatpurna call se chillati hai: 'sabhi shikari ikaiyan peeche hat rahi han! seoul raksha pankti bravo dhvast ho gai hai!'"
     },
     {
       "id": "p03",
@@ -46,7 +50,9 @@
       ],
       "action": "Wings of woven golden sand and purple plasma sprout from Ha-Jun's back, accelerating his velocity to Mach 10.",
       "mood": "hypersonic flight",
-      "sfx": "BOOOM-STREAK!!"
+      "sfx": "BOOOM-STREAK!!",
+      "prose_en": "Wings of woven golden sand and purple plasma sprout from Ha-Jun's back, accelerating his velocity to Mach 10.",
+      "prose_hi": "Buni hui sunhari ret aur baingani plasma ke pankh ha-jun ki peeth se nikalte han, jisse uska veg mac 10 tak badh jata hai."
     },
     {
       "id": "p04",
@@ -57,7 +63,9 @@
       ],
       "action": "The sky over Seoul tears open; Ha-Jun, Tae-Jun, Kuro, and the vanguard burst through into the mortal world.",
       "mood": "re-entry to earth",
-      "sfx": "TEAR-THUNDER!!"
+      "sfx": "TEAR-THUNDER!!",
+      "prose_en": "The sky over Seoul tears open; Ha-Jun, Tae-Jun, Kuro, and the vanguard burst through into the mortal world.",
+      "prose_hi": "Siyol ke upar ka aakash khula hua hai; ha-jun, taaye-jun, kuro, aur mohra nashwar duniya mein ghus gaye."
     },
     {
       "id": "p05",
@@ -66,7 +74,9 @@
       "characters": [],
       "action": "The iconic Mapo and Banpo bridges are snapped in half; the Han River boils with radioactive green void flame.",
       "mood": "city under siege",
-      "sfx": "FIRE ROAR..."
+      "sfx": "FIRE ROAR...",
+      "prose_en": "The iconic Mapo and Banpo bridges are snapped in half; the Han River boils with radioactive green void flame.",
+      "prose_hi": "Pratishthit mapo aur banpo pul aadhe mein toot gaye han; haan nadi radiodharmi hari shunya jwala se ubalti hai."
     },
     {
       "id": "p06",
@@ -75,7 +85,9 @@
       "characters": [],
       "action": "Three titanic 300-foot bone thrones hover over the financial district, casting colossal shadows across the skyscrapers.",
       "mood": "the triumvirate arrives",
-      "sfx": "LOOM..."
+      "sfx": "LOOM...",
+      "prose_en": "Three titanic 300-foot bone thrones hover over the financial district, casting colossal shadows across the skyscrapers.",
+      "prose_hi": "Teen titanic 300 foot ke asthi sinhasan vittiya jile ke upar mandrate han, jo gaganchumbi imaaraton par vishal chhaya dalte han."
     },
     {
       "id": "p07",
@@ -84,7 +96,9 @@
       "characters": [],
       "action": "Two hundred human hunters and a thousand iron demons are backed against a shattered subway terminal by void beasts.",
       "mood": "last stand perimeter",
-      "sfx": "DESPERATE GUNFIRE!!"
+      "sfx": "DESPERATE GUNFIRE!!",
+      "prose_en": "Two hundred human hunters and a thousand iron demons are backed against a shattered subway terminal by void beasts.",
+      "prose_hi": "Do sau manav shikariyon aur ek hajar lohe ke rakshason ko ek toote hue metro terminal ke khilaf shunya janvaron ka samarthan prapt hai."
     },
     {
       "id": "p08",
@@ -104,7 +118,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "From the primary throne, a colossal fifty-foot black antimatter artillery shell screams down toward the trapped soldiers.",
+      "prose_hi": "Prathmik sinhasan se, ek vishal pachas foot ka kala antimatter topkhane ka gola fanse hue sainikon ki or chillata hai."
     },
     {
       "id": "p09",
@@ -115,7 +131,9 @@
       ],
       "action": "A streak of platinum-black lightning cuts through the clouds straight toward the falling mortar shell.",
       "mood": "hypersonic intercept",
-      "sfx": "METEOR DIVE!!"
+      "sfx": "METEOR DIVE!!",
+      "prose_en": "A streak of platinum-black lightning cuts through the clouds straight toward the falling mortar shell.",
+      "prose_hi": "Platinam-kali bijli ki ek lakeer baadalon se hokar sidhe girte mortar shell ki or katati hai."
     },
     {
       "id": "p10",
@@ -124,7 +142,9 @@
       "characters": [],
       "action": "The shell impacts the ground, expanding into a cataclysmic dome of pitch-black antimatter that begins disintegrating everything.",
       "mood": "cataclysmic detonation",
-      "sfx": "KABOOOOOOOM-DOOM!!"
+      "sfx": "KABOOOOOOOM-DOOM!!",
+      "prose_en": "The shell impacts the ground, expanding into a cataclysmic dome of pitch-black antimatter that begins disintegrating everything.",
+      "prose_hi": "Khol jameen par prabhav dalta hai, pich-kale antimatter ke ek pralayankari gumbad mein vistarit hota hai jo sab kuch vighatit karna shuru kar deta hai."
     },
     {
       "id": "p11",
@@ -135,7 +155,9 @@
       ],
       "action": "Ha-Jun hits the ground at the ground zero epicenter, planting his boots firmly into the disintegrating asphalt.",
       "mood": "standing in the blast",
-      "sfx": "CRASH-STAND!!"
+      "sfx": "CRASH-STAND!!",
+      "prose_en": "Ha-Jun hits the ground at the ground zero epicenter, planting his boots firmly into the disintegrating asphalt.",
+      "prose_hi": "Ha-jun ground zero bhukamp ke kendra par zameen se takrata hai, aur apne jute ko majbuti se vighatit damar mein gaad deta hai."
     },
     {
       "id": "p12",
@@ -157,7 +179,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's left palm blazes with golden chronal runes: 'HOURGLASS: TEMPORAL REVERSION!!'.",
+      "prose_hi": "Ha-jun ki bayin hatheli sunhare cronal runs se chamakti hai: 'aavarglas: temporal riverson!!'."
     },
     {
       "id": "p13",
@@ -166,7 +190,9 @@
       "characters": [],
       "action": "The 500-meter dome of black destruction halts instantly, frozen in time like a glass ornament.",
       "mood": "freeze frame",
-      "sfx": "SNAP-SILENCE..."
+      "sfx": "SNAP-SILENCE...",
+      "prose_en": "The 500-meter dome of black destruction halts instantly, frozen in time like a glass ornament.",
+      "prose_hi": "Kale vinash ka 500 meter ka gumbad turant ruk jata hai, kaanch ke aabhushan ki tarah samay ke saath jam jata hai."
     },
     {
       "id": "p14",
@@ -175,7 +201,9 @@
       "characters": [],
       "action": "The fireball implodes backward into itself; smoke, shattered concrete, and shockwaves flow back into the falling shell.",
       "mood": "rewinding the explosion",
-      "sfx": "SUCK-REWIND!!"
+      "sfx": "SUCK-REWIND!!",
+      "prose_en": "The fireball implodes backward into itself; smoke, shattered concrete, and shockwaves flow back into the falling shell.",
+      "prose_hi": "Aag ka gola apne aap mein peeche ki or dhans jata hai; dhuan, toota hua kankret, aur shockwaves girte hue khol mein wapas pravahit hoti han."
     },
     {
       "id": "p15",
@@ -184,7 +212,9 @@
       "characters": [],
       "action": "The intact shell rockets backwards into the sky, returning straight to the throne that launched it.",
       "mood": "return to sender",
-      "sfx": "WHOOSH-REVERSE!!"
+      "sfx": "WHOOSH-REVERSE!!",
+      "prose_en": "The intact shell rockets backwards into the sky, returning straight to the throne that launched it.",
+      "prose_hi": "Akshunn shell rocket aakash mein peeche ki or jata hai, sidhe us sinhasan par lautata hai jisne ise launch kiya tha."
     },
     {
       "id": "p16",
@@ -193,7 +223,9 @@
       "characters": [],
       "action": "The reversed shell smashes directly into the Void Throne's barrier, detonating against the enemy's own face.",
       "mood": "counter-strike explosion",
-      "sfx": "KABOOOM-RETRIBUTION!!"
+      "sfx": "KABOOOM-RETRIBUTION!!",
+      "prose_en": "The reversed shell smashes directly into the Void Throne's barrier, detonating against the enemy's own face.",
+      "prose_hi": "Ulta hua gola sidhe shunya sinhasan ki badha se takrata hai, jisse dushman ke chehre par visfot ho jata hai."
     },
     {
       "id": "p17",
@@ -213,7 +245,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The soldiers lower their arms in disbelief; not a single scratch, burn, or wound exists on their bodies.",
+      "prose_hi": "Sainikon ne avishvas se apne hathiyar neeche kar diye; unke shareer par ek bhi kharonch, jalan ya ghav nahin hai."
     },
     {
       "id": "p18",
@@ -224,7 +258,9 @@
       ],
       "action": "Ha-Jun stands between the soldiers and the enemy army, his coat snapping in the wind, dual halos spinning lazily.",
       "mood": "the savior revealed",
-      "sfx": "HEROIC SILHOUETTE..."
+      "sfx": "HEROIC SILHOUETTE...",
+      "prose_en": "Ha-Jun stands between the soldiers and the enemy army, his coat snapping in the wind, dual halos spinning lazily.",
+      "prose_hi": "Ha-jun sainikon aur dushman sena ke beech khada hai, uska coat hawa mein ud raha hai, dohra prabhamandal aalsya se ghum raha hai."
     },
     {
       "id": "p19",
@@ -246,7 +282,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun impacts the pavement beside him, twin bronze swords igniting with celestial fire: 'Back off, monsters.'.",
+      "prose_hi": "Taaye-jun apne bagal ke footpath par prabhav dalta hai, judwan kansya talwaren akashiya aag se jal rahi han: 'pichhe hato, rakshson.'"
     },
     {
       "id": "p20",
@@ -266,7 +304,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The battered soldiers raise their weapons in tears: 'THE DEMON SOVEREIGN HAS RETURNED!! AND KANG TAE-JUN IS ALIVE!!'.",
+      "prose_hi": "Past sainik rote hue apne hathiyar uthate han: 'rakshs samprabhu wapas aa gaya hai!!' aur kang taaye-jun jeevit hai!!'"
     },
     {
       "id": "p21",
@@ -286,7 +326,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Rising from the center throne: 'Zeron, the Sovereign of Decay'—a 15-foot titan in black armor with four scythes for wings.",
+      "prose_hi": "Kendriy sinhasan se uthta hua: 'zeron, the sovereign off deke' - kale kavach mein pankhon ke liye char skith ke saath 15 foot ka titan."
     },
     {
       "id": "p22",
@@ -306,7 +348,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Zeron's face splits open in a horrific smile: 'Ten relics gathered in one fragile human shell... How convenient for my feast!'.",
+      "prose_hi": "Zeron ka chehra ek bhayanak muskan mein khul jata hai: 'ek najuk manav khol mein das avashesh ekatra hue... meri dawat ke liye kitna suvidhajnak!'."
     },
     {
       "id": "p23",
@@ -317,7 +361,9 @@
       ],
       "action": "Ha-Jun steps calmly onto the surface of the boiling river; the water freezes to solid purple ice under his boots.",
       "mood": "walking on water like god",
-      "sfx": "ICE SPREAD..."
+      "sfx": "ICE SPREAD...",
+      "prose_en": "Ha-Jun steps calmly onto the surface of the boiling river; the water freezes to solid purple ice under his boots.",
+      "prose_hi": "Ha-jun ubalti nadi ki satah par shanti se kadam rakhta hai; uske jooton ke neeche pani jam kar thos baingani barf ban jata hai."
     },
     {
       "id": "p24",
@@ -339,7 +385,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun looks up at the 300-foot throne: 'You crawled out of your sewer to touch my home. You won't leave Earth alive.'.",
+      "prose_hi": "Ha-jun 300 foot oonche sinhasan ki or dekhta hai: 'tum mere ghar ko chhune ke liye apne sivar se bahar nikle. aap prithvi ko jeevit nahin chhodenge.'"
     },
     {
       "id": "p25",
@@ -348,7 +396,9 @@
       "characters": [],
       "action": "Ten thousand shrieking void abominations, hydras, and cyber-demons surge across the frozen river toward Ha-Jun.",
       "mood": "the endless horde",
-      "sfx": "ROAR-SURGE!!"
+      "sfx": "ROAR-SURGE!!",
+      "prose_en": "Ten thousand shrieking void abominations, hydras, and cyber-demons surge across the frozen river toward Ha-Jun.",
+      "prose_hi": "Ha-jun ki or jami hui nadi ke paar das hajar chikhate hue shunya ghrinit padarth, hydra aur cyber-rakshs badhte han."
     },
     {
       "id": "p26",
@@ -370,7 +420,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun commands the Eclipse Devourer: 'Rise, Shadows of the Sovereign!!'.",
+      "prose_hi": "Ha-jun grahan bhakshak ko aadesh deta hai: 'utho, samprabhu ki chhaya!!'"
     },
     {
       "id": "p27",
@@ -381,7 +433,9 @@
       ],
       "action": "From every shadow on the frozen river, ten thousand armored specters in midnight plate rise with blades drawn.",
       "mood": "the shadow legion appears",
-      "sfx": "SHADOW ERUPTION!!"
+      "sfx": "SHADOW ERUPTION!!",
+      "prose_en": "From every shadow on the frozen river, ten thousand armored specters in midnight plate rise with blades drawn.",
+      "prose_hi": "Jami hui nadi par pratyek chhaya se, aadhi raat ki plate mein das hajar bakhtarband darshak blade khinche hue uthte han."
     },
     {
       "id": "p28",
@@ -390,7 +444,9 @@
       "characters": [],
       "action": "The Shadow Legion and the Void Horde collide with the sound of a shattering tectonic plate, blood and oil spraying.",
       "mood": "titanic battle begins",
-      "sfx": "EARTH-SHATTERING CLASH!!"
+      "sfx": "EARTH-SHATTERING CLASH!!",
+      "prose_en": "The Shadow Legion and the Void Horde collide with the sound of a shattering tectonic plate, blood and oil spraying.",
+      "prose_hi": "Shaido leason aur void hoard ek tutne wali tectonic plate, rakt aur tel ke chhidkav ki awaz ke saath takrate han."
     },
     {
       "id": "p29",
@@ -401,7 +457,9 @@
       ],
       "action": "Ha-Jun and Tae-Jun vault into the sky, twin streaks of starlight rocketing straight toward the three void monarchs.",
       "mood": "assaulting the thrones",
-      "sfx": "DUAL FLIGHT-BLUR!!"
+      "sfx": "DUAL FLIGHT-BLUR!!",
+      "prose_en": "Ha-Jun and Tae-Jun vault into the sky, twin streaks of starlight rocketing straight toward the three void monarchs.",
+      "prose_hi": "Ha-jun aur taaye-jun aakash ki or badhte han, taron ki roshni ki judwan dhariyan sidhe teen shunya samraton ki or badhti han."
     },
     {
       "id": "p30",
@@ -420,7 +478,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "All three Void Sovereigns draw their colossal weapons as the sky turns to fire—the ultimate war has begun!.",
+      "prose_hi": "Jaise hi aakash aag mein badal jata hai, teenon shunya samprabhu apne vishal hathiyar nikaal lete hain - antim yudh shuru ho gaya hai!"
     }
   ]
 }

@@ -15,7 +15,9 @@
       ],
       "action": "A sphere of pure white and royal violet light envelopes the entire boulevard, blinding all cameras and eyes.",
       "mood": "blinding detonation",
-      "sfx": "SUPERNOVA FLASH!!"
+      "sfx": "SUPERNOVA FLASH!!",
+      "prose_en": "A sphere of pure white and royal violet light envelopes the entire boulevard, blinding all cameras and eyes.",
+      "prose_hi": "Shuddh safed aur shahi baingani roshni ka ek gola poore buleward ko dhank deta hai, jisse sabhi camere aur aankhen andhi ho jaati han."
     },
     {
       "id": "p02",
@@ -26,7 +28,9 @@
       ],
       "action": "Ha-Jun's Sovereign Domain funnels the cataclysmic energy into a clean column of aurora borealis into space.",
       "mood": "safe redirection",
-      "sfx": "AURORA ROAR..."
+      "sfx": "AURORA ROAR...",
+      "prose_en": "Ha-Jun's Sovereign Domain funnels the cataclysmic energy into a clean column of aurora borealis into space.",
+      "prose_hi": "Ha-jun ka sovereign domain pralayankari urja ko aurora boralis ke ek swachh stambh mein antriksh mein bhejta hai."
     },
     {
       "id": "p03",
@@ -35,7 +39,9 @@
       "characters": [],
       "action": "Nihilux lies broken on the ground, his four arms shattered, chest core reduced to sputtering green embers.",
       "mood": "the emperor dying",
-      "sfx": "COUGH-OIL..."
+      "sfx": "COUGH-OIL...",
+      "prose_en": "Nihilux lies broken on the ground, his four arms shattered, chest core reduced to sputtering green embers.",
+      "prose_hi": "Nihilax zameen par toota hua pada hai, uski char bhujaen chaknachur ho gai han, chhati ka core hare angaare ugalte hue kam ho gaya hai."
     },
     {
       "id": "p04",
@@ -57,7 +63,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun lowers his blade; Tae-Jun stands beside him with his bronze sword, both looking down with solemn victory.",
+      "prose_hi": "Ha-jun ne apna blade neeche kar liya; taaye-jun apni kansya talwar ke saath uske bagal mein khada hai, donon gambhir jeet ke saath neeche dekh rahe han."
     },
     {
       "id": "p05",
@@ -77,7 +85,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Nihilux wheezes, dark fluid bubbling from his mouth, chuckling with bone-chilling mockery.",
+      "prose_hi": "Nihilax gharghrahat karta hai, uske muh se gahre taral padarth ke bulbule nikalte han, wah haddiyon ko thanda kar dene wale uphaas ke saath hansta hai."
     },
     {
       "id": "p06",
@@ -98,7 +108,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's jaw tightens: 'Why are you laughing?'.",
+      "prose_hi": "Ha-jun ka jabda kada ho gaya: 'tum kyon hans rahe ho?'"
     },
     {
       "id": "p07",
@@ -117,7 +129,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Nihilux: 'You think the Void was an invader from outer space? The Void was born from the First Sovereign himself!'.",
+      "prose_hi": "Nihilax: 'aapko lagta hai ki shunya bahari antriksh se aaya aakramankaari tha? shunya ka janm swayam pratham samprabhu se hua tha!'."
     },
     {
       "id": "p08",
@@ -139,7 +153,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro's ruby eyes widen in petrified horror as the final locked partition of his 5,000-year memory snaps open.",
+      "prose_hi": "Kuro ki ruby aankhen bhaybhit bhay se chaudi ho gain, kyonki uski 5,000 saal ki smriti ka antim band vibhajan khul gaya."
     },
     {
       "id": "p09",
@@ -158,7 +174,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Ancient memory: First Sovereign Asmodaius standing in the cosmic forge, tearing his own soul into two halves.",
+      "prose_hi": "Prachin smriti: pehla samprabhu esmodius brahmandiya gadh mein khada tha, apni aatma ko do hisson mein vibhajit kar raha tha."
     },
     {
       "id": "p10",
@@ -177,7 +195,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Nihilux: 'The moment your bloodline reaches 100%, the Dark Half awakens inside your mind! You will become the Destroyer!'.",
+      "prose_hi": "Nihilax: 'jis kshan aapki raktarekha 100% tak pahunchti hai, aapke dimag ke andar dark half jaag jata hai! tum vidhvansak ban jaoge!'"
     },
     {
       "id": "p11",
@@ -186,7 +206,9 @@
       "characters": [],
       "action": "With a final hateful laugh, Nihilux's body disintegrates into gray dust, carried away by the cold Seoul wind.",
       "mood": "the villain gone",
-      "sfx": "DISSOLVE-WIND..."
+      "sfx": "DISSOLVE-WIND...",
+      "prose_en": "With a final hateful laugh, Nihilux's body disintegrates into gray dust, carried away by the cold Seoul wind.",
+      "prose_hi": "Antim ghrinit hansi ke sath, nihilax ka shareer seoul ki thandi hawa dwara udaakar bhure rang ki dhul mein vighatit ho jata hai."
     },
     {
       "id": "p12",
@@ -208,7 +230,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun looks down at his palms; black and purple veins pulse beneath his pale skin in chaotic rhythm.",
+      "prose_hi": "Ha-jun neeche apni hatheliyon ki or dekhta hai; kali aur baingani nasen uski pili tvacha ke neeche arajak lay mein spandit hoti han."
     },
     {
       "id": "p13",
@@ -230,7 +254,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun grips Ha-Jun's shoulders firmly: 'Ha-Jun! Look at me! Don't listen to his dying poison!'.",
+      "prose_hi": "Taaye-jun ne ha-jun ke kandhon ko majbuti se pakad liya: 'ha-jun! meri taraf dekho! uske marte zahar ko mat suno!'"
     },
     {
       "id": "p14",
@@ -252,7 +278,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun whispers: 'What if he's right, Hyung? What if my 100% synchronization awakens the entity that killed our parents?'.",
+      "prose_hi": "Ha-jun fusfusata hai: 'kya hoga agar wah sahi hai, hung? kya hoga yadi mera 100% sinkronization us ikai ko jagrit kar de jisne hamare mata-pita ko maar dala?'"
     },
     {
       "id": "p15",
@@ -273,7 +301,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun smiles with infinite tenderness: 'Then I will be your shield. And if you fall, I will bring you back. Always.'.",
+      "prose_hi": "Taaye-jun aseem komalta ke saath muskurate han: 'tab main tumhari dhal banunga. aur yadi tum giroge to main tumhe wapas le aaunga. hamesha.'."
     },
     {
       "id": "p16",
@@ -296,7 +326,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro sits on Ha-Jun's messy hair: 'Besides, Asmodaius was an arrogant idiot. You are ten times the man he ever was.'.",
+      "prose_hi": "Kuro ha-jun ke gande baalon par baithta hai: 'iske alava, esmodius ek ahankari bewakoof tha. aap usse das guna adhik aadmi hain jo wah kabhi tha.'"
     },
     {
       "id": "p17",
@@ -318,7 +350,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae jogs up with two cold cans of grape soda, handing one to Ha-Jun: 'For the champ who just saved the continent.'.",
+      "prose_hi": "Min-je angoor soda ke do thande dibbe lekar daudte han, aur ek ha-jun ko saunpte hue kahte han: 'us vijeta ke liye jisne abhi-abhi mahadweep ko bachaya hai.'"
     },
     {
       "id": "p18",
@@ -340,7 +374,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun pops the tab; the simple, cold, sweet fizzy drink brings him instantly back to reality and humanity.",
+      "prose_hi": "Ha-jun tab pop karta hai; saral, thanda, meetha fizi pey use turant vastavikta aur manavta mein wapas lata hai."
     },
     {
       "id": "p19",
@@ -351,7 +387,9 @@
       ],
       "action": "Thousands of human hunters, students, and demon legionnaires surround the trio, applauding with quiet reverence.",
       "mood": "community embrace",
-      "sfx": "WARM APPLAUSE..."
+      "sfx": "WARM APPLAUSE...",
+      "prose_en": "Thousands of human hunters, students, and demon legionnaires surround the trio, applauding with quiet reverence.",
+      "prose_hi": "Hajaron manav shikari, chhatra aur rakshas senapati shant shraddha ke saath taliyan bajate hue, tikdi ko gher lete han."
     },
     {
       "id": "p20",
@@ -362,7 +400,9 @@
       ],
       "action": "A deep, subsonic rumble vibrates through the granite pavers; the ground temperature drops forty degrees in a second.",
       "mood": "unforeseen tremor",
-      "sfx": "RUMBLE-CHILL!!"
+      "sfx": "RUMBLE-CHILL!!",
+      "prose_en": "A deep, subsonic rumble vibrates through the granite pavers; the ground temperature drops forty degrees in a second.",
+      "prose_hi": "Granit pavers ke madhyam se ek gahri, subsonic gadgdahat kampan karti hai; zameen ka taapmaan ek second mein chalis degree gir jata hai."
     },
     {
       "id": "p21",
@@ -371,7 +411,9 @@
       "characters": [],
       "action": "Right above the center of Seoul, a pitch-black interdimensional maelstrom opens—the Prime Gate to the Nether Root.",
       "mood": "the prime gate opens",
-      "sfx": "TEAR-VORTEX!!"
+      "sfx": "TEAR-VORTEX!!",
+      "prose_en": "Right above the center of Seoul, a pitch-black interdimensional maelstrom opens—the Prime Gate to the Nether Root.",
+      "prose_hi": "Siyol ke kendra ke theek upar, ek gehra kala antaayami bhanwar khulta hai - nedar root ka pramukh dwar."
     },
     {
       "id": "p22",
@@ -393,7 +435,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "From the dark maelstrom echoes a dark, mocking voice that sounds exactly like Ha-Jun Kang: 'Come inside, Little Vessel.'.",
+      "prose_hi": "Andhere bhanwar se ek andheri, mazakiya awaaz goonjati hai jo bilkul ha-jun kang ki tarah lagti hai: 'ander aao, chhote jahaj.'"
     },
     {
       "id": "p23",
@@ -415,7 +459,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun looks up; his irises reflect the spinning black void, realizing his ultimate trial has arrived.",
+      "prose_hi": "Ha-jun upar dekhta hai; uski aankhon ki putli ghumti hui kali shoonyata ko pratibimbit karti hai, jisse yah ehsaas hota hai ki uska antim parikshan aa gaya hai."
     },
     {
       "id": "p24",
@@ -437,7 +483,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun steps forward: 'I'm entering the gate with you! You aren't facing this alone!'.",
+      "prose_hi": "Taaye-jun aage badhta hai: 'main aapke saath gate mein pravesh kar raha hun! aap akele iska samna nahin kar rahe han!'"
     },
     {
       "id": "p25",
@@ -459,7 +507,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun raises a soft golden barrier: 'No, Hyung. This is my mindscape trial. If you enter, the dark entity will consume you.'.",
+      "prose_hi": "Ha-jun ek naram sunhara avrodh uthata hai: 'nahin, hung. yah mera mindscap parikshan hai. yadi aap pravesh karte han, to andhkarmay ikai aapko bhasm kar degi.'"
     },
     {
       "id": "p26",
@@ -479,7 +529,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun presses his palm against the golden barrier, smiling with tears: 'Promise me you'll come back, Ha-Jun.'.",
+      "prose_hi": "Taaye-jun apni hatheli ko sunhare avrodh ke khilaf dabata hai, aur aansuon ke saath muskurata hai: 'mujse vaada karo tum wapas aaoge, ha-jun.'"
     },
     {
       "id": "p27",
@@ -501,7 +553,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun smiles back: 'I promise. I will conquer the darkness and come home.'.",
+      "prose_hi": "Ha-jun muskurata hai: 'main vaada karta hun. main andhere par vijay paa loonga aur ghar aa jaunga.'"
     },
     {
       "id": "p28",
@@ -524,7 +578,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro digs his talons into Ha-Jun's coat: 'The covenant binds us across life and death. You can't get rid of me that easily.'.",
+      "prose_hi": "Kuro ne ha-jun ke coat mein apne panje gada die: 'vacha hamen jeevan aur mrityu ke paar bandhti hai. tum mujhse itni aasani se chhutkara nahin paa sakte.'"
     },
     {
       "id": "p29",
@@ -536,7 +592,9 @@
       ],
       "action": "Ha-Jun and Kuro rise into the sky, six radiant wings of starlight carrying them into the pitch-black center of the portal.",
       "mood": "ascent into the final gate",
-      "sfx": "ASCENT-GLOW!!"
+      "sfx": "ASCENT-GLOW!!",
+      "prose_en": "Ha-Jun and Kuro rise into the sky, six radiant wings of starlight carrying them into the pitch-black center of the portal.",
+      "prose_hi": "Ha-jun aur kuro aakash mein uthte han, taron ki roshni ke chhah ujjwal pankh unhen portal ke gahre kale kendra mein le jaate han."
     },
     {
       "id": "p30",
@@ -557,7 +615,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "The dimensional gate snaps shut behind him; the final arc has begun!.",
+      "prose_hi": "Aayami gate snap uske peeche band ho gaya; antim charan shuru ho gaya hai!"
     }
   ]
 }

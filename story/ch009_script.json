@@ -14,30 +14,63 @@
       "action": "The obsidian holographic contract screen hovers in the rain, purple text glowing with ominous ancient warnings.",
       "mood": "forbidden threshold",
       "dialogue": [
-        {"type": "system", "text": "[FORBIDDEN CONTRACT: DEMON SOVEREIGN SOUL LINK]", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "system",
+          "text": "[FORBIDDEN CONTRACT: DEMON SOVEREIGN SOUL LINK]",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "The obsidian holographic contract screen hovers in the rain, purple text glowing with ominous ancient warnings.",
+      "prose_hi": "Obsidian holographic contract screen baarish mein ghum rahi hai, baingani rang ka path ashubh prachin chetavniyon ke saath chamak raha hai."
     },
     {
       "id": "p02",
       "shot": "hesitant fingertip macro",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun's index finger hovers inches away from the glowing purple [ACCEPT] prompt, raindrops dripping from his knuckle.",
       "mood": "life-altering hesitation",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "Ek baar click kiya... toh koi wapsi nahi hogi.", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Ek baar click kiya... toh koi wapsi nahi hogi.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun's index finger hovers inches away from the glowing purple [ACCEPT] prompt, raindrops dripping from his knuckle.",
+      "prose_hi": "Ha-jun ki tarjani chamakdar baingani [swikar karen] prompt se kuch inch door ghum rahi hai, uske por se baarish ki bunden tapak rahi han."
     },
     {
       "id": "p03",
       "shot": "whispering guardian profile",
       "setting": "university rooftop",
-      "characters": ["kuro"],
+      "characters": [
+        "kuro"
+      ],
       "action": "Kuro perches on Ha-Jun's shoulder, speaking in low grave tones: 'Shartein dhyan se padh lo, boy. Taqat kabhi muft nahi milti.'",
       "mood": "grave caution",
       "dialogue": [
-        {"type": "speech", "speaker": "kuro", "text": "Dhyan se padho. Sovereign ka takht qurbaniyon se banta hai.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Dhyan se padho. Sovereign ka takht qurbaniyon se banta hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Kuro perches on Ha-Jun's shoulder, speaking in low grave tones: 'Shartein dhyan se padh lo, boy. Taqat kabhi muft nahi milti.'.",
+      "prose_hi": "Kuro ha-jun ke kandhe par baithkar dheeme swar mein bolta hai: 'sharten dhyan se padh lo, ladke. taaqat kabhi muft nahin milti.'."
     },
     {
       "id": "p04",
@@ -47,8 +80,17 @@
       "action": "The system screen scrolls: [CLAUSE 1: INSAANI KAMZORI DHEERE DHEERE MIT JAAYEGI].",
       "mood": "dehumanization clause",
       "dialogue": [
-        {"type": "system", "text": "[CLAUSE 1: HUMAN FRAILTY PROGRESSIVELY PURGED]", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "system",
+          "text": "[CLAUSE 1: HUMAN FRAILTY PROGRESSIVELY PURGED]",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "The system screen scrolls: [CLAUSE 1: INSAANI KAMZORI DHEERE DHEERE MIT JAAYEGI].",
+      "prose_hi": "Sistm screen scroll karta hai: [khand 1: insaani kamzori dhire-dhire mit jaegi]."
     },
     {
       "id": "p05",
@@ -58,8 +100,17 @@
       "action": "The system screen scrolls: [CLAUSE 2: ABYSS KE MONSTERS AUR DEMON HUNTERS TUMHARA PEETHA KARENGE].",
       "mood": "eternal hunter clause",
       "dialogue": [
-        {"type": "system", "text": "[CLAUSE 2: TARGETED BY DEMONS AND HUNTERS ALIKE]", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "system",
+          "text": "[CLAUSE 2: TARGETED BY DEMONS AND HUNTERS ALIKE]",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "The system screen scrolls: [CLAUSE 2: ABYSS KE MONSTERS AUR DEMON HUNTERS TUMHARA PEETHA KARENGE].",
+      "prose_hi": "Sistm screen scroll karta hai: [khand 2: rasatal ke rakshas aur danav shikari tumhara peeth karenge]."
     },
     {
       "id": "p06",
@@ -69,61 +120,122 @@
       "action": "The screen flashes dark crimson: [CLAUSE 3: RELICS KI TAQAT TUMHARI PURANI YAADEIN CHEEN SAKTI HAI].",
       "mood": "psychological horror cost",
       "dialogue": [
-        {"type": "system", "text": "[CLAUSE 3: POWER MAY COST MORTAL MEMORIES]", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "system",
+          "text": "[CLAUSE 3: POWER MAY COST MORTAL MEMORIES]",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "The screen flashes dark crimson: [CLAUSE 3: RELICS KI TAQAT TUMHARI PURANI YAADEIN CHEEN SAKTI HAI].",
+      "prose_hi": "Scrin gahre lal rang ki chamakti hai: [khand 3: avsheshon ki takat tumhari purani yaadein taja kar sakti han]."
     },
     {
       "id": "p07",
       "shot": "fear of losing memories close-up",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun flinches, clutching his chest: 'M-Meri yaadein...? Kya main bhaiya ko bhool jaunga...?'",
       "mood": "deepest fear",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "Agar main bhaiya ko hi bhool gaya... toh unhe bacha kar kya karunga?!", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Agar main bhaiya ko hi bhool gaya... toh unhe bacha kar kya karunga?!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun flinches, clutching his chest: 'M-Meri yaadein...? Kya main bhaiya ko bhool jaunga...?'.",
+      "prose_hi": "Ha-jun apni chhati pakadkar fadfadata hai: 'm-meri yaden...? kya main bhaiya ko bhool jaunga...?'"
     },
     {
       "id": "p08",
       "shot": "guardian reassurance",
       "setting": "university rooftop",
-      "characters": ["kuro"],
+      "characters": [
+        "kuro"
+      ],
       "action": "Kuro: 'Sirf tab agar tum kamzor pad gaye. Agar tumhara irada lohe jaisa raha, toh tum Relics ko govern karoge.'",
       "mood": "trial of willpower",
       "dialogue": [
-        {"type": "speech", "speaker": "kuro", "text": "Agar tum taqatwar bane, toh koi yaad nahi mitegi.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Agar tum taqatwar bane, toh koi yaad nahi mitegi.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Kuro: 'Sirf tab agar tum kamzor pad gaye. Agar tumhara irada lohe jaisa raha, toh tum Relics ko govern karoge.'.",
+      "prose_hi": "Kuro: 'sirf tab agar tum kamazor pad gaye. agar tumhara irada lohe jaisa raha, to tum avsheshon par shasan karoge.'"
     },
     {
       "id": "p09",
       "shot": "reflection of rain puddles",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun looks down at the puddle reflection—no longer seeing a victim, but someone with a burning purpose.",
       "mood": "internal resolution",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "Kamzor rehne se behtar hai... aag mein kood jaana.", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Kamzor rehne se behtar hai... aag mein kood jaana.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun looks down at the puddle reflection—no longer seeing a victim, but someone with a burning purpose.",
+      "prose_hi": "Ha-jun neeche pokhar ke pratibimb ko dekhta hai - ab kisi peedit ko nahin, balki kisi jwalant uddeshya wale vyakti ko dekh raha hai."
     },
     {
       "id": "p10",
       "shot": "unwavering resolve portrait",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun smirks with fearless conviction: 'Main tayar hoon.'",
       "mood": "heroic commitment",
       "dialogue": [
-        {"type": "speech", "speaker": "hajun", "text": "Mujhe yeh shart manzoor hai.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Mujhe yeh shart manzoor hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun smirks with fearless conviction: 'Main tayar hoon.'.",
+      "prose_hi": "Ha-jun nidar vishwas ke saath muskurata hai: 'main taiyar hun.'"
     },
     {
       "id": "p11",
       "shot": "decisive contract press",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun slams his thumb firmly onto the glowing holographic [ACCEPT] button.",
       "mood": "binding impact",
-      "sfx": "CLIIICK!!"
+      "sfx": "CLIIICK!!",
+      "prose_en": "Ha-Jun slams his thumb firmly onto the glowing holographic [ACCEPT] button.",
+      "prose_hi": "Ha-jun chamakte holographic [swikar karen] button par apna angutha majbuti se patakta hai."
     },
     {
       "id": "p12",
@@ -132,7 +244,9 @@
       "characters": [],
       "action": "A crystal-clear dimensional resonance chime reverberates across the city: *PINGGGGG!!*",
       "mood": "cosmic reverberation",
-      "sfx": "PINGGGGG!!"
+      "sfx": "PINGGGGG!!",
+      "prose_en": "A crystal-clear dimensional resonance chime reverberates across the city: *PINGGGGG!!*.",
+      "prose_hi": "Ek cristal-spasht aayami anunaad jhankar poore shahar mein gunjati hai: *pingjijiji!!*."
     },
     {
       "id": "p13",
@@ -142,28 +256,53 @@
       "action": "The interface UI shifts from cold obsidian into radiant royal purple and polished gold filigree.",
       "mood": "coronation of authority",
       "dialogue": [
-        {"type": "system", "text": "[CONTRACT CONFIRMED: MASTER-VESSEL LINK ESTABLISHED]", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "system",
+          "text": "[CONTRACT CONFIRMED: MASTER-VESSEL LINK ESTABLISHED]",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "The interface UI shifts from cold obsidian into radiant royal purple and polished gold filigree.",
+      "prose_hi": "Interfess ui cold obsidian se redient royal purple aur polished gold filagri mein badal jata hai."
     },
     {
       "id": "p14",
       "shot": "blood crest burn macro",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "An intricate demonic royal crest (two crossed black wings behind a violet crown) burns into the skin of Ha-Jun's right hand.",
       "mood": "mystic branding",
-      "sfx": "FZZZZZT!!"
+      "sfx": "FZZZZZT!!",
+      "prose_en": "An intricate demonic royal crest (two crossed black wings behind a violet crown) burns into the skin of Ha-Jun's right hand.",
+      "prose_hi": "Ek jatil rakshasi shahi shikha (bangni mukut ke peeche do paar kiye hue kale pankh) ha-jun ke dahine haath ki tvacha mein jal jaati hai."
     },
     {
       "id": "p15",
       "shot": "kuro triumphant scream",
       "setting": "university rooftop",
-      "characters": ["kuro"],
+      "characters": [
+        "kuro"
+      ],
       "action": "Kuro spreads his dark wings to their fullest span, screeching with ancient demonic ecstasy into the thunderstorm.",
       "mood": "triumphant celebration",
       "dialogue": [
-        {"type": "speech", "speaker": "kuro", "text": "ABYSS KE SULTAN KI PEHLI SEAL TOOT GAYI!!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "ABYSS KE SULTAN KI PEHLI SEAL TOOT GAYI!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Kuro spreads his dark wings to their fullest span, screeching with ancient demonic ecstasy into the thunderstorm.",
+      "prose_hi": "Kuro ne apne kale pankhon ko puri tarah se failaya hai, aur toofan mein prachin rakshasi parmanand ke saath chilla raha hai."
     },
     {
       "id": "p16",
@@ -173,8 +312,17 @@
       "action": "A cascade of violet notification windows pops into view: [REWARD 1: BLOODLINE REGENERATION RANK F UNLOCKED].",
       "mood": "rpg quest rewards",
       "dialogue": [
-        {"type": "system", "text": "[UNLOCKED: BLOODLINE REGENERATION (F)]", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "system",
+          "text": "[UNLOCKED: BLOODLINE REGENERATION (F)]",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "A cascade of violet notification windows pops into view: [REWARD 1: BLOODLINE REGENERATION RANK F UNLOCKED].",
+      "prose_hi": "Baingani adhisuchna window ka ek jharna drishya mein aata hai: [inam 1: raktarekha punarjanan rank f unlock]."
     },
     {
       "id": "p17",
@@ -184,8 +332,17 @@
       "action": "Next window: [REWARD 2: DEMONIC PERCEPTION RANK F UNLOCKED - MANA CURRENT SIGHT ENABLED].",
       "mood": "supernatural perception unlocked",
       "dialogue": [
-        {"type": "system", "text": "[UNLOCKED: DEMONIC MANA PERCEPTION (F)]", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "system",
+          "text": "[UNLOCKED: DEMONIC MANA PERCEPTION (F)]",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Next window: [REWARD 2: DEMONIC PERCEPTION RANK F UNLOCKED - MANA CURRENT SIGHT ENABLED].",
+      "prose_hi": "Agli vindo: [inam 2: rakshasi dharna rank f unlock - man vartmaan drishti saksham]."
     },
     {
       "id": "p18",
@@ -195,19 +352,40 @@
       "action": "Primary Quest pop-up: [MAIN QUEST: SURVIVE THE COMING SIEGE OF SAINT MIRREN].",
       "mood": "impending doom quest",
       "dialogue": [
-        {"type": "system", "text": "[MAIN QUEST: SURVIVE THE COMING SIEGE]", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "system",
+          "text": "[MAIN QUEST: SURVIVE THE COMING SIEGE]",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Primary Quest pop-up: [MAIN QUEST: SURVIVE THE COMING SIEGE OF SAINT MIRREN].",
+      "prose_hi": "Prathmik quest pop-up: [mukhya quest: sent miren ki aane wali gherabandi se bache]."
     },
     {
       "id": "p19",
       "shot": "mana vision shift world",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun's vision shifts into infrared-violet: He can see the glowing mana pulses traveling through the campus electrical grid and ground.",
       "mood": "expanded consciousness",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "Duniya... achanak aisi kyun dikh rahi hai?", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Duniya... achanak aisi kyun dikh rahi hai?",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun's vision shifts into infrared-violet: He can see the glowing mana pulses traveling through the campus electrical grid and ground.",
+      "prose_hi": "Ha-jun ki drishti infraared-bangni mein badal jaati hai: wah parisar ke vidyut grid aur jameen ke madhyam se yatra karte hue chamakti man daalon ko dekh sakta hai."
     },
     {
       "id": "p20",
@@ -216,47 +394,81 @@
       "characters": [],
       "action": "Through his new perception, Ha-Jun detects a warm human life signature climbing the staircase toward the rooftop access door.",
       "mood": "surprise visitor alert",
-      "sfx": "THUMP... THUMP..."
+      "sfx": "THUMP... THUMP...",
+      "prose_en": "Through his new perception, Ha-Jun detects a warm human life signature climbing the staircase toward the rooftop access door.",
+      "prose_hi": "Apni nai dharna ke madhyam se, ha-jun chhat ke pravesh dwar ki or sidhi chadhte hue ek garm manav jeevan hastakshar ka pata lagata hai."
     },
     {
       "id": "p21",
       "shot": "sharp defensive turn",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun turns swiftly toward the heavy steel rooftop door: 'Koi upar aa raha hai...!'",
       "mood": "tense alertness",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "Koi upar aa raha hai...!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Koi upar aa raha hai...!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun turns swiftly toward the heavy steel rooftop door: 'Koi upar aa raha hai...!'.",
+      "prose_hi": "Ha-jun teji se steel ke bhari chhat wale darvaje ki or mudta hai: 'koi upar aa raha hai...!'."
     },
     {
       "id": "p22",
       "shot": "kuro urgent concealment command",
       "setting": "university rooftop",
-      "characters": ["kuro"],
+      "characters": [
+        "kuro"
+      ],
       "action": "Kuro: 'Mark chupao! Insaano ko Sovereign ka nishaan nahi dikhna chahiye!'",
       "mood": "concealment panic",
       "dialogue": [
-        {"type": "speech", "speaker": "kuro", "text": "Mark chupao! Turant!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Mark chupao! Turant!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Kuro: 'Mark chupao! Insaano ko Sovereign ka nishaan nahi dikhna chahiye!'.",
+      "prose_hi": "Kuro: 'mark chupao! insaanon ko samprabhu ka nishan nahin dikhna chahiye!'."
     },
     {
       "id": "p23",
       "shot": "crest vanishing into skin",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "With a conscious mental command, the glowing crest fades seamlessly beneath Ha-Jun's pale skin, looking completely normal.",
       "mood": "seamless stealth",
-      "sfx": "SHHH..."
+      "sfx": "SHHH...",
+      "prose_en": "With a conscious mental command, the glowing crest fades seamlessly beneath Ha-Jun's pale skin, looking completely normal.",
+      "prose_hi": "Ek sachet mansik aadesh ke sath, chamakti shikha ha-jun ki pili tvacha ke neeche sahajta se fiki pad jaati hai, aur puri tarah se samanya dikhti hai."
     },
     {
       "id": "p24",
       "shot": "kuro blending into shadow",
       "setting": "university rooftop",
-      "characters": ["kuro"],
+      "characters": [
+        "kuro"
+      ],
       "action": "Kuro's physical form dissolves into a subtle crow silhouette inside Ha-Jun's elongated shadow on the wet ground.",
       "mood": "shadow familiar integration",
-      "sfx": "SWISH..."
+      "sfx": "SWISH...",
+      "prose_en": "Kuro's physical form dissolves into a subtle crow silhouette inside Ha-Jun's elongated shadow on the wet ground.",
+      "prose_hi": "Kuro ka bhautik roop gili jameen par ha-jun ki lambi chhaya ke andar ek sookshm kauve ke aakaar mein vilin ho jata hai."
     },
     {
       "id": "p25",
@@ -265,62 +477,125 @@
       "characters": [],
       "action": "The rusted industrial door pushes open with a loud metallic squeal against the rain.",
       "mood": "everyday mundanity breaks the supernatural",
-      "sfx": "CREEEAAAK..."
+      "sfx": "CREEEAAAK...",
+      "prose_en": "The rusted industrial door pushes open with a loud metallic squeal against the rain.",
+      "prose_hi": "Jang laga hua audyogik darwaza baarish ke viruddh tez dhatvik cheekh ke saath khulta hai."
     },
     {
       "id": "p26",
       "shot": "min-jae reveal in rain",
       "setting": "rooftop access doorway",
-      "characters": ["min_jae"],
+      "characters": [
+        "min_jae"
+      ],
       "action": "Standing in the doorway is Min-Jae (17yo student, round glasses, bright yellow umbrella, dripping school uniform).",
       "mood": "ordinary friend arrives",
       "dialogue": [
-        {"type": "speech", "speaker": "min_jae", "text": "Ha-Jun? Tum yahan kya kar rahe ho?", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Ha-Jun? Tum yahan kya kar rahe ho?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Standing in the doorway is Min-Jae (17-year-old student, round glasses, bright yellow umbrella, dripping school uniform).",
+      "prose_hi": "Darwaze par min-je (17 varshiya chhatra, gol chashma, chamkili pili chtari, tapakti hui school uniform) khadi hai."
     },
     {
       "id": "p27",
       "shot": "min-jae walking out concern",
       "setting": "university rooftop",
-      "characters": ["min_jae"],
+      "characters": [
+        "min_jae"
+      ],
       "action": "Min-Jae steps out with his umbrella: 'Class khatam huye aadha ghanta ho gaya. Maine socha tum ghar chale gaye...'",
       "mood": "innocent concern",
       "dialogue": [
-        {"type": "speech", "speaker": "min_jae", "text": "Sab tumhe dhoond rahe the...", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Sab tumhe dhoond rahe the...",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Min-Jae steps out with his umbrella: 'Class khatam huye aadha ghanta ho gaya. Maine socha tum ghar chale gaye...'.",
+      "prose_hi": "Min-je apni chhatri ke saath bahar nikalte han: 'clas khatm hue aadha ghanta ho gaya. maine socha tum ghar chale gaye...'."
     },
     {
       "id": "p28",
       "shot": "min-jae shock at devastation",
       "setting": "university rooftop",
-      "characters": ["min_jae"],
+      "characters": [
+        "min_jae"
+      ],
       "action": "Min-Jae suddenly freezes; his gaze drops to the severed steel railings and the massive scorched impact crater in the concrete.",
       "mood": "utter shock",
       "dialogue": [
-        {"type": "speech", "speaker": "min_jae", "text": "Y-Yeh chhat ko kya hua...?!", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Y-Yeh chhat ko kya hua...?!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Min-Jae suddenly freezes; his gaze drops to the severed steel railings and the massive scorched impact crater in the concrete.",
+      "prose_hi": "Min-je achanak thithak gaya; uski nazar kati hui steel ki railing aur concrete mein bade paimane par jhulse hue gaddhe par jaati hai."
     },
     {
       "id": "p29",
       "shot": "trembling glasses reflection",
       "setting": "university rooftop",
-      "characters": ["min_jae"],
+      "characters": [
+        "min_jae"
+      ],
       "action": "Min-Jae's umbrella tilts, glasses reflecting the ruined rooftop: 'Kya... un bullies ne yeh sab kiya hai?!'",
       "mood": "misguided terror",
       "dialogue": [
-        {"type": "speech", "speaker": "min_jae", "text": "Kya un ladko ne tumhe maarne ke liye dynamite use kiya?!", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Kya un ladko ne tumhe maarne ke liye dynamite use kiya?!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Min-Jae's umbrella tilts, glasses reflecting the ruined rooftop: 'Kya... un bullies ne yeh sab kiya hai?!'.",
+      "prose_hi": "Min-je ki chhatri jhuki hui hai, chashma khandhar chhat ko pratibimbit kar raha hai: 'kya... un badmashon ne yeh sab kiya hai?!'."
     },
     {
       "id": "p30",
       "shot": "chilling shadow reflection cliffhanger",
       "setting": "university rooftop",
-      "characters": ["hajun", "min_jae"],
+      "characters": [
+        "hajun",
+        "min_jae"
+      ],
       "action": "Ha-Jun turns around with completely calm, flawless skin and a tranquil smile: 'Nahi Min-Jae... sirf aam toofan tha.' (Cliffhanger: In the wet puddle behind him, Ha-Jun's reflection casts colossal demonic wings).",
       "mood": "secret sovereign, chilling cliffhanger",
       "dialogue": [
-        {"type": "speech", "speaker": "hajun", "text": "Sirf aam toofan tha, Min-Jae. Chalo ghar chalte hain.", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Sirf aam toofan tha, Min-Jae. Chalo ghar chalte hain.",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun turns around with completely calm, flawless skin and a tranquil smile: 'Nahi Min-Jae... sirf aam toofan tha.' (Cliffhanger: In the wet puddle behind him, Ha-Jun's reflection casts colossal demonic wings).",
+      "prose_hi": "Ha-jun puri tarah se shant, bedag tvacha aur shant muskan ke saath ghumta hai: 'nahin min-jaye... sirf aam toofan tha.' (clifahenger: uske peeche gile pokhar men, ha-jun ka pratibimb vishal rakshasi pankh failata hai)."
     }
   ]
 }

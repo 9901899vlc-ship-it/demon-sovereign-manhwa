@@ -15,7 +15,9 @@
       ],
       "action": "Ha-Jun's footsteps echo softly on the cracked marble mosaic floor as he approaches the glowing pedestal.",
       "mood": "solemn approach",
-      "sfx": "STEP... STEP..."
+      "sfx": "STEP... STEP...",
+      "prose_en": "Ha-Jun's footsteps echo softly on the cracked marble mosaic floor as he approaches the glowing pedestal.",
+      "prose_hi": "Ha-jun ke nakshekadam toote hue sangmarmar ke mozek farsh par dhire-dhire goonjte hain kyonki wah chamakte hue aasan ke paas pahunchta hai."
     },
     {
       "id": "p02",
@@ -25,7 +27,9 @@
         "hajun"
       ],
       "action": "The pulsing ruby glow paints sharp blood-red highlights across Ha-Jun's pale cheeks and dark eyes.",
-      "mood": "eerie illumination"
+      "mood": "eerie illumination",
+      "prose_en": "The pulsing ruby glow paints sharp blood-red highlights across Ha-Jun's pale cheeks and dark eyes.",
+      "prose_hi": "Spandit ruby chamak ha-jun ke peele gaalon aur gahri aankhon par tej rakt-lal highlights ko chitrit karti hai."
     },
     {
       "id": "p03",
@@ -47,7 +51,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro taps the reinforced spellbound glass with a sharp obsidian claw.",
+      "prose_hi": "Kuro ek tej obsidian panje ke saath prabalit mantramugdh glass ko tap karta hai."
     },
     {
       "id": "p04",
@@ -55,7 +61,9 @@
       "setting": "pedestal base",
       "characters": [],
       "action": "Carved in archaic demonic cuneiform runes: 'Blood demands blood. The vessel must bleed to rule.'",
-      "mood": "ancient decree"
+      "mood": "ancient decree",
+      "prose_en": "Carved in archaic demonic cuneiform runes: 'Blood demands blood. The vessel must bleed to rule.'.",
+      "prose_hi": "Puratan rakshasi cuniform runs mein ukera gaya: 'khun khoon mangta hai. shasan karne ke liye jahaj ko khoon bahana hoga.'"
     },
     {
       "id": "p05",
@@ -76,7 +84,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun stares at his open right palm, remembering how his blood awakened Kuro's feather on the rooftop.",
+      "prose_hi": "Ha-jun apni khuli dahini hatheli ko dekhta hai aur yaad karta hai ki kaise uske khoon ne chhat par kuro ke pankh ko jaga diya tha."
     },
     {
       "id": "p06",
@@ -87,7 +97,9 @@
       ],
       "action": "Ha-Jun presses his thumb firmly against the razor-sharp edge of the cracked reliquary glass.",
       "mood": "self sacrifice",
-      "sfx": "SLICE..."
+      "sfx": "SLICE...",
+      "prose_en": "Ha-Jun presses his thumb firmly against the razor-sharp edge of the cracked reliquary glass.",
+      "prose_hi": "Ha-jun apne anguthe ko toote hue avashesh kaanch ke ustra-nukile kinare par majbuti se dabata hai."
     },
     {
       "id": "p07",
@@ -95,7 +107,9 @@
       "setting": "macro air",
       "characters": [],
       "action": "A single sphere of dark scarlet blood falls in dramatic slow-motion toward the glowing red gem.",
-      "mood": "pivotal moment"
+      "mood": "pivotal moment",
+      "prose_en": "A single sphere of dark scarlet blood falls in dramatic slow-motion toward the glowing red gem.",
+      "prose_hi": "Gahre lal rang ke rakt ka ek gola natakiya roop se dhimi gati se chamakte lal ratna ki or girta hai."
     },
     {
       "id": "p08",
@@ -104,7 +118,9 @@
       "characters": [],
       "action": "The droplet splashes against the liquid ruby center of the ring, causing an immediate blinding crimson flare.",
       "mood": "chemical awakening",
-      "sfx": "TSSSSS!!"
+      "sfx": "TSSSSS!!",
+      "prose_en": "The droplet splashes against the liquid ruby center of the ring, causing an immediate blinding crimson flare.",
+      "prose_hi": "Boond ring ke taral ruby kendra par chhinte maarti hai, jisse turant andhi lal rang ki chamak paida ho jaati hai."
     },
     {
       "id": "p09",
@@ -113,7 +129,9 @@
       "characters": [],
       "action": "The ancient spellbound glass dome violently implodes outward into glittering shards of ruby light.",
       "mood": "explosive unsealing",
-      "sfx": "SHATTERRRR!!"
+      "sfx": "SHATTERRRR!!",
+      "prose_en": "The ancient spellbound glass dome violently implodes outward into glittering shards of ruby light.",
+      "prose_hi": "Prachin mantramugdh kaanch ka gumbad teji se bahar ki or ruby roshni ke chamakdar tukdon mein badal jata hai."
     },
     {
       "id": "p10",
@@ -122,7 +140,9 @@
       "characters": [],
       "action": "The Ring of Hollow Blood levitates to eye-level, surrounded by swirling bands of crimson liquid mana.",
       "mood": "divine relic ascension",
-      "sfx": "WHOOSH..."
+      "sfx": "WHOOSH...",
+      "prose_en": "The Ring of Hollow Blood levitates to eye-level, surrounded by swirling bands of crimson liquid mana.",
+      "prose_hi": "Khokhle rakt ka chhalla aankhon ke star tak udta hai, jo lal rang ke taral maina ki ghumti pattiyon se ghira hota hai."
     },
     {
       "id": "p11",
@@ -132,7 +152,9 @@
         "hajun"
       ],
       "action": "Drawn by an irresistible psychic pull, Ha-Jun slowly extends his right hand toward the levitating ring.",
-      "mood": "hypnotic bonding"
+      "mood": "hypnotic bonding",
+      "prose_en": "Drawn by an irresistible psychic pull, Ha-Jun slowly extends his right hand toward the levitating ring.",
+      "prose_hi": "Ek apratirodhya mansik khinchav se aakarshit hokar, ha-jun dhire-dhire apna dahina haath udti hui anguthi ki or badhata hai."
     },
     {
       "id": "p12",
@@ -143,7 +165,9 @@
       ],
       "action": "The cold obsidian ring snaps onto Ha-Jun's right ring finger with a sharp metallic click, shrinking to fit snugly.",
       "mood": "bonded",
-      "sfx": "CLICCKK!!"
+      "sfx": "CLICCKK!!",
+      "prose_en": "The cold obsidian ring snaps onto Ha-Jun's right ring finger with a sharp metallic click, shrinking to fit snugly.",
+      "prose_hi": "Thandi obsidian anguthi ek tej dhatvik click ke saath ha-jun ki dahini anamika par aa jaati hai, aur aaram se fit hone ke liye sikud jaati hai."
     },
     {
       "id": "p13",
@@ -154,7 +178,9 @@
       ],
       "action": "From his finger, a network of blazing scarlet veins spreads up his forearm, pulsing in sync with his heart.",
       "mood": "bloodline invasion",
-      "sfx": "SURGE!"
+      "sfx": "SURGE!",
+      "prose_en": "From his finger, a network of blazing scarlet veins spreads up his forearm, pulsing in sync with his heart.",
+      "prose_hi": "Uski ungli se, dhadhakti lal rang ki nason ka ek network uske agrabhag tak fail jata hai, jo uske dil ke saath taalmel bithata hai."
     },
     {
       "id": "p14",
@@ -176,7 +202,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun arches his back, gasping as boiling liquid mana floods his arterial system with searing heat.",
+      "prose_hi": "Ha-jun apni peeth jhukata hai, hanfta hai kyonki ubalta hua taral maina uski dhamni pranali ko bheeshan garmi se bhar deta hai."
     },
     {
       "id": "p15",
@@ -197,7 +225,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro screeches from an antique bookshelf: 'Control karo, Ha-Jun! Apne circulation ko lead karo!'.",
+      "prose_hi": "Kuro ek prachin bukashelf se chillata hai: 'control karo, ha-jun! apne circulation ko lead karo!'."
     },
     {
       "id": "p16",
@@ -208,7 +238,9 @@
       ],
       "action": "Ha-Jun drops to one knee, smashing his left fist into the stone tiles to anchor his consciousness.",
       "mood": "willpower",
-      "sfx": "CRACK!"
+      "sfx": "CRACK!",
+      "prose_en": "Ha-Jun drops to one knee, smashing his left fist into the stone tiles to anchor his consciousness.",
+      "prose_hi": "Ha-jun ek ghutne par baith jata hai aur apni chetna ko sthir karne ke liye apni bayin mutthi ko patthar ki tailon par maarta hai."
     },
     {
       "id": "p17",
@@ -218,7 +250,9 @@
         "hajun"
       ],
       "action": "His pupils ignite into a double-ringed demonic eclipse: outer iris violet, inner core blazing ruby.",
-      "mood": "ascension gaze"
+      "mood": "ascension gaze",
+      "prose_en": "His pupils ignite into a double-ringed demonic eclipse: outer iris violet, inner core blazing ruby.",
+      "prose_hi": "Uski putliyan ek duble-ring wale rakshasi grahan mein prajvalit hoti han: bahari paritarika bangni, aantarik core dhadhakti rubi."
     },
     {
       "id": "p18",
@@ -227,7 +261,9 @@
       "characters": [],
       "action": "Every drop of spilled blood across the cracked marble floor stops falling and begins floating upward in midair.",
       "mood": "gravitational blood control",
-      "sfx": "FLOAT..."
+      "sfx": "FLOAT...",
+      "prose_en": "Every drop of spilled blood across the cracked marble floor stops falling and begins floating upward in midair.",
+      "prose_hi": "Tute hue sangmarmar ke farsh par bikhre khoon ki har boond girna band ho jaati hai aur hawa mein upar ki or tairne lagti hai."
     },
     {
       "id": "p19",
@@ -238,7 +274,9 @@
       ],
       "action": "Ha-Jun slowly rises to full height, exhaling a thin trail of crimson steam into the cold air.",
       "mood": "calm after the storm",
-      "sfx": "HAAAH..."
+      "sfx": "HAAAH...",
+      "prose_en": "Ha-Jun slowly rises to full height, exhaling a thin trail of crimson steam into the cold air.",
+      "prose_hi": "Ha-jun dhire-dhire puri unchai tak uthta hai, thandi hawa mein lal rang ki bhaap ki ek patli kiran chhodta hai."
     },
     {
       "id": "p20",
@@ -257,7 +295,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "A brilliant gold-and-crimson status notification unfolds in his peripheral vision.",
+      "prose_hi": "Ek shandar sone aur lal rang ki sthiti adhisuchna uski paridhiy drishti mein prakat hoti hai."
     },
     {
       "id": "p21",
@@ -278,7 +318,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun rotates his hand; the ring pulses gently like an extra heartbeat directly tied to his pulse.",
+      "prose_hi": "Ha-jun apna haath ghumata hai; anguthi dheere se dhadakne lagti hai jaise ki ek atirikt dil ki dhadkan sidhe uski naadi se judi ho."
     },
     {
       "id": "p22",
@@ -287,7 +329,9 @@
       "characters": [],
       "action": "From the broken iron hatch and dark archways, three feral low-level Demonic Ghouls crawl into view.",
       "mood": "incoming ambush",
-      "sfx": "GRRRRRRR..."
+      "sfx": "GRRRRRRR...",
+      "prose_en": "From the broken iron hatch and dark archways, three feral low-level Demonic Ghouls crawl into view.",
+      "prose_hi": "Tute hue lohe ke hatch aur andhere mehrabon se, teen junglee nimn-star ke rakshasi ghoul rengte hue dikhai dete han."
     },
     {
       "id": "p23",
@@ -296,7 +340,9 @@
       "characters": [],
       "action": "Pale grey rotting skin, elongated razor claws, and hollow empty eye sockets leaking black tar-like fluid.",
       "mood": "monstrous threat",
-      "sfx": "HISS!!"
+      "sfx": "HISS!!",
+      "prose_en": "Pale grey rotting skin, elongated razor claws, and hollow empty eye sockets leaking black tar-like fluid.",
+      "prose_hi": "Pili dhusar sadti hui tvacha, lambe razr panje, aur khokhli khali aankh ki socket se kala tar jaisa taral padarth ris raha hai."
     },
     {
       "id": "p24",
@@ -317,7 +363,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro sneers: 'Relic ki awakening ne in rotten scavengers ko attract kiya hai.'.",
+      "prose_hi": "Kuro vyangya karte han: 'sade hue maila dhone walon mein avsheshon ki jagriti ne aakarshit kiya hai.'"
     },
     {
       "id": "p25",
@@ -326,7 +374,9 @@
       "characters": [],
       "action": "The largest ghoul leaps forward, jagged claws aimed straight at Ha-Jun's throat.",
       "mood": "ferocious attack",
-      "sfx": "SWISH!"
+      "sfx": "SWISH!",
+      "prose_en": "The largest ghoul leaps forward, jagged claws aimed straight at Ha-Jun's throat.",
+      "prose_hi": "Subse bada pishaach aage badhta hai, dantedar panje sidhe ha-jun ke gale par nishana sadhte han."
     },
     {
       "id": "p26",
@@ -336,7 +386,9 @@
         "hajun"
       ],
       "action": "Ha-Jun stands motionless, his gaze unblinking as the monster closes the distance.",
-      "mood": "fearless composure"
+      "mood": "fearless composure",
+      "prose_en": "Ha-Jun stands motionless, his gaze unblinking as the monster closes the distance.",
+      "prose_hi": "Ha-jun gatiheen khada hai, jaise hi rakshas doori ko band karta hai, uski aankhen bina palkein jhapkae rah jaati han."
     },
     {
       "id": "p27",
@@ -347,7 +399,9 @@
       ],
       "action": "With a flick of his ring finger, the floating blood droplets stretch into razor-sharp crimson threads.",
       "mood": "thread manifestation",
-      "sfx": "SHING!!"
+      "sfx": "SHING!!",
+      "prose_en": "With a flick of his ring finger, the floating blood droplets stretch into razor-sharp crimson threads.",
+      "prose_hi": "Uski anamika ke ek jhatke se, tairti hui rakt ki bunden rager-nukile lal dhaagon mein fail jaati han."
     },
     {
       "id": "p28",
@@ -356,7 +410,9 @@
       "characters": [],
       "action": "The crimson blood threads slice cleanly through the ghoul's hardened stone-like claws in midair.",
       "mood": "clean slice",
-      "sfx": "KSHHHH!!"
+      "sfx": "KSHHHH!!",
+      "prose_en": "The crimson blood threads slice cleanly through the ghoul's hardened stone-like claws in midair.",
+      "prose_hi": "Gahre lal rakt ke dhaage hawa mein pishaach ke kathor patthar jaise panjon ko saf-saf kaat dete han."
     },
     {
       "id": "p29",
@@ -365,7 +421,9 @@
       "characters": [],
       "action": "The beast crashes onto the tiles, black blood spurting from its severed stumps as it howls.",
       "mood": "screeching agony",
-      "sfx": "SKREEECH!!"
+      "sfx": "SKREEECH!!",
+      "prose_en": "The beast crashes onto the tiles, black blood spurting from its severed stumps as it howls.",
+      "prose_hi": "Janvar tailon se takrata hai, chillate samay uske kate hue thoonthon se kala khoon nikalne lagta hai."
     },
     {
       "id": "p30",
@@ -386,7 +444,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun steps forward, crimson mana swirling around his fingers: 'Ab meri baari.'.",
+      "prose_hi": "Ha-jun aage badhta hai, lal man uski ungaliyon ke charon or ghumta hai: 'ab meri bari.'"
     }
   ]
 }

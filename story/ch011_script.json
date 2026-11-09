@@ -13,18 +13,32 @@
       "characters": [],
       "action": "Wide establishing shot of Saint Mirren University in the overcast morning; crowds of students enter beneath neoclassical stone arches.",
       "mood": "everyday high school atmosphere",
-      "sfx": "CHATTER..."
+      "sfx": "CHATTER...",
+      "prose_en": "Saint Mirren University in the overcast morning; crowds of students enter beneath neoclassical stone arches.",
+      "prose_hi": "Badal bhari subah mein sent miren vishwavidyalay; chhatron ki bheed navashastriy patthar ke mehrabon ke neeche pravesh karti hai."
     },
     {
       "id": "p02",
       "shot": "clean uniform corridor walk",
       "setting": "school hallway",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun walks down the brightly lit school corridor, his posture upright and confident, navy blazer immaculate.",
       "mood": "subtle regal poise",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "Aaj subah... sab kuch kitna saaf dikh raha hai.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Aaj subah... sab kuch kitna saaf dikh raha hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun walks down the brightly lit school corridor, his posture upright and confident, navy blazer immaculate.",
+      "prose_hi": "Ha-jun chamakdar roshni wale school ke galiyare mein chalta hai, uski mudra sidhi aur aatmavishwas se bhari hui hai, navy blazer bedag hai."
     },
     {
       "id": "p03",
@@ -34,39 +48,77 @@
       "action": "Female classmates whisper to each other behind notebooks as Ha-Jun passes: 'Woh Ha-Jun hai na? Uski chot kahan gayi?'",
       "mood": "growing student curiosity",
       "dialogue": [
-        {"type": "speech", "speaker": null, "text": "Dekho use... kitna alag lag raha hai aaj!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": null,
+          "text": "Dekho use... kitna alag lag raha hai aaj!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Female classmates whisper to each other behind notebooks as Ha-Jun passes: 'Woh Ha-Jun hai na? Uski chot kahan gayi?'.",
+      "prose_hi": "Ha-jun ke gujarte hi mahila sahpathi notebook ke peeche ek-dusre se fusfusati han: 'vo ha-jun hai na? uski chot kahan gai?'."
     },
     {
       "id": "p04",
       "shot": "bully trio blocking way",
       "setting": "school hallway",
-      "characters": ["bully_leader"],
+      "characters": [
+        "bully_leader"
+      ],
       "action": "School bully Jin-Woo (tall, athletic, smirking arrogantly) steps out from the lockers with two cronies, blocking Ha-Jun's path.",
       "mood": "confrontational hostility",
       "dialogue": [
-        {"type": "speech", "speaker": "bully_leader", "text": "Arey waah, loser! Kal ki maar se bach gaya?", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "bully_leader",
+          "text": "Arey waah, loser! Kal ki maar se bach gaya?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "School bully Jin-Woo (tall, athletic, smirking arrogantly) steps out from the lockers with two cronies, blocking Ha-Jun's path.",
+      "prose_hi": "Skul ka badmash jin-woo (lamba, ethletic, ahankaar se muskurata hua) do sathiyon ke saath locker se bahar nikalta hai aur ha-jun ka rasta rokta hai."
     },
     {
       "id": "p05",
       "shot": "extortion demand close-up",
       "setting": "school hallway",
-      "characters": ["bully_leader"],
+      "characters": [
+        "bully_leader"
+      ],
       "action": "Jin-Woo points a finger at Ha-Jun's chest: 'Chupchap aaj ka lunch money nikaal, warna kal se zyada bura haal karunga.'",
       "mood": "petty cruelty",
       "dialogue": [
-        {"type": "speech", "speaker": "bully_leader", "text": "Lunch money nikaal, jaldi!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "bully_leader",
+          "text": "Lunch money nikaal, jaldi!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Jin-Woo points a finger at Ha-Jun's chest: 'Chupchap aaj ka lunch money nikaal, warna kal se zyada bura haal karunga.'.",
+      "prose_hi": "Jin-woo ne ha-jun ki chhati par ungli uthai: 'chupchap aaj ka lunch money nikal, varna kal se jyada bura haal karunga.'"
     },
     {
       "id": "p06",
       "shot": "unflinching sovereign gaze macro",
       "setting": "school hallway",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun stops. His dark brown eyes lock onto Jin-Woo with absolute stillness, devoid of all fear or hesitation.",
       "mood": "predator staring at prey",
-      "sfx": "CHILL..."
+      "sfx": "CHILL...",
+      "prose_en": "Ha-Jun stops. His dark brown eyes lock onto Jin-Woo with absolute stillness, devoid of all fear or hesitation.",
+      "prose_hi": "Ha-jun rukta hai. uski gahri bhuri aankhen kisi bhi dar ya jhijhak se rahit, purna shanti ke saath jin-woo par tiki hui han."
     },
     {
       "id": "p07",
@@ -75,49 +127,91 @@
       "characters": [],
       "action": "From Jin-Woo's terrified perspective, Ha-Jun's shadow distorts into a colossal 20-foot demonic behemoth with burning violet eyes.",
       "mood": "unconscious aura subjugation",
-      "sfx": "WHUUUUMMM!!"
+      "sfx": "WHUUUUMMM!!",
+      "prose_en": "From Jin-Woo's terrified perspective, Ha-Jun's shadow distorts into a colossal 20-foot demonic behemoth with burning violet eyes.",
+      "prose_hi": "Jin-woo ke bhaybhit drishtikon se, ha-jun ki chhaya jalti hui baingani aankhon ke saath ek vishal 20 foot ke rakshasi rakshas mein badal jaati hai."
     },
     {
       "id": "p08",
       "shot": "bully stumbling backward in cold sweat",
       "setting": "school hallway",
-      "characters": ["bully_leader"],
+      "characters": [
+        "bully_leader"
+      ],
       "action": "Jin-Woo gasps in sudden terror, his knees buckling as he stumbles backward into the lockers, drenched in cold sweat.",
       "mood": "instinctive primal horror",
       "dialogue": [
-        {"type": "thought", "speaker": "bully_leader", "text": "Y-Yeh achanak saans lena itna mushkil kyun ho gaya...?!", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "bully_leader",
+          "text": "Y-Yeh achanak saans lena itna mushkil kyun ho gaya...?!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Jin-Woo gasps in sudden terror, his knees buckling as he stumbles backward into the lockers, drenched in cold sweat.",
+      "prose_hi": "Jin-woo achanak ghabrakar hanfne lagta hai, uske ghutne mud jaate hain aur wah thande pasine mein bheegkar peeche ki or locker mein gir jata hai."
     },
     {
       "id": "p09",
       "shot": "walking past without a word",
       "setting": "school hallway",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun calmly steps past the cowering bullies without uttering a single word, leaving them gasping on the floor.",
       "mood": "effortless supremacy",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "Inke paas mere waqt ka ek pal bhi nahi hai.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Inke paas mere waqt ka ek pal bhi nahi hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun calmly steps past the cowering bullies without uttering a single word, leaving them gasping on the floor.",
+      "prose_hi": "Ha-jun ek bhi shabd bole bina shanti se dare hue badmashon ke paas se gujarta hai, jisse ve farsh par hanfne lagte han."
     },
     {
       "id": "p10",
       "shot": "university library quiet study",
       "setting": "university library",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "In the grand university library, Ha-Jun sits by a high arched window, researching ancient demonic relics in historic volumes.",
       "mood": "peaceful intellectual pursuit",
-      "sfx": "PAGE-FLIP..."
+      "sfx": "PAGE-FLIP...",
+      "prose_en": "In the grand university library, Ha-Jun sits by a high arched window, researching ancient demonic relics in historic volumes.",
+      "prose_hi": "Bhavya vishwavidyalaya pustakalaya men, ha-jun ek unchi mehrabdar khidki ke paas baithkar aitihasik khandon mein prachin rakshasi avsheshon par shodh kar raha hai."
     },
     {
       "id": "p11",
       "shot": "kuro invisible counsel portrait",
       "setting": "university library",
-      "characters": ["kuro"],
+      "characters": [
+        "kuro"
+      ],
       "action": "Kuro's translucent spirit perches near the ceiling: 'Sahi kiya. Cheentiyon ko kuchalne mein koi shaan nahi hoti.'",
       "mood": "guardian praise",
       "dialogue": [
-        {"type": "speech", "speaker": "kuro", "text": "Cheentiyon ko ignore karna hi behtar hai.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Cheentiyon ko ignore karna hi behtar hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Kuro's translucent spirit perches near the ceiling: 'Sahi kiya. Cheentiyon ko kuchalne mein koi shaan nahi hoti.'.",
+      "prose_hi": "Kuro ki parabhasi aatma chhat ke paas baithati hai: 'sahi kiya. 'chintiyon ko kuchalne mein koi shaan nahin hoti.'"
     },
     {
       "id": "p12",
@@ -126,7 +220,9 @@
       "characters": [],
       "action": "Suddenly, the heavy library window glass vibrates violently; books shudder on the mahogany shelves.",
       "mood": "abrupt danger",
-      "sfx": "TRRRRR-TRRRR!!"
+      "sfx": "TRRRRR-TRRRR!!",
+      "prose_en": "Suddenly, the heavy library window glass vibrates violently; books shudder on the mahogany shelves.",
+      "prose_hi": "Achanak, library ki bhari khidki ka sheesha zor se hilta hai; mahogani almariyon par kitaben thartharati han."
     },
     {
       "id": "p13",
@@ -135,18 +231,32 @@
       "characters": [],
       "action": "All electric chandeliers in the library flicker and abruptly pop out, plunging the grand room into cold unnatural gloom.",
       "mood": "power outage, eerie cold",
-      "sfx": "ZZZT... SNAP!"
+      "sfx": "ZZZT... SNAP!",
+      "prose_en": "All electric chandeliers in the library flicker and abruptly pop out, plunging the grand room into cold unnatural gloom.",
+      "prose_hi": "Pustkalay mein sabhi bijli ke jhoomar timtimate hain aur achanak bahar nikal jaate han, jisse bhavya kamra thande aprakritik andhkar mein doob jata hai."
     },
     {
       "id": "p14",
       "shot": "black frost creeping on floor",
       "setting": "university library",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Through Ha-Jun's mana vision, creeping black frost spreads across the floorboards as temperature plummets below zero.",
       "mood": "demonic invasion signature",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "Yeh aam toofan nahi hai... Abyss ki sardi hai!", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Yeh aam toofan nahi hai... Abyss ki sardi hai!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Through Ha-Jun's mana vision, creeping black frost spreads across the floorboards as temperature plummets below zero.",
+      "prose_hi": "Ha-jun ki man drishti ke madhyam se, jaise hi taapmaan shunya se neeche girta hai, farsh par rengane wali kali thandh fail jaati hai."
     },
     {
       "id": "p15",
@@ -156,17 +266,31 @@
       "action": "Terrified screams of hundreds of students echo up from the central quadrangle below.",
       "mood": "chaos erupting",
       "dialogue": [
-        {"type": "speech", "speaker": null, "text": "MONSTER!! BHAAGO!! MONSTER AA GAYA!!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": null,
+          "text": "MONSTER!! BHAAGO!! MONSTER AA GAYA!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Terrified screams of hundreds of students echo up from the central quadrangle below.",
+      "prose_hi": "Saikdon chhatron ki bhaybhit cheekhen neeche kendriya chaturbhuj se goonjati han."
     },
     {
       "id": "p16",
       "shot": "running to window ledge",
       "setting": "university library window",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun throws his chair back, rushing to the open stone balustrade and looking down into the courtyard.",
       "mood": "urgent crisis",
-      "sfx": "SLAM!!"
+      "sfx": "SLAM!!",
+      "prose_en": "Ha-Jun throws his chair back, rushing to the open stone balustrade and looking down into the courtyard.",
+      "prose_hi": "Ha-jun apni kursi peeche fenkata hai, khule patthar ke chhajje ki or daudta hai aur neeche aangan ki or dekhta hai."
     },
     {
       "id": "p17",
@@ -175,103 +299,170 @@
       "characters": [],
       "action": "A massive 15-foot black dimensional fissure tears through the center of the brick plaza, vomiting corrosive smoke.",
       "mood": "catastrophic breach",
-      "sfx": "KRAAA-BOOOOM!!"
+      "sfx": "KRAAA-BOOOOM!!",
+      "prose_en": "A massive 15-foot black dimensional fissure tears through the center of the brick plaza, vomiting corrosive smoke.",
+      "prose_hi": "Ek vishal 15 foot ki kali aayami daraar int plaza ke kendra se hokar sanksharak dhuan ugalti hai."
     },
     {
       "id": "p18",
       "shot": "greater shadow hound emergence",
       "setting": "central courtyard",
-      "characters": ["shadow_hound"],
+      "characters": [
+        "shadow_hound"
+      ],
       "action": "A terrifying 15-foot quadrupedal Shadow Hound claws its way out: Spiked obsidian bone-armor, three burning red eyes, jaws dripping black bile.",
       "mood": "nightmare beast",
-      "sfx": "SKRRRRRREEE!!"
+      "sfx": "SKRRRRRREEE!!",
+      "prose_en": "A terrifying 15-foot quadrupedal Shadow Hound claws its way out: Spiked obsidian bone-armor, three burning red eyes, jaws dripping black bile.",
+      "prose_hi": "Ek bhayanak 15 foot ka chaupaya shadow hound apne panje se bahar nikalta hai: nukile obsidian haddi-kavch, teen jalti hui lal aankhen, jabde se tapakta kala pitt."
     },
     {
       "id": "p19",
       "shot": "sonic roar shattering glass",
       "setting": "central courtyard",
-      "characters": ["shadow_hound"],
+      "characters": [
+        "shadow_hound"
+      ],
       "action": "The beast roars into the sky; the acoustic shockwave shatters dozens of campus windows simultaneously.",
       "mood": "devastating sonic assault",
-      "sfx": "ROAAAARRRRR!!"
+      "sfx": "ROAAAARRRRR!!",
+      "prose_en": "The beast roars into the sky; the acoustic shockwave shatters dozens of campus windows simultaneously.",
+      "prose_hi": "Janvar aakash mein dahadta hai; dhwanik shockwev parisar ki darjanon khidkiyon ko ek saath tod deti hai."
     },
     {
       "id": "p20",
       "shot": "min-jae fallen and trapped",
       "setting": "central courtyard",
-      "characters": ["min_jae"],
+      "characters": [
+        "min_jae"
+      ],
       "action": "In the courtyard below, Min-Jae trips over his fallen books, scrambling desperately backward as the beast towers over him.",
       "mood": "imminent mortal doom",
       "dialogue": [
-        {"type": "shout", "speaker": "min_jae", "text": "K-KOI BACHAO...!!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "shout",
+          "speaker": "min_jae",
+          "text": "K-KOI BACHAO...!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "In the courtyard below, Min-Jae trips over his fallen books, scrambling desperately backward as the beast towers over him.",
+      "prose_hi": "Niche ke aangan men, min-je apni giri hui kitabon ke upar se fisalta hai aur buri tarah peeche ki or bhagta hai kyonki janwar uske upar chadh jata hai."
     },
     {
       "id": "p21",
       "shot": "descending executioner claw",
       "setting": "central courtyard",
-      "characters": ["shadow_hound"],
+      "characters": [
+        "shadow_hound"
+      ],
       "action": "The Shadow Hound raises its massive, jagged-clawed front leg to crush Min-Jae into bloody pulp.",
       "mood": "fatal execution",
-      "sfx": "SWOOOSH!!"
+      "sfx": "SWOOOSH!!",
+      "prose_en": "The Shadow Hound raises its massive, jagged-clawed front leg to crush Min-Jae into bloody pulp.",
+      "prose_hi": "Shaido hound min-je ko khooni gude mein kuchalne ke liye apne vishal, dantedar panje wale agle pair ko uthata hai."
     },
     {
       "id": "p22",
       "shot": "furious hajun roar close-up",
       "setting": "university library window",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun's eyes flare with incandescent violet fury: 'MIN-JAE-!!'",
       "mood": "brotherly protective rage",
       "dialogue": [
-        {"type": "shout", "speaker": "hajun", "text": "MIN-JAE-!!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "MIN-JAE-!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun's eyes flare with incandescent violet fury: 'MIN-JAE-!!'.",
+      "prose_hi": "Ha-jun ki aankhen garmagaram baingani rosh se chamak uthin: 'min-jaye-!!'."
     },
     {
       "id": "p23",
       "shot": "window shattered leap",
       "setting": "university library window",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun kicks the heavy window glass into fragments, diving out from the third floor directly into the empty air.",
       "mood": "fearless high-altitude dive",
-      "sfx": "KRRSHHH!!"
+      "sfx": "KRRSHHH!!",
+      "prose_en": "Ha-Jun kicks the heavy window glass into fragments, diving out from the third floor directly into the empty air.",
+      "prose_hi": "Ha-jun bhari khidki ke sheeshe ko laat markar tukde-tukde kar deta hai aur teesri manjil se sidhe khali hawa mein gota lagata hai."
     },
     {
       "id": "p24",
       "shot": "mid-air gauntlet ignition",
       "setting": "air above courtyard",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Falling through the air, Ha-Jun channels his sovereign mana: The crystalline purple demonic gauntlet snaps around his right arm with blinding energy.",
       "mood": "aerial armor deployment",
-      "sfx": "KLIK-KLIK-VZZZZT!!"
+      "sfx": "KLIK-KLIK-VZZZZT!!",
+      "prose_en": "Falling through the air, Ha-Jun channels his sovereign mana: The crystalline purple demonic gauntlet snaps around his right arm with blinding energy.",
+      "prose_hi": "Hawa mein girte hue, ha-jun apne samprabhu man ko pravahit karta hai: crystaliy baingani rakshasi gauntlet uski dahini baanh ke charon or andhi urja ke saath ghumta hai."
     },
     {
       "id": "p25",
       "shot": "meteor descent acceleration",
       "setting": "air above courtyard",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Gravity accelerates his fall into a screaming violet meteor; air pressure distorts around his diving fist.",
       "mood": "kinetic bombardment",
-      "sfx": "BOOOOM-SHIIK!!"
+      "sfx": "BOOOOM-SHIIK!!",
+      "prose_en": "Gravity accelerates his fall into a screaming violet meteor; air pressure distorts around his diving fist.",
+      "prose_hi": "Gurutvakarshan ek chikhti hui baingani ulka mein uske girne ki gati badha deta hai; hawa ka dabav uski gotakhori mutthi ke charon or vikrit ho jata hai."
     },
     {
       "id": "p26",
       "shot": "beast shock three eyes look up",
       "setting": "central courtyard",
-      "characters": ["shadow_hound"],
+      "characters": [
+        "shadow_hound"
+      ],
       "action": "The Shadow Hound's three crimson eyes snap upward in sudden disbelief, sensing the overwhelming sovereign wavelength descending upon it.",
       "mood": "predator becomes prey",
       "dialogue": [
-        {"type": "thought", "speaker": "shadow_hound", "text": "SOVEREIGN KA KHOON...?!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "shadow_hound",
+          "text": "SOVEREIGN KA KHOON...?!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "The Shadow Hound's three crimson eyes snap upward in sudden disbelief, sensing the overwhelming sovereign wavelength descending upon it.",
+      "prose_hi": "Shaido hound ki teen lal aankhen achanak avishvas mein upar ki or jhapakti han, aur apne upar aane wali bhari samprabhu tarang dairdhya ko mahsoos karti han."
     },
     {
       "id": "p27",
       "shot": "colossal collision impact",
       "setting": "central courtyard",
-      "characters": ["hajun", "shadow_hound"],
+      "characters": [
+        "hajun",
+        "shadow_hound"
+      ],
       "action": "Mid-air collision: Ha-Jun's demonic gauntlet slams directly into the hound's descending paw, stopping the 15-foot beast cold in its tracks.",
       "mood": "earth-shattering clash",
-      "sfx": "KRAAAA-DOOOOMM!!"
+      "sfx": "KRAAAA-DOOOOMM!!",
+      "prose_en": "Mid-air collision: Ha-Jun's demonic gauntlet slams directly into the hound's descending paw, stopping the 15-foot beast cold in its tracks.",
+      "prose_hi": "Madhya hawa mein takkar: ha-jun ka rakshasi hathiyar sidhe shikari kutte ke utarte panje se takrata hai, jisse 15 foot ka janwar thithurkar wahin ruk jata hai."
     },
     {
       "id": "p28",
@@ -280,29 +471,56 @@
       "characters": [],
       "action": "A 10-meter shockwave crater erupts across the brick plaza; flying debris forms a protective dome curving over Min-Jae.",
       "mood": "heroic protection",
-      "sfx": "WHUUUUMM!!"
+      "sfx": "WHUUUUMM!!",
+      "prose_en": "A 10-meter shockwave crater erupts across the brick plaza; flying debris forms a protective dome curving over Min-Jae.",
+      "prose_hi": "Int plaza ke paar 10 meter ka shockwev crator foot pada; udta hua malba min-je ke upar ek surakshatmak gumbad banata hai."
     },
     {
       "id": "p29",
       "shot": "min-jae bewildered awe from ground",
       "setting": "central courtyard",
-      "characters": ["min_jae"],
+      "characters": [
+        "min_jae"
+      ],
       "action": "Min-Jae stares up from the ground in stunned awe at the back of the student who just saved his life.",
       "mood": "stunned revelation",
       "dialogue": [
-        {"type": "thought", "speaker": "min_jae", "text": "H-Ha-Jun...?! Yeh tum ho?!", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "min_jae",
+          "text": "H-Ha-Jun...?! Yeh tum ho?!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Min-Jae stares up from the ground in stunned awe at the back of the student who just saved his life.",
+      "prose_hi": "Min-je stabdh vismay se jameen se upar us chhatra ki or dekhta hai jisne abhi-abhi uski jaan bachai hai."
     },
     {
       "id": "p30",
       "shot": "epic guardian stance cliffhanger",
       "setting": "central courtyard",
-      "characters": ["hajun", "shadow_hound"],
+      "characters": [
+        "hajun",
+        "shadow_hound"
+      ],
       "action": "Epic standoff cliffhanger: Ha-Jun stands tall over Min-Jae, his crystalline purple gauntlet flaring with violet lightning as he glares down the snarling 15-foot beast: 'Mere dost ko chhoona bhi mat.'",
       "mood": "godly protector, ultimate cliffhanger",
       "dialogue": [
-        {"type": "speech", "speaker": "hajun", "text": "Mere dost se door raho.", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Mere dost se door raho.",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "Epic standoff cliffhanger: Ha-Jun stands tall over Min-Jae, his crystalline purple gauntlet flaring with violet lightning as he glares down the snarling 15-foot beast: 'Mere dost ko chhoona bhi mat.'.",
+      "prose_hi": "Mahakavya gatirodh clifahenger: ha-jun min-je ke upar lamba khada hai, uska crystaliy baingani gauntlet baingani bijli ke saath chamak raha hai kyonki wah 15 foot ke janwar ko ghurte hue dekhta hai: 'mere dost ko chhuna bhi mat.'"
     }
   ]
 }

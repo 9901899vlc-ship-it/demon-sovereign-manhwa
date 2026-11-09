@@ -15,7 +15,9 @@
       ],
       "action": "The thousand-mile eye overhead pulses, raining corrosive violet meteors across the clouds above Seoul.",
       "mood": "cosmic bombardment",
-      "sfx": "METEOR ROAR!!"
+      "sfx": "METEOR ROAR!!",
+      "prose_en": "The thousand-mile eye overhead pulses, raining corrosive violet meteors across the clouds above Seoul.",
+      "prose_hi": "Seoul ke upar baadalon mein hajaron meal ki aankh ke upar ki or spandan, sanksharak baingani ulkaon ki barish."
     },
     {
       "id": "p02",
@@ -26,7 +28,9 @@
       ],
       "action": "Ha-Jun slams the Hourglass into the concrete pillar; a golden web of temporal wards spreads across all of Seoul.",
       "mood": "citywide temporal anchor",
-      "sfx": "PULSE-WEB!!"
+      "sfx": "PULSE-WEB!!",
+      "prose_en": "Ha-Jun slams the Hourglass into the concrete pillar; a golden web of temporal wards spreads across all of Seoul.",
+      "prose_hi": "Ha-jun ne ovarglas ko concrete ke khambhe par patak diya; asthayi wardon ka ek sunhara jaal poore seoul mein faila hua hai."
     },
     {
       "id": "p03",
@@ -46,7 +50,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Thousands of burning meteors slow to a dead halt three miles above the rooftops, frozen in suspended animation.",
+      "prose_hi": "Chton se teen meal upar hajaron jalti hui ulkaen dhimi gati se ruk gain, nilambit animation mein jame hue."
     },
     {
       "id": "p04",
@@ -65,7 +71,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun whistles: 'Anchoring an entire metropolitan area in a five-second time-dilation loop? You're insane, Ha-Jun.'.",
+      "prose_hi": "Taaye-jun ct bajate han: 'panch second ke samay-vistar loop mein poore mahanagariy kshetra ki ankaring? tum pagal ho, ha-jun.'"
     },
     {
       "id": "p05",
@@ -88,7 +96,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro warns: 'Maintaining this field costs 2% of your mana per minute. We must strike the Primordial Core directly!'.",
+      "prose_hi": "Kuro ne chetavani di: 'is kshetra ko banae rakhne mein prati minute aapke man ka 2% kharch hota hai. hamen sidhe primerdial core par hamla karna chahiye!'"
     },
     {
       "id": "p06",
@@ -108,7 +118,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "A Section 9 stealth gunship lands on the intact section of Mapo Bridge; Min-Jae and Baek leap out with anti-matter launchers.",
+      "prose_hi": "Ek dhara 9 stealth gunship mepo bridge ke akshunn khand par utarti hai; min-je aur bake anti-mater launcher ke saath bahar nikalte han."
     },
     {
       "id": "p07",
@@ -128,7 +140,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Holographic feeds show fighter squadrons from 40 nations, hunter guilds, and demon battalions holding formation.",
+      "prose_hi": "Holographik feeds mein 40 deshon ke ladaku squadranon, shikari sanghon aur danav battalionon ko gathan karte hue dikhaya gaya hai."
     },
     {
       "id": "p08",
@@ -150,7 +164,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Through the Crown's telepathic frequency, Ha-Jun's voice echoes into eight billion human minds simultaneously.",
+      "prose_hi": "Crown ki telepathic aavritti ke madhyam se, ha-jun ki awaaz ek saath aath arab manav dimaagon mein gunjati hai."
     },
     {
       "id": "p09",
@@ -159,7 +175,9 @@
       "characters": [],
       "action": "Citizens in Tokyo, New York, London, and Mumbai look up at the frozen sky, tears of hope wiping away their terror.",
       "mood": "global hope restored",
-      "sfx": "HOPEFUL FACES..."
+      "sfx": "HOPEFUL FACES...",
+      "prose_en": "Citizens in Tokyo, New York, London, and Mumbai look up at the frozen sky, tears of hope wiping away their terror.",
+      "prose_hi": "Toco, newyork, london aur mumbai mein nagrik jame hue aakash ki or dekh rahe han, aasha ke aansu unke aatank ko mita rahe han."
     },
     {
       "id": "p10",
@@ -180,7 +198,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun: 'Hold your positions. Protect the innocent. Tae-Jun, Kuro, and I will pierce the Core.'.",
+      "prose_hi": "Ha-jun: 'apni sthiti banae rakhen. nirdosh ki raksha karo. taaye-jun, kuro, aur main core ko chhed denge.'"
     },
     {
       "id": "p11",
@@ -192,7 +212,9 @@
       ],
       "action": "The trio stands on the edge of the abyss, wind whipping their clothes, weapons gleaming with divine energy.",
       "mood": "the vanguard ready",
-      "sfx": "WIND-HOWL..."
+      "sfx": "WIND-HOWL...",
+      "prose_en": "The trio stands on the edge of the abyss, wind whipping their clothes, weapons gleaming with divine energy.",
+      "prose_hi": "Teenon rasatal ke kinare par khade han, hawa unke kapdon par chot kar rahi hai, hathiyar divya urja se chamak rahe han."
     },
     {
       "id": "p12",
@@ -203,7 +225,9 @@
       ],
       "action": "Six colossal wings—three of black shadow, three of golden starlight—erupt from Ha-Jun's shoulder blades.",
       "mood": "sixfold wings",
-      "sfx": "FWOOOOSH-WINGS!!"
+      "sfx": "FWOOOOSH-WINGS!!",
+      "prose_en": "Six colossal wings—three of black shadow, three of golden starlight—erupt from Ha-Jun's shoulder blades.",
+      "prose_hi": "Chhah vishal pankh - teen kali chhaya ke, teen sunhare taron ki roshni wale - ha-jun ke kandhe ke blade se futate han."
     },
     {
       "id": "p13",
@@ -212,7 +236,9 @@
       "characters": [],
       "action": "Tae-Jun is encased in magnificent full-plate armor of celestial bronze, wielding a ten-foot claymore.",
       "mood": "the divine guardian",
-      "sfx": "CLANK-ARMOR!!"
+      "sfx": "CLANK-ARMOR!!",
+      "prose_en": "Tae-Jun is encased in magnificent full-plate armor of celestial bronze, wielding a ten-foot claymore.",
+      "prose_hi": "Taaye-jun akashiya kansya ke shandar purn-plate kavach mein ghira hua hai, jisme das foot ka clamor hai."
     },
     {
       "id": "p14",
@@ -223,7 +249,9 @@
       ],
       "action": "Kuro expands into his 200-foot Nether Phoenix form, wreathed in violet hellfire and crimson comets.",
       "mood": "phoenix ascent",
-      "sfx": "ROAR-PHOENIX!!"
+      "sfx": "ROAR-PHOENIX!!",
+      "prose_en": "Kuro expands into his 200-foot Nether Phoenix form, wreathed in violet hellfire and crimson comets.",
+      "prose_hi": "Kuro apne 200 foot ke netherland phoenix roop mein failta hai, jo baingani narkankaal aur lal rang ke dhumketuon se susajjit hai."
     },
     {
       "id": "p15",
@@ -234,7 +262,9 @@
       ],
       "action": "With a triple sonic boom that shakes the continent, the three heroes rocket straight up toward the heavens.",
       "mood": "ascension to godhood",
-      "sfx": "SONIC BOOM-ROAR!!"
+      "sfx": "SONIC BOOM-ROAR!!",
+      "prose_en": "With a triple sonic boom that shakes the continent, the three heroes rocket straight up toward the heavens.",
+      "prose_hi": "Mahadweep ko hilane wale triple sonic boom ke sath, teen nayak sidhe swarg ki or badhte han."
     },
     {
       "id": "p16",
@@ -245,7 +275,9 @@
       ],
       "action": "They punch through the cloud layer into the pitch-black silence of low Earth orbit, the blue curve of Earth below.",
       "mood": "space battlefield",
-      "sfx": "SILENT VACUUM..."
+      "sfx": "SILENT VACUUM...",
+      "prose_en": "They punch through the cloud layer into the pitch-black silence of low Earth orbit, the blue curve of Earth below.",
+      "prose_hi": "Ve badal ki parat ke madhyam se prithvi ki nichli kaksha ki kali-kali khamoshi, neeche prithvi ke neele vakra mein pravesh karte han."
     },
     {
       "id": "p17",
@@ -264,7 +296,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "A horrifying, cosmic entity the size of the Moon—a writhing mass of black tentacles, dead worlds, and burning red eyes.",
+      "prose_hi": "Chandrama ke aakaar ki ek bhayavah, brahmandiya ikai - kale jaalon, mrit duniyaon aur jalti hui lal aankhon ka ek jhurridar samuh."
     },
     {
       "id": "p18",
@@ -273,7 +307,9 @@
       "characters": [],
       "action": "A tentacle wider than a continent sweeps through the vacuum to crush the three warriors into cosmic dust.",
       "mood": "continent-sized strike",
-      "sfx": "SWEEP-DOOM!!"
+      "sfx": "SWEEP-DOOM!!",
+      "prose_en": "A tentacle wider than a continent sweeps through the vacuum to crush the three warriors into cosmic dust.",
+      "prose_hi": "Ek mahadweep se bhi adhik chauda ek tambu teen yoddhaon ko brahmandiya dhul mein kuchalne ke liye nirvaat mein ghumta hai."
     },
     {
       "id": "p19",
@@ -293,7 +329,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun plants himself before the tentacle, deploying a 500-mile wide bronze energy shield: 'NOT ON MY WATCH!!'.",
+      "prose_hi": "Taaye-jun ne 500 meal chaudi kansya urja dhal tainat karte hue, tentekal ke samne khud ko sthapit kiya: 'meri ghadi par nahin!!'."
     },
     {
       "id": "p20",
@@ -302,7 +340,9 @@
       "characters": [],
       "action": "The colossal tentacle shudders and ricochets off the bronze barrier, unable to pierce Tae-Jun's love for his brother.",
       "mood": "indomitable protection",
-      "sfx": "DEFLECTION-SHOCKWAVE!!"
+      "sfx": "DEFLECTION-SHOCKWAVE!!",
+      "prose_en": "The colossal tentacle shudders and ricochets off the bronze barrier, unable to pierce Tae-Jun's love for his brother.",
+      "prose_hi": "Vishal tentekal kampta hai aur kansya badha se takrata hai, apne bhai ke liye taaye-jun ke pyar ko bhedne mein asamarth hai."
     },
     {
       "id": "p21",
@@ -313,7 +353,9 @@
       ],
       "action": "Kuro swoops in, unleashing a million-degree stream of violet starlight that burns the colossal tentacle to grey ash.",
       "mood": "solar incineration",
-      "sfx": "FWOOSH-ASH!!"
+      "sfx": "FWOOSH-ASH!!",
+      "prose_en": "Kuro swoops in, unleashing a million-degree stream of violet starlight that burns the colossal tentacle to grey ash.",
+      "prose_hi": "Kuro jhapatta maarta hai aur baingani taron ki lakhon degree ki dhara chhodta hai jo vishal tentekal ko jalakar bhure raakh mein badal deti hai."
     },
     {
       "id": "p22",
@@ -324,7 +366,9 @@
       ],
       "action": "Ha-Jun streaks through the burning debris, drawing the Sanguine Fang overcharged with all ten Relics.",
       "mood": "spearhead charge",
-      "sfx": "METEOR BLUR!!"
+      "sfx": "METEOR BLUR!!",
+      "prose_en": "Ha-Jun streaks through the burning debris, drawing the Sanguine Fang overcharged with all ten Relics.",
+      "prose_hi": "Ha-jun jalte hue malbe ke beech se gujarta hai aur sabhi das avsheshon se bhare senguin feng ko khinchta hai."
     },
     {
       "id": "p23",
@@ -333,7 +377,9 @@
       "characters": [],
       "action": "The cosmic eye fires a focused gamma-ray beam of pure anti-matter, capable of obliterating a planet.",
       "mood": "planet-killing beam",
-      "sfx": "GAMMA-FLASH!!"
+      "sfx": "GAMMA-FLASH!!",
+      "prose_en": "The cosmic eye fires a focused gamma-ray beam of pure anti-matter, capable of obliterating a planet.",
+      "prose_hi": "Brahmandiy aankh shuddh prati-padarth ki ek kendrit gama-kiran kiran ko prajvalit karti hai, jo kisi grah ko nasht karne mein saksham hai."
     },
     {
       "id": "p24",
@@ -355,7 +401,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun holds the Hourglass before him: 'HOURGLASS: STASIS EVENT HORIZON!!'.",
+      "prose_hi": "Ha-jun apne samne ovarglas rakhta hai: 'ovarglas: stasis event horison!!'."
     },
     {
       "id": "p25",
@@ -366,7 +414,9 @@
       ],
       "action": "The planet-killing beam bends around the Hourglass's gravitational lens, curving harmlessly into empty space.",
       "mood": "gravitational lensing",
-      "sfx": "BEAM CURVE..."
+      "sfx": "BEAM CURVE...",
+      "prose_en": "The planet-killing beam bends around the Hourglass's gravitational lens, curving harmlessly into empty space.",
+      "prose_hi": "Grah-hatya karne wali kiran ovarglas ke gurutvakarshan lens ke charon or jhukti hai, aur khali jagah mein hanirahit roop se ghumti hai."
     },
     {
       "id": "p26",
@@ -388,7 +438,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun floats inches from the colossal iris, his 6-foot frame looking microscopic yet infinitely heavier than the titan.",
+      "prose_hi": "Ha-jun vishal paritarika se inch bhar upar tairta hai, uska 6 foot ka frame sookshm dikhta hai phir bhi titan se aseem roop se bhari hota hai."
     },
     {
       "id": "p27",
@@ -410,7 +462,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun drives the Sanguine Fang straight into the center of the cosmic eye with the force of an exploding star.",
+      "prose_hi": "Ha-jun ek visphotit taare ki shakti ke saath senguin feng ko sidhe brahmandiya aankh ke kendra mein le jata hai."
     },
     {
       "id": "p28",
@@ -419,7 +473,9 @@
       "characters": [],
       "action": "Fractures of pure golden starlight spiderweb across the thousand-mile entity; it thrashes in silent cosmic agony.",
       "mood": "entity cracking",
-      "sfx": "CRACK-SUPERNOVA!!"
+      "sfx": "CRACK-SUPERNOVA!!",
+      "prose_en": "Fractures of pure golden starlight spiderweb across the thousand-mile entity; it thrashes in silent cosmic agony.",
+      "prose_hi": "Hazar meal ki ikai mein shuddh sunhare taron ke prakash wale makdi ke jale ke fractur; yah mook brahmandiya peeda mein chhatpatata hai."
     },
     {
       "id": "p29",
@@ -428,7 +484,9 @@
       "characters": [],
       "action": "The Moon-sized horror begins collapsing inward like a dying star, forming a harmless miniature singularity.",
       "mood": "gravitational collapse",
-      "sfx": "IMPLOSION-VORTEX!!"
+      "sfx": "IMPLOSION-VORTEX!!",
+      "prose_en": "The Moon-sized horror begins collapsing inward like a dying star, forming a harmless miniature singularity.",
+      "prose_hi": "Chandrama ke aakaar ki bhayavahata ek marte hue taare ki tarah andar ki or dhahne lagti hai, jisse ek hanirahit laghu vilakshanta banti hai."
     },
     {
       "id": "p30",
@@ -449,7 +507,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "The singularity snaps shut with a bright sparkle of stardust; the cosmos falls into serene, peaceful silence.",
+      "prose_hi": "Stardst ki chamakdar chamak ke saath vilakshanta band ho jaati hai; brahmand shant, shant maun mein doob jata hai."
     }
   ]
 }

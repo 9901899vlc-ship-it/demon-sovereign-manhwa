@@ -13,7 +13,9 @@
       "characters": [],
       "action": "The iconic neoclassical rooftop terrace of Saint Mirren, where Episode 1 began, illuminated by string lanterns under crystal stars.",
       "mood": "the sacred rooftop",
-      "sfx": "WARM LANTERN GLOW..."
+      "sfx": "WARM LANTERN GLOW...",
+      "prose_en": "The iconic neoclassical rooftop terrace of Saint Mirren, where Episode 1 began, illuminated by string lanterns under crystal stars.",
+      "prose_hi": "Sent miren ki pratishthit neoclassical chhat ki chhat, jahan episode 1 shuru hua, crystal sitaron ke neeche string lalten dwara roshan kiya gaya."
     },
     {
       "id": "p02",
@@ -22,7 +24,9 @@
       "characters": [],
       "action": "A wooden picnic table loaded with steaming tteokbokki, grilled pork belly, fried chicken, and cans of iced soda.",
       "mood": "the farewell feast",
-      "sfx": "STEAM-AROMA..."
+      "sfx": "STEAM-AROMA...",
+      "prose_en": "A wooden picnic table loaded with steaming tteokbokki, grilled pork belly, fried chicken, and cans of iced soda.",
+      "prose_hi": "Ek lakdi ki picnic table jo bhaap se bhari tatokbokki, grilled pork beli, fried chicken aur iced soda ke dibbe se bhari hui hai."
     },
     {
       "id": "p03",
@@ -42,7 +46,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae fills four plastic cups with fizzy cider, laughing: 'The Sovereign demands fried chicken, and Section 9 delivers!'.",
+      "prose_hi": "Min-je ne char plastic kapon ko fizi sider se bhar diya aur hanste hue kaha: 'soweren tale hue chicken ki mang karta hai, aur section 9 delivery karta hai!'"
     },
     {
       "id": "p04",
@@ -62,7 +68,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "General Baek laughs heartily, munching a wrapped lettuce roll: 'Even an army marches on its stomach, boys.'.",
+      "prose_hi": "Janaral bak lipte hue lates roll ko chabate hue dil se hanste han: 'yahan tak ​​ki ek sena bhi apne pet ke bal march karti hai, ladkon.'"
     },
     {
       "id": "p05",
@@ -84,7 +92,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro holds a fried drumstick in his talons, savoring the crispy batter with dignified satisfaction.",
+      "prose_hi": "Kuro ne apne panjon mein ek tali hui drumstick pakad rakhi hai aur garimapurn santushti ke saath kurkure batter ka swad le raha hai."
     },
     {
       "id": "p06",
@@ -107,7 +117,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun and Tae-Jun laugh together, clinking their cups in the crisp evening breeze.",
+      "prose_hi": "Ha-jun aur taaye-jun ek saath hanste han, sham ki thandi hawa mein apne cup khanakate han."
     },
     {
       "id": "p07",
@@ -118,7 +130,9 @@
       ],
       "action": "The laughter subsides into peaceful contentment; wind rustles the maple leaves below the balustrade.",
       "mood": "peaceful lull",
-      "sfx": "BREEZE SIGH..."
+      "sfx": "BREEZE SIGH...",
+      "prose_en": "The laughter subsides into peaceful contentment; wind rustles the maple leaves below the balustrade.",
+      "prose_hi": "Hansi shantipurna santushti mein badal jaati hai; hawa katghare ke neeche maple ki pattiyon ko sarsrahat deti hai."
     },
     {
       "id": "p08",
@@ -140,7 +154,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun sets down his cup, looking at each of their faces with profound love: 'Thank you for coming tonight.'.",
+      "prose_hi": "Ha-jun apna cup neeche rakhta hai, aur unme se pratyek ke chehre ko bade pyar se dekhta hai: 'aaj raat aane ke liye dhanyavad.'"
     },
     {
       "id": "p09",
@@ -160,7 +176,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae adjusts his glasses, his smile softening: 'Ha-Jun... What's on your mind? You look like you're going on a long trip.'.",
+      "prose_hi": "Min-je ne apna chashma theek kiya, uski muskan naram ho gai: 'ha-jun... aapke dimag mein kya hai? aap aise lag rahe hain jaise aap kisi lambi yatra par ja rahe hon.'"
     },
     {
       "id": "p10",
@@ -182,7 +200,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun calmly explains the universal wound, the choice, and his decision to become the Pillar of Creation.",
+      "prose_hi": "Ha-jun shanti se sarvbhaumik ghav, vikalp aur srijan ka stambh banne ke apne nirnay ke baare mein batata hai."
     },
     {
       "id": "p11",
@@ -202,7 +222,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae drops his chopsticks, tears spilling down his cheeks: 'Ascend to godhood?! Does that mean... we won't see you anymore?!'.",
+      "prose_hi": "Min-je ne apni chopstick gira di, uske gaalon par aansu chhalak pade: 'ishwaratv ki or badhen?! kya iska matlab yah hai... hum tumhe ab aur nahin dekhenge?!'."
     },
     {
       "id": "p12",
@@ -224,7 +246,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun grips Min-Jae's trembling hand with warmth: 'No, Min-Jae. I'm not leaving. I'm becoming the roof over your heads.'.",
+      "prose_hi": "Ha-jun ne min-je ke kampate haath ko garmjoshi se pakda: 'nahin, min-je. main vida nahin le raha hun. main tumhare sir par chhat ban raha hun.'"
     },
     {
       "id": "p13",
@@ -244,7 +268,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae wipes his eyes with his sleeve, pulling out a framed photo of their university graduation day.",
+      "prose_hi": "Min-je apni aasteen se apni aankhen ponchta hai, aur apne vishwavidyalaya ke snatak divas ki ek fremayukt tasveer nikalta hai."
     },
     {
       "id": "p14",
@@ -253,7 +279,9 @@
       "characters": [],
       "action": "The four of them in caps and gowns, laughing under pink cherry blossoms with Kuro perched on Ha-Jun's mortarboard.",
       "mood": "the perfect mortal moment",
-      "sfx": "CHERRY BLOSSOM..."
+      "sfx": "CHERRY BLOSSOM...",
+      "prose_en": "The four of them in caps and gowns, laughing under pink cherry blossoms with Kuro perched on Ha-Jun's mortarboard.",
+      "prose_hi": "Ve charon topi aur gown men, ha-jun ke mortarbord par baithe kuro ke saath gulabi cherry blossom ke neeche hans rahe the."
     },
     {
       "id": "p15",
@@ -275,7 +303,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun touches the frame; a tiny spark of starlight preserves the paper so it will never fade across eternity.",
+      "prose_hi": "Ha-jun frame ko chhuta hai; taron ki roshni ki ek chhoti si chingari kagaj ko surakshit rakhti hai taki yah anant kaal tak kabhi feeka na pade."
     },
     {
       "id": "p16",
@@ -295,7 +325,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "General Baek stands at attention, his salute crisp and proud: 'Supreme Sovereign. It has been the honor of my life to serve you.'.",
+      "prose_hi": "General bake savdhan ki mudra mein khade han, unka salaam spasht aur garv se bhara hai: 'sarvocch samprabhu. aapki seva karna mere jeevan ka samman raha hai.'"
     },
     {
       "id": "p17",
@@ -317,7 +349,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun returns the salute with a boyish grin: 'Thank you, General. Keep the peace down here.'.",
+      "prose_hi": "Ha-jun ne balkon jaisi muskan ke saath salami ka jawab diya: 'dhanyavad, janaral. yahan shanti banae rakhen.'"
     },
     {
       "id": "p18",
@@ -339,7 +373,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun pulls Ha-Jun into a tight, warm hug: 'I am coming with you to the Origin Gate, Ha-Jun.'.",
+      "prose_hi": "Taaye-jun ne ha-jun ko kaskar, garmjoshi se gale lagaya: 'main tumhare saath origin gate par aa raha hun, ha-jun.'"
     },
     {
       "id": "p19",
@@ -361,7 +397,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun nods: 'I wouldn't have it any other way, Hyung.'.",
+      "prose_hi": "Ha-jun sir hilata hai: 'main ise kisi anya tarike se nahin chahata, hung.'"
     },
     {
       "id": "p20",
@@ -373,7 +411,9 @@
       ],
       "action": "Kuro's feathers blaze with gentle purple starlight: 'The stars have aligned, Ha-Jun. The Tree awaits.'",
       "mood": "the clarion call",
-      "sfx": "PURR-FLAP..."
+      "sfx": "PURR-FLAP...",
+      "prose_en": "Kuro's feathers blaze with gentle purple starlight: 'The stars have aligned, Ha-Jun. The Tree awaits.'.",
+      "prose_hi": "Kuro ke pankh halke baingani taron ki roshni se chamak rahe han: 'sitare sanrekhit ho gaye han, ha-jun. ped intezaar kar raha hai.'"
     },
     {
       "id": "p21",
@@ -394,7 +434,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "All four companions place their hands one over another in a circle of eternal friendship and brotherhood.",
+      "prose_hi": "Sabhi char saathi shashwat mitrata aur bhaichare ke ghere mein ek dusre ke upar haath rakhte han."
     },
     {
       "id": "p22",
@@ -405,7 +447,9 @@
       ],
       "action": "Ha-Jun looks up; his royal violet eyes reflect the infinite cosmos with fearless love.",
       "mood": "divine peace",
-      "sfx": "STARLIGHT FLARE!!"
+      "sfx": "STARLIGHT FLARE!!",
+      "prose_en": "Ha-Jun looks up; his royal violet eyes reflect the infinite cosmos with fearless love.",
+      "prose_hi": "Ha-jun upar dekhta hai; unki shahi baingani aankhen nidar prem ke saath anant brahmand ko darshati han."
     },
     {
       "id": "p23",
@@ -416,7 +460,9 @@
       ],
       "action": "A gentle, silent cylinder of warm golden light envelops Ha-Jun, Tae-Jun, and Kuro.",
       "mood": "the ascension beam",
-      "sfx": "WARM HUMMM..."
+      "sfx": "WARM HUMMM...",
+      "prose_en": "A gentle, silent cylinder of warm golden light envelops Ha-Jun, Tae-Jun, and Kuro.",
+      "prose_hi": "Garm sunhari roshni ka ek saumya, mook cylinder ha-jun, taaye-jun aur kuro ko dhak leta hai."
     },
     {
       "id": "p24",
@@ -436,7 +482,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae and Baek wave through their tears, smiling with pride: 'See you around, Ha-Jun! Visit us for lunch!'.",
+      "prose_hi": "Min-jaye aur bak apne aansuon se lahrate hue garv se muskurate han: 'fir milte han, ha-jun! dopahar ke bhojan ke liye hamare paas aayen!'"
     },
     {
       "id": "p25",
@@ -458,7 +506,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun rises weightlessly into the golden beam, waving back with a radiant smile: 'I'll bring the soda next time!'.",
+      "prose_hi": "Ha-jun bina bhaar ke sunhari kiran mein uthta hai, aur ek ujjwal muskan ke saath wapas lahrata hai: 'main agli baar soda launga!'."
     },
     {
       "id": "p26",
@@ -469,7 +519,9 @@
       ],
       "action": "Ha-Jun, Tae-Jun, and Kuro ascend through the night clouds, leaving behind a trail of twinkling stardust.",
       "mood": "ascent into the heavens",
-      "sfx": "TRAIL OF STARS..."
+      "sfx": "TRAIL OF STARS...",
+      "prose_en": "Ha-Jun, Tae-Jun, and Kuro ascend through the night clouds, leaving behind a trail of twinkling stardust.",
+      "prose_hi": "Ha-jun, taaye-jun aur kuro raat ke baadalon ke madhyam se upar uthte han, aur apne peeche timtimate taron ki dhul ka nishan chhodte han."
     },
     {
       "id": "p27",
@@ -489,7 +541,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Looking down: the entire city of Seoul glows peacefully, safe and prosperous beneath them.",
+      "prose_hi": "Niche dekhne par: seoul ka pura shahar unke neeche shanti, surakshit aur samriddh chamakta hai."
     },
     {
       "id": "p28",
@@ -498,7 +552,9 @@
       "characters": [],
       "action": "Tae-Jun smiles down at the city: 'It's beautiful because you saved it, Ha-Jun.'",
       "mood": "brotherly pride",
-      "sfx": "GENTLE SMILE..."
+      "sfx": "GENTLE SMILE...",
+      "prose_en": "Tae-Jun smiles down at the city: 'It's beautiful because you saved it, Ha-Jun.'.",
+      "prose_hi": "Taaye-jun shahar ko dekhkar muskurata hai: 'yah sundar hai kyonki aapne ise bachaya hai, ha-jun.'"
     },
     {
       "id": "p29",
@@ -509,7 +565,9 @@
       ],
       "action": "Ahead in the orbit of the Moon, the colossal golden gates of the Tree of Origin swing wide open.",
       "mood": "arrival at the gates of eternity",
-      "sfx": "GATE SWING-GLOW!!"
+      "sfx": "GATE SWING-GLOW!!",
+      "prose_en": "Ahead in the orbit of the Moon, the colossal golden gates of the Tree of Origin swing wide open.",
+      "prose_hi": "Chandrama ki kaksha mein aage, utpatti vriksh ke vishal sunhare dwar khule hue han."
     },
     {
       "id": "p30",
@@ -530,7 +588,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun steps across the threshold into the heart of creation, ready to claim his True Sovereign Form!.",
+      "prose_hi": "Ha-jun apne sacche samprabhu swaroop ka dawa karne ke liye taiyar hokar, dahalij paar karke srishti ke hriday mein kadam rakhta hai!"
     }
   ]
 }

@@ -12,7 +12,9 @@
       "setting": "subway depot",
       "characters": [],
       "action": "Faint moonlight trickles through rusted steel ventilation grates onto abandoned train cars.",
-      "mood": "eerie silence"
+      "mood": "eerie silence",
+      "prose_en": "Faint moonlight trickles through rusted steel ventilation grates onto abandoned train cars.",
+      "prose_hi": "Jung lage steel ventilation jhanjhari se fiki chandni parityakt train karon par tapak rahi hai."
     },
     {
       "id": "p02",
@@ -21,7 +23,9 @@
       "characters": [],
       "action": "Min-Jae opens an emergency medical kit on an overturned wooden crate, hands trembling slightly.",
       "mood": "tense relief",
-      "sfx": "CLACK..."
+      "sfx": "CLACK...",
+      "prose_en": "Min-Jae opens an emergency medical kit on an overturned wooden crate, hands trembling slightly.",
+      "prose_hi": "Min-je ek ulte lakdi ke tokre par ek aapatkalin chikitsa kit kholta hai, haath thoda kamp raha hai."
     },
     {
       "id": "p03",
@@ -42,7 +46,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun rests against the corrugated steel wall of a subway car, his uniform torn and dusted with concrete powder.",
+      "prose_hi": "Ha-jun ek subway car ki nalidar steel ki deewar ke samne aaram kar raha hai, uski vardi fati hui hai aur concrete powder se sunny hui hai."
     },
     {
       "id": "p04",
@@ -61,7 +67,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae tightly wraps sterile gauze around Ha-Jun's scraped knuckles.",
+      "prose_hi": "Min-je ne ha-jun ke chhile hue poron ke charon or banjh dhundh kaskar lapet di."
     },
     {
       "id": "p05",
@@ -82,7 +90,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro folds his obsidian wings on an overhead steel beam, his red eyes piercing the darkness.",
+      "prose_hi": "Kuro apne obsidian pankhon ko ek overhead steel beam par modata hai, uski lal aankhen andhere ko bhedati han."
     },
     {
       "id": "p06",
@@ -93,7 +103,9 @@
       ],
       "action": "Inside Ha-Jun's breast pocket, Kuro's Fallen Feather suddenly ignites with a violent neon-violet pulse.",
       "mood": "startling resonance",
-      "sfx": "THUMP-PULSE!!"
+      "sfx": "THUMP-PULSE!!",
+      "prose_en": "Inside Ha-Jun's breast pocket, Kuro's Fallen Feather suddenly ignites with a violent neon-violet pulse.",
+      "prose_hi": "Ha-jun ki chhati ki jeb ke ander, kuro ka gira hua pankh achanak ek hinsak niyan-bangni naadi ke saath prajvalit ho jata hai."
     },
     {
       "id": "p07",
@@ -114,7 +126,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun winces as a sharp electric jolt travels from the feather straight into his heart ventricles.",
+      "prose_hi": "Ha-jun ki halat tab bigadti hai jab ek tej bijli ka jhatka pankh se sidhe uske hriday ke nilay mein jata hai."
     },
     {
       "id": "p08",
@@ -123,7 +137,9 @@
       "characters": [],
       "action": "The obsidian feather slips out of the blazer pocket, levitating horizontally in midair, pointing dead north.",
       "mood": "supernatural compass",
-      "sfx": "HUMMMMMM..."
+      "sfx": "HUMMMMMM...",
+      "prose_en": "The obsidian feather slips out of the blazer pocket, levitating horizontally in midair, pointing dead north.",
+      "prose_hi": "Obseedian pankh blazer ki jeb se fisal jata hai, madhya hawa mein kshaitij roop se udta hua, mrit uttar ki or ishara karta hai."
     },
     {
       "id": "p09",
@@ -144,7 +160,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro glides down from the girder, feathers bristling with excitement: 'Dusra Relic jaag chuka hai!'.",
+      "prose_hi": "Kuro utsaah se pankh failate hue garder se neeche utarta hai: 'dusra avashesh jaag chuka hai!'."
     },
     {
       "id": "p10",
@@ -163,7 +181,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "A glowing purple-black holographic system window projects into Ha-Jun's retina.",
+      "prose_hi": "Ek chamakti bangni-kali holographic system window ha-jun ki retina mein project karti hai."
     },
     {
       "id": "p11",
@@ -184,7 +204,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's violet pupils narrow as a 59:59 digital countdown begins ticking backward.",
+      "prose_hi": "Ha-jun ki baingani putliyan sankirna ho gai kyonki 59:59 digital ulti ginti peeche ki or tikne lagti hai."
     },
     {
       "id": "p12",
@@ -205,7 +227,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro lands on Ha-Jun's shoulder, whispering into his ear: 'Yeh ring tumhare khoon ko physical weapon banayegi.'.",
+      "prose_hi": "Kuro ha-jun ke kandhe par baithta hai, aur uske kaan mein fusfusata hai: 'ye anguthi tumhare khoon ko sharirik hathiyar banaegi.'"
     },
     {
       "id": "p13",
@@ -224,7 +248,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae unrolls a city metro blueprint across the hood of a toolcart.",
+      "prose_hi": "Min-je ek tolkart ke hud par ek shahar metro blueprint ko kholta hai."
     },
     {
       "id": "p14",
@@ -233,7 +259,9 @@
       "characters": [],
       "action": "High above the subway vent on street level, a sleek black Demon Hunter Bureau surveillance drone hovers silently.",
       "mood": "surveillance threat",
-      "sfx": "WHIRRRR..."
+      "sfx": "WHIRRRR...",
+      "prose_en": "High above the subway vent on street level, a sleek black Demon Hunter Bureau surveillance drone hovers silently.",
+      "prose_hi": "Sadk ke star par subway vent ke upar, ek chikna kala danav hunter bureau nigrani drone chupchap mandarata hai."
     },
     {
       "id": "p15",
@@ -242,7 +270,9 @@
       "characters": [],
       "action": "The drone's infrared scanner flashes crimson, locking onto demonic mana heat rising from below.",
       "mood": "detected",
-      "sfx": "BEEP-LOCK!"
+      "sfx": "BEEP-LOCK!",
+      "prose_en": "The drone's infrared scanner flashes crimson, locking onto demonic mana heat rising from below.",
+      "prose_hi": "Dron ka infrared scanner lal rang ki chamak deta hai, jo neeche se uthne wali rakshasi man ki garmi ko lock kar deta hai."
     },
     {
       "id": "p16",
@@ -263,7 +293,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's eyes flare violet as his heightened sensory field catches the high-frequency motor hum.",
+      "prose_hi": "Ha-jun ki aankhen baingani rang ki chamakti hain kyonki uska badha hua sanvedi kshetra ucch-aavritti motor gadgdahat ko pakadta hai."
     },
     {
       "id": "p17",
@@ -282,7 +314,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae slings his tactical laptop backpack over his shoulders, nodding resolutely.",
+      "prose_hi": "Min-je apne samrik laptop backpack ko apne kandhon par latkate hue dridhta se sir hilate han."
     },
     {
       "id": "p18",
@@ -293,7 +327,9 @@
       ],
       "action": "Ha-Jun kicks off the gravel with superhuman agility, leaping effortlessly atop a train carriage.",
       "mood": "dynamic movement",
-      "sfx": "SWOOSH!!"
+      "sfx": "SWOOSH!!",
+      "prose_en": "Ha-Jun kicks off the gravel with superhuman agility, leaping effortlessly atop a train carriage.",
+      "prose_hi": "Ha-jun alaukik chapalta ke saath railgadi ke dibbe ke upar sahajta se chhalang lagate hue bajri se takrata hai."
     },
     {
       "id": "p19",
@@ -303,7 +339,9 @@
         "hajun"
       ],
       "action": "Wisps of violet energy coil around Ha-Jun's sneakers, suppressing all footstep sound into complete silence.",
-      "mood": "stealth sprint"
+      "mood": "stealth sprint",
+      "prose_en": "Wisps of violet energy coil around Ha-Jun's sneakers, suppressing all footstep sound into complete silence.",
+      "prose_hi": "Ha-jun ke sneakers ke charon or baingani urja ki kiranen ghum rahi han, jo sabhi kadmon ki awaaz ko puri tarah se shant kar deti han."
     },
     {
       "id": "p20",
@@ -314,7 +352,9 @@
       ],
       "action": "Ha-Jun blurs through the pitch-black maintenance tunnel at 60 km/h, rain dripping from overhead pipes.",
       "mood": "high velocity",
-      "sfx": "FWOOSH!"
+      "sfx": "FWOOSH!",
+      "prose_en": "Ha-Jun blurs through the pitch-black maintenance tunnel at 60 km/h, rain dripping from overhead pipes.",
+      "prose_hi": "Ha-jun 60 kimi/ghanta ki raftaar se pich-kali rakhrakhav surang ke madhyam se dhundhla ho jata hai, overhead pipe se baarish tapakti hai."
     },
     {
       "id": "p21",
@@ -335,7 +375,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro darts ahead through the arched brick tunnel, his wings cutting the damp air.",
+      "prose_hi": "Kuro dhanushakar int surang ke madhyam se aage badhta hai, uske pankh nam hawa ko kaatate han."
     },
     {
       "id": "p22",
@@ -343,7 +385,9 @@
       "setting": "tunnel ceiling",
       "characters": [],
       "action": "A heavy circular Victorian steel bulkhead hatch covered in demonic talismans is bolted into the ceiling.",
-      "mood": "ancient barrier"
+      "mood": "ancient barrier",
+      "prose_en": "A heavy circular Victorian steel bulkhead hatch covered in demonic talismans is bolted into the ceiling.",
+      "prose_hi": "Rakshasi tavison se dhaki ek bhari golakar victorian steel balkahed hatch chhat mein lagi hui hai."
     },
     {
       "id": "p23",
@@ -352,7 +396,9 @@
       "characters": [],
       "action": "The parchment talismans on the hatch hiss and curl into yellow embers as Ha-Jun's sovereign mana touches them.",
       "mood": "ward dissolution",
-      "sfx": "SIZZLE..."
+      "sfx": "SIZZLE...",
+      "prose_en": "The parchment talismans on the hatch hiss and curl into yellow embers as Ha-Jun's sovereign mana touches them.",
+      "prose_hi": "Jaise hi ha-jun ka samprabhu man unhen chhuta hai, hatch par maujood charmpatra taveez funfkarte hain aur peele angaron mein badal jaate han."
     },
     {
       "id": "p24",
@@ -374,7 +420,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun grips the rusted cast-iron hatch wheel with both hands, muscles tensing beneath his torn blazer.",
+      "prose_hi": "Ha-jun jung lage kacche lohe ke hatch wheel ko donon hathon se pakadta hai, uske fate blazer ke neeche ki manspeshiyan tan jaati han."
     },
     {
       "id": "p25",
@@ -383,7 +431,9 @@
       "characters": [],
       "action": "With a thunderous screech of shearing metal, the frozen locking pins snap and the circular hatch swings downward.",
       "mood": "destructive strength",
-      "sfx": "CRRRRR-BANG!!"
+      "sfx": "CRRRRR-BANG!!",
+      "prose_en": "With a thunderous screech of shearing metal, the frozen locking pins snap and the circular hatch swings downward.",
+      "prose_hi": "Dhatu ke katarne ki tej awaz ke sath, jame hue locking pin toot jaate hain aur golakar hatch neeche ki or jhool jata hai."
     },
     {
       "id": "p26",
@@ -394,7 +444,9 @@
       ],
       "action": "Centuries of thick dust, cobwebs, and stale air pour down into the tunnel around Ha-Jun's silhouette.",
       "mood": "atmospheric reveal",
-      "sfx": "COUGH..."
+      "sfx": "COUGH...",
+      "prose_en": "Centuries of thick dust, cobwebs, and stale air pour down into the tunnel around Ha-Jun's silhouette.",
+      "prose_hi": "Ha-jun ke chhayachitra ke charon or sadiyon purani moti dhul, makdi ke jale aur basi hawa surang mein girti hai."
     },
     {
       "id": "p27",
@@ -404,7 +456,9 @@
         "hajun"
       ],
       "action": "Ha-Jun hoists himself through the circular aperture into a shadowy, candlelit antique vault.",
-      "mood": "entering mystery"
+      "mood": "entering mystery",
+      "prose_en": "Ha-Jun hoists himself through the circular aperture into a shadowy, candlelit antique vault.",
+      "prose_hi": "Ha-jun golakar chhidra ke madhyam se khud ko ek chhayadar, mombatti ki roshni wali prachin tijori mein fahrata hai."
     },
     {
       "id": "p28",
@@ -412,7 +466,9 @@
       "setting": "vault interior",
       "characters": [],
       "action": "Towering wooden curio cabinets filled with forbidden cursed artifacts, broken demonic masks, and jars of dark ichor.",
-      "mood": "forbidden reliquary"
+      "mood": "forbidden reliquary",
+      "prose_en": "Towering wooden curio cabinets filled with forbidden cursed artifacts, broken demonic masks, and jars of dark ichor.",
+      "prose_hi": "Varjit shapit kalakritiyon, toote hue rakshasi mukhauton aur gahre ichor ke jar se bhari hui unchi lakdi ki curio almariyan."
     },
     {
       "id": "p29",
@@ -421,7 +477,9 @@
       "characters": [],
       "action": "In the dead center of the chamber, an obsidian pedestal radiates a rhythmic, hypnotic crimson heartbeat pulse.",
       "mood": "focal relic presence",
-      "sfx": "THUMP... THUMP..."
+      "sfx": "THUMP... THUMP...",
+      "prose_en": "In the dead center of the chamber, an obsidian pedestal radiates a rhythmic, hypnotic crimson heartbeat pulse.",
+      "prose_hi": "Kaksh ke mrit kendra men, ek obsidian kursi ek laybaddh, sammohak lal dil ki dhadkan naadi ko wikirn karti hai."
     },
     {
       "id": "p30",
@@ -439,7 +497,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Resting on black velvet inside a fractured glass dome: a dark obsidian band inset with a swirling liquid-blood crimson gem.",
+      "prose_hi": "Khandit kaanch ke gumbad ke andar kale makhmal par aaram karte hue: ek ghumta hua taral-rakt lal rang ka ratna ke saath ek gehra obsidian band."
     }
   ]
 }

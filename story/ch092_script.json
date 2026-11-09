@@ -13,7 +13,9 @@
       "characters": [],
       "action": "The grand granite steps of Seoul City Hall are lined with ceremonial honor guards of both human hunters and demon knights.",
       "mood": "ceremonial setting",
-      "sfx": "TRUMPET FANFARE..."
+      "sfx": "TRUMPET FANFARE...",
+      "prose_en": "The grand granite steps of Seoul City Hall are lined with ceremonial honor guards of both human hunters and demon knights.",
+      "prose_hi": "Seoul city hall ki bhavya granite sidhiyan manav shikariyon aur danav shoorveeron donon ke aupcharik samman rakshakon se susajjit han."
     },
     {
       "id": "p02",
@@ -33,7 +35,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Supreme General Baek salutes proudly as Ha-Jun and Tae-Jun walk up the steps side by side.",
+      "prose_hi": "Jab ha-jun aur taaye-jun sath-sath sidhiyan chadhte hain to supreme general bak garv se salami dete han."
     },
     {
       "id": "p03",
@@ -42,7 +46,9 @@
       "characters": [],
       "action": "Five hundred blades and rifles snap upward in rigid, thundering military synchronization.",
       "mood": "rigid honors",
-      "sfx": "SNAP-SWORDS!!"
+      "sfx": "SNAP-SWORDS!!",
+      "prose_en": "Five hundred blades and rifles snap upward in rigid, thundering military synchronization.",
+      "prose_hi": "Panch sau blade aur riflein kathor, gadgdati sainya synchronization mein upar ki or badhti han."
     },
     {
       "id": "p04",
@@ -51,7 +57,9 @@
       "characters": [],
       "action": "A thousand diplomats, presidents, and demonic clan patriarchs rise in silence as the brothers enter the hall.",
       "mood": "world council",
-      "sfx": "HUSH..."
+      "sfx": "HUSH...",
+      "prose_en": "A thousand diplomats, presidents, and demonic clan patriarchs rise in silence as the brothers enter the hall.",
+      "prose_hi": "Jaise hi bhai hall mein pravesh karte han, ek hajar rajnayik, rashtrapati aur rakshasi kul ke mukhiya chupchap khade ho jaate han."
     },
     {
       "id": "p05",
@@ -71,7 +79,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun walks to the central marble podium, unbuckling the heavy bronze sword harness from his chest.",
+      "prose_hi": "Taaye-jun apni chhati se bhari kansya talwar ki rassi ko kholte hue, kendriya sangmarmar manch ki or chalta hai."
     },
     {
       "id": "p06",
@@ -80,7 +90,9 @@
       "characters": [],
       "action": "Tae-Jun lays his iconic bronze blade upon a velvet-lined mahogany table, his hands steady and peaceful.",
       "mood": "laying down arms",
-      "sfx": "CLANG-REST..."
+      "sfx": "CLANG-REST...",
+      "prose_en": "Tae-Jun lays his iconic bronze blade upon a velvet-lined mahogany table, his hands steady and peaceful.",
+      "prose_hi": "Taaye-jun apne pratishthit kansya blade ko makhamli-rekha wali mahogani mej par rakhta hai, uske haath sthir aur shantipurna han."
     },
     {
       "id": "p07",
@@ -99,7 +111,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "The deep scars from Project Chimera biopsies are healed; his fingers rest loosely without trembling.",
+      "prose_hi": "Project chimera biopsy se gahre nishan theek ho gaye han; uski ungaliyan bina compen aaram se aaram karti han."
     },
     {
       "id": "p08",
@@ -121,7 +135,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun looks at Ha-Jun, his voice thick with emotion: 'My duty as your shield is finished, Ha-Jun.'.",
+      "prose_hi": "Taaye-jun ha-jun ki or dekhta hai, uski awaz bhavna se bhari hui hai: 'tumhari dhal ke roop mein mera kartavya samapt ho gaya hai, ha-jun.'"
     },
     {
       "id": "p09",
@@ -143,7 +159,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun grips his brother's hands: 'You will always be my shield, Tae-Jun. Not because of a sword, but because of your heart.'.",
+      "prose_hi": "Ha-jun apne bhai ka haath pakadta hai: 'tum hamesha meri dhal banoge, taaye-jun. talwar ki vajah se nahin, balki apne dil ki vajah se.'"
     },
     {
       "id": "p10",
@@ -152,7 +170,9 @@
       "characters": [],
       "action": "Diplomats, generals, and demon lords applaud with tears in their eyes, celebrating the brothers' eternal love.",
       "mood": "applause thunder",
-      "sfx": "THUNDER-APPLAUSE!!"
+      "sfx": "THUNDER-APPLAUSE!!",
+      "prose_en": "Diplomats, generals, and demon lords applaud with tears in their eyes, celebrating the brothers' eternal love.",
+      "prose_hi": "Rajnayik, senapati aur rakshas shasak bhaiyon ke shashwat prem ka jashn manate hue, aankhon mein aansu bharkar taliyan bajate han."
     },
     {
       "id": "p11",
@@ -172,7 +192,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "General Baek pins the newly forged 'Star of Earth' gold medal onto Tae-Jun's lapel: 'The highest honor of our united world.'.",
+      "prose_hi": "Janaral bake ne naye bane 'star off arth' swarn padak ko taaye-jun ke lapel par pin kiya: 'hamari ekjut duniya ka sarvochch samman.'"
     },
     {
       "id": "p12",
@@ -181,7 +203,9 @@
       "characters": [],
       "action": "Tae-Jun bows gracefully: 'I accept this on behalf of all the children who survived the dark.'",
       "mood": "humble acceptance",
-      "sfx": "BOW..."
+      "sfx": "BOW...",
+      "prose_en": "Tae-Jun bows gracefully: 'I accept this on behalf of all the children who survived the dark.'.",
+      "prose_hi": "Taaye-jun shalinata se jhukte han: 'main un sabhi bachchon ki or se ise sweekar karta hun jo andhere mein bach gaye.'"
     },
     {
       "id": "p13",
@@ -192,7 +216,9 @@
       ],
       "action": "Ha-Jun steps forward to the treaty document, dipping his ceremonial pen in golden ink.",
       "mood": "the sovereign signs",
-      "sfx": "PEN CLINK..."
+      "sfx": "PEN CLINK...",
+      "prose_en": "Ha-Jun steps forward to the treaty document, dipping his ceremonial pen in golden ink.",
+      "prose_hi": "Ha-jun sandhi dastavej ki or aage badhta hai, aur apni aupcharik kalam ko sunhari syahi mein dubata hai."
     },
     {
       "id": "p14",
@@ -203,7 +229,9 @@
       ],
       "action": "With a smooth, elegant stroke, Ha-Jun's name is inscribed into the foundation of global history.",
       "mood": "history written",
-      "sfx": "SCRITCH-SCRATCH..."
+      "sfx": "SCRITCH-SCRATCH...",
+      "prose_en": "With a smooth, elegant stroke, Ha-Jun's name is inscribed into the foundation of global history.",
+      "prose_hi": "Ek sahaj, sundar stroke ke sath, ha-jun ka naam vaishvik itihaas ki neenv mein ankit hai."
     },
     {
       "id": "p15",
@@ -222,7 +250,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "The treaty parchment pulses with golden sovereign mana, locking the planetary wards forever.",
+      "prose_hi": "Sandhi ka charmpatra sunhare samprabhu man ke saath spandit hota hai, jo grahon ke wardon ko hamesha ke liye band kar deta hai."
     },
     {
       "id": "p16",
@@ -233,7 +263,9 @@
       ],
       "action": "Late afternoon: golden autumn leaves drift from oak trees in a peaceful Mapo residential park.",
       "mood": "peaceful autumn park",
-      "sfx": "LEAVES RUSTLE..."
+      "sfx": "LEAVES RUSTLE...",
+      "prose_en": "Late afternoon: golden autumn leaves drift from oak trees in a peaceful Mapo residential park.",
+      "prose_hi": "Der dopahar: ek shantipurna mapo avasiya park mein oak ke pedon se sunhari sharad ritu ki pattiyan bahti han."
     },
     {
       "id": "p17",
@@ -244,7 +276,9 @@
       ],
       "action": "Ha-Jun wears a comfortable grey hoodie and jeans; Tae-Jun wears a black leather jacket and boots.",
       "mood": "normal life returned",
-      "sfx": "FOOTSTEPS..."
+      "sfx": "FOOTSTEPS...",
+      "prose_en": "Ha-Jun wears a comfortable grey hoodie and jeans; Tae-Jun wears a black leather jacket and boots.",
+      "prose_hi": "Ha-jun ek aaramdayak grey hudi aur jeans pahanta hai; taaye-jun kale chamde ki jacket aur jute pahanta hai."
     },
     {
       "id": "p18",
@@ -266,7 +300,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Little Kuro playfully hops along a green park bench, snapping his beak at a swirling red maple leaf.",
+      "prose_hi": "Chhota kuro hare park ki bench par chanchaltapurvak uchhal-kud karta hai aur apni chonch se ghumte hue lal maple ke patte ko dekhta hai."
     },
     {
       "id": "p19",
@@ -289,7 +325,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The brothers laugh in the cool autumn breeze, their faces free of stress and darkness.",
+      "prose_hi": "Bhai sharad ritu ki thandi hawa mein hanste han, unke chehre tanaav aur andhere se mukt hote han."
     },
     {
       "id": "p20",
@@ -311,7 +349,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun stops at an outdoor ice cream stand, handing Ha-Jun a waffle cone with two scoops of chocolate.",
+      "prose_hi": "Taaye-jun ek outdoor icecream stand par rukta hai aur ha-jun ko chocolate ke do scoop ke saath ek wafal kon deta hai."
     },
     {
       "id": "p21",
@@ -333,7 +373,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun takes the cone; a spark of golden starlight flashes in his brain as the sacrificed memory restores itself!.",
+      "prose_hi": "Ha-jun shanku leta hai; jaise hi balidan ki gai smriti punah sthapit hoti hai, uske mastishk mein sunhari taron ki roshni ki ek chingari chamakti hai!"
     },
     {
       "id": "p22",
@@ -355,7 +397,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "In his mind, his mother's smiling face crystallizes in sharp, beautiful 4K clarity: the Hourglass has returned his memories!.",
+      "prose_hi": "Uske dimag men, uski maa ka muskurata hua chehra teevra, sundar 4K spashtata mein cristlikrit ho jata hai: ovarglas ne uski yaadein lauta di han!"
     },
     {
       "id": "p23",
@@ -377,7 +421,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun hugs him sideways, tears running down his cheeks: 'Because love cannot be erased by time, Ha-Jun.'.",
+      "prose_hi": "Taaye-jun ne use bagal mein gale lagaya, uske gaalon par aansu bah rahe the: 'kyonki pyar ko samay se mitaya nahin ja sakta, ha-jun.'"
     },
     {
       "id": "p24",
@@ -389,7 +435,9 @@
       ],
       "action": "Kuro pecks a tiny crumb of waffle: 'Mmm. Sugary. The Sovereign's chef should take notes.'",
       "mood": "lighthearted familiar",
-      "sfx": "PECK..."
+      "sfx": "PECK...",
+      "prose_en": "Kuro pecks a tiny crumb of waffle: 'Mmm. Sugary. The Sovereign's chef should take notes.'.",
+      "prose_hi": "Kuro wafal ke ek chhote tukde ko chonch maarta hai: 'mamm. mitha. samprabhu ke rasoiye ko note lena chahiye.'"
     },
     {
       "id": "p25",
@@ -409,7 +457,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae runs across the grass carrying two graduation gowns: 'Hey! The registrar office called! We passed our exams!'.",
+      "prose_hi": "Min-je do graduation gown lekar ghas par daudati hai: 'are! registrar karyalay ne bulaya! humne apni pariksha uttirn kar li!'"
     },
     {
       "id": "p26",
@@ -431,7 +481,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun laughs out loud: 'Wait, I actually passed without studying?!'.",
+      "prose_hi": "Ha-jun jor se hansta hai: 'ruko, main vaastav mein bina padhe hi paas ho gaya?!'."
     },
     {
       "id": "p27",
@@ -451,7 +503,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae winks: 'Professor Park said saving the campus from a 2-mile dreadnought counts as extra credit!'.",
+      "prose_hi": "Min-je aankh maarte hue kahte han: 'profacer park ne kaha ki parisar ko 2 meal ki bhayavah sthiti se bachana atirikt shrey ke roop mein gina jata hai!'"
     },
     {
       "id": "p28",
@@ -463,7 +517,9 @@
       ],
       "action": "The four companions laugh together under the golden autumn trees, their shadows stretching long and peaceful.",
       "mood": "peaceful youth",
-      "sfx": "GOLDEN SUN..."
+      "sfx": "GOLDEN SUN...",
+      "prose_en": "The four companions laugh together under the golden autumn trees, their shadows stretching long and peaceful.",
+      "prose_hi": "Charon saathi sunhare patjhad ke pedon ke neeche ek saath hanste han, unki chhaya lambi aur shantipurna hoti hai."
     },
     {
       "id": "p29",
@@ -482,7 +538,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "The sun sets behind Bukhansan mountain; Seoul glows with millions of tranquil, peaceful neon lights.",
+      "prose_hi": "Suraj bukanson parvat ke peeche dubta hai; seoul lakhon shantipurna nean roshni se jagmagata hai."
     },
     {
       "id": "p30",
@@ -503,7 +561,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun looks up at the first twinkling evening star, his royal violet eyes filled with serenity and readiness for the future.",
+      "prose_hi": "Ha-jun pehle timtimate sham ke taare ko dekhta hai, uski shahi baingani aankhen shanti aur bhavishya ke liye tatparta se bhari hoti han."
     }
   ]
 }

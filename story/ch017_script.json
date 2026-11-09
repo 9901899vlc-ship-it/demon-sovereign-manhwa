@@ -13,47 +13,81 @@
       "characters": [],
       "action": "Extreme macro on the antique silver Ring of Hollow Blood; its central ruby tear pulses with an internal rhythmic crimson heartbeat glow.",
       "mood": "living parasitic relic",
-      "sfx": "DOKI... DOKI..."
+      "sfx": "DOKI... DOKI...",
+      "prose_en": "Extreme macro on the antique silver Ring of Hollow Blood; its central ruby tear pulses with an internal rhythmic crimson heartbeat glow.",
+      "prose_hi": "Hollow blood ki prachin chandi ki anguthi par atyadhik macro; iska kendriya ruby aansu ek aantarik laybaddh crimson dil ki dhadkan ki chamak ke saath spandit hota hai."
     },
     {
       "id": "p02",
       "shot": "kuro grave warning perched on altar",
       "setting": "trial chamber altar pedestal",
-      "characters": ["kuro"],
+      "characters": [
+        "kuro"
+      ],
       "action": "Kuro perches on the altar rim, voice low: 'Ring of Hollow Blood. Yeh Basic Relic hai, par iski qeemat tazi zindagi ka khoon hai.'",
       "mood": "dangerous relic warning",
       "dialogue": [
-        {"type": "speech", "speaker": "kuro", "text": "Dhyan se. Yeh relic taze khoon ki qeemat mangti hai.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Dhyan se. Yeh relic taze khoon ki qeemat mangti hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Kuro perches on the altar rim, voice low: 'Ring of Hollow Blood. Yeh Basic Relic hai, par iski qeemat tazi zindagi ka khoon hai.'.",
+      "prose_hi": "Kuro vedi ke kinare par baithta hai, awaz dhimi hoti hai: 'khokhle khoon ki anguthi. yeh basic avashesh hai, par iski keemat taji jindagi ka khoon hai.'"
     },
     {
       "id": "p03",
       "shot": "fingertip hovering above silver band",
       "setting": "trial chamber altar pedestal",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun extends his bare left hand, index finger hovering a millimeter above the cold silver band with steady resolve.",
       "mood": "hesitation before contact",
-      "sfx": "HUUU..."
+      "sfx": "HUUU...",
+      "prose_en": "Ha-Jun extends his bare left hand, index finger hovering a millimeter above the cold silver band with steady resolve.",
+      "prose_hi": "Ha-jun ne apna bayan haath badhaya, tarjani sthir sankalp ke saath thande chandi ke band ke upar ek millimeter mandara rahi thi."
     },
     {
       "id": "p04",
       "shot": "micro needle bite impact macro",
       "setting": "trial chamber altar pedestal",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "The instant skin touches silver, multiple razor micro-needles erupt from the inner band, sinking deep into Ha-Jun's ring finger.",
       "mood": "parasitic latch",
-      "sfx": "BITE-SHLK!!"
+      "sfx": "BITE-SHLK!!",
+      "prose_en": "The instant skin touches silver, multiple razor micro-needles erupt from the inner band, sinking deep into Ha-Jun's ring finger.",
+      "prose_hi": "Tatkal tvacha chandi ko chhuti hai, aantarik band se kai razor sookshm suiyan nikalti han, jo ha-jun ki anamika mein gahrai tak doob jaati han."
     },
     {
       "id": "p05",
       "shot": "wincing in sharp pain",
       "setting": "trial chamber altar pedestal",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun winces sharply, teeth bared: 'Agh! Yeh toh ungli ko kaat raha hai!'",
       "mood": "sharp sudden pain",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "Yeh ungli mein ghus raha hai...!", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Yeh ungli mein ghus raha hai...!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun winces sharply, teeth bared: 'Agh! Yeh toh ungli ko kaat raha hai!'.",
+      "prose_hi": "Ha-jun teji se hilta hai, daant bahar nikalta hai: 'aah! yeh to ungli ko kaat raha hai!'."
     },
     {
       "id": "p06",
@@ -62,45 +96,70 @@
       "characters": [],
       "action": "The central ruby drinks a thread of scarlet blood through the silver filigree, glowing with vivid crimson demonic luminescence.",
       "mood": "blood awakening",
-      "sfx": "SHUUUUK..."
+      "sfx": "SHUUUUK...",
+      "prose_en": "The central ruby drinks a thread of scarlet blood through the silver filigree, glowing with vivid crimson demonic luminescence.",
+      "prose_hi": "Kendriy manik chandi ke filagri ke madhyam se lal rakt ke ek dhaage ko peeta hai, jo jwalant lal rang ki rakshasi chamak ke saath chamakta hai."
     },
     {
       "id": "p07",
       "shot": "ring shrinking to fit finger",
       "setting": "trial chamber altar pedestal",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "The silver ring contracts smoothly, resizing itself to fit Ha-Jun's ring finger like an inseparable second skin.",
       "mood": "permanent binding",
-      "sfx": "KLIK-TIGHT!!"
+      "sfx": "KLIK-TIGHT!!",
+      "prose_en": "The silver ring contracts smoothly, resizing itself to fit Ha-Jun's ring finger like an inseparable second skin.",
+      "prose_hi": "Chandi ki anguthi sucharu roop se sikudti hai, ek avibhajya dusri tvacha ki tarah ha-jun ki anamika mein fit hone ke liye khud ka aakaar badalti hai."
     },
     {
       "id": "p08",
       "shot": "vascular scarlet mana shockwave",
       "setting": "trial chamber altar pedestal",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "A visible shockwave of bright scarlet and deep violet mana explodes up Ha-Jun's left arm, illuminating his arteries through his skin.",
       "mood": "vascular mana overload",
-      "sfx": "VZZZZZT!!"
+      "sfx": "VZZZZZT!!",
+      "prose_en": "A visible shockwave of bright scarlet and deep violet mana explodes up Ha-Jun's left arm, illuminating his arteries through his skin.",
+      "prose_hi": "Chamkile lal rang aur gahre baingani man ki ek drishyaman shockwev ha-jun ki bai baanh mein visfot karti hai, jo uski tvacha ke madhyam se uski dhamniyon ko roshan karti hai."
     },
     {
       "id": "p09",
       "shot": "consciousness detachment blur",
       "setting": "inner mindscape transition",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun's eyes glaze over; the physical chamber blurs away as his consciousness is ripped into a metaphysical blood dimension.",
       "mood": "soul projection",
-      "sfx": "WHUUUUM..."
+      "sfx": "WHUUUUM...",
+      "prose_en": "Ha-Jun's eyes glaze over; the physical chamber blurs away as his consciousness is ripped into a metaphysical blood dimension.",
+      "prose_hi": "Ha-jun ki aankhen chamak uthin; jaise hi uski chetna ek aadhyatmik rakt aayam mein vibhajit ho jaati hai, bhautik kaksh dhundhla ho jata hai."
     },
     {
       "id": "p10",
       "shot": "endless crimson sea landscape",
       "setting": "blood sea mindscape",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun stands atop the surface of an endless crimson blood ocean beneath a pitch-black sky without sun or stars.",
       "mood": "surreal metaphysical realm",
       "dialogue": [
-        {"type": "narration", "text": "Rakt-Sagar... Sovereign ke antarman ki gehrai.", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "narration",
+          "text": "Rakt-Sagar... Sovereign ke antarman ki gehrai.",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun stands atop the surface of an endless crimson blood ocean beneath a pitch-black sky without sun or stars.",
+      "prose_hi": "Ha-jun suraj ya sitaron ke bina gahre kale aakash ke neeche ek antaheen lal rang ke rakt mahasagar ki satah par khada hai."
     },
     {
       "id": "p11",
@@ -110,8 +169,17 @@
       "action": "Standing 20 paces away across the blood water is a towering shadow figure clad in full sovereign armor, resembling Ha-Jun's dark twin.",
       "mood": "shadow self",
       "dialogue": [
-        {"type": "narration", "text": "Uske samne khada tha... uska hi andhera roop.", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "narration",
+          "text": "Uske samne khada tha... uska hi andhera roop.",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "Standing 20 paces away across the blood water is a towering shadow figure clad in full sovereign armor, resembling Ha-Jun's dark twin.",
+      "prose_hi": "Khun ke pani ke paar 20 kadam ki doori par khadi ek vishal chhaya aakriti purna samprabhu kavach pahane hue hai, jo ha-jun ke andhere judwan se milti julti hai."
     },
     {
       "id": "p12",
@@ -121,8 +189,18 @@
       "action": "The Shadow speaks with multiple echoing demonic voices: 'Tum ring pehente ho... par kya tum iske malik ho, ya sirf shaitan ka khana?'",
       "mood": "spiritual trial",
       "dialogue": [
-        {"type": "speech", "speaker": null, "text": "Kya tum malik ho... ya sirf ek kamzor shikar?", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": null,
+          "text": "Kya tum malik ho... ya sirf ek kamzor shikar?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "The Shadow speaks with multiple echoing demonic voices: 'Tum ring pehente ho... par kya tum iske malik ho, ya sirf shaitan ka khana?'.",
+      "prose_hi": "Chhaya kai goonjati rakshasi aawajon ke saath bolti hai: 'tum ring pahante ho... par kya tum iske malik ho, ya sirf shaitan ka khana?'."
     },
     {
       "id": "p13",
@@ -131,38 +209,68 @@
       "characters": [],
       "action": "The Shadow raises its hand: The crimson ocean erupts as one thousand razor-sharp blood daggers form and float in the air.",
       "mood": "overwhelming projectile storm",
-      "sfx": "SHHHNNNGG-WHOOSH!!"
+      "sfx": "SHHHNNNGG-WHOOSH!!",
+      "prose_en": "The Shadow raises its hand: The crimson ocean erupts as one thousand razor-sharp blood daggers form and float in the air.",
+      "prose_hi": "Chhaya apna haath uthati hai: gahre lal rang ka sagar foot padta hai aur ek hajar dhardar rakt khanjar hawa mein tairne lagte han."
     },
     {
       "id": "p14",
       "shot": "thousand daggers aimed at throat",
       "setting": "blood sea mindscape",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "All one thousand crimson blades aim their needle tips directly at Ha-Jun's neck, hovering inches away from his skin.",
       "mood": "surrounded by death",
       "dialogue": [
-        {"type": "speech", "speaker": null, "text": "Apna irada saabit karo... warna apne hi khoon mein doob jao.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": null,
+          "text": "Apna irada saabit karo... warna apne hi khoon mein doob jao.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "All one thousand crimson blades aim their needle tips directly at Ha-Jun's neck, hovering inches away from his skin.",
+      "prose_hi": "Sabhi ek hajar lal blade apni sui ki nokon ko sidhe ha-jun ki gardan par nishana sadhte han, jo uski tvacha se kuch inch ki doori par hai."
     },
     {
       "id": "p15",
       "shot": "blazing violet defiance eyes",
       "setting": "blood sea mindscape",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun's violet eyes blaze with fury: 'Main saat saal tak zaleel hua... taaki aaj apne hi dimaag ke andar maar diya jaaun?!'",
       "mood": "unyielding rage",
       "dialogue": [
-        {"type": "shout", "speaker": "hajun", "text": "MAIN KISI KE AAGE NAHI JHUKUNGA!!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "MAIN KISI KE AAGE NAHI JHUKUNGA!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun's violet eyes blaze with fury: 'Main saat saal tak zaleel hua... taaki aaj apne hi dimaag ke andar maar diya jaaun?!'.",
+      "prose_hi": "Ha-jun ki baingani aankhen gusse se chamak uthin: 'main saat saal tak jaleel hua... taki aaj apne hi dimag ke andar maar diya jaun?!'"
     },
     {
       "id": "p16",
       "shot": "sovereign foot stomp command",
       "setting": "blood sea mindscape",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun steps forward and stomps his boot hard onto the surface of the blood sea, releasing a royal purple shockwave.",
       "mood": "monarch asserting authority",
-      "sfx": "BOOOOMMMM!!"
+      "sfx": "BOOOOMMMM!!",
+      "prose_en": "Ha-Jun steps forward and stomps his boot hard onto the surface of the blood sea, releasing a royal purple shockwave.",
+      "prose_hi": "Ha-jun aage badhta hai aur apne jute ko khoon ke samudra ki satah par jor se patakta hai, jisse ek shahi baingani shockwev nikalti hai."
     },
     {
       "id": "p17",
@@ -171,16 +279,22 @@
       "characters": [],
       "action": "The purple shockwave sweeps across the blades; all one thousand blood daggers instantly freeze motionless under Ha-Jun's absolute command.",
       "mood": "seizure of control",
-      "sfx": "HALT-PING!!"
+      "sfx": "HALT-PING!!",
+      "prose_en": "The purple shockwave sweeps across the blades; all one thousand blood daggers instantly freeze motionless under Ha-Jun's absolute command.",
+      "prose_hi": "Bangni shockwev bledon par ghumti hai; ha-jun ke purna aadesh ke tahat sabhi ek hajar rakt khanjar turant gatiheen ho jaate han."
     },
     {
       "id": "p18",
       "shot": "horizontal arm sweep blade reversal",
       "setting": "blood sea mindscape",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun sweeps his right arm horizontally: All one thousand blood blades whip around 180 degrees, pointing directly at the Shadow!",
       "mood": "tables turned",
-      "sfx": "SWIIIISH-CLINK!!"
+      "sfx": "SWIIIISH-CLINK!!",
+      "prose_en": "Ha-Jun sweeps his right arm horizontally: All one thousand blood blades whip around 180 degrees, pointing directly at the Shadow!.",
+      "prose_hi": "Ha-jun apne dahine haath ko kshaitij roop se ghumata hai: sabhi ek hajar rakt blade 180 degree ke aaspaas ghumte han, jo sidhe chhaya ki or ishara karte han!"
     },
     {
       "id": "p19",
@@ -190,26 +304,44 @@
       "action": "The Shadow reflection smiles with dark, ancient royal approval: 'Shabash... yahi hai Sovereign ka saccha ghamand.'",
       "mood": "worthiness proven",
       "dialogue": [
-        {"type": "speech", "speaker": null, "text": "Shabash. Tum wakai is takht ke kaabil ho.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": null,
+          "text": "Shabash. Tum wakai is takht ke kaabil ho.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "The Shadow reflection smiles with dark, ancient royal approval: 'Shabash... yahi hai Sovereign ka saccha ghamand.'.",
+      "prose_hi": "Chhaya pratibimb gahre, prachin shahi anumodan ke saath muskurata hai: 'shabash... yahi hai sovereign ka sachcha ghamand.'"
     },
     {
       "id": "p20",
       "shot": "thousand blades fusing into halberd",
       "setting": "blood sea mindscape",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun clenches his fist: The thousand blades converge in a crimson whirlwind, fusing into a colossal 30-foot Blood Halberd.",
       "mood": "weapon synthesis",
-      "sfx": "WHUUUUM-SNAP!!"
+      "sfx": "WHUUUUM-SNAP!!",
+      "prose_en": "Ha-Jun clenches his fist: The thousand blades converge in a crimson whirlwind, fusing into a colossal 30-foot Blood Halberd.",
+      "prose_hi": "Ha-jun ne apni mutthi band kar li: hajaron blade ek lal rang ke bavandar mein parivartit ho gaye, ek vishal 30-fut rakt helbard mein mil gaye."
     },
     {
       "id": "p21",
       "shot": "halberd thrust piercing shadow chest",
       "setting": "blood sea mindscape",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun thrusts the massive blood halberd straight through the Shadow's armored chest in a blinding explosion of scarlet mist.",
       "mood": "conquering the trial",
-      "sfx": "KRAAAA-SHAAAA!!"
+      "sfx": "KRAAAA-SHAAAA!!",
+      "prose_en": "Ha-Jun thrusts the massive blood halberd straight through the Shadow's armored chest in a blinding explosion of scarlet mist.",
+      "prose_hi": "Ha-jun scarlet dhundh ke ek chakachaundh visfot mein bade paimane par rakt ko sidhe chhaya ki bakhtarband chhati ke madhyam se fenkata hai."
     },
     {
       "id": "p22",
@@ -218,16 +350,22 @@
       "characters": [],
       "action": "The entire blood dimension fractures into a million geometric glass shards, dissolving into brilliant white light.",
       "mood": "trial dissolution",
-      "sfx": "SHATTER..."
+      "sfx": "SHATTER...",
+      "prose_en": "The entire blood dimension fractures into a million geometric glass shards, dissolving into brilliant white light.",
+      "prose_hi": "Sampurn rakt aayam lakhon jyamitiya kaanch ke tukdon mein toot jata hai aur chamakdar safed roshni mein ghul jata hai."
     },
     {
       "id": "p23",
       "shot": "snap back reality panting breath",
       "setting": "trial chamber altar",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Snap back: Ha-Jun blinks back into physical reality, chest heaving and sweat dripping from his chin onto the stone altar.",
       "mood": "return to physical form",
-      "sfx": "GASP... HAAH..."
+      "sfx": "GASP... HAAH...",
+      "prose_en": "Snap back: Ha-Jun blinks back into physical reality, chest heaving and sweat dripping from his chin onto the stone altar.",
+      "prose_hi": "Snap back: ha-jun bhautik vastavikta mein wapas jhapkata hai, uski chhati phool rahi hai aur uski thuddi se patthar ki vedi par pasina tapak raha hai."
     },
     {
       "id": "p24",
@@ -237,28 +375,53 @@
       "action": "A royal amethyst system screen chimes: [BLOOD TRIAL PASSED] | [RELIC 2/10: RING OF HOLLOW BLOOD BOUND] | [SKILL: BLOOD FORGING (RANK E)].",
       "mood": "second relic acquired",
       "dialogue": [
-        {"type": "system", "text": "[TRIAL PASSED] [RELIC 2/10: BOUND] [SKILL: BLOOD FORGING]", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "system",
+          "text": "[TRIAL PASSED] [RELIC 2/10: BOUND] [SKILL: BLOOD FORGING]",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "A royal amethyst system screen chimes: [BLOOD TRIAL PASSED] | [RELIC 2/10: RING OF HOLLOW BLOOD BOUND] | [SKILL: BLOOD FORGING (RANK E)].",
+      "prose_hi": "Ek shahi neelam pranali screen ki jhankar: [rakt parikshan uttirn] | [avshesh 2/10: khokhale rakt se bandhi anguthi] | [kaushal: rakt nirman (rank e)]."
     },
     {
       "id": "p25",
       "shot": "blood forging dagger in hand macro",
       "setting": "trial chamber altar",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun tests his new skill: A droplet of blood from his palm elongates and solidifies into a razor-sharp, crystalline red dagger in his grip.",
       "mood": "solid blood weapon",
-      "sfx": "SHHHNNNGG!!"
+      "sfx": "SHHHNNNGG!!",
+      "prose_en": "Ha-Jun tests his new skill: A droplet of blood from his palm elongates and solidifies into a razor-sharp, crystalline red dagger in his grip.",
+      "prose_hi": "Ha-jun apne naye kaushal ka parikshan karta hai: uski hatheli se rakt ki ek boond badhti hai aur uski pakad mein ek tej, crystaliy lal khanjar mein jam jaati hai."
     },
     {
       "id": "p26",
       "shot": "kuro ecstatic cackle on altar",
       "setting": "trial chamber altar",
-      "characters": ["kuro"],
+      "characters": [
+        "kuro"
+      ],
       "action": "Kuro flaps his dark wings with delight: 'Khoon se hathiyar banane ki taqat! Yeh blade kabhi kharab nahi hogi!'",
       "mood": "guardian praise",
       "dialogue": [
-        {"type": "speech", "speaker": "kuro", "text": "Kamaal! Khoon se banna hathiyar kabhi nahi tootega!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Kamaal! Khoon se banna hathiyar kabhi nahi tootega!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Kuro flaps his dark wings with delight: 'Khoon se hathiyar banane ki taqat! Yeh blade kabhi kharab nahi hogi!'.",
+      "prose_hi": "Kuro khushi se apne kale pankh fadfadata hai: 'khun se hathiyar banane ki taakat! yeh blade kabhi kharab nahin hogi!'."
     },
     {
       "id": "p27",
@@ -267,7 +430,9 @@
       "characters": [],
       "action": "Suddenly, the 10-ton sealed stone slab at the chamber entrance shakes under heavy concussive strikes from the outside: *THUD!! THUD!!*",
       "mood": "violent breach incoming",
-      "sfx": "THUDDD-THUDDD!!"
+      "sfx": "THUDDD-THUDDD!!",
+      "prose_en": "Suddenly, the 10-ton sealed stone slab at the chamber entrance shakes under heavy concussive strikes from the outside: *THUD!! THUD!!*.",
+      "prose_hi": "Achanak, kaksh ke pravesh dwar par 10 ton ka silband patthar ka slab bahar se aane wale bhari aaghat ke karan hill jata hai: *thood!! gadgdahat!!*."
     },
     {
       "id": "p28",
@@ -276,29 +441,55 @@
       "characters": [],
       "action": "A high-frequency blade of glowing silver mana cuts through the solid 3-foot thick stone slab like a hot knife through butter.",
       "mood": "human hunter weaponry",
-      "sfx": "BZZZZZT-HISS!!"
+      "sfx": "BZZZZZT-HISS!!",
+      "prose_en": "A high-frequency blade of glowing silver mana cuts through the solid 3-foot thick stone slab like a hot knife through butter.",
+      "prose_hi": "Chamkati chandi man ka ek uchch aavritti wala blade thos 3 foot mote patthar ke slab ko makkhan ke madhyam se garm chaku ki tarah kaatata hai."
     },
     {
       "id": "p29",
       "shot": "kuro alarmed defensive stance",
       "setting": "trial chamber altar",
-      "characters": ["kuro"],
+      "characters": [
+        "kuro"
+      ],
       "action": "Kuro's feathers bristle in genuine alarm: 'Silver mana... YEH HUMAN DEMON HUNTER HAI! Wo basement tak pahunch gaye!'",
       "mood": "human hunters arrive",
       "dialogue": [
-        {"type": "speech", "speaker": "kuro", "text": "Silver mana... Demon Hunter aa gaya hai!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Silver mana... Demon Hunter aa gaya hai!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Kuro's feathers bristle in genuine alarm: 'Silver mana... YEH HUMAN DEMON HUNTER HAI! Wo basement tak pahunch gaye!'.",
+      "prose_hi": "Kuro ke pankh vastavik chinta se fadak uthe: 'rajat man... yeh manav danav shikari hai! woh basement tak pahunch gaye!'."
     },
     {
       "id": "p30",
       "shot": "hunter in white coat entrance cliffhanger",
       "setting": "trial chamber stone entrance",
-      "characters": ["hunter_captain"],
+      "characters": [
+        "hunter_captain"
+      ],
       "action": "The stone slab explodes inward; stepping through the dust cloud is an elite Hunter in a white tactical coat wielding twin silver blades: 'Target confirmed. Shaitan ka waris, Kang Ha-Jun.'",
       "mood": "mortal enemy arrives, ultimate cliffhanger",
       "dialogue": [
-        {"type": "speech", "speaker": "hunter_captain", "text": "Target confirmed. Shaitan ka waris, Kang Ha-Jun.", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hunter_captain",
+          "text": "Target confirmed. Shaitan ka waris, Kang Ha-Jun.",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "The stone slab explodes inward; stepping through the dust cloud is an elite Hunter in a white tactical coat wielding twin silver blades: 'Target confirmed. Shaitan ka waris, Kang Ha-Jun.'.",
+      "prose_hi": "Patthar ki patiya andar ki or fat jaati hai; dhul ke badal ke beech se gujarte hue ek vishisht shikari safed samrik coat mein do chandi ke blade lahrate hue aage badh raha hai: 'lakshya ki pushti ho gai hai. shaitan ka varis, kang ha-jun.'"
     }
   ]
 }

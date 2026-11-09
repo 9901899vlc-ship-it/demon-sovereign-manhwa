@@ -13,7 +13,9 @@
       "characters": [],
       "action": "An open-air pavilion of black star-marble overlooking the 300,000 allied demons camped in the valley below.",
       "mood": "allied council",
-      "sfx": "PEACEFUL BREEZE..."
+      "sfx": "PEACEFUL BREEZE...",
+      "prose_en": "An open-air pavilion of black star-marble overlooking the 300,000 allied demons camped in the valley below.",
+      "prose_hi": "Kale taare-sangmarmar ka ek khula mandap neeche ghati mein dera dale hue 300,000 sahyogi rakshason ko dekhta hai."
     },
     {
       "id": "p02",
@@ -33,7 +35,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Malgath sits with his massive chest wrapped in clean white linens, drinking healing elixir with Tae-Jun.",
+      "prose_hi": "Malgath saaf safed linen mein apni vishal chhati ko lapete hue baitha hai, taaye-jun ke saath upchar amrit pee raha hai."
     },
     {
       "id": "p03",
@@ -41,7 +45,9 @@
       "setting": "council table",
       "characters": [],
       "action": "Tae-Jun smiles: 'Human medicine aur demon mana ka combination har wound ko double speed se heal karta hai.'",
-      "mood": "brother as diplomat"
+      "mood": "brother as diplomat",
+      "prose_en": "Tae-Jun smiles: 'Human medicine aur demon mana ka combination har wound ko double speed se heal karta hai.'.",
+      "prose_hi": "Taaye-jun muskurate han: 'manav chikitsa aur danav man ka sanyojan har ghav ko doguni gati se theek karta hai.'"
     },
     {
       "id": "p04",
@@ -51,7 +57,9 @@
         "hajun"
       ],
       "action": "Ha-Jun gazes out across the valley, fingers tracing the runes on the Eclipse Devourer.",
-      "mood": "contemplative king"
+      "mood": "contemplative king",
+      "prose_en": "Ha-Jun gazes out across the valley, fingers tracing the runes on the Eclipse Devourer.",
+      "prose_hi": "Ha-jun ghati ki or dekhta hai, ungaliyan aclips davoorer par runon ka pata lagati han."
     },
     {
       "id": "p05",
@@ -72,7 +80,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro tilts his head: 'Malgath ne apna army surrender kar diya. Lekin Valac aur Lilith abhi bhi hidden hain.'.",
+      "prose_hi": "Kuro ne apna sir jhukaya: 'malgath ne apni sena ka aatmasamarpan kar diya. lekin valack aur lilith abhi bhi chhupe hue han.'"
     },
     {
       "id": "p06",
@@ -92,7 +102,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Malgath speaks with deep gravity: 'Valac aur Lilith ne aakhri Mythic Relic ko seize kar liya hai.'.",
+      "prose_hi": "Malgath gahri gambhirta ke saath bolta hai: 'valack aur lilith ne aakhiri mithik avashesh ko jabt kar liya hai.'"
     },
     {
       "id": "p07",
@@ -113,7 +125,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's eyes narrow: 'The Hourglass of Eternal Abyss... Wahi relic jo time ko manipulate karta hai?'.",
+      "prose_hi": "Ha-jun ki aankhen sikud gain: 'd ovarglas off iternal abis... wahi avashesh jo samay ko herfer karta hai?'."
     },
     {
       "id": "p08",
@@ -134,7 +148,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro's voice trembles for the first time in the saga: 'Us relic ka price terrifying hai, Ha-Jun.'.",
+      "prose_hi": "Gatha mein pehli baar kuro ki awaaz kampati hai: 'us avashesh ka mulya bhayanak hai, ha-jun.'"
     },
     {
       "id": "p09",
@@ -155,7 +171,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's heart chills: 'Memory erasure...?'.",
+      "prose_hi": "Ha-jun ka dil thanda ho gaya: 'smriti mitana...?'."
     },
     {
       "id": "p10",
@@ -174,7 +192,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun grips Ha-Jun firmly: 'Isliye tum use kabhi use nahi karoge, Ha-Jun! Chahe kuch bhi ho jaye!'.",
+      "prose_hi": "Taaye-jun ne ha-jun ko majbuti se pakad liya: 'isliye tum kabhi use nahin karoge, ha-jun! chahe kuch bhi ho jaye!'."
     },
     {
       "id": "p11",
@@ -184,7 +204,9 @@
         "hajun"
       ],
       "action": "Ha-Jun nods softly: 'Main promise karta hoon, Bhai. Main apni memories ko kabhi sacrifice nahi karunga.'",
-      "mood": "sacred promise"
+      "mood": "sacred promise",
+      "prose_en": "Ha-Jun nods softly: 'Main promise karta hoon, Bhai. Main apni memories ko kabhi sacrifice nahi karunga.'.",
+      "prose_hi": "Ha-jun ne dheere se sir hilaya: 'main vaada karta hun, bhai. main apni yaadon ko kabhi balidan nahin dunga.'"
     },
     {
       "id": "p12",
@@ -193,7 +215,9 @@
       "characters": [],
       "action": "Malgath spreads an ancient star map across the stone table: 'The Chamber of Chronos.'",
       "mood": "the target location",
-      "sfx": "UNROLL..."
+      "sfx": "UNROLL...",
+      "prose_en": "Malgath spreads an ancient star map across the stone table: 'The Chamber of Chronos.'.",
+      "prose_hi": "Malgath ne patthar ki mej par ek prachin tara manchitra failaya: 'd chamber off cronos'."
     },
     {
       "id": "p13",
@@ -211,7 +235,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "At the outermost edge of the Demon Realm: a distorted whirlpool labelled 'THE EYE OF CHRONOS - TIME VOID'.",
+      "prose_hi": "Danav kshetra ke sabse bahari kinare par: ek vikrit bhanvar jise 'cronos ki aankh - samay shunya' kaha jata hai."
     },
     {
       "id": "p14",
@@ -230,7 +256,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Malgath explains: 'Valac aur Lilith Hourglass ko use kar ke First Sovereign ke fall se pehle ka time rewind karna chahte hain.'.",
+      "prose_hi": "Malgath batate han: 'valack aur lilith ovarglas ko first sovereign ke fall se pehle ka time rewind karna chahte han.'"
     },
     {
       "id": "p15",
@@ -252,7 +280,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun slams his palm onto the table: 'Hum unhe time rewind karne nahi denge.'.",
+      "prose_hi": "Ha-jun ne apni hatheli mej par patak di: 'ham unhen time rewind nahin karne denge.'"
     },
     {
       "id": "p16",
@@ -263,7 +293,9 @@
       ],
       "action": "Kuro glides into the air: 'The Eye of Chronos 100 miles door hai. Humein abhi nikalna hoga!'",
       "mood": "call to wings",
-      "sfx": "FLAP!!"
+      "sfx": "FLAP!!",
+      "prose_en": "Kuro glides into the air: 'The Eye of Chronos 100 miles door hai. Humein abhi nikalna hoga!'.",
+      "prose_hi": "Kuro hawa mein udta hai: 'd aai off chronos 100 meal door hai. hamen abhi nikalna hoga!'."
     },
     {
       "id": "p17",
@@ -282,7 +314,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Malgath stands: 'Mera 10,000 Flying Wyvern Corps tumhare sath chalega, My Sovereign!'.",
+      "prose_hi": "Malgath ka kehna hai: 'mera 10,000 flying wivern corps tumhare saath chalega, mai soweren!'."
     },
     {
       "id": "p18",
@@ -303,7 +337,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun smiles: 'Thank you, King Malgath. Apne sky division ko deploy karo.'.",
+      "prose_hi": "Ha-jun muskurata hai: 'dhanyavad, raja malgath. apne sky division ko tainat karo.'"
     },
     {
       "id": "p19",
@@ -312,7 +348,9 @@
       "characters": [],
       "action": "Ten thousand massive winged reptilian beasts take flight from the valley, blotting out the twin moons.",
       "mood": "the dragon armada",
-      "sfx": "ROARRR-FLAP!!"
+      "sfx": "ROARRR-FLAP!!",
+      "prose_en": "Ten thousand massive winged reptilian beasts take flight from the valley, blotting out the twin moons.",
+      "prose_hi": "Das hajar vishal pankhon wale sarisrup janwar ghati se udaan bharte han, aur judwan chandramaon ko nasht kar dete han."
     },
     {
       "id": "p20",
@@ -323,7 +361,9 @@
       ],
       "action": "Ha-Jun's wings burst outward, crowned in royal obsidian ruby light.",
       "mood": "wings of the king",
-      "sfx": "FWOOOOSH!!"
+      "sfx": "FWOOOOSH!!",
+      "prose_en": "Ha-Jun's wings burst outward, crowned in royal obsidian ruby light.",
+      "prose_hi": "Ha-jun ke pankh bahar ki or fute, shahi obsidian ruby prakash mein taj pehnaya gaya."
     },
     {
       "id": "p21",
@@ -343,7 +383,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun vaults onto the saddle of an armored black royal wyvern, twin swords ready.",
+      "prose_hi": "Taaye-jun ek bakhtarband kale shahi vayavarn ki kathi par chadhta hai, judwan talwaren taiyar han."
     },
     {
       "id": "p22",
@@ -354,7 +396,9 @@
       ],
       "action": "Ha-Jun rockets into the sky at Mach 1.5, leading the ten-thousand-strong armada toward the edge of time.",
       "mood": "leading the armada",
-      "sfx": "SONIC BOOM!!"
+      "sfx": "SONIC BOOM!!",
+      "prose_en": "Ha-Jun rockets into the sky at Mach 1.5, leading the ten-thousand-strong armada toward the edge of time.",
+      "prose_hi": "Ha-jun ne mac 1.5 par aakash mein rocket daage, jisse das hajar majboot armada samay ke ant ki or badh gaya."
     },
     {
       "id": "p23",
@@ -363,7 +407,9 @@
       "characters": [],
       "action": "The clouds ahead begin moving backward; lightning flashes rewind from the earth into the sky.",
       "mood": "temporal distortions begin",
-      "sfx": "REVERSE WARP..."
+      "sfx": "REVERSE WARP...",
+      "prose_en": "The clouds ahead begin moving backward; lightning flashes rewind from the earth into the sky.",
+      "prose_hi": "Aage ke badal peeche ki or badhne lagte han; bijli ki chamak prithvi se aakash ki or ghumti hai."
     },
     {
       "id": "p24",
@@ -383,7 +429,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Rain droplets stop falling, hovering motionless in the air like suspended crystal marbles.",
+      "prose_hi": "Barish ki bunden girna band kar deti han, nilambit crystal marble ki tarah hawa mein gatiheen ho jaati han."
     },
     {
       "id": "p25",
@@ -392,7 +440,9 @@
       "characters": [],
       "action": "Suspended inside a spinning vortex of clock hands and frozen starlight: The Temple of Chronos.",
       "mood": "temple of chronos",
-      "sfx": "TICK-TOCK..."
+      "sfx": "TICK-TOCK...",
+      "prose_en": "Suspended inside a spinning vortex of clock hands and frozen starlight: The Temple of Chronos.",
+      "prose_hi": "Ghadi ki suiyon aur jami hui taron ki roshni ke ghumte bhanwar ke andar nilambit: chronos ka mandir."
     },
     {
       "id": "p26",
@@ -400,7 +450,9 @@
       "setting": "temple terrace",
       "characters": [],
       "action": "Standing on the crystalline clock terrace: Demon Lord Valac (clothed in living shadows) and Queen Lilith.",
-      "mood": "the remaining conspirators"
+      "mood": "the remaining conspirators",
+      "prose_en": "Standing on the crystalline clock terrace: Demon Lord Valac (clothed in living shadows) and Queen Lilith.",
+      "prose_hi": "Cristliy ghadi ki chhat par khade: danav lord valack (jivit chhaya mein kapde pahane hue) aur rani lilith."
     },
     {
       "id": "p27",
@@ -419,7 +471,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Suspended above a golden pedestal: an ancient 3-foot Hourglass of obsidian and diamond sands flowing upward.",
+      "prose_hi": "Ek sunhare aasan ke upar latka hua: obsidian aur heere ki ret se bana ek prachin 3 foot ka ghantaghar jo upar ki or bah raha hai."
     },
     {
       "id": "p28",
@@ -438,7 +492,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Lord Valac sneers: 'You are too late, boy! The Great Rewind has already begun!'.",
+      "prose_hi": "Lord valack ne vyangya kiya: 'tum bahut der kar chuke ho, ladke! great rewind pehle hi shuru ho chuka hai!'"
     },
     {
       "id": "p29",
@@ -449,7 +505,9 @@
       ],
       "action": "Ha-Jun dives from the sky, dual-wielding the Dark-Matter Greatsword and the Spatial Void Dagger.",
       "mood": "dual blade descent",
-      "sfx": "SHING-SHING!!"
+      "sfx": "SHING-SHING!!",
+      "prose_en": "Ha-Jun dives from the sky, dual-wielding the Dark-Matter Greatsword and the Spatial Void Dagger.",
+      "prose_hi": "Ha-jun aasman se gota lagata hai, dark-mater gratusward aur spateal void dagar ko dohre roop mein istemaal karta hai."
     },
     {
       "id": "p30",
@@ -470,7 +528,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun impacts the clockwork terrace between Valac and Lilith: 'Then I have ten minutes to cut you both in half.'.",
+      "prose_hi": "Ha-jun valack aur lilith ke beech ghadi ki kal ki chhat par prabhav dalta hai: 'tab mere paas aap donon ko aadha karne ke liye das minute han.'"
     }
   ]
 }

@@ -10,30 +10,50 @@
       "id": "p01",
       "shot": "dynamic sprint charge",
       "setting": "university rooftop",
-      "characters": ["imp_demon"],
+      "characters": [
+        "imp_demon"
+      ],
       "action": "The 8-foot tall Lesser Imp launches forward in a ferocious sprint, clawed feet ripping chunks out of the rain-slicked concrete floor.",
       "mood": "ferocious aggression",
-      "sfx": "KRRRSHHH!!"
+      "sfx": "KRRRSHHH!!",
+      "prose_en": "The 8-foot tall Lesser Imp launches forward in a ferocious sprint, clawed feet ripping chunks out of the rain-slicked concrete floor.",
+      "prose_hi": "8 foot lamba lesar imp ek krur sprint mein aage badhta hai, uske panje baarish se gire concrete ke farsh ke tukdon ko chirate hue nikalte han."
     },
     {
       "id": "p02",
       "shot": "lethal scythe cleave close-up",
       "setting": "university rooftop",
-      "characters": ["imp_demon"],
+      "characters": [
+        "imp_demon"
+      ],
       "action": "The beast's massive serrated blade-arm sweeps horizontally downward in a lethal arc aimed directly at Ha-Jun's neck.",
       "mood": "instant mortality",
-      "sfx": "SWOOOSH!!"
+      "sfx": "SWOOOSH!!",
+      "prose_en": "The beast's massive serrated blade-arm sweeps horizontally downward in a lethal arc aimed directly at Ha-Jun's neck.",
+      "prose_hi": "Janvar ki vishal daatedar bled-bangh ek ghatak chaap mein kshaitij roop se neeche ki or ghumti hai jiska lakshya sidhe ha-jun ki gardan par hota hai."
     },
     {
       "id": "p03",
       "shot": "sensory acceleration dodge",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "In hyper-slow motion, Ha-Jun sees the blade coming and throws himself sideways into a desperate evasive dive.",
       "mood": "split-second survival",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "HATO-!!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "HATO-!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "In hyper-slow motion, Ha-Jun sees the blade coming and throws himself sideways into a desperate evasive dive.",
+      "prose_hi": "Ati-dhimi gati men, ha-jun blade ko aate hue dekhta hai aur khud ko bagal mein ek hatash talmatol wale gota mein fenk deta hai."
     },
     {
       "id": "p04",
@@ -42,67 +62,117 @@
       "characters": [],
       "action": "The demon's scythe arm shears cleanly through the thick industrial metal perimeter railing, throwing sparks into the pouring rain.",
       "mood": "terrifying destructive power",
-      "sfx": "CLANG-SHRRK!!"
+      "sfx": "CLANG-SHRRK!!",
+      "prose_en": "The demon's scythe arm shears cleanly through the thick industrial metal perimeter railing, throwing sparks into the pouring rain.",
+      "prose_hi": "Danav ki daraanti bhuja moti audyogik dhatu paridhi railing ke madhyam se safai se kaatati hai, jisse tez baarish mein chingari nikalti hai."
     },
     {
       "id": "p05",
       "shot": "puddle slide recovery",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun skids on his knees through a deep puddle, gasping for air as he stares in horror at the severed steel posts.",
       "mood": "horrified realization",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "Agar wo vaar mujhe lagta... toh meri gardan katt jaati!", "at": [0.52, 0.14]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Agar wo vaar mujhe lagta... toh meri gardan katt jaati!",
+          "at": [
+            0.52,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun skids on his knees through a deep puddle, gasping for air as he stares in horror at the severed steel posts.",
+      "prose_hi": "Ha-jun apne ghutnon ke bal ek gahre pokhar mein fisalta hai, hanefata hai aur kate hue steel ke khambhon ko darawani drishti se dekhta hai."
     },
     {
       "id": "p06",
       "shot": "sinister demon turn",
       "setting": "university rooftop",
-      "characters": ["imp_demon"],
+      "characters": [
+        "imp_demon"
+      ],
       "action": "The Imp whips around with chilling unnatural speed, yellow eyes gleaming with sadistic mockery through the rain.",
       "mood": "mocking predator",
       "dialogue": [
-        {"type": "speech", "speaker": "imp_demon", "text": "KEE-KEEK! EK BHEEGE CHUHE KI TARAH BHAAG RAHE HO?!", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "imp_demon",
+          "text": "KEE-KEEK! EK BHEEGE CHUHE KI TARAH BHAAG RAHE HO?!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "The Imp whips around with chilling unnatural speed, yellow eyes gleaming with sadistic mockery through the rain.",
+      "prose_hi": "Chhota sa bhoot thandi aprakritik gati se idhar-udhar ghumta hai, pili aankhen baarish ke madhyam se parpidk uphaas se chamakti han."
     },
     {
       "id": "p07",
       "shot": "caustic venom volley",
       "setting": "university rooftop",
-      "characters": ["imp_demon"],
+      "characters": [
+        "imp_demon"
+      ],
       "action": "The demon unhinges its jaw and spits a rapid volley of glowing green-black acidic venom globes toward Ha-Jun.",
       "mood": "projectile danger",
-      "sfx": "PTU-PTU-PTU!!"
+      "sfx": "PTU-PTU-PTU!!",
+      "prose_en": "The demon unhinges its jaw and spits a rapid volley of glowing green-black acidic venom globes toward Ha-Jun.",
+      "prose_hi": "Danav apna jabda kholta hai aur ha-jun ki or chamakte hue hare-kale amleey jahar ke gole ki tej bauchhar karta hai."
     },
     {
       "id": "p08",
       "shot": "crystalline gauntlet shield impact",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun instinctively throws his crystalline gauntlet up to shield his face; the venom globes splatter against the obsidian armor and hiss into harmless vapor.",
       "mood": "impenetrable sovereign defense",
-      "sfx": "TZZZZZZ!!"
+      "sfx": "TZZZZZZ!!",
+      "prose_en": "Ha-Jun instinctively throws his crystalline gauntlet up to shield his face; the venom globes splatter against the obsidian armor and hiss into harmless vapor.",
+      "prose_hi": "Ha-jun sahaj roop se apne chehre ko dhalne ke liye apne crystaliy dastaane ko upar fenkata hai; jahar ke gole obsidian kavach par chhitakate hain aur hanirahit vashp mein badal jaate han."
     },
     {
       "id": "p09",
       "shot": "internal mana convulsion",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun's body suddenly convulses with unbearable internal heat; the Sovereign's ancient bloodline rejects human weakness.",
       "mood": "violent internal transformation",
-      "sfx": "VZZZZZT!!"
+      "sfx": "VZZZZZT!!",
+      "prose_en": "Ha-Jun's body suddenly convulses with unbearable internal heat; the Sovereign's ancient bloodline rejects human weakness.",
+      "prose_hi": "Ha-jun ka shareer achanak asahniya aantarik garmi se ainthane lagta hai; samprabhu ki prachin vanshavali manviya kamjori ko aswikar karti hai."
     },
     {
       "id": "p10",
       "shot": "blood coughing pain close-up",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun clutches his collar, coughing violently as glowing violet mana mist leaks between his trembling fingers.",
       "mood": "biological agony",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "K-Khoon mein... ubaal aa raha hai...!!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "K-Khoon mein... ubaal aa raha hai...!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun clutches his collar, coughing violently as glowing violet mana mist leaks between his trembling fingers.",
+      "prose_hi": "Ha-jun apne collar ko pakad leta hai aur jor-jor se khansne lagta hai kyonki uski kampati ungaliyon ke beech chamakti baingani maina dhundh leak ho rahi hai."
     },
     {
       "id": "p11",
@@ -112,59 +182,111 @@
       "action": "Abstract vision: Ancient Demon Sovereign genetic strands forcibly overwriting human DNA, super-charging muscles and bones with dark mana.",
       "mood": "godlike evolution",
       "dialogue": [
-        {"type": "narration", "text": "Insaan ki hadd par... shaitan ka janam ho raha tha.", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "narration",
+          "text": "Insaan ki hadd par... shaitan ka janam ho raha tha.",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "Abstract vision: Ancient Demon Sovereign genetic strands forcibly overwriting human DNA, super-charging muscles and bones with dark mana.",
+      "prose_hi": "Sar drishti: prachin danav samprabhu aanuvanshik kismen manav dna ko jabran adhilekhit karti han, gahre man ke saath manspeshiyon aur haddiyon ko super-charj karti han."
     },
     {
       "id": "p12",
       "shot": "raw scream of rebirth",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun's head arches back as he unleashes a primal scream; an eruption of neon-violet magical fire engulfs his silhouette.",
       "mood": "epic unbridled awakening",
-      "sfx": "ROAAARRRR!!"
+      "sfx": "ROAAARRRR!!",
+      "prose_en": "Ha-Jun's head arches back as he unleashes a primal scream; an eruption of neon-violet magical fire engulfs his silhouette.",
+      "prose_hi": "Ha-jun ka sir peeche ki or jhuk jata hai aur wah ek prarambhik cheekh nikalta hai; niyan-bangni jaadui aag ka visfot uske chhayachitra ko gher leta hai."
     },
     {
       "id": "p13",
       "shot": "glowing demonic eye macro",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Extreme macro: Ha-Jun's eyes flare with brilliant violet rings and sharp vertical black slit pupils, radiating chilling divine pressure.",
       "mood": "sovereign predator",
       "dialogue": [
-        {"type": "narration", "text": "Sovereign ki aankhein khul chuki theen.", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "narration",
+          "text": "Sovereign ki aankhein khul chuki theen.",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "Extreme macro: Ha-Jun's eyes flare with brilliant violet rings and sharp vertical black slit pupils, radiating chilling divine pressure.",
+      "prose_hi": "Charam sthul: ha-jun ki aankhen chamakdar baingani chhallon aur tej udhrvadhar kali slit putliyon se chamakti han, jo daiviy dabav ko wikirn karti han."
     },
     {
       "id": "p14",
       "shot": "demon recoil in terror",
       "setting": "university rooftop",
-      "characters": ["imp_demon"],
+      "characters": [
+        "imp_demon"
+      ],
       "action": "The towering Lesser Imp stumbles backward in sheer horror, wings shivering as ancient ancestral hierarchy crushes its spirit.",
       "mood": "instinctive cowardice",
       "dialogue": [
-        {"type": "thought", "speaker": "imp_demon", "text": "Y-Yeh astitva...?! Yeh sirf ek insaan nahi ho sakta...!", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "imp_demon",
+          "text": "Y-Yeh astitva...?! Yeh sirf ek insaan nahi ho sakta...!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "The towering Lesser Imp stumbles backward in sheer horror, wings shivering as ancient ancestral hierarchy crushes its spirit.",
+      "prose_hi": "Uncha lesar imp atyant bhay ke karan peeche ki or ladkhadata hai, uske pankh kampane lagte hain kyonki prachin patrik padanukram uski aatma ko kuchal deta hai."
     },
     {
       "id": "p15",
       "shot": "sovereign posture shift",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun slowly straightens his spine; all trembling and pain have vanished, replaced by cold, regal, terrifying calm.",
       "mood": "majestic dread",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "Dard... achanak gayab ho gaya?", "at": [0.55, 0.12]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Dard... achanak gayab ho gaya?",
+          "at": [
+            0.55,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun slowly straightens his spine; all trembling and pain have vanished, replaced by cold, regal, terrifying calm.",
+      "prose_hi": "Ha-jun dhire-dhire apni reedh sidhi karta hai; sari kanpkanpi aur dard gayab ho gaye han, unki jagah thandi, rajsi, bhayanak shanti ne le lee hai."
     },
     {
       "id": "p16",
       "shot": "steam breathing close-up",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun exhales a plume of pure white mana steam into the freezing rain; his expression is ice-cold and merciless.",
       "mood": "lethal focus",
-      "sfx": "HUUUU..."
+      "sfx": "HUUUU...",
+      "prose_en": "Ha-Jun exhales a plume of pure white mana steam into the freezing rain; his expression is ice-cold and merciless.",
+      "prose_hi": "Ha-jun thandi baarish mein shuddh safed man bhaap ka ek gubar chhodta hai; uski abhivyakti barf jaisi thandi aur nirdayi hai."
     },
     {
       "id": "p17",
@@ -173,36 +295,60 @@
       "characters": [],
       "action": "Ha-Jun disappears from sight in a sonic flash-step, leaving behind a circular shockwave crater in the wet concrete floor.",
       "mood": "godly speed",
-      "sfx": "BOOOOM-SHIIK!!"
+      "sfx": "BOOOOM-SHIIK!!",
+      "prose_en": "Ha-Jun disappears from sight in a sonic flash-step, leaving behind a circular shockwave crater in the wet concrete floor.",
+      "prose_hi": "Ha-jun ek dhwani flash-step mein drishti se gayab ho jata hai, aur apne peeche gile concrete ke farsh mein ek golakar shockwev crator chhod jata hai."
     },
     {
       "id": "p18",
       "shot": "mid-air apparition above beast",
       "setting": "university rooftop",
-      "characters": ["hajun", "imp_demon"],
+      "characters": [
+        "hajun",
+        "imp_demon"
+      ],
       "action": "Ha-Jun manifests instantaneously 12 feet in the air directly above the Lesser Imp, his right gauntlet cocked back like an anvil.",
       "mood": "aerial execution",
       "dialogue": [
-        {"type": "thought", "speaker": "imp_demon", "text": "KAHAN SE AAYA-?!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "imp_demon",
+          "text": "KAHAN SE AAYA-?!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun manifests instantaneously 12 feet in the air directly above the Lesser Imp, his right gauntlet cocked back like an anvil.",
+      "prose_hi": "Ha-jun sidhe lesar imp ke theek upar hawa mein 12 feet upar prakat hota hai, uska dahina kavach nihaai ki tarah peeche ki or jhuka hua hota hai."
     },
     {
       "id": "p19",
       "shot": "futile defensive block",
       "setting": "university rooftop",
-      "characters": ["imp_demon"],
+      "characters": [
+        "imp_demon"
+      ],
       "action": "The Imp frantically crosses both scythe arms upward to block, its yellow eyes wide in desperate panic.",
       "mood": "hopeless defense",
-      "sfx": "KRR-KRR!!"
+      "sfx": "KRR-KRR!!",
+      "prose_en": "The Imp frantically crosses both scythe arms upward to block, its yellow eyes wide in desperate panic.",
+      "prose_hi": "Chhota sa bhoot rokne ke liye bechain hokar donon daraanti bhujaon ko upar ki or ghumata hai, uski pili aankhen hatash ghabrahat mein chaudi ho jaati han."
     },
     {
       "id": "p20",
       "shot": "gauntlet meteorite smash impact",
       "setting": "university rooftop",
-      "characters": ["hajun", "imp_demon"],
+      "characters": [
+        "hajun",
+        "imp_demon"
+      ],
       "action": "Ha-Jun's crystalline purple gauntlet smashes down through the demon's scythe guard into its skull with blinding violet lightning.",
       "mood": "earth-shattering impact",
-      "sfx": "KRAAAA-BOOOOOMM!!"
+      "sfx": "KRAAAA-BOOOOOMM!!",
+      "prose_en": "Ha-Jun's crystalline purple gauntlet smashes down through the demon's scythe guard into its skull with blinding violet lightning.",
+      "prose_hi": "Ha-jun ka crystaliy baingani gauntlet, andhi baingani bijli ke saath danav ke skith guard ke madhyam se uski khopdi mein dhans jata hai."
     },
     {
       "id": "p21",
@@ -211,34 +357,49 @@
       "characters": [],
       "action": "Massive wide shot: The shockwave obliterates thousands of raindrops in a gigantic radial dome; roof tiles shatter into dust.",
       "mood": "colossal kinetic force",
-      "sfx": "WHUUMMMM!!"
+      "sfx": "WHUUMMMM!!",
+      "prose_en": "Massive wide shot: The shockwave obliterates thousands of raindrops in a gigantic radial dome; roof tiles shatter into dust.",
+      "prose_hi": "Vishal wide shot: shockwev ek vishal radial gumbad mein hajaron baarish ki boondon ko nasht kar deti hai; chhat ki tilein dhul mein bikhar jaati han."
     },
     {
       "id": "p22",
       "shot": "cratered demon body ground-level",
       "setting": "university rooftop",
-      "characters": ["imp_demon"],
+      "characters": [
+        "imp_demon"
+      ],
       "action": "The Lesser Imp is smashed flat into a massive circular crater in the concrete floor, dark demon blood spraying onto the puddles.",
       "mood": "brutal annihilation",
-      "sfx": "CRUNCHH!!"
+      "sfx": "CRUNCHH!!",
+      "prose_en": "The Lesser Imp is smashed flat into a massive circular crater in the concrete floor, dark demon blood spraying onto the puddles.",
+      "prose_hi": "Lacer imp ko concrete ke farsh mein ek vishal golakar gaddhe mein tod diya gaya hai, pokharon par gahre danav rakt ka chhidkav ho raha hai."
     },
     {
       "id": "p23",
       "shot": "demonic mana spike finisher",
       "setting": "university rooftop",
-      "characters": ["hajun", "imp_demon"],
+      "characters": [
+        "hajun",
+        "imp_demon"
+      ],
       "action": "Standing over the demon, Ha-Jun clenches his fist; three radiant violet mana spikes erupt from his knuckles, piercing the demon's heart.",
       "mood": "execution",
-      "sfx": "SHLK-SHLK!!"
+      "sfx": "SHLK-SHLK!!",
+      "prose_en": "Standing over the demon, Ha-Jun clenches his fist; three radiant violet mana spikes erupt from his knuckles, piercing the demon's heart.",
+      "prose_hi": "Danav ke upar khade hokar, ha-jun ne apni mutthi band kar li; uske por se teen chamakdar baingani maina spikes futate han, jo rakshas ke dil ko chhedate han."
     },
     {
       "id": "p24",
       "shot": "ash dissolution of beast",
       "setting": "university rooftop",
-      "characters": ["imp_demon"],
+      "characters": [
+        "imp_demon"
+      ],
       "action": "The demon howls one final screech as its monstrous form disintegrates into glowing purple ash and black smoke.",
       "mood": "cleansing disintegration",
-      "sfx": "SHHHH..."
+      "sfx": "SHHHH...",
+      "prose_en": "The demon howls one final screech as its monstrous form disintegrates into glowing purple ash and black smoke.",
+      "prose_hi": "Danav ek aakhiri cheekh nikalta hai kyonki uska rakshasi roop chamakti baingani raakh aur kale dhuen mein bikhar jata hai."
     },
     {
       "id": "p25",
@@ -247,16 +408,22 @@
       "characters": [],
       "action": "Where the demon's body lay, only a polished diamond-shaped violet demonic core crystal remains, hovering above the rain puddle.",
       "mood": "mystic loot drop",
-      "sfx": "PING..."
+      "sfx": "PING...",
+      "prose_en": "Where the demon's body lay, only a polished diamond-shaped violet demonic core crystal remains, hovering above the rain puddle.",
+      "prose_hi": "Jahan rakshas ka shareer pada tha, vahan keval ek polish heere ke aakaar ka baingani rakshasi core crystal bacha hai, jo baarish ke pokhar ke upar mandra raha hai."
     },
     {
       "id": "p26",
       "shot": "core absorption macro",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "The crystalline gauntlet generates a magnetic suction vortex, absorbing the core crystal into the back of Ha-Jun's hand.",
       "mood": "power ingestion",
-      "sfx": "SHUUUUK!!"
+      "sfx": "SHUUUUK!!",
+      "prose_en": "The crystalline gauntlet generates a magnetic suction vortex, absorbing the core crystal into the back of Ha-Jun's hand.",
+      "prose_hi": "Cristliy gauntlet ek chumbkiya suction bhanwar utpann karta hai, jo ha-jun ke haath ke peeche core crystal ko avshoshit karta hai."
     },
     {
       "id": "p27",
@@ -266,39 +433,76 @@
       "action": "System UI flashes: [TARGET ELIMINATED: LESSER IMP] | [MANA ABSORBED: BLOODLINE SYNCHRONIZATION 2.5%].",
       "mood": "rpg leveling progression",
       "dialogue": [
-        {"type": "system", "text": "[TARGET ELIMINATED] [SYNCHRONIZATION: 2.5%]", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "system",
+          "text": "[TARGET ELIMINATED] [SYNCHRONIZATION: 2.5%]",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "System UI flashes: [TARGET ELIMINATED: LESSER IMP] | [MANA ABSORBED: BLOODLINE SYNCHRONIZATION 2.5%].",
+      "prose_hi": "Sistm ui flash: [lakshya samapt: kam chhota sa hissa] | [man avshoshit: raktarekha tulyakalan 2.5%]."
     },
     {
       "id": "p28",
       "shot": "gauntlet armor deactivation",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "The crystalline armor plates click and dissolve back into Ha-Jun's skin, leaving his normal pale hand without a single scratch.",
       "mood": "return to mundane shell",
-      "sfx": "KLI-KLI... SHHH."
+      "sfx": "KLI-KLI... SHHH.",
+      "prose_en": "The crystalline armor plates click and dissolve back into Ha-Jun's skin, leaving his normal pale hand without a single scratch.",
+      "prose_hi": "Cristliy kavach pleten click karti hain aur ha-jun ki tvacha mein wapas ghul jaati han, jisse uska samanya peela haath ek bhi kharonch ke bina rah jata hai."
     },
     {
       "id": "p29",
       "shot": "exhausted parapet slump",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun slumps back against the concrete parapet, gasping for breath as human fatigue crashes back into his frail body.",
       "mood": "exhaustion after the storm",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "Maine... maine ek monster ko maar daala...?", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Maine... maine ek monster ko maar daala...?",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun slumps back against the concrete parapet, gasping for breath as human fatigue crashes back into his frail body.",
+      "prose_hi": "Ha-jun concrete ke parapet par wapas gir jata hai aur hanfne lagta hai kyonki manav thakan uske kamjor shareer mein wapas aa jaati hai."
     },
     {
       "id": "p30",
       "shot": "telepathic voice cliffhanger",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "A swirling wisp of purple ember hovers near Ha-Jun's ear. An ancient, aristocratic, sardonic voice echoes directly in his mind.",
       "mood": "familiar awakens, ultimate cliffhanger",
       "dialogue": [
-        {"type": "speech", "speaker": "kuro", "text": "KAMAAL KA KHEL THA, MERE BACHE. AB WAQT HAI SACH JAAN NE KA.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "KAMAAL KA KHEL THA, MERE BACHE. AB WAQT HAI SACH JAAN NE KA.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "A swirling wisp of purple ember hovers near Ha-Jun's ear. An ancient, aristocratic, sardonic voice echoes directly in his mind.",
+      "prose_hi": "Ha-jun ke kaan ke paas baingani angaare ka ghumta hua tukda mandra raha hai. ek prachin, kulin, vyangyapurna awaz sidhe uske dimag mein goonjati hai."
     }
   ]
 }

@@ -13,7 +13,9 @@
       "characters": [],
       "action": "Colossal concrete stormwater tunnels stretching into darkness, water rushing beneath rusted cat-walks.",
       "mood": "claustrophobic shelter",
-      "sfx": "WATER RUSHING..."
+      "sfx": "WATER RUSHING...",
+      "prose_en": "Colossal concrete stormwater tunnels stretching into darkness, water rushing beneath rusted cat-walks.",
+      "prose_hi": "Andhere mein faili vishal concrete toofani surangen, jung lage cat-vock ke neeche bahta pani."
     },
     {
       "id": "p02",
@@ -22,7 +24,9 @@
       "characters": [],
       "action": "Min-Jae drops the smoking chassis of a downed Hunter Bureau scout drone onto a metal workstation.",
       "mood": "scraping metal",
-      "sfx": "CLATTER!"
+      "sfx": "CLATTER!",
+      "prose_en": "Min-Jae drops the smoking chassis of a downed Hunter Bureau scout drone onto a metal workstation.",
+      "prose_hi": "Min-je ek giraye gaye hunter bureau scout drone ki smoking chesis ko ek metal workstation par gira deta hai."
     },
     {
       "id": "p03",
@@ -43,7 +47,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun watches calmly, his black jacket dusted with limestone and his eyes glowing dual crimson-violet.",
+      "prose_hi": "Ha-jun shanti se dekhta hai, uski kali jacket chuna patthar se sunny hui hai aur uski aankhen dohri lal-bangni chamak rahi han."
     },
     {
       "id": "p04",
@@ -52,7 +58,9 @@
       "characters": [],
       "action": "Min-Jae plugs a glowing blue fiber-optic interface cable directly into the drone's shattered optical core.",
       "mood": "data connection",
-      "sfx": "BEEP-WHIRRR..."
+      "sfx": "BEEP-WHIRRR...",
+      "prose_en": "Min-Jae plugs a glowing blue fiber-optic interface cable directly into the drone's shattered optical core.",
+      "prose_hi": "Min-je ek chamakti neeli fiber-optic interface cable ko sidhe drone ke toote hue optical core mein plug karta hai."
     },
     {
       "id": "p05",
@@ -73,7 +81,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro looks down with glowing red eyes: 'Insaano ne humare mana ko copy karne ki koshish ki hai.'.",
+      "prose_hi": "Kuro chamakti lal aankhon se neeche dekhta hai: 'insanon ne hamare man ko copy karne ki koshish ki hai.'"
     },
     {
       "id": "p06",
@@ -82,7 +92,9 @@
       "characters": [],
       "action": "Three concentric red digital security locks flash on Min-Jae's display: 'LEVEL-9 BUREAU CIPHER'.",
       "mood": "high-level firewall",
-      "sfx": "BEEP... BEEP..."
+      "sfx": "BEEP... BEEP...",
+      "prose_en": "Three concentric red digital security locks flash on Min-Jae's display: 'LEVEL-9 BUREAU CIPHER'.",
+      "prose_hi": "Min-je ke display par teen sankendrit lal digital suraksha taale chamakte han: 'leval-9 bureau sifar'."
     },
     {
       "id": "p07",
@@ -93,7 +105,9 @@
       ],
       "action": "Ha-Jun touches the bezel of the laptop with his Ring of Hollow Blood; a thin spark of violet mana conducts into the circuitry.",
       "mood": "biometric bypass",
-      "sfx": "ZAP!"
+      "sfx": "ZAP!",
+      "prose_en": "Ha-Jun touches the bezel of the laptop with his Ring of Hollow Blood; a thin spark of violet mana conducts into the circuitry.",
+      "prose_hi": "Ha-jun apni ring off hollow blood se laptop ke bezal ko chhuta hai; baingani man ki ek patli chingari sarkitory mein pravahit hoti hai."
     },
     {
       "id": "p08",
@@ -112,7 +126,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "The red security locks shatter into green cascades of decrypted code: 'ACCESS GRANTED: SECTOR 4 ARCHIVE'.",
+      "prose_hi": "Lal suraksha taale decripted code ke hare jharnon mein bikhar jaate han: 'pahunch di gai: sector 4 puralekh'."
     },
     {
       "id": "p09",
@@ -131,7 +147,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae pushes up his glasses, staring in utter shock: 'Tumhare blood mana ne 256-bit quantum cipher tod diya?!'.",
+      "prose_hi": "Min-je ne apna chashma upar kiya aur ekdum sadme mein ghurte hue kaha: 'tumhare khoon man ne 256-bit quantum sifar tod diya?!'"
     },
     {
       "id": "p10",
@@ -152,7 +170,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun glances at the obsidian ring: 'Yeh ring energy frequencies ko read aur bend karti hai.'.",
+      "prose_hi": "Ha-jun obsidian ring par nazar dalta hai: 'ye ring energy frequancy ko padhta aur modata hai.'"
     },
     {
       "id": "p11",
@@ -161,7 +181,9 @@
       "characters": [],
       "action": "A glowing holographic globe projects into the air, revealing a clandestine global network of hunter bases.",
       "mood": "the syndicate revealed",
-      "sfx": "HUMMM..."
+      "sfx": "HUMMM...",
+      "prose_en": "A glowing holographic globe projects into the air, revealing a clandestine global network of hunter bases.",
+      "prose_hi": "Ek chamakta hua holographic globe hawa mein prakshepit hota hai, jo shikari thikanon ke ek gupt vaishvik network ka khulasa karta hai."
     },
     {
       "id": "p12",
@@ -169,7 +191,9 @@
       "setting": "hologram focus",
       "characters": [],
       "action": "A black shield emblem with two crossed silver blades and a chained demon skull: 'GLOBAL DEMON HUNTER BUREAU'.",
-      "mood": "emblem of the hunt"
+      "mood": "emblem of the hunt",
+      "prose_en": "A black shield emblem with two crossed silver blades and a chained demon skull: 'GLOBAL DEMON HUNTER BUREAU'.",
+      "prose_hi": "Do paar kiye gaye chandi ke blade aur ek janjeer se bandhi danav khopdi ke saath ek kali dhal ka pratik: 'global demon hunter buro'."
     },
     {
       "id": "p13",
@@ -188,7 +212,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Trillions of won funneled from pharmaceutical conglomerates and private defense contractors into black-budget research.",
+      "prose_hi": "Formaceutical samuhon aur niji raksha thekedaron se black-bajat anusandhan mein kharbon dollar kharch kiye gaye."
     },
     {
       "id": "p14",
@@ -196,7 +222,9 @@
       "setting": "hologram focus",
       "characters": [],
       "action": "Detailed blueprints show human soldiers augmented with synthetic demon tendons and mana-infused spinal implants.",
-      "mood": "cyborg hunters"
+      "mood": "cyborg hunters",
+      "prose_en": "Detailed blueprints show human soldiers augmented with synthetic demon tendons and mana-infused spinal implants.",
+      "prose_hi": "Vistrit blueprint mein manav sainikon ko synthetic danav tendon aur mana-infused spinal pratyaropan ke saath sanvardhit dikhaya gaya hai."
     },
     {
       "id": "p15",
@@ -217,7 +245,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro spits a purple ember: 'Disgusting mortals. Humare bache hue corpses ko chop kar ke apne jism mein seal karte hain.'.",
+      "prose_hi": "Kuro ne baingani rang ka angara ugla: 'ghrinit nashwar. hamare bacche hue laashon ko kaat kar apne jism mein seal lagate han.'"
     },
     {
       "id": "p16",
@@ -226,7 +256,9 @@
       "characters": [],
       "action": "A flashing crimson tab labelled 'PROJECT CHIMERA: SPECIMEN LOGS' appears on screen.",
       "mood": "the core secret",
-      "sfx": "CLICK!"
+      "sfx": "CLICK!",
+      "prose_en": "A flashing crimson tab labelled 'PROJECT CHIMERA: SPECIMEN LOGS' appears on screen.",
+      "prose_hi": "'project chimera: specimen logs' label wala ek chamakta hua crimson tab screen par dikhai deta hai."
     },
     {
       "id": "p17",
@@ -234,7 +266,9 @@
       "setting": "laptop screen",
       "characters": [],
       "action": "Dozens of redacted subject folders dating back 20 years, categorized by genetic purity ratings.",
-      "mood": "forbidden archives"
+      "mood": "forbidden archives",
+      "prose_en": "Dozens of redacted subject folders dating back 20 years, categorized by genetic purity ratings.",
+      "prose_hi": "Aanuvanshik shuddhata rating ke aadhar par vargikrit 20 varsh purane darjanon sanshodhit vishay folder."
     },
     {
       "id": "p18",
@@ -244,7 +278,9 @@
         "hajun"
       ],
       "action": "Ha-Jun's breath catches in his throat as a familiar surname flashes in the directory.",
-      "mood": "shock of discovery"
+      "mood": "shock of discovery",
+      "prose_en": "Ha-Jun's breath catches in his throat as a familiar surname flashes in the directory.",
+      "prose_hi": "Nirdeshika mein ek parichit upnaam chamakte hi ha-jun ki saansein atak jaati han."
     },
     {
       "id": "p19",
@@ -263,7 +299,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Folder icon reading: 'SUBJECT #009: KANG TAE-JUN (SECTOR 4 CAPTURE - YEAR 2019)'.",
+      "prose_hi": "Folder icon reding: 'vishay #009: kang taaye-jun (secter 4 capture - varsh 2019)'."
     },
     {
       "id": "p20",
@@ -285,7 +323,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's fingers dig into the plastic casing, cracking the bezel as violent emotion surges.",
+      "prose_hi": "Ha-jun ki ungaliyan plastic ke aavaran mein ghus jaati han, jisse hinsak bhavnaen badhne par bezal toot jata hai."
     },
     {
       "id": "p21",
@@ -304,7 +344,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae steadies Ha-Jun's trembling arm: 'Shaant raho, Ha-Jun! Screen toot jayegi!'.",
+      "prose_hi": "Min-je ne ha-jun ki kampati bhuja ko sthir kiya: 'shant raho, ha-jun! screen toot jaegi!'."
     },
     {
       "id": "p22",
@@ -312,7 +354,9 @@
       "setting": "laptop screen",
       "characters": [],
       "action": "A faded identification photo of 19yo Kang Tae-Jun, with fierce dark eyes and a protective, gentle smile.",
-      "mood": "brother's face"
+      "mood": "brother's face",
+      "prose_en": "A faded identification photo of 19yo Kang Tae-Jun, with fierce dark eyes and a protective, gentle smile.",
+      "prose_hi": "Bhayankar kali aankhon aur ek surakshatmak, saumya muskan ke saath 19 varshiya kang taaye-jun ki ek dhundhli pehchan wali tasweer."
     },
     {
       "id": "p23",
@@ -320,7 +364,9 @@
       "setting": "laptop screen",
       "characters": [],
       "action": "Text document reading: 'Subject demonstrates high affinity for Sovereign Relic Resonance. Relic transfer attempted.'",
-      "mood": "sinister experiment"
+      "mood": "sinister experiment",
+      "prose_en": "Text document reading: 'Subject demonstrates high affinity for Sovereign Relic Resonance. Relic transfer attempted.'.",
+      "prose_hi": "Path dastavej padhna: 'vishay sovereign avashesh anunaad ke liye uchch aakarshan darshata hai. avashesh sthanantaran ka prayas kiya gaya.'"
     },
     {
       "id": "p24",
@@ -329,7 +375,9 @@
       "characters": [],
       "action": "A bold crimson stamp across the bottom of the page: 'STATUS: TRANSFERRED TO SECTION 9 UNDERGROUND FACILITY'.",
       "mood": "alive in section 9",
-      "sfx": "STAMP!"
+      "sfx": "STAMP!",
+      "prose_en": "A bold crimson stamp across the bottom of the page: 'STATUS: TRANSFERRED TO SECTION 9 UNDERGROUND FACILITY'.",
+      "prose_hi": "Prishth ke neeche ek bold crimson stamp: 'sthiti: anubhag 9 bhumigat suvidha mein sthanantrit'."
     },
     {
       "id": "p25",
@@ -350,7 +398,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's eyes burn with dual crimson rings, a single tear cutting through dust on his cheek.",
+      "prose_hi": "Ha-jun ki aankhen dohri lal rang ki chhallon se jal rahi han, ek aansu uske gaal par dhul ko cheer raha hai."
     },
     {
       "id": "p26",
@@ -371,7 +421,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro folds his wings: 'Maine kaha tha na... Tae-Jun ne tumhare liye yeh qurbani di thi.'.",
+      "prose_hi": "Kuro apne pankh mod leta hai: 'maine kaha tha na... taaye-jun ne tumhare liye yeh kurbani di thi...'."
     },
     {
       "id": "p27",
@@ -380,7 +432,9 @@
       "characters": [],
       "action": "The laptop screen flashes violently with red radar pings: 'BREACH DETECTED: 50 METERS'.",
       "mood": "incoming ambush",
-      "sfx": "WEEP-WEEP-WEEP!!"
+      "sfx": "WEEP-WEEP-WEEP!!",
+      "prose_en": "The laptop screen flashes violently with red radar pings: 'BREACH DETECTED: 50 METERS'.",
+      "prose_hi": "Laptop screen lal radar ping ke saath tivrata se chamakti hai: 'ullanghan ka pata chala: 50 meter'."
     },
     {
       "id": "p28",
@@ -399,7 +453,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae gasps: 'Unhone drone ke emergency beacon se humein locate kar liya!'.",
+      "prose_hi": "Min-je haanfte hue kahte han: 'dron ke emergency bikan se humne locate kar liya!'."
     },
     {
       "id": "p29",
@@ -410,7 +466,9 @@
       ],
       "action": "Three infrared red laser sniper dots converge dead-center over the Sovereign Crest on Ha-Jun's chest.",
       "mood": "snipers locked",
-      "sfx": "LOCK!"
+      "sfx": "LOCK!",
+      "prose_en": "Three infrared red laser sniper dots converge dead-center over the Sovereign Crest on Ha-Jun's chest.",
+      "prose_hi": "Teen avarakt lal laser sniper dots ha-jun ki chhati par sovereign crest ke upar mrit-kendra mein ekatrit hote han."
     },
     {
       "id": "p30",
@@ -431,7 +489,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun doesn't flinch; his violet-crimson eyes ignite with lethal intent: 'Bohot accha hua ki woh aa gaye.'.",
+      "prose_hi": "Ha-jun nahin ghabrata; uski bangni-lal aankhen ghatak iraade se chamakti han: 'bahut acha hua ki woh aa gaye.'"
     }
   ]
 }

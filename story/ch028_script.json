@@ -13,7 +13,9 @@
       "characters": [],
       "action": "A colossal crater of jagged white limestone cliffs under heavy storm clouds; rusted cranes loom like skeletons.",
       "mood": "bleak vastness",
-      "sfx": "WIND HOWLING..."
+      "sfx": "WIND HOWLING...",
+      "prose_en": "A colossal crater of jagged white limestone cliffs under heavy storm clouds; rusted cranes loom like skeletons.",
+      "prose_hi": "Bhari toofani baadalon ke neeche dantedar safed chuna patthar ki chattanon ka ek vishal gaddha; jung lagi sarsen kankal ki tarah dikhai deti han."
     },
     {
       "id": "p02",
@@ -21,7 +23,9 @@
       "setting": "quarry perimeter",
       "characters": [],
       "action": "The laundry van halts beside a bent 'DANGER: SINKHOLE COLLAPSE' hazard warning sign.",
-      "mood": "forbidden grounds"
+      "mood": "forbidden grounds",
+      "prose_en": "The laundry van halts beside a bent 'DANGER: SINKHOLE COLLAPSE' hazard warning sign.",
+      "prose_hi": "Kapade dhone ki van ek jhuke hue 'khtare: sinkehol patan' khatre ki chetavani ke sanket ke paas rukti hai."
     },
     {
       "id": "p03",
@@ -32,7 +36,9 @@
       ],
       "action": "Ha-Jun steps onto the chalky limestone mud, wearing a dark hooded windbreaker over his uniform.",
       "mood": "arrival",
-      "sfx": "SQUELCH..."
+      "sfx": "SQUELCH...",
+      "prose_en": "Ha-Jun steps onto the chalky limestone mud, wearing a dark hooded windbreaker over his uniform.",
+      "prose_hi": "Ha-jun apni vardi ke upar gahre rang ka hud wala vindbraker pahankar chakaleti chuna patthar ki mitti par kadam rakhta hai."
     },
     {
       "id": "p04",
@@ -43,7 +49,9 @@
       ],
       "action": "Kuro circles above through the dense limestone mist, scanning the quarry floor.",
       "mood": "aerial scouting",
-      "sfx": "CAW!"
+      "sfx": "CAW!",
+      "prose_en": "Kuro circles above through the dense limestone mist, scanning the quarry floor.",
+      "prose_hi": "Kuro ghane chuna patthar ki dhundh ke madhyam se khadan ke farsh ko scan karte hue upar chakkar lagata hai."
     },
     {
       "id": "p05",
@@ -52,7 +60,9 @@
       "characters": [],
       "action": "In the lowest depression of the quarry, a 50-foot jagged chasm exhales bone-chilling white mist.",
       "mood": "abyssal abyss entrance",
-      "sfx": "HSSSS..."
+      "sfx": "HSSSS...",
+      "prose_en": "In the lowest depression of the quarry, a 50-foot jagged chasm exhales bone-chilling white mist.",
+      "prose_hi": "Khdan ke sabse nichle avsad men, 50 foot ki dantedar khai haddiyon ko kampa dene wali safed dhundh chodti hai."
     },
     {
       "id": "p06",
@@ -71,7 +81,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae hands Ha-Jun a heavy military flare gun and three crimson phosphorus cartridges.",
+      "prose_hi": "Min-je ne ha-jun ko ek bhari sainya flair bandook aur teen lal phosphorus kartoos saunpe."
     },
     {
       "id": "p07",
@@ -92,7 +104,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun pockets the flares and smiles with quiet gratitude: 'Yahan van mein safe rehna.'.",
+      "prose_hi": "Ha-jun ne palkein jhapkain aur shant kritagyata ke saath muskuraya: 'yahan van mein surakshit rahna.'"
     },
     {
       "id": "p08",
@@ -103,7 +117,9 @@
       ],
       "action": "Ha-Jun dives over the precipice into the white mist, using mana to glide along the sheer rock face.",
       "mood": "reckless descent",
-      "sfx": "WHOOSH!!"
+      "sfx": "WHOOSH!!",
+      "prose_en": "Ha-Jun dives over the precipice into the white mist, using mana to glide along the sheer rock face.",
+      "prose_hi": "Ha-jun chattan ke upar se safed dhundh mein gota lagata hai, man ka upyog karte hue vishal chattan par fisalta hai."
     },
     {
       "id": "p09",
@@ -114,7 +130,9 @@
       ],
       "action": "Ha-Jun lands in a three-point stance on cold, petrified white stone tiles 200 feet below ground.",
       "mood": "impact landing",
-      "sfx": "THUD!!"
+      "sfx": "THUD!!",
+      "prose_en": "Ha-Jun lands in a three-point stance on cold, petrified white stone tiles 200 feet below ground.",
+      "prose_hi": "Ha-jun jameen se 200 feet neeche thandi, pathrili safed patthar ki tailon par teen-bindu rukh mein utarta hai."
     },
     {
       "id": "p10",
@@ -122,7 +140,9 @@
       "setting": "ossuary interior",
       "characters": [],
       "action": "Faint cyan phosphorescence emanates from glowing mineral deposits lining the ancient arched limestone vault.",
-      "mood": "eerie crypt"
+      "mood": "eerie crypt",
+      "prose_en": "Faint cyan phosphorescence emanates from glowing mineral deposits lining the ancient arched limestone vault.",
+      "prose_hi": "Prachin dhanushakar chuna patthar ki tijori mein chamakte khanij bhandar se halki siyan fosforsence nikalti hai."
     },
     {
       "id": "p11",
@@ -131,7 +151,9 @@
       "characters": [],
       "action": "The entire floor is paved not with tiles, but with millions of calcified ancient demonic and human bones.",
       "mood": "horrifying scale",
-      "sfx": "CRUNCH..."
+      "sfx": "CRUNCH...",
+      "prose_en": "The entire floor is paved not with tiles, but with millions of calcified ancient demonic and human bones.",
+      "prose_hi": "Pura farsh tiles se nahin, balki lakhon calsified prachin rakshasi aur manav haddiyon se bana hai."
     },
     {
       "id": "p12",
@@ -152,7 +174,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro alights atop the shattered stone head of a four-armed demon deity.",
+      "prose_hi": "Kuro ek char-sashastra rakshas devta ke toote hue patthar ke sir ke upar baithta hai."
     },
     {
       "id": "p13",
@@ -173,7 +197,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun walks between colossal pillars carved directly from fused gigantic spinal columns.",
+      "prose_hi": "Ha-jun sidhe jude hue vishal reedh ki haddi ke stambhon se bane vishal stambhon ke beech chalta hai."
     },
     {
       "id": "p14",
@@ -184,7 +210,9 @@
       ],
       "action": "The obsidian ring turns ice-cold, frosting over with white rime as it detects bone marrow resonance.",
       "mood": "thermal reaction",
-      "sfx": "FREEZE..."
+      "sfx": "FREEZE...",
+      "prose_en": "The obsidian ring turns ice-cold, frosting over with white rime as it detects bone marrow resonance.",
+      "prose_hi": "Asthi majja anunaad ka pata lagane par obsidian ring barf jaisi thandi ho jaati hai, safed chuna se jam jaati hai."
     },
     {
       "id": "p15",
@@ -203,7 +231,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "The Sovereign Interface flashes with sharp bone-white runes.",
+      "prose_hi": "Soweren interface tej haddi-safed runs ke saath chamakta hai."
     },
     {
       "id": "p16",
@@ -213,7 +243,9 @@
         "hajun"
       ],
       "action": "At the apex of a seven-tiered limestone staircase rests a crystalline ossuary altar.",
-      "mood": "altar discovery"
+      "mood": "altar discovery",
+      "prose_en": "At the apex of a seven-tiered limestone staircase rests a crystalline ossuary altar.",
+      "prose_hi": "Saat-stariy chuna patthar ki sidhi ke sheersh par ek crystaliy asthi-kalsh vedi tiki hui hai."
     },
     {
       "id": "p17",
@@ -222,7 +254,9 @@
       "characters": [],
       "action": "Suspended above the altar: an intricate, 14-inch curved ivory bone relic engraved with glowing violet runes.",
       "mood": "the bone of the forgotten",
-      "sfx": "HUMMM..."
+      "sfx": "HUMMM...",
+      "prose_en": "Suspended above the altar: an intricate, 14-inch curved ivory bone relic engraved with glowing violet runes.",
+      "prose_hi": "Vedi ke upar nilambit: ek jatil, 14 inch ki ghumavdar hathi daant ki haddi ka avshesh, jo chamakte baingani rang ke dhaagon se ukera gaya hai."
     },
     {
       "id": "p18",
@@ -232,7 +266,9 @@
         "hajun"
       ],
       "action": "Ha-Jun ascends the final step, reaching his right hand toward the suspended bone artifact.",
-      "mood": "close proximity"
+      "mood": "close proximity",
+      "prose_en": "Ha-Jun ascends the final step, reaching his right hand toward the suspended bone artifact.",
+      "prose_hi": "Ha-jun antim charan par chadhta hai, apne dahine haath ko nilambit haddi ki kalakriti ki or badhata hai."
     },
     {
       "id": "p19",
@@ -241,7 +277,9 @@
       "characters": [],
       "action": "The entire cavern violently shudders; bone pillars rattle as dust cascades from the ceiling.",
       "mood": "seismic awakening",
-      "sfx": "BOOOOOMMM!!"
+      "sfx": "BOOOOOMMM!!",
+      "prose_en": "The entire cavern violently shudders; bone pillars rattle as dust cascades from the ceiling.",
+      "prose_hi": "Puri gufa joron se kamp uthti hai; chhat se dhul ke jharne ke roop mein haddi ke khambhe khadkhadane lagte han."
     },
     {
       "id": "p20",
@@ -250,7 +288,9 @@
       "characters": [],
       "action": "Thousands of calcified bones across the floor begin swirling into a ferocious skeletal cyclone.",
       "mood": "bone storm",
-      "sfx": "SWIRRRRLL!!"
+      "sfx": "SWIRRRRLL!!",
+      "prose_en": "Thousands of calcified bones across the floor begin swirling into a ferocious skeletal cyclone.",
+      "prose_hi": "Farsh par hajaron calsified haddiyan ek krur kankal chakravaat mein ghumne lagti han."
     },
     {
       "id": "p21",
@@ -261,7 +301,9 @@
       ],
       "action": "Ha-Jun leaps backward four meters, landing on guard with hands up as wind lashes his coat.",
       "mood": "defensive readiness",
-      "sfx": "SWOOSH!"
+      "sfx": "SWOOSH!",
+      "prose_en": "Ha-Jun leaps backward four meters, landing on guard with hands up as wind lashes his coat.",
+      "prose_hi": "Ha-jun char meter peeche ki or chhalang lagata hai, jaise hi hawa uske coat par prahar karti hai, wah haath upar karke pehra deta hai."
     },
     {
       "id": "p22",
@@ -282,7 +324,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro takes to the air, wings flaring with violet sparks: 'Guardian jaag chuka hai!'.",
+      "prose_hi": "Kuro hawa mein udta hai, uske pankh baingani rang ki chingari se chamak rahe han: 'garjian jaag chuka hai!'."
     },
     {
       "id": "p23",
@@ -291,7 +335,9 @@
       "characters": [],
       "action": "From the bone cyclone rises a colossal 15-foot Skeletal Centurion clad in ancient oxidized bronze armor.",
       "mood": "titan emergence",
-      "sfx": "CREAK-GROAN!!"
+      "sfx": "CREAK-GROAN!!",
+      "prose_en": "From the bone cyclone rises a colossal 15-foot Skeletal Centurion clad in ancient oxidized bronze armor.",
+      "prose_hi": "Asthi chakravaat se prachin oxikrit kansya kavach mein lipta ek vishal 15 foot ka kankal centurion nikalta hai."
     },
     {
       "id": "p24",
@@ -300,7 +346,9 @@
       "characters": [],
       "action": "Two blazing azure soul-flames ignite inside the Centurion's massive horned skull.",
       "mood": "soul flame ignition",
-      "sfx": "FWOOSH!"
+      "sfx": "FWOOSH!",
+      "prose_en": "Two blazing azure soul-flames ignite inside the Centurion's massive horned skull.",
+      "prose_hi": "Senturian ki vishal seeng wali khopdi ke andar do dhadhakti neela aatma-lapten prajvalit hoti han."
     },
     {
       "id": "p25",
@@ -309,7 +357,9 @@
       "characters": [],
       "action": "With a terrifying scrape, the giant pulls an eight-foot serrated bone broadsword from its own spinal column.",
       "mood": "lethal arming",
-      "sfx": "SHKKKKRR-CLANG!!"
+      "sfx": "SHKKKKRR-CLANG!!",
+      "prose_en": "With a terrifying scrape, the giant pulls an eight-foot serrated bone broadsword from its own spinal column.",
+      "prose_hi": "Ek bhayanak kharonch ke sath, vishal apni hi reedh ki haddi se aath foot ki daatedar haddi wali chaudi talwar ko khinch leta hai."
     },
     {
       "id": "p26",
@@ -328,7 +378,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "A voice like grinding boulders booms through the air, vibrating Ha-Jun's eardrums.",
+      "prose_hi": "Pattharon ko pisne jaisi awaaz hawa mein gunjati hai, ha-jun ke kanon ko kampan karti hai."
     },
     {
       "id": "p27",
@@ -349,7 +401,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun gazes upward at the towering juggernaut, his heart hammering against his ribs.",
+      "prose_hi": "Ha-jun oonche rath ko upar ki or dekhta hai, uska dil uski pasliyon par jor se dhadak raha hai."
     },
     {
       "id": "p28",
@@ -357,7 +411,9 @@
       "setting": "centurion face",
       "characters": [],
       "action": "The Centurion's azure eye-flames flicker as he notices the obsidian Ring of Hollow Blood on Ha-Jun's finger.",
-      "mood": "recognition"
+      "mood": "recognition",
+      "prose_en": "The Centurion's azure eye-flames flicker as he notices the obsidian Ring of Hollow Blood on Ha-Jun's finger.",
+      "prose_hi": "Jab centurion ne ha-jun ki ungli par obsidian ring off hollow blood ko dekha to uski neeli aankhen chamak uthin."
     },
     {
       "id": "p29",
@@ -377,7 +433,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The giant raises his bone broadsword high overhead with both skeletal hands, aura blasting outward.",
+      "prose_hi": "Vishal apne donon kankaliy hathon se apni haddi ki chaudi talwar ko upar ki or uthata hai, uski aabha bahar ki or chamakti hai."
     },
     {
       "id": "p30",
@@ -398,7 +456,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun draws his palm across his ring; The Sanguine Fang crystallizes in blazing crimson: 'Try me.'.",
+      "prose_hi": "Ha-jun apni anguthi par apni hatheli khinchta hai; senguin fang dhadhakte lal rang mein cristlikrit hota hai: 'mujhe azmaen.'"
     }
   ]
 }

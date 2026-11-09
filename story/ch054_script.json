@@ -15,7 +15,9 @@
       ],
       "action": "A ten-mile-wide column of celestial mana roars into the cosmos from Mount Obsidian's peak.",
       "mood": "cosmic coronation",
-      "sfx": "CELESTIAL ROAR!!"
+      "sfx": "CELESTIAL ROAR!!",
+      "prose_en": "A ten-mile-wide column of celestial mana roars into the cosmos from Mount Obsidian's peak.",
+      "prose_hi": "Mount obsidian ki choti se akashiya man ka das meal chauda stambh brahmand mein garjana karta hai."
     },
     {
       "id": "p02",
@@ -26,7 +28,9 @@
       ],
       "action": "Ha-Jun sits on the throne; his irises flood with pure white light as his consciousness is ripped inward.",
       "mood": "mindscape transit",
-      "sfx": "WARP..."
+      "sfx": "WARP...",
+      "prose_en": "Ha-Jun sits on the throne; his irises flood with pure white light as his consciousness is ripped inward.",
+      "prose_hi": "Ha-jun sinhasan par baithta hai; jaise hi uski chetna andar ki or fatati hai, uski putli shuddh safed roshni se bhar jaati hai."
     },
     {
       "id": "p03",
@@ -45,7 +49,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun rushes up the steps: 'Ha-Jun! Crown ko resist karo! Apne dimaag ko chhodna mat!'.",
+      "prose_hi": "Taaye-jun teji se sidhiyan chadhta hai: 'ha-jun! crown ko virodh karo! apne dimag ko chhodana mat!'."
     },
     {
       "id": "p04",
@@ -56,7 +62,9 @@
       ],
       "action": "Ha-Jun finds himself standing on an endless sea of black glass under a sky of swirling red nebulas.",
       "mood": "the sovereign mindscape",
-      "sfx": "SILENCE..."
+      "sfx": "SILENCE...",
+      "prose_en": "Ha-Jun finds himself standing on an endless sea of black glass under a sky of swirling red nebulas.",
+      "prose_hi": "Ha-jun khud ko ghumte hue lal neeharikaon ke aakash ke neeche kale kaanch ke antaheen samudra par khada pata hai."
     },
     {
       "id": "p05",
@@ -65,7 +73,9 @@
       "characters": [],
       "action": "Sitting on an ethereal throne of swords: the colossal shadow of the First Sovereign, Lord Asmodaius.",
       "mood": "ancestral progenitor",
-      "sfx": "VOID HUMMM..."
+      "sfx": "VOID HUMMM...",
+      "prose_en": "Sitting on an ethereal throne of swords: the colossal shadow of the First Sovereign, Lord Asmodaius.",
+      "prose_hi": "Talwaron ke ek alaukik sinhasan par baithe: pratham samprabhu, lord asamodius ki vishal chhaya."
     },
     {
       "id": "p06",
@@ -84,7 +94,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Four burning crimson eyes glare down like dying stars: 'A fragile human vessel dares put my crown upon his head?!'.",
+      "prose_hi": "Char jalti hui lal aankhen marte hue sitaron ki tarah chamak rahi han: 'ek najuk manav jahaj mera mukut apne sir par rakhne ki himmat kar raha hai?'."
     },
     {
       "id": "p07",
@@ -95,7 +107,9 @@
       ],
       "action": "Dark shadow tendrils erupt from the glass floor, creeping up Ha-Jun's jeans and jacket like liquid tar.",
       "mood": "possession attempt",
-      "sfx": "SNARE-GRIP!!"
+      "sfx": "SNARE-GRIP!!",
+      "prose_en": "Dark shadow tendrils erupt from the glass floor, creeping up Ha-Jun's jeans and jacket like liquid tar.",
+      "prose_hi": "Kanch ke farsh se kali chhaya ki tendrils footati han, jo ha-jun ki jeans aur jacket par taral tar ki tarah rengti han."
     },
     {
       "id": "p08",
@@ -117,7 +131,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun grits his teeth; his temples throb with veins as ancient memories flood his cortex.",
+      "prose_hi": "Ha-jun apne dant pista hai; uski kanpati ki nasen dhadak rahi hain kyonki prachin smritiyan uske valkut mein vyapt han."
     },
     {
       "id": "p09",
@@ -125,7 +141,9 @@
       "setting": "memory shards",
       "characters": [],
       "action": "Shards of memory: bullies kicking him in the classroom, rain on the academy roof, feeling helpless.",
-      "mood": "past vulnerability"
+      "mood": "past vulnerability",
+      "prose_en": "Shards of memory: bullies kicking him in the classroom, rain on the academy roof, feeling helpless.",
+      "prose_hi": "Smriti ke tukde: dabangon ne use kaksha mein laat mari, akadami ki chhat par baarish hui, asahaay mahsoos hua."
     },
     {
       "id": "p10",
@@ -144,7 +162,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Asmodaius booms: 'See how weak you were! A cowering insect beaten by mortal children!'.",
+      "prose_hi": "Esmodius chillata hai: 'dekho tum kitne kamzor the! nashwar bachchon dwara peeta gaya ek darpok kit!'."
     },
     {
       "id": "p11",
@@ -165,7 +185,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "In the center of the dark glass, a golden memory shines: Kang Tae-Jun holding umbrella over 10-year-old Ha-Jun in the rain.",
+      "prose_hi": "Kale kaanch ke kendra men, ek sunhari smriti chamakti hai: kang taaye-jun baarish mein 10 varshiya ha-jun ke upar chhata pakde hue hai."
     },
     {
       "id": "p12",
@@ -176,7 +198,9 @@
       ],
       "action": "Ha-Jun plants his boots firmly on the glass; a shockwave of his own crimson-violet mana blasts outward.",
       "mood": "rebelling against god",
-      "sfx": "BOOOOOM!!"
+      "sfx": "BOOOOOM!!",
+      "prose_en": "Ha-Jun plants his boots firmly on the glass; a shockwave of his own crimson-violet mana blasts outward.",
+      "prose_hi": "Ha-jun ne apne jute sheeshe par majbuti se rakhe; uske apne lal-bangni man ki ek aaghat tarang bahar ki or footati hai."
     },
     {
       "id": "p13",
@@ -187,7 +211,9 @@
       ],
       "action": "The dark possession tendrils around his legs snap and shatter like brittle ice.",
       "mood": "bonds broken",
-      "sfx": "CRACK-SHATTER!!"
+      "sfx": "CRACK-SHATTER!!",
+      "prose_en": "The dark possession tendrils around his legs snap and shatter like brittle ice.",
+      "prose_hi": "Uske pairon ke charon or ka kala kabza tendril toot jata hai aur bhangur barf ki tarah bikhar jata hai."
     },
     {
       "id": "p14",
@@ -198,7 +224,9 @@
       ],
       "action": "Ha-Jun draws The Sanguine Fang, blazing with violet hellfire inside his own soul plane.",
       "mood": "armed in mind",
-      "sfx": "FWOOSH-SHING!!"
+      "sfx": "FWOOSH-SHING!!",
+      "prose_en": "Ha-Jun draws The Sanguine Fang, blazing with violet hellfire inside his own soul plane.",
+      "prose_hi": "Ha-jun ne senguin feng ka chitran kiya hai, jo uski aatma ke bhitar baingani narkankaal se dhadhak raha hai."
     },
     {
       "id": "p15",
@@ -219,7 +247,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "A 17-year-old high school student staring down a 100-foot primordial demon god without blinking.",
+      "prose_hi": "Ek 17 varshiya high school chhatra bina palak jhapkae 100 foot ke aadim rakshas devta ko ghoor raha hai."
     },
     {
       "id": "p16",
@@ -228,7 +258,9 @@
       "characters": [],
       "action": "The giant phantom emperor raises a 50-foot blade of shadow darkness to crush Ha-Jun.",
       "mood": "divine execution attempt",
-      "sfx": "ROARRRR!!"
+      "sfx": "ROARRRR!!",
+      "prose_en": "The giant phantom emperor raises a 50-foot blade of shadow darkness to crush Ha-Jun.",
+      "prose_hi": "Vishal pret samrat ha-jun ko kuchalne ke liye chhaya andhere ka 50 foot ka blade uthata hai."
     },
     {
       "id": "p17",
@@ -239,7 +271,9 @@
       ],
       "action": "Ha-Jun rockets upward, his shadow wings leaving a contrail of violet starlight through the nebulas.",
       "mood": "celestial leap",
-      "sfx": "FWOOOOSH!!"
+      "sfx": "FWOOOOSH!!",
+      "prose_en": "Ha-Jun rockets upward, his shadow wings leaving a contrail of violet starlight through the nebulas.",
+      "prose_hi": "Ha-jun upar ki or rocket karta hai, uski parchhai pankh niharikaon ke madhyam se baingani taron ki roshni chodti hai."
     },
     {
       "id": "p18",
@@ -248,7 +282,9 @@
       "characters": [],
       "action": "The giant blade smashes the glass floor beneath Ha-Jun, sending infinite mirror shards into the sky.",
       "mood": "floor shattered",
-      "sfx": "KABOOOM!!"
+      "sfx": "KABOOOM!!",
+      "prose_en": "The giant blade smashes the glass floor beneath Ha-Jun, sending infinite mirror shards into the sky.",
+      "prose_hi": "Vishal blade ha-jun ke neeche ke kaanch ke farsh ko tod deta hai, jisse darpan ke anant tukde aakash mein fail jaate han."
     },
     {
       "id": "p19",
@@ -259,7 +295,9 @@
       ],
       "action": "Ha-Jun sprints directly up the flat of the giant descending sword, moving at Mach 2.",
       "mood": "sword running",
-      "sfx": "STEP-STEP-BLUR!!"
+      "sfx": "STEP-STEP-BLUR!!",
+      "prose_en": "Ha-Jun sprints directly up the flat of the giant descending sword, moving at Mach 2.",
+      "prose_hi": "Ha-jun much 2 ki gati se chalte hue sidhe vishal utarti hui talwar ke flat tak daudta hai."
     },
     {
       "id": "p20",
@@ -270,7 +308,9 @@
       ],
       "action": "Ha-Jun arrives at the giant shadow's brow, right before the phantom crown of horns.",
       "mood": "at the apex",
-      "sfx": "ARRIVE!!"
+      "sfx": "ARRIVE!!",
+      "prose_en": "Ha-Jun arrives at the giant shadow's brow, right before the phantom crown of horns.",
+      "prose_hi": "Ha-jun seengon ke pret mukut ke theek pahle, vishal chhaya ki bhaunh par pahunchta hai."
     },
     {
       "id": "p21",
@@ -292,7 +332,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun plunges his flaming blood katana straight into the center of Asmodaius's forehead.",
+      "prose_hi": "Ha-jun ne apna dhadhkta hua rakt katana sidhe esmodius ke mathe ke kendra mein dala."
     },
     {
       "id": "p22",
@@ -301,7 +343,9 @@
       "characters": [],
       "action": "Spiderweb fractures of blinding golden light spread across the 100-foot titan's body.",
       "mood": "titan cracking",
-      "sfx": "CRRRK-FLASH!!"
+      "sfx": "CRRRK-FLASH!!",
+      "prose_en": "Spiderweb fractures of blinding golden light spread across the 100-foot titan's body.",
+      "prose_hi": "100 foot ke titan ke shareer par chakachaundh kar dene wali sunhari roshni ke makdi ke jale ke fracture fail gaye."
     },
     {
       "id": "p23",
@@ -320,7 +364,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "The primordial voice echoes with profound reverence: 'Unbending will... You truly surpass me, boy.'.",
+      "prose_hi": "Maulik awaz gahri shraddha ke saath goonjati hai: 'atal ichashakti... tum sachmuch mujhse aage nikal jaoge, ladke.'"
     },
     {
       "id": "p24",
@@ -329,7 +375,9 @@
       "characters": [],
       "action": "The giant dissolves into millions of golden star-particles, washing into Ha-Jun's soul like liquid gold.",
       "mood": "absolute succession",
-      "sfx": "GLITTER..."
+      "sfx": "GLITTER...",
+      "prose_en": "The giant dissolves into millions of golden star-particles, washing into Ha-Jun's soul like liquid gold.",
+      "prose_hi": "Vishal lakhon swarn taara-kanon mein vilin ho jata hai, taral sone ki tarah ha-jun ki aatma mein sama jata hai."
     },
     {
       "id": "p25",
@@ -340,7 +388,9 @@
       ],
       "action": "The starry nebulas fade; the physical summit of Mount Obsidian crystallizes back into view.",
       "mood": "return to reality",
-      "sfx": "FADE IN..."
+      "sfx": "FADE IN...",
+      "prose_en": "The starry nebulas fade; the physical summit of Mount Obsidian crystallizes back into view.",
+      "prose_hi": "Taaron se bhari neeharikaen fiki pad jaati han; mount obsidian ka bhautik shikhar wapas drishya mein cristlikrit ho jata hai."
     },
     {
       "id": "p26",
@@ -350,7 +400,9 @@
         "hajun"
       ],
       "action": "Ha-Jun's eyes open: royal violet irises circled by double crimson eclipse rings and swirling stars.",
-      "mood": "the crowned king"
+      "mood": "the crowned king",
+      "prose_en": "Ha-Jun's eyes open: royal violet irises circled by double crimson eclipse rings and swirling stars.",
+      "prose_hi": "Ha-jun ki aankhen khulin: shahi baingani rang ki putli, dohre lal grahan chhallon aur ghumte taron se ghiri hui."
     },
     {
       "id": "p27",
@@ -361,7 +413,9 @@
       ],
       "action": "The obsidian-and-ruby crown glows with peaceful, subservient violet luminescence atop his black hair.",
       "mood": "crown bonded",
-      "sfx": "CHIME..."
+      "sfx": "CHIME...",
+      "prose_en": "The obsidian-and-ruby crown glows with peaceful, subservient violet luminescence atop his black hair.",
+      "prose_hi": "Obseedian-aur-rubi mukut uske kale baalon ke upar shantipurn, adheen baingani chamak ke saath chamakta hai."
     },
     {
       "id": "p28",
@@ -380,7 +434,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun drops to his knees on the marble steps, exhaling a choked sob: 'Usne kar dikhaya... He conquered the Crown!'.",
+      "prose_hi": "Taaye-jun sangmarmar ki sidhiyon par apne ghutnon ke bal baith jata hai aur ek dabi hui saans chhodta hai: 'usne kar dikhaya... usne taj jeet liya!'"
     },
     {
       "id": "p29",
@@ -401,7 +457,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro presses his forehead to the black star-matter armrest: 'Hail Ha-Jun Kang. True Demon Sovereign of the Abyss.'.",
+      "prose_hi": "Kuro ne apna matha black star-mater armerest par dabaya: 'jay ha-jun cong. rasatal ka sachcha danav samprabhu.'"
     },
     {
       "id": "p30",
@@ -422,7 +480,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun rises; a 500-meter spherical domain of royal violet mana expands outward around Mount Obsidian.",
+      "prose_hi": "Ha-jun ugta hai; royal violet maina ka 500 meter ka golakar domain mount obsidian ke charon or bahar ki or faila hua hai."
     }
   ]
 }

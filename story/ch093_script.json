@@ -13,7 +13,9 @@
       "characters": [],
       "action": "A serene, pine-covered hillside cemetery overlooking the glittering skyline of Seoul under an indigo twilight sky.",
       "mood": "solemn twilight",
-      "sfx": "WIND THROUGH PINES..."
+      "sfx": "WIND THROUGH PINES...",
+      "prose_en": "A serene, pine-covered hillside cemetery overlooking the glittering skyline of Seoul under an indigo twilight sky.",
+      "prose_hi": "Ek shant, devdar se dhaka pahadi kabristan, neel dhundhale aakash ke neeche seoul ke chamakdar kshitij ko dekhta hai."
     },
     {
       "id": "p02",
@@ -22,7 +24,9 @@
       "characters": [],
       "action": "Two polished black granite stones read: 'Kang Min-Soo — Father & Guardian' and 'Park Eun-Ji — Mother of Sovereigns'.",
       "mood": "parents memorial",
-      "sfx": "POLISHED STONE..."
+      "sfx": "POLISHED STONE...",
+      "prose_en": "Two polished black granite stones read: 'Kang Min-Soo — Father & Guardian' and 'Park Eun-Ji — Mother of Sovereigns'.",
+      "prose_hi": "Do polish kiye gaye kale granite pattharon par likha tha: 'cong min-su - pita aur abhibhavak' aur 'park un-ji - samprabhuon ki mata'."
     },
     {
       "id": "p03",
@@ -33,7 +37,9 @@
       ],
       "action": "Ha-Jun and Tae-Jun stand side by side in neat black formal suits, holding fresh white chrysanthemums.",
       "mood": "solemn respect",
-      "sfx": "STAND SILENT..."
+      "sfx": "STAND SILENT...",
+      "prose_en": "Ha-Jun and Tae-Jun stand side by side in neat black formal suits, holding fresh white chrysanthemums.",
+      "prose_hi": "Ha-jun aur taaye-jun saf-suthre kale aupcharik suit mein taja safed guldaudi pakde hue ek saath khade han."
     },
     {
       "id": "p04",
@@ -55,7 +61,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro sits perched on the stone marker, his head bowed respectfully, black feathers still in the evening breeze.",
+      "prose_hi": "Kuro patthar ke nishan par baitha hai, uska sir sammanpurvak jhuka hua hai, sham ki hawa mein abhi bhi kale pankh han."
     },
     {
       "id": "p05",
@@ -75,7 +83,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun kneels gently, placing his white flowers before their father's stone: 'Dad... I brought Ha-Jun home safe.'.",
+      "prose_hi": "Taaye-jun apne safed phool apne pita ki shila ke samne rakhte hue dheere se ghutne tekate han: 'pitaji... main ha-jun ko surakshit ghar le aaya.'"
     },
     {
       "id": "p06",
@@ -97,7 +107,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun places his bouquet before their mother's stone: 'Mom... I remember your cooking. I remember your smile.'.",
+      "prose_hi": "Ha-jun apna guldasta apni maa ke patthar ke samne rakhta hai: 'maa... mujhe aapka khana banana yaad hai. mujhe tumhari muskan yaad hai.'"
     },
     {
       "id": "p07",
@@ -108,7 +120,9 @@
       ],
       "action": "Ha-Jun takes out the restored Namsan Tower photograph from Chapter 64, uncreased and clean.",
       "mood": "the treasured photo",
-      "sfx": "PHOTO MACRO..."
+      "sfx": "PHOTO MACRO...",
+      "prose_en": "Ha-Jun takes out the restored Namsan Tower photograph from Chapter 64, uncreased and clean.",
+      "prose_hi": "Ha-jun ne adhyay 64 se punarsthapit namson tower ki tasveer nikali, jo bina bani aur saaf thi."
     },
     {
       "id": "p08",
@@ -119,7 +133,9 @@
       ],
       "action": "Ha-Jun sets the photo into a crystal frame between both gravestones, sealing it with a touch of warm starlight mana.",
       "mood": "sealed for eternity",
-      "sfx": "CRYSTAL SEAL..."
+      "sfx": "CRYSTAL SEAL...",
+      "prose_en": "Ha-Jun sets the photo into a crystal frame between both gravestones, sealing it with a touch of warm starlight mana.",
+      "prose_hi": "Ha-jun ne photo ko donon kabron ke beech ek crystal frame mein set kiya hai, ise garm starlite maina ke sparsh se seal kar diya hai."
     },
     {
       "id": "p09",
@@ -140,7 +156,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "A warm, comforting breeze rustles the pine needles, carrying the scent of wild jasmine and mountain rain.",
+      "prose_hi": "Ek garm, aaramdayak hawa cheed ki suiyon ko sarsrahat deti hai, jisme junglee chameli aur pahadi baarish ki khushboo aati hai."
     },
     {
       "id": "p10",
@@ -161,7 +179,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "A single crystal tear slips from Ha-Jun's royal violet eye, falling onto the polished granite marker.",
+      "prose_hi": "Ha-jun ki shahi baingani aankh se ek crystal aansu fisalkar polish granite marker par gir raha hai."
     },
     {
       "id": "p11",
@@ -172,7 +192,9 @@
       ],
       "action": "Where the tear strikes, a soft ring of golden starlight permanently blooms, blessing the grave with eternal flowers.",
       "mood": "sacred bloom",
-      "sfx": "BLOOM-GLOW..."
+      "sfx": "BLOOM-GLOW...",
+      "prose_en": "Where the tear strikes, a soft ring of golden starlight permanently blooms, blessing the grave with eternal flowers.",
+      "prose_hi": "Jahan aansu takrate han, vahan sunhare taron ki roshni ka ek naram ghera sthayi roop se khilta hai, jo kabr ko shashwat phoolon se ashirwad deta hai."
     },
     {
       "id": "p12",
@@ -194,7 +216,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun wraps his arm around Ha-Jun, pulling him close: 'Let's head back. Min-Jae booked a table at the BBQ place.'.",
+      "prose_hi": "Taaye-jun ne ha-jun ke charon or apna haath lapeta, use kareeb khinchte hue kaha: 'chalo peeche chalte han. min-je ne bbq sthan par ek table book ki.'"
     },
     {
       "id": "p13",
@@ -216,7 +240,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun wipes his cheek, grinning: 'Samgyeopsal? Who's paying? The Supreme General or the Demon Sovereign?'.",
+      "prose_hi": "Ha-jun ne apna gaal ponchte hue muskurate hue kaha: 'samgyopsal? kaun bhugtan kar raha hai? sarvochch senapati ya danav samprabhu?'."
     },
     {
       "id": "p14",
@@ -238,7 +264,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun laughs: 'You have a mountain of ancient demon gold! You're paying, cheapskate!'.",
+      "prose_hi": "Taaye-jun hanste hue kahte han: 'aapke paas prachin danav sone ka pahad hai! tum bhugtan kar rahe ho, ghatiya aadmi!'"
     },
     {
       "id": "p15",
@@ -261,7 +289,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro caws: 'Order five plates of pork belly for me or I will peck your ear.'.",
+      "prose_hi": "Kuro chillata hai: 'mere liye pork beli ki paanch pleten order karen ya main aapka kaan kaat dunga.'"
     },
     {
       "id": "p16",
@@ -272,7 +302,9 @@
       ],
       "action": "The two brothers turn away from the graves, walking down the stone stairs into the warm streetlamp glow.",
       "mood": "stepping into tomorrow",
-      "sfx": "STEP-STEP..."
+      "sfx": "STEP-STEP...",
+      "prose_en": "The two brothers turn away from the graves, walking down the stone stairs into the warm streetlamp glow.",
+      "prose_hi": "Donon bhai kabron se door chale gaye aur patthar ki sidhiyon se neeche street lamp ki garm chamak mein chalne lage."
     },
     {
       "id": "p17",
@@ -291,7 +323,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Behind them on the hill, two faint, transparent golden silhouettes of their parents wave goodbye with warm smiles.",
+      "prose_hi": "Pahadi par unke pichhe, unke mata-pita ki do fiki, pardarshi sunhari chhayaayen garm muskan ke saath alvida kah rahi han."
     },
     {
       "id": "p18",
@@ -300,7 +334,9 @@
       "characters": [],
       "action": "Down on Mapo Food Street: barbecue smoke, laughing people, neon signs, and street musicians filling the night.",
       "mood": "the vibrant human world",
-      "sfx": "CHATTER-SIZZLE..."
+      "sfx": "CHATTER-SIZZLE...",
+      "prose_en": "Down on Mapo Food Street: barbecue smoke, laughing people, neon signs, and street musicians filling the night.",
+      "prose_hi": "Mepo food street par: barbecue ka dhuan, hanste hue log, neon sanket, aur raat bhar sadak par sangeet bajane wale sangitkar."
     },
     {
       "id": "p19",
@@ -320,7 +356,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae waves from a corner table piled high with grilling pork belly and side dishes: 'Over here, guys!!'.",
+      "prose_hi": "Grild pork beli aur side dish ke dher wali ek kone ki mej se min-je lahren: 'yahan par, doston!!'"
     },
     {
       "id": "p20",
@@ -342,7 +380,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun and Tae-Jun slide onto the benches, the smell of sizzling meat and garlic filling the air.",
+      "prose_hi": "Ha-jun aur taaye-jun benchon par fisalte han, garm maans aur lahsun ki gandh hawa mein bhar jaati hai."
     },
     {
       "id": "p21",
@@ -364,7 +404,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro sits on the wooden napkin box, delicately swallowing a piece of grilled pork with closed eyes.",
+      "prose_hi": "Kuro lakdi ke napkin box par baithta hai, aankhen band karke grilled pork ke ek tukde ko najuk dhang se nigal raha hai."
     },
     {
       "id": "p22",
@@ -386,7 +428,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Three glasses of fizzy soda clink together over the grill: 'TO SURVIVING! TO BROTHERHOOD!'.",
+      "prose_hi": "Fizi soda ke teen gilas grill par ek saath bajte han: 'jivit rahane ke liye!' bhaichare ke liye!'"
     },
     {
       "id": "p23",
@@ -406,7 +450,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Captain Baek walks in wearing a leather jacket, pulling up an extra stool: 'Mind if an old soldier joins the feast?'.",
+      "prose_hi": "Capton bak chamde ki jacket pahane hue, ek atirikt stool khinchte hue andar aate han: 'agar koi budha sainik dawat mein shamil ho to dhyan rakhen?'."
     },
     {
       "id": "p24",
@@ -428,7 +474,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun piles grilled meat onto Baek's plate: 'Eat as much as you want, General. The Demon Sovereign is paying.'.",
+      "prose_hi": "Ha-jun ne bake ki plate mein grilled maans ka dher laga diya: 'jitna chaho khao, janaral. danav samprabhu bhugtan kar raha hai.'"
     },
     {
       "id": "p25",
@@ -437,7 +485,9 @@
       "characters": [],
       "action": "The small restaurant glows with warm yellow light against the cool autumn night, full of laughter and joy.",
       "mood": "peaceful oasis",
-      "sfx": "NIGHT GLOW..."
+      "sfx": "NIGHT GLOW...",
+      "prose_en": "The small restaurant glows with warm yellow light against the cool autumn night, full of laughter and joy.",
+      "prose_hi": "Chhota restraan thandi sharad ritu ki raat mein garm pili roshni se chamakta hai, hansi aur khushi se bhara hota hai."
     },
     {
       "id": "p26",
@@ -448,7 +498,9 @@
       ],
       "action": "Ha-Jun steps outside the glass door, leaning against the brick wall with a cup of warm tea.",
       "mood": "quiet night air",
-      "sfx": "COOL BREEZE..."
+      "sfx": "COOL BREEZE...",
+      "prose_en": "Ha-Jun steps outside the glass door, leaning against the brick wall with a cup of warm tea.",
+      "prose_hi": "Ha-jun kaanch ke darvaje ke bahar kadam rakhta hai, garm chai ka cup lekar int ki deewar ke samne jhuk jata hai."
     },
     {
       "id": "p27",
@@ -471,7 +523,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro perches on his shoulder: 'Are you satisfied, Ha-Jun Kang?'.",
+      "prose_hi": "Kuro uske kandhe par baithta hai: 'kya aap santusht han, ha-jun cong?'"
     },
     {
       "id": "p28",
@@ -493,7 +547,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "In the amber tea, Ha-Jun sees his reflection: no longer a frightened orphan, but a complete, peaceful young man.",
+      "prose_hi": "Embar chai men, ha-jun apna pratibimb dekhta hai: ab ek dara hua anath nahin, balki ek purn, shantipurna yuvak."
     },
     {
       "id": "p29",
@@ -512,7 +568,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "The view tilts upward past neon signs and rooftops, into an endless expanse of twinkling stars.",
+      "prose_hi": "Yah drishya neon chinhon aur chhaton se upar ki or, timtimate sitaron ke antaheen vistar mein jhuk jata hai."
     },
     {
       "id": "p30",
@@ -533,7 +591,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "A majestic silver full moon shines serenely over the peaceful Earth—ready for the final, ultimate transcendence of Arc 10!.",
+      "prose_hi": "Shantipurn prithvi par rajsi chandi ka purna chandrama shanti se chamakta hai - arc 10 ke antim, param atikraman ke liye taiyar!"
     }
   ]
 }

@@ -13,7 +13,9 @@
       "characters": [],
       "action": "The 50-foot pillar of violet-crimson hellfire roars toward the cavern ceiling, lighting up the magma lake.",
       "mood": "raging inferno",
-      "sfx": "ROOOOAAARRR!!"
+      "sfx": "ROOOOAAARRR!!",
+      "prose_en": "The 50-foot pillar of violet-crimson hellfire roars toward the cavern ceiling, lighting up the magma lake.",
+      "prose_hi": "Bangni-lal rang ki narkankaal ki aag ka 50 foot ka khambha gufa ki chhat ki or garjta hai, jisse magma jheel jagmaga uthti hai."
     },
     {
       "id": "p02",
@@ -35,7 +37,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro is blown back to a distant basalt rock, struggling against the blistering thermal shockwave.",
+      "prose_hi": "Kuro prachand thermal shockwev ke khilaf sangharsh karte hue door sthit basalt chattan par wapas chala jata hai."
     },
     {
       "id": "p03",
@@ -46,7 +50,9 @@
       ],
       "action": "Inside the vortex, Ha-Jun grinds his teeth as violet fire scorches through his clothes, searing his skin.",
       "mood": "cellular agony",
-      "sfx": "ARGGGHHH!!"
+      "sfx": "ARGGGHHH!!",
+      "prose_en": "Inside the vortex, Ha-Jun grinds his teeth as violet fire scorches through his clothes, searing his skin.",
+      "prose_hi": "Bhanvar ke ander, ha-jun apne daant pista hai jaise baingani rang ki aag uske kapdon ko jhulsa deti hai, jisse uski tvacha jhulas jaati hai."
     },
     {
       "id": "p04",
@@ -57,7 +63,9 @@
       ],
       "action": "Blisters and black scorch marks spread across his forearms as temperatures exceed 2,000 degrees.",
       "mood": "flesh burning",
-      "sfx": "SIZZLE..."
+      "sfx": "SIZZLE...",
+      "prose_en": "Blisters and black scorch marks spread across his forearms as temperatures exceed 2,000 degrees.",
+      "prose_hi": "Tapman 2,000 degree se adhik hone par uski banhon par chhale aur jhulsane ke kale nishan fail gaye."
     },
     {
       "id": "p05",
@@ -79,7 +87,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "His left Bone Gauntlet glows with glacial pale light, insulating his arm bones and preventing marrow boil.",
+      "prose_hi": "Unka bayan bone gauntlet himachadit pili roshni se chamakta hai, unki baanh ki haddiyon ko surakshit rakhta hai aur majja ko ubalne se rokta hai."
     },
     {
       "id": "p06",
@@ -90,7 +100,9 @@
       ],
       "action": "The obsidian ring spins around his finger like a miniature turbine, drinking in ambient heat.",
       "mood": "thermal heat sink",
-      "sfx": "WHIRRRR!!"
+      "sfx": "WHIRRRR!!",
+      "prose_en": "The obsidian ring spins around his finger like a miniature turbine, drinking in ambient heat.",
+      "prose_hi": "Obseedian ring uski ungli ke charon or ek laghu turbine ki tarah ghumti hai, jo parivesh ki garmi ko peeti hai."
     },
     {
       "id": "p07",
@@ -111,7 +123,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's eyes widen through the smoke as the connection clicks in his mind.",
+      "prose_hi": "Jaise hi connection uske dimag mein click karta hai, ha-jun ki aankhen dhuen ke karan chaudi ho jaati han."
     },
     {
       "id": "p08",
@@ -122,7 +136,9 @@
       ],
       "action": "Ha-Jun reverses his mana flow, drawing boiling crimson blood from his core into the cold bone channels.",
       "mood": "reverse circulation",
-      "sfx": "SURGE!"
+      "sfx": "SURGE!",
+      "prose_en": "Ha-Jun reverses his mana flow, drawing boiling crimson blood from his core into the cold bone channels.",
+      "prose_hi": "Ha-jun apne man pravah ko ulat deta hai, aur uske core se ubalta lal rakt thandi haddi channelon mein khinchta hai."
     },
     {
       "id": "p09",
@@ -131,7 +147,9 @@
       "characters": [],
       "action": "A stunning visualization shows scalding crimson blood flowing through ivory bone channels, cooling to liquid amethyst.",
       "mood": "cooling synthesis",
-      "sfx": "CHILL..."
+      "sfx": "CHILL...",
+      "prose_en": "A stunning visualization shows scalding crimson blood flowing through ivory bone channels, cooling to liquid amethyst.",
+      "prose_hi": "Ek aashcharyajanak drishya mein hathi daant ki haddi ki nalikaon se jalta hua lal rang ka rakt bahta hua dikhai deta hai, jo thanda hokar taral neelam mein badal jata hai."
     },
     {
       "id": "p10",
@@ -142,7 +160,9 @@
       ],
       "action": "Ha-Jun plunges both hands directly into the core of the burning volcanic heart.",
       "mood": "firm grip",
-      "sfx": "GRAB-SIZZLE!!"
+      "sfx": "GRAB-SIZZLE!!",
+      "prose_en": "Ha-Jun plunges both hands directly into the core of the burning volcanic heart.",
+      "prose_hi": "Ha-jun donon hathon ko sidhe jalte hue jwalamukhi hriday ke kendra mein dalta hai."
     },
     {
       "id": "p11",
@@ -151,7 +171,9 @@
       "characters": [],
       "action": "The Ashen Heart thrashes in his grip, unleashing jagged bolts of black-and-purple lightning.",
       "mood": "relic resistance",
-      "sfx": "ZAP-CRACKLE!!"
+      "sfx": "ZAP-CRACKLE!!",
+      "prose_en": "The Ashen Heart thrashes in his grip, unleashing jagged bolts of black-and-purple lightning.",
+      "prose_hi": "Ation heart uski pakad mein dhadkata hai, kale aur baingani bijli ke dantedar bolt ko ujagar karta hai."
     },
     {
       "id": "p12",
@@ -172,7 +194,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun roars with the vocal weight of a primordial emperor, his voice echoing in ten dimensions.",
+      "prose_hi": "Ha-jun ek aadim samrat ki awaaz ke saath dahadta hai, uski awaaz das aayamon mein goonjati hai."
     },
     {
       "id": "p13",
@@ -181,7 +205,9 @@
       "characters": [],
       "action": "Behind Ha-Jun, the towering four-horned silhouette of the First Demon Sovereign overlaps his frame.",
       "mood": "ancestral avatar",
-      "sfx": "BOOOOOM..."
+      "sfx": "BOOOOOM...",
+      "prose_en": "Behind Ha-Jun, the towering four-horned silhouette of the First Demon Sovereign overlaps his frame.",
+      "prose_hi": "Ha-jun ke pichhe, pratham danav samprabhu ka vishal char seeng wala silhut uske frame ko overlap karta hai."
     },
     {
       "id": "p14",
@@ -190,7 +216,9 @@
       "characters": [],
       "action": "Recognizing the primordial authority, the volcanic heart instantly ceases its struggle.",
       "mood": "subdued relic",
-      "sfx": "STILLNESS..."
+      "sfx": "STILLNESS...",
+      "prose_en": "Recognizing the primordial authority, the volcanic heart instantly ceases its struggle.",
+      "prose_hi": "Aadim satta ko pahchankar, jwalamukhiya hriday turant apna sangharsh band kar deta hai."
     },
     {
       "id": "p15",
@@ -199,7 +227,9 @@
       "characters": [],
       "action": "The solid charred heart dissolves into a concentrated orb of glowing liquid violet hellfire.",
       "mood": "liquefaction",
-      "sfx": "MELT..."
+      "sfx": "MELT...",
+      "prose_en": "The solid charred heart dissolves into a concentrated orb of glowing liquid violet hellfire.",
+      "prose_hi": "Thos jala hua hriday chamakte taral baingani narkankaal ke ek sankendrit gole mein vilin ho jata hai."
     },
     {
       "id": "p16",
@@ -210,7 +240,9 @@
       ],
       "action": "The sphere of violet flame sinks directly into the center of Ha-Jun's chest, right over his heart.",
       "mood": "core absorption",
-      "sfx": "FUSSSION!!"
+      "sfx": "FUSSSION!!",
+      "prose_en": "The sphere of violet flame sinks directly into the center of Ha-Jun's chest, right over his heart.",
+      "prose_hi": "Baingani lau ka gola sidhe ha-jun ki chhati ke kendra men, uske hriday ke theek upar dhansta hai."
     },
     {
       "id": "p17",
@@ -219,7 +251,9 @@
       "characters": [],
       "action": "The massive 50-foot tornado of fire suddenly implodes inward, sucked entirely into Ha-Jun's chest.",
       "mood": "vacuum implosion",
-      "sfx": "WHOOOMP!!"
+      "sfx": "WHOOOMP!!",
+      "prose_en": "The massive 50-foot tornado of fire suddenly implodes inward, sucked entirely into Ha-Jun's chest.",
+      "prose_hi": "Aag ka 50 foot ka vishal bavandar achanak andar ki or futata hai aur puri tarah se ha-jun ki chhati mein sama jata hai."
     },
     {
       "id": "p18",
@@ -228,7 +262,9 @@
       "characters": [],
       "action": "A clean shockwave of cool amethyst wind ripples across the boiling lava, freezing the surface into obsidian crust.",
       "mood": "thermal freeze",
-      "sfx": "CRACK-FREEZE..."
+      "sfx": "CRACK-FREEZE...",
+      "prose_en": "A clean shockwave of cool amethyst wind ripples across the boiling lava, freezing the surface into obsidian crust.",
+      "prose_hi": "Thandi neelam hawa ki ek saaf shockwev ubalte hue lava par tarangit hoti hai, jo satah ko obsidian crust mein jama deti hai."
     },
     {
       "id": "p19",
@@ -239,7 +275,9 @@
       ],
       "action": "Ha-Jun stands motionless in the rising steam, his clothes shredded, exposing his bare athletic chest.",
       "mood": "steaming hero",
-      "sfx": "HAAAH..."
+      "sfx": "HAAAH...",
+      "prose_en": "Ha-Jun stands motionless in the rising steam, his clothes shredded, exposing his bare athletic chest.",
+      "prose_hi": "Ha-jun badhti bhaap mein gatiheen khada hai, uske kapde fat gaye han, jisse uski nangi athletic chhati ujagar ho rahi hai."
     },
     {
       "id": "p20",
@@ -250,7 +288,9 @@
       ],
       "action": "Etched into the skin over his sternum: a glowing violet-and-crimson demonic lotus crest of fire.",
       "mood": "crest branded",
-      "sfx": "GLOW..."
+      "sfx": "GLOW...",
+      "prose_en": "Etched into the skin over his sternum: a glowing violet-and-crimson demonic lotus crest of fire.",
+      "prose_hi": "Uske urosthi ke upar ki tvacha mein khuda hua: aag ka ek chamakta hua baingani aur lal rang ka rakshasi kamal ka shikhar."
     },
     {
       "id": "p21",
@@ -260,7 +300,9 @@
         "hajun"
       ],
       "action": "Ha-Jun raises his right hand and gently flexes his ring finger.",
-      "mood": "testing flame"
+      "mood": "testing flame",
+      "prose_en": "Ha-Jun raises his right hand and gently flexes his ring finger.",
+      "prose_hi": "Ha-jun apna dahina haath uthata hai aur apni anamika ko dheere se modata hai."
     },
     {
       "id": "p22",
@@ -282,7 +324,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "A mesmerizing miniature flame of violet hellfire ignites on his fingertip, burning without consuming oxygen.",
+      "prose_hi": "Uski ungaliyon par baingani narkankaal ki ek mantramugdh kar dene wali laghu jwala prajvalit hoti hai, jo oxygen ka upbhog kiye bina jalti hai."
     },
     {
       "id": "p23",
@@ -293,7 +337,9 @@
       ],
       "action": "Ha-Jun manifests The Sanguine Fang; the crimson blade instantly ignites with crackling violet flames.",
       "mood": "ignited blood blade",
-      "sfx": "BLAZE-SHING!!"
+      "sfx": "BLAZE-SHING!!",
+      "prose_en": "Ha-Jun manifests The Sanguine Fang; the crimson blade instantly ignites with crackling violet flames.",
+      "prose_hi": "Ha-jun the senguin fang ko prakat karta hai; crimson blade turant karkash baingani lapton ke saath prajvalit ho jata hai."
     },
     {
       "id": "p24",
@@ -314,7 +360,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro stares at the flaming blood blade in stunned wonder: 'Incredible... First Sovereign ki exact technique!'.",
+      "prose_hi": "Kuro stabdh aashcharya se dhadhakte rakt blade ko dekhta hai: 'avishwasniy... pehli sovereign ki sateek taknik!'."
     },
     {
       "id": "p25",
@@ -333,7 +381,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "A massive golden interface scrolls down with dramatic celestial sound.",
+      "prose_hi": "Ek vishal sunhara interface natakiya akashiya dhwani ke saath neeche scroll karta hai."
     },
     {
       "id": "p26",
@@ -344,7 +394,9 @@
       ],
       "action": "Ha-Jun swings the flaming blade toward a distant 50-foot rock overhang.",
       "mood": "display of power",
-      "sfx": "SWISH-BOOM!!"
+      "sfx": "SWISH-BOOM!!",
+      "prose_en": "Ha-Jun swings the flaming blade toward a distant 50-foot rock overhang.",
+      "prose_hi": "Ha-jun jwalant blade ko door 50 foot ki chattan ki or ghumata hai."
     },
     {
       "id": "p27",
@@ -353,7 +405,9 @@
       "characters": [],
       "action": "The massive rock formation is cleaved in half and instantly vaporized into fine violet ash before falling.",
       "mood": "devastating destruction",
-      "sfx": "VAPORIZE!"
+      "sfx": "VAPORIZE!",
+      "prose_en": "The massive rock formation is cleaved in half and instantly vaporized into fine violet ash before falling.",
+      "prose_hi": "Vishal chattan aadhe hisse mein toot jaati hai aur girne se pehle turant mahin baingani raakh mein vashpikrit ho jaati hai."
     },
     {
       "id": "p28",
@@ -364,7 +418,9 @@
       ],
       "action": "Ha-Jun exhales; the flaming blade dissolves back into his ring without expending an ounce of waste.",
       "mood": "perfect control",
-      "sfx": "PUFF..."
+      "sfx": "PUFF...",
+      "prose_en": "Ha-Jun exhales; the flaming blade dissolves back into his ring without expending an ounce of waste.",
+      "prose_hi": "Ha-jun sans chhodta hai; jalta hua blade ek auns bhi barbad kiye bina wapas uski ring mein ghul jata hai."
     },
     {
       "id": "p29",
@@ -385,7 +441,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro gestures to Ha-Jun's glowing chest: 'Lekin yeh abhi khatam nahi hua... Tri-Relic resonance shuru ho rahi hai!'.",
+      "prose_hi": "Kuro ha-jun ki chamakti chhati ki or ishara karta hai: 'lakin yeh abhi khatam nahin hua... tri-avshesh pratidhvani shuru ho rahi hai!'."
     },
     {
       "id": "p30",
@@ -406,7 +464,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro's Feather, the Blood Ring, and the Bone Gauntlet pulse in golden-violet harmony.",
+      "prose_hi": "Kuro ka pankh, rakt valay aur asthi gauntlet sunahre-bangni samanjasya mein spandit hote han."
     }
   ]
 }

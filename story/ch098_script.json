@@ -13,7 +13,9 @@
       "characters": [],
       "action": "A breathtaking, golden autumn morning across Saint Mirren University; students walking with backpacks under yellow trees.",
       "mood": "pristine campus life",
-      "sfx": "BIRDS CHIRPING..."
+      "sfx": "BIRDS CHIRPING...",
+      "prose_en": "A breathtaking, golden autumn morning across Saint Mirren University; students walking with backpacks under yellow trees.",
+      "prose_hi": "Sent miren vishwavidyalaya mein ek lubhavni, sunhari sharad ritu ki subah; peele pedon ke neeche backpack ke saath chalte chhatra."
     },
     {
       "id": "p02",
@@ -35,7 +37,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The three young men sit around the table eating warm breakfast pastries and drinking fresh milk under the sun.",
+      "prose_hi": "Teenon yuvak mej ke charon or baithkar garm nashte ki pastry kha rahe hain aur suraj ki roshni mein taja doodh pee rahe han."
     },
     {
       "id": "p03",
@@ -57,7 +61,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun laughs with a white milk mustache: 'Hey, anchoring the multiverse is thirsty work!'.",
+      "prose_hi": "Ha-jun safed dudhiya moonchhon ke saath hansta hai: 'are, multiverse mein anchoring karna pyasa kaam hai!'"
     },
     {
       "id": "p04",
@@ -79,7 +85,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun tosses a paper napkin: 'Wipe your lip, Your Divine Majesty.'.",
+      "prose_hi": "Taaye-jun ne ek paper napkin uchhala: 'apne honth ponchho, mahamahim.'"
     },
     {
       "id": "p05",
@@ -90,7 +98,9 @@
       ],
       "action": "Kuro daintily nibbles on a flaky croissant: 'I approve of this culinary offering.'",
       "mood": "happy bird",
-      "sfx": "PECK..."
+      "sfx": "PECK...",
+      "prose_en": "Kuro daintily nibbles on a flaky croissant: 'I approve of this culinary offering.'.",
+      "prose_hi": "Kuro bade pyar se paratdaar croisain ko kutarta hai: 'mujhe yah pak peshkash manjoor hai.'"
     },
     {
       "id": "p06",
@@ -110,7 +120,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "General Baek arrives, carrying an official scroll stamped with the Presidential Seal of Korea.",
+      "prose_hi": "Janaral bak korea ke rashtrapati ki muhar lagi ek adhikarik pustak lekar pahunche."
     },
     {
       "id": "p07",
@@ -132,7 +144,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Baek hands the scroll to Ha-Jun: 'The United Defense Pact is officially dissolved. From today, we are the Guardians of Peace.'.",
+      "prose_hi": "Bek ne scroll ko ha-jun ko saunp diya: 'sanyukt raksha sandhi adhikarik taur par bhang ho gai hai. aaj se, hum shanti ke sanrakshak han.'"
     },
     {
       "id": "p08",
@@ -154,7 +168,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun reads the calligraphy: 'Charter for the Coexistence of Mortal and Demonic Species.'.",
+      "prose_hi": "Ha-jun sulekh padhta hai: 'nashwar aur rakshasi prajatiyon ke sah-astitv ke liye charter.'"
     },
     {
       "id": "p09",
@@ -165,7 +181,9 @@
       ],
       "action": "Tae-Jun rests his chin on Ha-Jun's shoulder: 'They would be proud beyond words, Ha-Jun.'",
       "mood": "shared memory",
-      "sfx": "GENTLE SMILE..."
+      "sfx": "GENTLE SMILE...",
+      "prose_en": "Tae-Jun rests his chin on Ha-Jun's shoulder: 'They would be proud beyond words, Ha-Jun.'.",
+      "prose_hi": "Taaye-jun apni thuddi ha-jun ke kandhe par rakhta hai: 'unhen shabdon se pare garv hoga, ha-jun.'"
     },
     {
       "id": "p10",
@@ -176,7 +194,9 @@
       ],
       "action": "Ha-Jun presses his thumb to the wax; a soft golden Sovereign crest seals the document forever.",
       "mood": "the eternal charter sealed",
-      "sfx": "CREST GLOW..."
+      "sfx": "CREST GLOW...",
+      "prose_en": "Ha-Jun presses his thumb to the wax; a soft golden Sovereign crest seals the document forever.",
+      "prose_hi": "Ha-jun apna angutha mom par dabata hai; ek naram sunhari samprabhu shikha dastavej ko hamesha ke liye seal kar deti hai."
     },
     {
       "id": "p11",
@@ -195,7 +215,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Below in the courtyard, horned demon teenagers and human students walk together, sharing textbooks and laughing.",
+      "prose_hi": "Niche aangan men, seeng wale rakshas kishore aur manav chhatra ek saath chalte han, paathyapustaken sajha karte hain aur hanste han."
     },
     {
       "id": "p12",
@@ -217,7 +239,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun leans on the balustrade, the warm morning breeze rustling his black hair, watching the happy children.",
+      "prose_hi": "Ha-jun chhajje par jhuka hua hai, garm subah ki hawa uske kale baalon ko sarsrahat de rahi hai, khush bachchon ko dekh rahi hai."
     },
     {
       "id": "p13",
@@ -240,7 +264,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro rests his head against Ha-Jun's wrist: 'You gave them their future, Ha-Jun.'.",
+      "prose_hi": "Kuro apna sir ha-jun ki kalai par tika deta hai: 'aapne unhen unka bhavishya de diya, ha-jun.'"
     },
     {
       "id": "p14",
@@ -263,7 +289,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun strokes Kuro's glossy plumage: 'I couldn't have done it without my best bird.'.",
+      "prose_hi": "Ha-jun ne kuro ke chamakdar pankhon par prahar kiya: 'main apne sarvshreshth pakshi ke bina yah nahin kar pata.'"
     },
     {
       "id": "p15",
@@ -283,7 +311,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae checks his watch, panicking: 'Guys! Physics lecture with Professor Kang starts in five minutes!'.",
+      "prose_hi": "Min-je ne ghabrate hue apni ghadi dekhi: 'doston! professor kang ke saath bhautiki vyakhyan paanch minute mein shuru hoga!'"
     },
     {
       "id": "p16",
@@ -294,7 +324,9 @@
       ],
       "action": "The two young men scramble, stuffing notebooks, pens, and pastry wrappers into their bags.",
       "mood": "relatable student chaos",
-      "sfx": "ZIPPER-CLATTER!!"
+      "sfx": "ZIPPER-CLATTER!!",
+      "prose_en": "The two young men scramble, stuffing notebooks, pens, and pastry wrappers into their bags.",
+      "prose_hi": "Donon yuvak notebook, pen aur pastry rapper ko apne bag mein bharte hue hathapai karte han."
     },
     {
       "id": "p17",
@@ -314,7 +346,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun and General Baek laugh from the bench, sipping their coffee in amusement.",
+      "prose_hi": "Taaye-jun aur general bake bench se hanste hue, manoranjan mein apni coffee peete hue."
     },
     {
       "id": "p18",
@@ -336,7 +370,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun slings his bag, grinning at Tae-Jun: 'See you at home for dinner, Hyung!'.",
+      "prose_hi": "Ha-jun apna bag uchhalta hai aur taaye-jun ki or muskurate hue kehta hai: 'rat ke khane ke liye ghar par milte han, hung!'."
     },
     {
       "id": "p19",
@@ -356,7 +392,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun waves: 'I'll make your favorite stew! Now go!'.",
+      "prose_hi": "Taaye-jun lahren: 'main aapka pasandeeda stu banaunga! ab jao!'"
     },
     {
       "id": "p20",
@@ -367,7 +405,9 @@
       ],
       "action": "Ha-Jun and Min-Jae sprint down the grand stone staircases, their sneakers squeaking on the polished marble.",
       "mood": "youth in motion",
-      "sfx": "STEP-STEP-LAUGH!!"
+      "sfx": "STEP-STEP-LAUGH!!",
+      "prose_en": "Ha-Jun and Min-Jae sprint down the grand stone staircases, their sneakers squeaking on the polished marble.",
+      "prose_hi": "Ha-jun aur min-je bhavya patthar ki sidhiyon se teji se neeche utarte han, unke jute polish kiye gaye sangmarmar par charmara rahe han."
     },
     {
       "id": "p21",
@@ -378,7 +418,9 @@
       ],
       "action": "Kuro glides smoothly through the high arches above them, keeping effortless pace with his companions.",
       "mood": "familiar in flight",
-      "sfx": "GLIDE..."
+      "sfx": "GLIDE...",
+      "prose_en": "Kuro glides smoothly through the high arches above them, keeping effortless pace with his companions.",
+      "prose_hi": "Kuro apne sathiyon ke saath sahaj gati banae rakhte hue, unke upar oonche mehrabon ke madhyam se aasani se glide karta hai."
     },
     {
       "id": "p22",
@@ -400,7 +442,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Students call out: 'Morning, Ha-Jun!' 'Good luck on the quiz!' Ha-Jun waves back cheerfully.",
+      "prose_hi": "Chhatra pukarte han: 'subah, ha-jun!' 'prashnottari ke liye shubhakamnaen!' ha-jun khushi se wapas lautata hai."
     },
     {
       "id": "p23",
@@ -422,7 +466,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "They slide through the classroom doors just as the bell chimes, breathless and laughing.",
+      "prose_hi": "Jaise hi ghanti bajti hai, ve bedam aur hanste hue kaksha ke darwazon se bahar nikal jaate han."
     },
     {
       "id": "p24",
@@ -431,7 +477,9 @@
       "characters": [],
       "action": "Professor Kang smiles from the chalkboard: 'Take your seats, boys. Chapter 1: Foundations of Harmony.'",
       "mood": "lecture begins",
-      "sfx": "CHALK CLICK..."
+      "sfx": "CHALK CLICK...",
+      "prose_en": "Professor Kang smiles from the chalkboard: 'Take your seats, boys. Chapter 1: Foundations of Harmony.'.",
+      "prose_hi": "Profacer kang chockboard se muskurate hue kahte han: 'apni seat le lo, ladkon. adhyay 1: sadbhav ki neen.'"
     },
     {
       "id": "p25",
@@ -442,7 +490,9 @@
       ],
       "action": "Ha-Jun sits by the sunny window, opening his clean notebook, his heart completely light.",
       "mood": "peaceful student",
-      "sfx": "NOTEBOOK OPEN..."
+      "sfx": "NOTEBOOK OPEN...",
+      "prose_en": "Ha-Jun sits by the sunny window, opening his clean notebook, his heart completely light.",
+      "prose_hi": "Ha-jun dhoop wali khidki ke paas baithta hai, apni saaf notebook kholta hai, uska dil puri tarah se halka hota hai."
     },
     {
       "id": "p26",
@@ -453,7 +503,9 @@
       ],
       "action": "Outside on the sunlit sill, Kuro settles down, winking through the clean glass at Ha-Jun.",
       "mood": "guardian watching",
-      "sfx": "WINK..."
+      "sfx": "WINK...",
+      "prose_en": "Outside on the sunlit sill, Kuro settles down, winking through the clean glass at Ha-Jun.",
+      "prose_hi": "Bahar suraj ki roshni wali dehli par, kuro baith jata hai, aur ha-jun mein saaf sheeshe se aankh maarta hai."
     },
     {
       "id": "p27",
@@ -475,7 +527,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun gazes out at the cloudless blue sky, feeling the quiet, infinite rhythm of a peaceful universe.",
+      "prose_hi": "Ha-jun badal rahit neele aakash ko dekhta hai, shantipurna brahmand ki shant, anant lay ko mahsoos karta hai."
     },
     {
       "id": "p28",
@@ -484,7 +538,9 @@
       "characters": [],
       "action": "The camera pulls back, showing the entire majestic campus surrounded by green parks and glittering Seoul skyscrapers.",
       "mood": "grand perspective",
-      "sfx": "SWEEP BACK..."
+      "sfx": "SWEEP BACK...",
+      "prose_en": "The camera pulls back, showing the entire majestic campus surrounded by green parks and glittering Seoul skyscrapers.",
+      "prose_hi": "Camra peeche ki or khinchta hai, jisme pura rajsi parisar hare-bhare parkon aur chamchamati seoul gaganchumbi imaaraton se ghira hua dikhta hai."
     },
     {
       "id": "p29",
@@ -503,7 +559,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "The sprawling city of Seoul under a golden autumn morning, full of life, laughter, and hope.",
+      "prose_hi": "Sharad ritu ki sunhari subah ke neeche seoul ka vishal shahar, jivan, hansi aur aasha se bhara hua."
     },
     {
       "id": "p30",
@@ -522,7 +580,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Golden script fades across the morning sky: 'DEMON SOVEREIGN'S BLOODLINE — CHAPTER 98 CONCLUDED.'.",
+      "prose_hi": "Subah ke aakash mein sunhari lipi dhundhli ho jaati hai: 'danav samprabhu ki raktarekha - adhyay 98 samapt.'"
     }
   ]
 }

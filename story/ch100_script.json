@@ -23,7 +23,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Golden calligraphy blazing across a starfield: 'CHAPTER 100 — THE DEMON SOVEREIGN'S BLOODLINE'.",
+      "prose_hi": "Ek taare ke kshetra mein chamakti hui sunhari sulekh: 'adhyay 100 - danav samprabhu ki raktarekha'."
     },
     {
       "id": "p02",
@@ -32,7 +34,9 @@
       "characters": [],
       "action": "The gentle rain clears; the golden morning sun rises over Namsan Tower and the Han River, washing the world in amber.",
       "mood": "golden dawn",
-      "sfx": "SUNRISE GLOW..."
+      "sfx": "SUNRISE GLOW...",
+      "prose_en": "The gentle rain clears; the golden morning sun rises over Namsan Tower and the Han River, washing the world in amber.",
+      "prose_hi": "Halki baarish saaf ho jaati hai; subah ka sunhara suraj namson tower aur haan nadi par ugta hai, jo duniya ko ambar mein dho deta hai."
     },
     {
       "id": "p03",
@@ -54,7 +58,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun steps into the clean morning air, breathing deep; his dark fringe catches the morning light.",
+      "prose_hi": "Ha-jun subah ki saaf hawa mein gahri sans lete hue kadam rakhta hai; uska andhera kinara subah ki roshni ko pakad leta hai."
     },
     {
       "id": "p04",
@@ -76,7 +82,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun leans beside him, watching the sun illuminate their city: 'You did it, Ha-Jun. You really did it.'.",
+      "prose_hi": "Taaye-jun uske bagal mein jhuk jata hai, suraj ko apne shahar ko roshan karte hue dekhta hai: 'tumne yah kiya, ha-jun. aapne sachmuch yah kiya.'"
     },
     {
       "id": "p05",
@@ -98,7 +106,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun looks at his palm: the purple crest of the Sovereign pulses like a warm heartbeat, tamed and peaceful.",
+      "prose_hi": "Ha-jun apni hatheli ko dekhta hai: samprabhu ki baingani shikha ek garm dil ki dhadkan ki tarah, niyantrit aur shantipurna hai."
     },
     {
       "id": "p06",
@@ -110,7 +120,9 @@
       ],
       "action": "Kuro spreads his dark wings, greeting the morning sun with a clear, triumphant caw that echoes across the valley.",
       "mood": "the phoenix greeting the sun",
-      "sfx": "TRIUMPHANT CAW!!"
+      "sfx": "TRIUMPHANT CAW!!",
+      "prose_en": "Kuro spreads his dark wings, greeting the morning sun with a clear, triumphant caw that echoes across the valley.",
+      "prose_hi": "Kuro apne kale pankh failakar, spasht, vijayi con-con ke saath subah ke suraj ka swagat karta hai, jo puri ghati mein goonjati hai."
     },
     {
       "id": "p07",
@@ -119,7 +131,9 @@
       "characters": [],
       "action": "At Saint Mirren, the grand iron gates swing open; students of all races and origins enter together under cherry blossoms.",
       "mood": "the thriving future",
-      "sfx": "GATES SWING..."
+      "sfx": "GATES SWING...",
+      "prose_en": "At Saint Mirren, the grand iron gates swing open; students of all races and origins enter together under cherry blossoms.",
+      "prose_hi": "Sent miren men, bhavya lohe ke dwar khule han; sabhi jaatiyon aur moolon ke chhatra cherry blossom ke neeche ek saath pravesh karte han."
     },
     {
       "id": "p08",
@@ -128,7 +142,9 @@
       "characters": [],
       "action": "The empty classroom from Chapter 84 is bathed in serene, peaceful sunlight, waiting for students.",
       "mood": "peaceful classroom",
-      "sfx": "MORNING RAYS..."
+      "sfx": "MORNING RAYS...",
+      "prose_en": "The empty classroom from Chapter 84 is bathed in serene, peaceful sunlight, waiting for students.",
+      "prose_hi": "Adhyay 84 ki khali kaksha shant, shantipurna dhoop se nahakar chhatron ki pratiksha kar rahi hai."
     },
     {
       "id": "p09",
@@ -137,7 +153,9 @@
       "characters": [],
       "action": "Inside the renovated Kang apartment: the new polaroid photo rests beside their parents' memorial in warm morning light.",
       "mood": "a peaceful home",
-      "sfx": "DOMESTIC TRANQUILITY..."
+      "sfx": "DOMESTIC TRANQUILITY...",
+      "prose_en": "Inside the renovated Kang apartment: the new polaroid photo rests beside their parents' memorial in warm morning light.",
+      "prose_hi": "Punarnirmit kang apartment ke ander: naya poleroid photo subah ki garm roshni mein unke mata-pita ke smarak ke bagal mein rakha gaya hai."
     },
     {
       "id": "p10",
@@ -148,7 +166,9 @@
       ],
       "action": "Ha-Jun slips on his navy academy uniform blazer, fastening the silver buttons with a relaxed smile.",
       "mood": "the student returns",
-      "sfx": "BUTTON-SNAP..."
+      "sfx": "BUTTON-SNAP...",
+      "prose_en": "Ha-Jun slips on his navy academy uniform blazer, fastening the silver buttons with a relaxed smile.",
+      "prose_hi": "Ha-jun ne apni nausena akadami ki vardi ka blazer pahan liya aur ek aaramdayak muskan ke saath chandi ke button bandhe."
     },
     {
       "id": "p11",
@@ -170,7 +190,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun straightens Ha-Jun's navy tie: 'Still can't tie a Windsor knot properly, can you?'.",
+      "prose_hi": "Taaye-jun ne ha-jun ki navy tie ko sidha kiya: 'abhi bhi windsor gaanth ko theek se nahin baandh sakte, kya aap aisa kar sakte han?'."
     },
     {
       "id": "p12",
@@ -192,7 +214,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun smiles warmly: 'Some things should never change.'.",
+      "prose_hi": "Ha-jun garmjoshi se muskurate han: 'kuchh chijen kabhi nahin badalani chahiye.'"
     },
     {
       "id": "p13",
@@ -212,7 +236,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae waves from the cable car terminal: 'Hurry up! We're riding down together!'.",
+      "prose_hi": "Min-je cable car terminal se tarangen: 'jaldi karo! hum ek saath neeche sawari kar rahe han!"
     },
     {
       "id": "p14",
@@ -232,7 +258,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "General Baek enters the cable car cabin, chuckling: 'Shotgun on the window seat!'.",
+      "prose_hi": "Janaral bak cable car cabin mein pravesh karte hue hanste hue kahte han: 'khidki ki seat par shotgan!'."
     },
     {
       "id": "p15",
@@ -244,7 +272,9 @@
       ],
       "action": "The red cable car glides down the mountain cable over pine trees, carrying the family toward the city streets.",
       "mood": "homeward descent",
-      "sfx": "CABLE HUMMM..."
+      "sfx": "CABLE HUMMM...",
+      "prose_en": "The red cable car glides down the mountain cable over pine trees, carrying the family toward the city streets.",
+      "prose_hi": "Lal cable car cheed ke pedon ke upar se pahadi cable ke neeche sarakti hui parivar ko shahar ki sadkon ki or le jaati hai."
     },
     {
       "id": "p16",
@@ -266,7 +296,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Inside the glass cabin: Min-Jae snaps funny selfies with Ha-Jun, while Kuro investigates Baek's shiny coat buttons.",
+      "prose_hi": "Kaanch ke cabin ke ander: min-je ne ha-jun ke saath majedar selfie khinchi, jabki kuro ne bake ke chamakdar coat ke batanon ki jaanch ki."
     },
     {
       "id": "p17",
@@ -277,7 +309,9 @@
       ],
       "action": "Ha-Jun flashes a goofy two-finger peace sign with his tongue out, laughing like any ordinary 20-year-old college boy.",
       "mood": "pure youth unburdened",
-      "sfx": "LAUGHTER-SNAP!!"
+      "sfx": "LAUGHTER-SNAP!!",
+      "prose_en": "Ha-Jun flashes a goofy two-finger peace sign with his tongue out, laughing like any ordinary 20-year-old college boy.",
+      "prose_hi": "Ha-jun kisi bhi samanya 20 varshiya college ladke ki tarah hanste hue, apni jeebh bahar nikalkar do ungaliyon wala shanti chinh dikhata hai."
     },
     {
       "id": "p18",
@@ -288,7 +322,9 @@
       ],
       "action": "The car docks at the busy mountain base terminal; commuters, children with backpacks, and vendors bustle around.",
       "mood": "bustling morning city",
-      "sfx": "COMMUTER CHATTER..."
+      "sfx": "COMMUTER CHATTER...",
+      "prose_en": "The car docks at the busy mountain base terminal; commuters, children with backpacks, and vendors bustle around.",
+      "prose_hi": "Kar vyast parvatiya base terminal par rukti hai; yatri, backpack wale bacche aur vikreta charon or halchal karte han."
     },
     {
       "id": "p19",
@@ -310,7 +346,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "The group walks down the tree-lined sidewalk, blending seamlessly into the flow of ordinary human life.",
+      "prose_hi": "Samuh pedon se ghire footpath par chalta hai aur samanya manav jeevan ke pravah mein sahajta se ghulmil jata hai."
     },
     {
       "id": "p20",
@@ -319,7 +357,9 @@
       "characters": [],
       "action": "A five-year-old girl trips, her ice cream scoop tumbling toward the concrete sidewalk.",
       "mood": "small everyday moment",
-      "sfx": "GASP-DROP..."
+      "sfx": "GASP-DROP...",
+      "prose_en": "A five-year-old girl trips, her ice cream scoop tumbling toward the concrete sidewalk.",
+      "prose_hi": "Ek paanch saal ki ladki yatra kar rahi hai, uska icecream scoop concrete ke footpath ki or gir raha hai."
     },
     {
       "id": "p21",
@@ -330,7 +370,9 @@
       ],
       "action": "Ha-Jun casually catches the ice cream scoop mid-air with an invisible puff of mana, placing it safely back on her cone.",
       "mood": "small acts of kindness",
-      "sfx": "SOFT CATCH..."
+      "sfx": "SOFT CATCH...",
+      "prose_en": "Ha-Jun casually catches the ice cream scoop mid-air with an invisible puff of mana, placing it safely back on her cone.",
+      "prose_hi": "Ha-jun ne man ki adrishya kash ke saath hawa mein icecream scoop ko laparvahi se pakad liya aur surakshit roop se wapas apne kon par rakh diya."
     },
     {
       "id": "p22",
@@ -352,7 +394,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun winks at the little girl: 'Careful there, little one. Enjoy your breakfast!'.",
+      "prose_hi": "Ha-jun ne chhoti ladki ki or aankh maarte hue kaha: 'savdhan raho, chhoti bacchi. apne nashte ka anand len!'"
     },
     {
       "id": "p23",
@@ -372,7 +416,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The mother bows with a warm smile: 'Thank you, young man!' Ha-Jun waves back cheerfully.",
+      "prose_hi": "Maa garm muskan ke saath jhukti hai: 'dhanyavad, jawan aadmi!' ha-jun khushi se wapas lautata hai."
     },
     {
       "id": "p24",
@@ -394,7 +440,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun bumps Ha-Jun's shoulder gently: 'You're a natural at this, you know.'.",
+      "prose_hi": "Taaye-jun ne ha-jun ke kandhe ko dheere se thapthpaya: 'aap isme swabhavik han, aap jaante han.'"
     },
     {
       "id": "p25",
@@ -405,7 +453,9 @@
       ],
       "action": "Ahead through the golden trees, the clocktower of Saint Mirren University chimes eight o'clock.",
       "mood": "the bell chimes eight",
-      "sfx": "CHIME-DONG-DONG..."
+      "sfx": "CHIME-DONG-DONG...",
+      "prose_en": "Ahead through the golden trees, the clocktower of Saint Mirren University chimes eight o'clock.",
+      "prose_hi": "Sunahre pedon ke beech se aage, sent miren vishwavidyalaya ka ghantaghar aath baje ki ghanti bajata hai."
     },
     {
       "id": "p26",
@@ -427,7 +477,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The three young men jog toward the university archway, wind whipping their hair, backpacks bouncing happily.",
+      "prose_hi": "Teenon yuvak vishwavidyalaya ke pravesh dwar ki or daud rahe han, hawa unke baalon ko chhoo rahi hai, unke backpack khushi se uchhal rahe han."
     },
     {
       "id": "p27",
@@ -449,7 +501,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun laughs, accelerating ahead: 'You're buying lunch today, Min-Jae!!'.",
+      "prose_hi": "Ha-jun hansta hai, teji se aage badhta hai: 'aap aaj dopahar ka bhojan kharid rahe han, min-je!!'."
     },
     {
       "id": "p28",
@@ -470,7 +524,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "High in the azure heavens, Kuro soars in majestic circles, watching his family run with joy.",
+      "prose_hi": "Nile aakash mein unche, kuro rajsi mandaliyon mein udta hai, apne parivar ko khushi se daudte hue dekhta hai."
     },
     {
       "id": "p29",
@@ -491,7 +547,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun glances over his shoulder, looking straight into the reader's eyes with a breathtaking, radiant, thankful smile.",
+      "prose_hi": "Ha-jun apne kandhe par nazar dalta hai, ek lubhavni, ujjwal, aabhari muskan ke saath sidhe pathak ki aankhon mein dekhta hai."
     },
     {
       "id": "p30",
@@ -513,7 +571,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun, Tae-Jun, and Min-Jae run through the grand neoclassical gates into the blazing golden sunrise, with Kuro soaring above them into eternity!.",
+      "prose_hi": "Ha-jun, taaye-jun, aur min-je bhavya navashastriy dwaron se hokar dhadhakte sunhare suryoday ki or daudte han, kuro unke upar anant kaal tak udta hai!"
     }
   ]
 }

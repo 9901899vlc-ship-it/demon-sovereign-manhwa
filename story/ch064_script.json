@@ -13,7 +13,9 @@
       "characters": [],
       "action": "A faded 1990s red-brick apartment complex stands quiet under an amber and purple twilight sky.",
       "mood": "melancholic homecoming",
-      "sfx": "WIND SIGH..."
+      "sfx": "WIND SIGH...",
+      "prose_en": "A faded 1990s red-brick apartment complex stands quiet under an amber and purple twilight sky.",
+      "prose_hi": "1990 ke dashak ka feeka lal-int wala apartment parisar amber aur baingani godhuli aakash ke neeche shant khada hai."
     },
     {
       "id": "p02",
@@ -35,7 +37,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun stands in the dim hallway, his hand hesitating inches away from the peeling wooden door labeled 402.",
+      "prose_hi": "Ha-jun mand galiyare mein khada hai, uska haath 402 label wale chheelate lakdi ke darvaje se kuch inch ki doori par jhijhak raha hai."
     },
     {
       "id": "p03",
@@ -54,7 +58,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae gently rests his hand on Ha-Jun's shoulder: 'We are with you, bro. Take your time.'.",
+      "prose_hi": "Min-je ne dheere se ha-jun ke kandhe par apna haath rakha: 'ham tumhare saath han, bhai. paryapt samay lo.'."
     },
     {
       "id": "p04",
@@ -76,7 +82,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro tilts his raven head, his ruby eyes glinting in the dark: 'A faint blood ward still lingers on this threshold.'.",
+      "prose_hi": "Kuro apna kaua sir jhukata hai, uski lal aankhen andhere mein chamakti han: 'ek behosh khoon ka ward abhi bhi is dahalij par maujood hai.'"
     },
     {
       "id": "p05",
@@ -87,7 +95,9 @@
       ],
       "action": "A tiny spark of Ha-Jun's violet mana touches the rusted brass lock; the ancient blood seal recognizes him and dissolves.",
       "mood": "ward dissolving",
-      "sfx": "CHIME-CLICK..."
+      "sfx": "CHIME-CLICK...",
+      "prose_en": "A tiny spark of Ha-Jun's violet mana touches the rusted brass lock; the ancient blood seal recognizes him and dissolves.",
+      "prose_hi": "Ha-jun ke baingani man ki ek chhoti si chingari jung lage pital ke taale ko chhuti hai; prachin rakt seal use pehchan leti hai aur ghul jaati hai."
     },
     {
       "id": "p06",
@@ -98,7 +108,9 @@
       ],
       "action": "The door groans inward, revealing dust motes floating in sunbeams across a frozen-in-time living room.",
       "mood": "stepping into the past",
-      "sfx": "CREEEEAK..."
+      "sfx": "CREEEEAK...",
+      "prose_en": "The door groans inward, revealing dust motes floating in sunbeams across a frozen-in-time living room.",
+      "prose_hi": "Darwaza andar ki or karahata hai, jisse kamre mein jame hue samay mein dhoop ki kiranon mein dhul ke kan tairte hue dikhai dete han."
     },
     {
       "id": "p07",
@@ -109,7 +121,9 @@
       ],
       "action": "White dust sheets drape over sofas; an old tube television and yellowed family calendar still hang on the wall.",
       "mood": "haunting silence",
-      "sfx": "DUST SHIFT..."
+      "sfx": "DUST SHIFT...",
+      "prose_en": "White dust sheets drape over sofas; an old tube television and yellowed family calendar still hang on the wall.",
+      "prose_hi": "Sophon par safed dhul ki chadren bichhi hui han; ek purana tube television aur peela parivarik calendar abhi bhi deewar par tanga hua hai."
     },
     {
       "id": "p08",
@@ -120,7 +134,9 @@
       ],
       "action": "Ha-Jun slowly walks past cracked family portraits, his boots leaving clean footprints in the thick grey dust.",
       "mood": "somber journey",
-      "sfx": "FOOTSTEPS..."
+      "sfx": "FOOTSTEPS...",
+      "prose_en": "Ha-Jun slowly walks past cracked family portraits, his boots leaving clean footprints in the thick grey dust.",
+      "prose_hi": "Ha-jun dhire-dhire toote hue parivarik chitron ke peeche chalta hai, uske jute ghani bhuri dhul mein saaf pairon ke nishan chhod rahe han."
     },
     {
       "id": "p09",
@@ -131,7 +147,9 @@
       ],
       "action": "The door marked with a peeling soccer sticker opens into his elder brother's private sanctum.",
       "mood": "entering the brother's room",
-      "sfx": "CLICK-CREAK..."
+      "sfx": "CLICK-CREAK...",
+      "prose_en": "The door marked with a peeling soccer sticker opens into his elder brother's private sanctum.",
+      "prose_hi": "Football ke chhilate sticker wala darwaza unke bade bhai ke niji garbhgrih mein khulta hai."
     },
     {
       "id": "p10",
@@ -142,7 +160,9 @@
       ],
       "action": "Bookshelves filled with engineering texts, a study desk covered in notebooks, and a guitar case in the corner.",
       "mood": "intact sanctuary",
-      "sfx": "SILENCE..."
+      "sfx": "SILENCE...",
+      "prose_en": "Bookshelves filled with engineering texts, a study desk covered in notebooks, and a guitar case in the corner.",
+      "prose_hi": "Engineering granthon se bhari kitabon ki almariyan, notebooks se dhaka ek adhyayan desk aur kone mein ek guitar kes."
     },
     {
       "id": "p11",
@@ -163,7 +183,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun touches the worn wooden desk edge where Tae-Jun used to help him with elementary math homework.",
+      "prose_hi": "Ha-jun us ghise-pite lakdi ke desk kinare ko chhuta hai jahan taaye-jun prathmik ganit ke homework mein uski madad karta tha."
     },
     {
       "id": "p12",
@@ -185,7 +207,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro taps his obsidian beak against the left drawer cavity: 'Look beneath the bottom panel, Ha-Jun.'.",
+      "prose_hi": "Kuro apni obsidian chonch ko bai daraaj ki guha par thapthapata hai: 'nichale panel ke neeche dekho, ha-jun.'"
     },
     {
       "id": "p13",
@@ -196,7 +220,9 @@
       ],
       "action": "Ha-Jun slides out the bottom drawer; feeling along the rear mahogany grain, he clicks a spring-loaded latch.",
       "mood": "secret mechanism",
-      "sfx": "SNAP-CLICK!"
+      "sfx": "SNAP-CLICK!",
+      "prose_en": "Ha-Jun slides out the bottom drawer; feeling along the rear mahogany grain, he clicks a spring-loaded latch.",
+      "prose_hi": "Ha-jun neeche ki daraaj se bahar nikalta hai; peeche ke mahogani daane ko mahsoos karte hue, wah spring-loded kundi ko click karta hai."
     },
     {
       "id": "p14",
@@ -207,7 +233,9 @@
       ],
       "action": "A secret false bottom tilts open, exposing a velvet-lined lead box sealed with silver wire.",
       "mood": "unearthing relics",
-      "sfx": "CREAK..."
+      "sfx": "CREAK...",
+      "prose_en": "A secret false bottom tilts open, exposing a velvet-lined lead box sealed with silver wire.",
+      "prose_hi": "Ek gupt jhutha tal khulta hai, jo chandi ke taar se seal kiye gaye makhamli-rekha wale sise ke bakse ko ujagar karta hai."
     },
     {
       "id": "p15",
@@ -218,7 +246,9 @@
       ],
       "action": "Inside lies an old glossy photograph, an encrypted optical mini-disc, and a silver hunter dog-tag.",
       "mood": "priceless findings",
-      "sfx": "GASP..."
+      "sfx": "GASP...",
+      "prose_en": "Inside lies an old glossy photograph, an encrypted optical mini-disc, and a silver hunter dog-tag.",
+      "prose_hi": "Ander ek purani chamakdar tasweer, ek encrypted optical mini-disk aur ek chandi ka shikari kutta-tag hai."
     },
     {
       "id": "p16",
@@ -236,7 +266,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "The photograph shows 7-year-old Ha-Jun eating ice cream while 12-year-old Tae-Jun ruffles his hair with a big brotherly grin.",
+      "prose_hi": "Tasveer mein 7 varshiya ha-jun ko icecream khate hue dikhaya gaya hai, jabki 12 varshiya taaye-jun bade bhai jaisi muskan ke saath apne baalon ko sahala raha hai."
     },
     {
       "id": "p17",
@@ -258,7 +290,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's eyes narrow as he notices the observation deck reflection behind them in the glass.",
+      "prose_hi": "Ha-jun ki aankhen sankirna ho gai kyonki usne kaanch mein apne peeche avlokan deck ka pratibimb dekha."
     },
     {
       "id": "p18",
@@ -267,7 +301,9 @@
       "characters": [],
       "action": "Reflected in the glass twenty feet behind the boys: a tall man in a black trench coat with burning crimson eyes watching them.",
       "mood": "sinister stalker",
-      "sfx": "CHILL..."
+      "sfx": "CHILL...",
+      "prose_en": "Reflected in the glass twenty feet behind the boys: a tall man in a black trench coat with burning crimson eyes watching them.",
+      "prose_hi": "Ladkon ke bees feet peeche sheeshe mein pratibimbit hua: kale trench coat mein ek lamba aadmi aur jalti hui lal aankhen unhen dekh rahi thin."
     },
     {
       "id": "p19",
@@ -289,7 +325,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro breathes a wisp of purple hellfire across the photograph's surface without burning the paper.",
+      "prose_hi": "Kuro kagaj ko jalaye bina tasveer ki satah par baingani narkankaal ki saans chhodta hai."
     },
     {
       "id": "p20",
@@ -298,7 +336,9 @@
       "characters": [],
       "action": "Written in glowing purple blood ink on the back: 'Project Chimera. Section 9 Vault 7. Don't trust Chairman Song.'",
       "mood": "hidden warning",
-      "sfx": "GLOW..."
+      "sfx": "GLOW...",
+      "prose_en": "Written in glowing purple blood ink on the back: 'Project Chimera. Section 9 Vault 7. Don't trust Chairman Song.'.",
+      "prose_hi": "Pith par chamakti baingani rakt syahi se likha: 'project chimera. dhara 9 walt 7. chairman song par bharosa na karen.'"
     },
     {
       "id": "p21",
@@ -320,7 +360,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun grips the photo; his knuckles turn white as memories of that summer flash with new dark meaning.",
+      "prose_hi": "Ha-jun ne photo pakad li; jaise hi us garmi ki yaadein naye gahre arth ke saath chamakti han, uske por safed ho jaate han."
     },
     {
       "id": "p22",
@@ -340,7 +382,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae gasps: 'Section 9 Vault 7? That was the classified deep bio-research wing shut down five years ago!'.",
+      "prose_hi": "Min-je haanfte hue kahte han: 'dhara 9 walt 7? wah vargikrit gahan jaiv-anusandhan wing tha jise paanch saal pehle band kar diya gaya tha!'."
     },
     {
       "id": "p23",
@@ -351,7 +395,9 @@
       ],
       "action": "Ha-Jun lifts the heavy metallic optical disc; its surface is etched with micro-circuits and demonic sigils.",
       "mood": "the second key",
-      "sfx": "METALLIC CLINK..."
+      "sfx": "METALLIC CLINK...",
+      "prose_en": "Ha-Jun lifts the heavy metallic optical disc; its surface is etched with micro-circuits and demonic sigils.",
+      "prose_hi": "Ha-jun bhari dhatvik optical disk uthata hai; iski satah sukshm-sarkit aur rakshasi sigil se ukeri gai hai."
     },
     {
       "id": "p24",
@@ -362,7 +408,9 @@
       ],
       "action": "Ha-Jun's right iris shifts into the radiant golden pupil of the Eye of the Night.",
       "mood": "relic activation",
-      "sfx": "PULSE-GLOW!!"
+      "sfx": "PULSE-GLOW!!",
+      "prose_en": "Ha-Jun's right iris shifts into the radiant golden pupil of the Eye of the Night.",
+      "prose_hi": "Ha-jun ki dahini paritarika raat ki aankh ki chamakdar sunhari putli mein badal jaati hai."
     },
     {
       "id": "p25",
@@ -373,7 +421,9 @@
       ],
       "action": "The disc responds to his demonic mana, projecting floating crimson-cyan volumetric light particles into the room.",
       "mood": "hologram booting",
-      "sfx": "HUMMMMM..."
+      "sfx": "HUMMMMM...",
+      "prose_en": "The disc responds to his demonic mana, projecting floating crimson-cyan volumetric light particles into the room.",
+      "prose_hi": "Disk uske rakshasi man par pratikriya karti hai, kamre mein tairte hue crimson-siyan volumetric prakash kanon ko prakshepit karti hai."
     },
     {
       "id": "p26",
@@ -382,7 +432,9 @@
       "characters": [],
       "action": "Static and digital scanlines resolve into the life-sized three-dimensional projection of a young man.",
       "mood": "projection forming",
-      "sfx": "STATIC-BEEP..."
+      "sfx": "STATIC-BEEP...",
+      "prose_en": "Static and digital scanlines resolve into the life-sized three-dimensional projection of a young man.",
+      "prose_hi": "Sthaitik aur digital scanlinen ek yuva vyakti ke jivan-aakar ke tri-aayami prakshepan mein vilin ho jaati han."
     },
     {
       "id": "p27",
@@ -391,7 +443,9 @@
       "characters": [],
       "action": "A 15-year-old Kang Tae-Jun appears—wearing a battered leather jacket, bandaged hands, and tired, resolute eyes.",
       "mood": "the brother appears",
-      "sfx": "VIBRATION..."
+      "sfx": "VIBRATION...",
+      "prose_en": "A 15-year-old Kang Tae-Jun appears—wearing a battered leather jacket, bandaged hands, and tired, resolute eyes.",
+      "prose_hi": "Ek 15 varshiya kang taaye-jun prakat hota hai - ek fata hua chamde ka jacket pahane hue, hathon par patti bandhi hui, aur thaki hui, dridh aankhen."
     },
     {
       "id": "p28",
@@ -410,7 +464,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The holographic recording speaks in a warm, steady voice: 'Ha-Jun... Agar tum yeh dekh rahe ho...'.",
+      "prose_hi": "Holographik recording garm, sthir awaz mein bolti hai: 'ha-jun... agar tum yeh dekh rahe ho...'."
     },
     {
       "id": "p29",
@@ -432,7 +488,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tears stream down Ha-Jun's cheeks as he reaches out toward the flickering light, unable to touch him.",
+      "prose_hi": "Jaise hi ha-jun timtimati roshni ki or badhta hai, use chhune mein asamarth hota hai, ha-jun ke gaalon se aansu bahane lagte han."
     },
     {
       "id": "p30",
@@ -452,7 +510,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun's holographic eyes turn deadly serious: 'Listen carefully. Our parents didn't die in an accident. They were hunted.'.",
+      "prose_hi": "Taaye-jun ki holographic aankhen ghatak roop se gambhir ho jaati han: 'dhyan se suno. hamare mata-pita kisi durghatna mein nahin mare. unka shikar kiya gaya.'"
     }
   ]
 }

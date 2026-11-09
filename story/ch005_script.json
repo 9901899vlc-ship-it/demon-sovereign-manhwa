@@ -10,23 +10,47 @@
       "id": "p01",
       "shot": "low-angle medium close-up",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "17yo Ha-Jun kneeling in the rain holding the glowing obsidian feather close to his chest, steam rising from his soaked navy blazer.",
       "mood": "heavy, solemn, cold",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "Kyun... yeh feather itna jaana-pehchana lag raha hai?", "at": [0.55, 0.12]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Kyun... yeh feather itna jaana-pehchana lag raha hai?",
+          "at": [
+            0.55,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "17-year-old Ha-Jun kneeling in the rain holding the glowing obsidian feather close to his chest, steam rising from his soaked navy blazer.",
+      "prose_hi": "17 varshiya ha-jun baarish mein ghutnon ke bal baithkar chamakte obsidian pankh ko apni chhati ke paas rakhe hue hai, uske bheege hue navy blazer se bhaap uth rahi hai."
     },
     {
       "id": "p02",
       "shot": "macro eye close-up",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Extreme close-up on Ha-Jun's dark brown eyes trembling as radiant violet reflections trigger a deep, buried memory.",
       "mood": "haunting, sudden realization",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "Yeh khushboo... yeh ajeeb thandak...", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Yeh khushboo... yeh ajeeb thandak...",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun's dark brown eyes trembling as radiant violet reflections trigger a deep, buried memory.",
+      "prose_hi": "Ha-jun ki gahre bhure rang ki aankhen chamakdar baingani pratibimbon ke roop mein kamp rahi hain jo ek gahri, dabi hui smriti ko janm deti han."
     },
     {
       "id": "p03",
@@ -35,7 +59,9 @@
       "characters": [],
       "action": "The rain sound distorts into deep sub-bass frequencies as the dark rainy sky warps into a blurry monochrome vignette.",
       "mood": "disorienting, psychological shift",
-      "sfx": "WHUUUUMMM..."
+      "sfx": "WHUUUUMMM...",
+      "prose_en": "The rain sound distorts into deep sub-bass frequencies as the dark rainy sky warps into a blurry monochrome vignette.",
+      "prose_hi": "Barish ki dhwani gahri up-bas aavrittiyon mein vikrit ho jaati hai kyonki andhera barsati aakash dhundhale monochrome vignet mein badal jata hai."
     },
     {
       "id": "p04",
@@ -45,121 +71,235 @@
       "action": "Flashback 7 years ago: A narrow, decaying industrial alleyway at midnight in torrential rain, rusted fire escapes and flickering yellow streetlights.",
       "mood": "dark, foreboding, retro memory",
       "dialogue": [
-        {"type": "narration", "text": "Saat saal pehle... us raat bhi aisi hi baarish thi.", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "narration",
+          "text": "Saat saal pehle... us raat bhi aisi hi baarish thi.",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "A narrow, decaying industrial alleyway at midnight in torrential rain, rusted fire escapes and flickering yellow streetlights.",
+      "prose_hi": "Aadhi raat ko musladhar baarish mein ek sankari, khastahal audyogik gali, jung lagi aag aur timtimati pili street liten."
     },
     {
       "id": "p05",
       "shot": "low-angle medium shot",
       "setting": "rainy alleyway (7 years ago)",
-      "characters": ["young_hajun"],
+      "characters": [
+        "young_hajun"
+      ],
       "action": "10-year-old young Ha-Jun cowering behind a rusted metal dumpster, trembling violently in soaked oversized clothes.",
       "mood": "terrified, helpless childhood",
       "dialogue": [
-        {"type": "thought", "speaker": "young_hajun", "text": "B-Bhaiya...!", "at": [0.55, 0.15]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "young_hajun",
+          "text": "B-Bhaiya...!",
+          "at": [
+            0.55,
+            0.15
+          ]
+        }
+      ],
+      "prose_en": "10-year-old young Ha-Jun cowering behind a rusted metal dumpster, trembling violently in soaked oversized clothes.",
+      "prose_hi": "10 varshiya yuva ha-jun jung lage dhatu ke koodedaan ke peeche bheege hue bade kapdon mein buri tarah kamp raha tha."
     },
     {
       "id": "p06",
       "shot": "heroic low-angle two-shot",
       "setting": "rainy alleyway (7 years ago)",
-      "characters": ["young_hajun", "elder_brother"],
+      "characters": [
+        "young_hajun",
+        "elder_brother"
+      ],
       "action": "Young elder brother Kang Tae-Jun (16yo, tall, black trench coat, sharp jawline) stepping firmly between little Ha-Jun and the alley entrance.",
       "mood": "protective, resolute",
       "dialogue": [
-        {"type": "speech", "speaker": "elder_brother", "text": "Darna mat, Ha-Jun. Main hoon na.", "at": [0.50, 0.15]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "elder_brother",
+          "text": "Darna mat, Ha-Jun. Main hoon na.",
+          "at": [
+            0.5,
+            0.15
+          ]
+        }
+      ],
+      "prose_en": "Young elder brother Kang Tae-Jun (16yo, tall, black trench coat, sharp jawline) stepping firmly between little Ha-Jun and the alley entrance.",
+      "prose_hi": "Yuva bada bhai kang taaye-jun (16 varshiy, lamba, kala trench kot, nukila jabada) chhote ha-jun aur gali ke pravesh dwar ke beech majbuti se kadam rakh raha hai."
     },
     {
       "id": "p07",
       "shot": "close-up portrait",
       "setting": "rainy alleyway (7 years ago)",
-      "characters": ["elder_brother"],
+      "characters": [
+        "elder_brother"
+      ],
       "action": "Tae-Jun turning his head back over his shoulder with a gentle, reassuring smile, despite blood dripping from a cut on his brow.",
       "mood": "poignant, selfless bravery",
       "dialogue": [
-        {"type": "speech", "speaker": "elder_brother", "text": "Apni aankhein band kar lo. Sab theek ho jayega.", "at": [0.52, 0.14]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "elder_brother",
+          "text": "Apni aankhein band kar lo. Sab theek ho jayega.",
+          "at": [
+            0.52,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Tae-Jun turning his head back over his shoulder with a gentle, reassuring smile, despite blood dripping from a cut on his brow.",
+      "prose_hi": "Mathe par chot ke karan khoon tapakne ke bavjud, taaye-jun ne ek saumya, aashvast muskan ke saath apna sir apne kandhe par peeche ghumaya."
     },
     {
       "id": "p08",
       "shot": "wide high-angle shot",
       "setting": "rainy alleyway (7 years ago)",
-      "characters": ["elder_brother", "demonic_beasts"],
+      "characters": [
+        "elder_brother",
+        "demonic_beasts"
+      ],
       "action": "Across the dark flooded alley, multiple shadowy demonic beasts with glowing crimson eyes and razor claws emerge from swirling black mist.",
       "mood": "nightmarish, overwhelming dread",
-      "sfx": "GRRRRRR..."
+      "sfx": "GRRRRRR...",
+      "prose_en": "Across the dark flooded alley, multiple shadowy demonic beasts with glowing crimson eyes and razor claws emerge from swirling black mist.",
+      "prose_hi": "Andheri baadh wali gali ke par, chamakti lal aankhon aur ustare ke panjon ke saath kai chhayadar rakshasi janwar ghumte kale kohre se bahar nikalte han."
     },
     {
       "id": "p09",
       "shot": "dynamic impact action shot",
       "setting": "rainy alleyway (7 years ago)",
-      "characters": ["elder_brother", "demonic_beast"],
+      "characters": [
+        "elder_brother",
+        "demonic_beast"
+      ],
       "action": "A monstrous demonic beast lunges forward with jagged claws tearing through the brick walls of the alley.",
       "mood": "violent, kinetic burst",
-      "sfx": "KRAAASH!!"
+      "sfx": "KRAAASH!!",
+      "prose_en": "A monstrous demonic beast lunges forward with jagged claws tearing through the brick walls of the alley.",
+      "prose_hi": "Ek rakshasi janwar gali ki int ki diwaron ko chirate hue dantedar panjon ke saath aage badhta hai."
     },
     {
       "id": "p10",
       "shot": "dynamic medium shot",
       "setting": "rainy alleyway (7 years ago)",
-      "characters": ["elder_brother"],
+      "characters": [
+        "elder_brother"
+      ],
       "action": "Tae-Jun raising his bare hand, manifesting a glowing dark-blue and violet demonic energy barrier that deflects the beast's attack.",
       "mood": "supernatural clash, intense struggle",
-      "sfx": "BZZZZT!!"
+      "sfx": "BZZZZT!!",
+      "prose_en": "Tae-Jun raising his bare hand, manifesting a glowing dark-blue and violet demonic energy barrier that deflects the beast's attack.",
+      "prose_hi": "Taaye-jun ne apne nange haath ko upar uthaya, ek chamakdar gahre-nile aur baingani rakshasi urja avrodh ko prakat kiya jo janwar ke hamle ko rok deta hai."
     },
     {
       "id": "p11",
       "shot": "tight close-up",
       "setting": "rainy alleyway (7 years ago)",
-      "characters": ["elder_brother"],
+      "characters": [
+        "elder_brother"
+      ],
       "action": "Tae-Jun gritting his teeth in strain as fine cracks spiderweb across the magical barrier under crushing demonic force.",
       "mood": "breaking point, desperation",
       "dialogue": [
-        {"type": "thought", "speaker": "elder_brother", "text": "Yeh log akele nahi aaye...!", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "elder_brother",
+          "text": "Yeh log akele nahi aaye...!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Tae-Jun gritting his teeth in strain as fine cracks spiderweb across the magical barrier under crushing demonic force.",
+      "prose_hi": "Taaye-jun apne daanton ko jor se peeste hue rakshasi shakti ke tahat jaadui badha ke paar makdi ke jale ko tod deta hai."
     },
     {
       "id": "p12",
       "shot": "ground-level macro shot",
       "setting": "rainy alleyway (7 years ago)",
-      "characters": ["young_hajun"],
+      "characters": [
+        "young_hajun"
+      ],
       "action": "Little Ha-Jun peeking through his trembling, rain-soaked fingers behind the dumpster, pupils shrunk in sheer terror.",
       "mood": "traumatizing fear",
       "dialogue": [
-        {"type": "thought", "speaker": "young_hajun", "text": "M-Mujhe kuch karna hoga... lekin mere pair hil nahi rahe...!", "at": [0.55, 0.16]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "young_hajun",
+          "text": "M-Mujhe kuch karna hoga... lekin mere pair hil nahi rahe...!",
+          "at": [
+            0.55,
+            0.16
+          ]
+        }
+      ],
+      "prose_en": "Little Ha-Jun peeking through his trembling, rain-soaked fingers behind the dumpster, pupils shrunk in sheer terror.",
+      "prose_hi": "Chhota ha-jun koodedaan ke peeche apni compati, baarish se bheegi hui ungaliyon se jhaank raha hai, putliyan behad dar se sikud gai han."
     },
     {
       "id": "p13",
       "shot": "intense low-angle medium shot",
       "setting": "rainy alleyway (7 years ago)",
-      "characters": ["elder_brother"],
+      "characters": [
+        "elder_brother"
+      ],
       "action": "Tae-Jun shouting back with fierce desperation, hair whipped by rain and mana shockwaves.",
       "mood": "urgent, emotional command",
       "dialogue": [
-        {"type": "shout", "speaker": "elder_brother", "text": "BHAAGO, HA-JUN! PEECHE MAT DEKHNA! MUJHSE VAADA KARO KI TUM JIYOGE!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "shout",
+          "speaker": "elder_brother",
+          "text": "BHAAGO, HA-JUN! PEECHE MAT DEKHNA! MUJHSE VAADA KARO KI TUM JIYOGE!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Tae-Jun shouting back with fierce desperation, hair whipped by rain and mana shockwaves.",
+      "prose_hi": "Taaye-jun bhayankar hatasha ke saath chilla raha hai, baarish ke karan uske bal jhad gaye hain aur man ko jhatka lag raha hai."
     },
     {
       "id": "p14",
       "shot": "cinematic silhouette slash",
       "setting": "rainy alleyway (7 years ago)",
-      "characters": ["elder_brother", "shadow_beast"],
+      "characters": [
+        "elder_brother",
+        "shadow_beast"
+      ],
       "action": "A jagged black demonic spear pierces through Tae-Jun's shoulder from behind in a high-contrast black-and-crimson silhouette.",
       "mood": "shocking brutality, fatal strike",
-      "sfx": "SHLK-!!"
+      "sfx": "SHLK-!!",
+      "prose_en": "A jagged black demonic spear pierces through Tae-Jun's shoulder from behind in a high-contrast black-and-crimson silhouette.",
+      "prose_hi": "Ek dantedar kala rakshasi bhala ek ucch-viparit kale aur lal rang ke silhut mein taaye-jun ke kandhe ko peeche se chhedata hai."
     },
     {
       "id": "p15",
       "shot": "poignant slow-motion close-up",
       "setting": "rainy alleyway (7 years ago)",
-      "characters": ["young_hajun", "elder_brother"],
+      "characters": [
+        "young_hajun",
+        "elder_brother"
+      ],
       "action": "Tae-Jun's bloodied hand slipping away from little Ha-Jun's outstretched reaching fingers into a swirling void rift.",
       "mood": "tragic separation, heart-wrenching loss",
       "dialogue": [
-        {"type": "whisper", "speaker": "elder_brother", "text": "...Jiyo, mere bhai.", "at": [0.50, 0.15]}
-      ]
+        {
+          "type": "whisper",
+          "speaker": "elder_brother",
+          "text": "...Jiyo, mere bhai.",
+          "at": [
+            0.5,
+            0.15
+          ]
+        }
+      ],
+      "prose_en": "Tae-Jun's bloodied hand slipping away from little Ha-Jun's outstretched reaching fingers into a swirling void rift.",
+      "prose_hi": "Taaye-jun ka khoon se sana haath chhote ha-jun ki faili hui ungaliyon se fisalkar ek ghumte hue shunya daraar mein pahunch gaya."
     },
     {
       "id": "p16",
@@ -168,96 +308,165 @@
       "characters": [],
       "action": "The black rift collapses violently into a pinprick of light, sucking the demonic beasts and Tae-Jun away into complete silence.",
       "mood": "hollow emptiness, deafening silence",
-      "sfx": "VOOOOSH..."
+      "sfx": "VOOOOSH...",
+      "prose_en": "The black rift collapses violently into a pinprick of light, sucking the demonic beasts and Tae-Jun away into complete silence.",
+      "prose_hi": "Kali daraar hinsak roop se prakash ki chubhan mein dhah jaati hai, rakshasi janvaron aur taaye-jun ko puri tarah se shant kar deti hai."
     },
     {
       "id": "p17",
       "shot": "harsh reality snap-back macro",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Harsh snap back to present day: Extreme close-up of 17yo Ha-Jun's eye dilating in visceral panic on the cold wet rooftop floor.",
       "mood": "panic attack, psychological shock",
-      "sfx": "GASP!!"
+      "sfx": "GASP!!",
+      "prose_en": "Harsh snap back to present day: Extreme close-up of 17-year-old Ha-Jun's eye dilating in visceral panic on the cold wet rooftop floor.",
+      "prose_hi": "Vartaman samay ki kathor tasweer: chhat ke thande, gile farsh par 17 varshiya ha-jun ki aantein ghabrahat mein failti hui behad nazdeek se dikhai gain."
     },
     {
       "id": "p18",
       "shot": "low-angle ground impact",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun collapsing forward onto both hands and knees into a rain puddle, water splashing heavily over his battered uniform.",
       "mood": "physical collapse, utter defeat",
-      "sfx": "SPLAAASH!!"
+      "sfx": "SPLAAASH!!",
+      "prose_en": "Ha-Jun collapsing forward onto both hands and knees into a rain puddle, water splashing heavily over his battered uniform.",
+      "prose_hi": "Ha-jun donon hathon aur ghutnon ke bal aage ki or ek baarish ke pokhar mein gir gaya, uski fati hui vardi par pani ke tej chhinte pad rahe the."
     },
     {
       "id": "p19",
       "shot": "extreme high-angle wide panoramic shot",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Vast panoramic overhead view of the lonely, drenched teenager on the sprawling concrete university rooftop surrounded by towering skyscrapers.",
       "mood": "insignificance, crushing isolation",
       "dialogue": [
-        {"type": "narration", "text": "Us raat ke baad se... duniya ke liye wo gayab ho gaya.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "narration",
+          "text": "Us raat ke baad se... duniya ke liye wo gayab ho gaya.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Vast panoramic overhead view of the lonely, drenched teenager on the sprawling concrete university rooftop surrounded by towering skyscrapers.",
+      "prose_hi": "Vishal gaganchumbi imaaraton se ghire vishal concrete vishwavidyalaya ki chhat par akele, bheege hue kishore ka vishal manoram drishya."
     },
     {
       "id": "p20",
       "shot": "medium close-up",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun clutching his drenched black hair with his left hand, his right hand still desperately grasping Kuro's glowing feather.",
       "mood": "choking agony, overwhelming grief",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "Lekin sach toh yeh hai... maine unhe chhod diya tha.", "at": [0.52, 0.15]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Lekin sach toh yeh hai... maine unhe chhod diya tha.",
+          "at": [
+            0.52,
+            0.15
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun clutching his drenched black hair with his left hand, his right hand still desperately grasping Kuro's glowing feather.",
+      "prose_hi": "Ha-jun ne apne bheege kale baalon ko apne baen haath se pakad rakha hai, uska dahina haath abhi bhi utsukta se kuro ke chamakte pankh ko pakad raha hai."
     },
     {
       "id": "p21",
       "shot": "emotional crying portrait",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun's face tilted downward, hot tears streaming down his bruised cheeks, mouth wide in an agonizing, silent sob amidst heavy rainfall.",
       "mood": "devastating vulnerability, raw heartbreak",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "MAIN BHAAG GAYA THA! MAIN ITNA KAMZOR THA...!", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "MAIN BHAAG GAYA THA! MAIN ITNA KAMZOR THA...!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun's face tilted downward, hot tears streaming down his bruised cheeks, mouth wide in an agonizing, silent sob amidst heavy rainfall.",
+      "prose_hi": "Ha-jun ka chehra neeche ki or jhuka hua tha, uske chotil gaalon se garm aansu bah rahe the, bhari baarish ke beech uska muh pidadayak, khamosh siskiyon mein chauda tha."
     },
     {
       "id": "p22",
       "shot": "ground-level fist strike",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun slamming his left scraped fist hard into the wet concrete, sending rainwater spraying and hairline cracks radiating outward.",
       "mood": "self-directed rage, bitter fury",
-      "sfx": "THUDDD!!"
+      "sfx": "THUDDD!!",
+      "prose_en": "Ha-Jun slamming his left scraped fist hard into the wet concrete, sending rainwater spraying and hairline cracks radiating outward.",
+      "prose_hi": "Ha-jun ne apni bayin khurchi hui mutthi ko gile concrete mein jor se patak diya, jisse baarish ka pani fail gaya aur hairline ki dararen bahar ki or fail gain."
     },
     {
       "id": "p23",
       "shot": "dramatic close-up on feather",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "In his right palm, Kuro's feather begins vibrating and pulsing with an intense, rhythmic crimson-violet heartbeat glow.",
       "mood": "supernatural resonance, dark awakening",
-      "sfx": "DOKI... DOKI..."
+      "sfx": "DOKI... DOKI...",
+      "prose_en": "In his right palm, Kuro's feather begins vibrating and pulsing with an intense, rhythmic crimson-violet heartbeat glow.",
+      "prose_hi": "Uski dahini hatheli men, kuro ka pankh ek teevra, laybaddh crimson-bangni dil ki dhadkan ki chamak ke saath hilna aur spandit hona shuru kar deta hai."
     },
     {
       "id": "p24",
       "shot": "tight macro on clenched hand",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun clenching his right fist with furious intensity around the feather, heedless of the sharp obsidian quill pressing deep into his flesh.",
       "mood": "reckless desperation",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "Agar mere paas taqat hoti... toh kya bhaiya aaj yahan hote?", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Agar mere paas taqat hoti... toh kya bhaiya aaj yahan hote?",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun clenching his right fist with furious intensity around the feather, heedless of the sharp obsidian quill pressing deep into his flesh.",
+      "prose_hi": "Ha-jun ne pankh ke charon or tivra tivrata se apni dahini mutthi bheench lee hai, is baat ki parvah kiye bina ki tej obsidian kalam uske shareer mein gahrai tak ja rahi hai."
     },
     {
       "id": "p25",
       "shot": "extreme macro on skin puncture",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "The razor-sharp obsidian tip of the feather's quill punctures Ha-Jun's pale palm. A thick, vibrant droplet of scarlet blood wells up.",
       "mood": "visceral, tactile turning point",
-      "sfx": "DRIP..."
+      "sfx": "DRIP...",
+      "prose_en": "The razor-sharp obsidian tip of the feather's quill punctures Ha-Jun's pale palm. A thick, vibrant droplet of scarlet blood wells up.",
+      "prose_hi": "Pankh ki kalam ki ustra-nukili obsidian nok ha-jun ki pili hatheli ko chhed deti hai. lal rang ke rakt ki ek moti, jeevant boond ubhar aati hai."
     },
     {
       "id": "p26",
@@ -267,48 +476,88 @@
       "action": "The scarlet droplet touches the glowing violet barb of Kuro's feather. Time seems to slow to a standstill.",
       "mood": "moment of destiny, surreal stillness",
       "dialogue": [
-        {"type": "narration", "text": "Ek lahu ka qatra... aur sadiyon purana bandhan toot gaya.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "narration",
+          "text": "Ek lahu ka qatra... aur sadiyon purana bandhan toot gaya.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "The scarlet droplet touches the glowing violet barb of Kuro's feather. Time seems to slow to a standstill.",
+      "prose_hi": "Lal rang ki boond kuro ke pankh ki chamakti baingani patti ko chhuti hai. aisa lagta hai jaise samay dheema ho gaya hai."
     },
     {
       "id": "p27",
       "shot": "magical absorption macro",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "The scarlet blood does not wash away in the rain; it is drawn into the feather's veins, illuminating the black plumage with glowing red and violet circuits.",
       "mood": "arcane ignition, supernatural awe",
-      "sfx": "SHHHZZZZT..."
+      "sfx": "SHHHZZZZT...",
+      "prose_en": "The scarlet blood does not wash away in the rain; it is drawn into the feather's veins, illuminating the black plumage with glowing red and violet circuits.",
+      "prose_hi": "Lal rang ka khoon baarish mein nahin dhulta; yah pankh ki nason mein khincha jata hai, jo chamakdar lal aur baingani circuit ke saath kale pankh ko roshan karta hai."
     },
     {
       "id": "p28",
       "shot": "low-angle tracking shot",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun gasps, freezing in shock as burning supernatural heat surges directly from the feather into his wrist and forearm veins.",
       "mood": "shock, electric surge",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "Y-Yeh kya hai...?! Mere haath ke andar...!", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Y-Yeh kya hai...?! Mere haath ke andar...!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun gasps, freezing in shock as burning supernatural heat surges directly from the feather into his wrist and forearm veins.",
+      "prose_hi": "Ha-jun hanfta hai, sadme mein jam jata hai kyonki jalti hui alaukik garmi pankh se sidhe uski kalai aur baanh ki nason mein pravahit hoti hai."
     },
     {
       "id": "p29",
       "shot": "dynamic medium close-up",
       "setting": "university rooftop",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun staring wide-eyed at his right arm as black and violet demonic veins crawl beneath his skin, emitting white cleansing steam.",
       "mood": "terrifying awe, threshold crossed",
-      "sfx": "VZZZZZT!!"
+      "sfx": "VZZZZZT!!",
+      "prose_en": "Ha-Jun staring wide-eyed at his right arm as black and violet demonic veins crawl beneath his skin, emitting white cleansing steam.",
+      "prose_hi": "Ha-jun apni dahini bhuja ko badi-badi aankhon se dekh raha hai, uski tvacha ke neeche kali aur baingani rakshasi nasen reng rahi han, jisse safed safai wali bhaap nikal rahi hai."
     },
     {
       "id": "p30",
       "shot": "climactic panoramic cliffhanger",
       "setting": "university rooftop & storm sky",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Grand climactic shot: Storm clouds swirl into a gigantic vortex directly above Ha-Jun. Violet lightning forks across the sky as a ghostly demonic eye opens within the clouds.",
       "mood": "monumental mythic awakening, ultimate cliffhanger",
       "dialogue": [
-        {"type": "narration", "text": "AKHIR KAAR... SOVEREIGN KA KHOON JAAG UTHTA HAI.", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "narration",
+          "text": "AKHIR KAAR... SOVEREIGN KA KHOON JAAG UTHTA HAI.",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "Grand climactic shot: Storm clouds swirl into a gigantic vortex directly above Ha-Jun. Violet lightning forks across the sky as a ghostly demonic eye opens within the clouds.",
+      "prose_hi": "Grand climactic shot: toofan ke badal sidhe ha-jun ke upar ek vishal bhanwar mein ghumte han. jaise hi baadalon ke bhitar ek bhutiya rakshasi aankh khulti hai, baingani bijli aakash mein ghumti hai."
     }
   ]
 }

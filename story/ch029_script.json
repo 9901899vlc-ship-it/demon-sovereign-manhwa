@@ -13,7 +13,9 @@
       "characters": [],
       "action": "The Centurion slams his 8-foot bone claymore down with catastrophic kinetic force.",
       "mood": "cataclysmic strike",
-      "sfx": "BOOOOOMMMM!!"
+      "sfx": "BOOOOOMMMM!!",
+      "prose_en": "The Centurion slams his 8-foot bone claymore down with catastrophic kinetic force.",
+      "prose_hi": "Centurion ne pralayankari gatij bal ke saath apni 8 foot ki haddi ko clamor se neeche patak diya."
     },
     {
       "id": "p02",
@@ -22,7 +24,9 @@
       "characters": [],
       "action": "A 30-foot shockwave tears through the petrified floor, launching boulders and bone shards into the air.",
       "mood": "ground rupture",
-      "sfx": "CRACK-BOOM!!"
+      "sfx": "CRACK-BOOM!!",
+      "prose_en": "A 30-foot shockwave tears through the petrified floor, launching boulders and bone shards into the air.",
+      "prose_hi": "30 foot ki shockwev pathreele farsh ko chirti hui, pattharon aur haddiyon ke tukdon ko hawa mein uchhalti hai."
     },
     {
       "id": "p03",
@@ -33,7 +37,9 @@
       ],
       "action": "Ha-Jun flips backwards in midair, wind buffeting his jacket as the shockwave rips beneath his boots.",
       "mood": "agile evasion",
-      "sfx": "WHOOSH!"
+      "sfx": "WHOOSH!",
+      "prose_en": "Ha-Jun flips backwards in midair, wind buffeting his jacket as the shockwave rips beneath his boots.",
+      "prose_hi": "Ha-jun hawa mein peeche ki or palat jata hai, hawa uski jacket ko jhatka deti hai aur shockwev uske jooton ke neeche se takrati hai."
     },
     {
       "id": "p04",
@@ -54,7 +60,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun lands lightly atop a sheared bone pillar, panting as white limestone dust swirls around him.",
+      "prose_hi": "Ha-jun ek kate hue haddi ke khambhe par halke se utarta hai, hanfta hua jaise safed chuna patthar ki dhul uske charon or ghumti hai."
     },
     {
       "id": "p05",
@@ -63,7 +71,9 @@
       "characters": [],
       "action": "The Centurion spins with unnatural speed, sweeping the colossal blade in a 360-degree horizontal scythe.",
       "mood": "sweeping strike",
-      "sfx": "SHVOOOM!!"
+      "sfx": "SHVOOOM!!",
+      "prose_en": "The Centurion spins with unnatural speed, sweeping the colossal blade in a 360-degree horizontal scythe.",
+      "prose_hi": "Senturian aprakritik gati se ghumta hai, 360-degri kshaitij skith mein vishal blade ko ghumata hai."
     },
     {
       "id": "p06",
@@ -72,7 +82,9 @@
       "characters": [],
       "action": "The bone pillar beneath Ha-Jun's feet is sliced through like butter, toppling forward.",
       "mood": "structure collapse",
-      "sfx": "CRASHHH!!"
+      "sfx": "CRASHHH!!",
+      "prose_en": "The bone pillar beneath Ha-Jun's feet is sliced through like butter, toppling forward.",
+      "prose_hi": "Ha-jun ke pairon ke neeche ka haddi ka khambha makkhan ki tarah katkar aage ki or gir jata hai."
     },
     {
       "id": "p07",
@@ -83,7 +95,9 @@
       ],
       "action": "Ha-Jun kicks off the falling slab, diving headfirst toward the Centurion's exposed neck with Sanguine Fang.",
       "mood": "aerial counterattack",
-      "sfx": "FWOOSH!"
+      "sfx": "FWOOSH!",
+      "prose_en": "Ha-Jun kicks off the falling slab, diving headfirst toward the Centurion's exposed neck with Sanguine Fang.",
+      "prose_hi": "Ha-jun ne senguin fang ke saath centurion ki khuli gardan ki or gota lagate hue, girte hue slab ko laat mari."
     },
     {
       "id": "p08",
@@ -94,7 +108,9 @@
       ],
       "action": "The crimson crystalline blade strikes the Centurion's hardened collarbone—and violently deflects with blinding sparks!",
       "mood": "impenetrable armor",
-      "sfx": "CLANG-SPARK!!"
+      "sfx": "CLANG-SPARK!!",
+      "prose_en": "The crimson crystalline blade strikes the Centurion's hardened collarbone—and violently deflects with blinding sparks!.",
+      "prose_hi": "Crimson crystaliy blade centurion ke kathor collerbon se takrata hai - aur chakachaundh chingari ke saath hinsak roop se vikshepit ho jata hai!"
     },
     {
       "id": "p09",
@@ -115,7 +131,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's blade vibrates violently in his grip; the Centurion's bone doesn't show even a scratch.",
+      "prose_hi": "Ha-jun ka blade uski pakad mein hinsak roop se kampan karta hai; centurion ki haddi par ek kharonch tak nahin dikhti."
     },
     {
       "id": "p10",
@@ -124,7 +142,9 @@
       "characters": [],
       "action": "The Centurion's massive armored backhand sweeps across, swatting Ha-Jun like an insect.",
       "mood": "heavy impact",
-      "sfx": "WHAMMM!!"
+      "sfx": "WHAMMM!!",
+      "prose_en": "The Centurion's massive armored backhand sweeps across, swatting Ha-Jun like an insect.",
+      "prose_hi": "Senturian ka vishal bakhtarband backhand, ha-jun ko ek keede ki tarah nigalta hua aage badhta hai."
     },
     {
       "id": "p11",
@@ -135,7 +155,9 @@
       ],
       "action": "Ha-Jun smashes into the solid limestone wall 40 feet away, cracking the stone and coughing blood.",
       "mood": "painful collision",
-      "sfx": "CRUNCH!!"
+      "sfx": "CRUNCH!!",
+      "prose_en": "Ha-Jun smashes into the solid limestone wall 40 feet away, cracking the stone and coughing blood.",
+      "prose_hi": "Ha-jun 40 feet door thos chuna patthar ki deewar se takrata hai, jisse patthar toot jata hai aur khoon nikalne lagta hai."
     },
     {
       "id": "p12",
@@ -157,7 +179,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun slides down into the rubble, clutching his bruised ribs as blood trickles from his mouth.",
+      "prose_hi": "Ha-jun apni chotil pasliyon ko pakadkar malbe mein gir jata hai kyonki uske munh se khoon bah raha hota hai."
     },
     {
       "id": "p13",
@@ -178,7 +202,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro swoops down, screeching into Ha-Jun's ear: 'Taqat se mat lado, bewakoof!'.",
+      "prose_hi": "Kuro jhapatta maarta hai aur ha-jun ke kaan mein chillata hai: 'taakat se mat lado, bewkuf!'"
     },
     {
       "id": "p14",
@@ -199,7 +225,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun wipes blood from his chin: 'Toh ise defeat kaise karun?!'.",
+      "prose_hi": "Ha-jun apni thuddi se khoon ponchta hai: 'to ise kaise haraun?!'."
     },
     {
       "id": "p15",
@@ -220,7 +248,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro gestures toward the giant's ribcage: 'Soul Core! Uske sternum ke andar soul flame burn ho rahi hai!'.",
+      "prose_hi": "Kuro vishal ki pasliyon ki or ishara karta hai: 'sol kor! uske sternam ke andar soul flame burn ho rahi hai!'."
     },
     {
       "id": "p16",
@@ -229,7 +259,9 @@
       "characters": [],
       "action": "The Centurion marches toward Ha-Jun, dragging the bone blade along the floor with a terrifying screech.",
       "mood": "inexorable advance",
-      "sfx": "SKRRRRR-THUD..."
+      "sfx": "SKRRRRR-THUD...",
+      "prose_en": "The Centurion marches toward Ha-Jun, dragging the bone blade along the floor with a terrifying screech.",
+      "prose_hi": "Centurion bhayanak cheekh ke saath haddi ke blade ko farsh par ghasitate hue, ha-jun ki or badhta hai."
     },
     {
       "id": "p17",
@@ -248,7 +280,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The giant mocks him: 'IS THIS ALL THE SOVEREIGN'S HEIR HAS TO OFFER? A WEAKLING COWERING IN DUST!'.",
+      "prose_hi": "Vishal ne uska mazak udaya: 'kya samprabhu ke uttaradhikari ko yahi sab kuch dena hai? dhul mein dooba hua ek kamzor vyakti!'."
     },
     {
       "id": "p18",
@@ -269,7 +303,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun slowly pushes himself to his feet, violet and crimson flames swirling inside his irises.",
+      "prose_hi": "Ha-jun dhire-dhire khud ko apne pairon par khada karta hai, baingani aur lal rang ki laptein uski aankhon ki putliyon ke andar ghum rahi han."
     },
     {
       "id": "p19",
@@ -280,7 +316,9 @@
       ],
       "action": "Ha-Jun releases the solid form of The Sanguine Fang; the blade liquefies into four swirling red serpents.",
       "mood": "form change",
-      "sfx": "SHHH..."
+      "sfx": "SHHH...",
+      "prose_en": "Ha-Jun releases the solid form of The Sanguine Fang; the blade liquefies into four swirling red serpents.",
+      "prose_hi": "Ha-jun ne the senguin fang ka thos roop jaari kiya; blade dravit hokar char ghumte lal saanpon mein badal jata hai."
     },
     {
       "id": "p20",
@@ -291,7 +329,9 @@
       ],
       "action": "Instead of retreating, Ha-Jun sprints directly at the Centurion with maximum explosive acceleration.",
       "mood": "head-on charge",
-      "sfx": "FWOOSH!!"
+      "sfx": "FWOOSH!!",
+      "prose_en": "Instead of retreating, Ha-Jun sprints directly at the Centurion with maximum explosive acceleration.",
+      "prose_hi": "Pichhe hatne ke bajay, ha-jun adhiktam visfotak tvaran ke saath sidhe centurion ki or daudta hai."
     },
     {
       "id": "p21",
@@ -300,7 +340,9 @@
       "characters": [],
       "action": "The Centurion thrusts the colossal sword point-blank straight at Ha-Jun's chest.",
       "mood": "lethal lunge",
-      "sfx": "STABBB!!"
+      "sfx": "STABBB!!",
+      "prose_en": "The Centurion thrusts the colossal sword point-blank straight at Ha-Jun's chest.",
+      "prose_hi": "Senturian ne vishal talwar sidhe ha-jun ki chhati par mari."
     },
     {
       "id": "p22",
@@ -311,7 +353,9 @@
       ],
       "action": "Ha-Jun slides along his knees across the bone floor, slipping clean under the giant blade's guard.",
       "mood": "flawless slide",
-      "sfx": "SWOOSH!"
+      "sfx": "SWOOSH!",
+      "prose_en": "Ha-Jun slides along his knees across the bone floor, slipping clean under the giant blade's guard.",
+      "prose_hi": "Ha-jun apne ghutnon ke bal haddi ke farsh par fisalta hai, vishal blade ke pehre ke neeche saaf fisalta hai."
     },
     {
       "id": "p23",
@@ -321,7 +365,9 @@
         "hajun"
       ],
       "action": "From directly beneath, Ha-Jun sees the glowing azure soul flame burning behind the giant's interlocking ribs.",
-      "mood": "target locked"
+      "mood": "target locked",
+      "prose_en": "From directly beneath, Ha-Jun sees the glowing azure soul flame burning behind the giant's interlocking ribs.",
+      "prose_hi": "Sidhe neeche se, ha-jun ko vishal ki aapas mein judi pasliyon ke peeche chamakti neela aatma ki lau jalti hui dikhai deti hai."
     },
     {
       "id": "p24",
@@ -332,7 +378,9 @@
       ],
       "action": "The Ring of Hollow Blood radiates blinding scarlet light as Ha-Jun channels his entire remaining mana.",
       "mood": "mana concentration",
-      "sfx": "FLASH!!"
+      "sfx": "FLASH!!",
+      "prose_en": "The Ring of Hollow Blood radiates blinding scarlet light as Ha-Jun channels his entire remaining mana.",
+      "prose_hi": "Jaise hi ha-jun apne poore shesh man ko prasarit karta hai, khokhale rakt ki anguthi chakachaundh kar dene wali lal roshni bikherti hai."
     },
     {
       "id": "p25",
@@ -343,7 +391,9 @@
       ],
       "action": "The four swirling streams of blood condense into a hyper-dense, razor-thin crystalline blood needle.",
       "mood": "piercing needle",
-      "sfx": "ZIPPPP!!"
+      "sfx": "ZIPPPP!!",
+      "prose_en": "The four swirling streams of blood condense into a hyper-dense, razor-thin crystalline blood needle.",
+      "prose_hi": "Rakt ki char ghumti hui dharayen ek atyant saghan, atyant patli crystaliy rakt sui mein sanghanit hoti han."
     },
     {
       "id": "p26",
@@ -352,7 +402,9 @@
       "characters": [],
       "action": "The blood needle slips perfectly through the millimeter gap between the third and fourth petrified ribs.",
       "mood": "surgical strike",
-      "sfx": "PIERCE!"
+      "sfx": "PIERCE!",
+      "prose_en": "The blood needle slips perfectly through the millimeter gap between the third and fourth petrified ribs.",
+      "prose_hi": "Rakt ki sui teesri aur chauthi pathrili pasliyon ke beech millimeter ke antar se puri tarah se fisalti hai."
     },
     {
       "id": "p27",
@@ -361,7 +413,9 @@
       "characters": [],
       "action": "Inside the ribcage, the needle detonates into a radiant blossom of crimson thorns, puncturing the soul flame.",
       "mood": "internal detonation",
-      "sfx": "KABOOOM-FZZT!!"
+      "sfx": "KABOOOM-FZZT!!",
+      "prose_en": "Inside the ribcage, the needle detonates into a radiant blossom of crimson thorns, puncturing the soul flame.",
+      "prose_hi": "Pasli ke pinjare ke ander, sui lal rang ke kaanton ke ek ujjwal phool mein footati hai, jo aatma ki lau ko chhedati hai."
     },
     {
       "id": "p28",
@@ -370,7 +424,9 @@
       "characters": [],
       "action": "The colossal giant freezes solid, azure flames spilling outward through every bone seam like cracks in glass.",
       "mood": "system failure",
-      "sfx": "CREEEEAK..."
+      "sfx": "CREEEEAK...",
+      "prose_en": "The colossal giant freezes solid, azure flames spilling outward through every bone seam like cracks in glass.",
+      "prose_hi": "Vishal vishal thos jam jata hai, kaanch ki daraaron ki tarah har haddi ki silai ke madhyam se neeli laptein bahar ki or failti han."
     },
     {
       "id": "p29",
@@ -379,7 +435,9 @@
       "characters": [],
       "action": "The 8-foot bone broadsword slips from the giant's fingers, crashing thunderously onto the limestone floor.",
       "mood": "weapon dropped",
-      "sfx": "CLANG-CRASH!!"
+      "sfx": "CLANG-CRASH!!",
+      "prose_en": "The 8-foot bone broadsword slips from the giant's fingers, crashing thunderously onto the limestone floor.",
+      "prose_hi": "8 foot ki haddi wali chaudi talwar vishal ki ungaliyon se fisalkar chuna patthar ke farsh par jor se takrati hai."
     },
     {
       "id": "p30",
@@ -401,7 +459,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "The titanic guardian sinks to one knee before Ha-Jun, bowing its massive horned skull in deep reverence.",
+      "prose_hi": "Titanik sanrakshak ha-jun ke samne ek ghutne ke bal baith jata hai aur apni vishal seeng wali khopdi ko gahri shraddha se jhuka deta hai."
     }
   ]
 }

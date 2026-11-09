@@ -13,7 +13,9 @@
       "characters": [],
       "action": "Belial laughs melodically; thirty identical mirror illusions of him materialize across the balcony tiers.",
       "mood": "mirror illusion army",
-      "sfx": "ECHOING LAUGHTER..."
+      "sfx": "ECHOING LAUGHTER...",
+      "prose_en": "Belial laughs melodically; thirty identical mirror illusions of him materialize across the balcony tiers.",
+      "prose_hi": "Beleal madhurta se hansta hai; uske tees samaan darpan bhram balcony ke staron par sakar hote han."
     },
     {
       "id": "p02",
@@ -32,7 +34,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "All thirty avatars chant in high-pitch demonic frequency: 'Which one is real, mortal whelp?!'.",
+      "prose_hi": "Sabhi tees avtar uchch swar wali rakshasi aavritti mein jap karte han: 'kaun sa vastavik hai, nashwar baccha?!'."
     },
     {
       "id": "p03",
@@ -43,7 +47,9 @@
       ],
       "action": "Ha-Jun's right cosmic eye pulses with brilliant violet starlight, piercing straight through the illusion mesh.",
       "mood": "all-spectrum sight",
-      "sfx": "STARRY FLARE!!"
+      "sfx": "STARRY FLARE!!",
+      "prose_en": "Ha-Jun's right cosmic eye pulses with brilliant violet starlight, piercing straight through the illusion mesh.",
+      "prose_hi": "Ha-jun ki dahini brahmandiya aankh shandar baingani taron ki roshni ke saath spandit hoti hai, jo sidhe bhram jaal ko bhedati hai."
     },
     {
       "id": "p04",
@@ -62,7 +68,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Twenty-nine illusions appear as empty grey glass; the real Belial on the upper third balcony glows with dark purple soul flame.",
+      "prose_hi": "Untis bhram khali bhure kaanch ke roop mein prakat hote han; upari teesri balcony par asli beleal gahre baingani rang ki aatma ki lau se chamakta hai."
     },
     {
       "id": "p05",
@@ -73,7 +81,9 @@
       ],
       "action": "Ha-Jun's 12-foot obsidian shadow wings burst outward, blasting a sonic shockwave through the rotunda.",
       "mood": "wings deployed",
-      "sfx": "BOOOOOM!!"
+      "sfx": "BOOOOOM!!",
+      "prose_en": "Ha-Jun's 12-foot obsidian shadow wings burst outward, blasting a sonic shockwave through the rotunda.",
+      "prose_hi": "Ha-jun ke 12 foot ke obsidian chhaya pankh bahar ki or fute, jisse rotunda ke madhyam se ek dhwani shockwev ka visfot hua."
     },
     {
       "id": "p06",
@@ -84,7 +94,9 @@
       ],
       "action": "Ha-Jun rockets skyward like an anti-aircraft missile, ignoring all twenty-nine illusions.",
       "mood": "laser-focused charge",
-      "sfx": "FWOOSH!!"
+      "sfx": "FWOOSH!!",
+      "prose_en": "Ha-Jun rockets skyward like an anti-aircraft missile, ignoring all twenty-nine illusions.",
+      "prose_hi": "Ha-jun sabhi untees bhramon ko najarandaj karte hue ek viman bhedi missile ki tarah aakash ki or rocket karta hai."
     },
     {
       "id": "p07",
@@ -103,7 +115,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The real Belial stumbles back from behind the pillar, his porcelain face freezing in horror: 'HOW?!'.",
+      "prose_hi": "Asli beleal khambhe ke peeche se ladkhadata hua wapas aata hai, uska chini mitti ka chehra bhay se thithur jata hai: 'kaise?!'."
     },
     {
       "id": "p08",
@@ -112,7 +126,9 @@
       "characters": [],
       "action": "Belial whips the heavy black Chains of Ruin, attempting to entangle Ha-Jun in midair with gravity binds.",
       "mood": "gravity chain whip",
-      "sfx": "CLANG-WHIP!!"
+      "sfx": "CLANG-WHIP!!",
+      "prose_en": "Belial whips the heavy black Chains of Ruin, attempting to entangle Ha-Jun in midair with gravity binds.",
+      "prose_hi": "Beleal ruin ki bhari kali janjeeron ko kode maarta hai, ha-jun ko beech hawa mein gurutvakarshan bandhanon se uljhaane ka prayas karta hai."
     },
     {
       "id": "p09",
@@ -123,7 +139,9 @@
       ],
       "action": "Ten times normal gravity slams into Ha-Jun's frame, threatening to smash him into the stone floor.",
       "mood": "crushing gravity",
-      "sfx": "HEAVY G-FORCE!!"
+      "sfx": "HEAVY G-FORCE!!",
+      "prose_en": "Ten times normal gravity slams into Ha-Jun's frame, threatening to smash him into the stone floor.",
+      "prose_hi": "Das guna samanya gurutvakarshan ha-jun ke frame se takrata hai, jisse use patthar ke farsh par kuchalne ka khatra hota hai."
     },
     {
       "id": "p10",
@@ -134,7 +152,9 @@
       ],
       "action": "Mid-fall, Ha-Jun slashes the void dagger directly across the invisible gravitational tether.",
       "mood": "severing gravity",
-      "sfx": "SHING!!"
+      "sfx": "SHING!!",
+      "prose_en": "Mid-fall, Ha-Jun slashes the void dagger directly across the invisible gravitational tether.",
+      "prose_hi": "Madhya patjhad men, ha-jun shunya khanjar ko sidhe adrishya gurutvakarshan bandhan par kaatata hai."
     },
     {
       "id": "p11",
@@ -154,7 +174,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "The gravitational field snaps with a glassy chime, instantly freeing Ha-Jun from the crushing weight.",
+      "prose_hi": "Gurutvakarshan kshetra ek kaanch ki jhankar ke saath tadakta hai, turant ha-jun ko kuchalne wale vajan se mukt kar deta hai."
     },
     {
       "id": "p12",
@@ -165,7 +187,9 @@
       ],
       "action": "Ha-Jun kicks off the falling iron chain link, closing the remaining ten feet to Belial in a microsecond.",
       "mood": "counter momentum",
-      "sfx": "SWOOSH!"
+      "sfx": "SWOOSH!",
+      "prose_en": "Ha-Jun kicks off the falling iron chain link, closing the remaining ten feet to Belial in a microsecond.",
+      "prose_hi": "Ha-jun girte hue lohe ki chain link ko band kar deta hai, shesh das feet beleal ko ek microsecond mein band kar deta hai."
     },
     {
       "id": "p13",
@@ -176,7 +200,9 @@
       ],
       "action": "Ha-Jun's ivory bone gauntlet clamps down onto Belial's massive right ram horn with crushing grip.",
       "mood": "horn seized",
-      "sfx": "GRAB-CRUNCH!!"
+      "sfx": "GRAB-CRUNCH!!",
+      "prose_en": "Ha-Jun's ivory bone gauntlet clamps down onto Belial's massive right ram horn with crushing grip.",
+      "prose_hi": "Ha-jun ki hathidant ki haddi ka gauntlet beleal ke vishal dahine mem horn ko kuchalne wali pakad se daba deta hai."
     },
     {
       "id": "p14",
@@ -187,7 +213,9 @@
       ],
       "action": "With a twist of his reinforced wrist, Ha-Jun snaps the demon lord's horn completely off at the root.",
       "mood": "horn shattered",
-      "sfx": "KRAAAACK!!"
+      "sfx": "KRAAAACK!!",
+      "prose_en": "With a twist of his reinforced wrist, Ha-Jun snaps the demon lord's horn completely off at the root.",
+      "prose_hi": "Apni majboot kalai ko ghumakar, ha-jun ne rakshas swami ke seeng ko puri tarah se jad se tod diya."
     },
     {
       "id": "p15",
@@ -196,7 +224,9 @@
       "characters": [],
       "action": "Belial shrieks as black blood fountains from his cracked temple, dropping the master chain.",
       "mood": "screaming warden",
-      "sfx": "ARGGGHHH!!"
+      "sfx": "ARGGGHHH!!",
+      "prose_en": "Belial shrieks as black blood fountains from his cracked temple, dropping the master chain.",
+      "prose_hi": "Beleal apne toote hue mandir se kale khoon ke favvare ke roop mein chillata hai, jisse master chain gir jaati hai."
     },
     {
       "id": "p16",
@@ -207,7 +237,9 @@
       ],
       "action": "Ha-Jun pins Belial to the stone balcony wall, plunging the void dagger through his shoulder joint.",
       "mood": "pinned to wall",
-      "sfx": "THUD-SHING!!"
+      "sfx": "THUD-SHING!!",
+      "prose_en": "Ha-Jun pins Belial to the stone balcony wall, plunging the void dagger through his shoulder joint.",
+      "prose_hi": "Ha-jun ne beliyal ko patthar ki balcony ki deewar par pin kar diya, aur khali khanjar ko uske kandhe ke jod se chhed diya."
     },
     {
       "id": "p17",
@@ -227,7 +259,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The void dagger's spatial authority locks Belial's body in frozen time and space against the wall.",
+      "prose_hi": "Shunya khanjar ka sthanik adhikar beleal ke shareer ko deewar ke samne jame hue samay aur sthan mein band kar deta hai."
     },
     {
       "id": "p18",
@@ -238,7 +272,9 @@
       ],
       "action": "Ha-Jun catches the falling black master link of the Chains of Ruin in his right hand.",
       "mood": "chains seized",
-      "sfx": "CATCH-CLINK!!"
+      "sfx": "CATCH-CLINK!!",
+      "prose_en": "Ha-Jun catches the falling black master link of the Chains of Ruin in his right hand.",
+      "prose_hi": "Ha-jun ne apne dahine haath mein chains off ruin ke girte hue black master link ko pakad liya."
     },
     {
       "id": "p19",
@@ -249,7 +285,9 @@
       ],
       "action": "Ha-Jun dives off the balcony, wings braking his fall as he lands atop the floating monolith.",
       "mood": "landing beside brother",
-      "sfx": "TAP..."
+      "sfx": "TAP...",
+      "prose_en": "Ha-Jun dives off the balcony, wings braking his fall as he lands atop the floating monolith.",
+      "prose_hi": "Ha-jun balcony se gota lagata hai, pankh uske girne ko rokte hain kyonki wah tairte hue monolith ke upar utarta hai."
     },
     {
       "id": "p20",
@@ -260,7 +298,9 @@
       ],
       "action": "Two brothers stand inches apart: 17yo Ha-Jun and 26yo Tae-Jun, eyes locked in raw emotion.",
       "mood": "the reunion",
-      "sfx": "TEARFUL GLANCE..."
+      "sfx": "TEARFUL GLANCE...",
+      "prose_en": "Two brothers stand inches apart: 17-year-old Ha-Jun and 26yo Tae-Jun, eyes locked in raw emotion.",
+      "prose_hi": "Do bhai inch bhar ki doori par khade han: 17 varshiya ha-jun aur 26 varshiya taaye-jun, aankhen kacchi bhavna mein doobi hui han."
     },
     {
       "id": "p21",
@@ -279,7 +319,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun raises his bruised, shivering hand, gently cupping his younger brother's cheek.",
+      "prose_hi": "Taaye-jun apna chotil, kampta hua haath uthata hai aur dheere se apne chhote bhai ke gaal ko thapthapata hai."
     },
     {
       "id": "p22",
@@ -300,7 +342,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun weeps openly, his forehead pressing against his elder brother's shoulder.",
+      "prose_hi": "Ha-jun khulkar rota hai, uska matha apne bade bhai ke kandhe par dab jata hai."
     },
     {
       "id": "p23",
@@ -311,7 +355,9 @@
       ],
       "action": "Ha-Jun wraps his hands around the black chains binding Tae-Jun's chest and arms.",
       "mood": "freeing the brother",
-      "sfx": "GRIP..."
+      "sfx": "GRIP...",
+      "prose_en": "Ha-Jun wraps his hands around the black chains binding Tae-Jun's chest and arms.",
+      "prose_hi": "Ha-jun ne apne hathon ko taaye-jun ki chhati aur banhon ko bandhane wali kali janjeeron ke charon or lapet liya."
     },
     {
       "id": "p24",
@@ -333,7 +379,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun commands: 'Chains of Ruin... Obey your true master! RELEASE!'.",
+      "prose_hi": "Ha-jun aadesh deta hai: 'barbad ki janjiren... apne sacche swami ki aagya ka palan karen! mukt karna!'."
     },
     {
       "id": "p25",
@@ -342,7 +390,9 @@
       "characters": [],
       "action": "The ancient black chains unspool with musical chimes, slipping harmlessly from Tae-Jun's body.",
       "mood": "bonds unsealed",
-      "sfx": "CHIME-CLATTER!!"
+      "sfx": "CHIME-CLATTER!!",
+      "prose_en": "The ancient black chains unspool with musical chimes, slipping harmlessly from Tae-Jun's body.",
+      "prose_hi": "Prachin kali janjeeren sangeet ki jhankar ke saath khulti han, taaye-jun ke shareer se hanirahit roop se fisalti han."
     },
     {
       "id": "p26",
@@ -364,7 +414,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Weak from seven years of stasis and torture, Tae-Jun falls forward; Ha-Jun catches him firmly.",
+      "prose_hi": "Saat saal ki sthirta aur yatna se kamjor, taaye-jun aage gir jata hai; ha-jun ne use majbuti se pakad liya."
     },
     {
       "id": "p27",
@@ -375,7 +427,9 @@
       ],
       "action": "The black dimensional chains wrap obediently across Ha-Jun's chest like bandoliers of pure dark gravity.",
       "mood": "relic #7 integrated",
-      "sfx": "LOCK-CLINK!!"
+      "sfx": "LOCK-CLINK!!",
+      "prose_en": "The black dimensional chains wrap obediently across Ha-Jun's chest like bandoliers of pure dark gravity.",
+      "prose_hi": "Kale aayami janjeeren shuddh andhere gurutvakarshan ke bandoliors ki tarah ha-jun ki chhati par aagyakari roop se lapetati han."
     },
     {
       "id": "p28",
@@ -394,7 +448,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Golden banners unfurl in triumphant celebration.",
+      "prose_hi": "Vijayi utsav mein swarn dhvaj fahrae gaye."
     },
     {
       "id": "p29",
@@ -415,7 +471,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro nuzzles Tae-Jun's hair softly: 'Welcome back, Tae-Jun. Tumhara chhota bhai ab Sovereign ban chuka hai.'.",
+      "prose_hi": "Kuro ne taaye-jun ke baalon ko dheere se thapthpaya: 'vaaps swagat hai, taaye-jun. tumhara chhota bhai ab sovereign ban chuka hai.'"
     },
     {
       "id": "p30",
@@ -436,7 +494,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun hoists his brother onto his back, 12-foot shadow wings flaring wide to escape the prison.",
+      "prose_hi": "Ha-jun ne jail se bhagne ke liye apne bhai ko apni peeth par lahraya, 12 foot ke chhayadar pankh failaye."
     }
   ]
 }

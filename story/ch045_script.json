@@ -15,7 +15,9 @@
       ],
       "action": "Ha-Jun's boot steps across the shimmering dimensional membrane; space warps like liquid glass.",
       "mood": "crossing the boundary",
-      "sfx": "WARP-RIPPLE..."
+      "sfx": "WARP-RIPPLE...",
+      "prose_en": "Ha-Jun's boot steps across the shimmering dimensional membrane; space warps like liquid glass.",
+      "prose_hi": "Ha-jun ka boot jhilmilati aayami jhilli ke paar chalta hai; antriksh taral kaanch ki tarah ghumta hai."
     },
     {
       "id": "p02",
@@ -26,7 +28,9 @@
       ],
       "action": "Surreal kaleidoscopic ribbons of violet, magenta, and obsidian light warp around Ha-Jun and Kuro in zero-gravity.",
       "mood": "interdimensional transit",
-      "sfx": "WHOOSH-HUMMM..."
+      "sfx": "WHOOSH-HUMMM...",
+      "prose_en": "Surreal kaleidoscopic ribbons of violet, magenta, and obsidian light warp around Ha-Jun and Kuro in zero-gravity.",
+      "prose_hi": "Shunya-gurutvakarshan mein ha-jun aur kuro ke charon or bangni, magenta aur obsidian prakash tana ke avastavik bahurupadarshak reban."
     },
     {
       "id": "p03",
@@ -37,7 +41,9 @@
       ],
       "action": "Ha-Jun steps out onto solid black volcanic glass; the dimensional rift closes behind him with a vacuum pop.",
       "mood": "arrival in demon realm",
-      "sfx": "POP!!"
+      "sfx": "POP!!",
+      "prose_en": "Ha-Jun steps out onto solid black volcanic glass; the dimensional rift closes behind him with a vacuum pop.",
+      "prose_hi": "Ha-jun thos kale jwalamukhi kaanch par kadam rakhta hai; aayami daraar uske peeche ek vacuum pop ke saath band ho jaati hai."
     },
     {
       "id": "p04",
@@ -46,7 +52,9 @@
       "characters": [],
       "action": "A colossal, awe-inspiring alien world: endless purple skies, twin shattered crimson moons, and jagged floating islands.",
       "mood": "alien majesty",
-      "sfx": "ETHEREAL BREEZE..."
+      "sfx": "ETHEREAL BREEZE...",
+      "prose_en": "A colossal, awe-inspiring alien world: endless purple skies, twin shattered crimson moons, and jagged floating islands.",
+      "prose_hi": "Ek vishal, vismaykari videshi duniya: antaheen baingani aasman, judwan toote hue lal chandrama, aur dantedar tairte dweep."
     },
     {
       "id": "p05",
@@ -54,7 +62,9 @@
       "setting": "horizon wide shot",
       "characters": [],
       "action": "Ten miles away across a sea of glowing crimson mist rises Necrothea: towering 2,000-foot inverted obsidian spires.",
-      "mood": "the sovereign capital"
+      "mood": "the sovereign capital",
+      "prose_en": "Ten miles away across a sea of glowing crimson mist rises Necrothea: towering 2,000-foot inverted obsidian spires.",
+      "prose_hi": "Chamkati lal rang ki dhundh ke samudra ke paar das meal door necrothiya ugta hai: 2,000 foot oonche ulte obsidian shikhar."
     },
     {
       "id": "p06",
@@ -63,7 +73,9 @@
       "characters": [],
       "action": "Deep in the canyon beneath the cliff, glowing rivers of pure liquid mana flow like luminous red arteries.",
       "mood": "arterial rivers",
-      "sfx": "GLOW..."
+      "sfx": "GLOW...",
+      "prose_en": "Deep in the canyon beneath the cliff, glowing rivers of pure liquid mana flow like luminous red arteries.",
+      "prose_hi": "Chattan ke neeche gahri ghati men, shuddh taral maina ki chamakti nadiyan chamakdar lal dhamniyon ki tarah bahti han."
     },
     {
       "id": "p07",
@@ -85,7 +97,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun takes his first breath: the air is thick with pure, unadulterated mana, vibrating like electric champagne.",
+      "prose_hi": "Ha-jun ne apni pehli saans li: hawa shuddh, shuddh man se bhari hui hai, jo electric shampane ki tarah kampan kar rahi hai."
     },
     {
       "id": "p08",
@@ -96,7 +110,9 @@
       ],
       "action": "The obsidian ring drinks in ambient mana, flaring with twice its normal radiance.",
       "mood": "relic empowerment",
-      "sfx": "PULSE-FLARE!!"
+      "sfx": "PULSE-FLARE!!",
+      "prose_en": "The obsidian ring drinks in ambient mana, flaring with twice its normal radiance.",
+      "prose_hi": "Obseedian ring pariveshiy man ko peeti hai, apni samanya chamak se doguni chamakti hai."
     },
     {
       "id": "p09",
@@ -107,7 +123,9 @@
       ],
       "action": "The bone gauntlet absorbs calcium minerals from the air, its surface hardening into flawless porcelain.",
       "mood": "environmental buff",
-      "sfx": "CHIME..."
+      "sfx": "CHIME...",
+      "prose_en": "The bone gauntlet absorbs calcium minerals from the air, its surface hardening into flawless porcelain.",
+      "prose_hi": "Haddi ka gauntlet hawa se calcium khanijon ko avshoshit karta hai, iski satah sakht hokar nirdosh chini mitti ke bartan mein badal jaati hai."
     },
     {
       "id": "p10",
@@ -129,7 +147,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "In the native demon air, Kuro's body naturally expands; demonic horns curve back with blazing purple tips.",
+      "prose_hi": "Deshi danav vayu men, kuro ka shareer swabhavik roop se failta hai; rakshasi seeng chamakdar baingani yuktiyon ke saath peeche mude hue han."
     },
     {
       "id": "p11",
@@ -150,7 +170,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun chuckles softly: 'Lagta hai yahan aakar tum zyada handsome lag rahe ho, Kuro.'.",
+      "prose_hi": "Ha-jun dheere se hanste han: 'lagata hai yahan aakar tum jyada handsome lag rahe ho, kuro.'"
     },
     {
       "id": "p12",
@@ -171,7 +193,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro puffs out his chest: 'Handsome? Main legendary Vanguard hoon! Respect the horns!'.",
+      "prose_hi": "Kuro ne apni chhati fulakar kaha: 'sunder? mukhya pauranik vanguard hun! seengon ka samman karen!'"
     },
     {
       "id": "p13",
@@ -181,7 +205,9 @@
         "hajun"
       ],
       "action": "On the dark obsidian stone path, glowing red footprints lead directly toward the ancient citadel ruins.",
-      "mood": "the brother's trail"
+      "mood": "the brother's trail",
+      "prose_en": "On the dark obsidian stone path, glowing red footprints lead directly toward the ancient citadel ruins.",
+      "prose_hi": "Gahre obsidian patthar ke raste par, chamakte lal pairon ke nishan sidhe prachin gadh ke khandharon ki or le jaate han."
     },
     {
       "id": "p14",
@@ -190,7 +216,9 @@
       "characters": [],
       "action": "From somewhere beyond the floating islands, a titanic seismic roar echoes across the crimson clouds.",
       "mood": "ancient apex predators",
-      "sfx": "ROOOAAARRR..."
+      "sfx": "ROOOAAARRR...",
+      "prose_en": "From somewhere beyond the floating islands, a titanic seismic roar echoes across the crimson clouds.",
+      "prose_hi": "Tairte hue dweepon ke paar kahin se, lal baadalon ke paar ek vishal bhukampiy garjana goonjati hai."
     },
     {
       "id": "p15",
@@ -198,7 +226,9 @@
       "setting": "sky wide",
       "characters": [],
       "action": "A colossal winged silhouette the size of a commercial airliner glides effortlessly across the broken moon.",
-      "mood": "sky titan"
+      "mood": "sky titan",
+      "prose_en": "A colossal winged silhouette the size of a commercial airliner glides effortlessly across the broken moon.",
+      "prose_hi": "Ek vanijyik viman ke aakaar ka ek vishal pankhon wala chhayachitra toote hue chandrama par sahajta se udta hai."
     },
     {
       "id": "p16",
@@ -219,7 +249,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun watches with keen, analytical interest rather than fear: 'Abyssal Dragon...?'.",
+      "prose_hi": "Ha-jun dar ke bajay gahri, vishleshnatmak dilchaspi se dekhta hai: 'abisal dragon...?'"
     },
     {
       "id": "p17",
@@ -238,7 +270,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "The Sovereign Interface unfolds in gothic demonic script, bordered with dark amethyst fire.",
+      "prose_hi": "Soweren interface gothic rakshasi lipi mein prakat hota hai, jo gahre neelam ki aag se ghira hai."
     },
     {
       "id": "p18",
@@ -248,7 +282,9 @@
         "hajun"
       ],
       "action": "Ha-Jun reads the stats: '+50% Mana recovery... Iska matlab main freely combat techniques use kar sakta hoon.'",
-      "mood": "tactical awareness"
+      "mood": "tactical awareness",
+      "prose_en": "Ha-Jun reads the stats: '+50% Mana recovery... Iska matlab main freely combat techniques use kar sakta hoon.'.",
+      "prose_hi": "Ha-jun aankde padhta hai: '+50% maina rikvari... iska matlab hai ki main swatantra roop se yudh taknikon ka upyog kar sakta hun.'"
     },
     {
       "id": "p19",
@@ -269,7 +305,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro folds his massive wings: 'Lekin overconfident mat hona. Is realm ke Lesser Demons bhi Earth ke S-Rank monsters se zyada vicious hain.'.",
+      "prose_hi": "Kuro ne apne vishal pankh mode: 'lakin atiaatmvishwas mat hona. kya duniya ke chhote rakshas bhi prithvi ke s-rank rakshason se jyada shatir han.'"
     },
     {
       "id": "p20",
@@ -280,7 +318,9 @@
       ],
       "action": "Ha-Jun begins descending the spiraling mountain trail toward the glowing red valley.",
       "mood": "descent begins",
-      "sfx": "STEP... STEP..."
+      "sfx": "STEP... STEP...",
+      "prose_en": "Ha-Jun begins descending the spiraling mountain trail toward the glowing red valley.",
+      "prose_hi": "Ha-jun chamakdar lal ghati ki or ghumavdar parvat path se utarna shuru karta hai."
     },
     {
       "id": "p21",
@@ -289,7 +329,9 @@
       "characters": [],
       "action": "Bioluminescent dark purple ferns that glow when touched; crystalline thorny brambles leaking blue sap.",
       "mood": "alien botanical wonders",
-      "sfx": "GLOW..."
+      "sfx": "GLOW...",
+      "prose_en": "Bioluminescent dark purple ferns that glow when touched; crystalline thorny brambles leaking blue sap.",
+      "prose_hi": "Bioluminsent gahre baingani fern jo chhune par chamakte han; crystaliy kantedar brambals se neela ras ris raha hai."
     },
     {
       "id": "p22",
@@ -311,7 +353,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "As Ha-Jun's fingers brush a purple fern, it blossoms into tiny floating firefly-like mana spores.",
+      "prose_hi": "Jaise hi ha-jun ki ungaliyan baingani fern ko brush karti han, yah chhote tairte jugnu jaise maina bijanuon mein khil jata hai."
     },
     {
       "id": "p23",
@@ -332,7 +376,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro nods: 'Kyunki yeh pura realm First Sovereign ke mana se grow hua tha. Tum is realm ke rightful heir ho.'.",
+      "prose_hi": "Kuro ne sir hilaya: 'kyonki yeh pura kshetra first sovereign ke man se grow hua tha. tum is kshetra ke asli uttaradhikari ho.'"
     },
     {
       "id": "p24",
@@ -342,7 +388,9 @@
         "hajun"
       ],
       "action": "The mountain path ends at an immense bridge made of solid translucent bone spanning a mile-wide chasm.",
-      "mood": "the bridge of souls"
+      "mood": "the bridge of souls",
+      "prose_en": "The mountain path ends at an immense bridge made of solid translucent bone spanning a mile-wide chasm.",
+      "prose_hi": "Pahadi rasta ek meal chaudi khai mein faile thos parabhasi haddi se bane vishal pul par samapt hota hai."
     },
     {
       "id": "p25",
@@ -351,7 +399,9 @@
       "characters": [],
       "action": "Six 12-foot stone-and-obsidian Sentinels in rusted armor stand at attention with colossal halberds.",
       "mood": "gatekeepers",
-      "sfx": "HEAVY STATUES..."
+      "sfx": "HEAVY STATUES...",
+      "prose_en": "Six 12-foot stone-and-obsidian Sentinels in rusted armor stand at attention with colossal halberds.",
+      "prose_hi": "Jang lage kavach mein chhah 12 foot ke patthar aur obsidian prahari vishal halbard ke saath dhyan mein khade han."
     },
     {
       "id": "p26",
@@ -360,7 +410,9 @@
       "characters": [],
       "action": "The stone guardians' hollow eye sockets ignite with twin violet flames; halberds lift in salute.",
       "mood": "sentinels awakened",
-      "sfx": "GRIND-CLANG!!"
+      "sfx": "GRIND-CLANG!!",
+      "prose_en": "The stone guardians' hollow eye sockets ignite with twin violet flames; halberds lift in salute.",
+      "prose_hi": "Patthar ke rakhwalon ki khokhli aankhen judwan baingani lapton se prajvalit hoti han; helbard salaam mein uthate han."
     },
     {
       "id": "p27",
@@ -379,7 +431,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "The colossal statues sink to their stone knees in synchronized reverence, clearing the bridge path.",
+      "prose_hi": "Vishal murtiyan samkalik shraddha mein apne patthar ke ghutnon tak doob jaati han, jisse pul ka rasta saaf ho jata hai."
     },
     {
       "id": "p28",
@@ -390,7 +444,9 @@
       ],
       "action": "Ha-Jun walks between the massive kneeling sentinels, his black jacket billowing in the abyssal wind.",
       "mood": "imperial walk",
-      "sfx": "MAJESTIC STEP..."
+      "sfx": "MAJESTIC STEP...",
+      "prose_en": "Ha-Jun walks between the massive kneeling sentinels, his black jacket billowing in the abyssal wind.",
+      "prose_hi": "Ha-jun vishal ghutnon ke bal baithe prahari ke beech chalta hai, uski kali jacket tez hawa mein lahra rahi hai."
     },
     {
       "id": "p29",
@@ -398,7 +454,9 @@
       "setting": "citadel approach",
       "characters": [],
       "action": "At the far end of the bridge, the 300-foot obsidian gates of Necrothea stand open, glowing with purple mist.",
-      "mood": "the citadel opens"
+      "mood": "the citadel opens",
+      "prose_en": "At the far end of the bridge, the 300-foot obsidian gates of Necrothea stand open, glowing with purple mist.",
+      "prose_hi": "Pul ke door ke chhor par, necrothiya ke 300 foot ke obsidian dwar khule khade han, jo baingani dhundh se chamak rahe han."
     },
     {
       "id": "p30",
@@ -419,7 +477,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun reaches the threshold of his ancestral capital: 'Main aa gaya hoon. Apne bhai ko wapas lene... Aur apna haq lene.'.",
+      "prose_hi": "Ha-jun apni patrik rajdhani ki dahalij par pahunchta hai: 'main aa gaya hun. apne bhai ko wapas len... aur apna haq len.'"
     }
   ]
 }

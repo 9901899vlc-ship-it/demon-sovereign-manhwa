@@ -15,7 +15,9 @@
       ],
       "action": "A majestic, mind-bending cathedral where hundreds of brass spiral staircases twist through mid-air like DNA strands.",
       "mood": "escher-like temporal cathedral",
-      "sfx": "TICK-TOCK-TICK..."
+      "sfx": "TICK-TOCK-TICK...",
+      "prose_en": "A majestic, mind-bending cathedral where hundreds of brass spiral staircases twist through mid-air like DNA strands.",
+      "prose_hi": "Ek rajsi, man-mugdh karne wala cathedral jahan saikadon pital ki sarpil sidhiyan dna strand ki tarah madhya hawa mein ghumti han."
     },
     {
       "id": "p02",
@@ -24,7 +26,9 @@
       "characters": [],
       "action": "Golden sand streams upward from the floor toward the ceiling in perfect reverse gravity, twinkling like stardust.",
       "mood": "inverted gravity",
-      "sfx": "DRIFT UP..."
+      "sfx": "DRIFT UP...",
+      "prose_en": "Golden sand streams upward from the floor toward the ceiling in perfect reverse gravity, twinkling like stardust.",
+      "prose_hi": "Sunhari ret bilkul vipreet gurutvakarshan mein farsh se chhat ki or upar ki or bahti hai, stardust ki tarah timtimati hai."
     },
     {
       "id": "p03",
@@ -35,7 +39,9 @@
       ],
       "action": "Ha-Jun ascends the floating brass steps; Min-Jae and Baek guard his flank with weapons sweeping the shadows.",
       "mood": "steady advance",
-      "sfx": "STEP-CLINK..."
+      "sfx": "STEP-CLINK...",
+      "prose_en": "Ha-Jun ascends the floating brass steps; Min-Jae and Baek guard his flank with weapons sweeping the shadows.",
+      "prose_hi": "Ha-jun tairti hui pital ki sidhiyon par chadhta hai; min-je aur bak hathiyaron ke saath uske parshva bhag ki raksha karte hain aur chhaya ko paar karte han."
     },
     {
       "id": "p04",
@@ -46,7 +52,9 @@
       ],
       "action": "A wave of shimmering silver chronal distortion sweeps through the room, making reality stutter like a scratched film reel.",
       "mood": "chronal wave",
-      "sfx": "WARP-RIPPLE!!"
+      "sfx": "WARP-RIPPLE!!",
+      "prose_en": "A wave of shimmering silver chronal distortion sweeps through the room, making reality stutter like a scratched film reel.",
+      "prose_hi": "Chamchamati silver cronal vikriti ki ek lahar kamre mein ghumti hai, jisse vastavikta ek kharonch wali film reel ki tarah haklane lagti hai."
     },
     {
       "id": "p05",
@@ -66,7 +74,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae and Captain Baek freeze completely mid-stride, their boots half-lifted, eyes locked in stationary stillness.",
+      "prose_hi": "Min-je aur captain bak puri tarah se beech mein hi sthir ho gaye, unke jute aadhe uthe hue the, aankhen sthir shanti mein band thin."
     },
     {
       "id": "p06",
@@ -89,7 +99,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The Mythic Feather on Tae-Jun's chest and the Crown on Ha-Jun's brow emit a joint spherical barrier, insulating them from time-stop.",
+      "prose_hi": "Taaye-jun ki chhati par pauranik pankh aur ha-jun ki bhaunh par mukut ek sanyukt golakar avrodh ka utsarjan karte han, jo unhen samay-rukne se bachata hai."
     },
     {
       "id": "p07",
@@ -110,7 +122,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "In a floating pane of chronal glass, Ha-Jun sees himself at 25—an ordinary office worker in a suit, tired, riding the subway.",
+      "prose_hi": "Cronal glass ke tairte falak men, ha-jun khud ko 25 saal ka dekhta hai - suit pahane ek sadharan karyalay karmchari, thaka hua, metro ki sawari karta hua."
     },
     {
       "id": "p08",
@@ -119,7 +133,9 @@
       "characters": [],
       "action": "In the glass, ordinary Ha-Jun and Tae-Jun are eating dinner with their living parents, laughing happily.",
       "mood": "the painful dream",
-      "sfx": "WARM LAUGHTER..."
+      "sfx": "WARM LAUGHTER...",
+      "prose_en": "In the glass, ordinary Ha-Jun and Tae-Jun are eating dinner with their living parents, laughing happily.",
+      "prose_hi": "Gilas men, sadharan ha-jun aur taaye-jun apne jeevit mata-pita ke saath khushi se hanste hue raat ka khana kha rahe han."
     },
     {
       "id": "p09",
@@ -141,7 +157,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's fingers hover inches from the warm, golden image; a single tear traces down his cheek.",
+      "prose_hi": "Ha-jun ki ungaliyan garm, sunhari chhavi se kuch inch door ghumti han; uske gaal par ek aansu ka nishan hai."
     },
     {
       "id": "p10",
@@ -150,7 +168,9 @@
       "characters": [],
       "action": "The glass fractures into a second dark reflection: Ha-Jun on a throne of skulls, cold crimson eyes, burning Earth to cinder.",
       "mood": "the sovereign tyrant future",
-      "sfx": "FLAMES-SCREAM!!"
+      "sfx": "FLAMES-SCREAM!!",
+      "prose_en": "The glass fractures into a second dark reflection: Ha-Jun on a throne of skulls, cold crimson eyes, burning Earth to cinder.",
+      "prose_hi": "Kanch ek dusre andhere pratibimb mein toot jata hai: khopadiyon ke sinhasan par ha-jun, thandi lal rang ki aankhen, jalti hui prithvi."
     },
     {
       "id": "p11",
@@ -169,7 +189,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The dark reflection sneers: 'Surrender to the blood, boy! Power is the only truth in this pathetic universe!'.",
+      "prose_hi": "Andhera pratibimb vyangya karta hai: 'rakt ke samne samarpan karo, ladke! is dayniya brahmand mein shakti hi ekmatra satya hai!'"
     },
     {
       "id": "p12",
@@ -191,7 +213,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "With a clean, decisive sweep of his blood katana, Ha-Jun shatters both illusion panes into a thousand harmless shards.",
+      "prose_hi": "Apne rakt katana ke ek saf, nirnayak prahar ke sath, ha-jun ne bhram ke donon kinaron ko ek hajar hanirahit tukdon mein tod diya."
     },
     {
       "id": "p13",
@@ -202,7 +226,9 @@
       ],
       "action": "The fragments dissolve into sparkling mist; Ha-Jun's eyes burn with absolute lucidity and self-knowledge.",
       "mood": "clarity attained",
-      "sfx": "SPARKLE-CLEAR..."
+      "sfx": "SPARKLE-CLEAR...",
+      "prose_en": "The fragments dissolve into sparkling mist; Ha-Jun's eyes burn with absolute lucidity and self-knowledge.",
+      "prose_hi": "Tukde chamchamati dhundh mein ghul jaate han; ha-jun ki aankhen purna spashtata aur aatm-gyan se jalti han."
     },
     {
       "id": "p14",
@@ -213,7 +239,9 @@
       ],
       "action": "Ha-Jun reaches the summit platform—a circular amphitheater surrounded by twelve massive golden clock faces.",
       "mood": "the hourglass chamber",
-      "sfx": "TICK-TOCK..."
+      "sfx": "TICK-TOCK...",
+      "prose_en": "Ha-Jun reaches the summit platform—a circular amphitheater surrounded by twelve massive golden clock faces.",
+      "prose_hi": "Ha-jun shikhar manch par pahunchta hai - barah vishal sunhare ghadi chehron se ghira ek golakar rangbhumi."
     },
     {
       "id": "p15",
@@ -222,7 +250,9 @@
       "characters": [],
       "action": "A two-meter-tall ornate hourglass of blackened abyssal gold, containing glowing sand that shifts from royal violet to bright gold.",
       "mood": "the tenth relic",
-      "sfx": "GLOW-SAND..."
+      "sfx": "GLOW-SAND...",
+      "prose_en": "A two-meter-tall ornate hourglass of blackened abyssal gold, containing glowing sand that shifts from royal violet to bright gold.",
+      "prose_hi": "Kale gahre sone ka do meter lamba alankrit ghantaghar, jisme chamakti ret hoti hai jo shahi baingani se chamkile sone mein badal jaati hai."
     },
     {
       "id": "p16",
@@ -242,7 +272,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Descending from the center ceiling is Chronos-Malek—a four-faced entity wrapped in golden clock hands and silver gears.",
+      "prose_hi": "Kendra ki chhat se utarti hui cronos-malek hai - sunhare ghadi ki suiyon aur chandi ke gear mein lipati ek char-mukhi ikai."
     },
     {
       "id": "p17",
@@ -251,7 +283,9 @@
       "characters": [],
       "action": "Four porcelain masks rotate on its mechanical neck: a smiling child, a stoic warrior, a decaying skull, and a black void hole.",
       "mood": "the four aspects of time",
-      "sfx": "WHIRL-CLICK..."
+      "sfx": "WHIRL-CLICK...",
+      "prose_en": "Four porcelain masks rotate on its mechanical neck: a smiling child, a stoic warrior, a decaying skull, and a black void hole.",
+      "prose_hi": "Char chini mitti ke mukhaute iski yantrik gardan par ghumte han: ek muskurata hua baccha, ek kattar yoddha, ek sadti hui khopri, aur ek kala shunya chhed."
     },
     {
       "id": "p18",
@@ -270,7 +304,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Chronos-Malek: 'The Hourglass can rewind any wound. But it drinks human memory as its fuel. Are you prepared to forget?'.",
+      "prose_hi": "Cronos-malek: 'ovarglas kisi bhi ghav ko theek kar sakta hai. lekin yah manav smriti ko apne indhan ke roop mein peeta hai. kya aap bhulne ke liye taiyar han?'"
     },
     {
       "id": "p19",
@@ -291,7 +327,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun glances at Tae-Jun's sleeping face; he remembers Tae-Jun giving up his youth, his freedom, and his body.",
+      "prose_hi": "Ha-jun ki nazar taaye-jun ke sote hue chehre par padti hai; unhen yaad hai ki taaye-jun ne apni jawani, apni azadi aur apne shareer ka tyaag kar diya tha."
     },
     {
       "id": "p20",
@@ -312,7 +350,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun smiles with radiant confidence: 'Take whatever memories you want. Just wake my brother up.'.",
+      "prose_hi": "Ha-jun ujjwal aatmavishwas ke saath muskurata hai: 'aap jo bhi yaadein chahte hain le len. bus mere bhai ko jaga do.'."
     },
     {
       "id": "p21",
@@ -332,7 +372,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Chronos-Malek: 'First, you must prove your soul can bear the weight of time! Face the Wheel of Seconds!'.",
+      "prose_hi": "Cronos-malek: 'subse pahle, aapko yah sabit karna hoga ki aapki aatma samay ka bhaar sahan kar sakti hai! second ke pahiye ka samna karen!'"
     },
     {
       "id": "p22",
@@ -341,7 +383,9 @@
       "characters": [],
       "action": "Twelve razor-sharp golden pendulum blades rocket across the platform like giant guillotine darts.",
       "mood": "pendulum swarm",
-      "sfx": "SWOOSH-SWOOSH!!"
+      "sfx": "SWOOSH-SWOOSH!!",
+      "prose_en": "Twelve razor-sharp golden pendulum blades rocket across the platform like giant guillotine darts.",
+      "prose_hi": "Vishal gilotin darts ki tarah manch par barah rager-nukile sunhare pendulum blade rocket."
     },
     {
       "id": "p23",
@@ -352,7 +396,9 @@
       ],
       "action": "Ha-Jun summons Chains of Ruin, creating an impenetrable swirling sphere of black chain links around himself and Tae-Jun.",
       "mood": "chain sphere parry",
-      "sfx": "CLANG-SPARK-DEFLECT!!"
+      "sfx": "CLANG-SPARK-DEFLECT!!",
+      "prose_en": "Ha-Jun summons Chains of Ruin, creating an impenetrable swirling sphere of black chain links around himself and Tae-Jun.",
+      "prose_hi": "Ha-jun chains off ruin ko bulata hai, jisse wah apne aur taaye-jun ke charon or kali chain kadiyon ka ek abhedy ghumta hua kshetra banata hai."
     },
     {
       "id": "p24",
@@ -363,7 +409,9 @@
       ],
       "action": "Sparks rain in sheets as the clock hands bounce harmlessly off the gravitational ward.",
       "mood": "flawless defense",
-      "sfx": "SPARK SHOWER..."
+      "sfx": "SPARK SHOWER...",
+      "prose_en": "Sparks rain in sheets as the clock hands bounce harmlessly off the gravitational ward.",
+      "prose_hi": "Jaise hi ghadi ki suiyan gurutvakarshan ward se hanirahit roop se ucchalti han, chadron mein chingariyan barsne lagti han."
     },
     {
       "id": "p25",
@@ -374,7 +422,9 @@
       ],
       "action": "Ha-Jun bursts through the top of his chain barrier, drawing both Sanguine Fang and the Bone Scythe in twin hands.",
       "mood": "dual relic assault",
-      "sfx": "FWOOSH-LEAP!!"
+      "sfx": "FWOOSH-LEAP!!",
+      "prose_en": "Ha-Jun bursts through the top of his chain barrier, drawing both Sanguine Fang and the Bone Scythe in twin hands.",
+      "prose_hi": "Ha-jun apne chain barrier ke sheersh ko todta hai, aur senguin fang aur bone skith donon ko judwan hathon mein khinchta hai."
     },
     {
       "id": "p26",
@@ -385,7 +435,9 @@
       ],
       "action": "A flashing cross-slash of red blood-light and bone-white energy cleanly severs two of Chronos's golden arms.",
       "mood": "double dismemberment",
-      "sfx": "CLEAVE-CRACK!!"
+      "sfx": "CLEAVE-CRACK!!",
+      "prose_en": "A flashing cross-slash of red blood-light and bone-white energy cleanly severs two of Chronos's golden arms.",
+      "prose_hi": "Lal rakt-prakash aur asthi-shwet urja ka ek chamakta cross-slash chronos ki do sunhari bhujaon ko saaf kar deta hai."
     },
     {
       "id": "p27",
@@ -394,7 +446,9 @@
       "characters": [],
       "action": "The skull mask rotates forward; a beam of grey time-decay magic shoots toward Ha-Jun to age him 100 years.",
       "mood": "aging beam",
-      "sfx": "BEAM-DECAY!!"
+      "sfx": "BEAM-DECAY!!",
+      "prose_en": "The skull mask rotates forward; a beam of grey time-decay magic shoots toward Ha-Jun to age him 100 years.",
+      "prose_hi": "Khopri ka mukhauta aage ki or ghumta hai; dhusar samay-kshay jadu ki ek kiran ha-jun ki or badhti hai jisse uski aayu 100 varsh ho jaati hai."
     },
     {
       "id": "p28",
@@ -405,7 +459,9 @@
       ],
       "action": "Ha-Jun manifests Eclipse Devourer, swallowing the decay ray whole and converting it into pure kinetic speed.",
       "mood": "absorption and acceleration",
-      "sfx": "SLURP-SPEED!!"
+      "sfx": "SLURP-SPEED!!",
+      "prose_en": "Ha-Jun manifests Eclipse Devourer, swallowing the decay ray whole and converting it into pure kinetic speed.",
+      "prose_hi": "Ha-jun grahan bhakshak ko prakat karta hai, kshay kiran ko pura nigalta hai aur ise shuddh gatij gati mein parivartit karta hai."
     },
     {
       "id": "p29",
@@ -427,7 +483,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun materializes inches from Chronos-Malek's chest, right at the glowing crystal gear regulating the temporal nexus.",
+      "prose_hi": "Ha-jun cronos-malek ki chhati se kuch inch ki doori par, temporal nexus ko niyantrit karne wale chamakte crystal gear par sakar hota hai."
     },
     {
       "id": "p30",
@@ -448,7 +506,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun drives the Sanguine Fang straight through the temporal gear core, blinding the chamber in golden starlight!.",
+      "prose_hi": "Ha-jun senguin feng ko temporal gear core ke madhyam se sidhe chalata hai, jisse chamber sunhari taron ki roshni mein chakachaundh ho jata hai!"
     }
   ]
 }

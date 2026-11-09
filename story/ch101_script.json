@@ -15,7 +15,9 @@
       ],
       "action": "Rain softly patters against the cathedral windows of the university library; students study under green brass desk lamps.",
       "mood": "peaceful study atmosphere",
-      "sfx": "RAIN PATTER..."
+      "sfx": "RAIN PATTER...",
+      "prose_en": "Rain softly patters against the cathedral windows of the university library; students study under green brass desk lamps.",
+      "prose_hi": "Vishwavidyalaya pustakalaya ki girjaghar ki khidkiyon par baarish dhire-dhire thapthpati hai; chhatra hare pital ke desk lamp ke neeche adhyayan karte han."
     },
     {
       "id": "p02",
@@ -37,7 +39,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun sits between a young horned demon boy and a human girl, patiently explaining mana stabilization math.",
+      "prose_hi": "Ha-jun ek yuva seeng wale rakshas ladke aur ek manav ladki ke beech baithta hai, aur dhairyapoorvak man sthirikaran ganit samjhata hai."
     },
     {
       "id": "p03",
@@ -57,7 +61,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The young demon boy's eyes widen as a tiny glowing violet rose blossoms harmlessly in his hand: 'I did it, Professor Kang!'.",
+      "prose_hi": "Yuva danav ladke ki aankhen fail gai aur uske haath mein ek chhota chamakta hua baingani gulab hanirahit roop se khil gaya: 'maine yah kiya, professor cong!'."
     },
     {
       "id": "p04",
@@ -79,7 +85,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun ruffles his hair: 'Told you. Power is like water. If you fight it, it splashes. If you guide it, it flows.'.",
+      "prose_hi": "Ha-jun ne apne bal udhede: 'tumhen bataya tha. shakti pani ki tarah hai. yadi aap usse ladte han, to wah chhinte maarta hai. yadi aap iska margdarshan karte han, to yah bahti hai.'"
     },
     {
       "id": "p05",
@@ -99,7 +107,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun watches from the stacks, holding an armful of historical textbooks, his eyes full of warmth.",
+      "prose_hi": "Taaye-jun mutthi bhar aitihasik paathyapustaken haath mein liye dher se dekhta hai, uski aankhen garmjoshi se bhari han."
     },
     {
       "id": "p06",
@@ -121,7 +131,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun smiles: 'Dad was the best teacher in the world. I'm just copying him.'.",
+      "prose_hi": "Ha-jun muskurata hai: 'pitaji duniya ke sabse acche shikshak the. main bus uski nakal kar raha hun.'"
     },
     {
       "id": "p07",
@@ -132,7 +144,9 @@
       ],
       "action": "Kuro naps comfortably inside a large open copy of the Oxford English Dictionary, his wing draped over 'Peace'.",
       "mood": "humorous resting spot",
-      "sfx": "SOFT PURR..."
+      "sfx": "SOFT PURR...",
+      "prose_en": "Kuro naps comfortably inside a large open copy of the Oxford English Dictionary, his wing draped over 'Peace'.",
+      "prose_hi": "Kuro oxford english dictionary ki ek badi khuli prati ke andar aaram se jhapki le raha hai, uska pankh 'pis' par lipta hua hai."
     },
     {
       "id": "p08",
@@ -152,7 +166,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae enters quietly on tiptoes, balancing four cups of warm hazelnut lattes: 'Coffee break for the faculty!'.",
+      "prose_hi": "Min-je char cup garm hezalant latte ko santulit karte hue chupchap panjon ke bal pravesh karta hai: 'faculti ke liye coffee brek!'."
     },
     {
       "id": "p09",
@@ -175,7 +191,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The four friends huddle behind the bookshelf, sipping warm lattes and giggling like high schoolers.",
+      "prose_hi": "Charon dost bukashelf ke peeche chhupe hue han, garm latte pee rahe hain aur high school ke chhatron ki tarah khilkhila rahe han."
     },
     {
       "id": "p10",
@@ -195,7 +213,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae winks: 'If the head librarian complains, I'll tell her the Demon Sovereign ordered the coffee!'.",
+      "prose_hi": "Min-je aankh maarte hue kahte han: 'agar head librarian shikayat karta hai, to main use bataunga ki demon sovereign ne coffee ka order diya tha!'."
     },
     {
       "id": "p11",
@@ -206,7 +226,9 @@
       ],
       "action": "Ha-Jun laughs, taking a warm sip, feeling the deep, cozy simplicity of everyday human happiness.",
       "mood": "simple happiness",
-      "sfx": "SMILE-SIP..."
+      "sfx": "SMILE-SIP...",
+      "prose_en": "Ha-Jun laughs, taking a warm sip, feeling the deep, cozy simplicity of everyday human happiness.",
+      "prose_hi": "Ha-jun hansta hai, ek garm ghunt peeta hai, rojmarra ki manviya khushi ki gahri, aaramdayak sadgi ko mahsoos karta hai."
     },
     {
       "id": "p12",
@@ -215,7 +237,9 @@
       "characters": [],
       "action": "The heavy rain outside softens into a misty shower; sunlight breaks through the clouds, casting rainbow arcs.",
       "mood": "rainbow appears",
-      "sfx": "RAINBOW GLOW..."
+      "sfx": "RAINBOW GLOW...",
+      "prose_en": "The heavy rain outside softens into a misty shower; sunlight breaks through the clouds, casting rainbow arcs.",
+      "prose_hi": "Bahar bhari baarish dhundhli bauchhar mein badal jaati hai; suraj ki roshni baadalon se hokar gujarti hai aur indradhanushi chaap banati hai."
     },
     {
       "id": "p13",
@@ -226,7 +250,9 @@
       ],
       "action": "Ha-Jun looks out at the green lawns where students are sitting on park benches reading.",
       "mood": "peaceful campus",
-      "sfx": "GAZE..."
+      "sfx": "GAZE...",
+      "prose_en": "Ha-Jun looks out at the green lawns where students are sitting on park benches reading.",
+      "prose_hi": "Ha-jun hare lawn ko dekhta hai jahan chhatra park ki benchon par baithe padh rahe han."
     },
     {
       "id": "p14",
@@ -248,7 +274,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun joins him: 'Do you ever miss the adrenaline, Ha-Jun? The roaring battles?'.",
+      "prose_hi": "Taaye-jun usse judta hai: 'kya tumhe kabhi adrenaline ki yaad aati hai, ha-jun? dahadti ladaiyan?'"
     },
     {
       "id": "p15",
@@ -270,7 +298,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun shakes his head firmly: 'Never. The sword was only a tool to reach this silence.'.",
+      "prose_hi": "Ha-jun dridhta se apna sir hilata hai: 'kabhi nahin. talwar is maun tak pahunchne ka ek sadhan matra thi.'"
     },
     {
       "id": "p16",
@@ -292,7 +322,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro taps the glass: 'A warrior who loves fighting is a butcher. A warrior who loves peace is a King.'.",
+      "prose_hi": "Kuro ne kaanch thapthpaya: 'jo yoddha ladna pasand karta hai wah kasai hota hai. ek yoddha jo shanti pasand karta hai wah ek raja hai.'"
     },
     {
       "id": "p17",
@@ -315,7 +347,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun scratches under Kuro's beak: 'You always say the right things when you're not eating my croissants.'.",
+      "prose_hi": "Ha-jun kuro ki chonch ke neeche kharonchta hai: 'jab aap mere croisain nahin kha rahe hote hain to aap hamesha sahi baatein kahte han.'"
     },
     {
       "id": "p18",
@@ -324,7 +358,9 @@
       "characters": [],
       "action": "The antique grandfather clock in the corner chimes five melodious tones; students begin packing bags.",
       "mood": "evening approaches",
-      "sfx": "DONG-DONG-DONG..."
+      "sfx": "DONG-DONG-DONG...",
+      "prose_en": "The antique grandfather clock in the corner chimes five melodious tones; students begin packing bags.",
+      "prose_hi": "Kone mein lagi prachin dadaji ki ghadi paanch madhur swar bajati hai; chhatra bag pack karna shuru karte han."
     },
     {
       "id": "p19",
@@ -346,7 +382,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The students bow politely: 'Thank you, Professor Ha-Jun! See you on Wednesday!'.",
+      "prose_hi": "Chhatra vinamrata se jhukte han: 'dhanyavad, professor ha-jun! budhwar ko milte han!'"
     },
     {
       "id": "p20",
@@ -368,7 +406,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun waves back: 'Practice your mana circles! I will be checking on Wednesday!'.",
+      "prose_hi": "Ha-jun ne jawab diya: 'apne man vritton ka abhyas karen! main budhwar ko janch karunga!'"
     },
     {
       "id": "p21",
@@ -379,7 +419,9 @@
       ],
       "action": "The library empties; long amber sunbeams illuminate the polished oak floors and dusty book bindings.",
       "mood": "golden hour quiet",
-      "sfx": "AMBER RAYS..."
+      "sfx": "AMBER RAYS...",
+      "prose_en": "The library empties; long amber sunbeams illuminate the polished oak floors and dusty book bindings.",
+      "prose_hi": "Pustkalay khali ho jata hai; lambi amber dhoop ki kiranen polish kiye gaye oak farsh aur dhul bhari kitabon ki binding ko roshan karti han."
     },
     {
       "id": "p22",
@@ -390,7 +432,9 @@
       ],
       "action": "The three young men zip their leather bags, ready to head home for the evening.",
       "mood": "end of workday",
-      "sfx": "ZIPPER-CLICK..."
+      "sfx": "ZIPPER-CLICK...",
+      "prose_en": "The three young men zip their leather bags, ready to head home for the evening.",
+      "prose_hi": "Teenon yuvak apne chamde ke bag band kar sham ke liye ghar jaane ke liye taiyar han."
     },
     {
       "id": "p23",
@@ -410,7 +454,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun scrolls on his phone: 'We need green onions, tofu, and beef brisket for the sundubu stew.'.",
+      "prose_hi": "Taaye-jun apne phone par scroll karta hai: 'hamen sundubu stu ke liye hari pyaj, tofu aur beef brisket ki aavashyakta hai.'"
     },
     {
       "id": "p24",
@@ -430,7 +476,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae grins: 'Sundubu stew?! Count me in! I'll buy the ice cream for dessert!'.",
+      "prose_hi": "Min-je muskurati hai: 'sundubu stu?! apni gatividhi ya yojana mein mujhe shamil karen! main mithai ke liye icecream khridunga!'"
     },
     {
       "id": "p25",
@@ -452,7 +500,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun laughs: 'You eat dinner at our place six days a week, Min-Jae. You practically live with us.'.",
+      "prose_hi": "Ha-jun hanste hue kahte han: 'aap saptah mein chhah din hamare yahan khana khate han, min-je. aap vyavharik roop se hamare saath rahte han.'"
     },
     {
       "id": "p26",
@@ -472,7 +522,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae shrugs proudly: 'Tae-Jun hyung's cooking is an S-rank national treasure!'.",
+      "prose_hi": "Min-je garv se kandhe uchkaate han: 'taaye-jun hyung ka khana banana ek s-rank rashtriya khajana hai!'"
     },
     {
       "id": "p27",
@@ -492,7 +544,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun chuckles: 'See? Min-Jae has taste. Unlike my ungrateful little brother.'.",
+      "prose_hi": "Taaye-jun hanste hue kahte han: 'dekha? min-je mein swad hai. mere kritghan chhote bhai ke viparit.'"
     },
     {
       "id": "p28",
@@ -504,7 +558,9 @@
       ],
       "action": "The four friends walk down the marble stairs, their laughter echoing through the quiet halls.",
       "mood": "happy departure",
-      "sfx": "FOOTSTEPS-LAUGHTER..."
+      "sfx": "FOOTSTEPS-LAUGHTER...",
+      "prose_en": "The four friends walk down the marble stairs, their laughter echoing through the quiet halls.",
+      "prose_hi": "Charon dost sangmarmar ki sidhiyon se neeche chalte han, unki hansi shant hall mein goonjati hai."
     },
     {
       "id": "p29",
@@ -516,7 +572,9 @@
       ],
       "action": "They step out of the heavy glass doors into the cool, rain-washed evening air, streetlamps buzzing to life.",
       "mood": "cool evening air",
-      "sfx": "EVENING BREEZE..."
+      "sfx": "EVENING BREEZE...",
+      "prose_en": "They step out of the heavy glass doors into the cool, rain-washed evening air, streetlamps buzzing to life.",
+      "prose_hi": "Ve bhari sheeshe ke darwazon se bahar nikal kar baarish se dhuli sham ki thandi hawa mein kadam rakhte han, street lamp jeevant ho uthte han."
     },
     {
       "id": "p30",
@@ -538,7 +596,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun, Tae-Jun, Min-Jae, and Kuro walk down the tree-lined street together into the golden sunset glow!.",
+      "prose_hi": "Ha-jun, taaye-jun, min-je, aur kuro suryast ki sunhari chamak mein pedon se ghiri sadak par ek saath chalte han!"
     }
   ]
 }

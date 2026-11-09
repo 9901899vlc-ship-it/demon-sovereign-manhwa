@@ -13,7 +13,9 @@
       "characters": [],
       "action": "Captain Baek swings the 200-pound jagged greatsword effortlessly in one hand, dark anti-mana humming.",
       "mood": "sword unsheathed",
-      "sfx": "SHKKK-CLANG!!"
+      "sfx": "SHKKK-CLANG!!",
+      "prose_en": "Captain Baek swings the 200-pound jagged greatsword effortlessly in one hand, dark anti-mana humming.",
+      "prose_hi": "Captain bake 200 pound ki dantedar badi talwar ko ek haath mein aasani se ghumate han, gahre anti-mana ko gungunate hue."
     },
     {
       "id": "p02",
@@ -22,7 +24,9 @@
       "characters": [],
       "action": "Baek kicks off the concrete, leaving a shattered crater as he rockets forward with devastating momentum.",
       "mood": "heavy charge",
-      "sfx": "BOOOOM!!"
+      "sfx": "BOOOOM!!",
+      "prose_en": "Baek kicks off the concrete, leaving a shattered crater as he rockets forward with devastating momentum.",
+      "prose_hi": "Bek ne vinashkari gati ke saath rocket ko aage badhate hue concrete ko laat mari, jisse ek toota hua gaddha ban gaya."
     },
     {
       "id": "p03",
@@ -33,7 +37,9 @@
       ],
       "action": "Baek's greatsword slams into Ha-Jun's raised left bone gauntlet; a radial shockwave shatters all remaining glass.",
       "mood": "titan clash",
-      "sfx": "KABOOOOMMM!!"
+      "sfx": "KABOOOOMMM!!",
+      "prose_en": "Baek's greatsword slams into Ha-Jun's raised left bone gauntlet; a radial shockwave shatters all remaining glass.",
+      "prose_hi": "Bak ki badi talwar ha-jun ki ubhari hui bayin haddi ke hathiyar se takrati hai; ek radial shockwev shesh sabhi kaanch ko chaknachur kar deti hai."
     },
     {
       "id": "p04",
@@ -44,7 +50,9 @@
       ],
       "action": "The concrete under Ha-Jun's boots cracks into spiderwebs from the sheer kinetic pressure of Baek's blow.",
       "mood": "absorbing pressure",
-      "sfx": "CREAK-CRACK!!"
+      "sfx": "CREAK-CRACK!!",
+      "prose_en": "The concrete under Ha-Jun's boots cracks into spiderwebs from the sheer kinetic pressure of Baek's blow.",
+      "prose_hi": "Bek ke prahar ke tivra gatij dabav se ha-jun ke jooton ke neeche ka concrete makdi ke jaalon mein toot jata hai."
     },
     {
       "id": "p05",
@@ -63,7 +71,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Baek leans in with veins bulging on his neck: 'Tumhara bone armor sach mein impressive hai, ladke!'.",
+      "prose_hi": "Bek apni gardan par ubhari hui nason ke saath jhukta hai: 'tumhara asthi kavach sach mein prabhavshali hai, ladke!'."
     },
     {
       "id": "p06",
@@ -72,7 +82,9 @@
       "characters": [],
       "action": "Using the greatsword as a fulcrum, Baek swings his titanium-armored boot straight at Ha-Jun's ribs.",
       "mood": "veteran martial arts",
-      "sfx": "WHAMMM!!"
+      "sfx": "WHAMMM!!",
+      "prose_en": "Using the greatsword as a fulcrum, Baek swings his titanium-armored boot straight at Ha-Jun's ribs.",
+      "prose_hi": "Gratusward ko aadhar ke roop mein upyog karte hue, bake ne apne titenium-baktarband boot ko sidhe ha-jun ki pasliyon par ghumaya."
     },
     {
       "id": "p07",
@@ -83,7 +95,9 @@
       ],
       "action": "Ha-Jun pivots, his right blood katana sliding along Baek's armor to deflect the kick off-target.",
       "mood": "smooth deflection",
-      "sfx": "SPARK-SLIDE!"
+      "sfx": "SPARK-SLIDE!",
+      "prose_en": "Ha-Jun pivots, his right blood katana sliding along Baek's armor to deflect the kick off-target.",
+      "prose_hi": "Ha-jun dhuri, uska dahina rakt katana kick ko lakshya se hatane ke liye bak ke kavach ke saath fisal raha hai."
     },
     {
       "id": "p08",
@@ -94,7 +108,9 @@
       ],
       "action": "Ha-Jun's flaming blood blade darts forward like a striking viper, aimed straight at the unarmored throat gap.",
       "mood": "lethal counter",
-      "sfx": "SHING!!"
+      "sfx": "SHING!!",
+      "prose_en": "Ha-Jun's flaming blood blade darts forward like a striking viper, aimed straight at the unarmored throat gap.",
+      "prose_hi": "Ha-jun ka dhadhkta hua rakt blade ek hadtali saamp ki tarah aage badhta hai, jiska lakshya sidhe nihatthe gale ke antral par hota hai."
     },
     {
       "id": "p09",
@@ -103,7 +119,9 @@
       "characters": [],
       "action": "A loud sniper gunshot rings out from the overhead catwalk, shattering the blood blade in mid-thrust.",
       "mood": "surprise sniper",
-      "sfx": "BANG-SHATTER!!"
+      "sfx": "BANG-SHATTER!!",
+      "prose_en": "A loud sniper gunshot rings out from the overhead catwalk, shattering the blood blade in mid-thrust.",
+      "prose_hi": "Overhed catwalk se ek tez sniper bandook ki goli ki awaaz aati hai, jo bich-bich mein khoon ke blade ko chaknachur kar deti hai."
     },
     {
       "id": "p10",
@@ -114,7 +132,9 @@
       ],
       "action": "Ha-Jun leaps back ten feet, his shattered blood reforming into his ring, eyes darting to the catwalk.",
       "mood": "startled disengagement",
-      "sfx": "SWOOSH!"
+      "sfx": "SWOOSH!",
+      "prose_en": "Ha-Jun leaps back ten feet, his shattered blood reforming into his ring, eyes darting to the catwalk.",
+      "prose_hi": "Ha-jun das feet peeche chhalaang lagata hai, uska bikhra hua khoon uski anguthi mein badal jata hai, aankhen catwalk ki or badhti han."
     },
     {
       "id": "p11",
@@ -122,7 +142,9 @@
       "setting": "catwalk overhead",
       "characters": [],
       "action": "Standing on the catwalk: a slender 19yo boy in a Saint Mirren academy blazer, trembling violently.",
-      "mood": "familiar silhouette"
+      "mood": "familiar silhouette",
+      "prose_en": "Standing on the catwalk: a slender 19yo boy in a Saint Mirren academy blazer, trembling violently.",
+      "prose_hi": "Catwalk par khada: sent miren akadami blazer mein ek patla 19 varshiya ladka, hinsak roop se kamp raha tha."
     },
     {
       "id": "p12",
@@ -143,7 +165,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's eyes widen in genuine disbelief: 'Jin-Woo... Senior?!'.",
+      "prose_hi": "Ha-jun ki aankhen vastavik avishvas se chaudi ho gain: 'jin-woo... sineer?!'."
     },
     {
       "id": "p13",
@@ -162,7 +186,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Park Jin-Woo weeps openly, tears streaming down his face as he aims the rifle at Ha-Jun.",
+      "prose_hi": "Park jin-woo khuleaam rota hai, ha-jun par rifle ka nishana banate samay uske chehre se aansu bah rahe han."
     },
     {
       "id": "p14",
@@ -181,7 +207,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Jin-Woo holds up a glowing blue pharmaceutical vial in his left hand with desperate sobbing.",
+      "prose_hi": "Jin-woo ne hatasha bhari siskiyon ke saath apne baen haath mein ek chamakdar neeli pharmaceutical shishi pakad rakhi hai."
     },
     {
       "id": "p15",
@@ -202,7 +230,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's arms slowly drop to his sides; the memory of his own lost brother paralyzes his battle instinct.",
+      "prose_hi": "Ha-jun ki bhujaen dhire-dhire uski taraf girti han; apne hi khoe hue bhai ki yaad uski yudh pravritti ko pangu bana deti hai."
     },
     {
       "id": "p16",
@@ -223,7 +253,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro screams in terror: 'HA-JUN, DEFEND! BAEK IS MOVING! APNE EMOTIONS KO SIDE MEIN RAKHO!'.",
+      "prose_hi": "Kuro bhaybhit hokar chillata hai: 'ha-jun, bachav karo! bake chal raha hai! apne emotions ko side mein rakho!'."
     },
     {
       "id": "p17",
@@ -232,7 +264,9 @@
       "characters": [],
       "action": "Taking full advantage of Ha-Jun's distraction, Captain Baek unleashes his ultimate strike.",
       "mood": "lethal execution",
-      "sfx": "ROARRRRR!!"
+      "sfx": "ROARRRRR!!",
+      "prose_en": "Taking full advantage of Ha-Jun's distraction, Captain Baek unleashes his ultimate strike.",
+      "prose_hi": "Ha-jun ki vyakulta ka pura fayda uthate hue, captain bak ne apna antim prahar kiya."
     },
     {
       "id": "p18",
@@ -243,7 +277,9 @@
       ],
       "action": "The anti-mana greatsword strikes Ha-Jun's left forearm with ungodly kinetic force, fracturing the bone plate.",
       "mood": "armor shattered",
-      "sfx": "KRAAAACK-SNAP!!"
+      "sfx": "KRAAAACK-SNAP!!",
+      "prose_en": "The anti-mana greatsword strikes Ha-Jun's left forearm with ungodly kinetic force, fracturing the bone plate.",
+      "prose_hi": "Man-virodhi mahan talwar ha-jun ke bayin baanh par adharmi gatij bal se prahar karti hai, jisse haddi ki plate toot jaati hai."
     },
     {
       "id": "p19",
@@ -254,7 +290,9 @@
       ],
       "action": "Ha-Jun screams in visceral agony as the shockwave shatters his radius bone beneath the armor.",
       "mood": "agonizing fracture",
-      "sfx": "ARGGGHHH!!"
+      "sfx": "ARGGGHHH!!",
+      "prose_en": "Ha-Jun screams in visceral agony as the shockwave shatters his radius bone beneath the armor.",
+      "prose_hi": "Jaise hi shockwev kavach ke neeche uski trijya ki haddi ko todti hai, ha-jun aant ki peeda mein chillata hai."
     },
     {
       "id": "p20",
@@ -265,7 +303,9 @@
       ],
       "action": "The titanic impact blasts Ha-Jun backward through three reinforced brick partition walls.",
       "mood": "catastrophic propulsion",
-      "sfx": "BOOM-CRASH-BOOM!!"
+      "sfx": "BOOM-CRASH-BOOM!!",
+      "prose_en": "The titanic impact blasts Ha-Jun backward through three reinforced brick partition walls.",
+      "prose_hi": "Titanik prabhav teen prabalit int vibhajan diwaron ke madhyam se ha-jun ko peeche ki or visphotit karta hai."
     },
     {
       "id": "p21",
@@ -276,7 +316,9 @@
       ],
       "action": "Ha-Jun lies half-buried under crushed red bricks, blood pouring from his forehead and broken left arm.",
       "mood": "defeated protagonist",
-      "sfx": "COUGH-GASP..."
+      "sfx": "COUGH-GASP...",
+      "prose_en": "Ha-Jun lies half-buried under crushed red bricks, blood pouring from his forehead and broken left arm.",
+      "prose_hi": "Ha-jun kuchli hui lal inton ke neeche aadha daba hua hai, uske mathe se khoon bah raha hai aur bayan haath toota hua hai."
     },
     {
       "id": "p22",
@@ -285,7 +327,9 @@
       "characters": [],
       "action": "Captain Baek steps through the shattered archway, dragging his blood-stained greatsword.",
       "mood": "inexorable executioner",
-      "sfx": "STEP... STEP..."
+      "sfx": "STEP... STEP...",
+      "prose_en": "Captain Baek steps through the shattered archway, dragging his blood-stained greatsword.",
+      "prose_hi": "Capton bak apni khoon se sunny badi talwar ko ghasitate hue, toote hue toran dwar se hokar gujarta hai."
     },
     {
       "id": "p23",
@@ -304,7 +348,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Baek stops three feet away: 'Combat mein hesitation sirf maut laati hai, boy. Tumhara dil bohot naram hai.'.",
+      "prose_hi": "Bek teen feet door rukta hai: 'mukable mein jhijhak sirf maut laati hai, ladke. 'tumhara dil bahut naram hai.'"
     },
     {
       "id": "p24",
@@ -313,7 +359,9 @@
       "characters": [],
       "action": "Baek raises the massive blade two-handed, poised to plunge it directly into Ha-Jun's heart.",
       "mood": "executioner stance",
-      "sfx": "LIFT..."
+      "sfx": "LIFT...",
+      "prose_en": "Baek raises the massive blade two-handed, poised to plunge it directly into Ha-Jun's heart.",
+      "prose_hi": "Bek do hathon se vishal blade uthata hai, jo ise sidhe ha-jun ke dil mein dubaane ke liye taiyar hai."
     },
     {
       "id": "p25",
@@ -335,7 +383,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro plunges between them, his wings exploding into a blinding 30-meter screen of choking purple demonic miasma.",
+      "prose_hi": "Kuro unke beech girta hai, uske pankh dam ghutne wali baingani rakshasi mayasma ki 30 meter ki chakachaundh screen mein fat jaate han."
     },
     {
       "id": "p26",
@@ -355,7 +405,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Baek swings blindly through the dense purple fog, but his blade strikes only empty air.",
+      "prose_hi": "Bak ghane baingani kohre mein aankh band karke ghumta hai, lekin uska blade keval khali hawa par hamla karta hai."
     },
     {
       "id": "p27",
@@ -375,7 +427,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae smashes an industrial forklift through a corrugated metal side door into the smoke.",
+      "prose_hi": "Min-je ek audyogik forklift ko nalidar dhatu ke darvaje ke madhyam se dhuen mein tod deta hai."
     },
     {
       "id": "p28",
@@ -384,7 +438,9 @@
       "characters": [],
       "action": "Min-Jae frantically drags Ha-Jun's limp, bleeding body onto the wooden pallet.",
       "mood": "frantic extraction",
-      "sfx": "PULL!!"
+      "sfx": "PULL!!",
+      "prose_en": "Min-Jae frantically drags Ha-Jun's limp, bleeding body onto the wooden pallet.",
+      "prose_hi": "Min-je ne ha-jun ke langade, langde shareer ko lakdi ke foos par khinch liya."
     },
     {
       "id": "p29",
@@ -393,7 +449,9 @@
       "characters": [],
       "action": "Min-Jae slams the forklift into reverse, bursting out into the pouring rain as smoke billows behind them.",
       "mood": "daring escape",
-      "sfx": "VROOOM!!"
+      "sfx": "VROOOM!!",
+      "prose_en": "Min-Jae slams the forklift into reverse, bursting out into the pouring rain as smoke billows behind them.",
+      "prose_hi": "Min-je ne forklift ko ulta patak diya, jisse tej baarish ke beech dhuan nikalta hua unke peeche se nikal gaya."
     },
     {
       "id": "p30",
@@ -412,7 +470,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Captain Baek lowers his sword, wiping purple soot from his cheek: 'Bhag gaye... Lekin uski haddiyan toot chuki hain.'.",
+      "prose_hi": "Capton bak ne apni talwar neeche kar lee aur apne gaal se baingani kalikh ponchte hue kaha: 'bhag gaye... lekin uski hadiyan toot chuki han.'"
     }
   ]
 }

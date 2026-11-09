@@ -15,7 +15,9 @@
       ],
       "action": "A bleak, lightless fortress of matte-black anti-matter stone under twin crimson moons; zero wind, unnatural dead silence.",
       "mood": "deadly silence",
-      "sfx": "DEAD SILENCE..."
+      "sfx": "DEAD SILENCE...",
+      "prose_en": "A bleak, lightless fortress of matte-black anti-matter stone under twin crimson moons; zero wind, unnatural dead silence.",
+      "prose_hi": "Judwan lal chandramaon ke neeche mat-kale anti-mater patthar ka ek dhumil, prakashahin kila; shunya hawa, aprakritik mrit sannata."
     },
     {
       "id": "p02",
@@ -26,7 +28,9 @@
       ],
       "action": "Ha-Jun extends his hands: the flame on his fingertips flickers and extinguishes in the anti-mana atmosphere.",
       "mood": "mana nullification",
-      "sfx": "PZZZT-OUT..."
+      "sfx": "PZZZT-OUT...",
+      "prose_en": "Ha-Jun extends his hands: the flame on his fingertips flickers and extinguishes in the anti-mana atmosphere.",
+      "prose_hi": "Ha-jun apne haath failata hai: uski ungaliyon par lau man-virodhi vatavaran mein timtimati aur bujhti hai."
     },
     {
       "id": "p03",
@@ -47,7 +51,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro's body shrinks back to crow size; his horn tips lose their glow: 'Ugh... Nullification field bohot strong hai.'.",
+      "prose_hi": "Kuro ka shareer sikudkar wapas kauve ke aakaar ka ho gaya; uske seengon ki noken apni chamak kho deti han: 'uh... shunyikaran kshetra bahut majboot hai.'"
     },
     {
       "id": "p04",
@@ -69,7 +75,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's bone gauntlet remains dense and solid; his skeletal reinforcement is biological, immune to dispels.",
+      "prose_hi": "Ha-jun ki haddi ka kavach ghana aur thos rahata hai; uska kankal sudridhikaran jaivik hai, door karne ke liye pratirodhi hai."
     },
     {
       "id": "p05",
@@ -80,7 +88,9 @@
       ],
       "action": "The Fang of Abyss hums with cold dark space; as a tear in reality, it cannot be canceled by mana fields.",
       "mood": "spatial immunity",
-      "sfx": "HUMMM..."
+      "sfx": "HUMMM...",
+      "prose_en": "The Fang of Abyss hums with cold dark space; as a tear in reality, it cannot be canceled by mana fields.",
+      "prose_hi": "Rasatal ka dant thande andhere sthan se gunjan karta hai; vaastav mein ek aansu ke roop men, ise man kshetron dwara radd nahin kiya ja sakta hai."
     },
     {
       "id": "p06",
@@ -102,7 +112,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "The starry cosmic eye pierces through the darkness, highlighting structural weak points in the fortress walls.",
+      "prose_hi": "Taaron se bhari brahmandiya aankh andhere ko bhedati hai, aur kile ki diwaron mein sanrachnatmak kamjor binduon ko ujagar karti hai."
     },
     {
       "id": "p07",
@@ -111,7 +123,9 @@
       "characters": [],
       "action": "Two 8-foot tall faceless Void Inquisitors clad in obsidian plate armor, carrying jagged executioner axes.",
       "mood": "silent patrol",
-      "sfx": "HEAVY CLANK..."
+      "sfx": "HEAVY CLANK...",
+      "prose_en": "Two 8-foot tall faceless Void Inquisitors clad in obsidian plate armor, carrying jagged executioner axes.",
+      "prose_hi": "Obseedian plate kavach pahane do 8 foot lambe faceles shunya jigyasu, dantedar jallad kulhadiyon ko le jaate hue."
     },
     {
       "id": "p08",
@@ -122,7 +136,9 @@
       ],
       "action": "Ha-Jun drops silently from an overhead ventilation shaft, landing directly between the two sentries.",
       "mood": "silent drop",
-      "sfx": "GHOST-TAP..."
+      "sfx": "GHOST-TAP...",
+      "prose_en": "Ha-Jun drops silently from an overhead ventilation shaft, landing directly between the two sentries.",
+      "prose_hi": "Ha-jun overhead ventilation shaft se chupchap girta hai, sidhe do santriyon ke beech utarta hai."
     },
     {
       "id": "p09",
@@ -133,7 +149,9 @@
       ],
       "action": "Before the sentry can turn, Ha-Jun drives his left bone elbow into the center of the inquisitor's breastplate.",
       "mood": "bone strike",
-      "sfx": "WHAMMM!!"
+      "sfx": "WHAMMM!!",
+      "prose_en": "Before the sentry can turn, Ha-Jun drives his left bone elbow into the center of the inquisitor's breastplate.",
+      "prose_hi": "Isse pehle ki santari mud sake, ha-jun apni bayin haddi ki kohni ko jigyasu ke brestaplate ke kendra mein chala deta hai."
     },
     {
       "id": "p10",
@@ -142,7 +160,9 @@
       "characters": [],
       "action": "The solid anti-matter steel plate caves inward three inches; the sentry is knocked unconscious instantly.",
       "mood": "armor caved",
-      "sfx": "CRUNCH!!"
+      "sfx": "CRUNCH!!",
+      "prose_en": "The solid anti-matter steel plate caves inward three inches; the sentry is knocked unconscious instantly.",
+      "prose_hi": "Thos pratipdarth steel plate teen inch andar ki or dhansi hui hoti hai; santari turant behosh ho jata hai."
     },
     {
       "id": "p11",
@@ -151,7 +171,9 @@
       "characters": [],
       "action": "The second guard swings a heavy double-bitted axe in a horizontal decapitation arc.",
       "mood": "lethal axe swing",
-      "sfx": "SWHOOSH!!"
+      "sfx": "SWHOOSH!!",
+      "prose_en": "The second guard swings a heavy double-bitted axe in a horizontal decapitation arc.",
+      "prose_hi": "Dusra guard ek bhari duble-bited kulhadi ko kshaitij decapitation arc mein ghumata hai."
     },
     {
       "id": "p12",
@@ -162,7 +184,9 @@
       ],
       "action": "Remembering his blindfold training, Ha-Jun ducks smoothly under the axe, stepping into the guard's guard.",
       "mood": "flawless slip",
-      "sfx": "SWOOSH!"
+      "sfx": "SWOOSH!",
+      "prose_en": "Remembering his blindfold training, Ha-Jun ducks smoothly under the axe, stepping into the guard's guard.",
+      "prose_hi": "Apni aankhon par patti bandhkar kiye gaye prashikshan ko yaad karte hue, ha-jun guard ki suraksha mein kadam rakhte hue, kulhadi ke neeche aasani se jhuk jata hai."
     },
     {
       "id": "p13",
@@ -173,7 +197,9 @@
       ],
       "action": "Ha-Jun drives an open-palm bone strike upward into the sentry's chin, snapping the helmet back.",
       "mood": "instant knockout",
-      "sfx": "SNAP-CLANG!!"
+      "sfx": "SNAP-CLANG!!",
+      "prose_en": "Ha-Jun drives an open-palm bone strike upward into the sentry's chin, snapping the helmet back.",
+      "prose_hi": "Ha-jun santari ki thuddi mein upar ki or khuli hatheli ki haddi se war karta hai, jisse helmet peeche hat jata hai."
     },
     {
       "id": "p14",
@@ -182,7 +208,9 @@
       "characters": [],
       "action": "The second inquisitor collapses unconscious to the stone floor with zero alarms raised.",
       "mood": "silent victory",
-      "sfx": "THUD..."
+      "sfx": "THUD...",
+      "prose_en": "The second inquisitor collapses unconscious to the stone floor with zero alarms raised.",
+      "prose_hi": "Dusra jigyasu bina kisi alarm ke patthar ke farsh par behosh hokar gir jata hai."
     },
     {
       "id": "p15",
@@ -203,7 +231,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro snickers: 'Clean. Martial discipline bina mana ke bhi lethal hai.'.",
+      "prose_hi": "Kuro hanste hue kehta hai: 'saf karo. marshal anushasan bina man ke bhi ghatak hai.'"
     },
     {
       "id": "p16",
@@ -214,7 +244,9 @@
       ],
       "action": "Ha-Jun glides down the spiraling stone corridor, his Eye of the Night tracking the crimson thread.",
       "mood": "deep dungeon descent",
-      "sfx": "STEP... STEP..."
+      "sfx": "STEP... STEP...",
+      "prose_en": "Ha-Jun glides down the spiraling stone corridor, his Eye of the Night tracking the crimson thread.",
+      "prose_hi": "Ha-jun sarpil patthar ke galiyare se neeche sarkata hai, uski raat ki aankh lal rang ke dhaage par nazar rakhti hai."
     },
     {
       "id": "p17",
@@ -222,7 +254,9 @@
       "setting": "dungeon cells",
       "characters": [],
       "action": "Rusted iron cell bars holding emaciated ancient demons, staring at Ha-Jun with hollow, dead eyes.",
-      "mood": "forgotten captives"
+      "mood": "forgotten captives",
+      "prose_en": "Rusted iron cell bars holding emaciated ancient demons, staring at Ha-Jun with hollow, dead eyes.",
+      "prose_hi": "Jang lagi lohe ki sale ki salaakhen kshin prachin rakshason ko pakde hue, khokhali, mrit aankhon se ha-jun ko ghoor rahi han."
     },
     {
       "id": "p18",
@@ -241,7 +275,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "An ancient four-eyed warlock demon gasps, clutching the bars: 'S-Sovereign... The Bloodline lives...!'.",
+      "prose_hi": "Ek prachin char aankhon wala karamati danav salakhon ko pakadkar hanfta hai: 's-soweren... the bladlin lives...!'."
     },
     {
       "id": "p19",
@@ -262,7 +298,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun looks into the captive's desperate eyes: 'Main sabko azaad karunga... Bas thoda sabr rakho.'.",
+      "prose_hi": "Ha-jun bandi ki hatash aankhon mein dekhta hai: 'main sabko azad karunga... bus thoda sabra rakho.'"
     },
     {
       "id": "p20",
@@ -272,7 +310,9 @@
         "hajun"
       ],
       "action": "The corridor opens into a massive 100-meter circular subterranean rotunda lit by floating green torches.",
-      "mood": "the central chamber"
+      "mood": "the central chamber",
+      "prose_en": "The corridor opens into a massive 100-meter circular subterranean rotunda lit by floating green torches.",
+      "prose_hi": "Galiyara tairti hari mashalon se jagmagate 100 meter ke vishal golakar bhumigat rotunda mein khulta hai."
     },
     {
       "id": "p21",
@@ -281,7 +321,9 @@
       "characters": [],
       "action": "Suspended 30 feet in midair: Kang Tae-Jun, bound by colossal black glowing chains wrapped around his arms and torso.",
       "mood": "the brother found",
-      "sfx": "CHAIN CLINK..."
+      "sfx": "CHAIN CLINK...",
+      "prose_en": "Suspended 30 feet in midair: Kang Tae-Jun, bound by colossal black glowing chains wrapped around his arms and torso.",
+      "prose_hi": "Hawa mein 30 feet neeche latka hua: kang taaye-jun, apni baahon aur dhad ke charon or lipati vishal kali chamakti janjeeron se bandha hua."
     },
     {
       "id": "p22",
@@ -302,7 +344,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's breath shatters in his chest; tears well up as he finally lays eyes on his elder brother.",
+      "prose_hi": "Ha-jun ki saansein uske seene mein bikhar gain; akhirkar jab uski nazar apne bade bhai par padti hai to uski aankhon mein aansu aa jaate han."
     },
     {
       "id": "p23",
@@ -310,7 +354,9 @@
       "setting": "monolith close-up",
       "characters": [],
       "action": "Kang Tae-Jun—with messy dark hair, a scarred jawline, and tired fierce eyes—slowly raises his head.",
-      "mood": "the brother looks up"
+      "mood": "the brother looks up",
+      "prose_en": "Kang Tae-Jun—with messy dark hair, a scarred jawline, and tired fierce eyes—slowly raises his head.",
+      "prose_hi": "Cong taaye-jun - gande kale bal, jakhmi jabde aur thaki hui bhayankar aankhon ke saath - dhire-dhire apna sir uthata hai."
     },
     {
       "id": "p24",
@@ -329,7 +375,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun's dry lips part in stunned disbelief: 'H-Ha-Jun...? Tum... Yahan kaise...?'.",
+      "prose_hi": "Taaye-jun ke sukhe honth stabdh avishvas mein foot pade: 'h-ha-jun...? tum...yahan kaise...?'"
     },
     {
       "id": "p25",
@@ -338,7 +386,9 @@
       "characters": [],
       "action": "From the high balcony shadows, a 12-foot demonic figure in feathered violet silk robes steps forward.",
       "mood": "the warden reveals himself",
-      "sfx": "CLACK-STEP..."
+      "sfx": "CLACK-STEP...",
+      "prose_en": "From the high balcony shadows, a 12-foot demonic figure in feathered violet silk robes steps forward.",
+      "prose_hi": "Unchi balcony ki parchhaiyon se, pankhdar baingani resham ke vastra pahane ek 12 foot ki rakshasi aakriti aage badhti hai."
     },
     {
       "id": "p26",
@@ -357,7 +407,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "A tall, slender demon lord with four sweeping ram horns, porcelain skin, and a mask of silver weeping tears.",
+      "prose_hi": "Ek lamba, patla danav swami jiske char vyapak ram sing, chini mitti ki khal aur chandi ke rote hue aansu ka mukhauta hai."
     },
     {
       "id": "p27",
@@ -366,7 +418,9 @@
       "characters": [],
       "action": "In Belial's hand rests the master link of the colossal black chain: 'The Chains of Ruin.'",
       "mood": "relic in enemy hands",
-      "sfx": "CHAIN RATTLE!!"
+      "sfx": "CHAIN RATTLE!!",
+      "prose_en": "In Belial's hand rests the master link of the colossal black chain: 'The Chains of Ruin.'.",
+      "prose_hi": "Beleal ke haath mein vishal kali shrinkhala ki mukhya kadi hai: 'd chains off ruin'."
     },
     {
       "id": "p28",
@@ -385,7 +439,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Belial smiles with sadistic elegance: 'Your brother endured seven years of torture to keep you safe... And you walk right into my cage!'.",
+      "prose_hi": "Beleal parpidk lalitya ke saath muskurata hai: 'tumhare bhai ne tumhe surakshit rakhne ke liye saat saal tak yatna sahni... aur tum sidhe mere pinjare mein chale aaye!'."
     },
     {
       "id": "p29",
@@ -396,7 +452,9 @@
       ],
       "action": "Ha-Jun unsheathes the spatial void dagger, his cosmic galaxy eye burning with absolute zero temperature.",
       "mood": "the rage of the sovereign",
-      "sfx": "SHING..."
+      "sfx": "SHING...",
+      "prose_en": "Ha-Jun unsheathes the spatial void dagger, his cosmic galaxy eye burning with absolute zero temperature.",
+      "prose_hi": "Ha-jun ne sthanik shunya khanjar ko khol diya, uski brahmandiya akashganga aankh purna shunya taapmaan se jal rahi thi."
     },
     {
       "id": "p30",
@@ -417,7 +475,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's voice echoes with ancient imperial authority: 'Mera bhai chhod... Ya apni gardan de.'.",
+      "prose_hi": "Ha-jun ki awaaz prachin shahi satta se goonjati hai: 'mera bhai chhod... ya apni gardan de...'."
     }
   ]
 }

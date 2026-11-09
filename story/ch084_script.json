@@ -13,7 +13,9 @@
       "characters": [],
       "action": "A silent abyss at the edge of the universe: floating shattered planets surrounded by red anti-matter nebulas.",
       "mood": "ancient cosmic dread",
-      "sfx": "VOID DRONE..."
+      "sfx": "VOID DRONE...",
+      "prose_en": "A silent abyss at the edge of the universe: floating shattered planets surrounded by red anti-matter nebulas.",
+      "prose_hi": "Brahmand ke kinare par ek mook rasatal: tairte hue toote hue grah, jo lal padarth-virodhi neeharikaon se ghire hue han."
     },
     {
       "id": "p02",
@@ -22,7 +24,9 @@
       "characters": [],
       "action": "Three titanic thrones carved from the calcified bones of dead gods form a silent, menacing triangle.",
       "mood": "the ancient triumvirate",
-      "sfx": "LOOM..."
+      "sfx": "LOOM...",
+      "prose_en": "Three titanic thrones carved from the calcified bones of dead gods form a silent, menacing triangle.",
+      "prose_hi": "Mrit devtaon ki calsified haddiyon se bane teen titanic sinhasan ek muk, khatarnak trikon banate han."
     },
     {
       "id": "p03",
@@ -42,7 +46,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Seated on the left: Lord Baal-Zahar—a 20-foot horned demon titan wrapped in cloaks of boiling crimson blood.",
+      "prose_hi": "Bain or baithe han: bhagwan bal-zhar - ubalte lal rakt ke labade mein lipta hua ek 20 foot ka seeng wala danav titan."
     },
     {
       "id": "p04",
@@ -62,7 +68,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Seated on the right: Empress Lilith-Morg—an ethereal wraith queen draped in spectral green soul-fire and weeping masks.",
+      "prose_hi": "Daahini or baithi han: maharani lilith-morg - ek alaukik rani, ​​jo varnakramiy hare rang ki aatma-agni aur rote hue mukhauton mein lipati hui hai."
     },
     {
       "id": "p05",
@@ -82,7 +90,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "On the colossal center throne sits Emperor Nihilux—a faceless titan clad in star-eating black armor, eyes burning with green quasars.",
+      "prose_hi": "Vishal kendra sinhasan par samrat nihilax baitha hai - ek chehrahin titan, jo taare khane wala kala kavach pahane hue hai, uski aankhen hare quasar se jal rahi han."
     },
     {
       "id": "p06",
@@ -102,7 +112,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Nihilux raises an obsidian sceptre crowned with a dying pulsar; dark lightning arcs between the three thrones.",
+      "prose_hi": "Nihilax ek marte hue pulsar se susajjit ek obsidian rajdand uthata hai; teen sinhasanon ke beech kali bijli chamakti hai."
     },
     {
       "id": "p07",
@@ -111,7 +123,9 @@
       "characters": [],
       "action": "Across ten thousand light-years, a million pitch-black gothic dreadnoughts uncloak, their red plasma engines igniting.",
       "mood": "infinite fleet",
-      "sfx": "ENGINE ROAR!!"
+      "sfx": "ENGINE ROAR!!",
+      "prose_en": "Across ten thousand light-years, a million pitch-black gothic dreadnoughts uncloak, their red plasma engines igniting.",
+      "prose_hi": "Das hazar prakash-varsh ke par, ek lakh pich-kale gothic khunkhar kapde utaarte han, unke lal plasma engine prajvalit hote han."
     },
     {
       "id": "p08",
@@ -120,7 +134,9 @@
       "characters": [],
       "action": "Earth turns peacefully in space, continents glowing with morning sunlight, completely unaware of the approaching armada.",
       "mood": "fragile sanctuary",
-      "sfx": "PEACEFUL BLUE..."
+      "sfx": "PEACEFUL BLUE...",
+      "prose_en": "Earth turns peacefully in space, continents glowing with morning sunlight, completely unaware of the approaching armada.",
+      "prose_hi": "Prithvi shanti se antriksh mein ghum rahi hai, mahadweep subah ki dhoop se chamak rahe han, nikat aane wale armada se puri tarah anjaan han."
     },
     {
       "id": "p09",
@@ -129,7 +145,9 @@
       "characters": [],
       "action": "An orbital defense satellite spins out of control as a gravitational shockwave ripples through the space-time fabric.",
       "mood": "sensors screaming",
-      "sfx": "BEEP-BEEP-ALARM!!"
+      "sfx": "BEEP-BEEP-ALARM!!",
+      "prose_en": "An orbital defense satellite spins out of control as a gravitational shockwave ripples through the space-time fabric.",
+      "prose_hi": "Ek kakshiy raksha upgrah antriksh-samay ke kapde ke madhyam se gurutvakarshan shockwev tarang ke roop mein niyantran se bahar ho jata hai."
     },
     {
       "id": "p10",
@@ -149,7 +167,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Emergency red alarms bathe the giant subterranean operations floor; dozens of radar operators shout into headsets.",
+      "prose_hi": "Aapatkalin lal alarm vishal bhumigat parichalan manjil ko nahate han; darjanon radar operator headset mein chillate han."
     },
     {
       "id": "p11",
@@ -169,7 +189,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Supreme General Baek stares in horror at the global map: red breach markers appear over every major city on Earth.",
+      "prose_hi": "Suprim general bake vaishvik manchitra ko darawani drishti se dekh rahe han: prithvi ke har pramukh shahar par lal ullanghan chinh dikhai dete han."
     },
     {
       "id": "p12",
@@ -189,7 +211,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun enters, his Guardian Claymore strapped to his back, eyes burning with bronze tactical determination.",
+      "prose_hi": "Taaye-jun pravesh karta hai, uska abhibhavak clamor uski peeth par bandha hua hai, uski aankhen kansya samrik dridh sankalp se jal rahi han."
     },
     {
       "id": "p13",
@@ -208,7 +232,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Baek asks: 'Where is the Sovereign?!'.",
+      "prose_hi": "Bak puchta hai: 'samprabhu kahan hai?!'."
     },
     {
       "id": "p14",
@@ -227,7 +253,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun looks toward Mapo district: 'He's at the university taking his morning exam. Let him finish his paper.'.",
+      "prose_hi": "Taaye-jun mapo jile ki or dekhta hai: 'vah vishwavidyalaya mein apni subah ki pariksha de raha hai. use apna paper pura karne do.'"
     },
     {
       "id": "p15",
@@ -249,7 +277,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Sunlight streams through the high classroom windows; Ha-Jun sits at his desk, pencil scratching on math paper.",
+      "prose_hi": "Unchi kaksha ki khidkiyon se surya ka prakash pravahit hota hai; ha-jun apni mej par baitha hai, ganit ke kagaj par pencil se kharonch raha hai."
     },
     {
       "id": "p16",
@@ -269,7 +299,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae bites his pencil eraser, sweating nervously as he glares at problem 4.",
+      "prose_hi": "Min-je apne pencil eraser ko kaatata hai, samasya 4 ko dekhte hue ghabrahat ke saath pasina bahata hai."
     },
     {
       "id": "p17",
@@ -280,7 +312,9 @@
       ],
       "action": "Little Kuro sits on the sunny sill, his head tucked under his wing, sleeping peacefully.",
       "mood": "peaceful familiar",
-      "sfx": "SNORE..."
+      "sfx": "SNORE...",
+      "prose_en": "Little Kuro sits on the sunny sill, his head tucked under his wing, sleeping peacefully.",
+      "prose_hi": "Chhota kuro dhoop wali dehli par baitha hai, uska sir uske pankhon ke neeche chhipa hua hai, aur shanti se so raha hai."
     },
     {
       "id": "p18",
@@ -302,7 +336,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro's head snaps up; his ruby eyes widen in horror as his feathers bristle like needles.",
+      "prose_hi": "Kuro ka sir fat gaya; uski lal aankhen bhay se fail jaati hain aur uske pankh suiyon ki tarah chamakne lagte han."
     },
     {
       "id": "p19",
@@ -313,7 +349,9 @@
       ],
       "action": "Ha-Jun freezes; his pencil lead snaps cleanly as a profound chill runs down his spine.",
       "mood": "pencil snap",
-      "sfx": "SNAP!!"
+      "sfx": "SNAP!!",
+      "prose_en": "Ha-Jun freezes; his pencil lead snaps cleanly as a profound chill runs down his spine.",
+      "prose_hi": "Ha-jun jam jata hai; jaise hi uski reedh ki haddi mein gahri thandak daudati hai, uski pencil ki lead aasani se toot jaati hai."
     },
     {
       "id": "p20",
@@ -324,7 +362,9 @@
       ],
       "action": "The sky outside instantly turns from clear blue to apocalyptic crimson; glass panes vibrate violently.",
       "mood": "sky shifts to red",
-      "sfx": "RATTLE-SHAKE!!"
+      "sfx": "RATTLE-SHAKE!!",
+      "prose_en": "The sky outside instantly turns from clear blue to apocalyptic crimson; glass panes vibrate violently.",
+      "prose_hi": "Bahar ka aakash turant saaf neele se sarvanashakari lal rang mein badal jata hai; kaanch ke sheeshe zor se kampan karte han."
     },
     {
       "id": "p21",
@@ -344,7 +384,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Thirty students leap from their chairs, running to the windows in terrified screams.",
+      "prose_hi": "Tis chhatra apni kursiyon se kood pade aur bhaybhit hokar chillate hue khidkiyon ki or bhage."
     },
     {
       "id": "p22",
@@ -355,7 +397,9 @@
       ],
       "action": "Ha-Jun stands up from his desk; his navy blazer billows as faint violet sparks dance around his shoes.",
       "mood": "the king awakes",
-      "sfx": "RUSTLE-SPARK..."
+      "sfx": "RUSTLE-SPARK...",
+      "prose_en": "Ha-Jun stands up from his desk; his navy blazer billows as faint violet sparks dance around his shoes.",
+      "prose_hi": "Ha-jun apni mej se khada ho jata hai; uska navy blazer halke baingani rang ki chingariyon ke roop mein uske jooton ke charon or naach raha hai."
     },
     {
       "id": "p23",
@@ -376,7 +420,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae runs over, eyes wide behind his glasses: 'Ha-Jun! Look at the sky! The breach is everywhere!'.",
+      "prose_hi": "Min-je daudta hai, uski aankhen uske chashme ke peeche chaudi hoti han: 'ha-jun! aasman ki or dekho! ullanghan har jagah hai!'"
     },
     {
       "id": "p24",
@@ -387,7 +433,9 @@
       ],
       "action": "Descending through the crimson clouds right above Saint Mirren University: a colossal 2-mile obsidian dreadnought.",
       "mood": "the flagship descends",
-      "sfx": "SHADOW COVERS CAMPUS..."
+      "sfx": "SHADOW COVERS CAMPUS...",
+      "prose_en": "Descending through the crimson clouds right above Saint Mirren University: a colossal 2-mile obsidian dreadnought.",
+      "prose_hi": "Sent miren vishwavidyalaya ke theek upar gahre lal rang ke baadalon ke beech se utarte hue: ek vishal 2 meal ka obsidian drednot."
     },
     {
       "id": "p25",
@@ -398,7 +446,9 @@
       ],
       "action": "Plaster showers down as the engine roar of the alien dreadnought rattles the campus foundation.",
       "mood": "structural failure",
-      "sfx": "CRACK-DUST!!"
+      "sfx": "CRACK-DUST!!",
+      "prose_en": "Plaster showers down as the engine roar of the alien dreadnought rattles the campus foundation.",
+      "prose_hi": "Jaise hi alien khunkhar ke engine ki garjana se parisar ki neenv hilti hai, plaster barsne lagta hai."
     },
     {
       "id": "p26",
@@ -420,7 +470,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun touches the classroom floor; a glowing golden dome seals the room, insulating all thirty students from the rubble.",
+      "prose_hi": "Ha-jun kaksha ke farsh ko chhuta hai; ek chamakta hua sunhara gumbad kamre ko seal kar deta hai aur sabhi tees chhatron ko malbe se bacha leta hai."
     },
     {
       "id": "p27",
@@ -441,7 +493,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun: 'Min-Jae. You're in charge of the class. Keep them calm.'.",
+      "prose_hi": "Ha-jun: 'min-je. aap kaksha ke prabhari han. unhen shant rakhen.'"
     },
     {
       "id": "p28",
@@ -460,7 +514,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae nods firmly, gripping a steel chair as a makeshift weapon: 'Go, Ha-Jun! Show them who owns this world!'.",
+      "prose_hi": "Min-je ne asthayi hathiyar ke roop mein steel ki kursi ko pakadkar dridhta se sir hilaya: 'jao, ha-jun! unhen dikhao ki is duniya ka malik kaun hai!'."
     },
     {
       "id": "p29",
@@ -471,7 +527,9 @@
       ],
       "action": "Ha-Jun leaps through the window glass, his uniform transforming in mid-air into the majestic robes of the Demon Sovereign.",
       "mood": "transformation mid-flight",
-      "sfx": "LEAP-TRANSFORM!!"
+      "sfx": "LEAP-TRANSFORM!!",
+      "prose_en": "Ha-Jun leaps through the window glass, his uniform transforming in mid-air into the majestic robes of the Demon Sovereign.",
+      "prose_hi": "Ha-jun khidki ke sheeshe se chhalang lagata hai, uski vardi hawa mein rakshas samprabhu ke rajsi vastra mein badal jaati hai."
     },
     {
       "id": "p30",
@@ -493,7 +551,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "A 17-year-old student hovering in mid-air, facing down a two-mile alien warship to defend his school!.",
+      "prose_hi": "Ek 17 varshiya chhatra apne school ki raksha ke liye do meal door videshi yudhpot ka samna karte hue hawa mein mandara raha hai!"
     }
   ]
 }

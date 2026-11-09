@@ -13,7 +13,9 @@
       "characters": [],
       "action": "A cavernous glass-and-steel amphitheater with tiered analyst workstations surrounding a 40-foot holographic map of Seoul.",
       "mood": "military command",
-      "sfx": "KEYBOARD CLACKING..."
+      "sfx": "KEYBOARD CLACKING...",
+      "prose_en": "A cavernous glass-and-steel amphitheater with tiered analyst workstations surrounding a 40-foot holographic map of Seoul.",
+      "prose_hi": "Seoul ke 40 foot ke holographic manchitra ke charon or stariya vishleshak karyasthanon wala ek gufanuma kaanch aur steel ka emfitheater."
     },
     {
       "id": "p02",
@@ -21,7 +23,9 @@
       "setting": "war room apex",
       "characters": [],
       "action": "Director Kang stands with hands behind his back, silver hair slicked tight, immaculate black double-breasted trenchcoat.",
-      "mood": "cold supreme authority"
+      "mood": "cold supreme authority",
+      "prose_en": "Director Kang stands with hands behind his back, silver hair slicked tight, immaculate black double-breasted trenchcoat.",
+      "prose_hi": "Nirdeshak kang apni peeth ke peeche haath rakhkar khade han, chandi ke bal kaskar, bedag kale duble-brested trenchakot."
     },
     {
       "id": "p03",
@@ -40,7 +44,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "A pulsating crimson crosshair locks onto an abandoned brick textile warehouse in Seongsu-dong.",
+      "prose_hi": "Seongsu-dong mein ek parityakt int kapda godam par ek spandit crimson crosahear tala laga hua hai."
     },
     {
       "id": "p04",
@@ -59,7 +65,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Director Kang speaks with icy, measured cruelty: 'Alpha Red Directive authorize kiya jata hai.'.",
+      "prose_hi": "Nirdeshak kang barfili, napi-tuli krurta ke saath bolte han: 'alfa red directive authriz kiya jata hai.'"
     },
     {
       "id": "p05",
@@ -79,7 +87,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Captain Baek adjusts his titanium-reinforced gauntlets; a massive six-foot serrated Greatsword rests on his back.",
+      "prose_hi": "Capton bake ne apne titenium-prablit gauntlet ko samayojit kiya; chhah foot ki ek vishal daatedar gratusward uski peeth par tiki hui hai."
     },
     {
       "id": "p06",
@@ -87,7 +97,9 @@
       "setting": "war room apex",
       "characters": [],
       "action": "Director Kang's lips curl into a cold smirk: 'Use my personal Chimera Serum agar zarurat pade, Captain.'",
-      "mood": "sinister gift"
+      "mood": "sinister gift",
+      "prose_en": "Director Kang's lips curl into a cold smirk: 'Use my personal Chimera Serum agar zarurat pade, Captain.'.",
+      "prose_hi": "Nirdeshak kang ke hothon par thandi muskan fail gai: 'agar jaruri pade, to mere vyaktigat chimera serum ka upyog karen, capton.'"
     },
     {
       "id": "p07",
@@ -96,7 +108,9 @@
       "characters": [],
       "action": "Six matte-black armored tactical carriers and two mobile disruption vans race through torrential rain.",
       "mood": "armada deployment",
-      "sfx": "VROOOOM!!"
+      "sfx": "VROOOOM!!",
+      "prose_en": "Six matte-black armored tactical carriers and two mobile disruption vans race through torrential rain.",
+      "prose_hi": "Chhah mat-kale bakhtarband samrik vahak aur do mobile vyavdhan van musladhar baarish ke beech daudte han."
     },
     {
       "id": "p08",
@@ -105,7 +119,9 @@
       "characters": [],
       "action": "A derelict red-brick industrial warehouse surrounded by rusted shipping containers in pouring rain.",
       "mood": "desolate battlefield",
-      "sfx": "THUNDER RUMBLE..."
+      "sfx": "THUNDER RUMBLE...",
+      "prose_en": "A derelict red-brick industrial warehouse surrounded by rusted shipping containers in pouring rain.",
+      "prose_hi": "Bhari baarish mein jung lage shipping containeron se ghira ek parityakt lal-int audyogik godam."
     },
     {
       "id": "p09",
@@ -116,7 +132,9 @@
       ],
       "action": "Ha-Jun sits cross-legged in the center of the dusty concrete floor, surrounded by floating ribbons of blood mana.",
       "mood": "sovereign meditation",
-      "sfx": "HUMMM..."
+      "sfx": "HUMMM...",
+      "prose_en": "Ha-Jun sits cross-legged in the center of the dusty concrete floor, surrounded by floating ribbons of blood mana.",
+      "prose_hi": "Ha-jun dhul bhare concrete ke farsh ke kendra mein cross-legd baithta hai, jo rakt maina ke tairte ribbon se ghira hua hai."
     },
     {
       "id": "p10",
@@ -137,7 +155,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Wisps of violet flame dance effortlessly across his knuckles, perfectly balanced with his arterial pulse.",
+      "prose_hi": "Bangni lau ki kiranen uske por par sahajta se nritya karti han, uski dhamni naadi ke saath puri tarah se santulit."
     },
     {
       "id": "p11",
@@ -157,7 +177,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae bites his nails as perimeter thermal sensors turn deep crimson one by one.",
+      "prose_hi": "Min-je apne nakhunon ko kaatata hai kyonki paridhi thermal sensor ek-ek karke gahre lal rang mein badal jaate han."
     },
     {
       "id": "p12",
@@ -178,7 +200,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro looks down calmly: 'Aa gaye shikari. Yeh unka sabse bada strike force hai.'.",
+      "prose_hi": "Kuro shanti se neeche dekhta hai: 'aa gaye shikari. yeh unka sabse bada strike force hai.'"
     },
     {
       "id": "p13",
@@ -188,7 +212,9 @@
         "hajun"
       ],
       "action": "Ha-Jun's dual-ringed eyes snap open, radiant with sovereign violet and crimson majesty.",
-      "mood": "predatory awakening"
+      "mood": "predatory awakening",
+      "prose_en": "Ha-Jun's dual-ringed eyes snap open, radiant with sovereign violet and crimson majesty.",
+      "prose_hi": "Ha-jun ki dohri ring wali aankhen khul gain, jo gahre baingani aur gahre lal rang ki mahima se chamak rahi thin."
     },
     {
       "id": "p14",
@@ -197,7 +223,9 @@
       "characters": [],
       "action": "Eight ceramic canister grenades smash through the glass skylights, detonating in midair.",
       "mood": "flashbang breach",
-      "sfx": "CRASH-BANGGGG!!"
+      "sfx": "CRASH-BANGGGG!!",
+      "prose_en": "Eight ceramic canister grenades smash through the glass skylights, detonating in midair.",
+      "prose_hi": "Aath siremik kanastar grenade kaanch ke roshandanon ko todte han, aur hawa mein visfot karte han."
     },
     {
       "id": "p15",
@@ -206,7 +234,9 @@
       "characters": [],
       "action": "Intense 140-decibel anti-mana soundwaves distort the air, designed to paralyze demon nervous systems.",
       "mood": "sonic paralysis",
-      "sfx": "SKREEEEEEECH!!"
+      "sfx": "SKREEEEEEECH!!",
+      "prose_en": "Intense 140-decibel anti-mana soundwaves distort the air, designed to paralyze demon nervous systems.",
+      "prose_hi": "Teevra 140-desible anti-man dhwani tarangen hawa ko vikrit karti han, jo danav tantrika tantra ko pangu banane ke liye design ki gai han."
     },
     {
       "id": "p16",
@@ -215,7 +245,9 @@
       "characters": [],
       "action": "Min-Jae collapses to his knees, screaming as blood trickles from his eardrums.",
       "mood": "human vulnerability",
-      "sfx": "ARGGGHHH!!"
+      "sfx": "ARGGGHHH!!",
+      "prose_en": "Min-Jae collapses to his knees, screaming as blood trickles from his eardrums.",
+      "prose_hi": "Min-je chillate hue ghutnon ke bal gir jata hai aur uske kaan ke parde se khoon bahane lagta hai."
     },
     {
       "id": "p17",
@@ -237,7 +269,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun stands up effortlessly; his Bone Gauntlet resonates with an acoustic nullifying barrier.",
+      "prose_hi": "Ha-jun sahajta se khada ho jata hai; uska bone gauntlet ek dhwanik ashakt avrodh ke saath pratidhvanit hota hai."
     },
     {
       "id": "p18",
@@ -259,7 +293,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun flicks his ring finger, projecting a protective dome of hardened crystalline blood around Min-Jae.",
+      "prose_hi": "Ha-jun apni anamika ungli ko hilata hai, jisse min-je ke charon or kathor crystaliy rakt ka ek surakshatmak gumbad dikhai deta hai."
     },
     {
       "id": "p19",
@@ -268,7 +304,9 @@
       "characters": [],
       "action": "The massive corrugated steel sliding doors are blown twenty feet inward by breaching C4 charges.",
       "mood": "explosive entry",
-      "sfx": "KABOOOMMM!!"
+      "sfx": "KABOOOMMM!!",
+      "prose_en": "The massive corrugated steel sliding doors are blown twenty feet inward by breaching C4 charges.",
+      "prose_hi": "Bade paimane par nalidar steel ke sliding darvaje C4 charge ko todkar bees feet andar ki or ud jaate han."
     },
     {
       "id": "p20",
@@ -277,7 +315,9 @@
       "characters": [],
       "action": "Twenty heavily armed hunters in tactical exo-suits advance in disciplined shield-and-spear formation.",
       "mood": "military phalanx",
-      "sfx": "STOMP-STOMP..."
+      "sfx": "STOMP-STOMP...",
+      "prose_en": "Twenty heavily armed hunters in tactical exo-suits advance in disciplined shield-and-spear formation.",
+      "prose_hi": "Samarik exo-suit mein bees bhari hathiyaron se lais shikari anushasit dhal-aur-bhala gathan mein aage badhte han."
     },
     {
       "id": "p21",
@@ -286,7 +326,9 @@
       "characters": [],
       "action": "A hail of five hundred micro-flechette silver needles sprays across the warehouse like razor rain.",
       "mood": "flechette storm",
-      "sfx": "RAT-TAT-TAT-TAT!!"
+      "sfx": "RAT-TAT-TAT-TAT!!",
+      "prose_en": "A hail of five hundred micro-flechette silver needles sprays across the warehouse like razor rain.",
+      "prose_hi": "Panch sau micro-flechet chandi ki suiyon ki ek olavrishti ustara baarish ki tarah poore godam mein fail jaati hai."
     },
     {
       "id": "p22",
@@ -297,7 +339,9 @@
       ],
       "action": "Ha-Jun draws two streams of blood from his ring, igniting them into twin blazing violet-crimson katanas.",
       "mood": "dual bloodfire blades",
-      "sfx": "FWOOSH-SHING!!"
+      "sfx": "FWOOSH-SHING!!",
+      "prose_en": "Ha-Jun draws two streams of blood from his ring, igniting them into twin blazing violet-crimson katanas.",
+      "prose_hi": "Ha-jun apni anguthi se rakt ki do dharayen khinchta hai, aur unhen judwa dhadhakte bangni-lal rang ke katana mein prajvalit karta hai."
     },
     {
       "id": "p23",
@@ -308,7 +352,9 @@
       ],
       "action": "Ha-Jun spins into a blur of light; his twin blades deflect every single needle with blinding sparks.",
       "mood": "impenetrable deflection",
-      "sfx": "CLANG-CLANG-CLANG!!"
+      "sfx": "CLANG-CLANG-CLANG!!",
+      "prose_en": "Ha-Jun spins into a blur of light; his twin blades deflect every single needle with blinding sparks.",
+      "prose_hi": "Ha-jun prakash ke dhundhlepan mein ghumta hai; uske judwan blade chakachaundh kar dene wali chingari se har ek sui ko vikshepit kar dete han."
     },
     {
       "id": "p24",
@@ -319,7 +365,9 @@
       ],
       "action": "Ha-Jun vanishes in a violet thunderclap, reappearing instantaneously inside the hunter frontline.",
       "mood": "sonic dash",
-      "sfx": "BOOOM!!"
+      "sfx": "BOOOM!!",
+      "prose_en": "Ha-Jun vanishes in a violet thunderclap, reappearing instantaneously inside the hunter frontline.",
+      "prose_hi": "Ha-jun ek baingani gadgdahat ke saath gayab ho jata hai, aur turant shikari ki seema rekha ke andar phir se prakat hota hai."
     },
     {
       "id": "p25",
@@ -330,7 +378,9 @@
       ],
       "action": "His twin blades slice horizontally through four exo-suits, shattering their power cores instantly.",
       "mood": "armor dismantled",
-      "sfx": "SLASHHH-CRACK!!"
+      "sfx": "SLASHHH-CRACK!!",
+      "prose_en": "His twin blades slice horizontally through four exo-suits, shattering their power cores instantly.",
+      "prose_hi": "Uske judwan blade kshaitij roop se char exo-suton ko kaatate han, jisse unke power core turant bikhar jaate han."
     },
     {
       "id": "p26",
@@ -339,7 +389,9 @@
       "characters": [],
       "action": "The four elite operatives crash violently into wooden shipping crates, completely incapacitated.",
       "mood": "frontline crushed",
-      "sfx": "CRASHHH!!"
+      "sfx": "CRASHHH!!",
+      "prose_en": "The four elite operatives crash violently into wooden shipping crates, completely incapacitated.",
+      "prose_hi": "Char sambhrant karyakarta puri tarah se aksham hokar lakdi ke shipping bakson se hinsak tarike se takrate han."
     },
     {
       "id": "p27",
@@ -359,7 +411,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The remaining sixteen hunters lower their weapons, trembling as they witness godlike speed.",
+      "prose_hi": "Shesh solah shikariyon ne devatulya gati dekhkar kampate hue apne hathiyar neeche kar die."
     },
     {
       "id": "p28",
@@ -368,7 +422,9 @@
       "characters": [],
       "action": "Slow, rhythmic, earth-shaking footsteps approach through the smoking entrance.",
       "mood": "captain approaches",
-      "sfx": "THUD... THUD... THUD..."
+      "sfx": "THUD... THUD... THUD...",
+      "prose_en": "Slow, rhythmic, earth-shaking footsteps approach through the smoking entrance.",
+      "prose_hi": "Dhimi, laybaddh, dharti hila dene wali padchaap dhumrapan pravesh dwar se hokar gujarti hai."
     },
     {
       "id": "p29",
@@ -387,7 +443,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Captain Baek stands framed against the pouring rain, his six-foot Eclipse Greatsword dragging on the concrete.",
+      "prose_hi": "Capton bak musladhar baarish ke beech khada hai, uski chhah foot ki aclips gratusward concrete par ghist rahi hai."
     },
     {
       "id": "p30",
@@ -408,7 +466,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun points his flaming blood katana straight at Captain Baek's throat: 'Tumhara intezaar tha, Captain.'.",
+      "prose_hi": "Ha-jun apna dhadhkta hua khoon katana sidhe captain bak ke gale ki or ingit karta hai: 'tumhara intjaar tha, capton.'"
     }
   ]
 }

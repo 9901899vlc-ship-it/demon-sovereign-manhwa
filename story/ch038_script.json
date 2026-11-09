@@ -13,7 +13,9 @@
       "characters": [],
       "action": "A vast underground subterranean water cavern with concrete columns submerged in knee-deep water.",
       "mood": "somber shelter",
-      "sfx": "WATER DRIPPING..."
+      "sfx": "WATER DRIPPING...",
+      "prose_en": "A vast underground subterranean water cavern with concrete columns submerged in knee-deep water.",
+      "prose_hi": "Ghutnon tak pani mein doobi concrete ke khambhon wali ek vishal bhumigat jal gufa."
     },
     {
       "id": "p02",
@@ -22,7 +24,9 @@
       "characters": [],
       "action": "Min-Jae gently lowers Ha-Jun onto makeshift wooden pallets above the water, hands stained in red blood.",
       "mood": "emergency care",
-      "sfx": "GENTLE..."
+      "sfx": "GENTLE...",
+      "prose_en": "Min-Jae gently lowers Ha-Jun onto makeshift wooden pallets above the water, hands stained in red blood.",
+      "prose_hi": "Min-je dheere se ha-jun ko pani ke upar asthayi lakdi ke takhton par girata hai, uske haath lal khoon se sane hue han."
     },
     {
       "id": "p03",
@@ -32,7 +36,9 @@
         "hajun"
       ],
       "action": "Ha-Jun's left forearm is severely deformed and swollen; white bone gauntlet fragments lie cracked on the pallet.",
-      "mood": "devastating injury"
+      "mood": "devastating injury",
+      "prose_en": "Ha-Jun's left forearm is severely deformed and swollen; white bone gauntlet fragments lie cracked on the pallet.",
+      "prose_hi": "Ha-jun ka bayan agrabhag gambhir roop se vikrit aur sooja hua hai; safed haddi ke gauntlet ke tukde foos par toote hue pade han."
     },
     {
       "id": "p04",
@@ -54,7 +60,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun shivers violently from shock, cold sweat and rainwater streaming down his pale, bruised face.",
+      "prose_hi": "Ha-jun sadme, thande pasine aur uske pile, chotil chehre se bahte baarish ke pani se buri tarah kamp raha hai."
     },
     {
       "id": "p05",
@@ -74,7 +82,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae binds two wooden splints around Ha-Jun's broken arm, tying them tight with medical wraps.",
+      "prose_hi": "Min-je ne ha-jun ki tuti baanh ke charon or lakdi ki do khpacchiyan baandh deen, aur unhen medical rap se kaskar baandh diya."
     },
     {
       "id": "p06",
@@ -85,7 +95,9 @@
       ],
       "action": "Ha-Jun bites into a leather strap to avoid crying out, tears of physical and emotional pain in his eyes.",
       "mood": "silent endurance",
-      "sfx": "GRRRR..."
+      "sfx": "GRRRR...",
+      "prose_en": "Ha-Jun bites into a leather strap to avoid crying out, tears of physical and emotional pain in his eyes.",
+      "prose_hi": "Ha-jun ne rone se bachne ke liye chamde ka patta kaat liya, uski aankhon mein sharirik aur bhavnatmak dard ke aansu the."
     },
     {
       "id": "p07",
@@ -106,7 +118,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro cleans his singed obsidian wing feathers, looking down with uncharacteristically quiet eyes.",
+      "prose_hi": "Kuro aswabhavik roop se shant aankhon se neeche dekhte hue, apne jhulse hue obsidian pankhon ko saaf karta hai."
     },
     {
       "id": "p08",
@@ -124,7 +138,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "A visual vignette of a young Captain Baek 15 years ago, carrying his fallen comrades out of a demonic gate.",
+      "prose_hi": "15 saal pehle ek yuva captain bak ka ek drishya drishya, jo apne gire hue sathiyon ko ek rakshasi dwar se bahar le ja raha tha."
     },
     {
       "id": "p09",
@@ -132,7 +148,9 @@
       "setting": "flashback abstract",
       "characters": [],
       "action": "Director Kang offering Baek the Eclipse Greatsword and artificial heart implant in a high-tech lab.",
-      "mood": "the deception"
+      "mood": "the deception",
+      "prose_en": "Director Kang offering Baek the Eclipse Greatsword and artificial heart implant in a high-tech lab.",
+      "prose_hi": "Nideshak kang ek high-tek lab mein bake ko aclips gratusward aur kritrim hriday pratyaropan ki peshkash kar rahe han."
     },
     {
       "id": "p10",
@@ -153,7 +171,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun listens to Kuro's tale, his clenched fist trembling: 'Toh woh evil nahi hai... Woh bas misguided hai.'.",
+      "prose_hi": "Ha-jun kuro ki kahani sunta hai, uski band mutthi kamp rahi hai: 'to wah burai nahin hai... wah bus gumrah hai.'"
     },
     {
       "id": "p11",
@@ -174,7 +194,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro snaps: 'Misguided ya evil, uski talwar tumhara gala kaatne ke liye ready hai!'.",
+      "prose_hi": "Kuro ne kaha: 'gumrah ho ya dusht, uski talwar tumhara gala kaatne ke liye taiyar hai!'."
     },
     {
       "id": "p12",
@@ -185,7 +207,9 @@
       ],
       "action": "The obsidian ring on Ha-Jun's finger begins pulsing with a warm, steady crimson heartbeat.",
       "mood": "healing pulse",
-      "sfx": "THUMP... THUMP..."
+      "sfx": "THUMP... THUMP...",
+      "prose_en": "The obsidian ring on Ha-Jun's finger begins pulsing with a warm, steady crimson heartbeat.",
+      "prose_hi": "Ha-jun ki ungli par obsidian ring garm, sthir lal dil ki dhadkan ke saath spandit hone lagti hai."
     },
     {
       "id": "p13",
@@ -204,7 +228,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Beneath his skin, calcium threads and ivory bone marrow weave back together like interlocking stitches.",
+      "prose_hi": "Uski tvacha ke niche, calcium ke dhaage aur hathi daant ki asthi majja interlocking tanke ki tarah wapas ek saath bunte han."
     },
     {
       "id": "p14",
@@ -214,7 +240,9 @@
         "hajun"
       ],
       "action": "Ha-Jun looks at the glowing splint: 'Six hours... Mere paas waqt hai.'",
-      "mood": "rebuilding resolve"
+      "mood": "rebuilding resolve",
+      "prose_en": "Ha-Jun looks at the glowing splint: 'Six hours... Mere paas waqt hai.'.",
+      "prose_hi": "Ha-jun chamakti hui patti ko dekhta hai: 'chhah ghante... mere paas waqt hai.'"
     },
     {
       "id": "p15",
@@ -233,7 +261,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae turns his laptop toward Ha-Jun: 'News dekho... Bureau ne poore city mein curfew laga diya hai.'.",
+      "prose_hi": "Min-je apna laptop ha-jun ki or ghumata hai: 'news dekho... bureau ne poore shahar mein curfew laga diya hai.'"
     },
     {
       "id": "p16",
@@ -242,7 +272,9 @@
       "characters": [],
       "action": "Korean news anchor broadcasting Ha-Jun's student photograph with a bold red 'WANTED: DEAD OR ALIVE' banner.",
       "mood": "framed as terrorist",
-      "sfx": "NEWS CHIME..."
+      "sfx": "NEWS CHIME...",
+      "prose_en": "Korean news anchor broadcasting Ha-Jun's student photograph with a bold red 'WANTED: DEAD OR ALIVE' banner.",
+      "prose_hi": "Korean samachar anchor ha-jun ki chhatra tasveer ko gahre lal rang ke 'vanted: dead or alive' banner ke saath prasarit kar raha hai."
     },
     {
       "id": "p17",
@@ -251,7 +283,9 @@
       "characters": [],
       "action": "Armed Bureau checkpoints blocking Mapo, Hannam, and Banpo bridges with armored personnel carriers.",
       "mood": "martial law",
-      "sfx": "SIRENS..."
+      "sfx": "SIRENS...",
+      "prose_en": "Armed Bureau checkpoints blocking Mapo, Hannam, and Banpo bridges with armored personnel carriers.",
+      "prose_hi": "Sashastra bureau chaukiyan bakhtarband karmiyon ke vahak ke saath mapo, hannam aur banpo pulon ko avruddh kar rahi han."
     },
     {
       "id": "p18",
@@ -259,7 +293,9 @@
       "setting": "bridge checkpoint",
       "characters": [],
       "action": "Terrified citizens in raincoats forced to press palms against bio-scanners; blue laser grids scanning eyes.",
-      "mood": "police state"
+      "mood": "police state",
+      "prose_en": "Terrified citizens in raincoats forced to press palms against bio-scanners; blue laser grids scanning eyes.",
+      "prose_hi": "Renkot pahane bhaybhit nagrik bio-scanner par hatheliyan dabane ko majboor; aankhon ko scan karne wali neeli laser grid."
     },
     {
       "id": "p19",
@@ -280,7 +316,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's dual eyes ignite: 'Woh innocent logon ko harass kar rahe hain sirf mujhe dhoondhne ke liye.'.",
+      "prose_hi": "Ha-jun ki dohri aankhen jalti han: 'vo nirdosh logon ko pareshan kar rahe hain sirf mujhe dhundhne ke liye.'"
     },
     {
       "id": "p20",
@@ -301,7 +339,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro looks deep into Ha-Jun's eyes: 'Toh kya karne ka irada hai, Sovereign Heir?'.",
+      "prose_hi": "Kuro ha-jun ki aankhon mein gahrai se dekhta hai: 'toh kya karne ka irada hai, samprabhu uttradhikari?'."
     },
     {
       "id": "p21",
@@ -312,7 +352,9 @@
       ],
       "action": "Despite the searing pain in his splinted arm, Ha-Jun forces himself to sit upright with unbending posture.",
       "mood": "unbreakable will",
-      "sfx": "GROAN..."
+      "sfx": "GROAN...",
+      "prose_en": "Despite the searing pain in his splinted arm, Ha-Jun forces himself to sit upright with unbending posture.",
+      "prose_hi": "Apni tuti hui baanh mein tej dard ke bavjud, ha-jun khud ko bina jhuke sidhe baithne ke liye majboor karta hai."
     },
     {
       "id": "p22",
@@ -333,7 +375,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's voice is steady as granite: 'Mujhe train karo, Kuro.'.",
+      "prose_hi": "Ha-jun ki awaaz granite ki tarah sthir hai: 'mujhe train karo, kuro.'"
     },
     {
       "id": "p23",
@@ -354,7 +398,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro's beak curls into a wicked demonic grin, his wings flaring with violet sparks.",
+      "prose_hi": "Kuro ki chonch ek dusht rakshasi muskurahat mein badal jaati hai, uske pankh baingani chingari se chamakte han."
     },
     {
       "id": "p24",
@@ -375,7 +421,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro explains: 'Sovereign ka style brute force nahi hai. Yeh 'Blood Weaving' hai.'.",
+      "prose_hi": "Kuro batate han: 'soweren ka style pashvik bal nahin hai. yeh 'blad viving' hai.'"
     },
     {
       "id": "p25",
@@ -394,7 +442,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae hands him a clean water bottle: 'Main tumhare saath hoon, Ha-Jun. Jo bhi chahiye batao.'.",
+      "prose_hi": "Min-je ne use ek saaf pani ki botal di: 'main tumhare saath hun, ha-jun. jo bhi chahiye batao.'"
     },
     {
       "id": "p26",
@@ -405,7 +455,9 @@
       ],
       "action": "Ha-Jun drinks the entire bottle in three gulps, wiping his mouth with the back of his hand.",
       "mood": "rehydration",
-      "sfx": "GULP... SIGH..."
+      "sfx": "GULP... SIGH...",
+      "prose_en": "Ha-Jun drinks the entire bottle in three gulps, wiping his mouth with the back of his hand.",
+      "prose_hi": "Ha-jun apne haath ke pichle hisse se apna muh ponchte hue puri botal teen ghunt mein pee jata hai."
     },
     {
       "id": "p27",
@@ -416,7 +468,9 @@
       ],
       "action": "Ha-Jun steps off the pallet into the cold knee-deep water, grounding his balance.",
       "mood": "stepping into training",
-      "sfx": "SPLASH..."
+      "sfx": "SPLASH...",
+      "prose_en": "Ha-Jun steps off the pallet into the cold knee-deep water, grounding his balance.",
+      "prose_hi": "Ha-jun foos se nikalkar ghutnon tak thande pani mein chala jata hai, jisse uska santulan bigad jata hai."
     },
     {
       "id": "p28",
@@ -438,7 +492,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Gentle violet hellfire wraps around the splinted bone, acting as an external exoskeleton cast.",
+      "prose_hi": "Komal baingani narkankaal vibhajit haddi ke charon or lapetata hai, bahari exoscalaton cast ke roop mein karya karta hai."
     },
     {
       "id": "p29",
@@ -460,7 +516,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro hovers in midair, conjuring ten sharp obsidian feather daggers around his body.",
+      "prose_hi": "Kuro hawa mein mandrata hai, apne shareer ke charon or das tej obsidian pankh wale khanjar ghumata hai."
     },
     {
       "id": "p30",
@@ -481,7 +539,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun ties a dark strip of cloth over his eyes, opening his senses to the ripples in the water: 'Ready.'.",
+      "prose_hi": "Ha-jun apni aankhon par kapde ki ek kali patti bandhta hai, jisse pani mein laharon ke prati uski indriyan khul jaati han: 'taiyar.'"
     }
   ]
 }

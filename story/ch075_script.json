@@ -15,7 +15,9 @@
       ],
       "action": "A majestic pillar of royal purple fire reaches into the black Tartarus sky, parting the storm clouds like a blade.",
       "mood": "pillar of divine fire",
-      "sfx": "ROARING PYRE!!"
+      "sfx": "ROARING PYRE!!",
+      "prose_en": "A majestic pillar of royal purple fire reaches into the black Tartarus sky, parting the storm clouds like a blade.",
+      "prose_hi": "Shahi baingani aag ka ek rajsi stambh kale tarters aakash mein pahunchta hai, toofan ke baadalon ko blade ki tarah vibhajit karta hai."
     },
     {
       "id": "p02",
@@ -35,7 +37,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The 100-foot Void Dragon recoils on massive leathery wings, its six crimson eyes dilating in ancient panic.",
+      "prose_hi": "100 foot ka shunya dragon vishal chamde ke pankhon par peeche ki or ghumta hai, iski chhah lal aankhen prachin ghabrahat mein failti han."
     },
     {
       "id": "p03",
@@ -44,7 +48,9 @@
       "characters": [],
       "action": "Within the violet vortex, Kuro's silhouette expands—horns elongating into crowns of starlight, wings stretching 200 feet wide.",
       "mood": "the true form emerges",
-      "sfx": "EXPAND-CRESCENDO!!"
+      "sfx": "EXPAND-CRESCENDO!!",
+      "prose_en": "Within the violet vortex, Kuro's silhouette expands—horns elongating into crowns of starlight, wings stretching 200 feet wide.",
+      "prose_hi": "Bangni bhanwar ke bheetar, kuro ka chhayachitra failta hai - taron ki roshni ke mukut mein lambe sing, 200 feet chaude pankh."
     },
     {
       "id": "p04",
@@ -63,7 +69,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "A breathtaking, terrifying sovereign beast: midnight-black feathers edged with violet nova flares, ruby eyes burning like suns.",
+      "prose_hi": "Ek lubhavni, bhayanak samprabhu janvar: madhyaratri-kale pankh baingani nova flayers ke saath dharit, ruby aankhen suraj ki tarah jalti hui."
     },
     {
       "id": "p05",
@@ -85,7 +93,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun holds Tae-Jun tightly, the wind whipping his hair as he gazes up at his companion's magnificent true majesty.",
+      "prose_hi": "Ha-jun ne taaye-jun ko kaskar pakad rakha hai, jab wah apne saathi ki shandar sacchi mahima ko dekh raha hai to hawa uske baalon ko chhoo rahi hai."
     },
     {
       "id": "p06",
@@ -94,7 +104,9 @@
       "characters": [],
       "action": "Kuro tilts his crowned head back, emitting a divine eagle-screech that shatters the surrounding observation towers into dust.",
       "mood": "divine sonic cry",
-      "sfx": "SKREEEEEEEEEECH!!"
+      "sfx": "SKREEEEEEEEEECH!!",
+      "prose_en": "Kuro tilts his crowned head back, emitting a divine eagle-screech that shatters the surrounding observation towers into dust.",
+      "prose_hi": "Kuro apne mukutdhari sir ko peeche ki or jhukata hai, jisse ek divya cheel ki cheekh nikalti hai jo aaspaas ke avlokan toweron ko dhul mein mila deti hai."
     },
     {
       "id": "p07",
@@ -103,7 +115,9 @@
       "characters": [],
       "action": "Vaelgor retaliates by exhaling a 50-foot wide stream of black anti-matter flames straight down toward Kuro and the brothers.",
       "mood": "anti-matter breath",
-      "sfx": "FZZZZT-KABOOM!!"
+      "sfx": "FZZZZT-KABOOM!!",
+      "prose_en": "Vaelgor retaliates by exhaling a 50-foot wide stream of black anti-matter flames straight down toward Kuro and the brothers.",
+      "prose_hi": "Velgor ne kuro aur bhaiyon ki or sidhe kale anti-mater lapton ki 50 foot chaudi dhara ko bahar nikalkar jawabi karvai ki."
     },
     {
       "id": "p08",
@@ -112,7 +126,9 @@
       "characters": [],
       "action": "Kuro sweeps his left wing upward; a solid wall of violet solar fire intercepts the dragon's breath, vaporizing it instantly.",
       "mood": "absolute barrier",
-      "sfx": "SIZZLE-NULL!!"
+      "sfx": "SIZZLE-NULL!!",
+      "prose_en": "Kuro sweeps his left wing upward; a solid wall of violet solar fire intercepts the dragon's breath, vaporizing it instantly.",
+      "prose_hi": "Kuro apne bayen pankh ko upar ki or ghumata hai; baingani saur agni ki ek thos deewar dragon ki saans ko rokti hai, use turant vashpikrit kar deti hai."
     },
     {
       "id": "p09",
@@ -121,7 +137,9 @@
       "characters": [],
       "action": "Kuro rockets upward at Mach 8, breaking the sound barrier with a sonic boom that rocks the entire fortress.",
       "mood": "sonic ascent",
-      "sfx": "BOOOOM-STREAK!!"
+      "sfx": "BOOOOM-STREAK!!",
+      "prose_en": "Kuro rockets upward at Mach 8, breaking the sound barrier with a sonic boom that rocks the entire fortress.",
+      "prose_hi": "Kuro mac 8 ki gati se upar ki or rocket karta hai, dhwani avrodh ko ek dhwani ufaan ke saath todta hai jisse pura kila hill jata hai."
     },
     {
       "id": "p10",
@@ -141,7 +159,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "High in the Tartarus stratosphere, Kuro's diamond-sharp talons clamp around Vaelgor's armored throat with bone-crushing force.",
+      "prose_hi": "Tarters stratosfier mein ucch, kuro ke here-nukile panje velgor ke bakhtarband gale ke charon or haddi-kuchalne wali shakti ke saath jakde hue han."
     },
     {
       "id": "p11",
@@ -150,7 +170,9 @@
       "characters": [],
       "action": "Kuro flips mid-air, hurtling downward to slam the 100-foot beast headfirst into the obsidian summit of the spire.",
       "mood": "meteor slam",
-      "sfx": "METEOR IMPACT-CRASH!!"
+      "sfx": "METEOR IMPACT-CRASH!!",
+      "prose_en": "Kuro flips mid-air, hurtling downward to slam the 100-foot beast headfirst into the obsidian summit of the spire.",
+      "prose_hi": "Kuro hawa mein uchhalta hai, neeche ki or uchhalta hai aur 100 foot ke janwar ko shikhar ke obsidian shikhar par patak deta hai."
     },
     {
       "id": "p12",
@@ -159,7 +181,9 @@
       "characters": [],
       "action": "The impact creates a 100-meter crater; Vaelgor's chestplate and wings crack like fragile ceramic tiles.",
       "mood": "dragon crushed",
-      "sfx": "CRACK-SHATTER!!"
+      "sfx": "CRACK-SHATTER!!",
+      "prose_en": "The impact creates a 100-meter crater; Vaelgor's chestplate and wings crack like fragile ceramic tiles.",
+      "prose_hi": "Prabhav se 100 meter ka gaddha ban jata hai; velgor ki chestaplate aur pankh najuk siremik tailon ki tarah tutate han."
     },
     {
       "id": "p13",
@@ -179,7 +203,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro stands atop the writhing dragon, violet fire dancing on his feathers, looking down with imperious disdain.",
+      "prose_hi": "Kuro chhatpata rahe dragon ke upar khada hai, uske pankhon par baingani rang ki aag naach rahi hai, aur ghor tiraskar ke saath neeche dekh raha hai."
     },
     {
       "id": "p14",
@@ -199,7 +225,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Vaelgor wheezes, coughing black void blood: 'The Clocktower... Heh... The Chrono-Abyss will eat his mortal sanity!'.",
+      "prose_hi": "Velgor gharghrahat karta hai, kale shunya khoon ki khansi karta hai: 'clocktawar... heh... crono-abis uski nashwar vivek ko kha jaega!'"
     },
     {
       "id": "p15",
@@ -208,7 +236,9 @@
       "characters": [],
       "action": "With a swift, emotionless crush, Kuro's talons pierce Vaelgor's mana core; the beast shudders and dissolves into purple embers.",
       "mood": "dragon slain",
-      "sfx": "SQUELCH-DISSOLVE!!"
+      "sfx": "SQUELCH-DISSOLVE!!",
+      "prose_en": "With a swift, emotionless crush, Kuro's talons pierce Vaelgor's mana core; the beast shudders and dissolves into purple embers.",
+      "prose_hi": "Ek tez, bhavnahin crush ke sath, kuro ke panje velgor ke man ke mool bhag ko chhed dete han; janwar compata hai aur baingani angaron mein vilin ho jata hai."
     },
     {
       "id": "p16",
@@ -220,7 +250,9 @@
       ],
       "action": "Kuro lands before Ha-Jun; his massive cosmic wings fold as the blinding flames retract into his small raven form.",
       "mood": "returning to familiar",
-      "sfx": "FLAME RECEDE..."
+      "sfx": "FLAME RECEDE...",
+      "prose_en": "Kuro lands before Ha-Jun; his massive cosmic wings fold as the blinding flames retract into his small raven form.",
+      "prose_hi": "Ha-jun se pehle kuro bhumi; uske vishal brahmandiya pankh mud jaate hain kyonki chakachaundh kar dene wali laptein uske chhote kauve ke roop mein wapas aa jaati han."
     },
     {
       "id": "p17",
@@ -243,7 +275,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Little Kuro sits on Ha-Jun's shoulder, panting slightly: 'Maintaining that form uses up my feather's emergency charge.'.",
+      "prose_hi": "Chhota kuro ha-jun ke kandhe par baithta hai, thoda hanfta hai: 'us roop ko banae rakhne se mere pankh ke aapatkalin charge ka upyog hota hai.'"
     },
     {
       "id": "p18",
@@ -263,7 +297,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae and Baek sprint onto the platform, weapons hot: 'Ha-Jun! We routed the gargoyles! We secured the lower lifts!'.",
+      "prose_hi": "Min-je aur bake teji se manch par aaye, hathiyar garm: 'ha-jun! humne gargoils ko hara diya! humne nichli liften surakshit kar lin!'"
     },
     {
       "id": "p19",
@@ -284,7 +320,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun: 'Kuro just took out their air defense. We are diving to the absolute bottom of Tartarus.'.",
+      "prose_hi": "Ha-jun: 'kuro ne abhi-abhi apni hawai suraksha hatai hai. hum tarters ki puri tah tak gota laga rahe han.'"
     },
     {
       "id": "p20",
@@ -304,7 +342,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Baek sweeps dust off a glowing golden terminal: 'The shaft goes straight into a spatial rift. Normal physics don't apply down there.'.",
+      "prose_hi": "Bek ne chamakte sunhare terminal se dhul hata di: 'shaaft sidhe ek sthanik daraar mein chala jata hai. samanya bhautiki vahan lagu nahin hoti.'"
     },
     {
       "id": "p21",
@@ -315,7 +355,9 @@
       ],
       "action": "Ha-Jun steps onto the circular platform; Min-Jae and Baek flank him on either side with safeties clicked off.",
       "mood": "boarding the lift",
-      "sfx": "STEP..."
+      "sfx": "STEP...",
+      "prose_en": "Ha-Jun steps onto the circular platform; Min-Jae and Baek flank him on either side with safeties clicked off.",
+      "prose_hi": "Ha-jun vrittakar manch par kadam rakhta hai; min-jaye aur bak ne use donon or se suraksha ghere mein khada kar diya."
     },
     {
       "id": "p22",
@@ -326,7 +368,9 @@
       ],
       "action": "The lift drops into the sheer two-mile void shaft, air rushing past their ears in a deafening sonic roar.",
       "mood": "terminal descent",
-      "sfx": "FREEFALL-ROAR!!"
+      "sfx": "FREEFALL-ROAR!!",
+      "prose_en": "The lift drops into the sheer two-mile void shaft, air rushing past their ears in a deafening sonic roar.",
+      "prose_hi": "Lift do meal ke khali shaft mein girti hai, hawa ek gaganbhedi dhwani garjana ke saath unke kanon ke paas se gujarti hai."
     },
     {
       "id": "p23",
@@ -337,7 +381,9 @@
       ],
       "action": "As they pass mile one, the obsidian walls dissolve into floating golden clock faces, swinging pendulums, and spinning star charts.",
       "mood": "entering temporal realm",
-      "sfx": "TICK-TOCK-HUMMM..."
+      "sfx": "TICK-TOCK-HUMMM...",
+      "prose_en": "As they pass mile one, the obsidian walls dissolve into floating golden clock faces, swinging pendulums, and spinning star charts.",
+      "prose_hi": "Jaise hi ve ek meal aage badhte han, obsidian deewaren tairti sunhari ghadi, jhulte pendulum aur ghumte sitara chart mein vilin ho jaati han."
     },
     {
       "id": "p24",
@@ -359,7 +405,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun glances at his wrist: the second hand of his watch is spinning counter-clockwise at blinding speed.",
+      "prose_hi": "Ha-jun apni kalai par nazar dalta hai: uski ghadi ka dusra kanta andhi gati se vamavart ghum raha hai."
     },
     {
       "id": "p25",
@@ -370,7 +418,9 @@
       ],
       "action": "The shaft opens into a breathtaking pocket dimension: a vast ocean of glowing golden sand under a sky of frozen lightning bolts.",
       "mood": "the temporal sea",
-      "sfx": "GLOWING SILENCE..."
+      "sfx": "GLOWING SILENCE...",
+      "prose_en": "The shaft opens into a breathtaking pocket dimension: a vast ocean of glowing golden sand under a sky of frozen lightning bolts.",
+      "prose_hi": "Shaaft ek lubhavane pocket aayam mein khulta hai: jami hui bijli ke bolton ke aakash ke neeche chamakti sunhari ret ka ek vishal mahasagar."
     },
     {
       "id": "p26",
@@ -379,7 +429,9 @@
       "characters": [],
       "action": "Rising from the golden dunes is an ancient cathedral-sized Clocktower of obsidian and brass, holding the glowing Hourglass.",
       "mood": "the destination revealed",
-      "sfx": "LOOM..."
+      "sfx": "LOOM...",
+      "prose_en": "Rising from the golden dunes is an ancient cathedral-sized Clocktower of obsidian and brass, holding the glowing Hourglass.",
+      "prose_hi": "Sunahre teelon se upar uthta hua obsidian aur pital ka ek prachin cathedral aakaar ka ghantaghar hai, jisme chamakta hua ghantaghar hai."
     },
     {
       "id": "p27",
@@ -390,7 +442,9 @@
       ],
       "action": "Ha-Jun steps off; the sand doesn't sink under his boots but ripples like liquid gold beneath his weight.",
       "mood": "weightless stride",
-      "sfx": "RIPPLE..."
+      "sfx": "RIPPLE...",
+      "prose_en": "Ha-Jun steps off; the sand doesn't sink under his boots but ripples like liquid gold beneath his weight.",
+      "prose_hi": "Ha-jun hat gaya; ret uske jooton ke neeche nahin dabti balki uske vajan ke neeche taral sone ki tarah laharti hai."
     },
     {
       "id": "p28",
@@ -412,7 +466,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun stirs weakly, his lips brushing Ha-Jun's ear: 'Ha-Jun... Be careful of the Keeper... He attacks your memories...'.",
+      "prose_hi": "Taaye-jun kamjor roop se hilta hai, uske honth ha-jun ke kaan ko chhute han: 'ha-jun... keeper se savdhan rahen... wah aapki yaadon par hamla karta hai...'."
     },
     {
       "id": "p29",
@@ -433,7 +489,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun whispers back: 'Don't worry, Hyung. I won't forget who I'm fighting for.'.",
+      "prose_hi": "Ha-jun fusfusata hai: 'chinta mat karo, hung. main yah nahin bhulunga ki main kiske liye lad raha hun.'"
     },
     {
       "id": "p30",
@@ -454,7 +512,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "The fifty-foot brass doors of the Clocktower grind open, revealing the ticking realm of Chronos-Malek!.",
+      "prose_hi": "Clocktawar ke pachas foot ke pital ke darvaje khulte han, jisse cronos-malek ke tic-tic kshetra ka pata chalta hai!"
     }
   ]
 }

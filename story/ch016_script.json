@@ -10,10 +10,14 @@
       "id": "p01",
       "shot": "spiral stone descent footsteps",
       "setting": "subterranean spiral staircase",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun descends the ancient spiral staircase; each step echoes into the vast, hollow darkness below.",
       "mood": "eerie subterranean descent",
-      "sfx": "CLACK... CLACK..."
+      "sfx": "CLACK... CLACK...",
+      "prose_en": "Ha-Jun descends the ancient spiral staircase; each step echoes into the vast, hollow darkness below.",
+      "prose_hi": "Ha-jun prachin sarpil sidhi se utarta hai; pratyek kadam neeche ke vishal, khokhale andhere mein goonjata hai."
     },
     {
       "id": "p02",
@@ -23,30 +27,63 @@
       "action": "The walls transition from 1920s brickwork into ancient, prehistoric black basalt carved with glowing demonic glyphs.",
       "mood": "crossing into mythic history",
       "dialogue": [
-        {"type": "narration", "text": "Insaani imarat ke neeche... daityon ka yug zinda tha.", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "narration",
+          "text": "Insaani imarat ke neeche... daityon ka yug zinda tha.",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "The walls transition from 1920s brickwork into ancient, prehistoric black basalt carved with glowing demonic glyphs.",
+      "prose_hi": "Diwaren 1920 ke dashak ki inton se prachin, praagaitihaasik kale basalt mein parivartit ho gai hain jin par chamakdar rakshasi glyph ukere gaye han."
     },
     {
       "id": "p03",
       "shot": "kuro gliding crimson beams",
       "setting": "subterranean cavern",
-      "characters": ["kuro"],
+      "characters": [
+        "kuro"
+      ],
       "action": "Kuro glides ahead into the cavern, his eyes projecting twin crimson searchlight beams cutting through the purple miasma.",
       "mood": "demonic guide",
       "dialogue": [
-        {"type": "speech", "speaker": "kuro", "text": "Savdhaan raho. Yahan ki hawa mein Abyssal Miasma bhara hua hai.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Savdhaan raho. Yahan ki hawa mein Abyssal Miasma bhara hua hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Kuro glides ahead into the cavern, his eyes projecting twin crimson searchlight beams cutting through the purple miasma.",
+      "prose_hi": "Kuro gufa mein aage badhta hai, uski aankhen baingani mayasma ko kaatate hue judwan lal rang ki sarchlight kiranon ko prakshepit karti han."
     },
     {
       "id": "p04",
       "shot": "warm skin contrasting freezing air",
       "setting": "subterranean cavern",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Breath puffs out in white vapor, yet Ha-Jun's skin feels pleasantly warm as sovereign blood circulates through his veins.",
       "mood": "supernatural adaptation",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "Itni thand mein bhi... mujhe garmi mehsoos ho rahi hai.", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Itni thand mein bhi... mujhe garmi mehsoos ho rahi hai.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Breath puffs out in white vapor, yet Ha-Jun's skin feels pleasantly warm as sovereign blood circulates through his veins.",
+      "prose_hi": "Sans safed bhaap mein phoolti hai, phir bhi ha-jun ki tvacha sukhad roop se garm mahsoos hoti hai kyonki uski nason mein samprabhu rakt pravahit hota hai."
     },
     {
       "id": "p05",
@@ -55,7 +92,9 @@
       "characters": [],
       "action": "They reach a colossal arched gateway guarded by twin 20-foot stone gargoyles holding giant ceremonial scythes.",
       "mood": "monumental dread",
-      "sfx": "WHUUUUM..."
+      "sfx": "WHUUUUM...",
+      "prose_en": "They reach a colossal arched gateway guarded by twin 20-foot stone gargoyles holding giant ceremonial scythes.",
+      "prose_hi": "Ve ek vishal dhanushakar pravesh dwar tak pahunchte han, jo vishal aupcharik hansiya pakde hue judwan 20 foot ke patthar ke gargoil dwara sanrakshit hai."
     },
     {
       "id": "p06",
@@ -64,7 +103,9 @@
       "characters": [],
       "action": "As Ha-Jun passes between them, the gargoyles' hollow stone eyes suddenly erupt in roaring violet hellfire.",
       "mood": "tomb activated",
-      "sfx": "FWOOOOSH!!"
+      "sfx": "FWOOOOSH!!",
+      "prose_en": "As Ha-Jun passes between them, the gargoyles' hollow stone eyes suddenly erupt in roaring violet hellfire.",
+      "prose_hi": "Jaise hi ha-jun unke beech se gujarta hai, gargoils ki khokhli patthar ki aankhen achanak bhayankar baingani narkankaal mein phutne lagti han."
     },
     {
       "id": "p07",
@@ -73,18 +114,32 @@
       "characters": [],
       "action": "A massive 10-ton stone slab crashes down behind Ha-Jun with earth-shattering finality, sealing the exit.",
       "mood": "trapped in the trial",
-      "sfx": "DOOOOOOOOMMMM!!"
+      "sfx": "DOOOOOOOOMMMM!!",
+      "prose_en": "A massive 10-ton stone slab crashes down behind Ha-Jun with earth-shattering finality, sealing the exit.",
+      "prose_hi": "10 ton ka ek vishal patthar ka slab ha-jun ke peeche prithvi-vidhwansak ant ke saath durghatnagrast ho jata hai, jisse nikas band ho jata hai."
     },
     {
       "id": "p08",
       "shot": "turning back at seamless stone wall",
       "setting": "chamber entrance",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun whips around; the entrance has sealed seamlessly into solid basalt rock with zero cracks.",
       "mood": "no turning back",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "Rasta band ho gaya...!", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Rasta band ho gaya...!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun whips around; the entrance has sealed seamlessly into solid basalt rock with zero cracks.",
+      "prose_hi": "Ha-jun idhar-udhar ghumta hai; pravesh dwar ko shunya daraaron ke saath thos basalt chattan mein nirbaadh roop se seal kar diya gaya hai."
     },
     {
       "id": "p09",
@@ -94,8 +149,17 @@
       "action": "A radiant purple system window flares: [TRIAL OBJECTIVE: PURGE THE GUARDIAN GOLEMS] | [REWARD: 15% SYNC & BLOOD MANIPULATION].",
       "mood": "quest objective assigned",
       "dialogue": [
-        {"type": "system", "text": "[TRIAL OBJECTIVE: PURGE THE GUARDIAN GOLEMS]", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "system",
+          "text": "[TRIAL OBJECTIVE: PURGE THE GUARDIAN GOLEMS]",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "A radiant purple system window flares: [TRIAL OBJECTIVE: PURGE THE GUARDIAN GOLEMS] | [REWARD: 15% SYNC & BLOOD MANIPULATION].",
+      "prose_hi": "Ek deeptimaan baingani system window chamakti hai: [parikshan ka uddeshya: guardian golems ko shuddh karen] | [inam: 15% sink aur rakt herfer]."
     },
     {
       "id": "p10",
@@ -104,7 +168,9 @@
       "characters": [],
       "action": "Dozens of wall sconces around the vast circular chamber burst into purple fire simultaneously, illuminating ancient blood channels in the floor.",
       "mood": "arena illuminated",
-      "sfx": "FWOOSH-FWOOSH-FWOOSH!!"
+      "sfx": "FWOOSH-FWOOSH-FWOOSH!!",
+      "prose_en": "Dozens of wall sconces around the vast circular chamber burst into purple fire simultaneously, illuminating ancient blood channels in the floor.",
+      "prose_hi": "Vishal vrittakar kaksh ke charon or darjanon deewar ke nishan ek saath baingani aag mein foot gaye, jisse farsh mein prachin rakt channel roshan ho gaye."
     },
     {
       "id": "p11",
@@ -114,8 +180,17 @@
       "action": "In the center of the arena stands a stepped obsidian sacrificial altar surrounded by glowing runic engravings.",
       "mood": "ancient ritual ground",
       "dialogue": [
-        {"type": "narration", "text": "Ek prachin balivedi... jahan khoon ka daan diya jaata tha.", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "narration",
+          "text": "Ek prachin balivedi... jahan khoon ka daan diya jaata tha.",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "In the center of the arena stands a stepped obsidian sacrificial altar surrounded by glowing runic engravings.",
+      "prose_hi": "Akhade ke kendra mein ek sidhidar obsidian bali vedi hai jo chamakti runic nakkashi se ghiri hui hai."
     },
     {
       "id": "p12",
@@ -124,148 +199,239 @@
       "characters": [],
       "action": "Violent subterranean tremors rip through the chamber floor; deep cracks spiderweb outward from the altar.",
       "mood": "rising monoliths",
-      "sfx": "RUMBLE-KRRRSH!!"
+      "sfx": "RUMBLE-KRRRSH!!",
+      "prose_en": "Violent subterranean tremors rip through the chamber floor; deep cracks spiderweb outward from the altar.",
+      "prose_hi": "Teevra bhumigat jhatke chamber ke farsh ko cheer dete han; vedi se bahar ki or makdi ke jaal mein gahri dararen."
     },
     {
       "id": "p13",
       "shot": "three guardian golems rise",
       "setting": "trial chamber interior",
-      "characters": ["golem"],
+      "characters": [
+        "golem"
+      ],
       "action": "Three 10-foot tall basalt Guardian Golems fused with demonic bone armor and glowing red rune cores rise from the floor.",
       "mood": "colossal stone guardians",
-      "sfx": "KRRR-CLANGG!!"
+      "sfx": "KRRR-CLANGG!!",
+      "prose_en": "Three 10-foot tall basalt Guardian Golems fused with demonic bone armor and glowing red rune cores rise from the floor.",
+      "prose_hi": "Rakshasi asthi kavach aur chamakte lal roon core se jude teen 10 foot lambe basalt guardian golems farsh se uthte han."
     },
     {
       "id": "p14",
       "shot": "golems raising boulder warhammers",
       "setting": "trial chamber interior",
-      "characters": ["golem"],
+      "characters": [
+        "golem"
+      ],
       "action": "The golems heft massive boulder-sized stone warhammers, their crimson rune cores locking onto Ha-Jun with lethal intent.",
       "mood": "crushing power",
-      "sfx": "CREAAAK-THUD!!"
+      "sfx": "CREAAAK-THUD!!",
+      "prose_en": "The golems heft massive boulder-sized stone warhammers, their crimson rune cores locking onto Ha-Jun with lethal intent.",
+      "prose_hi": "Golems ne bade paimane par boulder aakaar ke patthar ke warhammer uthaye han, unke crimson roon core ghatak iraade se ha-jun par lock ho rahe han."
     },
     {
       "id": "p15",
       "shot": "kuro tactical warning shout",
       "setting": "trial chamber interior",
-      "characters": ["kuro"],
+      "characters": [
+        "kuro"
+      ],
       "action": "Kuro circles above: 'Yeh Sovereign ke Gatekeepers hain! Inka pathar kisi bhi aam hathiyar se nahi toot sakta!'",
       "mood": "indestructible foe warning",
       "dialogue": [
-        {"type": "speech", "speaker": "kuro", "text": "Dhyan se! Inka pathar aam hathiyar se nahi tootega!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Dhyan se! Inka pathar aam hathiyar se nahi tootega!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Kuro circles above: 'Yeh Sovereign ke Gatekeepers hain! Inka pathar kisi bhi aam hathiyar se nahi toot sakta!'.",
+      "prose_hi": "Kuro ne upar ghera: 'ye samprabhu ke dwarpal han! inka patthar kisi bhi aam hathiyare se nahin toot sakta!'."
     },
     {
       "id": "p16",
       "shot": "demonic gauntlet ignition smirk",
       "setting": "trial chamber interior",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun smirks calmly, snapping his fingers: The crystalline purple demonic gauntlet locks onto his right arm with crackling magenta arcs.",
       "mood": "fearless swagger",
       "dialogue": [
-        {"type": "speech", "speaker": "hajun", "text": "Achhi baat hai... kyunki mera hathiyar aam nahi hai.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Achhi baat hai... kyunki mera hathiyar aam nahi hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun smirks calmly, snapping his fingers: The crystalline purple demonic gauntlet locks onto his right arm with crackling magenta arcs.",
+      "prose_hi": "Ha-jun shanti se muskurata hai, apni ungaliyan chatkata hai: crystaliy baingani rakshasi gauntlet uske dahine haath par magenta arcs ke saath chipak jata hai."
     },
     {
       "id": "p17",
       "shot": "golem warhammer downward slam",
       "setting": "trial chamber interior",
-      "characters": ["golem"],
+      "characters": [
+        "golem"
+      ],
       "action": "The lead Golem charges with heavy thunderous strides, bringing its 5-ton stone hammer crashing straight down on Ha-Jun.",
       "mood": "crushing overhead strike",
-      "sfx": "WHUUUUSH!!"
+      "sfx": "WHUUUUSH!!",
+      "prose_en": "The lead Golem charges with heavy thunderous strides, bringing its 5-ton stone hammer crashing straight down on Ha-Jun.",
+      "prose_hi": "Mukhya golem bhari gadgdahat ke saath aage badhta hai, jisse uska 5 ton ka patthar ka hathauda sidhe ha-jun par girta hai."
     },
     {
       "id": "p18",
       "shot": "gauntlet uppercut meets hammer",
       "setting": "trial chamber interior",
-      "characters": ["hajun", "golem"],
+      "characters": [
+        "hajun",
+        "golem"
+      ],
       "action": "Ha-Jun steps forward and delivers a ferocious upward punch: His crystalline gauntlet meets the flat face of the descending 5-ton hammer head-on!",
       "mood": "unfathomable collision",
-      "sfx": "KRAAAA-DOOOOMM!!"
+      "sfx": "KRAAAA-DOOOOMM!!",
+      "prose_en": "Ha-Jun steps forward and delivers a ferocious upward punch: His crystalline gauntlet meets the flat face of the descending 5-ton hammer head-on!.",
+      "prose_hi": "Ha-jun aage badhta hai aur ek krur upar ki or mukka maarta hai: uska crystaliy hathiyar neeche utarte 5-tan ke hathaude ke sapat chehre se milta hai!"
     },
     {
       "id": "p19",
       "shot": "stone hammer shattering into rubble",
       "setting": "trial chamber interior",
-      "characters": ["golem"],
+      "characters": [
+        "golem"
+      ],
       "action": "Cracks spiderweb instantly across the boulder hammer before it detonates into a thousand flying shards of stone.",
       "mood": "overwhelming destructive power",
-      "sfx": "SHATTER-BOOOM!!"
+      "sfx": "SHATTER-BOOOM!!",
+      "prose_en": "Cracks spiderweb instantly across the boulder hammer before it detonates into a thousand flying shards of stone.",
+      "prose_hi": "Patthar ke hajaron udne wale tukdon mein visphotit hone se pehle boulder hathaude par makdi ke jale ko turant tod deta hai."
     },
     {
       "id": "p20",
       "shot": "flash-step core punch",
       "setting": "trial chamber interior",
-      "characters": ["hajun", "golem"],
+      "characters": [
+        "hajun",
+        "golem"
+      ],
       "action": "Ha-Jun flash-steps inside the Golem's guard, driving his fist deep into the glowing crimson rune core on its chest.",
       "mood": "fatal precision strike",
-      "sfx": "CRUNCH-SHIIK!!"
+      "sfx": "CRUNCH-SHIIK!!",
+      "prose_en": "Ha-Jun flash-steps inside the Golem's guard, driving his fist deep into the glowing crimson rune core on its chest.",
+      "prose_hi": "Ha-jun golem ke guard ke andar teji se kadam rakhta hai, apni mutthi ko uske seene par chamakte lal rang ke roon core mein gahrai tak ghusata hai."
     },
     {
       "id": "p21",
       "shot": "golem collapse into dust",
       "setting": "trial chamber interior",
-      "characters": ["golem"],
+      "characters": [
+        "golem"
+      ],
       "action": "The red core shatters; the 10-foot golem crumbles into an inert mound of fractured cobblestones and dust.",
       "mood": "one down",
-      "sfx": "THUDDD-CRUMBLE..."
+      "sfx": "THUDDD-CRUMBLE...",
+      "prose_en": "The red core shatters; the 10-foot golem crumbles into an inert mound of fractured cobblestones and dust.",
+      "prose_hi": "Lal core bikhar jata hai; 10 foot ka golem khandit pattharon aur dhul ke ek nishkriya teele mein dhah jata hai."
     },
     {
       "id": "p22",
       "shot": "coordinated pincer attack",
       "setting": "trial chamber interior",
-      "characters": ["golem"],
+      "characters": [
+        "golem"
+      ],
       "action": "The remaining two Golems strike in tandem: One sweeps a wide stone blade at his legs while the second leaps from above with dual fists.",
       "mood": "lethal pincer trap",
-      "sfx": "KRR-WHUUUSH!!"
+      "sfx": "KRR-WHUUUSH!!",
+      "prose_en": "The remaining two Golems strike in tandem: One sweeps a wide stone blade at his legs while the second leaps from above with dual fists.",
+      "prose_hi": "Shesh do golem ek saath hamla karte han: ek uske pairon par ek vistrit patthar ka blade maarta hai, jabki dusra upar se dohri mutthiyon ke saath chhalang lagata hai."
     },
     {
       "id": "p23",
       "shot": "domain aerial freeze",
       "setting": "trial chamber interior",
-      "characters": ["hajun", "golem"],
+      "characters": [
+        "hajun",
+        "golem"
+      ],
       "action": "Ha-Jun expands his 5-meter Sovereign Domain: The falling airborne Golem freezes completely motionless mid-leap in mid-air.",
       "mood": "spatial freeze mastery",
       "dialogue": [
-        {"type": "shout", "speaker": "hajun", "text": "DOMAIN... HALT!!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "DOMAIN... HALT!!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun expands his 5-meter Sovereign Domain: The falling airborne Golem freezes completely motionless mid-leap in mid-air.",
+      "prose_hi": "Ha-jun ne apne 5-meter sovereign domain ka vistar kiya: girta hua hawai golem madhya hawa mein chhalang ke beech puri tarah se gatiheen ho jata hai."
     },
     {
       "id": "p24",
       "shot": "spinning mid-air axe kick hellfire",
       "setting": "trial chamber interior",
-      "characters": ["hajun", "golem"],
+      "characters": [
+        "hajun",
+        "golem"
+      ],
       "action": "Ha-Jun launches off the frozen Golem's shoulder, spinning into a vertical axe kick engulfed in blazing violet-crimson hellfire.",
       "mood": "devastating aerial finisher",
-      "sfx": "FWOOOOSH-BOOM!!"
+      "sfx": "FWOOOOSH-BOOM!!",
+      "prose_en": "Ha-Jun launches off the frozen Golem's shoulder, spinning into a vertical axe kick engulfed in blazing violet-crimson hellfire.",
+      "prose_hi": "Ha-jun ne jame hue golem ke kandhe ko launch kiya, jo dhadhakti bangni-lal rang ki narkankaal mein ghiri hui ek udhrvadhar kulhadi ki kick mein ghum raha tha."
     },
     {
       "id": "p25",
       "shot": "splitting second golem in two",
       "setting": "trial chamber interior",
-      "characters": ["golem"],
+      "characters": [
+        "golem"
+      ],
       "action": "The flaming heel strike splits the second Golem cleanly from head to torso in an explosion of purple sparks.",
       "mood": "bisection of stone",
-      "sfx": "KRAAASH-SNAP!!"
+      "sfx": "KRAAASH-SNAP!!",
+      "prose_en": "The flaming heel strike splits the second Golem cleanly from head to torso in an explosion of purple sparks.",
+      "prose_hi": "Dhadhakti edi ka prahar dusre golem ko baingani chingari ke visfot mein sir se dhad tak saf-saf vibhajit kar deta hai."
     },
     {
       "id": "p26",
       "shot": "blood claws decapitation of third golem",
       "setting": "trial chamber interior",
-      "characters": ["hajun", "golem"],
+      "characters": [
+        "hajun",
+        "golem"
+      ],
       "action": "Ha-Jun lands and extends Sovereign Blood Claws, slicing the retreating third Golem's stone head cleanly off its shoulders.",
       "mood": "flawless execution",
-      "sfx": "SHLLLRRRK!!"
+      "sfx": "SHLLLRRRK!!",
+      "prose_en": "Ha-Jun lands and extends Sovereign Blood Claws, slicing the retreating third Golem's stone head cleanly off its shoulders.",
+      "prose_hi": "Ha-jun utarta hai aur sovereign blood clause ko failata hai, peeche hatne wale teesre golem ke patthar ke sir ko uske kandhon se saaf kar deta hai."
     },
     {
       "id": "p27",
       "shot": "mana core absorption wisps",
       "setting": "trial chamber interior",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "All three shattered rune cores turn into radiant streams of violet mana, absorbing into Ha-Jun's chest core.",
       "mood": "abundant essence harvest",
-      "sfx": "SHUUUUK..."
+      "sfx": "SHUUUUK...",
+      "prose_en": "All three shattered rune cores turn into radiant streams of violet mana, absorbing into Ha-Jun's chest core.",
+      "prose_hi": "Sabhi teen toote hue roon core baingani man ki ujjwal dharaon mein badal jaate han, jo ha-jun ki chhati ke core mein avshoshit ho jaate han."
     },
     {
       "id": "p28",
@@ -275,8 +441,17 @@
       "action": "Golden system prompt chimes: [TRIAL 1 CLEARED: BLOODLINE SYNCHRONIZATION 15.0%] | [NEW POWER: FLUID BLOOD CONTROL UNLOCKED].",
       "mood": "level-up breakthrough",
       "dialogue": [
-        {"type": "system", "text": "[TRIAL 1 CLEARED] [SYNCHRONIZATION: 15.0%]", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "system",
+          "text": "[TRIAL 1 CLEARED] [SYNCHRONIZATION: 15.0%]",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "Golden system prompt chimes: [TRIAL 1 CLEARED: BLOODLINE SYNCHRONIZATION 15.0%] | [NEW POWER: FLUID BLOOD CONTROL UNLOCKED].",
+      "prose_hi": "Golden system prompt jhankar: [parikshan 1 saf: raktarekha tulyakalan 15.0%] | [nai shakti: drav rakt niyantran unlock]."
     },
     {
       "id": "p29",
@@ -285,18 +460,32 @@
       "characters": [],
       "action": "The central obsidian altar platform grinds open, revealing an ancient stone pedestal illuminated by a column of radiant scarlet light.",
       "mood": "relic revealed",
-      "sfx": "GRIND-KLIKK!!"
+      "sfx": "GRIND-KLIKK!!",
+      "prose_en": "The central obsidian altar platform grinds open, revealing an ancient stone pedestal illuminated by a column of radiant scarlet light.",
+      "prose_hi": "Kendriy obsidian vedi manch khulta hai, jisse chamakdar lal rang ki roshni ke stambh dwara roshan ek prachin patthar ka kursi dikhai deta hai."
     },
     {
       "id": "p30",
       "shot": "the ring of hollow blood cliffhanger",
       "setting": "trial chamber altar pedestal",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Resting on a velvet cushion atop the pedestal is an antique carved silver ring embedded with a pulsating ruby tear: The Second Relic, Ring of Hollow Blood.",
       "mood": "second relic found, ultimate cliffhanger",
       "dialogue": [
-        {"type": "speech", "speaker": "kuro", "text": "Doosra Relic... Ring of Hollow Blood.", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Doosra Relic... Ring of Hollow Blood.",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "Resting on a velvet cushion atop the pedestal is an antique carved silver ring embedded with a pulsating ruby tear: The Second Relic, Ring of Hollow Blood.",
+      "prose_hi": "Kursi ke upar ek makhmali gadde par ek prachin nakkashidar chandi ki anguthi rakhi hui hai, jo spandit ruby aansu ke saath jadit hai: dusra avshesh, khokhale rakt ki anguthi."
     }
   ]
 }

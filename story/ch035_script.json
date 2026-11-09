@@ -13,7 +13,9 @@
       "characters": [],
       "action": "A silenced high-caliber sniper rifle flashes in the darkness of the overhead drainage shaft.",
       "mood": "lethal sniper fire",
-      "sfx": "PFFFT-CRACK!!"
+      "sfx": "PFFFT-CRACK!!",
+      "prose_en": "A silenced high-caliber sniper rifle flashes in the darkness of the overhead drainage shaft.",
+      "prose_hi": "Overhead drainage shaft ke andhere mein ek khamosh high-calibar sniper rifle chamakti hai."
     },
     {
       "id": "p02",
@@ -22,7 +24,9 @@
       "characters": [],
       "action": "A silver-plated tungsten round engraved with anti-mana runes spirals through the air at supersonic speed.",
       "mood": "deadly projectile",
-      "sfx": "WHIZZ..."
+      "sfx": "WHIZZ...",
+      "prose_en": "A silver-plated tungsten round engraved with anti-mana runes spirals through the air at supersonic speed.",
+      "prose_hi": "Ek silvar-plated tungsten round, jo anti-mana ke saath utkeern hai, supersonic gati se hawa ke madhyam se sarpil chalta hai."
     },
     {
       "id": "p03",
@@ -33,7 +37,9 @@
       ],
       "action": "Ha-Jun's left arm blurs upward, intercepting the bullet centimeters before it strikes his chest.",
       "mood": "superhuman reflex",
-      "sfx": "SWOOSH!"
+      "sfx": "SWOOSH!",
+      "prose_en": "Ha-Jun's left arm blurs upward, intercepting the bullet centimeters before it strikes his chest.",
+      "prose_hi": "Ha-jun ka bayan haath upar ki or dhundhla ho jata hai, goli uski chhati par lagne se kuch centimeter pehle hi ruk jaati hai."
     },
     {
       "id": "p04",
@@ -44,7 +50,9 @@
       ],
       "action": "The tungsten round shatters against the polished ivory bone gauntlet with an explosion of silver sparks.",
       "mood": "impenetrable defense",
-      "sfx": "SPARK-CLANG!!"
+      "sfx": "SPARK-CLANG!!",
+      "prose_en": "The tungsten round shatters against the polished ivory bone gauntlet with an explosion of silver sparks.",
+      "prose_hi": "Chandi ki chingari ke visfot ke saath polish ki gai hathi daant ki haddi ke gauntlet ke khilaf tungsten ka daur toot jata hai."
     },
     {
       "id": "p05",
@@ -63,7 +71,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "A black-clad Hunter sniper in night-vision goggles jerks backward: 'Direct deflection?! Impossible!'.",
+      "prose_hi": "Night-vizan goggles pahane ek kale-pahne hunter sniper ne peeche ki or jhatka diya: 'pratyaksh vikshepan?! asambhav!'."
     },
     {
       "id": "p06",
@@ -74,7 +84,9 @@
       ],
       "action": "With a snap of his right wrist, Ha-Jun fires three razor-thin crimson blood needles upward.",
       "mood": "swift counter",
-      "sfx": "ZIP-ZIP-ZIP!!"
+      "sfx": "ZIP-ZIP-ZIP!!",
+      "prose_en": "With a snap of his right wrist, Ha-Jun fires three razor-thin crimson blood needles upward.",
+      "prose_hi": "Apni dahini kalai ke jhatke ke sath, ha-jun teen ustra-patli lal rang ki rakt suiyon ko upar ki or fire karta hai."
     },
     {
       "id": "p07",
@@ -83,7 +95,9 @@
       "characters": [],
       "action": "The blood needles slice cleanly through the sniper's rifle barrel and optics, disarming him instantly.",
       "mood": "clean disarm",
-      "sfx": "SHING!!"
+      "sfx": "SHING!!",
+      "prose_en": "The blood needles slice cleanly through the sniper's rifle barrel and optics, disarming him instantly.",
+      "prose_hi": "Khun ki suiyan sniper ki rifle barrel aur optics ko saf-saf kaatati han, jisse wah turant nihattha ho jata hai."
     },
     {
       "id": "p08",
@@ -92,7 +106,9 @@
       "characters": [],
       "action": "Two heavily armored Bureau assault operatives drop down on rappelling ropes, brandishing stun batons.",
       "mood": "tactical breach",
-      "sfx": "SWOOSH-THUD!!"
+      "sfx": "SWOOSH-THUD!!",
+      "prose_en": "Two heavily armored Bureau assault operatives drop down on rappelling ropes, brandishing stun batons.",
+      "prose_hi": "Do bhari bakhtarband bureau aakraman sanchalak stabdh kar dene wale dande lahrate hue rassiyon par girte han."
     },
     {
       "id": "p09",
@@ -101,7 +117,9 @@
       "characters": [],
       "action": "Matte-black armor plating humming with electric blue dampening grids designed to suppress supernatural mana.",
       "mood": "specialized gear",
-      "sfx": "BZZZZT..."
+      "sfx": "BZZZZT...",
+      "prose_en": "Matte-black armor plating humming with electric blue dampening grids designed to suppress supernatural mana.",
+      "prose_hi": "Alaukik man ko dabane ke liye design kiye gaye electric blue dumping grid ke saath mat-black kavach plating gungunati hai."
     },
     {
       "id": "p10",
@@ -110,7 +128,9 @@
       "characters": [],
       "action": "The operative swings a 50,000-volt high-frequency baton directly at Ha-Jun's temple.",
       "mood": "lethal swing",
-      "sfx": "CRACKLE-SWING!!"
+      "sfx": "CRACKLE-SWING!!",
+      "prose_en": "The operative swings a 50,000-volt high-frequency baton directly at Ha-Jun's temple.",
+      "prose_hi": "Sanchalak ha-jun ke mandir par sidhe 50,000 volt ki uchch aavritti wali chhadi ghumata hai."
     },
     {
       "id": "p11",
@@ -121,7 +141,9 @@
       ],
       "action": "Ha-Jun catches the sparking electrified baton in his bare left bone gauntlet; electricity grounds harmlessly.",
       "mood": "zero damage",
-      "sfx": "ZZZZT-SNAP!"
+      "sfx": "ZZZZT-SNAP!",
+      "prose_en": "Ha-Jun catches the sparking electrified baton in his bare left bone gauntlet; electricity grounds harmlessly.",
+      "prose_hi": "Ha-jun ne apni nangi bai haddi ke dastaane mein sparking vidyutikrit batten ko pakad liya; bijli hanirahit roop se ground hoti hai."
     },
     {
       "id": "p12",
@@ -132,7 +154,9 @@
       ],
       "action": "With a flex of his fingers, the titanium-reinforced baton is crushed into twisted scrap metal.",
       "mood": "crushing strength",
-      "sfx": "CRUNCH!!"
+      "sfx": "CRUNCH!!",
+      "prose_en": "With a flex of his fingers, the titanium-reinforced baton is crushed into twisted scrap metal.",
+      "prose_hi": "Apni ungaliyon ke lachilepan se, titenium-prablit batten ko kuchalkar mude hue scrap dhatu mein badal diya jata hai."
     },
     {
       "id": "p13",
@@ -143,7 +167,9 @@
       ],
       "action": "Ha-Jun drives an open-palm kinetic strike into the operative's breastplate, blowing him 20 feet backward.",
       "mood": "kinetic blast",
-      "sfx": "BOOOM!!"
+      "sfx": "BOOOM!!",
+      "prose_en": "Ha-Jun drives an open-palm kinetic strike into the operative's breastplate, blowing him 20 feet backward.",
+      "prose_hi": "Ha-jun ne sanchalak ke brestaplate mein khuli hatheli se gatij prahar kiya, jisse wah 20 feet peeche chala gaya."
     },
     {
       "id": "p14",
@@ -152,7 +178,9 @@
       "characters": [],
       "action": "The armored operative skids across the rushing water canal, unconscious before making a splash.",
       "mood": "neutralized",
-      "sfx": "SPLASHHH!!"
+      "sfx": "SPLASHHH!!",
+      "prose_en": "The armored operative skids across the rushing water canal, unconscious before making a splash.",
+      "prose_hi": "Baktarband sanchalak chhintakashi karne se pehle behosh hokar, tez pani ki nahar ko paar kar jata hai."
     },
     {
       "id": "p15",
@@ -161,7 +189,9 @@
       "characters": [],
       "action": "The second operative panics, drawing a heavy semi-automatic pistol loaded with hollow-point silver rounds.",
       "mood": "desperate defense",
-      "sfx": "CLICK-PULL!"
+      "sfx": "CLICK-PULL!",
+      "prose_en": "The second operative panics, drawing a heavy semi-automatic pistol loaded with hollow-point silver rounds.",
+      "prose_hi": "Dusra operative ghabra gaya, khokhali-nukili chandi ki goliyon se bhari hui ek bhari ardh-swachalit pistol nikali."
     },
     {
       "id": "p16",
@@ -183,7 +213,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro dives from the rafters like an obsidian missile, his sharp talons slashing across the hunter's visor.",
+      "prose_hi": "Kuro ek obsidian missile ki tarah chhat se gota lagata hai, uske tej panje shikari ke chhajje par war karte han."
     },
     {
       "id": "p17",
@@ -192,7 +224,9 @@
       "characters": [],
       "action": "The operative drops his pistol, clutching his shattered visor as purple smoke burns his eyes.",
       "mood": "blinded",
-      "sfx": "ARGGGH!!"
+      "sfx": "ARGGGH!!",
+      "prose_en": "The operative drops his pistol, clutching his shattered visor as purple smoke burns his eyes.",
+      "prose_hi": "Operativ apni pistol gira deta hai aur apne toote hue chhajje ko pakad leta hai kyonki baingani dhuan uski aankhon ko jala deta hai."
     },
     {
       "id": "p18",
@@ -203,7 +237,9 @@
       ],
       "action": "Ha-Jun steps forward, pinning the operative against the rusted pipe by his collar with terrifying ease.",
       "mood": "interrogation grip",
-      "sfx": "THUD!!"
+      "sfx": "THUD!!",
+      "prose_en": "Ha-Jun steps forward, pinning the operative against the rusted pipe by his collar with terrifying ease.",
+      "prose_hi": "Ha-jun aage badhta hai, jung lage pipe par operative ko bhayanak sahajta se uske collar se pakad leta hai."
     },
     {
       "id": "p19",
@@ -224,7 +260,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's violet irises with crimson rings burn mere inches from the operative's terrified eyes.",
+      "prose_hi": "Ha-jun ki lal rang ki chhallon wali baingani rang ki putli sanchalak ki bhaybhit aankhon se matra kuch inch ki doori par jalti hai."
     },
     {
       "id": "p20",
@@ -243,7 +281,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The operative stammers, terrified: 'P-Pouch mein hai! Tactical tablet mein pura dossier hai!'.",
+      "prose_hi": "Operativ bhaybhit hokar haklane laga: 'pi-pouch mein hai! tactical tablet mein pura dossier hai!'."
     },
     {
       "id": "p21",
@@ -254,7 +294,9 @@
       ],
       "action": "Ha-Jun reaches into the operative's tactical vest and pulls out a ruggedized military tablet.",
       "mood": "evidence seized",
-      "sfx": "RIPP!"
+      "sfx": "RIPP!",
+      "prose_en": "Ha-Jun reaches into the operative's tactical vest and pulls out a ruggedized military tablet.",
+      "prose_hi": "Ha-jun operative ki samrik baniyan mein pahunchta hai aur ek majboot sainya tablet nikalta hai."
     },
     {
       "id": "p22",
@@ -265,7 +307,9 @@
       ],
       "action": "Ha-Jun taps a precise pressure point on the operative's neck; the man slumps instantly into deep sleep.",
       "mood": "merciful takedown",
-      "sfx": "TAP..."
+      "sfx": "TAP...",
+      "prose_en": "Ha-Jun taps a precise pressure point on the operative's neck; the man slumps instantly into deep sleep.",
+      "prose_hi": "Ha-jun operative ki gardan par ek sateek dabav bindu par tap karta hai; aadmi turant gahri neend mein so jata hai."
     },
     {
       "id": "p23",
@@ -274,7 +318,9 @@
       "characters": [],
       "action": "Min-Jae runs over, taking the military tablet and plugging in a bypass chip.",
       "mood": "tablet decryption",
-      "sfx": "BEEP-CLICK!"
+      "sfx": "BEEP-CLICK!",
+      "prose_en": "Min-Jae runs over, taking the military tablet and plugging in a bypass chip.",
+      "prose_hi": "Min-je military tablet lekar aur bypass chip lagakar daudta hai."
     },
     {
       "id": "p24",
@@ -282,7 +328,9 @@
       "setting": "tablet screen",
       "characters": [],
       "action": "The title screen displays: 'REPUBLIC OF KOREA - DORMANT CARRIER EXTERMINATION REGISTRY (CONFIDENTIAL)'.",
-      "mood": "the black list"
+      "mood": "the black list",
+      "prose_en": "The title screen displays: 'REPUBLIC OF KOREA - DORMANT CARRIER EXTERMINATION REGISTRY (CONFIDENTIAL)'.",
+      "prose_hi": "Shirshak screen pradarshit karti hai: 'koriya ganrajya - nishkriya vahak unmulan registry (gopniy)'."
     },
     {
       "id": "p25",
@@ -300,7 +348,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Scrolling lists of high school students, office workers, and children—each marked with a red 'PURGED' stamp.",
+      "prose_hi": "High school ke chhatron, karyalay karmchariyon aur bachchon ki scrolling suchiyan - pratyek ko lal 'parged' stamp se chinhit kiya gaya hai."
     },
     {
       "id": "p26",
@@ -319,7 +369,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae's eyes fill with tears of horror: 'Yeh Demon hunting nahi hai... Yeh toh genocide hai!'.",
+      "prose_hi": "Min-je ki aankhen bhay se bhar aati han: 'ye rakshas shikar nahin hai... yeh to narsanhar hai!'"
     },
     {
       "id": "p27",
@@ -329,7 +381,9 @@
         "hajun"
       ],
       "action": "Ha-Jun's expression turns into a mask of pure, absolute imperial coldness.",
-      "mood": "birth of the wrath"
+      "mood": "birth of the wrath",
+      "prose_en": "Ha-Jun's expression turns into a mask of pure, absolute imperial coldness.",
+      "prose_hi": "Ha-jun ki abhivyakti shuddh, purna shahi sheetalta ke mukhaute mein badal jaati hai."
     },
     {
       "id": "p28",
@@ -350,7 +404,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro notes: 'Jab power insaan ke haath aati hai, toh woh Demons se bhi zyada cruel ban jaate hain.'.",
+      "prose_hi": "Kuro note karta hai: 'jab satta insaan ke haath aati hai, to woh rakshason se bhi jyada krur ban jaate han.'"
     },
     {
       "id": "p29",
@@ -361,7 +417,9 @@
       ],
       "action": "Ha-Jun downloads the file to Min-Jae's encrypted cloud, then snaps the tablet in half with one hand.",
       "mood": "irrevocable decision",
-      "sfx": "SNAP!!"
+      "sfx": "SNAP!!",
+      "prose_en": "Ha-Jun downloads the file to Min-Jae's encrypted cloud, then snaps the tablet in half with one hand.",
+      "prose_hi": "Ha-jun file ko min-je ke encrypted cloud par download karta hai, phir ek haath se tablet ko aadhe mein snap karta hai."
     },
     {
       "id": "p30",
@@ -382,7 +440,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Silhouetted against the rainy city streetlights above: 'Hunter Bureau ka har criminal apna hisaab dega.'.",
+      "prose_hi": "Upar barsati shahar ki stretlits ke samne chhayachitra: 'hunter bureau ka har apradhi apna hisab dega.'"
     }
   ]
 }

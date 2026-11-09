@@ -15,7 +15,9 @@
       ],
       "action": "Around Ha-Jun, three concentric circles of ancient demonic runes rotate at blinding speed in midair.",
       "mood": "tri-seal manifestation",
-      "sfx": "HUMMMMMM..."
+      "sfx": "HUMMMMMM...",
+      "prose_en": "Around Ha-Jun, three concentric circles of ancient demonic runes rotate at blinding speed in midair.",
+      "prose_hi": "Ha-jun ke charon or, prachin rakshasi runon ke teen sankendrit vritt madhya hawa mein andhi gati se ghumte han."
     },
     {
       "id": "p02",
@@ -24,7 +26,9 @@
       "characters": [],
       "action": "Kuro's Fallen Feather radiates celestial violet light, resonating with the Ashen Heart.",
       "mood": "feather resonance",
-      "sfx": "PULSE..."
+      "sfx": "PULSE...",
+      "prose_en": "Kuro's Fallen Feather radiates celestial violet light, resonating with the Ashen Heart.",
+      "prose_hi": "Kuro ka gira hua pankh akashiya baingani prakash bikherta hai, jo ation heart ke saath pratidhvanit hota hai."
     },
     {
       "id": "p03",
@@ -33,7 +37,9 @@
       "characters": [],
       "action": "The Ring of Hollow Blood pulses with liquid crimson radiance, circulating power through his veins.",
       "mood": "ring resonance",
-      "sfx": "PULSE..."
+      "sfx": "PULSE...",
+      "prose_en": "The Ring of Hollow Blood pulses with liquid crimson radiance, circulating power through his veins.",
+      "prose_hi": "Khokhle rakt ki anguthi taral lal rang ki chamak ke saath spandit hoti hai, uski nason mein shakti ka sanchar karti hai."
     },
     {
       "id": "p04",
@@ -42,7 +48,9 @@
       "characters": [],
       "action": "The Bone Gauntlet hums with ivory luminescence, anchoring the explosive energy into his marrow.",
       "mood": "bone resonance",
-      "sfx": "PULSE..."
+      "sfx": "PULSE...",
+      "prose_en": "The Bone Gauntlet hums with ivory luminescence, anchoring the explosive energy into his marrow.",
+      "prose_hi": "Asthi gauntlet hathi daant ki chamak ke saath gunjan karta hai, visfotak urja ko uske majja mein samahit karta hai."
     },
     {
       "id": "p05",
@@ -53,7 +61,9 @@
       ],
       "action": "The three energy currents intersect directly over the lotus fire crest on his sternum.",
       "mood": "triangular convergence",
-      "sfx": "ZAP-CONVERGE!!"
+      "sfx": "ZAP-CONVERGE!!",
+      "prose_en": "The three energy currents intersect directly over the lotus fire crest on his sternum.",
+      "prose_hi": "Teen urja dharayen sidhe uske urosthi par kamal agni shikhar par pratichhed karti han."
     },
     {
       "id": "p06",
@@ -72,7 +82,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "In Ha-Jun's mental plane, three colossal iron chains wrapped around a black iron throne snap like thread.",
+      "prose_hi": "Ha-jun ke mansik star par, ek kale lohe ke sinhasan ke charon or lipati teen vishal lohe ki janjeeren dhaage ki tarah tutati han."
     },
     {
       "id": "p07",
@@ -81,7 +93,9 @@
       "characters": [],
       "action": "A column of invisible mana pressure blasts upward through Bukhansan peak, parting storm clouds in a five-mile ring.",
       "mood": "sky parting shockwave",
-      "sfx": "THUNDER-BOOM!!"
+      "sfx": "THUNDER-BOOM!!",
+      "prose_en": "A column of invisible mana pressure blasts upward through Bukhansan peak, parting storm clouds in a five-mile ring.",
+      "prose_hi": "Adrishya man dabav ka ek stambh bukanson choti ke madhyam se upar ki or visfot karta hai, jo paanch meal ki ring mein toofani baadalon ko vibhajit karta hai."
     },
     {
       "id": "p08",
@@ -89,7 +103,9 @@
       "setting": "mountain sky",
       "characters": [],
       "action": "Clear blue morning sunlight streams down through the circular hole in the clouds onto the mountain ridge.",
-      "mood": "sunlight breaking"
+      "mood": "sunlight breaking",
+      "prose_en": "Clear blue morning sunlight streams down through the circular hole in the clouds onto the mountain ridge.",
+      "prose_hi": "Subah ki saaf neeli dhoop baadalon ke golakar chhed se hokar parvat shrinkhala par girti hai."
     },
     {
       "id": "p09",
@@ -98,7 +114,9 @@
       "characters": [],
       "action": "Inside the high-tech Hunter Bureau Command Center in Gangnam: red alarms flash across 50 giant screens.",
       "mood": "emergency alarm",
-      "sfx": "KLAXON WAIILING!!"
+      "sfx": "KLAXON WAIILING!!",
+      "prose_en": "Inside the high-tech Hunter Bureau Command Center in Gangnam: red alarms flash across 50 giant screens.",
+      "prose_hi": "Gangnam mein high-tek hunter bureau command center ke ander: 50 vishal screenon par lal alarm chamakte han."
     },
     {
       "id": "p10",
@@ -118,7 +136,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "A technician in a black suit drops his coffee mug as digital gauges spike off the charts.",
+      "prose_hi": "Jaise hi digital gej chart se bahar nikalta hai, kale suit mein ek technician apna coffee mag gira deta hai."
     },
     {
       "id": "p11",
@@ -137,7 +157,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Supreme Director Kang—a cold, silver-haired man in a military trenchcoat—stares at the thermal heatmap.",
+      "prose_hi": "Suprim director kang - sainya trenchakot mein ek thanda, chandi ke baalon wala aadmi - thermal hitmap ko ghurta hai."
     },
     {
       "id": "p12",
@@ -156,7 +178,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Captain Baek, his arm still bandaged from Chapter 22, enters the office with dark intensity.",
+      "prose_hi": "Capton bek, jiske haath par abhi bhi adhyay 22 ki patti bandhi hui hai, andhere tivrata ke saath karyalay mein pravesh karta hai."
     },
     {
       "id": "p13",
@@ -176,7 +200,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Director Kang crushes his whiskey glass to powder, dark demonic veins flickering beneath his human collar.",
+      "prose_hi": "Nirdeshak kang ne apne whisky ke gilas ko kuchalkar powder bana liya, uske manav collar ke neeche kali rakshasi nasen timtima rahi thin."
     },
     {
       "id": "p14",
@@ -187,7 +213,9 @@
       ],
       "action": "Back in the cavern, the blinding light subsides, revealing Ha-Jun's completed evolution.",
       "mood": "evolution reveal",
-      "sfx": "MIST HISSING..."
+      "sfx": "MIST HISSING...",
+      "prose_en": "Back in the cavern, the blinding light subsides, revealing Ha-Jun's completed evolution.",
+      "prose_hi": "Gufa mein vaaps, chakachaundh karne wali roshni kam ho jaati hai, jisse ha-jun ke purna vikas ka pata chalta hai."
     },
     {
       "id": "p15",
@@ -197,7 +225,9 @@
         "hajun"
       ],
       "action": "Ha-Jun's messy black hair now features subtle silver-violet highlights that catch the light like polished obsidian.",
-      "mood": "hair evolution"
+      "mood": "hair evolution",
+      "prose_en": "Ha-Jun's messy black hair now features subtle silver-violet highlights that catch the light like polished obsidian.",
+      "prose_hi": "Ha-jun ke gande kale baalon mein ab sookshm silvar-violet highlights hain jo polish kiye gaye obsidian ki tarah prakash ko pakadte han."
     },
     {
       "id": "p16",
@@ -207,7 +237,9 @@
         "hajun"
       ],
       "action": "His eyes are permanently altered: sharp violet irises ringed with a thin, glowing crimson outer eclipse.",
-      "mood": "sovereign gaze"
+      "mood": "sovereign gaze",
+      "prose_en": "His eyes are permanently altered: sharp violet irises ringed with a thin, glowing crimson outer eclipse.",
+      "prose_hi": "Uski aankhen sthayi roop se badal gai han: tej baingani rang ki paritarikaen patli, chamakdar lal rang ke bahari grahan se ghiri hui han."
     },
     {
       "id": "p17",
@@ -217,7 +249,9 @@
         "hajun"
       ],
       "action": "The Sovereign Crest on his chest has deepened into a permanent obsidian-and-ruby demonic brand.",
-      "mood": "permanent tattoo brand"
+      "mood": "permanent tattoo brand",
+      "prose_en": "The Sovereign Crest on his chest has deepened into a permanent obsidian-and-ruby demonic brand.",
+      "prose_hi": "Uski chhati par sovereign crest ek sthayi obseedian-aur-rubi rakshasi brand mein gehra ho gaya hai."
     },
     {
       "id": "p18",
@@ -239,7 +273,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun breathes out a cloud of white condensation, feeling superhuman vitality coursing through every capillary.",
+      "prose_hi": "Ha-jun safed sankshepan ke ek badal ko bahar nikalta hai, har keshika ke madhyam se alaukik jeevan shakti ko mahsoos karta hai."
     },
     {
       "id": "p19",
@@ -260,7 +296,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro ruffles his obsidian feathers, puffing out his chest with guardian pride.",
+      "prose_hi": "Kuro apne obsidian pankh fadfadata hai, abhibhavak garv se apni chhati fulata hai."
     },
     {
       "id": "p20",
@@ -271,7 +309,9 @@
       ],
       "action": "With a thought, Ha-Jun summons the Bone Gauntlet on his left arm and a Bloodfire Katana in his right hand.",
       "mood": "dual wield mastery",
-      "sfx": "SHING-FWOOSH!!"
+      "sfx": "SHING-FWOOSH!!",
+      "prose_en": "With a thought, Ha-Jun summons the Bone Gauntlet on his left arm and a Bloodfire Katana in his right hand.",
+      "prose_hi": "Ek vichar ke sath, ha-jun apne baen haath par bone gauntlet aur apne dahine haath mein ek bladfir katana ko bulata hai."
     },
     {
       "id": "p21",
@@ -281,7 +321,9 @@
         "hajun"
       ],
       "action": "The violet hellfire from the crimson blade casts dancing highlights against the polished ivory bone gauntlet.",
-      "mood": "peerless visual aesthetic"
+      "mood": "peerless visual aesthetic",
+      "prose_en": "The violet hellfire from the crimson blade casts dancing highlights against the polished ivory bone gauntlet.",
+      "prose_hi": "Crimson blade se nikalne wali baingani narkankaal polish ki gai hathi daant ki haddi ke gauntlet ke samne nritya ki jhalak dikhati hai."
     },
     {
       "id": "p22",
@@ -292,7 +334,9 @@
       ],
       "action": "Ha-Jun smoothly folds his fingers, dissolving both weapons back into his body seamlessly in half a second.",
       "mood": "instant arm/disarm",
-      "sfx": "SNAP..."
+      "sfx": "SNAP...",
+      "prose_en": "Ha-Jun smoothly folds his fingers, dissolving both weapons back into his body seamlessly in half a second.",
+      "prose_hi": "Ha-jun aasani se apni ungaliyon ko modata hai, aur donon hathiyaron ko aadhe second mein apne shareer mein wapas ghol deta hai."
     },
     {
       "id": "p23",
@@ -312,7 +356,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae's voice bursts through the radio with breathless excitement: 'Ha-Jun! Pura mountain shake hua tha!'.",
+      "prose_hi": "Bedam utsaah ke saath min-je ki awaaz radio par gunjati hai: 'ha-jun! pura pahad hila hua tha!'."
     },
     {
       "id": "p24",
@@ -333,7 +379,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun clips the radio to his collar: 'Main theek hoon, Min-Jae. Aur pehle se bohot behtar hoon.'.",
+      "prose_hi": "Ha-jun ne radio ko apne collar par clip kiya: 'main theek hun, min-je. aur pehle se bahut behtar hun.'"
     },
     {
       "id": "p25",
@@ -344,7 +392,9 @@
       ],
       "action": "With single 20-foot leaps, Ha-Jun bounds up the basalt incline like a phantom in the shadows.",
       "mood": "effortless traversal",
-      "sfx": "SWOOSH!!"
+      "sfx": "SWOOSH!!",
+      "prose_en": "With single 20-foot leaps, Ha-Jun bounds up the basalt incline like a phantom in the shadows.",
+      "prose_hi": "20 foot ki ekal chhalang ke sath, ha-jun chhaya mein ek pret ki tarah basalt jhukaav ko bandhta hai."
     },
     {
       "id": "p26",
@@ -355,7 +405,9 @@
       ],
       "action": "Ha-Jun parts the falling sheets of icy water, stepping out onto the sunlit mountain trail.",
       "mood": "dramatic emergence",
-      "sfx": "SPLASH..."
+      "sfx": "SPLASH...",
+      "prose_en": "Ha-Jun parts the falling sheets of icy water, stepping out onto the sunlit mountain trail.",
+      "prose_hi": "Ha-jun barfile pani ki girti chadron ko alag karta hai, suraj ki roshni wale pahadi raste par nikalta hai."
     },
     {
       "id": "p27",
@@ -374,7 +426,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae freezes with van keys in hand, staring at Ha-Jun's sharpened jawline and glowing dual-ringed eyes.",
+      "prose_hi": "Min-je haath mein van ki chabiyan lekar thithak jata hai aur ha-jun ki nukili jabde ki rekha aur chamakti dohri ring wali aankhon ko dekhta rahata hai."
     },
     {
       "id": "p28",
@@ -396,7 +450,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun pulls the black hood over his silver-tipped black fringe, his dual eyes glowing in the shadow.",
+      "prose_hi": "Ha-jun ne apni chandi ki nok wali kali fringe ke upar kala hud khincha hai, uski dohri aankhen chhaya mein chamak rahi han."
     },
     {
       "id": "p29",
@@ -405,7 +461,9 @@
       "characters": [],
       "action": "Far over the Seoul skyline, three stealth attack helicopters bearing the Hunter Bureau eagle emblem approach.",
       "mood": "the hunt escalates",
-      "sfx": "THWIP-THWIP-THWIP..."
+      "sfx": "THWIP-THWIP-THWIP...",
+      "prose_en": "Far over the Seoul skyline, three stealth attack helicopters bearing the Hunter Bureau eagle emblem approach.",
+      "prose_hi": "Siyol kshitij ke bahut dur, hunter bureau eagle prateek drishtikon wale teen gupt hamle wale helecopter."
     },
     {
       "id": "p30",
@@ -427,7 +485,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Standing on the granite precipice overlooking Seoul, Ha-Jun and Kuro stare fearlessly at the incoming armada.",
+      "prose_hi": "Siyol ki or dekhne wali granite chattan par khade hokar, ha-jun aur kuro aane wale armada ko nidarta se ghurte han."
     }
   ]
 }

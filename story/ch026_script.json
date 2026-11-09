@@ -15,7 +15,9 @@
       ],
       "action": "Two remaining ghouls crawl along opposite walls, their jagged fangs dripping acidic venom onto the floor.",
       "mood": "tense encirclement",
-      "sfx": "DRIP... SIZZLE..."
+      "sfx": "DRIP... SIZZLE...",
+      "prose_en": "Two remaining ghouls crawl along opposite walls, their jagged fangs dripping acidic venom onto the floor.",
+      "prose_hi": "Bache hue do pishaach vipreet diwaron par rengte han, unke dantedar daant farsh par amleey jahar tapkate han."
     },
     {
       "id": "p02",
@@ -26,7 +28,9 @@
       ],
       "action": "Ha-Jun runs his ring finger along his open palm, summoning a ribbon of glowing crimson blood.",
       "mood": "weapon formulation",
-      "sfx": "SHHH..."
+      "sfx": "SHHH...",
+      "prose_en": "Ha-Jun runs his ring finger along his open palm, summoning a ribbon of glowing crimson blood.",
+      "prose_hi": "Ha-jun apni anamika ko apni khuli hatheli par firata hai, aur chamakte lal rakt ke ribbon ko bulata hai."
     },
     {
       "id": "p03",
@@ -37,7 +41,9 @@
       ],
       "action": "The stream of blood swirls in an elegant vortex around his right forearm, thickening and hardening.",
       "mood": "magical condensation",
-      "sfx": "WHIRRRR..."
+      "sfx": "WHIRRRR...",
+      "prose_en": "The stream of blood swirls in an elegant vortex around his right forearm, thickening and hardening.",
+      "prose_hi": "Rakt ki dhara uski dahini baanh ke charon or ek sundar bhanwar mein ghumti hai, moti aur sakht hoti ja rahi hai."
     },
     {
       "id": "p04",
@@ -46,7 +52,9 @@
       "characters": [],
       "action": "The fluid crystallizes with a glass-like chime, forming a 40-inch single-edged katana with dark crimson fuller.",
       "mood": "blade forged",
-      "sfx": "CHIME-SHING!!"
+      "sfx": "CHIME-SHING!!",
+      "prose_en": "The fluid crystallizes with a glass-like chime, forming a 40-inch single-edged katana with dark crimson fuller.",
+      "prose_hi": "Taral padarth kaanch jaisi jhankar ke saath cristlikrit ho jata hai, jisse gahre lal rang ke fuller ke saath 40 inch ka ekal-kinare wala katana banta hai."
     },
     {
       "id": "p05",
@@ -67,7 +75,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's fingers wrap around the crimson hilt, violet lightning crackling down the length of the red blade.",
+      "prose_hi": "Ha-jun ki ungaliyan lal rang ki mooth ke charon or lipati hui han, lal blade ki lambai ke neeche baingani bijli chamak rahi hai."
     },
     {
       "id": "p06",
@@ -88,7 +98,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro flutters his wings in dark satisfaction: 'The Sanguine Fang... Sovereign ki pehli talwar!'.",
+      "prose_hi": "Kuro andhere santushti mein apne pankh fadfadata hai: 'd senguin fang... sovereign ki pehli talwar!'."
     },
     {
       "id": "p07",
@@ -97,7 +109,9 @@
       "characters": [],
       "action": "The second ghoul kicks off a wooden bookcase, jaw unhinging to bite off Ha-Jun's head.",
       "mood": "airborne assault",
-      "sfx": "ROARRR!!"
+      "sfx": "ROARRR!!",
+      "prose_en": "The second ghoul kicks off a wooden bookcase, jaw unhinging to bite off Ha-Jun's head.",
+      "prose_hi": "Dusra pishaach lakdi ki kitabon ki almari ko laat maarta hai, uska jabda ha-jun ke sir ko kaatne ke liye khula rahata hai."
     },
     {
       "id": "p08",
@@ -108,7 +122,9 @@
       ],
       "action": "Ha-Jun pivots smoothly on his left heel, the monster's teeth snapping mere millimeters past his face.",
       "mood": "evasive master",
-      "sfx": "SWOOSH!"
+      "sfx": "SWOOSH!",
+      "prose_en": "Ha-Jun pivots smoothly on his left heel, the monster's teeth snapping mere millimeters past his face.",
+      "prose_hi": "Ha-jun apni bayin edi par aasani se ghumta hai, rakshas ke daant uske chehre se matra millimeter door tak tutate han."
     },
     {
       "id": "p09",
@@ -119,7 +135,9 @@
       ],
       "action": "Ha-Jun executes a lightning-fast horizontal reverse slash, leaving a luminous red crescent arc in the air.",
       "mood": "lethal strike",
-      "sfx": "SLASHHH!!"
+      "sfx": "SLASHHH!!",
+      "prose_en": "Ha-Jun executes a lightning-fast horizontal reverse slash, leaving a luminous red crescent arc in the air.",
+      "prose_hi": "Ha-jun bijli ki teji se kshaitij reverse slash nishpadit karta hai, jisse hawa mein ek chamakdar lal ardhchandrakar chaap nikalta hai."
     },
     {
       "id": "p10",
@@ -128,7 +146,9 @@
       "characters": [],
       "action": "The ghoul's torso is cleanly sliced into two halves, dissolving into black ash before hitting the ground.",
       "mood": "instant disintegration",
-      "sfx": "POOF-SIZZLE!"
+      "sfx": "POOF-SIZZLE!",
+      "prose_en": "The ghoul's torso is cleanly sliced into two halves, dissolving into black ash before hitting the ground.",
+      "prose_hi": "Bhut ke dhad ko safai se do hisson mein kata jata hai, jo jameen se takraane se pehle kali raakh mein ghul jata hai."
     },
     {
       "id": "p11",
@@ -137,7 +157,9 @@
       "characters": [],
       "action": "Seeing its packmate obliterated in one strike, the third ghoul turns and frantically scrambles toward the hatch.",
       "mood": "panicked retreat",
-      "sfx": "SKRRR..."
+      "sfx": "SKRRR...",
+      "prose_en": "Seeing its packmate obliterated in one strike, the third ghoul turns and frantically scrambles toward the hatch.",
+      "prose_hi": "Apne packmet ko ek hi war mein nasht hote dekh, teesra ghol mudta hai aur hatch ki or bhagta hai."
     },
     {
       "id": "p12",
@@ -158,7 +180,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's crimson pupils dilate: 'Bhaagne nahi doonga.'.",
+      "prose_hi": "Ha-jun ki lal putliyan failti han: 'bhagne nahin dunga.'"
     },
     {
       "id": "p13",
@@ -169,7 +193,9 @@
       ],
       "action": "Ha-Jun shifts into an athletic javelin stance, the blood katana vibrating with concentrated mana.",
       "mood": "ranged prep",
-      "sfx": "HMMM..."
+      "sfx": "HMMM...",
+      "prose_en": "Ha-Jun shifts into an athletic javelin stance, the blood katana vibrating with concentrated mana.",
+      "prose_hi": "Ha-jun ek athletic bhala rukh mein badal jata hai, rakt katana kendrit man ke saath kampan karta hai."
     },
     {
       "id": "p14",
@@ -178,7 +204,9 @@
       "characters": [],
       "action": "The blood blade launches through the air like a scarlet railgun beam, breaking the sound barrier.",
       "mood": "supersonic projectile",
-      "sfx": "BOOOOM-SHING!!"
+      "sfx": "BOOOOM-SHING!!",
+      "prose_en": "The blood blade launches through the air like a scarlet railgun beam, breaking the sound barrier.",
+      "prose_hi": "Rakt blade scarlet railgan beam ki tarah hawa mein launch hota hai, jo dhwani avrodh ko todta hai."
     },
     {
       "id": "p15",
@@ -187,7 +215,9 @@
       "characters": [],
       "action": "The blade impales the ghoul directly through the spine, pinning it three feet off the ground against the steel door.",
       "mood": "pinned dead",
-      "sfx": "THUDDD!!"
+      "sfx": "THUDDD!!",
+      "prose_en": "The blade impales the ghoul directly through the spine, pinning it three feet off the ground against the steel door.",
+      "prose_hi": "Bled ghol ko sidhe reedh ki haddi ke madhyam se chhedata hai, aur ise steel ke darvaje ke khilaf jameen se teen feet upar pin karta hai."
     },
     {
       "id": "p16",
@@ -196,7 +226,9 @@
       "characters": [],
       "action": "The pinned demon disintegrates into black smoke and violet sparks, leaving only the embedded crimson blade.",
       "mood": "ash dispersal",
-      "sfx": "FZZZT..."
+      "sfx": "FZZZT...",
+      "prose_en": "The pinned demon disintegrates into black smoke and violet sparks, leaving only the embedded crimson blade.",
+      "prose_hi": "Pin kiya hua danav kale dhuen aur baingani chingari mein vighatit ho jata hai, keval embedded crimson blade bachta hai."
     },
     {
       "id": "p17",
@@ -205,7 +237,9 @@
       "characters": [],
       "action": "The crystalline katana dissolves back into a stream of pure crimson liquid, flowing through the air.",
       "mood": "fluid recall",
-      "sfx": "GLIDE..."
+      "sfx": "GLIDE...",
+      "prose_en": "The crystalline katana dissolves back into a stream of pure crimson liquid, flowing through the air.",
+      "prose_hi": "Cristliy katana hawa mein bahte hue shuddh lal rang ke taral ki ek dhara mein wapas ghul jata hai."
     },
     {
       "id": "p18",
@@ -227,7 +261,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "The crimson stream spirals back into the Ring of Hollow Blood on Ha-Jun's finger, reabsorbing completely.",
+      "prose_hi": "Lal rang ki dhara puri tarah se pun: avshoshit hokar, ha-jun ki ungli par khokhale rakt ki anguthi mein wapas sarpil ho jaati hai."
     },
     {
       "id": "p19",
@@ -248,7 +284,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro glides down onto the pedestal: 'Khoon barbad nahi hota jab tak tum conscious ho.'.",
+      "prose_hi": "Kuro kursi par fisalta hai: 'khun barbaad nahin hota jab tak tum sachet ho.'"
     },
     {
       "id": "p20",
@@ -269,7 +307,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun flexes his fingers, feeling the thrill of combat power for the first time in his life.",
+      "prose_hi": "Ha-jun ne apne jeevan mein pehli baar yudh shakti ka romanch mahsoos karte hue apni ungaliyan modi."
     },
     {
       "id": "p21",
@@ -280,7 +320,9 @@
       ],
       "action": "A violent psychic flash hits Ha-Jun's mind: an ancient battlefield covered in millions of crimson swords.",
       "mood": "ancestral vision",
-      "sfx": "FLASH!!"
+      "sfx": "FLASH!!",
+      "prose_en": "A violent psychic flash hits Ha-Jun's mind: an ancient battlefield covered in millions of crimson swords.",
+      "prose_hi": "Ek hinsak mansik flash ha-jun ke dimag mein aata hai: ek prachin yuddhkshetra jo lakhon lal rang ki talwaron se dhaka hua hai."
     },
     {
       "id": "p22",
@@ -288,7 +330,9 @@
       "setting": "mindscape abstract",
       "characters": [],
       "action": "A titanic shadowy king with four demonic horns sits on an iron throne made of a thousand blood blades.",
-      "mood": "the first sovereign"
+      "mood": "the first sovereign",
+      "prose_en": "A titanic shadowy king with four demonic horns sits on an iron throne made of a thousand blood blades.",
+      "prose_hi": "Char rakshasi seengon wala ek titanic chhayadar raja ek hajar rakt blade se bane lohe ke sinhasan par baithta hai."
     },
     {
       "id": "p23",
@@ -306,7 +350,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Deep thunderous voice resonating: 'My blood still cuts... my wrath still breathes.'.",
+      "prose_hi": "Gahri gadgdahat ki awaz gunjati hai: 'mera khoon abhi bhi katata hai... mera krodh abhi bhi saans leta hai.'"
     },
     {
       "id": "p24",
@@ -317,7 +363,9 @@
       ],
       "action": "Ha-Jun stumbles backward, blinking rapidly as the dark vision shatters like stained glass.",
       "mood": "vision aftershock",
-      "sfx": "GASP!"
+      "sfx": "GASP!",
+      "prose_en": "Ha-Jun stumbles backward, blinking rapidly as the dark vision shatters like stained glass.",
+      "prose_hi": "Ha-jun peeche ki or ladkhadata hai aur teji se apni palkein jhapkata hai kyonki andhera drishya rangeen kaanch ki tarah bikhar jata hai."
     },
     {
       "id": "p25",
@@ -337,7 +385,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "From Ha-Jun's belt, Min-Jae's urgent voice crackles over the handheld radio.",
+      "prose_hi": "Ha-jun ki belt se, min-je ki jaruri awaz haath mein liye radio par gunjati hai."
     },
     {
       "id": "p26",
@@ -358,7 +408,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun brings the radio to his lips: 'Main Relic le chuka hoon. Rasta batao.'.",
+      "prose_hi": "Ha-jun radio ko apne hothon par lata hai: 'main avashesh le chuka hun. rasta batao.'."
     },
     {
       "id": "p27",
@@ -378,7 +430,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae types frantically on his laptop in a parked delivery van outside, monitoring radar pings.",
+      "prose_hi": "Min-je bahar khadi delivery van mein apne laptop par radar ping ki nigrani karte hue, unmattata se type karta hai."
     },
     {
       "id": "p28",
@@ -389,7 +443,9 @@
       ],
       "action": "Ha-Jun springs off an antique desk, kicking upward through the open ceiling ventilation shaft.",
       "mood": "swift departure",
-      "sfx": "WHOOSH!"
+      "sfx": "WHOOSH!",
+      "prose_en": "Ha-Jun springs off an antique desk, kicking upward through the open ceiling ventilation shaft.",
+      "prose_hi": "Ha-jun ek prachin desk se bahar nikalta hai, khuli chhat ke ventilation shaft ke madhyam se upar ki or badhta hai."
     },
     {
       "id": "p29",
@@ -399,7 +455,9 @@
         "kuro"
       ],
       "action": "Kuro follows close behind in a streak of purple smoke, chuckling softly.",
-      "mood": "shadow flight"
+      "mood": "shadow flight",
+      "prose_en": "Kuro follows close behind in a streak of purple smoke, chuckling softly.",
+      "prose_hi": "Kuro baingani dhuyen ki ek lakeer mein dhire-dhire hanste hue peeche aata hai."
     },
     {
       "id": "p30",
@@ -420,7 +478,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun bursts onto the rainy Seoul rooftop, city neon lights reflecting in his dual-ringed crimson eyes.",
+      "prose_hi": "Ha-jun seoul ki barsati chhat par aa gaya, shahar ki nean roshni uski dohri ring wali lal rang ki aankhon mein pratibimbit ho rahi thi."
     }
   ]
 }

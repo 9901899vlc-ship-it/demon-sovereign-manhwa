@@ -13,7 +13,9 @@
       "characters": [],
       "action": "A titanic 15,000-foot volcanic peak of black obsidian crystal towering above the Abyssal clouds.",
       "mood": "mount obsidian majesty",
-      "sfx": "WIND ROAR..."
+      "sfx": "WIND ROAR...",
+      "prose_en": "A titanic 15,000-foot volcanic peak of black obsidian crystal towering above the Abyssal clouds.",
+      "prose_hi": "Kale obsidian crystal ka ek titanic 15,000 foot ka jwalamukhi shikhar, jo abisal baadalon ke upar uncha hai."
     },
     {
       "id": "p02",
@@ -21,7 +23,9 @@
       "setting": "mountain slope",
       "characters": [],
       "action": "Ten thousand floating stone steps spiral up the sheer cliffs toward the cloud-piercing summit.",
-      "mood": "the stairway of monarchs"
+      "mood": "the stairway of monarchs",
+      "prose_en": "Ten thousand floating stone steps spiral up the sheer cliffs toward the cloud-piercing summit.",
+      "prose_hi": "Das hajar tairti hui patthar ki sidhiyan khadi chattanon se baadalon ko bhedne wale shikhar ki or badhti han."
     },
     {
       "id": "p03",
@@ -32,7 +36,9 @@
       ],
       "action": "Ha-Jun glides to a smooth landing on the first massive obsidian step, folding his shadow wings.",
       "mood": "arrival at mountain base",
-      "sfx": "TOUCHDOWN..."
+      "sfx": "TOUCHDOWN...",
+      "prose_en": "Ha-Jun glides to a smooth landing on the first massive obsidian step, folding his shadow wings.",
+      "prose_hi": "Ha-jun apne chhaya pankhon ko modate hue, pehle vishal obsidian kadam par aasani se utarne ke liye glide karta hai."
     },
     {
       "id": "p04",
@@ -51,7 +57,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun's color is fully restored, standing tall in dark traveling cloaks beside Ha-Jun.",
+      "prose_hi": "Taaye-jun ka rang puri tarah se bahaal ho gaya hai, wah ha-jun ke bagal mein gahre yatra wale labadon mein lamba khada hai."
     },
     {
       "id": "p05",
@@ -60,7 +68,9 @@
       "characters": [],
       "action": "A glowing violet gravitational pressure barrier tests the travelers' lineage.",
       "mood": "lineage barrier",
-      "sfx": "HUMMM..."
+      "sfx": "HUMMM...",
+      "prose_en": "A glowing violet gravitational pressure barrier tests the travelers' lineage.",
+      "prose_hi": "Ek chamakta hua baingani gurutvakarshan dabav avrodhak yatriyon ki vanshavali ka parikshan karta hai."
     },
     {
       "id": "p06",
@@ -81,7 +91,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Feather, Ring, Bone, Heart, Fang, and Chains ignite in unison; the barrier parts like curtains of light.",
+      "prose_hi": "Pankh, anguthi, haddi, hridy, dant aur janjeeren ek swar mein prajvalit hoti han; avrodhak bhag prakash ke pardon ke samaan han."
     },
     {
       "id": "p07",
@@ -102,7 +114,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro wipes a lone tear from his eye: 'Hazaaron saal ho gaye... Maine yeh gates khulte nahi dekhe the.'.",
+      "prose_hi": "Kuro apni aankh se ek akela aansu ponchta hai: 'hajaron saal ho gaye... maine yeh gate khulte nahin dekhe the.'"
     },
     {
       "id": "p08",
@@ -124,7 +138,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun gently strokes Kuro's feathered head: 'Tumhare bina main yahan tak kabhi nahi pahunch pata, Kuro.'.",
+      "prose_hi": "Ha-jun dheere se kuro ke pankh wale sir par haath ferta hai: 'tumhare bina main yahan tak ​​kabhi nahin pahunch pata, kuro.'"
     },
     {
       "id": "p09",
@@ -135,7 +151,9 @@
       ],
       "action": "Kuro huffs playfully: 'D-Don't get sentimental! We still have a Crown to claim!'",
       "mood": "comical modesty",
-      "sfx": "TSUN-TSUN..."
+      "sfx": "TSUN-TSUN...",
+      "prose_en": "Kuro huffs playfully: 'D-Don't get sentimental! We still have a Crown to claim!'.",
+      "prose_hi": "Kuro chanchalta se chillata hai: 'd-bhawook mat bano! hamare paas abhi bhi dawa karne ke liye ek taj hai!'"
     },
     {
       "id": "p10",
@@ -155,7 +173,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Demon Lord Malgath dons his colossal 20-foot spiked armor, raising an iron war banner.",
+      "prose_hi": "Danav lord malgath ne apna vishal 20 foot ka nukila kavach pahan rakha hai aur lohe ka yudh dhvaj lahra raha hai."
     },
     {
       "id": "p11",
@@ -164,7 +184,9 @@
       "characters": [],
       "action": "A terrifying army of 300,000 armored demon soldiers marching across the burning plains with siege towers.",
       "mood": "planetary army",
-      "sfx": "MARCH... MARCH..."
+      "sfx": "MARCH... MARCH...",
+      "prose_en": "A terrifying army of 300,000 armored demon soldiers marching across the burning plains with siege towers.",
+      "prose_hi": "300,000 bakhtarband rakshas sainikon ki ek bhayanak sena gherabandi toweron ke saath jalte maidanon mein march kar rahi hai."
     },
     {
       "id": "p12",
@@ -173,7 +195,9 @@
       "characters": [],
       "action": "Lord Valac weaves a colossal dark eclipse spell, cloaking 100,000 shadow wraiths in invisibility.",
       "mood": "shadow army ready",
-      "sfx": "WHISPERING DARK..."
+      "sfx": "WHISPERING DARK...",
+      "prose_en": "Lord Valac weaves a colossal dark eclipse spell, cloaking 100,000 shadow wraiths in invisibility.",
+      "prose_hi": "Lord valack ek vishal andhere grahan ka jadu bunata hai, jisse 100,000 chhaya ke aavaran adrishya ho jaate han."
     },
     {
       "id": "p13",
@@ -182,7 +206,9 @@
       "characters": [],
       "action": "Queen Lilith tears open fifty dimensional portals toward Earth and Mount Obsidian simultaneously.",
       "mood": "portal war prep",
-      "sfx": "VOID RIFTS ROAR!!"
+      "sfx": "VOID RIFTS ROAR!!",
+      "prose_en": "Queen Lilith tears open fifty dimensional portals toward Earth and Mount Obsidian simultaneously.",
+      "prose_hi": "Rani lilith ek saath prithvi aur mount obsidian ki or pachas aayami portal kholti hai."
     },
     {
       "id": "p14",
@@ -200,7 +226,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "The sky turns pitch-black as three million demonic soldiers converge on Mount Obsidian from three directions.",
+      "prose_hi": "Jaise hi teen million rakshasi sainik teen dishaon se mount obsidian par ekatrit hote han, aakash ekdum kala ho jata hai."
     },
     {
       "id": "p15",
@@ -210,7 +238,9 @@
         "hajun"
       ],
       "action": "From high on the staircase, Ha-Jun watches the three colossal armies marching across the horizon.",
-      "mood": "watching the armada"
+      "mood": "watching the armada",
+      "prose_en": "From high on the staircase, Ha-Jun watches the three colossal armies marching across the horizon.",
+      "prose_hi": "Sidhiyon par upar se, ha-jun teen vishal senaon ko kshitij ke paar march karte hue dekhta hai."
     },
     {
       "id": "p16",
@@ -229,7 +259,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun crosses his arms: 'Woh teenon aa rahe hain, Ha-Jun. Poori army ke saath.'.",
+      "prose_hi": "Taaye-jun ne apni bahen paar kin: 'vo teenan aa rahe han, ha-jun. puri sena ke sath.'"
     },
     {
       "id": "p17",
@@ -240,7 +272,9 @@
       ],
       "action": "Ha-Jun turns toward the summit without a single drop of fear: 'Toh chaliye pehle Crown le aate hain.'",
       "mood": "focused determination",
-      "sfx": "STEP UP..."
+      "sfx": "STEP UP...",
+      "prose_en": "Ha-Jun turns toward the summit without a single drop of fear: 'Toh chaliye pehle Crown le aate hain.'.",
+      "prose_hi": "Ha-jun bina kisi dar ke shikhar ki or mudta hai: 'to chaliye pehle crown le aate han.'"
     },
     {
       "id": "p18",
@@ -251,7 +285,9 @@
       ],
       "action": "The brothers break through the violet cloud layer, stepping into blinding golden celestial light.",
       "mood": "celestial summit",
-      "sfx": "SUNBURST..."
+      "sfx": "SUNBURST...",
+      "prose_en": "The brothers break through the violet cloud layer, stepping into blinding golden celestial light.",
+      "prose_hi": "Bhai baingani badal ki parat ko todte hue, chakachaundh kar dene wali sunhari akashiya roshni mein kadam rakhte han."
     },
     {
       "id": "p19",
@@ -259,7 +295,9 @@
       "setting": "summit plateau wide",
       "characters": [],
       "action": "An immense circular plateau of pure white diamond marble, surrounded by twelve shattered stone thrones.",
-      "mood": "the sanctuary of thrones"
+      "mood": "the sanctuary of thrones",
+      "prose_en": "An immense circular plateau of pure white diamond marble, surrounded by twelve shattered stone thrones.",
+      "prose_hi": "Shuddh safed heere sangmarmar ka ek vishal golakar pathar, jo barah toote hue patthar ke sinhasanon se ghira hua hai."
     },
     {
       "id": "p20",
@@ -268,7 +306,9 @@
       "characters": [],
       "action": "In the center towers a 40-foot throne carved from solid midnight star-matter, glowing with eternal violet flame.",
       "mood": "the sovereign throne",
-      "sfx": "MAJESTIC PULSE..."
+      "sfx": "MAJESTIC PULSE...",
+      "prose_en": "In the center towers a 40-foot throne carved from solid midnight star-matter, glowing with eternal violet flame.",
+      "prose_hi": "Kendra mein ek 40 foot ka sinhasan hai jo thos madhyaratri taara-padarth se bana hai, jo shashwat baingani lau se chamak raha hai."
     },
     {
       "id": "p21",
@@ -287,7 +327,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Suspended above the throne seat: an ornate gothic crown of obsidian and blood-ruby, radiating absolute monarch aura.",
+      "prose_hi": "Sinhasan ki seat ke upar nilambit: obsidian aur rakt-manik ka ek alankrit gothic mukut, jo purna samrat aabha bikherta hai."
     },
     {
       "id": "p22",
@@ -298,7 +340,9 @@
       ],
       "action": "Ha-Jun approaches the foot of the throne; his footsteps ring like cathedral chimes across the marble.",
       "mood": "approaching the crown",
-      "sfx": "CHIME... CHIME..."
+      "sfx": "CHIME... CHIME...",
+      "prose_en": "Ha-Jun approaches the foot of the throne; his footsteps ring like cathedral chimes across the marble.",
+      "prose_hi": "Ha-jun sinhasan ke neeche pahunchta hai; uske kadmon ki aahat sangmarmar ke paar girjaghar ki jhankar ki tarah bajti hai."
     },
     {
       "id": "p23",
@@ -308,7 +352,9 @@
         "kuro"
       ],
       "action": "Tae-Jun and Kuro stop at the edge, watching the historical coronation with sacred silence.",
-      "mood": "sacred witness"
+      "mood": "sacred witness",
+      "prose_en": "Tae-Jun and Kuro stop at the edge, watching the historical coronation with sacred silence.",
+      "prose_hi": "Taaye-jun aur kuro kinare par rukte hain aur pavitra maun ke saath aitihasik rajyabhishek dekhte han."
     },
     {
       "id": "p24",
@@ -319,7 +365,9 @@
       ],
       "action": "One step at a time, Ha-Jun ascends: 1, 2, 3... 7.",
       "mood": "the ascent of the king",
-      "sfx": "STEP... STEP..."
+      "sfx": "STEP... STEP...",
+      "prose_en": "One step at a time, Ha-Jun ascends: 1, 2, 3... 7.",
+      "prose_hi": "Ek samay mein ek kadam, ha-jun chadhta hai: 1, 2, 3... 7."
     },
     {
       "id": "p25",
@@ -329,7 +377,9 @@
         "hajun"
       ],
       "action": "Ha-Jun stands face-to-face with the crown; his reflection in the central ruby shows the First Sovereign's silhouette.",
-      "mood": "mirror of destiny"
+      "mood": "mirror of destiny",
+      "prose_en": "Ha-Jun stands face-to-face with the crown; his reflection in the central ruby shows the First Sovereign's silhouette.",
+      "prose_hi": "Ha-jun taj ke saath aamne-samne khada hai; kendriya manik mein unka pratibimb pratham samprabhu ke silhut ko darshata hai."
     },
     {
       "id": "p26",
@@ -349,7 +399,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "A thunderous primordial voice echoes in Ha-Jun's soul: 'WHO DARES CLAIM THE CROWN OF ASMODAIUS?!'.",
+      "prose_hi": "Ha-jun ki aatma mein ek gadgdati maulik awaz goonjati hai: 'asamodice ke taj par dawa karne ki himmat kaun karta hai?!'."
     },
     {
       "id": "p27",
@@ -370,7 +422,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun raises both hands toward the crown, his voice steady as eternity: 'Main Ha-Jun Kang hoon.'.",
+      "prose_hi": "Ha-jun donon haath mukut ki or uthata hai, uski awaz anant kaal ki tarah sthir hai: 'main ha-jun kang hun.'"
     },
     {
       "id": "p28",
@@ -381,7 +435,9 @@
       ],
       "action": "Ha-Jun places the obsidian-and-ruby Crown of the Sovereign firmly onto his brow.",
       "mood": "the coronation",
-      "sfx": "CROWN PLACED!!"
+      "sfx": "CROWN PLACED!!",
+      "prose_en": "Ha-Jun places the obsidian-and-ruby Crown of the Sovereign firmly onto his brow.",
+      "prose_hi": "Ha-jun sovereign ke obseedian-aur-rubi crown ko majbuti se apni bhaunh par rakhta hai."
     },
     {
       "id": "p29",
@@ -392,7 +448,9 @@
       ],
       "action": "A ten-mile-wide pillar of golden-violet celestial mana erupts from the summit, tearing through the cosmos.",
       "mood": "pillar of the king",
-      "sfx": "BOOOOOOOOOMMMMM!!"
+      "sfx": "BOOOOOOOOOMMMMM!!",
+      "prose_en": "A ten-mile-wide pillar of golden-violet celestial mana erupts from the summit, tearing through the cosmos.",
+      "prose_hi": "Sunahre-bangni akashiya man ka das meal chauda stambh brahmand ko chirate hue shikhar se futata hai."
     },
     {
       "id": "p30",
@@ -412,7 +470,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Sitting tall upon the Sovereign's Throne, crowned in obsidian ruby, eyes burning with absolute rule: Arc 5 concluded.",
+      "prose_hi": "Samprabhu ke sinhasan par uncha baitha hua, obsidian manik se susajjit, purna niyam se jalti hui aankhen: arc 5 ka samapan hua."
     }
   ]
 }

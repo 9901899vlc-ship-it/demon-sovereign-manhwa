@@ -13,7 +13,9 @@
       "characters": [],
       "action": "From orbit, Earth looks ensnared in a web of bleeding red cracks; smoke plumes rise from sixty world capitals.",
       "mood": "planetary invasion",
-      "sfx": "PLANETARY BLEED..."
+      "sfx": "PLANETARY BLEED...",
+      "prose_en": "From orbit, Earth looks ensnared in a web of bleeding red cracks; smoke plumes rise from sixty world capitals.",
+      "prose_hi": "Kaksha se, prithvi khoon bahane wali lal daraaron ke jaal mein fansi hui dikhti hai; vishwa ki saath rajdhaniyon se dhuen ka gubar uthta hai."
     },
     {
       "id": "p02",
@@ -33,7 +35,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "In the thin blue air 50,000 feet up, Kang Tae-Jun slices through fifty flying void hydras with his bronze claymore.",
+      "prose_hi": "50,000 feet upar patli neeli hawa men, kang taaye-jun apne kansya clamor ke saath pachas udne wale shunya hydra ko kaatata hai."
     },
     {
       "id": "p03",
@@ -42,7 +46,9 @@
       "characters": [],
       "action": "Twelve advanced supersonic fighter jets streak past, firing anti-matter missiles into the beast swarm.",
       "mood": "human air support",
-      "sfx": "ROAR-AFTERBURNER!!"
+      "sfx": "ROAR-AFTERBURNER!!",
+      "prose_en": "Twelve advanced supersonic fighter jets streak past, firing anti-matter missiles into the beast swarm.",
+      "prose_hi": "Barah unnat supersonic ladaku jet janvaron ke jhund par anti-mater missilen daagte hue aage badhte han."
     },
     {
       "id": "p04",
@@ -61,7 +67,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Beneath the clouds, the two-mile dreadnought charges its ventral cannon—a 100-meter barrel glowing with green atomic fire.",
+      "prose_hi": "Badalon ke niche, do meal ka drednot apni udar top ko charge karta hai - hare parmanu aag se chamakti 100 meter ki bairal."
     },
     {
       "id": "p05",
@@ -83,7 +91,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun hovers weightlessly in front of the colossal glowing barrel, his dark hair whipping in the ionized plasma winds.",
+      "prose_hi": "Ha-jun vishal chamakdar barrel ke samne bharahin roop se mandarata hai, uske kale bal aaynit plasma hawaon mein lahra rahe han."
     },
     {
       "id": "p06",
@@ -106,7 +116,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro screeches: 'The dreadnought core is protected by an SSS-rank Void Barrier! You need spatial severance!'.",
+      "prose_hi": "Kuro chillata hai: 'khunkhar core ek sss-rank shunya barrier dwara sanrakshit hai! aapko sthanik prithakkaran ki aavashyakta hai!'"
     },
     {
       "id": "p07",
@@ -117,7 +129,9 @@
       ],
       "action": "The Fang of Abyss materializes—a jagged dagger of pure obsidian void-glass that warps the air around its edge.",
       "mood": "relic manifested",
-      "sfx": "SPATIAL DISTORTION..."
+      "sfx": "SPATIAL DISTORTION...",
+      "prose_en": "The Fang of Abyss materializes—a jagged dagger of pure obsidian void-glass that warps the air around its edge.",
+      "prose_hi": "D fang off abis moort roop leta hai - shuddh obsidian shunya-glas ka ek dantedar khanjar jo iske kinare ke charon or hawa ko ghumata hai."
     },
     {
       "id": "p08",
@@ -138,7 +152,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun combines both blades; the Sanguine Fang's blade elongates into a terrifying seven-foot void-katana.",
+      "prose_hi": "Ha-jun donon bledon ko jodta hai; senguin fang ka blade ek bhayanak saat foot ke shunya-katana mein badh jata hai."
     },
     {
       "id": "p09",
@@ -147,7 +163,9 @@
       "characters": [],
       "action": "A blinding green atomic beam fifty meters wide erupts from the barrel, incinerating clouds in its path toward Saint Mirren.",
       "mood": "destructive eruption",
-      "sfx": "KABOOOOOOOM-BEAM!!"
+      "sfx": "KABOOOOOOOM-BEAM!!",
+      "prose_en": "A blinding green atomic beam fifty meters wide erupts from the barrel, incinerating clouds in its path toward Saint Mirren.",
+      "prose_hi": "Bairal se pachas meter chaudi ek chakachaundh hari parmanu kiran footati hai, jo sent miren ki or apne raste mein aane wale baadalon ko bhasm kar deti hai."
     },
     {
       "id": "p10",
@@ -169,7 +187,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun meets the million-degree beam with a single, upward diagonal slash of his seven-foot blade.",
+      "prose_hi": "Ha-jun apne saat foot ke blade ke ek ekal, upar ki or vikarna slash ke saath milion-degri beam se milta hai."
     },
     {
       "id": "p11",
@@ -180,7 +200,9 @@
       ],
       "action": "The massive green energy beam is cleanly bisected down the center, parting harmlessly around Ha-Jun into the upper clouds.",
       "mood": "energy parted",
-      "sfx": "PART-HISS!!"
+      "sfx": "PART-HISS!!",
+      "prose_en": "The massive green energy beam is cleanly bisected down the center, parting harmlessly around Ha-Jun into the upper clouds.",
+      "prose_hi": "Vishal harit urja kiran saf-suthri roop se kendra se neeche ki or vibhajit hoti hai, ha-jun ke charon or upari baadalon mein hanirahit roop se vibhajit hoti hai."
     },
     {
       "id": "p12",
@@ -191,7 +213,9 @@
       ],
       "action": "The crescent shockwave of violet starlight doesn't stop; it travels up into the very prow of the two-mile dreadnought.",
       "mood": "cleaving the warship",
-      "sfx": "DRIVE-CARVE!!"
+      "sfx": "DRIVE-CARVE!!",
+      "prose_en": "The crescent shockwave of violet starlight doesn't stop; it travels up into the very prow of the two-mile dreadnought.",
+      "prose_hi": "Bangni taron ki ardhchandrakar tarang rukti nahin hai; yah do meal khunkhar jahaz ke agle sire tak yatra karta hai."
     },
     {
       "id": "p13",
@@ -210,7 +234,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "With a deafening groan of shearing titanium armor, the colossal two-mile ship splits cleanly in two halves.",
+      "prose_hi": "Titenium kavach ko kaatne ki gaganbhedi karah ke sath, do meal ka vishal jahaj do hisson mein spasht roop se vibhajit ho jata hai."
     },
     {
       "id": "p14",
@@ -219,7 +245,9 @@
       "characters": [],
       "action": "Dozens of internal power reactors detonate inside the severed ship, creating a spectacular chain of orange fireballs.",
       "mood": "chain reaction explosions",
-      "sfx": "KABOOM-BOOM-BOOM!!"
+      "sfx": "KABOOM-BOOM-BOOM!!",
+      "prose_en": "Dozens of internal power reactors detonate inside the severed ship, creating a spectacular chain of orange fireballs.",
+      "prose_hi": "Tute hue jahaj ke andar darjanon aantarik bijli reactor visfot karte han, jisse narangi aag ke golon ki ek shandar shrinkhala ban jaati hai."
     },
     {
       "id": "p15",
@@ -230,7 +258,9 @@
       ],
       "action": "To protect the university below, Ha-Jun opens a colossal black hole vortex above the campus, swallowing all falling scrap.",
       "mood": "protecting campus",
-      "sfx": "SLURP-VOID-SWALLOW!!"
+      "sfx": "SLURP-VOID-SWALLOW!!",
+      "prose_en": "To protect the university below, Ha-Jun opens a colossal black hole vortex above the campus, swallowing all falling scrap.",
+      "prose_hi": "Niche vishwavidyalaya ki suraksha ke liye, ha-jun parisar ke upar ek vishal black hole bhanwar kholta hai, jo sabhi girte scrap ko nigal jata hai."
     },
     {
       "id": "p16",
@@ -239,7 +269,9 @@
       "characters": [],
       "action": "The courtyard remains pristine; only warm stardust and confetti-like violet embers drift onto the grass.",
       "mood": "miraculous protection",
-      "sfx": "DRIFT..."
+      "sfx": "DRIFT...",
+      "prose_en": "The courtyard remains pristine; only warm stardust and confetti-like violet embers drift onto the grass.",
+      "prose_hi": "Aangan prachin rahata hai; keval garm stardust aur comfeti jaise baingani angaare ghas par bahte han."
     },
     {
       "id": "p17",
@@ -259,7 +291,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Inside the ward, professors and students press against the glass, weeping and shouting Ha-Jun's name in joy.",
+      "prose_hi": "Vard ke ander, professor aur chhatra khushi se rote hue aur ha-jun ka naam chillate hue, kaanch ke khilaf dabate han."
     },
     {
       "id": "p18",
@@ -279,7 +313,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae slams his fist against the pane, grinning ear to ear: 'That's my best friend, you alien bastards!!'.",
+      "prose_hi": "Min-je ne falak par apni mutthi patak di aur kaan se kaan tak muskurate hue kaha: 'vah mera sabse acha dost hai, videshi kaminon!!'."
     },
     {
       "id": "p19",
@@ -290,7 +326,9 @@
       ],
       "action": "Ha-Jun floats in the clearing sky, his coat settling smoothly; a drop of sweat traces down his jawline.",
       "mood": "brief respite",
-      "sfx": "PANT..."
+      "sfx": "PANT...",
+      "prose_en": "Ha-Jun floats in the clearing sky, his coat settling smoothly; a drop of sweat traces down his jawline.",
+      "prose_hi": "Ha-jun saaf aakash mein tair raha hai, uska coat sucharu roop se vyavasthit ho raha hai; pasine ki ek boond uski jabde ki rekha se neeche girti hai."
     },
     {
       "id": "p20",
@@ -313,7 +351,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro lands on his shoulder, but his head twitches unnaturally; faint green static sparks across his feathers.",
+      "prose_hi": "Kuro uske kandhe par baithta hai, lekin uska sir aswabhavik roop se hilta hai; uske pankhon par halki hari sthaitik chingari."
     },
     {
       "id": "p21",
@@ -335,7 +375,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun looks at his familiar: 'Kuro? What's wrong? Are you hurt from the blast?'.",
+      "prose_hi": "Ha-jun apne parichit ki or dekhta hai: 'kuro? kya galat? kya aap visfot se aahat han?'"
     },
     {
       "id": "p22",
@@ -357,7 +399,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro's eyes turn from noble crimson to poisonous fluorescent green; a sharp screech escapes his beak.",
+      "prose_hi": "Kuro ki aankhen lal rang se jahrili fluorescent hari mein badal jaati han; uski chonch se ek tez cheekh nikalti hai."
     },
     {
       "id": "p23",
@@ -366,7 +410,9 @@
       "characters": [],
       "action": "High above, Emperor Nihilux blows into an ancient bone whistle carved from the first dragon's spine.",
       "mood": "the cursed frequency",
-      "sfx": "EERIE WHISTLE..."
+      "sfx": "EERIE WHISTLE...",
+      "prose_en": "High above, Emperor Nihilux blows into an ancient bone whistle carved from the first dragon's spine.",
+      "prose_hi": "Subse upar, samrat nihilax pehle dragon ki reedh se bani ek prachin haddi ki ct bajata hai."
     },
     {
       "id": "p24",
@@ -388,7 +434,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro thrashes, clutching his head with his talons as ancient void runes burn through his feather shafts.",
+      "prose_hi": "Kuro dhadkata hai, apne sir ko apne panjon se pakadta hai jaise prachin shunya run uske pankh shaft ke madhyam se jalte han."
     },
     {
       "id": "p25",
@@ -411,7 +459,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun reaches both hands out, channeling gentle sovereign healing mana toward his thrashing familiar.",
+      "prose_hi": "Ha-jun donon haath failakar komal samprabhu upchar man ko apne parichit ki or nirdeshit karta hai."
     },
     {
       "id": "p26",
@@ -423,7 +473,9 @@
       ],
       "action": "Controlled by the whistle, Kuro's diamond talons strike forward like lightning, slashing across Ha-Jun's chest.",
       "mood": "the tragic strike",
-      "sfx": "FLASH-SLASH!!"
+      "sfx": "FLASH-SLASH!!",
+      "prose_en": "Controlled by the whistle, Kuro's diamond talons strike forward like lightning, slashing across Ha-Jun's chest.",
+      "prose_hi": "Ct se niyantrit hokar, kuro ke heere ke panje bijli ki tarah ha-jun ki chhati ko paar karte hue aage badhte han."
     },
     {
       "id": "p27",
@@ -445,7 +497,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Blood sprays across the clouds; three deep claw wounds rip through Ha-Jun's chest, tearing three Relic seals away.",
+      "prose_hi": "Badalon par khoon ki bouchharen; teen gahre panje ke ghav ha-jun ki chhati ko chirate han, teen avashesh seal ko faad dete han."
     },
     {
       "id": "p28",
@@ -456,7 +510,9 @@
       ],
       "action": "The three basic relics detach from his heart, their light flickering weakly as they tumble toward the ground.",
       "mood": "relics dislodged",
-      "sfx": "TUMBLE-GLOW..."
+      "sfx": "TUMBLE-GLOW...",
+      "prose_en": "The three basic relics detach from his heart, their light flickering weakly as they tumble toward the ground.",
+      "prose_hi": "Teen mool avashesh uske hriday se alag ho gaye, jab ve jameen ki or gire to unki roshni kamjor roop se timtima rahi thi."
     },
     {
       "id": "p29",
@@ -478,7 +534,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Possessed Kuro clutches the three relics, crying tears of bloody grief as his wings carry him to Nihilux's throne.",
+      "prose_hi": "Kabje mein rakha kuro teen avsheshon ko pakadta hai, khooni dukh ke aansu rota hai kyonki uske pankh use nihilax ke sinhasan tak le jaate han."
     },
     {
       "id": "p30",
@@ -499,7 +557,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Wounded and betrayed by cosmic fate, Ha-Jun plunges from the sky toward the ruined city below!.",
+      "prose_hi": "Laukik bhagya se ghayal aur dhokha khaya hua, ha-jun aasman se neeche barbad shahar ki or girta hai!"
     }
   ]
 }

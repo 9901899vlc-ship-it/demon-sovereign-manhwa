@@ -15,7 +15,9 @@
       ],
       "action": "Massive structural fissures tear across the rotunda ceiling as the fortress foundation destabilizes.",
       "mood": "cataclysmic collapse",
-      "sfx": "CRACK-RUMBLE!!"
+      "sfx": "CRACK-RUMBLE!!",
+      "prose_en": "Massive structural fissures tear across the rotunda ceiling as the fortress foundation destabilizes.",
+      "prose_hi": "Jaise hi kile ki neenv asthir hoti hai, rotunda chhat mein bade paimane par sanrachnatmak dararen fat jaati han."
     },
     {
       "id": "p02",
@@ -34,7 +36,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Bleeding from his severed horn, Belial screams down from the crumbling balcony: 'You will never escape the Abyss!'.",
+      "prose_hi": "Apne kate hue seeng se khoon bahte hue, beleal dhahti hui balcony se neeche chillata hai: 'tum kabhi bhi rasatal se nahin bachoge!'"
     },
     {
       "id": "p03",
@@ -55,7 +59,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun tightens his grip on Tae-Jun's legs: 'Unhe aane do. Main unka bhi intezaar kar raha hoon.'.",
+      "prose_hi": "Ha-jun ne taaye-jun ke pairon par apni pakad majboot kar li: 'unhe aane do. main unka bhi intjaar kar raha hun.'"
     },
     {
       "id": "p04",
@@ -66,7 +72,9 @@
       ],
       "action": "Ha-Jun hurls the ends of the Chains of Ruin into the four primary anti-matter load-bearing pillars.",
       "mood": "anchor chains launched",
-      "sfx": "WHIP-CLANG!!"
+      "sfx": "WHIP-CLANG!!",
+      "prose_en": "Ha-Jun hurls the ends of the Chains of Ruin into the four primary anti-matter load-bearing pillars.",
+      "prose_hi": "Ha-jun ne ruin ki janjeeron ke siron ko char prathmik anti-mater lod-asar stambhon mein fenk diya."
     },
     {
       "id": "p05",
@@ -75,7 +83,9 @@
       "characters": [],
       "action": "The black gravitational chains coil around the colossal stone pillars like crushing anacondas.",
       "mood": "pillars strangled",
-      "sfx": "BIND!!"
+      "sfx": "BIND!!",
+      "prose_en": "The black gravitational chains coil around the colossal stone pillars like crushing anacondas.",
+      "prose_hi": "Vishal patthar ke khambhon ke charon or kali gurutvakarshan shrinkhalayen anaconda ko kuchalne ki tarah ghumti han."
     },
     {
       "id": "p06",
@@ -97,7 +107,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "With a roar of pure ancestral power, Ha-Jun yanks both chain links backward with all his might.",
+      "prose_hi": "Shuddh patrik shakti ki dahaad ke sath, ha-jun apni puri takat se donon chain kadiyon ko peeche ki or khinchta hai."
     },
     {
       "id": "p07",
@@ -106,7 +118,9 @@
       "characters": [],
       "action": "The four massive pillars implode into dust; the entire 500-foot fortress begins pancaking downward.",
       "mood": "fortress implosion",
-      "sfx": "BOOOOOOMMMM!!"
+      "sfx": "BOOOOOOMMMM!!",
+      "prose_en": "The four massive pillars implode into dust; the entire 500-foot fortress begins pancaking downward.",
+      "prose_hi": "Char vishal stambh dhul mein mil gaye; pura 500 foot ka kila neeche ki or dhansna shuru ho jata hai."
     },
     {
       "id": "p08",
@@ -117,7 +131,9 @@
       ],
       "action": "Ha-Jun's shadow wings beat with explosive force, rocketing straight up toward the collapsing ceiling.",
       "mood": "vertical escape",
-      "sfx": "FWOOOOOSH!!"
+      "sfx": "FWOOOOOSH!!",
+      "prose_en": "Ha-Jun's shadow wings beat with explosive force, rocketing straight up toward the collapsing ceiling.",
+      "prose_hi": "Ha-jun ke chhaya pankh visfotak shakti se takrate hue sidhe dhahti chhat ki or badhte han."
     },
     {
       "id": "p09",
@@ -128,7 +144,9 @@
       ],
       "action": "Ha-Jun swings the void dagger upward, cleanly slicing a 30-foot exit hole through the solid stone roof.",
       "mood": "cutting an exit",
-      "sfx": "SLASH-CLEAVE!!"
+      "sfx": "SLASH-CLEAVE!!",
+      "prose_en": "Ha-Jun swings the void dagger upward, cleanly slicing a 30-foot exit hole through the solid stone roof.",
+      "prose_hi": "Ha-jun shunya khanjar ko upar ki or ghumata hai, thos patthar ki chhat ke madhyam se 30 foot ke nikas chhed ko safai se kaatata hai."
     },
     {
       "id": "p10",
@@ -139,7 +157,9 @@
       ],
       "action": "Ha-Jun bursts into the starry purple sky of the Abyss just as the entire fortress beneath him collapses.",
       "mood": "freedom at last",
-      "sfx": "BURST!!"
+      "sfx": "BURST!!",
+      "prose_en": "Ha-Jun bursts into the starry purple sky of the Abyss just as the entire fortress beneath him collapses.",
+      "prose_hi": "Ha-jun rasatal ke taron bhare baingani aakash mein ud gaya, jaise hi uske neeche ka pura kila dhah gaya."
     },
     {
       "id": "p11",
@@ -148,7 +168,9 @@
       "characters": [],
       "action": "The monolithic fortress shears off the cliff, falling thousands of feet into the bottomless void below.",
       "mood": "monument destroyed",
-      "sfx": "CATACLYSMIC CRASH!!"
+      "sfx": "CATACLYSMIC CRASH!!",
+      "prose_en": "The monolithic fortress shears off the cliff, falling thousands of feet into the bottomless void below.",
+      "prose_hi": "Akhand kila chattan se katkar hajaron feet neeche athah shunya mein girta hai."
     },
     {
       "id": "p12",
@@ -167,7 +189,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Thousands of luminous green and violet soul lights rise from the ruins, floating free into the purple sky.",
+      "prose_hi": "Hajaron chamakdar hari aur baingani aatma ki roshni khandharon se nikalti hai, jo baingani aakash mein mukt roop se tairti hai."
     },
     {
       "id": "p13",
@@ -178,7 +202,9 @@
       ],
       "action": "The swirling cloud of glowing souls circles Ha-Jun like a celestial halo, bowing before flying free.",
       "mood": "blessing of the liberated",
-      "sfx": "WHISPERING THANKS..."
+      "sfx": "WHISPERING THANKS...",
+      "prose_en": "The swirling cloud of glowing souls circles Ha-Jun like a celestial halo, bowing before flying free.",
+      "prose_hi": "Chamkati aatmaon ka ghumta hua badal akashiya prabhamandal ki tarah ha-jun ke charon or chakkar lagata hai, aur mukt hokar udne se pehle jhuk jata hai."
     },
     {
       "id": "p14",
@@ -197,7 +223,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun watches the glowing souls with awe, resting his chin on Ha-Jun's shoulder.",
+      "prose_hi": "Taaye-jun chamakti aatmaon ko vismay ke saath dekhta hai, ha-jun ke kandhe par apni thuddi tikata hai."
     },
     {
       "id": "p15",
@@ -207,7 +235,9 @@
         "hajun"
       ],
       "action": "Ha-Jun smiles with quiet happiness: 'Maine jo bhi kiya... Bas aapko wapas paane ke liye kiya, Bhai.'",
-      "mood": "humble love"
+      "mood": "humble love",
+      "prose_en": "Ha-Jun smiles with quiet happiness: 'Maine jo bhi kiya... Bas aapko wapas paane ke liye kiya, Bhai.'.",
+      "prose_hi": "Ha-jun shant khushi ke saath muskurata hai: 'maine jo bhi kiya... bus aapko wapas paane ke liye liya, bhai...'."
     },
     {
       "id": "p16",
@@ -228,7 +258,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro glides playfully: 'Bohot emotional reunion ho gaya! Ab humein safe ground dhoondhna hoga!'.",
+      "prose_hi": "Kuro chanchalta se bolta hai: 'bahut bhavnatmak punarmilan ho gaya! ab hamen safe ground dhundna hoga!'."
     },
     {
       "id": "p17",
@@ -239,7 +271,9 @@
       ],
       "action": "Ha-Jun lands gently on a floating island carpeted with soft purple moss and clear freshwater springs.",
       "mood": "safe haven",
-      "sfx": "TOUCHDOWN..."
+      "sfx": "TOUCHDOWN...",
+      "prose_en": "Ha-Jun lands gently on a floating island carpeted with soft purple moss and clear freshwater springs.",
+      "prose_hi": "Ha-jun naram baingani kai aur saaf meethe pani ke jharnon se saje ek tairte dweep par dheere se utarta hai."
     },
     {
       "id": "p18",
@@ -250,7 +284,9 @@
       ],
       "action": "Ha-Jun helps his brother sit against a glowing crystalline tree trunk beside the spring.",
       "mood": "tender care",
-      "sfx": "GENTLE..."
+      "sfx": "GENTLE...",
+      "prose_en": "Ha-Jun helps his brother sit against a glowing crystalline tree trunk beside the spring.",
+      "prose_hi": "Ha-jun apne bhai ko jharne ke paas ek chamakte crystaliy ped ke tane ke samne baithne mein madad karta hai."
     },
     {
       "id": "p19",
@@ -272,7 +308,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun scoops sweet, mana-rich spring water in his hands, helping Tae-Jun drink.",
+      "prose_hi": "Ha-jun apne hathon mein mitha, mana-samriddh jharne ka pani leta hai, jisse taaye-jun ko peene mein madad milti hai."
     },
     {
       "id": "p20",
@@ -291,7 +329,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun inspects the ring, bone gauntlet, chains, and dagger: 'Chheh Relics... Tumne 6 Relics claim kar liye?'.",
+      "prose_hi": "Taaye-jun ne anguthi, haddi ka gauntlet, janjeeron aur khanjar ka nirikshan kiya: 'chhe avshesh... tumne 6 avsheshon ka dawa kar liya?'."
     },
     {
       "id": "p21",
@@ -312,7 +352,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun sits cross-legged beside him: 'Legendary Crown, Eclipse Devourer, aur Hourglass.'.",
+      "prose_hi": "Ha-jun uske bagal mein cross-legd baithta hai: 'legendari crown, aclips davoorer, aur ovarglas.'"
     },
     {
       "id": "p22",
@@ -331,7 +373,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun leans forward, his voice dropping to a grave whisper: 'Ha-Jun... Legendary Crown ke baare mein kuch janna zaroori hai.'.",
+      "prose_hi": "Taaye-jun aage ki or jhukta hai, uski awaz gambhir fusfusahat ki tarah hoti hai: 'ha-jun... legendary crown ke baare mein kuch janana jaruri hai.'"
     },
     {
       "id": "p23",
@@ -350,7 +394,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun reveals: 'Crown ko pehanne par First Sovereign ki consciousness tumhare mind mein enter karegi.'.",
+      "prose_hi": "Taaye-jun ne khulasa kiya: 'crown ko pahnoge par first sovereign ki chetna tumhare man mein pravesh karegi.'"
     },
     {
       "id": "p24",
@@ -360,7 +406,9 @@
         "kuro"
       ],
       "action": "Kuro remains silent, confirming the terrifying risk with a quiet dip of his head.",
-      "mood": "silent confirmation"
+      "mood": "silent confirmation",
+      "prose_en": "Kuro remains silent, confirming the terrifying risk with a quiet dip of his head.",
+      "prose_hi": "Kuro chup rahata hai, chupchap sir jhukakar bhayanak khatre ki pushti karta hai."
     },
     {
       "id": "p25",
@@ -381,7 +429,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun looks at his fingers, etched with scars and power: 'Main kisi ka puppet nahi banunga, Bhai.'.",
+      "prose_hi": "Ha-jun apni ungaliyon ko dekhta hai, jo nishan aur takat se bani han: 'main kisi ka kathputli nahin banunga, bhai.'"
     },
     {
       "id": "p26",
@@ -390,7 +440,9 @@
       "characters": [],
       "action": "The twin crimson moons in the sky suddenly plunge into total darkness; the purple sky turns black.",
       "mood": "the shadow descends",
-      "sfx": "DARKEN..."
+      "sfx": "DARKEN...",
+      "prose_en": "The twin crimson moons in the sky suddenly plunge into total darkness; the purple sky turns black.",
+      "prose_hi": "Aakash mein judwan lal chandrama achanak purna andhkar mein doob jaate han; baingani aakash kala ho jata hai."
     },
     {
       "id": "p27",
@@ -399,7 +451,9 @@
       "characters": [],
       "action": "Frost instantly coats the purple moss; Ha-Jun and Tae-Jun's breath turns to thick white vapor.",
       "mood": "sub-zero chill",
-      "sfx": "FREEZE..."
+      "sfx": "FREEZE...",
+      "prose_en": "Frost instantly coats the purple moss; Ha-Jun and Tae-Jun's breath turns to thick white vapor.",
+      "prose_hi": "Pala turant baingani kai ko dhak deta hai; ha-jun aur taaye-jun ki saans gaadhe safed vashp mein badal jaati hai."
     },
     {
       "id": "p28",
@@ -408,7 +462,9 @@
       "characters": [],
       "action": "In the blackened sky, three colossal phantom silhouettes—each 500 feet tall—slowly materialize.",
       "mood": "the three demon lords appear",
-      "sfx": "EERIE DRONE..."
+      "sfx": "EERIE DRONE...",
+      "prose_en": "In the blackened sky, three colossal phantom silhouettes—each 500 feet tall—slowly materialize.",
+      "prose_hi": "Kale aakash men, teen vishal pret akritiyan - pratyek 500 feet unchi - dhire-dhire sakar hoti han."
     },
     {
       "id": "p29",
@@ -429,7 +485,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro's eyes widen in dread: 'THE THREE DEMON LORDS! Unhone humein locate kar liya!'.",
+      "prose_hi": "Kuro ki aankhen bhay se fail gain: 'teen rakshas bhagwan! anhoni humne locate kar liya!'."
     },
     {
       "id": "p30",
@@ -450,7 +508,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun draws both weapons, shadow wings expanding to block the freezing gale: 'Bhai mere peeche raho.'.",
+      "prose_hi": "Ha-jun donon hathiyar khinchta hai, thandi aandhi ko rokne ke liye chhaya pankhon ka vistar karta hai: 'bhai mere peeche raho.'"
     }
   ]
 }

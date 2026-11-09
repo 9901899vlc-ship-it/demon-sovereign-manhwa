@@ -13,7 +13,9 @@
       "characters": [],
       "action": "Torrential rain lashes the dark, swollen waters of the Han River; Mapo Bridge is ablaze with emergency searchlights.",
       "mood": "epic storm backdrop",
-      "sfx": "THUNDER ROAR!!"
+      "sfx": "THUNDER ROAR!!",
+      "prose_en": "Torrential rain lashes the dark, swollen waters of the Han River; Mapo Bridge is ablaze with emergency searchlights.",
+      "prose_hi": "Haan nadi ke gahre, ufante pani mein musladhar baarish ho rahi hai; mepo bridge aapatkalin sarchlight se jagmaga raha hai."
     },
     {
       "id": "p02",
@@ -22,7 +24,9 @@
       "characters": [],
       "action": "Eight heavy armored vehicles form an impenetrable barricade; barbed razor wire stretches across all lanes.",
       "mood": "military blockade",
-      "sfx": "SIRENS BLARING..."
+      "sfx": "SIRENS BLARING...",
+      "prose_en": "Eight heavy armored vehicles form an impenetrable barricade; barbed razor wire stretches across all lanes.",
+      "prose_hi": "Aath bhari bakhtarband vahan ek abhedy morchabandi banate han; kantile razr taar sabhi galiyon mein faile hue han."
     },
     {
       "id": "p03",
@@ -30,7 +34,9 @@
       "setting": "bridge center",
       "characters": [],
       "action": "Twenty yellow school buses parked bumper-to-bumper; terrified children pressing tear-streaked faces to foggy windows.",
-      "mood": "innocent hostages"
+      "mood": "innocent hostages",
+      "prose_en": "Twenty yellow school buses parked bumper-to-bumper; terrified children pressing tear-streaked faces to foggy windows.",
+      "prose_hi": "Bis pili school basen bampar-tu-bampar khadi thin; dare hue bacche aansuon se bhare chehron ko dhundhli khidkiyon ke samne daba rahe han."
     },
     {
       "id": "p04",
@@ -41,7 +47,9 @@
       ],
       "action": "Ha-Jun walks down the center double-yellow line, raindrops parting around an invisible mana envelope.",
       "mood": "solitary hero approach",
-      "sfx": "STEP... STEP..."
+      "sfx": "STEP... STEP...",
+      "prose_en": "Ha-Jun walks down the center double-yellow line, raindrops parting around an invisible mana envelope.",
+      "prose_hi": "Ha-jun kendra ki dohri-pili rekha se neeche chalta hai, baarish ki bunden ek adrishya maina lifafe ke charon or failti han."
     },
     {
       "id": "p05",
@@ -62,7 +70,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro glides three feet above him, red eyes surveying the fortified bridge with ancient solemnity.",
+      "prose_hi": "Kuro usse teen feet upar udta hai, lal aankhen prachin gambhirta ke saath kiledar pul ka nirikshan karti han."
     },
     {
       "id": "p06",
@@ -83,7 +93,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun keeps walking without breaking stride: 'Kya warning, Kuro?'.",
+      "prose_hi": "Ha-jun bina ruke chalta rahata hai: 'kya chetavani hai, kuro?'."
     },
     {
       "id": "p07",
@@ -104,7 +116,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro explains: 'Tumhare teen Basic Relics fully harmonised hain. Agar tumne 100% mana blast kiya...'.",
+      "prose_hi": "Kuro batate han: 'tumhare teen basic avashesh puri tarah se samanjasyapurn han. agar tumne 100% man blast kiya...'."
     },
     {
       "id": "p08",
@@ -122,7 +136,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "A brief psychic flash of Demon King Malgath's six crimson eyes opening in the molten Abyss.",
+      "prose_hi": "Pighle hue rasatal mein khulne wali danav raja malgath ki chhah lal aankhon ki ek sankshipt mansik jhalak."
     },
     {
       "id": "p09",
@@ -143,7 +159,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's bone gauntlet chimes: 'Main control mein rahunga. Sirf target-specific precision use karunga.'.",
+      "prose_hi": "Ha-jun ki haddi ki ghanti bajti hai: 'main niyantran mein rahunga. keval lakshya-vishisht parishuddhata ka upyog karunga.'"
     },
     {
       "id": "p10",
@@ -152,7 +170,9 @@
       "characters": [],
       "action": "Four 100,000-lumen searchlights swivel simultaneously, trapping Ha-Jun in a blinding cross of white light.",
       "mood": "targeted in light",
-      "sfx": "FLASH-LOCK!!"
+      "sfx": "FLASH-LOCK!!",
+      "prose_en": "Four 100,000-lumen searchlights swivel simultaneously, trapping Ha-Jun in a blinding cross of white light.",
+      "prose_hi": "Char 100,000-lumen sarchlight ek saath ghumti han, ha-jun ko safed roshni ke ek chakachaundh cross mein fansa deti han."
     },
     {
       "id": "p11",
@@ -171,7 +191,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Hunter snipers on carrier roofs shout through tactical headsets: 'TARGET SPOTTED! HA-JUN KANG IS ON FOOT!'.",
+      "prose_hi": "Vahak chhaton par shikari nishanebaj samrik headset ke madhyam se chillate han: 'lakshya dekha gaya!' ha-jun kang paidal hai!'"
     },
     {
       "id": "p12",
@@ -190,7 +212,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Director Kang holds up a gloved hand to pause the snipers: 'Wait. Let him enter the killzone.'.",
+      "prose_hi": "Nirdeshak kang ne bandukdhariyon ko rokne ke liye dastaane wala haath uthaya: 'ruko. use kiljon mein pravesh karne do.'"
     },
     {
       "id": "p13",
@@ -199,7 +223,9 @@
       "characters": [],
       "action": "Captain Baek walks forward to the fifty-meter mark, gripping his Eclipse Greatsword with both hands.",
       "mood": "the rival meets",
-      "sfx": "CLANK!"
+      "sfx": "CLANK!",
+      "prose_en": "Captain Baek walks forward to the fifty-meter mark, gripping his Eclipse Greatsword with both hands.",
+      "prose_hi": "Capton bake apne aclips gratusward ko donon hathon se pakadkar pachas meter ke nishan tak aage badhte han."
     },
     {
       "id": "p14",
@@ -210,7 +236,9 @@
       ],
       "action": "Ha-Jun halts; rain splashes between the two warriors under the glare of searchlights.",
       "mood": "standoff of champions",
-      "sfx": "RAIN PATTER..."
+      "sfx": "RAIN PATTER...",
+      "prose_en": "Ha-Jun halts; rain splashes between the two warriors under the glare of searchlights.",
+      "prose_hi": "Ha-jun rukta hai; sarchlight ki chakachaundh mein donon yoddhaon ke beech baarish ki fuharen pad rahi han."
     },
     {
       "id": "p15",
@@ -229,7 +257,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Baek's eyes widen through his visor: 'Tumhara hath... Barah ghante pehle compound fracture tha!'.",
+      "prose_hi": "Bak ki aankhen uske chhajje se failti han: 'tumhara hath... barah ghante pehle compound fracture tha!'."
     },
     {
       "id": "p16",
@@ -251,7 +281,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun flexes his ivory gauntlet; it gleams with cold, diamond-hard luster in the searchlights.",
+      "prose_hi": "Ha-jun ne apni hathi daant ki chunauti ka samna kiya; yah sarchlight mein thandi, heere jaisi kathor chamak ke saath chamakta hai."
     },
     {
       "id": "p17",
@@ -272,7 +304,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun continues: 'Main yahan reham mangne nahi aaya. Main tumhe sach batane aaya hoon.'.",
+      "prose_hi": "Ha-jun aage kahte han, 'main yahan raham mangaane nahin aaya. main tumhe sach batane aaya hun.'."
     },
     {
       "id": "p18",
@@ -292,7 +326,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Director Kang's voice booms over the speakers: 'Lies of a cornered demon! Hunters, OPEN FIRE!'.",
+      "prose_hi": "Spikar par nirdeshak kang ki awaz gunjati hai: 'ek kone mein band rakshas ka jhuth! shikari, khuli aag!'."
     },
     {
       "id": "p19",
@@ -301,7 +337,9 @@
       "characters": [],
       "action": "Fifty heavy weapons erupt in a continuous wall of muzzle flashes, silver bullets tearing through rain.",
       "mood": "wall of lead",
-      "sfx": "RAT-TAT-TAT-TAT-BOOM!!"
+      "sfx": "RAT-TAT-TAT-TAT-BOOM!!",
+      "prose_en": "Fifty heavy weapons erupt in a continuous wall of muzzle flashes, silver bullets tearing through rain.",
+      "prose_hi": "Pachas bhari hathiyar thuthan ki chamak ki ek satat deewar mein futate han, chandi ki goliya baarish se takrati han."
     },
     {
       "id": "p20",
@@ -312,7 +350,9 @@
       ],
       "action": "Ha-Jun takes half a step back, his arms moving in fluid, hypnotic Tai-Chi like circular arcs.",
       "mood": "blood weaving dance",
-      "sfx": "WHOOSH..."
+      "sfx": "WHOOSH...",
+      "prose_en": "Ha-Jun takes half a step back, his arms moving in fluid, hypnotic Tai-Chi like circular arcs.",
+      "prose_hi": "Ha-jun aadha kadam peeche hatata hai, uski bhujaen golakar chaap ki tarah taral, sammohak taai-chi mein ghum rahi han."
     },
     {
       "id": "p21",
@@ -323,7 +363,9 @@
       ],
       "action": "A swirling double-funnel of liquid crimson blood forms around him, rotating at 200 mph.",
       "mood": "sanguine shield vortex",
-      "sfx": "WHIRRRRR!!"
+      "sfx": "WHIRRRRR!!",
+      "prose_en": "A swirling double-funnel of liquid crimson blood forms around him, rotating at 200 mph.",
+      "prose_hi": "Uske charon or 200 meal prati ghante ki gati se ghumte hue, taral lal rakt ka ek ghumta hua duble-fanal banta hai."
     },
     {
       "id": "p22",
@@ -332,7 +374,9 @@
       "characters": [],
       "action": "Every single bullet is trapped in the swirling fluid stream, losing all kinetic energy instantly.",
       "mood": "bullets captured",
-      "sfx": "CHIRR-CHIRR-STOP!!"
+      "sfx": "CHIRR-CHIRR-STOP!!",
+      "prose_en": "Every single bullet is trapped in the swirling fluid stream, losing all kinetic energy instantly.",
+      "prose_hi": "Har ek goli ghumti hui taral dhara mein fans jaati hai, jisse turant sari gatij urja nasht ho jaati hai."
     },
     {
       "id": "p23",
@@ -352,7 +396,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The fifty elite hunters lower their weapons, watching thousands of bullets suspended harmlessly in red rings.",
+      "prose_hi": "Pachas sambhrant shikariyon ne lal chhalle mein hanirahit roop se latki hajaron goliyon ko dekhte hue, apne hathiyar neeche kar die."
     },
     {
       "id": "p24",
@@ -363,7 +409,9 @@
       ],
       "action": "With a gentle flick of his open palm, Ha-Jun reverses the vortex spin.",
       "mood": "reversal command",
-      "sfx": "SNAP!"
+      "sfx": "SNAP!",
+      "prose_en": "With a gentle flick of his open palm, Ha-Jun reverses the vortex spin.",
+      "prose_hi": "Apni khuli hatheli ke halke jhatke se, ha-jun bhanwar spin ko ulat deta hai."
     },
     {
       "id": "p25",
@@ -372,7 +420,9 @@
       "characters": [],
       "action": "All thousands of captured bullets rocket backward, slicing cleanly through the hunter rifle barrels and car tires.",
       "mood": "precision disarm",
-      "sfx": "PING-PING-SHRED!!"
+      "sfx": "PING-PING-SHRED!!",
+      "prose_en": "All thousands of captured bullets rocket backward, slicing cleanly through the hunter rifle barrels and car tires.",
+      "prose_hi": "Pakdi gai sabhi hajaron goliyan shikari rifle barrel aur car ke tyron ko saf-saf kaatati hui peeche ki or rocket karti han."
     },
     {
       "id": "p26",
@@ -381,7 +431,9 @@
       "characters": [],
       "action": "Every hunter is left holding a smoking broken receiver; all eight armored vehicle tires deflate.",
       "mood": "bloodless neutralization",
-      "sfx": "HISS-POP!!"
+      "sfx": "HISS-POP!!",
+      "prose_en": "Every hunter is left holding a smoking broken receiver; all eight armored vehicle tires deflate.",
+      "prose_hi": "Pratyek shikari ke haath mein dhunaa nikalta hua toota hua receiver rah jata hai; sabhi aath bakhtarband vahanon ke tyre kharab ho gaye."
     },
     {
       "id": "p27",
@@ -389,7 +441,9 @@
       "setting": "barricade line",
       "characters": [],
       "action": "The hunters look down at their unharmed hands in stunned bewilderment: zero casualties.",
-      "mood": "mercy through absolute mastery"
+      "mood": "mercy through absolute mastery",
+      "prose_en": "The hunters look down at their unharmed hands in stunned bewilderment: zero casualties.",
+      "prose_hi": "Shikari stabdh hokar apne surakshit hathon ko neeche dekhte han: koi hatahat nahin."
     },
     {
       "id": "p28",
@@ -408,7 +462,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Captain Baek stares at Ha-Jun with profound realization: 'Usne chaaha hota toh sabko maar sakta tha...'.",
+      "prose_hi": "Capton bak gahre ahsas ke saath ha-jun ko dekhta hai: 'usne chaha hota to sabko maar sakta tha...'."
     },
     {
       "id": "p29",
@@ -428,7 +484,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "High above on the giant bridge traffic display, Min-Jae's face cuts in over the police broadcast.",
+      "prose_hi": "Vishal pul yatayat pradarshan ke upar, police prasaran ko dekhte hue min-je ka chehra cut jata hai."
     },
     {
       "id": "p30",
@@ -446,7 +504,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Classified videos of Director Kang experimenting with demonic cores flash across the 50-foot display.",
+      "prose_hi": "Nirdeshak kang ke rakshasi core ke saath prayog ke vargikrit video 50-fut display par chamakte han."
     }
   ]
 }

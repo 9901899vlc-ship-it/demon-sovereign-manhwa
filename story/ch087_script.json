@@ -13,7 +13,9 @@
       "characters": [],
       "action": "The tip of the black obsidian spear hovers millimeters from Tae-Jun's bronze armor, lightning crackling along the shaft.",
       "mood": "heart-stopping moment",
-      "sfx": "CRACKLE..."
+      "sfx": "CRACKLE...",
+      "prose_en": "The tip of the black obsidian spear hovers millimeters from Tae-Jun's bronze armor, lightning crackling along the shaft.",
+      "prose_hi": "Kale obsidian bhale ki nok taaye-jun ke kansya kavach se millimeter door ghumti hai, shaft ke saath bijli kadakti hai."
     },
     {
       "id": "p02",
@@ -22,7 +24,9 @@
       "characters": [],
       "action": "A heavy explosive 50-caliber round smashes into the side of Nihilux's helmet, deflecting the lance three inches off target.",
       "mood": "sniper intervention",
-      "sfx": "PANG-SPARK!!"
+      "sfx": "PANG-SPARK!!",
+      "prose_en": "A heavy explosive 50-caliber round smashes into the side of Nihilux's helmet, deflecting the lance three inches off target.",
+      "prose_hi": "Ek bhari visfotak 50-calibar round nihilax ke helmet ke bagal mein takrata hai, jisse lance lakshya se teen inch door ho jata hai."
     },
     {
       "id": "p03",
@@ -42,7 +46,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The lance punches clean through Tae-Jun's left shoulder pauldron, missing his heart by two inches but pinning him to the ground.",
+      "prose_hi": "Lans ne taaye-jun ke baen kandhe ke poladron par jordar prahar kiya, jisse uska dil do inch tak gayab ho gaya lekin use jameen par gira diya gaya."
     },
     {
       "id": "p04",
@@ -62,7 +68,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Nihilux growls, glaring up at the Saint Mirren library roof where smoke drifts from a sniper barrel.",
+      "prose_hi": "Nihilax gurrata hai, sent miren library ki chhat ki or dekhta hai jahan ek sniper barrel se dhuan nikalta hai."
     },
     {
       "id": "p05",
@@ -82,7 +90,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae stands on the parapet, his glasses askew, hands burned by the rifle's muzzle heat, panting heavily.",
+      "prose_hi": "Min-je munder par khada hai, uska chashma tirchha hai, rifle ki thuthan ki garmi se uske haath jal gaye hain aur wah jor-jor se hanf raha hai."
     },
     {
       "id": "p06",
@@ -102,7 +112,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Beside Min-Jae stand Jin-Woo and Dong-Suk—the two former bullies from Episode 1—frantically reloading ammo clips.",
+      "prose_hi": "Min-je ke bagal mein jin-woo aur dong-suk khade hain - episode 1 ke do purva badmash - barood clip ko phir se load kar rahe han."
     },
     {
       "id": "p07",
@@ -111,7 +123,9 @@
       "characters": [],
       "action": "Nihilux flicks his fingers, sending a jagged bolt of black void lightning to incinerate the library roof.",
       "mood": "retaliation blast",
-      "sfx": "ZZZT-KABOOM!!"
+      "sfx": "ZZZT-KABOOM!!",
+      "prose_en": "Nihilux flicks his fingers, sending a jagged bolt of black void lightning to incinerate the library roof.",
+      "prose_hi": "Nihilax ne apni ungaliyan hilain aur pustakalaya ki chhat ko jalane ke liye kali shunya bijli ka ek dantedar bolt bheja."
     },
     {
       "id": "p08",
@@ -133,7 +147,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun leaps forty feet into the air, catching the black lightning in his bare palm and crushing the electricity to ash.",
+      "prose_hi": "Ha-jun chalis feet hawa mein uchhalta hai, kali bijli ko apni nangi hatheli mein pakad leta hai aur bijli ko kuchalkar raakh kar deta hai."
     },
     {
       "id": "p09",
@@ -144,7 +160,9 @@
       ],
       "action": "Ha-Jun lands over Tae-Jun, gripping the heavy obsidian spear shaft with both hands and wrenching it free.",
       "mood": "freeing brother",
-      "sfx": "PULL-SNAP!!"
+      "sfx": "PULL-SNAP!!",
+      "prose_en": "Ha-Jun lands over Tae-Jun, gripping the heavy obsidian spear shaft with both hands and wrenching it free.",
+      "prose_hi": "Ha-jun taaye-jun ke upar utarta hai, bhari obsidian bhale ke shaft ko donon hathon se pakadta hai aur use mukt kar deta hai."
     },
     {
       "id": "p10",
@@ -166,7 +184,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun presses his hand to his shoulder wound, nodding weakly: 'Good save... little brother.'.",
+      "prose_hi": "Taaye-jun apne kandhe ke ghav par apna haath dabata hai aur halke se sir hilata hai: 'acha bacha... chhote bhai.'"
     },
     {
       "id": "p11",
@@ -188,7 +208,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's royal violet eyes blaze with unmatched intensity; the ground beneath his feet cracks for 50 yards.",
+      "prose_hi": "Ha-jun ki shahi baingani aankhen bejod tivrata se chamakti han; uske pairon ke neeche ki zameen 50 gaj tak fat jaati hai."
     },
     {
       "id": "p12",
@@ -199,7 +221,9 @@
       ],
       "action": "The Crown of the Sovereign materializes on Ha-Jun's head, casting a golden dome of absolute dominance.",
       "mood": "monarch crowned",
-      "sfx": "GLOW-CROWN!!"
+      "sfx": "GLOW-CROWN!!",
+      "prose_en": "The Crown of the Sovereign materializes on Ha-Jun's head, casting a golden dome of absolute dominance.",
+      "prose_hi": "Samprabhu ka taj ha-jun ke sir par sakar hota hai, jo purna prabhutv ka ek sunhara gumbad banata hai."
     },
     {
       "id": "p13",
@@ -219,7 +243,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Nihilux raises the Primordial Whistle: 'Let us see if your love can survive your familiar's claws!'.",
+      "prose_hi": "Nihilax ne primerdial ct bajai: 'ie dekhen ki kya aapka pyar aapke parichiton ke panjon se bach sakta hai!'"
     },
     {
       "id": "p14",
@@ -228,7 +254,9 @@
       "characters": [],
       "action": "The piercing whistle echoes through the air, sending shockwaves of green hypnotic miasma into Kuro's skull.",
       "mood": "hypnotic frequency",
-      "sfx": "PIERCING SCREECH!!"
+      "sfx": "PIERCING SCREECH!!",
+      "prose_en": "The piercing whistle echoes through the air, sending shockwaves of green hypnotic miasma into Kuro's skull.",
+      "prose_hi": "Bhedi ct hawa mein goonjati hai, kuro ki khopdi mein hare sammohak miyasma ki sadme tarangen bhejti hai."
     },
     {
       "id": "p15",
@@ -240,7 +268,9 @@
       ],
       "action": "Kuro dives at supersonic speed, his razor talons aiming straight for Ha-Jun's eyes.",
       "mood": "forced patricide dive",
-      "sfx": "DIVE-SWOOSH!!"
+      "sfx": "DIVE-SWOOSH!!",
+      "prose_en": "Kuro dives at supersonic speed, his razor talons aiming straight for Ha-Jun's eyes.",
+      "prose_hi": "Kuro supersonic gati se gota lagata hai, uske razor panje sidhe ha-jun ki aankhon par nishana sadhte han."
     },
     {
       "id": "p16",
@@ -262,7 +292,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun drops the Sanguine Fang onto the grass, opening both arms wide in a defenseless, loving embrace.",
+      "prose_hi": "Ha-jun ne senguin feng ko ghas par gira diya, aur ek rakshahin, prempurn aalingan mein donon haath chaude kar die."
     },
     {
       "id": "p17",
@@ -284,7 +316,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Tae-Jun shouts: 'Ha-Jun, block!! He'll tear your throat out!!'.",
+      "prose_hi": "Taaye-jun chillata hai: 'ha-jun, block!! wah tumhara gala faad dega!!'"
     },
     {
       "id": "p18",
@@ -296,7 +330,9 @@
       ],
       "action": "Kuro's razor talons halt a single hair's breadth from Ha-Jun's throat, trembling violently against the air.",
       "mood": "the pause",
-      "sfx": "TREMBLE-STOP..."
+      "sfx": "TREMBLE-STOP...",
+      "prose_en": "Kuro's razor talons halt a single hair's breadth from Ha-Jun's throat, trembling violently against the air.",
+      "prose_hi": "Kuro ke razor panje hawa ke khilaf hinsak roop se kampate hue, ha-jun ke gale se ek bal ki chaudai ko rokte han."
     },
     {
       "id": "p19",
@@ -319,7 +355,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun looks into the poisonous green eyes, smiling softly: 'Kuro. Remember the rain on the rooftop.'.",
+      "prose_hi": "Ha-jun jahrili hari aankhon mein dekhta hai, dheere se muskurata hai: 'kuro. yaad hai chhat par barish.'"
     },
     {
       "id": "p20",
@@ -330,7 +368,9 @@
       ],
       "action": "A brief memory flashes: Kuro perched on the Saint Mirren terrace railing in the rain, leaving his feather behind.",
       "mood": "the foundational covenant",
-      "sfx": "RAIN PATTER..."
+      "sfx": "RAIN PATTER...",
+      "prose_en": "A brief memory flashes: Kuro perched on the Saint Mirren terrace railing in the rain, leaving his feather behind.",
+      "prose_hi": "Ek sankshipt smriti chamakti hai: kuro baarish mein sent miren chhat ki railing par apna pankh chhodkar baitha tha."
     },
     {
       "id": "p21",
@@ -353,7 +393,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun gently cups Kuro in his hands, pulling the bird against his warm cheek without fear.",
+      "prose_hi": "Ha-jun ne dheere se kuro ko apne hathon mein pakda aur bina kisi dar ke pakshi ko apne garm gaal par khinch liya."
     },
     {
       "id": "p22",
@@ -364,7 +406,9 @@
       ],
       "action": "The green void miasma around Kuro cracks and shatters like glass, revealing pure violet solar fire beneath.",
       "mood": "breaking the curse",
-      "sfx": "CRACKLE-SHATTER!!"
+      "sfx": "CRACKLE-SHATTER!!",
+      "prose_en": "The green void miasma around Kuro cracks and shatters like glass, revealing pure violet solar fire beneath.",
+      "prose_hi": "Kuro ke charon or ka hara rikt sthan kaanch ki tarah toot jata hai aur bikhar jata hai, jisse neeche shuddh baingani saur agni prakat hoti hai."
     },
     {
       "id": "p23",
@@ -386,7 +430,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro's true eyes return—deep, noble, burning with ancient love and royal fury.",
+      "prose_hi": "Kuro ki sacchi aankhen laut aati hain - gahri, mahan, prachin prem aur shahi rosh se jalti hui."
     },
     {
       "id": "p24",
@@ -406,7 +452,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Nihilux recoils, dropping the bone whistle: 'The binding of the first gods... Broken by mortal sentiment?!'.",
+      "prose_hi": "Nihilax haddi ki ct bajate hue peeche hat jata hai: 'pahle devtaon ka bandhan... nashwar bhavna se toot gaya?!'."
     },
     {
       "id": "p25",
@@ -429,7 +477,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro opens his beak, dropping the Bone, Ring, and Ashen Heart gently back into Ha-Jun's hands.",
+      "prose_hi": "Kuro apni chonch kholta hai, haddi, anguthi aur ation heart ko dheere se ha-jun ke hathon mein gira deta hai."
     },
     {
       "id": "p26",
@@ -440,7 +490,9 @@
       ],
       "action": "The three relics fuse back into Ha-Jun's chest; his mana synchronization surges back to 85.0%!",
       "mood": "full power restored",
-      "sfx": "PULSE-SURGE!!"
+      "sfx": "PULSE-SURGE!!",
+      "prose_en": "The three relics fuse back into Ha-Jun's chest; his mana synchronization surges back to 85.0%!.",
+      "prose_hi": "Teen avashesh wapas ha-jun ki chhati mein sama gaye; uska man tulyakalan wapas 85.0% tak badh jata hai!"
     },
     {
       "id": "p27",
@@ -451,7 +503,9 @@
       ],
       "action": "Ha-Jun picks up his blood katana; the blade blazes with twin flames of crimson blood and violet starlight.",
       "mood": "armed and complete",
-      "sfx": "SWORD DRAW-SHING!!"
+      "sfx": "SWORD DRAW-SHING!!",
+      "prose_en": "Ha-Jun picks up his blood katana; the blade blazes with twin flames of crimson blood and violet starlight.",
+      "prose_hi": "Ha-jun apna khoon katana uthata hai; blade lal rakt aur baingani taron ki dohri lapton se chamakta hai."
     },
     {
       "id": "p28",
@@ -463,7 +517,9 @@
       ],
       "action": "Kuro erupts into his 300-foot majestic Nether Phoenix form, wings framing Ha-Jun like a living throne of fire.",
       "mood": "the monarch and his familiar",
-      "sfx": "ROARING PYRE!!"
+      "sfx": "ROARING PYRE!!",
+      "prose_en": "Kuro erupts into his 300-foot majestic Nether Phoenix form, wings framing Ha-Jun like a living throne of fire.",
+      "prose_hi": "Kuro apne 300 foot ke rajsi netherland phoenix roop mein prakat hota hai, jiske pankh ha-jun ko agni ke jeevit sinhasan ki tarah banate han."
     },
     {
       "id": "p29",
@@ -483,7 +539,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Across the campus, hundreds of human students, hunters, and demons roar their battle cries in deafening unison.",
+      "prose_hi": "Pure parisar men, saikadon manav chhatra, shikari aur rakshas ek gaganbhedi swar mein apni ladai chillate han."
     },
     {
       "id": "p30",
@@ -505,7 +563,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun points his sword straight into Nihilux's faceless helm: 'Nihilux. You have nowhere left to run.'.",
+      "prose_hi": "Ha-jun apni talwar sidhe nihilax ke faceles patwar par taanta hai: 'nihilax. aapke paas bhagne ke liye kahin nahin bacha hai.'"
     }
   ]
 }

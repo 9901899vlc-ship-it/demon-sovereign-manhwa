@@ -13,7 +13,9 @@
       "characters": [],
       "action": "Rain hammers down on neon signboards in a dark alleyway; steam rises from restaurant exhaust vents.",
       "mood": "atmospheric rain",
-      "sfx": "PITTER-PATTER..."
+      "sfx": "PITTER-PATTER...",
+      "prose_en": "Rain hammers down on neon signboards in a dark alleyway; steam rises from restaurant exhaust vents.",
+      "prose_hi": "Andheri gali mein neon sinbordon par baarish ka hathauda gir raha hai; restraan ke nikas dwaron se bhaap uthti hai."
     },
     {
       "id": "p02",
@@ -22,7 +24,9 @@
       "characters": [],
       "action": "A faded grey laundry van sits with wipers running softly, headlights switched off.",
       "mood": "covert hideout",
-      "sfx": "SWISH-SWISH..."
+      "sfx": "SWISH-SWISH...",
+      "prose_en": "A faded grey laundry van sits with wipers running softly, headlights switched off.",
+      "prose_hi": "Ek fiki grey laundry van mein wiper dhire-dhire chal rahe han, headlights band han."
     },
     {
       "id": "p03",
@@ -31,7 +35,9 @@
       "characters": [],
       "action": "Ha-Jun drops silently from the fire escape landing right into the open sliding door.",
       "mood": "safe landing",
-      "sfx": "THUD..."
+      "sfx": "THUD...",
+      "prose_en": "Ha-Jun drops silently from the fire escape landing right into the open sliding door.",
+      "prose_hi": "Ha-jun chupchap aag se bachne ke liye khule sliding darvaje mein utarta hai."
     },
     {
       "id": "p04",
@@ -42,7 +48,9 @@
       ],
       "action": "The moment his feet touch the van floor, Ha-Jun's knees give out completely and he falls face-first onto foam mats.",
       "mood": "sudden collapse",
-      "sfx": "CRASH..."
+      "sfx": "CRASH...",
+      "prose_en": "The moment his feet touch the van floor, Ha-Jun's knees give out completely and he falls face-first onto foam mats.",
+      "prose_hi": "Jaise hi uske pair van ke farsh ko chhute han, ha-jun ke ghutne puri tarah se chhoot jaate hain aur wah foam mat par aamne-samne gir jata hai."
     },
     {
       "id": "p05",
@@ -61,7 +69,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae drops his tablet and lunges forward to catch Ha-Jun's shoulders: 'Ha-Jun! Kya hua?!'.",
+      "prose_hi": "Min-je apna tablet girata hai aur ha-jun ke kandhon ko pakadne ke liye aage badhta hai: 'ha-jun! kya hua?!'"
     },
     {
       "id": "p06",
@@ -72,7 +82,9 @@
       ],
       "action": "Ha-Jun's lips are completely white and bloodless, cold sweat plastering hair to his forehead, shivering uncontrollably.",
       "mood": "acute anemia",
-      "sfx": "CHILLS..."
+      "sfx": "CHILLS...",
+      "prose_en": "Ha-Jun's lips are completely white and bloodless, cold sweat plastering hair to his forehead, shivering uncontrollably.",
+      "prose_hi": "Ha-jun ke honth puri tarah se safed aur raktheen han, uske mathe par baalon mein thanda pasina aa raha hai aur wah aniyantrit roop se kamp raha hai."
     },
     {
       "id": "p07",
@@ -83,7 +95,9 @@
       ],
       "action": "The obsidian ring on his finger emits a dull, thready crimson pulse, as if starved for energy.",
       "mood": "relic dormancy",
-      "sfx": "PULSE... pulse..."
+      "sfx": "PULSE... pulse...",
+      "prose_en": "The obsidian ring on his finger emits a dull, thready crimson pulse, as if starved for energy.",
+      "prose_hi": "Uski ungli par obsidian anguthi ek sust, dhagedar lal rang ki naadi ka utsarjan karti hai, jaise ki urja ki bhookhi ho."
     },
     {
       "id": "p08",
@@ -94,7 +108,9 @@
       ],
       "action": "Ha-Jun coughs hoarsely into a cotton rag, wheezing as his chest heaves painfully.",
       "mood": "respiratory strain",
-      "sfx": "COUGH-HACK!!"
+      "sfx": "COUGH-HACK!!",
+      "prose_en": "Ha-Jun coughs hoarsely into a cotton rag, wheezing as his chest heaves painfully.",
+      "prose_hi": "Ha-jun rui ke fahe mein jor-jor se khansta hai aur uski chhati mein dard ke saath gharghrahat hoti hai."
     },
     {
       "id": "p09",
@@ -115,7 +131,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro tilts his feathered head, inspecting Ha-Jun with strict demonic clinical detachment.",
+      "prose_hi": "Kuro apne pankh wale sir ko jhukata hai, sakht rakshasi naidanik ​​tukdi ke saath ha-jun ka nirikshan karta hai."
     },
     {
       "id": "p10",
@@ -134,7 +152,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae presses his fingers to Ha-Jun's carotid artery, eyes wide with medical alarm.",
+      "prose_hi": "Min-je apni ungaliyon ko ha-jun ki caroted dhamni par dabata hai, medical alarm se uski aankhen chaudi ho jaati han."
     },
     {
       "id": "p11",
@@ -156,7 +176,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro snaps his beak: 'Hospital? Tum chahte ho Bureau ke doctor iska dissection karein?!'.",
+      "prose_hi": "Kuro ne apni chonch kati: 'aspatal? tum chahte ho bureau ke doctor iska disection karen?!'."
     },
     {
       "id": "p12",
@@ -177,7 +199,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's trembling fingers grip Min-Jae's wrist: 'Kuro sahi keh raha hai... Hospital nahi.'.",
+      "prose_hi": "Ha-jun ki kampati ungaliyan min-je ki kalai pakadti han: 'kuro sahi kah raha hai... aspataal nahin.'"
     },
     {
       "id": "p13",
@@ -198,7 +222,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro explains: 'High-protein red meat, iron electrolytes, aur demon mana absorption.'.",
+      "prose_hi": "Kuro batate han: 'ucch protein lal mans, lauh electrolits, aur danav man avshoshan.'"
     },
     {
       "id": "p14",
@@ -207,7 +233,9 @@
       "characters": [],
       "action": "Min-Jae immediately tears open a thermal cooler box containing raw beef steaks and iron hydration pouches.",
       "mood": "prepared ally",
-      "sfx": "RIPP!"
+      "sfx": "RIPP!",
+      "prose_en": "Min-Jae immediately tears open a thermal cooler box containing raw beef steaks and iron hydration pouches.",
+      "prose_hi": "Min-je ne turant kacche beef stake aur iron hydration pouch wale thermal cooler box ko faad diya."
     },
     {
       "id": "p15",
@@ -218,7 +246,9 @@
       ],
       "action": "Ha-Jun greedily gulps down three metallic-tasting iron-rich nutritional packs in seconds.",
       "mood": "nourishment",
-      "sfx": "GULP... GULP..."
+      "sfx": "GULP... GULP...",
+      "prose_en": "Ha-Jun greedily gulps down three metallic-tasting iron-rich nutritional packs in seconds.",
+      "prose_hi": "Ha-jun lalach se secondon mein dhatu-swad wale lauh-samriddh poshan sambandhi teen pack nigal jata hai."
     },
     {
       "id": "p16",
@@ -229,7 +259,9 @@
       ],
       "action": "Within moments, faint pink vitality creeps back into Ha-Jun's lips and fingertips as mana metabolizes the iron.",
       "mood": "accelerated recovery",
-      "sfx": "SIGH..."
+      "sfx": "SIGH...",
+      "prose_en": "Within moments, faint pink vitality creeps back into Ha-Jun's lips and fingertips as mana metabolizes the iron.",
+      "prose_hi": "Kuch hi kshanon men, halki gulabi jeevan shakti ha-jun ke hothon aur ungaliyon mein wapas aa jaati hai kyonki man lohe ka chayapachay karta hai."
     },
     {
       "id": "p17",
@@ -248,7 +280,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "A glowing status box appears with yellow warning borders.",
+      "prose_hi": "Pile rang ki chetavani seemaon ke saath ek chamakta status box dikhai deta hai."
     },
     {
       "id": "p18",
@@ -269,7 +303,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun reads the warning: 'Bone density and skeletal framework...?'.",
+      "prose_hi": "Ha-jun ne chetavani padhi: 'asthi ghanatv aur kankal dhancha...?'."
     },
     {
       "id": "p19",
@@ -290,7 +326,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro hops onto Ha-Jun's knee: 'Yahi wajah hai ki First Sovereign ne Relics ko sequence mein banaya tha.'.",
+      "prose_hi": "Kuro ha-jun ke ghutne par baith jata hai: 'yahi vajah hai ki first sovereign ne avsheshon ko sequence mein banaya tha.'"
     },
     {
       "id": "p20",
@@ -311,7 +349,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun rubs his aching forearm bones: 'Bone of the Forgotten kya karti hai?'.",
+      "prose_hi": "Ha-jun apni dukhti baanh ki haddiyon ko ragadata hai: 'bon off the forgotten kya karti hai?'."
     },
     {
       "id": "p21",
@@ -332,7 +372,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro explains: 'Woh ancient sovereign guard ka skeletal relic hai. Tumhare skeletal system ko diamond-hard armor mein convert karega.'.",
+      "prose_hi": "Kuro batate han: 'vah prachin samprabhu rakshak ka kankal avashesh hai. tumhare kankal tantra ko heere jaisa kathor kavach mein parivartit karega.'"
     },
     {
       "id": "p22",
@@ -353,7 +395,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun looks out the rain-streaked window: 'Woh kahan milegi?'.",
+      "prose_hi": "Ha-jun baarish se ghiri khidki se bahar dekhta hai: 'vo kahan milegi?'"
     },
     {
       "id": "p23",
@@ -373,7 +417,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae cross-references geological anomaly records on his encrypted laptop.",
+      "prose_hi": "Min-je apne encrypted laptop par bhuvaigyanik visangati record ko cross-referance karta hai."
     },
     {
       "id": "p24",
@@ -394,7 +440,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro nods: 'Wahin hai. The Catacomb of the Forgotten.'.",
+      "prose_hi": "Kuro ne sir hilaya: 'vahin hai. bhule hue ka catakomb.'"
     },
     {
       "id": "p25",
@@ -405,7 +453,9 @@
       ],
       "action": "Ha-Jun sits up and firmly tightens the laces of his combat boots.",
       "mood": "steadfast resolve",
-      "sfx": "TIGHTEN!"
+      "sfx": "TIGHTEN!",
+      "prose_en": "Ha-Jun sits up and firmly tightens the laces of his combat boots.",
+      "prose_hi": "Ha-jun baithta hai aur apne ladaku jooton ke feeton ko majbuti se kasta hai."
     },
     {
       "id": "p26",
@@ -426,7 +476,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's eyes burn with dual violet-crimson rings: 'Main kamzor nahi reh sakta. Incheon chalo.'.",
+      "prose_hi": "Ha-jun ki aankhen dohre bangni-lal rang ke chhallon se jalti han: 'main kamzor nahin rah sakta. inchiyon chalo.'"
     },
     {
       "id": "p27",
@@ -446,7 +498,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae nods firmly, gripping the gear stick and slamming his foot onto the accelerator.",
+      "prose_hi": "Min-je ne dridhta se sir hilaya, gear stick ko pakda aur accelator par apna pair patak diya."
     },
     {
       "id": "p28",
@@ -455,7 +509,9 @@
       "characters": [],
       "action": "The grey van merges onto the wet, reflection-streaked Olympic Expressway through blinding rain.",
       "mood": "journey begins",
-      "sfx": "SWOOSH..."
+      "sfx": "SWOOSH...",
+      "prose_en": "The grey van merges onto the wet, reflection-streaked Olympic Expressway through blinding rain.",
+      "prose_hi": "Gre van tez baarish ke madhyam se geele, pratibimb-dharidar olympic expressway par vilin ho jaati hai."
     },
     {
       "id": "p29",
@@ -476,7 +532,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro's eyes glow crimson in the dashboard darkness, muttering to himself.",
+      "prose_hi": "Dashbord ke andhere mein kuro ki aankhen lal rang ki chamakti han, wah khud se badbada raha hai."
     },
     {
       "id": "p30",
@@ -497,7 +555,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun gazes at his own clenched fist in the glass, the obsidian ring softly glowing red.",
+      "prose_hi": "Ha-jun sheeshe mein apni band mutthi ko dekhta hai, obsidian ring dheere se lal chamak rahi hai."
     }
   ]
 }

@@ -13,7 +13,9 @@
       "characters": [],
       "action": "A thousand industrial floodlights illuminate the massive concrete pier of Incheon harbor under torrential rain.",
       "mood": "massive staging area",
-      "sfx": "THUNDER-ROAR!!"
+      "sfx": "THUNDER-ROAR!!",
+      "prose_en": "A thousand industrial floodlights illuminate the massive concrete pier of Incheon harbor under torrential rain.",
+      "prose_hi": "Ek hajar audyogik floodlight musladhar baarish ke tahat inchiyon bandargah ke vishal concrete ghat ko roshan karti han."
     },
     {
       "id": "p02",
@@ -22,7 +24,9 @@
       "characters": [],
       "action": "Five hundred elite Section 9 hunters in high-tech black power armor and plasma rail-rifles stand in rigid military formation.",
       "mood": "human military vanguard",
-      "sfx": "HEEL-CLICK-SALUTE!!"
+      "sfx": "HEEL-CLICK-SALUTE!!",
+      "prose_en": "Five hundred elite Section 9 hunters in high-tech black power armor and plasma rail-rifles stand in rigid military formation.",
+      "prose_hi": "High-tek black power kavach aur plasma rel-rifls mein paanch sau vishisht section 9 shikari kathor sainya sanrachna mein khade han."
     },
     {
       "id": "p03",
@@ -31,7 +35,9 @@
       "characters": [],
       "action": "Across the tarmac stand five thousand towering Iron Demons in obsidian plate armor, holding ten-foot halberds.",
       "mood": "demonic legion allied",
-      "sfx": "HALBERD SLAM!!"
+      "sfx": "HALBERD SLAM!!",
+      "prose_en": "Across the tarmac stand five thousand towering Iron Demons in obsidian plate armor, holding ten-foot halberds.",
+      "prose_hi": "Tarmac ke paar obsidian plate kavach mein paanch hajar oonche lohe ke danav khade han, jinke haath mein das foot ke patwar han."
     },
     {
       "id": "p04",
@@ -50,7 +56,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "Human hunters grip their rifles nervously while demon warriors flare glowing red eyes through their visors.",
+      "prose_hi": "Manav shikari ghabrakar apni riflein pakad lete hain jabki danav yoddha apne chhajjon se chamakti lal aankhen dikhate han."
     },
     {
       "id": "p05",
@@ -70,7 +78,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Captain Baek taps the public address microphone: 'Attention all units! Stand down your weapons! The Sovereign approaches!'.",
+      "prose_hi": "Capton bak sarvajanik sambodhan microphone par tap karte han: 'sabhi ikaiyan dhyan den! apne hathiyar neeche khade ho jao! samprabhu drishtikon!"
     },
     {
       "id": "p06",
@@ -79,7 +89,9 @@
       "characters": [],
       "action": "A blinding bolt of violet celestial lightning smites the center tarmac with a deafening seismic boom.",
       "mood": "the king's descent",
-      "sfx": "KABOOOOM-FLASH!!"
+      "sfx": "KABOOOOM-FLASH!!",
+      "prose_en": "A blinding bolt of violet celestial lightning smites the center tarmac with a deafening seismic boom.",
+      "prose_hi": "Bangni akashiya bijli ka ek chakachaundh bolt ek gaganbhedi bhukampiy uchhal ke saath kendra tarmac ko prabhavit karta hai."
     },
     {
       "id": "p07",
@@ -90,7 +102,9 @@
       ],
       "action": "Ha-Jun Kang stands in the crater—wearing his midnight-black coat with silver dragon embroidery, the Crown gleaming on his brow.",
       "mood": "the supreme monarch",
-      "sfx": "WIND-WHIRL..."
+      "sfx": "WIND-WHIRL...",
+      "prose_en": "Ha-Jun Kang stands in the crater—wearing his midnight-black coat with silver dragon embroidery, the Crown gleaming on his brow.",
+      "prose_hi": "Ha-jun kang gaddhe mein khada hai - usne chandi ki dragon kadhai wala aadhi raat ka kala coat pehna hua hai, uske mathe par mukut chamak raha hai."
     },
     {
       "id": "p08",
@@ -102,7 +116,9 @@
       ],
       "action": "Kuro circles overhead, his wings trailing violet stardust and crimson embers across the drenched night sky.",
       "mood": "the mythical familiar",
-      "sfx": "FLAP-ROAR!!"
+      "sfx": "FLAP-ROAR!!",
+      "prose_en": "Kuro circles overhead, his wings trailing violet stardust and crimson embers across the drenched night sky.",
+      "prose_hi": "Kuro sir ke upar chakkar lagata hai, uske pankh bheege raat ke aakash mein baingani stardust aur lal rang ke angaron ke peeche chalte han."
     },
     {
       "id": "p09",
@@ -122,7 +138,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "All five thousand demon warriors slam their right fists against their chestplates and drop to one knee with a booming crash.",
+      "prose_hi": "Sabhi paanch hajar danav yoddha apni dahini mutthiyon ko apne seene ki pattiyon par maarte hain aur ek jordar durghatna ke saath ek ghutne par gir jaate han."
     },
     {
       "id": "p10",
@@ -131,7 +149,9 @@
       "characters": [],
       "action": "Seeing the demons kneel with absolute discipline, the human hunters lower their weapons and snap crisp military salutes.",
       "mood": "human respect earned",
-      "sfx": "SNAP-SALUTE!!"
+      "sfx": "SNAP-SALUTE!!",
+      "prose_en": "Seeing the demons kneel with absolute discipline, the human hunters lower their weapons and snap crisp military salutes.",
+      "prose_hi": "Rakshson ko purna anushasan ke saath ghutne tekate dekhakar, manav shikari apne hathiyar neeche kar dete hain aur jordar sainya salami dete han."
     },
     {
       "id": "p11",
@@ -142,7 +162,9 @@
       ],
       "action": "Ha-Jun looks out over the unified force of five thousand soldiers; the rain slides off his face as he prepares to speak.",
       "mood": "the commander's gaze",
-      "sfx": "RAIN DRUM..."
+      "sfx": "RAIN DRUM...",
+      "prose_en": "Ha-Jun looks out over the unified force of five thousand soldiers; the rain slides off his face as he prepares to speak.",
+      "prose_hi": "Ha-jun paanch hazar sainikon ki ekikrit sena par nazar rakhta hai; jaise hi wah bolne ke liye taiyar hota hai, baarish uske chehre se fisal jaati hai."
     },
     {
       "id": "p12",
@@ -164,7 +186,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The Crown of the Sovereign pulses; Ha-Jun's voice carries across the entire three-mile harbor like rolling thunder.",
+      "prose_hi": "Sarvbhaum daalon ka taaj; ha-jun ki awaaz poore teen meal ke bandargah mein gadgdahat ki tarah failti hai."
     },
     {
       "id": "p13",
@@ -173,7 +197,9 @@
       "characters": [],
       "action": "Young human soldiers, veteran commanders, and demon captains listen with intense focus, breath fogging in the cold.",
       "mood": "rapt attention",
-      "sfx": "SILENCE..."
+      "sfx": "SILENCE...",
+      "prose_en": "Young human soldiers, veteran commanders, and demon captains listen with intense focus, breath fogging in the cold.",
+      "prose_hi": "Yuva manav sainik, anubhavi commander aur danav kaptan thand mein dhundhli sanson ke saath gahan dhyan se sunte han."
     },
     {
       "id": "p14",
@@ -194,7 +220,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun: 'For thousands of years, humans and demons were made to butcher each other by puppet-masters in the shadows.'.",
+      "prose_hi": "Ha-jun: 'hajaron varshon se, manushyon aur rakshason ko kathputli-swami dwara chhaya mein ek-dusre ko maarne ke liye majboor kiya gaya tha.'"
     },
     {
       "id": "p15",
@@ -215,7 +243,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun points the Sanguine Fang toward the glowing undersea rift: 'The Void Primordial has fed on our war for centuries!'.",
+      "prose_hi": "Ha-jun senguin feng ko chamakti hui samudri daraar ki or ingit karta hai: 'shunya primerdial ne sadiyon se hamare yudh ko poshit kiya hai!'"
     },
     {
       "id": "p16",
@@ -236,7 +266,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun: 'Tonight, we don't march to conquer. We march to rescue! We march to save the brother who gave his life for this world!'.",
+      "prose_hi": "Ha-jun: 'aaj rat, hum jeetne ke liye march nahin kar rahe han. hum bachav ke liye march karte han! hum us bhai ko bachane ke liye march karte hain jisne is duniya ke liye apni jaan de di!'."
     },
     {
       "id": "p17",
@@ -256,7 +288,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "A unified roar from six thousand human and demon throats shakes the harbor; rifles and halberds are raised to the heavens.",
+      "prose_hi": "Chhah hajar manav aur danav gale se ek ekikrit dahaad bandargah ko hila deti hai; riflein aur hailbard swarg tak uthaye gaye han."
     },
     {
       "id": "p18",
@@ -276,7 +310,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae slams an overcharged plasma magazine into his rifle: 'Now that's a speech I'd follow straight to hell.'.",
+      "prose_hi": "Min-je ne apni rifle mein ek atyadhik charge ki gai plasma patrika patak di: 'ab yah ek aisa bhashan hai jiska main sidhe narak mein anusaran karunga.'"
     },
     {
       "id": "p19",
@@ -287,7 +323,9 @@
       ],
       "action": "Ha-Jun nicks his thumb; a single drop of royal crimson blood falls toward the pier concrete.",
       "mood": "blood oath ritual",
-      "sfx": "DRIP..."
+      "sfx": "DRIP...",
+      "prose_en": "Ha-Jun nicks his thumb; a single drop of royal crimson blood falls toward the pier concrete.",
+      "prose_hi": "Ha-jun ne apna angutha kata; shahi lal rakt ki ek boond ghat ke concrete ki or girti hai."
     },
     {
       "id": "p20",
@@ -298,7 +336,9 @@
       ],
       "action": "The droplet touches the concrete, erupting into a hundred-meter geometric blood magic pentagram across the tarmac.",
       "mood": "mass teleportation circle",
-      "sfx": "FWOOOOOSH-GLOW!!"
+      "sfx": "FWOOOOOSH-GLOW!!",
+      "prose_en": "The droplet touches the concrete, erupting into a hundred-meter geometric blood magic pentagram across the tarmac.",
+      "prose_hi": "Boond concrete ko chhuti hai, aur tarmac ke paar sau meter ke jyamitiya rakt jaadui pentagram mein foot jaati hai."
     },
     {
       "id": "p21",
@@ -309,7 +349,9 @@
       ],
       "action": "All ten Relics hover in the sky, funneling massive columns of rainbow-violet mana into the summoning circle.",
       "mood": "tenfold power injection",
-      "sfx": "COSMIC HUMMM!!"
+      "sfx": "COSMIC HUMMM!!",
+      "prose_en": "All ten Relics hover in the sky, funneling massive columns of rainbow-violet mana into the summoning circle.",
+      "prose_hi": "Sabhi das avashesh aakash mein mandrate han, indradhanush-bangni man ke vishal stambhon ko saman circle mein fonal karte han."
     },
     {
       "id": "p22",
@@ -318,7 +360,9 @@
       "characters": [],
       "action": "Under the sea, the dimensional gate tears open three times wider, ready to swallow whole battlegroups.",
       "mood": "gate opened to army scale",
-      "sfx": "TEAR-EXPAND!!"
+      "sfx": "TEAR-EXPAND!!",
+      "prose_en": "Under the sea, the dimensional gate tears open three times wider, ready to swallow whole battlegroups.",
+      "prose_hi": "Samudra ke niche, aayami dwar teen guna chauda khulta hai, jo poore yudh samuhon ko nigalne ke liye taiyar hai."
     },
     {
       "id": "p23",
@@ -338,7 +382,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Captain Baek ignites two glowing blue plasma sabers: 'Section 9 Strike Teams, vanguard formation! March into the breach!'.",
+      "prose_hi": "Capton bake ne do chamakte neele plasma kripanon ko prajvalit kiya: 'dhara 9 strike temen, mohra gathan! ullanghan mein march!"
     },
     {
       "id": "p24",
@@ -347,7 +393,9 @@
       "characters": [],
       "action": "Five thousand armored demons advance in lockstep, their heavy metal boots shaking the concrete in rhythmic thunder.",
       "mood": "demon legion advances",
-      "sfx": "STOMP-STOMP-STOMP!!"
+      "sfx": "STOMP-STOMP-STOMP!!",
+      "prose_en": "Five thousand armored demons advance in lockstep, their heavy metal boots shaking the concrete in rhythmic thunder.",
+      "prose_hi": "Panch hajar bakhtarband rakshas lockstep mein aage badhte han, unke bhari dhatu ke jute laybaddh gadgdahat mein concrete ko hilate han."
     },
     {
       "id": "p25",
@@ -358,7 +406,9 @@
       ],
       "action": "At the apex of the wedge formation, Ha-Jun leaps directly into the swirling dimensional gate, black coat streaming.",
       "mood": "leading from the front",
-      "sfx": "LEAP-BLUR!!"
+      "sfx": "LEAP-BLUR!!",
+      "prose_en": "At the apex of the wedge formation, Ha-Jun leaps directly into the swirling dimensional gate, black coat streaming.",
+      "prose_hi": "Pacchar nirman ke sheersh par, ha-jun sidhe kale coat striming, ghumte hue aayami dwar mein chhalang lagata hai."
     },
     {
       "id": "p26",
@@ -367,7 +417,9 @@
       "characters": [],
       "action": "Column after column of soldiers plunge through the shimmering violet event horizon, disappearing into the void.",
       "mood": "army crossing dimensions",
-      "sfx": "FLASH-FLASH-FLASH!!"
+      "sfx": "FLASH-FLASH-FLASH!!",
+      "prose_en": "Column after column of soldiers plunge through the shimmering violet event horizon, disappearing into the void.",
+      "prose_hi": "Sainikon ke ek ke baad ek stambh jhilmilate baingani ghatna kshitij se hokar shunya mein lupt ho rahe han."
     },
     {
       "id": "p27",
@@ -376,7 +428,9 @@
       "characters": [],
       "action": "The pier grows still; only the cooling rain and fading mana steam linger on the empty concrete tarmac.",
       "mood": "the world left behind",
-      "sfx": "RAIN PATTER..."
+      "sfx": "RAIN PATTER...",
+      "prose_en": "The pier grows still; only the cooling rain and fading mana steam linger on the empty concrete tarmac.",
+      "prose_hi": "Ghat abhi bhi badhta hai; keval thandi baarish aur lupt hoti maina bhaap khali concrete tarmac par tiki rehti hai."
     },
     {
       "id": "p28",
@@ -398,7 +452,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun flies through a kaleidoscopic vortex of purple stardust, nebula gas, and shattered space-time geometry.",
+      "prose_hi": "Ha-jun baingani stardst, nebula gas aur toote hue antriksh-samay jyamiti ke bahurupadarshak bhanwar ke madhyam se udta hai."
     },
     {
       "id": "p29",
@@ -421,7 +477,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro matches his speed, leaving a blazing contrail of purple solar wind: 'Tartarus perimeter in five seconds!'.",
+      "prose_hi": "Kuro apni gati se mail khata hai, aur baingani saur hawa ka ek dhadhkta hua kantrol chhodta hai: 'panch second mein tarters paridhi!'."
     },
     {
       "id": "p30",
@@ -442,7 +500,9 @@
             0.16
           ]
         }
-      ]
+      ],
+      "prose_en": "The portal shatters outward: before them looms the terrifying, alien cosmos of Tartarus—a black sky of shattered moons.",
+      "prose_hi": "Portal bahar ki or bikhar jata hai: unke samne tarters ka bhayanak, videshi brahmand - toote hue chandramaon ka ek kala aakash - mandarata hai."
     }
   ]
 }

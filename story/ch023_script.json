@@ -10,90 +10,158 @@
       "id": "p01",
       "shot": "releasing blood spears liquefied flow",
       "setting": "campus tennis courts",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun stands panting in the rubble, raising his left hand: The crystalline blood spears pinning Captain Baek liquefy into scarlet streams.",
       "mood": "mercy after victory",
-      "sfx": "LIQUEFY-SHUUUK..."
+      "sfx": "LIQUEFY-SHUUUK...",
+      "prose_en": "Ha-Jun stands panting in the rubble, raising his left hand: The crystalline blood spears pinning Captain Baek liquefy into scarlet streams.",
+      "prose_hi": "Ha-jun malbe mein hanfta hua khada hai, apna bayan haath upar utha raha hai: captain bak ko pakadne wale crystaliy rakt bhale lal rang ki dharaon mein dravibhut ho rahe han."
     },
     {
       "id": "p02",
       "shot": "blood absorbing into silver ring macro",
       "setting": "campus tennis courts",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "The scarlet streams flow smoothly back into the Ring of Hollow Blood on Ha-Jun's finger, leaving Captain Baek free of physical restraint.",
       "mood": "seamless relic retrieval",
-      "sfx": "SWISH-SLURP..."
+      "sfx": "SWISH-SLURP...",
+      "prose_en": "The scarlet streams flow smoothly back into the Ring of Hollow Blood on Ha-Jun's finger, leaving Captain Baek free of physical restraint.",
+      "prose_hi": "Lal rang ki dharayen ha-jun ki ungli par ring off hollow blood mein aasani se pravahit hoti han, jisse captain bake sharirik sanyam se mukt ho jaate han."
     },
     {
       "id": "p03",
       "shot": "captain baek collapsing on one knee",
       "setting": "campus tennis courts",
-      "characters": ["hunter_captain_baek"],
+      "characters": [
+        "hunter_captain_baek"
+      ],
       "action": "Captain Baek collapses to one knee, clutching his bleeding shoulder, staring up at Ha-Jun in absolute, stunned bewilderment.",
       "mood": "uncomprehending shock",
-      "sfx": "THUD-PANT..."
+      "sfx": "THUD-PANT...",
+      "prose_en": "Captain Baek collapses to one knee, clutching his bleeding shoulder, staring up at Ha-Jun in absolute, stunned bewilderment.",
+      "prose_hi": "Capton bak ek ghutne par gir jata hai, apne khoon bahte kandhe ko pakdkar, ha-jun ko puri tarah se stabdh hokar ghurta hai."
     },
     {
       "id": "p04",
       "shot": "baek hoarse questioning close-up",
       "setting": "campus tennis courts",
-      "characters": ["hunter_captain_baek"],
+      "characters": [
+        "hunter_captain_baek"
+      ],
       "action": "Baek speaks in a hoarse, ragged voice: 'Kyun...? Tumne mujhe khatam kyun nahi kiya? Tumhare paas aakhri vaar tha.'",
       "mood": "vulnerable confusion",
       "dialogue": [
-        {"type": "speech", "speaker": "hunter_captain_baek", "text": "Kyun...? Tumne mujhe maar kyun nahi diya?", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hunter_captain_baek",
+          "text": "Kyun...? Tumne mujhe maar kyun nahi diya?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Baek speaks in a hoarse, ragged voice: 'Kyun...? Tumne mujhe khatam kyun nahi kiya? Tumhare paas aakhri vaar tha.'.",
+      "prose_hi": "Bek karksh, fati awaz mein bolta hai: 'kyon...? tumne mujhe khatam kyon nahin kiya? tumhare paas aakhiri baar tha.'."
     },
     {
       "id": "p05",
       "shot": "hajun wiping blood tired human gaze",
       "setting": "campus tennis courts",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun wipes scarlet blood from his split lip, looking at Baek with tired, profoundly human eyes: 'Kyunki mere bhai ne isliye jaan nahi di thi... taaki main ek darinda ban jaaun.'",
       "mood": "pure moral conviction",
       "dialogue": [
-        {"type": "speech", "speaker": "hajun", "text": "Mera bhai isliye nahi mara taaki main darinda banu.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Mera bhai isliye nahi mara taaki main darinda banu.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun wipes scarlet blood from his split lip, looking at Baek with tired, profoundly human eyes: 'Kyunki mere bhai ne isliye jaan nahi di thi... taaki main ek darinda ban jaaun.'.",
+      "prose_hi": "Ha-jun apne kate hue honth se lal rang ka khoon ponchta hai, thaki hui gahri manviya aankhon se bak ko dekhta hai: 'kyonki mere bhai ne isliye jaan nahin di thi...taaki main ek darinda ban jaun.'"
     },
     {
       "id": "p06",
       "shot": "baek frozen in emotional shock",
       "setting": "campus tennis courts",
-      "characters": ["hunter_captain_baek"],
+      "characters": [
+        "hunter_captain_baek"
+      ],
       "action": "Baek freezes; the sincerity in the teenager's eyes pierces through seven years of hardened military conditioning.",
       "mood": "shattered preconceptions",
       "dialogue": [
-        {"type": "thought", "speaker": "hunter_captain_baek", "text": "Yeh aawaz... bilkul Tae-Jun jaisi thi...", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hunter_captain_baek",
+          "text": "Yeh aawaz... bilkul Tae-Jun jaisi thi...",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Baek freezes; the sincerity in the teenager's eyes pierces through seven years of hardened military conditioning.",
+      "prose_hi": "Bek jam jata hai; saat saal ki kathor sainya conditioning se kishore ki aankhon mein imandari jhalakti hai."
     },
     {
       "id": "p07",
       "shot": "tossing tae-jun journal onto grass",
       "setting": "campus tennis courts",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun pulls Tae-Jun's leather journal from his shredded blazer pocket, tossing it onto the grass in front of Baek's knees.",
       "mood": "presenting the evidence",
-      "sfx": "THUD-FLIP..."
+      "sfx": "THUD-FLIP...",
+      "prose_en": "Ha-Jun pulls Tae-Jun's leather journal from his shredded blazer pocket, tossing it onto the grass in front of Baek's knees.",
+      "prose_hi": "Ha-jun ne taaye-jun ki chamde ki patrika ko apni kati hui blazer jeb se nikala aur use bak ke ghutnon ke samne ghas par fenk diya."
     },
     {
       "id": "p08",
       "shot": "instruction to read bureau secrets",
       "setting": "campus tennis courts",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun: 'Apne Bureau ke sach ko padho. Wo saat saal se tum sabko bewakoof bana rahe hain.'",
       "mood": "truth delivered",
       "dialogue": [
-        {"type": "speech", "speaker": "hajun", "text": "Bureau ke sach ko padho. Wo tumse jhooth bol rahe hain.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Bureau ke sach ko padho. Wo tumse jhooth bol rahe hain.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun: 'Apne Bureau ke sach ko padho. Wo saat saal se tum sabko bewakoof bana rahe hain.'.",
+      "prose_hi": "Ha-jun: 'apne bureau ke sach ko padho. woh saat saal se tum sabko bewakoof bana rahe ho.'"
     },
     {
       "id": "p09",
       "shot": "baek opening yellowed pages macro",
       "setting": "campus tennis courts",
-      "characters": ["hunter_captain_baek"],
+      "characters": [
+        "hunter_captain_baek"
+      ],
       "action": "Baek opens the brittle pages with bloodstained trembling fingers; official Bureau directorate seals leap out from the text.",
       "mood": "forbidden reading",
-      "sfx": "PAGE-TURN..."
+      "sfx": "PAGE-TURN...",
+      "prose_en": "Baek opens the brittle pages with bloodstained trembling fingers; official Bureau directorate seals leap out from the text.",
+      "prose_hi": "Bak khoon se sunny kampati ungaliyon se najuk panne kholta hai; adhikarik bureau nideshalay ki muharen path se bahar nikal jaati han."
     },
     {
       "id": "p10",
@@ -103,30 +171,64 @@
       "action": "Close-up on the document: Official high-level authorizations for Project Chimera: Harvesting demonic relics for artificial soldier hybridization.",
       "mood": "horrifying institutional betrayal",
       "dialogue": [
-        {"type": "speech", "speaker": null, "text": "'Project Chimera: Authorized by Bureau High Command.'", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": null,
+          "text": "'Project Chimera: Authorized by Bureau High Command.'",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Close-up on the document: Official high-level authorizations for Project Chimera: Harvesting demonic relics for artificial soldier hybridization.",
+      "prose_hi": "Dastavez par clos-up: project chimera ke liye adhikarik ucch-stariy pradhikaran: kritrim sainik sankaran ke liye rakshasi avsheshon ki katai."
     },
     {
       "id": "p11",
       "shot": "baek scarred face twisting in bitter realization",
       "setting": "campus tennis courts",
-      "characters": ["hunter_captain_baek"],
+      "characters": [
+        "hunter_captain_baek"
+      ],
       "action": "Baek's face pales: 'Director ne yeh approve kiya tha?! Saat saal pehle Tae-Jun gaddaar nahi tha... wo lab ko containment breach se bacha raha tha!'",
       "mood": "crushing guilt",
       "dialogue": [
-        {"type": "thought", "speaker": "hunter_captain_baek", "text": "Tae-Jun gaddaar nahi tha... wo lab bacha raha tha!", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hunter_captain_baek",
+          "text": "Tae-Jun gaddaar nahi tha... wo lab bacha raha tha!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Baek's face pales: 'Director ne yeh approve kiya tha?! Saat saal pehle Tae-Jun gaddaar nahi tha... wo lab ko containment breach se bacha raha tha!'.",
+      "prose_hi": "Bek ka chehra peela pad gaya: 'nirdeshak ne yeh manjoor kiya tha?' saat saal pehle taaye-jun gaddar nahin tha...vo lab ko roktham ullanghan se bacha raha tha!'"
     },
     {
       "id": "p12",
       "shot": "head lowered in heavy shame",
       "setting": "campus tennis courts",
-      "characters": ["hunter_captain_baek"],
+      "characters": [
+        "hunter_captain_baek"
+      ],
       "action": "Baek lowers his head toward the mud: 'Maine us aadmi ke chote bhai ka shikar kiya... jisne mere logon ke liye apni jaan daav par laga di.'",
       "mood": "profound redemption",
       "dialogue": [
-        {"type": "speech", "speaker": "hunter_captain_baek", "text": "Maine Tae-Jun ke bhai ka shikar kiya...", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hunter_captain_baek",
+          "text": "Maine Tae-Jun ke bhai ka shikar kiya...",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Baek lowers his head toward the mud: 'Maine us aadmi ke chote bhai ka shikar kiya... jisne mere logon ke liye apni jaan daav par laga di.'.",
+      "prose_hi": "Bak apna sir kichad ki or jhukata hai: 'maine us aadmi ke chhote bhai ka shikar kiya... jisne mere logon ke liye apni jaan daav par laga di.'"
     },
     {
       "id": "p13",
@@ -135,82 +237,161 @@
       "characters": [],
       "action": "In the distance, tactical vehicle headlights and spotlights sweep across the tennis courts; shouting operatives draw near.",
       "mood": "closing reinforcements",
-      "sfx": "SIREN-WHEEL..."
+      "sfx": "SIREN-WHEEL...",
+      "prose_en": "In the distance, tactical vehicle headlights and spotlights sweep across the tennis courts; shouting operatives draw near.",
+      "prose_hi": "Duri men, samrik vahan headlights aur spotlights tennis court mein faili hui han; chillate hue sanchalak nikat aate han."
     },
     {
       "id": "p14",
       "shot": "baek urgent escape route instruction",
       "setting": "campus tennis courts",
-      "characters": ["hunter_captain_baek"],
+      "characters": [
+        "hunter_captain_baek"
+      ],
       "action": "Baek looks up urgently: 'Reinforcements aa rahi hain. Apne dost ko lekar athletic building ke piche underground tunnel se bhaag jao.'",
       "mood": "ally in the shadows",
       "dialogue": [
-        {"type": "speech", "speaker": "hunter_captain_baek", "text": "Tunnel se nikal jao! Reinforcements aa rahi hain!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hunter_captain_baek",
+          "text": "Tunnel se nikal jao! Reinforcements aa rahi hain!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Baek looks up urgently: 'Reinforcements aa rahi hain. Apne dost ko lekar athletic building ke piche underground tunnel se bhaag jao.'.",
+      "prose_hi": "Bek ne turant upar dekha: 'sudridhikaran aa rahi han. apne dost ko lekar athletic building ke peeche underground tunnel se bhag jao.'"
     },
     {
       "id": "p15",
       "shot": "hajun surprised glance",
       "setting": "campus tennis courts",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun blinks in mild surprise: 'Tum humein jaane de rahe ho?'",
       "mood": "unexpected turn",
       "dialogue": [
-        {"type": "speech", "speaker": "hajun", "text": "Tum humein jaane de rahe ho?", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Tum humein jaane de rahe ho?",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun blinks in mild surprise: 'Tum humein jaane de rahe ho?'.",
+      "prose_hi": "Ha-jun halke aashcharya se palkein jhapkate han: 'tum hamen jaane de rahe ho?'."
     },
     {
       "id": "p16",
       "shot": "sheathing broken claymore",
       "setting": "campus tennis courts",
-      "characters": ["hunter_captain_baek"],
+      "characters": [
+        "hunter_captain_baek"
+      ],
       "action": "Baek snaps his broken claymore back into his scabbard: 'Main report dunga ki carrier bhaag gaya aur Jun-Hyuk ne gaddaari ki. Ab jao!'",
       "mood": "honorable soldier pact",
       "dialogue": [
-        {"type": "speech", "speaker": "hunter_captain_baek", "text": "Main report sambhaal lunga. Ab jao!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hunter_captain_baek",
+          "text": "Main report sambhaal lunga. Ab jao!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Baek snaps his broken claymore back into his scabbard: 'Main report dunga ki carrier bhaag gaya aur Jun-Hyuk ne gaddaari ki. Ab jao!'.",
+      "prose_hi": "Bake ne apne toote hue clamor ko wapas apne myan mein rakh liya: 'mukhya report dunga ki career bhag gaya aur jun-hyuk ne gaddari ki. ab jao!'."
     },
     {
       "id": "p17",
       "shot": "supporting min-jae into service tunnel",
       "setting": "service tunnel entrance",
-      "characters": ["hajun", "min_jae"],
+      "characters": [
+        "hajun",
+        "min_jae"
+      ],
       "action": "Ha-Jun slings Min-Jae's arm around his neck, supporting his limping friend into the shadowed service maintenance tunnel.",
       "mood": "brotherly escape",
-      "sfx": "STEP-CREAK..."
+      "sfx": "STEP-CREAK...",
+      "prose_en": "Ha-Jun slings Min-Jae's arm around his neck, supporting his limping friend into the shadowed service maintenance tunnel.",
+      "prose_hi": "Ha-jun ne min-je ki baanh ko apni gardan ke charon or lapet liya, aur apne langdate dost ko chhayadar seva rakhrakhav surang mein sahara diya."
     },
     {
       "id": "p18",
       "shot": "min-jae weak comedic smile",
       "setting": "service tunnel interior",
-      "characters": ["min_jae"],
+      "characters": [
+        "min_jae"
+      ],
       "action": "Min-Jae smiles through his cracked glasses: 'Bhai... tumne Rank-A Captain ko hara kar use hamari madad karne par majboor kar diya.'",
       "mood": "humorous awe",
       "dialogue": [
-        {"type": "speech", "speaker": "min_jae", "text": "Bhai... tumne sach mein Rank-A Captain ko hara diya!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "min_jae",
+          "text": "Bhai... tumne sach mein Rank-A Captain ko hara diya!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Min-Jae smiles through his cracked glasses: 'Bhai... tumne Rank-A Captain ko hara kar use hamari madad karne par majboor kar diya.'.",
+      "prose_hi": "Min-je apne toote hue chashme ke madhyam se muskurate han: 'bhai... tumne rank-e captain ko hara kar use hamari madad karne par majboor kar diya.'"
     },
     {
       "id": "p19",
       "shot": "hajun quiet chuckle in shadows",
       "setting": "service tunnel interior",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun chuckles softly: 'Pehle apartment pahunchne do... isse pehle ki mere pair jawab de dein.'",
       "mood": "human vulnerability returns",
       "dialogue": [
-        {"type": "speech", "speaker": "hajun", "text": "Pehle zinda ghar pahunchne do.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Pehle zinda ghar pahunchne do.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun chuckles softly: 'Pehle apartment pahunchne do... isse pehle ki mere pair jawab de dein.'.",
+      "prose_hi": "Ha-jun dheere se hansta hai: 'pahle apartment pahno...isse pehle ki mere jode jawab de den.'"
     },
     {
       "id": "p20",
       "shot": "kuro landing on shoulder gaze up",
       "setting": "service tunnel exit",
-      "characters": ["kuro"],
+      "characters": [
+        "kuro"
+      ],
       "action": "Kuro alights firmly on Ha-Jun's shoulder, his crimson eyes locking onto the high library tower roof: 'Ha-Jun... koi aur bhi humein dekh raha hai.'",
       "mood": "unsettling presence",
       "dialogue": [
-        {"type": "speech", "speaker": "kuro", "text": "Ha-Jun... koi aur bhi humein dekh raha hai.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Ha-Jun... koi aur bhi humein dekh raha hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Kuro alights firmly on Ha-Jun's shoulder, his crimson eyes locking onto the high library tower roof: 'Ha-Jun... koi aur bhi humein dekh raha hai.'.",
+      "prose_hi": "Kuro ha-jun ke kandhe par majbuti se baithta hai, uski lal aankhen unchi library tower ki chhat par tik jaati han: 'ha-jun... koi aur bhi hamen dekh raha hai.'"
     },
     {
       "id": "p21",
@@ -219,18 +400,32 @@
       "characters": [],
       "action": "500 meters away atop the library spire: A shadowy figure wearing a porcelain crimson demon mask and black cape rests a scythe on his shoulder.",
       "mood": "ominous abyss envoy",
-      "sfx": "WIND-HOWL..."
+      "sfx": "WIND-HOWL...",
+      "prose_en": "500 meters away atop the library spire: A shadowy figure wearing a porcelain crimson demon mask and black cape rests a scythe on his shoulder.",
+      "prose_hi": "500 meter door pustakalaya shikhar ke upar: chini mitti ke gahre lal rang ka danav mukhauta aur kali topi pahane ek chhayadar aakriti apne kandhe par ek daranti rakhe hue hai."
     },
     {
       "id": "p22",
       "shot": "demonic perception zoom on masked figure",
       "setting": "library roof zoom perspective",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Through his violet demonic perception, Ha-Jun zooms across the distance: The masked figure emits ancient, terrifying Abyssal wavelength.",
       "mood": "true monster spotted",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "Yeh Hunter nahi hai... yeh Abyss ka koi Lord hai!", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Yeh Hunter nahi hai... yeh Abyss ka koi Lord hai!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Through his violet demonic perception, Ha-Jun zooms across the distance: The masked figure emits ancient, terrifying Abyssal wavelength.",
+      "prose_hi": "Apni baingani rakshasi dharna ke madhyam se, ha-jun door tak zoom karta hai: nakabposh aakriti prachin, bhayanak abisal tarang dairdhya ka utsarjan karti hai."
     },
     {
       "id": "p23",
@@ -239,18 +434,32 @@
       "characters": [],
       "action": "The masked Envoy raises two gloved fingers to his temple, giving Ha-Jun a chilling, mocking salute before stepping off the ledge.",
       "mood": "silent challenge",
-      "sfx": "SWISH..."
+      "sfx": "SWISH...",
+      "prose_en": "The masked Envoy raises two gloved fingers to his temple, giving Ha-Jun a chilling, mocking salute before stepping off the ledge.",
+      "prose_hi": "Nakabposh doot apne mandir ki or do dastaane wali ungaliyan uthata hai aur kagaar se utarne se pehle ha-jun ko ek thandi, majakiya salami deta hai."
     },
     {
       "id": "p24",
       "shot": "kuro terror warning envoy of lords",
       "setting": "service tunnel exit",
-      "characters": ["kuro"],
+      "characters": [
+        "kuro"
+      ],
       "action": "Kuro whispers in cold dread: 'Wo Demon Lords ka Envoy hai! Abyss ke shikari dharti par utar chuke hain!'",
       "mood": "war escalates",
       "dialogue": [
-        {"type": "speech", "speaker": "kuro", "text": "Demon Lords ka Envoy... wo aa chuke hain!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Demon Lords ka Envoy... wo aa chuke hain!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Kuro whispers in cold dread: 'Wo Demon Lords ka Envoy hai! Abyss ke shikari dharti par utar chuke hain!'.",
+      "prose_hi": "Kuro thande bhay se fusfusata hai: 'vo danav lords ka doot hai! rasatal ke shikari dharti par utar chuke han!'."
     },
     {
       "id": "p25",
@@ -259,18 +468,32 @@
       "characters": [],
       "action": "The masked figure dissolves into thousands of screeching black demonic bats that scatter into the night sky over Seoul.",
       "mood": "dispersal into the shadows",
-      "sfx": "BAT-FLAP-SCREECH!!"
+      "sfx": "BAT-FLAP-SCREECH!!",
+      "prose_en": "The masked figure dissolves into thousands of screeching black demonic bats that scatter into the night sky over Seoul.",
+      "prose_hi": "Nakabposh aakriti hajaron chikhate hue kale rakshasi chamgadadon mein vilin ho jaati hai jo seoul ke raat ke aakash mein bikhar jaate han."
     },
     {
       "id": "p26",
       "shot": "safe emergence on quiet residential street",
       "setting": "quiet suburban street",
-      "characters": ["hajun", "min_jae"],
+      "characters": [
+        "hajun",
+        "min_jae"
+      ],
       "action": "Ha-Jun and Min-Jae emerge safely onto a quiet, wet residential street, distant sirens fading behind campus walls.",
       "mood": "breathing room",
       "dialogue": [
-        {"type": "narration", "text": "Unhone pehli ladai jeet li thi.", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "narration",
+          "text": "Unhone pehli ladai jeet li thi.",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun and Min-Jae emerge safely onto a quiet, wet residential street, distant sirens fading behind campus walls.",
+      "prose_hi": "Ha-jun aur min-je ek shant, gili avasiya sadak par surakshit roop se nikalte han, parisar ki diwaron ke peeche door sthit siren baj rahe han."
     },
     {
       "id": "p27",
@@ -280,17 +503,30 @@
       "action": "Royal purple system prompt chimes: [ARC 2: THE HIDDEN BLOODLINE — COMPLETED] | [SYNCHRONIZATION: 25.0%] | [NEW TITLE: SOVEREIGN OF HOLLOW BLOOD].",
       "mood": "arc milestone reached",
       "dialogue": [
-        {"type": "system", "text": "[ARC 2 COMPLETED] [SYNCHRONIZATION: 25.0%] [TITLE: SOVEREIGN OF HOLLOW BLOOD]", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "system",
+          "text": "[ARC 2 COMPLETED] [SYNCHRONIZATION: 25.0%] [TITLE: SOVEREIGN OF HOLLOW BLOOD]",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "Royal purple system prompt chimes: [ARC 2: THE HIDDEN BLOODLINE — COMPLETED] | [SYNCHRONIZATION: 25.0%] | [NEW TITLE: SOVEREIGN OF HOLLOW BLOOD].",
+      "prose_hi": "Roil purple system prompt jhankar: [arc 2: the hidden bladlin - purn] | [sinkranization: 25.0%] | [naya shirshak: khokhale khoon ki samprabhuta]."
     },
     {
       "id": "p28",
       "shot": "ring pulsing toward east observatory macro",
       "setting": "quiet suburban street",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "The Ring of Hollow Blood on Ha-Jun's finger suddenly pulses with a directional resonance beacon pointing east toward the University Observatory.",
       "mood": "next relic call",
-      "sfx": "PING... PING..."
+      "sfx": "PING... PING...",
+      "prose_en": "The Ring of Hollow Blood on Ha-Jun's finger suddenly pulses with a directional resonance beacon pointing east toward the University Observatory.",
+      "prose_hi": "Ha-jun ki ungli par khokhale khoon ki anguthi achanak ek dishatmak anunaad bikan ke saath vishwavidyalaya vedhshala ki or purva ki or ishara karti hai."
     },
     {
       "id": "p29",
@@ -300,19 +536,41 @@
       "action": "System UI flashes: [NEXT RELIC DETECTED: BONE OF THE FORGOTTEN (BASIC)] | [LOCATION: EAST OBSERVATORY CRYPT].",
       "mood": "quest objective updated",
       "dialogue": [
-        {"type": "system", "text": "[NEW RELIC: BONE OF THE FORGOTTEN] [LOCATION: EAST OBSERVATORY]", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "system",
+          "text": "[NEW RELIC: BONE OF THE FORGOTTEN] [LOCATION: EAST OBSERVATORY]",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "System UI flashes: [NEXT RELIC DETECTED: BONE OF THE FORGOTTEN (BASIC)] | [LOCATION: EAST OBSERVATORY CRYPT].",
+      "prose_hi": "Sistm ui flash: [agle avashesh ka pata chala: bhule hue ki haddi (buniyadi)] | [sthan: purvi vedhshala cript]."
     },
     {
       "id": "p30",
       "shot": "grand arc 2 finale cliffhanger",
       "setting": "suburban street under streetlights",
-      "characters": ["hajun", "kuro"],
+      "characters": [
+        "hajun",
+        "kuro"
+      ],
       "action": "Grand Arc 2 finale spread: Ha-Jun Kang stands under yellow sodium streetlights, his ring glowing and eyes shining violet: 'Shikar shuru ho chuka hai. Agla nishana: Bone of the Forgotten.'",
       "mood": "arc 2 grand finale, arc 3 begins",
       "dialogue": [
-        {"type": "speech", "speaker": "hajun", "text": "Shikar shuru ho chuka hai. Agla nishana: Bone of the Forgotten.", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Shikar shuru ho chuka hai. Agla nishana: Bone of the Forgotten.",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "His ring glowing and eyes shining violet: 'Shikar shuru ho chuka hai. Agla nishana: Bone of the Forgotten.'.",
+      "prose_hi": "Uski anguthi chamak rahi thi aur aankhen baingani rang se chamak rahi thin: 'shikar shuru ho chuka hai. agla nishana: bhuli hui haddi.'"
     }
   ]
 }

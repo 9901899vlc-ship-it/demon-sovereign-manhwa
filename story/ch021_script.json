@@ -10,105 +10,202 @@
       "id": "p01",
       "shot": "healing kneeling in mud close-up",
       "setting": "old auditorium lawn",
-      "characters": ["hajun", "min_jae"],
+      "characters": [
+        "hajun",
+        "min_jae"
+      ],
       "action": "Ha-Jun kneels in the mud beside Min-Jae, channeling a gentle ring of violet mana into his bruised ribs to accelerate biological healing.",
       "mood": "tender protective brotherhood",
-      "sfx": "GLOW-HUM..."
+      "sfx": "GLOW-HUM...",
+      "prose_en": "Ha-Jun kneels in the mud beside Min-Jae, channeling a gentle ring of violet mana into his bruised ribs to accelerate biological healing.",
+      "prose_hi": "Ha-jun min-je ke bagal mein kichad mein ghutne tekata hai, jaivik upchar mein teji laane ke liye uski chotil pasliyon mein baingani maina ki ek komal anguthi dalta hai."
     },
     {
       "id": "p02",
       "shot": "min-jae weak warning whisper",
       "setting": "old auditorium lawn",
-      "characters": ["min_jae"],
+      "characters": [
+        "min_jae"
+      ],
       "action": "Min-Jae opens his eyes with difficulty, coughing weakly: 'H-Ha-Jun... wo Rank-A Captain hai... usse mat lado... bhaag jao...'",
       "mood": "loyal desperate warning",
       "dialogue": [
-        {"type": "whisper", "speaker": "min_jae", "text": "Wo Rank-A Captain hai... bhaag jao...", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "whisper",
+          "speaker": "min_jae",
+          "text": "Wo Rank-A Captain hai... bhaag jao...",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Min-Jae opens his eyes with difficulty, coughing weakly: 'H-Ha-Jun... wo Rank-A Captain hai... usse mat lado... bhaag jao...'.",
+      "prose_hi": "Min-je mushkil se apni aankhen kholta hai, kamjor khanste hue: 'h-ha-jun... woh rank-e captain hai... usse mat lado... bhag jao...'."
     },
     {
       "id": "p03",
       "shot": "soothing reassurance portrait",
       "setting": "old auditorium lawn",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun gently squeezes his friend's shoulder: 'Aaraam karo, Min-Jae. Tumne apna hissa poora kar diya.'",
       "mood": "solemn warrior composure",
       "dialogue": [
-        {"type": "speech", "speaker": "hajun", "text": "Aaraam karo, Min-Jae. Main sambhaal lunga.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Aaraam karo, Min-Jae. Main sambhaal lunga.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun gently squeezes his friend's shoulder: 'Aaraam karo, Min-Jae. Tumne apna hissa poora kar diya.'.",
+      "prose_hi": "Ha-jun ne dheere se apne dost ka kandha dabaya: 'aram karo, min-je. tumne apna hisab pura kar diya.'"
     },
     {
       "id": "p04",
       "shot": "claymore carving smoking trench",
       "setting": "old auditorium lawn",
-      "characters": ["hunter_captain_baek"],
+      "characters": [
+        "hunter_captain_baek"
+      ],
       "action": "Captain Baek approaches with heavy, unhurried strides, the tip of his holy claymore dragging through the wet turf and carving a smoking furrow.",
       "mood": "unstoppable executioner",
-      "sfx": "SKRRRRR-SIZZLE..."
+      "sfx": "SKRRRRR-SIZZLE...",
+      "prose_en": "Captain Baek approaches with heavy, unhurried strides, the tip of his holy claymore dragging through the wet turf and carving a smoking furrow.",
+      "prose_hi": "Capton bak bhari, aswabhavik kadmon ke saath aage badhta hai, uski pavitra mitti ki nok gile maidan ke madhyam se ghasitati hai aur ek dhuaadar naali banati hai."
     },
     {
       "id": "p05",
       "shot": "disgusted glance at fallen hybrid",
       "setting": "old auditorium lawn",
-      "characters": ["hunter_captain_baek"],
+      "characters": [
+        "hunter_captain_baek"
+      ],
       "action": "Baek glances at the unconscious, broken body of Jun-Hyuk with utter disdain: 'Jun-Hyuk ne demonic serum lekar wardi ko daagdaar kiya. Par tum... tum paidaishi shaitan ho.'",
       "mood": "cold condemnation",
       "dialogue": [
-        {"type": "speech", "speaker": "hunter_captain_baek", "text": "Tum paidaishi shaitan ho, Kang Ha-Jun.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hunter_captain_baek",
+          "text": "Tum paidaishi shaitan ho, Kang Ha-Jun.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Baek glances at the unconscious, broken body of Jun-Hyuk with utter disdain: 'Jun-Hyuk ne demonic serum lekar wardi ko daagdaar kiya. Par tum... tum paidaishi shaitan ho.'.",
+      "prose_hi": "Bek ne jun-hyuk ke behosh, toote hue shareer ko puri tarah se tiraskar ke saath dekha: 'jun-hyuk ne rakshasi serum lekar vardi ko daagdaar kiya. par tum... tum paidaishi shaitan ho.'"
     },
     {
       "id": "p06",
       "shot": "standing to face captain eye to eye",
       "setting": "old auditorium lawn",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun rises to his full height, staring straight into Baek's scarred eye: 'Main tumhara dushman nahi hoon. Main sirf ek student hoon jo apne dost ko bacha raha hai.'",
       "mood": "principled defiance",
       "dialogue": [
-        {"type": "speech", "speaker": "hajun", "text": "Main sirf ek student hoon jo apne dost ko bacha raha hai.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hajun",
+          "text": "Main sirf ek student hoon jo apne dost ko bacha raha hai.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun rises to his full height, staring straight into Baek's scarred eye: 'Main tumhara dushman nahi hoon. Main sirf ek student hoon jo apne dost ko bacha raha hai.'.",
+      "prose_hi": "Ha-jun apni puri unchai par khada ho jata hai aur sidhe bake ki jakhmi aankh mein dekhta hai: 'main tumhara dushman nahin hun. main sirf ek student hun jo apne dost ko bacha raha hai.'"
     },
     {
       "id": "p07",
       "shot": "baek bitter cynical laugh",
       "setting": "old auditorium lawn",
-      "characters": ["hunter_captain_baek"],
+      "characters": [
+        "hunter_captain_baek"
+      ],
       "action": "Baek laughs bitterly: 'Saat saal pehle tumhare bhai Tae-Jun ne bhi yahi kaha tha... isse pehle ki usne mere baees sathiyon ko zinda cheer diya.'",
       "mood": "horrific revelation",
       "dialogue": [
-        {"type": "speech", "speaker": "hunter_captain_baek", "text": "Saat saal pehle Tae-Jun ne mere 22 sathiyon ko maar daala tha!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hunter_captain_baek",
+          "text": "Saat saal pehle Tae-Jun ne mere 22 sathiyon ko maar daala tha!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Baek laughs bitterly: 'Saat saal pehle tumhare bhai Tae-Jun ne bhi yahi kaha tha... isse pehle ki usne mere baees sathiyon ko zinda cheer diya.'.",
+      "prose_hi": "Bek foot-foot kar hanste han: 'saat saal pehle tumhare bhai taaye-jun ne bhi yahi kaha tha...isse pehle ki usne mere bees sathiyon ko jinda khush kar diya.'"
     },
     {
       "id": "p08",
       "shot": "hajun shocked disbelief eye macro",
       "setting": "old auditorium lawn",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Extreme close-up on Ha-Jun's wide eyes: 'Bhaiya ne tumhare logo ko maara?! Jhooth! Wo sirf logo ko bachate the!'",
       "mood": "shattering cognitive dissonance",
       "dialogue": [
-        {"type": "shout", "speaker": "hajun", "text": "JHOOTH! Bhaiya kisi begunah ko nahi maar sakte!", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "JHOOTH! Bhaiya kisi begunah ko nahi maar sakte!",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun's wide eyes: 'Bhaiya ne tumhare logo ko maara?! Jhooth! Wo sirf logo ko bachate the!'.",
+      "prose_hi": "Ha-jun ki chaudi aankhen: 'bhaiya ne tumhare logon ko mara?! jhuth! woh sirf logo ko bachate the!'."
     },
     {
       "id": "p09",
       "shot": "claymore aimed at heart explanation",
       "setting": "old auditorium lawn",
-      "characters": ["hunter_captain_baek"],
+      "characters": [
+        "hunter_captain_baek"
+      ],
       "action": "Baek points the broad blade at Ha-Jun's chest: 'Demon blood ek abhishap hai. Jitne relics ko chhooge, utna hi insaani dimaag khatam hota jayega jab tak sirf darinda na bache.'",
       "mood": "the tragic curse explained",
       "dialogue": [
-        {"type": "speech", "speaker": "hunter_captain_baek", "text": "Relics tumhari insaaniyat ko nigal jaate hain.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hunter_captain_baek",
+          "text": "Relics tumhari insaaniyat ko nigal jaate hain.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Baek points the broad blade at Ha-Jun's chest: 'Demon blood ek abhishap hai. Jitne relics ko chhooge, utna hi insaani dimaag khatam hota jayega jab tak sirf darinda na bache.'.",
+      "prose_hi": "Bak ha-jun ki chhati par chaude blade ki or ishara karta hai: 'rakshs rakt ek abhishap hai. jitne avsheshon ko chhodenge, utna hi insaani dimaag khatam hota jayega jab tak sirf darinda na bache.'"
     },
     {
       "id": "p10",
       "shot": "rank-a holy wings manifestation",
       "setting": "old auditorium lawn",
-      "characters": ["hunter_captain_baek"],
+      "characters": [
+        "hunter_captain_baek"
+      ],
       "action": "Baek unleashes his Class-A holy aura: Two radiant golden light wings erupt from his shoulder blades, blinding the surrounding yard.",
       "mood": "paladin majesty",
-      "sfx": "SHIIIIINNNNGG!!"
+      "sfx": "SHIIIIINNNNGG!!",
+      "prose_en": "Baek unleashes his Class-A holy aura: Two radiant golden light wings erupt from his shoulder blades, blinding the surrounding yard.",
+      "prose_hi": "Bak ne apni clas-e pavitra aabha prakat ki: uske kandhe ke blade se do ujjwal sunhare prakash pankh futate han, jisse aaspaas ka yard andha ho jata hai."
     },
     {
       "id": "p11",
@@ -118,75 +215,128 @@
       "action": "Flashing blood-red system prompt: [EXTREME THREAT: RANK-A HOLY PALADIN] | [POWER DISPARITY: 4.8X] | [RECOMMENDED: RETREAT TO SUBTERRANEAN VOID].",
       "mood": "overwhelming power gap",
       "dialogue": [
-        {"type": "system", "text": "[EXTREME THREAT: RANK-A PALADIN] [RETREAT RECOMMENDED]", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "system",
+          "text": "[EXTREME THREAT: RANK-A PALADIN] [RETREAT RECOMMENDED]",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "Flashing blood-red system prompt: [EXTREME THREAT: RANK-A HOLY PALADIN] | [POWER DISPARITY: 4.8X] | [RECOMMENDED: RETREAT TO SUBTERRANEAN VOID].",
+      "prose_hi": "Chamakta rakt-lal system prompt: [atyadhik khatra: rank-e pavitra rajput] | [shakti asamanta: 4.8X] | [anushansit: bhumigat shunya ki or vaapsi]."
     },
     {
       "id": "p12",
       "shot": "refusal to retreat glance at friend",
       "setting": "old auditorium lawn",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun glances back at unconscious Min-Jae in the mud: 'Main peeche nahi hat sakta. Mera dost peeche hai.'",
       "mood": "unmovable shield",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "Agar main bhaaga... toh yeh Min-Jae ko maar dega.", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Agar main bhaaga... toh yeh Min-Jae ko maar dega.",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun glances back at unconscious Min-Jae in the mud: 'Main peeche nahi hat sakta. Mera dost peeche hai.'.",
+      "prose_hi": "Ha-jun kichad mein behosh min-je ko dekhta hai: 'main peeche nahin hat sakta. mera dost peeche hai.'"
     },
     {
       "id": "p13",
       "shot": "mark of death judgment decree",
       "setting": "old auditorium lawn",
-      "characters": ["hunter_captain_baek"],
+      "characters": [
+        "hunter_captain_baek"
+      ],
       "action": "Baek raises his gauntleted hand: 'Bureau ke aadesh se... main tumhe Mark of Death se daagta hoon.'",
       "mood": "executioner verdict",
       "dialogue": [
-        {"type": "speech", "speaker": "hunter_captain_baek", "text": "Mark of Death! Maut ka nishaan sweekar karo!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hunter_captain_baek",
+          "text": "Mark of Death! Maut ka nishaan sweekar karo!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Baek raises his gauntleted hand: 'Bureau ke aadesh se... main tumhe Mark of Death se daagta hoon.'.",
+      "prose_hi": "Bak apna majboot haath uthata hai: 'buro ke aadesh se... main tumhe mark off death se daagta hun.'"
     },
     {
       "id": "p14",
       "shot": "flying golden brand launch",
       "setting": "old auditorium lawn",
-      "characters": ["hunter_captain_baek"],
+      "characters": [
+        "hunter_captain_baek"
+      ],
       "action": "A flying branding seal of burning golden holy runes shoots across the air like a tracer bullet aimed at Ha-Jun's brow.",
       "mood": "inescapable projectile",
-      "sfx": "ZAP-WHIZZZ!!"
+      "sfx": "ZAP-WHIZZZ!!",
+      "prose_en": "A flying branding seal of burning golden holy runes shoots across the air like a tracer bullet aimed at Ha-Jun's brow.",
+      "prose_hi": "Jalti hui sunhari pavitra runon ki ek udti hui branding seal ha-jun ki bhaunh par ek tracer goli ki tarah hawa mein goli chalati hai."
     },
     {
       "id": "p15",
       "shot": "gauntlet swatting the brand",
       "setting": "old auditorium lawn",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun swings his crystalline demonic gauntlet outward to swat the flying golden seal out of the sky.",
       "mood": "defensive intercept",
-      "sfx": "SWIPE!!"
+      "sfx": "SWIPE!!",
+      "prose_en": "Ha-Jun swings his crystalline demonic gauntlet outward to swat the flying golden seal out of the sky.",
+      "prose_hi": "Ha-jun ne aasman se udti hui sunhari seal ko bahar nikalne ke liye apni crystaliy rakshasi talwar ko bahar ki or ghumaya."
     },
     {
       "id": "p16",
       "shot": "brand burning into crystalline gauntlet macro",
       "setting": "old auditorium lawn",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "The golden holy seal impacts the purple crystal gauntlet and violently burns into the armor, searing a glowing execution cross into the rock.",
       "mood": "searing corruption restriction",
-      "sfx": "HISSSS-SIZZLE!!"
+      "sfx": "HISSSS-SIZZLE!!",
+      "prose_en": "The golden holy seal impacts the purple crystal gauntlet and violently burns into the armor, searing a glowing execution cross into the rock.",
+      "prose_hi": "Sunhari pavitra seal baingani crystal gauntlet par prabhav dalti hai aur kavach mein hinsak roop se jalti hai, jisse chattan mein ek chamakta hua nishpaadan paar ho jata hai."
     },
     {
       "id": "p17",
       "shot": "mana circulation choke agony",
       "setting": "old auditorium lawn",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "The Mark of Death restricts Ha-Jun's demonic mana flow; veins in his right arm turn ashen gray in agonizing holy rejection.",
       "mood": "power crippled",
-      "sfx": "CHOKE-VZZT..."
+      "sfx": "CHOKE-VZZT...",
+      "prose_en": "The Mark of Death restricts Ha-Jun's demonic mana flow; veins in his right arm turn ashen gray in agonizing holy rejection.",
+      "prose_hi": "Maut ka nishan ha-jun ke rakshasi man pravah ko pratibandhit karta hai; uske dahine haath ki nasen pavitra aswikriti ki peeda se raakh hokar dhusar ho gain."
     },
     {
       "id": "p18",
       "shot": "holy severance vertical cleave",
       "setting": "old auditorium lawn",
-      "characters": ["hunter_captain_baek"],
+      "characters": [
+        "hunter_captain_baek"
+      ],
       "action": "Baek closes the gap instantaneously, his massive golden claymore descending in a vertical executioner cleave: 'Holy Severance!'",
       "mood": "lethal strike",
-      "sfx": "SWOOOOOOSH!!"
+      "sfx": "SWOOOOOOSH!!",
+      "prose_en": "Baek closes the gap instantaneously, his massive golden claymore descending in a vertical executioner cleave: 'Holy Severance!'.",
+      "prose_hi": "Bak turant antar ko band kar deta hai, uska vishal sunhara clamor ek udhrvadhar jallad daraar mein utarta hai: 'pavitra prithakkaran!'."
     },
     {
       "id": "p19",
@@ -195,85 +345,144 @@
       "characters": [],
       "action": "Ha-Jun dives sideways; the golden blade cleaves a 40-foot deep trench through the turf, felling two mature oak trees in explosions of wood.",
       "mood": "catastrophic landscape damage",
-      "sfx": "KRAAAA-DOOOOMM!!"
+      "sfx": "KRAAAA-DOOOOMM!!",
+      "prose_en": "Ha-Jun dives sideways; the golden blade cleaves a 40-foot deep trench through the turf, felling two mature oak trees in explosions of wood.",
+      "prose_hi": "Ha-jun bagal mein gota lagata hai; golden blade turf ke madhyam se 40 foot gahri khai ko todta hai, jisse lakdi ke visfoton mein do paripakv oak ke ped gir jaate han."
     },
     {
       "id": "p20",
       "shot": "four-bladed blood shuriken throw",
       "setting": "old auditorium lawn",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Rolling across the mud, Ha-Jun channels the Ring of Hollow Blood: A spinning four-bladed crystalline blood shuriken forms and whips toward Baek.",
       "mood": "ranged blood counter",
-      "sfx": "SHING-SHING-SHING!!"
+      "sfx": "SHING-SHING-SHING!!",
+      "prose_en": "Rolling across the mud, Ha-Jun channels the Ring of Hollow Blood: A spinning four-bladed crystalline blood shuriken forms and whips toward Baek.",
+      "prose_hi": "Kichad mein ludhakte hue, ha-jun khokhale rakt ki anguthi ko prasarit karta hai: ek ghumta hua char-bled wala crystaliy rakt shuriken banta hai aur bak ki or badhta hai."
     },
     {
       "id": "p21",
       "shot": "claymore baseball bat swat shatters blood",
       "setting": "old auditorium lawn",
-      "characters": ["hunter_captain_baek"],
+      "characters": [
+        "hunter_captain_baek"
+      ],
       "action": "Baek casually swats the blood shuriken with the flat of his massive blade, shattering the crimson construct into harmless red droplets.",
       "mood": "effortless parry",
-      "sfx": "CLANG-SPLASH!!"
+      "sfx": "CLANG-SPLASH!!",
+      "prose_en": "Baek casually swats the blood shuriken with the flat of his massive blade, shattering the crimson construct into harmless red droplets.",
+      "prose_hi": "Bek ne laparvahi se apne vishal blade ke flat se rakt shuriken ko nigal liya, jisse lal rang ka nirman hanirahit lal boondon mein bikhar gaya."
     },
     {
       "id": "p22",
       "shot": "heavy armored elbow strike to solar plexus",
       "setting": "old auditorium lawn",
-      "characters": ["hunter_captain_baek", "hajun"],
+      "characters": [
+        "hunter_captain_baek",
+        "hajun"
+      ],
       "action": "Baek flash-steps directly inside Ha-Jun's reach, driving a heavy steel-reinforced elbow strike directly into Ha-Jun's solar plexus.",
       "mood": "brutal close-quarters trauma",
-      "sfx": "KRAAACK-THUDDD!!"
+      "sfx": "KRAAACK-THUDDD!!",
+      "prose_en": "Baek flash-steps directly inside Ha-Jun's reach, driving a heavy steel-reinforced elbow strike directly into Ha-Jun's solar plexus.",
+      "prose_hi": "Bak flash-step sidhe ha-jun ki pahunch ke andar jata hai, ek bhari stil-prablit kohni se sidhe ha-jun ke saur jaal mein prahar karta hai."
     },
     {
       "id": "p23",
       "shot": "airborne launch into brick wall",
       "setting": "old auditorium brick wall",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "The concussive blow blasts the air from Ha-Jun's lungs, hurling his body 30 feet into the brick wall of the auditorium.",
       "mood": "violent wall impact",
-      "sfx": "SMASH-CRUMBLE!!"
+      "sfx": "SMASH-CRUMBLE!!",
+      "prose_en": "The concussive blow blasts the air from Ha-Jun's lungs, hurling his body 30 feet into the brick wall of the auditorium.",
+      "prose_hi": "Teevra jhatka ha-jun ke fefadon se hawa nikalta hai, jisse uska shareer sabhagaar ki int ki deewar mein 30 feet tak ja takrata hai."
     },
     {
       "id": "p24",
       "shot": "coughing crimson blood in rubble",
       "setting": "old auditorium brick wall",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Bricks and mortar collapse over Ha-Jun as he slides down into the rubble, coughing a heavy spray of scarlet blood onto the muddy grass.",
       "mood": "near-fatal defeat",
-      "sfx": "COUGH-HAAH..."
+      "sfx": "COUGH-HAAH...",
+      "prose_en": "Bricks and mortar collapse over Ha-Jun as he slides down into the rubble, coughing a heavy spray of scarlet blood onto the muddy grass.",
+      "prose_hi": "Jaise hi ha-jun malbe mein fisalta hai, kichad bhari ghas par lal rang ke khoon ki bhari fuhar girti hai, inten aur mortar uske upar gir jaate han."
     },
     {
       "id": "p25",
       "shot": "baek measured executioner advance",
       "setting": "old auditorium lawn",
-      "characters": ["hunter_captain_baek"],
+      "characters": [
+        "hunter_captain_baek"
+      ],
       "action": "Baek walks forward with calm, rhythmic executioner steps, lifting his claymore with both hands: 'Apni maut ko shanti se qubool karo.'",
       "mood": "approaching execution",
       "dialogue": [
-        {"type": "speech", "speaker": "hunter_captain_baek", "text": "Maut ko shanti se qubool karo.", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "hunter_captain_baek",
+          "text": "Maut ko shanti se qubool karo.",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Baek walks forward with calm, rhythmic executioner steps, lifting his claymore with both hands: 'Apni maut ko shanti se qubool karo.'.",
+      "prose_hi": "Bek shant, laybaddh jallad kadmon ke saath aage badhta hai, apne clamor ko donon hathon se uthata hai: 'apni maut ko shanti se kubul karo.'"
     },
     {
       "id": "p26",
       "shot": "staring at blood on trembling palms macro",
       "setting": "old auditorium rubble",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "In the rubble, Ha-Jun stares down at his own scarlet blood pooling in his trembling palms, thoughts echoing with his brother's voice.",
       "mood": "abyss of despair",
       "dialogue": [
-        {"type": "thought", "speaker": "hajun", "text": "Kya main phir se kamzor pad gaya...?", "at": [0.50, 0.14]}
-      ]
+        {
+          "type": "thought",
+          "speaker": "hajun",
+          "text": "Kya main phir se kamzor pad gaya...?",
+          "at": [
+            0.5,
+            0.14
+          ]
+        }
+      ],
+      "prose_en": "In the rubble, Ha-Jun stares down at his own scarlet blood pooling in his trembling palms, thoughts echoing with his brother's voice.",
+      "prose_hi": "Malbe men, ha-jun apni kampati hatheliyon mein jama apne lal rang ke khoon ko dekhta hai, uske vichar uske bhai ki awaaz ke saath gunjate han."
     },
     {
       "id": "p27",
       "shot": "kuro desperate aerial screech",
       "setting": "old auditorium sky",
-      "characters": ["kuro"],
+      "characters": [
+        "kuro"
+      ],
       "action": "Kuro shrieks from above: 'HA-JUN! BLOODLINE KO OVERCLOCK KARO! WARNA WO TUMHARI GARDAN KAAT DEGA!!'",
       "mood": "last resort command",
       "dialogue": [
-        {"type": "speech", "speaker": "kuro", "text": "Bloodline ko overclock karo! Turant!", "at": [0.50, 0.12]}
-      ]
+        {
+          "type": "speech",
+          "speaker": "kuro",
+          "text": "Bloodline ko overclock karo! Turant!",
+          "at": [
+            0.5,
+            0.12
+          ]
+        }
+      ],
+      "prose_en": "Kuro shrieks from above: 'HA-JUN! BLOODLINE KO OVERCLOCK KARO! WARNA WO TUMHARI GARDAN KAAT DEGA!!'.",
+      "prose_hi": "Kuro upar se chillata hai: 'ha-jun! bladlin ko overclock karo! varna woh tumhari gardan kaat dega!!'"
     },
     {
       "id": "p28",
@@ -282,7 +491,9 @@
       "characters": [],
       "action": "Deep within Ha-Jun's soul, an ancient gargantuan obsidian chain snaps with a thunderous void echo: *SNAP-CRACK!!*",
       "mood": "monarch seal breaking",
-      "sfx": "KRAAAA-SNAP!!"
+      "sfx": "KRAAAA-SNAP!!",
+      "prose_en": "Deep within Ha-Jun's soul, an ancient gargantuan obsidian chain snaps with a thunderous void echo: *SNAP-CRACK!!*.",
+      "prose_hi": "Ha-jun ki aatma ke bheetar, ek prachin bhavya obsidian shrinkhala ek gadgdahat shunya gunj ke saath tutati hai: *snap-crack!!*."
     },
     {
       "id": "p29",
@@ -292,19 +503,40 @@
       "action": "System UI flashes dark crimson and black: [EMERGENCY: BLOOD OVERCLOCK] | [SYNCHRONIZATION SURGING: 15% -> 25%] | [WARNING: MENTAL REASON COMPROMISED].",
       "mood": "berserk sovereign awakening",
       "dialogue": [
-        {"type": "system", "text": "[BLOOD OVERCLOCK: 25%] [WARNING: REASON COMPROMISED]", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "system",
+          "text": "[BLOOD OVERCLOCK: 25%] [WARNING: REASON COMPROMISED]",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "System UI flashes dark crimson and black: [EMERGENCY: BLOOD OVERCLOCK] | [SYNCHRONIZATION SURGING: 15% -> 25%] | [WARNING: MENTAL REASON COMPROMISED].",
+      "prose_hi": "Sistm ui gahre lal aur kale rang mein chamakta hai: [aapatkalin: rakt overclock] | [sinkranization vridhi: 15% -> 25%] | [chetavni: mansik karan se samjhauta]."
     },
     {
       "id": "p30",
       "shot": "black-violet hellfire eruption demonic horns cliffhanger",
       "setting": "old auditorium rubble",
-      "characters": ["hajun"],
+      "characters": [
+        "hajun"
+      ],
       "action": "Ha-Jun rises from the rubble: Colossal pillars of black-violet hellfire tear through the clouds, and two razor-sharp obsidian demon horns sprout through his hair: 'Tumne mere bhai ko... monster kaise kaha?!'",
       "mood": "birth of the demon sovereign, ultimate cliffhanger",
       "dialogue": [
-        {"type": "shout", "speaker": "hajun", "text": "TUMNE MERE BHAI KO MONSTER KAISE KAHA?!!", "at": [0.50, 0.10]}
-      ]
+        {
+          "type": "shout",
+          "speaker": "hajun",
+          "text": "TUMNE MERE BHAI KO MONSTER KAISE KAHA?!!",
+          "at": [
+            0.5,
+            0.1
+          ]
+        }
+      ],
+      "prose_en": "Ha-Jun rises from the rubble: Colossal pillars of black-violet hellfire tear through the clouds, and two razor-sharp obsidian demon horns sprout through his hair: 'Tumne mere bhai ko... monster kaise kaha?!'.",
+      "prose_hi": "Ha-jun malbe se bahar nikalta hai: kale-bangni narkankaal ke vishal stambh baadalon ko chirate han, aur do ustra-nukile obsidian danav seeng uske baalon ke madhyam se nikalte han: 'tumne mere bhai ko... rakshas kaise kaha?!'."
     }
   ]
 }

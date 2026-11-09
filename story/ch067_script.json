@@ -13,7 +13,9 @@
       "characters": [],
       "action": "Massive rusted cargo cranes loom like metal dinosaurs in the thick ocean fog over Incheon shipping canal.",
       "mood": "industrial secrecy",
-      "sfx": "FOG HORN..."
+      "sfx": "FOG HORN...",
+      "prose_en": "Massive rusted cargo cranes loom like metal dinosaurs in the thick ocean fog over Incheon shipping canal.",
+      "prose_hi": "Inchiyon shipping nahar ke upar ghane samudri kohre mein vishal jung lage malvahak crane dhatu ke dinosaur ki tarah mandra rahe han."
     },
     {
       "id": "p02",
@@ -33,7 +35,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Captain Baek in civilian tactical combat gear snips an electrified chain-link fence bearing 'RESTRICTED HAZMAT' signs.",
+      "prose_hi": "Nagarik samrik ladaku gear mein captain bak 'pratibandhit khtarnak' sanketon wali ek vidyutikrit chen-link baad ko kaat deta hai."
     },
     {
       "id": "p03",
@@ -44,7 +48,9 @@
       ],
       "action": "Ha-Jun slips through smoothly, coat billowed by ocean wind; Min-Jae follows with suppressed assault rifle ready.",
       "mood": "entering the danger zone",
-      "sfx": "STEP-STEP..."
+      "sfx": "STEP-STEP...",
+      "prose_en": "Ha-Jun slips through smoothly, coat billowed by ocean wind; Min-Jae follows with suppressed assault rifle ready.",
+      "prose_hi": "Ha-jun aasani se fisal jata hai, coat samudri hawa se ud jata hai; min-je dabi hui assault rifle ke saath taiyar hokar chalta hai."
     },
     {
       "id": "p04",
@@ -66,7 +72,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Kuro glides from container to container: 'The air down below smells of rotting demon marrow and formaldehyde.'.",
+      "prose_hi": "Kuro ek container se dusre container mein sarkata hai: 'niche ki hawa mein sadte danav majja aur formeldehyd ki gandh aa rahi hai.'"
     },
     {
       "id": "p05",
@@ -77,7 +85,9 @@
       ],
       "action": "Inside an empty grain warehouse, Captain Baek sweeps away gravel to reveal a twenty-ton reinforced blast door in the floor.",
       "mood": "subterranean entrance",
-      "sfx": "CLANK..."
+      "sfx": "CLANK...",
+      "prose_en": "Inside an empty grain warehouse, Captain Baek sweeps away gravel to reveal a twenty-ton reinforced blast door in the floor.",
+      "prose_hi": "Ek khali anaaj godam ke ander, captain bak farsh mein bees ton ka prabalit blast darwaja dikhane ke liye bajri hatate han."
     },
     {
       "id": "p06",
@@ -97,7 +107,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Baek plugs a military cipher-chip into the rusted keypad; green strings of decrypted code scroll down the monitor.",
+      "prose_hi": "Bek ek sainya sifar-chip ko jung lage keypad mein plug karta hai; decripted code ke hare taar monitor ko neeche scroll karte han."
     },
     {
       "id": "p07",
@@ -106,7 +118,9 @@
       "characters": [],
       "action": "Locking pins retract with deafening pneumatic clunks; heavy steam vents as the floor hatch splits open.",
       "mood": "vault unsealed",
-      "sfx": "PNEUMATIC-HISS!!"
+      "sfx": "PNEUMATIC-HISS!!",
+      "prose_en": "Locking pins retract with deafening pneumatic clunks; heavy steam vents as the floor hatch splits open.",
+      "prose_hi": "Locking pin bahre kar dene wale vayviy clank ke saath peeche hat jaate han; jaise hi farsh ki hatch khulti hai bhari bhaap nikalti hai."
     },
     {
       "id": "p08",
@@ -117,7 +131,9 @@
       ],
       "action": "An open-grate industrial elevator platform rattles downward into a colossal vertical subterranean shaft.",
       "mood": "descent into hell",
-      "sfx": "CABLE GROAN..."
+      "sfx": "CABLE GROAN...",
+      "prose_en": "An open-grate industrial elevator platform rattles downward into a colossal vertical subterranean shaft.",
+      "prose_hi": "Ek khuli jaali wala audyogik elevator platform ek vishal udhrvadhar bhumigat shaft mein neeche ki or khadkhadata hai."
     },
     {
       "id": "p09",
@@ -139,7 +155,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun looks down into the abyss: pipes glowing with sickly neon-green luminescent fluids crisscross the rock walls.",
+      "prose_hi": "Ha-jun neeche rasatal mein dekhta hai: bimar niyan-hare luminsent taral padarth ke saath chamakte pipe chattan ki diwaron ko paar karte han."
     },
     {
       "id": "p10",
@@ -150,7 +168,9 @@
       ],
       "action": "The lift hits the bottom with a shuddering metallic thud; emergency red exit lights flicker weakly along the tunnel.",
       "mood": "arrived at vault 7",
-      "sfx": "CLANK-SHUDDER!!"
+      "sfx": "CLANK-SHUDDER!!",
+      "prose_en": "The lift hits the bottom with a shuddering metallic thud; emergency red exit lights flicker weakly along the tunnel.",
+      "prose_hi": "Lift kanpkanpa dene wali dhatvik gadgdahat ke saath neeche se takrati hai; surang ke kinare aapatkalin lal nikas lightein dhimi gati se timtimati han."
     },
     {
       "id": "p11",
@@ -161,7 +181,9 @@
       ],
       "action": "Ankle-deep murky water covers the linoleum floor; abandoned gurneys and broken IV stands clutter the corridor.",
       "mood": "silent medical wasteland",
-      "sfx": "SPLASH-DRIP..."
+      "sfx": "SPLASH-DRIP...",
+      "prose_en": "Ankle-deep murky water covers the linoleum floor; abandoned gurneys and broken IV stands clutter the corridor.",
+      "prose_hi": "Tuckne tak gehra ganda pani linoleum farsh ko dhak leta hai; parityakt garni aur toote hue IV stand galiyare ko avyavasthit karte han."
     },
     {
       "id": "p12",
@@ -181,7 +203,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae's flashlight beam reveals a cracked glass cylinder containing the preserved claw of an abyssal demon.",
+      "prose_hi": "Min-je ki torch kiran se ek toote hue kaanch ke cylinder ka pata chalta hai jisme ek rasatal danav ka sanrakshit panja hai."
     },
     {
       "id": "p13",
@@ -190,7 +214,9 @@
       "characters": [],
       "action": "Baek points to five deep claw gouges carved into the concrete wall: 'Something broke out of quarantine recently.'",
       "mood": "predator signs",
-      "sfx": "GOUGE..."
+      "sfx": "GOUGE...",
+      "prose_en": "Baek points to five deep claw gouges carved into the concrete wall: 'Something broke out of quarantine recently.'.",
+      "prose_hi": "Bek concrete ki deewar mein ukere gaye paanch gahre panjon ke nishanon ki or ishara karte han: 'hal hi mein sangrodh se kuch toot gaya.'"
     },
     {
       "id": "p14",
@@ -199,7 +225,9 @@
       "characters": [],
       "action": "THUD... THUD... THUD... The sound of hydraulic piston legs echoes from the central operating theater ahead.",
       "mood": "approaching threat",
-      "sfx": "HYDRAULIC-THUD..."
+      "sfx": "HYDRAULIC-THUD...",
+      "prose_en": "THUD... THUD... THUD... The sound of hydraulic piston legs echoes from the central operating theater ahead.",
+      "prose_hi": "Thad... thad... thad... hydraulic piston legs ki awaz aage ke central operating theater se goonjati hai."
     },
     {
       "id": "p15",
@@ -221,7 +249,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun signals to stop; his violet eyes pierce through the darkness, detecting two hostile mana signatures.",
+      "prose_hi": "Ha-jun rukne ka sanket deta hai; uski baingani aankhen andhere ko chirti hui do shatrutapurn man hastaksharon ka pata lagati han."
     },
     {
       "id": "p16",
@@ -230,7 +260,9 @@
       "characters": [],
       "action": "Two 8-foot tall cyborg sentinels with chain-guns mounted on their shoulders and demon skull helmets patrol the turn.",
       "mood": "chimera sentinels",
-      "sfx": "WHIRL-OPTIC..."
+      "sfx": "WHIRL-OPTIC...",
+      "prose_en": "Two 8-foot tall cyborg sentinels with chain-guns mounted on their shoulders and demon skull helmets patrol the turn.",
+      "prose_hi": "Kandhe par chen-banduken lagaye hue aur danav khopdi helmet ke saath do 8-fut lambe siborg prahari mod par gasht karte han."
     },
     {
       "id": "p17",
@@ -241,7 +273,9 @@
       ],
       "action": "Ha-Jun steps forward and melts into the floor shadows, leaving behind ethereal black and purple smoke.",
       "mood": "shadow vanish",
-      "sfx": "SWISH..."
+      "sfx": "SWISH...",
+      "prose_en": "Ha-Jun steps forward and melts into the floor shadows, leaving behind ethereal black and purple smoke.",
+      "prose_hi": "Ha-jun aage badhta hai aur farsh ki chhaya mein pighal jata hai, aur apne peeche alaukik kala aur baingani dhuan chhod jata hai."
     },
     {
       "id": "p18",
@@ -250,7 +284,9 @@
       "characters": [],
       "action": "Chains of Ruin burst from the ankle-deep water, wrapping around the first sentinel's metal joints with bone-crushing force.",
       "mood": "instant restraint",
-      "sfx": "CLANK-BIND!!"
+      "sfx": "CLANK-BIND!!",
+      "prose_en": "Chains of Ruin burst from the ankle-deep water, wrapping around the first sentinel's metal joints with bone-crushing force.",
+      "prose_hi": "Ruin ki janjeeren takhne tak gahre pani se footati han, jo pehle prahari ke dhatu ke jodon ko haddi-kuchalne wale bal ke saath lapetati han."
     },
     {
       "id": "p19",
@@ -261,7 +297,9 @@
       ],
       "action": "Ha-Jun materializes directly behind the second cyborg, his Sanguine Fang already drawn in an execution arc.",
       "mood": "silent assassination",
-      "sfx": "FLASH-SHING!!"
+      "sfx": "FLASH-SHING!!",
+      "prose_en": "Ha-Jun materializes directly behind the second cyborg, his Sanguine Fang already drawn in an execution arc.",
+      "prose_hi": "Ha-jun sidhe dusre siborg ke peeche sakar hota hai, uska senguin feng pehle se hi ek nishpaadan chaap mein khincha gaya hai."
     },
     {
       "id": "p20",
@@ -272,7 +310,9 @@
       ],
       "action": "A single fluid horizontal slash decapitates both sentinels cleanly; severed hydraulic lines spray spark and blue fluid.",
       "mood": "flawless execution",
-      "sfx": "CLEAVE-SPARK!!"
+      "sfx": "CLEAVE-SPARK!!",
+      "prose_en": "A single fluid horizontal slash decapitates both sentinels cleanly; severed hydraulic lines spray spark and blue fluid.",
+      "prose_hi": "Ek ekal drav kshaitij slash donon prahari ko safai se nasht kar deta hai; kati hui hydraulic lainen chingari aur neela taral padarth chhidakti han."
     },
     {
       "id": "p21",
@@ -281,7 +321,9 @@
       "characters": [],
       "action": "The two heavy cyborg torsos collapse into the water with a heavy splash, immediately silenced.",
       "mood": "threat neutralized",
-      "sfx": "SPLASH-DOWN..."
+      "sfx": "SPLASH-DOWN...",
+      "prose_en": "The two heavy cyborg torsos collapse into the water with a heavy splash, immediately silenced.",
+      "prose_hi": "Bhari chhinton ke saath do bhari siborg dhad pani mein gir gaye, turant shant ho gaye."
     },
     {
       "id": "p22",
@@ -300,7 +342,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Min-Jae lowers his rifle: 'Damn, Ha-Jun. You didn't even let them make a radio call.'.",
+      "prose_hi": "Min-je ne apni rifle neeche ki: 'are, ha-jun. aapne unhen radio call bhi nahin karne di.'"
     },
     {
       "id": "p23",
@@ -311,7 +355,9 @@
       ],
       "action": "They enter a massive circular dome with dozens of server banks, dissecting tables, and a central command desk.",
       "mood": "the heart of darkness",
-      "sfx": "ELECTRONIC HUM..."
+      "sfx": "ELECTRONIC HUM...",
+      "prose_en": "They enter a massive circular dome with dozens of server banks, dissecting tables, and a central command desk.",
+      "prose_hi": "Ve darjanon server bankon, vichchhedan talikaon aur ek kendriya command desk ke saath ek vishal golakar gumbad mein pravesh karte han."
     },
     {
       "id": "p24",
@@ -322,7 +368,9 @@
       ],
       "action": "Ha-Jun approaches the primary terminal, marked with Dr. Victor Vance's private biometric hand-scanner.",
       "mood": "accessing terminal",
-      "sfx": "STEP..."
+      "sfx": "STEP...",
+      "prose_en": "Ha-Jun approaches the primary terminal, marked with Dr. Victor Vance's private biometric hand-scanner.",
+      "prose_hi": "Ha-jun prathmik terminal ke paas pahunchta hai, jise do. victor vens ke niji biometric hand-scanner se chinhit kiya gaya hai."
     },
     {
       "id": "p25",
@@ -344,7 +392,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun presses his bloody thumb against the scanner; his Sovereign blood forces a root-level administrative breach.",
+      "prose_hi": "Ha-jun apne khoon se sane anguthe ko scanner par dabata hai; uska samprabhu rakt jad star ke prashasnik ullanghan ko majboor karta hai."
     },
     {
       "id": "p26",
@@ -353,7 +403,9 @@
       "characters": [],
       "action": "The screen flashes with a high-resolution photo of a 16-year-old Tae-Jun strapped into an experimental neural chair.",
       "mood": "subject zero identified",
-      "sfx": "DATA STREAM..."
+      "sfx": "DATA STREAM...",
+      "prose_en": "The screen flashes with a high-resolution photo of a 16-year-old Tae-Jun strapped into an experimental neural chair.",
+      "prose_hi": "Scrin par ek prayogik neural kursi par bandhi 16 varshiya taaye-jun ki ucch-resolution wali tasveer chamakti hai."
     },
     {
       "id": "p27",
@@ -375,7 +427,9 @@
             0.14
           ]
         }
-      ]
+      ],
+      "prose_en": "Text logs scroll: 'Day 412: Extracted 500cc Sovereign bone marrow. Subject refused to scream. Kept repeating his brother's name.'.",
+      "prose_hi": "Text log scrol: 'din 412: 500 cc sovereign asthi majja nikala gaya. vishay ne chillane se inkar kar diya. apne bhai ka naam dohrata raha.'"
     },
     {
       "id": "p28",
@@ -386,7 +440,9 @@
       ],
       "action": "A harsh crimson strobe light begins rotating; a deafening Klaxon siren wails through the facility speakers.",
       "mood": "security alert triggered",
-      "sfx": "KLAXON-WROOOR!!"
+      "sfx": "KLAXON-WROOOR!!",
+      "prose_en": "A harsh crimson strobe light begins rotating; a deafening Klaxon siren wails through the facility speakers.",
+      "prose_hi": "Ek kathor crimson strobe prakash ghumne lagta hai; suvidha speaker ke madhyam se ek bahra kar dene wala claxon siren bajta hai."
     },
     {
       "id": "p29",
@@ -406,7 +462,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "The giant wall screen boots up: an elderly man with silver slicked hair, a cybernetic crimson left eye, and a cruel smirk appears.",
+      "prose_hi": "Vishal deewar screen chalu hoti hai: chandi ke chikne bal, cybernetic lal rang ki bayin aankh aur ek krur muskurahat wala ek bujurg vyakti dikhai deta hai."
     },
     {
       "id": "p30",
@@ -428,7 +486,9 @@
             0.12
           ]
         }
-      ]
+      ],
+      "prose_en": "Ha-Jun's teeth bared, purple mana cracking the floor tiles: 'Vance. Tell me where my brother is before I rip this bunker in half.'.",
+      "prose_hi": "Ha-jun ke daant khule hue han, baingani man farsh ki tilein tod raha hai: 'vence. isse pehle ki main is bunker ko aadha tod dun, mujhe batao ki mera bhai kahan hai.'"
     }
   ]
 }
