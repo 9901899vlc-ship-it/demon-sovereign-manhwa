@@ -2,1343 +2,1371 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Demon Sovereign's Bloodline | Official Manhwa Portal</title>
+  <title>DEMON SOVEREIGN | Official Webtoon Portal</title>
   <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
   <meta name="format-detection" content="telephone=no, address=no, email=no">
-  <meta name="description" content="Official Demon Sovereign Manhwa Portal. Read Demon Sovereign's Bloodline by Kuro & Ha-Jun / Redice Studio.">
   <meta name="theme-color" content="#00dc64">
 
   <!-- Icons -->
   <link rel="shortcut icon" href="./images/card_01_sovereign.jpg" type="image/x-icon">
   <link rel="apple-touch-icon" href="./images/card_01_sovereign.jpg">
 
-  <!-- Official Mobile Webtoon Stylesheet -->
-  <link rel="stylesheet" type="text/css" href="./css/webtoon.css">
-
   <style>
     /* ========================================================
-       DEMON SOVEREIGN - AUTHENTIC WEBTOON ENGINE ENHANCEMENTS
+       PIXEL-PERFECT WEBTOON MOBILE STYLES (MATCHING USER SCREENSHOTS)
        ======================================================== */
-    :root {
-      --ds-primary: #00dc64;
-      --ds-dark-bg: #111215;
-      --ds-card-dark: #18191c;
-      --ds-border-dark: rgba(255, 255, 255, 0.08);
-      --ds-text-dark: #f0f0f0;
-      --ds-subtext-dark: #999;
+    * {
+      box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
+      margin: 0;
+      padding: 0;
     }
 
     body {
-      -webkit-tap-highlight-color: transparent;
-      background-color: #fff;
-      color: #000;
-      transition: background-color 0.2s ease, color 0.2s ease;
+      background-color: #ffffff;
+      color: #000000;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
       margin: 0;
       padding: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      overflow-x: hidden;
     }
 
-    /* DARK THEME */
-    body.wt-dark {
-      background-color: var(--ds-dark-bg) !important;
-      color: var(--ds-text-dark) !important;
-    }
-    body.wt-dark .wrap,
-    body.wt-dark #ct,
-    body.wt-dark .detail_content,
-    body.wt-dark .sub_detail,
-    body.wt-dark .sub_header,
-    body.wt-dark .viewer_footer,
-    body.wt-dark .main_content_wrap,
-    body.wt-dark .ly_detail,
-    body.wt-dark .drawer-content {
-      background-color: var(--ds-dark-bg) !important;
-      color: var(--ds-text-dark) !important;
-    }
-    body.wt-dark .gnb,
-    body.wt-dark .snb,
-    body.wt-dark .lnb {
-      background-color: #16171b !important;
-      border-color: var(--ds-border-dark) !important;
-    }
-    body.wt-dark .lnb .item .link {
-      color: var(--ds-subtext-dark) !important;
-    }
-    body.wt-dark .lnb .item.on .link {
-      color: var(--ds-primary) !important;
-      border-bottom-color: var(--ds-primary) !important;
-    }
-    body.wt-dark .webtoon_list .title,
-    body.wt-dark .txt_title,
-    body.wt-dark .subject,
-    body.wt-dark .h1_viewer .link {
-      color: #fff !important;
-    }
-    body.wt-dark .date,
-    body.wt-dark .author,
-    body.wt-dark .summary,
-    body.wt-dark .sub_info {
-      color: var(--ds-subtext-dark) !important;
-    }
-    body.wt-dark .detail_list_wrap .detail_item + .detail_item:before {
-      background-color: var(--ds-border-dark) !important;
-    }
-    body.wt-dark .detail_list_wrap {
-      border-top-color: var(--ds-border-dark) !important;
-    }
-    body.wt-dark footer {
-      background-color: #0d0e10 !important;
-      border-top: 1px solid var(--ds-border-dark) !important;
+    /* ----------------------------------------------------
+       GLOBAL HEADER & TABS (SCREENSHOT 1)
+       ---------------------------------------------------- */
+    .wt-header {
+      position: sticky;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: #ffffff;
+      z-index: 1000;
+      border-bottom: 1px solid #ebebeb;
     }
 
-    /* BRAND LOGO */
-    .ds-brand-wrap {
-      display: inline-flex;
-      align-items: center;
-      gap: 7px;
-      text-decoration: none;
-      padding: 10px 14px;
-    }
-    .ds-brand-badge {
-      background: var(--ds-primary);
-      color: #000;
-      font-weight: 900;
-      font-size: 14px;
-      padding: 3px 6px;
-      border-radius: 4px;
-      letter-spacing: -0.5px;
-      line-height: 1;
-    }
-    .ds-brand-name {
-      font-size: 17px;
-      font-weight: 900;
-      color: #000;
-      letter-spacing: -0.5px;
-    }
-    body.wt-dark .ds-brand-name {
-      color: #fff;
-    }
-
-    /* HERO FEATURE BANNER */
-    .hero-banner-wrap {
-      position: relative;
-      width: 100%;
-      height: 240px;
-      background: #000;
-      overflow: hidden;
-      cursor: pointer;
-    }
-    .hero-banner-bg {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      opacity: 0.72;
-      transition: transform 0.4s ease;
-    }
-    .hero-banner-wrap:hover .hero-banner-bg {
-      transform: scale(1.03);
-    }
-    .hero-banner-overlay {
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.85) 100%);
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-      padding: 18px 16px;
-      box-sizing: border-box;
-    }
-    .hero-tag {
-      display: inline-block;
-      background: var(--ds-primary);
-      color: #000;
-      font-size: 11px;
-      font-weight: 800;
-      padding: 2px 7px;
-      border-radius: 3px;
-      text-transform: uppercase;
-      margin-bottom: 6px;
-      align-self: flex-start;
-    }
-    .hero-title {
-      font-size: 21px;
-      font-weight: 900;
-      color: #fff;
-      margin: 0 0 4px 0;
-      line-height: 1.2;
-      text-shadow: 0 2px 8px rgba(0,0,0,0.8);
-    }
-    .hero-subtitle {
-      font-size: 12px;
-      color: #ddd;
-      margin: 0 0 8px 0;
-      line-height: 1.4;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-    }
-    .hero-cta {
-      display: inline-flex;
-      align-items: center;
-      gap: 5px;
-      font-size: 12px;
-      font-weight: 800;
-      color: var(--ds-primary);
-      text-decoration: none;
-    }
-
-    /* SECTION HEADINGS */
-    .section_heading {
-      padding: 20px 16px 10px 16px;
+    .wt-gnb {
       display: flex;
       align-items: center;
       justify-content: space-between;
-    }
-    .section_heading .title {
-      font-size: 16px;
-      font-weight: 800;
-      margin: 0;
-    }
-    .section_heading .badge {
-      font-size: 11px;
-      color: var(--ds-primary);
-      font-weight: 700;
+      height: 48px;
+      padding: 0 16px;
     }
 
-    /* CARD GRID ON HOME (MANHWA POSTER CARDS) */
-    .manhwa-card-row {
+    .wt-logo-wrap {
       display: flex;
-      gap: 14px;
-      padding: 0 16px 20px 16px;
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
+      align-items: center;
+      gap: 6px;
+      text-decoration: none;
     }
-    .manhwa-card-item {
-      flex: 0 0 130px;
+
+    .wt-logo-badge {
+      background-color: #00dc64;
+      color: #ffffff;
+      font-weight: 900;
+      font-size: 13px;
+      padding: 2px 6px;
+      border-radius: 4px;
+      line-height: 1.2;
+      letter-spacing: -0.5px;
+    }
+
+    .wt-logo-text {
+      font-weight: 900;
+      font-size: 16px;
+      color: #000000;
+      letter-spacing: -0.5px;
+    }
+
+    .wt-gnb-icons {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .wt-icon-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #000000;
+    }
+
+    .wt-lnb {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      border-top: 1px solid #f0f0f0;
+    }
+
+    .wt-lnb-item {
+      flex: 1;
+      text-align: center;
+    }
+
+    .wt-lnb-link {
+      display: block;
+      padding: 12px 0 10px 0;
+      font-size: 14px;
+      font-weight: 700;
+      color: #777777;
+      text-decoration: none;
+      position: relative;
+    }
+
+    .wt-lnb-item.active .wt-lnb-link {
+      color: #000000;
+      font-weight: 800;
+    }
+
+    .wt-lnb-item.active .wt-lnb-link::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 12%;
+      right: 12%;
+      height: 3px;
+      background-color: #000000;
+      border-radius: 2px 2px 0 0;
+    }
+
+    /* ----------------------------------------------------
+       HOME VIEW (SCREENSHOT 1)
+       ---------------------------------------------------- */
+    .wt-section {
+      padding: 18px 16px 12px 16px;
+    }
+
+    .wt-section-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 12px;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .wt-section-title {
+      font-size: 18px;
+      font-weight: 800;
+      color: #000000;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .wt-section-arrow {
+      color: #999999;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .wt-subtabs {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+
+    .wt-subtab {
+      border: none;
+      border-radius: 20px;
+      padding: 6px 14px;
+      font-size: 13px;
+      font-weight: 700;
       cursor: pointer;
     }
-    .manhwa-card-poster {
-      position: relative;
-      width: 130px;
-      height: 172px;
-      border-radius: 6px;
-      overflow: hidden;
-      box-shadow: 0 3px 10px rgba(0,0,0,0.12);
-      background: #222;
+
+    .wt-subtab.active {
+      background-color: #000000;
+      color: #ffffff;
     }
-    .manhwa-card-poster img {
+
+    .wt-subtab.inactive {
+      background-color: #f2f2f2;
+      color: #444444;
+    }
+
+    /* 3-COLUMN MANHWA GRID (SCREENSHOT 1) */
+    .wt-grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px 10px;
+    }
+
+    .wt-grid-card {
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .wt-card-poster-wrap {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 3 / 4;
+      border-radius: 4px;
+      overflow: hidden;
+      background-color: #1a1a1a;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+
+    .wt-card-poster-wrap img {
       width: 100%;
       height: 100%;
       object-fit: cover;
       display: block;
     }
-    .manhwa-card-badge {
+
+    .wt-card-rank-box {
       position: absolute;
-      top: 6px;
-      left: 6px;
-      background: var(--ds-primary);
-      color: #000;
+      bottom: 2px;
+      left: 4px;
+      display: flex;
+      align-items: baseline;
+      gap: 2px;
+      text-shadow: 0 1px 4px rgba(0,0,0,0.8);
+    }
+
+    .wt-card-rank-num {
+      font-size: 26px;
+      font-weight: 900;
+      color: #000000;
+      line-height: 1;
+      -webkit-text-stroke: 1.5px #ffffff;
+      paint-order: stroke fill;
+    }
+
+    .wt-card-rank-trend {
       font-size: 10px;
       font-weight: 800;
-      padding: 2px 5px;
-      border-radius: 3px;
-      line-height: 1;
+      display: flex;
+      align-items: center;
+      gap: 1px;
     }
-    .manhwa-card-title {
-      font-size: 13px;
-      font-weight: 800;
-      margin-top: 6px;
+
+    .wt-card-rank-trend.up {
+      color: #00dc64;
+    }
+
+    .wt-card-rank-trend.down {
+      color: #888888;
+    }
+
+    .wt-card-title {
+      font-size: 12px;
+      font-weight: 700;
+      color: #000000;
+      margin-top: 5px;
+      line-height: 1.3;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .wt-card-genre {
+      font-size: 11px;
+      color: #888888;
+      margin-top: 1px;
+    }
+
+    /* CONTINUE READING CAROUSEL (SCREENSHOT 1) */
+    .wt-carousel {
+      display: flex;
+      gap: 12px;
+      overflow-x: auto;
+      padding-bottom: 8px;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+    }
+    .wt-carousel::-webkit-scrollbar {
+      display: none;
+    }
+
+    .wt-carousel-card {
+      flex: 0 0 115px;
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+    }
+
+    .wt-carousel-poster {
+      width: 115px;
+      height: 150px;
+      border-radius: 4px;
+      overflow: hidden;
+      background: #222;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+
+    .wt-carousel-poster img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .wt-carousel-title {
+      font-size: 12px;
+      font-weight: 700;
+      margin-top: 5px;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
+    }
+
+    .wt-subscribe-btn {
+      margin-top: 6px;
+      background: #ffffff;
+      border: 1px solid #d5d5d5;
+      border-radius: 14px;
+      padding: 5px 0;
+      font-size: 11px;
+      font-weight: 700;
+      color: #222222;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    /* ----------------------------------------------------
+       SERIES DETAIL VIEW (SCREENSHOT 2)
+       100% IDENTICAL TO USER SCREENSHOT 2
+       ---------------------------------------------------- */
+    .wt-detail-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 48px;
+      padding: 0 16px;
+      background: #ffffff;
+      border-bottom: 1px solid #f0f0f0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .wt-detail-btn-home {
+      display: flex;
+      align-items: center;
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: #000000;
+      padding: 4px;
+    }
+
+    .wt-detail-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .wt-pill-sub-btn {
+      background: #ffffff;
+      border: 1px solid #d0d0d0;
+      border-radius: 20px;
+      padding: 5px 12px;
+      font-size: 12px;
+      font-weight: 700;
+      color: #222222;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .wt-pill-sub-btn.subscribed {
+      background: #f0f0f0;
+      border-color: #e0e0e0;
+      color: #666666;
+    }
+
+    .wt-detail-poster-area {
+      display: flex;
+      justify-content: center;
+      padding: 16px 16px 12px 16px;
+      background: #ffffff;
+    }
+
+    .wt-detail-poster-img {
+      width: 208px;
+      height: 270px;
+      object-fit: cover;
+      border-radius: 4px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+    }
+
+    .wt-detail-info-area {
+      padding: 0 16px 16px 16px;
+      background: #ffffff;
+    }
+
+    .wt-detail-views {
+      font-size: 13px;
+      color: #009e52;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+
+    .wt-detail-title {
+      font-size: 22px;
+      font-weight: 900;
+      color: #000000;
+      line-height: 1.25;
+      margin-bottom: 4px;
+    }
+
+    .wt-detail-author {
+      font-size: 13px;
+      color: #777777;
+      margin-bottom: 10px;
+    }
+
+    .wt-detail-synopsis {
+      font-size: 13px;
+      line-height: 1.5;
+      color: #444444;
+      margin-bottom: 12px;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      cursor: pointer;
+    }
+
+    .wt-detail-synopsis.expanded {
+      -webkit-line-clamp: unset;
+      display: block;
+    }
+
+    .wt-detail-tags {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin-bottom: 16px;
+    }
+
+    .wt-detail-tag {
+      background: #f4f4f4;
+      color: #666666;
+      font-size: 12px;
+      padding: 4px 8px;
+      border-radius: 4px;
+    }
+
+    .wt-continue-btn {
+      display: block;
+      width: 100%;
+      height: 46px;
+      background-color: #00dc64;
+      color: #000000;
+      font-size: 15px;
+      font-weight: 800;
+      border: none;
+      border-radius: 4px;
+      text-align: center;
+      line-height: 46px;
+      text-decoration: none;
+      cursor: pointer;
+      box-shadow: 0 2px 6px rgba(0,220,100,0.3);
+    }
+
+    .wt-app-notice {
+      text-align: center;
+      font-size: 12px;
+      color: #888888;
+      padding: 12px 0 16px 0;
+      border-bottom: 1px solid #ebebeb;
+    }
+
+    /* EPISODE LIST IN DETAIL (SCREENSHOT 2) */
+    .wt-detail-ep-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      background: #ffffff;
+    }
+
+    .wt-detail-ep-item {
+      display: flex;
+      align-items: center;
+      padding: 12px 16px;
+      border-bottom: 1px solid #f0f0f0;
+      cursor: pointer;
+      text-decoration: none;
       color: inherit;
     }
-    .manhwa-card-meta {
-      font-size: 11px;
-      color: var(--ds-subtext-dark);
-      margin-top: 2px;
+
+    .wt-detail-ep-thumb {
+      width: 80px;
+      height: 56px;
+      border-radius: 4px;
+      overflow: hidden;
+      margin-right: 12px;
+      flex-shrink: 0;
+      background: #111;
     }
 
-    /* FALLBACK CRISP ICONS */
-    .sub_detail .btn_home {
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23111' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M15 18l-6-6 6-6'/%3E%3C/svg%3E") !important;
-      background-repeat: no-repeat !important;
-      background-position: center !important;
-      background-size: 22px 22px !important;
-    }
-    body.wt-dark .sub_detail .btn_home {
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M15 18l-6-6 6-6'/%3E%3C/svg%3E") !important;
-    }
-    .sub_detail .btn_info {
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23111' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cline x1='12' y1='16' x2='12' y2='12'/%3E%3Cline x1='12' y1='8' x2='12.01' y2='8'/%3E%3C/svg%3E") !important;
-      background-repeat: no-repeat !important;
-      background-position: center !important;
-      background-size: 20px 20px !important;
-    }
-    body.wt-dark .sub_detail .btn_info {
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cline x1='12' y1='16' x2='12' y2='12'/%3E%3Cline x1='12' y1='8' x2='12.01' y2='8'/%3E%3C/svg%3E") !important;
-    }
-    .sub_detail .btn_more,
-    .btn_share {
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23111' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='18' cy='5' r='3'/%3E%3Ccircle cx='6' cy='12' r='3'/%3E%3Ccircle cx='18' cy='19' r='3'/%3E%3Cline x1='8.59' y1='13.51' x2='15.42' y2='17.49'/%3E%3Cline x1='15.41' y1='6.51' x2='8.59' y2='10.49'/%3E%3C/svg%3E") !important;
-      background-repeat: no-repeat !important;
-      background-position: center !important;
-      background-size: 20px 20px !important;
-    }
-    body.wt-dark .sub_detail .btn_more,
-    body.wt-dark .btn_share {
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='18' cy='5' r='3'/%3E%3Ccircle cx='6' cy='12' r='3'/%3E%3Ccircle cx='18' cy='19' r='3'/%3E%3Cline x1='8.59' y1='13.51' x2='15.42' y2='17.49'/%3E%3Cline x1='15.41' y1='6.51' x2='8.59' y2='10.49'/%3E%3C/svg%3E") !important;
-    }
-    .btn_list.v2 {
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23111' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='8' y1='6' x2='21' y2='6'/%3E%3Cline x1='8' y1='12' x2='21' y2='12'/%3E%3Cline x1='8' y1='18' x2='21' y2='18'/%3E%3Cline x1='3' y1='6' x2='3.01' y2='6'/%3E%3Cline x1='3' y1='12' x2='3.01' y2='12'/%3E%3Cline x1='3' y1='18' x2='3.01' y2='18'/%3E%3C/svg%3E") !important;
-      background-repeat: no-repeat !important;
-      background-position: center !important;
-      background-size: 20px 20px !important;
-    }
-    body.wt-dark .btn_list.v2 {
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='8' y1='6' x2='21' y2='6'/%3E%3Cline x1='8' y1='12' x2='21' y2='12'/%3E%3Cline x1='8' y1='18' x2='21' y2='18'/%3E%3Cline x1='3' y1='6' x2='3.01' y2='6'/%3E%3Cline x1='3' y1='12' x2='3.01' y2='12'/%3E%3Cline x1='3' y1='18' x2='3.01' y2='18'/%3E%3C/svg%3E") !important;
-    }
-
-    /* VIEWER STRIP */
-    .viewer_img {
+    .wt-detail-ep-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
       display: block;
+    }
+
+    .wt-detail-ep-info {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .wt-detail-ep-name {
+      font-size: 14px;
+      font-weight: 700;
+      color: #111111;
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .wt-badge-up {
+      color: #00dc64;
+      font-size: 10px;
+      font-weight: 800;
+      border: 1px solid #00dc64;
+      border-radius: 2px;
+      padding: 0 3px;
+      line-height: 1.2;
+    }
+
+    .wt-detail-ep-date {
+      font-size: 12px;
+      color: #888888;
+    }
+
+    /* ----------------------------------------------------
+       VIEWER / READER VIEW (SCREENSHOT 3 & 4)
+       100% IDENTICAL TO USER SCREENSHOT 3 & 4
+       ---------------------------------------------------- */
+    .wt-reader-header {
+      position: sticky;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 48px;
+      background: rgba(255, 255, 255, 0.96);
+      backdrop-filter: blur(8px);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 16px;
+      z-index: 1000;
+      border-bottom: 1px solid #eeeeee;
+    }
+
+    .wt-reader-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: #000000;
+      max-width: 70%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .wt-reader-warning {
+      text-align: center;
+      font-size: 11px;
+      color: #777777;
+      padding: 24px 16px 16px 16px;
+      line-height: 1.5;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      background: #ffffff;
+    }
+
+    .wt-reader-strip {
       width: 100%;
       max-width: 800px;
       margin: 0 auto;
-      background: #000;
+      background: #ffffff;
+      display: flex;
+      flex-direction: column;
     }
-    .viewer_img img {
-      display: block;
+
+    .wt-reader-strip img {
       width: 100%;
       height: auto;
+      display: block;
       margin: 0;
       padding: 0;
       vertical-align: bottom;
       pointer-events: none;
     }
 
-    /* SEARCH MODAL */
-    .search-modal {
-      position: fixed;
-      inset: 0;
-      background: rgba(0,0,0,0.85);
-      z-index: 9999;
-      display: none;
-      flex-direction: column;
-    }
-    .search-modal.open {
+    /* BOTTOM FILMSTRIP (SCREENSHOT 3) */
+    .wt-reader-filmstrip {
       display: flex;
+      gap: 2px;
+      overflow-x: auto;
+      background: #000000;
+      padding: 6px 4px;
+      scrollbar-width: none;
+      position: sticky;
+      bottom: 48px;
+      z-index: 999;
     }
-    .search-modal-header {
-      background: #18191c;
-      padding: 12px 16px;
+    .wt-reader-filmstrip::-webkit-scrollbar {
+      display: none;
+    }
+
+    .wt-filmstrip-thumb {
+      flex: 0 0 54px;
+      height: 54px;
+      position: relative;
+      cursor: pointer;
+      opacity: 0.5;
+      border: 1px solid transparent;
+      border-radius: 2px;
+      overflow: hidden;
+    }
+
+    .wt-filmstrip-thumb.active {
+      opacity: 1;
+      border-color: #00dc64;
+    }
+
+    .wt-filmstrip-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .wt-filmstrip-num {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(0,0,0,0.45);
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    /* BOTTOM TOOLBAR (SCREENSHOT 3) */
+    .wt-reader-toolbar {
+      position: sticky;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 48px;
+      background: #ffffff;
+      border-top: 1px solid #ebebeb;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 16px;
+      z-index: 1000;
+    }
+
+    .wt-toolbar-left {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+
+    .wt-toolbar-action {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      font-weight: 700;
+      color: #222222;
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+
+    .wt-toolbar-paginate {
       display: flex;
       align-items: center;
       gap: 12px;
-      border-bottom: 1px solid rgba(255,255,255,0.1);
-    }
-    .search-modal-input {
-      flex: 1;
-      background: #23252a;
-      border: 1px solid rgba(255,255,255,0.15);
-      border-radius: 20px;
-      padding: 8px 16px;
-      color: #fff;
       font-size: 14px;
-      outline: none;
+      font-weight: 800;
+      color: #222222;
     }
-    .search-modal-close {
-      background: transparent;
+
+    .wt-nav-arrow {
+      background: none;
       border: none;
-      color: #fff;
-      font-size: 18px;
-      font-weight: bold;
       cursor: pointer;
-    }
-    .search-modal-body {
-      flex: 1;
-      padding: 16px;
-      overflow-y: auto;
-      background: #121316;
+      color: #444444;
+      display: flex;
+      align-items: center;
     }
 
-    /* MORE DRAWER */
-    .side-drawer-backdrop {
-      position: fixed;
-      inset: 0;
-      background: rgba(0,0,0,0.6);
-      z-index: 9998;
-      display: none;
+    /* ----------------------------------------------------
+       FOOTER (MATCHING OFFICIAL)
+       ---------------------------------------------------- */
+    .wt-footer {
+      background: #f9f9f9;
+      border-top: 1px solid #ebebeb;
+      padding: 24px 16px 36px 16px;
+      text-align: center;
     }
-    .side-drawer-backdrop.open {
-      display: block;
-    }
-    .side-drawer {
-      position: fixed;
-      top: 0;
-      right: -300px;
-      width: 280px;
-      height: 100%;
-      background: #fff;
-      z-index: 9999;
-      box-shadow: -4px 0 20px rgba(0,0,0,0.3);
-      transition: right 0.25s ease;
+
+    .wt-footer-menu {
       display: flex;
-      flex-direction: column;
+      justify-content: center;
+      gap: 16px;
+      margin-bottom: 12px;
     }
-    body.wt-dark .side-drawer {
-      background: #18191c;
-    }
-    .side-drawer.open {
-      right: 0;
-    }
-    .side-drawer-header {
-      padding: 18px 16px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      border-bottom: 1px solid rgba(0,0,0,0.08);
-    }
-    body.wt-dark .side-drawer-header {
-      border-bottom: 1px solid var(--ds-border-dark);
-    }
-    .side-drawer-body {
-      padding: 16px;
-      flex: 1;
-      overflow-y: auto;
-    }
-    .side-drawer-item {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 14px 8px;
+
+    .wt-footer-link {
+      font-size: 12px;
+      color: #666666;
       text-decoration: none;
-      color: inherit;
-      border-bottom: 1px solid rgba(0,0,0,0.05);
+    }
+
+    .wt-footer-brand {
+      font-weight: 900;
       font-size: 14px;
-      font-weight: 600;
-    }
-    body.wt-dark .side-drawer-item {
-      border-bottom: 1px solid var(--ds-border-dark);
-      color: var(--ds-text-dark);
+      color: #00dc64;
+      margin-bottom: 4px;
     }
 
-    /* SUMMARY EXPAND */
-    .summary._summary.on {
-      -webkit-line-clamp: unset !important;
-      display: block !important;
-    }
-
-    /* SPRITE FALLBACK ICONS */
-    .icon_up {
-      color: #00dc64 !important;
-      font-weight: 800 !important;
-      font-size: 11px !important;
+    .wt-footer-copy {
+      font-size: 11px;
+      color: #999999;
     }
   </style>
 </head>
-<body class="en">
+<body>
 
-  <div class="wrap _bodyWrap" id="wrap">
-    <div class="u_skip"><a href="#ct">skip to content</a></div>
-
-    <!-- ==========================================
-         GLOBAL HEADER & LNB (FOR HOME, ORIGINALS, CANVAS, MY)
-         ========================================== -->
-    <header role="banner" id="global-header">
-      <div class="gnb">
-        <!-- Logo -->
-        <a href="javascript:void(0)" onclick="openView('home')" class="ds-brand-wrap">
-          <div class="ds-brand-badge">DS</div>
-          <div class="ds-brand-name">DEMON SOVEREIGN</div>
+  <!-- ========================================================
+       PAGE 1: HOME FEED VIEW (#page-home) - MATCHES SCREENSHOT 1
+       STRICT: 3x3 GRID OF MANHWA CARDS, ZERO EPISODES!
+       ======================================================== -->
+  <div id="page-home">
+    
+    <!-- Header with GNB & Tabs -->
+    <header class="wt-header">
+      <div class="wt-gnb">
+        <a href="javascript:void(0)" onclick="openPage('home')" class="wt-logo-wrap">
+          <span class="wt-logo-badge">WEB<br>TOON</span>
+          <span class="wt-logo-text">DEMON SOVEREIGN</span>
         </a>
-        <!-- Right Action Buttons -->
-        <div class="gnb_btn_area">
-          <a href="javascript:void(0)" onclick="toggleDarkTheme()" class="link" style="padding: 10px 8px; font-size: 16px; text-decoration: none;" title="Toggle Dark/Light Mode">
-            <span id="theme-icon">🌙</span>
-          </a>
-          <a href="javascript:void(0)" onclick="openSearchModal()" class="btn_search _gnbMenu"><span class="blind">Search</span></a>
-          <a href="javascript:void(0)" onclick="openSideDrawer()" class="btn_menu _gnbMenu"><span class="blind">More</span></a>
+        <div class="wt-gnb-icons">
+          <button class="wt-icon-btn" onclick="openSearchModal()" title="Search">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </button>
+          <button class="wt-icon-btn" onclick="openSideDrawer()" title="Menu">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
         </div>
       </div>
 
-      <!-- LNB Navigation Tabs (HOME, ORIGINALS, CANVAS, MY) -->
-      <nav class="snb">
-        <ul role="navigation" class="lnb">
-          <li class="item on" id="lnb-item-home"><a href="javascript:void(0)" onclick="openView('home')" class="link _lnbMenu">HOME</a></li>
-          <li class="item" id="lnb-item-originals"><a href="javascript:void(0)" onclick="openView('originals')" class="link _lnbMenu">ORIGINALS</a></li>
-          <li class="item" id="lnb-item-canvas"><a href="javascript:void(0)" onclick="openView('canvas')" class="link _lnbMenu">CANVAS</a></li>
-          <li class="item" id="lnb-item-my"><a href="javascript:void(0)" onclick="openView('my')" class="link _lnbMenu">MY</a></li>
-        </ul>
-      </nav>
+      <!-- Navigation Tabs: HOME, ORIGINALS, CANVAS, MY -->
+      <ul class="wt-lnb">
+        <li class="wt-lnb-item active"><a href="javascript:void(0)" onclick="openPage('home')" class="wt-lnb-link">HOME</a></li>
+        <li class="wt-lnb-item"><a href="javascript:void(0)" onclick="openPage('detail')" class="wt-lnb-link">ORIGINALS</a></li>
+        <li class="wt-lnb-item"><a href="javascript:void(0)" onclick="openPage('detail')" class="wt-lnb-link">CANVAS</a></li>
+        <li class="wt-lnb-item"><a href="javascript:void(0)" onclick="openPage('detail')" class="wt-lnb-link">MY</a></li>
+      </ul>
     </header>
 
-    <hr id="global-hr">
+    <!-- SECTION 1: Trending & Popular Series (3x3 Grid like Screenshot 1) -->
+    <div class="wt-section">
+      <a href="javascript:void(0)" onclick="openPage('detail')" class="wt-section-header">
+        <h2 class="wt-section-title">Trending & Popular Series</h2>
+        <span class="wt-section-arrow">›</span>
+      </a>
 
-    <!-- ==========================================
-         VIEW 1: HOME FEED (#view-home / #ct)
-         STRICT RULE: NO EPISODES HERE! ONLY MANHWA POSTER CARDS!
-         CLICKS ON ANY POSTER OPEN THE SERIES DETAIL PAGE!
-         ========================================== -->
-    <div id="view-home" class="_main_ct" role="main">
-      
-      <!-- HERO BANNER CAROUSEL (CLICK OPENS SERIES DETAIL) -->
-      <div class="hero-banner-wrap" onclick="openView('detail')">
-        <img src="./images/hero_banner.jpg" class="hero-banner-bg" alt="Demon Sovereign's Bloodline">
-        <div class="hero-banner-overlay">
-          <span class="hero-tag">SATURDAY FLAGSHIP ORIGINAL</span>
-          <h1 class="hero-title">Demon Sovereign's Bloodline</h1>
-          <p class="hero-subtitle">Beaten and battered on the rain-slicked rooftop, Kang Ha-Jun awakens the sealed blood of the Ancient Demon Sovereign.</p>
-          <span class="hero-cta">Tap to View Series & Episodes →</span>
-        </div>
+      <!-- Subtabs: Trending / Popular -->
+      <div class="wt-subtabs">
+        <button class="wt-subtab active">Trending</button>
+        <button class="wt-subtab inactive">Popular</button>
       </div>
 
-      <!-- MAIN CONTENT WRAP (ALL MANHWA CARDS) -->
-      <div class="main_content_wrap">
-        
-        <!-- SECTION 1: TRENDING & POPULAR SERIES #1 -->
-        <div class="section_heading">
-          <h2 class="title">Trending & Popular Series</h2>
-          <a href="javascript:void(0)" onclick="openView('detail')" style="font-size: 12px; color: #00dc64; font-weight: 700; text-decoration: none;">View Series →</a>
+      <!-- 3x3 Grid of Manhwa Poster Cards -->
+      <div class="wt-grid-3">
+        <!-- Card 1 (Demon Sovereign Main) -->
+        <div class="wt-grid-card" onclick="openPage('detail')">
+          <div class="wt-card-poster-wrap">
+            <img src="./images/card_01_sovereign.jpg" alt="Demon Sovereign">
+            <div class="wt-card-rank-box">
+              <span class="wt-card-rank-num">1</span>
+              <span class="wt-card-rank-trend up">▲ 11</span>
+            </div>
+          </div>
+          <div class="wt-card-title">Demon Sovereign's Bloodline</div>
+          <div class="wt-card-genre">Action</div>
         </div>
 
-        <ul class="webtoon_list type_ranking _trending_page" style="margin-bottom: 14px;">
-          <li class="item" style="cursor: pointer;" onclick="openView('detail')">
-            <a href="javascript:void(0)" class="link _titleItem" data-rank="1">
-              <div class="image_wrap">
-                <div class="icon_area _icon_area">
-                  <span class="ico badge_up">UP</span>
-                  <span class="ico badge_new">NEW</span>
-                </div>
-                <img src="./images/card_01_sovereign.jpg" width="110" height="143" style="object-fit: cover;" alt="Demon Sovereign's Bloodline">
-              </div>
-              <div class="ranking_text">
-                <strong class="ranking_number_1">
-                  <span class="blind">1</span>
-                </strong>
-                <em class="trending up"><span class="blind">up</span>#1</em>
-              </div>
-              <div class="info_text">
-                <strong class="title">Demon Sovereign's Bloodline</strong>
-                <div class="genre">Action / Supernatural • 842K Subscribers</div>
-              </div>
-            </a>
-          </li>
-        </ul>
-
-        <!-- SECTION 2: NEWLY RELEASED ORIGINALS (POSTER CARDS) -->
-        <div class="section_heading">
-          <h2 class="title">Newly Released Originals</h2>
-          <span class="badge">UPDATED TODAY</span>
+        <!-- Card 2 (Kuro Familiar Arc) -->
+        <div class="wt-grid-card" onclick="openPage('detail')">
+          <div class="wt-card-poster-wrap">
+            <img src="./images/card_02_kuro.jpg" alt="Kuro Familiar Arc">
+            <div class="wt-card-rank-box">
+              <span class="wt-card-rank-num">2</span>
+              <span class="wt-card-rank-trend down">▼ 1</span>
+            </div>
+          </div>
+          <div class="wt-card-title">The Cursed Familiar</div>
+          <div class="wt-card-genre">Supernatural</div>
         </div>
 
-        <div class="manhwa-card-row">
-          <!-- Card: Demon Sovereign Main -->
-          <div class="manhwa-card-item" onclick="openView('detail')">
-            <div class="manhwa-card-poster">
-              <span class="manhwa-card-badge">UP</span>
-              <img src="./images/card_01_sovereign.jpg" alt="Demon Sovereign's Bloodline">
+        <!-- Card 3 (Saint Mirren Rooftop) -->
+        <div class="wt-grid-card" onclick="openPage('detail')">
+          <div class="wt-card-poster-wrap">
+            <img src="./images/card_08_confrontation.jpg" alt="Saint Mirren Confrontation">
+            <div class="wt-card-rank-box">
+              <span class="wt-card-rank-num">3</span>
+              <span class="wt-card-rank-trend up">▲ 17</span>
             </div>
-            <div class="manhwa-card-title">Demon Sovereign</div>
-            <div class="manhwa-card-meta">Action / Super.</div>
           </div>
-
-          <!-- Card: Kuro Familiar Arc -->
-          <div class="manhwa-card-item" onclick="openView('detail')">
-            <div class="manhwa-card-poster">
-              <span class="manhwa-card-badge">HOT</span>
-              <img src="./images/card_02_kuro.jpg" alt="Demon Sovereign: Kuro Arc">
-            </div>
-            <div class="manhwa-card-title">Kuro Arc</div>
-            <div class="manhwa-card-meta">The Cursed Feather</div>
-          </div>
-
-          <!-- Card: Saint Mirren Climax -->
-          <div class="manhwa-card-item" onclick="openView('detail')">
-            <div class="manhwa-card-poster">
-              <span class="manhwa-card-badge">NEW</span>
-              <img src="./images/card_08_confrontation.jpg" alt="Demon Sovereign: Saint Mirren">
-            </div>
-            <div class="manhwa-card-title">Saint Mirren Arc</div>
-            <div class="manhwa-card-meta">Confrontation</div>
-          </div>
-
-          <!-- Card: Sister Sanctuary -->
-          <div class="manhwa-card-item" onclick="openView('detail')">
-            <div class="manhwa-card-poster">
-              <img src="./images/card_03_sister.jpg" alt="Demon Sovereign: Ha-Eun">
-            </div>
-            <div class="manhwa-card-title">Home Sanctuary</div>
-            <div class="manhwa-card-meta">Ha-Eun & Ha-Jun</div>
-          </div>
+          <div class="wt-card-title">Saint Mirren Clash</div>
+          <div class="wt-card-genre">Action</div>
         </div>
 
-        <!-- SECTION 3: SATURDAY RELEASE SHOWCASE -->
-        <div class="section_heading">
-          <h2 class="title">Saturday Release • Featured Series</h2>
-          <span class="badge">#1 IN ACTION</span>
+        <!-- Card 4 (Awakening of Power) -->
+        <div class="wt-grid-card" onclick="openPage('detail')">
+          <div class="wt-card-poster-wrap">
+            <img src="./images/card_05_awakening.jpg" alt="Awakening">
+            <div class="wt-card-rank-box">
+              <span class="wt-card-rank-num">4</span>
+              <span class="wt-card-rank-trend down">▼ 2</span>
+            </div>
+          </div>
+          <div class="wt-card-title">Bloodline Awakening</div>
+          <div class="wt-card-genre">Action</div>
         </div>
 
-        <div style="padding: 0 16px 20px 16px;">
-          <div style="display: flex; gap: 14px; background: rgba(0,220,100,0.06); padding: 14px; border-radius: 8px; border: 1px solid rgba(0,220,100,0.2); cursor: pointer;" onclick="openView('detail')">
-            <img src="./images/card_01_sovereign.jpg" width="95" height="124" style="object-fit: cover; border-radius: 4px;" alt="Demon Sovereign">
-            <div>
-              <span style="display:inline-block; background:#00dc64; color:#000; font-size:10px; font-weight:800; padding:2px 6px; border-radius:3px;">SATURDAY RELEASE</span>
-              <h3 style="margin: 4px 0; font-size: 16px; font-weight: 800;">Demon Sovereign's Bloodline</h3>
-              <p style="margin: 0 0 6px 0; font-size: 12px; color: var(--ds-subtext-dark);">By Kuro & Ha-Jun / Redice Studio</p>
-              <div style="font-size: 11px; color: #f59e0b; font-weight: 700;">★ 9.89 • 842K Subscribers</div>
-              <div style="margin-top: 8px; font-size: 12px; color: #00dc64; font-weight: 800;">
-                Click to open Series & Episodes →
-              </div>
+        <!-- Card 5 (The Storm) -->
+        <div class="wt-grid-card" onclick="openPage('detail')">
+          <div class="wt-card-poster-wrap">
+            <img src="./images/card_06_storm.jpg" alt="The Storm">
+            <div class="wt-card-rank-box">
+              <span class="wt-card-rank-num">5</span>
+              <span class="wt-card-rank-trend down">▼ 2</span>
             </div>
           </div>
+          <div class="wt-card-title">The Gathering Storm</div>
+          <div class="wt-card-genre">Fantasy</div>
         </div>
 
-        <!-- SECTION 4: UNIVERSE & CHARACTER DOSSIERS -->
-        <div class="section_heading">
-          <h2 class="title">Universe & Lore Dossiers</h2>
-          <span class="badge">REDICE STUDIO</span>
+        <!-- Card 6 (Bloody Tears) -->
+        <div class="wt-grid-card" onclick="openPage('detail')">
+          <div class="wt-card-poster-wrap">
+            <img src="./images/card_04_bloody_tears.jpg" alt="Bloody Tears">
+            <div class="wt-card-rank-box">
+              <span class="wt-card-rank-num">6</span>
+              <span class="wt-card-rank-trend down">▼ 2</span>
+            </div>
+          </div>
+          <div class="wt-card-title">Tears of Vengeance</div>
+          <div class="wt-card-genre">Action</div>
         </div>
 
-        <div class="manhwa-card-row">
-          <div class="manhwa-card-item" onclick="openView('detail')">
-            <div class="manhwa-card-poster">
-              <img src="./images/card_01_sovereign.jpg" alt="Kang Ha-Jun">
+        <!-- Card 7 (Ha-Eun Sanctuary) -->
+        <div class="wt-grid-card" onclick="openPage('detail')">
+          <div class="wt-card-poster-wrap">
+            <img src="./images/card_03_sister.jpg" alt="Ha-Eun Sanctuary">
+            <div class="wt-card-rank-box">
+              <span class="wt-card-rank-num">7</span>
+              <span class="wt-card-rank-trend down">▼ 1</span>
             </div>
-            <div class="manhwa-card-title">Kang Ha-Jun</div>
-            <div class="manhwa-card-meta">The Sovereign</div>
           </div>
-
-          <div class="manhwa-card-item" onclick="openView('detail')">
-            <div class="manhwa-card-poster">
-              <img src="./images/card_02_kuro.jpg" alt="Kuro Familiar">
-            </div>
-            <div class="manhwa-card-title">Kuro (黒)</div>
-            <div class="manhwa-card-meta">Demonic Familiar</div>
-          </div>
-
-          <div class="manhwa-card-item" onclick="openView('detail')">
-            <div class="manhwa-card-poster">
-              <img src="./images/card_03_sister.jpg" alt="Kang Ha-Eun">
-            </div>
-            <div class="manhwa-card-title">Kang Ha-Eun</div>
-            <div class="manhwa-card-meta">Elder Sister</div>
-          </div>
-
-          <div class="manhwa-card-item" onclick="openView('detail')">
-            <div class="manhwa-card-poster">
-              <img src="./images/card_04_university.jpg" alt="Saint Mirren">
-            </div>
-            <div class="manhwa-card-title">Saint Mirren</div>
-            <div class="manhwa-card-meta">Awakening Site</div>
-          </div>
+          <div class="wt-card-title">Sister's Sanctuary</div>
+          <div class="wt-card-genre">Drama</div>
         </div>
 
-      </div>
-    </div>
-
-    <!-- ==========================================
-         VIEW 2: ORIGINALS (#view-originals)
-         ========================================== -->
-    <div id="view-originals" class="_main_ct" role="main" style="display: none;">
-      <!-- Weekday Navigation -->
-      <ul class="main_section_tab" role="tablist" style="margin-top: 10px;">
-        <li role="presentation" class="item"><button type="button" class="button">MON</button></li>
-        <li role="presentation" class="item"><button type="button" class="button">TUE</button></li>
-        <li role="presentation" class="item"><button type="button" class="button">WED</button></li>
-        <li role="presentation" class="item"><button type="button" class="button">THU</button></li>
-        <li role="presentation" class="item"><button type="button" class="button">FRI</button></li>
-        <li role="presentation" class="item"><button type="button" class="button _trending_tab_button" style="background:#00dc64; color:#000; font-weight:800;">SAT</button></li>
-        <li role="presentation" class="item"><button type="button" class="button">SUN</button></li>
-      </ul>
-
-      <div class="section_heading">
-        <h2 class="title">Saturday Lineup • Featured Original</h2>
-        <span class="badge">#1 RANKING</span>
-      </div>
-
-      <div style="padding: 16px;">
-        <div style="display: flex; gap: 14px; background: rgba(0,220,100,0.06); padding: 14px; border-radius: 8px; border: 1px solid rgba(0,220,100,0.2); cursor: pointer;" onclick="openView('detail')">
-          <img src="./images/card_01_sovereign.jpg" width="95" height="124" style="object-fit: cover; border-radius: 4px;" alt="Demon Sovereign">
-          <div>
-            <span style="display:inline-block; background:#00dc64; color:#000; font-size:10px; font-weight:800; padding:2px 6px; border-radius:3px;">SATURDAY RELEASE</span>
-            <h3 style="margin: 4px 0; font-size: 16px; font-weight: 800;">Demon Sovereign's Bloodline</h3>
-            <p style="margin: 0 0 6px 0; font-size: 12px; color: var(--ds-subtext-dark);">By Kuro & Ha-Jun / Redice Studio</p>
-            <div style="font-size: 11px; color: #f59e0b; font-weight: 700;">★ 9.89 • 842K Subscribers</div>
-            <button onclick="event.stopPropagation(); openView('detail');" style="margin-top: 8px; background: #00dc64; color: #000; border: none; font-size: 11px; font-weight: 800; padding: 5px 12px; border-radius: 14px; cursor: pointer;">
-              Open Series & Episodes →
-            </button>
+        <!-- Card 8 (Feather of Kuro) -->
+        <div class="wt-grid-card" onclick="openPage('detail')">
+          <div class="wt-card-poster-wrap">
+            <img src="./images/card_07_feather.jpg" alt="Feather of Kuro">
+            <div class="wt-card-rank-box">
+              <span class="wt-card-rank-num">8</span>
+              <span class="wt-card-rank-trend up">▲ 15</span>
+            </div>
           </div>
+          <div class="wt-card-title">Obsidian Feather</div>
+          <div class="wt-card-genre">Supernatural</div>
+        </div>
+
+        <!-- Card 9 (Saint Mirren University) -->
+        <div class="wt-grid-card" onclick="openPage('detail')">
+          <div class="wt-card-poster-wrap">
+            <img src="./images/card_04_university.jpg" alt="Saint Mirren">
+            <div class="wt-card-rank-box">
+              <span class="wt-card-rank-num">9</span>
+              <span class="wt-card-rank-trend down">▼ 4</span>
+            </div>
+          </div>
+          <div class="wt-card-title">Saint Mirren Academy</div>
+          <div class="wt-card-genre">Mystery</div>
         </div>
       </div>
     </div>
 
-    <!-- ==========================================
-         VIEW 3: CANVAS (#view-canvas)
-         ========================================== -->
-    <div id="view-canvas" class="_main_ct" role="main" style="display: none;">
-      <div class="section_heading">
-        <h2 class="title">Redice Studio Archive & Sketches</h2>
-        <span class="badge">CREATOR CANVAS</span>
-      </div>
+    <!-- SECTION 2: Continue Reading (Carousel with Subscribe buttons like Screenshot 1) -->
+    <div class="wt-section" style="padding-top: 6px;">
+      <a href="javascript:void(0)" onclick="openPage('detail')" class="wt-section-header">
+        <h2 class="wt-section-title">Continue Reading</h2>
+        <span class="wt-section-arrow">›</span>
+      </a>
 
-      <div style="padding: 16px;">
-        <p style="font-size: 13px; color: var(--ds-subtext-dark); margin-top: 0;">
-          Exclusive behind-the-scenes character sheets, environment layouts, and background designs by Redice Studio.
-        </p>
-
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
-          <div style="border-radius: 6px; overflow: hidden; background: #1a1a1a; cursor: pointer;" onclick="openView('detail')">
-            <img src="./images/card_01_sovereign.jpg" width="100%" height="160" style="object-fit: cover;" alt="Character Concept">
-            <div style="padding: 8px;">
-              <strong style="font-size: 12px; color: #fff; display: block;">Ha-Jun Design Sheet</strong>
-              <span style="font-size: 10px; color: #888;">G-Pen Inking & Cel-Shading</span>
-            </div>
+      <div class="wt-carousel">
+        <div class="wt-carousel-card" onclick="openPage('detail')">
+          <div class="wt-carousel-poster">
+            <img src="./images/card_01_sovereign.jpg" alt="Demon Sovereign">
           </div>
+          <div class="wt-carousel-title">Demon Sovereign</div>
+          <button class="wt-subscribe-btn" onclick="event.stopPropagation(); toggleSubHome(this)">+ Subscribe</button>
+        </div>
 
-          <div style="border-radius: 6px; overflow: hidden; background: #1a1a1a; cursor: pointer;" onclick="openView('detail')">
-            <img src="./images/card_02_kuro.jpg" width="100%" height="160" style="object-fit: cover;" alt="Familiar Concept">
-            <div style="padding: 8px;">
-              <strong style="font-size: 12px; color: #fff; display: block;">Kuro Familiar Specs</strong>
-              <span style="font-size: 10px; color: #888;">Demonic Raven/Parrot</span>
-            </div>
+        <div class="wt-carousel-card" onclick="openPage('detail')">
+          <div class="wt-carousel-poster">
+            <img src="./images/card_02_kuro.jpg" alt="Kuro Familiar">
           </div>
+          <div class="wt-carousel-title">The Familiar Kuro</div>
+          <button class="wt-subscribe-btn" onclick="event.stopPropagation(); toggleSubHome(this)">+ Subscribe</button>
+        </div>
 
-          <div style="border-radius: 6px; overflow: hidden; background: #1a1a1a; cursor: pointer;" onclick="openView('detail')">
-            <img src="./images/card_03_sister.jpg" width="100%" height="160" style="object-fit: cover;" alt="Ha-Eun Concept">
-            <div style="padding: 8px;">
-              <strong style="font-size: 12px; color: #fff; display: block;">Sister Ha-Eun Sheet</strong>
-              <span style="font-size: 10px; color: #888;">Sanctuary & Home Drama</span>
-            </div>
+        <div class="wt-carousel-card" onclick="openPage('detail')">
+          <div class="wt-carousel-poster">
+            <img src="./images/card_08_confrontation.jpg" alt="Saint Mirren Confrontation">
           </div>
+          <div class="wt-carousel-title">Saint Mirren Clash</div>
+          <button class="wt-subscribe-btn" onclick="event.stopPropagation(); toggleSubHome(this)">+ Subscribe</button>
+        </div>
 
-          <div style="border-radius: 6px; overflow: hidden; background: #1a1a1a; cursor: pointer;" onclick="openView('detail')">
-            <img src="./images/card_04_university.jpg" width="100%" height="160" style="object-fit: cover;" alt="Saint Mirren Concept">
-            <div style="padding: 8px;">
-              <strong style="font-size: 12px; color: #fff; display: block;">Saint Mirren Rooftop</strong>
-              <span style="font-size: 10px; color: #888;">Rainstorm Establishing Art</span>
-            </div>
+        <div class="wt-carousel-card" onclick="openPage('detail')">
+          <div class="wt-carousel-poster">
+            <img src="./images/card_03_sister.jpg" alt="Sister Sanctuary">
           </div>
+          <div class="wt-carousel-title">Ha-Eun's Home</div>
+          <button class="wt-subscribe-btn" onclick="event.stopPropagation(); toggleSubHome(this)">+ Subscribe</button>
         </div>
       </div>
     </div>
 
-    <!-- ==========================================
-         VIEW 4: MY LIBRARY (#view-my)
-         ========================================== -->
-    <div id="view-my" class="_main_ct" role="main" style="display: none;">
-      <div class="my_tool" style="display: flex; align-items: center; justify-content: space-between; padding: 14px 16px; border-bottom: 1px solid rgba(0,0,0,0.08);">
-        <strong style="font-size: 15px;">Reading History</strong>
-        <span style="font-size: 12px; color: #00dc64; font-weight: 700;">1 Active Series</span>
+    <!-- Footer -->
+    <footer class="wt-footer">
+      <div class="wt-footer-menu">
+        <a href="javascript:void(0)" onclick="openPage('home')" class="wt-footer-link">Home</a>
+        <a href="javascript:void(0)" onclick="openPage('detail')" class="wt-footer-link">Series</a>
+        <a href="javascript:void(0)" onclick="openPage('detail')" class="wt-footer-link">About</a>
+        <a href="javascript:void(0)" class="wt-footer-link">Terms</a>
       </div>
-
-      <div class="my_list_wrap" style="padding: 16px;">
-        <div style="display: flex; gap: 14px; background: rgba(0,220,100,0.06); padding: 14px; border-radius: 8px; border: 1px solid rgba(0,220,100,0.2); cursor: pointer;" onclick="openView('detail')">
-          <img src="./images/card_01_sovereign.jpg" width="95" height="124" style="object-fit: cover; border-radius: 4px;" alt="Demon Sovereign">
-          <div>
-            <span style="display:inline-block; background:#00dc64; color:#000; font-size:10px; font-weight:800; padding:2px 6px; border-radius:3px;">SUBSCRIBED</span>
-            <h3 style="margin: 4px 0; font-size: 16px; font-weight: 800;">Demon Sovereign's Bloodline</h3>
-            <p style="margin: 0 0 6px 0; font-size: 12px; color: var(--ds-subtext-dark);">Reading: Ep. 4 (Latest Released)</p>
-            <div style="font-size: 11px; color: #f59e0b; font-weight: 700;">★ 9.89 • 842K Subscribers</div>
-            <div style="margin-top: 8px; font-size: 12px; color: #00dc64; font-weight: 800;">
-              Tap to Open Series & Episodes →
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- ========================================================
-         VIEW 5: SERIES DETAIL / EPISODE LIST PAGE (#view-detail)
-         100% EXACT REPLICA OF OFFICIAL m_detail.html
-         ======================================================== -->
-    <div id="view-detail" style="display: none;">
-      
-      <!-- Authentic Header (sub_detail) -->
-      <header role="banner" class="sub_detail">
-        <a href="javascript:void(0)" onclick="openView('home')" class="btn_home _homeBtn" title="Back to Home"><span class="blind">HOME</span></a>
-        <div class="button_area">
-          <button type="button" class="btn_subscribe _subscribeBtn" id="btn-subscribe" onclick="toggleSubscribe()" aria-pressed="true">
-            <span class="text _subscribeText" id="subscribe-text-label">Subscribed</span>
-          </button>
-          <button type="button" class="btn_info _infoBtn" onclick="openSeriesInfo()" title="Series Information"><span class="blind">Information</span></button>
-          <button type="button" class="btn_more _shareLayerPopBtn" onclick="openSearchModal()" title="Share Series"><span class="blind">Share</span></button>
-        </div>
-      </header>
-
-      <hr>
-
-      <!-- Authentic Detail Content -->
-      <div id="ct" role="main" class="detail_content">
-        
-        <div class="detail_info_wrap">
-          <!-- Centered Poster Cover -->
-          <div class="img_area">
-            <img src="./images/card_01_sovereign.jpg" width="100%" alt="Demon Sovereign's Bloodline">
-          </div>
-
-          <!-- Series Meta Info -->
-          <div class="info_area">
-            <em class="point">#1 in Action & Supernatural</em>
-            <strong class="subject">Demon Sovereign's Bloodline</strong>
-            <div class="author">
-              <a href="javascript:void(0)" class="link_author">Kuro & Ha-Jun / Redice Studio</a>
-            </div>
-            
-            <a href="javascript:void(0)" class="summary _summary" id="detail-summary" onclick="this.classList.toggle('on')" aria-expanded="false">
-              Beaten and battered on the rain-slicked rooftop of Saint Mirren University, Kang Ha-Jun awakens the sealed blood of the Ancient Demon Sovereign. When a demonic familiar Kuro offers him an infernal contract, Ha-Jun chooses vengeance over submission. (Tap to expand full synopsis)
-            </a>
-
-            <ul class="tag_box">
-              <li class="tag">Action</li>
-              <li class="tag">Supernatural</li>
-              <li class="tag">Revenge</li>
-              <li class="tag">Redice Studio</li>
-            </ul>
-          </div>
-
-          <!-- Big Official Action Read Button -->
-          <a href="javascript:void(0)" onclick="openEpisodeReader(1)" class="btn_episode _readEpisodeBtn" style="color:#000; text-decoration:none; font-weight:800; font-size:15px;" title="Read Episode 1">Read Episode 1</a>
-        </div>
-
-        <!-- AUTHENTIC EPISODE LIST WRAP (detail_list_wrap) -->
-        <ul class="detail_list_wrap _titleHomeEpisodeList" id="detail-episodes-container">
-          
-          <!-- Episode 4 -->
-          <li class="detail_item" onclick="openEpisodeReader(4)" style="cursor: pointer;">
-            <a href="javascript:void(0)" class="link_detail">
-              <div class="img_area">
-                <img src="./images/card_08_confrontation.jpg" width="80" height="56" style="object-fit:cover; width:80px; height:56px;" alt="Episode 4 thumbnail">
-              </div>
-              <div class="episode_area">
-                <div class="title">
-                  <span class="txt_title">Episode 4: The Saint Mirren Confrontation</span>
-                  <span class="icon_box"><span class="icon_up">UP</span></span>
-                </div>
-                <div class="date">Nov 9, 2026 <span class="like" style="margin-left:8px;"><span class="icon_like"></span>52.4K</span> <span class="num" style="float:right; font-weight:700; color:#8c8c8c;">#4</span></div>
-              </div>
-            </a>
-          </li>
-
-          <!-- Episode 3 -->
-          <li class="detail_item" onclick="openEpisodeReader(3)" style="cursor: pointer;">
-            <a href="javascript:void(0)" class="link_detail">
-              <div class="img_area">
-                <img src="./images/card_05_awakening.jpg" width="80" height="56" style="object-fit:cover; width:80px; height:56px;" alt="Episode 3 thumbnail">
-              </div>
-              <div class="episode_area">
-                <div class="title">
-                  <span class="txt_title">Episode 3: Bloodline Awakening</span>
-                  <span class="icon_box"><span class="icon_up">UP</span></span>
-                </div>
-                <div class="date">Nov 8, 2026 <span class="like" style="margin-left:8px;"><span class="icon_like"></span>48.9K</span> <span class="num" style="float:right; font-weight:700; color:#8c8c8c;">#3</span></div>
-              </div>
-            </a>
-          </li>
-
-          <!-- Episode 2 -->
-          <li class="detail_item" onclick="openEpisodeReader(2)" style="cursor: pointer;">
-            <a href="javascript:void(0)" class="link_detail">
-              <div class="img_area">
-                <img src="./images/card_02_kuro.jpg" width="80" height="56" style="object-fit:cover; width:80px; height:56px;" alt="Episode 2 thumbnail">
-              </div>
-              <div class="episode_area">
-                <div class="title">
-                  <span class="txt_title">Episode 2: The Demonic Familiar Kuro</span>
-                  <span class="icon_box"><span class="icon_up">UP</span></span>
-                </div>
-                <div class="date">Nov 8, 2026 <span class="like" style="margin-left:8px;"><span class="icon_like"></span>45.2K</span> <span class="num" style="float:right; font-weight:700; color:#8c8c8c;">#2</span></div>
-              </div>
-            </a>
-          </li>
-
-          <!-- Episode 1 -->
-          <li class="detail_item" onclick="openEpisodeReader(1)" style="cursor: pointer;">
-            <a href="javascript:void(0)" class="link_detail">
-              <div class="img_area">
-                <img src="./images/card_01_sovereign.jpg" width="80" height="56" style="object-fit:cover; width:80px; height:56px;" alt="Episode 1 thumbnail">
-              </div>
-              <div class="episode_area">
-                <div class="title">
-                  <span class="txt_title">Episode 1: Awakening of the Sovereign</span>
-                </div>
-                <div class="date">Nov 7, 2026 <span class="like" style="margin-left:8px;"><span class="icon_like"></span>61.8K</span> <span class="num" style="float:right; font-weight:700; color:#8c8c8c;">#1</span></div>
-              </div>
-            </a>
-          </li>
-
-        </ul>
-
-        <!-- LOAD FULL 100-CHAPTER CATALOG BUTTON -->
-        <div style="padding: 16px; text-align: center;">
-          <button id="btn-load-100" onclick="renderAll100Chapters()" style="width: 100%; background: rgba(0,220,100,0.1); color: #00dc64; border: 1px solid rgba(0,220,100,0.3); font-weight: 800; font-size: 13px; padding: 12px; border-radius: 6px; cursor: pointer;">
-            ⚡ View Full 100-Chapter Catalog Roadmap →
-          </button>
-        </div>
-
-      </div>
-
-      <!-- Information Bottom-Sheet / Drawer (Exact from m_detail.html) -->
-      <div class="dim_detail _detailDim" id="detail-info-dim" style="display: none;" onclick="closeSeriesInfo()"></div>
-      <div class="ly_detail _detailDiv" id="detail-info-modal" style="display: none;">
-        <button type="button" class="btn_close _detailCloseBtn" onclick="closeSeriesInfo()">
-          <span class="blind">close</span>
-        </button>
-        <h2 class="title" style="margin-top: 10px;">Demon Sovereign's Bloodline</h2>
-        <div class="details_wrap">
-          <div class="sub_title_area">
-            <h3 class="sub_title">About</h3>
-          </div>
-          <dl class="details_area">
-            <dt class="label">Status</dt>
-            <dd class="value">New Episode Every Saturday</dd>
-            <dt class="label">Subscribers</dt>
-            <dd class="value">842K</dd>
-            <dt class="label">Views</dt>
-            <dd class="value">1.8M</dd>
-            <dt class="label">Rating</dt>
-            <dd class="value">★ 9.89</dd>
-          </dl>
-          <ul class="tag_area">
-            <li class="tag">Action</li>
-            <li class="tag">Supernatural</li>
-            <li class="tag">Revenge</li>
-            <li class="tag">Redice Studio</li>
-          </ul>
-          <p class="desc" style="margin-top: 10px;">
-            In a high-status academy governed by cruel power hierarchies, Kang Ha-Jun was the sacrificial lamb. But when death closed in on Saint Mirren's rooftop, an ancient demon awakened inside him.
-          </p>
-          <div class="sub_title_area">
-            <h3 class="sub_title">Creators</h3>
-          </div>
-          <div class="creator_area">
-            <div class="thumb_box">
-              <img src="./images/card_02_kuro.jpg" width="100%" alt="Kuro & Ha-Jun">
-            </div>
-            <div class="profile_box">
-              <div class="credit">Created by</div>
-              <div class="author">
-                <a href="javascript:void(0)" class="link_author">Kuro & Ha-Jun / Redice Studio</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <!-- ========================================================
-         VIEW 6: READER / VIEWER PAGE (#view-reader)
-         EXACT REPLICA OF OFFICIAL m_viewer.html
-         ======================================================== -->
-    <div id="view-reader" style="display: none;">
-      
-      <!-- Top Sticky Reader Toolbar -->
-      <header role="banner" id="header" class="sub_header _toolbar">
-        <h1 class="h1_viewer sub_title">
-          <a href="javascript:void(0)" class="link _goTop" id="viewer-header-title">Episode 4: The Saint Mirren Confrontation</a>
-        </h1>
-        <a href="javascript:void(0)" onclick="openView('detail')" class="btn_list v2" title="Return to Episode List"><span class="blind">list</span></a>
-        <a href="javascript:void(0)" onclick="openSearchModal()" class="btn_share" title="Share Episode"><span class="blind">share</span></a>
-      </header>
-
-      <hr>
-
-      <!-- Main Viewer Area -->
-      <div role="main">
-        <div class="viewer_img" id="_viewer">
-          <!-- Panels injected by JavaScript -->
-        </div>
-
-        <!-- Creator Note Area -->
-        <div class="viewer_cont_wrap _readComplete" style="padding: 24px 16px; background: #000; color: #fff;">
-          <div class="creator_note" style="border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; padding: 16px; background: #121316;">
-            <h2 class="title" style="font-size: 14px; font-weight: 800; color: #00dc64; margin: 0 0 8px 0;">Creator Note</h2>
-            <div style="display: flex; gap: 12px; align-items: center;">
-              <img src="./images/card_02_kuro.jpg" width="46" height="46" style="border-radius: 50%; object-fit: cover;" alt="Redice Studio">
-              <div>
-                <strong style="font-size: 13px; color: #fff;">Kuro & Ha-Jun / Redice Studio</strong>
-                <p style="font-size: 12px; color: #aaa; margin: 2px 0 0 0;">
-                  Thank you for reading Demon Sovereign's Bloodline! New episodes drop every Saturday at 10 PM KST.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Bottom Viewer Navigation Toolbar -->
-          <div class="viewer_footer _toolbar" style="margin-top: 24px; position: sticky; bottom: 0; left: 0; right: 0; background: #111; z-index: 999; display: flex; align-items: center; justify-content: space-between; padding: 10px 16px; border-top: 1px solid rgba(255,255,255,0.1);">
-            <a href="javascript:void(0)" onclick="likeCurrentEpisode(this)" class="btn_likeit off" id="likeIt">
-              <span class="blind">like it</span> <span class="like_count" id="reader-like-counter" style="color:#00dc64; font-weight:800; font-size:12px; margin-left:4px;">52.4K</span>
-            </a>
-            <a href="javascript:void(0)" class="btn_comment" style="color:#fff; font-size:12px; text-decoration:none;">
-              <span class="blind">comment</span> <span style="color:#aaa;">💬 4.8K</span>
-            </a>
-            <span class="paginate">
-              <a href="javascript:void(0)" onclick="goToPrevEpisode()" class="lk_prev" style="color:#00dc64; font-weight:800; text-decoration:none; margin-right:8px;">❮ Prev</a>
-              <span class="num"><strong id="reader-ep-num" style="color:#fff; font-size:13px;">#4</strong></span>
-              <a href="javascript:void(0)" onclick="goToNextEpisode()" class="lk_next" style="color:#00dc64; font-weight:800; text-decoration:none; margin-left:8px;">Next ❯</a>
-            </span>
-          </div>
-
-        </div>
-      </div>
-
-    </div>
-
-    <!-- ==========================================
-         GLOBAL FOOTER (MATCHING m_webtoons.html)
-         ========================================== -->
-    <footer role="contentinfo" class="_footer" id="global-footer">
-      <div class="top_area" id="_top_area">
-        <a href="#top" class="btn_top" id="btnTop" onclick="window.scrollTo(0,0); return false;"><span class="blind">Go to TOP</span></a>
-      </div>
-
-      <div class="footer_bottom">
-        <p class="foot_menu">
-          <a href="javascript:void(0)" onclick="openView('home')" class="link">Home</a>
-          <a href="javascript:void(0)" onclick="openView('originals')" class="link">Originals</a>
-          <a href="javascript:void(0)" onclick="openView('canvas')" class="link">Canvas</a>
-          <a href="javascript:void(0)" onclick="openView('detail')" class="link">Series Info</a>
-          <a href="javascript:void(0)" onclick="toggleDarkTheme()" class="link">Toggle Dark Mode</a>
-        </p>
-
-        <span class="foot_logo" style="color: #00dc64; font-weight: 900; font-size: 16px; display: block; margin-top: 10px;">
-          DEMON SOVEREIGN
-        </span>
-        <p class="copyright">
-          <a class="link" style="color: #777;">ⓒ DEMON SOVEREIGN COMICS Ltd. All Rights Reserved.</a>
-        </p>
-      </div>
+      <div class="wt-footer-brand">DEMON SOVEREIGN</div>
+      <div class="wt-footer-copy">ⓒ DEMON SOVEREIGN COMICS Ltd. All Rights Reserved.</div>
     </footer>
 
   </div>
 
-  <!-- ==========================================
-       SEARCH MODAL
-       ========================================== -->
-  <div class="search-modal" id="search-modal">
-    <div class="search-modal-header">
-      <input type="text" class="search-modal-input" id="search-input" placeholder="Search Demon Sovereign chapters, lore, characters..." oninput="handleSearch(this.value)">
-      <button class="search-modal-close" onclick="closeSearchModal()">✕</button>
-    </div>
-    <div class="search-modal-body">
-      <div style="margin-bottom: 14px;">
-        <span style="font-size: 11px; color: #888; font-weight: bold; text-transform: uppercase;">Quick Tags:</span>
-        <div style="display: flex; gap: 8px; margin-top: 8px; flex-wrap: wrap;">
-          <button onclick="applySearchTag('Action')" style="background: #23252a; color: #00dc64; border: 1px solid rgba(255,255,255,0.1); border-radius: 14px; padding: 4px 10px; font-size: 12px; cursor: pointer;">#Action</button>
-          <button onclick="applySearchTag('Supernatural')" style="background: #23252a; color: #00dc64; border: 1px solid rgba(255,255,255,0.1); border-radius: 14px; padding: 4px 10px; font-size: 12px; cursor: pointer;">#Supernatural</button>
-          <button onclick="applySearchTag('Ha-Jun')" style="background: #23252a; color: #00dc64; border: 1px solid rgba(255,255,255,0.1); border-radius: 14px; padding: 4px 10px; font-size: 12px; cursor: pointer;">#Ha-Jun</button>
-          <button onclick="applySearchTag('Kuro')" style="background: #23252a; color: #00dc64; border: 1px solid rgba(255,255,255,0.1); border-radius: 14px; padding: 4px 10px; font-size: 12px; cursor: pointer;">#Kuro</button>
-          <button onclick="applySearchTag('Ep. 4')" style="background: #23252a; color: #00dc64; border: 1px solid rgba(255,255,255,0.1); border-radius: 14px; padding: 4px 10px; font-size: 12px; cursor: pointer;">#Ep. 4</button>
-        </div>
+
+  <!-- ========================================================
+       PAGE 2: SERIES DETAIL VIEW (#page-detail) - MATCHES SCREENSHOT 2
+       100% IDENTICAL TO USER SCREENSHOT 2
+       ======================================================== -->
+  <div id="page-detail" style="display: none;">
+    
+    <!-- Detail Header (Screenshot 2: Home icon left, + Subscribe, Info, More right) -->
+    <div class="wt-detail-header">
+      <button class="wt-detail-btn-home" onclick="openPage('home')" title="Back to Home">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+          <polyline points="9 22 9 12 15 12 15 22"></polyline>
+        </svg>
+      </button>
+
+      <div class="wt-detail-actions">
+        <button class="wt-pill-sub-btn" id="detail-sub-pill" onclick="toggleDetailSub()">
+          <span id="detail-sub-text">+ Subscribe</span>
+        </button>
+        <button class="wt-icon-btn" onclick="toggleSynopsis()" title="Information">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="16" x2="12" y2="12"></line>
+            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+          </svg>
+        </button>
+        <button class="wt-icon-btn" onclick="openSearchModal()" title="More">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="1"></circle>
+            <circle cx="12" cy="5" r="1"></circle>
+            <circle cx="12" cy="19" r="1"></circle>
+          </svg>
+        </button>
       </div>
-      <div id="search-results-list" style="color: #fff;"></div>
+    </div>
+
+    <!-- Centered High-Res Poster Cover (Screenshot 2) -->
+    <div class="wt-detail-poster-area">
+      <img src="./images/card_01_sovereign.jpg" class="wt-detail-poster-img" alt="Demon Sovereign's Bloodline">
+    </div>
+
+    <!-- Info Area (Screenshot 2: Views, Title, Author, Synopsis, Tags, Green Button) -->
+    <div class="wt-detail-info-area">
+      <div class="wt-detail-views">72.5M views</div>
+      <h1 class="wt-detail-title">Demon Sovereign's Bloodline</h1>
+      <div class="wt-detail-author">Kuro , Redice Studio</div>
+
+      <p class="wt-detail-synopsis" id="wt-synopsis" onclick="toggleSynopsis()">
+        Beaten and battered on the rain-slicked rooftop of Saint Mirren University, Kang Ha-Jun awakens the sealed blood of the Ancient Demon Sovereign. When a demonic familiar Kuro offers him an infernal contract, Ha-Jun chooses vengeance over submission! Grouchy, cold, and harboring an ancient dark lineage, Ha-Jun will make them all pay...
+      </p>
+
+      <div class="wt-detail-tags">
+        <span class="wt-detail-tag">Action</span>
+        <span class="wt-detail-tag">Supernatural</span>
+        <span class="wt-detail-tag">Revenge</span>
+        <span class="wt-detail-tag">Dark Fantasy</span>
+        <span class="wt-detail-tag">Redice Studio</span>
+      </div>
+
+      <!-- BIG BRIGHT GREEN BUTTON (Screenshot 2) -->
+      <button class="wt-continue-btn" onclick="openEpisode(1)">Continue Reading</button>
+
+      <div class="wt-app-notice">
+        Continue this series on the DEMON SOVEREIGN Portal! ›
+      </div>
+    </div>
+
+    <!-- EPISODE LIST (Screenshot 2: Episode 1, Episode 2, Episode 3, Episode 4...) -->
+    <ul class="wt-detail-ep-list">
+      <!-- Episode 1 -->
+      <li class="wt-detail-ep-item" onclick="openEpisode(1)">
+        <div class="wt-detail-ep-thumb">
+          <img src="./images/card_01_sovereign.jpg" alt="Episode 1">
+        </div>
+        <div class="wt-detail-ep-info">
+          <div class="wt-detail-ep-name">
+            <span>Episode 1</span>
+          </div>
+          <div class="wt-detail-ep-date">May 8, 2026</div>
+        </div>
+      </li>
+
+      <!-- Episode 2 -->
+      <li class="wt-detail-ep-item" onclick="openEpisode(2)">
+        <div class="wt-detail-ep-thumb">
+          <img src="./images/card_02_kuro.jpg" alt="Episode 2">
+        </div>
+        <div class="wt-detail-ep-info">
+          <div class="wt-detail-ep-name">
+            <span>Episode 2</span>
+          </div>
+          <div class="wt-detail-ep-date">May 8, 2026</div>
+        </div>
+      </li>
+
+      <!-- Episode 3 -->
+      <li class="wt-detail-ep-item" onclick="openEpisode(3)">
+        <div class="wt-detail-ep-thumb">
+          <img src="./images/card_05_awakening.jpg" alt="Episode 3">
+        </div>
+        <div class="wt-detail-ep-info">
+          <div class="wt-detail-ep-name">
+            <span>Episode 3</span>
+          </div>
+          <div class="wt-detail-ep-date">May 8, 2026</div>
+        </div>
+      </li>
+
+      <!-- Episode 4 -->
+      <li class="wt-detail-ep-item" onclick="openEpisode(4)">
+        <div class="wt-detail-ep-thumb">
+          <img src="./images/card_08_confrontation.jpg" alt="Episode 4">
+        </div>
+        <div class="wt-detail-ep-info">
+          <div class="wt-detail-ep-name">
+            <span>Episode 4</span>
+            <span class="wt-badge-up">UP</span>
+          </div>
+          <div class="wt-detail-ep-date">May 15, 2026</div>
+        </div>
+      </li>
+    </ul>
+
+    <!-- Footer -->
+    <footer class="wt-footer">
+      <div class="wt-footer-menu">
+        <a href="javascript:void(0)" onclick="openPage('home')" class="wt-footer-link">Home</a>
+        <a href="javascript:void(0)" onclick="openPage('detail')" class="wt-footer-link">Series</a>
+        <a href="javascript:void(0)" class="wt-footer-link">Terms</a>
+      </div>
+      <div class="wt-footer-brand">DEMON SOVEREIGN</div>
+      <div class="wt-footer-copy">ⓒ DEMON SOVEREIGN COMICS Ltd. All Rights Reserved.</div>
+    </footer>
+
+  </div>
+
+
+  <!-- ========================================================
+       PAGE 3: READER / VIEWER VIEW (#page-reader) - MATCHES SCREENSHOT 3 & 4
+       100% IDENTICAL TO USER SCREENSHOT 3 & 4
+       ======================================================== -->
+  <div id="page-reader" style="display: none;">
+    
+    <!-- Top Sticky Header (Screenshot 3 & 4: ≡ on left, Episode title center, share right) -->
+    <div class="wt-reader-header">
+      <button class="wt-icon-btn" onclick="openPage('detail')" title="Back to Series List">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="8" y1="6" x2="21" y2="6"></line>
+          <line x1="8" y1="12" x2="21" y2="12"></line>
+          <line x1="8" y1="18" x2="21" y2="18"></line>
+          <line x1="3" y1="6" x2="3.01" y2="6"></line>
+          <line x1="3" y1="12" x2="3.01" y2="12"></line>
+          <line x1="3" y1="18" x2="3.01" y2="18"></line>
+        </svg>
+      </button>
+
+      <span class="wt-reader-title" id="reader-top-title">Episode 1</span>
+
+      <button class="wt-icon-btn" onclick="openSearchModal()" title="Share">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="18" cy="5" r="3"></circle>
+          <circle cx="6" cy="12" r="3"></circle>
+          <circle cx="18" cy="19" r="3"></circle>
+          <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+          <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Viewer Warning (Screenshot 4) -->
+    <div class="wt-reader-warning">
+      THIS EPISODE CONTAINS STRONG SUPERNATURAL ACTION<br>THAT MAY NOT BE SUITABLE FOR SOME READERS.
+    </div>
+
+    <!-- Full-Width Vertical Manhwa Comic Strip (Screenshot 3 & 4) -->
+    <div class="wt-reader-strip" id="reader-image-strip">
+      <!-- Images loaded dynamically -->
+    </div>
+
+    <!-- Horizontal Thumbnail Filmstrip (Screenshot 3) -->
+    <div class="wt-reader-filmstrip" id="reader-filmstrip">
+      <div class="wt-filmstrip-thumb active" id="film-thumb-1" onclick="openEpisode(1)">
+        <img src="./images/card_01_sovereign.jpg" alt="Ep 1">
+        <span class="wt-filmstrip-num">#1</span>
+      </div>
+      <div class="wt-filmstrip-thumb" id="film-thumb-2" onclick="openEpisode(2)">
+        <img src="./images/card_02_kuro.jpg" alt="Ep 2">
+        <span class="wt-filmstrip-num">#2</span>
+      </div>
+      <div class="wt-filmstrip-thumb" id="film-thumb-3" onclick="openEpisode(3)">
+        <img src="./images/card_05_awakening.jpg" alt="Ep 3">
+        <span class="wt-filmstrip-num">#3</span>
+      </div>
+      <div class="wt-filmstrip-thumb" id="film-thumb-4" onclick="openEpisode(4)">
+        <img src="./images/card_08_confrontation.jpg" alt="Ep 4">
+        <span class="wt-filmstrip-num">#4</span>
+      </div>
+    </div>
+
+    <!-- Bottom Sticky Navigation Toolbar (Screenshot 3) -->
+    <div class="wt-reader-toolbar">
+      <div class="wt-toolbar-left">
+        <!-- Like Button -->
+        <button class="wt-toolbar-action" onclick="toggleLike(this)">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="heart-icon">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+          </svg>
+        </button>
+
+        <!-- Comments Button -->
+        <button class="wt-toolbar-action">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+          </svg>
+          <span id="comment-counter">2,788</span>
+        </button>
+      </div>
+
+      <!-- Prev / Current # / Next Pagination (Screenshot 3) -->
+      <div class="wt-toolbar-paginate">
+        <button class="wt-nav-arrow" onclick="goToPrevEp()" title="Previous Episode">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <polygon points="19 20 9 12 19 4 19 20"></polygon>
+            <line x1="5" y1="19" x2="5" y2="5" stroke="currentColor" stroke-width="2"></line>
+          </svg>
+        </button>
+
+        <span id="current-ep-badge">#1</span>
+
+        <button class="wt-nav-arrow" onclick="goToNextEp()" title="Next Episode">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <polygon points="5 4 15 12 5 20 5 4"></polygon>
+            <line x1="19" y1="5" x2="19" y2="19" stroke="currentColor" stroke-width="2"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- ========================================================
+       MODALS: SEARCH & MENU
+       ======================================================== -->
+  <div id="search-modal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.85); z-index:9999; flex-direction:column;">
+    <div style="background:#111; padding:12px 16px; display:flex; align-items:center; gap:12px;">
+      <input type="text" id="search-input" placeholder="Search Demon Sovereign..." style="flex:1; background:#222; border:1px solid #444; border-radius:20px; padding:8px 16px; color:#fff; font-size:14px; outline:none;" oninput="handleSearch(this.value)">
+      <button onclick="closeSearchModal()" style="background:none; border:none; color:#fff; font-size:18px; cursor:pointer;">✕</button>
+    </div>
+    <div id="search-results" style="padding:16px; color:#fff; flex:1; overflow-y:auto;">
+      <div style="padding:12px 0; border-bottom:1px solid #333; cursor:pointer;" onclick="closeSearchModal(); openPage('detail');">
+        <strong style="color:#00dc64;">Demon Sovereign's Bloodline</strong>
+        <div style="font-size:12px; color:#aaa;">Flagship Action / Supernatural Series</div>
+      </div>
     </div>
   </div>
 
-  <!-- ==========================================
-       SIDE DRAWER
-       ========================================== -->
-  <div class="side-drawer-backdrop" id="side-drawer-backdrop" onclick="closeSideDrawer()"></div>
-  <div class="side-drawer" id="side-drawer">
-    <div class="side-drawer-header">
-      <div class="ds-brand-badge">DS</div>
-      <strong style="font-size: 15px;">DEMON SOVEREIGN</strong>
-      <button onclick="closeSideDrawer()" style="background:none; border:none; font-size:18px; cursor:pointer; color:inherit;">✕</button>
-    </div>
-    <div class="side-drawer-body">
-      <a href="javascript:void(0)" onclick="closeSideDrawer(); openView('home');" class="side-drawer-item">
-        <span>🏠 Home</span> <span>›</span>
-      </a>
-      <a href="javascript:void(0)" onclick="closeSideDrawer(); openView('originals');" class="side-drawer-item">
-        <span>📅 Originals Lineup</span> <span>›</span>
-      </a>
-      <a href="javascript:void(0)" onclick="closeSideDrawer(); openView('canvas');" class="side-drawer-item">
-        <span>🎨 Studio Canvas</span> <span>›</span>
-      </a>
-      <a href="javascript:void(0)" onclick="closeSideDrawer(); openView('my');" class="side-drawer-item">
-        <span>📚 My Library</span> <span>›</span>
-      </a>
-      <a href="javascript:void(0)" onclick="closeSideDrawer(); openView('detail');" class="side-drawer-item">
-        <span>📖 Demon Sovereign Series</span> <span>›</span>
-      </a>
-      <a href="javascript:void(0)" onclick="toggleDarkTheme();" class="side-drawer-item">
-        <span>🌓 Toggle Dark Mode</span> <span id="drawer-theme-status">Dark</span>
-      </a>
-    </div>
-  </div>
 
-  <!-- ==========================================
-       AUTHENTIC APPLICATION JAVASCRIPT
-       ========================================= -->
+  <!-- ========================================================
+       JAVASCRIPT ROUTING & CONTROLLER
+       ======================================================== -->
   <script>
-    // CATALOG ROADMAP DATA (103 CHAPTERS)
-    const ALL_CATALOG_EPISODES = [
-      {"number": 1, "title": "Awakening of the Sovereign", "arc": "PROLOGUE", "status": "released"},
-      {"number": 2, "title": "The Demonic Familiar Kuro", "arc": "THE CURSED FEATHER", "status": "released"},
-      {"number": 3, "title": "Bloodline Awakening", "arc": "THE CURSED FEATHER", "status": "released"},
-      {"number": 4, "title": "The Saint Mirren Confrontation", "arc": "THE CURSED FEATHER", "status": "released"},
-      {"number": 5, "title": "The Broken Promise", "arc": "THE CURSED FEATHER", "status": "scripted"},
-      {"number": 6, "title": "The First Blood", "arc": "THE CURSED FEATHER", "status": "scripted"},
-      {"number": 7, "title": "The Demon Within", "arc": "THE CURSED FEATHER", "status": "scripted"},
-      {"number": 8, "title": "Kuro's Voice", "arc": "THE CURSED FEATHER", "status": "scripted"},
-      {"number": 9, "title": "The Forbidden Contract", "arc": "THE CURSED FEATHER", "status": "scripted"},
-      {"number": 10, "title": "First Synchronization", "arc": "THE CURSED FEATHER", "status": "scripted"},
-      {"number": 11, "title": "The First Demon", "arc": "THE CURSED FEATHER", "status": "scripted"},
-      {"number": 12, "title": "Instinct of Survival", "arc": "THE CURSED FEATHER", "status": "scripted"},
-      {"number": 13, "title": "Something Has Awakened", "arc": "THE CURSED FEATHER", "status": "scripted"},
-      {"number": 14, "title": "The Unwanted Power", "arc": "THE HIDDEN BLOODLINE", "status": "scripted"},
-      {"number": 15, "title": "The Boy Who Changed", "arc": "THE HIDDEN BLOODLINE", "status": "scripted"},
-      {"number": 16, "title": "The First Mission", "arc": "THE HIDDEN BLOODLINE", "status": "scripted"},
-      {"number": 17, "title": "Blood Trial", "arc": "THE HIDDEN BLOODLINE", "status": "scripted"},
-      {"number": 18, "title": "The Forgotten Classroom", "arc": "THE HIDDEN BLOODLINE", "status": "scripted"},
-      {"number": 19, "title": "The Name of the Sovereign", "arc": "THE HIDDEN BLOODLINE", "status": "scripted"},
-      {"number": 20, "title": "The Hunter's Arrival", "arc": "THE HIDDEN BLOODLINE", "status": "scripted"},
-      {"number": 21, "title": "The Mark of Death", "arc": "THE HIDDEN BLOODLINE", "status": "scripted"},
-      {"number": 22, "title": "Uncontrolled Blood", "arc": "THE HIDDEN BLOODLINE", "status": "scripted"},
-      {"number": 23, "title": "The First Victory", "arc": "THE HIDDEN BLOODLINE", "status": "scripted"},
-      {"number": 24, "title": "The Second Resonance", "arc": "THE FIRST RELIC", "status": "scripted"},
-      {"number": 25, "title": "Ring of Hollow Blood", "arc": "THE FIRST RELIC", "status": "scripted"}
-    ];
+    let currentEpisode = 1;
+    let isSubscribed = false;
+    let hasLiked = false;
 
-    let currentActiveEpisode = 4;
-    let isSubscribed = true;
-    let episodeLikes = 52400;
-
-    // VIEW ROUTING FUNCTION
-    function openView(viewName) {
-      const views = ['home', 'originals', 'canvas', 'my', 'detail', 'reader'];
-      views.forEach(v => {
-        const el = document.getElementById('view-' + v);
-        if (el) el.style.display = (v === viewName) ? 'block' : 'none';
-      });
-
-      const isSpecialPage = (viewName === 'detail' || viewName === 'reader');
-      const gh = document.getElementById('global-header');
-      const ghr = document.getElementById('global-hr');
-      const gf = document.getElementById('global-footer');
-
-      if (gh) gh.style.display = isSpecialPage ? 'none' : 'block';
-      if (ghr) ghr.style.display = isSpecialPage ? 'none' : 'block';
-      if (gf) gf.style.display = (viewName === 'reader') ? 'none' : 'block';
-
-      // Update LNB navigation state
-      document.querySelectorAll('.lnb .item').forEach(el => el.classList.remove('on'));
-      const activeLnb = document.getElementById('lnb-item-' + viewName);
-      if (activeLnb) activeLnb.classList.add('on');
-
-      // Update URL hash
-      window.location.hash = (viewName === 'home') ? '' : '/' + viewName;
+    function openPage(pageName) {
+      document.getElementById('page-home').style.display = (pageName === 'home') ? 'block' : 'none';
+      document.getElementById('page-detail').style.display = (pageName === 'detail') ? 'block' : 'none';
+      document.getElementById('page-reader').style.display = (pageName === 'reader') ? 'block' : 'none';
       window.scrollTo(0, 0);
     }
 
-    // AUTHENTIC EPISODE READER
-    function openEpisodeReader(epNum) {
-      currentActiveEpisode = epNum;
-      openView('reader');
+    function openEpisode(epNum) {
+      currentEpisode = epNum;
+      openPage('reader');
 
-      const headerTitle = document.getElementById('viewer-header-title');
-      const container = document.getElementById('_viewer');
-      const epNumEl = document.getElementById('reader-ep-num');
-      if (epNumEl) epNumEl.textContent = '#' + epNum;
+      document.getElementById('reader-top-title').textContent = 'Episode ' + epNum;
+      document.getElementById('current-ep-badge').textContent = '#' + epNum;
 
+      // Update filmstrip active state
+      for (let i = 1; i <= 4; i++) {
+        const thumb = document.getElementById('film-thumb-' + i);
+        if (thumb) {
+          if (i === epNum) thumb.classList.add('active');
+          else thumb.classList.remove('active');
+        }
+      }
+
+      const stripContainer = document.getElementById('reader-image-strip');
+      
       if (epNum === 4) {
-        if (headerTitle) headerTitle.textContent = "Episode 4: The Saint Mirren Confrontation";
         const ch04Files = [
           'p01.png','p02.png','p03.png','p04.png','p05.png',
           'p06.png','p07.png','p08.png','p09.png','p10.png',
           'p11.png','p12.png','p13.png','p14.png','p15.png',
           'p16.png','p17.png','p24.png','p30.png'
         ];
-        let stripHtml = '';
+        let html = '';
         ch04Files.forEach((file, idx) => {
-          stripHtml += '<img src="./panels/ch04/' + file + '" loading="lazy" alt="Panel ' + (idx + 1) + '">';
+          html += '<img src="./panels/ch04/' + file + '" loading="lazy" alt="Panel ' + (idx + 1) + '">';
         });
-        container.innerHTML = stripHtml;
+        stripContainer.innerHTML = html;
       } else if (epNum === 1) {
-        if (headerTitle) headerTitle.textContent = "Episode 1: Awakening of the Sovereign";
-        let stripHtml = '';
+        let html = '';
         for (let i = 1; i <= 7; i++) {
-          stripHtml += '<img src="./panels/panel_0' + i + '_final.png" loading="lazy" alt="Episode 1 Panel ' + i + '">';
+          html += '<img src="./panels/panel_0' + i + '_final.png" loading="lazy" alt="Episode 1 Panel ' + i + '">';
         }
-        container.innerHTML = stripHtml;
+        stripContainer.innerHTML = html;
       } else {
-        if (headerTitle) headerTitle.textContent = "Episode " + epNum + ": Demon Sovereign";
-        container.innerHTML = '<div style="color: #fff; text-align: center; padding: 90px 20px;">' +
-          '<h3 style="font-size: 20px; font-weight: 800; color: #00dc64; margin-bottom: 8px;">Episode ' + epNum + ' In Production</h3>' +
-          '<p style="color: #999; font-size: 13px; max-width: 400px; margin: 0 auto 20px auto;">' +
-            'The high-definition panels for Episode ' + epNum + ' are currently in the Redice Studio pipeline.' +
-          '</p>' +
-          '<button onclick="openEpisodeReader(4)" style="background: #00dc64; color: #000; border: none; font-weight: 900; font-size: 13px; padding: 10px 22px; border-radius: 20px; cursor: pointer;">' +
-            'Read Episode 4 (HD Panels) →' +
-          '</button>' +
+        stripContainer.innerHTML = '<div style="padding: 100px 20px; text-align: center; color: #555;">' +
+          '<h3 style="color: #00dc64; font-size: 20px; font-weight: 800; margin-bottom: 8px;">Episode ' + epNum + ' In Production</h3>' +
+          '<p style="font-size: 13px; color: #888; max-width: 320px; margin: 0 auto 20px auto;">HD panels for Episode ' + epNum + ' are currently being processed in the Redice Studio pipeline.</p>' +
+          '<button onclick="openEpisode(4)" style="background: #00dc64; color: #000; border: none; font-weight: 800; font-size: 13px; padding: 10px 22px; border-radius: 20px; cursor: pointer;">Read Episode 4 (HD Panels) →</button>' +
         '</div>';
       }
       window.scrollTo(0, 0);
     }
 
-    function goToPrevEpisode() {
-      if (currentActiveEpisode > 1) openEpisodeReader(currentActiveEpisode - 1);
-      else alert('Episode 1 is the beginning of the story!');
+    function goToPrevEp() {
+      if (currentEpisode > 1) openEpisode(currentEpisode - 1);
+      else alert('This is Episode 1!');
     }
 
-    function goToNextEpisode() {
-      if (currentActiveEpisode < 4) openEpisodeReader(currentActiveEpisode + 1);
+    function goToNextEp() {
+      if (currentEpisode < 4) openEpisode(currentEpisode + 1);
       else alert('Episode 4 is the latest released chapter!');
     }
 
-    // THEME TOGGLE
-    function toggleDarkTheme() {
-      document.body.classList.toggle('wt-dark');
-      const isDark = document.body.classList.contains('wt-dark');
-      document.getElementById('theme-icon').textContent = isDark ? '☀️' : '🌙';
-      const drawerStatus = document.getElementById('drawer-theme-status');
-      if (drawerStatus) drawerStatus.textContent = isDark ? 'Light' : 'Dark';
-      localStorage.setItem('wt_theme', isDark ? 'dark' : 'light');
+    function toggleSynopsis() {
+      const el = document.getElementById('wt-synopsis');
+      if (el) el.classList.toggle('expanded');
     }
 
-    // SUBSCRIBE TOGGLE
-    function toggleSubscribe() {
+    function toggleDetailSub() {
       isSubscribed = !isSubscribed;
-      const btn = document.getElementById('btn-subscribe');
-      const label = document.getElementById('subscribe-text-label');
+      const btn = document.getElementById('detail-sub-pill');
+      const text = document.getElementById('detail-sub-text');
       if (isSubscribed) {
-        if (btn) btn.setAttribute('aria-pressed', 'true');
-        if (label) label.textContent = 'Subscribed';
+        btn.classList.add('subscribed');
+        text.textContent = '✓ Subscribed';
       } else {
-        if (btn) btn.setAttribute('aria-pressed', 'false');
-        if (label) label.textContent = 'Subscribe';
+        btn.classList.remove('subscribed');
+        text.textContent = '+ Subscribe';
       }
     }
 
-    // LIKE TOGGLE
-    function likeCurrentEpisode(btn) {
-      episodeLikes++;
-      const counter = document.getElementById('reader-like-counter');
-      if (counter) counter.textContent = (episodeLikes / 1000).toFixed(1) + 'K';
-      if (btn) btn.classList.remove('off');
+    function toggleSubHome(btn) {
+      if (btn.textContent.includes('Subscribed')) {
+        btn.textContent = '+ Subscribe';
+        btn.style.color = '#222';
+      } else {
+        btn.textContent = '✓ Subscribed';
+        btn.style.color = '#00dc64';
+      }
     }
 
-    // SERIES INFO MODAL
-    function openSeriesInfo() {
-      document.getElementById('detail-info-dim').style.display = 'block';
-      document.getElementById('detail-info-modal').style.display = 'block';
-    }
-    function closeSeriesInfo() {
-      document.getElementById('detail-info-dim').style.display = 'none';
-      document.getElementById('detail-info-modal').style.display = 'none';
-    }
-
-    // RENDER CATALOG
-    function renderAll100Chapters() {
-      const container = document.getElementById('detail-episodes-container');
-      const btn = document.getElementById('btn-load-100');
-      let html = '';
-      ALL_CATALOG_EPISODES.slice(4).forEach(ep => {
-        html += '<li class="detail_item" onclick="openEpisodeReader(' + ep.number + ')" style="cursor: pointer;">' +
-          '<a href="javascript:void(0)" class="link_detail">' +
-            '<div class="img_area" style="background:#222; display:flex; align-items:center; justify-content:center; color:#00dc64; font-weight:900;">' +
-              '#' + ep.number +
-            '</div>' +
-            '<div class="episode_area">' +
-              '<div class="title">' +
-                '<span class="txt_title">Episode ' + ep.number + ': ' + ep.title + '</span>' +
-              '</div>' +
-              '<div class="date">' + ep.arc + ' • <span style="color:#00dc64; font-weight:700;">Upcoming</span></div>' +
-            '</div>' +
-          '</a>' +
-        '</li>';
-      });
-      container.insertAdjacentHTML('beforeend', html);
-      if (btn) btn.style.display = 'none';
+    function toggleLike(btn) {
+      hasLiked = !hasLiked;
+      const heart = document.getElementById('heart-icon');
+      if (hasLiked) {
+        heart.setAttribute('fill', '#ff334b');
+        heart.setAttribute('stroke', '#ff334b');
+      } else {
+        heart.setAttribute('fill', 'none');
+        heart.setAttribute('stroke', 'currentColor');
+      }
     }
 
-    // SEARCH MODAL
     function openSearchModal() {
-      document.getElementById('search-modal').classList.add('open');
+      document.getElementById('search-modal').style.display = 'flex';
       document.getElementById('search-input').focus();
     }
     function closeSearchModal() {
-      document.getElementById('search-modal').classList.remove('open');
+      document.getElementById('search-modal').style.display = 'none';
     }
-    function applySearchTag(tag) {
-      document.getElementById('search-input').value = tag;
-      handleSearch(tag);
-    }
-    function handleSearch(query) {
-      const resultsBox = document.getElementById('search-results-list');
-      if (!query.trim()) {
-        resultsBox.innerHTML = '';
-        return;
-      }
-      resultsBox.innerHTML = 
-        '<div style="padding: 14px; border-bottom: 1px solid rgba(255,255,255,0.1); cursor: pointer;" onclick="closeSearchModal(); openView(\'detail\');">' +
-          '<strong style="color: #00dc64; font-size: 15px;">Demon Sovereign\'s Bloodline</strong>' +
-          '<div style="font-size: 12px; color: #aaa; margin-top: 3px;">Matches \"' + query + '\" • Flagship Original • 103 Chapters</div>' +
-        '</div>' +
-        '<div style="padding: 14px; border-bottom: 1px solid rgba(255,255,255,0.1); cursor: pointer;" onclick="closeSearchModal(); openEpisodeReader(4);">' +
-          '<strong style="color: #00dc64; font-size: 15px;">Episode 4: The Saint Mirren Confrontation</strong>' +
-          '<div style="font-size: 12px; color: #aaa; margin-top: 3px;">Action / Supernatural • HD 20+ Panels (Latest)</div>' +
-        '</div>' +
-        '<div style="padding: 14px; border-bottom: 1px solid rgba(255,255,255,0.1); cursor: pointer;" onclick="closeSearchModal(); openEpisodeReader(1);">' +
-          '<strong style="color: #00dc64; font-size: 15px;">Episode 1: Awakening of the Sovereign</strong>' +
-          '<div style="font-size: 12px; color: #aaa; margin-top: 3px;">Prologue • Ha-Jun Rooftop Awakening</div>' +
-        '</div>';
-    }
-
-    // SIDE DRAWER
     function openSideDrawer() {
-      document.getElementById('side-drawer-backdrop').classList.add('open');
-      document.getElementById('side-drawer').classList.add('open');
+      openSearchModal();
     }
-    function closeSideDrawer() {
-      document.getElementById('side-drawer-backdrop').classList.remove('open');
-      document.getElementById('side-drawer').classList.remove('open');
+    function handleSearch(val) {
+      // Simple instant filter
     }
 
-    // SERVICE WORKER & HASH ROUTING
-    document.addEventListener('DOMContentLoaded', () => {
-      const savedTheme = localStorage.getItem('wt_theme');
-      if (savedTheme === 'dark' || (!savedTheme && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-        document.body.classList.add('wt-dark');
-        document.getElementById('theme-icon').textContent = '☀️';
-        const drawerStatus = document.getElementById('drawer-theme-status');
-        if (drawerStatus) drawerStatus.textContent = 'Light';
-      }
-
-      // Hash routing
-      const hash = window.location.hash;
-      if (hash === '#/detail') openView('detail');
-      else if (hash === '#/originals') openView('originals');
-      else if (hash === '#/canvas') openView('canvas');
-      else if (hash === '#/my') openView('my');
-      else if (hash.startsWith('#/viewer')) {
-        const ep = hash.includes('ep=1') ? 1 : 4;
-        openEpisodeReader(ep);
-      }
-
-      if ("serviceWorker" in navigator) {
-        window.addEventListener("load", () => {
-          navigator.serviceWorker.register("./sw.js").catch(err => {
-            console.warn("SW registration failed: ", err);
-          });
+    // Service Worker Registration
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("./sw.js").catch(err => {
+          console.warn("SW registration error: ", err);
         });
-      }
-    });
-
-    window.addEventListener('hashchange', () => {
-      const hash = window.location.hash;
-      if (hash === '#/detail') openView('detail');
-      else if (hash === '#/originals') openView('originals');
-      else if (hash === '#/canvas') openView('canvas');
-      else if (hash === '#/my') openView('my');
-      else if (hash === '' || hash === '#/home') openView('home');
-      else if (hash.startsWith('#/viewer')) {
-        const ep = hash.includes('ep=1') ? 1 : 4;
-        openEpisodeReader(ep);
-      }
-    });
+      });
+    }
   </script>
 
 </body>
