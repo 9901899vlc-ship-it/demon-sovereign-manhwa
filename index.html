@@ -138,27 +138,22 @@
     </div>
   </header>
 
-  <!-- Navigation Tabs (Mobile & Desktop) -->
-  <nav class="bg-zinc-950/90 backdrop-blur-md border-b border-zinc-800/80 px-3 py-2 flex items-center justify-center gap-2 sm:gap-6 text-xs font-bold text-zinc-400 overflow-x-auto">
-    <button onclick="switchTab('reader')" id="tab-btn-reader" class="text-purple-400 border-b-2 border-purple-500 pb-1.5 px-3 flex items-center cursor-pointer transition-all">
-      <svg class="w-4 h-4 text-purple-400 inline mr-1.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
-      <span>Webtoon</span>
+  <!-- Navigation Tabs (Mobile & Desktop Icon Dock) -->
+  <nav class="bg-zinc-950/95 backdrop-blur-md border-b border-zinc-800/80 px-2 py-1.5 flex items-center justify-around sm:justify-center sm:gap-6 overflow-x-hidden">
+    <button onclick="switchTab('reader')" id="tab-btn-reader" title="Webtoon Reader" aria-label="Webtoon Reader" class="text-purple-400 border-b-2 border-purple-500 py-1.5 px-3 flex items-center justify-center cursor-pointer transition-all">
+      <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
     </button>
-    <button onclick="switchTab('bible')" id="tab-btn-bible" class="hover:text-zinc-200 pb-1.5 px-3 flex items-center cursor-pointer transition-all">
-      <svg class="w-4 h-4 text-zinc-400 inline mr-1.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
-      <span>100-Chapter Saga</span>
+    <button onclick="switchTab('bible')" id="tab-btn-bible" title="100-Chapter Saga Bible" aria-label="100-Chapter Saga" class="text-zinc-400 hover:text-zinc-200 border-b-2 border-transparent py-1.5 px-3 flex items-center justify-center cursor-pointer transition-all">
+      <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
     </button>
-    <button onclick="switchTab('relics')" id="tab-btn-relics" class="hover:text-zinc-200 pb-1.5 px-3 flex items-center cursor-pointer transition-all">
-      <svg class="w-4 h-4 text-amber-400 inline mr-1.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3h12l4 6-10 12L2 9z"/><path d="M11 3L8 9l4 12 4-12-3-6"/><path d="M2 9h20"/></svg>
-      <span>10 Relics</span>
+    <button onclick="switchTab('relics')" id="tab-btn-relics" title="10 Relics Codex" aria-label="10 Relics" class="text-zinc-400 hover:text-zinc-200 border-b-2 border-transparent py-1.5 px-3 flex items-center justify-center cursor-pointer transition-all">
+      <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3h12l4 6-10 12L2 9z"/><path d="M11 3L8 9l4 12 4-12-3-6"/><path d="M2 9h20"/></svg>
     </button>
-    <button onclick="switchTab('characters')" id="tab-btn-characters" class="hover:text-zinc-200 pb-1.5 px-3 flex items-center cursor-pointer transition-all">
-      <svg class="w-4 h-4 text-fuchsia-400 inline mr-1.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-      <span>Characters</span>
+    <button onclick="switchTab('characters')" id="tab-btn-characters" title="Character Codex" aria-label="Characters" class="text-zinc-400 hover:text-zinc-200 border-b-2 border-transparent py-1.5 px-3 flex items-center justify-center cursor-pointer transition-all">
+      <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
     </button>
-    <button onclick="switchTab('production')" id="tab-btn-production" class="hover:text-zinc-200 pb-1.5 px-3 flex items-center cursor-pointer transition-all text-emerald-400">
-      <svg class="w-4 h-4 text-emerald-400 inline mr-1.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
-      <span>Pipeline</span>
+    <button onclick="switchTab('production')" id="tab-btn-production" title="Production Pipeline" aria-label="Production Pipeline" class="text-zinc-400 hover:text-zinc-200 border-b-2 border-transparent py-1.5 px-3 flex items-center justify-center cursor-pointer transition-all">
+      <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
     </button>
   </nav>
 
@@ -1801,10 +1796,10 @@
         const btn = document.getElementById('tab-btn-' + t);
         if (t === tabId) {
           view.classList.remove('hidden');
-          btn.className = "text-purple-400 border-b-2 border-purple-500 pb-1 px-2 flex items-center gap-1.5 font-bold";
+          btn.className = "text-purple-400 border-b-2 border-purple-500 py-1.5 px-3 flex items-center justify-center cursor-pointer transition-all";
         } else {
           view.classList.add('hidden');
-          btn.className = "text-zinc-400 hover:text-zinc-200 pb-1 px-2 flex items-center gap-1.5 font-bold";
+          btn.className = "text-zinc-400 hover:text-zinc-200 border-b-2 border-transparent py-1.5 px-3 flex items-center justify-center cursor-pointer transition-all";
         }
       });
       window.scrollTo({top: 0, behavior: 'smooth'});
