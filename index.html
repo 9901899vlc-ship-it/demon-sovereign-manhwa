@@ -3,14 +3,14 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>DEMON SOVEREIGN | Official Webtoon Portal</title>
+  <title>DEMON SOVEREIGN (DSB) | Official Portal</title>
   <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
   <meta name="format-detection" content="telephone=no, address=no, email=no">
-  <meta name="theme-color" content="#00dc64">
+  <meta name="theme-color" content="#0392fb">
 
-  <!-- Icons -->
-  <link rel="shortcut icon" href="./images/card_01_sovereign.jpg" type="image/x-icon">
-  <link rel="apple-touch-icon" href="./images/card_01_sovereign.jpg">
+  <!-- DSB Official Icons -->
+  <link rel="shortcut icon" href="./favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
 
   <style>
     /* ========================================================
@@ -56,19 +56,21 @@
     .wt-logo-wrap {
       display: flex;
       align-items: center;
-      gap: 6px;
+      gap: 8px;
       text-decoration: none;
     }
 
+    .wt-logo-badge-img {
+      width: 30px;
+      height: 30px;
+      border-radius: 7px;
+      object-fit: cover;
+      display: block;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+    }
+
     .wt-logo-badge {
-      background-color: #00dc64;
-      color: #ffffff;
-      font-weight: 900;
-      font-size: 13px;
-      padding: 2px 6px;
-      border-radius: 4px;
-      line-height: 1.2;
-      letter-spacing: -0.5px;
+      display: none;
     }
 
     .wt-logo-text {
@@ -798,7 +800,10 @@
     <header class="wt-header">
       <div class="wt-gnb">
         <a href="javascript:void(0)" onclick="openPage('home')" class="wt-logo-wrap">
-          <span class="wt-logo-badge">WEB<br>TOON</span>
+          <picture>
+            <source srcset="./images/dsb_badge.webp" type="image/webp">
+            <img src="./images/dsb_badge.png" alt="DSB" class="wt-logo-badge-img">
+          </picture>
           <span class="wt-logo-text">DEMON SOVEREIGN</span>
         </a>
         <div class="wt-gnb-icons">
@@ -1021,7 +1026,10 @@
     <header class="wt-header">
       <div class="wt-gnb">
         <a href="javascript:void(0)" onclick="openPage('home')" class="wt-logo-wrap">
-          <span class="wt-logo-badge">WEB<br>NOVEL</span>
+          <picture>
+            <source srcset="./images/dsb_badge.webp" type="image/webp">
+            <img src="./images/dsb_badge.png" alt="DSB" class="wt-logo-badge-img">
+          </picture>
           <span class="wt-logo-text">DEMON SOVEREIGN</span>
         </a>
         <div class="wt-gnb-icons">

@@ -1,10 +1,14 @@
 // Service Worker for Demon Sovereign's Bloodline Webtoon Portal
-const CACHE_NAME = 'demon-sovereign-v32';
+const CACHE_NAME = 'demon-sovereign-v33';
 const STATIC_ASSETS = [
   './index.html',
   './config.js',
   './supabase-client.js',
   './manifest.json',
+  './favicon.png',
+  './apple-touch-icon.png',
+  './images/dsb_badge.webp',
+  './images/dsb_badge.png',
   './story/CHAPTER_INDEX.json'
 ];
 
