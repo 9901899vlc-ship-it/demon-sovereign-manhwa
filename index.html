@@ -178,6 +178,207 @@
       background: rgba(168, 85, 247, 0.35) !important;
       font-weight: 700;
     }
+  
+    /* ======================================================= */
+    /* LINE WEBTOON OFFICIAL REVERSE-ENGINEERED DESIGN SYSTEM  */
+    /* ======================================================= */
+    :root {
+      --wt-green: #00dc64;
+      --wt-green-hover: #00b954;
+      --wt-dark-bg: #0c0d12;
+      --wt-dark-surface: #12141c;
+      --wt-dark-card: #181a24;
+      --wt-dark-border: #232734;
+      --wt-dark-text: #ffffff;
+      --wt-dark-subtext: #9ca3af;
+      
+      --wt-light-bg: #ffffff;
+      --wt-light-surface: #f8f9fa;
+      --wt-light-card: #ffffff;
+      --wt-light-border: #e5e7eb;
+      --wt-light-text: #111111;
+      --wt-light-subtext: #6b7280;
+    }
+
+    body.wt-light {
+      background-color: var(--wt-light-bg) !important;
+      color: var(--wt-light-text) !important;
+    }
+    body.wt-light #webtoon-header, 
+    body.wt-light #webtoon-subnav,
+    body.wt-light #gnb-bottom-dock,
+    body.wt-light #reader-top-bar {
+      background-color: rgba(255, 255, 255, 0.98) !important;
+      border-color: #e5e7eb !important;
+      color: #111111 !important;
+    }
+    body.wt-light .wt-card {
+      background-color: #ffffff !important;
+      border-color: #e5e7eb !important;
+      color: #111111 !important;
+    }
+    body.wt-light .wt-surface {
+      background-color: #f8f9fa !important;
+      border-color: #e5e7eb !important;
+    }
+    body.wt-light .wt-subtext {
+      color: #6b7280 !important;
+    }
+    body.wt-light .wt-title {
+      color: #111111 !important;
+    }
+    body.wt-light .wt-rank-num {
+      color: #111111 !important;
+    }
+
+    /* Webtoon Badges */
+    .wt-badge-green {
+      background-color: #00dc64;
+      color: #000000;
+      font-weight: 800;
+      font-size: 10px;
+      line-height: 1;
+      padding: 3px 6px;
+      border-radius: 3px;
+      letter-spacing: -0.2px;
+      text-transform: uppercase;
+      display: inline-flex;
+      align-items: center;
+    }
+    .wt-badge-up {
+      background-color: #00dc64;
+      color: #000000;
+      font-weight: 900;
+      font-size: 10px;
+      padding: 2px 5px;
+      border-radius: 3px;
+      line-height: 1;
+    }
+    .wt-badge-new {
+      background-color: #ff334b;
+      color: #ffffff;
+      font-weight: 900;
+      font-size: 10px;
+      padding: 2px 5px;
+      border-radius: 3px;
+      line-height: 1;
+    }
+
+    /* Webtoon Rankings Numbers */
+    .wt-rank-num {
+      font-size: 26px;
+      font-weight: 900;
+      font-style: italic;
+      line-height: 1;
+      color: #ffffff;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      letter-spacing: -1px;
+    }
+    .wt-rank-num.wt-top-1 {
+      color: #00dc64 !important;
+      text-shadow: 0 0 12px rgba(0, 220, 100, 0.4);
+    }
+
+    /* Webtoon Poster Cards */
+    .wt-poster-card {
+      position: relative;
+      border-radius: 8px;
+      overflow: hidden;
+      aspect-ratio: 3 / 4;
+      background-color: #1b1e28;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      cursor: pointer;
+    }
+    .wt-poster-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(0, 220, 100, 0.2);
+    }
+
+    /* Webtoon Section Headers */
+    .wt-section-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 16px 12px 16px;
+    }
+    .wt-section-title {
+      font-size: 17px;
+      font-weight: 800;
+      letter-spacing: -0.3px;
+      line-height: 1.2;
+    }
+    .wt-view-all {
+      font-size: 12px;
+      color: #9ca3af;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 2px;
+      transition: color 0.2s;
+      cursor: pointer;
+    }
+    .wt-view-all:hover {
+      color: #00dc64;
+    }
+
+    /* Webtoon Horizontal Scrollbars hidden */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    /* Webtoon Sticky Bottom Bar */
+    .wt-bottom-dock {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 56px;
+      background-color: rgba(12, 13, 18, 0.98);
+      backdrop-filter: blur(12px);
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      z-index: 45;
+      padding-bottom: env(safe-area-inset-bottom, 0);
+    }
+    .wt-dock-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 3px;
+      font-size: 10px;
+      font-weight: 700;
+      color: #8e95a5;
+      transition: all 0.15s ease;
+      width: 20%;
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 6px 0;
+    }
+    .wt-dock-item.active {
+      color: #00dc64 !important;
+    }
+    .wt-dock-item:hover {
+      color: #ffffff;
+    }
+    body.wt-light .wt-bottom-dock {
+      background-color: rgba(255, 255, 255, 0.98);
+      border-top-color: #e5e7eb;
+    }
+    body.wt-light .wt-dock-item {
+      color: #6b7280;
+    }
+    body.wt-light .wt-dock-item.active {
+      color: #00dc64 !important;
+    }
+
   </style>
   <link rel="manifest" href="./manifest.json">
   <meta name="theme-color" content="#a855f7">
@@ -190,78 +391,425 @@
   <!-- Reader Toast Notification -->
   <div id="reader-toast" class="fixed top-14 left-1/2 -translate-x-1/2 z-50 bg-gradient-to-r from-purple-700 to-fuchsia-600 text-white font-bold text-xs px-4 py-2 rounded-full shadow-2xl transition-all duration-300 opacity-0 pointer-events-none transform -translate-y-2 border border-purple-400/50"></div>
 
-  <!-- Top Header Navigation -->
-  <header class="sticky top-0 z-40 bg-[#07080c]/90 backdrop-blur-md border-b border-purple-900/30 text-white px-3 sm:px-6 py-2.5 flex items-center justify-between shadow-xl">
-    <div class="flex items-center gap-3">
-      <!-- Chapter Selector Button -->
-      <button id="open-drawer-btn" class="flex items-center gap-2 bg-purple-950/70 hover:bg-purple-900 border border-purple-700/50 px-3 py-1.5 rounded-xl transition-all shadow-md group">
-        <svg class="w-4 h-4 text-purple-400 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M4 6h16M4 12h16M4 18h16"></path>
-        </svg>
-        <span class="text-xs font-bold text-purple-300 font-orbitron" id="header-chapter-badge">CH. 1</span>
-        <svg class="w-3.5 h-3.5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M19 9l-7 7-7-7"></path>
-        </svg>
-      </button>
-
-      <div>
-        <h1 class="text-xs sm:text-sm font-black font-cinzel tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-fuchsia-300 to-zinc-200">
-          DEMON SOVEREIGN'S BLOODLINE
-        </h1>
-        <p class="text-[10px] text-zinc-400 font-medium truncate max-w-[180px] sm:max-w-xs" id="header-chapter-title">
-          Episode 1: The Gathering Storm
-        </p>
-      </div>
+  <!-- ======================================================= -->
+  <!-- LINE WEBTOON OFFICIAL GNB (GLOBAL NAVIGATION BAR) -->
+  <!-- ======================================================= -->
+  <header id="webtoon-header" class="sticky top-0 z-50 bg-[#0c0d12]/95 backdrop-blur-md border-b border-zinc-800/80 px-4 py-2.5 flex items-center justify-between transition-colors">
+    <!-- Brand Logo -->
+    <div class="flex items-center gap-2.5">
+      <a href="javascript:void(0)" onclick="switchTab('home')" class="flex items-center gap-2 group cursor-pointer" title="Demon Sovereign Webtoon Home">
+        <span class="w-8 h-8 rounded-lg bg-[#00dc64] text-black font-black flex items-center justify-center font-orbitron text-sm shadow-md shadow-[#00dc64]/30 group-hover:scale-105 transition-transform">
+          DS
+        </span>
+        <div class="flex flex-col">
+          <span class="text-sm font-black tracking-tight text-white font-cinzel leading-none group-hover:text-[#00dc64] transition-colors wt-title">
+            DEMON SOVEREIGN
+          </span>
+          <span class="text-[9px] font-bold text-[#00dc64] tracking-widest uppercase font-orbitron">
+            WEBTOONS
+          </span>
+        </div>
+      </a>
     </div>
 
-    <!-- Right Quick Actions -->
-    <div class="flex items-center gap-2">
-      <!-- Ambience Rain Audio Synthesizer -->
-      <button id="ambience-btn" onclick="toggleAmbience()" class="flex items-center gap-2 bg-zinc-900/90 hover:bg-zinc-800 border border-zinc-800 px-3 py-1.5 rounded-xl text-xs font-bold text-zinc-300 hover:text-purple-300 transition-all cursor-pointer shadow-sm" title="Toggle Demonic Rooftop Ambience">
-        <span id="ambience-icon"><svg class="w-3.5 h-3.5 text-purple-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></span>
-        <span id="ambience-text" class="hidden md:inline text-[11px] font-orbitron">OST Ambience</span>
+    <!-- Right Quick Actions: Search + Theme + Menu -->
+    <div class="flex items-center gap-1.5 sm:gap-2">
+      <!-- Search Button -->
+      <button onclick="toggleModal('search-modal')" class="p-2 text-zinc-300 hover:text-white rounded-full hover:bg-zinc-800/60 transition-colors cursor-pointer" title="Search Series & Episodes">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
       </button>
 
-      <!-- View Mode Selector -->
-      <div class="flex items-center bg-zinc-900 border border-zinc-800 rounded-lg p-0.5 text-xs">
-        <button id="btn-mode-strip" onclick="switchViewMode('strip')" class="px-2.5 py-1 rounded bg-purple-600 text-white font-bold transition-all">Strip</button>
-        <button id="btn-mode-grid" onclick="switchViewMode('grid')" class="px-2.5 py-1 rounded text-zinc-400 hover:text-white font-medium transition-all">Grid</button>
-        <button id="btn-mode-script" onclick="switchViewMode('script')" class="px-2.5 py-1 rounded text-zinc-400 hover:text-white font-medium transition-all">Novel</button>
-      </div>
-
-      <!-- Settings Button -->
-      <button onclick="toggleModal('settings-modal')" class="flex items-center justify-center bg-zinc-900 hover:bg-zinc-800 border border-zinc-800 p-1.5 rounded-lg text-zinc-400 hover:text-purple-300 transition-all cursor-pointer" title="Reader Settings & Brightness">
-        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+      <!-- Theme Switcher (Dark / Light Mode) -->
+      <button onclick="toggleWebtoonTheme()" id="btn-theme-toggle" class="p-2 text-zinc-300 hover:text-[#00dc64] rounded-full hover:bg-zinc-800/60 transition-colors cursor-pointer" title="Toggle Light/Dark Webtoon Mode">
+        <svg id="theme-icon-moon" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.389 5.389 0 0 1-4.4 2.26 5.403 5.403 0 0 1-3.14-9.8c-.44-.06-.9-.1-1.36-.1z"/></svg>
       </button>
 
-      <!-- Relics Codex & Bible Toggle -->
-      <button onclick="switchTab('relics')" class="hidden sm:flex items-center gap-1.5 bg-zinc-900/90 hover:bg-zinc-800 border border-zinc-700/80 px-3 py-1.5 rounded-xl text-xs font-bold text-amber-400 transition-all cursor-pointer shadow-sm">
-        <svg class="w-4 h-4 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 16L3 5l5.5 5L12 4l3.5 6L21 5l-2 11H5zm14 3c0 .6-.4 1-1 1H6c-.6 0-1-.4-1-1v-1h14v1z"/></svg>
-        <span>Relics</span>
+      <!-- Menu / More Drawer -->
+      <button onclick="toggleModal('more-drawer')" class="p-2 text-zinc-300 hover:text-white rounded-full hover:bg-zinc-800/60 transition-colors cursor-pointer" title="More Options & Codex">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M4 6h16M4 12h16M4 18h16"/></svg>
       </button>
     </div>
   </header>
 
-  <!-- Navigation Tabs (Mobile & Desktop Icon Dock) -->
-  <nav class="bg-zinc-950/95 backdrop-blur-md border-b border-zinc-800/80 px-4 py-2 flex items-center justify-around sm:justify-center sm:gap-8 overflow-x-hidden max-w-lg mx-auto w-full">
-    <button onclick="switchTab('reader')" id="tab-btn-reader" title="Webtoon Reader" aria-label="Webtoon Reader" class="text-purple-400 border-b-2 border-purple-500 py-1.5 px-3 flex items-center justify-center cursor-pointer transition-all">
-      <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
-    </button>
-    <button onclick="switchTab('bible')" id="tab-btn-bible" title="100-Chapter Saga Bible" aria-label="100-Chapter Saga" class="text-zinc-400 hover:text-zinc-200 border-b-2 border-transparent py-1.5 px-3 flex items-center justify-center cursor-pointer transition-all">
-      <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
-    </button>
-    <button onclick="switchTab('relics')" id="tab-btn-relics" title="10 Relics Codex" aria-label="10 Relics" class="text-zinc-400 hover:text-zinc-200 border-b-2 border-transparent py-1.5 px-3 flex items-center justify-center cursor-pointer transition-all">
-      <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3h12l4 6-10 12L2 9z"/><path d="M11 3L8 9l4 12 4-12-3-6"/><path d="M2 9h20"/></svg>
-    </button>
-    <button onclick="switchTab('characters')" id="tab-btn-characters" title="Character Codex" aria-label="Characters" class="text-zinc-400 hover:text-zinc-200 border-b-2 border-transparent py-1.5 px-3 flex items-center justify-center cursor-pointer transition-all">
-      <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+  <!-- ======================================================= -->
+  <!-- LINE WEBTOON OFFICIAL SUB-NAVIGATION (LNB) -->
+  <!-- ======================================================= -->
+  <nav id="webtoon-subnav" class="sticky top-[53px] z-40 bg-[#0c0d12]/95 backdrop-blur-md border-b border-zinc-800/80 px-3 sm:px-6 flex items-center justify-between text-xs font-bold overflow-x-auto no-scrollbar">
+    <div class="flex items-center gap-1 sm:gap-2">
+      <button onclick="switchTab('home')" id="tab-nav-home" class="py-2.5 px-3 border-b-2 border-[#00dc64] text-[#00dc64] font-bold tracking-wider uppercase transition-all whitespace-nowrap cursor-pointer">FOR YOU</button>
+      <button onclick="switchTab('originals')" id="tab-nav-originals" class="py-2.5 px-3 border-b-2 border-transparent text-zinc-400 hover:text-white font-bold tracking-wider uppercase transition-all whitespace-nowrap cursor-pointer">ORIGINALS</button>
+      <button onclick="switchTab('genres')" id="tab-nav-genres" class="py-2.5 px-3 border-b-2 border-transparent text-zinc-400 hover:text-white font-bold tracking-wider uppercase transition-all whitespace-nowrap cursor-pointer">GENRES</button>
+      <button onclick="switchTab('canvas')" id="tab-nav-canvas" class="py-2.5 px-3 border-b-2 border-transparent text-zinc-400 hover:text-white font-bold tracking-wider uppercase transition-all whitespace-nowrap cursor-pointer">CANVAS</button>
+      <button onclick="switchTab('my')" id="tab-nav-my" class="py-2.5 px-3 border-b-2 border-transparent text-zinc-400 hover:text-white font-bold tracking-wider uppercase transition-all whitespace-nowrap cursor-pointer">MY</button>
+    </div>
+
+    <!-- Quick Jump to Episode Reader -->
+    <button onclick="switchTab('reader')" id="tab-nav-reader" class="py-1.5 px-3 my-1 rounded-lg bg-purple-950/80 hover:bg-purple-900 border border-purple-600/60 text-purple-300 font-bold tracking-wider uppercase transition-all whitespace-nowrap flex items-center gap-1.5 cursor-pointer text-[11px] shadow-sm">
+      <svg class="w-3.5 h-3.5 text-purple-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+      <span id="subnav-reading-badge">READ EP. 4</span>
     </button>
   </nav>
 
   <!-- ======================================================= -->
+  <!-- TAB: WEBTOON MOBILE HOME FEED (FOR YOU) -->
+  <!-- ======================================================= -->
+  <section id="tab-view-home" class="flex-1 w-full max-w-5xl mx-auto pb-24">
+    
+    <!-- 1. Hero Featured Banner Carousel -->
+    <div class="px-3 sm:px-4 pt-3">
+      <div class="relative rounded-2xl overflow-hidden bg-gradient-to-t from-black via-zinc-950/90 to-transparent border border-zinc-800 shadow-2xl group">
+        <!-- Banner Image -->
+        <div class="relative aspect-[16/9] sm:aspect-[21/9] w-full overflow-hidden bg-zinc-900">
+          <img src="./images/hero_banner.png" alt="Demon Sovereign's Bloodline Hero Banner" class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700">
+          <div class="absolute inset-0 bg-gradient-to-t from-[#0c0d12] via-[#0c0d12]/50 to-transparent"></div>
+          <div class="absolute inset-0 bg-gradient-to-r from-[#0c0d12]/80 via-transparent to-transparent"></div>
+        </div>
+
+        <!-- Hero Content Overlay -->
+        <div class="absolute bottom-0 left-0 right-0 p-4 sm:p-6 space-y-2">
+          <div class="flex items-center gap-2 flex-wrap">
+            <span class="wt-badge-green font-orbitron">ORIGINAL</span>
+            <span class="wt-badge-up font-orbitron">UP</span>
+            <span class="text-[11px] font-bold text-amber-400 font-orbitron tracking-wider">★ 9.89</span>
+            <span class="text-zinc-400 text-[11px]">• 72.4M Views</span>
+            <span class="text-zinc-400 text-[11px] hidden sm:inline">• Every Saturday</span>
+          </div>
+
+          <h2 class="text-xl sm:text-3xl font-black font-cinzel text-white tracking-wide leading-tight drop-shadow-md">
+            DEMON SOVEREIGN'S BLOODLINE
+          </h2>
+
+          <p class="text-xs text-zinc-300 line-clamp-2 max-w-2xl leading-relaxed">
+            Seventeen-year-old Ha-Jun Kang is pushed to the brink on the stormy university rooftop, until an ancient demonic lineage reawakens in his veins.
+          </p>
+
+          <!-- Action Buttons -->
+          <div class="flex items-center gap-2.5 pt-1 flex-wrap">
+            <button onclick="loadChapter(0); switchTab('reader');" class="px-5 py-2.5 bg-[#00dc64] hover:bg-[#00b954] text-black font-black text-xs uppercase tracking-wider rounded-xl transition-all shadow-lg shadow-[#00dc64]/30 cursor-pointer flex items-center gap-2">
+              <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              <span>Read Episode 1</span>
+            </button>
+            <button onclick="loadChapter(1); switchTab('reader');" class="px-4 py-2.5 bg-purple-950/90 hover:bg-purple-900 border border-purple-600/70 text-purple-200 font-bold text-xs uppercase tracking-wider rounded-xl transition-all cursor-pointer flex items-center gap-2">
+              <svg class="w-4 h-4 text-purple-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+              <span>Ep. 4 Studio Voiceover</span>
+            </button>
+            <button onclick="openSeriesDetail()" class="px-3 py-2.5 bg-zinc-900/90 hover:bg-zinc-800 border border-zinc-700 text-zinc-300 font-bold text-xs rounded-xl transition-all cursor-pointer flex items-center gap-1.5" title="View Series Details & All Episodes">
+              <span>Episodes (4)</span>
+              <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. Section: Trending & Popular Series -->
+    <div class="mt-4">
+      <div class="wt-section-header">
+        <h2 class="wt-section-title text-white wt-title">Trending & Popular Series</h2>
+        <a href="javascript:void(0)" onclick="openSeriesDetail()" class="wt-view-all">
+          <span>View all</span>
+          <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+        </a>
+      </div>
+
+      <!-- Sub-tabs: Trending / Popular -->
+      <div class="px-4 flex items-center gap-2 pb-3">
+        <button id="trend-tab-trending" onclick="switchTrendingTab('trending')" class="px-3.5 py-1 rounded-full bg-[#00dc64] text-black font-black text-xs transition-all cursor-pointer">Trending</button>
+        <button id="trend-tab-popular" onclick="switchTrendingTab('popular')" class="px-3.5 py-1 rounded-full bg-zinc-900 text-zinc-400 hover:text-white font-bold text-xs transition-all cursor-pointer">Popular</button>
+      </div>
+
+      <!-- Ranked Horizontal / Vertical Cards -->
+      <div id="trending-cards-wrapper" class="px-4 space-y-2.5">
+        <!-- Rendered via JS -->
+      </div>
+    </div>
+
+    <!-- 3. Section: Popular Series by Category -->
+    <div class="mt-6">
+      <div class="wt-section-header">
+        <h2 class="wt-section-title text-white wt-title">Popular Series by Category</h2>
+        <a href="javascript:void(0)" onclick="switchTab('genres')" class="wt-view-all">
+          <span>View all</span>
+          <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+        </a>
+      </div>
+
+      <!-- Genre Pills -->
+      <div class="px-4 flex items-center gap-2 overflow-x-auto no-scrollbar pb-3 text-xs font-bold" id="category-pills">
+        <button onclick="filterCategory('All')" class="cat-pill px-3.5 py-1.5 rounded-full bg-[#00dc64] text-black whitespace-nowrap cursor-pointer">All</button>
+        <button onclick="filterCategory('Action')" class="cat-pill px-3.5 py-1.5 rounded-full bg-zinc-900 text-zinc-400 hover:text-white whitespace-nowrap cursor-pointer">Action</button>
+        <button onclick="filterCategory('Fantasy')" class="cat-pill px-3.5 py-1.5 rounded-full bg-zinc-900 text-zinc-400 hover:text-white whitespace-nowrap cursor-pointer">Fantasy</button>
+        <button onclick="filterCategory('Supernatural')" class="cat-pill px-3.5 py-1.5 rounded-full bg-zinc-900 text-zinc-400 hover:text-white whitespace-nowrap cursor-pointer">Supernatural</button>
+        <button onclick="filterCategory('Isekai')" class="cat-pill px-3.5 py-1.5 rounded-full bg-zinc-900 text-zinc-400 hover:text-white whitespace-nowrap cursor-pointer">Isekai</button>
+        <button onclick="filterCategory('Drama')" class="cat-pill px-3.5 py-1.5 rounded-full bg-zinc-900 text-zinc-400 hover:text-white whitespace-nowrap cursor-pointer">Drama</button>
+      </div>
+
+      <!-- Category Poster Grid -->
+      <div class="px-4 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-3" id="category-grid">
+        <!-- Rendered via JS -->
+      </div>
+    </div>
+
+    <!-- 4. Section: Newly Released Originals -->
+    <div class="mt-6">
+      <div class="wt-section-header">
+        <h2 class="wt-section-title text-white wt-title">Newly Released Originals</h2>
+        <a href="javascript:void(0)" onclick="openSeriesDetail()" class="wt-view-all">
+          <span>View all</span>
+          <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+        </a>
+      </div>
+
+      <!-- Horizontal Carousel Slider -->
+      <div class="px-4 flex items-center gap-3 overflow-x-auto no-scrollbar pb-2" id="new-releases-slider">
+        <!-- Rendered via JS -->
+      </div>
+    </div>
+
+    <!-- 5. Section: Daily Schedule -->
+    <div class="mt-6">
+      <div class="wt-section-header">
+        <h2 class="wt-section-title text-white wt-title">Daily Schedule</h2>
+        <span class="text-xs text-zinc-400 font-bold">Updated Daily 9PM</span>
+      </div>
+
+      <!-- Days Tabs -->
+      <div class="px-4 flex items-center justify-between gap-1 text-xs font-bold border-b border-zinc-800 pb-2">
+        <button onclick="selectDailyDay('MON')" id="day-btn-MON" class="day-tab flex-1 py-1.5 text-zinc-400 hover:text-white rounded-lg transition-colors cursor-pointer text-center">MON</button>
+        <button onclick="selectDailyDay('TUE')" id="day-btn-TUE" class="day-tab flex-1 py-1.5 text-zinc-400 hover:text-white rounded-lg transition-colors cursor-pointer text-center">TUE</button>
+        <button onclick="selectDailyDay('WED')" id="day-btn-WED" class="day-tab flex-1 py-1.5 text-zinc-400 hover:text-white rounded-lg transition-colors cursor-pointer text-center">WED</button>
+        <button onclick="selectDailyDay('THU')" id="day-btn-THU" class="day-tab flex-1 py-1.5 text-zinc-400 hover:text-white rounded-lg transition-colors cursor-pointer text-center">THU</button>
+        <button onclick="selectDailyDay('FRI')" id="day-btn-FRI" class="day-tab flex-1 py-1.5 text-zinc-400 hover:text-white rounded-lg transition-colors cursor-pointer text-center">FRI</button>
+        <button onclick="selectDailyDay('SAT')" id="day-btn-SAT" class="day-tab flex-1 py-1.5 bg-[#00dc64] text-black font-black rounded-lg transition-colors cursor-pointer text-center">SAT</button>
+        <button onclick="selectDailyDay('SUN')" id="day-btn-SUN" class="day-tab flex-1 py-1.5 text-zinc-400 hover:text-white rounded-lg transition-colors cursor-pointer text-center">SUN</button>
+      </div>
+
+      <!-- Saturday Featured Grid -->
+      <div class="px-4 pt-3 grid grid-cols-2 sm:grid-cols-3 gap-3" id="daily-schedule-grid">
+        <!-- Rendered via JS -->
+      </div>
+    </div>
+
+    <!-- 6. App Download Promo Banner -->
+    <div class="px-4 mt-8">
+      <div class="rounded-2xl p-5 bg-gradient-to-r from-zinc-900 via-zinc-950 to-zinc-900 border border-zinc-800 text-center space-y-3 shadow-xl">
+        <span class="wt-badge-green font-orbitron">OFFICIAL WEBTOON APP</span>
+        <h3 class="text-base font-bold text-white font-cinzel">Read Demon Sovereign Anywhere, Anytime</h3>
+        <p class="text-xs text-zinc-400 max-w-md mx-auto">Get notified the instant new episodes drop with offline reading, studio audio playback, and high-definition vertical strip scrolling.</p>
+        <div class="flex items-center justify-center gap-3 pt-1">
+          <button onclick="showToast('App installed to your Home Screen!')" class="px-4 py-2 bg-[#00dc64] hover:bg-[#00b954] text-black font-bold text-xs rounded-xl shadow-md cursor-pointer">Install PWA Web App</button>
+          <button onclick="switchTab('reader')" class="px-4 py-2 bg-zinc-800 hover:bg-zinc-700 text-white font-bold text-xs rounded-xl cursor-pointer">Continue Reading</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 7. Official Webtoon Footer -->
+    <footer class="mt-12 pt-8 pb-12 border-t border-zinc-800/80 px-4 text-center space-y-4 text-xs text-zinc-500">
+      <div class="flex items-center justify-center gap-4 text-zinc-400">
+        <a href="javascript:void(0)" onclick="openSeriesDetail()" class="hover:text-[#00dc64] transition-colors">Originals</a>
+        <span>•</span>
+        <a href="javascript:void(0)" onclick="switchTab('genres')" class="hover:text-[#00dc64] transition-colors">Categories</a>
+        <span>•</span>
+        <a href="javascript:void(0)" onclick="switchTab('bible')" class="hover:text-[#00dc64] transition-colors">Saga Bible</a>
+        <span>•</span>
+        <a href="javascript:void(0)" onclick="switchTab('relics')" class="hover:text-[#00dc64] transition-colors">10 Relics</a>
+        <span>•</span>
+        <a href="javascript:void(0)" onclick="toggleModal('settings-modal')" class="hover:text-[#00dc64] transition-colors">Settings</a>
+      </div>
+
+      <div class="flex items-center justify-center gap-3 text-zinc-400 pt-1">
+        <span class="hover:text-white cursor-pointer">Facebook</span>
+        <span>•</span>
+        <span class="hover:text-white cursor-pointer">Instagram</span>
+        <span>•</span>
+        <span class="hover:text-white cursor-pointer">YouTube</span>
+        <span>•</span>
+        <span class="hover:text-white cursor-pointer">Discord</span>
+      </div>
+
+      <p class="text-[11px] leading-relaxed text-zinc-500 max-w-lg mx-auto">
+        Terms of Service | Privacy Policy | Community Guidelines | Intellectual Property Notice
+      </p>
+
+      <p class="text-[11px] font-bold text-zinc-600">
+        © DEMON SOVEREIGN CORP. All rights reserved.
+      </p>
+    </footer>
+
+  </section>
+
+  <!-- ======================================================= -->
+  <!-- TAB: ORIGINALS CATALOG -->
+  <!-- ======================================================= -->
+  <section id="tab-view-originals" class="hidden flex-1 w-full max-w-5xl mx-auto p-4 space-y-6 pb-24">
+    <div class="border-b border-zinc-800 pb-4">
+      <span class="wt-badge-green font-orbitron">OFFICIAL LINEUP</span>
+      <h2 class="text-xl sm:text-2xl font-black font-cinzel text-white mt-2">Demon Sovereign Originals</h2>
+      <p class="text-xs text-zinc-400">Exclusive serialized Dark Fantasy webtoons produced by Demon Sovereign Studios.</p>
+    </div>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4" id="originals-full-grid">
+      <!-- Rendered via JS -->
+    </div>
+  </section>
+
+  <!-- ======================================================= -->
+  <!-- TAB: GENRES / CATEGORIES -->
+  <!-- ======================================================= -->
+  <section id="tab-view-genres" class="hidden flex-1 w-full max-w-5xl mx-auto p-4 space-y-6 pb-24">
+    <div class="border-b border-zinc-800 pb-4">
+      <span class="wt-badge-green font-orbitron">DISCOVER</span>
+      <h2 class="text-xl sm:text-2xl font-black font-cinzel text-white mt-2">Categories & Genres</h2>
+      <p class="text-xs text-zinc-400">Browse stories across 23 sub-genres including Action, Dark Fantasy, Supernatural, and Revenge.</p>
+    </div>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4" id="genres-full-grid">
+      <!-- Rendered via JS -->
+    </div>
+  </section>
+
+  <!-- ======================================================= -->
+  <!-- TAB: CANVAS (COMMUNITY CREATORS) -->
+  <!-- ======================================================= -->
+  <section id="tab-view-canvas" class="hidden flex-1 w-full max-w-5xl mx-auto p-4 space-y-6 pb-24">
+    <div class="border-b border-zinc-800 pb-4">
+      <span class="wt-badge-green font-orbitron">INDIE HUB</span>
+      <h2 class="text-xl sm:text-2xl font-black font-cinzel text-white mt-2">CANVAS Creators</h2>
+      <p class="text-xs text-zinc-400">Independent creator serials, fan-art, spinoffs, and concept drafts from the Demon Sovereign universe.</p>
+    </div>
+    <div class="grid grid-cols-2 sm:grid-cols-3 gap-4" id="canvas-full-grid">
+      <!-- Rendered via JS -->
+    </div>
+  </section>
+
+  <!-- ======================================================= -->
+  <!-- TAB: MY LIBRARY & HISTORY -->
+  <!-- ======================================================= -->
+  <section id="tab-view-my" class="hidden flex-1 w-full max-w-5xl mx-auto p-4 space-y-6 pb-24">
+    <div class="border-b border-zinc-800 pb-4 flex items-center justify-between">
+      <div>
+        <span class="wt-badge-green font-orbitron">PERSONAL</span>
+        <h2 class="text-xl sm:text-2xl font-black font-cinzel text-white mt-2">My Library</h2>
+        <p class="text-xs text-zinc-400">Your reading history, subscribed series, and downloaded episodes.</p>
+      </div>
+      <button onclick="resumeReading()" class="px-4 py-2 bg-[#00dc64] hover:bg-[#00b954] text-black font-bold text-xs rounded-xl shadow-md cursor-pointer">
+        Continue Reading →
+      </button>
+    </div>
+    <div class="space-y-4" id="my-library-content">
+      <!-- Rendered via JS -->
+    </div>
+  </section>
+
+  <!-- ======================================================= -->
+  <!-- SERIES DETAIL MODAL / EPISODE HUB -->
+  <!-- ======================================================= -->
+  <div id="series-detail-modal" class="fixed inset-0 z-50 bg-black/90 backdrop-blur-md hidden transition-opacity overflow-y-auto">
+    <div class="w-full max-w-2xl mx-auto min-h-screen bg-[#0c0d12] border-x border-zinc-800/80 shadow-2xl flex flex-col pb-24">
+      <!-- Top Modal Navigation -->
+      <div class="sticky top-0 z-40 bg-[#0c0d12]/95 backdrop-blur-md border-b border-zinc-800 px-4 py-3 flex items-center justify-between">
+        <button onclick="toggleModal('series-detail-modal')" class="p-1 text-zinc-400 hover:text-white flex items-center gap-1 text-xs font-bold cursor-pointer">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg>
+          <span>Back</span>
+        </button>
+        <span class="text-xs font-bold font-cinzel text-white uppercase tracking-wider">Series Overview</span>
+        <button onclick="toggleModal('series-detail-modal')" class="p-1 text-zinc-400 hover:text-white cursor-pointer">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <!-- Series Hero Header -->
+      <div class="relative w-full aspect-[16/9] overflow-hidden bg-zinc-900">
+        <img src="./images/cover_demon_sovereign.png" alt="Demon Sovereign" class="w-full h-full object-cover object-top">
+        <div class="absolute inset-0 bg-gradient-to-t from-[#0c0d12] via-[#0c0d12]/70 to-transparent"></div>
+        <div class="absolute bottom-4 left-4 right-4 space-y-1.5">
+          <div class="flex items-center gap-2">
+            <span class="wt-badge-green font-orbitron">ORIGINAL</span>
+            <span class="text-xs font-bold text-amber-400">★ 9.89 (142K)</span>
+            <span class="text-xs text-zinc-300">• 72.4M Views</span>
+          </div>
+          <h1 class="text-2xl font-black font-cinzel text-white drop-shadow-md">Demon Sovereign's Bloodline</h1>
+          <p class="text-xs text-zinc-300">Creator: <strong class="text-white">9901899vlc</strong> • Art: <strong class="text-purple-400">Redice Studio 2D Style</strong></p>
+        </div>
+      </div>
+
+      <!-- Synopsis & Tags -->
+      <div class="p-4 space-y-3 border-b border-zinc-800/80">
+        <p class="text-xs text-zinc-300 leading-relaxed">
+          On the rain-swept concrete rooftop of Saint Mirren University, seventeen-year-old Ha-Jun Kang is cornered and battered by academy bullies. When Kuro, an ancient demonic raven familiar, dissolves into purple embers leaving behind an obsidian feather, Ha-Jun's latent Demon Sovereign bloodline reawakens, beginning a ruthless saga of ascension.
+        </p>
+        <div class="flex items-center gap-1.5 flex-wrap text-[11px] font-bold">
+          <span class="px-2.5 py-1 rounded-md bg-zinc-900 text-zinc-300 border border-zinc-800">#Action</span>
+          <span class="px-2.5 py-1 rounded-md bg-zinc-900 text-zinc-300 border border-zinc-800">#DarkFantasy</span>
+          <span class="px-2.5 py-1 rounded-md bg-zinc-900 text-zinc-300 border border-zinc-800">#DemonicFamiliar</span>
+          <span class="px-2.5 py-1 rounded-md bg-zinc-900 text-zinc-300 border border-zinc-800">#Revenge</span>
+          <span class="px-2.5 py-1 rounded-md bg-zinc-900 text-zinc-300 border border-zinc-800">#WeeklySaturday</span>
+        </div>
+        <div class="pt-2">
+          <button onclick="loadChapter(0); toggleModal('series-detail-modal'); switchTab('reader');" class="w-full py-3 bg-[#00dc64] hover:bg-[#00b954] text-black font-black text-xs uppercase tracking-wider rounded-xl transition-all shadow-lg shadow-[#00dc64]/30 cursor-pointer flex items-center justify-center gap-2">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            <span>Read First Episode (Ep. 1)</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Episode List (Webtoon detail_list_wrap) -->
+      <div class="p-4 space-y-3">
+        <div class="flex items-center justify-between text-xs font-bold text-zinc-400 pb-2 border-b border-zinc-800">
+          <span>Episodes (4 Total)</span>
+          <span>Sort: Newest First</span>
+        </div>
+        <div class="space-y-2.5" id="series-modal-episode-list">
+          <!-- Rendered via JS -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ======================================================= -->
   <!-- TAB 1: WEBTOON READER -->
   <!-- ======================================================= -->
-  <section id="tab-view-reader" class="flex-1 flex flex-col items-center">
+  <section id="tab-view-reader" class="hidden flex-1 flex flex-col items-center pb-24">
+    <!-- Webtoon Reader Top Bar -->
+    <div id="reader-top-bar" class="sticky top-[53px] z-40 w-full bg-[#0c0d12]/95 backdrop-blur-md border-b border-zinc-800/80 px-3 sm:px-6 py-2 flex items-center justify-between text-white shadow-md">
+      <div class="flex items-center gap-2">
+        <!-- Back to Home Button -->
+        <button onclick="switchTab('home')" class="p-1.5 rounded-lg bg-zinc-900 hover:bg-zinc-800 text-zinc-300 hover:text-white transition-colors cursor-pointer flex items-center gap-1 text-xs font-bold" title="Back to Webtoon Home">
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg>
+          <span class="hidden sm:inline">Home</span>
+        </button>
+
+        <!-- Chapter Selector Drawer Trigger -->
+        <button id="open-drawer-btn" class="flex items-center gap-1.5 bg-zinc-900/90 hover:bg-zinc-800 border border-zinc-800 px-2.5 py-1 rounded-lg text-xs font-bold text-purple-300 font-orbitron transition-all cursor-pointer">
+          <span id="header-chapter-badge">CH. 1</span>
+          <svg class="w-3.5 h-3.5 text-zinc-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 9l-7 7-7-7"/></svg>
+        </button>
+
+        <span class="text-xs font-bold text-white truncate max-w-[130px] sm:max-w-xs font-cinzel" id="header-chapter-title">
+          Episode 1: The Gathering Storm
+        </span>
+      </div>
+
+      <!-- Right Controls: Audio Voiceover + View Mode + Settings -->
+      <div class="flex items-center gap-1.5">
+        <!-- Studio Voiceover Button -->
+        <button id="reader-top-listen-btn" onclick="toggleNovelSpeech()" class="flex items-center gap-1 px-2.5 py-1 rounded-lg bg-purple-950 hover:bg-purple-900 border border-purple-700/60 text-purple-300 text-xs font-bold transition-all cursor-pointer shadow-sm">
+          <svg class="w-3.5 h-3.5 text-purple-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+          <span class="hidden sm:inline">Voiceover</span>
+        </button>
+
+        <!-- View Mode: Strip vs Grid vs Script -->
+        <div class="flex items-center bg-zinc-900 border border-zinc-800 rounded-lg p-0.5 text-xs">
+          <button id="btn-mode-strip" onclick="switchViewMode('strip')" class="px-2 py-0.5 rounded bg-purple-600 text-white font-bold transition-all">Strip</button>
+          <button id="btn-mode-grid" onclick="switchViewMode('grid')" class="px-2 py-0.5 rounded text-zinc-400 hover:text-white font-medium transition-all">Grid</button>
+          <button id="btn-mode-script" onclick="switchViewMode('script')" class="px-2 py-0.5 rounded text-zinc-400 hover:text-white font-medium transition-all">Novel</button>
+        </div>
+
+        <!-- Settings Modal Trigger -->
+        <button onclick="toggleModal('settings-modal')" class="p-1.5 rounded-lg bg-zinc-900 hover:bg-zinc-800 text-zinc-400 hover:text-white transition-colors cursor-pointer" title="Reader Settings">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+        </button>
+      </div>
+    </div>
     
     <!-- SUB-VIEW A: FULL STRIP SCROLL -->
     <div class="webtoon-viewport" id="strip-container">
@@ -339,6 +887,31 @@
           ↑ Back to Top
         </button>
       </div>
+    </div>
+
+    <!-- Webtoon Reader Bottom Action Bar -->
+    <div class="w-full max-w-xl mx-auto my-6 px-4 flex items-center justify-between text-xs font-bold text-zinc-300">
+      <button onclick="prevChapter()" class="px-3.5 py-2 rounded-xl bg-zinc-900 hover:bg-zinc-800 border border-zinc-800 flex items-center gap-1.5 cursor-pointer transition-all">
+        <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+        <span>Prev</span>
+      </button>
+
+      <div class="flex items-center gap-2">
+        <button id="reader-like-btn" onclick="recordReaction('aura', currentChapterIndex)" class="px-3.5 py-2 rounded-xl bg-purple-950/80 hover:bg-purple-900 border border-purple-600/60 text-purple-300 flex items-center gap-1.5 cursor-pointer transition-all">
+          <svg class="w-4 h-4 text-rose-500 fill-current" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+          <span id="reader-like-counter">2,890</span>
+        </button>
+
+        <button onclick="toggleModal('comments-drawer')" class="px-3 py-2 rounded-xl bg-zinc-900 hover:bg-zinc-800 border border-zinc-800 flex items-center gap-1.5 cursor-pointer transition-all">
+          <svg class="w-4 h-4 text-zinc-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+          <span>Comments</span>
+        </button>
+      </div>
+
+      <button onclick="nextChapter()" class="px-3.5 py-2 rounded-xl bg-[#00dc64] hover:bg-[#00b954] text-black font-black flex items-center gap-1.5 cursor-pointer transition-all shadow-md shadow-[#00dc64]/20">
+        <span>Next</span>
+        <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+      </button>
     </div>
   </section>
 
@@ -1779,9 +2352,11 @@
     // INITIALIZATION & EVENT LISTENERS
     // =======================================================
     window.addEventListener('DOMContentLoaded', () => {
+      initWebtoonTheme();
       renderRelics();
       renderCharacters();
       renderArcs();
+      renderWebtoonHomeData();
       
       const saved = getReadingProgress();
       if (saved && saved.chapterIndex !== undefined && saved.chapterIndex >= 0 && saved.chapterIndex < CHAPTERS_DATA.length) {
@@ -1794,6 +2369,13 @@
       updateContinueReadingBanner();
       setupScrollProgress();
       setupDrawerEvents();
+
+      // Open to Home (Webtoon Portal) by default
+      if (window.location.hash === '#reader') {
+        switchTab('reader');
+      } else {
+        switchTab('home');
+      }
     });
 
     // Scroll Progress
@@ -1807,20 +2389,577 @@
       });
     }
 
-    // Tab Switching
-    function switchTab(tabId) {
-      const tabs = ['reader', 'bible', 'relics', 'characters'];
-      tabs.forEach(t => {
-        const view = document.getElementById('tab-view-' + t);
-        const btn = document.getElementById('tab-btn-' + t);
-        if (t === tabId) {
-          if (view) view.classList.remove('hidden');
-          if (btn) btn.className = "text-purple-400 border-b-2 border-purple-500 py-1.5 px-3 flex items-center justify-center cursor-pointer transition-all";
+
+    // =======================================================
+    // LINE WEBTOON OFFICIAL REVERSE-ENGINEERED CONTROLLER
+    // =======================================================
+
+    // Catalog Data for Webtoon Portal
+    const WEBTOON_CATALOG = [
+      {
+        id: "ds_main",
+        rank: 1,
+        title: "Demon Sovereign's Bloodline",
+        author: "9901899vlc",
+        genre: "Action",
+        subgenre: "Dark Fantasy",
+        views: "72.4M",
+        likes: "1.2M",
+        rating: 9.89,
+        status: "UP",
+        badge: "ORIGINAL",
+        cover: "./images/cover_demon_sovereign.png",
+        desc: "Seventeen-year-old Ha-Jun Kang awakens an ancient demonic lineage in the rain on Saint Mirren rooftop.",
+        day: "SAT",
+        chapterCount: 4,
+        isOurSeries: true
+      },
+      {
+        id: "solo_ragnarok",
+        rank: 2,
+        title: "Solo Leveling: Ragnarok",
+        author: "REDICE STUDIO",
+        genre: "Action",
+        subgenre: "Hunter / System",
+        views: "48.2M",
+        likes: "890K",
+        rating: 9.91,
+        status: "UP",
+        badge: "ORIGINAL",
+        cover: "./images/cover_kuro.png",
+        desc: "The shadow monarchs return as dimensional fissures shatter the peaceful skies above Seoul.",
+        day: "SAT",
+        chapterCount: 50
+      },
+      {
+        id: "orv",
+        rank: 3,
+        title: "Omniscient Reader's Viewpoint",
+        author: "singNsong • Sleepy-C",
+        genre: "Fantasy",
+        subgenre: "Apocalypse / Mystery",
+        views: "65.7M",
+        likes: "1.1M",
+        rating: 9.94,
+        status: "UP",
+        badge: "ORIGINAL",
+        cover: "./images/cover_sister.png",
+        desc: "Only one reader knows the end of the apocalyptic scenario unfolding in real time.",
+        day: "WED",
+        chapterCount: 220
+      },
+      {
+        id: "estate_developer",
+        rank: 4,
+        title: "The Greatest Estate Developer",
+        author: "BK_Moon • Kim Hyunsoo",
+        genre: "Fantasy",
+        subgenre: "Comedy / Isekai",
+        views: "39.4M",
+        likes: "740K",
+        rating: 9.86,
+        status: "UP",
+        badge: "ORIGINAL",
+        cover: "./images/cover_university.png",
+        desc: "Civil engineering student awakens in a fantasy novel and builds an invincible domain.",
+        day: "FRI",
+        chapterCount: 160
+      },
+      {
+        id: "tower_of_god",
+        rank: 5,
+        title: "Tower of God",
+        author: "SIU",
+        genre: "Action",
+        subgenre: "Epic Fantasy",
+        views: "120.5M",
+        likes: "2.3M",
+        rating: 9.85,
+        status: "UP",
+        badge: "ORIGINAL",
+        cover: "./panels/panel_07_final.png",
+        desc: "What do you desire? Money and wealth? Honor and pride? Whatever it is, it is here atop the Tower.",
+        day: "MON",
+        chapterCount: 610
+      },
+      {
+        id: "demon_abyss",
+        rank: 6,
+        title: "Abyssal Sovereign: Rebirth",
+        author: "Dark Realm Studio",
+        genre: "Supernatural",
+        subgenre: "Dark Reincarnation",
+        views: "24.1M",
+        likes: "420K",
+        rating: 9.78,
+        status: "NEW",
+        badge: "ORIGINAL",
+        cover: "./images/cover_kuro.png",
+        desc: "Betrayed by the seven high archons, the demon king returns in human high school flesh.",
+        day: "THU",
+        chapterCount: 35
+      },
+      {
+        id: "shadow_sister",
+        rank: 7,
+        title: "Bloodline of Ha-Eun",
+        author: "9901899vlc",
+        genre: "Drama",
+        subgenre: "Supernatural / Family",
+        views: "18.6M",
+        likes: "310K",
+        rating: 9.82,
+        status: "UP",
+        badge: "ORIGINAL",
+        cover: "./images/cover_sister.png",
+        desc: "Ha-Eun fights corporate assassins in Seoul to protect her younger brother Ha-Jun.",
+        day: "TUE",
+        chapterCount: 12
+      },
+      {
+        id: "saint_mirren_chronicles",
+        rank: 8,
+        title: "Saint Mirren Academy Files",
+        author: "Abyssal Scribe",
+        genre: "Isekai",
+        subgenre: "School / Magic",
+        views: "15.3M",
+        likes: "270K",
+        rating: 9.75,
+        status: "NEW",
+        badge: "ORIGINAL",
+        cover: "./images/cover_university.png",
+        desc: "The dark gothic spires of Saint Mirren hide the seal to the Demon Sovereign's vault.",
+        day: "SUN",
+        chapterCount: 18
+      }
+    ];
+
+    let currentTrendingTab = 'trending';
+    let currentSelectedCategory = 'All';
+    let currentSelectedDay = 'SAT';
+
+    // 1. Theme Controller
+    function initWebtoonTheme() {
+      const saved = localStorage.getItem('wt_theme') || 'dark';
+      if (saved === 'light') {
+        document.body.classList.add('wt-light');
+        updateThemeIcon(true);
+      } else {
+        document.body.classList.remove('wt-light');
+        updateThemeIcon(false);
+      }
+    }
+
+    function toggleWebtoonTheme() {
+      const isLight = document.body.classList.toggle('wt-light');
+      localStorage.setItem('wt_theme', isLight ? 'light' : 'dark');
+      updateThemeIcon(isLight);
+      showToast(isLight ? 'Webtoon Light Mode activated' : 'Webtoon Dark Mode activated');
+    }
+
+    function updateThemeIcon(isLight) {
+      const btn = document.getElementById('btn-theme-toggle');
+      if (btn) {
+        btn.innerHTML = isLight
+          ? '<svg class="w-5 h-5 text-amber-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>'
+          : '<svg class="w-5 h-5 text-zinc-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.389 5.389 0 0 1-4.4 2.26 5.403 5.403 0 0 1-3.14-9.8c-.44-.06-.9-.1-1.36-.1z"/></svg>';
+      }
+    }
+
+    // 2. Render Webtoon Home Sections
+    function renderWebtoonHomeData() {
+      renderTrendingCards();
+      renderCategoryGrid();
+      renderNewReleasesSlider();
+      renderDailySchedule();
+      renderSeriesModalEpisodes();
+      renderOriginalsCatalog();
+      renderGenresCatalog();
+      renderCanvasCatalog();
+      renderMyLibrary();
+    }
+
+    function renderTrendingCards() {
+      const container = document.getElementById('trending-cards-wrapper');
+      if (!container) return;
+
+      const items = currentTrendingTab === 'trending' ? WEBTOON_CATALOG.slice(0, 5) : [...WEBTOON_CATALOG].sort((a,b) => parseFloat(b.views) - parseFloat(a.views)).slice(0, 5);
+
+      container.innerHTML = items.map((item, idx) => `
+        <div onclick="${item.isOurSeries ? 'openSeriesDetail()' : 'showToast(\'Opening ' + item.title.replace(/'/g, "\\'") + '\')'}" class="flex items-center gap-3.5 p-2.5 rounded-xl wt-card border border-zinc-800/80 hover:border-[#00dc64]/60 transition-all cursor-pointer group bg-zinc-950/60">
+          <!-- Rank Number -->
+          <div class="w-8 flex flex-col items-center justify-center shrink-0">
+            <span class="wt-rank-num ${idx === 0 ? 'wt-top-1' : ''}">${idx + 1}</span>
+            <span class="text-[9px] font-black text-[#00dc64] flex items-center leading-none">▲ 1</span>
+          </div>
+
+          <!-- Poster Thumbnail -->
+          <div class="relative w-16 h-20 rounded-lg overflow-hidden shrink-0 bg-zinc-900 border border-zinc-800">
+            <img src="${item.cover}" alt="${item.title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+            ${item.status === 'UP' ? '<span class="absolute top-1 left-1 wt-badge-up">UP</span>' : ''}
+          </div>
+
+          <!-- Info -->
+          <div class="flex-1 min-w-0">
+            <div class="flex items-center gap-1.5 text-[11px] text-[#00dc64] font-bold">
+              <span>${item.genre}</span>
+              <span class="text-zinc-600">•</span>
+              <span class="text-zinc-400 font-normal truncate">${item.subgenre}</span>
+            </div>
+            <h3 class="text-sm font-black text-white group-hover:text-[#00dc64] transition-colors truncate wt-title">
+              ${item.title}
+            </h3>
+            <p class="text-[11px] text-zinc-400 truncate mt-0.5 wt-subtext">${item.author}</p>
+            <div class="flex items-center gap-2 mt-1 text-[10px] text-zinc-500 font-semibold">
+              <span class="text-amber-400 font-bold">★ ${item.rating}</span>
+              <span>•</span>
+              <span>👁️ ${item.views}</span>
+              <span>•</span>
+              <span>♥ ${item.likes}</span>
+            </div>
+          </div>
+
+          <!-- Chevron -->
+          <svg class="w-4 h-4 text-zinc-600 group-hover:text-[#00dc64] transition-colors shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+        </div>
+      `).join('');
+    }
+
+    function switchTrendingTab(tab) {
+      currentTrendingTab = tab;
+      const btnTrend = document.getElementById('trend-tab-trending');
+      const btnPop = document.getElementById('trend-tab-popular');
+      if (tab === 'trending') {
+        btnTrend.className = "px-3.5 py-1 rounded-full bg-[#00dc64] text-black font-black text-xs transition-all cursor-pointer";
+        btnPop.className = "px-3.5 py-1 rounded-full bg-zinc-900 text-zinc-400 hover:text-white font-bold text-xs transition-all cursor-pointer";
+      } else {
+        btnPop.className = "px-3.5 py-1 rounded-full bg-[#00dc64] text-black font-black text-xs transition-all cursor-pointer";
+        btnTrend.className = "px-3.5 py-1 rounded-full bg-zinc-900 text-zinc-400 hover:text-white font-bold text-xs transition-all cursor-pointer";
+      }
+      renderTrendingCards();
+    }
+
+    function renderCategoryGrid() {
+      const container = document.getElementById('category-grid');
+      if (!container) return;
+
+      const filtered = currentSelectedCategory === 'All' 
+        ? WEBTOON_CATALOG 
+        : WEBTOON_CATALOG.filter(c => c.genre.toLowerCase() === currentSelectedCategory.toLowerCase() || c.subgenre.toLowerCase().includes(currentSelectedCategory.toLowerCase()));
+
+      container.innerHTML = filtered.map(item => `
+        <div onclick="${item.isOurSeries ? 'openSeriesDetail()' : 'showToast(\'Opening ' + item.title.replace(/'/g, "\\'") + '\')'}" class="space-y-1.5 cursor-pointer group">
+          <div class="wt-poster-card shadow-md">
+            <img src="${item.cover}" alt="${item.title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+            <span class="absolute top-1.5 left-1.5 wt-badge-up">${item.status}</span>
+            <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/90 to-transparent p-1.5 text-[10px] text-zinc-300 font-bold flex items-center justify-between">
+              <span class="text-amber-400">★ ${item.rating}</span>
+              <span>♥ ${item.likes}</span>
+            </div>
+          </div>
+          <div class="px-0.5">
+            <h4 class="text-xs font-bold text-white group-hover:text-[#00dc64] transition-colors truncate wt-title">
+              ${item.title}
+            </h4>
+            <p class="text-[10px] text-zinc-400 truncate wt-subtext">${item.author}</p>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function filterCategory(cat) {
+      currentSelectedCategory = cat;
+      document.querySelectorAll('.cat-pill').forEach(btn => {
+        if (btn.innerText.trim().toLowerCase() === cat.toLowerCase()) {
+          btn.className = "cat-pill px-3.5 py-1.5 rounded-full bg-[#00dc64] text-black whitespace-nowrap cursor-pointer font-black";
         } else {
-          if (view) view.classList.add('hidden');
-          if (btn) btn.className = "text-zinc-400 hover:text-zinc-200 border-b-2 border-transparent py-1.5 px-3 flex items-center justify-center cursor-pointer transition-all";
+          btn.className = "cat-pill px-3.5 py-1.5 rounded-full bg-zinc-900 text-zinc-400 hover:text-white whitespace-nowrap cursor-pointer font-bold";
         }
       });
+      renderCategoryGrid();
+    }
+
+    function renderNewReleasesSlider() {
+      const container = document.getElementById('new-releases-slider');
+      if (!container) return;
+
+      const episodes = [
+        { epNum: 4, title: "The Drifting Feather", date: "Nov 9, 2026", likes: "14.8K", badge: "NEW", cover: "./images/cover_demon_sovereign.png", hasAudio: true },
+        { epNum: 3, title: "The Rooftop Beating", date: "Nov 8, 2026", likes: "21.2K", badge: "UP", cover: "./panels/ep2/panel_03_final.png", hasAudio: false },
+        { epNum: 2, title: "Kuro's Vanishing", date: "Nov 8, 2026", likes: "28.5K", badge: "UP", cover: "./panels/ep2/panel_01_final.png", hasAudio: false },
+        { epNum: 1, title: "Blood in the Rain", date: "Nov 7, 2026", likes: "35.1K", badge: "UP", cover: "./panels/ep1/panel_01_final.png", hasAudio: false }
+      ];
+
+      container.innerHTML = episodes.map((ep, idx) => `
+        <div onclick="loadChapter(${ep.epNum === 4 ? 1 : 0}); switchTab('reader');" class="w-36 shrink-0 space-y-1.5 cursor-pointer group">
+          <div class="relative w-36 h-48 rounded-xl overflow-hidden bg-zinc-900 border border-zinc-800 shadow-md group-hover:border-[#00dc64] transition-all">
+            <img src="${ep.cover}" alt="Episode ${ep.epNum}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+            <div class="absolute top-2 left-2 flex items-center gap-1">
+              <span class="${ep.badge === 'NEW' ? 'wt-badge-new' : 'wt-badge-up'}">${ep.badge}</span>
+              ${ep.hasAudio ? '<span class="px-1.5 py-0.5 rounded bg-purple-900/90 text-purple-200 text-[9px] font-black font-orbitron">AUDIO</span>' : ''}
+            </div>
+            <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/95 via-black/60 to-transparent p-2 text-white">
+              <span class="text-[10px] font-orbitron font-black text-[#00dc64]">EPISODE ${ep.epNum}</span>
+              <p class="text-xs font-bold truncate">${ep.title}</p>
+            </div>
+          </div>
+          <div class="px-1 flex items-center justify-between text-[10px] text-zinc-400">
+            <span>${ep.date}</span>
+            <span class="text-purple-400">♥ ${ep.likes}</span>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function renderDailySchedule() {
+      const container = document.getElementById('daily-schedule-grid');
+      if (!container) return;
+
+      const schedule = WEBTOON_CATALOG.filter(c => c.day === currentSelectedDay);
+      if (schedule.length === 0) {
+        container.innerHTML = `
+          <div class="col-span-full py-8 text-center text-xs text-zinc-500 font-orbitron">
+            No releases scheduled for ${currentSelectedDay}. Check back tomorrow at 9 PM!
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = schedule.map(item => `
+        <div onclick="${item.isOurSeries ? 'openSeriesDetail()' : 'showToast(\'Opening ' + item.title.replace(/'/g, "\\'") + '\')'}" class="flex items-center gap-3 p-2.5 rounded-xl wt-card border border-zinc-800 hover:border-[#00dc64]/60 transition-all cursor-pointer group bg-zinc-950/50">
+          <div class="w-14 h-18 rounded-lg overflow-hidden shrink-0 bg-zinc-900 border border-zinc-800">
+            <img src="${item.cover}" alt="${item.title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+          </div>
+          <div class="flex-1 min-w-0">
+            <span class="wt-badge-up text-[9px]">SATURDAY</span>
+            <h4 class="text-xs font-bold text-white group-hover:text-[#00dc64] transition-colors truncate mt-1 wt-title">
+              ${item.title}
+            </h4>
+            <p class="text-[10px] text-zinc-400 truncate wt-subtext">${item.genre} • ★ ${item.rating}</p>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function selectDailyDay(day) {
+      currentSelectedDay = day;
+      ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN'].forEach(d => {
+        const btn = document.getElementById('day-btn-' + d);
+        if (btn) {
+          if (d === day) {
+            btn.className = "day-tab flex-1 py-1.5 bg-[#00dc64] text-black font-black rounded-lg transition-colors cursor-pointer text-center";
+          } else {
+            btn.className = "day-tab flex-1 py-1.5 text-zinc-400 hover:text-white rounded-lg transition-colors cursor-pointer text-center";
+          }
+        }
+      });
+      renderDailySchedule();
+    }
+
+    function renderSeriesModalEpisodes() {
+      const container = document.getElementById('series-modal-episode-list');
+      if (!container) return;
+
+      const episodes = [
+        { index: 1, epNum: 4, title: "The Drifting Feather", date: "Nov 9, 2026", likes: "14.8K", badge: "NEW", cover: "./images/cover_demon_sovereign.png", audioNote: "Master Voiceover • 7m 35s" },
+        { index: 0, epNum: 3, title: "The Rooftop Beating", date: "Nov 8, 2026", likes: "21.2K", badge: "FREE", cover: "./panels/ep2/panel_03_final.png", audioNote: "Full Visual Strip" },
+        { index: 0, epNum: 2, title: "Kuro's Vanishing", date: "Nov 8, 2026", likes: "28.5K", badge: "FREE", cover: "./panels/ep2/panel_01_final.png", audioNote: "Full Visual Strip" },
+        { index: 0, epNum: 1, title: "Blood in the Rain", date: "Nov 7, 2026", likes: "35.1K", badge: "FREE", cover: "./panels/ep1/panel_01_final.png", audioNote: "Full Visual Strip" }
+      ];
+
+      container.innerHTML = episodes.map(ep => `
+        <div onclick="loadChapter(${ep.index}); toggleModal('series-detail-modal'); switchTab('reader');" class="flex items-center gap-3 p-2.5 rounded-xl bg-zinc-950/80 hover:bg-zinc-900 border border-zinc-800/80 hover:border-[#00dc64]/60 transition-all cursor-pointer group">
+          <div class="relative w-24 h-16 rounded-lg overflow-hidden shrink-0 bg-zinc-900 border border-zinc-800">
+            <img src="${ep.cover}" alt="Episode ${ep.epNum}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+            ${ep.badge === 'NEW' ? '<span class="absolute top-1 left-1 wt-badge-new">NEW</span>' : '<span class="absolute top-1 left-1 wt-badge-green font-orbitron">FREE</span>'}
+          </div>
+          <div class="flex-1 min-w-0">
+            <div class="flex items-center gap-1.5 text-[10px] text-zinc-400">
+              <span class="font-bold text-[#00dc64]">#${ep.epNum}</span>
+              <span>•</span>
+              <span>${ep.date}</span>
+            </div>
+            <h4 class="text-xs sm:text-sm font-bold text-white group-hover:text-[#00dc64] transition-colors truncate mt-0.5">
+              Episode ${ep.epNum}: ${ep.title}
+            </h4>
+            <p class="text-[10px] text-purple-400 mt-0.5 flex items-center gap-1">
+              <span>🎧 ${ep.audioNote}</span>
+            </p>
+          </div>
+          <div class="text-right shrink-0">
+            <span class="text-xs text-rose-400 font-bold">♥ ${ep.likes}</span>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function renderOriginalsCatalog() {
+      const container = document.getElementById('originals-full-grid');
+      if (!container) return;
+      container.innerHTML = WEBTOON_CATALOG.map(item => `
+        <div onclick="${item.isOurSeries ? 'openSeriesDetail()' : 'showToast(\'Opening ' + item.title.replace(/'/g, "\\'") + '\')'}" class="space-y-1.5 cursor-pointer group">
+          <div class="wt-poster-card shadow-lg">
+            <img src="${item.cover}" alt="${item.title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+            <span class="absolute top-1.5 left-1.5 wt-badge-green">${item.badge}</span>
+            <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/90 to-transparent p-2 text-white flex items-center justify-between text-[11px] font-bold">
+              <span class="text-amber-400">★ ${item.rating}</span>
+              <span>${item.views}</span>
+            </div>
+          </div>
+          <h4 class="text-xs font-bold text-white group-hover:text-[#00dc64] transition-colors truncate wt-title">${item.title}</h4>
+          <p class="text-[10px] text-zinc-400 truncate wt-subtext">${item.genre} • ${item.author}</p>
+        </div>
+      `).join('');
+    }
+
+    function renderGenresCatalog() {
+      const container = document.getElementById('genres-full-grid');
+      if (!container) return;
+      renderOriginalsCatalog(); // Mirror full catalog
+    }
+
+    function renderCanvasCatalog() {
+      const container = document.getElementById('canvas-full-grid');
+      if (!container) return;
+      container.innerHTML = `
+        <div onclick="openSeriesDetail()" class="p-4 rounded-xl bg-zinc-950 border border-zinc-800 space-y-2 cursor-pointer group hover:border-[#00dc64]">
+          <span class="wt-badge-green">CREATOR PILOT</span>
+          <h4 class="text-sm font-bold text-white group-hover:text-[#00dc64]">Demon Sovereign: Prologue Rough Drafts</h4>
+          <p class="text-xs text-zinc-400">Early storyboard sketches, character concept sheets, and deleted rooftop panels.</p>
+        </div>
+        <div onclick="switchTab('characters')" class="p-4 rounded-xl bg-zinc-950 border border-zinc-800 space-y-2 cursor-pointer group hover:border-[#00dc64]">
+          <span class="wt-badge-green">CHARACTER CODEX</span>
+          <h4 class="text-sm font-bold text-white group-hover:text-[#00dc64]">Saint Mirren Student Directory</h4>
+          <p class="text-xs text-zinc-400">Complete visual design locks for Ha-Jun Kang, Kuro, and Ha-Eun Kang.</p>
+        </div>
+      `;
+    }
+
+    function renderMyLibrary() {
+      const container = document.getElementById('my-library-content');
+      if (!container) return;
+      container.innerHTML = `
+        <div class="p-4 rounded-xl bg-zinc-950 border border-zinc-800 flex items-center justify-between">
+          <div class="flex items-center gap-3">
+            <img src="./images/cover_demon_sovereign.png" class="w-14 h-18 rounded-lg object-cover">
+            <div>
+              <span class="text-[10px] text-[#00dc64] font-bold font-orbitron">RECENTLY READ</span>
+              <h4 class="text-sm font-bold text-white">Demon Sovereign's Bloodline</h4>
+              <p class="text-xs text-zinc-400">Chapter 4: The Drifting Feather (Nov 9)</p>
+            </div>
+          </div>
+          <button onclick="resumeReading()" class="px-3.5 py-1.5 bg-purple-600 hover:bg-purple-500 text-white font-bold text-xs rounded-lg">
+            Resume
+          </button>
+        </div>
+      `;
+    }
+
+    function openSeriesDetail() {
+      toggleModal('series-detail-modal');
+    }
+
+    function handleWebtoonSearch(query) {
+      const container = document.getElementById('search-results-box');
+      if (!container) return;
+      const q = (query || '').trim().toLowerCase();
+      if (!q) {
+        container.innerHTML = `
+          <div class="text-center py-8 text-zinc-500 text-xs">
+            Type a character name, chapter number, or spell to search...
+          </div>
+        `;
+        return;
+      }
+
+      const matchedChapters = CHAPTERS_DATA.filter(c => 
+        String(c.number).includes(q) || 
+        c.title.toLowerCase().includes(q) || 
+        (c.desc && c.desc.toLowerCase().includes(q))
+      );
+
+      const matchedCatalog = WEBTOON_CATALOG.filter(c => 
+        c.title.toLowerCase().includes(q) || 
+        c.genre.toLowerCase().includes(q) || 
+        c.author.toLowerCase().includes(q)
+      );
+
+      if (matchedChapters.length === 0 && matchedCatalog.length === 0) {
+        container.innerHTML = `
+          <div class="text-center py-8 text-zinc-500 text-xs">
+            No matches found for "${query}". Try searching for "Ha-Jun", "Kuro", or "Feather".
+          </div>
+        `;
+        return;
+      }
+
+      let resHtml = '';
+      if (matchedChapters.length > 0) {
+        resHtml += `<div class="text-[11px] font-bold text-[#00dc64] uppercase pt-2">Demon Sovereign Chapters (${matchedChapters.length})</div>`;
+        matchedChapters.forEach(c => {
+          resHtml += `
+            <div onclick="loadChapter(${c.number === 4 ? 1 : 0}); toggleModal('search-modal'); switchTab('reader');" class="p-3 rounded-xl bg-zinc-900/90 hover:bg-zinc-800 border border-zinc-800 flex items-center justify-between cursor-pointer">
+              <div>
+                <span class="text-[10px] text-purple-400 font-bold font-orbitron">CH. ${c.number} • ${c.arc}</span>
+                <h4 class="text-xs font-bold text-white">${c.title}</h4>
+              </div>
+              <span class="px-2.5 py-1 bg-[#00dc64] text-black font-bold text-[10px] rounded-lg">Read →</span>
+            </div>
+          `;
+        });
+      }
+
+      if (matchedCatalog.length > 0) {
+        resHtml += `<div class="text-[11px] font-bold text-zinc-400 uppercase pt-3">Series & Catalog (${matchedCatalog.length})</div>`;
+        matchedCatalog.forEach(item => {
+          resHtml += `
+            <div onclick="${item.isOurSeries ? 'openSeriesDetail()' : 'showToast(\'Opening ' + item.title.replace(/'/g, "\\'") + '\')'}" class="p-3 rounded-xl bg-zinc-900/90 hover:bg-zinc-800 border border-zinc-800 flex items-center gap-3 cursor-pointer">
+              <img src="${item.cover}" class="w-10 h-12 rounded object-cover">
+              <div>
+                <h4 class="text-xs font-bold text-white">${item.title}</h4>
+                <p class="text-[10px] text-zinc-400">${item.genre} • ★ ${item.rating}</p>
+              </div>
+            </div>
+          `;
+        });
+      }
+
+      container.innerHTML = resHtml;
+    }
+
+    // Tab Switching - Full Webtoon Architecture
+    function switchTab(tabId) {
+      const allTabs = ['home', 'originals', 'genres', 'canvas', 'my', 'reader', 'bible', 'relics', 'characters'];
+      allTabs.forEach(t => {
+        const view = document.getElementById('tab-view-' + t);
+        if (view) {
+          if (t === tabId) view.classList.remove('hidden');
+          else view.classList.add('hidden');
+        }
+      });
+
+      // Update Sub-Navigation (LNB) active tabs
+      ['home', 'originals', 'genres', 'canvas', 'my'].forEach(t => {
+        const navBtn = document.getElementById('tab-nav-' + t);
+        if (navBtn) {
+          if (t === tabId) {
+            navBtn.className = "py-2.5 px-3 border-b-2 border-[#00dc64] text-[#00dc64] font-bold tracking-wider uppercase transition-all whitespace-nowrap cursor-pointer";
+          } else {
+            navBtn.className = "py-2.5 px-3 border-b-2 border-transparent text-zinc-400 hover:text-white font-bold tracking-wider uppercase transition-all whitespace-nowrap cursor-pointer";
+          }
+        }
+      });
+
+      // Update Bottom Dock active icons
+      ['home', 'originals', 'genres', 'my', 'reader'].forEach(t => {
+        const dockBtn = document.getElementById('dock-btn-' + t);
+        if (dockBtn) {
+          if (t === tabId) dockBtn.classList.add('active');
+          else dockBtn.classList.remove('active');
+        }
+      });
+
       window.scrollTo({top: 0, behavior: 'smooth'});
     }
 
@@ -3593,5 +4732,121 @@
       }
     });
   </script>
+  <!-- ======================================================= -->
+  <!-- LINE WEBTOON OFFICIAL STICKY BOTTOM NAVIGATION DOCK -->
+  <!-- ======================================================= -->
+  <div id="gnb-bottom-dock" class="wt-bottom-dock">
+    <button onclick="switchTab('home')" id="dock-btn-home" class="wt-dock-item active">
+      <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      <span>HOME</span>
+    </button>
+    <button onclick="switchTab('originals')" id="dock-btn-originals" class="wt-dock-item">
+      <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+      <span>ORIGINALS</span>
+    </button>
+    <button onclick="switchTab('genres')" id="dock-btn-genres" class="wt-dock-item">
+      <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+      <span>GENRES</span>
+    </button>
+    <button onclick="switchTab('my')" id="dock-btn-my" class="wt-dock-item">
+      <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+      <span>MY</span>
+    </button>
+    <button onclick="switchTab('reader')" id="dock-btn-reader" class="wt-dock-item">
+      <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+      <span>READER</span>
+    </button>
+  </div>
+
+  <!-- ======================================================= -->
+  <!-- WEBTOON SEARCH MODAL -->
+  <!-- ======================================================= -->
+  <div id="search-modal" class="fixed inset-0 z-50 bg-black/85 backdrop-blur-md hidden transition-opacity flex flex-col p-4 sm:p-8">
+    <div class="w-full max-w-xl mx-auto space-y-4">
+      <div class="flex items-center gap-3">
+        <div class="relative flex-1">
+          <input id="webtoon-search-input" oninput="handleWebtoonSearch(this.value)" type="text" placeholder="Search series, episodes, characters, dialogue..." class="w-full bg-zinc-900 border border-zinc-700 focus:border-[#00dc64] rounded-2xl pl-11 pr-4 py-3 text-sm text-white placeholder-zinc-500 focus:outline-none transition-colors">
+          <svg class="w-5 h-5 text-zinc-400 absolute left-3.5 top-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+        </div>
+        <button onclick="toggleModal('search-modal')" class="px-3 py-2 text-zinc-400 hover:text-white font-bold text-xs cursor-pointer">
+          Cancel
+        </button>
+      </div>
+
+      <!-- Quick Genre Badges -->
+      <div class="flex items-center gap-2 overflow-x-auto no-scrollbar py-1 text-xs">
+        <span class="text-zinc-500 text-[11px] font-bold">Trending:</span>
+        <button onclick="document.getElementById('webtoon-search-input').value='Ha-Jun'; handleWebtoonSearch('Ha-Jun')" class="px-2.5 py-1 rounded-full bg-zinc-900 border border-zinc-800 text-zinc-300 hover:text-white">Ha-Jun</button>
+        <button onclick="document.getElementById('webtoon-search-input').value='Kuro'; handleWebtoonSearch('Kuro')" class="px-2.5 py-1 rounded-full bg-zinc-900 border border-zinc-800 text-zinc-300 hover:text-white">Kuro</button>
+        <button onclick="document.getElementById('webtoon-search-input').value='Feather'; handleWebtoonSearch('Feather')" class="px-2.5 py-1 rounded-full bg-zinc-900 border border-zinc-800 text-zinc-300 hover:text-white">Feather</button>
+        <button onclick="document.getElementById('webtoon-search-input').value='Awakening'; handleWebtoonSearch('Awakening')" class="px-2.5 py-1 rounded-full bg-zinc-900 border border-zinc-800 text-zinc-300 hover:text-white">Awakening</button>
+      </div>
+
+      <!-- Live Search Results -->
+      <div id="search-results-box" class="space-y-2 max-h-[60vh] overflow-y-auto">
+        <!-- Rendered via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================= -->
+  <!-- WEBTOON MORE / MENU DRAWER -->
+  <!-- ======================================================= -->
+  <div id="more-drawer" class="fixed inset-0 z-50 bg-black/85 backdrop-blur-md hidden transition-opacity flex justify-end">
+    <div class="w-full max-w-sm h-full bg-[#0c0d12] border-l border-zinc-800 p-6 flex flex-col justify-between shadow-2xl overflow-y-auto">
+      <div class="space-y-6">
+        <div class="flex items-center justify-between pb-4 border-b border-zinc-800">
+          <div class="flex items-center gap-2">
+            <span class="w-7 h-7 rounded-lg bg-[#00dc64] text-black font-black flex items-center justify-center font-orbitron text-xs">DS</span>
+            <span class="text-sm font-black font-cinzel text-white">WEBTOONS MENU</span>
+          </div>
+          <button onclick="toggleModal('more-drawer')" class="p-1 text-zinc-400 hover:text-white cursor-pointer">
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+          </button>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="space-y-1 text-sm font-bold">
+          <button onclick="toggleModal('more-drawer'); switchTab('home')" class="w-full text-left p-3 rounded-xl hover:bg-zinc-900 text-white flex items-center justify-between transition-colors">
+            <span>🏠 Webtoon Home</span>
+            <svg class="w-4 h-4 text-zinc-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+          </button>
+          <button onclick="toggleModal('more-drawer'); openSeriesDetail()" class="w-full text-left p-3 rounded-xl hover:bg-zinc-900 text-white flex items-center justify-between transition-colors">
+            <span>⚡ Demon Sovereign Series Hub</span>
+            <svg class="w-4 h-4 text-zinc-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+          </button>
+          <button onclick="toggleModal('more-drawer'); switchTab('bible')" class="w-full text-left p-3 rounded-xl hover:bg-zinc-900 text-white flex items-center justify-between transition-colors">
+            <span>📜 100-Chapter Mega Saga Bible</span>
+            <svg class="w-4 h-4 text-zinc-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+          </button>
+          <button onclick="toggleModal('more-drawer'); switchTab('relics')" class="w-full text-left p-3 rounded-xl hover:bg-zinc-900 text-amber-400 flex items-center justify-between transition-colors">
+            <span>💎 10 Demonic Relics Codex</span>
+            <svg class="w-4 h-4 text-zinc-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+          </button>
+          <button onclick="toggleModal('more-drawer'); switchTab('characters')" class="w-full text-left p-3 rounded-xl hover:bg-zinc-900 text-purple-300 flex items-center justify-between transition-colors">
+            <span>👤 Character Codex</span>
+            <svg class="w-4 h-4 text-zinc-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+          </button>
+          <button onclick="toggleModal('more-drawer'); toggleModal('settings-modal')" class="w-full text-left p-3 rounded-xl hover:bg-zinc-900 text-zinc-300 flex items-center justify-between transition-colors">
+            <span>⚙️ Reader Settings & Brightness</span>
+            <svg class="w-4 h-4 text-zinc-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+          </button>
+        </div>
+
+        <!-- Quick Theme Toggle in Drawer -->
+        <div class="p-4 rounded-xl bg-zinc-900 border border-zinc-800 flex items-center justify-between">
+          <span class="text-xs font-bold text-zinc-300">Webtoon Mode</span>
+          <button onclick="toggleWebtoonTheme()" class="px-3 py-1 rounded-lg bg-[#00dc64] text-black font-bold text-xs cursor-pointer">
+            Toggle Light/Dark
+          </button>
+        </div>
+      </div>
+
+      <div class="pt-6 border-t border-zinc-800 text-center text-xs text-zinc-600">
+        <p>© DEMON SOVEREIGN WEBTOONS</p>
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>
