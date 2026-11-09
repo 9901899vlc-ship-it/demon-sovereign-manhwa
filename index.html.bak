@@ -1,0 +1,1893 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Demon Sovereign's Bloodline — Official 100-Chapter Webtoon Portal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="./config.js"></script>
+  <script src="./supabase-client.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Noto+Sans:wght@400;500;600;700;800;900&family=Orbitron:wght@600;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --mana-purple: #a855f7;
+      --mana-dark: #090a0f;
+    }
+    * {
+      -webkit-tap-highlight-color: transparent;
+      box-sizing: border-box;
+    }
+    html, body {
+      background-color: #07080c;
+      color: #e2e8f0;
+      font-family: 'Noto Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      touch-action: pan-y;
+    }
+    .font-cinzel { font-family: 'Cinzel', serif; }
+    .font-orbitron { font-family: 'Orbitron', sans-serif; }
+
+    /* Webtoon Strip Layout */
+    .webtoon-viewport {
+      width: 100%;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      position: relative;
+    }
+    .webtoon-strip {
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #0b0c10;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.9), 0 0 80px rgba(168, 85, 247, 0.08);
+      border-left: 1px solid #1a1c26;
+      border-right: 1px solid #1a1c26;
+      position: relative;
+    }
+    .webtoon-panel-img {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin: 0;
+      padding: 0;
+      border: none;
+      transition: filter 0.3s ease;
+    }
+
+    /* Glow effects */
+    .sovereign-glow {
+      box-shadow: 0 0 25px rgba(168, 85, 247, 0.4);
+    }
+    .sovereign-border {
+      border: 1px solid rgba(168, 85, 247, 0.3);
+    }
+    .sovereign-card {
+      background: linear-gradient(135deg, rgba(20, 22, 33, 0.9) 0%, rgba(13, 14, 22, 0.95) 100%);
+      border: 1px solid rgba(168, 85, 247, 0.2);
+    }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar { width: 5px; height: 5px; }
+    ::-webkit-scrollbar-track { background: #07080c; }
+    ::-webkit-scrollbar-thumb { background: #7e22ce; border-radius: 4px; }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col selection:bg-purple-600 selection:text-white">
+
+  <!-- Top Progress Bar -->
+  <div id="progress-bar" class="fixed top-0 left-0 h-[3px] bg-gradient-to-r from-purple-600 via-fuchsia-500 to-amber-400 z-50 transition-all duration-75" style="width: 0%;"></div>
+
+  <!-- Top Header Navigation -->
+  <header class="sticky top-0 z-40 bg-[#07080c]/90 backdrop-blur-md border-b border-purple-900/30 text-white px-3 sm:px-6 py-2.5 flex items-center justify-between shadow-xl">
+    <div class="flex items-center gap-3">
+      <!-- Chapter Selector Button -->
+      <button id="open-drawer-btn" class="flex items-center gap-2 bg-purple-950/70 hover:bg-purple-900 border border-purple-700/50 px-3 py-1.5 rounded-xl transition-all shadow-md group">
+        <svg class="w-4 h-4 text-purple-400 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+        <span class="text-xs font-bold text-purple-300 font-orbitron" id="header-chapter-badge">CH. 1</span>
+        <svg class="w-3.5 h-3.5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M19 9l-7 7-7-7"></path>
+        </svg>
+      </button>
+
+      <div>
+        <h1 class="text-xs sm:text-sm font-black font-cinzel tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-fuchsia-300 to-zinc-200">
+          DEMON SOVEREIGN'S BLOODLINE
+        </h1>
+        <p class="text-[10px] text-zinc-400 font-medium truncate max-w-[180px] sm:max-w-xs" id="header-chapter-title">
+          Episode 1: The Gathering Storm
+        </p>
+      </div>
+    </div>
+
+    <!-- Right Quick Actions -->
+    <div class="flex items-center gap-2">
+      <!-- View Mode Selector -->
+      <div class="flex items-center bg-zinc-900 border border-zinc-800 rounded-lg p-0.5 text-xs">
+        <button id="btn-mode-strip" onclick="switchViewMode('strip')" class="px-2.5 py-1 rounded bg-purple-600 text-white font-bold transition-all">Strip</button>
+        <button id="btn-mode-grid" onclick="switchViewMode('grid')" class="px-2.5 py-1 rounded text-zinc-400 hover:text-white font-medium transition-all">Grid</button>
+        <button id="btn-mode-script" onclick="switchViewMode('script')" class="px-2.5 py-1 rounded text-zinc-400 hover:text-white font-medium transition-all">Script</button>
+      </div>
+
+      <!-- Relics Codex & Bible Toggle -->
+      <button onclick="toggleModal('codex-modal')" class="hidden sm:flex items-center gap-1.5 bg-zinc-900 hover:bg-zinc-800 border border-zinc-700/80 px-2.5 py-1.5 rounded-lg text-xs font-bold text-amber-400 transition-all">
+        <span>👑 Codex</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Navigation Tabs (Mobile & Desktop) -->
+  <nav class="bg-zinc-950/80 border-b border-zinc-800/80 px-3 py-1.5 flex items-center justify-center gap-2 sm:gap-6 text-xs font-bold text-zinc-400 overflow-x-auto">
+    <button onclick="switchTab('reader')" id="tab-btn-reader" class="text-purple-400 border-b-2 border-purple-500 pb-1 px-2 flex items-center gap-1.5">
+      <span>📖 Webtoon</span>
+    </button>
+    <button onclick="switchTab('bible')" id="tab-btn-bible" class="hover:text-zinc-200 pb-1 px-2 flex items-center gap-1.5">
+      <span>📜 100-Chapter Saga</span>
+    </button>
+    <button onclick="switchTab('relics')" id="tab-btn-relics" class="hover:text-zinc-200 pb-1 px-2 flex items-center gap-1.5">
+      <span>💎 10 Relics</span>
+    </button>
+    <button onclick="switchTab('characters')" id="tab-btn-characters" class="hover:text-zinc-200 pb-1 px-2 flex items-center gap-1.5">
+      <span>👥 Characters</span>
+    </button>
+    <button onclick="switchTab('production')" id="tab-btn-production" class="hover:text-zinc-200 pb-1 px-2 flex items-center gap-1.5 text-emerald-400">
+      <span>⚡ Live Status</span>
+    </button>
+  </nav>
+
+  <!-- ======================================================= -->
+  <!-- TAB 1: WEBTOON READER -->
+  <!-- ======================================================= -->
+  <section id="tab-view-reader" class="flex-1 flex flex-col items-center">
+    
+    <!-- SUB-VIEW A: FULL STRIP SCROLL -->
+    <div class="webtoon-viewport" id="strip-container">
+      <main class="webtoon-strip" id="webtoon-strip">
+        <!-- Panels injected dynamically via JavaScript -->
+      </main>
+    </div>
+
+    <!-- SUB-VIEW B: GRID OVERVIEW -->
+    <div id="grid-container" class="hidden w-full max-w-4xl p-4 sm:p-6">
+      <div id="grid-panel-wrapper" class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+        <!-- Grid items injected dynamically -->
+      </div>
+    </div>
+
+    <!-- SUB-VIEW C: 30-PANEL SCRIPT & DIALOGUE READER -->
+    <div id="script-container" class="hidden w-full max-w-3xl p-4 sm:p-6 space-y-4">
+      <div id="script-panel-wrapper" class="space-y-4">
+        <!-- Screenplay cards injected dynamically -->
+      </div>
+    </div>
+
+    <!-- Chapter Engagement & Navigation Footer -->
+    <div class="w-full max-w-[800px] bg-zinc-950 text-white p-6 sm:p-8 border-t border-zinc-800 mt-6 shadow-2xl">
+      <!-- Title & Credits -->
+      <div class="text-center pb-6 border-b border-zinc-800/80">
+        <h3 class="text-base font-cinzel font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-amber-300">
+          DEMON SOVEREIGN'S BLOODLINE
+        </h3>
+        <p class="text-xs text-zinc-400 mt-1" id="footer-chapter-desc">
+          Chapter Production by Antigravity Manhwa Studio • Redice Studio 2D Cel-Shaded Standards
+        </p>
+      </div>
+
+      <!-- Realtime Likes & Comments -->
+      <div class="flex items-center justify-around py-6 border-b border-zinc-800/80">
+        <button id="like-btn" class="flex flex-col items-center gap-1.5 group cursor-pointer transition-transform active:scale-95">
+          <div class="w-12 h-12 rounded-full bg-zinc-900 border border-zinc-700 flex items-center justify-center group-hover:border-rose-500 group-hover:bg-rose-950/30 transition-all">
+            <svg class="w-6 h-6 text-zinc-400 group-hover:text-rose-500 transition-colors" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+            </svg>
+          </div>
+          <span id="like-count" class="text-xs font-bold text-zinc-400 group-hover:text-rose-400">1.2M</span>
+        </button>
+
+        <button id="comment-btn" class="flex flex-col items-center gap-1.5 group cursor-pointer transition-transform active:scale-95">
+          <div class="w-12 h-12 rounded-full bg-zinc-900 border border-zinc-700 flex items-center justify-center group-hover:border-purple-500 group-hover:bg-purple-950/30 transition-all">
+            <svg class="w-5 h-5 text-zinc-400 group-hover:text-purple-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+            </svg>
+          </div>
+          <span id="comment-count" class="text-xs font-bold text-zinc-400 group-hover:text-purple-400">250K</span>
+        </button>
+
+        <button onclick="shareChapter()" class="flex flex-col items-center gap-1.5 group cursor-pointer transition-transform active:scale-95">
+          <div class="w-12 h-12 rounded-full bg-zinc-900 border border-zinc-700 flex items-center justify-center group-hover:border-amber-500 group-hover:bg-amber-950/30 transition-all">
+            <svg class="w-5 h-5 text-zinc-400 group-hover:text-amber-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"></path>
+            </svg>
+          </div>
+          <span class="text-xs font-bold text-zinc-400 group-hover:text-amber-400">Share</span>
+        </button>
+      </div>
+
+      <!-- Quick Chapter Jumper -->
+      <div class="pt-6 flex flex-col gap-3">
+        <button id="next-chapter-btn" onclick="nextChapter()" class="w-full py-3.5 bg-gradient-to-r from-purple-600 via-fuchsia-600 to-amber-500 hover:opacity-95 text-white font-black text-xs sm:text-sm tracking-widest uppercase rounded-xl shadow-lg transition-all flex items-center justify-center gap-2 font-orbitron">
+          <span>Read Next Chapter</span>
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+          </svg>
+        </button>
+
+        <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="text-center text-xs text-zinc-500 hover:text-purple-400 py-2 transition-colors">
+          ↑ Back to Top
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================= -->
+  <!-- TAB 2: 100-CHAPTER SAGA BIBLE -->
+  <!-- ======================================================= -->
+  <section id="tab-view-bible" class="hidden flex-1 w-full max-w-5xl mx-auto p-4 sm:p-8 space-y-8">
+    <div class="text-center space-y-2">
+      <span class="text-xs font-bold text-purple-400 font-orbitron tracking-widest uppercase">THE MASTER MANIFEST</span>
+      <h2 class="text-2xl sm:text-4xl font-black font-cinzel text-white">100-Chapter Mega Saga Directory</h2>
+      <p class="text-sm text-zinc-400 max-w-xl mx-auto">
+        10 Arcs • Minimum 30 Panels Per Chapter • 3,000 Panels Total
+      </p>
+    </div>
+
+    <!-- Arc Accordion / Cards List -->
+    <div id="arcs-list-container" class="space-y-4">
+      <!-- Populated dynamically with all 10 Arcs -->
+    </div>
+  </section>
+
+  <!-- ======================================================= -->
+  <!-- TAB 3: THE 10 RELICS & BLOODLINE CODEX -->
+  <!-- ======================================================= -->
+  <section id="tab-view-relics" class="hidden flex-1 w-full max-w-5xl mx-auto p-4 sm:p-8 space-y-8">
+    <div class="text-center space-y-2">
+      <span class="text-xs font-bold text-amber-400 font-orbitron tracking-widest uppercase">SOVEREIGN AUTHORITY</span>
+      <h2 class="text-2xl sm:text-4xl font-black font-cinzel text-white">The Ten Ancient Relics</h2>
+      <p class="text-sm text-zinc-400 max-w-xl mx-auto">
+        Sealed authorities of the First Demon Sovereign scattered across mortal and abyssal planes.
+      </p>
+    </div>
+
+    <!-- Synchronization Status Gauge -->
+    <div class="sovereign-card rounded-2xl p-5 sm:p-6 space-y-3">
+      <div class="flex items-center justify-between text-xs font-bold">
+        <span class="text-purple-300 font-orbitron">BLOODLINE SYNCHRONIZATION</span>
+        <span class="text-emerald-400 font-orbitron text-sm">100.0% (The True Sovereign Transcended: 100 Chapters Complete & 3,000 Panels Crowned!)</span>
+      </div>
+      <div class="w-full bg-zinc-950 rounded-full h-3.5 border border-purple-900/40 overflow-hidden">
+        <div class="bg-gradient-to-r from-purple-600 via-fuchsia-500 to-emerald-400 h-full rounded-full transition-all duration-1000 shadow-lg shadow-purple-500/50" style="width: 100%;"></div>
+      </div>
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-2 text-[11px] text-zinc-400">
+        <div>• 10% Awakening (Gauntlet & Eyes)</div>
+        <div>• 30% Blood Relics & Blades</div>
+        <div>• 60% Sovereign Dominion</div>
+        <div>• 100% True Demon Sovereign</div>
+      </div>
+    </div>
+
+    <!-- 10 Relics Grid -->
+    <div id="relics-grid" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <!-- Injected dynamically -->
+    </div>
+  </section>
+
+  <!-- ======================================================= -->
+  <!-- TAB 4: CHARACTERS CODEX -->
+  <!-- ======================================================= -->
+  <section id="tab-view-characters" class="hidden flex-1 w-full max-w-5xl mx-auto p-4 sm:p-8 space-y-8">
+    <div class="text-center space-y-2">
+      <span class="text-xs font-bold text-fuchsia-400 font-orbitron tracking-widest uppercase">DRAMATIS PERSONAE</span>
+      <h2 class="text-2xl sm:text-4xl font-black font-cinzel text-white">Key Characters & Lineages</h2>
+    </div>
+
+    <div id="characters-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      <!-- Injected dynamically -->
+    </div>
+  </section>
+
+  <!-- ======================================================= -->
+  <!-- TAB 5: PRODUCTION DASHBOARD -->
+  <!-- ======================================================= -->
+  <section id="tab-view-production" class="hidden flex-1 w-full max-w-5xl mx-auto p-4 sm:p-8 space-y-8">
+    <div class="text-center space-y-2">
+      <span class="text-xs font-bold text-emerald-400 font-orbitron tracking-widest uppercase">CONTINUOUS PIPELINE MONITOR</span>
+      <h2 class="text-2xl sm:text-4xl font-black font-cinzel text-white">Live Production Status</h2>
+      <p class="text-sm text-zinc-400">
+        Autonomous Manhwa Studio Engine • 0-Interruption Operational Loop
+      </p>
+    </div>
+
+    <!-- Metrics Cards -->
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+      <div class="sovereign-card rounded-2xl p-4 text-center">
+        <span class="text-xs text-zinc-400 font-medium">Target Panels</span>
+        <div class="text-2xl sm:text-3xl font-black font-orbitron text-purple-400 mt-1">3,000</div>
+        <span class="text-[10px] text-zinc-500">100 Chapters x 30</span>
+      </div>
+      <div class="sovereign-card rounded-2xl p-4 text-center">
+        <span class="text-xs text-zinc-400 font-medium">Scripted Panels</span>
+        <div class="text-2xl sm:text-3xl font-black font-orbitron text-fuchsia-400 mt-1">300</div>
+        <span class="text-[10px] text-emerald-400">Arc 1 Complete (100%)</span>
+      </div>
+      <div class="sovereign-card rounded-2xl p-4 text-center">
+        <span class="text-xs text-zinc-400 font-medium">Lettered & QA</span>
+        <div class="text-2xl sm:text-3xl font-black font-orbitron text-emerald-400 mt-1">25</div>
+        <span class="text-[10px] text-emerald-300">100% QA PASS</span>
+      </div>
+      <div class="sovereign-card rounded-2xl p-4 text-center">
+        <span class="text-xs text-zinc-400 font-medium">Quota Reset Timer</span>
+        <div id="quota-countdown" class="text-xl sm:text-2xl font-black font-orbitron text-amber-400 mt-1">2h 17m</div>
+        <span class="text-[10px] text-zinc-500">Auto-Wakeup Scheduled</span>
+      </div>
+    </div>
+
+    <!-- Active Production Manifest -->
+    <div class="sovereign-card rounded-2xl p-6 space-y-4">
+      <h3 class="text-sm font-bold text-white font-orbitron flex items-center gap-2">
+        <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+        <span>Active Chapter Production Queue</span>
+      </h3>
+      <div class="space-y-2 text-xs">
+        <div class="flex items-center justify-between p-3 bg-zinc-950/60 rounded-xl border border-zinc-800">
+          <div>
+            <span class="font-bold text-white">Ch. 4: The Drifting Feather</span>
+            <span class="ml-2 text-zinc-400">• 14 Lettered, 16 Staged</span>
+          </div>
+          <span class="bg-purple-950 text-purple-300 px-2 py-0.5 rounded border border-purple-800 font-bold">Stitched (800x19696)</span>
+        </div>
+        <div class="flex items-center justify-between p-3 bg-zinc-950/60 rounded-xl border border-zinc-800">
+          <div>
+            <span class="font-bold text-white">Ch. 5: The Broken Promise</span>
+            <span class="ml-2 text-zinc-400">• 30 Prompts Ready</span>
+          </div>
+          <span class="bg-blue-950 text-blue-300 px-2 py-0.5 rounded border border-blue-800 font-bold">Scripted</span>
+        </div>
+        <div class="flex items-center justify-between p-3 bg-zinc-950/60 rounded-xl border border-zinc-800">
+          <div>
+            <span class="font-bold text-white">Ch. 6: The First Blood</span>
+            <span class="ml-2 text-zinc-400">• 30 Prompts Ready</span>
+          </div>
+          <span class="bg-blue-950 text-blue-300 px-2 py-0.5 rounded border border-blue-800 font-bold">Scripted</span>
+        </div>
+        <div class="flex items-center justify-between p-3 bg-zinc-950/60 rounded-xl border border-zinc-800">
+          <div>
+            <span class="font-bold text-white">Ch. 7 to Ch. 13 (Arc 1 Climax)</span>
+            <span class="ml-2 text-zinc-400">• 210 Prompts Ready</span>
+          </div>
+          <span class="bg-emerald-950 text-emerald-300 px-2 py-0.5 rounded border border-emerald-800 font-bold">Ready for Batch Generation</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================= -->
+  <!-- CHAPTER SELECTION DRAWER -->
+  <!-- ======================================================= -->
+  <div id="chapter-drawer" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-md hidden transition-opacity flex justify-start">
+    <div class="bg-zinc-950 border-r border-purple-900/30 w-full max-w-md h-full flex flex-col p-5 shadow-2xl overflow-hidden">
+      <!-- Drawer Header -->
+      <div class="flex items-center justify-between pb-4 border-b border-zinc-800">
+        <div>
+          <h3 class="text-sm font-black font-cinzel text-white flex items-center gap-2">
+            <span>SELECT CHAPTER</span>
+            <span class="text-[10px] bg-purple-950 text-purple-300 border border-purple-800 px-2 py-0.5 rounded-full font-bold">100 SAGA</span>
+          </h3>
+          <p class="text-[10px] text-zinc-500">Tap to load reader strip & screenplay</p>
+        </div>
+        <button id="close-drawer-btn" class="p-1.5 hover:bg-zinc-900 rounded-full text-zinc-400 hover:text-white transition-colors">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <!-- Drawer Chapter List -->
+      <div id="drawer-chapters-list" class="flex-1 overflow-y-auto py-3 space-y-2 pr-1">
+        <!-- Injected dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================= -->
+  <!-- COMMENTS SLIDE-UP DRAWER -->
+  <!-- ======================================================= -->
+  <div id="comments-drawer" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm hidden transition-opacity flex justify-end flex-col">
+    <div class="bg-zinc-950 border-t border-zinc-800 rounded-t-3xl max-h-[80vh] flex flex-col p-5 max-w-xl mx-auto w-full shadow-2xl">
+      <div class="flex items-center justify-between pb-3 border-b border-zinc-800">
+        <div>
+          <h3 class="text-sm font-bold text-white flex items-center gap-2">
+            <span>Comments</span>
+            <span id="drawer-comment-badge" class="text-[11px] bg-purple-950 text-purple-300 border border-purple-800 px-2 py-0.5 rounded-full font-bold">250K</span>
+          </h3>
+          <p class="text-[10px] text-zinc-500" id="comments-chapter-label">Chapter Comments</p>
+        </div>
+        <button id="close-comments-btn" class="p-1.5 hover:bg-zinc-900 rounded-full text-zinc-400 hover:text-white transition-colors">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <!-- Comments List -->
+      <div id="comments-list" class="flex-1 overflow-y-auto py-4 space-y-3 pr-1 text-xs min-h-[160px] max-h-[50vh]">
+        <!-- Dynamic comments from Supabase -->
+      </div>
+
+      <!-- Post Comment Form -->
+      <form id="comment-form" class="pt-3 border-t border-zinc-800 flex gap-2">
+        <input id="comment-author-input" type="text" placeholder="Name" class="w-24 bg-zinc-900 border border-zinc-800 rounded-xl px-3 py-2 text-xs text-zinc-200 placeholder-zinc-600 focus:outline-none focus:border-purple-500">
+        <input id="comment-text-input" type="text" placeholder="Share your thoughts on this chapter..." required class="flex-1 bg-zinc-900 border border-zinc-800 rounded-xl px-3 py-2 text-xs text-zinc-200 placeholder-zinc-600 focus:outline-none focus:border-purple-500">
+        <button type="submit" class="bg-purple-600 hover:bg-purple-500 text-white font-bold text-xs px-4 py-2 rounded-xl transition-all shadow-md">
+          Post
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Bottom Floating Navigation Bar -->
+  <div class="fixed bottom-3 left-1/2 -translate-x-1/2 z-40 bg-zinc-950/90 backdrop-blur-md border border-purple-900/40 rounded-full px-4 py-1.5 flex items-center gap-3 shadow-2xl text-[11px] text-zinc-300 select-none">
+    <button onclick="prevChapter()" class="hover:text-purple-400 transition-colors flex items-center gap-1 font-bold cursor-pointer">
+      <span>⏮ Prev</span>
+    </button>
+    <span class="text-zinc-700">|</span>
+    <span id="page-percent" class="text-purple-400 font-bold font-orbitron text-xs">0%</span>
+    <span class="text-zinc-700">|</span>
+    <button onclick="nextChapter()" class="hover:text-purple-400 transition-colors flex items-center gap-1 font-bold cursor-pointer">
+      <span>Next ⏭</span>
+    </button>
+  </div>
+
+  <!-- ======================================================= -->
+  <!-- JAVASCRIPT APPLICATION LOGIC -->
+  <!-- ======================================================= -->
+  <script>
+    // Chapter Manifest & Data Registry
+    const CHAPTERS_DATA = [
+      {
+        id: "ch1",
+        number: 1,
+        title: "The Gathering Storm",
+        arc: "Arc 1: The Cursed Feather",
+        status: "complete",
+        panelsCount: 7,
+        panels: [
+          "./panels/ep1/panel_01_final.png",
+          "./panels/ep1/panel_02_final.png",
+          "./panels/ep1/panel_03_final.png",
+          "./panels/ep1/panel_04_final.png",
+          "./panels/ep1/panel_05_final.png",
+          "./panels/ep1/panel_06_final.png",
+          "./panels/ep1/panel_07_final.png"
+        ],
+        desc: "Saint Mirren International University. Ha-Jun is cornered on the rooftop by bullies until the demonic familiar Kuro intervenes."
+      },
+      {
+        id: "ch2",
+        number: 2,
+        title: "The Fallen Feather & Awakening",
+        arc: "Arc 1: The Cursed Feather",
+        status: "complete",
+        panelsCount: 4,
+        panels: [
+          "./panels/ep2/panel_01_final.png",
+          "./panels/ep2/panel_02_final.png",
+          "./panels/ep2/panel_03_final.png",
+          "./panels/ep2/panel_04_final.png"
+        ],
+        desc: "Kuro vanishes leaving a glowing obsidian feather. Ha-Jun clenches the relic, awakening the crystalline purple demonic gauntlet."
+      },
+      {
+        id: "ch4",
+        number: 4,
+        title: "The Drifting Feather",
+        arc: "Arc 1: The Cursed Feather",
+        status: "lettered_and_stitched",
+        panelsCount: 30,
+        stripImg: "./panels/ch04/full_ch04_strip.png",
+        gridImg: "./panels/ch04/ch04_grid_overview.png",
+        panels: [
+          "./panels/ch04/p01.png",
+          "./panels/ch04/p02.png",
+          "./panels/ch04/p03.png",
+          "./panels/ch04/p04.png",
+          "./panels/ch04/p05.png",
+          "./panels/ch04/p06.png",
+          "./panels/ch04/p07.png",
+          "./panels/ch04/p08.png",
+          "./panels/ch04/p09.png",
+          "./panels/ch04/p10.png",
+          "./panels/ch04/p11.png",
+          "./panels/ch04/p12.png",
+          "./panels/ch04/p13.png",
+          "./panels/ch04/p14.png",
+          "./panels/ch04/p15.png",
+          "./panels/ch04/p16.png",
+          "./panels/ch04/p17.png",
+          "./panels/ch04/p18.png",
+          "./panels/ch04/p19.png",
+          "./panels/ch04/p20.png",
+          "./panels/ch04/p21.png",
+          "./panels/ch04/p22.png",
+          "./panels/ch04/p23.png",
+          "./panels/ch04/p24.png",
+          "./panels/ch04/p25.png",
+          "./panels/ch04/p26.png",
+          "./panels/ch04/p27.png",
+          "./panels/ch04/p28.png",
+          "./panels/ch04/p29.png",
+          "./panels/ch04/p30.png"
+        ],
+        desc: "Ha-Jun discovers Kuro's mysterious feather on the rainy university rooftop. Something about it feels strangely familiar."
+      },
+      {
+        id: "ch5",
+        number: 5,
+        title: "The Broken Promise",
+        arc: "Arc 1: The Cursed Feather",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch005_script.json",
+        desc: "Ha-Jun remembers his elder brother Tae-Jun and the night he failed to save him. Overcome by guilt, he breaks down in the rain."
+      },
+      {
+        id: "ch6",
+        number: 6,
+        title: "The First Blood",
+        arc: "Arc 1: The Cursed Feather",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch006_script.json",
+        desc: "Ha-Jun's blood touches the feather, igniting the Sovereign System and drawing a Lesser Imp through a spatial tear."
+      },
+      {
+        id: "ch7",
+        number: 7,
+        title: "The Demon Within",
+        arc: "Arc 1: The Cursed Feather",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch007_script.json",
+        desc: "Ha-Jun suffers excruciating biological reconstruction as his sovereign bloodline overrides human weakness to obliterate the Imp."
+      },
+      {
+        id: "ch8",
+        number: 8,
+        title: "Kuro's Voice",
+        arc: "Arc 1: The Cursed Feather",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch008_script.json",
+        desc: "Kuro manifests telepathically, revealing the truth of the Sovereign bloodline and that Tae-Jun is still alive in the Nether Boundary."
+      },
+      {
+        id: "ch9",
+        number: 9,
+        title: "The Forbidden Contract",
+        arc: "Arc 1: The Cursed Feather",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch009_script.json",
+        desc: "Ha-Jun seals the contract despite memory loss warnings, and classmate Min-Jae arrives on the ruined rooftop."
+      },
+      {
+        id: "ch10",
+        number: 10,
+        title: "First Synchronization",
+        arc: "Arc 1: The Cursed Feather",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch010_script.json",
+        desc: "Ha-Jun achieves 5% bloodline synchronization, awakening the 5-meter Sovereign Domain detected by the Demon Hunter Bureau."
+      },
+      {
+        id: "ch11",
+        number: 11,
+        title: "The First Demon",
+        arc: "Arc 1: The Cursed Feather",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch011_script.json",
+        desc: "A 15-foot Greater Shadow Hound breaches the campus courtyard; Ha-Jun dives from the 3rd floor to protect Min-Jae."
+      },
+      {
+        id: "ch12",
+        number: 12,
+        title: "Instinct of Survival",
+        arc: "Arc 1: The Cursed Feather",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch012_script.json",
+        desc: "Ha-Jun instinctively activates Sovereign Blood Claws and splits the monster's Void Cannon with Sovereign Crush."
+      },
+      {
+        id: "ch13",
+        number: 13,
+        title: "Something Has Awakened",
+        arc: "Arc 1: The Cursed Feather",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch013_script.json",
+        desc: "Demon King Malgath senses the Sovereign's wavelength from the Abyssal Realm and mobilizes demonic legions for war."
+      },
+      {
+        id: "ch14",
+        number: 14,
+        title: "The Unwanted Power",
+        arc: "Arc 2: The Hidden Bloodline",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch014_script.json",
+        desc: "Ha-Jun struggles with superhuman strength and acoustic sensory overload. Min-Jae passes a suspicious note as the Subterranean Quest triggers."
+      },
+      {
+        id: "ch15",
+        number: 15,
+        title: "The Boy Who Changed",
+        arc: "Arc 2: The Hidden Bloodline",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch015_script.json",
+        desc: "Min-Jae confronts Ha-Jun with security footage, swearing loyalty. Ha-Jun shears the condemned 1920s cellar lock and descends."
+      },
+      {
+        id: "ch16",
+        number: 16,
+        title: "The First Mission",
+        arc: "Arc 2: The Hidden Bloodline",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch016_script.json",
+        desc: "Trapped in the crypt, Ha-Jun purges three 10-foot Guardian Golems, unlocking 15% synchronization and unsealing the Ring of Hollow Blood."
+      },
+      {
+        id: "ch17",
+        number: 17,
+        title: "Blood Trial",
+        arc: "Arc 2: The Hidden Bloodline",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch017_script.json",
+        desc: "Ha-Jun conquers the Crimson Sea Mindscape, binding the second relic and unlocking Blood Forging before a Hunter cuts through the door."
+      },
+      {
+        id: "ch18",
+        number: 18,
+        title: "The Forgotten Classroom",
+        arc: "Arc 2: The Hidden Bloodline",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch018_script.json",
+        desc: "Ha-Jun discovers an underground 1920s warlock lecture hall and finds his brother Tae-Jun's journal exposing the Bureau's conspiracy."
+      },
+      {
+        id: "ch19",
+        number: 19,
+        title: "The Name of the Sovereign",
+        arc: "Arc 2: The Hidden Bloodline",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch019_script.json",
+        desc: "Kuro invokes the First Sovereign's true name: Lord Asmodaius. Desperate Hunter Jun-Hyuk injects corrupted demonic blood."
+      },
+      {
+        id: "ch20",
+        number: 20,
+        title: "The Hunter's Arrival",
+        arc: "Arc 2: The Hidden Bloodline",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch020_script.json",
+        desc: "Rank-A Captain Baek seals the campus with a Purification Dome. Ha-Jun shatters Jun-Hyuk's blade and erupts onto the surface."
+      },
+      {
+        id: "ch21",
+        number: 21,
+        title: "The Mark of Death",
+        arc: "Arc 2: The Hidden Bloodline",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch021_script.json",
+        desc: "Captain Baek brands Ha-Jun with the Mark of Death. Pushed to near-death, Ha-Jun's bloodline overclocks to 25% with demonic horns."
+      },
+      {
+        id: "ch22",
+        number: 22,
+        title: "Uncontrolled Blood",
+        arc: "Arc 2: The Hidden Bloodline",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch022_script.json",
+        desc: "In berserk fury, Ha-Jun overpowers Captain Baek, but Min-Jae's cry awakens his human soul, redirecting the blast to shatter the dome."
+      },
+      {
+        id: "ch23",
+        number: 23,
+        title: "The First Victory",
+        arc: "Arc 2: The Hidden Bloodline",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch023_script.json",
+        desc: "Captain Baek reads Tae-Jun's journal and aids their escape. An Envoy of the Demon Lords watches from afar as the next Relic awakens."
+      },
+      {
+        id: "ch24",
+        number: 24,
+        title: "The Second Resonance",
+        arc: "Arc 3: The First Relic",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch024_script.json",
+        desc: "Kuro's Feather pulses north toward an Insa-dong antique vault. With Bureau drones tracking them, Ha-Jun breaches Vault 07."
+      },
+      {
+        id: "ch25",
+        number: 25,
+        title: "Ring of Hollow Blood",
+        arc: "Arc 3: The First Relic",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch025_script.json",
+        desc: "Ha-Jun sacrifices his blood to shatter the reliquary seal, bonding with the Ring of Hollow Blood as ghouls ambush the vault."
+      },
+      {
+        id: "ch26",
+        number: 26,
+        title: "Blood Blade",
+        arc: "Arc 3: The First Relic",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch026_script.json",
+        desc: "Ha-Jun condenses his blood into the crystalline katana 'The Sanguine Fang', cleaving the ghouls and glimpsing the First Sovereign's throne."
+      },
+      {
+        id: "ch27",
+        number: 27,
+        title: "The Cost of Power",
+        arc: "Arc 3: The First Relic",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch027_script.json",
+        desc: "Severe anemia and acute vessel strain strike Ha-Jun. Kuro explains that without skeletal reinforcement, his bones will shatter."
+      },
+      {
+        id: "ch28",
+        number: 28,
+        title: "Bone of the Forgotten",
+        arc: "Arc 3: The First Relic",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch028_script.json",
+        desc: "Descending 200 feet into the Incheon quarry catacomb, Ha-Jun awakens the 15-foot Skeletal Centurion guarding the Sovereign's marrow."
+      },
+      {
+        id: "ch29",
+        number: 29,
+        title: "The Guardian's Test",
+        arc: "Arc 3: The First Relic",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch029_script.json",
+        desc: "Unable to crack the Centurion's impenetrable armor, Ha-Jun slides beneath the 8-foot claymore and pierces its soul core with a blood needle."
+      },
+      {
+        id: "ch30",
+        number: 30,
+        title: "The Second Bond",
+        arc: "Arc 3: The First Relic",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch030_script.json",
+        desc: "The Centurion yields, dissolving into golden ash. The Bone of the Forgotten permanently integrates, forging a biomechanical bone gauntlet (+400% durability)."
+      },
+      {
+        id: "ch31",
+        number: 31,
+        title: "The Ashen Heart",
+        arc: "Arc 3: The First Relic",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch031_script.json",
+        desc: "In volcanic caverns beneath Bukhansan, Ha-Jun braves a boiling magma lake and slays an armored salamander to reach the beating Ashen Heart."
+      },
+      {
+        id: "ch32",
+        number: 32,
+        title: "Flame of the Fallen",
+        arc: "Arc 3: The First Relic",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch032_script.json",
+        desc: "Swallowed by a 50-foot tornado of hellfire, Ha-Jun fuses bone insulation and blood cooling to tame the flame into a blazing lotus crest on his chest."
+      },
+      {
+        id: "ch33",
+        number: 33,
+        title: "Three Seals Broken",
+        arc: "Arc 3: The First Relic",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch033_script.json",
+        desc: "Tri-Relic resonance shatters the Basic Seal. Synchronization reaches 35% as Ha-Jun and Kuro confront Hunter Bureau attack helicopters over Seoul."
+      },
+      {
+        id: "ch34",
+        number: 34,
+        title: "The Secret Organization",
+        arc: "Arc 4: The Demon Hunter War",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch034_script.json",
+        desc: "In Yeouido drains, Min-Jae hacks a downed drone with Ha-Jun's blood mana, uncovering the global Demon Hunter Bureau and Tae-Jun's Section 9 dossier."
+      },
+      {
+        id: "ch35",
+        number: 35,
+        title: "The Blood Registry",
+        arc: "Arc 4: The Demon Hunter War",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch035_script.json",
+        desc: "Ambushed in the tunnels, Ha-Jun dismantles an exo-suit strike team and seizes the Blood Registry, discovering an ongoing genocide of dormant carriers."
+      },
+      {
+        id: "ch36",
+        number: 36,
+        title: "Target: Ha-Jun",
+        arc: "Arc 4: The Demon Hunter War",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch036_script.json",
+        desc: "Director Kang issues an Alpha Red Extinction Order. Fifty hunters encircle the Seongsu warehouse, but Ha-Jun's dual bloodfire katanas slice through the frontline."
+      },
+      {
+        id: "ch37",
+        number: 37,
+        title: "The Betrayer",
+        arc: "Arc 4: The Demon Hunter War",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch037_script.json",
+        desc: "Senior Park Jin-Woo betrays Ha-Jun for his sister's cure. Hesitating in grief, Ha-Jun is cleaved through three walls by Captain Baek's greatsword."
+      },
+      {
+        id: "ch38",
+        number: 38,
+        title: "The Hunter Captain",
+        arc: "Arc 4: The Demon Hunter War",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch038_script.json",
+        desc: "Sheltered in a storm reservoir with a shattered arm, Ha-Jun learns Captain Baek is a deceived veteran. Kuro begins brutal blindfold conditioning."
+      },
+      {
+        id: "ch39",
+        number: 39,
+        title: "The First Real Defeat",
+        arc: "Arc 4: The Demon Hunter War",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch039_script.json",
+        desc: "Ha-Jun masters Sovereign Blood Weaving, learning to predict kinetic paths through water ripples as his broken arm mends with +550% density."
+      },
+      {
+        id: "ch40",
+        number: 40,
+        title: "Kuro's Warning",
+        arc: "Arc 4: The Demon Hunter War",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch040_script.json",
+        desc: "Approaching Mapo Bridge, Ha-Jun traps thousands of silver bullets in a liquid vortex and disarms fifty hunters without shedding a single drop of human blood."
+      },
+      {
+        id: "ch41",
+        number: 41,
+        title: "Blood Training",
+        arc: "Arc 4: The Demon Hunter War",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch041_script.json",
+        desc: "Exposed by Min-Jae's broadcast, Director Kang mutates into a nine-foot Chimera Fiend. Ha-Jun and Captain Baek unite to incinerate the corrupt commander."
+      },
+      {
+        id: "ch42",
+        number: 42,
+        title: "The Hunter's Secret",
+        arc: "Arc 4: The Demon Hunter War",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch042_script.json",
+        desc: "Captain Baek surrenders the Section 9 Master Key and plays Tae-Jun's tearful final voicemail, right as a 500-foot Abyssal Gate erupts over Gangnam."
+      },
+      {
+        id: "ch43",
+        number: 43,
+        title: "War Begins",
+        arc: "Arc 4: The Demon Hunter War",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch043_script.json",
+        desc: "Ha-Jun bisects a 25-foot Gorefiend in front of cheering hunters and dives into the subterranean Gehenna chasm to rescue his brother in Section 9."
+      },
+      {
+        id: "ch44",
+        number: 44,
+        title: "The Gate Beneath the City",
+        arc: "Arc 5: The Abyssal Kingdom",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch044_script.json",
+        desc: "Plunging 1,000 meters into Section 9, Ha-Jun purges void crawler swarms and reaches Stasis Vault 09, finding Tae-Jun's shattered cryo-pod."
+      },
+      {
+        id: "ch45",
+        number: 45,
+        title: "Beyond the Human World",
+        arc: "Arc 5: The Abyssal Kingdom",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch045_script.json",
+        desc: "Stepping through the dimensional rift into the Demon Realm, Ha-Jun breathes pure mana under twin shattered moons as six giant sentinels kneel."
+      },
+      {
+        id: "ch46",
+        number: 46,
+        title: "The Forgotten Kingdom",
+        arc: "Arc 5: The Abyssal Kingdom",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch046_script.json",
+        desc: "In the obsidian ruins of Necrothea, Ha-Jun discovers murals of the Great Betrayal and learns Tae-Jun was captured by Demon Lord Valac."
+      },
+      {
+        id: "ch47",
+        number: 47,
+        title: "The Fang of Abyss",
+        arc: "Arc 5: The Abyssal Kingdom",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch047_script.json",
+        desc: "Ha-Jun duels the 40-foot Void Dragon in the Colosseum, punching through the hyper-dimensional prism to claim the reality-slicing void dagger."
+      },
+      {
+        id: "ch48",
+        number: 48,
+        title: "The Demon Beast",
+        arc: "Arc 5: The Abyssal Kingdom",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch048_script.json",
+        desc: "From the dragon's skull, Ha-Jun integrates the Eye of the Night. His bloodline undergoes True Evolution, awakening 12-foot demonic shadow wings."
+      },
+      {
+        id: "ch49",
+        number: 49,
+        title: "The First Evolution",
+        arc: "Arc 5: The Abyssal Kingdom",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch049_script.json",
+        desc: "Infiltrating the anti-mana Silent Prison, Ha-Jun uses bone density and martial mastery to defeat Inquisitors and locate his chained brother."
+      },
+      {
+        id: "ch50",
+        number: 50,
+        title: "Eye of the Night",
+        arc: "Arc 5: The Abyssal Kingdom",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch050_script.json",
+        desc: "With All-Spectrum vision, Ha-Jun exposes Grand Inquisitor Belial's illusions, snaps his horn, unseals the Chains of Ruin, and frees Tae-Jun."
+      },
+      {
+        id: "ch51",
+        number: 51,
+        title: "The Silent Prison",
+        arc: "Arc 5: The Abyssal Kingdom",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch051_script.json",
+        desc: "Ha-Jun pulls down the fortress pillars with gravitational chains, carrying Tae-Jun to safety as thousands of liberated captive souls soar free."
+      },
+      {
+        id: "ch52",
+        number: 52,
+        title: "The Third Rare Relic",
+        arc: "Arc 5: The Abyssal Kingdom",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch052_script.json",
+        desc: "Ha-Jun fuses the void dagger and gravity chains into a spinning void scythe, eradicating 500 shadow assassins in 30 seconds to defend his brother."
+      },
+      {
+        id: "ch53",
+        number: 53,
+        title: "The Three Demon Lords",
+        arc: "Arc 5: The Abyssal Kingdom",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch053_script.json",
+        desc: "Ascending Mount Obsidian, Ha-Jun places the Crown of the Sovereign upon his brow, taking his ancient throne as three million demons march."
+      },
+      {
+        id: "ch54",
+        number: 54,
+        title: "The Crown's Call",
+        arc: "Arc 6: The Fallen Sovereign",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch054_script.json",
+        desc: "Ha-Jun duels the 100-foot consciousness of First Sovereign Asmodaius in his mindscape, driving the Sanguine Fang through his brow to claim the crown on his own terms."
+      },
+      {
+        id: "ch55",
+        number: 55,
+        title: "The Fallen Throne",
+        arc: "Arc 6: The Fallen Sovereign",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch055_script.json",
+        desc: "Ha-Jun awakens on the physical throne, expanding a 500-meter Sovereign Domain and unsealing the subterranean Sacred Memory Chamber of Asmodaius."
+      },
+      {
+        id: "ch56",
+        number: 56,
+        title: "The Memory Chamber",
+        arc: "Arc 6: The Fallen Sovereign",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch056_script.json",
+        desc: "Ha-Jun claims the dark-matter greatsword Eclipse Devourer (Relic #9), discovers his parents' royal martyr history, and prepares for Malgath's invasion."
+      },
+      {
+        id: "ch57",
+        number: 57,
+        title: "The Forgotten War",
+        arc: "Arc 6: The Fallen Sovereign",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch057_script.json",
+        desc: "Ha-Jun dives 15,000 feet, absorbs an entire volcanic eruption into Eclipse Devourer, and cleaves Malgath's 8-ton war hammer in two, winning the 300,000-demon legion's fealty."
+      },
+      {
+        id: "ch58",
+        number: 58,
+        title: "The Brother's Shadow",
+        arc: "Arc 6: The Fallen Sovereign",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch058_script.json",
+        desc: "Malgath discloses that the final Mythic Relic, The Hourglass of Eternal Abyss, is held by Valac and Lilith in the Chamber of Chronos where rain freezes in midair."
+      },
+      {
+        id: "ch59",
+        number: 59,
+        title: "The Missing Memory",
+        arc: "Arc 6: The Fallen Sovereign",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch059_script.json",
+        desc: "Ha-Jun uncovers that Queen Lilith murdered his parents. In berserk sovereign wrath, he crushes her windpipe, feeds her soul to Eclipse Devourer, and captures the Hourglass."
+      },
+      {
+        id: "ch60",
+        number: 60,
+        title: "Eclipse Devourer",
+        arc: "Arc 6: The Fallen Sovereign",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch060_script.json",
+        desc: "All ten relics unite in planetary orbit around Ha-Jun. He summons 1,000 immortal demonic Shadow Knights before learning Seoul is under global Void attack."
+      },
+      {
+        id: "ch61",
+        number: 61,
+        title: "The Power of Authority",
+        arc: "Arc 6: The Fallen Sovereign",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch061_script.json",
+        desc: "Ha-Jun telepathically links 310,000 demons, deploying Malgath and Tae-Jun to Tokyo while rocketing through the Seoul Gate to rescue Gangnam Station."
+      },
+      {
+        id: "ch62",
+        number: 62,
+        title: "The Sovereign's Enemy",
+        arc: "Arc 6: The Fallen Sovereign",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch062_script.json",
+        desc: "Ha-Jun slays a 50-foot behemoth over Captain Baek's barricade. From a cosmic rift descends Void General Xal'Khor on a bone throne."
+      },
+      {
+        id: "ch63",
+        number: 63,
+        title: "The False Heir",
+        arc: "Arc 6: The Fallen Sovereign",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch063_script.json",
+        desc: "Told he is a false heir, Ha-Jun walks through an antimatter beam, crushes Xal'Khor's railgun barehanded, and bisects the general in a blinding cosmic execution."
+      },
+      {
+        id: "ch64",
+        number: 64,
+        title: "The Last Photograph",
+        arc: "Arc 7: The Brother's Truth",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch064_script.json",
+        desc: "Returning to their dusty childhood apartment, Ha-Jun uncovers a secret drawer containing an old photograph and an encrypted optical disc bearing Section 9's blood cipher."
+      },
+      {
+        id: "ch65",
+        number: 65,
+        title: "The Unanswered Message",
+        arc: "Arc 7: The Brother's Truth",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch065_script.json",
+        desc: "Tae-Jun's recorded holographic hologram reveals the horrific truth: their parents were assassinated by Section 9, and Tae-Jun became a living decoy to protect Ha-Jun."
+      },
+      {
+        id: "ch66",
+        number: 66,
+        title: "That Night",
+        arc: "Arc 7: The Brother's Truth",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch066_script.json",
+        desc: "A heart-wrenching cinematic flashback to that rainy night 7 years ago: 15-year-old Tae-Jun painting a blood ward on 10-year-old Ha-Jun's bedroom door before facing the kill squad alone."
+      },
+      {
+        id: "ch67",
+        number: 67,
+        title: "The Red-Eyed Stranger",
+        arc: "Arc 7: The Brother's Truth",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch067_script.json",
+        desc: "Ha-Jun, Captain Baek, and Min-Jae infiltrate the subterranean ruins of Vault 7 under Incheon harbor, executing cyber-demon sentinels and discovering Project Chimera's archives."
+      },
+      {
+        id: "ch68",
+        number: 68,
+        title: "The Brother's Secret",
+        arc: "Arc 7: The Brother's Truth",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch068_script.json",
+        desc: "Dr. Victor Vance gloats from the monitors, revealing Tae-Jun endured years of marrow extraction to keep Section 9 away from Ha-Jun. Ha-Jun's sovereign fury freezes the entire chamber."
+      },
+      {
+        id: "ch69",
+        number: 69,
+        title: "The Hidden Protection",
+        arc: "Arc 7: The Brother's Truth",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch069_script.json",
+        desc: "Ha-Jun demolishes Chimera Prime in 12 seconds and realizes every lucky coincidence in his childhood was Tae-Jun paying in blood and lifeforce through Kuro."
+      },
+      {
+        id: "ch70",
+        number: 70,
+        title: "The Forbidden Experiment",
+        arc: "Arc 7: The Brother's Truth",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch070_script.json",
+        desc: "Under Incheon Subsea Tunnel Shaft 4, Ha-Jun catches Vance's five-ton hydraulic pile-bunker barehanded, purifies the cloned synthetic heart, and stabilizes the Tartarus gate."
+      },
+      {
+        id: "ch71",
+        number: 71,
+        title: "The Voice in the Memory",
+        arc: "Arc 7: The Brother's Truth",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch071_script.json",
+        desc: "An astral bridge links Ha-Jun directly to Tae-Jun's soul in an infinite field of lilies. After a tearful embrace, Tae-Jun transmits the fortress blueprints to Tartarus Spire."
+      },
+      {
+        id: "ch72",
+        number: 72,
+        title: "I Will Find You",
+        arc: "Arc 7: The Brother's Truth",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch072_script.json",
+        desc: "Ha-Jun rallies five thousand Iron Demons and Section 9 hunters at Incheon pier, cutting a blood oath into the sky before marching his combined army through the Grand Gate."
+      },
+      {
+        id: "ch73",
+        number: 73,
+        title: "The Brother Is Alive?",
+        arc: "Arc 7: The Brother's Truth",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch073_script.json",
+        desc: "Ha-Jun slays Seventh Void Sovereign Malakor in Tartarus Spire and reaches the stasis tube. Tae-Jun's royal violet eyes snap open, his palm meeting Ha-Jun's across the shattering glass!"
+      },
+      {
+        id: "ch74",
+        number: 74,
+        title: "The Feather's Memory",
+        arc: "Arc 8: The Mythic Awakening",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch074_script.json",
+        desc: "The stasis pod shatters; Ha-Jun catches Tae-Jun in his arms. Kuro's Fallen Feather hovers above Tae-Jun's chest, awakening ancient memories of the 5,000-year-old covenant."
+      },
+      {
+        id: "ch75",
+        number: 75,
+        title: "The Mythic Truth",
+        arc: "Arc 8: The Mythic Awakening",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch075_script.json",
+        desc: "Kuro's unsealed memories reveal the cosmic truth: Kuro was a Co-Ruler of the Ancient Realm who voluntarily gave up godhood to serve as the eternal guide for the prophesied heir."
+      },
+      {
+        id: "ch76",
+        number: 76,
+        title: "The Guardian's Real Form",
+        arc: "Arc 8: The Mythic Awakening",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch076_script.json",
+        desc: "Sixth Void Sovereign Vaelgor attacks the Spire. Kuro expands into a 300-foot Primordial Nether Phoenix, unleashing violet solar flares and crushing the dragon titan."
+      },
+      {
+        id: "ch77",
+        number: 77,
+        title: "The First Sovereign's Voice",
+        arc: "Arc 8: The Mythic Awakening",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch077_script.json",
+        desc: "First Sovereign Asmodaius manifests from the Crown, guiding Ha-Jun through the temporal reversion ritual using seven grains of golden sand from the Hourglass to revive Tae-Jun."
+      },
+      {
+        id: "ch78",
+        number: 78,
+        title: "The Price of Awakening",
+        arc: "Arc 8: The Mythic Awakening",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch078_script.json",
+        desc: "Ha-Jun sacrifices mortal memories to permanently fuse the Hourglass into his solar plexus, reaching 85% Synchronization: platinum-black hair and dual eclipse halos."
+      },
+      {
+        id: "ch79",
+        number: 79,
+        title: "The Hourglass",
+        arc: "Arc 8: The Mythic Awakening",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch079_script.json",
+        desc: "Returning to Earth over Seoul, Ha-Jun invokes Temporal Reversion to rewind a 50-foot antimatter mortar in mid-air, saving 200 cornered Section 9 hunters."
+      },
+      {
+        id: "ch80",
+        number: 80,
+        title: "Beyond Time",
+        arc: "Arc 8: The Mythic Awakening",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch080_script.json",
+        desc: "Ha-Jun predicts enemy moves 3 seconds in advance, severing Second Sovereign Morvath and beheading Prime Commander Zeron with a starlight execution cleave."
+      },
+      {
+        id: "ch81",
+        number: 81,
+        title: "The Hourglass Keeper",
+        arc: "Arc 8: The Mythic Awakening",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch081_script.json",
+        desc: "Ha-Jun freezes localized falling meteors over Seoul, ascending to orbit with Tae-Jun and Kuro to drive the Sanguine Fang straight into the Moon-sized Primordial Void Core."
+      },
+      {
+        id: "ch82",
+        number: 82,
+        title: "The Final Synchronization",
+        arc: "Arc 8: The Mythic Awakening",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch082_script.json",
+        desc: "The Void Core collapses into a harmless singularity. Landing in Gwanghwamun Square under golden morning light, Ha-Jun declares: 'The war is over. Earth is free.'"
+      },
+      {
+        id: "ch83",
+        number: 83,
+        title: "Ten Relics, One Blood",
+        arc: "Arc 8: The Mythic Awakening",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch083_script.json",
+        desc: "The Grand Sovereign Accord is signed uniting humans and demonkind. Ha-Jun, Tae-Jun, Min-Jae, and Kuro enjoy warm coffee and laughter under the Saint Mirren sunset."
+      },
+      {
+        id: "ch84",
+        number: 84,
+        title: "The Three Thrones",
+        arc: "Arc 9: The War of Sovereigns",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch084_script.json",
+        desc: "The Three Primordial Demon Thrones awaken at the edge of the universe. Emperor Nihilux mobilizes a million dreadnoughts to purge Earth and the false mortal heir."
+      },
+      {
+        id: "ch85",
+        number: 85,
+        title: "The World Under Siege",
+        arc: "Arc 9: The War of Sovereigns",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch085_script.json",
+        desc: "Dreadnoughts descend over world capitals. Ha-Jun cleaves the two-mile flagship over Seoul in a single titanic stroke, but Nihilux's bone whistle hijacks Kuro's mind."
+      },
+      {
+        id: "ch86",
+        number: 86,
+        title: "Saint Mirren's Last Day",
+        arc: "Arc 9: The War of Sovereigns",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch086_script.json",
+        desc: "Tae-Jun dives to catch the bleeding Ha-Jun. At the gates of Saint Mirren, students, teachers, and demon soldiers fortify their campus for a desperate last stand."
+      },
+      {
+        id: "ch87",
+        number: 87,
+        title: "The Friends Who Stayed",
+        arc: "Arc 9: The War of Sovereigns",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch087_script.json",
+        desc: "Min-Jae and Ha-Jun's former bullies fire anti-tank rounds to deflect Nihilux's lance. Ha-Jun opens his arms to Kuro, breaking the primordial mind-control with unconditional love."
+      },
+      {
+        id: "ch88",
+        number: 88,
+        title: "The Betrayal of Kuro",
+        arc: "Arc 9: The War of Sovereigns",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch088_script.json",
+        desc: "Kuro returns the stolen relics. Ha-Jun manifests his 10-mile Sovereign Domain over Seoul, executing Lord Baal-Zahar and Empress Lilith-Morg with a single 360-degree cleave."
+      },
+      {
+        id: "ch89",
+        number: 89,
+        title: "The True Enemy",
+        arc: "Arc 9: The War of Sovereigns",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch089_script.json",
+        desc: "Nihilux's dying breath reveals the cosmic truth: the Void was born from Asmodaius splitting his soul. The dark vortex opens directly into Ha-Jun's inner mindscape."
+      },
+      {
+        id: "ch90",
+        number: 90,
+        title: "The War of Bloodlines",
+        arc: "Arc 9: The War of Sovereigns",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch090_script.json",
+        desc: "In the black soul ocean, Ha-Jun duels Shadow Ha-Jun. Realizing anger feeds the darkness, Ha-Jun sheathes his sword and catches the titan's blade with gentle, purifying palms."
+      },
+      {
+        id: "ch91",
+        number: 91,
+        title: "The Broken Relics",
+        arc: "Arc 9: The War of Sovereigns",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch091_script.json",
+        desc: "The shadow integrates into golden starlight. The ten physical relics shatter, fusing into a singular permanent star in Ha-Jun's heart as he reaches 95% Synchronization."
+      },
+      {
+        id: "ch92",
+        number: 92,
+        title: "The Fall of the Guardian",
+        arc: "Arc 9: The War of Sovereigns",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch092_script.json",
+        desc: "At Seoul City Hall, Kang Tae-Jun lays down his claymore, receiving the Star of Earth medal. In the park over ice cream, Ha-Jun's forgotten childhood memories miraculously return."
+      },
+      {
+        id: "ch93",
+        number: 93,
+        title: "The Last Sovereign's Tear",
+        arc: "Arc 9: The War of Sovereigns",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch093_script.json",
+        desc: "At their parents' graves, Ha-Jun sheds a final tear of gratitude, blooming eternal starlight flowers over the stones before sharing samgyeopsal and laughter with his family."
+      },
+      {
+        id: "ch94",
+        number: 94,
+        title: "The Choice",
+        arc: "Arc 10: The Last Blood",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch094_script.json",
+        desc: "Universal entropy frays the cosmic boundary. Standing before the Tree of Origin, Ha-Jun rejects timeline erasure and chooses immortal transcendence to protect his family."
+      },
+      {
+        id: "ch95",
+        number: 95,
+        title: "The Blood That Remembers",
+        arc: "Arc 10: The Last Blood",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch095_script.json",
+        desc: "On the Saint Mirren rooftop under lanterns, Ha-Jun, Tae-Jun, Min-Jae, and Baek share a tender farewell feast, anchoring Ha-Jun's soul with the eternal gift of mortal memories."
+      },
+      {
+        id: "ch96",
+        number: 96,
+        title: "The Last Contract",
+        arc: "Arc 10: The Last Blood",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch096_script.json",
+        desc: "Ha-Jun and Kuro dissolve the ancient master-servant pact, rewriting an eternal covenant of equals. Kuro transforms into a royal mantle of starlight feathers upon Ha-Jun's shoulders."
+      },
+      {
+        id: "ch97",
+        number: 97,
+        title: "True Sovereign Form",
+        arc: "Arc 10: The Last Blood",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch097_script.json",
+        desc: "Ha-Jun touches the Pillar of Creation, achieving 100% True Sovereign Form: white jade horns, starlight hair, six wings of dawn, and ten spinning celestial halos."
+      },
+      {
+        id: "ch98",
+        number: 98,
+        title: "The First Demon Returns",
+        arc: "Arc 10: The Last Blood",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch098_script.json",
+        desc: "In the Mirror of Origins, Ha-Jun offers an open palm to Asmodaius. Generations of demon suffering dissolve in an embrace of peace as Asmodaius blesses the new era."
+      },
+      {
+        id: "ch99",
+        number: 99,
+        title: "The Battle Within",
+        arc: "Arc 10: The Last Blood",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch099_script.json",
+        desc: "Visiting Namsan Tower at twilight, Ha-Jun heals the ghost of his 7-year-old self. Tae-Jun, Min-Jae, Baek, and Kuro gather under the umbrella for an eternal polaroid portrait."
+      },
+      {
+        id: "ch100",
+        number: 100,
+        title: "The Demon Sovereign's Bloodline",
+        arc: "Arc 10: The Last Blood",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch100_script.json",
+        desc: "Milestone Chapter 100. Ha-Jun, Tae-Jun, and Min-Jae race through the morning gates of Saint Mirren University into the golden sunrise, their 100-chapter journey crowned in glory."
+      },
+      {
+        id: "ch101",
+        number: 101,
+        title: "The Last Enemy",
+        arc: "Arc 10: The Last Blood",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch101_script.json",
+        desc: "In the quiet campus library on a rainy afternoon, Professor Ha-Jun tutors young demon and human children, showing that true Kings love peace above all weapons."
+      },
+      {
+        id: "ch102",
+        number: 102,
+        title: "The Price of Peace",
+        arc: "Arc 10: The Last Blood",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch102_script.json",
+        desc: "Five years later: Dean Kang Tae-Jun and Sovereign Ha-Jun celebrate the graduation of five hundred human and demon students at the Kang Academy of Interdimensional Harmony."
+      },
+      {
+        id: "ch103",
+        number: 103,
+        title: "Beyond the Sovereign",
+        arc: "Arc 10: The Last Blood",
+        status: "scripted",
+        panelsCount: 30,
+        scriptFile: "./story/ch103_script.json",
+        desc: "Grand Saga Finale. On the rainy Saint Mirren rooftop where it all began, Ha-Jun looks out over peaceful Seoul with his brother and friends, offering a final thankful smile to the reader."
+      }
+    ];
+
+    // Relics Data
+    const RELICS_DATA = [
+      { name: "Kuro's Fallen Feather", tier: "Mythic", status: "Awakened (Ep. 2)", power: "Bloodline Awakening, Dimensional Shroud, Sovereign Instincts", color: "from-purple-900 to-fuchsia-950", border: "border-purple-500" },
+      { name: "Ring of Hollow Blood", tier: "Basic", status: "Claimed (Ch. 25)", power: "Fluid Blood Manipulation & Solidified Blood Blades", color: "from-red-950 to-zinc-900", border: "border-red-600" },
+      { name: "Bone of the Forgotten", tier: "Basic", status: "Bonded (Ch. 30)", power: "Skeletal Density Hardening (+400%), Instant Fracture Repair", color: "from-zinc-900 to-stone-900", border: "border-stone-500" },
+      { name: "The Ashen Heart", tier: "Basic", status: "Absorbed (Ch. 32)", power: "Demonic Violet/Crimson Hellfire Emission (Sanguine Pyre)", color: "from-purple-950 to-rose-950", border: "border-rose-600" },
+      { name: "The Fang of Abyss", tier: "Rare", status: "Claimed (Ch. 47)", power: "Spatial Severance, Absolute Barrier Slicing, Void Rifts", color: "from-indigo-950 to-zinc-900", border: "border-indigo-500" },
+      { name: "Eye of the Night", tier: "Rare", status: "Integrated (Ch. 48)", power: "All-Spectrum Mana Sight, Illusion Piercing & Structural Weakness Vision", color: "from-blue-950 to-cyan-950", border: "border-cyan-500" },
+      { name: "Chains of Ruin", tier: "Rare", status: "Subjugated (Ch. 50)", power: "Gravitational Binding (20x G-Force) & Dimensional Anchoring", color: "from-zinc-950 to-stone-900", border: "border-zinc-500" },
+      { name: "Crown of the Sovereign", tier: "Legendary", status: "Enthroned (Ch. 53)", power: "Sovereign Domain (10 Miles), Monarch Aura of Absolute Subjugation", color: "from-amber-950 to-purple-950", border: "border-amber-500" },
+      { name: "Eclipse Devourer", tier: "Legendary", status: "Wielded (Ch. 56)", power: "Spell Devouring, Dark Matter Slices & Shadow Legion Manifestation (10,000 Army)", color: "from-purple-950 to-black", border: "border-purple-600" },
+      { name: "Hourglass of Eternal Abyss", tier: "Mythic", status: "Secured (Ch. 59)", power: "Temporal Manipulation, Chrono-Reversion (Cost: Permanent Memory Sacrifice)", color: "from-fuchsia-950 to-amber-950", border: "border-fuchsia-500" }
+    ];
+
+    // Characters Data
+    const CHARACTERS_DATA = [
+      { name: "Ha-Jun Kang (강하준)", role: "Protagonist • True Sovereign Heir", desc: "17yo frail student at Saint Mirren University. Carries the dormant genetic lineage of the First Demon Sovereign. Fueled by the vow to rescue his lost brother.", tag: "Sovereign Vessel", tagColor: "bg-purple-950 text-purple-300 border-purple-800" },
+      { name: "Kuro (쿠로)", role: "Mythic Demonic Guardian", desc: "Ancient familiar and Vanguard of the First Sovereign. Appears as an obsidian crow with demonic horns and violet embers. Sharp-tongued, fiercely loyal.", tag: "Mythic Familiar", tagColor: "bg-fuchsia-950 text-fuchsia-300 border-fuchsia-800" },
+      { name: "Kang Tae-Jun (강태준)", role: "Elder Brother • Sealed Guardian", desc: "Presumed missing 7 years ago. Secretly sacrificed his mortal freedom to draw the Abyss away from Ha-Jun, surviving trapped in the Nether Boundary.", tag: "The First Shield", tagColor: "bg-blue-950 text-blue-300 border-blue-800" },
+      { name: "Lord Malgath (말가스)", role: "First Demon King of the Abyss", desc: "18-foot towering demonic monarch who senses the Sovereign's bloodline awakening and commands the Three Demon Lords to hunt down Ha-Jun.", tag: "Abyssal Tyrant", tagColor: "bg-red-950 text-red-300 border-red-800" },
+      { name: "Min-Jae (민재)", role: "Classmate & Loyal Friend", desc: "Observant high school student with round glasses who witnesses the courtyard destruction and chooses to stand beside Ha-Jun.", tag: "Mortal Ally", tagColor: "bg-emerald-950 text-emerald-300 border-emerald-800" },
+      { name: "Captain Kang-Doo", role: "Demon Hunter Bureau Sector 4", desc: "Veteran human hunter investigating the Sovereign-class energy spike at Saint Mirren University, wielding the Blood Registry dossier.", tag: "Human Hunter", tagColor: "bg-zinc-900 text-zinc-300 border-zinc-700" }
+    ];
+
+    // 10 Arcs Architecture Data
+    const ARCS_DATA = [
+      { num: 1, title: "THE CURSED FEATHER", chapters: "Ch. 4 – 13", panels: "300 Panels", status: "Scripted & Prompted (100%)", desc: "Awakening on the university rooftop, bonding with Kuro's feather, and the first demonic war." },
+      { num: 2, title: "THE HIDDEN BLOODLINE", chapters: "Ch. 14 – 23", panels: "300 Panels", status: "In Architecture", desc: "Ha-Jun struggles with his unhuman strength, enters the underground Demonic Chamber, and battles his first Human Demon Hunter." },
+      { num: 3, title: "THE FIRST RELIC", chapters: "Ch. 24 – 33", panels: "300 Panels", status: "Planned", desc: "Resonance with the Ring of Hollow Blood, Bone of the Forgotten, and Ashen Heart." },
+      { num: 4, title: "THE DEMON HUNTER WAR", chapters: "Ch. 34 – 43", panels: "300 Panels", status: "Planned", desc: "The secret human organization declares Ha-Jun their primary target; the betrayal and war erupts." },
+      { num: 5, title: "THE ABYSSAL KINGDOM", chapters: "Ch. 44 – 53", panels: "300 Panels", status: "Planned", desc: "A colossal gate opens; Ha-Jun enters the Nether Realm, acquiring the Fang of Abyss and Chains of Ruin." },
+      { num: 6, title: "THE FALLEN SOVEREIGN", chapters: "Ch. 54 – 63", panels: "300 Panels", status: "Planned", desc: "The Crown of the Sovereign recognizes Ha-Jun; ancient memories of the First Sovereign's fall are unveiled." },
+      { num: 7, title: "THE BROTHER'S TRUTH", chapters: "Ch. 64 – 73", panels: "300 Panels", status: "Planned", desc: "The forbidden experiments revealed; Ha-Jun discovers Tae-Jun is alive in the Nether Boundary." },
+      { num: 8, title: "THE MYTHIC AWAKENING", chapters: "Ch. 74 – 83", panels: "300 Panels", status: "Planned", desc: "Kuro's true demonic form revealed; synchronization with the Hourglass of Eternal Abyss." },
+      { num: 9, title: "THE WAR OF SOVEREIGNS", chapters: "Ch. 84 – 93", panels: "300 Panels", status: "Planned", desc: "Three Demon Sovereigns invade Earth; the Siege of Saint Mirren University begins." },
+      { num: 10, title: "THE SOVEREIGN ASCENDANT", chapters: "Ch. 94 – 103", panels: "300 Panels", status: "Planned", desc: "100% Bloodline Synchronization; Ha-Jun takes the Abyssal Throne as the True Sovereign." }
+    ];
+
+    let currentChapterIndex = 0;
+    let currentViewMode = "strip"; // 'strip' | 'grid' | 'script'
+
+    // =======================================================
+    // INITIALIZATION & EVENT LISTENERS
+    // =======================================================
+    window.addEventListener('DOMContentLoaded', () => {
+      renderDrawerChapters();
+      renderRelics();
+      renderCharacters();
+      renderArcs();
+      loadChapter(0);
+      setupScrollProgress();
+      setupDrawerEvents();
+    });
+
+    // Scroll Progress
+    function setupScrollProgress() {
+      window.addEventListener('scroll', () => {
+        const winScroll = document.documentElement.scrollTop || document.body.scrollTop;
+        const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        const scrolled = height > 0 ? (winScroll / height) * 100 : 0;
+        document.getElementById('progress-bar').style.width = scrolled + '%';
+        document.getElementById('page-percent').innerText = Math.round(scrolled) + '%';
+      });
+    }
+
+    // Tab Switching
+    function switchTab(tabId) {
+      const tabs = ['reader', 'bible', 'relics', 'characters', 'production'];
+      tabs.forEach(t => {
+        const view = document.getElementById('tab-view-' + t);
+        const btn = document.getElementById('tab-btn-' + t);
+        if (t === tabId) {
+          view.classList.remove('hidden');
+          btn.className = "text-purple-400 border-b-2 border-purple-500 pb-1 px-2 flex items-center gap-1.5 font-bold";
+        } else {
+          view.classList.add('hidden');
+          btn.className = "text-zinc-400 hover:text-zinc-200 pb-1 px-2 flex items-center gap-1.5 font-bold";
+        }
+      });
+      window.scrollTo({top: 0, behavior: 'smooth'});
+    }
+
+    // View Mode Switching (Strip vs Grid vs Script)
+    function switchViewMode(mode) {
+      currentViewMode = mode;
+      const stripContainer = document.getElementById('strip-container');
+      const gridContainer = document.getElementById('grid-container');
+      const scriptContainer = document.getElementById('script-container');
+      const btnStrip = document.getElementById('btn-mode-strip');
+      const btnGrid = document.getElementById('btn-mode-grid');
+      const btnScript = document.getElementById('btn-mode-script');
+
+      stripContainer.classList.add('hidden');
+      gridContainer.classList.add('hidden');
+      scriptContainer.classList.add('hidden');
+      btnStrip.className = "px-2.5 py-1 rounded text-zinc-400 hover:text-white font-medium transition-all";
+      btnGrid.className = "px-2.5 py-1 rounded text-zinc-400 hover:text-white font-medium transition-all";
+      btnScript.className = "px-2.5 py-1 rounded text-zinc-400 hover:text-white font-medium transition-all";
+
+      if (mode === 'strip') {
+        stripContainer.classList.remove('hidden');
+        btnStrip.className = "px-2.5 py-1 rounded bg-purple-600 text-white font-bold transition-all";
+      } else if (mode === 'grid') {
+        gridContainer.classList.remove('hidden');
+        btnGrid.className = "px-2.5 py-1 rounded bg-purple-600 text-white font-bold transition-all";
+      } else if (mode === 'script') {
+        scriptContainer.classList.remove('hidden');
+        btnScript.className = "px-2.5 py-1 rounded bg-purple-600 text-white font-bold transition-all";
+      }
+    }
+
+    // Load Specific Chapter
+    function loadChapter(index) {
+      if (index < 0 || index >= CHAPTERS_DATA.length) return;
+      currentChapterIndex = index;
+      const chap = CHAPTERS_DATA[index];
+
+      // Update Header & Badge
+      document.getElementById('header-chapter-badge').innerText = `CH. ${chap.number}`;
+      document.getElementById('header-chapter-title').innerText = `${chap.arc} • ${chap.title}`;
+      document.getElementById('footer-chapter-desc').innerText = chap.desc;
+      document.getElementById('comments-chapter-label').innerText = `Chapter ${chap.number}: ${chap.title}`;
+
+      // Populate Strip Container
+      const strip = document.getElementById('webtoon-strip');
+      strip.innerHTML = '';
+
+      if (chap.stripImg) {
+        // High-resolution continuous webtoon stitched strip
+        const img = document.createElement('img');
+        img.src = chap.stripImg;
+        img.alt = chap.title;
+        img.className = 'webtoon-panel-img';
+        img.loading = 'lazy';
+        strip.appendChild(img);
+      } else if (chap.panels && chap.panels.length > 0) {
+        chap.panels.forEach((src, pIdx) => {
+          const img = document.createElement('img');
+          img.src = src;
+          img.alt = `${chap.title} - Panel ${pIdx + 1}`;
+          img.className = 'webtoon-panel-img';
+          img.loading = 'lazy';
+          strip.appendChild(img);
+        });
+      } else {
+        // Scripted chapter notice with action button
+        strip.innerHTML = `
+          <div class="p-8 text-center space-y-4">
+            <span class="inline-block p-4 rounded-full bg-purple-950/70 border border-purple-700/50 text-purple-400 text-2xl">📜</span>
+            <h3 class="text-lg font-bold text-white font-cinzel">${chap.title}</h3>
+            <p class="text-xs text-zinc-400 max-w-md mx-auto leading-relaxed">${chap.desc}</p>
+            <div class="pt-4">
+              <button onclick="switchViewMode('script')" class="px-5 py-2.5 bg-purple-600 hover:bg-purple-500 text-white font-bold text-xs rounded-xl shadow-lg transition-all">
+                Read 30-Panel Screenplay & Dialogue →
+              </button>
+            </div>
+          </div>
+        `;
+      }
+
+      // Populate Grid Container
+      const grid = document.getElementById('grid-panel-wrapper');
+      grid.innerHTML = '';
+      if (chap.panels && chap.panels.length > 0) {
+        chap.panels.forEach((src, pIdx) => {
+          const card = document.createElement('div');
+          card.className = "bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden hover:border-purple-500 transition-all cursor-pointer group";
+          card.onclick = () => { switchViewMode('strip'); };
+          card.innerHTML = `
+            <img src="${src}" alt="Panel ${pIdx + 1}" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+            <div class="p-2 text-center text-[10px] font-bold text-zinc-400 group-hover:text-purple-300">
+              Panel ${pIdx + 1}
+            </div>
+          `;
+          grid.appendChild(card);
+        });
+      } else if (chap.gridImg) {
+        grid.innerHTML = `<img src="${chap.gridImg}" alt="${chap.title} Overview" class="w-full col-span-3 rounded-xl border border-zinc-800">`;
+      } else {
+        grid.innerHTML = `<p class="col-span-3 text-center text-xs text-zinc-500 py-10">Art panels currently staged in production pipeline.</p>`;
+      }
+
+      // Populate Script Container
+      loadChapterScript(chap);
+
+      // Close drawer if open
+      document.getElementById('chapter-drawer').classList.add('hidden');
+      window.scrollTo({top: 0, behavior: 'smooth'});
+    }
+
+    // Load Chapter Screenplay
+    async function loadChapterScript(chap) {
+      const scriptWrapper = document.getElementById('script-panel-wrapper');
+      scriptWrapper.innerHTML = `
+        <div class="sovereign-card rounded-2xl p-6 space-y-2 border-purple-500/30">
+          <div class="flex items-center justify-between text-xs font-bold text-purple-400 font-orbitron">
+            <span>CHAPTER ${chap.number} SCREENPLAY</span>
+            <span class="bg-purple-950 text-purple-300 px-2 py-0.5 rounded border border-purple-800">30 PANELS</span>
+          </div>
+          <h2 class="text-xl font-bold font-cinzel text-white">${chap.title}</h2>
+          <p class="text-xs text-zinc-400 leading-relaxed">${chap.desc}</p>
+        </div>
+      `;
+
+      if (chap.scriptFile) {
+        try {
+          const res = await fetch(chap.scriptFile);
+          if (res.ok) {
+            const data = await res.json();
+            if (data.panels) {
+              data.panels.forEach(p => {
+                const card = document.createElement('div');
+                card.className = "bg-zinc-950/80 border border-zinc-800/80 hover:border-purple-500/50 rounded-xl p-4 space-y-3 transition-all";
+                let dialogueHtml = '';
+                if (p.dialogue && p.dialogue.length > 0) {
+                  p.dialogue.forEach(d => {
+                    dialogueHtml += `
+                      <div class="bg-purple-950/40 border-l-2 border-purple-500 p-2.5 rounded-r-lg text-xs space-y-1">
+                        <span class="font-bold text-purple-300 uppercase tracking-wider text-[10px]">${d.speaker || d.type}:</span>
+                        <p class="text-zinc-200 font-medium">"${d.text}"</p>
+                      </div>
+                    `;
+                  });
+                }
+                card.innerHTML = `
+                  <div class="flex items-center justify-between text-xs">
+                    <span class="font-bold font-orbitron text-purple-400 uppercase">${p.id} • ${p.shot}</span>
+                    <span class="text-zinc-500 text-[10px]">${p.setting}</span>
+                  </div>
+                  <p class="text-xs text-zinc-300 leading-relaxed">${p.action}</p>
+                  ${p.sfx ? `<div class="text-[11px] font-bold text-amber-400 font-orbitron">SFX: ${p.sfx}</div>` : ''}
+                  ${dialogueHtml}
+                `;
+                scriptWrapper.appendChild(card);
+              });
+            }
+          }
+        } catch (e) {
+          console.warn("Could not load script JSON directly:", e);
+        }
+      }
+    }
+
+    function nextChapter() {
+      if (currentChapterIndex < CHAPTERS_DATA.length - 1) {
+        loadChapter(currentChapterIndex + 1);
+      }
+    }
+
+    function prevChapter() {
+      if (currentChapterIndex > 0) {
+        loadChapter(currentChapterIndex - 1);
+      }
+    }
+
+    // Render Drawer Chapters
+    function renderDrawerChapters() {
+      const list = document.getElementById('drawer-chapters-list');
+      list.innerHTML = '';
+      CHAPTERS_DATA.forEach((c, idx) => {
+        const item = document.createElement('div');
+        item.className = "p-3 rounded-xl bg-zinc-900/60 hover:bg-purple-950/50 border border-zinc-800/80 hover:border-purple-600 transition-all cursor-pointer flex items-center justify-between";
+        item.onclick = () => { loadChapter(idx); };
+        item.innerHTML = `
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-bold text-purple-400 font-orbitron">CH. ${c.number}</span>
+              <span class="text-[9px] text-zinc-500 uppercase">${c.arc}</span>
+            </div>
+            <h4 class="text-xs font-bold text-white mt-0.5">${c.title}</h4>
+          </div>
+          <span class="text-[10px] px-2 py-0.5 rounded font-bold ${c.status === 'complete' ? 'bg-emerald-950 text-emerald-300 border border-emerald-800' : 'bg-purple-950 text-purple-300 border border-purple-800'}">
+            ${c.status === 'complete' ? 'READ' : 'SCRIPTED'}
+          </span>
+        `;
+        list.appendChild(item);
+      });
+    }
+
+    // Render 10 Relics
+    function renderRelics() {
+      const container = document.getElementById('relics-grid');
+      container.innerHTML = '';
+      RELICS_DATA.forEach((r, idx) => {
+        const card = document.createElement('div');
+        card.className = `rounded-2xl p-5 border ${r.border} bg-gradient-to-br ${r.color} space-y-2.5 shadow-lg`;
+        card.innerHTML = `
+          <div class="flex items-center justify-between text-xs font-bold">
+            <span class="font-orbitron text-white text-sm">#${idx + 1} ${r.name}</span>
+            <span class="px-2 py-0.5 rounded text-[10px] bg-black/60 font-bold border border-white/20">${r.tier}</span>
+          </div>
+          <p class="text-xs text-zinc-300 leading-relaxed font-medium">${r.power}</p>
+          <div class="pt-1 flex items-center justify-between text-[10px] text-zinc-400 font-semibold border-t border-white/10">
+            <span>Availability: ${r.status}</span>
+          </div>
+        `;
+        container.appendChild(card);
+      });
+    }
+
+    // Render Characters
+    function renderCharacters() {
+      const container = document.getElementById('characters-grid');
+      container.innerHTML = '';
+      CHARACTERS_DATA.forEach(ch => {
+        const card = document.createElement('div');
+        card.className = "sovereign-card rounded-2xl p-5 space-y-3";
+        card.innerHTML = `
+          <div class="flex items-start justify-between">
+            <div>
+              <h4 class="text-sm font-bold text-white font-cinzel">${ch.name}</h4>
+              <span class="text-xs text-purple-400 font-semibold">${ch.role}</span>
+            </div>
+            <span class="text-[10px] px-2 py-0.5 rounded border font-bold ${ch.tagColor}">${ch.tag}</span>
+          </div>
+          <p class="text-xs text-zinc-300 leading-relaxed">${ch.desc}</p>
+        `;
+        container.appendChild(card);
+      });
+    }
+
+    // Render 10 Arcs Directory
+    function renderArcs() {
+      const container = document.getElementById('arcs-list-container');
+      container.innerHTML = '';
+      ARCS_DATA.forEach(arc => {
+        const item = document.createElement('div');
+        item.className = "sovereign-card rounded-2xl p-5 space-y-2 border-zinc-800 hover:border-purple-600/50 transition-all";
+        item.innerHTML = `
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+            <div>
+              <span class="text-[10px] font-bold text-purple-400 font-orbitron uppercase">ARC ${arc.num} • ${arc.chapters}</span>
+              <h3 class="text-base font-bold font-cinzel text-white mt-0.5">${arc.title}</h3>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="text-[11px] bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded font-mono text-zinc-300">${arc.panels}</span>
+              <span class="text-[10px] bg-purple-950 text-purple-300 border border-purple-800 px-2 py-0.5 rounded font-bold">${arc.status}</span>
+            </div>
+          </div>
+          <p class="text-xs text-zinc-400 leading-relaxed">${arc.desc}</p>
+        `;
+        container.appendChild(item);
+      });
+    }
+
+    // Drawer Setup
+    function setupDrawerEvents() {
+      const drawer = document.getElementById('chapter-drawer');
+      document.getElementById('open-drawer-btn').onclick = () => drawer.classList.remove('hidden');
+      document.getElementById('close-drawer-btn').onclick = () => drawer.classList.add('hidden');
+      drawer.onclick = (e) => { if (e.target === drawer) drawer.classList.add('hidden'); };
+
+      // Comments Drawer
+      const commentBtn = document.getElementById('comment-btn');
+      const commentsDrawer = document.getElementById('comments-drawer');
+      const closeCommentsBtn = document.getElementById('close-comments-btn');
+      if (commentBtn && commentsDrawer && closeCommentsBtn) {
+        commentBtn.onclick = () => commentsDrawer.classList.remove('hidden');
+        closeCommentsBtn.onclick = () => commentsDrawer.classList.add('hidden');
+        commentsDrawer.onclick = (e) => { if (e.target === commentsDrawer) commentsDrawer.classList.add('hidden'); };
+      }
+    }
+
+    function shareChapter() {
+      if (navigator.share) {
+        navigator.share({
+          title: "Demon Sovereign's Bloodline",
+          text: "Read the dark fantasy epic Demon Sovereign's Bloodline!",
+          url: window.location.href
+        }).catch(() => {});
+      } else {
+        navigator.clipboard.writeText(window.location.href);
+        alert("Link copied to clipboard!");
+      }
+    }
+  </script>
+</body>
+</html>
