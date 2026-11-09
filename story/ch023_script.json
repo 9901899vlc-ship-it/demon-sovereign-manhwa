@@ -17,7 +17,7 @@
       "mood": "mercy after victory",
       "sfx": "LIQUEFY-SHUUUK...",
       "prose_en": "Ha-Jun stands panting in the rubble, raising his left hand: The crystalline blood spears pinning Captain Baek liquefy into scarlet streams.",
-      "prose_hi": "Ha-jun malbe mein hanfta hua khada hai, apna bayan haath upar utha raha hai: captain bak ko pakadne wale crystaliy rakt bhale lal rang ki dharaon mein dravibhut ho rahe han."
+      "prose_hi": "Ha-Jun malbe mein hanfta hua khada hai, apna bayan haath upar utha raha hai: captain bak ko pakadne wale crystaliy khoon bhale lal rang ki dharaon mein dravibhut ho rahe han."
     },
     {
       "id": "p02",
@@ -30,7 +30,7 @@
       "mood": "seamless relic retrieval",
       "sfx": "SWISH-SLURP...",
       "prose_en": "The scarlet streams flow smoothly back into the Ring of Hollow Blood on Ha-Jun's finger, leaving Captain Baek free of physical restraint.",
-      "prose_hi": "Lal rang ki dharayen ha-jun ki ungli par ring off hollow blood mein aasani se pravahit hoti han, jisse captain bake sharirik sanyam se mukt ho jaate han."
+      "prose_hi": "Lal rang ki dharayen Ha-Jun ki ungli par ring off hollow blood mein aasani se pravahit hoti han, jisse captain bake sharirik sanyam se mukt ho jaate han."
     },
     {
       "id": "p03",
@@ -43,7 +43,7 @@
       "mood": "uncomprehending shock",
       "sfx": "THUD-PANT...",
       "prose_en": "Captain Baek collapses to one knee, clutching his bleeding shoulder, staring up at Ha-Jun in absolute, stunned bewilderment.",
-      "prose_hi": "Capton bak ek ghutne par gir jata hai, apne khoon bahte kandhe ko pakdkar, ha-jun ko puri tarah se stabdh hokar ghurta hai."
+      "prose_hi": "Capton bak ek ghutne par gir jata hai, apne khoon bahte kandhe ko pakdkar, Ha-Jun ko puri tarah se stabdh hokar ghurta hai."
     },
     {
       "id": "p04",
@@ -89,7 +89,7 @@
         }
       ],
       "prose_en": "Ha-Jun wipes scarlet blood from his split lip, looking at Baek with tired, profoundly human eyes: 'Kyunki mere bhai ne isliye jaan nahi di thi... taaki main ek darinda ban jaaun.'.",
-      "prose_hi": "Ha-jun apne kate hue honth se lal rang ka khoon ponchta hai, thaki hui gahri manviya aankhon se bak ko dekhta hai: 'kyonki mere bhai ne isliye jaan nahin di thi...taaki main ek darinda ban jaun.'"
+      "prose_hi": "Ha-Jun apne kate hue honth se lal rang ka khoon ponchta hai, thaki hui gahri manviya aankhon se bak ko dekhta hai: 'kyonki mere bhai ne isliye jaan nahin di thi...taaki main ek darinda ban jaun.'"
     },
     {
       "id": "p06",
@@ -125,7 +125,7 @@
       "mood": "presenting the evidence",
       "sfx": "THUD-FLIP...",
       "prose_en": "Ha-Jun pulls Tae-Jun's leather journal from his shredded blazer pocket, tossing it onto the grass in front of Baek's knees.",
-      "prose_hi": "Ha-jun ne taaye-jun ki chamde ki patrika ko apni kati hui blazer jeb se nikala aur use bak ke ghutnon ke samne ghas par fenk diya."
+      "prose_hi": "Ha-Jun ne Tae-Jun ki chamde ki patrika ko apni kati hui blazer jeb se nikala aur use bak ke ghutnon ke samne ghas par fenk diya."
     },
     {
       "id": "p08",
@@ -148,7 +148,7 @@
         }
       ],
       "prose_en": "Ha-Jun: 'Apne Bureau ke sach ko padho. Wo saat saal se tum sabko bewakoof bana rahe hain.'.",
-      "prose_hi": "Ha-jun: 'apne bureau ke sach ko padho. woh saat saal se tum sabko bewakoof bana rahe ho.'"
+      "prose_hi": "Ha-Jun: 'apne bureau ke sach ko padho. woh saat saal se tum sabko bewakoof bana rahe ho.'"
     },
     {
       "id": "p09",
@@ -182,7 +182,7 @@
         }
       ],
       "prose_en": "Close-up on the document: Official high-level authorizations for Project Chimera: Harvesting demonic relics for artificial soldier hybridization.",
-      "prose_hi": "Dastavez par clos-up: project chimera ke liye adhikarik ucch-stariy pradhikaran: kritrim sainik sankaran ke liye rakshasi avsheshon ki katai."
+      "prose_hi": "Dastavez par clos-up: project chimera ke liye adhikarik ucch-stariy pradhikaran: kritrim sainik sankaran ke liye shaitani demonic avsheshon ki katai."
     },
     {
       "id": "p11",
@@ -205,7 +205,7 @@
         }
       ],
       "prose_en": "Baek's face pales: 'Director ne yeh approve kiya tha?! Saat saal pehle Tae-Jun gaddaar nahi tha... wo lab ko containment breach se bacha raha tha!'.",
-      "prose_hi": "Bek ka chehra peela pad gaya: 'nirdeshak ne yeh manjoor kiya tha?' saat saal pehle taaye-jun gaddar nahin tha...vo lab ko roktham ullanghan se bacha raha tha!'"
+      "prose_hi": "Bek ka chehra peela pad gaya: 'nirdeshak ne yeh manjoor kiya tha?' saat saal pehle Tae-Jun gaddar nahin tha...vo lab ko roktham ullanghan se bacha raha tha!'"
     },
     {
       "id": "p12",
@@ -285,7 +285,7 @@
         }
       ],
       "prose_en": "Ha-Jun blinks in mild surprise: 'Tum humein jaane de rahe ho?'.",
-      "prose_hi": "Ha-jun halke aashcharya se palkein jhapkate han: 'tum hamen jaane de rahe ho?'."
+      "prose_hi": "Ha-Jun halke aashcharya se palkein jhapkate han: 'tum hamen jaane de rahe ho?'."
     },
     {
       "id": "p16",
@@ -322,7 +322,7 @@
       "mood": "brotherly escape",
       "sfx": "STEP-CREAK...",
       "prose_en": "Ha-Jun slings Min-Jae's arm around his neck, supporting his limping friend into the shadowed service maintenance tunnel.",
-      "prose_hi": "Ha-jun ne min-je ki baanh ko apni gardan ke charon or lapet liya, aur apne langdate dost ko chhayadar seva rakhrakhav surang mein sahara diya."
+      "prose_hi": "Ha-Jun ne min-je ki baanh ko apni gardan ke charon or lapet liya, aur apne langdate dost ko saaye wale seva rakhrakhav surang mein sahara diya."
     },
     {
       "id": "p18",
@@ -368,7 +368,7 @@
         }
       ],
       "prose_en": "Ha-Jun chuckles softly: 'Pehle apartment pahunchne do... isse pehle ki mere pair jawab de dein.'.",
-      "prose_hi": "Ha-jun dheere se hansta hai: 'pahle apartment pahno...isse pehle ki mere jode jawab de den.'"
+      "prose_hi": "Ha-Jun dheere se hansta hai: 'pahle apartment pahno...isse pehle ki mere jode jawab de den.'"
     },
     {
       "id": "p20",
@@ -391,7 +391,7 @@
         }
       ],
       "prose_en": "Kuro alights firmly on Ha-Jun's shoulder, his crimson eyes locking onto the high library tower roof: 'Ha-Jun... koi aur bhi humein dekh raha hai.'.",
-      "prose_hi": "Kuro ha-jun ke kandhe par majbuti se baithta hai, uski lal aankhen unchi library tower ki chhat par tik jaati han: 'ha-jun... koi aur bhi hamen dekh raha hai.'"
+      "prose_hi": "Kuro Ha-Jun ke kandhe par majbuti se baithta hai, uski lal aankhen unchi library tower ki chhat par tik jaati han: 'Ha-Jun... koi aur bhi hamen dekh raha hai.'"
     },
     {
       "id": "p21",
@@ -402,7 +402,7 @@
       "mood": "ominous abyss envoy",
       "sfx": "WIND-HOWL...",
       "prose_en": "500 meters away atop the library spire: A shadowy figure wearing a porcelain crimson demon mask and black cape rests a scythe on his shoulder.",
-      "prose_hi": "500 meter door pustakalaya shikhar ke upar: chini mitti ke gahre lal rang ka danav mukhauta aur kali topi pahane ek chhayadar aakriti apne kandhe par ek daranti rakhe hue hai."
+      "prose_hi": "500 meter door pustakalaya shikhar ke upar: chini mitti ke gahre lal rang ka danav mukhauta aur kali topi pahane ek saaye wale aakriti apne kandhe par ek daranti rakhe hue hai."
     },
     {
       "id": "p22",
@@ -425,7 +425,7 @@
         }
       ],
       "prose_en": "Through his violet demonic perception, Ha-Jun zooms across the distance: The masked figure emits ancient, terrifying Abyssal wavelength.",
-      "prose_hi": "Apni baingani rakshasi dharna ke madhyam se, ha-jun door tak zoom karta hai: nakabposh aakriti prachin, bhayanak abisal tarang dairdhya ka utsarjan karti hai."
+      "prose_hi": "Apni baingani shaitani demonic dharna ke madhyam se, Ha-Jun door tak zoom karta hai: nakabposh aakriti prachin, bhayanak abisal tarang dairdhya ka utsarjan karti hai."
     },
     {
       "id": "p23",
@@ -436,7 +436,7 @@
       "mood": "silent challenge",
       "sfx": "SWISH...",
       "prose_en": "The masked Envoy raises two gloved fingers to his temple, giving Ha-Jun a chilling, mocking salute before stepping off the ledge.",
-      "prose_hi": "Nakabposh doot apne mandir ki or do dastaane wali ungaliyan uthata hai aur kagaar se utarne se pehle ha-jun ko ek thandi, majakiya salami deta hai."
+      "prose_hi": "Nakabposh doot apne mandir ki or do dastaane wali ungaliyan uthata hai aur kagaar se utarne se pehle Ha-Jun ko ek thandi, majakiya salami deta hai."
     },
     {
       "id": "p24",
@@ -470,7 +470,7 @@
       "mood": "dispersal into the shadows",
       "sfx": "BAT-FLAP-SCREECH!!",
       "prose_en": "The masked figure dissolves into thousands of screeching black demonic bats that scatter into the night sky over Seoul.",
-      "prose_hi": "Nakabposh aakriti hajaron chikhate hue kale rakshasi chamgadadon mein vilin ho jaati hai jo seoul ke raat ke aakash mein bikhar jaate han."
+      "prose_hi": "Nakabposh aakriti hajaron chikhate hue kale shaitani demonic chamgadadon mein vilin ho jaati hai jo seoul ke raat ke aakash mein bikhar jaate han."
     },
     {
       "id": "p26",
@@ -493,7 +493,7 @@
         }
       ],
       "prose_en": "Ha-Jun and Min-Jae emerge safely onto a quiet, wet residential street, distant sirens fading behind campus walls.",
-      "prose_hi": "Ha-jun aur min-je ek shant, gili avasiya sadak par surakshit roop se nikalte han, parisar ki diwaron ke peeche door sthit siren baj rahe han."
+      "prose_hi": "Ha-Jun aur min-je ek shant, gili avasiya sadak par surakshit roop se nikalte han, parisar ki diwaron ke peeche door sthit siren baj rahe han."
     },
     {
       "id": "p27",
@@ -526,7 +526,7 @@
       "mood": "next relic call",
       "sfx": "PING... PING...",
       "prose_en": "The Ring of Hollow Blood on Ha-Jun's finger suddenly pulses with a directional resonance beacon pointing east toward the University Observatory.",
-      "prose_hi": "Ha-jun ki ungli par khokhale khoon ki anguthi achanak ek dishatmak anunaad bikan ke saath vishwavidyalaya vedhshala ki or purva ki or ishara karti hai."
+      "prose_hi": "Ha-Jun ki ungli par khokhale khoon ki anguthi achanak ek dishatmak anunaad bikan ke saath vishwavidyalaya vedhshala ki or purva ki or ishara karti hai."
     },
     {
       "id": "p29",

@@ -37,7 +37,7 @@
         }
       ],
       "prose_en": "Malgath sits with his massive chest wrapped in clean white linens, drinking healing elixir with Tae-Jun.",
-      "prose_hi": "Malgath saaf safed linen mein apni vishal chhati ko lapete hue baitha hai, taaye-jun ke saath upchar amrit pee raha hai."
+      "prose_hi": "Malgath saaf safed linen mein apni vishal chhati ko lapete hue baitha hai, Tae-Jun ke saath upchar amrit pee raha hai."
     },
     {
       "id": "p03",
@@ -47,7 +47,7 @@
       "action": "Tae-Jun smiles: 'Human medicine aur demon mana ka combination har wound ko double speed se heal karta hai.'",
       "mood": "brother as diplomat",
       "prose_en": "Tae-Jun smiles: 'Human medicine aur demon mana ka combination har wound ko double speed se heal karta hai.'.",
-      "prose_hi": "Taaye-jun muskurate han: 'manav chikitsa aur danav man ka sanyojan har ghav ko doguni gati se theek karta hai.'"
+      "prose_hi": "Tae-Jun muskurate han: 'manav chikitsa aur danav man ka sanyojan har ghav ko doguni gati se theek karta hai.'"
     },
     {
       "id": "p04",
@@ -59,7 +59,7 @@
       "action": "Ha-Jun gazes out across the valley, fingers tracing the runes on the Eclipse Devourer.",
       "mood": "contemplative king",
       "prose_en": "Ha-Jun gazes out across the valley, fingers tracing the runes on the Eclipse Devourer.",
-      "prose_hi": "Ha-jun ghati ki or dekhta hai, ungaliyan aclips davoorer par runon ka pata lagati han."
+      "prose_hi": "Ha-Jun ghati ki or dekhta hai, ungaliyan aclips davoorer par runon ka pata lagati han."
     },
     {
       "id": "p05",
@@ -82,7 +82,7 @@
         }
       ],
       "prose_en": "Kuro tilts his head: 'Malgath ne apna army surrender kar diya. Lekin Valac aur Lilith abhi bhi hidden hain.'.",
-      "prose_hi": "Kuro ne apna sir jhukaya: 'malgath ne apni sena ka aatmasamarpan kar diya. lekin valack aur lilith abhi bhi chhupe hue han.'"
+      "prose_hi": "Kuro ne apna sir jhukaya: 'Malgath ne apni sena ka aatmasamarpan kar diya. lekin valack aur lilith abhi bhi chhupe hue han.'"
     },
     {
       "id": "p06",
@@ -127,7 +127,7 @@
         }
       ],
       "prose_en": "Ha-Jun's eyes narrow: 'The Hourglass of Eternal Abyss... Wahi relic jo time ko manipulate karta hai?'.",
-      "prose_hi": "Ha-jun ki aankhen sikud gain: 'd ovarglas off iternal abis... wahi avashesh jo samay ko herfer karta hai?'."
+      "prose_hi": "Ha-Jun ki aankhen sikud gain: 'd ovarglas off iternal abis... wahi avashesh jo samay ko herfer karta hai?'."
     },
     {
       "id": "p08",
@@ -150,7 +150,7 @@
         }
       ],
       "prose_en": "Kuro's voice trembles for the first time in the saga: 'Us relic ka price terrifying hai, Ha-Jun.'.",
-      "prose_hi": "Gatha mein pehli baar kuro ki awaaz kampati hai: 'us avashesh ka mulya bhayanak hai, ha-jun.'"
+      "prose_hi": "Gatha mein pehli baar Kuro ki awaaz kampati hai: 'us avashesh ka mulya bhayanak hai, Ha-Jun.'"
     },
     {
       "id": "p09",
@@ -173,7 +173,7 @@
         }
       ],
       "prose_en": "Ha-Jun's heart chills: 'Memory erasure...?'.",
-      "prose_hi": "Ha-jun ka dil thanda ho gaya: 'smriti mitana...?'."
+      "prose_hi": "Ha-Jun ka dil thanda ho gaya: 'smriti mitana...?'."
     },
     {
       "id": "p10",
@@ -194,7 +194,7 @@
         }
       ],
       "prose_en": "Tae-Jun grips Ha-Jun firmly: 'Isliye tum use kabhi use nahi karoge, Ha-Jun! Chahe kuch bhi ho jaye!'.",
-      "prose_hi": "Taaye-jun ne ha-jun ko majbuti se pakad liya: 'isliye tum kabhi use nahin karoge, ha-jun! chahe kuch bhi ho jaye!'."
+      "prose_hi": "Tae-Jun ne Ha-Jun ko majbuti se pakad liya: 'isliye tum kabhi use nahin karoge, Ha-Jun! chahe kuch bhi ho jaye!'."
     },
     {
       "id": "p11",
@@ -206,7 +206,7 @@
       "action": "Ha-Jun nods softly: 'Main promise karta hoon, Bhai. Main apni memories ko kabhi sacrifice nahi karunga.'",
       "mood": "sacred promise",
       "prose_en": "Ha-Jun nods softly: 'Main promise karta hoon, Bhai. Main apni memories ko kabhi sacrifice nahi karunga.'.",
-      "prose_hi": "Ha-jun ne dheere se sir hilaya: 'main vaada karta hun, bhai. main apni yaadon ko kabhi balidan nahin dunga.'"
+      "prose_hi": "Ha-Jun ne dheere se sir hilaya: 'main vaada karta hun, bhai. main apni yaadon ko kabhi balidan nahin dunga.'"
     },
     {
       "id": "p12",
@@ -258,7 +258,7 @@
         }
       ],
       "prose_en": "Malgath explains: 'Valac aur Lilith Hourglass ko use kar ke First Sovereign ke fall se pehle ka time rewind karna chahte hain.'.",
-      "prose_hi": "Malgath batate han: 'valack aur lilith ovarglas ko first sovereign ke fall se pehle ka time rewind karna chahte han.'"
+      "prose_hi": "Malgath batate han: 'valack aur lilith ovarglas ko first Sovereign ke fall se pehle ka time rewind karna chahte han.'"
     },
     {
       "id": "p15",
@@ -282,7 +282,7 @@
         }
       ],
       "prose_en": "Ha-Jun slams his palm onto the table: 'Hum unhe time rewind karne nahi denge.'.",
-      "prose_hi": "Ha-jun ne apni hatheli mej par patak di: 'ham unhen time rewind nahin karne denge.'"
+      "prose_hi": "Ha-Jun ne apni hatheli mej par patak di: 'ham unhen time rewind nahin karne denge.'"
     },
     {
       "id": "p16",
@@ -339,7 +339,7 @@
         }
       ],
       "prose_en": "Ha-Jun smiles: 'Thank you, King Malgath. Apne sky division ko deploy karo.'.",
-      "prose_hi": "Ha-jun muskurata hai: 'dhanyavad, raja malgath. apne sky division ko tainat karo.'"
+      "prose_hi": "Ha-Jun muskurata hai: 'dhanyavad, raja Malgath. apne sky division ko tainat karo.'"
     },
     {
       "id": "p19",
@@ -363,7 +363,7 @@
       "mood": "wings of the king",
       "sfx": "FWOOOOSH!!",
       "prose_en": "Ha-Jun's wings burst outward, crowned in royal obsidian ruby light.",
-      "prose_hi": "Ha-jun ke pankh bahar ki or fute, shahi obsidian ruby prakash mein taj pehnaya gaya."
+      "prose_hi": "Ha-Jun ke pankh bahar ki or fute, shahi obsidian ruby prakash mein taj pehnaya gaya."
     },
     {
       "id": "p21",
@@ -385,7 +385,7 @@
         }
       ],
       "prose_en": "Tae-Jun vaults onto the saddle of an armored black royal wyvern, twin swords ready.",
-      "prose_hi": "Taaye-jun ek bakhtarband kale shahi vayavarn ki kathi par chadhta hai, judwan talwaren taiyar han."
+      "prose_hi": "Tae-Jun ek bakhtarband kale shahi vayavarn ki kathi par chadhta hai, judwan talwaren taiyar han."
     },
     {
       "id": "p22",
@@ -398,7 +398,7 @@
       "mood": "leading the armada",
       "sfx": "SONIC BOOM!!",
       "prose_en": "Ha-Jun rockets into the sky at Mach 1.5, leading the ten-thousand-strong armada toward the edge of time.",
-      "prose_hi": "Ha-jun ne mac 1.5 par aakash mein rocket daage, jisse das hajar majboot armada samay ke ant ki or badh gaya."
+      "prose_hi": "Ha-Jun ne mac 1.5 par aakash mein rocket daage, jisse das hajar majboot armada samay ke ant ki or badh gaya."
     },
     {
       "id": "p23",
@@ -507,7 +507,7 @@
       "mood": "dual blade descent",
       "sfx": "SHING-SHING!!",
       "prose_en": "Ha-Jun dives from the sky, dual-wielding the Dark-Matter Greatsword and the Spatial Void Dagger.",
-      "prose_hi": "Ha-jun aasman se gota lagata hai, dark-mater gratusward aur spateal void dagar ko dohre roop mein istemaal karta hai."
+      "prose_hi": "Ha-Jun aasman se gota lagata hai, dark-mater gratusward aur spateal void dagar ko dohre roop mein istemaal karta hai."
     },
     {
       "id": "p30",
@@ -530,7 +530,7 @@
         }
       ],
       "prose_en": "Ha-Jun impacts the clockwork terrace between Valac and Lilith: 'Then I have ten minutes to cut you both in half.'.",
-      "prose_hi": "Ha-jun valack aur lilith ke beech ghadi ki kal ki chhat par prabhav dalta hai: 'tab mere paas aap donon ko aadha karne ke liye das minute han.'"
+      "prose_hi": "Ha-Jun valack aur lilith ke beech ghadi ki kal ki chhat par prabhav dalta hai: 'tab mere paas aap donon ko aadha karne ke liye das minute han.'"
     }
   ]
 }

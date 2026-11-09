@@ -25,7 +25,7 @@
       "action": "The fifty elite hunters stand in reverent silence, looking at Ha-Jun and Captain Baek with newfound awe.",
       "mood": "military respect",
       "prose_en": "The fifty elite hunters stand in reverent silence, looking at Ha-Jun and Captain Baek with newfound awe.",
-      "prose_hi": "Pachas sambhrant shikari sraddhapurn maun mein khade han, ha-jun aur captain bak ko naye vismay ke saath dekh rahe han."
+      "prose_hi": "Pachas sambhrant shikari sraddhapurn maun mein khade han, Ha-Jun aur captain bak ko naye vismay ke saath dekh rahe han."
     },
     {
       "id": "p03",
@@ -80,7 +80,7 @@
         }
       ],
       "prose_en": "Ha-Jun's fierce battle expression softens; he gives a subtle, warm nod to the child.",
-      "prose_hi": "Ha-jun ki bheeshan yudh abhivyakti naram ho gai; wah bacche ko sukshm, garmjoshi se sir hilata hai."
+      "prose_hi": "Ha-Jun ki bheeshan yudh abhivyakti naram ho gai; wah bacche ko sukshm, garmjoshi se sir hilata hai."
     },
     {
       "id": "p06",
@@ -91,7 +91,7 @@
       "mood": "peace restored",
       "sfx": "CLACK-LOCK!",
       "prose_en": "Captain Baek locks his heavy broadsword into the magnetic back scabbard with a solid metallic clank.",
-      "prose_hi": "Capton bake ne apni bhari talwar ko ek thos dhatu ke clank ke saath chumbkiya pichli myan mein band kar diya."
+      "prose_hi": "Capton bake ne apni bhari talwar ko ek thos lohe ke clank ke saath chumbkiya pichli myan mein band kar diya."
     },
     {
       "id": "p07",
@@ -125,7 +125,7 @@
         }
       ],
       "prose_en": "Captain Baek extends his heavy, calloused hand directly to 17-year-old Ha-Jun.",
-      "prose_hi": "Capton bake apna bhari, kathor haath sidhe 17 varshiya ha-jun ki or badhata hai."
+      "prose_hi": "Capton bake apna bhari, kathor haath sidhe Satra saal ka Ha-Jun ki or badhata hai."
     },
     {
       "id": "p09",
@@ -149,7 +149,7 @@
         }
       ],
       "prose_en": "Ha-Jun grips Baek's hand firmly with his bare right hand; no mana, just mutual human respect.",
-      "prose_hi": "Ha-jun ne apne nange dahine haath se bake ka haath majbuti se pakad liya; koi man nahin, bus aapsi manviya samman."
+      "prose_hi": "Ha-Jun ne apne nange dahine haath se bake ka haath majbuti se pakad liya; koi man nahin, bus aapsi manviya samman."
     },
     {
       "id": "p10",
@@ -183,7 +183,7 @@
         }
       ],
       "prose_en": "Baek presses the master card into Ha-Jun's palm: 'Yeh Section 9 Underground Cryo-Facility ki key hai.'.",
-      "prose_hi": "Bek ne ha-jun ki hatheli mein master card dabaya: 'ye section 9 underground crio-facility ki kunji hai.'"
+      "prose_hi": "Bek ne Ha-Jun ki hatheli mein master card dabaya: 'ye section 9 underground crio-facility ki kunji hai.'"
     },
     {
       "id": "p12",
@@ -206,7 +206,7 @@
         }
       ],
       "prose_en": "Ha-Jun's fingers trace the cold titanium edges; his brother is finally within reach.",
-      "prose_hi": "Ha-jun ki ungaliyan thande titanium kinaron ka pata lagati han; uska bhai antatah pahunch ke bhitar hai."
+      "prose_hi": "Ha-Jun ki ungaliyan thande titanium kinaron ka pata lagati han; uska bhai antatah pahunch ke bhitar hai."
     },
     {
       "id": "p13",
@@ -217,7 +217,7 @@
       "mood": "audio message",
       "sfx": "STATIC-BEEP...",
       "prose_en": "Baek taps a micro-speaker on the card: 'Yeh Kang Tae-Jun ka last recorded message hai.'.",
-      "prose_hi": "Bak card par ek micro-spikar tap karta hai: 'ye kang taaye-jun ka aakhiri record kiya gaya sandesh hai.'"
+      "prose_hi": "Bak card par ek micro-spikar tap karta hai: 'ye kang Tae-Jun ka aakhiri record kiya gaya sandesh hai.'"
     },
     {
       "id": "p14",
@@ -237,7 +237,7 @@
         }
       ],
       "prose_en": "A warm, mature, deeply loving voice echoes from the speaker: 'Ha-Jun... Agar tum yeh sun rahe ho...'.",
-      "prose_hi": "Spikar se ek garmjoshi bhari, paripakv, behad pyar bhari awaaz goonjati hai: 'ha-jun... agar tum yeh sun rahe ho...'."
+      "prose_hi": "Spikar se ek garmjoshi bhari, paripakv, behad pyar bhari awaaz goonjati hai: 'Ha-Jun... agar tum yeh sun rahe ho...'."
     },
     {
       "id": "p15",
@@ -250,7 +250,7 @@
       "mood": "overwhelming grief and joy",
       "sfx": "TEARS...",
       "prose_en": "Ha-Jun's eyes fill with tears as his elder brother's voice wraps around his soul like a warm embrace.",
-      "prose_hi": "Ha-jun ki aankhen asuon se bhar jaati hain kyonki uske bade bhai ki awaaz ek garmjoshi bhare aalingan ki tarah uski aatma mein sama jaati hai."
+      "prose_hi": "Ha-Jun ki aankhen asuon se bhar jaati hain kyonki uske bade bhai ki awaaz ek garmjoshi bhare aalingan ki tarah uski aatma mein sama jaati hai."
     },
     {
       "id": "p16",
@@ -270,7 +270,7 @@
         }
       ],
       "prose_en": "Tae-Jun's voice continues: 'Maine Director Kang ko distract kiya taaki tum school complete kar sako.'.",
-      "prose_hi": "Taaye-jun ki awaz jaari hai: 'maine director kang ko vichalit kiya taki tum school pura kar sako.'"
+      "prose_hi": "Tae-Jun ki awaz jaari hai: 'maine director kang ko vichalit kiya taki tum school pura kar sako.'"
     },
     {
       "id": "p17",
@@ -290,7 +290,7 @@
         }
       ],
       "prose_en": "Tae-Jun's voice turns solemn: 'Lekin Kang toh bas ek mohtaaz tha... Asli khatra Abyss ke teen Demon Kings hain.'.",
-      "prose_hi": "Taaye-jun ki awaz gambhir ho jaati hai: 'lakin kang to bus ek mohtaj tha... asli khatra abis ke teen demon kings han.'"
+      "prose_hi": "Tae-Jun ki awaz gambhir ho jaati hai: 'lakin kang to bus ek mohtaj tha... asli khatra abis ke teen demon kings han.'"
     },
     {
       "id": "p18",
@@ -311,7 +311,7 @@
         }
       ],
       "prose_en": "Tae-Jun whispers: 'Mujhe tumpar garv hai, Ha-Jun. Stay strong. I love you.'.",
-      "prose_hi": "Taaye-jun fusfusata hai: 'mujhe tumpar garv hai, ha-jun. himmat banayen rakhen. mujhe tumse pyar hai.'."
+      "prose_hi": "Tae-Jun fusfusata hai: 'mujhe tumpar garv hai, Ha-Jun. himmat banayen rakhen. mujhe tumse pyar hai.'."
     },
     {
       "id": "p19",
@@ -334,7 +334,7 @@
         }
       ],
       "prose_en": "Ha-Jun presses the card against his Sovereign Crest, drawing deep strength into his soul.",
-      "prose_hi": "Ha-jun apne sovereign crest ke khilaf card dabata hai, jisse uski aatma mein gahri takat aa jaati hai."
+      "prose_hi": "Ha-Jun apne Sovereign crest ke khilaf card dabata hai, jisse uski aatma mein gahri takat aa jaati hai."
     },
     {
       "id": "p20",
@@ -357,7 +357,7 @@
         }
       ],
       "prose_en": "Kuro spreads his dark wings: 'Tae-Jun ne ground prepare kiya... Ab harvest hum karenge!'.",
-      "prose_hi": "Kuro ne apne kale pankh failaye: 'taaye-jun ne jameen taiyar ki... ab fasal hum karenge!'."
+      "prose_hi": "Kuro ne apne kale pankh failaye: 'Tae-Jun ne jameen taiyar ki... ab fasal hum karenge!'."
     },
     {
       "id": "p21",
@@ -379,7 +379,7 @@
         }
       ],
       "prose_en": "Min-Jae pulls the van alongside Ha-Jun and Baek, sliding the door open.",
-      "prose_hi": "Min-je, ha-jun aur bak ke saath van ko khinchta hai, jisse darwaza khul jata hai."
+      "prose_hi": "Min-je, Ha-Jun aur bak ke saath van ko khinchta hai, jisse darwaza khul jata hai."
     },
     {
       "id": "p22",
@@ -411,7 +411,7 @@
       "action": "The dawn sunlight is swallowed by creeping dark purple celestial fog; demonic runes swirl in the clouds.",
       "mood": "abyssal eclipse",
       "prose_en": "The dawn sunlight is swallowed by creeping dark purple celestial fog; demonic runes swirl in the clouds.",
-      "prose_hi": "Bhor ke suraj ki roshni ko gahre baingani rang ke akashiya kohre ne nigal liya hai; rakshasi roon baadalon mein ghumte han."
+      "prose_hi": "Bhor ke suraj ki roshni ko gahre baingani rang ke akashiya kohre ne nigal liya hai; shaitani demonic roon baadalon mein ghumte han."
     },
     {
       "id": "p25",
@@ -456,7 +456,7 @@
         }
       ],
       "prose_en": "Ha-Jun jumps into the van, eyes blazing like twin supernovas.",
-      "prose_hi": "Ha-jun van mein kudta hai, uski aankhen judwan supernova ki tarah chamakti han."
+      "prose_hi": "Ha-Jun van mein kudta hai, uski aankhen judwan supernova ki tarah chamakti han."
     },
     {
       "id": "p27",
@@ -489,7 +489,7 @@
       "mood": "united armada",
       "sfx": "SIRENS & ENGINES ROARING!!",
       "prose_en": "A breathtaking united convoy of Bureau armored vehicles escorting Ha-Jun's van toward Gangnam.",
-      "prose_hi": "Buro ke bakhtarband vahanon ka ek lubhavani sanyukt kaafila ha-jun ki van ko gangnam ki or le ja raha hai."
+      "prose_hi": "Buro ke bakhtarband vahanon ka ek lubhavani sanyukt kaafila Ha-Jun ki van ko gangnam ki or le ja raha hai."
     },
     {
       "id": "p29",
@@ -525,7 +525,7 @@
         }
       ],
       "prose_en": "Ha-Jun's reflection in the glass: bone gauntlet raised, blood blades ready, heart united with his brother.",
-      "prose_hi": "Kanch mein ha-jun ka pratibimb: haddi ka kavach utha hua, rakt blade taiyar, dil apne bhai ke saath ekjut."
+      "prose_hi": "Kanch mein Ha-Jun ka chhaya: haddi ka kavach utha hua, khoon blade taiyar, dil apne bhai ke saath ekjut."
     }
   ]
 }

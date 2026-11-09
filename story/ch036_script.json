@@ -121,7 +121,7 @@
       "mood": "desolate battlefield",
       "sfx": "THUNDER RUMBLE...",
       "prose_en": "A derelict red-brick industrial warehouse surrounded by rusted shipping containers in pouring rain.",
-      "prose_hi": "Bhari baarish mein jung lage shipping containeron se ghira ek parityakt lal-int audyogik godam."
+      "prose_hi": "Bhari baarish mein zang lage shipping containeron se ghira ek parityakt lal-int audyogik godam."
     },
     {
       "id": "p09",
@@ -134,7 +134,7 @@
       "mood": "sovereign meditation",
       "sfx": "HUMMM...",
       "prose_en": "Ha-Jun sits cross-legged in the center of the dusty concrete floor, surrounded by floating ribbons of blood mana.",
-      "prose_hi": "Ha-jun dhul bhare concrete ke farsh ke kendra mein cross-legd baithta hai, jo rakt maina ke tairte ribbon se ghira hua hai."
+      "prose_hi": "Ha-Jun dhul bhare concrete ke farsh ke kendra mein cross-legd baithta hai, jo khoon maina ke tairte ribbon se ghira hua hai."
     },
     {
       "id": "p10",
@@ -214,7 +214,7 @@
       "action": "Ha-Jun's dual-ringed eyes snap open, radiant with sovereign violet and crimson majesty.",
       "mood": "predatory awakening",
       "prose_en": "Ha-Jun's dual-ringed eyes snap open, radiant with sovereign violet and crimson majesty.",
-      "prose_hi": "Ha-jun ki dohri ring wali aankhen khul gain, jo gahre baingani aur gahre lal rang ki mahima se chamak rahi thin."
+      "prose_hi": "Ha-Jun ki dohri ring wali aankhen khul gain, jo gahre baingani aur gahre lal rang ki mahima se chamak rahi thin."
     },
     {
       "id": "p14",
@@ -271,7 +271,7 @@
         }
       ],
       "prose_en": "Ha-Jun stands up effortlessly; his Bone Gauntlet resonates with an acoustic nullifying barrier.",
-      "prose_hi": "Ha-jun sahajta se khada ho jata hai; uska bone gauntlet ek dhwanik ashakt avrodh ke saath pratidhvanit hota hai."
+      "prose_hi": "Ha-Jun sahajta se khada ho jata hai; uska bone gauntlet ek dhwanik ashakt avrodh ke saath pratidhvanit hota hai."
     },
     {
       "id": "p18",
@@ -295,7 +295,7 @@
         }
       ],
       "prose_en": "Ha-Jun flicks his ring finger, projecting a protective dome of hardened crystalline blood around Min-Jae.",
-      "prose_hi": "Ha-jun apni anamika ungli ko hilata hai, jisse min-je ke charon or kathor crystaliy rakt ka ek surakshatmak gumbad dikhai deta hai."
+      "prose_hi": "Ha-Jun apni anamika ungli ko hilata hai, jisse min-je ke charon or kathor crystaliy khoon ka ek surakshatmak gumbad dikhai deta hai."
     },
     {
       "id": "p19",
@@ -341,7 +341,7 @@
       "mood": "dual bloodfire blades",
       "sfx": "FWOOSH-SHING!!",
       "prose_en": "Ha-Jun draws two streams of blood from his ring, igniting them into twin blazing violet-crimson katanas.",
-      "prose_hi": "Ha-jun apni anguthi se rakt ki do dharayen khinchta hai, aur unhen judwa dhadhakte bangni-lal rang ke katana mein prajvalit karta hai."
+      "prose_hi": "Ha-Jun apni anguthi se khoon ki do dharayen khinchta hai, aur unhen judwa dhadhakte bangni-lal rang ke katana mein prajvalit karta hai."
     },
     {
       "id": "p23",
@@ -354,7 +354,7 @@
       "mood": "impenetrable deflection",
       "sfx": "CLANG-CLANG-CLANG!!",
       "prose_en": "Ha-Jun spins into a blur of light; his twin blades deflect every single needle with blinding sparks.",
-      "prose_hi": "Ha-jun prakash ke dhundhlepan mein ghumta hai; uske judwan blade chakachaundh kar dene wali chingari se har ek sui ko vikshepit kar dete han."
+      "prose_hi": "Ha-Jun prakash ke dhundhlepan mein ghumta hai; uske judwan blade chakachaundh kar dene wali chingari se har ek sui ko vikshepit kar dete han."
     },
     {
       "id": "p24",
@@ -367,7 +367,7 @@
       "mood": "sonic dash",
       "sfx": "BOOOM!!",
       "prose_en": "Ha-Jun vanishes in a violet thunderclap, reappearing instantaneously inside the hunter frontline.",
-      "prose_hi": "Ha-jun ek baingani gadgdahat ke saath gayab ho jata hai, aur turant shikari ki seema rekha ke andar phir se prakat hota hai."
+      "prose_hi": "Ha-Jun ek baingani gadgdahat ke saath gayab ho jata hai, aur turant shikari ki seema rekha ke andar phir se prakat hota hai."
     },
     {
       "id": "p25",
@@ -468,7 +468,7 @@
         }
       ],
       "prose_en": "Ha-Jun points his flaming blood katana straight at Captain Baek's throat: 'Tumhara intezaar tha, Captain.'.",
-      "prose_hi": "Ha-jun apna dhadhkta hua khoon katana sidhe captain bak ke gale ki or ingit karta hai: 'tumhara intjaar tha, capton.'"
+      "prose_hi": "Ha-Jun apna dhadhkta hua khoon katana sidhe captain bak ke gale ki or ingit karta hai: 'tumhara intjaar tha, capton.'"
     }
   ]
 }

@@ -57,7 +57,7 @@
       "mood": "the memorial of honor",
       "sfx": "BRONZE SHINE...",
       "prose_en": "A magnificent bronze monument depicting Kang Tae-Jun holding his Guardian Shield and Kang Ha-Jun with his starlight wings.",
-      "prose_hi": "Ek shandar kansya smarak jisme kang taaye-jun ko apne sanrakshak shield aur kang ha-jun ko apne taron wale pankhon ke saath dikhaya gaya hai."
+      "prose_hi": "Ek shandar kansya smarak jisme kang Tae-Jun ko apne sanrakshak shield aur kang Ha-Jun ko apne taron wale pankhon ke saath dikhaya gaya hai."
     },
     {
       "id": "p04",
@@ -68,7 +68,7 @@
       "mood": "eternal inscription",
       "sfx": "PLAQUE MACRO...",
       "prose_en": "The plaque reads in both Korean and Demonic: 'BROTHERS IN BLOOD, GUARDIANS OF TOMORROW. NEITHER SHALL WALK ALONE.'.",
-      "prose_hi": "Pattika par korean aur rakshasi donon bhashaon mein likha hai: 'rakt mein bhai, kal ke sanrshak. na to akele chalenge.'"
+      "prose_hi": "Pattika par korean aur shaitani demonic donon bhashaon mein likha hai: 'khoon mein bhai, kal ke sanrshak. na to akele chalenge.'"
     },
     {
       "id": "p05",
@@ -90,7 +90,7 @@
         }
       ],
       "prose_en": "Kang Tae-Jun—now 25, broad-shouldered, dignified, wearing a tailored charcoal suit and gold glasses—inspects the courtyard.",
-      "prose_hi": "Cong taaye-jun - jo ab 25 varsh ka hai, chaude kandhe wala, pratishthit, silvaya hua charcoal suit aur sone ka chashma pahane hue - aangan ka nirikshan karta hai."
+      "prose_hi": "Cong Tae-Jun - jo ab 25 varsh ka hai, chaude kandhe wala, pratishthit, silvaya hua charcoal suit aur sone ka chashma pahane hue - aangan ka nirikshan karta hai."
     },
     {
       "id": "p06",
@@ -156,7 +156,7 @@
         }
       ],
       "prose_en": "Tae-Jun chuckles: 'Where do you think he is? He's on the roof watching the clouds.'.",
-      "prose_hi": "Taaye-jun hanste hue kahte han: 'tumhen kya lagta hai wah kahan hai? wah chhat par baadalon ko dekh raha hai.'"
+      "prose_hi": "Tae-Jun hanste hue kahte han: 'tumhen kya lagta hai wah kahan hai? wah chhat par baadalon ko dekh raha hai.'"
     },
     {
       "id": "p09",
@@ -169,7 +169,7 @@
       "mood": "the mature sovereign",
       "sfx": "WIND IN HAIR...",
       "prose_en": "22-year-old Ha-Jun Kang—mature, tall, breathtakingly handsome in a simple black button-down shirt and jeans—looks at the sky.",
-      "prose_hi": "22 varshiya ha-jun kang - ek sadharan kali batan-down shirt aur jeans mein paripakv, lamba, lubhavani roop se sundar - aakash ki or dekh raha hai."
+      "prose_hi": "22 varshiya Ha-Jun kang - ek sadharan kali batan-down shirt aur jeans mein paripakv, lamba, lubhavani roop se sundar - aakash ki or dekh raha hai."
     },
     {
       "id": "p10",
@@ -218,7 +218,7 @@
         }
       ],
       "prose_en": "Ha-Jun pops the tab of his coffee can: 'Two minutes, Kuro. I just wanted to feel the breeze.'.",
-      "prose_hi": "Ha-jun apne coffee can ka tab kholta hai: 'do minut, kuro. main bus hawa ka jhonka mahsoos karna chahta tha.'"
+      "prose_hi": "Ha-Jun apne coffee can ka tab kholta hai: 'do minut, Kuro. main bus hawa ka jhonka mahsoos karna chahta tha.'"
     },
     {
       "id": "p12",
@@ -242,7 +242,7 @@
         }
       ],
       "prose_en": "Tae-Jun walks onto the terrace, resting his forearms on the stone balustrade beside Ha-Jun.",
-      "prose_hi": "Taaye-jun chhat par chalta hai, apne agrabahuon ko ha-jun ke bagal mein patthar ke chhajje par tikata hai."
+      "prose_hi": "Tae-Jun chhat par chalta hai, apne agrabahuon ko Ha-Jun ke bagal mein patthar ke chhajje par tikata hai."
     },
     {
       "id": "p13",
@@ -266,7 +266,7 @@
         }
       ],
       "prose_en": "Ha-Jun looks at his brother: 'I was thinking about the day you caught me falling from the clouds in Chapter 86.'.",
-      "prose_hi": "Ha-jun apne bhai ki or dekhta hai: 'main us din ke baare mein soch raha tha jab tumne adhyay 86 mein mujhe baadalon se girte hue dekha tha.'"
+      "prose_hi": "Ha-Jun apne bhai ki or dekhta hai: 'main us din ke baare mein soch raha tha jab tumne adhyay 86 mein mujhe baadalon se girte hue dekha tha.'"
     },
     {
       "id": "p14",
@@ -290,7 +290,7 @@
         }
       ],
       "prose_en": "Tae-Jun covers Ha-Jun's hand: 'And you caught the whole world from falling. That makes us even.'.",
-      "prose_hi": "Taaye-jun ne ha-jun ka haath dhak diya: 'aur aapne puri duniya ko girne se bacha liya. yah hamen sam banata hai.'"
+      "prose_hi": "Tae-Jun ne Ha-Jun ka haath dhak diya: 'aur aapne puri duniya ko girne se bacha liya. yah hamen sam banata hai.'"
     },
     {
       "id": "p15",
@@ -336,7 +336,7 @@
         }
       ],
       "prose_en": "A single tear of pure fulfillment touches Ha-Jun's cheek: 'They will never have to know what a war feels like.'.",
-      "prose_hi": "Shuddh tripti ka ek aansu ha-jun ke gaal ko chhuta hai: 'unhen kabhi nahin janana hoga ki yudh kaisa lagta hai.'"
+      "prose_hi": "Shuddh tripti ka ek aansu Ha-Jun ke gaal ko chhuta hai: 'unhen kabhi nahin janana hoga ki yudh kaisa lagta hai.'"
     },
     {
       "id": "p18",
@@ -360,7 +360,7 @@
         }
       ],
       "prose_en": "Tae-Jun nods: 'Every single drop.'.",
-      "prose_hi": "Taaye-jun sir hilate han: 'har ek boond.'"
+      "prose_hi": "Tae-Jun sir hilate han: 'har ek boond.'"
     },
     {
       "id": "p19",
@@ -382,7 +382,7 @@
         }
       ],
       "prose_en": "Min-Jae pokes his head out: 'The curtains are rising! Ha-Jun, Tae-Jun, on stage now!'.",
-      "prose_hi": "Min-je ne apna sir bahar nikala: 'parde uth rahe han! ha-jun, taaye-jun, ab manch par!'"
+      "prose_hi": "Min-je ne apna sir bahar nikala: 'parde uth rahe han! Ha-Jun, Tae-Jun, ab manch par!'"
     },
     {
       "id": "p20",
@@ -430,7 +430,7 @@
         }
       ],
       "prose_en": "Tae-Jun smiles: 'Lead the way, Ha-Jun.'.",
-      "prose_hi": "Taaye-jun muskurata hai: 'rasta dikhao, ha-jun.'"
+      "prose_hi": "Tae-Jun muskurata hai: 'rasta dikhao, Ha-Jun.'"
     },
     {
       "id": "p22",
@@ -467,7 +467,7 @@
       "mood": "the sovereign speaks",
       "sfx": "HUSH...",
       "prose_en": "Ha-Jun reaches the central microphone; the crowd falls completely silent, hanging on his every word.",
-      "prose_hi": "Ha-jun kendriya microphone tak pahunchta hai; bheed puri tarah se chup ho jaati hai aur uske har shabd par dhyan deti hai."
+      "prose_hi": "Ha-Jun kendriya microphone tak pahunchta hai; bheed puri tarah se chup ho jaati hai aur uske har shabd par dhyan deti hai."
     },
     {
       "id": "p25",
@@ -480,7 +480,7 @@
       "mood": "fatherly monarch",
       "sfx": "WARM GAZE...",
       "prose_en": "Ha-Jun looks into the eyes of the young human and demon students, smiling with deep, radiant warmth.",
-      "prose_hi": "Ha-jun yuva manav aur rakshas chhatron ki aankhon mein dekhta hai, gahri, ujjwal garmjoshi ke saath muskurata hai."
+      "prose_hi": "Ha-Jun yuva manav aur rakshas chhatron ki aankhon mein dekhta hai, gahri, ujjwal garmjoshi ke saath muskurata hai."
     },
     {
       "id": "p26",
@@ -504,7 +504,7 @@
         }
       ],
       "prose_en": "Ha-Jun: 'Five years ago, we were told humans and demons were born to destroy each other. Today, you prove hate is a choice.'.",
-      "prose_hi": "Ha-jun: 'panch saal pahle, hamen bataya gaya tha ki manushya aur rakshas ek-dusre ko nasht karne ke liye paida hue the. aaj, aap sabit karte hain ki nafrat ek vikalp hai.'"
+      "prose_hi": "Ha-Jun: 'panch saal pahle, hamen bataya gaya tha ki manushya aur rakshas ek-dusre ko nasht karne ke liye paida hue the. aaj, aap sabit karte hain ki nafrat ek vikalp hai.'"
     },
     {
       "id": "p27",
@@ -527,7 +527,7 @@
         }
       ],
       "prose_en": "Ha-Jun: 'Peace was not bought with weapons. It was bought with brotherhood.'.",
-      "prose_hi": "Ha-jun: 'shanti hathiyaron se nahin kharidi jati. ise bhaichare se khareeda gaya tha.'"
+      "prose_hi": "Ha-Jun: 'shanti hathiyaron se nahin kharidi jati. ise bhaichare se khareeda gaya tha.'"
     },
     {
       "id": "p28",
@@ -562,7 +562,7 @@
       "mood": "celebration of the future",
       "sfx": "CONFETTI SHOWER...",
       "prose_en": "Golden confetti and red rose petals shower down upon Ha-Jun, Tae-Jun, Min-Jae, Baek, and Kuro.",
-      "prose_hi": "Ha-jun, taaye-jun, min-je, bak aur kuro par sunhari confeddi aur lal gulab ki pankhudiyan barasti han."
+      "prose_hi": "Ha-Jun, Tae-Jun, min-je, bak aur Kuro par sunhari confeddi aur lal gulab ki pankhudiyan barasti han."
     },
     {
       "id": "p30",
@@ -585,7 +585,7 @@
         }
       ],
       "prose_en": "Ha-Jun and Tae-Jun stand together in the center of the cheering world, ready for the final 103rd farewell!.",
-      "prose_hi": "Ha-jun aur taaye-jun utsahi duniya ke kendra mein ek saath khade han, antim 103vin vidai ke liye taiyar han!"
+      "prose_hi": "Ha-Jun aur Tae-Jun utsahi duniya ke kendra mein ek saath khade han, antim 103vin vidai ke liye taiyar han!"
     }
   ]
 }

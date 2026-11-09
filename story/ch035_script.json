@@ -39,7 +39,7 @@
       "mood": "superhuman reflex",
       "sfx": "SWOOSH!",
       "prose_en": "Ha-Jun's left arm blurs upward, intercepting the bullet centimeters before it strikes his chest.",
-      "prose_hi": "Ha-jun ka bayan haath upar ki or dhundhla ho jata hai, goli uski chhati par lagne se kuch centimeter pehle hi ruk jaati hai."
+      "prose_hi": "Ha-Jun ka bayan haath upar ki or dhundhla ho jata hai, goli uski chhati par lagne se kuch centimeter pehle hi ruk jaati hai."
     },
     {
       "id": "p04",
@@ -86,7 +86,7 @@
       "mood": "swift counter",
       "sfx": "ZIP-ZIP-ZIP!!",
       "prose_en": "With a snap of his right wrist, Ha-Jun fires three razor-thin crimson blood needles upward.",
-      "prose_hi": "Apni dahini kalai ke jhatke ke sath, ha-jun teen ustra-patli lal rang ki rakt suiyon ko upar ki or fire karta hai."
+      "prose_hi": "Apni dahini kalai ke jhatke ke sath, Ha-Jun teen ustra-patli lal rang ki khoon suiyon ko upar ki or fire karta hai."
     },
     {
       "id": "p07",
@@ -130,7 +130,7 @@
       "mood": "lethal swing",
       "sfx": "CRACKLE-SWING!!",
       "prose_en": "The operative swings a 50,000-volt high-frequency baton directly at Ha-Jun's temple.",
-      "prose_hi": "Sanchalak ha-jun ke mandir par sidhe 50,000 volt ki uchch aavritti wali chhadi ghumata hai."
+      "prose_hi": "Sanchalak Ha-Jun ke mandir par sidhe 50,000 volt ki uchch aavritti wali chhadi ghumata hai."
     },
     {
       "id": "p11",
@@ -143,7 +143,7 @@
       "mood": "zero damage",
       "sfx": "ZZZZT-SNAP!",
       "prose_en": "Ha-Jun catches the sparking electrified baton in his bare left bone gauntlet; electricity grounds harmlessly.",
-      "prose_hi": "Ha-jun ne apni nangi bai haddi ke dastaane mein sparking vidyutikrit batten ko pakad liya; bijli hanirahit roop se ground hoti hai."
+      "prose_hi": "Ha-Jun ne apni nangi bai haddi ke dastaane mein sparking vidyutikrit batten ko pakad liya; bijli hanirahit roop se ground hoti hai."
     },
     {
       "id": "p12",
@@ -156,7 +156,7 @@
       "mood": "crushing strength",
       "sfx": "CRUNCH!!",
       "prose_en": "With a flex of his fingers, the titanium-reinforced baton is crushed into twisted scrap metal.",
-      "prose_hi": "Apni ungaliyon ke lachilepan se, titenium-prablit batten ko kuchalkar mude hue scrap dhatu mein badal diya jata hai."
+      "prose_hi": "Apni ungaliyon ke lachilepan se, titenium-prablit batten ko kuchalkar mude hue scrap metal mein badal diya jata hai."
     },
     {
       "id": "p13",
@@ -169,7 +169,7 @@
       "mood": "kinetic blast",
       "sfx": "BOOOM!!",
       "prose_en": "Ha-Jun drives an open-palm kinetic strike into the operative's breastplate, blowing him 20 feet backward.",
-      "prose_hi": "Ha-jun ne sanchalak ke brestaplate mein khuli hatheli se gatij prahar kiya, jisse wah 20 feet peeche chala gaya."
+      "prose_hi": "Ha-Jun ne sanchalak ke brestaplate mein khuli hatheli se gatij prahar kiya, jisse wah 20 feet peeche chala gaya."
     },
     {
       "id": "p14",
@@ -239,7 +239,7 @@
       "mood": "interrogation grip",
       "sfx": "THUD!!",
       "prose_en": "Ha-Jun steps forward, pinning the operative against the rusted pipe by his collar with terrifying ease.",
-      "prose_hi": "Ha-jun aage badhta hai, jung lage pipe par operative ko bhayanak sahajta se uske collar se pakad leta hai."
+      "prose_hi": "Ha-Jun aage badhta hai, zang lage pipe par operative ko bhayanak sahajta se uske collar se pakad leta hai."
     },
     {
       "id": "p19",
@@ -262,7 +262,7 @@
         }
       ],
       "prose_en": "Ha-Jun's violet irises with crimson rings burn mere inches from the operative's terrified eyes.",
-      "prose_hi": "Ha-jun ki lal rang ki chhallon wali baingani rang ki putli sanchalak ki bhaybhit aankhon se matra kuch inch ki doori par jalti hai."
+      "prose_hi": "Ha-Jun ki lal rang ki chhallon wali baingani rang ki putli sanchalak ki bhaybhit aankhon se matra kuch inch ki doori par jalti hai."
     },
     {
       "id": "p20",
@@ -296,7 +296,7 @@
       "mood": "evidence seized",
       "sfx": "RIPP!",
       "prose_en": "Ha-Jun reaches into the operative's tactical vest and pulls out a ruggedized military tablet.",
-      "prose_hi": "Ha-jun operative ki samrik baniyan mein pahunchta hai aur ek majboot sainya tablet nikalta hai."
+      "prose_hi": "Ha-Jun operative ki samrik baniyan mein pahunchta hai aur ek majboot sainya tablet nikalta hai."
     },
     {
       "id": "p22",
@@ -309,7 +309,7 @@
       "mood": "merciful takedown",
       "sfx": "TAP...",
       "prose_en": "Ha-Jun taps a precise pressure point on the operative's neck; the man slumps instantly into deep sleep.",
-      "prose_hi": "Ha-jun operative ki gardan par ek sateek dabav bindu par tap karta hai; aadmi turant gahri neend mein so jata hai."
+      "prose_hi": "Ha-Jun operative ki gardan par ek sateek dabav bindu par tap karta hai; aadmi turant gahri neend mein so jata hai."
     },
     {
       "id": "p23",
@@ -383,7 +383,7 @@
       "action": "Ha-Jun's expression turns into a mask of pure, absolute imperial coldness.",
       "mood": "birth of the wrath",
       "prose_en": "Ha-Jun's expression turns into a mask of pure, absolute imperial coldness.",
-      "prose_hi": "Ha-jun ki abhivyakti shuddh, purna shahi sheetalta ke mukhaute mein badal jaati hai."
+      "prose_hi": "Ha-Jun ki abhivyakti shuddh, purna shahi sheetalta ke mukhaute mein badal jaati hai."
     },
     {
       "id": "p28",
@@ -419,7 +419,7 @@
       "mood": "irrevocable decision",
       "sfx": "SNAP!!",
       "prose_en": "Ha-Jun downloads the file to Min-Jae's encrypted cloud, then snaps the tablet in half with one hand.",
-      "prose_hi": "Ha-jun file ko min-je ke encrypted cloud par download karta hai, phir ek haath se tablet ko aadhe mein snap karta hai."
+      "prose_hi": "Ha-Jun file ko min-je ke encrypted cloud par download karta hai, phir ek haath se tablet ko aadhe mein snap karta hai."
     },
     {
       "id": "p30",

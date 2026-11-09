@@ -39,7 +39,7 @@
       "mood": "approaching the epicenter",
       "sfx": "BOOTS ON STEEL...",
       "prose_en": "The trio sprints along the maintenance catwalk; Ha-Jun's eyes illuminate the path ahead in soft violet light.",
-      "prose_hi": "Teenon rakhrakhav catwalk ke saath daudte han; ha-jun ki aankhen naram baingani roshni mein aage ka rasta roshan karti han."
+      "prose_hi": "Teenon rakhrakhav catwalk ke saath daudte han; Ha-Jun ki aankhen naram baingani roshni mein aage ka rasta roshan karti han."
     },
     {
       "id": "p04",
@@ -131,7 +131,7 @@
         }
       ],
       "prose_en": "Suspended in magnetic confinement rings at the gate's center: an artificial beating heart glowing with pulsating cyan and crimson blood.",
-      "prose_hi": "Gate ke kendra mein chumbkiya karawas ke chhalle mein nilambit: ek kritrim dhadkata hua dil jo spandit siyan aur lal rang ke rakt se chamak raha hai."
+      "prose_hi": "Gate ke kendra mein chumbkiya karawas ke chhalle mein nilambit: ek kritrim dhadkata hua dil jo spandit siyan aur lal rang ke khoon se chamak raha hai."
     },
     {
       "id": "p09",
@@ -155,7 +155,7 @@
         }
       ],
       "prose_en": "Ha-Jun stares at the suspended heart; its rhythmic beat resonates painfully in his own chest.",
-      "prose_hi": "Ha-jun nilambit hriday ko ghurta hai; iski laybaddh thap uske hi seene mein dard bhari goonjati hai."
+      "prose_hi": "Ha-Jun nilambit hriday ko ghurta hai; iski laybaddh thap uske hi seene mein dard bhari goonjati hai."
     },
     {
       "id": "p10",
@@ -166,7 +166,7 @@
       "mood": "encircled on all sides",
       "sfx": "CLICK-COCK-AIM!!",
       "prose_en": "Across the metal catwalks above, fifty heavily armed cultists and cybernetic mercenaries cock weapons simultaneously.",
-      "prose_hi": "Upar dhatu catwalk ke par, pachas bhari hathiyaron se lais panthvadi aur cybernetic bhaade ke sainik ek saath hathiyar uthate han."
+      "prose_hi": "Upar metal catwalk ke par, pachas bhari hathiyaron se lais panthvadi aur cybernetic bhaade ke sainik ek saath hathiyar uthate han."
     },
     {
       "id": "p11",
@@ -188,7 +188,7 @@
         }
       ],
       "prose_en": "Baek and Min-Jae dive behind heavy concrete rail stops: 'Ha-Jun! We will suppress the catwalks! You take Vance!'.",
-      "prose_hi": "Bek aur min-je bhari concrete rail stop ke peeche gota lagate han: 'ha-jun! hum catwalk daba denge! aap vens ko le lijiye!'"
+      "prose_hi": "Bek aur min-je bhari concrete rail stop ke peeche gota lagate han: 'Ha-Jun! hum catwalk daba denge! aap vens ko le lijiye!'"
     },
     {
       "id": "p12",
@@ -201,7 +201,7 @@
       "mood": "impenetrable aegis",
       "sfx": "PING-SPARK-BOUNCE!!",
       "prose_en": "Ha-Jun walks into the hail of machine-gun fire; a three-inch violet mana barrier deflects every single bullet effortlessly.",
-      "prose_hi": "Ha-jun mashin-banduk ki aag ke beech chalta hai; teen inch ka baingani maina barrier har ek goli ko aasani se vikshepit kar deta hai."
+      "prose_hi": "Ha-Jun mashin-banduk ki aag ke beech chalta hai; teen inch ka baingani maina barrier har ek goli ko aasani se vikshepit kar deta hai."
     },
     {
       "id": "p13",
@@ -214,7 +214,7 @@
       "mood": "bone scythe manifested",
       "sfx": "RATTLE-SHING!!",
       "prose_en": "The ancient Bone of the Forgotten relic materializes in Ha-Jun's left hand, transforming into a 10-foot skeletal scythe.",
-      "prose_hi": "Bhule hue avashesh ki prachin haddi ha-jun ke baen haath mein bhautik ho jaati hai, jo 10 foot ke kankal ki hansiya mein badal jaati hai."
+      "prose_hi": "Bhule hue avashesh ki prachin haddi Ha-Jun ke baen haath mein bhautik ho jaati hai, jo 10 foot ke kankal ki hansiya mein badal jaati hai."
     },
     {
       "id": "p14",
@@ -227,7 +227,7 @@
       "mood": "sweeping the catwalks",
       "sfx": "SLASH-WHIRL!!",
       "prose_en": "Ha-Jun sweeps the scythe horizontally; a 100-foot crescent shockwave of spectral white bone blades sweeps through the gantries.",
-      "prose_hi": "Ha-jun daraanti ko kshaitij roop se ghumata hai; varnakramiy safed haddi ke blade ki 100 foot ki ardhchandrakar shockwev gantry ke madhyam se bahti hai."
+      "prose_hi": "Ha-Jun daraanti ko kshaitij roop se ghumata hai; varnakramiy safed haddi ke blade ki 100 foot ki ardhchandrakar shockwev gantry ke madhyam se bahti hai."
     },
     {
       "id": "p15",
@@ -238,7 +238,7 @@
       "mood": "ambient threat eliminated",
       "sfx": "CRASH-SCREAM!!",
       "prose_en": "The steel support pillars are severed like toothpicks; gantries, cultists, and catwalks collapse in an avalanche of twisted metal.",
-      "prose_hi": "Stil ke samarthan khambhe tothpix ki tarah kate hue han; gaintri, kaltist aur catwalk mudi hui dhatu ke himskhalan mein dhah jaate han."
+      "prose_hi": "Stil ke samarthan khambhe tothpix ki tarah kate hue han; gaintri, kaltist aur catwalk mudi hui lohe ke himskhalan mein dhah jaate han."
     },
     {
       "id": "p16",
@@ -260,7 +260,7 @@
         }
       ],
       "prose_en": "Vance ignites plasma thrusters on his exosuit's back, rocketing straight down toward Ha-Jun with a heavy hydraulic pile-bunker.",
-      "prose_hi": "Vens apne exosuit ki peeth par plasma thrusters ko prajvalit karta hai, ek bhari hydraulic pil-bankar ke saath sidhe ha-jun ki or rocket karta hai."
+      "prose_hi": "Vens apne exosuit ki peeth par plasma thrusters ko prajvalit karta hai, ek bhari hydraulic pil-bankar ke saath sidhe Ha-Jun ki or rocket karta hai."
     },
     {
       "id": "p17",
@@ -273,7 +273,7 @@
       "mood": "stopped cold",
       "sfx": "KABOOOOM-SHOCKWAVE!!",
       "prose_en": "Vance's five-ton hydraulic fist smashes down—and is caught cold in the palm of Ha-Jun's bare right hand.",
-      "prose_hi": "Vence ki paanch ton ki hydraulic mutthi tutkar gir jaati hai aur ha-jun ke nange dahine haath ki hatheli mein thandi pad jaati hai."
+      "prose_hi": "Vence ki paanch ton ki hydraulic mutthi tutkar gir jaati hai aur Ha-Jun ke nange dahine haath ki hatheli mein thandi pad jaati hai."
     },
     {
       "id": "p18",
@@ -308,7 +308,7 @@
       "mood": "crushing the weapon",
       "sfx": "SQUEEZE-CRUSH!!",
       "prose_en": "Ha-Jun's fingers squeeze; the reinforced tungsten-titanium fist folds, groans, and implodes like an empty soda can.",
-      "prose_hi": "Ha-jun ki ungaliyan sikud gain; prabalit tangston-titenium mutthi ek khali soda can ki tarah mudati hai, karahati hai aur fat jaati hai."
+      "prose_hi": "Ha-Jun ki ungaliyan sikud gain; prabalit tangston-titenium mutthi ek khali soda can ki tarah mudati hai, karahati hai aur fat jaati hai."
     },
     {
       "id": "p20",
@@ -332,7 +332,7 @@
         }
       ],
       "prose_en": "Ha-Jun drives a mana-charged knee strike into the exosuit's chestplate, blowing the heavy armor plating out its back.",
-      "prose_hi": "Ha-jun exosuit ke chestaplate mein ek mana-charj ghutne ka prahar karta hai, jisse uski peeth par chadha hua bhari kavach ​​ud jata hai."
+      "prose_hi": "Ha-Jun exosuit ke chestaplate mein ek mana-charj ghutne ka prahar karta hai, jisse uski peeth par chadha hua bhari kavach ​​ud jata hai."
     },
     {
       "id": "p21",
@@ -389,7 +389,7 @@
         }
       ],
       "prose_en": "Ha-Jun stands over the broken scientist, his silhouette framed by the swirling purple vortex of the gate behind him.",
-      "prose_hi": "Ha-jun toote hue vaigyanik ke upar khada hai, uska chhayachitra uske peeche gate ke ghumte baingani bhanwar se bana hai."
+      "prose_hi": "Ha-Jun toote hue vaigyanik ke upar khada hai, uska chhayachitra uske peeche gate ke ghumte baingani bhanwar se bana hai."
     },
     {
       "id": "p24",
@@ -402,7 +402,7 @@
       "mood": "destabilization",
       "sfx": "HEART BEAT-FAST...",
       "prose_en": "Ha-Jun looks up at the artificial heart; its erratic pulse is destabilizing the gate, causing sea water to flood through the ceiling.",
-      "prose_hi": "Ha-jun kritrim hriday ki or dekhta hai; iski aniyamit gati gate ko asthir kar rahi hai, jisse samudra ka pani chhat se hokar bah raha hai."
+      "prose_hi": "Ha-Jun kritrim hriday ki or dekhta hai; iski aniyamit gati gate ko asthir kar rahi hai, jisse samudra ka pani chhat se hokar bah raha hai."
     },
     {
       "id": "p25",
@@ -426,7 +426,7 @@
         }
       ],
       "prose_en": "Ha-Jun leaps forty feet into the air, cradling the synthetic heart in both hands with brotherly tenderness.",
-      "prose_hi": "Bhaichare ki komalta ke saath synthetic dil ko donon hathon mein pakadkar ha-jun chalis feet hawa mein uchhalta hai."
+      "prose_hi": "Bhaichare ki komalta ke saath synthetic dil ko donon hathon mein pakadkar Ha-Jun chalis feet hawa mein uchhalta hai."
     },
     {
       "id": "p26",
@@ -452,7 +452,7 @@
       "mood": "returning to the bloodline",
       "sfx": "SHIMMER...",
       "prose_en": "The artificial heart peacefully dissolves into thousands of golden light particles, sinking into Ha-Jun's chest.",
-      "prose_hi": "Kritrim hriday shantipurvak hajaron sunhare prakash kanon mein vilin ho jata hai, ha-jun ki chhati mein doob jata hai."
+      "prose_hi": "Kritrim hriday shantipurvak hajaron sunhare prakash kanon mein vilin ho jata hai, Ha-Jun ki chhati mein doob jata hai."
     },
     {
       "id": "p28",
@@ -509,7 +509,7 @@
         }
       ],
       "prose_en": "Vance vanishes into the pitch-black abyss; Ha-Jun turns his back calmly as the vortex opens a stable dimensional wormhole to Tartarus.",
-      "prose_hi": "Vence ghor kali khai mein gayab ho jata hai; jaise hi bhanwar tarters ke liye ek sthir aayami varmahol kholta hai, ha-jun shanti se apni peeth ghumata hai."
+      "prose_hi": "Vence ghor kali khai mein gayab ho jata hai; jaise hi bhanwar tarters ke liye ek sthir aayami varmahol kholta hai, Ha-Jun shanti se apni peeth ghumata hai."
     }
   ]
 }

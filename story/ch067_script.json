@@ -15,7 +15,7 @@
       "mood": "industrial secrecy",
       "sfx": "FOG HORN...",
       "prose_en": "Massive rusted cargo cranes loom like metal dinosaurs in the thick ocean fog over Incheon shipping canal.",
-      "prose_hi": "Inchiyon shipping nahar ke upar ghane samudri kohre mein vishal jung lage malvahak crane dhatu ke dinosaur ki tarah mandra rahe han."
+      "prose_hi": "Inchiyon shipping nahar ke upar ghane samudri kohre mein vishal zang lage malvahak crane lohe ke dinosaur ki tarah mandra rahe han."
     },
     {
       "id": "p02",
@@ -50,7 +50,7 @@
       "mood": "entering the danger zone",
       "sfx": "STEP-STEP...",
       "prose_en": "Ha-Jun slips through smoothly, coat billowed by ocean wind; Min-Jae follows with suppressed assault rifle ready.",
-      "prose_hi": "Ha-jun aasani se fisal jata hai, coat samudri hawa se ud jata hai; min-je dabi hui assault rifle ke saath taiyar hokar chalta hai."
+      "prose_hi": "Ha-Jun aasani se fisal jata hai, coat samudri hawa se ud jata hai; min-je dabi hui assault rifle ke saath taiyar hokar chalta hai."
     },
     {
       "id": "p04",
@@ -109,7 +109,7 @@
         }
       ],
       "prose_en": "Baek plugs a military cipher-chip into the rusted keypad; green strings of decrypted code scroll down the monitor.",
-      "prose_hi": "Bek ek sainya sifar-chip ko jung lage keypad mein plug karta hai; decripted code ke hare taar monitor ko neeche scroll karte han."
+      "prose_hi": "Bek ek sainya sifar-chip ko zang lage keypad mein plug karta hai; decripted code ke hare taar monitor ko neeche scroll karte han."
     },
     {
       "id": "p07",
@@ -157,7 +157,7 @@
         }
       ],
       "prose_en": "Ha-Jun looks down into the abyss: pipes glowing with sickly neon-green luminescent fluids crisscross the rock walls.",
-      "prose_hi": "Ha-jun neeche rasatal mein dekhta hai: bimar niyan-hare luminsent taral padarth ke saath chamakte pipe chattan ki diwaron ko paar karte han."
+      "prose_hi": "Ha-Jun neeche rasatal mein dekhta hai: bimar niyan-hare luminsent taral padarth ke saath chamakte pipe chattan ki diwaron ko paar karte han."
     },
     {
       "id": "p10",
@@ -251,7 +251,7 @@
         }
       ],
       "prose_en": "Ha-Jun signals to stop; his violet eyes pierce through the darkness, detecting two hostile mana signatures.",
-      "prose_hi": "Ha-jun rukne ka sanket deta hai; uski baingani aankhen andhere ko chirti hui do shatrutapurn man hastaksharon ka pata lagati han."
+      "prose_hi": "Ha-Jun rukne ka sanket deta hai; uski baingani aankhen andhere ko chirti hui do shatrutapurn man hastaksharon ka pata lagati han."
     },
     {
       "id": "p16",
@@ -275,7 +275,7 @@
       "mood": "shadow vanish",
       "sfx": "SWISH...",
       "prose_en": "Ha-Jun steps forward and melts into the floor shadows, leaving behind ethereal black and purple smoke.",
-      "prose_hi": "Ha-jun aage badhta hai aur farsh ki chhaya mein pighal jata hai, aur apne peeche alaukik kala aur baingani dhuan chhod jata hai."
+      "prose_hi": "Ha-Jun aage badhta hai aur farsh ki chhaya mein pighal jata hai, aur apne peeche alaukik kala aur baingani dhuan chhod jata hai."
     },
     {
       "id": "p18",
@@ -286,7 +286,7 @@
       "mood": "instant restraint",
       "sfx": "CLANK-BIND!!",
       "prose_en": "Chains of Ruin burst from the ankle-deep water, wrapping around the first sentinel's metal joints with bone-crushing force.",
-      "prose_hi": "Ruin ki janjeeren takhne tak gahre pani se footati han, jo pehle prahari ke dhatu ke jodon ko haddi-kuchalne wale bal ke saath lapetati han."
+      "prose_hi": "Ruin ki janjeeren takhne tak gahre pani se footati han, jo pehle prahari ke lohe ke jodon ko haddi-kuchalne wale bal ke saath lapetati han."
     },
     {
       "id": "p19",
@@ -299,7 +299,7 @@
       "mood": "silent assassination",
       "sfx": "FLASH-SHING!!",
       "prose_en": "Ha-Jun materializes directly behind the second cyborg, his Sanguine Fang already drawn in an execution arc.",
-      "prose_hi": "Ha-jun sidhe dusre siborg ke peeche sakar hota hai, uska senguin feng pehle se hi ek nishpaadan chaap mein khincha gaya hai."
+      "prose_hi": "Ha-Jun sidhe dusre siborg ke peeche sakar hota hai, uska senguin feng pehle se hi ek nishpaadan chaap mein khincha gaya hai."
     },
     {
       "id": "p20",
@@ -344,7 +344,7 @@
         }
       ],
       "prose_en": "Min-Jae lowers his rifle: 'Damn, Ha-Jun. You didn't even let them make a radio call.'.",
-      "prose_hi": "Min-je ne apni rifle neeche ki: 'are, ha-jun. aapne unhen radio call bhi nahin karne di.'"
+      "prose_hi": "Min-je ne apni rifle neeche ki: 'are, Ha-Jun. aapne unhen radio call bhi nahin karne di.'"
     },
     {
       "id": "p23",
@@ -370,7 +370,7 @@
       "mood": "accessing terminal",
       "sfx": "STEP...",
       "prose_en": "Ha-Jun approaches the primary terminal, marked with Dr. Victor Vance's private biometric hand-scanner.",
-      "prose_hi": "Ha-jun prathmik terminal ke paas pahunchta hai, jise do. victor vens ke niji biometric hand-scanner se chinhit kiya gaya hai."
+      "prose_hi": "Ha-Jun prathmik terminal ke paas pahunchta hai, jise do. victor vens ke niji biometric hand-scanner se chinhit kiya gaya hai."
     },
     {
       "id": "p25",
@@ -394,7 +394,7 @@
         }
       ],
       "prose_en": "Ha-Jun presses his bloody thumb against the scanner; his Sovereign blood forces a root-level administrative breach.",
-      "prose_hi": "Ha-jun apne khoon se sane anguthe ko scanner par dabata hai; uska samprabhu rakt jad star ke prashasnik ullanghan ko majboor karta hai."
+      "prose_hi": "Ha-Jun apne khoon se sane anguthe ko scanner par dabata hai; uska samprabhu khoon jad star ke prashasnik ullanghan ko majboor karta hai."
     },
     {
       "id": "p26",
@@ -405,7 +405,7 @@
       "mood": "subject zero identified",
       "sfx": "DATA STREAM...",
       "prose_en": "The screen flashes with a high-resolution photo of a 16-year-old Tae-Jun strapped into an experimental neural chair.",
-      "prose_hi": "Scrin par ek prayogik neural kursi par bandhi 16 varshiya taaye-jun ki ucch-resolution wali tasveer chamakti hai."
+      "prose_hi": "Scrin par ek prayogik neural kursi par bandhi 16 varshiya Tae-Jun ki ucch-resolution wali tasveer chamakti hai."
     },
     {
       "id": "p27",
@@ -429,7 +429,7 @@
         }
       ],
       "prose_en": "Text logs scroll: 'Day 412: Extracted 500cc Sovereign bone marrow. Subject refused to scream. Kept repeating his brother's name.'.",
-      "prose_hi": "Text log scrol: 'din 412: 500 cc sovereign asthi majja nikala gaya. vishay ne chillane se inkar kar diya. apne bhai ka naam dohrata raha.'"
+      "prose_hi": "Text log scrol: 'din 412: 500 cc Sovereign asthi majja nikala gaya. vishay ne chillane se inkar kar diya. apne bhai ka naam dohrata raha.'"
     },
     {
       "id": "p28",
@@ -488,7 +488,7 @@
         }
       ],
       "prose_en": "Ha-Jun's teeth bared, purple mana cracking the floor tiles: 'Vance. Tell me where my brother is before I rip this bunker in half.'.",
-      "prose_hi": "Ha-jun ke daant khule hue han, baingani man farsh ki tilein tod raha hai: 'vence. isse pehle ki main is bunker ko aadha tod dun, mujhe batao ki mera bhai kahan hai.'"
+      "prose_hi": "Ha-Jun ke daant khule hue han, baingani man farsh ki tilein tod raha hai: 'vence. isse pehle ki main is bunker ko aadha tod dun, mujhe batao ki mera bhai kahan hai.'"
     }
   ]
 }

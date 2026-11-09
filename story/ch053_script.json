@@ -38,7 +38,7 @@
       "mood": "arrival at mountain base",
       "sfx": "TOUCHDOWN...",
       "prose_en": "Ha-Jun glides to a smooth landing on the first massive obsidian step, folding his shadow wings.",
-      "prose_hi": "Ha-jun apne chhaya pankhon ko modate hue, pehle vishal obsidian kadam par aasani se utarne ke liye glide karta hai."
+      "prose_hi": "Ha-Jun apne chhaya pankhon ko modate hue, pehle vishal obsidian kadam par aasani se utarne ke liye glide karta hai."
     },
     {
       "id": "p04",
@@ -59,7 +59,7 @@
         }
       ],
       "prose_en": "Tae-Jun's color is fully restored, standing tall in dark traveling cloaks beside Ha-Jun.",
-      "prose_hi": "Taaye-jun ka rang puri tarah se bahaal ho gaya hai, wah ha-jun ke bagal mein gahre yatra wale labadon mein lamba khada hai."
+      "prose_hi": "Tae-Jun ka rang puri tarah se bahaal ho gaya hai, wah Ha-Jun ke bagal mein gahre yatra wale labadon mein lamba khada hai."
     },
     {
       "id": "p05",
@@ -140,7 +140,7 @@
         }
       ],
       "prose_en": "Ha-Jun gently strokes Kuro's feathered head: 'Tumhare bina main yahan tak kabhi nahi pahunch pata, Kuro.'.",
-      "prose_hi": "Ha-jun dheere se kuro ke pankh wale sir par haath ferta hai: 'tumhare bina main yahan tak ​​kabhi nahin pahunch pata, kuro.'"
+      "prose_hi": "Ha-Jun dheere se Kuro ke pankh wale sir par haath ferta hai: 'tumhare bina main yahan tak ​​kabhi nahin pahunch pata, Kuro.'"
     },
     {
       "id": "p09",
@@ -175,7 +175,7 @@
         }
       ],
       "prose_en": "Demon Lord Malgath dons his colossal 20-foot spiked armor, raising an iron war banner.",
-      "prose_hi": "Danav lord malgath ne apna vishal 20 foot ka nukila kavach pahan rakha hai aur lohe ka yudh dhvaj lahra raha hai."
+      "prose_hi": "Danav lord Malgath ne apna vishal 20 foot ka nukila kavach pahan rakha hai aur lohe ka yudh dhvaj lahra raha hai."
     },
     {
       "id": "p11",
@@ -228,7 +228,7 @@
         }
       ],
       "prose_en": "The sky turns pitch-black as three million demonic soldiers converge on Mount Obsidian from three directions.",
-      "prose_hi": "Jaise hi teen million rakshasi sainik teen dishaon se mount obsidian par ekatrit hote han, aakash ekdum kala ho jata hai."
+      "prose_hi": "Jaise hi teen million shaitani demonic sainik teen dishaon se mount obsidian par ekatrit hote han, aakash ekdum kala ho jata hai."
     },
     {
       "id": "p15",
@@ -240,7 +240,7 @@
       "action": "From high on the staircase, Ha-Jun watches the three colossal armies marching across the horizon.",
       "mood": "watching the armada",
       "prose_en": "From high on the staircase, Ha-Jun watches the three colossal armies marching across the horizon.",
-      "prose_hi": "Sidhiyon par upar se, ha-jun teen vishal senaon ko kshitij ke paar march karte hue dekhta hai."
+      "prose_hi": "Sidhiyon par upar se, Ha-Jun teen vishal senaon ko kshitij ke paar march karte hue dekhta hai."
     },
     {
       "id": "p16",
@@ -261,7 +261,7 @@
         }
       ],
       "prose_en": "Tae-Jun crosses his arms: 'Woh teenon aa rahe hain, Ha-Jun. Poori army ke saath.'.",
-      "prose_hi": "Taaye-jun ne apni bahen paar kin: 'vo teenan aa rahe han, ha-jun. puri sena ke sath.'"
+      "prose_hi": "Tae-Jun ne apni bahen paar kin: 'vo teenan aa rahe han, Ha-Jun. puri sena ke sath.'"
     },
     {
       "id": "p17",
@@ -274,7 +274,7 @@
       "mood": "focused determination",
       "sfx": "STEP UP...",
       "prose_en": "Ha-Jun turns toward the summit without a single drop of fear: 'Toh chaliye pehle Crown le aate hain.'.",
-      "prose_hi": "Ha-jun bina kisi dar ke shikhar ki or mudta hai: 'to chaliye pehle crown le aate han.'"
+      "prose_hi": "Ha-Jun bina kisi dar ke shikhar ki or mudta hai: 'to chaliye pehle crown le aate han.'"
     },
     {
       "id": "p18",
@@ -329,7 +329,7 @@
         }
       ],
       "prose_en": "Suspended above the throne seat: an ornate gothic crown of obsidian and blood-ruby, radiating absolute monarch aura.",
-      "prose_hi": "Sinhasan ki seat ke upar nilambit: obsidian aur rakt-manik ka ek alankrit gothic mukut, jo purna samrat aabha bikherta hai."
+      "prose_hi": "Sinhasan ki seat ke upar nilambit: obsidian aur khoon-manik ka ek alankrit gothic mukut, jo purna samrat aabha bikherta hai."
     },
     {
       "id": "p22",
@@ -342,7 +342,7 @@
       "mood": "approaching the crown",
       "sfx": "CHIME... CHIME...",
       "prose_en": "Ha-Jun approaches the foot of the throne; his footsteps ring like cathedral chimes across the marble.",
-      "prose_hi": "Ha-jun sinhasan ke neeche pahunchta hai; uske kadmon ki aahat sangmarmar ke paar girjaghar ki jhankar ki tarah bajti hai."
+      "prose_hi": "Ha-Jun sinhasan ke neeche pahunchta hai; uske kadmon ki aahat sangmarmar ke paar girjaghar ki jhankar ki tarah bajti hai."
     },
     {
       "id": "p23",
@@ -354,7 +354,7 @@
       "action": "Tae-Jun and Kuro stop at the edge, watching the historical coronation with sacred silence.",
       "mood": "sacred witness",
       "prose_en": "Tae-Jun and Kuro stop at the edge, watching the historical coronation with sacred silence.",
-      "prose_hi": "Taaye-jun aur kuro kinare par rukte hain aur pavitra maun ke saath aitihasik rajyabhishek dekhte han."
+      "prose_hi": "Tae-Jun aur Kuro kinare par rukte hain aur pavitra maun ke saath aitihasik rajyabhishek dekhte han."
     },
     {
       "id": "p24",
@@ -367,7 +367,7 @@
       "mood": "the ascent of the king",
       "sfx": "STEP... STEP...",
       "prose_en": "One step at a time, Ha-Jun ascends: 1, 2, 3... 7.",
-      "prose_hi": "Ek samay mein ek kadam, ha-jun chadhta hai: 1, 2, 3... 7."
+      "prose_hi": "Ek samay mein ek kadam, Ha-Jun chadhta hai: 1, 2, 3... 7."
     },
     {
       "id": "p25",
@@ -379,7 +379,7 @@
       "action": "Ha-Jun stands face-to-face with the crown; his reflection in the central ruby shows the First Sovereign's silhouette.",
       "mood": "mirror of destiny",
       "prose_en": "Ha-Jun stands face-to-face with the crown; his reflection in the central ruby shows the First Sovereign's silhouette.",
-      "prose_hi": "Ha-jun taj ke saath aamne-samne khada hai; kendriya manik mein unka pratibimb pratham samprabhu ke silhut ko darshata hai."
+      "prose_hi": "Ha-Jun taj ke saath aamne-samne khada hai; kendriya manik mein unka chhaya pratham samprabhu ke silhut ko darshata hai."
     },
     {
       "id": "p26",
@@ -401,7 +401,7 @@
         }
       ],
       "prose_en": "A thunderous primordial voice echoes in Ha-Jun's soul: 'WHO DARES CLAIM THE CROWN OF ASMODAIUS?!'.",
-      "prose_hi": "Ha-jun ki aatma mein ek gadgdati maulik awaz goonjati hai: 'asamodice ke taj par dawa karne ki himmat kaun karta hai?!'."
+      "prose_hi": "Ha-Jun ki aatma mein ek gadgdati maulik awaz goonjati hai: 'asamodice ke taj par dawa karne ki himmat kaun karta hai?!'."
     },
     {
       "id": "p27",
@@ -424,7 +424,7 @@
         }
       ],
       "prose_en": "Ha-Jun raises both hands toward the crown, his voice steady as eternity: 'Main Ha-Jun Kang hoon.'.",
-      "prose_hi": "Ha-jun donon haath mukut ki or uthata hai, uski awaz anant kaal ki tarah sthir hai: 'main ha-jun kang hun.'"
+      "prose_hi": "Ha-Jun donon haath mukut ki or uthata hai, uski awaz anant kaal ki tarah sthir hai: 'main Ha-Jun kang hun.'"
     },
     {
       "id": "p28",
@@ -437,7 +437,7 @@
       "mood": "the coronation",
       "sfx": "CROWN PLACED!!",
       "prose_en": "Ha-Jun places the obsidian-and-ruby Crown of the Sovereign firmly onto his brow.",
-      "prose_hi": "Ha-jun sovereign ke obseedian-aur-rubi crown ko majbuti se apni bhaunh par rakhta hai."
+      "prose_hi": "Ha-Jun Sovereign ke obseedian-aur-rubi crown ko majbuti se apni bhaunh par rakhta hai."
     },
     {
       "id": "p29",
@@ -450,7 +450,7 @@
       "mood": "pillar of the king",
       "sfx": "BOOOOOOOOOMMMMM!!",
       "prose_en": "A ten-mile-wide pillar of golden-violet celestial mana erupts from the summit, tearing through the cosmos.",
-      "prose_hi": "Sunahre-bangni akashiya man ka das meal chauda stambh brahmand ko chirate hue shikhar se futata hai."
+      "prose_hi": "Sunahre-bangni akashiya man ka das meal chauda stambh brahmand ko cheerte hue shikhar se futata hai."
     },
     {
       "id": "p30",

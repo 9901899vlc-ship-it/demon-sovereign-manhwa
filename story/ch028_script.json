@@ -15,7 +15,7 @@
       "mood": "bleak vastness",
       "sfx": "WIND HOWLING...",
       "prose_en": "A colossal crater of jagged white limestone cliffs under heavy storm clouds; rusted cranes loom like skeletons.",
-      "prose_hi": "Bhari toofani baadalon ke neeche dantedar safed chuna patthar ki chattanon ka ek vishal gaddha; jung lagi sarsen kankal ki tarah dikhai deti han."
+      "prose_hi": "Bhari toofani baadalon ke neeche dantedar safed chuna patthar ki chattanon ka ek vishal gaddha; zang lagi sarsen kankal ki tarah dikhai deti han."
     },
     {
       "id": "p02",
@@ -38,7 +38,7 @@
       "mood": "arrival",
       "sfx": "SQUELCH...",
       "prose_en": "Ha-Jun steps onto the chalky limestone mud, wearing a dark hooded windbreaker over his uniform.",
-      "prose_hi": "Ha-jun apni vardi ke upar gahre rang ka hud wala vindbraker pahankar chakaleti chuna patthar ki mitti par kadam rakhta hai."
+      "prose_hi": "Ha-Jun apni vardi ke upar gahre rang ka hud wala vindbraker pahankar chakaleti chuna patthar ki mitti par kadam rakhta hai."
     },
     {
       "id": "p04",
@@ -83,7 +83,7 @@
         }
       ],
       "prose_en": "Min-Jae hands Ha-Jun a heavy military flare gun and three crimson phosphorus cartridges.",
-      "prose_hi": "Min-je ne ha-jun ko ek bhari sainya flair bandook aur teen lal phosphorus kartoos saunpe."
+      "prose_hi": "Min-je ne Ha-Jun ko ek bhari sainya flair bandook aur teen lal phosphorus kartoos saunpe."
     },
     {
       "id": "p07",
@@ -106,7 +106,7 @@
         }
       ],
       "prose_en": "Ha-Jun pockets the flares and smiles with quiet gratitude: 'Yahan van mein safe rehna.'.",
-      "prose_hi": "Ha-jun ne palkein jhapkain aur shant kritagyata ke saath muskuraya: 'yahan van mein surakshit rahna.'"
+      "prose_hi": "Ha-Jun ne palkein jhapkain aur shant kritagyata ke saath muskuraya: 'yahan van mein surakshit rahna.'"
     },
     {
       "id": "p08",
@@ -119,7 +119,7 @@
       "mood": "reckless descent",
       "sfx": "WHOOSH!!",
       "prose_en": "Ha-Jun dives over the precipice into the white mist, using mana to glide along the sheer rock face.",
-      "prose_hi": "Ha-jun chattan ke upar se safed dhundh mein gota lagata hai, man ka upyog karte hue vishal chattan par fisalta hai."
+      "prose_hi": "Ha-Jun chattan ke upar se safed dhundh mein gota lagata hai, man ka upyog karte hue vishal chattan par fisalta hai."
     },
     {
       "id": "p09",
@@ -132,7 +132,7 @@
       "mood": "impact landing",
       "sfx": "THUD!!",
       "prose_en": "Ha-Jun lands in a three-point stance on cold, petrified white stone tiles 200 feet below ground.",
-      "prose_hi": "Ha-jun jameen se 200 feet neeche thandi, pathrili safed patthar ki tailon par teen-bindu rukh mein utarta hai."
+      "prose_hi": "Ha-Jun jameen se 200 feet neeche thandi, pathrili safed patthar ki tailon par teen-bindu rukh mein utarta hai."
     },
     {
       "id": "p10",
@@ -153,7 +153,7 @@
       "mood": "horrifying scale",
       "sfx": "CRUNCH...",
       "prose_en": "The entire floor is paved not with tiles, but with millions of calcified ancient demonic and human bones.",
-      "prose_hi": "Pura farsh tiles se nahin, balki lakhon calsified prachin rakshasi aur manav haddiyon se bana hai."
+      "prose_hi": "Pura farsh tiles se nahin, balki lakhon calsified prachin shaitani demonic aur manav haddiyon se bana hai."
     },
     {
       "id": "p12",
@@ -199,7 +199,7 @@
         }
       ],
       "prose_en": "Ha-Jun walks between colossal pillars carved directly from fused gigantic spinal columns.",
-      "prose_hi": "Ha-jun sidhe jude hue vishal reedh ki haddi ke stambhon se bane vishal stambhon ke beech chalta hai."
+      "prose_hi": "Ha-Jun sidhe jude hue vishal reedh ki haddi ke stambhon se bane vishal stambhon ke beech chalta hai."
     },
     {
       "id": "p14",
@@ -268,7 +268,7 @@
       "action": "Ha-Jun ascends the final step, reaching his right hand toward the suspended bone artifact.",
       "mood": "close proximity",
       "prose_en": "Ha-Jun ascends the final step, reaching his right hand toward the suspended bone artifact.",
-      "prose_hi": "Ha-jun antim charan par chadhta hai, apne dahine haath ko nilambit haddi ki kalakriti ki or badhata hai."
+      "prose_hi": "Ha-Jun antim charan par chadhta hai, apne dahine haath ko nilambit haddi ki kalakriti ki or badhata hai."
     },
     {
       "id": "p19",
@@ -303,7 +303,7 @@
       "mood": "defensive readiness",
       "sfx": "SWOOSH!",
       "prose_en": "Ha-Jun leaps backward four meters, landing on guard with hands up as wind lashes his coat.",
-      "prose_hi": "Ha-jun char meter peeche ki or chhalang lagata hai, jaise hi hawa uske coat par prahar karti hai, wah haath upar karke pehra deta hai."
+      "prose_hi": "Ha-Jun char meter peeche ki or chhalang lagata hai, jaise hi hawa uske coat par prahar karti hai, wah haath upar karke pehra deta hai."
     },
     {
       "id": "p22",
@@ -337,7 +337,7 @@
       "mood": "titan emergence",
       "sfx": "CREAK-GROAN!!",
       "prose_en": "From the bone cyclone rises a colossal 15-foot Skeletal Centurion clad in ancient oxidized bronze armor.",
-      "prose_hi": "Asthi chakravaat se prachin oxikrit kansya kavach mein lipta ek vishal 15 foot ka kankal centurion nikalta hai."
+      "prose_hi": "Asthi chakravaat se prachin oxikrit kansya kavach mein lipta ek vishal 15 foot ka kankal Centurion nikalta hai."
     },
     {
       "id": "p24",
@@ -380,7 +380,7 @@
         }
       ],
       "prose_en": "A voice like grinding boulders booms through the air, vibrating Ha-Jun's eardrums.",
-      "prose_hi": "Pattharon ko pisne jaisi awaaz hawa mein gunjati hai, ha-jun ke kanon ko kampan karti hai."
+      "prose_hi": "Pattharon ko pisne jaisi awaaz hawa mein gunjati hai, Ha-Jun ke kanon ko kampan karti hai."
     },
     {
       "id": "p27",
@@ -403,7 +403,7 @@
         }
       ],
       "prose_en": "Ha-Jun gazes upward at the towering juggernaut, his heart hammering against his ribs.",
-      "prose_hi": "Ha-jun oonche rath ko upar ki or dekhta hai, uska dil uski pasliyon par jor se dhadak raha hai."
+      "prose_hi": "Ha-Jun oonche rath ko upar ki or dekhta hai, uska dil uski pasliyon par jor se dhadak raha hai."
     },
     {
       "id": "p28",
@@ -413,7 +413,7 @@
       "action": "The Centurion's azure eye-flames flicker as he notices the obsidian Ring of Hollow Blood on Ha-Jun's finger.",
       "mood": "recognition",
       "prose_en": "The Centurion's azure eye-flames flicker as he notices the obsidian Ring of Hollow Blood on Ha-Jun's finger.",
-      "prose_hi": "Jab centurion ne ha-jun ki ungli par obsidian ring off hollow blood ko dekha to uski neeli aankhen chamak uthin."
+      "prose_hi": "Jab Centurion ne Ha-Jun ki ungli par obsidian ring off hollow blood ko dekha to uski neeli aankhen chamak uthin."
     },
     {
       "id": "p29",
@@ -458,7 +458,7 @@
         }
       ],
       "prose_en": "Ha-Jun draws his palm across his ring; The Sanguine Fang crystallizes in blazing crimson: 'Try me.'.",
-      "prose_hi": "Ha-jun apni anguthi par apni hatheli khinchta hai; senguin fang dhadhakte lal rang mein cristlikrit hota hai: 'mujhe azmaen.'"
+      "prose_hi": "Ha-Jun apni anguthi par apni hatheli khinchta hai; senguin fang dhadhakte lal rang mein cristlikrit hota hai: 'mujhe azmaen.'"
     }
   ]
 }

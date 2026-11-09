@@ -17,7 +17,7 @@
       "mood": "crossing the boundary",
       "sfx": "WARP-RIPPLE...",
       "prose_en": "Ha-Jun's boot steps across the shimmering dimensional membrane; space warps like liquid glass.",
-      "prose_hi": "Ha-jun ka boot jhilmilati aayami jhilli ke paar chalta hai; antriksh taral kaanch ki tarah ghumta hai."
+      "prose_hi": "Ha-Jun ka boot jhilmilati aayami jhilli ke paar chalta hai; antriksh taral kaanch ki tarah ghumta hai."
     },
     {
       "id": "p02",
@@ -30,7 +30,7 @@
       "mood": "interdimensional transit",
       "sfx": "WHOOSH-HUMMM...",
       "prose_en": "Surreal kaleidoscopic ribbons of violet, magenta, and obsidian light warp around Ha-Jun and Kuro in zero-gravity.",
-      "prose_hi": "Shunya-gurutvakarshan mein ha-jun aur kuro ke charon or bangni, magenta aur obsidian prakash tana ke avastavik bahurupadarshak reban."
+      "prose_hi": "Shunya-gurutvakarshan mein Ha-Jun aur Kuro ke charon or bangni, magenta aur obsidian prakash tana ke avastavik bahurupadarshak reban."
     },
     {
       "id": "p03",
@@ -43,7 +43,7 @@
       "mood": "arrival in demon realm",
       "sfx": "POP!!",
       "prose_en": "Ha-Jun steps out onto solid black volcanic glass; the dimensional rift closes behind him with a vacuum pop.",
-      "prose_hi": "Ha-jun thos kale jwalamukhi kaanch par kadam rakhta hai; aayami daraar uske peeche ek vacuum pop ke saath band ho jaati hai."
+      "prose_hi": "Ha-Jun thos kale jwalamukhi kaanch par kadam rakhta hai; aayami daraar uske peeche ek vacuum pop ke saath band ho jaati hai."
     },
     {
       "id": "p04",
@@ -75,7 +75,7 @@
       "mood": "arterial rivers",
       "sfx": "GLOW...",
       "prose_en": "Deep in the canyon beneath the cliff, glowing rivers of pure liquid mana flow like luminous red arteries.",
-      "prose_hi": "Chattan ke neeche gahri ghati men, shuddh taral maina ki chamakti nadiyan chamakdar lal dhamniyon ki tarah bahti han."
+      "prose_hi": "Chattan ke neeche gahri ghati men, shuddh baingani mana roshni ki chamakti nadiyan chamakdar lal dhamniyon ki tarah bahti han."
     },
     {
       "id": "p07",
@@ -99,7 +99,7 @@
         }
       ],
       "prose_en": "Ha-Jun takes his first breath: the air is thick with pure, unadulterated mana, vibrating like electric champagne.",
-      "prose_hi": "Ha-jun ne apni pehli saans li: hawa shuddh, shuddh man se bhari hui hai, jo electric shampane ki tarah kampan kar rahi hai."
+      "prose_hi": "Ha-Jun ne apni pehli saans li: hawa shuddh, shuddh man se bhari hui hai, jo electric shampane ki tarah kampan kar rahi hai."
     },
     {
       "id": "p08",
@@ -149,7 +149,7 @@
         }
       ],
       "prose_en": "In the native demon air, Kuro's body naturally expands; demonic horns curve back with blazing purple tips.",
-      "prose_hi": "Deshi danav vayu men, kuro ka shareer swabhavik roop se failta hai; rakshasi seeng chamakdar baingani yuktiyon ke saath peeche mude hue han."
+      "prose_hi": "Deshi danav vayu men, Kuro ka shareer swabhavik roop se failta hai; shaitani demonic seeng chamakdar baingani yuktiyon ke saath peeche mude hue han."
     },
     {
       "id": "p11",
@@ -172,7 +172,7 @@
         }
       ],
       "prose_en": "Ha-Jun chuckles softly: 'Lagta hai yahan aakar tum zyada handsome lag rahe ho, Kuro.'.",
-      "prose_hi": "Ha-jun dheere se hanste han: 'lagata hai yahan aakar tum jyada handsome lag rahe ho, kuro.'"
+      "prose_hi": "Ha-Jun dheere se hanste han: 'lagata hai yahan aakar tum jyada handsome lag rahe ho, Kuro.'"
     },
     {
       "id": "p12",
@@ -251,7 +251,7 @@
         }
       ],
       "prose_en": "Ha-Jun watches with keen, analytical interest rather than fear: 'Abyssal Dragon...?'.",
-      "prose_hi": "Ha-jun dar ke bajay gahri, vishleshnatmak dilchaspi se dekhta hai: 'abisal dragon...?'"
+      "prose_hi": "Ha-Jun dar ke bajay gahri, vishleshnatmak dilchaspi se dekhta hai: 'abisal dragon...?'"
     },
     {
       "id": "p17",
@@ -272,7 +272,7 @@
         }
       ],
       "prose_en": "The Sovereign Interface unfolds in gothic demonic script, bordered with dark amethyst fire.",
-      "prose_hi": "Soweren interface gothic rakshasi lipi mein prakat hota hai, jo gahre neelam ki aag se ghira hai."
+      "prose_hi": "Soweren interface gothic shaitani demonic lipi mein prakat hota hai, jo gahre neelam ki aag se ghira hai."
     },
     {
       "id": "p18",
@@ -284,7 +284,7 @@
       "action": "Ha-Jun reads the stats: '+50% Mana recovery... Iska matlab main freely combat techniques use kar sakta hoon.'",
       "mood": "tactical awareness",
       "prose_en": "Ha-Jun reads the stats: '+50% Mana recovery... Iska matlab main freely combat techniques use kar sakta hoon.'.",
-      "prose_hi": "Ha-jun aankde padhta hai: '+50% maina rikvari... iska matlab hai ki main swatantra roop se yudh taknikon ka upyog kar sakta hun.'"
+      "prose_hi": "Ha-Jun aankde padhta hai: '+50% maina rikvari... iska matlab hai ki main swatantra roop se yudh taknikon ka upyog kar sakta hun.'"
     },
     {
       "id": "p19",
@@ -320,7 +320,7 @@
       "mood": "descent begins",
       "sfx": "STEP... STEP...",
       "prose_en": "Ha-Jun begins descending the spiraling mountain trail toward the glowing red valley.",
-      "prose_hi": "Ha-jun chamakdar lal ghati ki or ghumavdar parvat path se utarna shuru karta hai."
+      "prose_hi": "Ha-Jun chamakdar lal ghati ki or ghumavdar parvat path se utarna shuru karta hai."
     },
     {
       "id": "p21",
@@ -355,7 +355,7 @@
         }
       ],
       "prose_en": "As Ha-Jun's fingers brush a purple fern, it blossoms into tiny floating firefly-like mana spores.",
-      "prose_hi": "Jaise hi ha-jun ki ungaliyan baingani fern ko brush karti han, yah chhote tairte jugnu jaise maina bijanuon mein khil jata hai."
+      "prose_hi": "Jaise hi Ha-Jun ki ungaliyan baingani fern ko brush karti han, yah chhote tairte jugnu jaise maina bijanuon mein khil jata hai."
     },
     {
       "id": "p23",
@@ -378,7 +378,7 @@
         }
       ],
       "prose_en": "Kuro nods: 'Kyunki yeh pura realm First Sovereign ke mana se grow hua tha. Tum is realm ke rightful heir ho.'.",
-      "prose_hi": "Kuro ne sir hilaya: 'kyonki yeh pura kshetra first sovereign ke man se grow hua tha. tum is kshetra ke asli uttaradhikari ho.'"
+      "prose_hi": "Kuro ne sir hilaya: 'kyonki yeh pura kshetra first Sovereign ke man se grow hua tha. tum is kshetra ke asli uttaradhikari ho.'"
     },
     {
       "id": "p24",
@@ -446,7 +446,7 @@
       "mood": "imperial walk",
       "sfx": "MAJESTIC STEP...",
       "prose_en": "Ha-Jun walks between the massive kneeling sentinels, his black jacket billowing in the abyssal wind.",
-      "prose_hi": "Ha-jun vishal ghutnon ke bal baithe prahari ke beech chalta hai, uski kali jacket tez hawa mein lahra rahi hai."
+      "prose_hi": "Ha-Jun vishal ghutnon ke bal baithe prahari ke beech chalta hai, uski kali jacket tez hawa mein lahra rahi hai."
     },
     {
       "id": "p29",
@@ -479,7 +479,7 @@
         }
       ],
       "prose_en": "Ha-Jun reaches the threshold of his ancestral capital: 'Main aa gaya hoon. Apne bhai ko wapas lene... Aur apna haq lene.'.",
-      "prose_hi": "Ha-jun apni patrik rajdhani ki dahalij par pahunchta hai: 'main aa gaya hun. apne bhai ko wapas len... aur apna haq len.'"
+      "prose_hi": "Ha-Jun apni patrik rajdhani ki dahalij par pahunchta hai: 'main aa gaya hun. apne bhai ko wapas len... aur apna haq len.'"
     }
   ]
 }
