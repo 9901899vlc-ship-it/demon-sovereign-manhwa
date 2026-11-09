@@ -591,9 +591,19 @@
       width: 100%;
       max-width: 800px;
       margin: 0 auto;
-      background: #ffffff;
+      background: #000000;
       display: flex;
       flex-direction: column;
+      align-items: center;
+      min-height: 400px;
+    }
+
+    .wt-reader-strip picture {
+      width: 100%;
+      display: block;
+      margin: 0;
+      padding: 0;
+      line-height: 0;
     }
 
     .wt-reader-strip img {
@@ -604,6 +614,7 @@
       padding: 0;
       vertical-align: bottom;
       pointer-events: none;
+      background-color: #0d0e12;
     }
 
     /* BOTTOM FILMSTRIP (SCREENSHOT 3) */
@@ -1155,6 +1166,22 @@
       <!-- Images loaded dynamically -->
     </div>
 
+    <!-- Creator Note Area (Screenshot 4) -->
+    <div style="padding: 24px 16px; background: #000; color: #fff; max-width: 800px; margin: 0 auto; width: 100%; box-sizing: border-box;">
+      <div style="border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; padding: 16px; background: #121316;">
+        <h2 style="font-size: 14px; font-weight: 800; color: #00dc64; margin: 0 0 8px 0;">Creator Note</h2>
+        <div style="display: flex; gap: 12px; align-items: center;">
+          <img src="./images/card_02_kuro.jpg" width="46" height="46" style="border-radius: 50%; object-fit: cover;" alt="Redice Studio">
+          <div>
+            <strong style="font-size: 13px; color: #fff;">Kuro & Ha-Jun / Redice Studio</strong>
+            <p style="font-size: 12px; color: #aaa; margin: 2px 0 0 0; line-height: 1.4;">
+              Thank you for reading Demon Sovereign's Bloodline! New episodes drop every Saturday at 10 PM KST.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Horizontal Thumbnail Filmstrip (Screenshot 3) -->
     <div class="wt-reader-filmstrip" id="reader-filmstrip">
       <div class="wt-filmstrip-thumb active" id="film-thumb-1" onclick="openEpisode(1)">
@@ -1242,53 +1269,106 @@
     let isSubscribed = false;
     let hasLiked = false;
 
-    function openPage(pageName) {
+    const EPISODE_TITLES = {
+      1: "Episode 1: Awakening of the Sovereign",
+      2: "Episode 2: The Demonic Gauntlet",
+      3: "Episode 3: The Gathering Storm",
+      4: "Episode 4: The Saint Mirren Confrontation"
+    };
+
+    function openPage(pageName, updateHash = true) {
       document.getElementById('page-home').style.display = (pageName === 'home') ? 'block' : 'none';
       document.getElementById('page-detail').style.display = (pageName === 'detail') ? 'block' : 'none';
       document.getElementById('page-reader').style.display = (pageName === 'reader') ? 'block' : 'none';
+      if (updateHash) {
+        if (pageName === 'home') window.location.hash = '#/home';
+        else if (pageName === 'detail') window.location.hash = '#/detail';
+        else if (pageName === 'reader') window.location.hash = '#/viewer?ep=' + currentEpisode;
+      }
       window.scrollTo(0, 0);
     }
 
-    function openEpisode(epNum) {
-      currentEpisode = epNum;
-      openPage('reader');
+    function openEpisode(epNum, updateHash = true) {
+      currentEpisode = Number(epNum) || 1;
+      openPage('reader', false);
 
-      document.getElementById('reader-top-title').textContent = 'Episode ' + epNum;
-      document.getElementById('current-ep-badge').textContent = '#' + epNum;
+      if (updateHash) {
+        window.location.hash = '#/viewer?ep=' + currentEpisode;
+      }
+
+      const fullTitle = EPISODE_TITLES[currentEpisode] || ('Episode ' + currentEpisode);
+      document.getElementById('reader-top-title').textContent = fullTitle;
+      document.getElementById('current-ep-badge').textContent = '#' + currentEpisode;
 
       // Update filmstrip active state
       for (let i = 1; i <= 4; i++) {
         const thumb = document.getElementById('film-thumb-' + i);
         if (thumb) {
-          if (i === epNum) thumb.classList.add('active');
+          if (i === currentEpisode) thumb.classList.add('active');
           else thumb.classList.remove('active');
         }
       }
 
       const stripContainer = document.getElementById('reader-image-strip');
       
-      if (epNum === 4) {
+      if (currentEpisode === 4) {
         const ch04Files = [
-          'p01.png','p02.png','p03.png','p04.png','p05.png',
-          'p06.png','p07.png','p08.png','p09.png','p10.png',
-          'p11.png','p12.png','p13.png','p14.png','p15.png',
-          'p16.png','p17.png','p24.png','p30.png'
+          'p01', 'p02', 'p03', 'p04', 'p05',
+          'p06', 'p07', 'p08', 'p09', 'p10',
+          'p11', 'p12', 'p13', 'p14', 'p15',
+          'p16', 'p17', 'p24', 'p30'
         ];
         let html = '';
         ch04Files.forEach((file, idx) => {
-          html += '<img src="./panels/ch04/' + file + '" loading="lazy" alt="Panel ' + (idx + 1) + '">';
+          const h = (file === 'p30') ? 1067 : 1433;
+          html += '<picture>' +
+            '<source srcset="./panels/ch04/' + file + '.webp" type="image/webp">' +
+            '<source srcset="./panels/ch04/' + file + '.jpg" type="image/jpeg">' +
+            '<img src="./panels/ch04/' + file + '.jpg" ' +
+                 'width="800" height="' + h + '" ' +
+                 'loading="lazy" ' +
+                 'alt="Demon Sovereign Ep 4 Panel ' + (idx + 1) + '" ' +
+                 'onerror="this.onerror=null; this.src=\'./panels/ch04/' + file + '.png\';" ' +
+                 'style="width:100%; height:auto; display:block; background:#0d0e12;">' +
+          '</picture>';
         });
         stripContainer.innerHTML = html;
-      } else if (epNum === 1) {
+      } else if (currentEpisode === 1) {
         let html = '';
         for (let i = 1; i <= 7; i++) {
-          html += '<img src="./panels/panel_0' + i + '_final.png" loading="lazy" alt="Episode 1 Panel ' + i + '">';
+          const file = 'panel_0' + i + '_final';
+          html += '<picture>' +
+            '<source srcset="./panels/' + file + '.webp" type="image/webp">' +
+            '<source srcset="./panels/' + file + '.jpg" type="image/jpeg">' +
+            '<img src="./panels/' + file + '.jpg" ' +
+                 'width="800" height="1433" ' +
+                 'loading="lazy" ' +
+                 'alt="Demon Sovereign Ep 1 Panel ' + i + '" ' +
+                 'onerror="this.onerror=null; this.src=\'./panels/' + file + '.png\';" ' +
+                 'style="width:100%; height:auto; display:block; background:#0d0e12;">' +
+          '</picture>';
+        }
+        stripContainer.innerHTML = html;
+      } else if (currentEpisode === 2) {
+        let html = '';
+        for (let i = 1; i <= 4; i++) {
+          const file = 'panel_0' + i + '_final';
+          html += '<picture>' +
+            '<source srcset="./panels/ep2/' + file + '.webp" type="image/webp">' +
+            '<source srcset="./panels/ep2/' + file + '.jpg" type="image/jpeg">' +
+            '<img src="./panels/ep2/' + file + '.jpg" ' +
+                 'width="800" height="1433" ' +
+                 'loading="lazy" ' +
+                 'alt="Demon Sovereign Ep 2 Panel ' + i + '" ' +
+                 'onerror="this.onerror=null; this.src=\'./panels/ep2/' + file + '.png\';" ' +
+                 'style="width:100%; height:auto; display:block; background:#0d0e12;">' +
+          '</picture>';
         }
         stripContainer.innerHTML = html;
       } else {
         stripContainer.innerHTML = '<div style="padding: 100px 20px; text-align: center; color: #555;">' +
-          '<h3 style="color: #00dc64; font-size: 20px; font-weight: 800; margin-bottom: 8px;">Episode ' + epNum + ' In Production</h3>' +
-          '<p style="font-size: 13px; color: #888; max-width: 320px; margin: 0 auto 20px auto;">HD panels for Episode ' + epNum + ' are currently being processed in the Redice Studio pipeline.</p>' +
+          '<h3 style="color: #00dc64; font-size: 20px; font-weight: 800; margin-bottom: 8px;">Episode ' + currentEpisode + ' In Production</h3>' +
+          '<p style="font-size: 13px; color: #888; max-width: 320px; margin: 0 auto 20px auto;">HD panels for Episode ' + currentEpisode + ' are currently being processed in the Redice Studio pipeline.</p>' +
           '<button onclick="openEpisode(4)" style="background: #00dc64; color: #000; border: none; font-weight: 800; font-size: 13px; padding: 10px 22px; border-radius: 20px; cursor: pointer;">Read Episode 4 (HD Panels) →</button>' +
         '</div>';
       }
@@ -1359,10 +1439,29 @@
       // Simple instant filter
     }
 
+    // HASH ROUTING SUPPORT (Direct link, deep link, browser back/forward)
+    function handleRoute() {
+      const hash = window.location.hash || '';
+      if (hash.startsWith('#/viewer')) {
+        const match = hash.match(/ep=(\d+)/);
+        const ep = match ? parseInt(match[1], 10) : 4;
+        openEpisode(ep, false);
+      } else if (hash === '#/detail') {
+        openPage('detail', false);
+      } else {
+        openPage('home', false);
+      }
+    }
+
+    window.addEventListener('hashchange', handleRoute);
+    window.addEventListener('DOMContentLoaded', handleRoute);
+
     // Service Worker Registration
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", () => {
-        navigator.serviceWorker.register("./sw.js").catch(err => {
+        navigator.serviceWorker.register("./sw.js").then((reg) => {
+          reg.update(); // Always check for updated SW immediately
+        }).catch(err => {
           console.warn("SW registration error: ", err);
         });
       });
