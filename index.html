@@ -112,9 +112,13 @@
       padding: 12px 4px 10px 4px;
       font-size: 14px;
       font-weight: 800;
-      color: #000000;
+      color: #777777;
       text-decoration: none;
       position: relative;
+    }
+
+    .wt-lnb-item.active .wt-lnb-link {
+      color: #000000;
     }
 
     .wt-lnb-item.active .wt-lnb-link::after {
@@ -813,9 +817,10 @@
         </div>
       </div>
 
-      <!-- Navigation Tabs: HOME Only -->
+      <!-- Navigation Tabs: HOME and WEB NOVEL -->
       <ul class="wt-lnb">
-        <li class="wt-lnb-item active"><a href="javascript:void(0)" onclick="openPage('home')" class="wt-lnb-link">HOME</a></li>
+        <li class="wt-lnb-item active" id="tab-home"><a href="javascript:void(0)" onclick="openPage('home')" class="wt-lnb-link">HOME</a></li>
+        <li class="wt-lnb-item" id="tab-webnovel"><a href="javascript:void(0)" onclick="openPage('webnovel')" class="wt-lnb-link">WEB NOVEL</a></li>
       </ul>
     </header>
 
@@ -1007,6 +1012,60 @@
 
 
   <!-- ========================================================
+       PAGE: WEB NOVEL VIEW (#page-webnovel)
+       Clean container ready for Web Novel content
+       ======================================================== -->
+  <div id="page-webnovel" style="display: none;">
+    <!-- Header with GNB & Tabs -->
+    <header class="wt-header">
+      <div class="wt-gnb">
+        <a href="javascript:void(0)" onclick="openPage('home')" class="wt-logo-wrap">
+          <span class="wt-logo-badge">WEB<br>NOVEL</span>
+          <span class="wt-logo-text">DEMON SOVEREIGN</span>
+        </a>
+        <div class="wt-gnb-icons">
+          <button class="wt-icon-btn" onclick="openSearchModal()" title="Search">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </button>
+          <button class="wt-icon-btn" onclick="openSideDrawer()" title="Menu">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Navigation Tabs: HOME and WEB NOVEL -->
+      <ul class="wt-lnb">
+        <li class="wt-lnb-item"><a href="javascript:void(0)" onclick="openPage('home')" class="wt-lnb-link">HOME</a></li>
+        <li class="wt-lnb-item active"><a href="javascript:void(0)" onclick="openPage('webnovel')" class="wt-lnb-link">WEB NOVEL</a></li>
+      </ul>
+    </header>
+
+    <!-- Empty container for Web Novel content -->
+    <div id="webnovel-container" style="min-height: calc(100vh - 220px); padding: 40px 16px; box-sizing: border-box;">
+      <!-- Content will be added here based on user instructions -->
+    </div>
+
+    <!-- Webtoon Footer -->
+    <footer class="wt-footer">
+      <div class="wt-footer-menu">
+        <a href="javascript:void(0)" onclick="openPage('home')" class="wt-footer-link">Home</a>
+        <a href="javascript:void(0)" onclick="openPage('webnovel')" class="wt-footer-link">Web Novel</a>
+        <a href="javascript:void(0)" class="wt-footer-link">Terms</a>
+      </div>
+      <div class="wt-footer-brand">DEMON SOVEREIGN</div>
+      <div class="wt-footer-copy">ⓒ DEMON SOVEREIGN NOVELS Ltd. All Rights Reserved.</div>
+    </footer>
+  </div>
+
+
+  <!-- ========================================================
        PAGE 3: READER / VIEWER VIEW (#page-reader) - MATCHES SCREENSHOT 3 & 4
        100% IDENTICAL TO USER SCREENSHOT 3 & 4
        ======================================================== -->
@@ -1163,6 +1222,21 @@
       document.getElementById('page-detail').style.display = (pageName === 'detail') ? 'block' : 'none';
       const rPage = document.getElementById('page-reader');
       rPage.style.display = (pageName === 'reader') ? 'block' : 'none';
+      const wnPage = document.getElementById('page-webnovel');
+      if (wnPage) wnPage.style.display = (pageName === 'webnovel') ? 'block' : 'none';
+
+      // Update active state on home tabs
+      const homeTab = document.getElementById('tab-home');
+      const wnTab = document.getElementById('tab-webnovel');
+      if (homeTab) {
+        if (pageName === 'home') homeTab.classList.add('active');
+        else homeTab.classList.remove('active');
+      }
+      if (wnTab) {
+        if (pageName === 'webnovel') wnTab.classList.add('active');
+        else wnTab.classList.remove('active');
+      }
+
       if (pageName === 'reader') {
         rPage.classList.remove('ui-hidden');
       }
@@ -1170,6 +1244,7 @@
         if (pageName === 'home') window.location.hash = '#/home';
         else if (pageName === 'detail') window.location.hash = '#/detail';
         else if (pageName === 'reader') window.location.hash = '#/viewer?chapter=' + currentChapter;
+        else if (pageName === 'webnovel') window.location.hash = '#/webnovel';
       }
       window.scrollTo(0, 0);
     }
@@ -1347,6 +1422,8 @@
         openChapter(ch, false);
       } else if (hash === '#/detail') {
         openPage('detail', false);
+      } else if (hash === '#/webnovel') {
+        openPage('webnovel', false);
       } else {
         openPage('home', false);
       }
